@@ -1,0 +1,6 @@
+The Korean patch was created by Juhong from TBFMETC.
+
+After installation, make sure to register the registry entry.
+
+For any inquiries regarding the Korean patch,
+please contact TFMETC
