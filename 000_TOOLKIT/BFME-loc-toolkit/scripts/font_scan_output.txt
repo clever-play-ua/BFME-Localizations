@@ -1,0 +1,224 @@
+=== ini.big :: data\ini\fontsubstitution.ini ===
+; Font substitutions go in here
+; Format is :
+;   FontSubstitution "Albertus MT"   ; Substitute requests for Albertus MT font
+;     Size 10 = 10 Arial
+;     Size 20 = 16 Arial
+;     Size 24 = 18 Times New Roman
+;     Size 48 = 36 Times New Roman
+;   End
+;
+; The Font manager will interpolate sizes between adjacent values, and will always use the font name specified for the value less than
+;  or equal to the font size requested. Values are clamped to the lowest and highest sizes specified
+;
+;  i.e. in the above example
+;   Requesting 9pts or below, will return 10pt Arial
+;   Requesting 10pts, will return 10pt Arial
+;   Requesting 15pts, will return 13pt Arial
+;   Requesting 22pts, will return 17pt Arial ( because it uses the font name from the lower size, but still interpolates between the two values )
+;   Requesting 24pts, will return 18pt Times New Roman
+;   Requesting 72pts, will return 36pt Times New Roman
+;  
+;  [amm] 11/03/04 - Bold/NoBold extension
+;     In order replace a font with a bold version, use +BOLD before the font name, i.e.
+;        Size 10 = 10 +BOLD Arial    
+;      Would replace with 10 point Arial Bold.
+;   Similarly, -BOLD can be used to specify that requests for Bold version of the source font, should be replaced with non-bold substitution font. i.e.
+;        Size 10 = 10 -BOLD Arial
+;
+;
+;
+FontSubstitution "SachaWynter"
+    Size 8 = 12 "Omnia LT Std"
+    Size 40 = 70 "Omnia LT Std"
+End
+
+--- end data\ini\fontsubstitution.ini ---
+
+=== maps.big :: data\ini\fontsubstitution.ini ===
+; Font substitutions go in here
+; Format is :
+;   FontSubstitution "Albertus MT"   ; Substitute requests for Albertus MT font
+;     Size 10 = 10 Arial
+;     Size 20 = 16 Arial
+;     Size 24 = 18 Times New Roman
+;     Size 48 = 36 Times New Roman
+;   End
+;
+; The Font manager will interpolate sizes between adjacent values, and will always use the font name specified for the value less than
+;  or equal to the font size requested. Values are clamped to the lowest and highest sizes specified
+;
+;  i.e. in the above example
+;   Requesting 9pts or below, will return 10pt Arial
+;   Requesting 10pts, will return 10pt Arial
+;   Requesting 15pts, will return 13pt Arial
+;   Requesting 22pts, will return 17pt Arial ( because it uses the font name from the lower size, but still interpolates between the two values )
+;   Requesting 24pts, will return 18pt Times New Roman
+;   Requesting 72pts, will return 36pt Times New Roman
+;  
+;  [amm] 11/03/04 - Bold/NoBold extension
+;     In order replace a font with a bold version, use +BOLD before the font name, i.e.
+;        Size 10 = 10 +BOLD Arial    
+;      Would replace with 10 point Arial Bold.
+;   Similarly, -BOLD can be used to specify that requests for Bold version of the source font, should be replaced with non-bold substitution font. i.e.
+;        Size 10 = 10 -BOLD Arial
+;
+;
+;
+FontSubstitution "SachaWynter"
+    Size 8 = 12 "Omnia LT Std"
+    Size 40 = 70 "Omnia LT Std"
+End
+
+--- end data\ini\fontsubstitution.ini ---
+
+=== lang\english.big :: headertemplate.ini ===
+;// FILE: HeaderTemplate.ini ///////////////////////////////////////
+;// Contains templates we can assign to control in the game.  The game can be customized 
+;// depending on location with this system.  For example, if we go to a chinease font, we probably don't
+;// want things to be in bold so we can setup all the sections that use to use bold to not, as well as 
+;// change the font if need be.
+
+;/////////////////////////////////////////////////////////////////////
+;// Modify this file if you're working on different languages!!!!!  //
+;/////////////////////////////////////////////////////////////////////
+
+;///////////////////
+; For the most part, only Apt... are now being used in the game
+; Most others have become obsolete. 
+
+;// Used in flash screens.
+HeaderTemplate AptGadgets
+  Font = "Albertus MT"
+  Point = 14
+  Bold = No
+End
+
+HeaderTemplate AptGadgetsTiny
+  Font = "Albertus MT"
+  Point = 12
+  Bold = No
+End
+
+
+;/////////////////////////////////////////////////////////
+
+;// Whenever we have large Titles
+HeaderTemplate Title
+  Font = "Generals"
+  Point = 20
+  Bold = No
+End
+
+;//This will be used for the buttons at the bottom of the screens
+HeaderTemplate MainButton
+  Font = "Generals"
+  Point = 15
+  Bold = No
+End
+
+;//This is used for all the rest of the buttons
+HeaderTemplate Button
+  Font = "Arial"
+  Point = 12
+  Bold = No
+End
+
+;//This is used for all the small buttons (Like the save load buttons for the campaigns
+HeaderTemplate ButtonSmall
+  Font = "Arial"
+  Point = 10
+  Bold = No
+End
+
+;// wherever we enter text we'll try to always use this
+HeaderTemplate TextEntry
+  Font = "Arial"
+  Point = 10
+  Bold = No
+End
+
+;// wherever we enter text we'll try to always use this
+HeaderTemplate ComboBoxEntry
+  Font = "Arial"
+  Point = 10
+  Bold = No
+End
+
+;// Used for all sub headings
+HeaderTemplate MinorTitle
+  Font = "Arial" ; Generals
+  Point = 14
+  Bold = No
+End
+
+;// Used wherever we have static text labels (for example, all the score screen player information
+HeaderTemplate LabelRegular
+  Font = "Arial"
+  Point = 10
+  Bold = No
+End
+
+;// Used wherever we have small static text labels (for example, On the side select window)
+HeaderTemplate LabelSmall
+  Font = "Arial"
+  Point = 10
+  Bold = No
+End
+
+;// Used only on the loadscreen under the cameos that popup partway through the load movie
+HeaderTemplate LoadScreenCameos
+  Font = "Arial"
+  Point = 10
+  Bold = No
+End
+
+;// Used only on the loadscreen located at the bottom of the zoomed in map
+HeaderTemplate LoadScreenMissionLocation
+  Font = "Arial"
+  Point = 14
+  Bold = No
+End
+
+
+--- end headertemplate.ini ---
+
+=== lang\english.big :: language.ini ===
+;// Language.ini ///
+;// This file contains all declarations that are specific to a language.
+;// for example, this is where we set the unicode font for a language
+
+Language
+  ;DecimalSeparator = "."
+  ThousandSeparator = ","
+  ;TimeMinuteToSecondSeparator = ":"
+  UnicodeFontName = "Arial Unicode MS"
+  ;LocalFontFile = PLCC____.TTF  ;//When we add our game fonts... this is where we do it.
+  LocalFontFile = AlbertusMT.otf ;// New opentype format font, allows private font registration from memory data
+  LocalFontFile = OmniaLTStd.ttf  ;//When we add our game fonts... this is where we do it.
+  CopyrightFont = Courier 12 Yes; //Used to display copyright at start of game
+  MessageFont   = "Albertus MT" 12 No; //Used for messages at top of screen.
+  MilitaryCaptionTitleFont = "Albertus MT" 16 No ;Mission briefing text in bottom left corner.
+  MilitaryCaptionFont = "Albertus MT" 16 No ;Mission briefing text in bottom left corner.
+  AudioSubtitleFont = SachaWynter 8 No ; Used for the automatic audio subtitling system
+  SuperweaponCountdownNormalFont = "Albertus MT" 12 No  ;superweapon countdown in top right
+  SuperweaponCountdownReadyFont = "Albertus MT" 12 No  ;superweapon countdown in top right
+  NamedTimerCountdownNormalFont = "Albertus MT" 12 No  ;mission specific timer
+  NamedTimerCountdownReadyFont = "Albertus MT" 12 No  ;mission specific timer
+  DrawableCaptionFont = "Albertus MT" 12 No ;captions over objects like construction percent.
+  DefaultWindowFont = "Times New Roman" 14 No; default font used by windows that don't specify font.
+  DefaultDisplayStringFont = "Times New Roman" 12 No;  default font used for strings that don't specify font.
+  TooltipFontName = "Albertus MT" 12 No; mouse tooltips
+  NativeDebugDisplay = "Courier New" 14 Yes;  used to display frame rate and other debug stats.
+  DrawGroupInfoFont = "Albertus MT" 12 No; used to diplay number of selection group to left of unit health bar.
+  CreditsTitleFont = "Albertus MT" 24 No; used to diplay number of selection group to left of unit health bar.
+  CreditsMinorTitleFont = "Albertus MT" 16 Yes; used to diplay number of selection group to left of unit health bar.
+  CreditsNormalFont = "Albertus MT" 14 No; used to diplay number of selection group to left of unit health bar.
+  ResolutionFontAdjustment = 1.0 ; Fonts increase at 100% the rate the resolution increases.
+  HelpBoxNameFont = "Albertus MT" 16 No; used to display the name in the in-game help box
+  HelpBoxCostFont = "Albertus MT" 14 No; used to display the cost in the in-game help box
+  HelpBoxShortcutFont = "Albertus MT" 14 No; used to display the shortcut key in the in-game help box
+  HelpBoxDescriptionFont = "Albertus MT" 12 No; used to display the description in the in-game help box
+End
+
+--- end language.ini ---

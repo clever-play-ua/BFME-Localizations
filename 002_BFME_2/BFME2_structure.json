@@ -1,0 +1,193 @@
+{
+  "_readme": "Структура файлів BFME2 (The Battle for Middle-earth II) для локалізації. Побудовано аналізом чистого англійського інсталу F:\\BFME2 (патч 1.05) через pyBIG (000_TOOLKIT/BFME-loc-toolkit/python/pyBIG) + вбудований csf_tools.py, і звірено з реальними готовими локалізаціями, що вже лежать у цій папці (Ukrainian, Chinese_Taiwan, Czech, Korean, Thai, Portugal). Аналог bfme1's TOOLKIT_NOTES.md, але для BFME2. НЕ перевірено в грі (тільки структурний аналіз архівів) — позначки 'unverified' означають саме це.",
+
+  "verified_against": {
+    "install_path": "F:\\BFME2",
+    "detected_patch": "1.05 (lang\\englishpatch105.big + root _patch103.big + _patch101.big present)",
+    "exe": "lotrbfme2.exe",
+    "tooling_used": "000_TOOLKIT/BFME-loc-toolkit/python/python.exe + python/pyBIG + scripts/csf_tools.py + scripts/scan_fonts.py (усі вже готові скрипти тулкіта, нічого не писалось з нуля для розпаковки/запаковки архівів)"
+  },
+
+  "game_identification": {
+    "registry_key": "HKLM\\SOFTWARE\\Electronic Arts\\Electronic Arts\\The Battle for Middle-earth II",
+    "language_value_examples": ["english", "chinese_t", "Ukrainian", "thai"],
+    "note": "Той самий принцип, що й BFME1 (000_TOOLKIT/TOOLKIT_NOTES.md §1.2), але інший шлях у реєстрі і інша назва гри. Значення 'Language' = назва папки під lang\\ (без розширення).",
+    "splash_screen_convention": {
+      "pattern": "<LanguageRegistryValue>Splash.jpg лежить ВІЛЬНИМ файлом у корені гри (НЕ в архіві)",
+      "confirmed_examples": ["englishsplash.jpg (стоковий)", "Chinese_TSplash.jpg", "ThaiSplash.jpg", "UkrainianSplash.jpg"],
+      "gotcha": "002_BFME2_PORTUGAL/$0Splash.jpg — файл із буквальним '$0' у назві замість реальної мови; це баг того конкретного інсталятора (нерозгорнутий шаблонний плейсхолдер), не патерн для копіювання."
+    }
+  },
+
+  "archive_layout": {
+    "root_big_files_relevant_to_text": [
+      "ini.big — містить дублікат data\\ini\\fontsubstitution.ini (глобальний, спільний для всіх мов)",
+      "maps.big — МІСТИТЬ ТОЙ САМИЙ дублікат data\\ini\\fontsubstitution.ini (несподівано — карти тягнуть за собою копію шрифтового файлу; невідомо, чи це навмисно чи бекап-копія движка, обидві копії треба патчити)",
+      "_patch101.big — 1 файл, мапа кампанії, не стосується тексту/шрифтів",
+      "_patch103.big — 68 файлів: моделі/текстури + ОДИН голий 'albertusmt.otf' у корені архіву (реальний шрифтовий файл, доданий патчем 1.03; не .ini/.str)"
+    ],
+    "lang_folder": {
+      "english.big (11 файлів)": [
+        "art\\textures\\aragornhero01.tga",
+        "art\\textures\\aragornshield01.tga",
+        "art\\textures\\aragornshield02.tga",
+        "art\\textures\\test_buttons_01.tga",
+        "art\\textures\\test_buttons_02.tga",
+        "commandmap.ini",
+        "data\\lotr.str",
+        "headertemplate.ini",
+        "language.ini",
+        "launcher\\launcher.csf",
+        "tos.txt"
+      ],
+      "englishpatch105.big (1 файл)": ["data\\lotr.str (ОВЕРЛЕЙ, той самий внутрішній шлях, що й у english.big)"],
+      "englishaudio.big": "аудіо-пакет, не проаналізовано детально в цьому проході (аналогічно BFME1 §1.1 — окремий від тексту)",
+      "important_note": "На відміну від lang\\english.big, тут НЕМАЄ жодного .csf з основним текстом (є лише launcher\\launcher.csf — маленький, для екзешника-лаунчера, не для гри). Увесь ігровий текст чистого 1.05-інсталу живе ВИКЛЮЧНО в data\\lotr.str. Це відрізняється від BFME1, де основний текст завжди в бінарному lotr.csf, а .str — лише опційний оверлей (TOOLKIT_NOTES.md §2.2/§3.2)."
+    },
+    "apt_folder": {
+      "role": "Скомпільовані Scaleform/Flash UI-екрани (.apt/.const/.dat/.ru), той самий формат що <ANY>.apt у BFME1 (TOOLKIT_NOTES.md §3.8).",
+      "fonts_hardcoded_inside": "Перевірено побайтовим пошуком: ~65 з ~85 apt-архівів містять буквальні ASCII-рядки 'SachaWynter' і/або 'Albertus' усередині скомпільованого .dat. Це означає, що ці екрани НЕ читають language.ini/headertemplate.ini напряму — керуються виключно через FontSubstitution (так само як BFME1's Options.apt).",
+      "text_source": "Сам видимий текст на цих екранах все одно береться з APT:-міток у data\\lotr.str (підтверджено — серед 'changed' міток при діффі 1.05-патчу є APT:MultiplayerExitOverruled тощо), архів .apt сам по собі тексту не містить."
+    }
+  },
+
+  "text_system": {
+    "primary_format": "Plain-text .str (LABEL / \"текст\" / END), НЕ бінарний CSF, для базового 1.05-інсталу",
+    "primary_file_path_inside_archive": "data\\lotr.str",
+    "where_it_lives": "lang\\<LangFolder>.big (база) ТА lang\\<LangFolder>patch105.big (патч-оверлей) — обидва мають файл на ТОЧНО тому самому внутрішньому шляху",
+    "archive_priority_theory": "За аналогією з BFME1 (§3.1/§6.1 — пізніше завантажений _patch*.big/патч-архів виграє для однаково названих файлів), очікується що lang\\<X>patch105.big переписує data\\lotr.str поверх lang\\<X>.big. НЕ підтверджено в грі для BFME2 конкретно — тільки структурна аналогія.",
+      "label_counts_stock_english_CORRECTED_after_parser_fix": {
+      "note": "Ці числа порахувані ПІСЛЯ виправлення парсера (002_BFME_2/str_tools_bfme2.py, read_str_bfme2). Попередня версія цього документа наводила 10411/10459 — ті цифри були отримані СТАРИМ, зламаним регексом (без обробки '// context:'-коментарів), тобто самі постраждали від багу, описаного нижче в CRITICAL_BUG. Виправлено тут.",
+      "base (english.big) unique labels": 10844,
+      "base (english.big) total label occurrences (incl. duplicates)": 10895,
+      "base duplicate label names": 51,
+      "after_patch105_overlay (englishpatch105.big) unique labels": 10892,
+      "patch total label occurrences (incl. duplicates)": 10963,
+      "patch duplicate label names": 71,
+      "new_labels_added_by_patch": 49,
+      "labels_removed_by_patch": 1,
+      "label_removed": "CONTROLBAR:TooltipFarsight",
+      "labels_with_changed_text": 276,
+      "duplicate_labels_finding": "51 назв міток у базовому файлі і 71 у патч-файлі зустрічаються БІЛЬШЕ ОДНОГО РАЗУ в тому самому data\\lotr.str (напр. APT:Clan, URL:GameSpyHome, CONTROLBAR:Leadership). read_str() як і build_str() трактують це як 'останній запис перемагає' (звичайна поведінка dict) — не підтверджено, чи гра поводиться так само, але це правдоподібно і не блокує роботу.",
+      "sample_new_labels": ["CONTROLBAR:ToolTipPurchaseTechnologyMordorBarbedArrows", "Map:MAPMPFordsofIsenII/Desc", "CONTROLBAR:ConstructMordorHaradrimLancerHorde"],
+      "sample_changed_labels": ["CONTROLBAR:ToolTipConstructWildSentryTower", "CONTROLBAR:TooltipAthelas", "APT:MultiplayerExitOverruled"]
+    },
+
+    "CRITICAL_BUG_found_in_existing_toolkit_str_parser": {
+      "status": "ВИПРАВЛЕНО — див. 002_BFME_2/str_tools_bfme2.py, функція strip_str_comments(). BFME1's власний csf_tools.py/_STR_BLOCK_RE НЕ чіпали (щоб нічого не зламати для BFME1) — для BFME2 зроблено окрему функцію замість зміни спільного регексу.",
+      "what": "csf_tools.py's _STR_BLOCK_RE (портований з BFME1) очікує, що котирований текст іде ОДРАЗУ на наступному рядку після мітки: LABEL\\n\"текст\"\\nEND. Але справжній data\\lotr.str у BFME2 масово містить ОПЦІЙНИЙ коментар-підказку для перекладачів між міткою і текстом:\n  TOOLTIP:TooltipNotEnoughMoneyToBuild\\r\\n// context: Appended to button descriptions...\\r\\n\"Insufficient funds\"\\r\\nEND\\r\\n",
+      "impact": "Регекс (MULTILINE, ^-якір) через невдачу на реальній мітці просто зісковзує і збігається, ПОЧИНАЮЧИ з рядка коментаря — тобто справжня мітка (TOOLTIP:TooltipNotEnoughMoneyToBuild) повністю губиться (у грі буде MISSING), а замість неї створюється сміттєвий 'лейбл' з назвою всього тексту коментаря (напр. '// context: Appended to button descriptions for building units...' = 'Insufficient funds'), який гра ніколи не шукає.",
+      "scale": "1191 рядків '// context:' + ще ~37 інших варіантів коментарів ('//context:' без пробілу, '// comment:', довільні '// ...' нотатки перекладачам) = 1228 total. Це зачіпало 1785 з ~10886 блоків (~16% усіх міток) до виправлення.",
+      "fix_applied": "002_BFME_2/str_tools_bfme2.py: strip_str_comments(text) видаляє ВСІ '//'-рядки (будь-які, не лише 'context:') перед тим, як текст взагалі потрапляє в BFME1's read_str()/_STR_BLOCK_RE. Це окрема функція від normalize_str_quote_indent() (див. нижче) — навмисно, щоб кожен з двох різних багів можна було вимкнути/дослідити окремо.",
+      "verified": "read_str_bfme2() прогнано на справжніх F:\\BFME2\\lang\\english.big (10844 унікальних міток) і lang\\englishpatch105.big (10892) — TOOLTIP:TooltipNotEnoughMoneyToBuild тепер коректно читається як 'Insufficient funds', 0 сміттєвих '//'-міток лишилось.",
+      "confirmed_by": "Пряме дослідження сирих байтів data\\lotr.str з lang\\english.big через pyBIG.Archive.read_file, не припущення."
+    },
+
+    "second_format_quirk_found_in_draft_localization": {
+      "status": "ВИПРАВЛЕНО — див. 002_BFME_2/str_tools_bfme2.py, функція normalize_str_quote_indent() (окрема від strip_str_comments() вище).",
+      "what": "Чернетка українського перекладу (002_BFME_2/005_BFME2_UKRAINIAN/lang/ukrainianpatch105/lotr.str — сам цей пакет недороблений, див. fonts.unverified_ukrainian_prototype, але формат .str в ньому реальний і вартий уваги) використовує ІНШИЙ відступ: TAB перед відкриваючою лапкою (LABEL\\r\\n\\t\"текст\"\\r\\nEND), якого НЕМАЄ в жодному лейблі стокового англійського файлу (перевірено регексом на весь файл: 0 tab-рядків у стоку).",
+      "impact": "BFME1's _STR_BLOCK_RE не витримує і цей варіант (очікує лапку одразу після \\n, без табуляції).",
+      "fix_applied": "normalize_str_quote_indent(text) прибирає пробіли/таби між \\n і відкриваючою лапкою РЕГЕКСОМ ДО виклику read_str(), а не змінюючи сам _STR_BLOCK_RE.",
+      "verified": "read_str_bfme2() коректно прочитав усі 10898 унікальних міток чернетки (APPDATA:PictureFolder та інші читаються правильно, включно з екранованими лапками всередині тексту)."
+    },
+
+    "encoding": "Стоковий data\\lotr.str читається як single-byte (Windows-1252 для EN, судячи з байтів; готовий український переклад — CP1251, судячи з байтів 0xC7,0xED,0xB3... що відповідають кирилиці в cp1251). Кодування треба визначати за мовою, не хардкодити одне на всіх (аналогічно BFME1 §6.6's Windows-1252 smart-quote pastka — варто перевірити той самий діапазон 0x91-0x97/0x85 при переносі тексту).",
+
+    "launcher_csf": {
+      "path": "lang\\<X>.big -> launcher\\launcher.csf",
+      "format": "Справжній бінарний CSF (той самий формат, що читає csf_tools.read_csf з BFME1-тулкіта)",
+      "label_count": 48,
+      "role": "ОКРЕМИЙ від основної гри текст — повідомлення лаунчера/патчера ДО старту гри (\"You must run the game from its install directory\", помилки завантаження патчу тощо). Легко перекласти тим самим read_csf/build_csf.",
+      "sample_labels": ["Launcher:Caption", "Launcher:MissingConfigFileMessage", "PatchGet:Connecting", "PatchGet:ErrorCaption"]
+    },
+
+    "commandmap_ini": {
+      "path": "lang\\<X>.big -> commandmap.ini",
+      "content": "Прив'язки клавіш (CommandMap BLOCK / Key = / DisplayName = GUI:xxx / Description = GUI:xxx). Сам файл НЕ містить перекладного тексту напряму — лише посилається на мітки GUI: з lotr.str. Перекладати НЕ треба, лише переносити як є (аналогічно тому, як BFME1 не займає окремих ini з керуванням)."
+    },
+
+    "tos_txt": {
+      "path": "lang\\<X>.big -> tos.txt",
+      "content": "Plain text (UTF-8 з BOM), ~13KB, Умови використання онлайн-сервісів EA. НЕ частина системи міток (LABEL/text/END) — окремий вільний текстовий файл, показується гравцю окремо. Низький пріоритет перекладу (юридичний текст, майже завжди залишають англійською навіть у офіційних неанглійських локалізаціях)."
+    }
+  },
+
+  "fonts": {
+    "stock_bfme2_font_map (data\\ini\\fontsubstitution.ini у ini.big ТА maps.big, ідентичні)": {
+      "FontSubstitution \"SachaWynter\"": "-> \"Omnia LT Std\" (розміри 8 і 40)",
+      "note_vs_bfme1": "У BFME1 SachaWynter напряму ретаргетиться на Albertus MT (TOOLKIT_NOTES.md §2.3). У BFME2 стоковий ретаргет інший — на Omnia LT Std. Це ВАЖЛИВА відмінність, не можна тупо скопіювати підхід з BFME1-тулкіта 1:1."
+    },
+    "language_ini_stock_fonts (lang\\english.big -> language.ini)": {
+      "LocalFontFile": ["AlbertusMT.otf", "OmniaLTStd.ttf"],
+      "UnicodeFontName": "Arial Unicode MS",
+      "AudioSubtitleFont": "SachaWynter 8 No",
+      "most_ui_fonts": "Albertus MT (тултіпи, HUD, credits, timer тощо) + Times New Roman (default window/display font)"
+    },
+    "headertemplate_ini_stock (lang\\english.big -> headertemplate.ini)": {
+      "Title / MainButton": "Font = \"Generals\" — ТОЙ САМИЙ баг, що описаний у BFME1 TOOLKIT_NOTES.md §2.6: 'Generals' ніде НЕ зареєстрований через LocalFontFile у language.ini. Потребує або FontSubstitution-редиректу, або ігнорувати (як в BFME1, де це саморозв'язалось після прямого ретаргету SachaWynter).",
+      "AptGadgets / AptGadgetsTiny": "Font = \"Albertus MT\"",
+      "Button / TextEntry / LabelRegular / LoadScreen*": "Font = \"Arial\" (системний, завжди безпечний для кирилиці/латиниці з діакритикою)"
+    },
+    "apt_bypass": "Як і в BFME1 §3.8 — ~65 apt-архівів мають 'SachaWynter'/'Albertus' зашиті буквально в скомпільований .dat. Ці екрани НЕ дивляться на headertemplate.ini взагалі, лише на FontSubstitution. Тобто виправлення шрифтів для apt-екранів = виправлення fontsubstitution.ini (в ini.big І maps.big), а не headertemplate.ini.",
+    "unverified_ukrainian_prototype (002_BFME_2/005_BFME2_UKRAINIAN/lang/Ukrainian)": {
+      "STATUS_WARNING": "Це ЧЕРНОВИЙ/НЕДОРОБЛЕНИЙ прототип, НЕ підтверджене робоче рішення. Невідомо, чи його хтось коли-небудь запускав у грі. Попередня версія цього документа помилково називала його 'вже випущеним, робочим підходом' — це неправда, виправлено тут.",
+      "what_the_ini_text_says": "language.ini посилається на LocalFontFile = AlbertusMT.otf і LocalFontFile = SACHWT__.TTF (стокові імена файлів); fontsubstitution.ini прописує FontSubstitution \"SachaWynter\" -> \"SachaWynterTight\" і FontSubstitution \"Albertus MT\" -> \"Arial\".",
+      "CRITICAL_GAP_font_files_are_missing": "У самій теці 002_BFME_2/005_BFME2_UKRAINIAN НЕМАЄ жодного .ttf/.otf файлу взагалі (перевірено: `find ... -iname \"*.ttf\" -o -iname \"*.otf\"` -> порожньо). Тобто SACHWT__.TTF/AlbertusMT.otf, на які посилається ini, фізично відсутні в цьому пакеті.",
+      "glyph_coverage_UNKNOWN": "З цього випливає, що ми НЕ маємо жодного підтвердження, що шрифт з внутрішньою назвою родини 'SachaWynterTight' взагалі існує десь, і тим паче що він містить українські (кириличні) гліфи. Це лише текстова конфігурація/намір ('ось під якою назвою МАЄ бути зареєстрований кириличний шрифт'), а не перевірений робочий шрифт. Не варто повторювати це як 'перевірений підхід' десь ще, поки хтось не знайде/не перевірить сам файл шрифту і не підтвердить в грі, що текст рендериться кирилицею, а не тофу/квадратиками.",
+      "why_still_worth_recording": "Навіть як недороблений чернетка-прототип, він показує НАМІР автора (яка стратегія планувалась: shadow-by-filename для обох шрифтів + Albertus MT redirect на Arial), що корисно як відправна точка для дизайну, але кожен крок треба перевіряти заново, а не довіряти як факту."
+    }
+  },
+
+  "textures_and_logos": {
+    "loose_root_files (поза архівами, просто копіюються поверх)": [
+      "<Language>Splash.jpg — завантажувальний екран/сплеш (див. game_identification.splash_screen_convention)"
+    ],
+    "inside_lang_archive_but_NOT_localization_specific": {
+      "files": ["art\\textures\\aragornhero01.tga", "art\\textures\\aragornshield01.tga", "art\\textures\\aragornshield02.tga", "art\\textures\\test_buttons_01.tga", "art\\textures\\test_buttons_02.tga"],
+      "evidence": "Точно ті самі 5 файлів присутні НЕЗМІННИМИ і в готовому Ukrainian-пакеті (lang/Ukrainian/art/textures/) — тобто це технічні/тестові ассети, які архів lang\\<X>.big мусить містити для роботи движка, а не контент що перекладається чи локалізується."
+    },
+    "ukrainian_package_extra_textures_not_in_stock_lang_archive": {
+      "location": "002_BFME_2/005_BFME2_UKRAINIAN/lang/Ukrainian/art/compiledtextures/",
+      "files": ["lm/lm_text.dds (текст завантажувального екрану, аналог BFME1's lmtext — TOOLKIT_NOTES.md §7)", "lo/load_w_ea.jpg", "lo/logowithshadow.tga", "ti/titlescreenuserinterface.jpg"],
+      "note": "Ці шляхи (art\\compiledtextures\\...) НЕ знайдені в жодному з проскановних кореневих/lang/apt архівів чистого 1.05-інсталу під час цього проходу — ймовірно живуть у textures0-4.big (величезні, ~350-490МБ кожен, не розпаковувались повністю в цьому проході через розмір). Потребує окремого точкового пошуку 'art\\compiledtextures\\lm\\', 'compiledtextures\\lo\\', 'compiledtextures\\ti\\' по textures*.big, якщо/коли знадобиться патчити ці конкретні текстури для BFME2 (unverified — не підтверджено в цьому проході, лише гіпотеза за аналогією з тим, що готовий переклад ці шляхи використовує)."
+    }
+  },
+
+  "reference_localizations_already_in_this_repo": {
+    "002_BFME_2/005_BFME2_UKRAINIAN": "НЕДОРОБЛЕНИЙ ПРОТОТИП, НЕ підтверджена робоча локалізація — розпакований (не в .big) набір: language.ini/fontsubstitution.ini/headertemplate.ini/commandmap.ini/launcher.csf/lotr.csf + окремий lang/ukrainianpatch105/ з lotr.csf+lotr.str + кореневий UkrainianSplash.jpg. Жодного файлу шрифту (.ttf/.otf) в теці НЕМАЄ, хоча ini на них посилаються — тобто шрифтова частина ніколи не перевірялась в грі (див. fonts.unverified_ukrainian_prototype). Корисний лише як чернетка/відправна точка, не як довідник 'що працює'.",
+    "002_BFME_2/001_BFME2_CHINESE_TAIWAN": "Показує паковану (ще в .big) структуру: lang/chinese_t.big + lang/chinese_tpatch102.big + lang/chinese_tpatch103.big + lang/chinese_tpatch105.big (ОКРЕМИЙ .big НА КОЖЕН патч, а не один накопичувальний — цікаво, чи це важливо для порядку завантаження) + кореневий data/ini/fontsubstitution.ini + headertemplate.ini + language.ini як ВІЛЬНІ файли (ймовірно призначені копіюватись напряму в data\\ini\\ і корінь гри, а не в архів) + APPLY_chinese_t_LOC.reg (готовий .reg для зміни Language без ручного редагування реєстру).",
+    "002_BFME_2/003_BFME2_CZECH": "lang/v1 і lang/v2 (дві версії/спроби) — v2 містить Data1.big, English.big, englishpatch102.big, englishpatch103.big, _patch103.big — тобто чеська локалізація зроблена ПОВЕРХ англійської мовної теки (Language=english у реєстрі), а не через окрему мовну теку. Альтернативна стратегія, варта уваги якщо створення нової lang-теки виявиться проблемним.",
+    "002_BFME_2/004_BFME2_KOREAN": "Лише один файл englishpatch102_korean.big — найменший за обсягом приклад, теж 'поверх English' підхід.",
+    "002_BFME_2/004_BFME2_THAI": "lang/thai.big + ThaiSplash.jpg — мінімалістичний приклад окремої мовної теки без патч-оверлеїв.",
+    "002_BFME_2/002_BFME2_PORTUGAL": "englishpatch105.big + spanishpatch105.big — цікавий випадок: португальська зроблена як оверлей НАД іспанською базою (spanishpatch105.big), не над англійською напряму."
+  },
+
+  "differences_from_bfme1_worth_remembering": [
+    "BFME1: основний текст завжди в бінарному lotr.csf, .str — опційний патч-оверлей. BFME2 (принаймні чистий 1.05 English): ОСНОВНИЙ текст сам по собі вже .str, CSF відсутній для стокової English мовної теки взагалі.",
+    "BFME1: SachaWynter стоково не ретаргетиться (лишається сам собою, PUA-міф спростовано в §2.3). BFME2: SachaWynter стоково ВЖЕ ретаргетиться на Omnia LT Std (інший стоковий шрифт-замінник, не Albertus MT).",
+    "BFME1: fontsubstitution.ini дублюється у _patch222.big + ini.big + lang\\<X>.big (3 копії). BFME2: дублюється лише в ini.big + maps.big (2 копії, обидві ПОЗА lang\\), а lang\\english.big фонт-файлів для fontsubstitution.ini НЕ має власної копії взагалі.",
+    "BFME1 (§2.1): наш регекс мав 4 відомі бага з відступами/регістром END. BFME2 додає ЩЕ ДВА нових формати, яких немає в BFME1: опційний '// context:'-коментар між міткою і текстом (масово, ~16% лейблів), і опційна табуляція перед відкриваючою лапкою (у чернетці перекладу, хоч і не в стоку). Обидва виправлено — окремо від BFME1's csf_tools.py — у 002_BFME_2/str_tools_bfme2.py (дві окремі функції, по одній на кожен баг, BFME1's власний парсер не чіпали).",
+    "BFME1: реєстр HKLM\\...\\Battle for Middle-earth. BFME2: HKLM\\...\\The Battle for Middle-earth II (інший ключ, RoTWK матиме ще інший — див. 003_BFME_2_RoTWK)."
+  ],
+
+  "open_questions_unverified": [
+    "Чи справді lang\\<X>patch105.big переписує data\\lotr.str з lang\\<X>.big (пізніше завантажений архів виграє), чи навпаки, чи є ще проміжний .str (наприклад ще й у _patch103.big)? _patch103.big НЕ містить lotr.str (перевірено — лише модельки/текстури/1 голий шрифт), тому кандидатів на пріоритет лишається рівно два: lang\\english.big і lang\\englishpatch105.big.",
+    "Чи є 'Version:Format2'-подібна мітка для визначення білда BFME2 (аналог BFME1 §2.2/§6.1 build detection)? Не знайдено в цьому проході — жодного лейблу з 'version'/'build'/'format' у ключі серед реальних (не сфальшованих регекс-багом) міток не підтверджено окремо; потребує повторного пошуку ПІСЛЯ виправлення регекс-бага вище (поточний пошук міг сам постраждати від того самого парсинг-бага).",
+    "Чи справді art\\compiledtextures\\lm|lo|ti\\* (з готового Ukrainian-пакета) живуть у textures0-4.big? Не перевірено в цьому проході (розмір архівів завадив швидкому скану).",
+    "apt\\*.big — чи є серед НЕзгаданих у скані (options.big, mainmenu.big тощо) файли з власним fontsubstitution.ini/language.ini всередині (як у BFME1 §3.1, де 3 копії)? scan_fonts.py в цьому проході сканував лише корінь гри + lang\\, НЕ apt\\ — окрема перевірка потрібна, якщо шрифти на конкретному apt-екрані й далі ламатимуться після виправлення ini.big/maps.big.",
+    "005_BFME2_UKRAINIAN не містить жодного .ttf/.otf файлу — де (якщо існує) фактичний файл 'SACHWT__.TTF' з кириличним 'SachaWynterTight', і чи він взагалі коли-небудь був створений, чи це лише запланована, ніколи не реалізована назва в ini? Потребує розпитати автора пакета або вважати цю частину роботи невиконаною."
+  ],
+
+  "recipe_draft_to_add_a_language_to_bfme2": [
+    "1. ЗРОБЛЕНО: використовувати 002_BFME_2/str_tools_bfme2.py's read_str_bfme2() замість BFME1's read_str() напряму для читання будь-якого BFME2 data\\lotr.str. Без цього масовий переклад .str тихо ламав ~16% міток (див. CRITICAL_BUG вище) — той самий клас багу, що вже описаний в BFME1 TOOLKIT_NOTES.md §2.1, просто нові конкретні варіанти. Функція build_str() (запис назад у .str) з BFME1 наразі НЕ адаптована під BFME2 — вона й не повинна бути, оскільки '// context:'-коментарі та tab-відступи не потрібні для запису (гра їх не читає), тож звичайний build_str() з BFME1 підходить для запису BFME2-файлів без змін.",
+    "2. Витягнути data\\lotr.str з lang\\englishpatch105.big (не з lang\\english.big — патч-версія новіша/повніша, 10459 vs 10411 міток) як базу для перекладу.",
+    "3. Створити нову теку lang\\<НоваМова>\\ (або 'поверх English', як у чеського/корейського прикладів — обидві стратегії підтверджені робочими реальними пакетами в цьому репо).",
+    "4. Перекласти лейбли, зберігаючи формат END/лапки; за бажанням прибрати '// context:'-коментарі при записі (грі не потрібні) або залишити для майбутніх перекладачів.",
+    "5. Шрифти: 005_BFME2_UKRAINIAN — ЛИШЕ недороблений прототип-намір (без самих файлів шрифтів, НЕ перевірений в грі — див. fonts.unverified_ukrainian_prototype), не готовий рецепт. Якщо мова кирилична/не-латинська, треба заново: (a) підготувати і РЕАЛЬНО перевірити кириличний клон SachaWynter (наприклад під СТОКОВОЮ назвою файлу з новою внутрішньою назвою родини, за аналогією з підтвердженим підходом BFME1 §3.7, а не просто скопіювати недоведений намір з UA-прототипу); (b) FontSubstitution \"SachaWynter\" -> нова назва; (c) перевірити, чи Arial дійсно покриває потрібний алфавіт перед тим як робити FontSubstitution \"Albertus MT\" -> \"Arial\" замість клонування Albertus MT. Патчити ОБИДВІ копії fontsubstitution.ini (ini.big І maps.big). В ГРІ ПЕРЕВІРИТИ РЕНДЕРИНГ, не довіряти ini-конфігурації на слово.",
+    "6. Скопіювати <НоваМова>Splash.jpg у корінь гри (ім'я = точне значення реєстру Language + 'Splash.jpg').",
+    "7. launcher\\launcher.csf — окремо перекласти тим самим read_csf/build_csf (це вже справжній бінарний CSF, ніяких сюрпризів форматом).",
+    "8. Зареєструвати мову через .reg-файл за зразком APPLY_chinese_t_LOC.reg (HKLM\\...\\The Battle for Middle-earth II, Language=<НоваМова>).",
+    "9. tos.txt — низький пріоритет, можна лишити англійською.",
+    "10. Перевірити в грі: apt-екрани (шрифти йдуть через FontSubstitution, не через headertemplate.ini — TOOLKIT_NOTES.md §3.8 патерн), 'Generals'-шрифт на Title/MainButton headertemplate-темплейтах (не зареєстрований жодним LocalFontFile — той самий §2.6 баг з BFME1)."
+  ]
+}
