@@ -34,6 +34,20 @@ sys.path.insert(0, _TOOLKIT_SCRIPTS)
 from csf_tools import read_str  # BFME1's parser, reused as-is, never modified here
 
 
+def build_str_bfme2(labels: dict, order: list) -> str:
+    """Write BFME2 .str text back out. Deliberately NOT reusing BFME1's
+    build_str()/_escape_str_value(): that helper replaces any literal '"'
+    with "'" because BFME1's own .str has no real quote-escaping convention.
+    BFME2's DOES - embedded quotes are already stored as a literal backslash
+    followed by a quote (two characters, e.g. Вдосконалення \\"Вогняні
+    стріли\\") - running BFME1's escaper over that would mangle the quote
+    into \\' . Text here is written back byte-for-byte as already stored."""
+    return ''.join(
+        label + '\r\n"' + (labels.get(label) or '') + '"\r\nEND\r\n\r\n'
+        for label in order
+    )
+
+
 _COMMENT_LINE_RE = re.compile(r'^[ \t]*//[^\r\n]*\r?\n', re.MULTILINE)
 
 

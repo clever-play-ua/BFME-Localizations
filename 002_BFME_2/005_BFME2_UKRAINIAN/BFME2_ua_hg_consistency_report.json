@@ -1,0 +1,22 @@
+{
+  "glossary_anchored_findings": [
+    {
+      "english_name": "Gollum/Sméagol",
+      "wikipedia_spelling": "Ґолум",
+      "other_variant_found_in_corpus": "Голум",
+      "count_matching_wikipedia_spelling": 6,
+      "count_matching_other_variant": 1,
+      "example_vars_wikipedia_spelling": [
+        "OBJECT:NeutralGollum",
+        "CREDITS:AndySerkis",
+        "Map:MAPMPDeadMarshes/Desc",
+        "Map:MAPMPEmynMuil/Desc",
+        "Map:MAPWORDeadMarshes/Desc"
+      ],
+      "example_vars_other_variant": [
+        "OBJECT:Dove"
+      ]
+    }
+  ],
+  "corpus_only_findings": []
+}

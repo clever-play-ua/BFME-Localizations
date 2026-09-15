@@ -1,0 +1,56 @@
+{
+  "_readme": "Зовнішній довідник усталених українських імен/назв Толкіна, зібраний з української Вікіпедії (НЕ з наших власних перекладів BFME1/BFME2 — навмисно зовнішнє джерело, щоб не звірятись саму з собою). Використовується для перевірки консистентності г/ґ та інших варіантів написання одного й того самого імені в межах BFME2_strings_ua.json.",
+  "_sources": [
+    "https://uk.wikipedia.org/wiki/Список_персонажів_легендаріуму_Толкіна",
+    "https://uk.wikipedia.org/wiki/Перелік_географічних_об'єктів_Середзем'я",
+    "https://uk.wikipedia.org/wiki/Мордор",
+    "https://uk.wikipedia.org/wiki/Ґандальф"
+  ],
+  "_CAVEAT_important": "Українська Вікіпедія САМА НЕ ЗАВЖДИ послідовна: окрема стаття називається 'Ґандальф' (з ґ), але той самий список персонажів у зведеній таблиці пише 'Гендальф' (з г) для того ж імені. Це означає: цей глосарій — орієнтир для ВИЯВЛЕННЯ можливих розбіжностей, а НЕ беззаперечний єдиний 'правильний' стандарт, який треба сліпо нав'язувати всьому проєкту. Якщо BFME1/BFME2 вже послідовно (скрізь однаково) використовують інший варіант (наприклад 'Гондор' замість 'Ґондор'), це швидше свідомий стилістичний вибір проєкту, а не помилка — головна мета г/ґ-перевірки: ловити ВНУТРІШНЮ непослідовність (те саме ім'я написане по-різному в різних рядках), а не примусово переписувати проєкт під Вікіпедію.",
+
+  "characters": {
+    "Aragorn": "Араґорн", "Gandalf": "Гендальф (у окремій статті — Ґандальф; Вікіпедія сама неоднозначна, див. _CAVEAT)",
+    "Legolas": "Леголас", "Gimli": "Ґімлі", "Boromir": "Боромир", "Frodo": "Фродо",
+    "Sam/Samwise": "Сем",
+    "Saruman": "Саруман", "Sauron": "Саурон", "Théoden": "Теоден", "Eomer": "Еомер",
+    "Eowyn": "Еовін",
+    "Denethor": "Денетор", "Galadriel": "Ґаладріель", "Elrond": "Елронд", "Arwen": "Арвен",
+    "Gollum/Sméagol": "Ґолум/Смеаґол", "Treebeard/Fangorn": "Деревобород",
+    "Bilbo Baggins": "Більбо Торбин", "Gríma Wormtongue": "Ґріма", "Gothmog": "Ґотмоґ",
+    "Morgoth": "Морґот", "Radagast": "Радагаст", "Nazgûl": "Назгул", "Khamûl": "Камуль",
+    "Shelob": "Шелоб", "Witch-king": "не знайдено окремо в опрацьованій частині списку",
+    "Durin": "Дурін", "Balin": "Балін", "Dwalin": "Двалін", "Gloin": "Ґлоїн",
+    "Gil-galad": "Ґіл-ґалад", "Glorfindel": "Ґлорфіндел", "Isildur": "не знайдено в опрацьованій частині",
+    "Elendil": "Еленділ", "Anarion": "Анаріон", "Huan": "Гуан", "Beorn": "Беорн",
+    "Bard": "Бард", "Azog": "Азоґ", "Bolg": "Болґ", "Golfimbul": "Ґольфімбул",
+    "Merry": "Меррі (коротка, звична гравцям форма — НЕ 'Меріадок'; підтверджено користувачем 2026-09-15, і це вже те, що фактично використовується в самому BFME2_strings_ua.json, 9 входжень)",
+    "Pippin": "Піпін (одне 'п' — так усталено в BFME1, 20 входжень; у прототипі BFME2 трапляється помилкове 'Піппін' з двома 'п', 7 входжень — нормалізувати)",
+    "Faramir": "Фарамір (з 'і', не 'Фарамир' з 'и' — підтверджено користувачем 2026-09-15; у прототипі BFME2 скрізь помилково 'Фарамир', потребує нормалізації)"
+  },
+
+  "places": {
+    "Mordor": "Мордор", "Gondor": "Ґондор",
+    "Rohan": "Роган (з Г, НЕ 'Рохан' з Х — явне рішення користувача 2026-09-15, попри те, що весь наявний текст BFME2_strings_ua.json зараз 100% консистентно використовує 'Рохан' з Х (35+14+6+5+... входжень різних форм, жодного 'Роган' нема) — це ЗАВДАННЯ НА НОРМАЛІЗАЦІЮ 'Рохан'->'Роган' по всьому файлу, ще не виконано; примітка про попередню помилку WebFetch (плутанина з 'ріг/рога' (horn)) лишається чинною окремо — сама вона тут ні до чого)",
+    "Isengard": "не підтверджено окремою статтею в цьому проході",
+    "Barad-dûr": "Барад-дур", "Mount Doom/Orodruin": "Ородруїн", "Minas Morgul": "Мінас-Морґул",
+    "Nurn": "Нурн", "Gorgoroth": "Ґорґорот", "Black Gate/Morannon": "Мораннон",
+    "Minas Tirith": "Мінас-Тіріт", "Osgiliath": "Осґіліат",
+    "Beleriand": "Белеріанд", "Gondolin": "Ґондолін", "Nargothrond": "Нарґотронд",
+    "Doriath": "Доріат", "Angband": "Анґбанд", "Lindon": "Ліндон"
+  },
+
+  "open_gaps_not_found_this_pass": [
+    "Isengard/Ісенгард", "Shire/Шир", "Rivendell/Рівендел", "Moria/Морія",
+    "Lothlorien/Лоріен", "Fangorn (forest, distinct from Treebeard)", "Edoras",
+    "Helm's Deep", "Witch-king of Angmar", "Faramir", "Isildur", "Elrohir/Elladan (twins - Elladan found, Elrohir found as 'Елрогір')"
+  ],
+
+  "known_stem_matching_limitation": "qa_tools/pass2_h_vs_g_consistency.py's glossary-anchored check (Check 1) truncates names to a short stem (name[:-2]) before searching the corpus as a plain substring. For short names (~5-6 letters) this can collide with an unrelated common word sharing the same prefix (confirmed case: 'Рог' — the intended stem of 'Роган' — false-matched inside 'рога'/'рогом', the ordinary Ukrainian word for 'horn', which appears a lot because of 'Horn of Gondor'). Treat Check 1's raw counts as a lead to verify, not a fact — Check 2 (pass2's corpus_only_findings, whole real words only, no stem truncation) is the reliable one and is what pass3 actually acts on.",
+
+  "known_h_vs_g_ambiguity_examples": {
+    "note": "Приклади того, як переклад англійського звуку в іменах Толкіна НЕ уніфікований навіть у самій Вікіпедії — оце і є той самий клас 'г проти ґ' плюс 'г проти х', про який згадував користувач.",
+    "Gandalf": "Гендальф (список персонажів) vs Ґандальф (назва власної статті)",
+    "Rohan": "Роган (стаття 'Мордор') — очікувано багато хто пише 'Рохан' з х; жодного варіанту з ґ тут немає, це радше г/х питання, не г/ґ",
+    "Gondor": "Ґондор скрізь, де перевірено — тут Вікіпедія послідовна"
+  }
+}
