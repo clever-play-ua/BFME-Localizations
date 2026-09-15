@@ -1,0 +1,7 @@
+{
+  "lang_code": "es",
+  "display_name": "Español",
+  "str_only_namespaces": ["APT:"],
+  "note": "No font_file/sacha_font_file here on purpose -- Spanish only needs standard Latin + accented characters (á é í ó ú ñ ü), which the STOCK Albertus MT already covers natively (it's what EA's own original European localizations shipped with). apply_localization.py treats both as optional; this language just doesn't need any font replaced. Sourced from the official vanilla Spanish CSF (lang\\spanish.big) merged with 2.22-accurate English via bfme1_localization.json -- vanilla 2.22 has NO real updated Spanish translation (confirmed: stale pre-2.22 balance numbers, unpatched Version:Format2 placeholder), so ~719 labels 2.22 added/changed were translated fresh for this file rather than pulled from the base game.",
+  "str_only_namespaces_note": "label prefixes that do NOT fall back to CSF when data\\lotr.str exists but is missing that label. Currently only relevant if a partial .str is ever shipped again -- the standard apply path deletes data\\lotr.str entirely, so this list is informational only."
+}

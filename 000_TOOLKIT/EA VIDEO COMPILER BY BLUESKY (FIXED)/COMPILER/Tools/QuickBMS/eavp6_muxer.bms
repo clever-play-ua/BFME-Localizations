@@ -1,0 +1,48 @@
+open FDDE ASF
+open FDDE VP6 1
+
+Get name FILENAME 0 
+string name += .vp6
+
+get STR_SIZE asize
+get UV_SIZE asize 1
+
+append
+for i = 0
+   savepos CURR_CHUNK_POS_2 1
+   get ID long 1
+   get CHUNK_SIZE_2 long 1
+   log MEMORY_FILE CURR_CHUNK_POS_2 CHUNK_SIZE_2 1
+   savepos CURR_CHUNK_POS
+   get ID long
+   get CHUNK_SIZE long
+   log MEMORY_FILE CURR_CHUNK_POS CHUNK_SIZE
+   math CURR_CHUNK_POS + CHUNK_SIZE
+   math CURR_CHUNK_POS_2 + CHUNK_SIZE_2
+   if CURR_CHUNK_POS >= STR_SIZE
+      break
+   else
+      goto CURR_CHUNK_POS
+   endif
+   if CURR_CHUNK_POS_2 >= UV_SIZE
+      for j = 0
+         savepos CURR_CHUNK_POS
+         get ID long
+         get CHUNK_SIZE long
+         log MEMORY_FILE CURR_CHUNK_POS CHUNK_SIZE
+         math CURR_CHUNK_POS + CHUNK_SIZE
+         if CURR_CHUNK_POS >= STR_SIZE
+            break
+         else
+            goto CURR_CHUNK_POS
+         endif
+      next j
+      break
+   else
+      goto CURR_CHUNK_POS_2 1
+   endif
+next i
+append
+
+get TGQ_SIZE asize MEMORY_FILE
+log name 0 TGQ_SIZE MEMORY_FILE

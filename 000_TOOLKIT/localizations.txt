@@ -1,0 +1,47 @@
+BFME 1 lang list official
+
+Chinese (Simplified) https://github.com/huawei-fonts/HarmonyOS-Sans
+Chinese (Traditional)
+Dutch
+English
+French
+German
+Italian
+Japanese 
+- https://amzn.asia/d/01cO5ZAe
+- https://auctions.yahoo.co.jp/jp/auction/b1201482113
+- https://auctions.yahoo.co.jp/jp/auction/u1169482345
+- https://auctions.yahoo.co.jp/jp/auction/p1197543053
+- https://buyee.jp/item/jdirectitems/auction/s1124084846?conversionType=item_recommend_list_similar
+- https://buyee.jp/item/jdirectitems/auction/b1201482113?conversionType=item_recommend_list_similar
+Korean - Nanum Gothic
+Norwegian
+Polish
+Russian
+Spanish
+Swedish
+Thai - https://www.lazada.co.th/products/pdp-i3110344305.html
+
+--------------------------
+BFME 1 lang list Non official
+
+Turkish
+Ukrainian
+Chezh
+Portuguese
+--------------------------
+BFME 2 lang list official
+
+Download LotrBfMe2-65542-chinese_s.exe (25.2 MB)
+Download LotrBfMe2-65542-chinese_t.exe (25.2 MB)
+Download LotrBfMe2-65542-dutch.exe (25.4 MB)
+Download LotrBfMe2-65542-english.exe (25.2 MB)
+Download LotrBfMe2-65542-french.exe (25.4 MB)
+Download LotrBfMe2-65542-german.exe (25.4 MB)
+Download LotrBfMe2-65542-italian.exe (25.4 MB)
+Download LotrBfMe2-65542-norwegian.exe (25.3 MB)
+Download LotrBfMe2-65542-polish.exe (25.4 MB)
+Download LotrBfMe2-65542-russian.exe (25.5 MB)
+Download LotrBfMe2-65542-spanish.exe (25.4 MB)
+Download LotrBfMe2-65542-swedish.exe (25.3 MB)
+Download LotrBfMe2-65542-thai.exe (25.4 MB)

@@ -1,0 +1,116 @@
+{
+  "source": "F:\\BFME1\\lang\\english.big -> lang\\english\\language.ini",
+  "note": "font point sizes per named UI slot, extracted for reference/comparison when tuning readability",
+  "fonts": {
+    "CopyrightFont": {
+      "font": "Courier",
+      "size": 12,
+      "bold": true
+    },
+    "MessageFont": {
+      "font": "Albertus MT",
+      "size": 12,
+      "bold": false
+    },
+    "MilitaryCaptionTitleFont": {
+      "font": "SachaWynter",
+      "size": 9,
+      "bold": false
+    },
+    "MilitaryCaptionFont": {
+      "font": "SachaWynter",
+      "size": 9,
+      "bold": false
+    },
+    "AudioSubtitleFont": {
+      "font": "SachaWynter",
+      "size": 8,
+      "bold": false
+    },
+    "SuperweaponCountdownNormalFont": {
+      "font": "SachaWynter",
+      "size": 9,
+      "bold": false
+    },
+    "SuperweaponCountdownReadyFont": {
+      "font": "SachaWynter",
+      "size": 9,
+      "bold": true
+    },
+    "NamedTimerCountdownNormalFont": {
+      "font": "SachaWynter",
+      "size": 9,
+      "bold": false
+    },
+    "NamedTimerCountdownReadyFont": {
+      "font": "SachaWynter",
+      "size": 9,
+      "bold": false
+    },
+    "DrawableCaptionFont": {
+      "font": "Albertus MT",
+      "size": 12,
+      "bold": false
+    },
+    "DefaultWindowFont": {
+      "font": "Times New Roman",
+      "size": 14,
+      "bold": false
+    },
+    "DefaultDisplayStringFont": {
+      "font": "Times New Roman",
+      "size": 12,
+      "bold": false
+    },
+    "TooltipFontName": {
+      "font": "Albertus MT",
+      "size": 12,
+      "bold": false
+    },
+    "NativeDebugDisplay": {
+      "font": "Courier New",
+      "size": 14,
+      "bold": true
+    },
+    "DrawGroupInfoFont": {
+      "font": "Arial",
+      "size": 10,
+      "bold": false
+    },
+    "CreditsTitleFont": {
+      "font": "Albertus MT",
+      "size": 24,
+      "bold": false
+    },
+    "CreditsMinorTitleFont": {
+      "font": "Albertus MT",
+      "size": 16,
+      "bold": true
+    },
+    "CreditsNormalFont": {
+      "font": "Albertus MT",
+      "size": 14,
+      "bold": false
+    },
+    "HelpBoxNameFont": {
+      "font": "Albertus MT",
+      "size": 16,
+      "bold": false
+    },
+    "HelpBoxCostFont": {
+      "font": "Albertus MT",
+      "size": 14,
+      "bold": false
+    },
+    "HelpBoxShortcutFont": {
+      "font": "Albertus MT",
+      "size": 14,
+      "bold": false
+    },
+    "HelpBoxDescriptionFont": {
+      "font": "Albertus MT",
+      "size": 12,
+      "bold": false
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "lang_code": "ua",
+  "display_name": "Українська",
+  "font_file": "font.otf",
+  "font_family_spoof": "Albertus MT",
+  "sacha_font_file": "sachawyntertight_ua.ttf",
+  "str_only_namespaces": ["APT:"],
+  "note": "Build 1.06 variant of the Ukrainian translation. Generated from locales\\2.22v7.0.4\\ua\\strings.json by reconciling every label against the REAL text baseline read live from a clean English 1.06 install (lang\\english.big's CSF, 7984 labels, overlaid with _patch106.big's own data\\lotr.str, 8028 labels -- str wins per this game's own archive-priority rules, see TOOLKIT_NOTES.md). Where 1.06's English text matches 2.22's (normalized -- casing/whitespace-insensitive) exactly, the existing 2.22 Ukrainian translation was reused as-is. Balance-number-only and appended-tail-only differences were auto-adjusted the same way check_build_health() does on a live apply. Everything else -- 355 labels where 1.06's English genuinely differs in wording/mechanics from 2.22 (older balance values, renamed abilities, different mission objective text, pre-2.22 tooltip phrasing, etc. -- confirmed by hand, this is real content drift between patch generations, not a bug) -- was left as an ENGLISH FALLBACK pending a proper from-scratch translation pass against the 1.06 wording specifically. See scripts\\apply_localization.py's list_patch_archives()/get_installed_build() for how 1.06 is detected (patch 1.06 splits what 2.22 keeps in one _patch222.big across TWO archives: _patch105.big for fontsubstitution.ini + language.ini, _patch106.big for the data\\lotr.str text overlay -- no font_file/sacha_font_file path changes needed, same Cyrillic font as 2.22 UA works unchanged).",
+  "str_only_namespaces_note": "label prefixes that do NOT fall back to CSF when data\\lotr.str exists but is missing that label. Currently only relevant if a partial .str is ever shipped again -- the standard apply path deletes data\\lotr.str entirely, so this list is informational only."
+}

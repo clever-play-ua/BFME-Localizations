@@ -1,0 +1,10 @@
+{
+  "lang_code": "ua",
+  "display_name": "Українська",
+  "font_file": "font.otf",
+  "font_family_spoof": "Albertus MT",
+  "sacha_font_file": "sachawyntertight_ua.ttf",
+  "str_only_namespaces": ["APT:"],
+  "note": "SachaWynter is retargeted straight to \"Albertus MT\" via fontsubstitution.ini (patched in every archive that carries a copy: _patch222.big, ini.big, lang\\<lang>.big -- see font_duplicate_fontsubstitution_WARNING) -- matching the approach the official Chinese and Thai localizations use. This toolkit previously avoided that, fearing it would destroy 'PUA decorative icon glyphs' baked into sachwt__.ttf -- that fear was checked directly (dumped every glyph name via fontTools, rendered the only two Private-Use-Area glyphs at 0xF001/0xF002) and disproven: they're just the 'fi'/'fl' typographic ligatures in the font's own gothic style, not icons. See sachawyntertight_pua_decoration_WARNING in bfme1_localization.json, now flagged SUPERSEDED. sacha_font_file (a Cyrillic-extended clone of the original sachwt__.ttf, registered under its own real family name 'SachaWynterTight') is kept in case anything ever requests that exact family literally rather than through the SachaWynter substitution, but is not required for the redirect to work.",
+  "str_only_namespaces_note": "label prefixes that do NOT fall back to CSF when data\\lotr.str exists but is missing that label. Currently only relevant if a partial .str is ever shipped again -- the standard apply path deletes data\\lotr.str entirely, so this list is informational only."
+}
