@@ -24,12 +24,15 @@ What this does, in order (see BETA_PATCH_NOTES.md for why each step exists):
   3. Removes data\\lotr.str from both archives (so the CSF is authoritative
      - same reasoning as BFME1's own "delete lotr.str, rely on the CSF"
      fix, TOOLKIT_NOTES.md 2.2/3.2).
-  4. Adds our two Cyrillic fonts under DISTINCT family names (AlbertusMTUA /
-     SachaWynterTight - see fonts\\rename_albertus_family.py for how
-     AlbertusMTUA.otf was produced) and points to them with real
-     FontSubstitution rules - the technique is copied directly from EA's
-     own official Thai localization (002_BFME_2/004_BFME2_THAI), confirmed
-     by reading its shipped fontsubstitution.ini. Lives ONLY in
+  4. Adds our one Cyrillic font (AlbertusMTUA - see
+     fonts\\rename_albertus_family.py for how AlbertusMTUA.otf was produced)
+     and points BOTH FontSubstitution blocks ("SachaWynter" AND
+     "Albertus MT") at that SAME single font - never two different font
+     files, see OWN_FONTSUB's comment and BETA_PATCH_NOTES.md section 3
+     ("Attempt 4") for the duplicate-text/green-tint bug that happens
+     otherwise. The FontSubstitution technique itself is copied directly
+     from EA's own official Thai localization (002_BFME_2/004_BFME2_THAI),
+     confirmed by reading its shipped fontsubstitution.ini. Lives ONLY in
      lang\\english.big; ini.big/maps.big are never touched.
   5. Adds the localized textures found in
      005_BFME2_UKRAINIAN/prototype/lang/Ukrainian/art/compiledtextures/
@@ -61,7 +64,6 @@ FONTSUB_PATH = 'data\\ini\\fontsubstitution.ini'
 LOTR_CSF_PATH = 'lotr.csf'
 LOTR_STR_PATH = 'data\\lotr.str'
 NEW_ALBERTUS_NAME = 'AlbertusMTUA.otf'
-NEW_SACHA_NAME = 'sachawyntertight_ua.ttf'
 
 TEXTURE_FILES = [
     ('art\\compiledtextures\\lm\\lm_text.dds', os.path.join(TEXTURES_DIR, 'lm', 'lm_text.dds')),
@@ -72,14 +74,24 @@ TEXTURE_FILES = [
 
 OWN_FONTSUB = (
     '; Added for the Ukrainian prototype - lives only in lang\\english.big.\r\n'
-    '; Real FontSubstitution to OUR OWN embedded Cyrillic fonts (registered\r\n'
-    '; under distinct family names - AlbertusMTUA / SachaWynterTight - so there\r\n'
-    '; is no ambiguous same-family-different-file collision with the stock\r\n'
-    '; AlbertusMT.otf/SachaWynter fonts. Technique confirmed from EA\'s own\r\n'
-    '; official Thai localization (004_BFME2_THAI/lang/thai.big).\r\n'
+    '; Real FontSubstitution to OUR OWN embedded Cyrillic font, registered\r\n'
+    '; under a distinct family name - AlbertusMTUA - so there is no ambiguous\r\n'
+    '; same-family-different-file collision with the stock AlbertusMT.otf.\r\n'
+    ';\r\n'
+    '; BOTH roles point at the SAME font (AlbertusMTUA), not two different\r\n'
+    '; fonts. Found the hard way (2026-09-20): pointing SachaWynter at a\r\n'
+    '; SEPARATE font file (sachawyntertight_ua.ttf) produced a garbled\r\n'
+    '; "duplicate line" glitch under readable text in several screens (and a\r\n'
+    '; green tint) - almost certainly two different font files having\r\n'
+    '; mismatched glyph IDs/metrics for whatever multi-pass text effect\r\n'
+    '; overlays a main-text layer with a second layer. The proven, working\r\n'
+    '; BFME1 Ukrainian localization (001_BFME_1/004_BFME1_UKRAINIAN/v3)\r\n'
+    '; independently confirms this pattern - it points EVERY font role,\r\n'
+    '; including SachaWynter, at one single font ("Noto Sans" there). Do not\r\n'
+    '; reintroduce a second distinct font file for SachaWynter here.\r\n'
     'FontSubstitution "SachaWynter"\r\n'
-    '    Size 8 = 12 "SachaWynterTight"\r\n'
-    '    Size 40 = 70 "SachaWynterTight"\r\n'
+    '    Size 8 = 12 "AlbertusMTUA"\r\n'
+    '    Size 40 = 70 "AlbertusMTUA"\r\n'
     'End\r\n'
     '\r\n'
     'FontSubstitution "Albertus MT"\r\n'
@@ -149,19 +161,25 @@ def main():
 
     with open(os.path.join(FONTS_DIR, NEW_ALBERTUS_NAME), 'rb') as f:
         arc.add_file(NEW_ALBERTUS_NAME, f.read())
-    with open(os.path.join(FONTS_DIR, NEW_SACHA_NAME), 'rb') as f:
-        arc.add_file(NEW_SACHA_NAME, f.read())
-    print('  added AlbertusMTUA.otf + sachawyntertight_ua.ttf')
+    print('  added AlbertusMTUA.otf (only - sachawyntertight_ua.ttf deliberately not used, see OWN_FONTSUB comment)')
 
     lang_ini = arc.read_file('language.ini').decode('latin-1')
     pattern = re.compile(r'^([ \t]*LocalFontFile\s*=\s*OmniaLTStd\.ttf[^\r\n]*)', re.MULTILINE)
-    addition = (
-        '\r\n  LocalFontFile = ' + NEW_ALBERTUS_NAME + ' ;// Ukrainian Cyrillic Albertus MT, distinct family name'
-        '\r\n  LocalFontFile = ' + NEW_SACHA_NAME + ' ;// Ukrainian Cyrillic SachaWynter target'
-    )
+    addition = '\r\n  LocalFontFile = ' + NEW_ALBERTUS_NAME + ' ;// Ukrainian Cyrillic Albertus MT, distinct family name'
     new_lang_ini = pattern.sub(lambda m: m.group(1) + addition, lang_ini, count=1)
     if new_lang_ini == lang_ini:
         raise RuntimeError('language.ini insertion point not found - is this really a stock 1.05 english.big?')
+
+    # DO NOT set UnicodeFontName = "AlbertusMTUA" here. Tried once
+    # (2026-09-20), ported over from RotWK's own UnicodeFontName discovery
+    # as "cheap insurance" - it was NOT cheap insurance for BFME2, it broke
+    # something: a garbled hash/lattice-pattern glitch appeared under the
+    # main menu title (plus the whole screen took on a green tint) that had
+    # never happened before in this project's history. Reverted immediately.
+    # The user confirms BFME2 never had the RotWK-class ornate-title bug in
+    # the first place, so there was nothing to fix here - only something to
+    # break. Leave UnicodeFontName at its stock value for BFME2.
+
     arc.edit_file('language.ini', new_lang_ini.encode('latin-1'))
     print('  language.ini: added the 2 LocalFontFile lines')
 

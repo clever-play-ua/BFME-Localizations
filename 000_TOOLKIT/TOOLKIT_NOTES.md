@@ -208,6 +208,79 @@ too, so a machine patched by an older toolkit version ends up clean.
   source and re-appending it as `(&X)`, matching the established
   convention used everywhere else in the database.
 
+### 2.8 General rule (cross-confirmed via BFME2, 2026-09-20): never mix two different font files across the two `FontSubstitution` targets
+
+§2.3 above already arrived at this rule from the PUA-icon-myth angle
+(`SachaWynter` retargeted straight to `"Albertus MT"`, no separate file,
+because none was needed) — this subsection records the same rule being
+independently rediscovered the hard way in BFME2, with the actual visible
+symptom this time, so the two write-ups corroborate each other instead of
+looking like unrelated notes.
+
+**What BFME2 shipped for a while (wrong):** `FontSubstitution "SachaWynter"`
+pointed at a *separate* embedded font file (`sachawyntertight_ua.ttf`)
+while `FontSubstitution "Albertus MT"` pointed at a *different* embedded
+file (`AlbertusMTUA.otf`) — two distinct fonts across the two blocks,
+instead of one font used for both.
+
+**Symptom:** on some screens (BFME2: Options menu title, a War-of-the-Ring
+tutorial popup), a garbled hash/lattice-pattern duplicate line rendered
+directly under/overlapping each line of otherwise-correct readable text,
+plus an unexplained green tint across the UI. Not a uniform garble — in the
+tutorial popup, the guillemet quote marks specifically appeared to render
+via a visibly different style than the surrounding body text, consistent
+with two different fonts being composited onto the same line rather than
+one font simply failing outright.
+
+**Likely mechanism:** some UI text-rendering path (compiled APT/Scaleform
+widgets bypass `language.ini` and go straight through `FontSubstitution`,
+see §3.8) resolves glyphs for the same line from *both* substituted fonts
+at once. If the two font files don't share matching glyph IDs/metrics/
+coverage, the mismatched second pass shows up as a garbled overlay. Project
+owner's working theory: `SachaWynter`, when kept as a genuinely distinct
+font, is missing certain glyphs, so the engine falls back to pulling those
+glyphs from the *other* substituted font (Albertus MT) on the same line —
+possibly a quirk specific to SachaWynter's own coverage rather than a
+general two-font problem, but the fix sidesteps the question either way.
+
+**Fix, confirmed working in BFME2:** point **both** `FontSubstitution`
+blocks at the exact same single font file. Don't ship a second font file
+for `SachaWynter` at all.
+
+**This is now believed to be a general engine rule, true for BFME1, BFME2,
+and (already, incidentally) RotWK — not a BFME2-specific bug:**
+- BFME1's own `004_BFME1_UKRAINIAN/v3/english.big` (a separate, independently
+  built localization) uses exactly ONE font ("Noto Sans") for every single
+  `language.ini` role, every `headertemplate.ini` role including the dead
+  `Title`/`MainButton` "Generals" roles (§2.6), and **both**
+  `FontSubstitution` blocks (`"SachaWynter"` → Noto Sans, and a
+  self-referencing `"Noto Sans"` → Noto Sans).
+- This toolkit's own BFME1 output already follows the rule per §2.3
+  (`SachaWynter` retargeted straight to the same `"Albertus MT"` family,
+  no second file).
+- RotWK's own working build
+  (`003_BFME_2_RoTWK/005_BFME2_RoTWK_UKRAINIAN/release/build.py`) already
+  points both `FontSubstitution` blocks at `AlbertusMTUA` only — which is
+  presumably why RotWK never separately exhibited this duplicate-text bug,
+  though that specific causal link was never isolated since RotWK never
+  shipped two different fonts to compare against.
+
+**Rule going forward, for every game and every future language:** never
+register two different font files across the two `FontSubstitution`
+targets. Exactly one font, everywhere — every `language.ini` role, every
+`headertemplate.ini` role, and both `FontSubstitution` blocks. Full writeup
+with the BFME2-specific screenshots/history: `002_BFME_2/005_BFME2_UKRAINIAN/BETA_PATCH_NOTES.md`
+§3 ("Attempt 4").
+
+A second, unrelated regression was chased at the same time and must not be
+confused with this one: setting `UnicodeFontName` to a custom font in
+BFME2's `language.ini` (a fix that's correct and necessary for RotWK, see
+`003_BFME_2_RoTWK/ROTWK_TEXT_AND_FONT_SYSTEM.md`) produced a similar-looking
+green-tinted garbled overlay in BFME2 **on its own**, independent of the
+two-font bug above. BFME2 never had RotWK's ornate-title byte-widening
+problem to begin with, so `UnicodeFontName` should stay at its stock value
+there — there's nothing for it to fix, only something to break.
+
 ---
 
 ## 3. Key findings (not bugs in our code, but real discoveries about the game/patch)

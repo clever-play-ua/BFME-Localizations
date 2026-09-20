@@ -114,6 +114,124 @@ untouched) registering `AlbertusMTUA.otf` and `sachawyntertight_ua.ttf`.
 font family is loaded, same substitution mechanism — should work, but
 hasn't had its own screenshot check yet).
 
+### Attempt 4 (actual final, 2026-09-20) — ONE font for both substitution targets, not two
+
+Attempt 3 shipped and was used for months, but it carried a latent bug that
+took roughly ten separate debugging sessions (project owner's own count) to
+finally pin down, because it only manifests on specific screens and looks
+completely unrelated to fonts at first glance.
+
+**Symptom.** On certain screens — confirmed on the Options menu (title area)
+and a War-of-the-Ring campaign tutorial popup — a second, garbled line of
+text rendered directly under/overlapping each line of otherwise-correct,
+readable Ukrainian text. The garbled line looked like a dense hash/lattice
+pattern, not recognizable glyphs. Alongside it, the whole screen's UI took on
+an unexplained green tint that had never appeared in this project before.
+Zooming into the WoTR popup screenshot, the project owner noticed something
+specific: the guillemet quote marks («»/„") in that garbled overlay appeared
+to be rendering in a visibly different style from the surrounding body text —
+i.e. **not uniformly garbled**, but as if two different fonts were being
+composited into the same line, one of them missing/misrendering most glyphs.
+
+**Root cause (confirmed).** Attempt 3's `fontsubstitution.ini` pointed the
+two `FontSubstitution` blocks at **two different font files**:
+`FontSubstitution "SachaWynter"` → `"SachaWynterTight"` (a separate embedded
+TTF, `sachawyntertight_ua.ttf`), and `FontSubstitution "Albertus MT"` →
+`"AlbertusMTUA"` (a different embedded OTF). Some UI text-rendering path
+(exact mechanism not identified — likely some multi-pass/shadow-and-fill
+text effect used by certain APT/Scaleform widgets, see `TOOLKIT_NOTES.md`
+§3.8 for the general "APT bypasses language.ini, only FontSubstitution
+matters" finding) ends up resolving glyphs for the *same* line of text from
+**both** substituted fonts at once. When those two font files don't have
+matching glyph IDs/metrics/coverage for whatever character set the effect
+expects, the mismatched second pass renders as the garbled hash-pattern
+duplicate line, and something about that failure mode also pushes the
+color blend into green.
+
+**The project owner's own working theory**, which matches the evidence and
+is recorded here verbatim in substance: SachaWynter, when configured as a
+genuinely distinct font, is missing certain glyphs; whatever text-rendering
+path needs a glyph SachaWynter doesn't have pulls it from Albertus MT
+*instead*, on the same line, and the two fonts' mismatched metrics produce
+the visible artifact. This may be a quirk specific to SachaWynter's own
+glyph coverage rather than a general two-font problem — not fully isolated,
+but irrelevant to the fix, which sidesteps the question entirely.
+
+**The fix:** stop shipping `sachawyntertight_ua.ttf` at all. Point **both**
+`FontSubstitution` blocks at the exact same single font file
+(`AlbertusMTUA.otf`):
+
+```
+FontSubstitution "SachaWynter"
+    Size 8 = 12 "AlbertusMTUA"
+    Size 40 = 70 "AlbertusMTUA"
+End
+
+FontSubstitution "Albertus MT"
+    Size 8 = 8 "AlbertusMTUA"
+    ... (one line per size stock lists, all -> "AlbertusMTUA")
+End
+```
+
+Confirmed fixed in-game by the project owner ("ПРОБЛЕМА решилась") after
+rebuilding both `english.big` and the toolkit installer with this change.
+`language.ini`'s `LocalFontFile` list also drops the `sachawyntertight_ua.ttf`
+line — only `AlbertusMTUA.otf` is registered now.
+
+**A second, unrelated regression surfaced and was reverted while chasing
+this bug**: porting RotWK's own `UnicodeFontName = "AlbertusMTUA"` fix
+(see `003_BFME_2_RoTWK/ROTWK_TEXT_AND_FONT_SYSTEM.md`) into BFME2's
+`language.ini`, on the theory that it might be "cheap insurance," actually
+*caused* a very similar-looking glitch (garbled title area + green tint) on
+its own, independent of the two-font bug above. BFME2 never had RotWK's
+ornate-title mojibake problem in the first place (that bug is specific to
+RotWK's `.str`-vs-CSF byte-widening quirk, not present in BFME2's text
+pipeline), so there was nothing for `UnicodeFontName` to fix here — only
+something to break. **`UnicodeFontName` is left at its stock value for
+BFME2 and must not be set to a custom font.** This is a different root
+cause from the two-font bug above; both happened to produce a
+similar-looking green-tinted garbled overlay, which is what made this so
+hard to separate out during debugging.
+
+**Cross-game corroboration — this is a general engine rule, not a BFME2
+quirk.** `001_BFME_1/004_BFME1_UKRAINIAN/v3/english.big`, a pre-existing,
+independently-built BFME1 Ukrainian localization, uses exactly ONE font
+("Noto Sans") for absolutely everything: every `language.ini` font role,
+every `headertemplate.ini` role (including the dead `Title`/`MainButton`
+"Generals" roles, §2.6 of `TOOLKIT_NOTES.md`), and **both**
+`FontSubstitution` blocks — `"SachaWynter"` → Noto Sans AND a
+self-referencing `"Noto Sans"` → Noto Sans block. It never uses a second,
+different font file anywhere. Separately, `TOOLKIT_NOTES.md` §2.3 (written
+in an earlier BFME1 session, long before this BFME2 bug was pinned down)
+already reached the same conclusion from a completely different angle:
+BFME1's current toolkit output retargets `FontSubstitution "SachaWynter"`
+straight to `"Albertus MT"` (the *same* family as the other block, not a
+second file) specifically because a separate SachaWynter-clone file was
+found to be unnecessary — "no separate font file needed for it at all."
+Three independent investigations (BFME1's toolkit code, BFME1's `v3`
+hand-built archive, and this BFME2 bug hunt) all converge on the same rule:
+
+> **Never register two different font files for the two `FontSubstitution`
+> targets. Use exactly one font, everywhere — every `language.ini` role,
+> every `headertemplate.ini` role, and both `FontSubstitution` blocks.**
+
+RotWK's own working build (`003_BFME_2_RoTWK/005_BFME2_RoTWK_UKRAINIAN/release/build.py`)
+already followed this rule by the time it was written (its `FONTSUB`
+constant points both blocks at `AlbertusMTUA` only) — which is presumably
+why RotWK never exhibited this exact duplicate-text bug, though that causal
+link wasn't separately re-verified since RotWK never had two fonts to
+compare against.
+
+For completeness, the project owner's own informal framing of RotWK's
+*separate* text problem (the `.str`-vs-CSF byte-widening bug, fully
+documented in `ROTWK_TEXT_AND_FONT_SYSTEM.md`) is worth recording here too,
+since it was given in the same conversation: "in the Witch-king game it
+looks like there's some add-on on top of the English version that reads
+single-byte (looks like the developers were too lazy to finish something)."
+That is a fair plain-language summary of the finding, though the actual
+documented root cause is more specific — see §2 there for the precise
+byte-widen mechanism, which is unrelated to the two-font bug on this page.
+
 ## 4. Textures
 
 Four files from `005_BFME2_UKRAINIAN/prototype/lang/Ukrainian/art/compiledtextures/`
@@ -150,10 +268,13 @@ shown anywhere, lower priority.
 `lang\english.big` (relative to a stock 1.05 archive):
 - **Removed:** `data\lotr.str`
 - **Added:** `lotr.csf` (10,892 labels, real newlines, version-branded),
-  `AlbertusMTUA.otf`, `sachawyntertight_ua.ttf`, `data\ini\fontsubstitution.ini`,
-  the 4 texture files in §4
-- **Edited:** `language.ini` (2 new `LocalFontFile` lines appended, nothing
-  removed)
+  `AlbertusMTUA.otf` (only — `sachawyntertight_ua.ttf` was dropped in
+  Attempt 4, §3, once it was root-caused as the source of the duplicate-line
+  glitch), `data\ini\fontsubstitution.ini` (both blocks retargeted to
+  `AlbertusMTUA` only), the 4 texture files in §4
+- **Edited:** `language.ini` (1 new `LocalFontFile` line appended for
+  `AlbertusMTUA.otf`; `UnicodeFontName` left at its stock value — see §3
+  Attempt 4 for why setting it broke things)
 - **Untouched:** everything else (`headertemplate.ini`, `commandmap.ini`,
   `tos.txt`, `launcher\launcher.csf`, the 5 stock `art\textures\*.tga`)
 
@@ -188,8 +309,10 @@ If `AlbertusMTUA.otf` ever needs rebuilding (e.g. the source
 
 ## 8. Open questions / not yet verified
 
-- Attempt 3's own font (AlbertusMTUA/SachaWynterTight) hasn't been
-  screenshot-confirmed in-game yet — only attempt 2 (Tahoma) was.
+- ~~Attempt 3's own font (AlbertusMTUA/SachaWynterTight) hasn't been
+  screenshot-confirmed in-game yet~~ — confirmed in-game, and confirmed
+  buggy (duplicate garbled text line + green tint). Superseded by Attempt 4
+  (§3), which IS screenshot-confirmed working with no artifacts.
 - Whether `lang\english.big` vs `lang\englishpatch105.big` archive priority
   for identically-pathed files actually works the way assumed (patch wins)
   is inherited from BFME1's confirmed behavior, not independently verified

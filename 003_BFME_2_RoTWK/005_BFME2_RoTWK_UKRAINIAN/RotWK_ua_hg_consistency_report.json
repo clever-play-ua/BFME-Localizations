@@ -1,0 +1,209 @@
+{
+  "glossary_anchored_findings": [
+    {
+      "english_name": "Galadriel",
+      "wikipedia_spelling": "Ґаладріель",
+      "other_variant_found_in_corpus": "Галадріель",
+      "count_matching_wikipedia_spelling": 13,
+      "count_matching_other_variant": 2,
+      "example_vars_wikipedia_spelling": [
+        "OBJECT:ElvenGaladriel",
+        "OBJECT:LUGalMirror",
+        "OBJECT:GaladrielsWell",
+        "SCRIPT:EvilLorienHintText_GaladrielFlees",
+        "SCRIPT:SUBTITLE_MELorie_MouthOfSauron018"
+      ],
+      "example_vars_other_variant": [
+        "BONUSROUND:SPSGOODSHELOBSLAIRPHIAL",
+        "OBJECT:ElvenMirrorofGaladriel"
+      ]
+    },
+    {
+      "english_name": "Gollum/Sméagol",
+      "wikipedia_spelling": "Ґолум",
+      "other_variant_found_in_corpus": "Голум",
+      "count_matching_wikipedia_spelling": 6,
+      "count_matching_other_variant": 1,
+      "example_vars_wikipedia_spelling": [
+        "OBJECT:NeutralGollum",
+        "CREDITS:AndySerkis",
+        "Map:MAPMPDeadMarshes/Desc",
+        "Map:MAPMPEmynMuil/Desc",
+        "Map:MAPWORDeadMarshes/Desc"
+      ],
+      "example_vars_other_variant": [
+        "OBJECT:Dove"
+      ]
+    },
+    {
+      "english_name": "Gríma Wormtongue",
+      "wikipedia_spelling": "Ґріма",
+      "other_variant_found_in_corpus": "Гріма",
+      "count_matching_wikipedia_spelling": 2,
+      "count_matching_other_variant": 1,
+      "example_vars_wikipedia_spelling": [
+        "SCRIPT:ANNOUNCEMENT_E03_05",
+        "SCRIPT:HINT_E03_05"
+      ],
+      "example_vars_other_variant": [
+        "CREDITS:NewLineWeta2"
+      ]
+    },
+    {
+      "english_name": "Gloin",
+      "wikipedia_spelling": "Ґлоїн",
+      "other_variant_found_in_corpus": "Глоїн",
+      "count_matching_wikipedia_spelling": 14,
+      "count_matching_other_variant": 1,
+      "example_vars_wikipedia_spelling": [
+        "SCRIPT:Objective_G01_07",
+        "SCRIPT:Complete_G01_07a",
+        "SCRIPT:Dialog_G01_03",
+        "SCRIPT:Dialog_G01_07",
+        "SCRIPT:Dialog_G01_08"
+      ],
+      "example_vars_other_variant": [
+        "CONTROLBAR:MordorFellBeastRevive"
+      ]
+    },
+    {
+      "english_name": "Gondor",
+      "wikipedia_spelling": "Ґондор",
+      "other_variant_found_in_corpus": "Гондор",
+      "count_matching_wikipedia_spelling": 130,
+      "count_matching_other_variant": 5,
+      "example_vars_wikipedia_spelling": [
+        "Color:GondorBlue",
+        "TOOLTIP:Skirmish/dumSkirmishProfileA",
+        "TOOLTIP:OnlineShell/OnlineProfile/tooltipGondor",
+        "OBJECT:GondorFighter",
+        "OBJECT:GondorArcher"
+      ],
+      "example_vars_other_variant": [
+        "MAP:EvilOsgiliathIntroduction",
+        "Map:MAPMPArgonath/Desc",
+        "Map:MAPWOROsgiliath/Desc",
+        "BONUSROUND:SPSGOODCENTRALITHILIENSAVE",
+        "BONUSROUND:SPSEVILHARLONDDESTROY"
+      ]
+    }
+  ],
+  "corpus_only_findings": [
+    {
+      "neutral_form": "*обліни",
+      "variants": {
+        "Ґобліни": {
+          "count": 18,
+          "example_vars": [
+            "APT:Wild",
+            "BANNERUI:Goblins",
+            "INI:FactionWild",
+            "LWA:CorruptedWild",
+            "LWA:Goblins"
+          ]
+        },
+        "Гобліни": {
+          "count": 1,
+          "example_vars": [
+            "CONTROLBAR:ToolTipAzogBrigandage"
+          ]
+        }
+      }
+    },
+    {
+      "neutral_form": "Вар*и",
+      "variants": {
+        "Варги": {
+          "count": 1,
+          "example_vars": [
+            "CONTROLBAR:TooltipWargRiderHowl"
+          ]
+        },
+        "Варґи": {
+          "count": 8,
+          "example_vars": [
+            "BANNERUI:IsengardWargPack",
+            "CONTROLBAR:ConstructIsengardWargPack",
+            "CONTROLBAR:ConstructMordorWargHorde",
+            "CONTROLBAR:LW_Unit_MordorWargHorde",
+            "CONTROLBAR:LW_Unit_MordorWargHordePlural"
+          ]
+        }
+      }
+    },
+    {
+      "neutral_form": "*обліни-воїни",
+      "variants": {
+        "Ґобліни-воїни": {
+          "count": 3,
+          "example_vars": [
+            "BANNERUI:GoblinWarriors",
+            "CONTROLBAR:ConstructGoblinFighterHorde",
+            "OBJECT:HordeGoblinFighters"
+          ]
+        },
+        "Гобліни-воїни": {
+          "count": 2,
+          "example_vars": [
+            "CONTROLBAR:ToolTipBuildGoblinArcherHorde",
+            "CONTROLBAR:ToolTipBuildGoblinFighterHorde"
+          ]
+        }
+      }
+    },
+    {
+      "neutral_form": "Істерлін*и",
+      "variants": {
+        "Істерлінги": {
+          "count": 1,
+          "example_vars": [
+            "CONTROLBAR:ConstructMordorEasterlingHorde"
+          ]
+        },
+        "Істерлінґи": {
+          "count": 4,
+          "example_vars": [
+            "BANNERUI:MordorEasterlings",
+            "LWA:Easterlings",
+            "LWA:EasterlingsArmy",
+            "OBJECT:HordeMordorEasterlings"
+          ]
+        }
+      }
+    },
+    {
+      "neutral_form": "*амлін*",
+      "variants": {
+        "Ґамлінг": {
+          "count": 1,
+          "example_vars": [
+            "OBJECT:RohanGamling"
+          ]
+        },
+        "Ґамлінґ": {
+          "count": 1,
+          "example_vars": [
+            "CONTROLBAR:RohanGamlingRecruit"
+          ]
+        }
+      }
+    },
+    {
+      "neutral_form": "Рін*ло",
+      "variants": {
+        "Рінґло": {
+          "count": 1,
+          "example_vars": [
+            "Map:mapmpRingloRiver"
+          ]
+        },
+        "Рінгло": {
+          "count": 1,
+          "example_vars": [
+            "Map:MAPMPLamedon/Desc"
+          ]
+        }
+      }
+    }
+  ]
+}
