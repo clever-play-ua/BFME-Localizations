@@ -1,0 +1,74 @@
+{
+ "meta": {
+  "hero": "Lothrandir",
+  "uk_name": "Лотрандир",
+  "campaigns": [
+   "TTT"
+  ],
+  "missions": [
+   "GreyCompany"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignLothrandir"
+   ],
+   "битва": [
+    "CampaignLothrandir"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею.",
+  "see_also": "Спільні з іншими героями рядки є лише в одному файлі: Faramir"
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:CampaignLothrandir",
+   "type": "Ім'я",
+   "en": "Lothrandir",
+   "ru": "Лотрандир",
+   "uk_ai": "Лотрандир",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:LothrandirQuickDispatch",
+   "type": "Кнопка",
+   "en": "Quick Dispatch (&W)",
+   "ru": "Проворство (&W)",
+   "uk_ai": "Швидка розправа (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLothrandirQuickDispatch",
+   "type": "Підказка",
+   "en": "Lothrandir gains +25% attack and movement speed for 30 seconds\n Left click to activate",
+   "ru": "Лотрандир получает +25% скорости атаки и передвижения на 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Лотрандир отримує бонус +25% до швидкості атаки й пересування на 30 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:LothrandirSubtleWays",
+   "type": "Кнопка",
+   "en": "Subtle Ways (&R)",
+   "ru": "Уловка следопыта (&R)",
+   "uk_ai": "Потаємні стежки (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLothrandirSubtleWays",
+   "type": "Підказка",
+   "en": "Lothrandir and targeted allies become stealthed and deal increased damage for 30 seconds\n Left click icon then left click on target units",
+   "ru": "Лотрандир и союзники в радиусе действия становятся скрытыми, а также наносят повышенный урон в течение 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Лотрандир і обрані союзники стають невидимими й завдають більше пошкоджень на 30 сек.\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

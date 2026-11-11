@@ -1,0 +1,116 @@
+{
+ "meta": {
+  "hero": "Zigûr",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Harad"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "HaradZigur",
+   "HaradZigur_RingHero"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:HaradZigur",
+   "type": "Ім'я",
+   "en": "Zigûr",
+   "ru": "Зигур",
+   "uk_ai": "Зіґур",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HighPriest",
+   "type": "Кнопка",
+   "en": "High Priest of Melkor",
+   "ru": "Верховный жрец Мелькора",
+   "uk_ai": "Верховний жрець Мелькора",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHighPriest",
+   "type": "Підказка",
+   "en": "Modifier Type: Nullifier \n Nearby enemy units lose -50% armour, -15% movement speed\n and take damage over time\nPassive ability",
+   "ru": "Тип модификатора: Ослабление\\nБлижайшие враги теряют -50% брони, -15% скорости передвижения\\nи получают постепенный урон\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Скасування\nВорожі загони поблизу втрачають 50% броні й 15% швидкості руху\nта поступово отримують пошкодження\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SacrificialRites",
+   "type": "Кнопка",
+   "en": "Sacrificial Rites (&R)",
+   "ru": "Обряд жертвоприношения (&R)",
+   "uk_ai": "Жертовні обряди (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSacrificialRites",
+   "type": "Підказка",
+   "en": "Enemy units within the radius take damage over time for 30 seconds\nIf a unit dies, Zigûr receives +5% armour and damage for 8 seconds\nStacks up to 25% armour and damage\nLeft click icon then left click on target area",
+   "ru": "Вражеские отряды в радиусе действия получают урон в течение 30 секунд\\nЗа каждого погибшего Зигур наносит на +5% больше урона и увеличивает броню на +5% в течение 8 секунд\\nСуммируется до максимума в +25%\\nЩелкните левой кнопки мыши на значок, затем на целевую область",
+   "uk_ai": "Ворожі загони в радіусі дії 30 сек. поступово отримують пошкодження\nКоли загін гине, Зіґур на 8 сек. отримує бонус +5% до броні й 5% до пошкоджень\nМаксимум +25% до броні та +25% до пошкоджень\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellWhispers",
+   "type": "Кнопка",
+   "en": "Fell Whispers (&T)",
+   "ru": "Шепот тьмы (&T)",
+   "uk_ai": "Лихий шепіт (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellWhispers",
+   "type": "Підказка",
+   "en": "Causes targeted units and monsters to become hostile towards each other for 45 seconds\n Left click icon then left click on target area",
+   "ru": "Заставляет врагов становится враждебными друг к другу\\nЩелкните левой кнопки мыши на значок, затем на целевые отряды",
+   "uk_ai": "Обрані загони й створіння на 45 сек. стають ворожими одне до одного\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DreadTyrant",
+   "type": "Кнопка",
+   "en": "Dread Tyrant (&C)",
+   "ru": "Ужасный тиран (&T)",
+   "uk_ai": "Жахливий тиран (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDreadTyrant",
+   "type": "Підказка",
+   "en": "Cancels all leadership effects across the map for 30 seconds\n Nearby allied and enemy units are frozen in fear for 5 seconds\nLeft click to activate",
+   "ru": "Временно отменяется все вражеское лидерство по всей карте\\nБлижайшие союзные и вражеские отряды застывают в страхе\\nЩелкните левой кнопкой, чтобы активировать",
+   "uk_ai": "На 30 сек. скасовує всі ефекти лідерства на всій мапі\nСоюзні й ворожі загони поблизу на 5 сек. ціпеніють від страху\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FirePillar",
+   "type": "Кнопка",
+   "en": "Pillar of Flames (&V)",
+   "ru": "Столп пламени (&V)",
+   "uk_ai": "Стовп полум'я (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipFirePillar",
+   "type": "Підказка",
+   "en": "Summons a controllable Fire Whirlwind \n The Whirlwind sucks in units and sets fire to surrounding terrain\n Left click icon then left click on target area",
+   "ru": "Призывается управляемый огненный вихрь\\nВихрь затягивает врагов и поджигает местность вокруг\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Прикликає керований вогняний вихор\nВихор затягує ворогів й підпалює місцевість довкола\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

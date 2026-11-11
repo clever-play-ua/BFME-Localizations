@@ -1,0 +1,173 @@
+{
+ "meta": {
+  "hero": "Glóin",
+  "uk_name": "Ґлоїн",
+  "campaigns": [
+   "FotR",
+   "RotK"
+  ],
+  "missions": [
+   "Council",
+   "BattleofDale"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignGloinBFME2",
+    "DwarvenGloinYoung"
+   ],
+   "битва": [
+    "DwarvenGloin"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею.",
+  "see_also": "Спільні з іншими героями рядки є лише в одному файлі: Gimli"
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:Gloin",
+   "type": "Ім'я",
+   "en": "Glóin",
+   "ru": "Глоин",
+   "uk_ai": "Ґлоїн",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GloinHeal",
+   "type": "Кнопка",
+   "en": "Herb Lore (&W)",
+   "ru": "Знаток трав (&W)",
+   "uk_ai": "Знання трав (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGloinHeal",
+   "type": "Підказка",
+   "en": "Heals nearby units\n Left click to activate \n\n Requires Level 3 \n Modifier Type: Leadership \n Allies near Glóin gain +15% damage and +15% armour \nPassive ability",
+   "ru": "Исцеляет ближайших союзников\\nЩелкните левой кнопкой мыши, чтобы активировать\\n\\nТребуется уровень 3\\nТип модификатора: Лидерство\\nСоюзники рядом с Глоином наносят +15% урона и получают +15% брони\\nПассивная способность",
+   "uk_ai": "Зцілює загони поблизу\nКлікніть, щоб активувати\n\nНеобхідно: Рівень 3\nТип ефекту: Лідерство\nСоюзники поряд із Ґлоїном отримують бонус +15% до пошкоджень і +15% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ProudFather",
+   "type": "Кнопка",
+   "en": "Proud Father",
+   "ru": "Гордый отец",
+   "uk_ai": "Гордий батько",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipProudFather",
+   "type": "Підказка",
+   "en": "Glóin gains +20% armour and damage while near Gimli\nPassive ability",
+   "ru": "Глоин наносит +20% урона и получает +20% брони, находясь рядом с Гимли\\nПассивная способность",
+   "uk_ai": "Поряд із Ґімлі Ґлоїн отримує бонус +20% броні й пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GloinGloriousCharge",
+   "type": "Кнопка",
+   "en": "Baruk Khazâd! (&T)",
+   "ru": "Baruk Khazâd! (&T)",
+   "uk_ai": "Дворфійські сокири! (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGloinGloriousCharge",
+   "type": "Підказка",
+   "en": "Requires Level 3\n Modifier type: Spell\n Glóin and nearby Dwarven units gain a +15% speed bonus, +50% experience bonus and resistance to fear and terror for 20 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 3\\nТип модификатора: Заклинание\\nГлоин и ближайшие отряды гномов получают +15% скорости передвижения, набирают опыт на +50% быстрее и становятся невосприимчивыми к страху и ужасу в течение 20 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Заклинання\nҐлоїн і загони дворфів поблизу на 20 сек. отримують бонус +15% швидкості, +50% до досвіду й стійкість до страху та жаху\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:VentureCapitalism",
+   "type": "Кнопка",
+   "en": "Venture Capitalism (&C)",
+   "ru": "Рискованное предприятие (&C)",
+   "uk_ai": "Ризикове вкладення (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipVentureCapitalism",
+   "type": "Підказка",
+   "en": "Requires Level 6\nTargeted Mine or Grand Forge has +200% increased production for 30 seconds\nLeft click icon then left click on target",
+   "ru": "Требуется уровень 5\\nВыбранная шахта или Великая кузня получает +200% увеличения производства на 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевую постройку",
+   "uk_ai": "Необхідно: Рівень 6\nВказана копальня або Велика кузня на 30 сек. виробляє на 200% більше\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GloinSecretWays",
+   "type": "Кнопка",
+   "en": "Secret Ways (&V)",
+   "ru": "Секретные тропы (&V)",
+   "uk_ai": "Таємні шляхи (&V)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipGloinSecretWays",
+   "type": "Підказка",
+   "en": "Requires Level 9 \n Glóin knows of routes younger dwarves do not\nTeleports targeted units to targeted location\nDoes not work on siege units\n Left click icon, then left click on target units, then left click on pathable location",
+   "ru": "Требуется уровень 9\\nГлоин знает пути, недоступные молодым гномам\\nПеремещает союзников в области действия в любое место на карте\\nНе работает на осадных орудиях\\nЩелкните левой кнопкой мыши на значок, затем на целевые единицы, после чего на доступное местоположение",
+   "uk_ai": "Необхідно: Рівень 9\nҐлоїн знає шляхи, невідомі молодшим дворфам\nТелепортує обрані загони в указане місце\nНе діє на облогові машини\nКлікніть на іконку, потім оберіть потрібні загони, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SonofGroin",
+   "type": "Кнопка",
+   "en": "Son of Gróin",
+   "ru": "Сыны Гроина",
+   "uk_ai": "Син Ґроїна",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSonofGroin",
+   "type": "Підказка",
+   "en": "Modifier Type: Spell \n Óin and Glóin gain +15% damage and +15% armour when near each other \nPassive ability",
+   "ru": "Тип модификатора: Заклинание\\nОин и Глоин наносят +15% урона и получают +15% брони, находясь рядом друг с другом\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Заклинання\nПоряд одне з одним Оїн і Ґлоїн отримують бонус +15% до пошкоджень і +15% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GloinAxeThrow",
+   "type": "Кнопка",
+   "en": "Axe Throw (&R)",
+   "ru": "Бросок топора (&R)",
+   "uk_ai": "Кидок сокири (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CraftyFinancer",
+   "type": "Кнопка",
+   "en": "Crafty Financer (&T)",
+   "ru": "Искусный делец (&T)",
+   "uk_ai": "Хитрий скарбник (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

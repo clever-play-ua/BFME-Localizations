@@ -1,0 +1,1677 @@
+{
+ "meta": {
+  "source": "Serhii, serhii_aotr_rohan_ua_lotr.str (2026-11-10)",
+  "faction": "Rohan",
+  "note": "Community translation of Rohan, normalised by our rule scripts. Shown on the site for proofreading; NOT used by the build yet."
+ },
+ "strings": [
+  {
+   "var": "CONTROLBAR:ConstructRohanFarm",
+   "en": "Build Rohan &Farm",
+   "ru": "Ферма (&F)",
+   "sergii": "Ферма (&F)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructRohanFarm",
+   "en": "Provides field as a resource based on available terrain \nReduced cost of cavalry\n Grants nearby Peasants +15% damage and armour \n Increases command point limit by 50",
+   "ru": "Производит ресурсы на доступной местности\nСнижает стоимость кавалерии\nКрестьяне рядом с фермами наносят +10% урона и получают +10% брони\nУвеличивает очки командования на 50",
+   "sergii": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nЗнижує вартість кавалерії\nНадає найближчим селянам +15% до пошкоджень і броні\nЗбільшує ліміт очок командування на 50 од."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDescriptionRohanFarm",
+   "en": "Generates resources based on available terrain\n Field Bonus - Reduced cost of cavalry \n 2 Farms: 5% \n 3 Farms: 10% \n 4 Farms: 15% \n 5+ Farms: 20% \n \n Modifier Type: Spell\n Nearby Peasants gain +15% damage and armour",
+   "ru": "Производит ресурсы на доступной местности\nОбширные поля - снижение стоимости кавалерии\n2 фермы: 5%\n3 фермы: 10%\n4 фермы: 15%\n5 ферм: 20%\n6 и более: 25%\n\nТип модификатора: Заклинание\nКрестьяне рядом с фермами наносят +10% урона и получают +10% брони",
+   "sergii": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nПольовий бонус — знижує вартість кавалерії\n2 ферми: 5%\n3 ферми: 10%\n4 ферми: 15%\n5 ферм і більше: 20%\n\nТип ефекту: Заклинання\nСеляни поблизу отримують бонус +15% до пошкоджень і броні"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDescriptionRohanWindmill",
+   "en": "Generates resources based on available terrain\n Bread Bonus - Reduced cost of infantry \n 2 Windmills: 5% \n 4 Windmills: 10% \n 6 Windmills: 15% \n 8+ Windmills: 20% \n \n Modifier Type: Spell\n Nearby Peasants gain +15% damage and armour",
+   "ru": "Производит ресурсы на доступной местности\nОбширные поля - снижение стоимости кавалерии\n2 фермы: 5%\n4 фермы: 10%\n6 фермы: 15%\n8 и более: 20%\n\nТип модификатора: Заклинание\nКрестьяне рядом с фермами наносят +10% урона и получают +10% брони",
+   "sergii": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nЗнижує вартість піхоти\n2 млини: 5%\n4 млини: 10%\n6 млинів: 15%\n8 і більше млинів: 20%\n\nТип ефекту: Заклинання\nСеляни поблизу отримують бонус +15% до пошкоджень і броні"
+  },
+  {
+   "var": "CONTROLBAR:RohanPeasantry",
+   "en": "Peasantry of the Mark (&W)",
+   "ru": "Крестьянство Марки (&W)",
+   "sergii": "Селянство Марки (&W)"
+  },
+  {
+   "var": "CONTROLBAR:RohanPippinHotkey",
+   "en": "Pippin (&W)",
+   "ru": "Пиппин (&W)",
+   "sergii": "Піпін (&W)"
+  },
+  {
+   "var": "CONTROLBAR:RohanPippinRecruit",
+   "en": "Recruit a foolhardy Hobbit \n Scout, supports heroes \n \n Recruit time: 15s \n Levels 2-5: +5% Health, +5% Damage \n Levels 6-9: +4% Health, +4% Damage \n Level 10: +3% Health, +3% Damage \n \n 'You need people of intelligence on this sort of mission... quest... thing!'",
+   "ru": "Призвать отважного и верного хоббита\n\n\"В любом случае вам нужны толковые парни для такого задания...похода...дела!\"",
+   "sergii": "Завербувати хороброго гобіта\nЕфективний у розвідці, підтримує війська та героїв\n\nЧас вербування: 15 сек.\n\nКожен рівень підвищує показники\nРівні 2-5: +5% здоров'я, +5% до пошкоджень\nРівні 6-9: +4% здоров'я, +4% до пошкоджень\nРівень 10: +3% здоров'я, +3% до пошкоджень\n\n«Для такого завдання… чи пригоди… чи як там її назвати, потрібні розумні голови!»"
+  },
+  {
+   "var": "CONTROLBAR:RohanPippinRevive",
+   "en": "Revive the fallen Hero, Pippin",
+   "ru": "Воскресить павшего героя, Пиппина",
+   "sergii": "Відродити полеглого в бою Піпіна"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRohanPeasantry",
+   "en": "Switch to recruitment of Peasants and Yeomen Spearmen",
+   "ru": "Переключиться на призыв крестьян и йоменов-копейщиков",
+   "sergii": "Перейти до призову селян та Йоменів-списників"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanWindmill",
+   "en": "Build Windmill (&R)",
+   "ru": "Построить мельницу (&R)",
+   "sergii": "Млин (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructRohanWindmill",
+   "en": "Provides bread as a resource based on available terrain \nReduced cost of infantry \n Grants nearby Peasants +15% damage and armour\n Increases command point limit by 50",
+   "ru": "Производит ресурсы на доступной местности\nСнижает стоимость пехоты\nКрестьяне рядом с фермами наносят +10% урона и получают +10% брони\nУвеличивает очки командования на 50",
+   "sergii": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nЗнижує вартість піхоти\nНадає найближчим селянам +15% до пошкоджень і броні\nЗбільшує ліміт очок командування на 50 од."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructRohanBarracks",
+   "en": "Trains the melee infantry of Rohan \n Researches weapons and armour upgrades \n Generates a small amount of resources",
+   "ru": "Позволяет тренировать пехоту Рохана\nПозволяет исследовать улучшения оружия и брони\nПроизводит небольшое количество ресурсов",
+   "sergii": "Тренування піхоти Рогану\nДослідження покращень зброї та броні\nПеріодично виробляє трохи ресурсів"
+  },
+  {
+   "var": "OBJECT:RohanArcheryRangeDescription",
+   "en": "Generates a small amount of resources\nLevel 2: +10% faster build speed\n Level 3: +25% faster build speed",
+   "ru": "Производит небольшое количество ресурсов\nУровень 2: +10% скорости работы\nУровень 3: +25% скорости работы",
+   "sergii": "Періодично виробляє трохи ресурсів\nРівень 2: +10% до швидкості підготовки військ\nРівень 3: +25% до швидкості підготовки військ"
+  },
+  {
+   "var": "OBJECT:RohanBarracksDescription",
+   "en": "Generates a small amount of resources\nLevel 2: +10% faster build speed\n Level 3: +25% faster build speed",
+   "ru": "Производит небольшое количество ресурсов\nУровень 2: +10% скорости работы\nУровень 3: +25% скорости работы",
+   "sergii": "Періодично виробляє трохи ресурсів\nРівень 2: +10% до швидкості підготовки військ\nРівень 3: +25% до швидкості підготовки військ"
+  },
+  {
+   "var": "OBJECT:RohanStablesDescription",
+   "en": "Generates a small amount of resources\nLevel 2: +10% faster build speed\n Level 3: +25% faster build speed",
+   "ru": "Производит небольшое количество ресурсов\nУровень 2: +10% скорости работы\nУровень 3: +25% скорости работы",
+   "sergii": "Періодично виробляє трохи ресурсів\n+10% до швидкості підготовки військ\n+25% до швидкості підготовки військ"
+  },
+  {
+   "var": "OBJECT:RohanPukelStatueDescription",
+   "en": "A Púkel-man statue harboring strange magic \n\n Nearby enemies suffer -25% damage and armour",
+   "ru": "Статуя племени Púkel, таящая в себе странную магию\nБлижайшие враги теряют -25% урона и -25% брони",
+   "sergii": "Статуя племені пукель, що приховує в собі дивну магію\n\nВороги, що знаходяться поруч, отримують штраф -25% до пошкоджень і броні"
+  },
+  {
+   "var": "OBJECT:RohanRefugeeCamp",
+   "en": "Refugee Camp",
+   "ru": "Лагерь беженцев",
+   "sergii": "Табір біженців"
+  },
+  {
+   "var": "OBJECT:RohanRohirrim",
+   "en": "Rohirrim Warrior",
+   "ru": "Всадник-рохиррим",
+   "sergii": "Воїни-рогірими"
+  },
+  {
+   "var": "OBJECT:RohanRohirrimArcher",
+   "en": "Rohirrim Archer",
+   "ru": "Лучник-рохиррим",
+   "sergii": "Лучники-рогірими"
+  },
+  {
+   "var": "OBJECT:RohanRohirrimArcherHorde",
+   "en": "Rohirrim Archers",
+   "ru": "Лучники рохиррим",
+   "sergii": "Лучники-рогірими"
+  },
+  {
+   "var": "OBJECT:RohanRohirrimBannerRider",
+   "en": "Rohirrim Banner Rider",
+   "ru": "Знаменосец Рохана",
+   "sergii": "Прапороносець рогіримів"
+  },
+  {
+   "var": "OBJECT:RohanSam",
+   "en": "Sam",
+   "ru": "Сэм",
+   "sergii": "Сем"
+  },
+  {
+   "var": "OBJECT:RohanSentryTower",
+   "en": "Rohan Sentry Tower",
+   "ru": "Дозорная башня",
+   "sergii": "Сторожова вежа Рогану"
+  },
+  {
+   "var": "OBJECT:RohanSiegeCrew",
+   "en": "Rohan Siege Crewer",
+   "ru": "Осадный роханский отряд",
+   "sergii": "Облоговий загін Рогану"
+  },
+  {
+   "var": "OBJECT:RohanSnowbournRider",
+   "en": "Rider of Snowbourn",
+   "ru": "Всадник Сноуборна",
+   "sergii": "Вершники Сноуборна"
+  },
+  {
+   "var": "OBJECT:RohanSpearmen",
+   "en": "Yeoman Spearman",
+   "ru": "Йомен-копейщик",
+   "sergii": "Йомени-списники"
+  },
+  {
+   "var": "OBJECT:RohanSpearThrower",
+   "en": "Yeoman Spear Thrower",
+   "ru": "Йомен-копьеметатель",
+   "sergii": "Йомен-метальник списів"
+  },
+  {
+   "var": "OBJECT:RohanSpearThrowerHorde",
+   "en": "Yeoman Spear Throwers",
+   "ru": "Йомены-копьеметатели",
+   "sergii": "Йомени-метальники списів"
+  },
+  {
+   "var": "OBJECT:RohanStable",
+   "en": "Stables",
+   "ru": "Конюшня",
+   "sergii": "Конюшні"
+  },
+  {
+   "var": "OBJECT:RohanStatueDescription",
+   "en": "Allies near the statue gain \n +50% damage, +50% armour, \n and earn experience twice as fast",
+   "ru": "Воины, находящиеся рядом со статуей, наносят\n+50% урона, получают +50% брони\nи набирают опыт вдвое быстрее",
+   "sergii": "Воїни, які перебувають поблизу статуї, отримують бонус\n+50% до пошкоджень, +50% до броні,\nта вдвічі швидше набирають досвід"
+  },
+  {
+   "var": "OBJECT:RohanTheoden",
+   "en": "Théoden",
+   "ru": "Теоден",
+   "sergii": "Теоден"
+  },
+  {
+   "var": "OBJECT:RohanTheodenMounted",
+   "en": "Théoden Mounted",
+   "ru": "Теоден",
+   "sergii": "Теоден на коні"
+  },
+  {
+   "var": "OBJECT:RohanTheodred",
+   "en": "Théodred",
+   "ru": "Теодред",
+   "sergii": "Теодред"
+  },
+  {
+   "var": "OBJECT:RohanTreeBeard",
+   "en": "Treebeard",
+   "ru": "Древобород",
+   "sergii": "Деревоборід"
+  },
+  {
+   "var": "OBJECT:RohanTreeBerd",
+   "en": "Treebeard",
+   "ru": "Древобород",
+   "sergii": "Деревоборід"
+  },
+  {
+   "var": "OBJECT:RohanWall",
+   "en": "Rohan Wall",
+   "ru": "Стена",
+   "sergii": "Стіна"
+  },
+  {
+   "var": "OBJECT:RohanWallFoundation",
+   "en": "Rohan Wall Foundation",
+   "ru": "Фундамент стены",
+   "sergii": "Фундамент стіни"
+  },
+  {
+   "var": "OBJECT:RohanWallTower",
+   "en": "Rohan Wall Tower",
+   "ru": "Башня",
+   "sergii": "Оборонна вежа"
+  },
+  {
+   "var": "OBJECT:RohanWell",
+   "en": "Edoras Well",
+   "ru": "Фонтан Эдораса",
+   "sergii": "Водограй Едораса"
+  },
+  {
+   "var": "OBJECT:RohanWellDescription",
+   "en": "Heals nearby allies and replenishes fallen units\n Detects stealth\n Increases resource gain of nearby farms and windmills by 10%",
+   "ru": "Ближайшие отряды исцеляются и пополняют свои ряды вне боя\n\nОбнаруживает скрытых врагов\nБонус орошения - увеличивает прирост ресурсов ближайших Ферм и Ветряных мельниц на 10%\nНе суммируется с Обильным урожаем",
+   "sergii": "Зцілює найближчих союзників поза боєм і поповнює їхню чисельність\nВиявляє невидимі загони\nЗбільшує приріст ресурсів сусідніх ферм і млинів на +10%"
+  },
+  {
+   "var": "OBJECT:RohanWestfolder",
+   "en": "Westfolder",
+   "ru": "Воин Вестфолда",
+   "sergii": "Воїн Вестфолду"
+  },
+  {
+   "var": "OBJECT:RohanWestfolderHorde",
+   "en": "Westfolders",
+   "ru": "Воины Вестфолда",
+   "sergii": "Воїни Вестфолду"
+  },
+  {
+   "var": "OBJECT:RohanWestfolderOutrider",
+   "en": "Westfold Outrider",
+   "ru": "Всадник Вестфолда",
+   "sergii": "Вершник Вестфолду"
+  },
+  {
+   "var": "OBJECT:RohanWestfoldOutriderHorde",
+   "en": "Westfold Outriders",
+   "ru": "Всадники Вестфолда",
+   "sergii": "Вершники Вестфолду"
+  },
+  {
+   "var": "OBJECT:RohanWindmill",
+   "en": "Windmill",
+   "ru": "Мельница",
+   "sergii": "Млин"
+  },
+  {
+   "var": "OBJECT:RohanWorker",
+   "en": "Peasant",
+   "ru": "Роханский рабочий",
+   "sergii": "Робітник Рогану"
+  },
+  {
+   "var": "OBJECT:RohanWorkshop",
+   "en": "Workshop",
+   "ru": "Мастерская",
+   "sergii": "Майстерня"
+  },
+  {
+   "var": "OBJECT:RohanWorkshopDescription",
+   "en": "Generates a small amount of resources\nLevel 2: +10% faster build speed\n Level 3: +25% faster build speed\nArtisan Bonus - Reduced cost of upgrades \n 1 Workshop: 5% \n 2 Workshops: 10% \n 3 Workshops: 15% \n 4+ Workshops: 20%",
+   "ru": "Производит небольшое количество ресурсов\nУровень 2: +10% скорости работы\nУровень 3: +25% скорости работы\nРемесло рохиррим - снижает стоимость улучшений\n1 мастерская: 5%\n2 мастерские: 10%\n3 мастерские: 15%\n4 и более : 20%",
+   "sergii": "Періодично виробляє трохи ресурсів\nРівень 2: +10% до швидкості підготовки військ\nРівень 3: +25% до швидкості підготовки військ\nЗнижена вартість покращень\n1 Майстерня: 5%\n2 Майстерні: 10%\n3 Майстерні: 15%\n4 і більше Майстерень: 20%"
+  },
+  {
+   "var": "OBJECT:BoromirShieldRohan",
+   "en": "Rohan Shield",
+   "ru": "Роханский щит",
+   "sergii": "Роганський щит"
+  },
+  {
+   "var": "OBJECT:CampaignRiderofRohan",
+   "en": "Rider of Rohan",
+   "ru": "",
+   "sergii": "Вершник Рогану"
+  },
+  {
+   "var": "OBJECT:CampaignRohanTent",
+   "en": "Rohan Troop Tent",
+   "ru": "Палатка воинов-роханцев",
+   "sergii": "Намет роганського війська"
+  },
+  {
+   "var": "OBJECT:CampaignRohanTentDescription",
+   "en": "Recruits Rohirric troops",
+   "ru": "Позволяет призывать отряды воинов-роханцев",
+   "sergii": "Дозволяє тренувати загони Рогану"
+  },
+  {
+   "var": "OBJECT:DolAmrothRohanBodyguard",
+   "en": "Edoras Kingsguard",
+   "ru": "Королевская гвардия Эдораса",
+   "sergii": "Королівська варта Едорасу"
+  },
+  {
+   "var": "OBJECT:HordeRohanArcher",
+   "en": "Yeomen Archers",
+   "ru": "Йомен-лучник",
+   "sergii": "Йомен-лучники"
+  },
+  {
+   "var": "OBJECT:HordeRohanArcherCombo",
+   "en": "Yeomen Spearmen - Yeomen Archers",
+   "ru": "Отряд йоменов-копейщиков и лучников-йоменов",
+   "sergii": "Йомени-списники — Йомени-лучники"
+  },
+  {
+   "var": "OBJECT:HordeRohanArcherWCombo",
+   "en": "Yeomen Archers - Westfolders",
+   "ru": "Отряд йоменов-копейщиков-воинов Вестфолда",
+   "sergii": "Йомени-лучники — Воїни Вестфолду"
+  },
+  {
+   "var": "OBJECT:HordeRohanDoorWarden",
+   "en": "Edoras Kingsguard",
+   "ru": "Королевская гвардия Эдораса",
+   "sergii": "Королівська варта Едорасу"
+  },
+  {
+   "var": "OBJECT:HordeRohanElves",
+   "en": "Lorien Warriors",
+   "ru": "Копейщики-сильван",
+   "sergii": "Воїни Лорієну"
+  },
+  {
+   "var": "OBJECT:HordeRohanElvesCombo",
+   "en": "Lorien Warrior Battle Line",
+   "ru": "Строй воинов Лориэна",
+   "sergii": "Бойовий стрій лорієнських воїнів"
+  },
+  {
+   "var": "OBJECT:HordeRohanFirienholtWarden",
+   "en": "Halifirien Wardens",
+   "ru": "Стражи Халифириэна",
+   "sergii": "Вартові Галіфірієну"
+  },
+  {
+   "var": "OBJECT:HordeRohanGuardCav",
+   "en": "Mounted Kingsguard",
+   "ru": "Королевская конная гвардия",
+   "sergii": "Кінна королівська гвардія"
+  },
+  {
+   "var": "OBJECT:HordeRohanHelmingasWarden",
+   "en": "Helmingas Warriors",
+   "ru": "Хельминги",
+   "sergii": "Гельмінґські воїни"
+  },
+  {
+   "var": "OBJECT:HordeRohanHorsemen",
+   "en": "Horsemen of the Mark",
+   "ru": "Всадники Марки",
+   "sergii": "Вершники Марки"
+  },
+  {
+   "var": "OBJECT:HordeRohanPeasant",
+   "en": "Peasants",
+   "ru": "Крестьяне",
+   "sergii": "Селяни"
+  },
+  {
+   "var": "OBJECT:HordeRohanPeasantArcherCombo",
+   "en": "Peasant - Men of Dale",
+   "ru": "Отряд крестьян и людей Дэйла",
+   "sergii": "Загін селян та людей Дейла"
+  },
+  {
+   "var": "OBJECT:HordeRohanRohirrim",
+   "en": "Rohirrim Warriors",
+   "ru": "Воины-рохиррим",
+   "sergii": "Воїни-рогірими"
+  },
+  {
+   "var": "OBJECT:HordeRohanRohirrimArcherPeasantCombo",
+   "en": "Rohirrim Archer - Peasant",
+   "ru": "Лучник-рохиррим и крестьяне",
+   "sergii": "Лучники-рогірими та селяни"
+  },
+  {
+   "var": "OBJECT:HordeRohanRohirrimArchers",
+   "en": "Rohirrim Archers",
+   "ru": "Лучники-рохиррим",
+   "sergii": "Лучники-рогірими"
+  },
+  {
+   "var": "OBJECT:HordeRohanRohirrimPeasantCombo",
+   "en": "Rohirrim - Peasant",
+   "ru": "Рохиррим и крестьяне",
+   "sergii": "Рогірими та селяни"
+  },
+  {
+   "var": "OBJECT:HordeRohanRohirrimSpearCombo",
+   "en": "Yeomen Spearmen - Rohirrim Warrior Horde",
+   "ru": "Отряд йоменов-копейщиков - воинов-рохиррим",
+   "sergii": "Загін йоменів-списників та воїнів-рогіримів"
+  },
+  {
+   "var": "OBJECT:HordeRohanSnowbournRider",
+   "en": "Riders of Snowbourn",
+   "ru": "Всадники Сноуборна",
+   "sergii": "Сноуборнські вершники"
+  },
+  {
+   "var": "OBJECT:HordeRohanSpearmen",
+   "en": "Yeoman Spearmen",
+   "ru": "Йомены-копейщики",
+   "sergii": "Йомени-списники"
+  },
+  {
+   "var": "OBJECT:Rohan",
+   "en": "Rohan",
+   "ru": "Рохан",
+   "sergii": "Роган"
+  },
+  {
+   "var": "OBJECT:RohanArcher",
+   "en": "Yeoman Archer",
+   "ru": "Йомен-лучник",
+   "sergii": "Йомени-лучники"
+  },
+  {
+   "var": "OBJECT:RohanArcherRange",
+   "en": "Archery Range",
+   "ru": "Стрельбище",
+   "sergii": "Стрільбище"
+  },
+  {
+   "var": "OBJECT:RohanArmory",
+   "en": "Rohan Armoury",
+   "ru": "Оружейная",
+   "sergii": "Зброярня Рогану"
+  },
+  {
+   "var": "OBJECT:RohanArmoryDescription",
+   "en": "Weapons and armour upgrades",
+   "ru": "Исследование усовершенствований для оружия и доспехов",
+   "sergii": "Дослідження покращень зброї та обладунків"
+  },
+  {
+   "var": "OBJECT:RohanBaldor",
+   "en": "Baldor's Ghost",
+   "ru": "",
+   "sergii": "Привид Балдора"
+  },
+  {
+   "var": "OBJECT:RohanBanner",
+   "en": "Banner Carrier",
+   "ru": "Знаменосец",
+   "sergii": "Прапороносець"
+  },
+  {
+   "var": "OBJECT:RohanBaseDefenseFoundation",
+   "en": "Rohan Defense Foundation",
+   "ru": "Фундамент оборонительного сооружения",
+   "sergii": "Фундамент оборонної споруди"
+  },
+  {
+   "var": "OBJECT:RohanBatteringRam",
+   "en": "Horse-Head Ram",
+   "ru": "Конноголовый таран",
+   "sergii": "Кінноголовий таран"
+  },
+  {
+   "var": "OBJECT:RohanBattleTower",
+   "en": "Rohan Battle Tower",
+   "ru": "Башня стрелков",
+   "sergii": "Оборонна вежа"
+  },
+  {
+   "var": "OBJECT:RohanBattleTowerDescription",
+   "en": "Strong defensive building. Shoots arrows at enemies.",
+   "ru": "Оборонительное сооружение, откуда ведется огонь по врагам.",
+   "sergii": "Міцна оборонна споруда, звідки ведеться вогонь стрілами по ворогах."
+  },
+  {
+   "var": "OBJECT:RohanBuildingFoundation",
+   "en": "Rohan Build Plot",
+   "ru": "Фундамент роханской постройки",
+   "sergii": "Фундамент роганської будівлі"
+  },
+  {
+   "var": "OBJECT:RohanCampKeep",
+   "en": "Rohan Keep",
+   "ru": "Крепость Рохана",
+   "sergii": "Фортеця Рогану"
+  },
+  {
+   "var": "OBJECT:RohanCastleBaseKeep",
+   "en": "Rohan Base Keep",
+   "ru": "Крепость Рохана",
+   "sergii": "Фортеця Рогану"
+  },
+  {
+   "var": "OBJECT:RohanCastleCatapultExpansion",
+   "en": "Onager Expansion",
+   "ru": "Онагр",
+   "sergii": "Рогіримський онагр"
+  },
+  {
+   "var": "OBJECT:RohanCastleDoor",
+   "en": "Rohan Castle Door",
+   "ru": "Дверь замка",
+   "sergii": "Двері фортеці"
+  },
+  {
+   "var": "OBJECT:RohanCastleTower",
+   "en": "Rohan Castle Tower",
+   "ru": "Башня замка",
+   "sergii": "Вежа фортеці"
+  },
+  {
+   "var": "OBJECT:RohanCastleWall",
+   "en": "Rohan Castle Wall",
+   "ru": "Стена",
+   "sergii": "Стіна"
+  },
+  {
+   "var": "OBJECT:RohanCastleElevator",
+   "en": "Rohan Elevator",
+   "ru": "Лестница",
+   "sergii": "Сходи"
+  },
+  {
+   "var": "OBJECT:RohanCastleGate",
+   "en": "Rohan Castle Gate",
+   "ru": "Ворота",
+   "sergii": "Брама"
+  },
+  {
+   "var": "OBJECT:RohanCastleWallCatapultSmall",
+   "en": "Onager",
+   "ru": "Онагр",
+   "sergii": "Рогіримський онагр"
+  },
+  {
+   "var": "OBJECT:RohanCavalry",
+   "en": "Rohirrim Warriors",
+   "ru": "Всадники-рохиррим",
+   "sergii": "Воїни-рогірими"
+  },
+  {
+   "var": "OBJECT:RohanDismountedRohirrim",
+   "en": "Rohirrim Footman",
+   "ru": "Пехотинец рохиррим",
+   "sergii": "Піхотинець рогіримів"
+  },
+  {
+   "var": "OBJECT:RohanDismountedRohirrimHorde",
+   "en": "Rohirrim Footmen",
+   "ru": "Пехотинцы рохиррим",
+   "sergii": "Піхотинці рогіримів"
+  },
+  {
+   "var": "OBJECT:RohanDoorWarden",
+   "en": "Edoras Kingsguard",
+   "ru": "Королевский гвардеец Эдораса",
+   "sergii": "Королівська варта Едорасу"
+  },
+  {
+   "var": "OBJECT:RohanDraftTower",
+   "en": "Draft Tower",
+   "ru": "Колокольня",
+   "sergii": "Вербувальна вежа"
+  },
+  {
+   "var": "OBJECT:RohanDraftTowerDescription",
+   "en": "Can summon battalions to protect the area",
+   "ru": "Может вызывать отряд для защиты",
+   "sergii": "Може скликати загін для захисту території"
+  },
+  {
+   "var": "OBJECT:RohanDunhere",
+   "en": "Dúnhere",
+   "ru": "Дунхерэ",
+   "sergii": "Дунхер"
+  },
+  {
+   "var": "OBJECT:RohanElfhelm",
+   "en": "Elfhelm",
+   "ru": "Эльфхельм",
+   "sergii": "Ельфгельм"
+  },
+  {
+   "var": "OBJECT:RohanElvenWarrior",
+   "en": "Elven Warriors",
+   "ru": "Эльфийские воины",
+   "sergii": "Ельфійські воїни"
+  },
+  {
+   "var": "OBJECT:RohanEnt",
+   "en": "Ent",
+   "ru": "Энт",
+   "sergii": "Ент"
+  },
+  {
+   "var": "OBJECT:RohanEntMootDescription",
+   "en": "If Moot is attacked, council automatically concludes.",
+   "ru": "Если заводь атакована, там немедленно собирается совет энтов.",
+   "sergii": "Якщо Віче Ентів атаковано, негайно скликаються збори."
+  },
+  {
+   "var": "OBJECT:RohanEomer",
+   "en": "Éomer",
+   "ru": "Эомер",
+   "sergii": "Еомер"
+  },
+  {
+   "var": "OBJECT:RohanEomerCavalry",
+   "en": "Éomer",
+   "ru": "Гамлинг",
+   "sergii": "Еомер"
+  },
+  {
+   "var": "OBJECT:RohanEowyn",
+   "en": "Éowyn",
+   "ru": "Эовин",
+   "sergii": "Еовін"
+  },
+  {
+   "var": "OBJECT:RohanErkenbrand",
+   "en": "Erkenbrand",
+   "ru": "Эркенбранд",
+   "sergii": "Еркенбранд"
+  },
+  {
+   "var": "OBJECT:RohanFarm",
+   "en": "Farm",
+   "ru": "Ферма",
+   "sergii": "Ферма"
+  },
+  {
+   "var": "OBJECT:RohanFarmDescription",
+   "en": "Reduces the Cost of Cavalry \n 2 Farms: 10%\n 3 Farms: 15% \n 4 Farms: 20%\n 5 Farms: 25%\n 6+ Farms: 30%",
+   "ru": "Снижает стоимость кавалерии\n2 фермы: 10%\n3 фермы: 15%\n4 фермы: 20%\n5 ферм: 25%\n6 и более: 30%",
+   "sergii": "Зниження вартості кавалерії\n2 Ферми: 10%\n3 Ферми: 15%\n4 Ферми: 20%\n5 Ферм: 25%\n6 і більше Ферм: 30%"
+  },
+  {
+   "var": "OBJECT:RohanFighter",
+   "en": "Rohan Militia",
+   "ru": "Роханский ополченец",
+   "sergii": "Роганська дружина"
+  },
+  {
+   "var": "OBJECT:RohanFlag",
+   "en": "Rohan Flag",
+   "ru": "Штандарт Рохана",
+   "sergii": "Прапор Рогану"
+  },
+  {
+   "var": "OBJECT:RohanFlagTowerDescription",
+   "en": "Grants a bonus to nearby troops \n +50% armour +125% damage",
+   "ru": "Находящиеся рядом войска наносят +125% урона и\nполучают +50% брони",
+   "sergii": "Війська, що перебувають поруч, отримують бонус\n+50% броні, +125% до пошкоджень"
+  },
+  {
+   "var": "OBJECT:RohanFlamingArrowPorter",
+   "en": "Rohan Fire Arrows Porter",
+   "ru": "Подносчик огненных стрел",
+   "sergii": "Носій вогняних стріл"
+  },
+  {
+   "var": "OBJECT:RohanForgedBladesPorter",
+   "en": "Rohan Forged Blades Porter",
+   "ru": "Подносчик стального оружия",
+   "sergii": "Носій сталевої зброї"
+  },
+  {
+   "var": "OBJECT:RohanFrodo",
+   "en": "Frodo",
+   "ru": "Фродо",
+   "sergii": "Фродо"
+  },
+  {
+   "var": "OBJECT:RohanGamling",
+   "en": "Gamling",
+   "ru": "Гамлинг",
+   "sergii": "Ґамлінґ"
+  },
+  {
+   "var": "OBJECT:RohanGate",
+   "en": "Rohan Gate",
+   "ru": "Ворота",
+   "sergii": "Брама"
+  },
+  {
+   "var": "OBJECT:RohanGimli",
+   "en": "Gimli",
+   "ru": "Гимли",
+   "sergii": "Ґімлі"
+  },
+  {
+   "var": "OBJECT:RohanGoldenHall",
+   "en": "Rohan Golden Hall",
+   "ru": "Золотой чертог",
+   "sergii": "Золотий Палац"
+  },
+  {
+   "var": "OBJECT:RohanGrimbold",
+   "en": "Grimbold",
+   "ru": "Гримбольд",
+   "sergii": "Ґрімбольд"
+  },
+  {
+   "var": "OBJECT:RohanGuard",
+   "en": "Mounted Kingsguard",
+   "ru": "Королевский гвардеец",
+   "sergii": "Кінна королівська гвардія"
+  },
+  {
+   "var": "OBJECT:RohanHama",
+   "en": "Háma",
+   "ru": "Хама",
+   "sergii": "Гама"
+  },
+  {
+   "var": "OBJECT:RohanHeavyArmorPorter",
+   "en": "Rohan Heavy Armour Porter",
+   "ru": "Подносчик тяжелых доспехов",
+   "sergii": "Носій важких обладунків"
+  },
+  {
+   "var": "OBJECT:RohanHelmingasWarden",
+   "en": "Helmingas Warriors",
+   "ru": "Хельминг",
+   "sergii": "Гельмінґські воїни"
+  },
+  {
+   "var": "OBJECT:RohanHelmsDeepKeep",
+   "en": "Helm's Deep Keep",
+   "ru": "Крепость Хельмовой пади",
+   "sergii": "Фортеця Гельмового Яру"
+  },
+  {
+   "var": "OBJECT:RohanHeroicStatueDescription",
+   "en": "Modifier Type: Leadership \n Allies near the Statue gain +25% damage, +25% armour, earn experience 33% faster, and become immune to fear and terror",
+   "ru": "Тип модификатора: Лидерство\nСоюзники рядом со статуей наносят +25% урона, получают +25% брони и набирают опыт на +33% быстрее, а также становятся невосприимчивыми к страху и ужасу",
+   "sergii": "Тип ефекту: Лідерство\nВоїни, які перебувають поблизу статуї, отримують бонус +25% до пошкоджень, +25% броні, здобувають досвід на 33% швидше, а також стають непіддатливими до страху й жаху"
+  },
+  {
+   "var": "OBJECT:RohanHeroStatue",
+   "en": "Heroic Statue",
+   "ru": "Статуя Эорла",
+   "sergii": "Статуя Еорла"
+  },
+  {
+   "var": "OBJECT:RohanHirgon",
+   "en": "Hirgon",
+   "ru": "Хиргон",
+   "sergii": "Гірґон"
+  },
+  {
+   "var": "OBJECT:RohanHobbit",
+   "en": "Hobbit",
+   "ru": "Хоббит",
+   "sergii": "Гобіт"
+  },
+  {
+   "var": "OBJECT:RohanHorseBowPorter",
+   "en": "Rohan Horse Bow Porter",
+   "ru": "Подносчик луков для конных лучников",
+   "sergii": "Носій луків для кінних лучників"
+  },
+  {
+   "var": "OBJECT:RohanHorsemen",
+   "en": "Horseman of the Mark",
+   "ru": "Всадник Марки",
+   "sergii": "Вершники Марки"
+  },
+  {
+   "var": "OBJECT:RohanHorseShieldPorter",
+   "en": "Rohan Horse Shields Porter",
+   "ru": "Подносчик щитов для всадников",
+   "sergii": "Носій щитів для вершників"
+  },
+  {
+   "var": "OBJECT:RohanLegolas",
+   "en": "Legolas",
+   "ru": "Леголас",
+   "sergii": "Леґолас"
+  },
+  {
+   "var": "OBJECT:RohanLoneScout",
+   "en": "Outrider",
+   "ru": "Разведчик",
+   "sergii": "Розвідник"
+  },
+  {
+   "var": "OBJECT:RohanMangonel",
+   "en": "Rohirric Onager",
+   "ru": "Роханский онагр",
+   "sergii": "Рогіримські онагри"
+  },
+  {
+   "var": "OBJECT:RohanMerry",
+   "en": "Merry",
+   "ru": "Мерри",
+   "sergii": "Меррі"
+  },
+  {
+   "var": "OBJECT:RohanPeasant",
+   "en": "Peasant",
+   "ru": "Роханские крестьяне",
+   "sergii": "Селянин Рогану"
+  },
+  {
+   "var": "OBJECT:RohanPippin",
+   "en": "Pippin",
+   "ru": "Пиппин",
+   "sergii": "Піпін"
+  },
+  {
+   "var": "OBJECT:RohanPorter",
+   "en": "Rohan Porter",
+   "ru": "Роханский подносчик",
+   "sergii": "Роганський носій"
+  },
+  {
+   "var": "OBJECT:RohanPukelStatue",
+   "en": "Púkel-man Statue",
+   "ru": "Статуя племени Púkel",
+   "sergii": "Статуя племені пукель"
+  },
+  {
+   "var": "APT:DirectConnect",
+   "en": "Direct Connect",
+   "ru": "IP-адрес",
+   "sergii": "IP-адреса"
+  },
+  {
+   "var": "APT:EasyDifficulty",
+   "en": "Just the Story",
+   "ru": "Просто история",
+   "sergii": "НИЗЬКА"
+  },
+  {
+   "var": "APT:Dwarves",
+   "en": "Dwarves",
+   "ru": "Гномы",
+   "sergii": "Дворфи"
+  },
+  {
+   "var": "ToolTip:LackElvenForgedBladesRohanInn",
+   "en": "Research Forged Blades upgrade at Barracks\nto enable this equipment \n When equipped, increases the damage done by melee weapons",
+   "ru": "Исследуется в казармах\nЗначительное увеличение урона в ближнем бою",
+   "sergii": "Придбайте покращення в «Казармах», щоб відкрити це спорядження\nПісля оснащення збільшує пошкодження в ближньому бою"
+  },
+  {
+   "var": "TOOLTIP:LackRohanBasicTraining",
+   "en": "Research Upgrade at Barracks to enable this equipment \n When equipped, increases this battalion to Level 2",
+   "ru": "Исследуется в казармах\nОтряд получает уровень 2",
+   "sergii": "Придбайте покращення в «Казармах», щоб відкрити це спорядження\nПісля оснащення підвищує рівень загону до 2"
+  },
+  {
+   "var": "TOOLTIP:LackRohanBasicTrainingHD",
+   "en": "Go to the armoury to research this equipment \n When equipped, increases this battalion to Level 2",
+   "ru": "Для получения этого улучшения, отряд должен находится в оружейной\nОтряд получает уровень 2",
+   "sergii": "Щоб отримати це покращення, загін має перебувати в Зброярні\nПісля оснащення підвищує рівень загону до 2"
+  },
+  {
+   "var": "TOOLTIP:LackRohanFireArrows",
+   "en": "Purchase Upgrade at Archery Range to enable this equipment \n When equipped, significantly increases the damage done by arrows",
+   "ru": "Исследуется в стрельбище\nЗначительное увеличение урона наносимого отрядом в дальнем бою\n",
+   "sergii": "Придбайте покращення на «Стрільбищі», щоб відкрити це спорядження\nПісля оснащення значно збільшує пошкодження стріл"
+  },
+  {
+   "var": "TOOLTIP:LackRohanFireArrowsHD",
+   "en": "Go to the armoury to research this equipment \n When equipped, significantly reduces the amount of damage taken",
+   "ru": "Для получения этого улучшения, отряд должен находится в оружейной\nЗначительное увеличение урона наносимого отрядом в дальнем бою\n",
+   "sergii": "Щоб отримати це покращення, загін має перебувати в Зброярні\nПісля оснащення значно зменшує отримувані пошкодження"
+  },
+  {
+   "var": "TOOLTIP:LackRohanForgedBlades",
+   "en": "Research Upgrade at Barracks to enable this equipment \n When equipped, increases the damage done by melee weapons",
+   "ru": "Исследуется в казармах\nЗначительное увеличение урона в ближнем бою",
+   "sergii": "Придбайте покращення в «Казармах», щоб відкрити це спорядження\nПісля оснащення збільшує пошкодження в ближньому бою"
+  },
+  {
+   "var": "TOOLTIP:LackRohanForgedBladesHD",
+   "en": "Go to the armoury to research this equipment \n When equipped, increases the damage done by melee weapons",
+   "ru": "Для получения этого улучшения, отряд должен находится в оружейной\nЗначительное увеличение урона в ближнем бою",
+   "sergii": "Щоб отримати це покращення, загін має перебувати в Зброярні\nПісля оснащення збільшує пошкодження в ближньому бою"
+  },
+  {
+   "var": "TOOLTIP:LackRohanForgedBladesP",
+   "en": "Requires Peasants to be Drafted \n Research Upgrade at Barracks to enable this equipment \n When equipped, increases the damage done by melee weapons",
+   "ru": "Требуется, чтобы крестьяне были призваны на службу\nИсследуется в казармах\nЗначительное снижение получаемого урона",
+   "sergii": "Необхідно: селяни мають бути призвані на службу\nПридбайте покращення в «Казармах», щоб відкрити це спорядження\nПісля оснащення збільшує пошкодження в ближньому бою"
+  },
+  {
+   "var": "TOOLTIP:LackRohanFortressMeadHall",
+   "en": "Requires the Mead Hall upgrade \n Allows the summoning of two fully-upgraded Rohirrim battalions",
+   "ru": "Требуется улучшение Медовый зал\nПозволяет призывать два полностью улучшенных отряда всадников-рохиррим",
+   "sergii": "Необхідно: покращення «Медовий зал»\nДозволяє тимчасово прикликати 2 повністю покращених загони рогіримів"
+  },
+  {
+   "var": "TOOLTIP:LackRohanHeavyArmor",
+   "en": "Research Upgrade at Barracks to enable this equipment \n When equipped, significantly reduces the amount of damage taken",
+   "ru": "Исследуется в казармах\nЗначительное снижение получаемого урона",
+   "sergii": "Придбайте покращення в «Казармах», щоб відкрити це спорядження\nПісля оснащення значно зменшує отримувані пошкодження"
+  },
+  {
+   "var": "TOOLTIP:LackRohanHeavyArmorHD",
+   "en": "Go to the armoury to research this equipment \n When equipped, significantly reduces the amount of damage taken",
+   "ru": "Для получения этого улучшения, отряд должен находится в оружейной\nЗначительное снижение получаемого урона",
+   "sergii": "Щоб отримати це покращення, загін має перебувати в Зброярні\nПісля оснащення значно зменшує отримувані пошкодження"
+  },
+  {
+   "var": "TOOLTIP:LackRohanHeavyArmorP",
+   "en": "Requires Peasants to be Drafted \n Research Upgrade at Barracks to enable this equipment \n When equipped, significantly reduces the amount of damage taken",
+   "ru": "Требуется, чтобы крестьяне были призваны на службу\nИсследуется в казармах\nСущественное уменьшение наносимого врагами урона",
+   "sergii": "Необхідно: селяни мають бути призвані на службу\nПридбайте покращення в «Казармах», щоб відкрити це спорядження\nПісля оснащення значно зменшує отримувані пошкодження"
+  },
+  {
+   "var": "TOOLTIP:LackRohanHorseShield",
+   "en": "Research upgrade at Stables to enable this equipment \n When equipped, significantly reduces the amount of damage taken from Archers and Pikemen",
+   "ru": "Исследуется в конюшнях\nЗначительное снижение получаемого урона от стрел и копий",
+   "sergii": "Придбайте покращення в «Конюшнях», щоб відкрити це спорядження\nПісля оснащення значно зменшує пошкодження від лучників і пікінерів"
+  },
+  {
+   "var": "TOOLTIP:LacksTechnologyElvenSilverthornArrows_RohanInn",
+   "en": "Research Fire Arrows upgrade at Archery Range\nto enable this equipment \n When equipped, significantly increases the damage done by arrows",
+   "ru": "Исследуется в стрельбище\nЗначительное увеличение урона от стрел",
+   "sergii": "Вогняні стріли досліджуються на Стрільбищі\nПісля оснащення значно збільшує пошкодження стріл"
+  },
+  {
+   "var": "TOOLTIP:OnlineShell/OnlineProfile/tooltipGondor",
+   "en": "Overall statistics accumulated for Gondor",
+   "ru": "Статистика игр для армии Гондора",
+   "sergii": "Статистика ігор для армії Ґондору"
+  },
+  {
+   "var": "TOOLTIP:OnlineShell/OnlineProfile/tooltipIsengard",
+   "en": "Overall statistics accumulated for Isengard",
+   "ru": "Статистика игр для армии Изенгарда.",
+   "sergii": "Статистика ігор для армії Ізенґарду"
+  },
+  {
+   "var": "TOOLTIP:OnlineShell/OnlineProfile/tooltipMordor",
+   "en": "Overall statistics accumulated for Mordor",
+   "ru": "Статистика игр для армии Мордора",
+   "sergii": "Статистика ігор для армії Мордору"
+  },
+  {
+   "var": "TOOLTIP:OnlineShell/OnlineProfile/tooltipRohan",
+   "en": "Overall statistics accumulated for Rohan",
+   "ru": "Статистика игр для армии Рохана",
+   "sergii": "Статистика ігор для армії Рогану"
+  },
+  {
+   "var": "TOOLTIP:RohanFlamingArrows",
+   "en": "Flaming Arrows",
+   "ru": "Огненные стрелы",
+   "sergii": "Вогняні стріли"
+  },
+  {
+   "var": "TOOLTIP:RohanForgedBlades",
+   "en": "Mundburg Steel Blades",
+   "ru": "Мундбургские клинки",
+   "sergii": "Зброя із мундбурзької сталі"
+  },
+  {
+   "var": "TOOLTIP:RohanHeavyArmor",
+   "en": "Mundburg Steel Armour",
+   "ru": "Мунбургские доспехи",
+   "sergii": "Обладунки із мундбурзької сталі"
+  },
+  {
+   "var": "TOOLTIP:RohanHorseShields",
+   "en": "Horse Shields",
+   "ru": "Щиты всадников",
+   "sergii": "Щити вершників"
+  },
+  {
+   "var": "UPGRADE:RohanBasicTraining",
+   "en": "Heraldry of the Riddermark",
+   "ru": "Знаменосец Западной Марки",
+   "sergii": "Стяг Ріддермарку"
+  },
+  {
+   "var": "UPGRADE:RohanFireArrowUpgrade",
+   "en": "Fire Arrows",
+   "ru": "Огненные стрелы",
+   "sergii": "Вогняні стріли"
+  },
+  {
+   "var": "UPGRADE:RohanForgedBlades",
+   "en": "Mundburg Steel Blades",
+   "ru": "Мундбургское клинки",
+   "sergii": "Зброя із мундбурзької сталі"
+  },
+  {
+   "var": "UPGRADE:RohanHeavyArmor",
+   "en": "Mundburg Steel Armour",
+   "ru": "Мундбургские доспехи",
+   "sergii": "Обладунки із мундбурзької сталі"
+  },
+  {
+   "var": "UPGRADE:RohanHornsOfTheRohirrim",
+   "en": "Horns of the Rohirrim Upgrades",
+   "ru": "Усовершенствование: Боевой рог рохиррим",
+   "sergii": "Покращення: Бойовий ріг рогіримів"
+  },
+  {
+   "var": "UPGRADE:RohanHorseLance",
+   "en": "Horse Lances",
+   "ru": "Копья всадников",
+   "sergii": "Списи вершників"
+  },
+  {
+   "var": "UPGRADE:RohanHorseShield",
+   "en": "Horseman Shields",
+   "ru": "Щиты всадников",
+   "sergii": "Щити вершників"
+  },
+  {
+   "var": "CONTROLBAR:HornofHammerhand",
+   "en": "Horns of Hammerhand (&T)",
+   "ru": "Рог Хельма Молоторукого (&T)",
+   "sergii": "Ріг Гельма Молоторукого (&T)"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeHornofHammerhand",
+   "en": "Horns of Hammerhand (&T)",
+   "ru": "Рог Хельма Молоторукого (&T)",
+   "sergii": "Ріг Гельма Молоторукого (&T)"
+  },
+  {
+   "var": "CONTROLBAR:RohanFortressRideofRohirrim",
+   "en": "Ride of the Rohirrim (&S)",
+   "ru": "Зов рохиррим (&S)",
+   "sergii": "Напад рогіримів (&S)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenFarm",
+   "en": "Build Farm (&W)",
+   "ru": "Построить ферму (&W)",
+   "sergii": "Ферма (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanWestfolderHorde",
+   "en": "Westfolders (&W)",
+   "ru": "Воины Вестфолда (&W)",
+   "sergii": "Воїни Вестфолду (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanDoorWardenHorde",
+   "en": "Edoras Kingsguard (&E)",
+   "ru": "Королевская гвардия Эдораса (&E)",
+   "sergii": "Королівська варта Едорасу (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanHelmingasWardenHorde",
+   "en": "Helmingas Warriors (&R)",
+   "ru": "Хельминги (&R)",
+   "sergii": "Гельмінґські воїни (&R)"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyRohanBasicTraining",
+   "en": "Research Heraldry of the Riddermark (&T)",
+   "ru": "Приобрести знамена Западной Марки (&T)",
+   "sergii": "Стяг Ріддермарку (&T)"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyRohanForgedBlades",
+   "en": "Mundburg Steel Blades (&S)",
+   "ru": "Мундбургские клинки (&S)",
+   "sergii": "Зброя із мундбурзької сталі (&S)"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyRohanHeavyArmor",
+   "en": "Mundburg Steel Armour (&D)",
+   "ru": "Мундбургские доспехи (&D)",
+   "sergii": "Обладунки із мундбурзької сталі (&D)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanWorkshop",
+   "en": "Build Workshop (&N)",
+   "ru": "Построить мастерскую (&N)",
+   "sergii": "Майстерня (&N)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanDraftTower",
+   "en": "Build Draft Tower (&M)",
+   "ru": "Построить колокольню (&M)",
+   "sergii": "Вербувальна вежа (&M)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanWell",
+   "en": "Build Edoras Well (&G)",
+   "ru": "Построить фонтан Эдораса (&G)",
+   "sergii": "Водограй Едорасу (&G)"
+  },
+  {
+   "var": "OBJECT:RohanWell",
+   "en": "Edoras Well",
+   "ru": "Фонтан Эдораса",
+   "sergii": "Водограй Едорасу"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanStatue",
+   "en": "Build Rohan Statue (&U)",
+   "ru": "Построить статую Эорла (&U)",
+   "sergii": "Статуя Еорла (&U)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanWall",
+   "en": "Build Rohan Wall",
+   "ru": "Стена (&W)",
+   "sergii": "Стіна"
+  },
+  {
+   "var": "CONTROLBAR:RohanBattleTowerGarrison",
+   "en": "Yeoman Sentry (&W)",
+   "ru": "Йомены-часовые (&W)",
+   "sergii": "Йомени-вартові (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanWorkshop2Upgrade",
+   "en": "Upgrade Workshop to Level 2 (&A)",
+   "ru": "Улучшить Мастерскую до уровня 2 (&A)",
+   "sergii": "Майстерня, рівень 2 (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanWorkshopLevel3Upgrade",
+   "en": "Upgrade Workshop to Level 3 (&A)",
+   "ru": "Улучшить Мастерскую до уровня 3 (&A)",
+   "sergii": "Майстерня, рівень 3 (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanBatteringRam",
+   "en": "Horse-head Ram (&W)",
+   "ru": "Конноголовый таран (&W)",
+   "sergii": "Кінноголовий таран (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanMangonel",
+   "en": "Rohirric Onager (&E)",
+   "ru": "Роханский онагр (&E)",
+   "sergii": "Рогіримський онагр (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanMangonelExpansion",
+   "en": "Onager Expansion (&R)",
+   "ru": "Улучшение онагр (&R)",
+   "sergii": "Рогіримський онагр (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanMangonelWotR",
+   "en": "Rohirric Onager (&W)",
+   "ru": "Роханский онагр (&W)",
+   "sergii": "Рогіримський онагр (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanHorsemenHorde",
+   "en": "Horsemen of the Mark (&W)",
+   "ru": "Всадники Марки (&W)",
+   "sergii": "Вершники Марки (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanKingsguardHorde",
+   "en": "Mounted Kingsguard (&S)",
+   "ru": "Королевская конная гвардия (&S)",
+   "sergii": "Кінна королівська гвардія (&S)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanGoldenHall",
+   "en": "Build Rohan Golden Hall",
+   "ru": "Золотой чертог",
+   "sergii": "Золотий Палац"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyRohanHorseShield",
+   "en": "Research Horseman Shields (&D)",
+   "ru": "Щиты всадников (&D)",
+   "sergii": "Щити вершників (&D)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanRohirrimHorde",
+   "en": "Rohirrim Warriors (&E)",
+   "ru": "Воины-рохиррим (&E)",
+   "sergii": "Воїни-рогірими (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanRohirrimArcherHorde",
+   "en": "Rohirrim Archers (&R)",
+   "ru": "Лучники-рохиррим (&R)",
+   "sergii": "Лучники-рогірими (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanPeasant",
+   "en": "Peasants (&E)",
+   "ru": "Крестьяне Рохана (&E)",
+   "sergii": "Селяни (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanSnowbournRider",
+   "en": "Riders of Snowbourn (&T)",
+   "ru": "Всадники Сноуборна (&T)",
+   "sergii": "Сноуборнські вершники (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanArcherHorde",
+   "en": "Yeomen Archers (&W)",
+   "ru": "Йомены-лучники (&W)",
+   "sergii": "Йомени-лучники (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanArcherHordeWotR",
+   "en": "Yeomen Archers (&R)",
+   "ru": "",
+   "sergii": "Йомени-лучники (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanArcherRange",
+   "en": "Build &Rohan Archery Range",
+   "ru": "Построить стрельбище (&R)",
+   "sergii": "Стрільбище (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanArmory",
+   "en": "Build Rohan Armour&y",
+   "ru": "Оружейная (&Y)",
+   "sergii": "Зброярня Рогану"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanBarracks",
+   "en": "Build Rohan Barra&cks",
+   "ru": "Построить казармы (&C)",
+   "sergii": "Казарми (&C)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructFirienholtWardenHorde",
+   "en": "Halifirien Wardens (&E)",
+   "ru": "Стражи Халифириэна (&E)",
+   "sergii": "Вартові Галіфірієну (&E)"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyRohanFireArrows",
+   "en": "Research Fire Arrows Upgrade (&R)",
+   "ru": "",
+   "sergii": "Дослідження Вогняних стріл (&R)"
+  },
+  {
+   "var": "CONTROLBAR:Command_RohanWallUpgradeToCatapult",
+   "en": "Rohirric Onager (&S)",
+   "ru": "Рохирримский онагр (&S)",
+   "sergii": "Рогіримський онагр (&S)"
+  },
+  {
+   "var": "CONTROLBAR:Conquer",
+   "en": "Conquer",
+   "ru": "Захват",
+   "sergii": "Завоювання"
+  },
+  {
+   "var": "CONTROLBAR:DraftTowerOathPeasants",
+   "en": "Fierce Defenders (&W)",
+   "ru": "Стойкие защитники (&W)",
+   "sergii": "Стійкі оборонці (&W)"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseDraftTowerWestfolder",
+   "en": "Oath: Westfold (&E)",
+   "ru": "Клятва: Вестфолд (&E)",
+   "sergii": "Присяга: Вестфолд (&E)"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseDraftTowerFirienholt",
+   "en": "Oath: Firienholt (&R)",
+   "ru": "Клятва: Фириенхольт (&R)",
+   "sergii": "Присяга: Фірієнгольт (&R)"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseDraftTowerRohirrim",
+   "en": "Oath: Éored (&T)",
+   "ru": "Клятва: Эоред (&T)",
+   "sergii": "Присяга: Еоред (&T)"
+  },
+  {
+   "var": "CONTROLBAR:RohanMerryHotkey",
+   "en": "Merry (&W)",
+   "ru": "Мерри (&W)",
+   "sergii": "Меррі (&W)"
+  },
+  {
+   "var": "CONTROLBAR:RohanHobbitRecruit",
+   "en": "Hobbits",
+   "ru": "Хоббиты",
+   "sergii": "Гобіти"
+  },
+  {
+   "var": "CONTROLBAR:RohanLegolasHotkey",
+   "en": "Legolas (&D)",
+   "ru": "Леголас (&D)",
+   "sergii": "Леґолас (&D)"
+  },
+  {
+   "var": "CONTROLBAR:RohanLegolasRevive",
+   "en": "Revive the fallen Hero, Legolas",
+   "ru": "Воскресить павшего героя, Леголаса",
+   "sergii": "Відродити полеглого в бою Леґоласа"
+  },
+  {
+   "var": "CONTROLBAR:RohanMerryRevive",
+   "en": "Revive the fallen Hero, Merry",
+   "ru": "Воскресить павшего героя, Мерри",
+   "sergii": "Відродити полеглого в бою Меррі"
+  },
+  {
+   "var": "CONTROLBAR:RohanLegolasRecruit",
+   "en": "Recruit the Prince of the Woodland Realm \n \n 'Yet do not cast all hope away. Tomorrow is unknown. Rede oft is found at the rising of the sun.'",
+   "ru": "Призвать принца Лесного королевства\n\n\"Но не теряйте надежду. Завтрашний день неизведан. Не зря говорят - утро вечера мудренее.\"",
+   "sergii": "Завербувати принца Лісового Королівства\n\n«Все ж не відкидай геть усю надію. Завтрашній день невідомий. Мудру пораду часто знаходять із початком нового дня на сході сонця»."
+  },
+  {
+   "var": "CONTROLBAR:RohanPeasantHasDraft",
+   "en": "Drafted",
+   "ru": "Ополчение",
+   "sergii": "Призов на службу"
+  },
+  {
+   "var": "CONTROLBAR:RohanMerryRecruit",
+   "en": "Recruit the Squire of Rohan. \n \n 'I just want to help my friends. Frodo, Sam, Pippin. More than anything, I wish I could see them again.'",
+   "ru": "Призвать оруженосца Рохана\n\n\"Я просто хочу помочь своим друзьям. Фродо. Сэму. Пиппину. Больше всего на свете я хотел бы снова увидеть их.\"",
+   "sergii": "Завербувати зброєносця Рогану.\n\n«Я просто хочу допомогти своїм друзям. Фродо, Сему, Піпіну. Понад усе на світі я мрію знову їх побачити»."
+  },
+  {
+   "var": "CONTROLBAR:RohanRebuild",
+   "en": "Shore Up",
+   "ru": "Укрепление",
+   "sergii": "Укріплення"
+  },
+  {
+   "var": "CONTROLBAR:RohanTheodenHotkey",
+   "en": "Théoden (&F)",
+   "ru": "Теоден (&F)",
+   "sergii": "Теоден (&F)"
+  },
+  {
+   "var": "CONTROLBAR:RohanTheodenRecruit",
+   "en": "Recruit the King of Rohan. \n \n 'Arise, arise, Riders of Théoden!\nFell deeds awake, fire and slaughter!\nSpear shall be shaken, shield be splintered,\na sword-day, a red day, ere the sun rises!\nRide now, ride now!'",
+   "ru": "Призвать короля Рохана\n\n\"В бой!\nВ бой, Всадники Теодена!\nКопья вздымайте, щиты крушите! День сечи, день славы!\nВперед, на встречу заре!\nВ бой! В бой! В последний бой этого мира!\nНа смерть! На смерть!\"",
+   "sergii": "Завербувати короля Рогану.\n\n«Повстаньте, повстаньте, Вершники Теодена!\nПрокиньтеся, люті діла, вогонь і різанина!\nСпис буде зламано, щит розтрощено.\nДень мечів, червоний день, перед тим як зійде сонце!\nВперед, вперед! До бою!»"
+  },
+  {
+   "var": "CONTROLBAR:RohanTheodenRevive",
+   "en": "Revive the fallen Hero, Théoden",
+   "ru": "Воскресить павшего героя, Теодена",
+   "sergii": "Відродити полеглого в бою Теодена"
+  },
+  {
+   "var": "CONTROLBAR:RohanTheodredHotkey",
+   "en": "Théodred (&S)",
+   "ru": "Теодред (&S)",
+   "sergii": "Теодред (&S)"
+  },
+  {
+   "var": "CONTROLBAR:RohanTheodredRecruit",
+   "en": "Recruit the Prince of Riddermark. \n \n 'Bealocwealm hafað fréone frecan forth onsended\ngiedd sculon singan gléomenn sorgiende\non Meduselde thæt he ma no wære\nhis dryhtne dyrest and maga deorost.'",
+   "ru": "Призвать наследника Западной Марки\n\n\"Злая смерть забрала благородного воина.\nПеснь будет петь печальный менестрель,\nВ Медовом зале его больше нет,\nЕго господину дорогому и любимым родственникам -\nЗлая смерть...\"",
+   "sergii": "Завербувати принца Ріддермарку.\n\n«Люта смерть забрала шляхетного воїна,\nсумну пісню співатимуть скорботні співці\nв Медусельді, бо його більше немає —\nтого, хто був найдорожчим для свого володаря та найлюбішим серед рідні»."
+  },
+  {
+   "var": "CONTROLBAR:RohanTheodredRevive",
+   "en": "Revive the fallen Hero, Théodred",
+   "ru": "Воскресить павшего героя, Теодреда",
+   "sergii": "Відродити полеглого в бою Теодреда"
+  },
+  {
+   "var": "CONTROLBAR:RohanCatapultUpgrade",
+   "en": "&Replace Onager",
+   "ru": "Замена онагра (&R)",
+   "sergii": "Заміна онагра (&R)"
+  },
+  {
+   "var": "CONTROLBAR:RohanCloudBreak",
+   "en": "Ere the Sun Rises",
+   "ru": "Восход солнца",
+   "sergii": "До сходу сонця"
+  },
+  {
+   "var": "CONTROLBAR:RohanElfhelmHotkey",
+   "en": "Elfhelm (&R)",
+   "ru": "Эльфхельм (&R)",
+   "sergii": "Ельфгельм (&R)"
+  },
+  {
+   "var": "CONTROLBAR:RohanElfhelmRecruit",
+   "en": "Recruit the marshal of Riddermark. \n \n A gifted swordsman and archer, Elfhelm's skill at arms earned him his name at an early age: Elf-helm; protected by the magic of the Elves, as the Rohirrim might have believed.",
+   "ru": "Призвать военачальника Западной Марки\n\nТалантливый мечник и лучник. Мастерство Эльфхельма в обращении с оружием сделало ему имя в раннем возрасте: Эльфийский Шлем. Шлем, защищенный магией эльфов, в которую рохиррим неустанно верили.",
+   "sergii": "Завербувати маршала Ріддермарку.\n\nВправний мечник і лучник, Ельфгельм ще замолоду заслужив своє ім’я завдяки воєнній майстерності: Ельфійський Шолом — ніби захищений чарами ельфів, як полюбляли вірити рогірим."
+  },
+  {
+   "var": "CONTROLBAR:RohanElfhelmRevive",
+   "en": "Revive the fallen Hero, Elfhelm",
+   "ru": "Воскресить павшего героя, Эльфхельма",
+   "sergii": "Відродити полеглого в бою Ельфгельма"
+  },
+  {
+   "var": "CONTROLBAR:RohanEomerHotkey",
+   "en": "Éomer (&D)",
+   "ru": "Эомер (&D)",
+   "sergii": "Еомер (&D)"
+  },
+  {
+   "var": "CONTROLBAR:RohanEomerRecruit",
+   "en": "Recruit the Third Marshal of the Riddermark. \n \n 'Now is the hour! Riders of Rohan! Oaths you have taken, now fulfill them all, to lord and land!'",
+   "ru": "Призвать третьего маршала Западной Марки\n\n\"Пробил час, всадники Рохана, вы дали клятву? Пришло время исполнить ее! За короля!\"",
+   "sergii": "Завербувати третього маршала Ріддермарку.\n\n«Ось і пробила година! Вершники Рогану! Ви складали присяги — тепер виконайте їх усі, перед володарем і перед своєю землею!»"
+  },
+  {
+   "var": "CONTROLBAR:RohanEomerRevive",
+   "en": "Revive the fallen Hero, Éomer",
+   "ru": "Воскресить павшего героя, Эомера",
+   "sergii": "Відродити полеглого в бою Еомера"
+  },
+  {
+   "var": "CONTROLBAR:RohanEowynHotkey",
+   "en": "Éowyn (&E)",
+   "ru": "Эовин (&E)",
+   "sergii": "Еовін (&E)"
+  },
+  {
+   "var": "CONTROLBAR:RohanEowynRecruit",
+   "en": "Recruit the Shieldmaiden of Rohan. \n \n 'But no living man am I! You are looking upon a woman. Éowyn am I, Éomund's daughter. You stand between me and my lord and kin. Begone, if you be not deathless! For living or dark undead, I will smite you, if you touch him.'",
+   "ru": "Призвать воительницу Рохана\n\n\"Но я не муж! Ты видишь женщину. Я Эовин, дочь Эомунда. Ты стоишь между мной, моим королем и родственником. Убирайся, если ты не бессмертен! Ибо, живой ты или мертвый, я убью тебя, если ты притронешься к нему!\"",
+   "sergii": "Завербувати воїтельку Рогану.\n\n«Але я не смертний муж! Перед тобою — жінка. Я — Еовін, донька Еомунда. Ти стоїш між мною, моїм володарем та моїм родом. Забирайся геть, якщо ти не безсмертний! Бо будь ти живим чи темним нежиттю, я вражу тебе, якщо ти торкнешся його!»"
+  },
+  {
+   "var": "CONTROLBAR:RohanEowynRevive",
+   "en": "Revive the fallen Hero, Éowyn",
+   "ru": "Воскресить павшего героя, Эовин",
+   "sergii": "Відродити полеглу в бою Еовін"
+  },
+  {
+   "var": "CONTROLBAR:RohanErkenbrandFakeSlot",
+   "en": "Recruit Erkenbrand (&T)",
+   "ru": "Призвать Эркенбранда (&T)",
+   "sergii": "Завербувати Еркенбранда (&T)"
+  },
+  {
+   "var": "CONTROLBAR:RohanErkenbrandHotkey",
+   "en": "Erkenbrand (&T)",
+   "ru": "Эркенбранд (&T)",
+   "sergii": "Еркенбранд (&T)"
+  },
+  {
+   "var": "CONTROLBAR:RohanErkenbrandRecruit",
+   "en": "Recruit the Lord of the Westfold \n \n Amid them strode a man tall and strong. His shield was red. As he came to the valley's brink, he set to his lips a great black horn and blew a ringing blast. 'Erkenbrand!' the Riders shouted. 'Erkenbrand!'",
+   "ru": "Призвать военачальника Вестфолда\n\n\"Среди них шел высокий и сильный мужчина. Его щит был красным. Когда он подошел к краю долины, он поднес к губам большой черный рог и издал громкий гул. \"Эркенбранд!\" Кричали всадники. \"Эркенбранд!\"",
+   "sergii": "Завербувати воєначальника Вестфолду\n\n«Посеред них крокував чоловік високий та міцний. Його щит був червоним. Підійшовши до краю долини, він приклав до губ великий чорний ріг і просурмив дзвінкий заклик. \"Еркенбранд!\" — закричали Вершники. \"Еркенбранд!\"»"
+  },
+  {
+   "var": "CONTROLBAR:RohanErkenbrandRevive",
+   "en": "Revive the fallen Hero, Erkenbrand",
+   "ru": "Воскресить павшего героя, Эркенбранда",
+   "sergii": "Відродити полеглого в бою Еркенбранда"
+  },
+  {
+   "var": "CONTROLBAR:RohanFarmProduction",
+   "en": "Farm Production (&W)",
+   "ru": "Производство ресурсов (&W)",
+   "sergii": "Виробництво ресурсів (&W)"
+  },
+  {
+   "var": "CONTROLBAR:RohanGamlingRecruit",
+   "en": "Gamling",
+   "ru": "Гамлинг",
+   "sergii": "Ґамлінґ"
+  },
+  {
+   "var": "CONTROLBAR:RohanGamlingRevive",
+   "en": "Revive Gaming",
+   "ru": "Воскресить павшего героя, Гамлинга",
+   "sergii": "Відродити полеглого в бою Ґамлінґа"
+  },
+  {
+   "var": "CONTROLBAR:RohanGimliHotkey",
+   "en": "Gimli (&S)",
+   "ru": "Гимли (&S)",
+   "sergii": "Ґімлі (&S)"
+  },
+  {
+   "var": "CONTROLBAR:RohanGimliHotkeyAdventure",
+   "en": "Gimli (&D)",
+   "ru": "Гимли (&D)",
+   "sergii": "Ґімлі (&D)"
+  },
+  {
+   "var": "CONTROLBAR:RohanGimliRecruit",
+   "en": "Recruit the Dwarf of the Lonely Mountain \n \n 'There is one Dwarf yet in Moria who still draws breath!'",
+   "ru": "Призвать отважного гнома из Одинокой горы\n\n\"Остался еще гном в Мории, способный держать топор!\"",
+   "sergii": "Завербувати відважного дворфа з Самотньої гори\n\n«У Морії є ще один дворф, який досі дихає!»"
+  },
+  {
+   "var": "CONTROLBAR:RohanGimliRevive",
+   "en": "Revive the fallen Hero, Gimli",
+   "ru": "Воскресить павшего героя, Гимли",
+   "sergii": "Відродити полеглого в бою Ґімлі"
+  },
+  {
+   "var": "CONTROLBAR:RohanHamaHotkey",
+   "en": "H&áma",
+   "ru": "Хама (&A)",
+   "sergii": "Гама (&A)"
+  },
+  {
+   "var": "CONTROLBAR:RohanHamaRecruit",
+   "en": "Recruit the Door-warden.",
+   "ru": "Призвать стража врат",
+   "sergii": "Завербувати вартового воріт"
+  },
+  {
+   "var": "CONTROLBAR:RohanHamaRevive",
+   "en": "Revive the fallen Hero, Háma",
+   "ru": "Воскресить павшего героя, Хаму",
+   "sergii": "Відродити полеглого в бою Гаму"
+  },
+  {
+   "var": "CONTROLBAR:RohanHirgonHotkey",
+   "en": "Hirgon (&W)",
+   "ru": "Хиргон (&W)",
+   "sergii": "Гірґон (&W)"
+  },
+  {
+   "var": "CONTROLBAR:RohanHirgonRecruit",
+   "en": "Recruit the Messenger of Gondor \n\n 'He was clad as a rider with a cloak of dark green over a coat of fine mail; on the front of his helm was wrought a small silver star. In his hand he bore a single arrow, black-feathered and barbed with steel, but the point was painted red.'",
+   "ru": "Призвать посланника Гондора\n\n\"Он был одет, как всадник, в темно-зеленый плащ поверх тонкой кольчуги; на шлеме его была выткана маленькая серебряная звезда. В руке он держал одну стрелу, с черным оперением и стальным наконечником, но острие было окрашено в красный цвет.\"",
+   "sergii": "Завербувати вісника Ґондору\n\n«Він був одягнений як вершник, у темно-зеленому плащі поверх обладунку з тонкої кольчуги; на передній частині його шолома була викарбувана маленька срібна зірка. У руці він тримав одну-єдину стрілу з чорним пір'ям і сталевим зазубреним наконечником, але вістря її було пофарбоване в червоний колір»."
+  },
+  {
+   "var": "CONTROLBAR:RohanHirgonRevive",
+   "en": "Revive the fallen hero, Hirgon",
+   "ru": "Воскресить павшего героя, Хиргона",
+   "sergii": "Відродити полеглого в бою Гірґона"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDraftTowerOathPeasant",
+   "en": "Summons two temporary battalions of drafted peasants to defend the tower",
+   "ru": "Временно призываются два отряда крестьян для защиты башни",
+   "sergii": "Прикликає 2 тимчасові загони озброєних селян для захисту вежі"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseDraftTowerWestfolder",
+   "en": "Requires Erkenbrand to be used\nAlters the active Oath to summon a permanent battalion of Westfolders \n Has to be rebought after usage",
+   "ru": "Требуется призванный Эркенбранд\nНавсегда меняет активную клятву для призыва отряда воинов Вестфолда",
+   "sergii": "Необхідно: Еркенбранд на полі бою\nЗмінює активну присягу задля призову постійного загону воїнів Вестфолду\nПісля активації вимагає повторного придбання"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseDraftTowerFirienholt",
+   "en": "Alters the active Oath to summon a permanent battalion of Halifirien Wardens\n Has to be rebought after usage",
+   "ru": "Навсегда меняет активную клятву на призыв Стражей Халифириэна\nТребует ресурсы при каждом использовании",
+   "sergii": "Змінює активну присягу задля призову постійного загону воїнів Вартових Галіфірієну\nПісля активації вимагає повторного придбання"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseDraftTowerSnowbourn",
+   "en": "Alters the active Oath to summon a permanent battalion of Riders of Snowbourn\n Has to be rebought after usage",
+   "ru": "Навсегда меняет активную клятву на призыв Всадников Сноуборна\nТребует ресурсы при каждом использовании",
+   "sergii": "Змінює активну присягу задля призову постійного загону воїнів Сноуборнських вершників\nПісля активації вимагає повторного придбання"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanBarracksLevel2Upgrade",
+   "en": "Allows training of Edoras Kingsguard and research of the Forged Blades upgrade\n+10% faster build speed",
+   "ru": "Позволяет призывать Королевскую гвардию Эдораса и исследовать Стальное оружие\n+10% скорости работы",
+   "sergii": "Дозволяє тренувати королівську варту Едорасу та досліджувати зброю з мундбурзької сталі\n+10% до швидкості підготовки військ"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanBarracksLevel3Upgrade",
+   "en": "Allows training of Helmingas Warriors \n and research of the Heavy Armour upgrade\nAdds defensive arrow tower\n+25% faster build speed",
+   "ru": "Позволяет призывать Хельмингов и исследовать Тяжелые доспехи\n+25% скорости работы\nДобавляет оборонительную башню",
+   "sergii": "Дозволяє тренувати гельмінґських воїнів\nта досліджувати обладунки з мундбурзької сталі\nДодає захисну вежу\n+25% до швидкості підготовки військ"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanSpearmenHorde",
+   "en": "Yeoman Spearmen (&R)",
+   "ru": "Йомены-копейщики (&R)",
+   "sergii": "Йомени-списники (&R)"
+  },
+  {
+   "var": "CONTROLBAR:MundburgMasonry",
+   "en": "Mundburg Masonry (&R)",
+   "ru": "Кладка Мундбурга (&R)",
+   "sergii": "Мундбурзька кам'яна кладка (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRohanFarmProduction",
+   "en": "Switch to resource production",
+   "ru": "Переключиться на производство ресурсов",
+   "sergii": "Перемкнути на виробництво ресурсів"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRohanFarmUnpack",
+   "en": "Provides food as a resource",
+   "ru": "Производит пищу",
+   "sergii": "Виробництво їжі як ресурс"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanPeasant",
+   "en": "Strong vs. Pikemen\nCan be drafted \n\n Horde Bonus \n Modifier Type: Spell \n All Peasants gain +20% damage and +20% armour when gathered in numbers of 60 or more\n\n The Riddermark depended on its peasants to work the fields - only in times of great need could they be levied to serve their king in battle.",
+   "ru": "Сильны против пикинеров\nМогут быть вооружены\n\nЧисленное превосходство\nТип модификатора: Заклинание\nВсе крестьяне наносят +20% урона и получают +20% брони, если собраны в количестве 60 и более\n\nРохан зависел от работы его крестьян на полях - только в случае крайней нужды их можно было призвать на службу королю.",
+   "sergii": "Ефективні проти пікінерів\nМожуть бути призвані на службу\n\nЧисельна перевага\nТип ефекту: Заклинання\nУсі селяни отримують бонус +20% до пошкоджень і +20% броні, якщо зібрані в кількості 60 і більше\n\nРоган живився працею своїх селян на нивах — лише в часи великої скрути їх можна було скликати на службу королю."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanPeasantDrafted",
+   "en": "Strong vs. Pikemen\n\nHorde Bonus \n Modifier Type: Spell \n All Peasants gain +20% damage and +20% armour when gathered in numbers of 60 or more\n \n The Riddermark depended on its peasants to work the fields - only in times of great need could they be levied to serve their king in battle.",
+   "ru": "Сильны против пикинеров\n\nЧисленное превосходство\nТип модификатора: Заклинание\nВсе крестьяне наносят +20% урона и получают +20% брони, если собраны в количестве 60 и более\nРохан зависел от работы его крестьян на полях - только в случае крайней нужды их можно было призвать на службу королю.",
+   "sergii": "Ефективні проти пікінерів\n\nЧисельна перевага\nТип ефекту: Заклинання\nУсі селяни отримують бонус +20% до пошкоджень і +20% броні, якщо зібрані в кількості 60 і більше\n\nРоган живився працею своїх селян на нивах — лише в часи великої скрути їх можна було скликати на службу королю."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanSpearmenHorde",
+   "en": "Strong vs. Cavalry and Heroes \n Able to switch formation for improved defensive capabilities \n \n In times of war, men of Rohan wealthy enough to own a plot of land would organize themselves into regiments and take up arms to defend their homes.",
+   "ru": "Сильны против кавалерии и героев\n\nВо время войны люди Рохана, достаточно богатые, чтобы владеть участком земли, организовывались в полки и брали оружие, чтобы защитить свои дома.",
+   "sergii": "Ефективні проти кавалерії та героїв\nЗдатні змінювати стрій для підвищення захисних характеристик\n\nЗа часів війни йомени Рогану, що володіли достатніми статками для утримання власного наділу, згуртовувалися в полки та ставали до зброї на захист своїх домівок."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanArcherHorde",
+   "en": "Strong vs. Infantry \n Able to switch formation for improved offensive capabilities \n \n In times of war, men of Rohan wealthy enough to own a plot of land would organize themselves into regiments and take up arms to defend their homes.",
+   "ru": "Сильны против пехоты\nМогут менять строй для улучшения атакующих характеристик\nВо время войны люди Рохана, достаточно богатые, чтобы владеть участком земли, организовывались в полки и брали оружие, чтобы защищать свои дома.",
+   "sergii": "Ефективні проти піхоти\nЗдатні змінювати стрій для підвищення ефективності атаки\n\nЗа часів війни йомени Рогану, що володіли достатніми статками для утримання власного наділу, згуртовувалися в полки та ставали до зброї на захист своїх домівок."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanArcherRangeLevel2Upgrade",
+   "en": "Allows training of Halifirien Wardens\n+10% faster build speed",
+   "ru": "Позволяет призывать Стражей Халифириэна\n+10% скорости работы",
+   "sergii": "Дозволяє тренувати Вартових Галіфірієну\n+10% до швидкості підготовки військ"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanArcherRangeLevel3Upgrade",
+   "en": "Allows research of the Fire Arrows upgrade\nAdds defensive arrow tower\n+25% faster build speed",
+   "ru": "Позволяет исследовать Огненные стрелы\nДобавляет оборонительную башню\n+25% скорости работы",
+   "sergii": "Дозволяє досліджувати Вогняні стріли\nДодає захисну вежу\n+25% до швидкості підготовки військ"
+  },
+  {
+   "var": "TOOLTIP:LackLevel3ArcheryRange",
+   "en": "Requires Level 3 Archery Range",
+   "ru": "Требуется Стрельбище 3 уровня",
+   "sergii": "Необхідно: Стрільбище 3 рівня"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildFirienholtWardenHorde",
+   "en": "Requires Level 2 Archery Range \n Strong vs. Infantry and Monsters \n Can stealth near trees and fire Longshot arrow volleys\n \n These woodsmen protected the sacred hill of Halifirien and the surrounding Firienholt.",
+   "ru": "Требуется Стрельбище 2 уровня\nСильны против пехоты и монстров\nМогут скрываться вблизи деревьев\nМогут обстреливать врагов залпами стрел\n\nЭти следопыты защищали священный холм Халифириэна и окружающий его лес Фириенхольт.",
+   "sergii": "Необхідно: Стрільбище 2 рівня\nЕфективні проти піхоти та створінь\nМожуть ховатися поблизу дерев і обстріляти місцевість залпом стріл\n\nЦі слідопити боронили святий пагорб Галіфірієн та довколишній ліс Фірієнгольт."
+  }
+ ]
+}

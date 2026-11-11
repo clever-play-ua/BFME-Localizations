@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "hero": "White Stag",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Mirkwood"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "MirkwoodWhiteStag"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:MirkwoodWhiteStag",
+   "type": "Ім'я",
+   "en": "White Stag",
+   "ru": "Белый олень",
+   "uk_ai": "Білий олень",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WhiteStagEthereal",
+   "type": "Кнопка",
+   "en": "Ethereal",
+   "ru": "Бестелесный",
+   "uk_ai": "Безтілесний",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWhiteStagEthereal",
+   "type": "Підказка",
+   "en": "The White Stag is immune to all enemy attacks, but may trample enemy units\n Enemy units are terrified by the White Stag\n Passive ability",
+   "ru": "Белый олень невосприимчив ко всем атакам и может растаптывать вражеские войска\\nВражеские отряды напуганы его присутствием\\nПассивная способность",
+   "uk_ai": "Білий олень має імунітет до всіх ворожих атак і може топтати ворожі загони\nБілий олень жахає ворожі загони\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SGoodFortune",
+   "type": "Кнопка",
+   "en": "A Sign of Good Fortune",
+   "ru": "Знак удачи",
+   "uk_ai": "Символ удачі",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSGoodFortune",
+   "type": "Підказка",
+   "en": "Modifier Type: Spell \n Nearby friendly units gain +300% armour and resistance to fear and terror \nPassive Ability",
+   "ru": "Тип модификатора: Заклинание\\nБлижайшие союзные отряды получают +300% брони и становятся невосприимчивыми к страху и ужасу\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Заклинання\nСоюзні загони поблизу отримують бонус +300% броні й стійкість до страху та жаху\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FeyWisdom",
+   "type": "Кнопка",
+   "en": "Fey Wisdom (&T)",
+   "ru": "Мудрость природы (&T)",
+   "uk_ai": "Мудрість (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFeyWisdom",
+   "type": "Підказка",
+   "en": "For 60 seconds, nearby units and heroes gain 300% experience gain and immunity to magic and elemental damage\nLeft click to activate",
+   "ru": "В течение 1 минуты ближайшие союзные отряды и герои набирают опыт на +300% быстрее и становятся невосприимчивыми к магическому и стихийному урону\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Протягом 60 сек. загони й герої поблизу на 300% швидше набирають досвід і отримують імунітет до пошкоджень від магії та стихій\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

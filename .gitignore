@@ -2,3 +2,9 @@ __pycache__/
 *.pyc
 [Tt]humbs.db
 .suggest_cache.json
+
+# local tools / private data (Cloudflare account id in .wrangler; reference copies in .temp)
+.wrangler/
+.temp/
+# intro video with burnt-in subtitles (87 MB, reworked game asset) - stays local, the build still finds it
+008_AoR/AoR_10/tools/media/data/movies/CS01.vp6

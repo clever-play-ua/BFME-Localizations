@@ -1,0 +1,163 @@
+{
+ "meta": {
+  "hero": "Grishnákh",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Isengard"
+  ],
+  "alternate factions": [
+   "white hand"
+  ],
+  "templates": [
+   "IsengardGrishnakh",
+   "IsengardGrishnakh_WhiteHand"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:IsengardGrishnakh",
+   "type": "Ім'я",
+   "en": "Grishnákh",
+   "ru": "Гришнак",
+   "uk_ai": "Ґрішнах",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityWildmanPillage",
+   "type": "Кнопка",
+   "en": "Pillage",
+   "ru": "Грабеж",
+   "uk_ai": "Мародерство",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityGrishnakhPillage",
+   "type": "Підказка",
+   "en": "Grishnákh steals resources whenever dealing damage\nto enemy structures\nPassive ability",
+   "ru": "Гришнак крадет ресурсы, атакуя\\nвражеские строения\\nПассивная способность",
+   "uk_ai": "Ґрішнах краде ресурси щоразу, коли завдає пошкоджень\nворожим спорудам\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityGrishnakhTenacity",
+   "type": "Кнопка",
+   "en": "Orcish Tenacity",
+   "ru": "Упорство орков",
+   "uk_ai": "Ороча впертість",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityGrishnakhTenacity",
+   "type": "Підказка",
+   "en": "If Grishnákh reaches 30% health, he gains +100% armour for 20 seconds\nPassive ability",
+   "ru": "Если здоровье Гришнака опустится до 30%, он получит +100% брони на 20 секунд\\nПассивная способность",
+   "uk_ai": "Коли здоров'я Ґрішнаха падає до 30%, він на 20 сек. отримує бонус +100% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GrishnakhWickedJab",
+   "type": "Кнопка",
+   "en": "Wicked Jab (&T)",
+   "ru": "Запрещенный прием (&T)",
+   "uk_ai": "Підлий удар (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGrishnakhWickedJab",
+   "type": "Підказка",
+   "en": "A powerful attack that deals 400 instant damage and 600 poison damage over the next 20 seconds to the target hero.\n\n Recharge time: 2m\nLeft click icon then left click on target",
+   "ru": "Мощная атака, которая со временем наносит большой урон вражескому герою в течение 20 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Потужна атака: Миттєво завдає обраному героєві пошкоджень на 400 од. і ще на 600 од. отрутою протягом 20 сек.\n\nЧас відновлення: 2 хв.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MordorAllies",
+   "type": "Кнопка",
+   "en": "Scum from Lugbúrz",
+   "ru": "Отбросы из Лугбурза",
+   "uk_ai": "Нікчеми з Луґбурза",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityGrishnakhPillageWhiteHand",
+   "type": "Підказка",
+   "en": "Grishnákh steals resources whenever dealing damage to enemy structures\nIsengard Orcs near Grishnákh move 10% faster\n At level 7, nearby Isengard Orcs gain +25% armour\n\nPassive ability",
+   "ru": "Гришнак крадет ресурсы, атакуя вражеские постройки\\nОрки Изенгарда рядом с Гришнаком получают +10% скорости\\nНа уровне 7, ближайшие орки Изенгарда получают +25% брони\\n\\nПассивная способность",
+   "uk_ai": "Ґрішнах краде ресурси щоразу, коли завдає пошкоджень ворожим спорудам\nІзенґардські орки поряд із Ґрішнахом рухаються на 10% швидше\nНа 7 рівні ізенґардські орки поблизу отримують бонус +25% броні\n\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GrishnakhSneakyGit",
+   "type": "Кнопка",
+   "en": "Sneaky Git (&R)",
+   "ru": "Коварный орк (&R)",
+   "uk_ai": "Підступний гад (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGrishnakhSneakyGit",
+   "type": "Підказка",
+   "en": "Requires Level 2\nGrishnakh slows target enemies and reduces their vision range by 50% for 10 seconds\n\n Left click then left click on target",
+   "ru": "Требуется уровень 2\\nГришнак замедляет врагов и снижает их дальность обзора на 50% в течение 10 секунд\\n\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 2\nҐрішнах на 10 сек. сповільнює обраних ворогів і зменшує їхню дальність огляду на 50%\n\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GrishnakhConnivingSchemer",
+   "type": "Кнопка",
+   "en": "Conniving Schemer (&T)",
+   "ru": "Проныра (&T)",
+   "uk_ai": "Хитрий інтриган (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGrishnakhConnivingSchemer",
+   "type": "Підказка",
+   "en": "Requires Level 4\nGrishnakh stealths and moves 15% faster for 20 seconds\nAttacking enemy units cancels stealth\nAt level 7, entering stealth damages and knocks back nearby enemy units\n\n Left click icon to activate",
+   "ru": "Требуется уровень 4\\nГришнак становится невидимым и получает +15% скорости на 20 секунд\\nКак только Гришнак вступит в бой он вновь станет видимым\\nНа уровне 7, применение невидимости наносит урон и отбрасывает ближайших врагов\\n\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 4\nҐрішнах на 20 сек. стає невидимим і рухається на 15% швидше\nПри атаці невидимість спадає\nНа 7 рівні, переходячи у невидимість, завдає пошкоджень ворожим загонам, що навколо й відкидає їх\n\nКлікніть на іконку, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityGrishnakhTenacityWhiteHand",
+   "type": "Підказка",
+   "en": "Requires Level 6 \n If Grishnákh reaches 30% health, he gains +100% armour for 20 seconds\nPassive ability",
+   "ru": "Требуется уровень 6\\nЕсли здоровье Гришнака достигает 30%, он получит +100% брони на 20 секунд\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 6\nКоли здоров'я Ґрішнаха падає до 30%, він на 20 сек. отримує бонус +100% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GrishnakhWickedJabWhiteHand",
+   "type": "Кнопка",
+   "en": "Wicked Jab (&V)",
+   "ru": "Удар исподтишка (&V)",
+   "uk_ai": "Підлий удар (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGrishnakhWickedJabWhiteHand",
+   "type": "Підказка",
+   "en": "Requires Level 8 \n Powerful attack that deals heavy damage over time to target hero for 20 seconds\nLeft click icon then left click on target",
+   "ru": "Требуется уровень 8\\nМощная атака, наносящая вражескому герою сильный периодический урон в течение 20 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 8\nПотужна атака, що 20 сек. поступово завдає обраному героєві значних пошкоджень\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

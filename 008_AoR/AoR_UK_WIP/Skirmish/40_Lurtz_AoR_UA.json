@@ -1,0 +1,100 @@
+{
+ "meta": {
+  "hero": "Lurtz",
+  "uk_name": "Лурц",
+  "faction (ini Side)": [
+   "Isengard"
+  ],
+  "alternate factions": [
+   "white hand"
+  ],
+  "templates": [
+   "IsengardLurtz",
+   "IsengardLurtz_WhiteHand"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:IsengardLurtz",
+   "type": "Ім'я",
+   "en": "Lurtz",
+   "ru": "Лурц",
+   "uk_ai": "Лурц",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:LurtzLeadership",
+   "type": "Кнопка",
+   "en": "Leader of the Hunt",
+   "ru": "Предводитель охоты",
+   "uk_ai": "Головний на полюванні",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLurtzLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Uruk-hai near Lurtz gain +15% damage and +15% armour\nAt Level 4, +33% damage and +25% armour\nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nУрук-хай рядом с Лурцем наносят +15% урона и получают +15% брони\\nНа уровне 4, +33% урона и +33% брони\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nУрук-хаї поряд із Лурцем отримують бонус +15% до пошкоджень і +15% броні\nНа 4 рівні — +33% до пошкоджень і +25% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityLurtzCarnage",
+   "type": "Кнопка",
+   "en": "Relentless Warrior (&T)",
+   "ru": "Кровавая бойня (&T)",
+   "uk_ai": "Безжальний воїн (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Lurtz gains +50% damage, +25% armour and deals splash damage in a radius of 10 for 20 seconds\n \nWith each level gained, damage is increased by 25% up to a maximum of +150% at level 7 \n Can only use with sword equipped \n \n Recharge time: 2m \n Left click to activate",
+   "ru": "Требуется уровень 2\\nЛурц наносит +50% урона, получает +25% брони и атакует по площади в течение 20 секунд\\nИспользуется только с мечом\\nС каждым новым уровнем урон увеличивается на +25% до максимума в +150% на уровне 7\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nЛурц на 20 сек. отримує бонус +50% до пошкоджень, +25% броні й завдає пошкоджень по площі в радіусі 10\n\nЗ кожним рівнем пошкодження зростають на 25%, аж до +150% на 7 рівні\nДоступно лише з мечем\n\nЧас відновлення: 2 хв.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityLurtzCripple",
+   "type": "Кнопка",
+   "en": "Cripple (&C)",
+   "ru": "Отравленная стрела (&C)",
+   "uk_ai": "Покалічити (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityLurtzCripple",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Pins enemy hero in place for 15 seconds\n \n At rank 8, instills fear into nearby enemies \n Can only use with bow equipped \n \n Recharge time: 1m 30s \n Left click icon then left click on target",
+   "ru": "Требуется уровень 5\\nДальная атака, обездвиживающая вражеского героя на 15 секунд\\nНа уровне 8, вселяет страх в ближайших врагов\\nИспользуется только с луком\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 5\nКалічить та знерухомлює ворожого героя на 15 сек.\n\nНа 8 рівні своїм пострілом ще й наганяє страх на ворогів поблизу\nДоступно лише з луком\n\nЧас відновлення: 1 хв. 30 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:UrukChief",
+   "type": "Кнопка",
+   "en": "Uruk Chief",
+   "ru": "Вождь-урук",
+   "uk_ai": "Ватажок уруків",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUrukChief",
+   "type": "Підказка",
+   "en": "Requires Level 10 \n Lurtz is clad in thick armour \n Permanently gains +50% armour\nPassive ability",
+   "ru": "Требуется уровень 10\\nЛурц облачается в прочные доспехи, получая +50% брони\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 10\nЛурц вдягає товстий обладунок\nТа назавжди отримує бонус +50% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

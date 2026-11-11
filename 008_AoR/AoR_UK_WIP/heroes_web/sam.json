@@ -1,0 +1,275 @@
+{
+ "hero": "Sam",
+ "uk_name": "Сем",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:RohanSam",
+     "t": "Name",
+     "en": "Sam",
+     "uk": "Сем",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:tooltipCommand_ToggleEntRockThrow",
+     "t": "Button",
+     "en": "Toggle Rock-Throw Mode (&W)",
+     "uk": "Режим кидання каміння (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipThrowRocks",
+     "t": "Tooltip",
+     "en": "Switch to rock throwing mode",
+     "uk": "Жбурляє камені у ворогів.",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HobbitCloak",
+     "t": "Button",
+     "en": "Hide Here, Qui&ck!",
+     "uk": "Ховаймося тут, швидко! (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElvenCloakCampaign",
+     "t": "Tooltip",
+     "en": "Becomes invisible when standing still \\n Also passively grants +10% armour to all nearby hobbit heroes \\n Left click to activate",
+     "uk": "Стає невидимим, коли стоїть на місці\\n Також постійно дає +10% броні всім героям-гобітам поблизу\\n Клікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SamwiseBladeMaster",
+     "t": "Button",
+     "en": "That's For My Old Gaffer! (&T)",
+     "uk": "Це тобі за мого Старого! (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipSamwiseBladeMaster_Campaign",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\nSam passively deals +200% damage against Nazgûl\\nPassive ability\\n\\n Modifier Type: Buff \\n Sam gains\\n+100% damage, +100% armour for 30 seconds\\n Left click to activate",
+     "uk": "Необхідно: Рівень 3\\nСем завдає +200% пошкоджень назґулам\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\n Тип ефекту: Посилення\\n Сем отримує бонус\\n+100% до пошкоджень, +100% броні на 30 сек.\\n Клікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipSamwiseBladeMaster",
+     "t": "Tooltip",
+     "en": "Sam passively deals +200% damage against Nazgûl\\nPassive ability\\n\\nModifier Type: Buff \\n Sam gains\\n+100% damage, +50% armour for 30 seconds\\n Left click to activate",
+     "uk": "Сем постійно завдає +200% пошкоджень назґулам\\n\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nТип ефекту: Посилення\\nНа 30 сек. Сем отримує\\nбонус +100% до пошкоджень, +50% броні\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:StewPot",
+     "t": "Button",
+     "en": "Rabbit Stew (&V)",
+     "uk": "Кроляче рагу (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipStewPot_Campaign",
+     "t": "Tooltip",
+     "en": "Requires Level 6 \\n Summons a pot of stew that heals nearby units and detects stealth \\n Left click on icon then left click on target position",
+     "uk": "Необхідно: Рівень 6\\nСтавить казанок з рагу, що зцілює всіх поблизу й виявляє невидимих ворогів\\nКлікніть на іконку, потім оберіть місце",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipStewPot",
+     "t": "Tooltip",
+     "en": "Summons a pot of stew that heals nearby units and detects stealth \\n Left click on icon then left click on target position",
+     "uk": "Ставить казанок рагу, що зцілює загони поблизу й виявляє невидимих ворогів\\nКлікніть на іконку, потім оберіть місце",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElvenCloak",
+     "t": "Button",
+     "en": "Elven Cloak (&R)",
+     "uk": "Ельфійський плащ (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElvenCloak",
+     "t": "Tooltip",
+     "en": "Becomes invisible when standing still \\n Left click to activate",
+     "uk": "Стає невидимим для ворогів, поки не рухається.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SamwiseFrodoLeadership",
+     "t": "Button",
+     "en": "Don't You Lose Him",
+     "uk": "Не загуби його",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSamwiseFrodoLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Frodo gains +100% armour \\n Passive ability",
+     "uk": "Тип ефекту: Лідерство\\nФродо отримує бонус +100% броні\\n\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Shadow of the Past",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:HobbitRockLure",
+     "t": "Button",
+     "en": "Lure (&T)",
+     "uk": "Приманка (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHobbitRockLure",
+     "t": "Tooltip",
+     "en": "The hobbit throws a rock to lure enemy units to target area \\n Left click icon then left click on target area",
+     "uk": "Гобіт кидає камінь, щоб відволікти ворожі загони на вказане місце\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Terror of Cirith Ungol",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:ElvenCloakToCU",
+     "t": "Button",
+     "en": "Elven Cloak (&W)",
+     "uk": "Ельфійський плащ (&W)",
+     "st": "draft",
+     "dup": "CONTROLBAR:ElvenCloak"
+    },
+    {
+     "v": "CONTROLBAR:SamwiseBladeMasterToCU",
+     "t": "Button",
+     "en": "That's For My Old Gaffer! (&R)",
+     "uk": "Це тобі за мого Старого! (&R)",
+     "st": "ok",
+     "dup": "CONTROLBAR:SamwiseBladeMaster"
+    },
+    {
+     "v": "CONTROLBAR:PhialofGaladriel",
+     "t": "Button",
+     "en": "Phial of Galadriel (&T)",
+     "uk": "Фіал Ґаладріель (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipPhialofGaladrielToCU",
+     "t": "Tooltip",
+     "en": "Causes enemy units to flee and stuns Shelob with fear\\nLeft click to activate",
+     "uk": "Змушує ворожі загони тікати й приголомшує Шелоб\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TheOneRing_ToCU",
+     "t": "Button",
+     "en": "A Heavy Burden (&C)",
+     "uk": "Важке ярмо (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipTheOneRing",
+     "t": "Tooltip",
+     "en": "Become invisible \\n But beware the Eye of Sauron \\n Left click to activate",
+     "uk": "Робить невидимим\\nАле стережіться Ока Саурона\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:CampaignSamTorchThrow",
+     "t": "Button",
+     "en": "Throw Torch (&C)",
+     "uk": "Кинути смолоскип (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCampaignSamTorchThrow",
+     "t": "Tooltip",
+     "en": "Sam throws a torch to target area \\nInstantly destroys Spider Webs, Spider Eggs and Spiderlings in target area\\nDeals damage over time within target area for 3 seconds\\nLeft click icon then left click on target area",
+     "uk": "Сем кидає смолоскип, який миттєво знищує павутину,\\nпавучі яйця й маленьких павуків\\nЗавдає пошкоджень на місці, куди він падає на 3 сек.\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Scouring map · Shire map",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:ShireSam",
+     "t": "Name",
+     "en": "Samwise Gamgee",
+     "uk": "Семвайз Ґемджі",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BondsofFellowship",
+     "t": "Button",
+     "en": "Bonds of Fellowship (&R)",
+     "uk": "Узи Братства (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBondsofFellowshipSam",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\n Samwise gains +15% damage when near Peregrin, Meriadoc or Frodo\\nPassive ability\\nActivate to become invisible when standing still\\nLeft click to activate",
+     "uk": "Тип ефекту: Лідерство\\nПоряд із Переґріном, Меріадоком чи Фродо\\nСемвайз отримує бонус +15% до пошкоджень\\n\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nАктивуйте, щоб ставати невидимим, коли стоїте на місці\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ShireStewPot",
+     "t": "Button",
+     "en": "Rabbit Stew (&T)",
+     "uk": "Кроляче рагу (&T)",
+     "st": "ok",
+     "dup": "CONTROLBAR:StewPot"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipShireStewPot",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\nSummons a pot of stew that heals nearby units, replenishes fallen units and grants +50% armour\\n Left click on icon then left click on target position",
+     "uk": "Необхідно: Рівень 3\\nСем, як і колись, ставить казанок з рагу, що зцілює загони поблизу,\\nпоновлює їхніх полеглих і дає їм бонус +50% броні\\nКлікніть на іконку, потім оберіть місце",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ShireSamwiseBlademaster",
+     "t": "Button",
+     "en": "That's For My Old Gaffer (&C)",
+     "uk": "Це тобі за мого Старого! (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipShireSamwiseBlademaster",
+     "t": "Tooltip",
+     "en": "Requires Level 5\\nModifier Type: Buff \\n Sam gains +100% damage, +50% armour for 30 seconds\\n Left click to activate",
+     "uk": "Необхідно: Рівень 5\\nТип ефекту: Посилення\\nСем на 30 сек. отримує бонус +100% до пошкоджень і +50% броні\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ShireSamTheBrave",
+     "t": "Button",
+     "en": "Samwise the Brave (&V)",
+     "uk": "Семвайз Хоробрий (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipShireSamTheBrave",
+     "t": "Tooltip",
+     "en": "Requires Level 10\\nModifier Type: Spell \\n Nearby friendly units within a wide radius become invulnerable whilst nearby enemy units take damage over time for 30 seconds\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 10\\nТип ефекту: Заклинання\\nНа 30 сек. союзні загони в широкому радіусі стають невразливими, а ворожі загони поблизу поступово отримують пошкодження\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

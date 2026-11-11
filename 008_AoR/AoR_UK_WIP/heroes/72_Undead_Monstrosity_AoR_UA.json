@@ -1,0 +1,112 @@
+{
+ "meta": {
+  "hero": "Undead Monstrosity",
+  "uk_name": "Невмерла потвора",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "LordoftheRings"
+  ],
+  "templates": {
+   "кампанія": [
+    "GuldurUndeadTroll"
+   ],
+   "битва": []
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:GuldurUndeadTroll",
+   "type": "Ім'я",
+   "en": "Undead Monstrosity",
+   "ru": "Неупокоенная нежить",
+   "uk_ai": "Невмерла потвора",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PutridPresence",
+   "type": "Кнопка",
+   "en": "Putrid Presence",
+   "ru": "Гнилостное присутствие",
+   "uk_ai": "Смердюча присутність",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPutridPresence",
+   "type": "Підказка",
+   "en": "Armour of nearby enemies is reduced by 15%\nPassive ability",
+   "ru": "Снижает броню ближайших врагов на -15%\\nПассивная способность",
+   "uk_ai": "Броня ворогів поблизу знижується на 15%\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToxicBile",
+   "type": "Кнопка",
+   "en": "Toxic Bile (&R)",
+   "ru": "Токсичная желчь (&R)",
+   "uk_ai": "Отруйна жовч (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToxicBile",
+   "type": "Підказка",
+   "en": "The Undead Monstrosity spews out a load of toxic bile\nwithin the selected radius\nEnemies caught within take strong damage over time for 20 seconds\nLeft click icon then left click on target area",
+   "ru": "Неупокоенная нежить извергает ядовитую желчь в пределах радиуса действия\\nВраги, попавшие под нее, получают сильный урон с течением времени\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Невмерла потвора вивергає отруйну жовч\nна обрану ділянку\nВороги в ній 20 сек. отримують значні пошкодження\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:UndeadTrollHooked",
+   "type": "Кнопка",
+   "en": "Hooked! (&T)",
+   "ru": "Схвачен! (&T)",
+   "uk_ai": "На гаку! (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUndeadTrollHooked",
+   "type": "Підказка",
+   "en": "Target enemy hero or unit is hooked and rooted in place for 20 seconds, during which its armour and attack damage is decreased by 25%\nLeft click icon then left click on target",
+   "ru": "Выбранная цель искалечена и не может двигаться в течение 20 секунд, ее броня и урон снижены на -25% в течение этого времени\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Обраний ворожий герой чи загін потрапляє на гак і на 20 сек. прикутий до місця, а його броня й пошкодження знижуються на 25%\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CorpseExplosion",
+   "type": "Кнопка",
+   "en": "Corpse Explosion",
+   "ru": "Взрыв трупа",
+   "uk_ai": "Вибух трупа",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCorpseExplosion",
+   "type": "Підказка",
+   "en": "The Undead Monstrosity explodes if not killed\nbefore its timer runs out\nThe explosion knocks down nearby enemies\nand leaves a cloud of poisonous fumes\nPassive ability",
+   "ru": "Неупокоенная нежить взрывается, если его не уничтожить прежде, чем истечет время призыва\\nВзрыв отбрасывает ближайших врагов и оставляет облако ядовитых паров\\nПассивная способность",
+   "uk_ai": "Невмерла потвора вибухає, якщо її не вбити\nдо кінця відліку\nВибух збиває з ніг ворогів поблизу\nй лишає хмару отруйних випарів\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCorpseExplosionRotK",
+   "type": "Підказка",
+   "en": "The Undead Monstrosity explodes if killed\nThe explosion knocks down nearby enemies and leaves a cloud of poisonous fumes\nPassive ability",
+   "ru": "",
+   "uk_ai": "Невмерла потвора вибухає, якщо її вбити\nВибух збиває з ніг ворогів поблизу й лишає хмару отруйних випарів\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

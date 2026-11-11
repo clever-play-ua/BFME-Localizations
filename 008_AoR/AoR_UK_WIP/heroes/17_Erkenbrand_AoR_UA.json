@@ -1,0 +1,148 @@
+{
+ "meta": {
+  "hero": "Erkenbrand",
+  "uk_name": "Еркенбранд",
+  "campaigns": [
+   "FotR",
+   "TTT",
+   "RotK"
+  ],
+  "missions": [
+   "Party",
+   "FordsofIsen",
+   "TamingofSmeagol",
+   "EavesofFangorn",
+   "DurinsTower",
+   "Ithilien",
+   "Westfold",
+   "GreyCompany",
+   "Osgiliath",
+   "HelmsDeep",
+   "Isengard",
+   "LordoftheRings",
+   "LightingoftheBeacons",
+   "PathsoftheDead",
+   "Pelargir",
+   "MinasTirithOuter",
+   "CirithUngol",
+   "MinasTirithInner",
+   "PelennorFields",
+   "BlackGate",
+   "ManyPartings",
+   "ScouringoftheShire",
+   "GreyHavens"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignErkenbrand",
+    "RohanErkenbrand"
+   ],
+   "битва": [
+    "RohanErkenbrand"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею.",
+  "see_also": "Спільні з іншими героями рядки є лише в одному файлі: Elfhelm"
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:RohanErkenbrand",
+   "type": "Ім'я",
+   "en": "Erkenbrand",
+   "ru": "Эркенбранд",
+   "uk_ai": "Еркенбранд",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ErkenbrandHorn",
+   "type": "Кнопка",
+   "en": "Gilded Horn (&W)",
+   "ru": "Позолоченный рог (&W)",
+   "uk_ai": "Позолочений ріг (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipErkenbrandHorn",
+   "type": "Підказка",
+   "en": "Nearby infantry gain resistance to knockback and trample and immunity to fear and terror for 30 seconds\nLeft click to activate",
+   "ru": "Ближайшие союзные отряды пехоты получают сопротивление отбрасыванию и растаптыванию, а также становятся невосприимчивыми к страху и ужасу в течение 30 секунд\\nЩелкните левой кнопкой мыши на значок, чтобы активировать",
+   "uk_ai": "Піхота поблизу на 30 сек. отримує стійкість до відкидання й топтання та імунітет до страху та жаху\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ErkenbrandShieldCrush",
+   "type": "Кнопка",
+   "en": "Valour of Hammerhand (&R)",
+   "ru": "Доблесть Хельма Молоторукого (&R)",
+   "uk_ai": "Доблесть Молоторукого (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipErkenbrandShieldCrushCampaign",
+   "type": "Підказка",
+   "en": "Requires Level 3\nErkenbrand performs a powerful attack that knocks back enemy units\nCan only be used when dismounted\nLeft click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3\nЕркенбранд завдає потужного удару, що відкидає ворожі загони\nДоступно лише пішки\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ErkenbrandLeadership",
+   "type": "Кнопка",
+   "en": "Marshall of the West-mark",
+   "ru": "Военачальник Западной Марки",
+   "uk_ai": "Маршал Західної марки",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipErkenbrandLeadership",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Modifier Type: Leadership \n Westfolders near Erkenbrand gain +33% armour \nPassive ability",
+   "ru": "Требуется уровень 5\\nТип модификатора: Лидерство\\nВоины Вестфолда рядом с Эркенбрандом получают +33% брони\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Лідерство\nВоїни Вестфолду поряд з Еркенбрандом отримують бонус +33% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ErkenbrandReinforcements",
+   "type": "Кнопка",
+   "en": "Reinforcements (&C)",
+   "ru": "Подкрепления (&C)",
+   "uk_ai": "Підкріплення (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipErkenbrandReinforcements",
+   "type": "Підказка",
+   "en": "Requires Level 7 \n Summons two battalions of heavily-armoured Westfolders\nLeft click to activate",
+   "ru": "Требуется уровень 7\\nЭркенбранд призывает два тяжеловооруженных отряда воинов Вестфолда",
+   "uk_ai": "Необхідно: Рівень 7\nПрикликає 2 загони важкоозброєних воїнів Вестфолду\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipErkenbrandShieldCrush",
+   "type": "Підказка",
+   "en": "Requires Level 3\nErkenbrand performs a powerful attack that knocks back enemy units\nLeft click icon then left click on target",
+   "ru": "Требуется уровень 3\\nЭркенбранд отбрасывает врагов мощной атакой ближнего боя\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 3\nЕркенбранд завдає потужного удару, що відкидає ворожі загони\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

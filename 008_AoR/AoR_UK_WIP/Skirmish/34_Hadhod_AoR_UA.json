@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "hero": "Hadhod",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Dwarves"
+  ],
+  "alternate factions": [
+   "durins folk"
+  ],
+  "templates": [
+   "DwarvenHadhod"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:DwarvenHadhod",
+   "type": "Ім'я",
+   "en": "Hadhod",
+   "ru": "Хадход",
+   "uk_ai": "Гадгод",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KeenEye",
+   "type": "Кнопка",
+   "en": "Keen Eye (&W)",
+   "ru": "Зоркий глаз (&W)",
+   "uk_ai": "Пильне око (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKeenEye",
+   "type": "Підказка",
+   "en": "Can be cast on enemy structures to reduce their armour by 25% for 10 seconds\n Left click icon then left click on target",
+   "ru": "Может быть применено к вражеским строениям, чтобы временно снизить их броню на 25%\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Можна застосувати до ворожих споруд, щоб на 10 сек. знизити їхню броню на 25%\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HadhodSabotage",
+   "type": "Кнопка",
+   "en": "Sabotage (&R)",
+   "ru": "Саботаж (&R)",
+   "uk_ai": "Саботаж (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHadhodSabotage",
+   "type": "Підказка",
+   "en": "Requires Level 3\nTarget enemy building takes heavy damage\nand is disabled for 20 seconds\n Automatically opens targeted gate \n Left click icon then left click on target",
+   "ru": "Требуется уровень 3\\nВыбранное вражеское строение получает большой урон\\nи временно отключается\\nАвтоматически открывает целевые ворота\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 3\nОбрана ворожа споруда отримує значні пошкодження\nі на 20 сек. виходить з ладу\nАвтоматично відчиняє обрану браму\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HadhodStoneHewer",
+   "type": "Кнопка",
+   "en": "Stone Hewer",
+   "ru": "Каменотес",
+   "uk_ai": "Каменяр",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHadhodStoneHewer",
+   "type": "Підказка",
+   "en": "Requires Level 6\nNearby Dwarven units deal +25% damage against structures\nPassive ability",
+   "ru": "Требуется уровень 6\\nБлижайшие отряды гномов наносят +25% дополнительного урона строениям\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 6\nДворфійські загони поблизу завдають спорудам на 25% більше пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HadhodSiegeMaster",
+   "type": "Кнопка",
+   "en": "Siege Master (&C)",
+   "ru": "Мастер осады (&C)",
+   "uk_ai": "Експерт з облоги (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHadhodSiegeMaster",
+   "type": "Підказка",
+   "en": "Requires Level 8\nTargeted Âzagh-baruk are upgraded with Siege Hammers\nTargeted Mangonels receive a permanent 15% increase in damage and range\nLeft click icon then left click on target battalion or Mangonel",
+   "ru": "Требуется уровень 8\\nСтражники Эребора в радиусе действия вооружаются Молотами победы\\nМангонели в радиусе действия наносят +15% урона и получают +15% дальности атаки\\nЩелкните левой кнопкой мыши на значок, затем на целевые единицы",
+   "uk_ai": "Необхідно: Рівень 8\nОбрані азаґ-баруки отримують облогові молоти\nОбрані манґонелі назавжди отримують бонус +15% до пошкоджень і дальності атаки\nКлікніть на іконку, потім оберіть загін або манґонель",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BondsofFriendship",
+   "type": "Кнопка",
+   "en": "Bonds of Friendship (&V)",
+   "ru": "Узы дружбы (&V)",
+   "uk_ai": "Братерський союз (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipBondsofFriendship",
+   "type": "Підказка",
+   "en": "Requires Level 10\nSummons Elegost the Dúnadan to the battlefield\nLeft click to activate",
+   "ru": "Требуется уровень 10\\nПризывает на поле битвы Элегоста из дунэдайн\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10\nПрикликає на поле бою Елеґоста Дунадана\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

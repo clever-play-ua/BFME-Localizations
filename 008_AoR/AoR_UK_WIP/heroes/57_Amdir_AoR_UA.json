@@ -1,0 +1,74 @@
+{
+ "meta": {
+  "hero": "Amdir",
+  "uk_name": "Амдір",
+  "campaigns": [
+   "TTT"
+  ],
+  "missions": [
+   "GreyCompany"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignAmdir"
+   ],
+   "битва": [
+    "CampaignAmdir"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею.",
+  "see_also": "Спільні з іншими героями рядки є лише в одному файлі: Faramir"
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:CampaignAmdir",
+   "type": "Ім'я",
+   "en": "Amdir",
+   "ru": "Амдир",
+   "uk_ai": "Амдір",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AmdirBanishingStrike",
+   "type": "Кнопка",
+   "en": "Banishing Strike (&W)",
+   "ru": "Пронзающий удар (&W)",
+   "uk_ai": "Удар вигнання (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAmdirBanishingStrike",
+   "type": "Підказка",
+   "en": "Amdír drives his spear forward fearlessly, dealing powerful damage to a single unit \n Left click then left click on target",
+   "ru": "Амдир бесстрашно бросается вперед со своим копьем, нанося сильный урон одиночной цели\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Амдір безстрашно б'є списом уперед, завдаючи великих пошкоджень 1 загону\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AmdirNobleHeart",
+   "type": "Кнопка",
+   "en": "Noble Heart (&R)",
+   "ru": "Благородное сердце (&R)",
+   "uk_ai": "Шляхетне серце (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipAmdirNobleHeart",
+   "type": "Підказка",
+   "en": "Amdír's bravery in the face of evil causes his enemies to flee in terror \n Left click to activate",
+   "ru": "Храбрость Амдира перед лицом зла заставляет его врагов ненадолго цепенеть от ужаса\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Відвага Амдіра перед лицем зла змушує ворогів тікати в жаху\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

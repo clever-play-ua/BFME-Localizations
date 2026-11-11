@@ -1,0 +1,95 @@
+{
+ "meta": {
+  "hero": "Forlong",
+  "uk_name": "Форлонґ",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "MinasTirithOuter",
+   "MinasTirithInner",
+   "PelennorFields"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignForlongNew"
+   ],
+   "битва": [
+    "GondorForlong"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:GondorForlong",
+   "type": "Ім'я",
+   "en": "Forlong",
+   "ru": "Форлонг",
+   "uk_ai": "Форлонґ",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ForlongLeadership",
+   "type": "Кнопка",
+   "en": "Lord of Lossarnach",
+   "ru": "Правитель Лоссарнаха",
+   "uk_ai": "Володар Лоссарнаху",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipForlongLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Fiefdom troops near Forlong earn experience 33% faster \n and become immune to Fear \nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nВойска из провинций рядом с Форлонгом набирают опыт на +33% быстрее\\nи становятся невосприимчивыми к страху\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nЗагони ленів поряд із Форлонґом на 33% швидше набирають досвід\nй отримують імунітет до страху\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ForlongVitality",
+   "type": "Кнопка",
+   "en": "Vitality (&R)",
+   "ru": "Стойкость (&R)",
+   "uk_ai": "Життєва сила (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipForlongVitality",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Forlong gains +50% damage, +25% speed and deals knockback for 30 seconds.\n Left click to activate",
+   "ru": "Требуется уровень 3\\nФорлонг наносит +50% урона, получает +25% скорости передвижения и отбрасывает врагов своими атаками в течение 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nФорлонґ на 30 сек. отримує бонус +50% до пошкоджень, +25% швидкості й відкидає ворогів своїми ударами.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ForlongTrueHeartTrueFriend",
+   "type": "Кнопка",
+   "en": "True Heart, True Friend (&T)",
+   "ru": "Истинная отвага, истинный друг (&T)",
+   "uk_ai": "Вірне серце, вірний друг (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipForlongTrueHeartTrueFriend",
+   "type": "Підказка",
+   "en": "Requires Level 7 \n Modifier Type: Spell \n Forlong empowers a friendly hero, granting them 50% armour, 50% faster experience gain, and 75% faster power recharge times for 30 seconds\nLeft click icon then left click on target hero",
+   "ru": "Требуется уровень 7\\nТип модификатора: Заклинание\\nФорлонг усиливает союзного героя на 30 секунд, даруя ему +50% брони, +50% скорости набора опыта и +75% ускорения перезарядки способностей\\nЩелкните левой кнопкой мыши на значок, затем на целевого героя",
+   "uk_ai": "Необхідно: Рівень 7\nТип ефекту: Заклинання\nФорлонґ посилює союзного героя: на 30 сек. той отримує бонус +50% броні, на 50% швидше набирає досвід і на 75% швидше відновлює здібності\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

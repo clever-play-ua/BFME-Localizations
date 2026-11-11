@@ -1,0 +1,118 @@
+{
+ "meta": {
+  "hero": "Gorg the Wicked",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Angmar"
+  ],
+  "alternate factions": [
+   "angmar",
+   "angmar wars"
+  ],
+  "templates": [
+   "GorgTheWicked"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:AngmarGorg",
+   "type": "Ім'я",
+   "en": "Gorg the Wicked",
+   "ru": "Горг Нечестивый",
+   "uk_ai": "Ґорґ Безжальний",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GorgTrollSummon",
+   "type": "Кнопка",
+   "en": "Trollish Chief (&W)",
+   "ru": "Вожак троллей (&W)",
+   "uk_ai": "Начальник тролів (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGorgTrollSummon",
+   "type": "Підказка",
+   "en": "Temporarily summons a Snow-troll\nAt Level 3, summons an additional Snow-troll\nAt Level 7, also summons a horde of spear-throwing Snow-trolls\nLeft click to activate",
+   "ru": "Временно призывается снежный тролль\\nНа уровне 3, призываются два снежных тролля\\nНа уровне 7, также призывается орда снежных троллей-метателей\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Тимчасово прикликає снігового троля\nНа 3 рівні прикликає одразу двох снігових тролів\nНа 7 рівні додатково прикликає цілу орду снігових тролів-списометальників\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GorgCommand",
+   "type": "Кнопка",
+   "en": "Master's Command",
+   "ru": "Приказ хозяина",
+   "uk_ai": "Наказ володаря",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipGorgCommand",
+   "type": "Підказка",
+   "en": "Gorg has been tasked with wiping out the Dúnedain\n Deals +33% additional damage versus Aragorn II, Halbarad, Faramir, Imrahil, Malbeth, Aranarth and Arvedui\nAt rank 3, his strikes also lower the armour of enemies\nwithin a small radius by 20%\nPassive ability",
+   "ru": "Горгу было поручено уничтожить дунэдайн\\nНаносит +33% дополнительного урона Арагорну II, Хальбараду, Фарамиру, Имрахилю, Мальбету, Аранарту и Арведуи\\nНа уровне 3, его удары также снижают броню врагов\\nна -20% в пределах небольшого радиуса\\nПассивная способность",
+   "uk_ai": "Ґорґові доручено винищити дунедайн\nЗавдає на 33% більше пошкоджень Араґорну II, Галбараду, Фараміру, Імрагілю, Малбету, Аранарту й Арведуї\nНа 3 рівні його удари також знижують броню ворогів\nу невеликому радіусі на 20%\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GorgThrow",
+   "type": "Кнопка",
+   "en": "Massive Throw (&T)",
+   "ru": "Массивный бросок (&T)",
+   "uk_ai": "Потужний кидок (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGorgThrow",
+   "type": "Підказка",
+   "en": "Requires Level 5\nGorg throws his massive stone axe at target enemy unit or structure\nDeals siege damage in a small radius\nLeft click then left click on target",
+   "ru": "Требуется уровень 5\\nГорг бросает массивный каменный топор во вражеский отряд или строение\\nНаносит осадный урон в небольшом радиусе\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 5\nҐорґ кидає свою величезну кам'яну сокиру в обраний ворожий загін чи споруду\nЗавдає облогових пошкоджень у невеликому радіусі\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GorgCripple",
+   "type": "Кнопка",
+   "en": "Break Their Legs! (&C)",
+   "ru": "Ломайте им ноги! (&C)",
+   "uk_ai": "Ламайте їм ноги! (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGorgCripple",
+   "type": "Підказка",
+   "en": "Requires Level 8\nGorg cripples an enemy hero for 15 seconds\nCauses surrounding enemy units to flee in terror\nLeft click then left click enemy hero",
+   "ru": "Требуется уровень 8\\nГорг обездвиживает вражеского героя на 15 секунд\\nЗаставляет ближайшие вражеские отряды разбегаться в ужасе\\nЩелкните левой кнопкой мыши на значок, затем на целевого героя",
+   "uk_ai": "Необхідно: Рівень 8\nҐорґ калічить ворожого героя на 15 сек.\nВорожі загони навколо тікають у жаху\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DominateTroll",
+   "type": "Кнопка",
+   "en": "Dominate Troll (&W)",
+   "ru": "Укротитель троллей (&W)",
+   "uk_ai": "Приборкати троля (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBar:ToolTipDominateTroll",
+   "type": "Підказка",
+   "en": "Requires Level 2 \n Take control of target enemy troll \n Left click icon then left click on target troll",
+   "ru": "Требуется уровень 2\\nПолучение контроля над вражеским троллем\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 2\nБере під повний контроль ворожого троля\nКлікніть на іконку, потім оберіть троля",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

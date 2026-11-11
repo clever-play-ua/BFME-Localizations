@@ -1,0 +1,99 @@
+{
+ "meta": {
+  "hero": "Prince Amrothos",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "DolAmroth"
+  ],
+  "alternate factions": [
+   "dol amroth"
+  ],
+  "templates": [
+   "DolAmrothAmrothos"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:DolAmrothAmrothos",
+   "type": "Ім'я",
+   "en": "Prince Amrothos",
+   "ru": "Принц Амротос",
+   "uk_ai": "Принц Амротос",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AmrothosMount",
+   "type": "Кнопка",
+   "en": "Falmarínin (&W)",
+   "ru": "Фалмаринин (&W)",
+   "uk_ai": "Фалмарінін (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipAmrothosMount",
+   "type": "Підказка",
+   "en": "Left click to switch between \n mounted on Falmarínin and on foot",
+   "ru": "Щелкните левой кнопкой мыши, чтобы переключиться между\\nверхом на Фалмаринине или пешком",
+   "uk_ai": "Клікніть, щоб перемкнутися між їздою\nверхи на Фалмарініні та пішки",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AmrothosCaptain",
+   "type": "Кнопка",
+   "en": "Renowned Captain (&R)",
+   "ru": "Знаменитый капитан (&R)",
+   "uk_ai": "Славетний капітан (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipAmrothosCaptain",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nNearby Belfalas Marines gain +20% range and +20% attack speed\nAll allied ships gain +25% armour and +25% damage\nPassive ability\nAt Level 7, grants heavy armour to Belfalas Marines in selected area\nLeft click icon then left click on target area",
+   "ru": "Тип модификатора: Лидерство\\nБлижайшие Морские пехотинцы Белфаласа получают +20% дальности атаки и +20% скорости атаки\\nВсе союзные корабли наносят +25% урона и получают +25% брони\\nПассивная способность\\nНа уровне 7, дарует Морским пехотинцам Белфаласа в области действия Тяжелую броню\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Тип ефекту: Лідерство\nМорська піхота Бельфаласу поблизу отримує бонус +20% дальності атаки й +20% швидкості атаки\nУсі союзні кораблі отримують бонус +25% броні й +25% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~\nНа 7 рівні дає важкі обладунки морській піхоті Бельфаласу на обраній ділянці\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AmrothosSwashbuckler",
+   "type": "Кнопка",
+   "en": "Sharp Tongue (&T)",
+   "ru": "Острый язык (&T)",
+   "uk_ai": "Гострий язик (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAmrothosSwashbuckler",
+   "type": "Підказка",
+   "en": "Requires Level 3\nAmrothos hits a targeted hero with a verbal and physical jab and reduces their speed by 50% for 10 seconds\nAt Level 6, pins the target for 10 seconds\nLeft click then left click target unit",
+   "ru": "Требуется уровень 3\\nАмротос наносит вражескому герою словесный и физический удар, снижая его скорость на -50% в течение 10 секунд\\nНа уровне 6, обездвиживает цель на 10 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 3\nАмротос дошкуляє обраному героєві і словом, і ударом та на 10 сек. знижує його швидкість на 50%\nНа 6 рівні знерухомлює ціль на 10 сек.\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AmrothosHeartOfGold",
+   "type": "Кнопка",
+   "en": "Heart of Gold (&V)",
+   "ru": "Золотое сердце (&V)",
+   "uk_ai": "Золоте серце (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAmrothosHeartOfGold",
+   "type": "Підказка",
+   "en": "Requires Level 8\nAmrothos shows his resilience and heart\nNearby units gain +50% trample resistance and immunity to fear, terror and knockback for 30 seconds\nLeft click to activate\n\nAmrothos dons his princely armour, gaining +50% armour\nPassive ability",
+   "ru": "Требуется уровень 8\\nАмротос демонстрирует свою стойкость и мужество\\nБлижайшие отряды получают +50% сопротивления растаптыванию и становятся невосприимчивыми к страху, ужасу и отбрасыванию на 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать\\n\\nАмротос надевает свои сияющие доспехи, получая +50% брони\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 8\nАмротос показує свою стійкість і щире серце\nЗагони поблизу на 30 сек. отримують бонус +50% стійкості до топтання та імунітет до страху, жаху й відкидання\nКлікніть, щоб активувати\n\nАмротос вдягає княжі обладунки й отримує бонус +50% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

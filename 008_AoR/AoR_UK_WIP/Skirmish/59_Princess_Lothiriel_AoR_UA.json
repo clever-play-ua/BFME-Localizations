@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "hero": "Princess Lothíriel",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "DolAmroth"
+  ],
+  "alternate factions": [
+   "dol amroth"
+  ],
+  "templates": [
+   "DolAmrothLothiriel"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:DolAmrothLothiriel",
+   "type": "Ім'я",
+   "en": "Princess Lothíriel",
+   "ru": "Принцесса Лотириэль",
+   "uk_ai": "Принцеса Лотіріель",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:LothirielSummon",
+   "type": "Кнопка",
+   "en": "Princess of Dol Amroth (&W)",
+   "ru": "Принцесса Дол Амрота (&W)",
+   "uk_ai": "Принцеса Дол-Амрота (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLothirielSummon",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nThe Princess' attacks increase the armour of nearby allies by +25% for 7 seconds\nPassive ability\n\nWhen activated, the Princess calls for help and summons a battalion of Amrothian Militia\nAt Level 3, the Militia is replaced by Dol Amroth Men-at-Arms\nAt Level 6, the summoned battalion is fully upgraded \nAt Level 10, summons a battalion of Rohirrim Warriors.",
+   "ru": "Тип модификатора: Лидерство\\nАтаки принцессы увеличивают броню ближайших союзников на +25% в течение 7 секунд\\nПассивная способность\\n\\nПосле активации, принцесса призывает на помощь отряд Ополченцев Амрота\\nНа уровне 3, призывается отряд Гвардейцев Дол Амрота\\nНа уровне 6, призываемый отряд полностью улучшен\\nНа уровне 10, призывается отряд Всадников рохиррим",
+   "uk_ai": "Тип ефекту: Лідерство\nАтаки принцеси на 7 сек. збільшують броню союзників поблизу на 25%\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації принцеса кличе на допомогу й прикликає загін амротського ополчення\nНа 3 рівні замість ополчення прикликає латників Дол-Амрота\nНа 6 рівні прикликаний загін має всі покращення\nНа 10 рівні прикликає загін воїнів-рогірим.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:LothirielFavour",
+   "type": "Кнопка",
+   "en": "Favour of the Lady (&R)",
+   "ru": "Благосклонность леди (&R)",
+   "uk_ai": "Прихильність леді (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLothirielFavour",
+   "type": "Підказка",
+   "en": "Selected unit permanently gains +100% vision range\nIf used on Éomer, also grants +10% movement speed\nLeft click icon then left click on target unit",
+   "ru": "Выбранная единица навсегда получает увеличение обзора на +100%. Если использовать на Эомера, он также получит +10% скорости передвижения\\nЩелкните левой кнопкой мыши на значок, затем на целевую единицу",
+   "uk_ai": "Обраний загін назавжди отримує бонус +100% дальності огляду\nЯкщо застосувати до Еомера, також дає бонус +10% швидкості руху\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:LothirielBanquet",
+   "type": "Кнопка",
+   "en": "Banquet (&T)",
+   "ru": "Банкет (&T)",
+   "uk_ai": "Бенкет (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLothirielBanquet",
+   "type": "Підказка",
+   "en": "Requires Level 3\nLothíriel prepares a banquet for the allies of her house\nThe banquet heals nearby units and grants Éomer +50% faster healing rate\nLeft click icon then left click on target area",
+   "ru": "Требуется уровень 3\\nЛотириэль устраивает банкет для союзников своего дома\\nБанкет исцеляет ближайших союзников, Эомер получает +50% скорости исцеления\\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Необхідно: Рівень 3\nЛотіріель влаштовує бенкет для союзників свого дому\nБенкет зцілює загони поблизу, а Еомер зцілюється на 50% швидше\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:LothirielAdministrator",
+   "type": "Кнопка",
+   "en": "Cunning Administrator (&C)",
+   "ru": "Прилежный администратор (&C)",
+   "uk_ai": "Вправний керівник (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLothirielAdministrator",
+   "type": "Підказка",
+   "en": "Requires Level 6\nIncreases resource output of selected resource building by 100% for 30 seconds\nWhen used on Éomer, the yield from Éadig is permanently increased\nLeft click icon then left click on target",
+   "ru": "Требуется уровень 6\\nУвеличивает производство ресурсной постройки на +100% в течение 30 секунд\\nПри использовании на Эомера, эффект Эадига увеличивается навсегда\\nЩелкните левой кнопкой мыши на значок, затем на целевую ресурсную структуру",
+   "uk_ai": "Необхідно: Рівень 6\nНа 30 сек. обрана ресурсна споруда дає на 100% більше ресурсів\nЯкщо застосувати до Еомера, «Еадіґ» назавжди дає більше\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:LothirielMount",
+   "type": "Кнопка",
+   "en": "Queen of the Mark (&V)",
+   "ru": "Королева Марки (&V)",
+   "uk_ai": "Королева Марки (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLothirielMount",
+   "type": "Підказка",
+   "en": "Requires Level 10\nLothíriel is at all times accompanied by 3 Edoras Kingsguard, these guards mount or dismount with Lothíriel\nWhen near Éomer, Lothíriel gains great range avoidance and +25% armour\nClick to mount/dismount Lothíriel on her mare Mistwing",
+   "ru": "Требуется уровень 10\\nЛотириэль сопровождается тремя королевскими стражами Эдораса, эти стражи садятся в седла или спешиваются вместе с Лотириэль\\nЛотириэль получает +25% брони и высокий процент уклонения, находясь рядом с Эомером\\nЩелкните, чтобы Лотириэль оседлала Мистерию или спешилась",
+   "uk_ai": "Необхідно: Рівень 10\nЛотіріель завжди супроводжують 3 воїни королівської варти Едорасу: вони сідають верхи й спішуються разом з нею\nПоряд з Еомером Лотіріель має високий шанс ухилитися від атак на відстані й отримує бонус +25% броні\nКлікніть, щоб Лотіріель сіла на свою кобилу Туманокрилу чи спішилася",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

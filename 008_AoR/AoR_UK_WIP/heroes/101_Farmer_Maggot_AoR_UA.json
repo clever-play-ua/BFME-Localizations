@@ -1,0 +1,333 @@
+{
+ "meta": {
+  "hero": "Farmer Maggot",
+  "uk_name": "Фермер Меґот",
+  "campaigns": [
+   "TTT"
+  ],
+  "missions": [
+   "GreyCompany"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignFarmerMaggot",
+    "CampaignFarmerMaggotPorter"
+   ],
+   "битва": [
+    "ArnorFarmerMaggot",
+    "ShireFarmerMaggot"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:ArnorFarmerMaggot",
+   "type": "Ім'я",
+   "en": "Farmer Maggot",
+   "ru": "Фермер Мэггот",
+   "uk_ai": "Фермер Меґот",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PorterExtinguishFire",
+   "type": "Кнопка",
+   "en": "Extinguish Fire",
+   "ru": "Тушение огня",
+   "uk_ai": "Гасіння вогню",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPorterExtinguishFire",
+   "type": "Підказка",
+   "en": "Extinguish nearby fire to prevent structure damage",
+   "ru": "Тушение ближайшего пожара, наносящего ущерб постройкам",
+   "uk_ai": "Гасіння найближчої пожежі, що завдає пошкоджень спорудам.",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenFarm",
+   "type": "Кнопка",
+   "en": "Build Farm (&W)",
+   "ru": "Построить ферму (&W)",
+   "uk_ai": "Ферма (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructRohanFarm",
+   "type": "Підказка",
+   "en": "Provides field as a resource based on available terrain \nReduced cost of cavalry\n Grants nearby Peasants +15% damage and armour \n Increases command point limit by 50",
+   "ru": "Производит ресурсы на доступной местности\\nСнижает стоимость кавалерии\\nКрестьяне рядом с фермами наносят +10% урона и получают +10% брони\\nУвеличивает очки командования на 50",
+   "uk_ai": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nЗнижує вартість кавалерії\nСеляни поблизу отримують бонус +15% до пошкоджень і броні\nЗбільшує ліміт очок командування на 50 од.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanWindmill",
+   "type": "Кнопка",
+   "en": "Build Windmill (&R)",
+   "ru": "Построить мельницу (&R)",
+   "uk_ai": "Млин (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructRohanWindmill",
+   "type": "Підказка",
+   "en": "Provides bread as a resource based on available terrain \nReduced cost of infantry \n Grants nearby Peasants +15% damage and armour\n Increases command point limit by 50",
+   "ru": "Производит ресурсы на доступной местности\\nСнижает стоимость пехоты\\nКрестьяне рядом с фермами наносят +10% урона и получают +10% брони\\nУвеличивает очки командования на 50",
+   "uk_ai": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nЗнижує вартість піхоти\nСеляни поблизу отримують бонус +15% до пошкоджень і броні\nЗбільшує ліміт очок командування на 50 од.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenBarracks",
+   "type": "Кнопка",
+   "en": "Build Barracks (&T)",
+   "ru": "Построить казармы (&T)",
+   "uk_ai": "Казарми (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructRohanBarracks",
+   "type": "Підказка",
+   "en": "Trains the melee infantry of Rohan \n Researches weapons and armour upgrades \n Generates a small amount of resources",
+   "ru": "Позволяет тренировать пехоту Рохана\\nПозволяет исследовать улучшения оружия и брони\\nПроизводит небольшое количество ресурсов",
+   "uk_ai": "Навчає піхоту ближнього бою Рогану\nДає змогу придбати покращення зброї та броні\nПеріодично виробляє трохи ресурсів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenArcheryRange",
+   "type": "Кнопка",
+   "en": "Build Archery Range (&C)",
+   "ru": "Построить стрельбище (&C)",
+   "uk_ai": "Стрільбище (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRohanArcheryRange",
+   "type": "Підказка",
+   "en": "Trains and upgrades Rohan's Archers \n Generates a small amount of resources",
+   "ru": "Обучение и улучшение лучников Рохана\\nПроизводит небольшое количество ресурсов",
+   "uk_ai": "Навчає й покращує лучників Рогану\nПеріодично виробляє трохи ресурсів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenStable",
+   "type": "Кнопка",
+   "en": "Build Stables (&V)",
+   "ru": "Построить конюшню (&V)",
+   "uk_ai": "Конюшні (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructRohanStable",
+   "type": "Підказка",
+   "en": "Trains Rohan's cavalry \n Generates a small amount of resources",
+   "ru": "Позволяет тренировать кавалерию Рохана\\nПроизводит небольшое количество ресурсов",
+   "uk_ai": "Навчає кавалерію Рогану\nПеріодично виробляє трохи ресурсів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanWorkshop",
+   "type": "Кнопка",
+   "en": "Build Workshop (&N)",
+   "ru": "Построить мастерскую (&N)",
+   "uk_ai": "Майстерня (&N)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructRohanWorkshop",
+   "type": "Підказка",
+   "en": "Constructs siege engines\n At rank 2, repairs nearby siege engines \n Generates a small amount of resources \n Reduces cost of upgrades",
+   "ru": "Позволяет строить осадные орудия\\nНа уровне 2 восстанавливает ближайшие осадные орудия\\nПроизводит небольшое количество ресурсов\\nСнижает стоимость улучшений",
+   "uk_ai": "Будує облогові машини\nНа 2 рівні лагодить облогові машини поблизу\nПеріодично виробляє трохи ресурсів\nЗнижує вартість покращень",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenSentryTower",
+   "type": "Кнопка",
+   "en": "Build Battle Tower (&Y)",
+   "ru": "Построить башню стрелков (&Y)",
+   "uk_ai": "Оборонна вежа (&Y)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructGenericSentryTower",
+   "type": "Підказка",
+   "en": "Defensive tower that fires arrows at nearby enemies \n Can be garrisoned with archers to increase damage output \n Build time: 45s",
+   "ru": "Оборонительная башня, стреляющая в ближайших врагов стрелами\\nДля увеличения наносимого урона в башне может быть размещен отряд лучников",
+   "uk_ai": "Оборонна вежа, що стріляє по ворогах поблизу\nУ ній можуть засісти лучники, щоб завдавати більше пошкоджень\nЧас будівництва: 45 сек.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanDraftTower",
+   "type": "Кнопка",
+   "en": "Build Draft Tower (&M)",
+   "ru": "Построить колокольню (&M)",
+   "uk_ai": "Вежа призову (&M)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructRohanDraftTower",
+   "type": "Підказка",
+   "en": "Can summon battalions to protect the area \n Limited to 4",
+   "ru": "Колокольня позволяет призывать отряды для защиты территорий Рохана\\nОграничение - 4",
+   "uk_ai": "Може прикликати загони для захисту території\nМаксимум 4 одночасно",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanWell",
+   "type": "Кнопка",
+   "en": "Build Edoras Well (&G)",
+   "ru": "Построить фонтан Эдораса (&G)",
+   "uk_ai": "Криниця Едорасу (&G)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanStatue",
+   "type": "Кнопка",
+   "en": "Build Rohan Statue (&U)",
+   "ru": "Построить статую Эорла (&U)",
+   "uk_ai": "Статуя Еорла (&U)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HeroicStatueBuildRohan",
+   "type": "Кнопка",
+   "en": "Provides a leadership bonus to nearby units",
+   "ru": "Предоставляет лидерство ближайшим союзным войскам",
+   "uk_ai": "Дає бонус лідерства загонам поблизу",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenWallHub",
+   "type": "Кнопка",
+   "en": "Wall Hub (&A)",
+   "ru": "Построить башенку (&A)",
+   "uk_ai": "Стінна вежа (&A)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMenWallHub",
+   "type": "Підказка",
+   "en": "Wall Hubs can be used to build walls",
+   "ru": "От башенок можно протягивать новые стены",
+   "uk_ai": "Від стінних веж можна протягувати нові стіни.",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenFortress",
+   "type": "Кнопка",
+   "en": "Fortress (&I)",
+   "ru": "Построить крепость (&I)",
+   "uk_ai": "Фортеця (&I)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMenFortress",
+   "type": "Підказка",
+   "en": "Recruits Builders and Heroes \n Can be upgraded with improvements and expansions \n Increases command point limit by 100",
+   "ru": "Позволяет обучать строителей и призывать героев\\nПоддается разнообразным улучшениям\\nУвеличивает очки командования на 100",
+   "uk_ai": "Дає змогу тренувати будівельників і вербувати героїв \n Є можливість робити покращення та прибудовувати розширення \n Збільшує ліміт очок командування на 100 од.",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:MaggotsHoundsLeadership",
+   "type": "Кнопка",
+   "en": "Maggot's Hounds",
+   "ru": "Гончии Мэггота",
+   "uk_ai": "Пси Меґота",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMaggotsHoundsLeadership",
+   "type": "Підказка",
+   "en": "Grip, Fang, and Wolf passively guard Farmer Maggot\nPassive ability",
+   "ru": "Клык, Хват и Волк охраняют фермера Мэггота\\nПассивная способность",
+   "uk_ai": "Хапко, Ікло й Вовк постійно охороняють фермера Меґота\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MaggotsFarm",
+   "type": "Кнопка",
+   "en": "Bamfurlong (&R)",
+   "ru": "Бамфурлонг (&R)",
+   "uk_ai": "Бамфурлонґ (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMaggotsFarmSummon",
+   "type": "Підказка",
+   "en": "Requires Level 2\nSummons Farmer Maggot's farm for 45 seconds \n Generates a large amount of resources \n Left click icon then left click on target area",
+   "ru": "Требуется уровень 2\\nПризывается ферма Мэггота на короткое время\\nПроизводит большое количество ресурсов\\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Необхідно: Рівень 2\nПрикликає ферму фермера Меґота на 45 сек.\nДає багато ресурсів\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShireMaggotsHoundsLeadership",
+   "type": "Підказка",
+   "en": "Grip, Fang, and Wolf passively guard Farmer Maggot\nModifier Type: Leadership\nNearby Marish Hounds gain +33% damage and armour\nPassive ability",
+   "ru": "Фермер Мэггот пассивно охраняется Хватом, Клыком и Волком\\nТип модификатора: Лидерство\\nБлижайшие маришские гончие наносят +33% урона и получают +33 брони\\nПассивная способность",
+   "uk_ai": "Хапко, Ікло й Вовк постійно охороняють фермера Меґота\nТип ефекту: Лідерство\nПси з Маришу поблизу отримують бонус +33% до пошкоджень і броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShireMaggotsFarmSummon",
+   "type": "Підказка",
+   "en": "Requires Level 3\nSummons Farmer Maggot's farm for 30 seconds \n Generates a large amount of resources \n Left click icon then left click on target area",
+   "ru": "Требуется уровень 3\\nПризывается ферму Мэггота на 30 секунд\\nПроизводит большое количество ресурсов\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 3\nПрикликає ферму фермера Меґота на 30 сек.\nДає багато ресурсів\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MaggotSweepingStrike",
+   "type": "Кнопка",
+   "en": "Sweeping Strike (&T)",
+   "ru": "Размашистый удар (&T)",
+   "uk_ai": "Розмашистий удар (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMaggotSweepingStrike",
+   "type": "Підказка",
+   "en": "Requires Level 5\nPowerful attack that knocks back enemy units\nAt rank 8, radius and damage are increased\nLeft click icon then left click on target",
+   "ru": "Требуется уровень 5\\nМощная атака, отбрасывающая врагов\\nНа уровне 8, радиус и урон увеличиваются\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 5\nПотужна атака, що відкидає ворожі загони\nНа 8 рівні радіус і пошкодження зростають\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

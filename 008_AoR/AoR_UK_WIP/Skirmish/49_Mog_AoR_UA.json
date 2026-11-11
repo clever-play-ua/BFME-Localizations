@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "hero": "Móg",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Isengard"
+  ],
+  "alternate factions": [
+   "white hand"
+  ],
+  "templates": [
+   "IsengardMog"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:IsengardMog",
+   "type": "Ім'я",
+   "en": "Móg",
+   "ru": "Мог",
+   "uk_ai": "Моґ",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToggleMogWeapon",
+   "type": "Кнопка",
+   "en": "Armoured Berserker (&W)",
+   "ru": "Бронированный берсерк (&W)",
+   "uk_ai": "Броньований берсерк (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleMogWeapon",
+   "type": "Підказка",
+   "en": "Móg gains +5% additional armour up to a maximum of 20% with every subsequent attack\nCan be toggled to gain additional +5% damage up to a maximum of 20% instead\nLeft click to toggle between bonuses",
+   "ru": "Мог получает +5% дополнительной брони до максимума в +20% при каждой последующей атаке\\nПри переключении оружия Мог наносит +5% дополнительного урона до максимума в +20% за каждую последующую атаку\\nЩелкните левой кнопкой мыши для переключения между бонусами",
+   "uk_ai": "З кожною наступною атакою Моґ отримує ще +5% броні, але не більше 20%\nМожна перемкнути, щоб натомість отримувати ще +5% до пошкоджень, але не більше 20%\nКлікніть, щоб перемкнути бонус",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MogBrutishCleave",
+   "type": "Кнопка",
+   "en": "Brutish Cleave (&R)",
+   "ru": "Свирепый взмах (&R)",
+   "uk_ai": "Звірячий розмах (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMogBrutishCleave",
+   "type": "Підказка",
+   "en": "Móg cleaves his foes with a heavy swing, bleeding them and knocking them back\nLeft click and then left click on target",
+   "ru": "Мог наносит мощный удар, рассекая строй и отбрасывая врагов, вызывая при этом кровотечение\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Моґ рубає ворогів важким розмахом: вони стікають кров'ю й відлітають\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MogBloodFrenzy",
+   "type": "Кнопка",
+   "en": "Blood Frenzy",
+   "ru": "Кровавое бешенство",
+   "uk_ai": "Кривава лють",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMogBloodFrenzy",
+   "type": "Підказка",
+   "en": "Requires Level 5\nWhen Móg drops below 35% health he enters a frenzy, gaining +150% additional damage and siphoning health with every strike for 15 seconds\nCan only trigger every 60 seconds\nPassive Ability",
+   "ru": "Требуется уровень 5\\nЕсли здоровье Мога упадет ниже 35%, он впадет в бешенство, нанося +150% урона и восстанавливая здоровье с каждым ударом в течение 15 секунд\\nМожет срабатывать не чаще чем раз в 60 секунд\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 5\nКоли здоров'я Моґа падає нижче 35%, він на 15 сек. шаленіє: отримує бонус +150% до пошкоджень і краде здоров'я при кожному ударі\nСпрацьовує не частіше ніж раз на 60 сек.\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MogWrathfulSpawn",
+   "type": "Кнопка",
+   "en": "Wrathful Spawn (&C)",
+   "ru": "Разгневанное отродье (&C)",
+   "uk_ai": "Лютий виродок (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMogWrathfulSpawn",
+   "type": "Підказка",
+   "en": "Requires Level 7\nMóg howls in rage, causing fear in nearby enemies\nFor 30 seconds, Móg gains +15% movement speed and can trample enemies\n Left click to activate",
+   "ru": "Требуется уровень 7\\nМог впадает в ярость, повергая в страх ближайших врагов\\nМог получает +15% скорости передвижения и отбрасывает врагов при движении в течение 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 7\nМоґ виє й лякає ворогів поблизу\nНа 30 сек. Моґ отримує бонус +15% швидкості руху й може топтати ворогів\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MogDecimate",
+   "type": "Кнопка",
+   "en": "Decimate (&V)",
+   "ru": "Уничтожение (&V)",
+   "uk_ai": "Розгромити (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMogDecimate",
+   "type": "Підказка",
+   "en": "Requires Level 10\nTarget structure takes heavy damage and is disabled for 15 seconds\nLeft click then left click on target structure.",
+   "ru": "Требуется уровень 10\\nВражеская постройка получает большой урон и отключается на 15 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевое строение",
+   "uk_ai": "Необхідно: Рівень 10\nОбрана споруда отримує значні пошкодження й на 15 сек. виходить з ладу\nКлікніть на іконку, потім оберіть споруду",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

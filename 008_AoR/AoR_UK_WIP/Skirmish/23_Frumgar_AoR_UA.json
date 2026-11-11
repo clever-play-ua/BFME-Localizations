@@ -1,0 +1,92 @@
+{
+ "meta": {
+  "hero": "Frumgar",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Dorwinion",
+   "Mirkwood"
+  ],
+  "alternate factions": [
+   "dorwinion"
+  ],
+  "templates": [
+   "DorwinionFrumgar",
+   "MirkwoodFrumgar"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:MirkwoodFrumgar",
+   "type": "Ім'я",
+   "en": "Frumgar",
+   "ru": "Фрумгар",
+   "uk_ai": "Фрумґар",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WrathoftheDragonSlayer",
+   "type": "Кнопка",
+   "en": "Wrath of the Dragon Slayer",
+   "ru": "Гнев убийцы драконов",
+   "uk_ai": "Гнів драконоборця",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWrathoftheDragonSlayer",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nAllies near Frumgar gain +33% damage, +50% armour against fire and are immune to fear and terror\nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nСоюзные отряды рядом с Фрумгаром наносят +33% урона, получают +50% брони от огня и становятся невосприимчивыми к страху и ужасу\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзники поряд із Фрумґаром отримують бонус +33% до пошкоджень, +50% броні проти вогню та імунітет до страху й жаху\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:OrcWarVeteran",
+   "type": "Кнопка",
+   "en": "Orc War Veteran (&R)",
+   "ru": "Ветеран войн с орками (&R)",
+   "uk_ai": "Ветеран війн з орками (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDorwinionOrcWarVeteran",
+   "type": "Підказка",
+   "en": "Requires Level 3\nFrumgar tells of the day he slew Mûzgash \n Targeted units gain experience \n Left click icon then left click on target units",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3\nФрумґар розповідає про день, коли вбив Музґаша\nМиттєво наділяє досвідом обрані загони\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FeatofLegends",
+   "type": "Кнопка",
+   "en": "Feat of Legends (&T)",
+   "ru": "Легендарный подвиг (&T)",
+   "uk_ai": "Легендарний вчинок (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDorwinionFrumgarSpear",
+   "type": "Підказка",
+   "en": "Requires Level 5\nPowerful ranged attack with radius damage \nAt Level 8, target enemy hero is stunned for 15 seconds\nLeft click icon then left click on target",
+   "ru": "Требуется уровень 5\\nМощная дальняя атака с уроном по площади\\nНа уровне 8, вражеский герой оглушается на 15 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 5\nПотужна атака на відстані з пошкодженнями по площі\nНа 8 рівні обраний ворожий герой стає приголомшеним на 15 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipOrcWarVeteran",
+   "type": "Підказка",
+   "en": "Frumgar tells of the day he slew Mûzgash \n Targeted units gain experience \n Left click icon then left click on target units",
+   "ru": "Фрумгар рассказывает о том дне, когда он убил Музгаша\\nДружественные отряды в радиусе действия получают умеренное количество опыта\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Фрумґар розповідає про день, коли вбив Музґаша\nМиттєво наділяє досвідом обрані загони\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

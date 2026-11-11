@@ -1,0 +1,113 @@
+{
+ "meta": {
+  "hero": "Gildor Inglorion",
+  "uk_name": "Ґілдор Інґлоріон",
+  "campaigns": [
+   "FotR"
+  ],
+  "missions": [
+   "Bree"
+  ],
+  "templates": {
+   "кампанія": [
+    "ElvenGildor"
+   ],
+   "битва": [
+    "ElvenGildor"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:Gildor",
+   "type": "Ім'я",
+   "en": "Gildor Inglorion",
+   "ru": "Гилдор Инглорион",
+   "uk_ai": "Ґілдор Інґлоріон",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GildorLeadership",
+   "type": "Кнопка",
+   "en": "Companion",
+   "ru": "Союзник",
+   "uk_ai": "Супутник",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGildorLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Hobbits and Breelanders near Gildor gain +25% damage, +25% armour and earn experience +25% faster \nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nХоббиты и стражники Бри рядом с Гилдором наносят +25% урона, получают +25% брони и набирают опыт на +25% быстрее\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nГобіти й мешканці Брі поряд із Ґілдором отримують бонус +25% до пошкоджень, +25% броні й на 25% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GildorExiles",
+   "type": "Кнопка",
+   "en": "The Wandering Companies (&R)",
+   "ru": "Странствующая компания (&R)",
+   "uk_ai": "Мандрівні загони (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipGildorExiles",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Gildor summons a single group of Noldor Exiles to his side \n Left click icon then left click on target location \n\nRequires Level 8 \n Gildor summons three groups of Noldor Exiles to his side \n Left click icon then left click on target location",
+   "ru": "Требуется уровень 3\\nГилдор призывает отряд нолдор-изгнанников\\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение\\n\\nТребуется уровень 8\\nГилдор призывает три отряда нолдор-изгнанников\\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Необхідно: Рівень 3\nҐілдор прикликає до себе загін нолдорів-вигнанців\nКлікніть на іконку, потім оберіть ділянку\n\nНеобхідно: Рівень 8\nҐілдор прикликає до себе 3 загони нолдорів-вигнанців\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GildorTelperion",
+   "type": "Кнопка",
+   "en": "Light of Telperion (&T)",
+   "ru": "Свет Тельпериона (&T)",
+   "uk_ai": "Світло Тельперіона (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGildorTelperion",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Gildor reveals his blessed Lantern, causing enemy units to flee in terror \n Left click to activate",
+   "ru": "Требуется уровень 5\\nГилдор использует свой Благословенный фонарь, заставляя вражеские войска разбегаться в ужасе\\nЩелкните левой кнопкой мыши, чтобы активировать\\n",
+   "uk_ai": "Необхідно: Рівень 5\nҐілдор відкриває свій благословенний ліхтар, і ворожі загони тікають у жаху\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipGildorExiles_Campaign",
+   "type": "Підказка",
+   "en": "Gildor summons a single group of Noldor Exiles to his side \n Left click icon then left click on target location \n\nRequires Level 8 \n Gildor summons three groups of Noldor Exiles to his side \n Left click icon then left click on target location",
+   "ru": "Гилдор призывает отряд нолдор-изгнанников\\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение\\n\\nТребуется уровень 8\\nГилдор призывает три отряда нолдор-изгнанников\\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Ґілдор прикликає до себе загін нолдорів-вигнанців\nКлікніть на іконку, потім оберіть ділянку\n\nНеобхідно: Рівень 8\nҐілдор прикликає до себе 3 загони нолдорів-вигнанців\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGildorTelperion_Campaign",
+   "type": "Підказка",
+   "en": "Gildor reveals his blessed Lantern, causing enemy units to flee in terror \n Left click to activate",
+   "ru": "Гилдор использует свой Благословенный фонарь, заставляя вражеские войска разбегаться в ужасе\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Ґілдор відкриває свій благословенний ліхтар, і ворожі загони тікають у жаху\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

@@ -1,0 +1,2991 @@
+{
+ "meta": {
+  "mission": "013_Scouring of the Shire",
+  "campaign": "Return of the King (AoR 10.0)",
+  "count": 298,
+  "fields": "var — мітка; type — Назва/Ціль/Діалог/Репліка/Інше/Кнопка; ru — RU 9.3.1, якщо є; uk_ai — поточний текст (правте прямо тут); status — вичитано / чернетка AI; uk — порожньо",
+  "notes": "\\n — перенос рядка, кількість має збігатися з EN; гарячі клавіші (&W) латиницею. Здібності героїв винесені в папку heroes."
+ },
+ "strings": [
+  {
+   "var": "CampaignName:ScouringoftheShire",
+   "mission": "013_Scouring of the Shire",
+   "type": "Назва",
+   "en": "Scouring of the Shire",
+   "ru": "",
+   "uk_ai": "Очищення Ширу",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective01_Scouring",
+   "mission": "013_Scouring of the Shire",
+   "type": "Ціль",
+   "en": "Return to the Shire",
+   "ru": "",
+   "uk_ai": "Поверніться до Ширу",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective02_Scouring",
+   "mission": "013_Scouring of the Shire",
+   "type": "Ціль",
+   "en": "Destroy the two Lumber Camps South of The Water.",
+   "ru": "",
+   "uk_ai": "Знищте два табори лісорубів на південь від Річки.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective03_Scouring",
+   "mission": "013_Scouring of the Shire",
+   "type": "Ціль",
+   "en": "Destroy the New Mill.",
+   "ru": "",
+   "uk_ai": "Знищте Новий Млин.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective04_Scouring",
+   "mission": "013_Scouring of the Shire",
+   "type": "Ціль",
+   "en": "Confront Ted Sandyman.",
+   "ru": "",
+   "uk_ai": "Дайте відсіч Тедові Сендімену.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective05_Scouring",
+   "mission": "013_Scouring of the Shire",
+   "type": "Ціль",
+   "en": "Rescue Hobbits from the Work Pit.",
+   "ru": "",
+   "uk_ai": "Врятуйте гобітів із Робітної Ями.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective06_Scouring",
+   "mission": "013_Scouring of the Shire",
+   "type": "Ціль",
+   "en": "Ambush the Ruffians on the Bywater Road.",
+   "ru": "",
+   "uk_ai": "Влаштуйте засідку на розбійників на Байвотерському шляху.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective07_Scouring",
+   "mission": "013_Scouring of the Shire",
+   "type": "Ціль",
+   "en": "Confront the 'Chief' at Bag End",
+   "ru": "",
+   "uk_ai": "Дайте відсіч «Ватажкові» в Торбиному Куті",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective01_Scouring",
+   "mission": "013_Scouring of the Shire",
+   "type": "Ціль",
+   "en": "Rouse all Hobbits in the Shire.",
+   "ru": "",
+   "uk_ai": "Підніміть усіх гобітів Ширу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_merry072",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Merry: A gloom lies upon the land.",
+   "ru": "",
+   "uk_ai": "Меррі: Над краєм нависла похмурість.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin174",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Pippin: A gloom not unfamiliar.",
+   "ru": "",
+   "uk_ai": "Піпін: І вона нам знайома.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam199",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sam: What's happened to the trees? Magnificent old oaks - why have they been cut down?",
+   "ru": "",
+   "uk_ai": "Сем: Що сталося з деревами? Величні старі дуби — навіщо їх зрубали?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_oldhob001",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Old Hob: Oi! Who goes there!",
+   "ru": "",
+   "uk_ai": "Старий Гоб: Гей! Хто там!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_oldhob002",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Old Hob: Be off! You can't come in.",
+   "ru": "",
+   "uk_ai": "Старий Гоб: Ідіть геть! Сюди не можна.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_oldhob003",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Old Hob: Can't you read the notice: No admittance between sundown and sunrise? We have orders.",
+   "ru": "",
+   "uk_ai": "Старий Гоб: Читати не вмієте? «Від заходу до сходу сонця вхід заборонено». У нас накази.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo159",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Frodo: Whose orders?",
+   "ru": "",
+   "uk_ai": "Фродо: Чиї накази?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_oldhob004",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Old Hob: The Chief's up at Bag End.",
+   "ru": "",
+   "uk_ai": "Старий Гоб: Ватажка, що в Торбиному Куті.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin156",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Pippin: If you mean that your precious Chief has been hiring ruffians out of the wild, then we've not come back too soon.",
+   "ru": "",
+   "uk_ai": "Піпін: Якщо ти маєш на увазі, що твій дорогоцінний Ватажок наймає розбійників із диких країв, то ми повернулися якраз вчасно.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian005",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Ruffian: Oi! Who are you!?",
+   "ru": "",
+   "uk_ai": "Розбійник: Гей! Хто ви такі!?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ferny010",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Bill Ferny: Troublemakers is it? Thought you'd sneak back in past curfew?",
+   "ru": "",
+   "uk_ai": "Білл Ферні: Шукаєте халепи? Думали прослизнути після комендантської години?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam227",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sam: Bill Ferny! Well, there's a face I'd hoped never to see again...",
+   "ru": "",
+   "uk_ai": "Сем: Білл Ферні! Оце пика, яку я сподівався більше ніколи не побачити...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ferny011",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Bill Ferny: Well now, I remember you lot. The folks what bought my pony off me in Bree!\n I'll bet it keeled over 'fore you lot reached Staddle. He he he.",
+   "ru": "",
+   "uk_ai": "Білл Ферні: Ану ж бо, пам'ятаю я вас. Ті самі, що купили в мене поні в Брі!\n Б'юся об заклад, він здох, ще поки ви до Стеддла дісталися. Хе-хе-хе.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam200",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sam: Don't you speak ill of him! A nobler friend there never was, and he's doing quite alright, I'll have you know!",
+   "ru": "",
+   "uk_ai": "Сем: Не смій про нього погано говорити! Шляхетнішого друга не було, і в нього все гаразд, щоб ти знав!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ferny012",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Bill Ferny: Don't mistake me for some softhearted dullard that cares, halfling.",
+   "ru": "",
+   "uk_ai": "Білл Ферні: Не плутай мене з якимось м'якосердим недоумком, якому не байдуже, напіврослику.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ferny013",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Bill Ferny: Now be off! Or I'll send you downriver myself!",
+   "ru": "",
+   "uk_ai": "Білл Ферні: А тепер геть! Бо сам відправлю вас униз за течією!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_merry056",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Merry: Come on, Pippin! Two is enough!",
+   "ru": "",
+   "uk_ai": "Меррі: Ну ж бо, Піпіне! Двох досить!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin157",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Pippin: More than enough, Merry. These ruffians don't frighten me one bit.",
+   "ru": "",
+   "uk_ai": "Піпін: Більш ніж досить, Меррі. Ці розбійники мене анітрохи не лякають.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ferny003",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Bill Ferny: You think you've got the upper hand, do you? You'll see! You'll see soon enough!",
+   "ru": "",
+   "uk_ai": "Білл Ферні: Думаєте, ваша взяла? Ось побачите! Скоро побачите!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian006",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Ruffian: You'll regret crossing us!",
+   "ru": "",
+   "uk_ai": "Розбійник: Ви пошкодуєте, що з нами зв'язалися!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo160",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Frodo: Open the gate, Hob.",
+   "ru": "",
+   "uk_ai": "Фродо: Відчини браму, Гобе.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_oldhob005",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Old Hob: You lot have changed, haven't you? Hmm. Very well.",
+   "ru": "",
+   "uk_ai": "Старий Гоб: А ви змінилися, еге ж? Гм. Гаразд.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo161",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Let's stop at nearby Frogmorton, and see what there is to see.",
+   "ru": "",
+   "uk_ai": "Зупинімося в сусідньому Фроґмортоні й подивимося, що там і як.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_shirrif001",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Shirrif: Halt! You're arrested for Gatebreaking, and Tearing up of Rules, and Assaulting Gatekeepers, and Trespassing.",
+   "ru": "",
+   "uk_ai": "Ширриф: Стій! Вас заарештовано за Виламування Брами, Знищення Правил, Напад на Брамників і Порушення Меж.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_shirrif002",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Shirrif: Chief's orders! We're to take you to Bywater and hand you over to his Men.",
+   "ru": "",
+   "uk_ai": "Ширриф: Наказ Ватажка! Ми маємо відвести вас до Байвотера й передати його людям.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam201",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sam: You've got some nerve, arresting good Mr. Frodo!",
+   "ru": "",
+   "uk_ai": "Сем: Ну й нахаба ж ти — заарештовувати доброго пана Фродо!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo162",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Frodo: It's alright, Sam. We'll come along.",
+   "ru": "",
+   "uk_ai": "Фродо: Усе гаразд, Семе. Ми підемо.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam202",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sam: Hrmph...",
+   "ru": "",
+   "uk_ai": "Сем: Гм-м...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin158",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Pippin: Or rather, you'll come along with us!",
+   "ru": "",
+   "uk_ai": "Піпін: Точніше, це ви підете з нами!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_merry057",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Merry: To Bywater we go.",
+   "ru": "",
+   "uk_ai": "Меррі: Отже, до Байвотера.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_shirrif003",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Shirrif: Don't try to run, now! Stay on the road, if you know what's good for you.",
+   "ru": "",
+   "uk_ai": "Ширриф: І не намагайтеся втекти! Тримайтеся дороги, якщо знаєте, що для вас краще.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halforc009",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Half-orc: Where d'you think you're going? You little folk are getting too uppish. You'll do what Sharkey says.",
+   "ru": "",
+   "uk_ai": "Напіворк: Куди це ви зібралися? Ви, малеча, надто вже задираєте носа. Робитимете, що скаже Шаркі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin161",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Pippin: Mind yourself, now. You're speaking to a friend of the King! You best ask for pardon!",
+   "ru": "",
+   "uk_ai": "Піпін: Ти обережніше. Ти говориш із другом Короля! Краще проси пробачення!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halforc010",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Half-orc: Is that right? We'll see about that.",
+   "ru": "",
+   "uk_ai": "Напіворк: Он як? Ну, це ми ще побачимо.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit004",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Innkeep: Mr. Baggins. Is it really you?",
+   "ru": "",
+   "uk_ai": "Корчмар: Пане Беґінз. Невже це ви?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gdinkeep002",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Innkeep: We thought you were dead!",
+   "ru": "",
+   "uk_ai": "Корчмар: Ми думали, ви загинули!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo189",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Frodo: What's going on here? What's got hold of everyone?",
+   "ru": "",
+   "uk_ai": "Фродо: Що тут діється? Що на всіх найшло?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gdinkeep003",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Innkeep: Things are in a bad way, Mr. Frodo. Worse than you can imagine.",
+   "ru": "",
+   "uk_ai": "Корчмар: Справи кепські, пане Фродо. Гірші, ніж ви можете уявити.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gdinkeep004",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Innkeep: They tore down Sandyman's old mill and raised a great ugly thing of brick and iron. \n Nasty place. Smoke pours from it day and night, and it's fouled the air and water for miles.",
+   "ru": "",
+   "uk_ai": "Корчмар: Вони знесли старий млин Сендімена й звели велику бридку споруду з цегли та заліза. \n Мерзенне місце. Дим із нього валить день і ніч, і він отруїв повітря й воду на милі довкола.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gdinkeep005",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Innkeep: Ted Sandyman's the master of the New Mill now. \n Him and his cronies have had the run of things, ever since the big folk took over.",
+   "ru": "",
+   "uk_ai": "Корчмар: Тепер Тед Сендімен — господар Нового Млина. \n Він і його поплічники всім заправляють, відколи владу захопили великі люди.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam211",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sam: That Sandyman always had the makings of a villain.",
+   "ru": "",
+   "uk_ai": "Сем: Із того Сендімена завжди проглядав лиходій.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gdinkeep006",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Innkeep: They've got many of us slaving away in their camps, felling trees and hauling stone. It's a sorry affair, indeed.",
+   "ru": "",
+   "uk_ai": "Корчмар: Багатьох із нас вони змушують гнути спину у своїх таборах — валити дерева й тягати каміння. Сумна справа, що й казати.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam212",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sam: I cannot abide this, Mr. Frodo. We've got to do something.",
+   "ru": "",
+   "uk_ai": "Сем: Я цього не стерплю, пане Фродо. Треба щось робити.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_merry058",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Merry: We will, Sam! We've not come this far to see the Shire brought to ruin!",
+   "ru": "",
+   "uk_ai": "Меррі: І зробимо, Семе! Не для того ми пройшли такий шлях, щоб бачити, як Шир лежить у руїнах!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit030",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Hobbit: That's our sign! We're rising up!",
+   "ru": "",
+   "uk_ai": "Гобіт: Це наш знак! Піднімаймося!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit009",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Hobbit: We'll take back the Shire!",
+   "ru": "",
+   "uk_ai": "Гобіт: Ми повернемо собі Шир!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin167",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Pippin: The fireworks are set! Ruuuuuuuun!",
+   "ru": "",
+   "uk_ai": "Піпін: Феєрверки готові! Тіка-а-а-а-йте!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit019",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "There, that will show those ruffians! Let's hope they never return.",
+   "ru": "",
+   "uk_ai": "Ось, це буде наука тим розбійникам! Сподіваймося, вони ніколи не повернуться.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo176",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Their Chief is holed up at Bag End. Let us waste no time and go to the Party Field.",
+   "ru": "",
+   "uk_ai": "Їхній Ватажок засів у Торбиному Куті. Не гаймо часу, ходімо до Святкового поля.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam216",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sam: No! They've cut it down! They've cut down the Party Tree!",
+   "ru": "",
+   "uk_ai": "Сем: Ні! Вони його зрубали! Зрубали Святкове Дерево!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sandyman001",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Ted Sandyman: Don't like it, Sam? You were always soft. What d'you want to come back for?",
+   "ru": "",
+   "uk_ai": "Тед Сендімен: Не подобається, Семе? Ти завжди був м'якотілим. Навіщо ти взагалі повернувся?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sandyman002",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Ted Sandyman: We've work to do in the Shire now. Sharkey's made me nice and rich, and he'll build me another mill - if I turn you lot in!",
+   "ru": "",
+   "uk_ai": "Тед Сендімен: Тепер у Ширі є робота. Шаркі зробив мене гарненько багатим, і він збудує мені ще один млин — якщо я здам вас!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam217",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sam: See here, Master Sandyman, I've a score to pay in this village, \n and don't you make it any longer with your jeering, or you'll foot a bill too big for your purse.",
+   "ru": "",
+   "uk_ai": "Сем: Слухай-но, пане Сендімене, у мене в цьому селі є рахунки, \n і не збільшуй їх своїми глузуваннями, бо доведеться сплатити більше, ніж уміщає твій гаманець.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sandyman003",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Ted Sandyman: You can't touch me. I'm a friend of the Boss. But he'll touch you all right, if I have any more of your mouth!",
+   "ru": "",
+   "uk_ai": "Тед Сендімен: Ти мене не зачепиш. Я друг Боса. А от він тебе таки зачепить, якщо ти мені ще раз пащеку роззявиш!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sandyman004",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Ted Sandyman: Give 'em what for!",
+   "ru": "",
+   "uk_ai": "Тед Сендімен: Дайте їм прочухана!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sandyman014",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Ted Sandyman: You win! Stay your hand!",
+   "ru": "",
+   "uk_ai": "Тед Сендімен: Ваша взяла! Опустіть руки!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sandyman015",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Ted Sandyman: You've changed, alright. But you won't stand a chance against the new owner of Bag End.",
+   "ru": "",
+   "uk_ai": "Тед Сендімен: Ви таки змінилися. Але проти нового господаря Торбиного Кута вам не вистояти.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam219",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sam: Is that why you betrayed your kind? Your home?!",
+   "ru": "",
+   "uk_ai": "Сем: То через це ти зрадив свій рід? Свій дім?!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sandyman016",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Ted Sandyman: I had no choice! The way things were going, it was submit or be thrown out, or worse!",
+   "ru": "",
+   "uk_ai": "Тед Сендімен: Я не мав вибору! Як усе йшло, або скорися, або тебе виженуть, а то й гірше!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_merry065",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Merry: Your Sharkey seems to have taken quite a liking to you, Sandyman.",
+   "ru": "",
+   "uk_ai": "Меррі: Схоже, твій Шаркі тебе неабияк уподобав, Сендімене.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam230",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sam: I reckon that's not without cause. Now be off, and take your henchmen with you!",
+   "ru": "",
+   "uk_ai": "Сем: Гадаю, не без причини. А тепер забирайся й прихопи своїх посіпак!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sandyman017",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Ted Sandyman: You think you've won? This'll come back on you double! They'll have you chained up, just like your Old Gaffer. \n I bet he's breaking his back in the work camp even now, Sam - if he's still alive to find!",
+   "ru": "",
+   "uk_ai": "Тед Сендімен: Думаєте, ви перемогли? Вам це вдвічі повернеться! Вас закують у кайдани, як вашого Старого. \n Б'юся об заклад, він і зараз надриває спину в робітному таборі, Семе, — якщо його ще знайдеш живим!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian039",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Ruffian Guard: Work, or taste the lash!",
+   "ru": "",
+   "uk_ai": "Розбійник-наглядач: Працюй, або скуштуєш батога!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit023",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Hobbit: We've got to set our friends free!",
+   "ru": "",
+   "uk_ai": "Гобіт: Ми мусимо звільнити наших друзів!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gaffer002",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Gaffer: Samwise! Mr. Baggins! My young friends! I'm so very glad you're back!",
+   "ru": "",
+   "uk_ai": "Старий Ґемджі: Семвайзе! Пане Беґінз! Мої юні друзі! Як же я радий, що ви повернулися!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam220",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sam: What have they done to you, my dear old Gaffer?",
+   "ru": "",
+   "uk_ai": "Сем: Що вони з тобою зробили, мій любий старий батьку?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gaffer003",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Gaffer: Nothing that won't heal on its own, dear Sam. There's worse things afoot.",
+   "ru": "",
+   "uk_ai": "Старий Ґемджі: Нічого такого, що саме не загоїться, любий Семе. Є речі й гірші.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gaffer004",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Gaffer: I heard them talking about reinforcements. They're sending up more of these ruffians!",
+   "ru": "",
+   "uk_ai": "Старий Ґемджі: Я чув, як вони говорили про підкріплення. Сюди посилають іще цих розбійників!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian004",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Ruffian: They're rising up! Stop them!",
+   "ru": "",
+   "uk_ai": "Розбійник: Вони повстають! Зупиніть їх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian037",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Ruffian: The Shire's ours now!",
+   "ru": "",
+   "uk_ai": "Розбійник: Тепер Шир наш!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halforc002",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Half-orc: Break their bones!",
+   "ru": "",
+   "uk_ai": "Напіворк: Ламайте їм кістки!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin169",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Merry: They'll come up Bywater Road. It cuts through an earth-bank. We can waylay them there!",
+   "ru": "",
+   "uk_ai": "Меррі: Вони підуть Байвотерським шляхом. Він прорізає земляний вал. Там ми можемо влаштувати їм засідку!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gaffer005",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Gaffer: It seems the bridge-guards have abandoned their posts.",
+   "ru": "",
+   "uk_ai": "Старий Ґемджі: Схоже, вартові на мосту покинули свої пости.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_merry066",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "We should move quickly!",
+   "ru": "",
+   "uk_ai": "Треба поспішати!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgnfotr_fatty004",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "I'm with you, Frodo!",
+   "ru": "",
+   "uk_ai": "Я з тобою, Фродо!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian034",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Ruffian: What!? We're under attack!",
+   "ru": "",
+   "uk_ai": "Розбійник: Що!? На нас напали!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo177",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Frodo: It isn't over yet. Bag End is still not free.",
+   "ru": "",
+   "uk_ai": "Фродо: Це ще не кінець. Торбин Кут досі не вільний.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam222",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sam: Then let us go and see about this Chief of theirs.",
+   "ru": "",
+   "uk_ai": "Сем: Тоді ходімо подивимося на цього їхнього Ватажка.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam223",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sam: This is worse than Mordor! Our homes, all ruined!",
+   "ru": "",
+   "uk_ai": "Сем: Це гірше за Мордор! Наші домівки — все зруйновано!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo178",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Frodo: This is Mordor. Or rather, one of its works.",
+   "ru": "",
+   "uk_ai": "Фродо: Це і є Мордор. Точніше, одна з його справ.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo179",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Frodo: Saruman. You are the Chief? The one they call Sharkey?",
+   "ru": "",
+   "uk_ai": "Фродо: Сарумане. То ти Ватажок? Той, кого звуть Шаркі?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saruman048",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Saruman: You've heard the name, have you? A term of endearment, no doubt.",
+   "ru": "",
+   "uk_ai": "Саруман: Чув це ім'я, так? Лагідне прізвисько, не інакше.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo180",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Frodo: Gandalf showed you mercy...",
+   "ru": "",
+   "uk_ai": "Фродо: Ґендальф виявив до тебе милосердя...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saruman049",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Saruman: Gandalf! Do not speak to me of Gandalf!",
+   "ru": "",
+   "uk_ai": "Саруман: Ґендальф! Не говори мені про Ґендальфа!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo181",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Frodo: Why have you done this?",
+   "ru": "",
+   "uk_ai": "Фродо: Навіщо ти це зробив?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saruman050_A",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Saruman: Why? You ask that? My home, wrecked! Saruman, turned away like a beggar! \nDid you think yourself safe? You are a fool.",
+   "ru": "",
+   "uk_ai": "Саруман: Навіщо? Ти ще питаєш? Мій дім зруйновано! Сарумана прогнали, мов жебрака! \nДумав, ти в безпеці? Ти дурень.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saruman050_B",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Saruman: I set out to teach you a lesson. \nOne ill turn deserves another.",
+   "ru": "",
+   "uk_ai": "Саруман: Я вирішив провчити вас. \nЛихо за лихо.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit028",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Hobbit: Don't let him go! He's a villain and a murderer. Kill him! Kill him!",
+   "ru": "",
+   "uk_ai": "Гобіт: Не відпускайте його! Він лиходій і вбивця. Вбийте його! Вбийте!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saruman058",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sharkey: Yes, kill him, if you think there are enough of you! But do not think that I am powerless! \n Whoever strikes me shall be accursed. And if my blood stains the Shire, it shall never be healed!",
+   "ru": "",
+   "uk_ai": "Шаркі: Так, убийте, якщо гадаєте, що вас досить! Але не думайте, що я безсилий! \n Хто вдарить мене, той буде проклятий. І якщо моя кров заплямує Шир, він ніколи не загоїться!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo182",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Your words are poison, Saruman. I will have you speak no more, slay him!",
+   "ru": "",
+   "uk_ai": "Твої слова — отрута, Сарумане. Я не дам тобі більше говорити, вбийте його!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo183",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Do not believe him! I will not have him slain. It is useless to meet revenge with revenge.",
+   "ru": "",
+   "uk_ai": "Не вірте йому! Я не дозволю його вбити. Марно відповідати помстою на помсту.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo184",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Go, Saruman, by the speediest way!",
+   "ru": "",
+   "uk_ai": "Іди, Сарумане, найкоротшим шляхом!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saruman059",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "To the road again, Worm! These fine fellows and lordlings are turning us adrift again. Come along!",
+   "ru": "",
+   "uk_ai": "Знову в дорогу, Черве! Ці славні молодці й панки знову женуть нас геть. Ходімо!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit032",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Hobbit: We can't let the villain get away! Get him!",
+   "ru": "",
+   "uk_ai": "Гобіт: Не можна дати лиходієві втекти! Хапайте його!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo186",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Frodo: Stay your weapons!",
+   "ru": "",
+   "uk_ai": "Фродо: Опустіть зброю!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo187",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Frodo: He was great once, of a noble kind that we should not dare to raise our hands against. \n I would spare him, in the hope that he may find some cure.",
+   "ru": "",
+   "uk_ai": "Фродо: Колись він був великим, шляхетного роду, на який ми не посміли б підняти руку. \n Я пощадив би його в надії, що він знайде якийсь порятунок.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saruman060A",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sharkey: You are wise, and cruel. You have robbed my revenge of sweetness, and now I am in debt to your mercy. I hate it and you!",
+   "ru": "",
+   "uk_ai": "Шаркі: Ти мудрий і жорстокий. Ти позбавив мою помсту солодкості, і тепер я в боргу перед твоїм милосердям. Я ненавиджу і його, і тебе!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saruman060B",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sharkey: I will trouble you no more. But do not expect me to wish you health and long life. \n You will have neither. But that is not my doing. I merely foretell.",
+   "ru": "",
+   "uk_ai": "Шаркі: Я більше не турбуватиму вас. Але не чекайте, що я побажаю вам здоров'я й довгого життя. \n Не буде вам ні того, ні того. Але то не моя справа. Я лише пророкую.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo188",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Frodo: Grima! You need not follow him!",
+   "ru": "",
+   "uk_ai": "Фродо: Ґрімо! Ти не мусиш іти за ним!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saruman063",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sharkey: You do what Sharkey says, always, don't you, Worm? Well, now he says - follow! Follow, you wretched cur!",
+   "ru": "",
+   "uk_ai": "Шаркі: Ти ж завжди робиш, що скаже Шаркі, правда, Черве? Ну, то тепер він каже — за мною! За мною, жалюгідний пес!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_wormtongue004",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Worm: No!",
+   "ru": "",
+   "uk_ai": "Червеуст: Ні!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo192",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Frodo: No!",
+   "ru": "",
+   "uk_ai": "Фродо: Ні!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam231",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sam: This was the very last end of the War, I hope.",
+   "ru": "",
+   "uk_ai": "Сем: Сподіваюся, це був самісінький кінець Війни.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo193",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Frodo: I hope so too. To think it had to happen here, at the very door of Bag End.",
+   "ru": "",
+   "uk_ai": "Фродо: Я теж сподіваюся. Подумати лишень, що це мало статися тут, на самому порозі Торбиного Кута.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam232",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sam: Now we must clean up the mess. And that'll take a lot of time and work.",
+   "ru": "",
+   "uk_ai": "Сем: Тепер треба прибрати весь цей безлад. А на це піде чимало часу й праці.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:ferny_atk2",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "Show 'm how we do things!",
+   "ru": "",
+   "uk_ai": "Покажіть їм, як у нас роблять!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:ferny_atk5",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "Shouldn't have crossed Bill Ferny!",
+   "ru": "",
+   "uk_ai": "Не треба було ставати на дорозі Біллу Ферні!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_merry071",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "We better deal with those camps before we head to the Mill. We don't want any nasty surprises creeping up behind us.",
+   "ru": "",
+   "uk_ai": "Краще розібратися з тими таборами, перш ніж іти до Млина. Нам не потрібні неприємні сюрпризи в спину.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit022",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Come on, now's the time!",
+   "ru": "",
+   "uk_ai": "Ну ж бо, час настав!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam213",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "There's lots of them hanging about. We need to gather as many hobbits as we can!",
+   "ru": "",
+   "uk_ai": "Їх тут чимало вештається. Треба зібрати якомога більше гобітів!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam214",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "If we take care of these camps, more hobbits will come out to help!",
+   "ru": "",
+   "uk_ai": "Якщо розберемося з цими таборами, на допомогу вийде більше гобітів!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_merry059",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "We've destroyed one of their camps!",
+   "ru": "",
+   "uk_ai": "Ми знищили один з їхніх таборів!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_merry060",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Look! It's another one of their camps!",
+   "ru": "",
+   "uk_ai": "Дивіться! Ще один їхній табір!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin165",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Their camps are gone. That'll thin out their patrols.",
+   "ru": "",
+   "uk_ai": "Їхніх таборів більше немає. Патрулів поменшає.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin162",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Come! Let us rid ourselves of that foul mill.",
+   "ru": "",
+   "uk_ai": "Ходімо! Позбудьмося того мерзенного млина.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin164",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "They gather around their camps! We've got to put them out of commission!",
+   "ru": "",
+   "uk_ai": "Вони збираються біля своїх таборів! Треба вивести їх із ладу!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian040",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Attack these interlopers!",
+   "ru": "",
+   "uk_ai": "Бийте цих зайд!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian024",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Show 'em what we do to rebels!",
+   "ru": "",
+   "uk_ai": "Покажіть їм, що ми робимо з бунтівниками!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit029",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "It's begun! Come on!",
+   "ru": "",
+   "uk_ai": "Почалося! Ну ж бо!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit007",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "We'll help you Mr Baggins!",
+   "ru": "",
+   "uk_ai": "Ми допоможемо вам, пане Беґінз!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit010",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "The revolution's started!",
+   "ru": "",
+   "uk_ai": "Повстання почалося!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit011",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Come on, grab that pitchfork!",
+   "ru": "",
+   "uk_ai": "Ну ж бо, хапай вила!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit013",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Watch out! They're guarding the bridge!",
+   "ru": "",
+   "uk_ai": "Обережно! Вони стережуть міст!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit008",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Young Masters Meriadoc and Peregrin have returned!",
+   "ru": "",
+   "uk_ai": "Молоді пани Меріадок і Переґрін повернулися!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit012",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "It's time! For the Shire!",
+   "ru": "",
+   "uk_ai": "Час настав! За Шир!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit020",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "They've destroyed that ugly mill!",
+   "ru": "",
+   "uk_ai": "Вони знищили той бридкий млин!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian036",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Capture 'em, or kill 'em if you like - Boss won't care!",
+   "ru": "",
+   "uk_ai": "Хапайте їх, а як хочете, то й убивайте — Босові байдуже!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian012",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "They are trying to destroy the mill!",
+   "ru": "",
+   "uk_ai": "Вони хочуть зруйнувати млин!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian041",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Chief'll have us if we let them destroy the mill!",
+   "ru": "",
+   "uk_ai": "Ватажок нам голови позносить, якщо дамо їм зруйнувати млин!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin166",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "We've fought worse fiends!",
+   "ru": "",
+   "uk_ai": "Ми бились і з гіршими лиходіями!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_merry063",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "You're the expert, Pippin. You set up the fireworks. Just make sure you stick 'em in the ground.",
+   "ru": "",
+   "uk_ai": "Ти в нас знавець, Піпіне. Ставиш феєрверки ти. Тільки дивись, щоб устромив їх у землю.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_merry064",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "To me, friends!",
+   "ru": "",
+   "uk_ai": "До мене, друзі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam215",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "You lot don't scare me!",
+   "ru": "",
+   "uk_ai": "Ви мене не лякаєте!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo175",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Stand together, hobbits!",
+   "ru": "",
+   "uk_ai": "Тримайтеся разом, гобіти!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit014",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "The Ruffians will be coming back soon!",
+   "ru": "",
+   "uk_ai": "Розбійники скоро повернуться!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sandyman005",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Think I'm alone, Sam!?",
+   "ru": "",
+   "uk_ai": "Думаєш, я сам, Семе!?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sandyman006",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "You've made a big mistake!",
+   "ru": "",
+   "uk_ai": "Ти зробив велику помилку!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sandyman007",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Things have changed 'round here!",
+   "ru": "",
+   "uk_ai": "Тут усе змінилося!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sandyman008",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Let's settle this, Gamgee!",
+   "ru": "",
+   "uk_ai": "Розберімося, Ґемджі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sandyman009",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "I ain't scared of no gardener!",
+   "ru": "",
+   "uk_ai": "Не боюся я ніякого садівника!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sandyman010",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Come on, help out your employer!",
+   "ru": "",
+   "uk_ai": "Ну ж бо, допоможіть своєму роботодавцеві!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sandyman011",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Go back to your fairy stories!",
+   "ru": "",
+   "uk_ai": "Повертайся до своїх казочок!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgnfotr_fatty003",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "My friends! You've returned! All of you, and in one piece!",
+   "ru": "",
+   "uk_ai": "Друзі мої! Ви повернулися! Усі, і цілі-неушкоджені!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ferny004",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "So, you're back!? Word of your crimes has traveled! Sharkey says I better handle it, so handle it I will! Come on, boys!",
+   "ru": "",
+   "uk_ai": "То ви повернулися!? Чутки про ваші злочини розлетілися! Шаркі каже, щоб я з цим розібрався, тож і розберуся! Ходімо, хлопці!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ferny005",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Sharkey'll have you!",
+   "ru": "",
+   "uk_ai": "Шаркі вам покаже!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ferny007",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Where'd you learn to fight!?",
+   "ru": "",
+   "uk_ai": "Де ви навчилися битися!?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ferny006",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "You can't be treating me like this!",
+   "ru": "",
+   "uk_ai": "Ви не маєте права так зі мною поводитися!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ferny009",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Ugh! You'll regret this, all of you, hnngh",
+   "ru": "",
+   "uk_ai": "У-у! Ви всі про це пошкодуєте, м-м-м",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgnfotr_fatty006",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Together, brave hobbits!",
+   "ru": "",
+   "uk_ai": "Разом, хоробрі гобіти!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian018",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "These rats don't look like they're from 'round here! Let's show 'em the new order of things!",
+   "ru": "",
+   "uk_ai": "Ці щурі, схоже, не тутешні! Покажімо їм новий порядок!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian016",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "What's this? Bunch of halflings on the loose?!",
+   "ru": "",
+   "uk_ai": "Що це? Зграя напіврослків розгулює на волі?!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gaffer001",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Sam! Is that you, my boy? Come and help your old dad!",
+   "ru": "",
+   "uk_ai": "Семе! Це ти, синку? Іди допоможи своєму старому батькові!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit024",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "The ruffians are getting closer!",
+   "ru": "",
+   "uk_ai": "Розбійники наближаються!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgnfotr_fatty007",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Don't be afraid, now!",
+   "ru": "",
+   "uk_ai": "Не бійтеся!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin171",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "This is it! Here they come!",
+   "ru": "",
+   "uk_ai": "Ось воно! Ідуть!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_merry067",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "We're running out of time!",
+   "ru": "",
+   "uk_ai": "У нас закінчується час!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit025",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Look at that! They're getting blasted!",
+   "ru": "",
+   "uk_ai": "Ви тільки гляньте! Їх рознесло!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit031",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Greetings, masters! We've gathered what brave hobbits we could. Now, let's remove these ruffians from our lands!",
+   "ru": "",
+   "uk_ai": "Вітаємо, панове! Ми зібрали всіх хоробрих гобітів, кого змогли. А тепер виженімо цих розбійників з наших земель!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin172",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "More are coming!",
+   "ru": "",
+   "uk_ai": "Ідуть іще!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_merry069",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "There's more coming! Stand your ground!",
+   "ru": "",
+   "uk_ai": "Ідуть іще! Тримайтеся!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgnfotr_fatty005",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "We'll show these villains what for!",
+   "ru": "",
+   "uk_ai": "Ми покажемо цим лиходіям!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit027",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "We did it!",
+   "ru": "",
+   "uk_ai": "Ми це зробили!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saruman052",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Fight, Worm!",
+   "ru": "",
+   "uk_ai": "Бийся, Черве!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_wormtongue001",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Master! They have hurt me!",
+   "ru": "",
+   "uk_ai": "Господарю! Мене поранили!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saruman051",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Even now, you are no match!",
+   "ru": "",
+   "uk_ai": "Навіть тепер вам до мене далеко!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saruman054",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "You were mere pawns in Gandalf's game!",
+   "ru": "",
+   "uk_ai": "Ви були лише пішаками в грі Ґендальфа!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saruman055",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Kill them, you pathetic coward!",
+   "ru": "",
+   "uk_ai": "Вбий їх, жалюгідний боягузе!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saruman056",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Worm will take care of you!",
+   "ru": "",
+   "uk_ai": "Черв з вами розбереться!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_merry070",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Your reign is done!",
+   "ru": "",
+   "uk_ai": "Твоєму пануванню кінець!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin173",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "We will beat you again!",
+   "ru": "",
+   "uk_ai": "Ми знову тебе здолаємо!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam224",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "You will pay for this!",
+   "ru": "",
+   "uk_ai": "Ти за це заплатиш!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NEWRULEHINT",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "Return to the notice board to read more rules.",
+   "ru": "",
+   "uk_ai": "Поверніться до дошки оголошень, щоб прочитати інші правила.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NEWRULE01",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "THE NEW RULES \n \n As spoken by Sharkey, Lord of the Shire \n Abbreviated for the Purpose of Signage and thus Non-Exhaustive \n For a full Charter, set an appointment with The Chief.",
+   "ru": "",
+   "uk_ai": "НОВІ ПРАВИЛА \n \n Проголошені Шаркі, Володарем Ширу \n Скорочено для Вивіски, а отже, Неповно \n Щоб ознайомитися з повним Статутом, запишіться на прийом до Ватажка.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NEWRULE02",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "Rule Number One \n \n It is hereby Ordered that no Hobbit shall gather, keep, or consume ale, beer, cider, or other strong drink save by Licence duly granted by the Chief's Men, and only in such quantity as they shall deem fit.",
+   "ru": "",
+   "uk_ai": "Правило Номер Один \n \n Цим Наказується, що жоден Гобіт не має права збирати, зберігати чи споживати ель, пиво, сидр чи інші міцні напої інакше, ніж за Ліцензією, належно виданою Людьми Ватажка, і лише в тій кількості, яку вони вважатимуть за доречну.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NEWRULE03",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "Rule Number Two \n \n  No tree shall be felled, pruned, climbed, or otherwise meddled with except by express Written Permission; provided always that the Chief's Men may cut whatsoever trees they require, without notice or appeal.",
+   "ru": "",
+   "uk_ai": "Правило Номер Два \n \n  Жодне дерево не можна рубати, обрізати, лазити на нього чи інакше чіпати без чіткого Письмового Дозволу; за умови, що Люди Ватажка можуть рубати будь-які потрібні їм дерева без попередження й права на оскарження.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NEWRULE04",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "Rule Number Three\n \n Every Hobbit between the ages of fifteen and one hundred shall present himself for Labour when called upon, and any refusal, delay, or complaint shall be deemed wilful Idleness and punished accordingly.",
+   "ru": "",
+   "uk_ai": "Правило Номер Три\n \n Кожен Гобіт віком від п'ятнадцяти до ста років мусить з'являтися на Роботи на першу вимогу, а будь-яка відмова, зволікання чи скарга вважатиметься навмисним Неробством і каратиметься відповідно.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NEWRULE05",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "... The list goes on.",
+   "ru": "",
+   "uk_ai": "... І так далі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NEWRULE06",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "... The first few pages appear torn off. Only the last few remain:",
+   "ru": "",
+   "uk_ai": "... Перші кілька сторінок, схоже, вирвано. Лишилися тільки останні:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NEWRULE07",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "Rule Number Seventeen \n \n No gathering exceeding three persons shall be held in any inn, lane, field, or dwelling after sunset without Leave first obtained from the Shiriffs. Conversation touching upon former customs, absent persons, or matters of governance shall be especially discouraged.",
+   "ru": "",
+   "uk_ai": "Правило Номер Сімнадцять \n \n Після заходу сонця жодні зібрання понад трьох осіб у корчмах, провулках, полях чи оселях не дозволяються без попереднього Дозволу ширрифів. Особливо не заохочуються розмови про колишні звичаї, відсутніх осіб або справи врядування.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NEWRULE08",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "Rule Number Eighteen \n \n Any speech tending to bring the Chief, his Rules, his Men, or the New Order into Ridicule, Contempt, or Disrepute shall be accounted Mischief of a Serious Nature, whether spoken plainly, hinted broadly, sung, muttered, or overheard.",
+   "ru": "",
+   "uk_ai": "Правило Номер Вісімнадцять \n \n Будь-які промови, що виставляють Ватажка, його Правила, його Людей чи Новий Порядок на Посміх, Зневагу чи Ганьбу, вважаються Капостями Серйозного Характеру — байдуже, чи сказано їх прямо, натякнуто, проспівано, пробурмотано чи підслухано.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NEWRULE09",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "Rule Number Nineteen \n \n No weapons of any kind shall be kept or carried by Hobbits without special permission, and any such items found shall be seized.",
+   "ru": "",
+   "uk_ai": "Правило Номер Дев'ятнадцять \n \n Гобітам заборонено зберігати чи носити будь-яку зброю без особливого дозволу, а будь-які такі предмети, якщо їх знайдуть, буде конфісковано.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NEWRULE10",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "Rule Number Twenty \n \n All former customs and traditions shall give way to these Rules, which shall take precedence in all matters, and any uncertainty shall be resolved in favour of the Chief and his authority.",
+   "ru": "",
+   "uk_ai": "Правило Номер Двадцять \n \n Усі колишні звичаї й традиції поступаються цим Правилам, що мають перевагу в усіх питаннях, а будь-яка непевність тлумачиться на користь Ватажка та його влади.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit001",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Such a shame what they've done to the trees...",
+   "ru": "",
+   "uk_ai": "Як шкода, що вони зробили з деревами...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit002",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "You reckon they'll move on soon?",
+   "ru": "",
+   "uk_ai": "Думаєш, вони скоро підуть?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit003",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "This is a bad dream...",
+   "ru": "",
+   "uk_ai": "Це якийсь лихий сон...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgnfotr_casmoredleaf002",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "The birds, they're all gone!",
+   "ru": "",
+   "uk_ai": "Птахи — їх усіх немає!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian001",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "What do you want? Get out of my sight!",
+   "ru": "",
+   "uk_ai": "Чого тобі? Геть з очей!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian002",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "What are you looking at?",
+   "ru": "",
+   "uk_ai": "Чого витріщився?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian003",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "What, you think you're better than me!?",
+   "ru": "",
+   "uk_ai": "Що, думаєш, ти кращий за мене!?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian023",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Haven't seen your smug faces 'round here before!",
+   "ru": "",
+   "uk_ai": "Ваших самовдоволених пик я тут раніше не бачив!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo173",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "What's happened here? Who are all these Men?",
+   "ru": "",
+   "uk_ai": "Що тут сталося? Хто всі ці люди?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_shirrif004",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "There's been strange folk abound for some time. But their Chief only arrived a month or so ago. Since then, things have changed. Rules, regulations. Lock-holes, overflowing.",
+   "ru": "",
+   "uk_ai": "Дивні люди вештаються тут уже давненько. Але їхній Ватажок прибув лише десь місяць тому. Відтоді все змінилося. Правила, приписи. Холодні переповнені.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam228",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "What Chief? You mean Bill Ferny?",
+   "ru": "",
+   "uk_ai": "Який Ватажок? Ти про Білла Ферні?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_shirrif008",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Huh? No, not Bill. The Chief's some outsider. Came buying land and stores little by little, and before long his big folk were giving orders all across the Shire.",
+   "ru": "",
+   "uk_ai": "Га? Ні, не Білл. Ватажок — якийсь чужинець. Потроху скуповував землю й крамниці, і незабаром його великі люди вже роздавали накази по всьому Ширу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo190",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "You're Will Hayfoot aren't you? I thought I recognised you. I used to see you fishing by Bywater Pool.",
+   "ru": "",
+   "uk_ai": "Ти ж Вілл Гейфут, правда? Мені здалося, що я тебе впізнав. Я колись бачив, як ти рибалив біля Байвотерського ставу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_shirrif009",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Aye... well. Things are different now, Mr. Frodo. That was before the Rules.",
+   "ru": "",
+   "uk_ai": "Еге ж... ну. Тепер усе інакше, пане Фродо. То було ще до Правил.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:HintMerryHorn",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "Hobbits still live in Holes that have white smoking chimneys. Use Merry's 'Rohirric Horn' ability near hobbit holes to summon allies!",
+   "ru": "",
+   "uk_ai": "Гобіти досі живуть у норах, над якими з комина йде білий дим. Скористайтеся здібністю Меррі «Ріг Рогану» біля гобітських нір, щоб покликати союзників!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian009",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Sod this! We need more men! I'll go find some!",
+   "ru": "",
+   "uk_ai": "Та ну його! Нам потрібно більше людей! Піду пошукаю!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MillFireworksHealth",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "Pippin Health",
+   "ru": "",
+   "uk_ai": "Здоров'я Піпіна",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:DefendMillTimer",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "Defend Pippin for",
+   "ru": "",
+   "uk_ai": "Захищайте Піпіна ще",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:PippinMillHint",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "Move Pippin to the New Mill to start setting up fireworks. Protect him while he is setting them up for the Ruffians will try to stop you.",
+   "ru": "",
+   "uk_ai": "Приведіть Піпіна до Нового Млина, щоб він почав ставити феєрверки. Захищайте його, поки він працює, бо розбійники спробують вам завадити.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:AmbushSetupTimer",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "The Ruffian horde will arrive in",
+   "ru": "",
+   "uk_ai": "Орда розбійників прибуде через",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ferny001",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Bill Ferny: Oh, I remember you. I'll bet that old pony keeled over 'fore you lot reached Staddle. He he he.",
+   "ru": "",
+   "uk_ai": "Білл Ферні: О, пам'ятаю я вас. Б'юся об заклад, той старий поні здох, ще поки ви до Стеддла дісталися. Хе-хе-хе.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ferny002",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Bill Ferny: Don't mistake me for some softhearted dullard that cares, halfling. And don't think I've forgotten about that apple, either. I'll throw something at you, now!",
+   "ru": "",
+   "uk_ai": "Білл Ферні: Не плутай мене з якимось м'якосердим недоумком, якому не байдуже, напіврослику. І не думай, що я забув про те яблуко. Зараз і я в тебе чимось пожбурну!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_shirrif005",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "They've torn down the Old Mill, and built a new one. Nasty place. It befouls the air and the water. Sandyman's in charge. He seems to like it.",
+   "ru": "",
+   "uk_ai": "Вони знесли Старий Млин і збудували новий. Мерзенне місце. Отруює повітря й воду. Заправляє там Сендімен. Йому, схоже, подобається.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_shirrif006",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "They've got many of us slaving away in their work pits, shaping stone and baking bricks. It's a sorry affair, indeed.",
+   "ru": "",
+   "uk_ai": "Багатьох із нас вони змушують гнути спину у своїх робітних ямах — тесати каміння й випалювати цеглу. Сумна справа, що й казати.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_shirrif007",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "The Chief's set up at Bag End. He's filled the Party Field with lodgings for his Men. You'll get your say before him. Make it easy, if you want the shortest possible stay in the lock-holes.",
+   "ru": "",
+   "uk_ai": "Ватажок оселився в Торбиному Куті. Святкове поле він забудував житлом для своїх Людей. Ви ще постанете перед ним. Не опирайтеся, якщо хочете якнайменше просидіти в холодній.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo174",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Bag End? What a dreadful prospect.",
+   "ru": "",
+   "uk_ai": "У Торбиному Куті? Жахлива перспектива.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gdinkeep001",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Innkeep: Mr. Baggins! Is it really you?",
+   "ru": "",
+   "uk_ai": "Корчмар: Пане Беґінз! Невже це ви?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit005",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Innkeep: We thought you were dead!",
+   "ru": "",
+   "uk_ai": "Корчмар: Ми думали, ви загинули!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam229",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sam: That Ted always had a mean streak in him.",
+   "ru": "",
+   "uk_ai": "Сем: У тому Теді завжди сиділа підлота.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit006",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Innkeep: The big folk have been confiscating fireworks. They've got it all stashed nearby.",
+   "ru": "",
+   "uk_ai": "Корчмар: Великі люди конфіскують феєрверки. Вони все сховали тут неподалік.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin163",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Pippin: Fireworks? Good. They'll come in useful.",
+   "ru": "",
+   "uk_ai": "Піпін: Феєрверки? Чудово. Вони стануть у пригоді.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_merry061",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "We've destroyed another camp!",
+   "ru": "",
+   "uk_ai": "Ми знищили ще один табір!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian027",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Stop them!",
+   "ru": "",
+   "uk_ai": "Зупиніть їх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian028",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "You'll regret this!",
+   "ru": "",
+   "uk_ai": "Ви про це пошкодуєте!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_merry062",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "I think we've roused them all.",
+   "ru": "",
+   "uk_ai": "Здається, ми підняли всіх.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian010",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Go on! Beat them back!",
+   "ru": "",
+   "uk_ai": "Давай! Відкиньте їх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian042",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "You don't stand a chance!",
+   "ru": "",
+   "uk_ai": "У вас немає жодного шансу!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit015",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Fight! For the Shire!",
+   "ru": "",
+   "uk_ai": "Бийтеся! За Шир!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit016",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "We can win this!",
+   "ru": "",
+   "uk_ai": "Ми можемо перемогти!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit017",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Watch out!",
+   "ru": "",
+   "uk_ai": "Обережно!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit018",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Keep it up!",
+   "ru": "",
+   "uk_ai": "Так тримати!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:PippinNewMill",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "RUUUUUUUUUUUUUUNNN",
+   "ru": "",
+   "uk_ai": "ТІКА-А-А-А-А-А-А-А-АЙТЕ",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit021",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "We're taking the Shire back!",
+   "ru": "",
+   "uk_ai": "Ми повертаємо собі Шир!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian035",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Gettin' uppity on us, eh!?",
+   "ru": "",
+   "uk_ai": "Задираєте носа, га!?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin168",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Pippin: I reckon that's not without cause. Now be off, and take your henchmen with you!",
+   "ru": "",
+   "uk_ai": "Піпін: Гадаю, не без причини. А тепер забирайся й прихопи своїх посіпак!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sandyman012",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Ow! What're you doing!?",
+   "ru": "",
+   "uk_ai": "Ой! Що ви робите!?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sandyman013",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "How dare you!?",
+   "ru": "",
+   "uk_ai": "Як ви смієте!?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:WorkPitHint01",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "Hobbits have been put to work in the Work Pit, free them and they'll join the fight for the Shire!",
+   "ru": "",
+   "uk_ai": "Гобітів зігнали працювати в Робітну Яму. Звільніть їх, і вони приєднаються до боротьби за Шир!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian017",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "You think you're tough, eh?",
+   "ru": "",
+   "uk_ai": "Думаєш, ти крутий, га?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ferny008",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "No more! No more! I yield!",
+   "ru": "",
+   "uk_ai": "Годі! Годі! Я здаюся!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgnfotr_fatty008",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Look out!",
+   "ru": "",
+   "uk_ai": "Обережно!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgnfotr_fatty009",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "I've got a rock for you!",
+   "ru": "",
+   "uk_ai": "А ось тобі камінчик!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgnfotr_fatty010",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Away with you!",
+   "ru": "",
+   "uk_ai": "Геть звідси!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgnfotr_fatty011",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Begone, foul ruffians!",
+   "ru": "",
+   "uk_ai": "Забирайтеся, мерзенні розбійники!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hobbitreinforcementsambush",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "PLACEHOLDER: We'll help you!",
+   "ru": "",
+   "uk_ai": "ЗАГЛУШКА: Ми вам допоможемо!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:AmbushSetupHint",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "Move to the Ambush site to prepare your defences.",
+   "ru": "",
+   "uk_ai": "Вирушайте до місця засідки, щоб підготувати оборону.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin170",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "We can set up some fireworks along the ridge! That'll spook them.",
+   "ru": "",
+   "uk_ai": "Можна розставити феєрверки вздовж гребеня! Це їх налякає.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_merry068",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "For the Shire!",
+   "ru": "",
+   "uk_ai": "За Шир!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam221",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Keep their villainy at bay! The Shire is ours!",
+   "ru": "",
+   "uk_ai": "Не підпускайте їхнє лиходійство! Шир наш!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hobbit026",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Wicked beasts!",
+   "ru": "",
+   "uk_ai": "Лихі тварюки!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian020",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "They're gonna kill us!",
+   "ru": "",
+   "uk_ai": "Вони нас повбивають!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian021",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Send word to the Boss!",
+   "ru": "",
+   "uk_ai": "Повідомте Боса!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian013",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "It's just a bunch of halflings! Get 'em!",
+   "ru": "",
+   "uk_ai": "Та це ж просто купка напіврослків! Хапайте їх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian014",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "You ain't beating us!",
+   "ru": "",
+   "uk_ai": "Вам нас не здолати!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:HintSharkey",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "Confront the Boss.",
+   "ru": "",
+   "uk_ai": "Дайте відсіч Босові.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:SharkeyBossfightAbility01",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "You are too weak!",
+   "ru": "",
+   "uk_ai": "Ви надто слабкі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:WormTaunt01",
+   "mission": "013_Scouring of the Shire",
+   "type": "Інше",
+   "en": "Take m boss, I'll make sure no more come from this direction gnehehe!",
+   "ru": "",
+   "uk_ai": "Беріть їх, босе, а я подбаю, щоб із цього боку більше ніхто не прийшов, гне-хе-хе!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saruman053",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Fools!",
+   "ru": "",
+   "uk_ai": "Дурні!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saruman057",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "I'll take care of you myself!",
+   "ru": "",
+   "uk_ai": "Я сам із вами розберуся!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saruman046",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "I have done much that you will find hard to mend or undo in your lives. And it will be pleasant to think of that and set it against my injuries.",
+   "ru": "",
+   "uk_ai": "Я накоїв багато такого, що вам за все життя буде важко виправити чи скасувати. І мені буде приємно думати про це й зважувати проти завданих мені кривд.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saruman047",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "It seems that Gandalf's impudence has taken root in you. All that suffering, and no lesson learned.",
+   "ru": "",
+   "uk_ai": "Схоже, Ґендальфове зухвальство пустило у вас коріння. Стільки страждань — і жодного засвоєного уроку.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo185",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "I offered you mercy, Saruman, and you repaid it with treachery. One ill turn deserves another - kill him.",
+   "ru": "",
+   "uk_ai": "Я виявив до тебе милосердя, Сарумане, а ти відплатив зрадою. Лихо за лихо — вбийте його.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saruman064",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sharkey: Follow! Follow, you wretched cur!",
+   "ru": "",
+   "uk_ai": "Шаркі: За мною! За мною, жалюгідний пес!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo191",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Frodo: You can stay here a while, and rest ere you take to the road.",
+   "ru": "",
+   "uk_ai": "Фродо: Ти можеш лишитися тут ненадовго й відпочити, перш ніж рушиш у дорогу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saruman061",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sharkey: No evil? Oh no! What of poor Lotho? You know, don't you, Worm? Will you tell them?",
+   "ru": "",
+   "uk_ai": "Шаркі: Жодного зла? О ні! А як же бідолашний Лото? Ти ж знаєш, правда, Черве? Розкажеш їм?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_wormtongue002",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Worm: No, no!",
+   "ru": "",
+   "uk_ai": "Червеуст: Ні, ні!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saruman062",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Sharkey: Worm killed him. Poor fellow. Stabbed him in his sleep, I believe. Buried him, I hope; \n though Worm has been very hungry lately. You had better leave him to me.",
+   "ru": "",
+   "uk_ai": "Шаркі: Черв його вбив. Бідолаха. Заколов уві сні, здається. Сподіваюся, поховав; \n хоча Черв останнім часом дуже голодний. Краще залиште його мені.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_wormtongue003",
+   "mission": "013_Scouring of the Shire",
+   "type": "Діалог",
+   "en": "Worm: You told me to!",
+   "ru": "",
+   "uk_ai": "Червеуст: Ти сам мені наказав!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian007",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Remind them of their place!",
+   "ru": "",
+   "uk_ai": "Нагадайте їм, де їхнє місце!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian008",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Get to work!",
+   "ru": "",
+   "uk_ai": "До роботи!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian015",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "We're getting beaten!",
+   "ru": "",
+   "uk_ai": "Нас б'ють!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian019",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "We'll set you to work!",
+   "ru": "",
+   "uk_ai": "Ми вас до роботи приставимо!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian022",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "The mills! They're destroying them!",
+   "ru": "",
+   "uk_ai": "Млини! Вони їх нищать!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian025",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Stop, or we'll have ya!",
+   "ru": "",
+   "uk_ai": "Стій, бо дістанеш!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian026",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "No slacking!",
+   "ru": "",
+   "uk_ai": "Не лінуватися!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian029",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "What's happening!?",
+   "ru": "",
+   "uk_ai": "Що діється!?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian030",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "No! They're all over!",
+   "ru": "",
+   "uk_ai": "Ні! Вони всюди!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian031",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Scream 01",
+   "ru": "",
+   "uk_ai": "Крик 01",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian032",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Scream 02",
+   "ru": "",
+   "uk_ai": "Крик 02",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian033",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Scream 03",
+   "ru": "",
+   "uk_ai": "Крик 03",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian038",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "There's work to do!",
+   "ru": "",
+   "uk_ai": "Є робота!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian043",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "There's too many!",
+   "ru": "",
+   "uk_ai": "Їх забагато!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian044",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Scream 04",
+   "ru": "",
+   "uk_ai": "Крик 04",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ruffian045",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Scream 05",
+   "ru": "",
+   "uk_ai": "Крик 05",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halforc001",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Shire-rats! Get 'em!",
+   "ru": "",
+   "uk_ai": "Ширські щурі! Хапайте їх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halforc003",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "You'll answer to the Boss!",
+   "ru": "",
+   "uk_ai": "Відповідатимеш перед Босом!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halforc004",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Worthless maggots!",
+   "ru": "",
+   "uk_ai": "Нікчемні хробаки!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halforc005",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Don't let 'em get away!",
+   "ru": "",
+   "uk_ai": "Не дайте їм утекти!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halforc006",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Hit 'em harder!",
+   "ru": "",
+   "uk_ai": "Бийте сильніше!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halforc007",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Know your place, mutts!",
+   "ru": "",
+   "uk_ai": "Знайте своє місце, шавки!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halforc008",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "Pathetic! Come then!",
+   "ru": "",
+   "uk_ai": "Жалюгідно! Ну ж бо, підходьте!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halforc011",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "We'll tear you apart!",
+   "ru": "",
+   "uk_ai": "Ми вас на шматки розірвемо!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halforc012",
+   "mission": "013_Scouring of the Shire",
+   "type": "Репліка",
+   "en": "This place is ours now!",
+   "ru": "",
+   "uk_ai": "Тепер це місце наше!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FriendOfTheKing",
+   "mission": "013_Scouring of the Shire",
+   "type": "Кнопка",
+   "en": "Friend of the King (&V)",
+   "ru": "",
+   "uk_ai": "Друг короля (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellowshipMerryHornScouring",
+   "mission": "013_Scouring of the Shire",
+   "type": "Кнопка",
+   "en": "Requires Level 10\nMerry blows the silver horn of Rohan, stunning nearby enemy units with fear for 15 seconds\nRouses Hobbit reinforcements when cast nearby Hobbit-holes\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 10\nМеррі сурмить у срібний ріг Рогану, і ворожі загони поблизу, охоплені страхом, приголомшені на 15 сек.\nПіднімає на допомогу гобітів, якщо засурмити поряд із гобітськими норами\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFriendOfTheKing",
+   "mission": "013_Scouring of the Shire",
+   "type": "Кнопка",
+   "en": "Requires Level 10 \n Pippin gains +150% armour, knockback resistance and deals +250% damage against Half-orcs for 20 seconds\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 10 \n Піпін отримує бонус +150% броні, стійкість до відкидання й завдає +250% пошкоджень напіворкам на 20 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHoldwinetheGreatSotS",
+   "mission": "013_Scouring of the Shire",
+   "type": "Кнопка",
+   "en": "Requires Level 7 \n Merry plunges his Blade of Westernesse into an enemy unit, hero or monster, dealing strong damage and decreasing armour by 33% for 10 seconds.\n Deals minimal damage versus heroes \n Can only use when sword is equipped. \n Left click then left click on target",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 7 \n Меррі встромляє клинок Вестернесу у ворожий загін, героя чи створіння, завдаючи сильних пошкоджень і зменшуючи броню на 33% на 10 сек.\n Проти героїв завдає мінімальних пошкоджень \n Доступно лише з мечем. \n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

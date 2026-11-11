@@ -1,0 +1,133 @@
+{
+ "meta": {
+  "hero": "Grimbeorn",
+  "uk_name": "Ґрімбеорн",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "BattleUnderTrees"
+  ],
+  "templates": {
+   "кампанія": [
+    "MirkwoodGrimbeorn"
+   ],
+   "битва": [
+    "MirkwoodGrimbeorn"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:MirkwoodGrimbeorn",
+   "type": "Ім'я",
+   "en": "Grimbeorn",
+   "ru": "Гримбеорн",
+   "uk_ai": "Ґрімбеорн",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SonOfBeorn",
+   "type": "Кнопка",
+   "en": "Son of Beorn (&W)",
+   "ru": "Сын Беорна (&W)",
+   "uk_ai": "Син Беорна (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSonOfBeorn",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nProvides +33% armour to nearby Beornings\nGrimbeorn deals +33% additional damage against Bolg\nPassive ability\n\nWhen activated, Grimbeorn instills terror into the hearts of all Orc and Warg units for 15 seconds\nLeft click to activate",
+   "ru": "Тип модификатора: Лидерство\\nБлижайшие беорнинги получают +33% брони\\nГримбеорн наносит +33% дополнительного урона Больгу\\nПассивная способность\\n\\nПосле активации, Гримбеорн издает громкий рык, вселяя ужас в сердца всех орков, гоблинов и варгов на 15 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Тип ефекту: Лідерство\nБеорнінги поблизу отримують бонус +33% броні\nҐрімбеорн завдає Болґу на 33% більше пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації Ґрімбеорн на 15 сек. наганяє жах на всі загони орків і варґів\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GrimbeornStrongman",
+   "type": "Кнопка",
+   "en": "Strongman (&R)",
+   "ru": "Силач (&R)",
+   "uk_ai": "Силач (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGrimbeornStrongman",
+   "type": "Підказка",
+   "en": "Grimbeorn powerfully swings his massive axe, dealing damage to everything around him\nGrows in strength as Grimbeorn ranks up\nLeft click to activate",
+   "ru": "Гримбеорн размахивает своим тяжелым топором, нанося урон всем врагам вокруг себя\\nСтановится сильнее по мере того, как Гримбеорн повышает свой уровень\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Ґрімбеорн потужно махає величезною сокирою й завдає пошкоджень усім довкола\nСила зростає з рівнем Ґрімбеорна\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TollKeepers",
+   "type": "Кнопка",
+   "en": "Toll-keepers (&T)",
+   "ru": "Дорожный сбор (&T)",
+   "uk_ai": "Збирачі мита (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTollKeepers",
+   "type": "Підказка",
+   "en": "Requires Level 3\nCan be cast on any resource structure to spawn a chest of 850 resources\nPauses resource production for 30 seconds as a result\nLeft click icon then left click on target structure",
+   "ru": "Требуется уровень 3\\nМожно применить к любой ресурсной постройке, чтобы получить сундук с 850 ресурсами\\nВ результате производство ресурсов приостанавливается на 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевое строение",
+   "uk_ai": "Необхідно: Рівень 3\nМожна застосувати до будь-якої ресурсної споруди, щоб з'явилася скриня з 850 ресурсами\nЧерез це споруда на 30 сек. припиняє видобуток\nКлікніть на іконку, потім оберіть споруду",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GrimbeornBodyguard",
+   "type": "Кнопка",
+   "en": "Beorning Bodyguard (&C)",
+   "ru": "Беорнинги-защитники (&C)",
+   "uk_ai": "Охоронці-беорнінги (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGrimbeornBodyguard",
+   "type": "Підказка",
+   "en": "Requires Level 6\n Grimbeorn summons three Beornings to guard an allied hero or structure for 45 seconds \n Left click icon then left click on target hero or structure",
+   "ru": "Требуется уровень 6\\nГримбеорн призывает трех беорнингов для охраны союзного героя или строения в течение 45 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевого героя или строение",
+   "uk_ai": "Необхідно: Рівень 6\nҐрімбеорн прикликає трьох беорнінгів, які 45 сек. охороняють союзного героя чи споруду\nКлікніть на іконку, потім оберіть героя чи споруду",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityUrsineSoul",
+   "type": "Кнопка",
+   "en": "Ursine Soul (&V)",
+   "ru": "Душа медведя (&V)",
+   "uk_ai": "Ведмежа душа (&V)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityUrsineSoul",
+   "type": "Підказка",
+   "en": "Required: Rank 10\n Grimbeorn permanently deals knockback damage \n Passive ability\n\nWhen activated, Grimbeorn transforms into a bear for 90 seconds to wreak havoc among the enemy\ngaining additional +25% damage and +50% armour\nCauses nearby enemies to flee in terror\n Whilst active, Grimbeorn deals +50% additional damage against Bolg\nLeft click to activate",
+   "ru": "Требуется уровень 10\\nГримбеорн постоянно наносит отбрасывающий урон\\nПассивная способность\\n\\nПосле активации, Гримбеорн превращается в медведя на 90 секунд, чтобы сеять хаос среди врагов\\nГримбеорн наносит +25% дополнительного урона и получает +50% брони\\nЗаставляет ближайших врагов разбегаться в ужасе\\nПока активно, Гримбеорн наносит +50% дополнительного урона Больгу\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10\nҐрімбеорн завжди відкидає ворогів своїми ударами\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації Ґрімбеорн на 90 сек. перетворюється на ведмедя й сіє хаос серед ворогів,\nотримуючи додатково +25% до пошкоджень і +50% броні\nВороги поблизу тікають у жаху\nПоки діє здібність, Ґрімбеорн завдає Болґу на 50% більше пошкоджень\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

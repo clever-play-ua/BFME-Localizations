@@ -1,0 +1,137 @@
+{
+ "meta": {
+  "hero": "Wulfgar",
+  "uk_name": "Вульфґар",
+  "campaigns": [
+   "TTT",
+   "RotK"
+  ],
+  "missions": [
+   "GreyCompany",
+   "HelmsDeep",
+   "PelennorFields"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignWulfgar",
+    "IsengardWulfgar"
+   ],
+   "битва": [
+    "IsengardWulfgar"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:IsengardWulfgar",
+   "type": "Ім'я",
+   "en": "Wulfgar",
+   "ru": "Вульфгар",
+   "uk_ai": "Вульфґар",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WulfgarSubjugation",
+   "type": "Кнопка",
+   "en": "Dunlending Subjugation",
+   "ru": "Подчинение дунледингов",
+   "uk_ai": "Підкорення дунландців",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWulfgarSubjugation",
+   "type": "Підказка",
+   "en": "Modifier type: Leadership \n Nearby Dunlendings and Wildmen units gain +33% damage\n\nAt rank 5, Nearby Dunlendings and Wildmen units gain +50% damage\nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nДикари и дунлендинги рядом с Вульфгаром наносят +33% урона\\nНа уровне 5, наносимый урон увеличивается до +50%\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nДунландці й дикуни поблизу отримують бонус +33% до пошкоджень\n\nНа 5 рівні дунландці й дикуни поблизу отримують бонус +50% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WulfgarMount",
+   "type": "Кнопка",
+   "en": "Mount Svadilfari / Dismount (&R)",
+   "ru": "Оседлать Свадильфари / спешиться (&W)",
+   "uk_ai": "Осідлати Свадильфарі / Спішитися (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WulfgarMountTooltip",
+   "type": "Підказка",
+   "en": "Left click to switch between mounted on Svadilfari and on foot",
+   "ru": "ЛКМ - переключение между\\nверхом на Свадильфари\\спешившись",
+   "uk_ai": "Клікніть, щоб перемкнутися між їздою на Свадильфарі й пішим строєм",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WulfgarCrebainSummon",
+   "type": "Кнопка",
+   "en": "Dark Wings, Dark Words (&T)",
+   "ru": "Темные крылья, темные слова (&T)",
+   "uk_ai": "Темні крила — темні вісті (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipWulfgarCrebainSummon",
+   "type": "Підказка",
+   "en": "Requires Level 3\nSummons two Crebain birds, Huginn and Muninn, for 90 seconds\nThey can scout and deal strong damage vs. heroes and monsters\n \n Recharge time: 3m \n Left click to activate",
+   "ru": "Требуется уровень 3\\nПризывает двух кребанов, Хугина и Мунина\\nОни могут разведывать местность, а также сильны против героев и монстров\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nПрикликає на 90 сек. двох кребайнів — Гуґіна й Муніна\nВони можуть розвідувати й завдають значних пошкоджень героям і створінням\n\nЧас перезарядки: 3 хв.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CrowBanner",
+   "type": "Кнопка",
+   "en": "Crow Banner (&C)",
+   "ru": "Вороньи знамена (&C)",
+   "uk_ai": "Вороняче знамено (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCrowBanner",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Wulfgar summons a Crow Banner for 90 seconds\n Enemies nearby the Crow Banner lose -33% armour and -33% damage\n \n At level 8, also summons a temporary battalion of Dunlending Huskarls\n \n Recharge time: 5m \n Left click to activate",
+   "ru": "Требуется уровень 5\\nВульфгар устанавливает воронье знамя на 90 секунд\\nВраги рядом со знаменем теряют -33% урона и -33% брони\\nНа уровне 8, также временно призывается отряд хускарлов\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nВульфґар на 90 сек. ставить Вороняче знамено\nВороги поряд зі знаменом отримують штраф -33% броні й -33% пошкоджень\n\nНа 8 рівні також тимчасово прикликає загін дунландських гускарлів\n\nЧас перезарядки: 5 хв.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KingoftheHills",
+   "type": "Кнопка",
+   "en": "King of the Hills (&V)",
+   "ru": "Король холмов (&V)",
+   "uk_ai": "Король пагорбів (&V)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKingoftheHills",
+   "type": "Підказка",
+   "en": "Requires Level 10\nRallies nearby Dunlendings and Wildmen, increasing their armour by 200% for 20 seconds\n \n Recharge time: 4m \n Left click to activate",
+   "ru": "Требуется уровень 10\\nВульфгар сплачивает людей Дунланда, увеличивая их броню на +200% в течение 20 секунд\\nЩелкните левой кнопкой мыши на значок, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10\nЗгуртовує дунландців і дикунів поблизу: їхня броня на 20 сек. зростає на 200%\n\nЧас перезарядки: 4 хв.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

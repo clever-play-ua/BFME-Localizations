@@ -1,0 +1,250 @@
+{
+ "meta": {
+  "hero": "Sauron",
+  "uk_name": "Саурон",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "LordoftheRings"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignSauron"
+   ],
+   "битва": [
+    "MordorSauron"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:MordorSauron",
+   "type": "Ім'я",
+   "en": "Sauron",
+   "ru": "Саурон",
+   "uk_ai": "Саурон",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CampaignSauronLeadership",
+   "type": "Кнопка",
+   "en": "Fiery Presence",
+   "ru": "",
+   "uk_ai": "Вогняна присутність",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCampaignSauronLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Spell \n Nearby friendly units gain +50% armour, earn experience 100% faster and are immune to fear and terror\nPassive ability",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Заклинання \n Союзні загони поблизу отримують бонус +50% броні, на 100% швидше набирають досвід і мають імунітет до страху та жаху\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CampaignSauronFavour",
+   "type": "Кнопка",
+   "en": "Dark Lord's Favour (&R)",
+   "ru": "",
+   "uk_ai": "Прихильність Чорного Володаря (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCampaignSauronFavour",
+   "type": "Підказка",
+   "en": "Give targeted units excellent experience \n Left click icon then left click on target units",
+   "ru": "",
+   "uk_ai": "Миттєво наділяє обрані загони великим досвідом\n Клікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CampaignSauronDominion",
+   "type": "Кнопка",
+   "en": "Dominion (&T)",
+   "ru": "",
+   "uk_ai": "Панування (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCampaignSauronDominion",
+   "type": "Підказка",
+   "en": "Enemy units within the radius are slowed by 15% and\nlose -20% damage and armour for 30 seconds\n Left click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Ворожі загони в радіусі дії сповільнюються на 15% і\nотримують штраф -20% пошкоджень і броні на 30 сек.\n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CampaignSauronWreathed",
+   "type": "Кнопка",
+   "en": "Dark Lord's Malice (&C)",
+   "ru": "",
+   "uk_ai": "Злоба Чорного Володаря (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCampaignSauronWreathed",
+   "type": "Підказка",
+   "en": "Sauron launches a fireball at target, blasting back enemies\nand setting the surrounding area on fire\nLeft click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Саурон метає в ціль вогняну кулю, що відкидає ворогів\nі підпалює все довкола\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HaveMercyGreatKing",
+   "type": "Кнопка",
+   "en": "Have Mercy, Great King (&W)",
+   "ru": "",
+   "uk_ai": "Змилуйтеся, Великий Королю (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHaveMercyGreatKing",
+   "type": "Підказка",
+   "en": "Be merciful, O Great King! Great has been my folly, and I cast myself before you, broken and humbled.",
+   "ru": "",
+   "uk_ai": "Змилуйтеся, о Великий Королю! Великим було моє безумство, але нині я схиляюся перед вами, зламаний та скорений.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HoldYourTongue",
+   "type": "Кнопка",
+   "en": "Hold Your Tongue, Worm! (&R)",
+   "ru": "",
+   "uk_ai": "Прикуси язика, хробаку! (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHoldYourTongue",
+   "type": "Підказка",
+   "en": "Your victory is hollow. Your Lordship is a farce. The Throne of Anadûnê shall come to naught but dust and ruin.",
+   "ru": "",
+   "uk_ai": "Твоя перемога пуста. Твоя влада — сміхотворна. Трон Анадуне перетвориться на попіл і руїни.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WillServeAfar",
+   "type": "Кнопка",
+   "en": "I Will Serve From Afar (&T)",
+   "ru": "",
+   "uk_ai": "Я служитиму здалеку (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWillServeAfar",
+   "type": "Підказка",
+   "en": "Allow me to remain here, Great King, and I shall prove a loyal servant to thee.",
+   "ru": "",
+   "uk_ai": "Дозвольте мені лишитися тут, Великий Королю, і я буду вам вірно служити.",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:SauronLeadership",
+   "type": "Кнопка",
+   "en": "Gorthaur (&W)",
+   "ru": "Гортаур (&W)",
+   "uk_ai": "Ґортаур (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSauronLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n All nearby units cower in fear whether friend or foe \nPassive ability \n\n When activated, nearby enemy units and heroes are paralysed for 10 seconds \n Left click to activate",
+   "ru": "Тип модификатора: Лидерство\\nВсе ближайшие отряды, дружественные и вражеские, цепенеют от страха\\nПассивная способность\\n\\nПосле активации, ближайшие вражеские отряды и герои парализуются на 10 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Тип ефекту: Лідерство\nУсі загони поблизу, свої й чужі, тремтять від страху\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації ворожі загони й герої поблизу паралізовані на 10 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SauronConflagaration",
+   "type": "Кнопка",
+   "en": "Conflagration (&R)",
+   "ru": "Сожжение (&R)",
+   "uk_ai": "Спопеління (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSauronConflagaration",
+   "type": "Підказка",
+   "en": "Destroys targeted enemy hero \n (only deals 50% of total damage to Gandalf, Elessar, Saruman, Witch-king, Bolg, Galadriel, Elrond, Glorfindel, Thranduil, Théoden, Thorin, Necromancer, King Dáin, Durin the Deathless, Golden King) \n Left click then left click target hero",
+   "ru": "Уничтожение вражеского героя\\n(наносит 50% урона Гэндальфу, Элессару, Саруману, Королю-чародею, Больгу, Галадриэли, Элронду, Глорфинделу, Трандуилу, Торину, Теодену, Некроманту, Королю Даину, Дурину Бессмертному, Золотому королю)",
+   "uk_ai": "Знищує обраного ворожого героя\n(Ґендальфу, Елессару, Саруману, Королю-чаклуну, Болґу, Ґаладріелі, Елронду, Ґлорфінделу, Трандуїлу, Теодену, Торіну, Некромантові, Королю Дайну, Дуріну Безсмертному й Золотому королю завдає лише 50% пошкоджень)\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SauronDominate",
+   "type": "Кнопка",
+   "en": "Annatar, Lord of Gifts (&T)",
+   "ru": "Аннатар, владыка даров (&T)",
+   "uk_ai": "Аннатар, Володар Дарів (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSauronDominate",
+   "type": "Підказка",
+   "en": "Permanently converts enemy units in large radius \n Left click then left click target area",
+   "ru": "Навсегда переманивает врагов на свою сторону в большом радиусе\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Назавжди переманює ворожі загони у великому радіусі\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialPowerSauronLordoftheRings",
+   "type": "Кнопка",
+   "en": "The Lord of the Rings (&C)",
+   "ru": "Властелин колец (&C)",
+   "uk_ai": "Володар Перснів (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialPowerSauronLordoftheRings",
+   "type": "Підказка",
+   "en": "Sauron gains +100% damage, +10% movement speed and invulnerability for 20 seconds\n Left click to activate",
+   "ru": "Саурон наносит +100% урона, получает +10% скорости передвижения и становится неуязвимым в течении 20 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Саурон на 20 сек. отримує бонус +100% до пошкоджень, +10% швидкості руху й невразливість\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SauronRingwraithSummon",
+   "type": "Кнопка",
+   "en": "His Deadliest Servants (&V)",
+   "ru": "Его смертоносные слуги (&V)",
+   "uk_ai": "Його найгрізніші слуги (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSauronRingwraithSummon",
+   "type": "Підказка",
+   "en": "Sauron permanently summons four Ringwraiths\nA maximum of four Ringwraiths may be out at any time\nLeft click to activate",
+   "ru": "Саурон навсегда призывает четырех назгул\\nОдновременно на поле боя могут находиться только четверо назгул\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Саурон назавжди прикликає 4 назґулів\nМаксимум 4 назґули одночасно\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

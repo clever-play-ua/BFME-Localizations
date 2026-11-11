@@ -1,0 +1,181 @@
+{
+ "meta": {
+  "hero": "Galadriel",
+  "uk_name": "Ґаладріель",
+  "campaigns": [
+   "FotR"
+  ],
+  "missions": [
+   "Lothlorien"
+  ],
+  "templates": {
+   "кампанія": [
+    "ElvenGaladrielLorien"
+   ],
+   "битва": [
+    "ElvenGaladrielLorien",
+    "ElvenGaladriel_RingHero"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:ElvenGaladriel",
+   "type": "Ім'я",
+   "en": "Galadriel",
+   "ru": "Галадриэль",
+   "uk_ai": "Ґаладріель",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GaladrielForesight",
+   "type": "Кнопка",
+   "en": "Foresight (&W)",
+   "ru": "Предвидение (&W)",
+   "uk_ai": "Передбачення (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipGaladrielForesight",
+   "type": "Підказка",
+   "en": "Reveals shroud in target area for 60 seconds\n \n Modifier Type: Active Debuff \n Targeted enemy units lose all leadership and cannot earn experience for 30 seconds\n \n Left click on icon then left click on target area",
+   "ru": "Рассеивает туман войны в указаной области\\nТип модификатора: Активное ослабление\\nВражеские отряды в радиусе действия теряют все лидерство и не могут набирать опыт в течение 30 секунд\\n\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Розвіює туман війни на обраній ділянці на 60 сек.\n\nТип ефекту: Активне ослаблення\nОбрані ворожі загони на 30 сек. втрачають усе лідерство й не можуть набирати досвід\n\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GaladrielLeadership",
+   "type": "Кнопка",
+   "en": "The Lady of Lothlórien",
+   "ru": "Леди Лотлориэна",
+   "uk_ai": "Леді Лотлоріену",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGaladrielLeadership",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Modifier Type: Leadership \n All nearby friendly Heroes gain +33% experience gain and their recharge timers are decreased by 20%\nPassive ability\n\n Modifier Type: Passive Debuff \n Nearby enemy Heroes and Heroic units suffer -15% damage\nPassive ability",
+   "ru": "Требуется уровень 3\\nТип модификатора: Лидерство\\nВсе ближайшие дружественные герои набирают опыт на +33% быстрее, а время перезарядки их способностей уменьшается на 20%\\nПассивная способность\\n\\nТип модификатора: Пассивное ослабление\\nБлижайшие вражеские герои и героические отряды теряют -15% урона\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Лідерство\nУсі союзні герої поблизу на 33% швидше набирають досвід, а їхні здібності відновлюються на 20% швидше\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nТип ефекту: Пасивне ослаблення\nВорожі герої й героїчні загони поблизу отримують штраф -15% пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GaladrielFear",
+   "type": "Кнопка",
+   "en": "Light of Valinor (&T)",
+   "ru": "Свет Валинора (&T)",
+   "uk_ai": "Світло Валінору (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipGaladrielFear",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Galadriel is revealed in white light\nNearby enemy units flee in terror\n\nLeft click to activate",
+   "ru": "Требуется уровень 3\\nГаладриэль появляется в белом свете\\nБлижайшие вражеские отряды разбегаются в ужасе\\n\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nҐаладріель постає в білому сяйві\nВорожі загони поблизу тікають у жаху\n\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialPowerGaladrielNenya",
+   "type": "Кнопка",
+   "en": "Bearer of Nenya (&C)",
+   "ru": "Кольцо Нэнья (&C)",
+   "uk_ai": "Хранителька Неньї (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialPowerGaladrielNenya",
+   "type": "Підказка",
+   "en": "Requires Level 6\nModifier Type: Leadership \n All nearby friendly structures gain +50% armour\nPassive ability\n\nTarget allied or enemy structures within the area of effect cannot produce, but are immune to damage for 30 seconds\nAllied units within the area of effect are fully healed and temporarily gain +200% armour for 30 seconds\n\nLeft click icon then left click on target area",
+   "ru": "Требуется уровень 6\\nТип модификатора: Лидерство\\nВсе ближайшие дружественные строения получают +50% брони\\nПассивная способность\\n\\nДружественные или вражеские строения в области действия эффекта становятся невосприимчивыми к урону и не могут производить ресурсы в течение 30 секунд\\nСоюзники в области действия эффекта полностью исцеляются и получают +150% брони на 30 секунд\\n\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 6\nТип ефекту: Лідерство\nУсі союзні споруди поблизу отримують бонус +50% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nСоюзні чи ворожі споруди в зоні дії на 30 сек. не можуть нічого виробляти, але стають невразливими\nСоюзні загони в зоні дії повністю зцілюються й на 30 сек. отримують бонус +200% броні\n\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GaladrielStormQueen",
+   "type": "Кнопка",
+   "en": "The Storm Queen (&V)",
+   "ru": "Темная королева (&V)",
+   "uk_ai": "Королева бурі (&V)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipGaladrielStormQueen",
+   "type": "Підказка",
+   "en": "Requires Level 9 \n Galadriel takes on the form of the Storm Queen and temporarily gains +50% armour, +300% damage to Structures, \n and her attacks become ranged, area of effect attacks\nEffect lasts 30 seconds\n\nLeft click to activate",
+   "ru": "Требуется уровень 9\\nГаладриэль перевоплощается в Темную королеву, нанося\\n+300% урона по строениям и получая +50% брони, а ее атаки становятся дальними\\nЭффект длится 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 9\nҐаладріель набуває вигляду Королеви бурі й тимчасово отримує бонус +50% броні та +300% до пошкоджень спорудам,\nа її атаки б'ють на відстані й по площі\nЕфект діє 30 сек.\n\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipGaladrielFearGifts",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Galadriel is revealed in white light\nNearby enemy units flee in terror and suffer damage over time\n\nLeft click to activate",
+   "ru": "Требуется уровень 3\\nГаладриэль появляется в белом свете и отражает часть нанесенного ей урона в течение 20 секунд\\nБлижайшие вражеские отряды разбегаются в ужасе и получают постепенный урон\\n\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nҐаладріель постає в білому сяйві\nВорожі загони поблизу тікають у жаху й поступово отримують пошкодження\n\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:GaladrielTornado",
+   "type": "Кнопка",
+   "en": "Nature's &Wrath",
+   "ru": "Гнев природы (&W)",
+   "uk_ai": "Гнів Стихій (&W)",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipGaladrielTornado",
+   "type": "Підказка",
+   "en": "Summons a destructive tornado onto the battlefield \n Left click icon then left click on target area",
+   "ru": "На поле боя появляется смерч\\nЩелкните левой кнопкой мыши на значок, затем - на участке местности",
+   "uk_ai": "Прикликає на поле бою нищівний смерч\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TerribleFury",
+   "type": "Кнопка",
+   "en": "&Terrible Fury",
+   "ru": "Боевое безумие (&T)",
+   "uk_ai": "Бойове божевілля (&T)",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipTerribleFury",
+   "type": "Підказка",
+   "en": "Causes fear in nearby enemies \n Left click to activate",
+   "ru": "Вызывает страх у находящихся рядом врагов\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Викликає жах у ворогів, що знаходяться поруч. \n Клікніть, щоб активувати",
+   "status": "RotWK UA",
+   "uk": ""
+  }
+ ]
+}

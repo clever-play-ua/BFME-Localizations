@@ -1,0 +1,3072 @@
+{
+ "meta": {
+  "faction": "Isengard",
+  "note": "Community proofread lines (highest priority in the build and on the site)."
+ },
+ "strings": [
+  {
+   "var": "CONTROLBAR:SelectUpgradesIsengardFortress",
+   "en": "Upgrade Fortress (&R)",
+   "uk": "Покращення фортеці (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandSelectUpgradesIsengardFortress",
+   "en": "Purchase upgrades and additional defenses for the Fortress",
+   "uk": "Придбання покращень та укріплення оборони",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIsengardBallistaUpgrade",
+   "en": "Rebuilds the ballista on the platform",
+   "uk": "Заміна зруйнованої балісти",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructIsengardMineLauncherExpansion",
+   "en": "Launches explosive mines at nearby enemies\nBuild time: 30s",
+   "uk": "Закидає ворогів поблизу мінами, що вибухають\nЧас будівництва: 30 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:IsengardBallistaUpgrade",
+   "en": "&Replace Ballista",
+   "uk": "Замінити балісту (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructIsengardTowerExpansion",
+   "en": "Defensive Arrow Tower that fires at enemies\nBuild time: 30s",
+   "uk": "Оборонна вежа з лучниками, що стріляють по ворогах\nЧас будівництва: 30 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:Escape",
+   "en": "Escape (&W)",
+   "uk": "Втекти (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBackstab",
+   "en": "Requires Level 4\nDeals 500 instant damage and 800 poison damage over 10 seconds to the targeted enemy.\n\nAt rank 10, targeted enemy hero cannot gain experience,\nhas its damage output reduced by 50%, and loses 25% movement speed for 30 seconds\n\nRecharge time: 1m 30s\nLeft click icon then left click on target",
+   "uk": "Необхідно: Рівень 4\nМиттєво завдає обраному ворогові 500 од. пошкоджень і ще 800 од. пошкоджень отрутою протягом 10 сек.\n\nНа 10 рівні обраний ворожий герой на 30 сек. НЕ може набирати досвід,\nзавдає на 50% менше пошкоджень і сповільнюється на 25%\n\nЧас відновлення: 1 хв. 30 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:SharkuArmouredWolves",
+   "en": "Armoured Wolves (&T)",
+   "uk": "Броньовані варґи (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:IsengardUglukOrcMedicine",
+   "en": "Orcish Medicine (&W)",
+   "uk": "Ороче відновлення (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipIsengardUglukOrcMedicine",
+   "en": "Heals nearby friendly heroes and Uruk-hai units\n\nRecharge time: 2m\nLeft click to activate",
+   "uk": "Лікує союзних героїв і урук-хаїв поблизу\n\nЧас відновлення: 2 хв.\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:WulfgarMountTooltip",
+   "en": "Left click to switch between mounted on Svadilfari and on foot",
+   "uk": "Клікніть, щоб перемкнутися між їздою на Свадильфарі й пішим ходом",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:CrowBanner",
+   "en": "Crow Banner (&C)",
+   "uk": "Воронячий стяг (&C)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityLurtzCripple",
+   "en": "Requires Level 5\nPins enemy hero in place for 15 seconds\n\nAt rank 8, instills fear into nearby enemies\nCan only use with bow equipped\n\nRecharge time: 1m 30s\nLeft click icon then left click on target",
+   "uk": "Необхідно: Рівень 5\nКалічить та знерухомлює ворожого героя на 15 сек.\n\nНа 8 рівні своїм пострілом ще й лякає ворогів поблизу\nДоступно лише з луком\n\nЧас відновлення: 1 хв. 30 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpeechCraft",
+   "en": "Requires Level 5\nGive targeted units excellent experience\n\nRecharge time: 2m 30s\nLeft click icon then left click on target units",
+   "uk": "Необхідно: Рівень 5\nСаруман миттєво наділяє загони великою кількістю досвіду\n\nЧас відновлення: 2 хв. 30 сек.\nКлікніть на іконку, потім оберіть потрібні загони",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSarumanThunderBolt",
+   "en": "Requires Level 7\nStrikes a powerful lightning bolt against targeted enemies\n\nRecharge time: 2m 30s\nLeft click icon then left click on target",
+   "uk": "Необхідно: Рівень 7\nПотужний удар блискавкою по обраних ворогах\n\nЧас відновлення: 2 хв. 30 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDominate",
+   "en": "Requires Level 10\nGain control of targeted enemies for 30 seconds\n\nRecharge time: 6m\nLeft click icon then left click on target enemies",
+   "uk": "Необхідно: Рівень 10\nСаруман бере під повний контроль ворожі загони на 30 сек.\n\nЧас відновлення: 6 хв.\nКлікніть на іконку, потім оберіть ворогів",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardBerserker",
+   "en": "Uruk-hai Berserker (&D)",
+   "uk": "Урук-хай берсерк (&D)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "OBJECT:IsengardBeserker",
+   "en": "Uruk-hai Berserker",
+   "uk": "Урук-хай берсерк",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "OBJECT:IsengardFortressDescription",
+   "en": "Recruits Heroes and Builders\nCan be upgraded with improvements and expansions",
+   "uk": "Найм будівельників та вербування героїв\nПридбання покращень та прибудова додаткових споруд",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressMurderOfCrows",
+   "en": "Increases the vision range of the Fortress and provides stealth detection\nResearch time: 15s",
+   "uk": "Збільшує дальність огляду навколо фортеці\nта дає змогу виявляти невидимі загони\nЧас дослідження: 15 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandSelectFocusIsengardFortress",
+   "en": "Requires the Wisdom of Curunir upgrade\nAllows Saruman to direct his cunning towards specific elements of Isengard's army\nOnly one Focus can be active at the same time",
+   "uk": "Потребує покращення «Мудрість Куруніра»\nДозволяє Саруману спрямувати свої чари\nна окремі частини війська Ізенґарду\nОдночасно може діяти лише одна спеціалізація",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressBurningForges",
+   "en": "Reduces cost of Isengard unit Upgrades\n1  Fortress with forges = 20% cheaper\n2 Fortresses with forges = 35% cheaper\n3 Fortresses with forges = 40% cheaper\n4 Fortresses with forges = 45% cheaper\n5 Fortresses with forges = 50% cheaper\nResearch time: 30s",
+   "uk": "Знижує вартість покращень загонів Ізенґарду\n\n1 фортеця з плавильнями = дешевше на 20%\n2 фортеці з плавильнями = дешевше на 35%\n3 фортеці з плавильнями = дешевше на 40%\n4 фортеці з плавильнями = дешевше на 45%\n5 фортець з плавильнями = дешевше на 50%\n\nЧас дослідження: 30 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIsengardFortressOrcfireMunitions",
+   "en": "Orcfire Munitions (&T)",
+   "uk": "Вогняні стріли (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressOrcfireMunitions",
+   "en": "Arms defensive towers with Fire Arrows\nResearch time: 30s",
+   "uk": "Озброює лучників на вежах вогняними стрілами\n\nЧас дослідження: 30 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityIsengardFocusInfantry",
+   "en": "Select to activate\nProvides bonuses to Fighting Uruk-hai, Uruk-hai Pikemen and Uruk-hai Shieldbearers +30% damage, +70% combat experience\nDecreases price by 20%\nResearch time: 45s",
+   "uk": "Клікніть для активації\nБойові урук-хаї, урук-хаї пікінери та урук-хаї\nщитоносці отримують бонус\n\n+30% до пошкоджень\nна 70% швидше набирають досвід\nЗнижує їхню вартість на 20%\n\nЧас дослідження: 45 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityIsengardFocusDunland",
+   "en": "Focus: Fury of Frecalund (&E)",
+   "uk": "Спеціалізація: Лють Фрекалунду (&E)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityIsengardFocusArcher",
+   "en": "Focus: Wicked Marksmen (&R)",
+   "uk": "Спеціалізація: Підступні стрільці (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityIsengardFocusWarg",
+   "en": "Focus: Wolves of Isengard (&T)",
+   "uk": "Спеціалізація: Вовки Ізенґарду (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityIsengardFocusSiege",
+   "en": "Focus: Metal and Wheels (&S)",
+   "uk": "Спеціалізація: Метал і колеса (&S)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityIsengardFocusForge",
+   "en": "Focus: Black Steel (&D)",
+   "uk": "Спеціалізація: Чорна сталь (&D)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructIsengardFortress",
+   "en": "Recruits Builders and Heroes\nCan be upgraded with various upgrades and expansions\nIncreases command point limit by 100\nBuild time: 2m",
+   "uk": "Найм будівельників та вербування героїв\nПридбання покращень та прибудова додаткових споруд\n\nЗбільшує ліміт очок командування на 100 од.\nЧас будівництва: 2 хв.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityIsengardFocusForge",
+   "en": "Select to activate\nDecreases the cost of upgrades\nAlso increases global armour by 3% and damage by 4%\nDecreases upgrade price by 20%\nResearch time: 45s",
+   "uk": "Клікніть для активації\nЗнижує вартість покращень\nТакож усі загони отримують бонус +3% броні та +4% до пошкоджень\nПокращення дешевші на 20%\nЧас дослідження: 45 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityIsengardFocusSiege",
+   "en": "Select to activate\nProvides bonuses to Siege Equipment\n+30% damage, +5% speed\nDecreases price by 15%\nResearch time: 45s",
+   "uk": "Клікніть для активації\nОблогові машини отримують бонуси\n+30% до пошкоджень, +5% швидкості\nЗнижує їхню вартість на 15%\nЧас дослідження: 45 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityIsengardFocusWarg",
+   "en": "Select to activate\nProvides bonuses to Warg-riders\n+30% damage, +20% armour, +100% combat experience\nDecreases price by 25%\nResearch time: 45s",
+   "uk": "Клікніть для активації\nВершники на варґах отримують бонуси\n+30% до пошкоджень, +20% броні, на 100% швидше набирають досвід\nЗнижує їхню вартість на 25%\nЧас дослідження: 45 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityIsengardFocusArcher",
+   "en": "Select to activate\nProvides bonuses to Uruk-hai Scouts and Crossbowmen\n+35% damage, +25% range, +80% combat experience\nResearch time: 45s",
+   "uk": "Клікніть для активації\n\nУрук-хаї розвідники та урук-хаї\nарбалетники отримують бонуси\n\n+35% до пошкоджень,\n+25% дальності,\nна 80% швидше набирають досвід\n\nЧас дослідження: 45 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityIsengardFocusDunland",
+   "en": "Select to activate\nProvides bonuses to Wildmen and Dunlendings\n+15% armour, +70% combat experience\nDecreases price by 10%\nResearch time: 45s",
+   "uk": "Клікніть для активації\n\nДикуни та дунландці отримують бонуси\n+15% броні\nна 70% швидше набирають досвід\nЗнижує їхню вартість на 10%\n\nЧас дослідження: 45 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "OBJECT:IsengardPorter",
+   "en": "Builder",
+   "uk": "Будівельник",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardTowerExpansion",
+   "en": "Arrow Tower Expansion (&W)",
+   "uk": "Вежа лучників (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardBallistaExpansion",
+   "en": "Ballista Expansion (&E)",
+   "uk": "Баліста (&E)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardMineLauncherExpansion",
+   "en": "Mine Launcher Expansion (&R)",
+   "uk": "Міномет (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardWallHubExpansion",
+   "en": "Wall Hub Expansion (&T)",
+   "uk": "Стінна вежа (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:IsengardWormtongueRecruit",
+   "en": "Recruit the spy of Saruman\nAssassin, debuffs enemy troops, leadership nullifier\n\nRecruit time: 40s\nLevels 2-5: +5% Health, +5% Damage\nLevels 6-9: +4% Health, +4% Damage\nLevel 10: +3% Health, +3% Damage\n\n'Saruman the White has ever been our friend and ally.'",
+   "uk": "Завербувати шпигуна Сарумана\nУбивця, послаблює ворожі війська, нейтралізує лідерство\n\nЧас вербування: 40 сек.\n\nЗ кожним рівнем підвищує свої показники\nРівні 2-5: +5% здоров'я/+5% пошкоджень\nРівні 6-9: +4% здоров'я/+4% пошкоджень\nРівень 10: +3% здоров'я/+3% пошкоджень\n\n«Саруман Білий завжди був нашим другом і союзником»",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipEscape",
+   "en": "Wormtongue becomes stealthed and can neither be attacked nor make an attack for 30 seconds\n\nRecharge time: 1m 30s\nLeft click icon to activate",
+   "uk": "Червеуст стає невидимим і на 30 сек. отримує\nімунітет до пошкоджень, але й сам не може їх завдавати\n\nЧас відновлення: 1 хв. 30 сек.\nКлікніть на іконку, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipVenomousWords",
+   "en": "Requires Level 3\nModifier Type: Active Debuff\nTargeted enemy units suffer -25% damage and -20% armour for 30 seconds\nNullifies enemy leadership\n\nRecharge time: 60s\nLeft click icon then left click on target units",
+   "uk": "Необхідно: Рівень 3\n\nТип ефекту: Активне ослаблення\nВказані ворожі загони отримують штраф\n-25% пошкоджень і -20% броні на 30 сек.\n\nСкасовує вороже лідерство\n\nЧас відновлення: 60 сек.\nКлікніть на іконку, потім оберіть потрібні загони",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:IsengardSharkuRecruit",
+   "en": "Recruit the leader of the Warg-riders\nSupports Warg-riders, strong versus enemy cavalry\n\nRecruit time: 40s\nLevels 2-5: +5% Health, +5% Damage\nLevels 6-9: +4% Health, +4% Damage\nLevel 10: +3% Health, +3% Damage\n\n'He's dead. Took a little tumble off the cliff.'",
+   "uk": "Завербувати ватажка вершників на варґах\nПосилює вершників на варґах, ефективний проти кавалерії\n\nЧас вербування: 40 сек.\n\nКожен рівень підвищує показники\nРівні 2-5: +5% здоров'я/+5% пошкоджень\nРівні 6-9: +4% здоров'я/+4% пошкоджень\nРівень 10: +3% здоров'я/+3% пошкоджень\n\n«Він мертвий. Трохи невдало злетів зі скали.»",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGBloodHunt",
+   "en": "Modifier Type: Leadership\nAllied Warg-riders near Sharku gain +25% damage, +25% armour and earn experience 50% faster\nPassive ability",
+   "uk": "Тип ефекту: Лідерство\nСоюзні вершники на варґах поряд із Шарку отримують бонус +25% до пошкоджень, +25% броні й на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSendintheWargs",
+   "en": "Requires Level 3\nSummons a wave of charging Wargs to crush the enemy, dealing minor damage and knockback\n\nRecharge time: 2m\nLeft click icon then left click on target",
+   "uk": "Необхідно: Рівень 3\nПрикликає хвилю варґів, що біжать на ворога, завдають незначних пошкоджень і відкидають його\n\nЧас відновлення: 2 хв.\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSharkuArmouredWolves",
+   "en": "Requires Level 4\nTargeted Warg-riders battalion permanently gain\n+20% health and heavy armour\nRecharge time: 2m 30s\n\nAt rank 8, active ability's cooldown is reduced and area of effect is increased\nRecharge time: 2m\nLeft click icon then left click on target battalion",
+   "uk": "Необхідно: Рівень 4\nОбраний загін вершників на варґах назавжди отримує\nбонус +20% здоров'я й важкі обладунки\n\nЧас відновлення: 2 хв. 30 сек.\n\nНа 8 рівні здібність відновлюється швидше, а площа її дії збільшується\nЧас відновлення: 2 хв.\n\nКлікніть на іконку, потім оберіть загін",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSharkuManEater",
+   "en": "Requires Level 5\nKill target enemy infantry unit to restore 30% of Sharku's health and grant +25% damage and armour for 20 seconds\n\nRecharge time: 1m 30s\nLeft click icon then left click on target enemy infantry unit",
+   "uk": "Необхідно: Рівень 5\nВбиваючи обраного ворожого піхотинця, Шарку відновлює 30% здоров'я й на 20 сек. отримує бонус +25% до пошкоджень і броні\n\nЧас відновлення: 1 хв. 30 сек.\nКлікніть на іконку, потім оберіть ворожого піхотинця",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:SummonBigWarg",
+   "en": "Summon Warg Matriarch (&V)",
+   "uk": "Велика мамця (&V)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:IsengardUglukRecruit",
+   "en": "Recruit the Uruk Captain, Uglúk\nSupports Uruk-hai, summons reinforcements\n\nRecruit time: 50s\nLevels 2-5: +5% Health, +5% Damage\nLevels 6-9: +4% Health, +4% Damage\nLevel 10: +3% Health, +3% Damage\n\n'They have something. An Elvish weapon. The master wants it for the war.'",
+   "uk": "Завербувати капітана уруків Углука\nПосилює урук-хаїв, прикликає підкріплення\n\nЧас вербування: 50 сек.\n\nКожен рівень підвищує показники\nРівні 2-5: +5% здоров'я/+5% пошкоджень\nРівні 6-9: +4% здоров'я/+4% пошкоджень\nРівень 10: +3% здоров'я/+3% пошкоджень\n\n«У них щось є. Ельфійська зброя. Володарю вона потрібна для війни.»",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipIsengardUglukHuntfortheRing",
+   "en": "Requires Level 3\nModifier Type: Spell\nUglúk, nearby infantry and heroes gain a 15% speed bonus, a 50% experience bonus and resistance to fear and terror for 20 seconds\n\nRecharge time: 4m\nLeft click to activate",
+   "uk": "Необхідно: Рівень 3\nТип ефекту: Заклинання\nУглук, піхота та герої поблизу на 20 сек. отримують бонус +15% швидкості, на 50% швидше набирають досвід і отримують стійкість до страху та жаху\n\nЧас відновлення: 4 хв.\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIsengardUglukHeadhunter",
+   "en": "Requires Level 5\nModifier Type: Spell\nNearby Uruk-hai gain +75% damage and Uglúk regains health per attack for 20 seconds\n\nRecharge time: 4m\nLeft click icon to activate",
+   "uk": "Необхідно: Рівень 5\nТип ефекту: Заклинання\nНа 20 сек. урук-хаї поблизу отримують бонус +75% до пошкоджень\nА Углук з кожною атакою відновлює здоров'я\n\nЧас відновлення: 4 хв.\nКлікніть на іконку, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIsengardUglukReinforcements",
+   "en": "Requires Level 8\nSummons two hordes of Uruk Raiders for 60 seconds\n\nAt level 10, also summons Mauhúr\n\nRecharge time: 3m\nLeft click icon then left click on pathable location",
+   "uk": "Необхідно: Рівень 8\nПрикликає 2 орди уруків-налітників на 60 сек.\n\nНа 10 рівні також прикликає Маугура\n\nЧас відновлення: 3 хв.\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:IsengardWulfgarRecruit",
+   "en": "Recruit the Dunlending Chieftain, Wulfgar\nSupports Wildmen and Dunlendings, versatile\n\nRecruit time: 60s\nLevels 2-5: +5% Health, +5% Damage\nLevels 6-9: +4% Health, +4% Damage\nLevel 10: +3% Health, +3% Damage\n\n'Once a noble warrior-chief, Wulfgar refused Saruman's demands of sworn allegiance, until the White Wizard demonstrated his absolute power by crushing the Rohirrim at the Fords of Isen.'",
+   "uk": "Завербувати дунландського отамана Вульфґара\nПосилює дикунів і дунландців\nЧас вербування: 60 сек.\n\nКожен рівень підвищує показники\nРівні 2-5: +5% здоров'я/+5% пошкоджень\nРівні 6-9: +4% здоров'я/+4% пошкоджень\nРівень 10: +3% здоров'я/+3% пошкоджень\n\n«Колись шляхетний вождь-воїн, Вульфґар відмовлявся присягти Саруманові на вірність, доки Білий Чарівник не показав свою абсолютну силу, розгромивши рогіримів біля Бродів Ізену.»",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWulfgarSubjugation",
+   "en": "Modifier type: Leadership\nNearby Dunlendings and Wildmen units gain +33% damage\n\nAt rank 5, Nearby Dunlendings and Wildmen units gain +50% damage\nPassive ability",
+   "uk": "Тип ефекту: Лідерство\nДунландці й дикуни поблизу отримують бонус +33% до пошкоджень\n\nНа 5 рівні дунландці й дикуни поблизу отримують бонус +50% до пошкоджень\n\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipWulfgarCrebainSummon",
+   "en": "Requires Level 3\nSummons two Crebain birds, Huginn and Muninn, for 90 seconds\nThey can scout and deal strong damage vs. heroes and monsters\n\nRecharge time: 3m\nLeft click to activate",
+   "uk": "Необхідно: Рівень 3\n\nПрикликає на 90 сек. 2 воронів — Гуґіна й Муніна\n\nЕфективні для розвідки, а також здатні завдавати\nзначних пошкоджень героям і створінням\n\nЧас відновлення: 3 хв.\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:WulfgarCrebainSummon",
+   "en": "Dark Wings, Dark Words (&T)",
+   "uk": "Темні крила — темні вісті (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCrowBanner",
+   "en": "Requires Level 5\nWulfgar summons a Crow Banner for 90 seconds\nEnemies nearby the Crow Banner lose -33% armour and -33% damage\n\nAt level 8, also summons a temporary battalion of Dunlending Huskarls\n\nRecharge time: 5m\nLeft click to activate",
+   "uk": "Необхідно: Рівень 5\nВульфґар на 90 сек. ставить воронячий стяг\nВороги поряд зі стягом отримують штраф\n-33% броні/-33% пошкоджень\n\nНа 8 рівні також тимчасово прикликає 1 загін дунландських гускарлів\n\nЧас відновлення: 5 хв.\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKingoftheHills",
+   "en": "Requires Level 10\nRallies nearby Dunlendings and Wildmen, increasing their armour by 200% for 20 seconds\n\nRecharge time: 4m\nLeft click to activate",
+   "uk": "Необхідно: Рівень 10\nЗгуртовує дунландців і дикунів поблизу: їхня броня на 20 сек. зростає на 200%\n\nЧас відновлення: 4 хв.\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:IsengardLurtzRecruit",
+   "en": "Recruit the First Captain of the Uruk-hai\nSupports Uruk-hai, strong versus enemy heroes\n\nRecruit time: 50s\nLevels 2-5: +5% Health, +5% Damage\nLevels 6-9: +4% Health, +4% Damage\nLevel 10: +3% Health, +3% Damage\n\n'Find the Halflings!'",
+   "uk": "Завербувати першого капітана урук-хаїв\nПосилює урук-хаїв, ефективний проти ворожих героїв\n\nЧас вербування: 50 сек.\n\nКожен рівень підвищує показники\nРівні 2-5: +5% здоров'я/+5% пошкоджень\nРівні 6-9: +4% здоров'я/+4% пошкоджень\nРівень 10: +3% здоров'я/+3% пошкоджень\n\n«Знайти напівросликів!»",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLurtzLeadership",
+   "en": "Modifier Type: Leadership\nUruk-hai near Lurtz gain +15% damage and +15% armour\nAt Level 4, +33% damage and +25% armour\nPassive ability",
+   "uk": "Тип ефекту: Лідерство\nУрук-хаї поряд із Лурцем отримують бонус +15% до пошкоджень і +15% броні\nНа 4 рівні — +33% до пошкоджень і +25% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUrukChief",
+   "en": "Requires Level 10\nLurtz is clad in thick armour\nPermanently gains +50% armour\nPassive ability",
+   "uk": "Необхідно: Рівень 10\nЛурц вдягає важкі обладунки\nТа назавжди отримує бонус +50% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:IsengardSarumanRecruit",
+   "en": "Recruit Saruman the Wise, Master of Isengard, and First of the Istari.\nTroop support, casts deadly spells on enemy troops\n\nRecruit time: 80s\nLevels 2-5: +5% Health, +5% Damage\nLevels 6-9: +4% Health, +4% Damage\nLevel 10: +3% Health, +3% Damage\n\n'A new power is rising. Its victory is at hand. We have only to remove those who oppose us.'",
+   "uk": "Завербувати Сарумана Мудрого, володаря Ізенґарду й першого з істарі.\nПосилює військо, чаклує смертельні закляття на ворогів\n\nЧас вербування: 80 сек.\n\nКожен рівень підвищує показники\nРівні 2-5: +5% здоров'я/+5% пошкоджень\nРівні 6-9: +4% здоров'я/+4% пошкоджень\nРівень 10: +3% здоров'я/+3% пошкоджень\n\n«Нова сила вже постає. Її перемога близько.\nНам лишилося тільки усунути тих, хто стоїть на заваді.»",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSarumanWizardBlast",
+   "en": "Close range attack that blasts back enemies\n\nRecharge time: 1m 10s\nLeft click icon then left click on target\n\nModifier Type: Spell\nAllies near Saruman gain 300% armour to magic and elemental damage, earn experience 50% faster and become immune to fear and terror\nPassive ability",
+   "uk": "Атака зблизька, що відкидає ворогів\n\nЧас відновлення: 1 хв. 10 сек.\nКлікніть на іконку, потім оберіть ціль\n\nТип ефекту: Заклинання\nВійсько поряд із Саруманом отримує бонус +300% броні проти пошкоджень від магії та стихій, на 50% швидше набирає досвід і отримує імунітет до страху та жаху\n\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilitySarumanImprovedBlast",
+   "en": "Allows Saruman to attack from great range\nCan be used to crush enemy units\nLeft click icon then left click on target area\n\nModifier Type: Spell\nNearby units gain +50% damage, +50% armour, increased experience gain, and fear immunity. At rank 5, nearby furnaces gain +50% resources\nNearby enemies are terrified\nPassive ability",
+   "uk": "Дає змогу Саруману атакувати з великої відстані\nМожна використовувати для знищення ворожих загонів.\nКлікніть на іконку, потім оберіть ділянку\n\nТип ефекту: Заклинання\nЗагони поблизу отримують бонус +50% до пошкоджень, +50% броні, швидше набирають досвід і отримують імунітет до страху.\n\nНа 5 рівні, плавильні поблизу дають на 50% більше ресурсів\nА вороги поблизу охоплені жахом\n\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDarkEloquence",
+   "en": "Requires Level 5\nGive targeted units excellent experience\nShorter cooldown with the One Ring\nLeft click icon then left click on target units",
+   "uk": "Необхідно: Рівень 5\nМиттєво наділяє обрані загони великою кількістю досвіду\n\nЗ Єдиним Перснем відновлюється швидше\nКлікніть на іконку, потім оберіть потрібні загони",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSarumanStormOfOrthanc",
+   "en": "Requires Level 7\nSummons a moveable cloud that shoots lightning, enemies below are slowed\nLeft click icon then left click on target area",
+   "uk": "Необхідно: Рівень 7\nПрикликає контрольовану хмару, що б'є блискавками\nй сповільнює ворогів під нею\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardManSlayerHorde",
+   "en": "Uruk-hai Man-slayers (&G)",
+   "uk": "Урук-хаї людобивці (&G)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardTavern",
+   "en": "Build Clan Steading (&C)",
+   "uk": "Стійбище (&C)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "OBJECT:IsengardTavern",
+   "en": "Clan Steading",
+   "uk": "Стійбище",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardWargPit",
+   "en": "Build Warg Pit (&V)",
+   "uk": "Варґове лігво (&V)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "OBJECT:IsengardWargPit",
+   "en": "Warg Pit",
+   "uk": "Варґове лігво",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardSiegeWorks",
+   "en": "Build Siege Works (&N)",
+   "uk": "Облогова майстерня (&N)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "OBJECT:IsengardSiegeWorks",
+   "en": "Siege Works",
+   "uk": "Облогова майстерня",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardBattleTower",
+   "en": "Lookout Tower (&Y)",
+   "uk": "Сторожова вежа (&Y)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardWargSentry",
+   "en": "Build Warg Sentry (&F)",
+   "uk": "Загін сторожових варґів (&F)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "OBJECT:IsengardWargSentry",
+   "en": "Warg Sentry",
+   "uk": "Загін сторожових варґів",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:Crebain",
+   "en": "Crebain from Dunland",
+   "uk": "Чорні круки Дунланду",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:WarChant",
+   "en": "War Chant",
+   "uk": "Воєнний клич",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:Taint",
+   "en": "Tainted Land",
+   "uk": "Спотворена земля",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:Industry",
+   "en": "Fires of Industry",
+   "uk": "Третя зміна",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:FueltheFires",
+   "en": "Fuel the Fires",
+   "uk": "Піддати жару",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:Buildmeanarmy",
+   "en": "Build Me An Army",
+   "uk": "Армія, гідна Володаря",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipBuildmeanarmy",
+   "en": "Summons an Isengard War Camp that lasts for 5 minutes\nEvery 45 seconds, a horde of chosen heavily-armoured Uruk-hai is spawned\nRespects command point limit\nLimited to 1\n\nRecharge time: 9m\nLeft click on icon then left click on target position",
+   "uk": "Прикликати військовий табір Ізенґарду на 5 хв.\nКожні 45 сек. з табору виходить\nзагін елітних урук-хаїв\n\nВраховує ліміт очок командування\nМаксимум 1 одночасно\n\nЧас відновлення: 9 хв.\nКлікніть на іконку, потім оберіть місце",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:FellStorm",
+   "en": "Fell Storm",
+   "uk": "Зловісний шторм",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "OBJECT:IsengardTowerExpansion",
+   "en": "Arrow Tower Expansion",
+   "uk": "Вежа лучників",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "OBJECT:IsengardBallistaExpansion",
+   "en": "Ballista Expansion",
+   "uk": "Баліста",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "OBJECT:IsengardMineLauncherExpansion",
+   "en": "Mine Launcher Expansion",
+   "uk": "Міномет",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "OBJECT:GondorCastleWallHub",
+   "en": "Wall Hub Expansion",
+   "uk": "Стінна вежа",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "OBJECT:HordeIsengardManSlayer",
+   "en": "Uruk-hai Man-slayers",
+   "uk": "Урук-хаї людобивці",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "OBJECT:IsengardBattleTower",
+   "en": "Lookout Tower",
+   "uk": "Сторожова вежа",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructIsengardWallHubExpansion",
+   "en": "Allows the construction of walls\nBuild time: 50s",
+   "uk": "Дозволяє будувати стіни\nЧас будівництва: 50 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardFortress",
+   "en": "Fortress",
+   "uk": "Фортеця",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:SelectFocusIsengardFortress",
+   "en": "Cunning of Curunír (&T)",
+   "uk": "Хитрість Куруніра (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIsengardFortressMurderOfCrows",
+   "en": "Murder of Crows (&W)",
+   "uk": "Вороняча зграя (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIsengardFortressExcavations",
+   "en": "Excavations (&E)",
+   "uk": "Розкопки (&E)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations",
+   "en": "Nearby structures gain +25% armour\nResearch time: 15s",
+   "uk": "Споруди поблизу отримують бонус +25% броні\nЧас дослідження: 15 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIsengardFortressBurningForges",
+   "en": "Burning Forges (&R)",
+   "uk": "Палаючі горни (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressIronPlating",
+   "en": "Increases Fortress and Wall armour by 65%\nPrerequisite to Wisdom of Curunír\nResearch time: 30s",
+   "uk": "Збільшує міцність самої фортеці та стін на 65%\nПотрібне для покращення «Мудрість Куруніра»\nЧас дослідження: 30 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIsengardFortressIronPlating",
+   "en": "Iron Plating (&S)",
+   "uk": "Залізна обшивка (&S)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIsengardFortressWizardsTower",
+   "en": "Wisdom of Curunír (&D)",
+   "uk": "Мудрість Куруніра (&D)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressWizardsTower",
+   "en": "Requires the Iron Plating upgrade\nGives access to the Cunning of Curunír\nResearch time: 45s",
+   "uk": "Потребує покращення «Залізна обшивка»\nВідкриває «Хитрість Куруніра»\nЧас дослідження: 45 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "ToolTip:LackIronPlating",
+   "en": "Requires the Iron Plating upgrade\nGives access to the Cunning of Curunír",
+   "uk": "Потребує покращення «Залізна обшивка»\nВідкриває «Хитрість Куруніра»",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityIsengardFocusInfantry",
+   "en": "Focus: Fighting Uruk-hai (&W)",
+   "uk": "Спеціалізація: бойові урук-хаї (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardFortress",
+   "en": "Build Fortress (&I)",
+   "uk": "Фортеця (&I)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardWormTongue",
+   "en": "Wormtongue",
+   "uk": "Червеуст",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:Wormtongue",
+   "en": "Movement speed: 55",
+   "uk": "Швидкість руху: 55 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:Ugluk",
+   "en": "Movement speed: 55",
+   "uk": "Швидкість руху: 55 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:IsengardWormtongueRevive",
+   "en": "Revive the fallen Hero, Wormtongue",
+   "uk": "Відродити полеглого в бою Червеуста",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:Backstab",
+   "en": "Back Stab (&T)",
+   "uk": "Удар у спину (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:MalignedLeechcraft",
+   "en": "Maligned Leechcraft (&C)",
+   "uk": "Прокляте цілительство (&C)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMalignedLeechcraft",
+   "en": "Requires Level 8\nTargeted enemy hero's ability timers are set to just used\n\nRecharge time: 3m\nLeft click icon then left click on target",
+   "uk": "Необхідно: Рівень 8\nУсі здібності обраного ворожого героя скидаються, ніби їх щойно застосували\n\nЧас відновлення: 3 хв.\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:VenomousWords",
+   "en": "Venomous Words (&R)",
+   "uk": "Отруйні слова (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructFurnace",
+   "en": "Build Furnace (&W)",
+   "uk": "Горнило (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFurnace",
+   "en": "Provides worked metals as a resource based on available terrain\nReduces the cost of Uruks\nIncreases command point limit by 50\nBuild time: 15s",
+   "uk": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nЗнижує вартість уруків\nЗбільшує ліміт очок командування на 50 од.\nЧас будівництва: 15 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:FurnaceDescription",
+   "en": "Generates resources based on available terrain\nSteel Bonus - Reduced cost of Uruk-hai\n2 Furnaces: 5%\n3 Furnaces: 10%\n4 Furnaces: 15%\n5+ Furnaces: 20%",
+   "uk": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nБонус сталі — знижує вартість урук-хаїв\n2 Горнила: 5%\n3 Горнила: 10%\n4 Горнила: 15%\n5 і більше: 20%",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:Furnace",
+   "en": "Furnace",
+   "uk": "Горнило",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:HeatBlast",
+   "en": "Heat Blast (&W)",
+   "uk": "Жар (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHeatBlast",
+   "en": "Requires Level 2 and Fuel the Fires\nKnocks back nearby enemy units and sets the surrounding area on fire\n\nRecharge time: 6m\nLeft click to activate",
+   "uk": "Необхідно: Рівень 2 і «Піддати жару»\nВідкидає ворожі загони поблизу й підпалює все навколо\n\nЧас відновлення: 6 хв.\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardLumberMill",
+   "en": "Lumber Mill (&D)",
+   "uk": "Лісопильня (&D)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardLumberMill",
+   "en": "Lumber Mill",
+   "uk": "Лісопильня",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:LumberMill",
+   "en": "Lumber Mill",
+   "uk": "Лісопильня",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructLumberMill",
+   "en": "Harvests resources from nearby trees\nReduces cost of structures\nBuild time: 30s",
+   "uk": "Добуває ресурси з дерев поблизу\nЗнижує вартість споруд\nЧас будівництва: 30 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLumberMill",
+   "en": "Harvests resources from nearby trees\nWood Bonus - Reduced cost of structures\n2 Lumbermills: 5%\n3 Lumbermills: 10%\n4 Lumbermills: 15%",
+   "uk": "Добуває ресурси з дерев поблизу\nБонус деревини — знижує вартість споруд\n2 Лісопильні: 5%\n3 Лісопильні: 10%\n4 Лісопильні: 15%",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:LumberMillDescription",
+   "en": "Harvests resources from nearby trees\nReduces cost of buildings\n2 Lumber Mills: 5%\n3 Lumber Mills: 10%\n4 Lumber Mills: 15%",
+   "uk": "Добуває ресурси з дерев поблизу\nЗнижує вартість споруд\n2 Лісопильні: 5%\n3 Лісопильні: 10%\n4 Лісопильні: 15%",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:MordorWorker",
+   "en": "Orc Laborer",
+   "uk": "Орк-робітник",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIsengardArmory",
+   "en": "Manufactures thick armour and broad shields as a resource based on available terrain\nResearches weapon and armour upgrades\nReduces cost of upgrades\nIncreases command point limit by 50\nBuild time: 15s",
+   "uk": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nПокращення зброї та обладунків\nДекілька зброярень знижують вартість покращень\nЗбільшує ліміт очок командування на 50 од.\nЧас будівництва: 15 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardArmoryDescription",
+   "en": "Generates resources based on available terrain\nSurplus Bonus - Reduced cost of upgrades\n2 Armouries: 5%\n3 Armouries: 10%\n4 Armouries: 15%\n5+ Armouries: 20%",
+   "uk": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nБонус запасів — знижує вартість покращень\n2 Зброярні: 5%\n3 Зброярні: 10%\n4 Зброярні: 15%\n5 і більше: 20%",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardArmory",
+   "en": "Armoury",
+   "uk": "Зброярня",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardArmory",
+   "en": "Build Armoury (&R)",
+   "uk": "Зброярня (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyIsengardBasicTraining",
+   "en": "Research Banners of the White Hand (&W)",
+   "uk": "Стяги Білої Руки (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyIsengardBasicTraining",
+   "en": "Allows hordes to purchase the Banners of the White Hand upgrade\nIncreases a horde to Level 2\nResearch time: 30s",
+   "uk": "Дає змогу кожному загону придбати покращення «Стяги Білої Руки»\nПідвищує рівень загону до 2\nЧас дослідження: 30 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyIsengardHeavyArmor",
+   "en": "Research Blackened Plate (&E)",
+   "uk": "Почорнілі обладунки (&E)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyIsengardHeavyArmor",
+   "en": "Allows hordes to purchase the Blackened Plate upgrade\nWhen equipped, significantly reduces the amount of damage taken\nWill upgrade all patrols instantly once upgrade is purchased\nResearch time: 30s",
+   "uk": "Дає змогу кожному загону придбати це покращення\nПісля оснащення значно зменшує отримувані пошкодження\nПісля дослідження миттєво покращує обладунки всіх патрулів навколо будівель\nЧас дослідження: 30 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:LackIsengardHeavyArmorTech",
+   "en": "Requires Level 2 Armoury",
+   "uk": "Необхідно: Зброярня 2 рівня",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:LackIsengardForgedBladesTech",
+   "en": "Requires Level 2 Armoury",
+   "uk": "Необхідно: Зброярня 2 рівня",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:LackIsengardFireArrowsTech",
+   "en": "Requires Level 2 Armoury",
+   "uk": "Необхідно: Зброярня 2 рівня",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyIsengardForgedBlades",
+   "en": "Research Cruel Blades (&R)",
+   "uk": "Нещадні клинки (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyIsengardForgedBlades",
+   "en": "Allows hordes to purchase the Cruel Blades upgrade\nWhen equipped, increases the damage done by melee weapons\nWill upgrade all patrols instantly once upgrade is purchased\nResearch time: 30s",
+   "uk": "Дає змогу кожному загону придбати це покращення\nПісля оснащення збільшує пошкодження в ближньому бою\nПісля дослідження миттєво покращує зброю всіх патрулів навколо будівель\nЧас дослідження: 30 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyIsengardFireArrows",
+   "en": "Research Fire Arrows (&T)",
+   "uk": "Вогняні стріли (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyIsengardFireArrows",
+   "en": "Allows hordes to purchase the Fire Arrows upgrade\nWhen equipped, significantly increases the damage done by arrows\nWill upgrade all patrols and tower archers instantly once upgrade is purchased\nResearch time: 30s",
+   "uk": "Дає змогу кожному загону придбати це покращення\nПісля оснащення значно збільшує пошкодження стріл\nПісля дослідження миттєво покращує стріли всіх патрулів і лучників у вежах\nЧас дослідження: 30 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardUrukPit",
+   "en": "Build Uruk Pit (&T)",
+   "uk": "Яма уруків (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructIsengardUrukPit",
+   "en": "Breeds the Fighting Uruk-hai\nBuild time: 30s",
+   "uk": "Вирощує бойових урук-хаїв\nЧас будівництва: 30 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardUrukPitDescription",
+   "en": "Level 2: +10% faster build speed and +1500 health\nLevel 3: +25% faster build speed and +1500 health",
+   "uk": "Рівень 2: +10% до швидкості тренування і +1500 од. міцності\nРівень 3: +25% до швидкості тренування і +1500 од. міцності",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardTavernDescription",
+   "en": "Level 2: +10% faster build speed and +1500 health\nLevel 3: +25% faster build speed and +1500 health",
+   "uk": "Рівень 2: +10% до швидкості тренування і +1500 од. міцності\nРівень 3: +25% до швидкості тренування і +1500 од. міцності",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardLonghouseDescription",
+   "en": "Level 2: +10% faster build speed and +1500 health\nLevel 3: +25% faster build speed and +1500 health",
+   "uk": "Рівень 2: +10% до швидкості тренування і +1500 од. міцності\nРівень 3: +25% до швидкості тренування і +1500 од. міцності",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardWargPitDescription",
+   "en": "Level 2: +10% faster build speed and +1500 health\nLevel 3: +25% faster build speed and +1500 health",
+   "uk": "Рівень 2: +10% до швидкості тренування і +1500 од. міцності\nРівень 3: +25% до швидкості тренування і +1500 од. міцності",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardSiegeWorksDescription",
+   "en": "Level 2: +10% faster build speed and +1500 health\nLevel 3: +25% faster build speed and +1500 health",
+   "uk": "Рівень 2: +10% до швидкості тренування і +1500 од. міцності\nРівень 3: +25% до швидкості тренування і +1500 од. міцності",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardUrukPit",
+   "en": "Uruk Pit",
+   "uk": "Яма уруків",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeIsengardUrukPitLevel2",
+   "en": "Allows training of the Armoured Uruk-hai and Uruk Berserker units\nResearch time: 60s\n+1500 Health\n+10% faster build speed",
+   "uk": "Дозволяє тренувати урук-хаїв у важких обладунках і берсерків\nЧас дослідження: 60 сек.\n+1500 од. міцності\n+10% до швидкості тренування",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeIsengardUrukPitLevel2",
+   "en": "Upgrade Uruk Pit to Level 2 (&A)",
+   "uk": "Покращити яму уруків до 2-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeIsengardUrukPitLevel3",
+   "en": "Allows training of Uruk-hai Man-slayers\nResearch time: 45s\n+1500 Health\n+25% faster build speed",
+   "uk": "Дозволяє тренувати урук-хаїв людобивців\nЧас дослідження: 45 сек.\n+1500 од. міцності\n+25% до швидкості тренування",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeIsengardUrukPitLevel3",
+   "en": "Upgrade Uruk Pit to Level 3 (&A)",
+   "uk": "Покращити яму уруків до 3-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeIsengardUrukPitLevel3_WOTR",
+   "en": "+25% faster build speed",
+   "uk": "+25% до швидкості тренування",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardBerserker",
+   "en": "Requires Level 2 Uruk Pit\nStrong vs. Swordsmen and Pikemen\n\nRecruit time: 20s\nLevel 2-3: +7% Health, +7% Damage\nLevel 4-5: +6% Health, +6% Damag\n\nRather than dispose of early, less-refined specimens of Uruk, Saruman used these crazed creatures as deadly shock troops.",
+   "uk": "Необхідно: Яма уруків 2 рівня\nЕфективний проти мечників і пікінерів\n\nЧас тренування: 20 сек.\n\n Кожен рівень підвищує показники\n Рівні 2-3: +7% здоров'я/+7% пошкоджень\nРівні 4-5: +6% здоров'я/+6% пошкоджень\n\nЗамість того щоб позбутися ранніх, менш досконалих уруків, Саруман зробив цих шалених створінь смертоносними воїнами.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:IsengardBerserker",
+   "en": "Melee damage: 225\nSplash radius: 10\nMovement speed: 55",
+   "uk": "Пошкодження в ближньому бою: 225 од.\nРадіус ураження: 10 од.\nШвидкість руху: 55 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLightTorch",
+   "en": "Light a torch that can detonate explosive mines\nBerserker gains +20% speed but suffers -15% armour against arrow fire\nLeft click to activate",
+   "uk": "Запалює смолоскип, яким можна підпалювати міни\nБерсерк отримує бонус +20% швидкості, але отримує -15% броні проти стріл\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:LightTorch",
+   "en": "Light Torch (&W)",
+   "uk": "Запалити смолоскип (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeMansblood",
+   "en": "Modifier type: Spell\nDrenches this Berserker in the blood of his enemies\nThe splash radius of Berserker's attacks is permanently increased to 15\nEach consecutive attack raises the Berserker's damage by 10% for 5 seconds\nResearch time: 10s",
+   "uk": "Тип ефекту: Заклинання\nОмиває берсерка кров'ю його ворогів\nРадіус ураження атак берсерка назавжди зростає до 15 од.\nКожна наступна атака збільшує пошкодження берсерка на 10% на 5 сек.\nЧас дослідження: 10 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeMansblood",
+   "en": "Purchase Mansblood (&R)",
+   "uk": "Придбати покращення «Ворожа кров» (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeThickSkin",
+   "en": "Long exposure to punishment results in thick skin\nBerserker permanently gains +33% armour to all sources of damage and improved resistance to crush damage\nResearch time: 10s",
+   "uk": "Довгі випробування болем загартовують шкіру\nБерсерк назавжди отримує бонус +33% броні від усіх видів пошкоджень\nі кращу стійкість до топтання\nЧас дослідження: 10 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeThickSkin",
+   "en": "Purchase Thick Skin (&T)",
+   "uk": "Придбати покращення «Груба шкура» (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIronFist",
+   "en": "Purchase Iron Fist (&C)",
+   "uk": "Придбати покращення «Залізний кулак» (&C)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeIronFist",
+   "en": "Modifier Type: Leadership\nGrants this Berserker the rank of Captain\nBerserker permanently gains +10% movement speed\nNearby Uruks gain +15% damage and +15% movement speed\nResearch time: 10s",
+   "uk": "Тип ефекту: Лідерство\nНадає цьому берсерку звання капітана\nБерсерк назавжди отримує бонус +10% швидкості руху\nУруки поблизу отримують бонус +15% до пошкоджень і +15% швидкості руху\nЧас дослідження: 10 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardWargRider",
+   "en": "Strong vs. Swordsmen and Archers\n\nRecruit time: 30s\nLevel 2-3: +7% Health, +7% Damage\nLevel 4-5: +6% Health, +6% Damage\n\nFor generations, Orcs have ridden Wargs - not as masters, but as equals - to track and ambush the Free Peoples.",
+   "uk": "Ефективні проти мечників і лучників\n\nЧас тренування: 30 сек.\n\n Кожен рівень підвищує показники\n Рівні 2-3: +7% здоров'я/+7% пошкоджень\nРівні 4-5: +6% здоров'я/+6% пошкоджень\n\nПоколіннями орки їздили на варґах — не як господарі, а як рівні, — щоб вистежувати Вільні Народи й влаштовувати їм засідки.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardWargRider",
+   "en": "Warg-riders (&W)",
+   "uk": "Вершники на варґах (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:HordeIsengardWargRiders",
+   "en": "Warg-riders",
+   "uk": "Вершники на варґах",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:IsengardWargRider",
+   "en": "Melee damage: 55\nUpgraded melee damage: 110\nTrample damage: 85\nMovement speed: 100",
+   "uk": "Пошкодження в ближньому бою: 55 од.\nПокращене пошкодження в ближньому бою: 110 од.\nПошкодження від топтання: 85 од.\nШвидкість руху: 100 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardWargRider",
+   "en": "Warg-rider",
+   "uk": "Вершник на варґу",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIsengardWargPit",
+   "en": "Trains Warg-riders\nBuild time: 30s",
+   "uk": "Тренування вершників на варґах\nЧас будівництва: 30 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeIsengardWargPitLevel2",
+   "en": "Research time: 30s\n+1500 Health\n+10% faster build speed",
+   "uk": "Час дослідження: 30 сек.\n+1500 од. міцності\n+10% до швидкості тренування",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeIsengardWargPitLevel2",
+   "en": "Upgrade Warg Pit to Level 2 (&A)",
+   "uk": "Покращити варґове лігво до 2-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeIsengardWargPitLevel3",
+   "en": "Grants an additional Warg to all Warg Sentries\nDoes not stack\nResearch time: 45s\n+1500 Health\n+25% faster build speed",
+   "uk": "Додає ще одного варґа до кожного загону сторожових варґів\nНе накопичується\nЧас дослідження: 45 сек.\n+1500 од. міцності\n+25% до швидкості тренування",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeIsengardWargPitLevel3",
+   "en": "Upgrade Warg Pit to Level 3 (&A)",
+   "uk": "Покращити варґове лігво до 3-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipIsengardWargRiderHowl",
+   "en": "Modifier Type: Buff\nWargs gain +50% damage and +20% speed for 20 seconds\n\nRecharge time: 3m\nLeft click to activate",
+   "uk": "Тип ефекту: Посилення\nВарґи отримують бонус +50% до пошкоджень і +20% швидкості на 20 сек.\n\nЧас відновлення: 3 хв.\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIsengardSiegeWorks",
+   "en": "Builds Isengard's Siege Weapons\nAt rank 2, repairs nearby siege engines\nBuild time: 30s",
+   "uk": "Будує облогову зброю Ізенґарду\nНа 2 рівні лагодить облогові машини поблизу\nЧас будівництва: 30 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeIsengardSiegeWorksLevel2",
+   "en": "Allows the construction of Siege Ballistae\nHeals nearby damaged siege machines\nResearch time: 30s\n+1500 Health\n+10% faster build speed",
+   "uk": "Дозволяє будувати балісти\nЛагодить пошкоджені облогові машини поблизу\nЧас дослідження: 30 сек.\n+1500 од. міцності\n+10% до швидкості тренування",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeIsengardSiegeWorksLevel2",
+   "en": "Upgrade the Siege Works to Level 2 (&A)",
+   "uk": "Покращити облогову майстерню до 2-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeIsengardSiegeWorksLevel3",
+   "en": "Allows the construction of the Explosive Mine\nIncreased healing to nearby damaged siege machines\nAdds defensive arrow tower\nResearch time: 45s\n+1500 Health\n+25% faster build speed",
+   "uk": "Дозволяє будувати вибухову міну\nШвидше лагодить пошкоджені облогові машини поблизу\nДодає захисну вежу\nЧас дослідження: 45 сек.\n+1500 од. міцності\n+25% до швидкості тренування",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeIsengardSiegeWorksLevel3",
+   "en": "Upgrade the Siege Works to Level 3 (&A)",
+   "uk": "Покращити облогову майстерню до 3-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardBatteringRam",
+   "en": "Breaks down castle gates and enemy structures\n\nRecruit time: 30s\n\nHeavily armoured, Saruman's rams make quick work of enemy gates, lending his Uruks access to the keep beyond.",
+   "uk": "Дозволяє ефективно пробивати брами, стіни та споруди\n\nЧас тренування: 30 сек.\n\nВажкоброньовані тарани Сарумана швидко розправляються з ворожими брамами, відкриваючи урукам шлях до фортець.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardBatteringRam",
+   "en": "Battering Ram (&W)",
+   "uk": "Таран (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardBatteringRam",
+   "en": "Battering Ram",
+   "uk": "Таран",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:IsengardBatteringRam",
+   "en": "Melee damage: 600\nMovement speed: 45",
+   "uk": "Пошкодження в ближньому бою: 600 од.\nШвидкість руху: 45 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardSiegeBallista",
+   "en": "Siege Ballista (&E)",
+   "uk": "Облогова баліста (&E)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardSiegeBallista",
+   "en": "Requires Level 2 Siege Works\nStrong vs. Structures and Siege Equipment\n\nRecruit time: 40s\n\nRelatively simple to use and aim, Saruman's ballistae serve to wipe out clusters of enemy troops and weaken their structures.",
+   "uk": "Необхідно: Облогова майстерня 2 рівня\nЕфективна проти споруд і облогових машин\n\nЧас тренування: 40 сек.\n\nПрості в користуванні й наведенні баліста Сарумана нищать скупчення ворожих військ і руйнують споруди.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardBallista",
+   "en": "Ballista",
+   "uk": "Баліста",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:IsengardBallista",
+   "en": "Ranged damage: 600\nAttack range: 500\nMovement speed: 35",
+   "uk": "Пошкодження на відстані: 600 од.\nДальність атаки: 500 од.\nШвидкість руху: 35 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardExplosiveMine",
+   "en": "Requires Level 3 Siege Works\nBlast structures, castle walls, and gates\n\nRecruit time: 45s\n\nRequiring a method of breaching the Deeping Wall, Saruman produced mass quantities of highly destructive explosive powder.",
+   "uk": "Необхідно: Облогова майстерня 3 рівня\nВкрай ефективно нищить споруди, стіни й брами замків\n\nЧас тренування: 45 сек.\n\nШукаючи спосіб пробити стіну Гельмового Яру, Саруман виготовив безліч руйнівного вибухового порошку.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardExplosiveMine",
+   "en": "Explosive Mine (&R)",
+   "uk": "Вибухова міна (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardExplosiveMine",
+   "en": "Explosive Mine",
+   "uk": "Вибухова міна",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:IsengardExplosiveMine",
+   "en": "Explosion damage: 6500\nExplosion radius: 125\nMovement speed: 45",
+   "uk": "Пошкодження від вибуху: 6500 од.\nРадіус вибуху: 125 од.\nШвидкість руху: 45 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDeployMine",
+   "en": "Deploy a powerful explosive",
+   "uk": "Встановлення потужної вибухівки",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:DeployMine",
+   "en": "Deploy Mine (&W)",
+   "uk": "Встановити міну (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:GenericSentryTowerDescription",
+   "en": "Defensive tower that fires arrows at nearby enemies\nCan be garrisoned with archers to increase damage output",
+   "uk": "Оборонна вежа, що стріляє по ворогах, які наближаються\n Можна розмістити лучників для збільшення пошкоджень",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeSentryTowerFireArrows",
+   "en": "Fire Arrows (&W)",
+   "uk": "Вогняні стріли (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructIsengardWargSentry",
+   "en": "Defensive wargs that will attack nearby enemies\nBuild time: 30s",
+   "uk": "Варґи-охоронці, що нападають на ворогів поблизу\nЧас будівництва: 30 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:Command_ConstructIsengardCastleWallHub",
+   "en": "Wall Hub (&A)",
+   "uk": "Стінна вежа (&A)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardCastleWallHub",
+   "en": "Wall Hub",
+   "uk": "Стінна вежа",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommand_ConstructIsengardCastleWallHub",
+   "en": "Allows the construction of walls\nBuild time: 25s",
+   "uk": "Дозволяє будувати стіни\n Час будівництва: 25 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipCrebain",
+   "en": "Reveals the shroud and detects stealthed units\nModifier Type: Active Debuff\nNearby enemy units suffer -15% damage and -15% armour\n\nRecharge time: 3m\nLeft click icon then left click on target area",
+   "uk": "Розвіює туман війни й виявляє невидимі загони\nТип ефекту: Активне ослаблення\nВорожі загони поблизу отримують штраф -15% пошкоджень і -15% броні\n\nЧас відновлення: 3 хв.\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWarChant",
+   "en": "Modifier Type: Buff\nTarget allies gain +25% damage, +25% armour for 60 seconds\n\nRecharge time: 3m\nLeft click icon then left click on target units",
+   "uk": "Обрані союзники отримують бонус +25% до пошкоджень і +25% броні на 60 сек.\n\nТип ефекту: Посилення\nЧас відновлення: 3 хв.\nКлікніть на іконку, потім оберіть потрібні загони",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipPalantirVision",
+   "en": "Spy on the enemy forces for 60 seconds\nModifier Type: Buff\nGrants a +15% speed bonus to units and heroes in the target area for 35 seconds\n\nRecharge time: 3m\nLeft click icon then left click on target area",
+   "uk": "Стежте за військами ворога на обраній ділянці протягом 1 хв.\n\nТип ефекту: Посилення\nЗагони й герої на ділянці отримують бонус +15% швидкості пересування на 35 сек.\n\nЧас відновлення: 3 хв.\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:PalantirVision",
+   "en": "Vision of the Palantir",
+   "uk": "Видіння палантира",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:MordorAllies",
+   "en": "Scum from Lugbúrz",
+   "uk": "Нікчеми з Луґбурза",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipMordorAllies",
+   "en": "Summons two hordes of Orc Warriors, one horde of Orc Pikemen, one horde of Orc Archers equipped with fire arrows and Grishnákh to fight for your side for 60 seconds\n\nRecharge time: 6m\nLeft click icon then left click on pathable location",
+   "uk": "Прикликати на ваш бік на 60 сек. Ґрішнаха з 2 загонами орків-воїнів, загоном орків-пікінерів і загоном орків-лучників із вогняними стрілами\n\nЧас відновлення: 6 хв.\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:Devastation",
+   "en": "Devastation",
+   "uk": "Спустошення",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDevastation",
+   "en": "Trees are instantly converted into resources, up to a maximum of 1300 resources\nHalves the resource production of any resource structure within the area of effect for 45 seconds\n\nRecharge time: 6m\nLeft click icon then left click on target forest",
+   "uk": "Миттєве перетворення дерев на ресурси, максимум 1300 од. за раз\nТакож на 45 сек. вдвічі зменшує видобуток усіх ресурсних споруд на обраній ділянці\n\nЧас відновлення: 6 хв.\nКлікніть на іконку, потім оберіть ділянку з деревами",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTaintIsengard",
+   "en": "Taints an area of terrain for 5 minutes\nModifier Type: Buff\nAll allied units gain +50% damage and +50% armour, and earn resources for kills\n\nRecharge time: 6m\nLeft click icon then left click on target area",
+   "uk": "Оскверняє ділянку землі на 5 хв.\nТип ефекту: Посилення\nУсі союзні загони, поки перебувають на ділянці, отримують бонус +50% до пошкоджень і +50% броні та ресурси за вбивства\n\nЧас відновлення: 6 хв.\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIndustry",
+   "en": "Selected structure's resource output is raised to 200% for 5 minutes\nAffects Furnaces and Armouries\n\nRecharge time: 6m\nLeft click icon then left click on target resource structure",
+   "uk": "Видобуток обраної споруди зростає до 200% на 5 хв.\nДіє на горнила й зброярні\n\nЧас відновлення: 6 хв.\nКлікніть на іконку, потім оберіть ресурсну споруду",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFueltheFires",
+   "en": "+55% resources from harvesting trees\nUnlocks Heat Blast for Furnaces\nPassive power",
+   "uk": "Ви отримуєте додатково +55% ресурсів від вирубки дерев\nВідкриває «Жар» для горнил\n\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFreezingRain",
+   "en": "Covers the map in rain for 3 minutes\nCancels Freezing Rain, Blessing of Ulmo, Lights Go Out, White Winter and Darkness\nModifier Type: Active Debuff\nEnemy units suffer -25% damage and -20% armour\nNullifies enemy leadership\nExtinguishes all fires\n\nRecharge time: 6m\nLeft click to activate",
+   "uk": "По всій мапі протягом 3 хв. починає йти крижаний дощ\n\nСкасовує ефекти погоди: «Крижаний дощ», «Благословення Улмо», «Згасання світла», «Білу зиму» й «Пітьму»\nТип ефекту: Активне ослаблення\nВорожі загони отримують штраф -25% пошкоджень і -20% броні\nСкасовує вороже лідерство\nГасить усі пожежі\n\nЧас відновлення: 6 хв.\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:FreezingRain",
+   "en": "Freezing Rain",
+   "uk": "Крижаний дощ",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellStorm",
+   "en": "Casts several bolts of lightning in the targeted area\nStrong vs. buildings\n\nRecharge time: 12m\nLeft click icon then left click on target area",
+   "uk": "Б'є блискавками по вказаній ділянці\nЕфективно проти споруд\n\nЧас відновлення: 12 хв.\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:Avalanche",
+   "en": "Wrath of Caradhras",
+   "uk": "Гнів Карадрасу",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipAvalanche",
+   "en": "Summons an avalanche that will damage enemies and put out fires\nStrong vs. units\nModifier Type: Spell\nEnemy units that pass through the snowfield suffer -33% speed\n\nRecharge time: 12m\nLeft click icon then left click on target area",
+   "uk": "Прикликати лавину, що завдає пошкоджень ворогам і гасить пожежі\nЕфективно проти всіх типів загонів\nТип ефекту: Заклинання\nВорожі загони на сніговому полі отримують штраф -33% швидкості\n\nЧас відновлення: 12 хв.\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardDunlandHuskarlHorde",
+   "en": "Requires Dunlending Longhouse Level 3\nElite Infantry\nStrong vs. Pikemen\nLimited to 2\n\nRecruit time: 40s\nLevel 2-3: +7% Health, +7% Damage\nLevel 4-5: +6% Health, +6% Damage\n\nThe Huskarls of Frecalund are fierce fighters, gathered from respectable houses to serve as the king's personal guard.",
+   "uk": "Необхідно: Довгий дім дунландців 3 рівня\nЕлітна піхота\nЕфективні проти пікінерів\nМаксимум 2 одночасно\n\nЧас тренування: 40 сек.\n\n Кожен рівень підвищує показники\n Рівні 2-3: +7% здоров'я/+7% пошкоджень\nРівні 4-5: +6% здоров'я/+6% пошкоджень\n\nГускарли Фрекалунду — запеклі бійці зі шляхетних родів, які служать особистою вартою короля.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardDunlandHuskarlHorde",
+   "en": "Dunlending Huskarls (&T)",
+   "uk": "Дунландські гускарли (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:DunlandHuskarlHorde",
+   "en": "Dunlending Huskarls",
+   "uk": "Дунландські гускарли",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:IsengardDunlandHuskarl",
+   "en": "Melee damage: 200\nSplash radius: 7\nMovement speed: 50",
+   "uk": "Пошкодження в ближньому бою: 200 од.\nРадіус ураження: 7 од.\nШвидкість руху: 50 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardDunlandHuskarl",
+   "en": "Dunlending Huskarl",
+   "uk": "Дунландський гускарл",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:DunlandMordhauGrip",
+   "en": "Mordhau Grip (&W)",
+   "uk": "Хват «Мордау» (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDunlandMordhauGrip",
+   "en": "Dunlending Huskarls use Mordhau grip for 20 seconds\nWhilst active, Huskarls ignore unit armour and deal bonus damage vs heroes but do not deal splash damage\nWeak vs structures and spam units\n\nRecharge time: 1m 30s\nLeft click to activate",
+   "uk": "Дунландські гускарли перехоплюють мечі за лезо на 20 сек.\nУ цей час гускарли ігнорують броню загонів і завдають додаткових пошкоджень героям, але не завдають пошкоджень по площі\nСлабкі проти споруд і масових загонів\n\nЧас відновлення: 1 хв. 30 сек.\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDunlandNobleLineage",
+   "en": "Modifier Type: Leadership\nNearby Wildmen and Dunlendings receive\n+50% experience gain and fear resistance\nPassive ability",
+   "uk": "Тип ефекту: Лідерство\nДикуни та дунландці поблизу\nна 50% швидше набирають досвід і отримують стійкість до страху\n\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:DunlandNobleLineage",
+   "en": "Noble Lineage",
+   "uk": "Шляхетний родовід",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRecklessSwings",
+   "en": "Requires Level 3\nConsecutive attacks temporarily increase attack damage by 5%\nStacks to a maximum of 25%\nPassive ability",
+   "uk": "Необхідно: Рівень 3\nКожна наступна атака тимчасово збільшує пошкодження на 5%\nНакопичується до 25%\n\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:RecklessSwings",
+   "en": "Reckless Swings",
+   "uk": "Шалені замахи",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardDunlandRiderHorde",
+   "en": "Requires Dunlending Longhouse Level 3\nElite Cavalry\nStrong vs. Archers\n\nRecruit time: 45s\nLevel 2-3: +7% Health, +7% Damage\nLevel 4-5: +6% Health, +6% Damage\n\n'The Men of Dunland do not take kindly to notions of Rohirric equestrian superiority, claiming their Outriders can match any Rider of Rohan.'",
+   "uk": "Необхідно: Довгий дім дунландців 3 рівня\nЕлітна кавалерія\nЕфективні проти лучників\n\nЧас тренування: 45 сек.\n\n Кожен рівень підвищує показники\n Рівні 2-3: +7% здоров'я/+7% пошкоджень\nРівні 4-5: +6% здоров'я/+6% пошкоджень\n\n«Люди Дунланду не терплять розмов про нібито вправних роганських вершників і твердять, що їхні вершники не поступляться роганським.»",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardDunlandRiderHorde",
+   "en": "Dunnish Outriders (&R)",
+   "uk": "Дунландські вершники (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:HordeIsengardDunlandRiders",
+   "en": "Dunnish Outriders",
+   "uk": "Дунландські вершники",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:IsengardDunlandRider",
+   "en": "Melee damage: 70\nUpgraded melee damage: 140\nTrample damage: 180\nMovement speed: 100",
+   "uk": "Пошкодження в ближньому бою: 70 од.\nПокращене пошкодження в ближньому бою: 140 од.\nПошкодження від топтання: 180 од.\nШвидкість руху: 100 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardDunlandRider",
+   "en": "Dunnish Outrider",
+   "uk": "Дунландський вершник",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:WildCharge",
+   "en": "Wild Hunt (&W)",
+   "uk": "Дике полювання (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWildCharge",
+   "en": "Requires Level 2\nOutriders gain increased +15% speed and trample, at the cost of -25% armour for 20 seconds\n\nRecharge time: 3m\nLeft click to activate",
+   "uk": "Необхідно: Рівень 2\nВершники отримують бонус +15% швидкості й топтання, але штраф -25% броні на 20 сек.\n\nЧас відновлення: 3 хв.\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardDunlandArcherHorde",
+   "en": "Requires Dunlending Longhouse level 2\nElite Archers\nStrong vs. Infantry\n\nResearch time: 45s\nLevel 2-3: +7% Health, +7% Damage\nLevel 4-5: +6% Health, +6% Damage\n\n'The rocky hills of Dunland are difficult to farm, resulting in a sprawling culture of hunting based around the legend of the White Crow.'",
+   "uk": "Необхідно: Довгий дім дунландців 2 рівня\nЕлітні лучники\nЕфективні проти піхоти\n\nЧас тренування: 45 сек.\nРівні 2-3: +7% здоров'я/+7% пошкоджень\nРівні 4-5: +6% здоров'я/+6% пошкоджень\n\n«Кам'янисті пагорби Дунланду важко обробляти, тож там розквітла мисливська культура, що постала довкола легенди про Білого Ворона.»",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardDunlandArcherHorde",
+   "en": "Dunlending Longbowmen (&E)",
+   "uk": "Дунландські довголучники (&E)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:HordeIsengardDunlandArcher",
+   "en": "Dunlending Longbowmen",
+   "uk": "Дунландські довголучники",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:IsengardDunlandArcher",
+   "en": "Ranged damage: 85\nUpgraded ranged damage: 100 + 30(Fire)\nAttack range: 350\nMovement speed: 50",
+   "uk": "Пошкодження на відстані: 85 од.\nПокращене пошкодження на відстані: 100 од. + 30 од. (вогонь)\nДальність атаки: 350 од.\nШвидкість руху: 50 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardDunlandArcher",
+   "en": "Dunlending Longbowman",
+   "uk": "Дунландський довголучник",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:EyesoftheCrow",
+   "en": "Eyes of the Crow (&R)",
+   "uk": "Очі ворона (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEyesoftheCrow",
+   "en": "Requires Level 2\nLongbowmen gain +25% range and +25% damage, at the cost of -25% movement speed for 20 seconds\n\nRecharge time: 3m\nLeft click to activate",
+   "uk": "Необхідно: Рівень 2\nДовголучники отримують бонус +25% дальності й +25% до пошкоджень, але штраф -25% швидкості руху на 20 сек.\n\nЧас відновлення: 3 хв.\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardDunlandAxemenHorde",
+   "en": "Dunlending Axemen (&W)",
+   "uk": "Дунландські сокирники (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:DunlandAxemenHorde",
+   "en": "Dunlending Axemen",
+   "uk": "Дунландські сокирники",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardDunlandAxemenHorde",
+   "en": "Elite Infantry\nStrong vs. Pikemen\n\nRecruit time: 30s\nLevel 2-3: +7% Health, +7% Damage\nLevel 4-5: +6% Health, +6% Damage\n\nAn axe, a shield, and a helmet. These are the most valuable possessions of any Dunnish warrior.",
+   "uk": "Елітна піхота\nЕфективні проти пікінерів\n\nЧас тренування: 30 сек.\n\n Кожен рівень підвищує показники\n Рівні 2-3: +7% здоров'я/+7% пошкоджень\nРівні 4-5: +6% здоров'я/+6% пошкоджень\n\nСокира, щит і шолом — найцінніше майно кожного дунландського воїна.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:IsengardDunlandAxeman",
+   "en": "Melee damage: 80\nUpgraded melee damage: 160\nSplash radius: 8\nMovement speed: 50",
+   "uk": "Пошкодження в ближньому бою: 80 од.\nПокращене пошкодження в ближньому бою: 160 од.\nРадіус ураження: 8 од.\nШвидкість руху: 50 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardDunlandAxeman",
+   "en": "Dunlending Axeman",
+   "uk": "Дунландський сокирник",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:DunlendingRallyingCry",
+   "en": "Rallying Cry (&W)",
+   "uk": "Бойовий клич (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDunlendingRallyingCry",
+   "en": "Modifier Type: Spell\nRequires Rank 3\nNearby Wildmen and Dunlendings gain trample resistance and +15% movement speed for 30 seconds\n\nRecharge time: 6m\nLeft click to activate",
+   "uk": "Тип ефекту: Заклинання\nНеобхідно: Рівень 3\nДикуни та дунландці поблизу отримують стійкість до топтання й +15% швидкості руху на 30 сек.\n\nЧас відновлення: 6 хв.\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIsengardBasicTrainingDunland",
+   "en": "Purchase Crow Banners (&V)",
+   "uk": "Придбати для загону «Воронячі стяги» (&V)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardLonghouse",
+   "en": "Build Dunlending Longhouse (&M)",
+   "uk": "Довгий дім дунландців (&M)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIsengardLonghouse",
+   "en": "Requires Wulfgar\nTrains Dunlending units\nBuild time: 45s",
+   "uk": "Необхідно: Завербований Вульфґар\nДім дозволяє тренувати загони дунландців\nЧас будівництва: 45 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardLonghouse",
+   "en": "Dunlending Longhouse",
+   "uk": "Довгий дім дунландців",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeDunlendingLonghouseLevel2",
+   "en": "Allows training of Dunlending Longbowmen\nResearch time: 60s\n+1500 Health\n+10% faster build speed",
+   "uk": "Дозволяє тренувати дунландських довголучників\nЧас дослідження: 60 сек.\n+1500 од. міцності\n+10% до швидкості тренування",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeDunlendingLonghouseLevel2",
+   "en": "Upgrade Dunlending Longhouse to Level 2 (&A)",
+   "uk": "Покращити довгий дім дунландців до 2-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeDunlendingLonghouseLevel3",
+   "en": "Allows training of Dunnish Outriders and Dunlending Huskarls\nAdds defensive arrow tower\nResearch time: 60s\n+1500 Health\n+25% faster build speed",
+   "uk": "Дозволяє тренувати дунландських вершників і дунландських гускарлів\nДодає захисну вежу\nЧас дослідження: 60 сек.\n+1500 од. міцності\n+25% до швидкості тренування",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeDunlendingLonghouseLevel3",
+   "en": "Upgrade Dunlending Longhouse to Level 3 (&A)",
+   "uk": "Покращити довгий дім дунландців до 3-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardManSlayerHorde",
+   "en": "Requires Level 3 Uruk Pit\nHero Unit. Limited to 2\nStrong vs. All Unit Types\n\nRecruit time 70s\nLevels 2-5: +5% Health, +5% Damage\nLevels 6-9: +4% Health, +4% Damage\nLevel 10: +3% Health, +3% Damage\n\nDriven mad by the scent of Man-flesh, these deranged creatures are capable of cleaving through armour and sustaining wounds that would kill ordinary orcs and uruks.",
+   "uk": "Необхідно: Яма уруків 3 рівня\nГероїчний загін. Максимум 2 одночасно\nЕфективні проти всіх типів військ\n\nЧас тренування: 70 сек.\n\n Кожен рівень підвищує показники\n Рівні 2-5: +5% здоров'я/+5% пошкоджень\nРівні 6-9: +4% здоров'я/+4% пошкоджень\nРівень 10: +3% здоров'я/+3% пошкоджень\n\nДоведені до божевілля запахом людської плоті, ці навіжені створіння пробивають обладунки й витримують поранення, що вбили б звичайних орків та уруків.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:ManSlayerHorde",
+   "en": "Melee damage: 120\nSplash radius: 5\nKnockback Radius: 10\nMovement Speed 55",
+   "uk": "Пошкодження в ближньому бою: 120 од.\nРадіус ураження: 5 од.\nРадіус відкидання: 10 од.\nШвидкість руху: 55 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardManSlayer",
+   "en": "Uruk-hai Man-slayer",
+   "uk": "Урук-хай людобивець",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:FanaticStoneWall",
+   "en": "Bane of the Rohirrim",
+   "uk": "Згуба рогіримів",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFanaticStoneWall",
+   "en": "Man-slayers are highly resistant to knockback and immune to trample\nPassive ability",
+   "uk": "Людобивці мають високу стійкість до відкидання й імунітет до топтання\n\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFanaticDeathWish",
+   "en": "Requires Level 3\nMan-slayers gain +150% damage at the cost of -33% armour for 20 seconds\n\nRecharge time: 2m\nLeft click to activate",
+   "uk": "Необхідно: Рівень 3\nЛюдобивці отримують бонус +150% до пошкоджень і штраф -33% броні на 20 сек.\n\nЧас відновлення: 2 хв.\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:FanaticDeathWish",
+   "en": "Twisted Frenzy (&R)",
+   "uk": "Скажене шаленство (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ScourgeofMan",
+   "en": "Scent of Blood (&T)",
+   "uk": "Запах крові (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipScourgeofMan",
+   "en": "Requires Level 5\nMan-slayers regain health per hit\nPassive ability\n\nWhen activated, Man-slayers gain +33% movement speed for 20 seconds\n\nRecharge time: 3m\nLeft click to activate",
+   "uk": "Необхідно: Рівень 5\nЛюдобивці відновлюють здоров'я з кожним ударом\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації людобивці отримують бонус +33% швидкості руху на 20 сек.\n\nЧас відновлення: 3 хв.\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardMineBerserker",
+   "en": "Isengard Sapper (&F)",
+   "uk": "Ізенґардський сапер (&F)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardMineBeserker",
+   "en": "Isengard Sapper",
+   "uk": "Ізенґардський сапер",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardMineBerserker",
+   "en": "Requires Level 2 Uruk Pit and Level 3 Siege Works\n\nRecruit time: 20s\n\nThese Uruk Berserkers carry smaller bombs on their back to set alight, killing themselves and all people around them.",
+   "uk": "Необхідно: Яма уруків 2 рівня й Облогова майстерня 3 рівня\n\nЧас тренування: 20 сек.\n\nЦі берсерки уруків несуть на спинах невеликі бомби, які самі ж і підпалюють, гинучи разом з усіма довкола.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:IsengardMineBeserker",
+   "en": "Explosion damage: 150(Siege) + 150(Fire)\nExplosion Radius: 60\nMovement speed: 60",
+   "uk": "Пошкодження від вибуху: 150 од. (облога) + 150 од. (вогонь)\nРадіус вибуху: 60 од.\nШвидкість руху: 60 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardShieldBearer",
+   "en": "Requires Level 2 Uruk Pit\nHeavily armoured support unit\nAble to switch formation for improved defensive capabilities\n\nRecruit time: 30s\nLevel 2-3: +7% Health, +7% Damage\nLevel 4-5: +6% Health, +6% Damage\n\n'This is no rabble of mindless orcs. These are Uruk-hai. Their armour is thick and their shields broad.'",
+   "uk": "Необхідно: Яма уруків 2 рівня\nВажкоброньований загін підтримки\nЗдатні змінювати стрій для підвищення оборони\n\nЧас тренування: 30 сек.\n\n Кожен рівень підвищує показники\n Рівні 2-3: +7% здоров'я/+7% пошкоджень\nРівні 4-5: +6% здоров'я/+6% пошкоджень\n\n«Це не збіговисько безмозких орків. Це урук-хаї. Їхні обладунки товсті, а щити широкі.»",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardShieldbearers",
+   "en": "Uruk-hai Shieldbearers (&S)",
+   "uk": "Урук-хаї щитоносці (&S)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:HordeIsengardShieldBearer",
+   "en": "Uruk-hai Shieldbearers",
+   "uk": "Урук-хаї щитоносці",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:IsengardShieldBearer",
+   "en": "Melee damage: 40\nUpgraded Melee damage: 80\nMovement speed: 55",
+   "uk": "Пошкодження в ближньому бою: 40 од.\nПокращене пошкодження в ближньому бою: 80 од.\nШвидкість руху: 55 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardShieldBearer",
+   "en": "Uruk-hai Shieldbearer",
+   "uk": "Урук-хай щитоносець",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBroadShields",
+   "en": "Modifier Type: Spell\nNearby friendly units in a small radius gain +33% armour\nPassive ability\n\nShield-bearers can toggle formation to gain +40% armour but lose -33% movement speed\nLeft click to activate",
+   "uk": "Тип ефекту: Заклинання\nСоюзні загони поряд отримують бонус +33% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nЩитоносці можуть змінити стрій і отримати +40% броні, ціною -33% швидкості руху\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToggleBroadShieldsFormation",
+   "en": "Broad Shields Formation (&W)",
+   "uk": "Стрій широких щитів (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardPikemen",
+   "en": "Uruk-hai Pikemen (&T)",
+   "uk": "Урук-хаї пікінери (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:HordeIsengardPikemen",
+   "en": "Uruk-hai Pikemen",
+   "uk": "Урук-хаї пікінери",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardPikemen",
+   "en": "Requires Level 2 Uruk Pit\nStrong vs. Cavalry and Heroes\nAble to switch formation for improved defensive capabilities\n\nRecruit time: 30s\nLevel 2-3: +7% Health, +7% Damage\nLevel 4-5: +6% Health, +6% Damage\n\nPreparing to eradicate the Horse-lords of Rohan, Saruman outfitted great numbers of his Uruks with long pikes.",
+   "uk": "Необхідно: Яма уруків 2 рівня\nЕфективні проти кавалерії та героїв\nЗдатні змінювати стрій для підвищення оборони\n\nЧас тренування: 30 сек.\n\n Кожен рівень підвищує показники\n Рівні 2-3: +7% здоров'я/+7% пошкоджень\nРівні 4-5: +6% здоров'я/+6% пошкоджень\n\nГотуючись знищити вершників Рогану, Саруман озброїв велику кількість уруків довгими піками.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:IsengardPikemen",
+   "en": "Melee damage: 70\nUpgraded melee damage: 140\nMovement speed: 55",
+   "uk": "Пошкодження в ближньому бою: 70 од.\nПокращене пошкодження в ближньому бою: 140 од.\nШвидкість руху: 55 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardPikeman",
+   "en": "Uruk-hai Pikeman",
+   "uk": "Урук-хай пікінер",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TogglePhalanxFormation",
+   "en": "Phalanx Formation (&W)",
+   "uk": "Стрій фаланги (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleIPikemanPhalanxFormation",
+   "en": "The units form a Spear Wall\nUnits lose 33% speed, gain resistance to knockback, decelerate crush, and gain +40% armour",
+   "uk": "Загін вишиковується в стіну списів\nВтрачає 33% швидкості, отримує стійкість до відкидання й топтання та бонус +40% броні",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardCrossbowmen",
+   "en": "Requires Level 2 Uruk Pit\nStrong vs. Infantry\n\nRecruit time: 30s\nLevel 2-3: +7% Health, +7% Damage\nLevel 4-5: +6% Health, +6% Damage\n\nOutfitting them with crude crossbows, Saruman has minimized the training required for his Uruks to be deadly at range.",
+   "uk": "Необхідно: Яма уруків 2 рівня\nЕфективні проти піхоти\n\nЧас тренування: 30 сек.\n\n Кожен рівень підвищує показники\n Рівні 2-3: +7% здоров'я/+7% пошкоджень\nРівні 4-5: +6% здоров'я/+6% пошкоджень\n\nДавши урукам грубі арбалети, Саруман звів до мінімуму навчання, потрібне, щоб вони стали смертоносними на відстані.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardCrossbowmen",
+   "en": "Uruk-hai Crossbowmen (&R)",
+   "uk": "Урук-хаї арбалетники (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:HordeIsengardCrossbow",
+   "en": "Uruk-hai Crossbowmen",
+   "uk": "Урук-хаї арбалетники",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:IsengardCrossbowmen",
+   "en": "Ranged damage: 75\nUpgraded Ranged damage: 80 + 30(Fire)\nAttack range: 320\nMovement speed: 55",
+   "uk": "Пошкодження на відстані: 75 од.\nПокращене пошкодження на відстані: 80 од. + 30 од. (вогонь)\nДальність атаки: 320 од.\nШвидкість руху: 55 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeIsengardFireArrows",
+   "en": "Upgrades this horde with Fire Arrows\nSignificantly increases the damage done by arrows\nResearch time: 10s",
+   "uk": "Оснащує цей загін вогняними стрілами\nСуттєво збільшує пошкодження стріл\nЧас дослідження: 10 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:LackIsengardFireArrows",
+   "en": "Research upgrade at Armoury to enable this equipment\nWhen equipped, significantly increases the damage done by arrows",
+   "uk": "Придбайте покращення в «Зброярні», щоб відкрити це спорядження\nПісля оснащення значно збільшує пошкодження стріл",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardUrukHai",
+   "en": "Requires Level 2 Uruk Pit\nStrong vs. Pikemen\nAble to switch formation for improved defensive capabilities\n\nRecruit time: 30s\nLevel 2-3: +7% Health, +7% Damage\nLevel 4-5: +6% Health, +6% Damage\n\nCrossbreeding orcs with goblin-men, Saruman has raised an army with but a single purpose; to destroy the world of Men.",
+   "uk": "Необхідно: Яма уруків 2 рівня\nЕфективні проти пікінерів\nЗдатні змінювати стрій для підвищення оборони\n\nЧас тренування: 30 сек.\n\n Кожен рівень підвищує показники\n Рівні 2-3: +7% здоров'я/+7% пошкоджень\nРівні 4-5: +6% здоров'я/+6% пошкоджень\n\nСхрестивши орків з ґобліно-людьми, Саруман виростив військо з однією-єдиною метою — знищити світ людей.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardUrukHai",
+   "en": "Fighting Uruk-hai (&E)",
+   "uk": "Бойові урук-хаї (&E)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:HordeIsengardFighter",
+   "en": "Fighting Uruk-hai",
+   "uk": "Бойові урук-хаї",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardFighter",
+   "en": "Fighting Uruk-hai",
+   "uk": "Бойові урук-хаї",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:FightingUrukHai",
+   "en": "Melee damage: 100\nUpgraded melee damage: 200\nMovement speed: 55",
+   "uk": "Пошкодження в ближньому бою: 100 од.\nПокращене пошкодження в ближньому бою: 200 од.\nШвидкість руху: 55 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation",
+   "en": "+40% armour\n-33% speed",
+   "uk": "+40% броні\n-33% швидкості",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIsengardHeavyArmor",
+   "en": "Purchase Blackened Plate (&T)",
+   "uk": "Придбати для загону «Почорнілі обладунки» (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeIsengardHeavyArmor",
+   "en": "Upgrades this horde with Blackened Plate\nSignificantly reduces the amount of damage taken\nResearch time: 10s",
+   "uk": "Оснащує цей загін почорнілими обладунками\nСуттєво зменшує пошкодження\nЧас дослідження: 10 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:LackIsengardHeavyArmor",
+   "en": "Research upgrade at Armoury to enable this equipment\nWhen equipped, significantly reduces the amount of damage taken",
+   "uk": "Придбайте покращення в «Зброярні», щоб відкрити це спорядження\nПісля оснащення значно зменшує отримувані пошкодження",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:LackIsengardForgedBlades",
+   "en": "Research upgrade at Armoury to enable this equipment\nWhen equipped, increases the damage done by melee weapons",
+   "uk": "Придбайте покращення в «Зброярні», щоб відкрити це спорядження\nПісля оснащення збільшує пошкодження в ближньому бою",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardScoutHorde",
+   "en": "Strong vs. Infantry and Pikemen\n\nRecruit time: 30s\nLevel 2: +10% Health, +10% Damage\nLevel 3-4: +9% Health, +9% Damage\nLevel 5: +8% Health, +8% Damage\n\nSaruman sent forth a legion of scouts to track down the Ringbearer and bring back his prize.",
+   "uk": "Ефективні проти піхоти та пікінерів\n\nЧас тренування: 30 сек.\n\n Кожен рівень підвищує показники\n Рівень 2: +10% здоров'я/+10% пошкоджень\nРівні 3-4: +9% здоров'я/+9% пошкоджень\nРівень 5: +8% здоров'я/+8% пошкоджень\n\nСаруман вислав легіон розвідників, щоб вистежити Персненосця й принести йому здобич.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardScoutHorde",
+   "en": "Uruk-hai Scouts (&W)",
+   "uk": "Урук-хаї розвідники (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:HordeIsengardScout",
+   "en": "Uruk-hai Scouts",
+   "uk": "Урук-хаї розвідники",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:IsenScouts",
+   "en": "Melee damage: 60\nRanged damage: 55\nAttack range: 320\nMovement speed: 55",
+   "uk": "Пошкодження в ближньому бою: 60 од.\nПошкодження на відстані: 55 од.\nДальність атаки: 320 од.\nШвидкість руху: 55 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardScout",
+   "en": "Uruk-hai Scout",
+   "uk": "Урук-хай розвідник",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleLurtzWeapon",
+   "en": "Left click to toggle between bow and sword",
+   "uk": "Клікніть, щоб перемкнутися між луком і мечем",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:Bloodthirsty",
+   "en": "Bloodlust",
+   "uk": "Жага крові",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIsengardBloodthirsty",
+   "en": "Requires Level 3\nBloodlust grants Uruk-hai\n+25% damage\nPassive ability",
+   "uk": "Необхідно: Рівень 3\nБонус +25% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:UrukScoutHuntingArrows",
+   "en": "Hunting Arrows (&T)",
+   "uk": "Мисливські стріли (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUrukScoutHuntingArrows",
+   "en": "Requires Level 3\nFor 20 seconds, Uruk-hai Scouts' arrows slow targets by 33% for 5 seconds\nCan only be used with bows equipped\n\nRecharge time: 1m 30s\nLeft click to activate",
+   "uk": "Необхідно: Рівень 3\nНа 20 сек. стріли урук-хаїв розвідників сповільнюють ціль на 33% на 5 сек.\nДіє лише з луками в руках\n\nЧас відновлення: 1 хв. 30 сек.\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIsengardBasicTraining",
+   "en": "Purchase Banners of the White Hand (&V)",
+   "uk": "Придбати для загону «Стяги Білої Руки» (&V)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:LackIsengardBasicTraining",
+   "en": "Purchase Upgrade at Armoury to enable this equipment\nWhen equipped, increases this horde to Level 2",
+   "uk": "Придбайте покращення в «Зброярні», щоб відкрити це спорядження\nПісля оснащення підвищує рівень загону до 2",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardWildmanHorde",
+   "en": "Strong vs. Pikemen and Structures\nCan stealth near trees\n\nRecruit time: 20s\nLevel 2: +10% Health, +10% Damage\nLevel 3-4: +9% Health, +9% Damage\nLevel 5: +8% Health, +8% Damage\n\nDriven from their ancestral lands by the Rohirrim, the Wildmen of Dunland now believe they can get their revenge through the support of Saruman.",
+   "uk": "Ефективні проти пікінерів і споруд\nСтають невидимими поблизу дерев\n\nЧас тренування: 20 сек.\n\n Кожен рівень підвищує показники\n Рівень 2: +10% здоров'я/+10% пошкоджень\nРівні 3-4: +9% здоров'я/+9% пошкоджень\nРівень 5: +8% здоров'я/+8% пошкоджень\n\nВигнані рогіримами з земель предків, дикуни Дунланду тепер вірять, що з підтримкою Сарумана зможуть помститися.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardWildmanHorde",
+   "en": "Wildmen of Dunland (&W)",
+   "uk": "Дикуни з Дунланду (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:HordeWildman",
+   "en": "Wildmen of Dunland",
+   "uk": "Дикуни з Дунланду",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:IsengardWildman",
+   "en": "Melee damage: 40\nTorches damage: 40 + 12 (Fire)\nMovement speed: 55",
+   "uk": "Пошкодження в ближньому бою: 40 од.\nПошкодження смолоскипами: 40 од. + 12 од. (вогонь)\nШвидкість руху: 55 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardWildman",
+   "en": "Wildman of Dunland",
+   "uk": "Дикун з Дунланду",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityWildmanPillage",
+   "en": "Pillage",
+   "uk": "Мародерство",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityWildmanPillage",
+   "en": "Requires Level 2\nThe Wildmen steal resources whenever dealing damage to enemy structures\nPassive ability",
+   "uk": "Необхідно: Рівень 2\nДикуни крадуть ресурси щоразу, коли завдають пошкоджень ворожим спорудам\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIsengardTorches",
+   "en": "Purchase Torches (&C)",
+   "uk": "Придбати для загону «Смолоскипи» (&C)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeIsengardTorches",
+   "en": "Upgrades this horde with Torches\nIncreases the damage done by melee attacks\nResearch time: 10s",
+   "uk": "Оснащує цей загін смолоскипами\nЗбільшує пошкодження в ближньому бою\nЧас дослідження: 10 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "ToolTip:LackIsengardTorches",
+   "en": "Research upgrade at Armoury to enable this equipment\nWhen equipped, increases the damage done by melee attacks",
+   "uk": "Придбайте покращення в «Зброярні», щоб відкрити це спорядження\nПісля оснащення збільшує пошкодження в ближньому бою",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIsengardBasicTrainingWildman",
+   "en": "Purchase Elect Hersir (&V)",
+   "uk": "Придбати для загону «Обраний герсир» (&V)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardWildmenSpearHorde",
+   "en": "Strong vs. Cavalry and Heroes\nCan stealth near trees\n\nRecruit time: 20s\nLevel 2: +10% Health, +10% Damage\nLevel 3-4: +9% Health, +9% Damage\nLevel 5: +8% Health, +8% Damage\n\nFearing the strawheads' mastery of horsemanship, a horde of Dunlendings rarely lacked an abundance of spears.",
+   "uk": "Ефективні проти кавалерії та героїв\nМожуть ховатися поблизу дерев\n\nЧас тренування: 20 сек.\n\n Кожен рівень підвищує показники\n Рівень 2: +10% здоров'я/+10% пошкоджень\nРівні 3-4: +9% здоров'я/+9% пошкоджень\nРівень 5: +8% здоров'я/+8% пошкоджень\n\nБоячись вправності соломоголових у верховій їзді, дунландці рідко відчували брак списів.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardWildmenSpearHorde",
+   "en": "Wildmen Spearmen (&E)",
+   "uk": "Дикуни-списоносці (&E)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:HordeIsengardWildmenSpear",
+   "en": "Wildmen Spearmen",
+   "uk": "Дикуни-списоносці",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:IsengardWildmenSpear",
+   "en": "Melee damage: 40\nMovement speed: 55",
+   "uk": "Пошкодження в ближньому бою: 40 од.\nШвидкість руху: 55 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardWildmenSpear",
+   "en": "Spearman",
+   "uk": "Списоносець",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardWildmanAxeHorde",
+   "en": "Requires Level 2 Clan Steading\nCan stealth near trees\nStrong at range\n\nRecruit time: 20s\nLevel 2: +10% Health, +10% Damage\nLevel 3-4: +9% Health, +9% Damage\nLevel 5: +8% Health, +8% Damage\n\nThough Dunlendings often considered the art of axe-throwing as more of a sport, some skilled warriors still employed it in battle.",
+   "uk": "Необхідно: Стійбище 2 рівня\nМожуть ховатися поблизу дерев\nЕфективні на відстані\n\nЧас тренування: 20 сек.\n\n Кожен рівень підвищує показники\n Рівень 2: +10% здоров'я/+10% пошкоджень\nРівні 3-4: +9% здоров'я/+9% пошкоджень\nРівень 5: +8% здоров'я/+8% пошкоджень\n\nХоча дунландці здебільшого вважали метання сокир забавою, деякі вправні воїни застосовували їх у бою.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardWildmanAxeHorde",
+   "en": "Wildmen Skirmishers (&R)",
+   "uk": "Дикуни-метальники (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardWildmanAxeHorde",
+   "en": "Wildmen Skirmishers",
+   "uk": "Дикуни-метальники",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:IsengardWildmanAxe",
+   "en": "Ranged damage: 38\nMovement speed: 55",
+   "uk": "Пошкодження на відстані: 38 од.\nШвидкість руху: 55 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardWildmanAxe",
+   "en": "Wildmen Skirmisher",
+   "uk": "Дикун-метальник",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipIsengardTavern",
+   "en": "Trains Wildmen units\nBuild time: 30s",
+   "uk": "Тренує загони дикунів\nЧас будівництва: 30 сек.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeIsengardTavernLevel2",
+   "en": "Upgrade Clan Steading to Level 2 (&A)",
+   "uk": "Покращити стійбище до 2-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeIsengardTavernLevel2",
+   "en": "Allows training of Wildmen Skirmishers\nResearch time: 30s\n+1500 Health\n+10% faster build speed",
+   "uk": "Дозволяє тренувати дикунів-метальників\nЧас дослідження: 30 сек.\n+1500 од. міцності\n+10% до швидкості тренування",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeIsengardTavernLevel3",
+   "en": "Upgrade Clan Steading to Level 3 (&A)",
+   "uk": "Покращити стійбище до 3-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeIsengardTavernLevel3",
+   "en": "Adds defensive arrow tower\nResearch time: 60s\n+1500 Health\n+25% faster build speed",
+   "uk": "Додає до споруди захисну вежу\nЧас дослідження: 60 сек.\n+1500 од. міцності\n+25% до швидкості тренування",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:IsengardSharkuRevive",
+   "en": "Revive the fallen Hero, Sharku",
+   "uk": "Відродити полеглого в бою Шарку",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardSharku",
+   "en": "Sharku",
+   "uk": "Шарку",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:Sharku",
+   "en": "Splash radius: 7\nMovement speed: 100",
+   "uk": "Радіус ураження: 7 од.\nШвидкість руху: 100 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:BloodHunt",
+   "en": "Blood Hunt",
+   "uk": "Криваве полювання",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:SendIntheWargs",
+   "en": "Send in the Wargs (&R)",
+   "uk": "Натравити варґів (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:SharkuManEater",
+   "en": "Man Eater (&C)",
+   "uk": "Людожер (&C)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSummonBigWarg",
+   "en": "Requires Level 8\nSummons the wild Warg Matriarch to the battlefield\nShe is hostile to all but Sharku\n\nRecharge time: 5m\nLeft click icon to activate",
+   "uk": "Необхідно: Рівень 8\nПрикликає на поле бою матріарха варґів\nВона ворожа до всіх, крім Шарку\n\nЧас відновлення: 5 хв.\nКлікніть на іконку, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardUgluk",
+   "en": "Uglúk",
+   "uk": "Углук",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:IsengardUglukRevive",
+   "en": "Revive the fallen Hero, Uglúk",
+   "uk": "Відродити полеглого в бою Углука",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:IsengardUglukHuntfortheRing",
+   "en": "Hunt for the Ring (&R)",
+   "uk": "Полювання на Перстень (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:IsengardUglukHeadhunter",
+   "en": "Headhunter (&T)",
+   "uk": "Мисливець за головами (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:IsengardUglukReinforcements",
+   "en": "Reinforcements from Saruman (&C)",
+   "uk": "Підкріплення від Сарумана (&C)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardWulfgar",
+   "en": "Wulfgar",
+   "uk": "Вульфґар",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:Wulfgar",
+   "en": "Movement speed: 55\nMovement speed (Mounted): 100",
+   "uk": "Швидкість руху: 55 од.\nШвидкість руху (верхи): 100 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:IsengardWulfgarRevive",
+   "en": "Revive the fallen Chieftain, Wulfgar",
+   "uk": "Відродити полеглого в бою Вульфґара",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:WulfgarSubjugation",
+   "en": "Dunlending Subjugation",
+   "uk": "Підкорення дунландців",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:WulfgarMount",
+   "en": "Mount Svadilfari / Dismount (&R)",
+   "uk": "Осідлати Свадильфарі / Спішитися (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:KingoftheHills",
+   "en": "King of the Hills (&V)",
+   "uk": "Король пагорбів (&V)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardLurtz",
+   "en": "Lurtz",
+   "uk": "Лурц",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:Lurtz",
+   "en": "Bow range: 320\nMovement speed: 55",
+   "uk": "Дальність лука: 320 од.\nШвидкість руху: 55 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:IsengardLurtzRevive",
+   "en": "Revive the fallen Hero, Lurtz",
+   "uk": "Відродити полеглого в бою Лурца",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToggleLurtzWeapon",
+   "en": "Toggle Weapon (&W)",
+   "uk": "Змінити зброю (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToggleUrukScoutWeapon",
+   "en": "Toggle Weapon (&W)",
+   "uk": "Змінити зброю (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:LurtzLeadership",
+   "en": "Leader of the Hunt",
+   "uk": "Головний на полюванні",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityLurtzCarnage",
+   "en": "Relentless Warrior (&T)",
+   "uk": "Безжальний воїн (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage",
+   "en": "Requires Level 3\nLurtz gains +50% damage, +25% armour and deals splash damage in a radius of 10 for 20 seconds\n\nWith each level gained, damage is increased by 25% up to a maximum of +150% at level 7\nCan only use with sword equipped\n\nRecharge time: 2m\nLeft click to activate",
+   "uk": "Необхідно: Рівень 3\nЛурц на 20 сек. отримує бонус +50% до пошкоджень, +25% броні й завдає пошкоджень по площі в радіусі 10\n\nЗ кожним рівнем пошкодження зростають на 25%, аж до +150% на 7 рівні\nДоступно лише з мечем\n\nЧас відновлення: 2 хв.\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityLurtzCripple",
+   "en": "Cripple (&C)",
+   "uk": "Покалічити (&C)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:UrukChief",
+   "en": "Uruk Chief",
+   "uk": "Ватажок уруків",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:IsengardSaruman",
+   "en": "Saruman",
+   "uk": "Саруман",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "TOOLTIP:SARUMAN",
+   "en": "Splash radius: 10\nKnockback radius: 10\nMovement speed: 55",
+   "uk": "Радіус ураження: 10 од.\nРадіус відкидання: 10 од.\nШвидкість руху: 55 од.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:IsengardSarumanRevive",
+   "en": "Revive the fallen Hero, Saruman",
+   "uk": "Відродити полеглого в бою Сарумана",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:SarumanWizardBlast",
+   "en": "Lord of Orthanc (&W)",
+   "uk": "Володар Ортханку (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilitySarumanFireball",
+   "en": "Fireball (&R)",
+   "uk": "Вогняна куля (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilitySarumanFireball",
+   "en": "Requires Level 3\nThrows a ball of energy\n\nRecharge time: 1m 30s\nLeft click icon then left click on target",
+   "uk": "Необхідно: Рівень 3\nМагічна вогняна куля, що підпалює та відкидає ворогів\n\nЧас відновлення: 1 хв. 30 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:SpeechCraft",
+   "en": "Speech Craft (&T)",
+   "uk": "Мистецтво переконання (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:SarumanThunderBolt",
+   "en": "Redhorn's Wrath (&C)",
+   "uk": "Гнів Карадрасу (&C)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:SarumanDominate",
+   "en": "Voice of Curunír (&V)",
+   "uk": "Голос Куруніра (&V)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilitySarumanImprovedBlast",
+   "en": "Saruman of Many Colours (&W)",
+   "uk": "Саруман Різнобарвний (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:SarumanRuinousWrath",
+   "en": "Ruinous Wrath (&R)",
+   "uk": "Нищівний гнів (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSarumanRuinousWrath",
+   "en": "Requires Level 3\nFlame erupts from the ground beneath the targeted enemies for 15 seconds\nLeft click icon then left click on target area",
+   "uk": "Необхідно: Рівень 3\nПід обраними ворогами на 15 сек. з-під землі виривається полум'я\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:DarkEloquence",
+   "en": "Dark Eloquence (&T)",
+   "uk": "Темне красномовство (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:SarumanStormofOrthanc",
+   "en": "Storm of Orthanc (&C)",
+   "uk": "Буря Ортханку (&C)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:SarumanDominateRing",
+   "en": "The Ruling Ring (&V)",
+   "uk": "Перстень Всевладдя (&V)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDominateRing",
+   "en": "Requires Level 10\nPermanently gain control of targeted enemies\nLeft click icon then left click on target enemies",
+   "uk": "Необхідно: Рівень 10\nНазавжди бере під контроль обраних ворогів\nКлікніть на іконку, потім оберіть ворогів",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  }
+ ]
+}

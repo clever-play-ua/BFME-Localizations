@@ -1,0 +1,97 @@
+{
+ "meta": {
+  "hero": "Thráin the Broken",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Guldur"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "GuldurThrain"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:GuldurThrain",
+   "type": "Ім'я",
+   "en": "Thráin the Broken",
+   "ru": "Траин Сломленный",
+   "uk_ai": "Траїн Зламаний",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ThrainDiminished",
+   "type": "Кнопка",
+   "en": "Diminished (&W)",
+   "ru": "Униженный (&W)",
+   "uk_ai": "Послаблений (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipThrainDiminished",
+   "type": "Підказка",
+   "en": "Thráin is but a thin shadow of his former self,\nand is able to skulk about unnoticed\nWhen activated, Thráin becomes stealthed and can neither attack nor be attacked for 30 seconds\nPassive ability",
+   "ru": "Траин - лишь бледная тень самого себя, он способен красться незаметно. После активации, Траин становится невидимым и не может ни атаковать, ни быть атакованным в течение 30 секунд\\nПассивная способность",
+   "uk_ai": "Траїн стає блідою тінню колишнього себе,\nй здатен непомітно крастися\nПісля активації Траїн на 30 сек. стає невидимим: його не можна атакувати, проте він і сам не може атакувати\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ThrainLeadership",
+   "type": "Кнопка",
+   "en": "Captive Host",
+   "ru": "Воинство пленников (&R)",
+   "uk_ai": "Полонене військо",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipThrainLeadership",
+   "type": "Підказка",
+   "en": "Requires Level 2\nModifier Type: Leadership\nBroken Rabble near Thráin gain \n+50% experience and +35% armour\nPassive ability",
+   "ru": "Требуется уровень 2\\nТип модификатора: Лидерство\\nСломленное отребье рядом с Траином получает\\n+35% брони и набирает опыт на +50% быстрее\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 2\nТип ефекту: Лідерство\nЗломлена наволоч поряд із Траїном отримує бонус\n+35% броні й на 50% швидше набирає досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ThrainNoEscape",
+   "type": "Кнопка",
+   "en": "No Escape",
+   "ru": "Некуда бежать",
+   "uk_ai": "Не втечеш",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipThrainNoEscape",
+   "type": "Підказка",
+   "en": "Requires Level 5\nWhen Thráin reaches low health he becomes invulnerable but cannot attack for 15 seconds\nCannot be triggered again for 60 seconds\nPassive ability",
+   "ru": "Требуется уровень 5\\nКогда Траин почти умирает, он становится неуязвимым и теряет способность атаковать в течение 15 секунд\\nПовторное срабатывание возможно не чаще чем раз в 60 секунд\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 5\nКоли здоров'я Траїна низьке, він на 15 сек. стає невразливим, але не може атакувати\nПовторно спрацьовує не раніше ніж через 60 сек.\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ThrainExperience",
+   "type": "Кнопка",
+   "en": "Dark Memories (&C)",
+   "ru": "Темные воспоминания (&C)",
+   "uk_ai": "Темні спогади (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipThrainExperience",
+   "type": "Підказка",
+   "en": "Requires Level 7\n Targeted Broken Rabble gain large experience \n Left click then left click on target units",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 7\nМиттєво наділяє зломлену наволоч великою кількістю досвіду\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

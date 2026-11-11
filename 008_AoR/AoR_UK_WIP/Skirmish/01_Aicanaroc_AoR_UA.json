@@ -1,0 +1,88 @@
+{
+ "meta": {
+  "hero": "Aicanaroc",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Harad"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "HaradAicanaroc"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:HaradAicanaroc",
+   "type": "Ім'я",
+   "en": "Aicanaroc",
+   "ru": "Айканарок",
+   "uk_ai": "Айканарок",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MonstrousShadow",
+   "type": "Кнопка",
+   "en": "Monstrous Shadow",
+   "ru": "Чудовищная тень",
+   "uk_ai": "Жахлива тінь",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMonstrousShadow",
+   "type": "Підказка",
+   "en": "Modifier Type: Spell \n Nearby friendly units gain +300% armour against magic and elemental damage\nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nHaradrim beneath the shadow of the Aicanaroc get SOME SORT OF BONUS - USES PLACEHOLDER ATTRIBUTE MODIFIER AND RANGE\\nPassive ability",
+   "uk_ai": "Тип ефекту: Заклинання\nСоюзні загони поблизу отримують бонус +300% броні проти пошкоджень від магії та стихій\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GlisteningDown",
+   "type": "Кнопка",
+   "en": "Glistening Down",
+   "ru": "",
+   "uk_ai": "Блискуче пір'я",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGlisteningDown",
+   "type": "Підказка",
+   "en": "The Aicanaroc periodically drops glistening feathers\nHaradwaith units can pick up these feathers to permanently gain +25% health and resistance to fear and terror\nPassive ability",
+   "ru": "",
+   "uk_ai": "Айканарок час від часу скидає блискуче пір'я\nЗагони Харадвайту можуть підібрати це пір'я й назавжди отримати бонус +25% здоров'я та стійкість до страху й жаху\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityAicanarocStun",
+   "type": "Кнопка",
+   "en": "Astonishing Plumage (&T)",
+   "ru": "",
+   "uk_ai": "Дивовижне оперення (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityAicanarocStun",
+   "type": "Підказка",
+   "en": "Pins enemy hero in place for a short time\nLeft click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Ненадовго знерухомлює ворожого героя\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:Screech",
+   "type": "Кнопка",
+   "en": "Screech (&C)",
+   "ru": "Визг (&C)",
+   "uk_ai": "Пронизливий крик (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

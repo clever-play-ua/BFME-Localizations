@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "hero": "Lord Duinhir",
+  "uk_name": "Лорд Дуїнгір",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "MinasTirithOuter",
+   "MinasTirithInner"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignDuinhir"
+   ],
+   "битва": []
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:CampaignDuinhir",
+   "type": "Ім'я",
+   "en": "Lord Duinhir",
+   "ru": "",
+   "uk_ai": "Лорд Дуїнгір",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DuinhirLeadership",
+   "type": "Кнопка",
+   "en": "Lord of Morthond",
+   "ru": "",
+   "uk_ai": "Володар Мортонду",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipDuinhirLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nAllies near Lord Duinhir gain +25% Armour\nStacks with Buffs and Spells\nPassive ability",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзники поряд із лордом Дуінгіром отримують бонус +25% броні\nПоєднується з посиленнями та заклинаннями\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DuinhirRangedTactics",
+   "type": "Кнопка",
+   "en": "Ranged Tactics (&R)",
+   "ru": "",
+   "uk_ai": "Тактика стрілків (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDuinhirRangedTactics",
+   "type": "Підказка",
+   "en": "Modifier Type: Spell \n Lord Duinhir is a seasoned archer commander\nTargeted archer units gain +15% damage and +15% range for 30 seconds\nLeft click icon then left click on target units",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Заклинання \n Лорд Дуінгір — досвідчений командир лучників\nВказані загони лучників отримують бонус +15% до пошкоджень і +15% дальності на 30 сек.\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DuinhirVeteranSwordsman",
+   "type": "Кнопка",
+   "en": "Veteran Swordsman (&T)",
+   "ru": "",
+   "uk_ai": "Досвідчений мечник (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDuinhirVeteranSwordsman",
+   "type": "Підказка",
+   "en": "Lord Duinhir expertly wields his sword, knocking back enemy units and dealing damage over time for 30 seconds\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Лорд Дуінгір вправно орудує мечем: 30 сек. він відкидає ворожі загони й завдає їм поступових пошкоджень\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

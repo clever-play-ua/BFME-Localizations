@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "hero": "Oropher",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "LastAlliance"
+  ],
+  "alternate factions": [
+   "last alliance"
+  ],
+  "templates": [
+   "SecondAgeOropherAliveAdventure"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:ElvenOropherWotR",
+   "type": "Ім'я",
+   "en": "Oropher",
+   "ru": "Орофер",
+   "uk_ai": "Орофер",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:OropherKingofEryn_LAA",
+   "type": "Кнопка",
+   "en": "King of Eryn Galen",
+   "ru": "Король Эрин Гален",
+   "uk_ai": "Король Ерин-Ґалена",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipOropherKingofEryn_LAA",
+   "type": "Підказка",
+   "en": "Nearby allied units are stealthed when not in combat\n Passive ability",
+   "ru": "Ближайшие союзники скрыты, находясь вне боя\\nПассивная способность",
+   "uk_ai": "Союзні загони поблизу стають невидимі, коли не б'ються\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:OropherDoriath",
+   "type": "Кнопка",
+   "en": "Armaments of Doriath (&R)",
+   "ru": "Вооружение Дориата (&R)",
+   "uk_ai": "Обладунки Доріату (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipOropherDoriath",
+   "type": "Підказка",
+   "en": "Requires Level 3\nGrants Forged Blades to units in radius\n Left click on icon then left click on target own units",
+   "ru": "Требуется уровень 3\\nДарует союзным отрядам в радиусе действия Кованые клинки\\nЩелкните левой кнопкой мыши на значок, затем на целевой отряд",
+   "uk_ai": "Необхідно: Рівень 3\nДає загонам у радіусі дії ковані клинки\nКлікніть на іконку, потім оберіть свої загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:OropherRecklessCharge_LAS",
+   "type": "Кнопка",
+   "en": "Reckless Charge (&R)",
+   "ru": "Безрассудная атака (&R)",
+   "uk_ai": "Безрозсудна атака (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipOropherRecklessCharge_LAS",
+   "type": "Підказка",
+   "en": "Requires Level 6 \n Modifier Type: Spell \n King Oropher and nearby friendly units gain +75% damage but lose -25% armour and gain no experience for 20 seconds \nLeft click to activate",
+   "ru": "Требуется уровень 6\\nТип модификатора: Заклинание\\nКороль Орофер и ближайшие дружественные отряды наносят +75% урона, теряют -25% брони и не получают опыта в течение 20 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 6\nТип ефекту: Заклинання\nКороль Орофер і союзні загони поблизу на 20 сек. отримують бонус +75% до пошкоджень, але втрачають 25% броні й не набирають досвід\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:OropherLastStand",
+   "type": "Кнопка",
+   "en": "Last Stand (&C)",
+   "ru": "Последний бой (&C)",
+   "uk_ai": "Останній бій (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipOropherLastStand",
+   "type": "Підказка",
+   "en": "Required: Rank 8 \n Creates a circle around Oropher\nEnemies suffer damage over time and are slowed by 15% \n Lasts 60 seconds \n Left click to activate",
+   "ru": "Требуется уровень 8\\nОрофер создает круг вокруг себя\\nВраги в радиусе действия круга получают урон с течением времени и теряю -15% скорости передвижения\\nДлится 60 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 8\nСтворює коло навколо Орофера\nВороги поступово отримують пошкодження й сповільнюються на 15%\nТриває 60 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ProudHeir",
+   "type": "Кнопка",
+   "en": "Proud Heir (&V)",
+   "ru": "Гордый наследник (&V)",
+   "uk_ai": "Гордий спадкоємець (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipProudHeir",
+   "type": "Підказка",
+   "en": "Requires Level 10\nTemporarily summons Thranduil Oropherion to the battlefield\nLeft click to activate",
+   "ru": "Требуется уровень 10\\nНа поле боя временно призывается Трандуил Ороферион\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10\nТимчасово прикликає на поле бою Трандуїла Орофериона\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

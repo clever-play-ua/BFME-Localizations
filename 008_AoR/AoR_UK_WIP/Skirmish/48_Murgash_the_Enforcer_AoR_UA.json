@@ -1,0 +1,81 @@
+{
+ "meta": {
+  "hero": "Murgash the Enforcer",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Morgul"
+  ],
+  "alternate factions": [
+   "morgul"
+  ],
+  "templates": [
+   "MordorMurgash"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:MordorMurgash",
+   "type": "Ім'я",
+   "en": "Murgash the Enforcer",
+   "ru": "Мургаш Костолом",
+   "uk_ai": "Мурґаш Кістколам",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MurgashEnforcer",
+   "type": "Кнопка",
+   "en": "Enforcer of the Dead City (&W)",
+   "ru": "Костолом Мертвого города (&W)",
+   "uk_ai": "Кістколам Мертвого міста (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMurgashEnforcer",
+   "type": "Підказка",
+   "en": "Towers of Morgul and Morgul Archers near Murgash gain +15% vision, +15% range, and +15% damage\nPassive ability\n\nAt rank 3, spawns a temporary horde of Morgul Blades when used on an allied or enemy building\nLeft click icon then left click on target building",
+   "ru": "Башни Моргула и лучники Моргула рядом с Мургашом наносят +15% урона, получают +15% обзора и +15% дальности атаки\\nПассивная способность\\n\\nНа уровне 3, при использовании на союзной или вражеской постройке появляется временный отряд мечников Моргула\\nЩелкните левой кнопкой мыши на значок, затем на целевое строение",
+   "uk_ai": "Морґульські вежі й морґульські лучники поряд із Мурґашем отримують бонус +15% дальності огляду, +15% дальності атаки й +15% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nНа 3 рівні, якщо застосувати до союзної чи ворожої споруди, тимчасово прикликає орду морґульських мечників\nКлікніть на іконку, потім оберіть споруду",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MurgashLoyalty",
+   "type": "Кнопка",
+   "en": "Loyalty to the Black Captain (&R)",
+   "ru": "Лояльность Черному капитану (&R)",
+   "uk_ai": "Вірність Чорному капітанові (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMurgashLoyalty",
+   "type": "Підказка",
+   "en": "Requires Level 5\nNearby Morgul Blades gain +25% armour\nPassive ability\nCan be activated to grant +25% damage to nearby Morgul Blades\nas well as splash and knockback damage to Murgash for 20 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 5\\nБлижайшие мечники Моргула получают +25% брони\\nПассивная способность\\nПосле активации, ближайшие мечники Моргула наносят +25% урона, а Мургаш получает возможность отбрасывать врагов своими атаками в течение 20 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nМорґульські мечники поблизу отримують бонус +25% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~\nМожна активувати, щоб на 20 сек. дати морґульським мечникам поблизу бонус +25% до пошкоджень,\nа Мурґаш завдаватиме пошкоджень по площі й відкидатиме ворогів своїми ударами\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MurgashPlunderous",
+   "type": "Кнопка",
+   "en": "Plunderous Scum",
+   "ru": "Мародеры",
+   "uk_ai": "Мародерська наволоч",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMurgashPlunderous",
+   "type": "Підказка",
+   "en": "Requires Level 7\nMurgash and nearby Morgul Orcs steal resources from slain foes\nPassive ability",
+   "ru": "Требуется уровень 7\\nМургаш и ближайшие орки Моргула крадут ресурсы у убитых врагов\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 7\nМурґаш і морґульські орки поблизу забирають ресурси з вбитих ворогів\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

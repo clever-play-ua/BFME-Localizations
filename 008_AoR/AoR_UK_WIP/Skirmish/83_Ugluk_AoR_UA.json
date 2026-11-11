@@ -1,0 +1,100 @@
+{
+ "meta": {
+  "hero": "Uglúk",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Isengard"
+  ],
+  "alternate factions": [
+   "white hand"
+  ],
+  "templates": [
+   "IsengardUgluk",
+   "IsengardUgluk_WhiteHand"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:IsengardUgluk",
+   "type": "Ім'я",
+   "en": "Uglúk",
+   "ru": "Углук",
+   "uk_ai": "Углук",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:IsengardUglukOrcMedicine",
+   "type": "Кнопка",
+   "en": "Orcish Medicine (&W)",
+   "ru": "Орочья медицина (&W)",
+   "uk_ai": "Ороча медицина (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipIsengardUglukOrcMedicine",
+   "type": "Підказка",
+   "en": "Heals nearby friendly heroes and Uruk-hai units \n \n Recharge time: 2m \n Left click to activate",
+   "ru": "Исцеляет ближайших героев и уруков\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Зцілює союзних героїв і урук-хаїв поблизу\n\nЧас відновлення: 2 хв.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:IsengardUglukHuntfortheRing",
+   "type": "Кнопка",
+   "en": "Hunt for the Ring (&R)",
+   "ru": "Охота за кольцом (&R)",
+   "uk_ai": "Полювання на Перстень (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipIsengardUglukHuntfortheRing",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Modifier Type: Spell \n Uglúk, nearby infantry and heroes gain a 15% speed bonus, a 50% experience bonus and resistance to fear and terror for 20 seconds\n \n Recharge time: 4m \n Left click to activate",
+   "ru": "Требуется уровень 3\\nТип модификатора: Заклинание\\nУглук и ближайшие союзники получают +15% скорости передвижения, набирают опыт на +50% быстрее и становятся невосприимчивыми к страху и ужасу в течение 20 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Заклинання\nУглук і піхота та герої поблизу на 20 сек. отримують бонус +15% швидкості, на 50% швидше набирають досвід і отримують стійкість до страху та жаху\n\nЧас відновлення: 4 хв.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:IsengardUglukHeadhunter",
+   "type": "Кнопка",
+   "en": "Headhunter (&T)",
+   "ru": "Охотники за головами (&T)",
+   "uk_ai": "Мисливець за головами (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIsengardUglukHeadhunter",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Modifier Type: Spell \n Nearby Uruk-hai gain +75% damage and Uglúk regains health per attack for 20 seconds\n \n Recharge time: 4m \nLeft click icon to activate",
+   "ru": "Требуется уровень 5\\nТип модификатора: Заклинание\\nБлижайшие урук-хай наносят +75% урона, а Углук восстанавливает здоровье, атакуя врагов в течение 20 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Заклинання\nНа 20 сек. урук-хаї поблизу отримують бонус +75% до пошкоджень, а Углук відновлює здоров'я з кожною атакою\n\nЧас відновлення: 4 хв.\nКлікніть на іконку, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:IsengardUglukReinforcements",
+   "type": "Кнопка",
+   "en": "Reinforcements from Saruman (&C)",
+   "ru": "Подкрепление из Ортханка (&C)",
+   "uk_ai": "Підкріплення від Сарумана (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIsengardUglukReinforcements",
+   "type": "Підказка",
+   "en": "Requires Level 8 \n Summons two hordes of Uruk Raiders for 60 seconds\n \nAt level 10, also summons Mauhúr\n \n Recharge time: 3m \n Left click icon then left click on pathable location",
+   "ru": "Требуется уровень 8\\nПризываются два отряда уруков-налетчиков в тяжелой броне\\nНа уровне 10, также призывается Маухур\\nЩелкните левой кнопкой мыши на значок, затем доступное местоположение",
+   "uk_ai": "Необхідно: Рівень 8\nПрикликає 2 орди уруків-налітників на 60 сек.\n\nНа 10 рівні також прикликає Маугура\n\nЧас відновлення: 3 хв.\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

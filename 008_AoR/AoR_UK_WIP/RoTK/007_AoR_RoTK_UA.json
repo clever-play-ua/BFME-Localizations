@@ -1,0 +1,571 @@
+{
+ "meta": {
+  "mission": "007_Defence of the White City",
+  "campaign": "Return of the King (AoR 10.0)",
+  "count": 56,
+  "fields": "var — мітка; type — Назва/Ціль/Діалог/Репліка/Інше/Кнопка; ru — RU 9.3.1, якщо є; uk_ai — поточний текст (правте прямо тут); status — вичитано / чернетка AI; uk — порожньо",
+  "notes": "\\n — перенос рядка, кількість має збігатися з EN; гарячі клавіші (&W) латиницею. Здібності героїв винесені в папку heroes."
+ },
+ "strings": [
+  {
+   "var": "CampaignName:MinasTirithInner",
+   "mission": "007_Defence of the White City",
+   "type": "Назва",
+   "en": "Defence of the White City",
+   "ru": "",
+   "uk_ai": "Оборона Білого Міста",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective01_MinasInner",
+   "mission": "007_Defence of the White City",
+   "type": "Ціль",
+   "en": "Defend the second level.",
+   "ru": "",
+   "uk_ai": "Захистіть другий ярус.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective02_MinasInner",
+   "mission": "007_Defence of the White City",
+   "type": "Ціль",
+   "en": "Defeat the Witch-king.",
+   "ru": "",
+   "uk_ai": "Здолайте Короля-чаклуна.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective03_MinasInner",
+   "mission": "007_Defence of the White City",
+   "type": "Ціль",
+   "en": "Keep at least thirty civilians alive.",
+   "ru": "",
+   "uk_ai": "Збережіть живими щонайменше тридцять містян.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf377",
+   "mission": "007_Defence of the White City",
+   "type": "Діалог",
+   "en": "Gandalf: You cannot enter here. Go back to the abyss prepared for you! Go back!\nFall into the nothingness that awaits you and your Master. Go!",
+   "ru": "",
+   "uk_ai": "Ґендальф: Тобі сюди не ввійти. Повертайся в безодню, що тобі вготована! Геть!\nПровалися в порожнечу, що чекає на тебе й твого Господаря. Геть!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_witchking002",
+   "mission": "007_Defence of the White City",
+   "type": "Діалог",
+   "en": "Witch-king: Do you not know death when you see it, old man?",
+   "ru": "",
+   "uk_ai": "Король-чаклун: Хіба ти не впізнаєш смерті, коли бачиш її, старий?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_witchking003",
+   "mission": "007_Defence of the White City",
+   "type": "Діалог",
+   "en": "Witch-king: This is my hour!",
+   "ru": "",
+   "uk_ai": "Король-чаклун: Це моя година!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_witchking004",
+   "mission": "007_Defence of the White City",
+   "type": "Діалог",
+   "en": "Witch-king: You have failed.",
+   "ru": "",
+   "uk_ai": "Король-чаклун: Ти зазнав поразки.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_witchking005",
+   "mission": "007_Defence of the White City",
+   "type": "Діалог",
+   "en": "Witch-king: The world of men will fall.",
+   "ru": "",
+   "uk_ai": "Король-чаклун: Світ людей упаде.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf389",
+   "mission": "007_Defence of the White City",
+   "type": "Діалог",
+   "en": "Gandalf: Victory is slipping from your grasp even as you stretch out your hand to seize it!",
+   "ru": "",
+   "uk_ai": "Ґендальф: Перемога вислизає з твоїх рук саме тоді, коли ти простягаєш руку, щоб її схопити!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_witchking016",
+   "mission": "007_Defence of the White City",
+   "type": "Діалог",
+   "en": "Witch-king: My arm is long, and you are but an aged conjurer.\nI have many weapons at my disposal.",
+   "ru": "",
+   "uk_ai": "Король-чаклун: Рука в мене довга, а ти лише старий фокусник.\nУ моєму розпорядженні безліч знарядь.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin048",
+   "mission": "007_Defence of the White City",
+   "type": "Діалог",
+   "en": "Pippin: Gandalf!",
+   "ru": "",
+   "uk_ai": "Піпін: Ґендальфе!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf205",
+   "mission": "007_Defence of the White City",
+   "type": "Діалог",
+   "en": "Gandalf: Peregrin Took!",
+   "ru": "",
+   "uk_ai": "Ґендальф: Переґріне Туку!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf206",
+   "mission": "007_Defence of the White City",
+   "type": "Діалог",
+   "en": "Gandalf: Go back to the citadel!",
+   "ru": "",
+   "uk_ai": "Ґендальф: Повертайся до цитаделі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf207",
+   "mission": "007_Defence of the White City",
+   "type": "Діалог",
+   "en": "Gandalf: This is no place for a hobbit.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Гобітові тут не місце.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin050",
+   "mission": "007_Defence of the White City",
+   "type": "Діалог",
+   "en": "Pippin: Denethor has lost his mind!",
+   "ru": "",
+   "uk_ai": "Піпін: Денетор збожеволів!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin051",
+   "mission": "007_Defence of the White City",
+   "type": "Діалог",
+   "en": "Pippin: He's burning Faramir alive!",
+   "ru": "",
+   "uk_ai": "Піпін: Він спалює Фараміра живцем!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgmoria_gandalf032",
+   "mission": "007_Defence of the White City",
+   "type": "Діалог",
+   "en": "Gandalf: Hurry!",
+   "ru": "",
+   "uk_ai": "Ґендальф: Швидше!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:1STWAVETIMER",
+   "mission": "007_Defence of the White City",
+   "type": "Інше",
+   "en": "Time Remaining:",
+   "ru": "Осталось:",
+   "uk_ai": "Лишилося часу:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Counter_Civilians_Alive",
+   "mission": "007_Defence of the White City",
+   "type": "Інше",
+   "en": "Civilians left alive:",
+   "ru": "",
+   "uk_ai": "Живих містян:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective01_MinasInner",
+   "mission": "007_Defence of the White City",
+   "type": "Ціль",
+   "en": "Placeholder.",
+   "ru": "",
+   "uk_ai": "Заглушка.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective02_MinasInner",
+   "mission": "007_Defence of the White City",
+   "type": "Ціль",
+   "en": "Placeholder.",
+   "ru": "",
+   "uk_ai": "Заглушка.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective03_MinasInner",
+   "mission": "007_Defence of the White City",
+   "type": "Ціль",
+   "en": "Placeholder.",
+   "ru": "",
+   "uk_ai": "Заглушка.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf378",
+   "mission": "007_Defence of the White City",
+   "type": "Репліка",
+   "en": "I am a servant of the Secret Fire!",
+   "ru": "",
+   "uk_ai": "Я слуга Таємного Вогню!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf379",
+   "mission": "007_Defence of the White City",
+   "type": "Репліка",
+   "en": "Your fell sorcery will not avail you!",
+   "ru": "",
+   "uk_ai": "Твоє лихе чаклунство тобі не допоможе!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf380",
+   "mission": "007_Defence of the White City",
+   "type": "Репліка",
+   "en": "Perish, foul servant of Sauron!",
+   "ru": "",
+   "uk_ai": "Згинь, мерзенний слуго Саурона!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf381",
+   "mission": "007_Defence of the White City",
+   "type": "Репліка",
+   "en": "You and your Black Master shall be cast into the Void!",
+   "ru": "",
+   "uk_ai": "Тебе й твого Чорного Господаря буде скинуто в Порожнечу!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf382",
+   "mission": "007_Defence of the White City",
+   "type": "Репліка",
+   "en": "You will not take this City!",
+   "ru": "",
+   "uk_ai": "Ти не візьмеш цього Міста!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf383",
+   "mission": "007_Defence of the White City",
+   "type": "Репліка",
+   "en": "Silence, fell creature!",
+   "ru": "",
+   "uk_ai": "Мовчи, лихе створіння!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf384",
+   "mission": "007_Defence of the White City",
+   "type": "Репліка",
+   "en": "Go back to the Shadow!",
+   "ru": "",
+   "uk_ai": "Повертайся в Тінь!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf385",
+   "mission": "007_Defence of the White City",
+   "type": "Репліка",
+   "en": "Your end draws near!",
+   "ru": "",
+   "uk_ai": "Твій кінець близько!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf386",
+   "mission": "007_Defence of the White City",
+   "type": "Репліка",
+   "en": "Fall, thing of Shadow!",
+   "ru": "",
+   "uk_ai": "Впади, породження Тіні!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf387",
+   "mission": "007_Defence of the White City",
+   "type": "Репліка",
+   "en": "The Light of Anar will cast you down!",
+   "ru": "",
+   "uk_ai": "Світло Анара тебе скине!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf388",
+   "mission": "007_Defence of the White City",
+   "type": "Репліка",
+   "en": "You cannot overtake the Light!",
+   "ru": "",
+   "uk_ai": "Світла тобі не здолати!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_witchking001",
+   "mission": "007_Defence of the White City",
+   "type": "Діалог",
+   "en": "Witch-king: Do not come between the Nazgul and his prey",
+   "ru": "",
+   "uk_ai": "Король-чаклун: Не ставай між назґулом і його здобиччю",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_witchking006",
+   "mission": "007_Defence of the White City",
+   "type": "Репліка",
+   "en": "You will kneel!",
+   "ru": "",
+   "uk_ai": "На коліна!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_witchking007",
+   "mission": "007_Defence of the White City",
+   "type": "Репліка",
+   "en": "Your death has come!",
+   "ru": "",
+   "uk_ai": "Твоя смерть прийшла!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_witchking008",
+   "mission": "007_Defence of the White City",
+   "type": "Репліка",
+   "en": "You will not hinder me!",
+   "ru": "",
+   "uk_ai": "Ти мене не зупиниш!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_witchking009",
+   "mission": "007_Defence of the White City",
+   "type": "Репліка",
+   "en": "Shrivel before my might!",
+   "ru": "",
+   "uk_ai": "Зів'янь перед моєю могутністю!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_witchking010",
+   "mission": "007_Defence of the White City",
+   "type": "Репліка",
+   "en": "Victory eludes you.",
+   "ru": "",
+   "uk_ai": "Перемога вислизає від тебе.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_witchking011",
+   "mission": "007_Defence of the White City",
+   "type": "Репліка",
+   "en": "There is nowhere to hide...",
+   "ru": "",
+   "uk_ai": "Сховатися нема де...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_witchking012",
+   "mission": "007_Defence of the White City",
+   "type": "Репліка",
+   "en": "All this land belongs to the Dark Lord",
+   "ru": "",
+   "uk_ai": "Уся ця земля належить Темному Володарю",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_witchking013",
+   "mission": "007_Defence of the White City",
+   "type": "Репліка",
+   "en": "This is the hour of your doom!",
+   "ru": "",
+   "uk_ai": "Це година твоєї загибелі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_witchking014",
+   "mission": "007_Defence of the White City",
+   "type": "Репліка",
+   "en": "A grim fate befalls thee...",
+   "ru": "",
+   "uk_ai": "Похмура доля спіткає тебе...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_witchking015",
+   "mission": "007_Defence of the White City",
+   "type": "Репліка",
+   "en": "I have the mastery!",
+   "ru": "",
+   "uk_ai": "Влада — за мною!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CampaignWKWordofPower",
+   "mission": "007_Defence of the White City",
+   "type": "Кнопка",
+   "en": "This is My Hour! (&T)",
+   "ru": "Мой час настал! (&T)",
+   "uk_ai": "Настав мій час! (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GandalfBanishEvil",
+   "mission": "007_Defence of the White City",
+   "type": "Кнопка",
+   "en": "Banish Evil (&R)",
+   "ru": "Изгоним зло! (&T)",
+   "uk_ai": "Вигнання зла (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:LightofAnar",
+   "mission": "007_Defence of the White City",
+   "type": "Кнопка",
+   "en": "Light of Anar (&T)",
+   "ru": "Свет Анара (&C)",
+   "uk_ai": "Світло Анара (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PiercingLight",
+   "mission": "007_Defence of the White City",
+   "type": "Кнопка",
+   "en": "Sun's Radiance (&C)",
+   "ru": "Сияние солнца (&V)",
+   "uk_ai": "Сонячне сяйво (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ShieldBubbleMT",
+   "mission": "007_Defence of the White City",
+   "type": "Кнопка",
+   "en": "Aegis of Aman (&W)",
+   "ru": "Эгида Амана(&R)",
+   "uk_ai": "Егіда Аману (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCampaignWKWordofPower",
+   "mission": "007_Defence of the White City",
+   "type": "Кнопка",
+   "en": "Requires Level 10 \n Blasts back and damages units in a wide radius surrounding the Witch-king\nEnemy heroes take damage over time for 10 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 10\nОтбрасывает назад и наносит урон врагам в широком радиусе вокруг Короля-чародея\nВражеские герои получают урон в течение 10 секунд\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10 \n Відкидає й ранить загони у великому радіусі навколо Короля-чаклуна\nВорожі герої отримують поступові пошкодження протягом 10 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGandalfBanishEvil",
+   "mission": "007_Defence of the White City",
+   "type": "Кнопка",
+   "en": "Instantly destroys target Darkened Wraith\nDeals minimal damage to the Witch-king\nLeft click then left click target unit",
+   "ru": "Мгновенно уничтожает темных призраков\nНаносит минимальный урон Королю-чародею\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Миттєво знищує вказаного Затьмареного привида\nЗавдає мінімальних пошкоджень Королю-чаклуну\nКлікніть на іконку, потім оберіть потрібний загін",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLightofAnar",
+   "mission": "007_Defence of the White City",
+   "type": "Кнопка",
+   "en": "Gandalf casts a spell on enemies\nwithin a radius, dealing heavy damage\nLeft click icon then left click on target enemies",
+   "ru": "Гэндальф накладывает заклинание на врагов\nв радиусе действия, нанося им сильный урон\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Ґендальф накладає чари на ворогів\nу радіусі дії, завдаючи великих пошкоджень\nКлікніть на іконку, потім оберіть ворогів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPiercingLight",
+   "mission": "007_Defence of the White City",
+   "type": "Кнопка",
+   "en": "Beam of light that deals little damage but knocks down the enemy heroes, interrupting their spellcasting \n Left click icon then left click on target",
+   "ru": "Луч света, который наносит небольшой урон, но сбивает с ног вражеских героев, прерывая их заклинания\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Промінь світла, що завдає незначних пошкоджень, але збиває з ніг ворожих героїв і перериває їхні чари \n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWKEnvelopingDarkness",
+   "mission": "007_Defence of the White City",
+   "type": "Кнопка",
+   "en": "Requires Level 10\nThe Witch-king slowly eminates darkness which deals damage to nearby enemy units and knocks back enemies close to the Witch-king\nThe Witch-king cannot move or attack whilst the ability is active\nLeft click to activate and deactivate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 10\nКороль-чаклун повільно випромінює темряву, що завдає пошкоджень ворожим загонам поблизу й відкидає тих, хто підійшов надто близько\nПоки здібність діє, Король-чаклун не може рухатися чи атакувати\nКлікніть, щоб увімкнути або вимкнути",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WKEnvelopingDarkness",
+   "mission": "007_Defence of the White City",
+   "type": "Кнопка",
+   "en": "Enveloping Darkness (&R)",
+   "ru": "",
+   "uk_ai": "Всеосяжна темрява (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

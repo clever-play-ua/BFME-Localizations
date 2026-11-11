@@ -1,0 +1,1321 @@
+{
+ "meta": {
+  "mission": "001_The Lord of the Rings",
+  "campaign": "Return of the King (AoR 10.0)",
+  "count": 131,
+  "fields": "var — мітка; type — Назва/Ціль/Діалог/Репліка/Інше/Кнопка; ru — RU 9.3.1, якщо є; uk_ai — поточний текст (правте прямо тут); status — вичитано / чернетка AI; uk — порожньо",
+  "notes": "\\n — перенос рядка, кількість має збігатися з EN; гарячі клавіші (&W) латиницею. Здібності героїв винесені в папку heroes."
+ },
+ "strings": [
+  {
+   "var": "CampaignName:LordoftheRings",
+   "mission": "001_The Lord of the Rings",
+   "type": "Назва",
+   "en": "The Lord of the Rings",
+   "ru": "",
+   "uk_ai": "Володар Перснів",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective01_LOTR",
+   "mission": "001_The Lord of the Rings",
+   "type": "Ціль",
+   "en": "Breach Ost-in-Edhil",
+   "ru": "",
+   "uk_ai": "Пробийтеся в Ост-ін-Еділь",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective02_LOTR",
+   "mission": "001_The Lord of the Rings",
+   "type": "Ціль",
+   "en": "Kill Celebrimbor",
+   "ru": "",
+   "uk_ai": "Вбийте Келебрімбора",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective03_LOTR",
+   "mission": "001_The Lord of the Rings",
+   "type": "Ціль",
+   "en": "Corrupt the Men of Númenor",
+   "ru": "",
+   "uk_ai": "Розбестіть людей Нуменору",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective04_LOTR",
+   "mission": "001_The Lord of the Rings",
+   "type": "Ціль",
+   "en": "Defend the gate to the Inner Sanctum",
+   "ru": "",
+   "uk_ai": "Захистіть браму до Внутрішнього святилища",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective05_LOTR",
+   "mission": "001_The Lord of the Rings",
+   "type": "Ціль",
+   "en": "Defeat the second assault",
+   "ru": "",
+   "uk_ai": "Відбийте другу атаку",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective06_LOTR",
+   "mission": "001_The Lord of the Rings",
+   "type": "Ціль",
+   "en": "Defeat the third assault",
+   "ru": "",
+   "uk_ai": "Відбийте третю атаку",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective07_LOTR",
+   "mission": "001_The Lord of the Rings",
+   "type": "Ціль",
+   "en": "Defeat the fourth assault",
+   "ru": "",
+   "uk_ai": "Відбийте четверту атаку",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective08_LOTR",
+   "mission": "001_The Lord of the Rings",
+   "type": "Ціль",
+   "en": "Defeat the fifth assault",
+   "ru": "",
+   "uk_ai": "Відбийте п'яту атаку",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective09_LOTR",
+   "mission": "001_The Lord of the Rings",
+   "type": "Ціль",
+   "en": "Defend the gate for as long as possible",
+   "ru": "",
+   "uk_ai": "Захищайте браму якомога довше",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective10_LOTR",
+   "mission": "001_The Lord of the Rings",
+   "type": "Ціль",
+   "en": "Survive for as long as possible",
+   "ru": "",
+   "uk_ai": "Протримайтеся якомога довше",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective01_LOTR",
+   "mission": "001_The Lord of the Rings",
+   "type": "Ціль",
+   "en": "Kill every Elf defender in Ost-in-Edhil",
+   "ru": "",
+   "uk_ai": "Вбийте всіх ельфійських захисників Ост-ін-Еділя",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective02_LOTR",
+   "mission": "001_The Lord of the Rings",
+   "type": "Ціль",
+   "en": "Raze all gates and defences in Ost-in-Edhil",
+   "ru": "",
+   "uk_ai": "Знищте всі брами й укріплення Ост-ін-Еділя",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective03_LOTR",
+   "mission": "001_The Lord of the Rings",
+   "type": "Ціль",
+   "en": "Kill all the Elven cavalry",
+   "ru": "",
+   "uk_ai": "Вбийте всіх ельфійських вершників",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective04_LOTR",
+   "mission": "001_The Lord of the Rings",
+   "type": "Ціль",
+   "en": "Rouse allies at the Fount of Corruption and Spider Lair",
+   "ru": "",
+   "uk_ai": "Підніміть союзників біля Джерела скверни та Павучого лігва",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective05_LOTR",
+   "mission": "001_The Lord of the Rings",
+   "type": "Ціль",
+   "en": "Incapacitate all members of the White Council at least once",
+   "ru": "",
+   "uk_ai": "Здолайте кожного члена «Білої ради» хоча б один раз",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective06_LOTR",
+   "mission": "001_The Lord of the Rings",
+   "type": "Ціль",
+   "en": "Survive for 1 minute",
+   "ru": "",
+   "uk_ai": "Протримайтеся 1 хв.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjectiveHint",
+   "mission": "001_The Lord of the Rings",
+   "type": "Ціль",
+   "en": "Complete Bonus Objectives to gain spellbook powers.",
+   "ru": "",
+   "uk_ai": "Виконайте додаткові завдання, аби отримати додаткові одиниці сили.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron001A",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: I see you. There is no life in the void, only death.",
+   "ru": "",
+   "uk_ai": "Саурон: Я тебе бачу. Нема життя у порожнечі, лише смерть.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron001B",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: How long can you persist in your futile struggle? How could a mere Halfling ever hope to withstand my will?",
+   "ru": "",
+   "uk_ai": "Саурон: Скільки ще ти триматимешся у своїй марній боротьбі? Як якийсь напіврослик міг сподіватися, що встоїть перед моєю волею?",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron001C",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: Long have I crafted this inescapable triumph. A victory Ages in the making.",
+   "ru": "",
+   "uk_ai": "Саурон: Я довго кував цей неминучий тріумф. Цю перемогу, що визрівала віками.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron002",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: Great were my gifts to the Eldar.",
+   "ru": "",
+   "uk_ai": "Саурон: Мої дари ельдарам були щедрими.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron027",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: Yet when the hour came, they dared to refuse that most gracious of gifts; \n to join themselves to my will and to bask in the glory of order, set by my hand.",
+   "ru": "",
+   "uk_ai": "Саурон: Та коли настав час, вони насмілилися відкинути найщедріший із дарів — \n скоритися моїй волі й купатися у славі порядку, встановленого моєю рукою.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron028",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: Uncouth, ungrateful, undeserving of the power that I had bestowed upon them.",
+   "ru": "",
+   "uk_ai": "Саурон: Грубі, невдячні, негідні тієї сили, яку я їм дарував.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron041",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: Their defiance would not go unanswered. I set my legions upon \n the tranquil lands of Eregion, seeking recompense.",
+   "ru": "",
+   "uk_ai": "Саурон: Їхня зухвалість не могла лишитися без відповіді. Я кинув свої легіони \n на мирні землі Ереґіону, прагнучи відплати.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_celebrimbor021",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Celebrimbor: The deceiver has come! His forces are at our walls! They must be repelled!",
+   "ru": "",
+   "uk_ai": "Келебрімбор: Лицемір прийшов! Його війська під нашими мурами! Ми мусимо їх відкинути!",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron042",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: Celebrimbor, look upon me! I will pull down the walls of your city and your people shall know my wrath!",
+   "ru": "",
+   "uk_ai": "Саурон: Келебрімборе, поглянь на мене! Я знесу мури твого міста, а твій народ пізнає мій гнів!",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron043",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: March forward, my warriors! We must break their defences and draw out this cowardly Elf-lord!",
+   "ru": "",
+   "uk_ai": "Саурон: До бою, воїни! Зламайте їхню оборону й виманіть цього боягузливого володаря ельфів!",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron003",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: Celebrimbor! Betrayer! Through me, you could have wielded power beyond your wildest imaginings! \n But you have spurned my generosity and forsaken your true destiny.",
+   "ru": "",
+   "uk_ai": "Саурон: Келебрімборе! Зраднику! Зі мною ти міг би володіти силою, що поза уявою! \n Але ти розтоптав мою щедрість і зрікся свого справжнього призначення.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_celebrimbor026",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Celebrimbor: It is you that has betrayed your Maker. I am your fool no longer.",
+   "ru": "",
+   "uk_ai": "Келебрімбор: Це ти зрадив свого Творця. Я більше не твій посіпака.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_celebrimbor027",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Celebrimbor: The Elven Rings will forever elude you, and your designs shall come to naught!",
+   "ru": "",
+   "uk_ai": "Келебрімбор: Тобі ніколи не заволодіти ельфійськими перснями, всі твої задуми приречені на провал!",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_celebrimbor022",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Celebrimbor: Smiths of Eregion! Gather arms and rally to me!",
+   "ru": "",
+   "uk_ai": "Келебрімбор: Ковалі Ереґіону! До зброї, до мене!",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron004",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: The final victory over the Eldar was within my grasp. But when the Númenórean king arrived \n ahead of his grand army, I decided upon a different path.",
+   "ru": "",
+   "uk_ai": "Саурон: Остаточна перемога над ельдарами була в моїх руках. Та коли нуменорський король прибув \n попереду свого великого війська, я обрав інший шлях.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron035",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "You have failed. Now look upon your city and watch it burn.",
+   "ru": "",
+   "uk_ai": "Ти зазнав поразки. А тепер дивися, як горить твоє місто.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:OstInEdhilReinforcements",
+   "mission": "001_The Lord of the Rings",
+   "type": "Інше",
+   "en": "Reinforcements have arrived.",
+   "ru": "",
+   "uk_ai": "Прибуло підкріплення.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorArPharazon01A",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "I was told of the might of Mordor. Of Sauron the Great. Lord of the Earth, you called yourself.",
+   "ru": "",
+   "uk_ai": "Мені розповідали про могутність Мордору. Про Саурона Великого. Володарем Землі ти себе називав.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorArPharazon01B",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "Yet here you are, bested by a Man of Anadûnê. The true King of Men am I. What say you?",
+   "ru": "",
+   "uk_ai": "І ось ти тут, переможений людиною з Анадуне. Я — справжній король людей. Що ти скажеш на це?",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron036",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: And so I made my way to the island kingdom of Númenor, \n where I would work to set the hearts of Men to a greater cause.",
+   "ru": "",
+   "uk_ai": "Саурон: Так я опинився в острівному королівстві Нуменор, \n аби спрямувати людські серця до вищої мети.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorArPharazon04A",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "I have decided upon your fate. You are to remain here, imprisoned, stripped of your titles.",
+   "ru": "",
+   "uk_ai": "Я вирішив твою долю. Ти лишишся тут, ув'язнений і позбавлений своїх титулів.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorArPharazon04B",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "A hostage, to keep your fell lieutenants from inflicting further harm upon my colonies and the world at large.",
+   "ru": "",
+   "uk_ai": "Заручником — аби твої лихі поплічники не чинили більше шкоди моїм колоніям і всьому світові.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorArPharazon04C",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "Destroying you is within my power, but I fear doing so would only give rise to pretenders.",
+   "ru": "",
+   "uk_ai": "Знищити тебе в моїй владі, та боюся, на твоє місце прийдуть інші.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron011",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: The Light shall not grant what you covet. For Darkness alone is worshipful and the Lord thereof \n may yet make other worlds to be gifts to those that serve him, so that the increase of their power shall find no end.",
+   "ru": "",
+   "uk_ai": "Саурон: Світло не дасть вам того, чого ви прагнете. Лише Темрява гідна поклоніння, і її Володар \n ще може створити інші світи в дар тим, хто йому служить, і їхній силі не буде меж.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_numenorian001",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Númenórean: But what of the Lords of the West? What of Eru Ilúvatar?",
+   "ru": "",
+   "uk_ai": "Нуменорець: А як же Володарі Заходу? Як же Еру Ілуватар?",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron012A",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: You may have been granted this isle, but their most precious gift is held in secret for their favoured children.",
+   "ru": "",
+   "uk_ai": "Саурон: Вам, може, й дарували цей острів, та свій найцінніший дар вони бережуть у таємниці для своїх улюблених дітей.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron012B",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: The Gift of Time. It can be yours. Did not your forefathers bleed alongside the Eldar? \n Did they not sacrifice all that they possessed?",
+   "ru": "",
+   "uk_ai": "Саурон: Дар Часу. Він може стати вашим. Хіба ваші предки не проливали кров пліч-о-пліч з ельдарами? \n Хіба не пожертвували всім, що мали?",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron012C",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: My Lord would not have met their bravery with such paltry reward.",
+   "ru": "",
+   "uk_ai": "Саурон: Мій Володар не відплатив би за їхню хоробрість такою мізерною нагородою.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_numenorian002",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Númenórean: Who is your Lord?",
+   "ru": "",
+   "uk_ai": "Нуменорець: Хто твій Володар?",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron013A",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: He is Melkor. The true Lord of All. Indeed, this Eru Ilúvatar is naught but falsehood, \n a ploy devised by the Lords of the West to restrain great Men from their true might.",
+   "ru": "",
+   "uk_ai": "Саурон: Мелькор. Він — справжній Володар Усього. А цей Еру Ілуватар — лише вигадка, \n хитрощі Володарів Заходу, щоб стримувати величних людей від їхньої справжньої могутності.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron013B",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: But Melkor is not so. He is the Giver of Freedom. He shall free you from this prison of deception, \n and lead you to everlasting greatness. You shall surpass them all. Valinor is yours if you would but claim it.",
+   "ru": "",
+   "uk_ai": "Саурон: Але Мелькор не такий. Він — Той, хто дарує свободу. Він визволить вас із цієї в'язниці брехні \n й поведе до нескінченної величі. Ви перевершите їх усіх. Валінор ваш — варто лише його забрати.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron037",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: The King was strong-willed, but I detected in him a weakness. Behind his righteous facade lay insecurity; \n he was afraid of the one thing that eluded him, no matter how much power he possessed.",
+   "ru": "",
+   "uk_ai": "Саурон: Король мав сильну волю, та я помітив у ньому слабкість. За праведним фасадом ховалася непевність: \n він боявся єдиного, що було йому непідвладне, хоч якою б силою він володів.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ar-pharazon007A",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Ar-Pharazôn: I have grown old. My life is beginning to reach its end.",
+   "ru": "",
+   "uk_ai": "Ар-Фаразон: Я постарів. Моє життя добігає кінця.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ar-pharazon007B",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Ar-Pharazôn: Soon I must go into the darkness that I have worshipped, and I am afraid.",
+   "ru": "",
+   "uk_ai": "Ар-Фаразон: Незабаром я маю піти в темряву, якій присягнув, і мені страшно.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ar-pharazon007C",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Ar-Pharazôn: Great things we have achieved, but Melkor cannot give me that which I now seek the most. \n A reprieve of death. Eternal life.",
+   "ru": "",
+   "uk_ai": "Ар-Фаразон: Великого ми досягли, та Мелькор не може дати мені того, чого я нині прагну найбільше. \n Відтермінування смерті. Вічного життя.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron016",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: I survived the unforeseen destruction of Númenor at a great cost, \n though my greatest possession I managed to retain for a time.",
+   "ru": "",
+   "uk_ai": "Саурон: Я пережив несподівану загибель Нуменору дорогою ціною, \n проте свій найцінніший скарб зумів на якийсь час зберегти.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron038",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: But at Dagorlad, after I slew the Kings of Men and Elves, it was taken from me. But it was not the end.",
+   "ru": "",
+   "uk_ai": "Саурон: Але на Даґорладі, після того як я вбив королів людей і ельфів, його в мене відібрали. Проте то був не кінець.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar01A",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "Be merciful, O Great King! Great has been my folly, and I cast myself before you, broken and humbled.",
+   "ru": "",
+   "uk_ai": "Змилуйтеся, о Великий Королю! Великим було моє безумство, але нині я схиляюся перед вами, зламаний та скорений.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar01B",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "Long have I sought that which I cannot claim. I defer to your Lordship. I am your prisoner. Do with me as you will.",
+   "ru": "",
+   "uk_ai": "Довго я прагнув того, що не можу здобути. Я схиляюся перед вашою владою. Я ваш полонений. Робіть зі мною те, що забажаєте.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar02A",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "Your victory is hollow. Your Lordship is a farce. The Throne of Anadûnê shall come to naught but dust and ruin.",
+   "ru": "",
+   "uk_ai": "Твоя перемога пуста. Твоя влада — сміхотворна. Трон Анадуне перетвориться на попіл і руїни.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar02B",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "Release me, and I will be your unmaking. Destroy me, and I shall return. For I am Master of this Earth,",
+   "ru": "",
+   "uk_ai": "Відпусти мене — і я стану твоєю погибеллю. Знищ мене — і я повернуся. Бо я Володар цієї Землі,",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar02C",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "And you are but a witless worm.",
+   "ru": "",
+   "uk_ai": "А ти лише нікчемний хробак.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorArPharazon02",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "And yet your forces fled at the sight of Anadûnê's might.",
+   "ru": "",
+   "uk_ai": "І все ж твої війська втекли, щойно побачили могутність Анадуне.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar03A",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "Allow me to remain here, Great King, and I shall prove a loyal servant to thee.",
+   "ru": "",
+   "uk_ai": "Дозвольте мені лишитися тут, Великий Королю, і я буду вам вірно служити.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar03B",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "My craft is unmatched, and as your humble steward in Middle-earth...",
+   "ru": "",
+   "uk_ai": "Моя вправність незрівнянна, і як ваш покірний слуга, що представляє вас у Середзем'ї…",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar03C",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "I shall shape and fashion it according to your every whim.",
+   "ru": "",
+   "uk_ai": "Я надам йому форми й вигляду, яких ви тільки забажаєте.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorArPharazon03",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "I do not require your stewardship. Only your unconditional surrender.",
+   "ru": "",
+   "uk_ai": "Мені не потрібно, аби ти служив. Я бажаю лише твоєї безумовної капітуляції.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar04A",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "Your words carry wisdom, Golden One. Allow me to remain a while longer.",
+   "ru": "",
+   "uk_ai": "Ваші слова мають мудрість, о Золотий. Дозвольте мені лишитись ще трохи.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar04B",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "Briefly I have beheld your lofty towers, gleaming beneath the sun. Your harbours, laden with mighty ships.",
+   "ru": "",
+   "uk_ai": "Лише на мить мені довелося побачити ваші високі вежі, осяяні сонцем. Та ваші гавані, де стоять величні кораблі.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar04C",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "Exalted as you are, my skill can make you greater yet. Joined in purpose, there is no bounds to the glory we may yet achieve.",
+   "ru": "",
+   "uk_ai": "Хоч яким величним ви є, моє мистецтво може звеличити вас ще більше. Об'єднаймо зусилля — і слава, якої ми досягнемо, не матиме меж.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar04D",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "Perhaps, in time, my fealty may serve thee well. I beg of you Great King, come and visit me in captivity. There is much we may discuss.",
+   "ru": "",
+   "uk_ai": "Можливо, з часом моя вірність стане вам у пригоді. Благаю, Великий Королю, навідайте мене в неволі. Нам є що обговорити.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar05A",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "A hostage, say you. Do you not know to whom you speak?",
+   "ru": "",
+   "uk_ai": "Заручник, кажеш? Хіба ти не знаєш, із ким говориш?",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar05B",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "You will find my ransom exceeds the limits of your shallow coffers. You are naught but a pretender! Witless and craven.",
+   "ru": "",
+   "uk_ai": "Мій викуп перевищить усе, що вміщують твої мізерні скарбниці. Ти лише самозванець! Дурний і малодушний!",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar05C",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "I shall melt your golden crown within the fiery depths of Sammath Naur, and then you will serve me.",
+   "ru": "",
+   "uk_ai": "Я розплавлю твою золоту корону у вогняних глибинах Саммат-Науру, і тоді ти служитимеш мені.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar05D",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "Not as a Man, but as a fading wraith, doomed to languish in the misery and grief that I shall set for you.",
+   "ru": "",
+   "uk_ai": "Ти вже не будеш людиною. Лише тінню, що поволі згасає, приреченою на вічні муки та скорботу, які я тобі вготую.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorArPharazon05A",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "Your threats ring hollow inside my hall.",
+   "ru": "",
+   "uk_ai": "Тут твої погрози — лише порожній звук.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorArPharazon05B",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "The King of Númenor does not fear a captive dressed in rags.",
+   "ru": "",
+   "uk_ai": "Не лякає короля Нуменору полонений у жалюгідному лахмітті.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar06A",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "You may cage me for a time, but I am well versed in the desires of Men's hearts.",
+   "ru": "",
+   "uk_ai": "Ти можеш на якийсь час замкнути мене в клітці, та я добре знаю, чого прагнуть людські серця.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar06B",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "Sooner or later, I shall set myself free. Will you keep watch over those that guard me?",
+   "ru": "",
+   "uk_ai": "Рано чи пізно я звільнюся. Чи встежиш ти за тими, хто мене стереже?",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar06C",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "Are your subjects so steadfast that they would deny themselves the chance to earn my favour?",
+   "ru": "",
+   "uk_ai": "Чи такі вже стійкі твої піддані, щоб відмовитися від нагоди заслужити мою прихильність?",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorArPharazon06A",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "I know what you are, máya. From beyond this world you came. Gorthaur you were. Annatar you became.",
+   "ru": "",
+   "uk_ai": "Я знаю, хто ти, маяре. Ти прийшов з-поза меж цього світу. Ґортауром ти був. Аннатаром ти став.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorArPharazon06B",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "My men are loyal, but I am no fool. Black stone will guard you. Darkness will be your companion. None will know your name.",
+   "ru": "",
+   "uk_ai": "Мої люди вірні, та я не дурень. Чорний камінь тебе стерегтиме. Темрява буде тобі за товариша. Ніхто не знатиме твого імені.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorArPharazon06C",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "The place of your tomb, such as it will be, will be forgotten. I will see to that.",
+   "ru": "",
+   "uk_ai": "А місце твоєї гробниці, хай яким воно буде, забудуть. Я про це подбаю.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar07A",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "The Valar's refusal to bestow upon you that which is rightfully yours is a stain from which their reputation cannot be washed.",
+   "ru": "",
+   "uk_ai": "Те, що Валар відмовили вам у належному по праву, — пляма, яку з їхньої слави вже не змити.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar07B",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "Alas, my King. All Men must die.",
+   "ru": "",
+   "uk_ai": "На жаль, мій королю. Усі люди мусять померти.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorArPharazon07A",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "You are wise beyond measure, Mairon. Is there no cure for this ailment?",
+   "ru": "",
+   "uk_ai": "Твоя мудрість безмірна, Майроне. Невже немає ліків від цього недугу?",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorArPharazon07B",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "No means by which to remedy this evil fate?",
+   "ru": "",
+   "uk_ai": "Немає способу виправити цю лиху долю?",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar08A",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "What you seek is within your grasp, O Great King.",
+   "ru": "",
+   "uk_ai": "Те, чого ви прагнете, у ваших руках, о Великий Королю.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar08B",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "The greatest armament this world has ever witnessed lies within your power to amass, its magnificence beyond measure.",
+   "ru": "",
+   "uk_ai": "Найбільша могуть, яку коли-небудь бачив цей світ, — вам під силу її зібрати, і її велич безмірна.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar08C",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "Consolidate your might. Raise up your armies. Build your grand armada.",
+   "ru": "",
+   "uk_ai": "Зміцніть свою могутність. Зберіть свої війська. Збудуйте свою велику армаду.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar08D",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "For even the Lords of the West shall tremble before the glory of Númenor at its zenith.",
+   "ru": "",
+   "uk_ai": "Бо навіть Володарі Заходу затремтять перед славою Нуменору в зеніті його величі.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NumenorAnnatar08E",
+   "mission": "001_The Lord of the Rings",
+   "type": "Репліка",
+   "en": "Everlasting life is yours by right, you need only to sail for the West and take it.",
+   "ru": "",
+   "uk_ai": "Вічне життя належить вам по праву — треба лише вирушити на Захід і взяти його.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron047",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: And after many long years, I returned to the fortress of Dol Guldur, \n where I would renew my assault upon the West.",
+   "ru": "",
+   "uk_ai": "Саурон: А через багато довгих років я повернувся до фортеці Дол-Ґулдур, \n звідки мав відновити свій наступ на Захід.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron017",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: Bereft of the One Ring, I bided my time, far to the East. There I swayed the hearts and minds of lesser Men,\n gathering servants and soldiers, whilst in secret my dominion in the land of Mordor was restored to its former might.",
+   "ru": "",
+   "uk_ai": "Саурон: Позбавлений Єдиного Персня, я вичікував далеко на Сході. Там я схиляв на свій бік серця й уми людей,\n збираючи собі слуг та воїнів, і тим самим таємно відновлював колишню могутність своєї влади в землях Мордора.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron039",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: My place of hiding was uncovered by a meddlesome greybeard.\n Before long, a rabble of vagabonds appeared before my gates.",
+   "ru": "",
+   "uk_ai": "Саурон: Мою схованку викрив надокучливий сивобородий.\n Невдовзі перед моєю брамою з'явився набрід волоцюг.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_galadriel013",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Galadriel: Your twisted rule has come to an end, Gorthaur. I have come to cast you out, \n by the Light of Eärendil, in Elbereth's name!",
+   "ru": "",
+   "uk_ai": "Ґаладріель: Твоєму викривленому володарюванню прийшов кінець, Ґортауре. Я тут, аби вигнати тебе \n Світлом Еаренділа, в ім'я Елберет!",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron040",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: Defend the fortress! Make them pay in blood!",
+   "ru": "",
+   "uk_ai": "Саурон: Захищайте фортецю! Нехай заплатять кров'ю!",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_galadriel014",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Galadriel: Your dark fortress will crumble, Gorthaur! The Eldar have come to cast you out!",
+   "ru": "",
+   "uk_ai": "Ґаладріель: Твоя темна фортеця впаде, Ґортауре! Ельдари прийшли вигнати тебе!",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saruman037",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Saruman: Together we shall put an end to this evil!",
+   "ru": "",
+   "uk_ai": "Саруман: Разом ми покладемо край цьому злу!",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_galadriel015",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Galadriel: Forth! Do not fear this wickedness!",
+   "ru": "",
+   "uk_ai": "Ґаладріель: Вперед! Не бійтеся цієї мерзоти!",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saruman036",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Saruman: Your plots have failed, Mairon. Your master was banished long ago. You should have repented. Now begone!",
+   "ru": "",
+   "uk_ai": "Саруман: Усі твої задуми провалилися, Майроне. Твого володаря вигнали ще давним-давно. Ти мав шанс покаятися. А тепер забирайся!",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron019",
+   "mission": "001_The Lord of the Rings",
+   "type": "Діалог",
+   "en": "Sauron: In their arrogance, the Lords of the Eldar believed they had bested me. That I fled before their might, never to return. \n They are fools. The last stroke of a plan long in the making is now at hand. None can withstand my will.",
+   "ru": "",
+   "uk_ai": "Саурон: У своїй гордині володарі ельдарів повірили, що здолали мене. Що я втік від їхньої могутності й більше не повернуся. \n Вони дурні. Нині настає завершальний етап задуму, який я виношував так довго. Ніхто не встоїть перед моєю волею.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:DolGuldur_Ringwraith_Hint",
+   "mission": "001_The Lord of the Rings",
+   "type": "Інше",
+   "en": "Sauron can summon additional Nazgûl to help defend Dol Guldur.",
+   "ru": "",
+   "uk_ai": "Саурон може прикликати додаткових назґулів на захист Дол-Ґулдура.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:DolGuldur_WC_Hint",
+   "mission": "001_The Lord of the Rings",
+   "type": "Інше",
+   "en": "Forces that get too near to the White Council will suffer damage over time.",
+   "ru": "",
+   "uk_ai": "Загони, що підходять надто близько до «Білої ради», поступово втрачають здоров'я.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:DolGuldur_WC_Ent_Arrived",
+   "mission": "001_The Lord of the Rings",
+   "type": "Інше",
+   "en": "A Corrupted Entwife has arrived.",
+   "ru": "",
+   "uk_ai": "Прибула осквернена ентиця.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:DolGuldur_WC_Ent_Reinforcements",
+   "mission": "001_The Lord of the Rings",
+   "type": "Інше",
+   "en": "Another Corrupted Entwife has arrived.",
+   "ru": "",
+   "uk_ai": "Прибула ще одна осквернена ентиця.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:DolGuldur_WC_Spiders_Arrived",
+   "mission": "001_The Lord of the Rings",
+   "type": "Інше",
+   "en": "Maurnath's Brood have arrived.",
+   "ru": "",
+   "uk_ai": "Прибув Виводок Маурнат.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:DolGuldur_WC_Spiders_Reinforcements",
+   "mission": "001_The Lord of the Rings",
+   "type": "Інше",
+   "en": "More spiderlings from Maurnath's Brood have arrived.",
+   "ru": "",
+   "uk_ai": "Прибули нові павуки з Виводку Маурнат.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:DolGuldur_WC_Saenathra_Arrived",
+   "mission": "001_The Lord of the Rings",
+   "type": "Інше",
+   "en": "Maurnath has arrived to defend Dol Guldur.",
+   "ru": "",
+   "uk_ai": "Маурнат прибула захищати Дол-Ґулдур.",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:DolGuldur_Path_Left",
+   "mission": "001_The Lord of the Rings",
+   "type": "Інше",
+   "en": "The left path will be overrun in:",
+   "ru": "",
+   "uk_ai": "Лівий прохід буде захоплено через:",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:DolGuldur_Path_Right",
+   "mission": "001_The Lord of the Rings",
+   "type": "Інше",
+   "en": "The right path will be overrun in:",
+   "ru": "",
+   "uk_ai": "Правий прохід буде захоплено через:",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:DolGuldur_Path_Middle",
+   "mission": "001_The Lord of the Rings",
+   "type": "Інше",
+   "en": "The middle path will be overrun in:",
+   "ru": "",
+   "uk_ai": "Центральний прохід буде захоплено через:",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:DolGuldur_Gate_Timer",
+   "mission": "001_The Lord of the Rings",
+   "type": "Інше",
+   "en": "Defend the gate for:",
+   "ru": "",
+   "uk_ai": "Утримуйте браму ще:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CelebrimborBrightBlade",
+   "mission": "001_The Lord of the Rings",
+   "type": "Кнопка",
+   "en": "Ring-maker (&W)",
+   "ru": "",
+   "uk_ai": "Творець Перснів (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellowshipMerryHalflingCourage",
+   "mission": "001_The Lord of the Rings",
+   "type": "Кнопка",
+   "en": "Halfling Courage",
+   "ru": "",
+   "uk_ai": "Відвага напіврослика",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellowshipPippinCitadelGuard",
+   "mission": "001_The Lord of the Rings",
+   "type": "Кнопка",
+   "en": "Guard of the Citadel",
+   "ru": "",
+   "uk_ai": "Вартовий Цитаделі",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellowshipPippinPeriannath",
+   "mission": "001_The Lord of the Rings",
+   "type": "Кнопка",
+   "en": "Ernil i Pheriannath (&C)",
+   "ru": "",
+   "uk_ai": "Ерніл і Періаннат (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HobbitRockLure",
+   "mission": "001_The Lord of the Rings",
+   "type": "Кнопка",
+   "en": "Lure (&T)",
+   "ru": "Приманка (&T)",
+   "uk_ai": "Приманка (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PippinFarsight",
+   "mission": "001_The Lord of the Rings",
+   "type": "Кнопка",
+   "en": "Unfold the Map (&V)",
+   "ru": "Разведка (&V)",
+   "uk_ai": "Розгорнути мапу (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PippinSpeed",
+   "mission": "001_The Lord of the Rings",
+   "type": "Кнопка",
+   "en": "Trotter (&C)",
+   "ru": "Бегун (&C)",
+   "uk_ai": "Прудконогий (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToggleFaramirWeaponsNoHotkey",
+   "mission": "001_The Lord of the Rings",
+   "type": "Кнопка",
+   "en": "Toggle Weapon",
+   "ru": "",
+   "uk_ai": "Змінити зброю",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCelebrimborBrightBlade",
+   "mission": "001_The Lord of the Rings",
+   "type": "Кнопка",
+   "en": "Celebrimbor deals heavy damage to targeted hero\n Targeted hero deals -50% damage for 10 seconds\n Left click then left click on target",
+   "ru": "",
+   "uk_ai": "Келебрімбор завдає великих пошкоджень вказаному героєві\n Вказаний герой завдає -50% пошкоджень на 10 сек.\n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipFellowshipPippinCitadelGuard",
+   "mission": "001_The Lord of the Rings",
+   "type": "Кнопка",
+   "en": "Pippin gains +25 armour and +25% damage when near Beregond\nAt Level 3, Pippin passively deals +200% damage against Nazgûl with his sword\nPassive ability",
+   "ru": "",
+   "uk_ai": "Піпін отримує бонус +25 броні й +25% до пошкоджень поряд із Береґондом\nНа 3 рівні Піпін своїм мечем постійно завдає +200% пошкоджень назґулам\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipFellowshipPippinHalflingCourage",
+   "mission": "001_The Lord of the Rings",
+   "type": "Кнопка",
+   "en": "Requires Level 5\nPippin permanently gains +600 health\n\nModifier Type: Leadership\nNearby friendly units gain +25% damage and earn experience 25% faster\n Stacks with Buffs and Spells\nPassive ability",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 5\nПіпін назавжди отримує бонус +600 здоров'я\n\nТип ефекту: Лідерство\nСоюзні загони поблизу отримують бонус +25% до пошкоджень і на 25% швидше набирають досвід\n Поєднується з посиленнями та заклинаннями\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellowshipPippinPeriannath",
+   "mission": "001_The Lord of the Rings",
+   "type": "Кнопка",
+   "en": "Requires Level 7\nCan be cast on allied and enemy units to increase allied armour and decrease enemy armour for 30 seconds respectively\nFriendly units gain +50% armour in the first 10 seconds, +30% armour in the next 10 seconds and +10% armour in the last 10 seconds\nEnemy units suffer -50% armour in the first 10 seconds, -40% armour in the next 10 seconds and -25% armour in the last 10 seconds\nLeft click then left click on target",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 7\nМожна застосувати до союзних і ворожих загонів: на 30 сек. союзники отримують броню, а вороги її втрачають\nСоюзні загони отримують бонус +50% броні в перші 10 сек., +30% броні в наступні 10 сек. і +10% броні в останні 10 сек.\nВорожі загони втрачають 50% броні в перші 10 сек., 40% броні в наступні 10 сек. і 25% броні в останні 10 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipGuldurMaurnathEndlessHunger",
+   "mission": "001_The Lord of the Rings",
+   "type": "Кнопка",
+   "en": "Requires Level 8\nLike Ungoliant, Maurnath possesses an insatiable hunger\nfor flesh and precious objects\nMaurnath can move across impassable terrain, and steals resources when dealing damage to enemy units and structures\nPassive ability\n\nWhen activated, Maurnath regains 30% health\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 8\nЯк і Унґоліант, Маурнат має ненаситний голод\nдо плоті й коштовностей\nМаурнат може пересуватися непрохідною місцевістю й краде ресурси, коли завдає пошкоджень ворожим загонам і спорудам\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації Маурнат відновлює 30% здоров'я\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGuldurMaurnathFeast",
+   "mission": "001_The Lord of the Rings",
+   "type": "Кнопка",
+   "en": "Requires Level 3\nModifier Type: Debuff and Buff\nEnemy units within the radius are slowed by 33%\n Maurnath and friendly Spiders within the radius deal +50% damage\nAbility lasts 30 seconds\n\n At rank 6, also summons a horde of Fell Brood \n Left click icon then left click on target units",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Ослаблення і посилення\nВорожі загони в радіусі дії сповільнюються на 33%\n Маурнат і союзні павуки в радіусі дії завдають +50% пошкоджень\nЗдібність діє 30 сек.\n\n На 6 рівні також закликає орду лютого виплодку \n Клікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPippinFarsight",
+   "mission": "001_The Lord of the Rings",
+   "type": "Кнопка",
+   "en": "Reveals an area of the map \n Left click icon then left click on target area",
+   "ru": "Открывает область на карте\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Відкриває ділянку мапи \n Клікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipPippinSpeed",
+   "mission": "001_The Lord of the Rings",
+   "type": "Кнопка",
+   "en": "Modifier Type: Buff \n Pippin gains +50% speed for 40 seconds\n Left click to activate",
+   "ru": "Тип модификатора: Усиление\nПиппин получает +50% скорости на 40 секунд\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Тип ефекту: Посилення \n Піпін отримує бонус +50% швидкості на 40 сек.\n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElendilLeadership_LAS",
+   "mission": "001_The Lord of the Rings",
+   "type": "Кнопка",
+   "en": "Elendil, son of Amandil, was the leader of the Faithful Númenóreans, before Eru Ilúvatar drowned the island nation as punishment for the arrogance of Ar-Pharazôn, its last king. Elendil escaped with his two sons and founded Númenórean kingdoms in Middle-earth. His seat was in Annúminas, in Arnor, while his sons ruled in his name from Minas Anor and Minas Ithil, in Gondor. \n\n Allies near Elendil gain +33% armour\nPassive ability",
+   "ru": "",
+   "uk_ai": "Еленділ, син Амандила, очолював Вірних нуменорців, доки Еру Ілуватар не втопив острівне королівство в покару за пиху Ар-Фаразона, його останнього короля. Еленділ урятувався разом із двома синами й заснував нуменорські королівства в Середзем'ї. Його престол був в Аннумінасі, в Арнорі, а сини правили від його імені з Мінас-Анора й Мінас-Ітіля, у Ґондорі. \n\n Союзники поряд з Еленділом отримують бонус +33% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHobbitRockLure",
+   "mission": "001_The Lord of the Rings",
+   "type": "Кнопка",
+   "en": "The hobbit throws a rock to lure enemy units to target area \n Left click icon then left click on target area",
+   "ru": "Хоббит может бросать камни, чтобы отвлекать врагов\nЩелкните левой кнопкой мыши на значок, затем на целевую точку",
+   "uk_ai": "Гобіт кидає камінь, щоб заманити ворожі загони у вказане місце \n Клікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipIsildurBladeMaster_LAS",
+   "mission": "001_The Lord of the Rings",
+   "type": "Кнопка",
+   "en": "Requires Level 10 \n Isildur gains +100% damage and +100% armour and deals knockback for 30 seconds as he takes up the shards of his father's sword \n Left click to activate",
+   "ru": "Требуется уровень 10\nИсильдур наносит +100% урона и получает +100% брони, когда он берет осколок меча своего отца\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10 \n Ісілдур бере уламки батькового меча й на 30 сек. отримує бонус +100% до пошкоджень, +100% броні та відкидає ворогів своїми ударами \n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleFaramirWeapons",
+   "mission": "001_The Lord of the Rings",
+   "type": "Кнопка",
+   "en": "Left click to toggle between bow and sword",
+   "ru": "ЛКМ - выбор между луком и мечом",
+   "uk_ai": "Клікніть, щоб перемкнутися між луком і мечем",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

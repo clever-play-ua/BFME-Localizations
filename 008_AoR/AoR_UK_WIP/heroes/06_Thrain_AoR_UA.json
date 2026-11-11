@@ -1,0 +1,73 @@
+{
+ "meta": {
+  "hero": "Thráin",
+  "uk_name": "Траїн",
+  "campaigns": [
+   "Hobbit"
+  ],
+  "missions": [
+   "Destruction"
+  ],
+  "templates": {
+   "кампанія": [
+    "DwarvenThrain"
+   ],
+   "битва": [
+    "DwarvenThrain"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:DwarvenThrain",
+   "type": "Ім'я",
+   "en": "Thráin",
+   "ru": "Траин",
+   "uk_ai": "Траїн",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ThrainSmash",
+   "type": "Кнопка",
+   "en": "Son of Thrór (&W)",
+   "ru": "Сын Трора (&W)",
+   "uk_ai": "Син Трора (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipThrainSmash",
+   "type": "Підказка",
+   "en": "Thráin slams the ground, knocking back enemy units and dealing heavy damage to structures in a small radius \n Left click icon then left click on target",
+   "ru": "Траин ударяет по земле, отбрасывая врагов вокруг себя\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Траїн б'є об землю, відкидаючи ворожі загони й завдаючи значних пошкоджень спорудам у невеликому радіусі\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:OakenBird",
+   "type": "Кнопка",
+   "en": "Wisdom of the Ravens (&R)",
+   "ru": "Мудрость воронов (&R)",
+   "uk_ai": "Мудрість воронів (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipOakenBird",
+   "type": "Підказка",
+   "en": "Requires Level 2 \n Heals nearby friendly units \n Left click to activate",
+   "ru": "Требуется уровень 2\\nБлижайшие союзники в большом радиусе исцеляются\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 2\nЗцілює союзні загони поблизу\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

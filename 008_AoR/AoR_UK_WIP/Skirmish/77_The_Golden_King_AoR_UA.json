@@ -1,0 +1,115 @@
+{
+ "meta": {
+  "hero": "The Golden King",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Harad"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "HaradGoldenKing"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:HaradGoldenKing",
+   "type": "Ім'я",
+   "en": "The Golden King",
+   "ru": "Золотой король",
+   "uk_ai": "Золотий король",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PersonalGuard",
+   "type": "Кнопка",
+   "en": "Guard of Abrakhân (&W)",
+   "ru": "Страж Абрахана (&W)",
+   "uk_ai": "Варта Абрахана (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPersonalGuard",
+   "type": "Підказка",
+   "en": "The Golden King is always accompanied by three fierce warriors \n Passive ability \n\n When activated, the guards are sacrificed to summon a horde of Wights for 60 seconds\nWights ignore enemy armour and regain health per hit\nEnemy units nearby the Wights lose -20% armour and -25% damage\nLeft click to activate",
+   "ru": "Золотого короля сопровождают три свирепых воина\\nПассивная способность\\n\\nПосле активации, стражники приносятся в жертву, чтобы призвать трех призраков на 60 секунд\\nПризраки игнорируют вражескую броню и восстанавливают свое здоровье, атакуя живых существ\\nВражеские отряды, находящиеся рядом с призраками, теряют -20% брони и -25% урона\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Золотого короля завжди супроводжуватимуть 3 люті воїни\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації вартових приносять у жертву, щоб на 60 сек. прикликати орду привидів\nПривиди ігнорують броню ворогів і відновлюють здоров'я з кожним ударом\nВорожі загони поряд із привидами втрачають 20% броні й 25% пошкоджень\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TheGoldenKingLeadership",
+   "type": "Кнопка",
+   "en": "The Golden King (&R)",
+   "ru": "Золотой король (&R)",
+   "uk_ai": "Золотий король (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTheGoldenKingLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Nearby enemy leaderships are passively nullified \n When near the Black Vizier, the Golden King gains +25% armour \n Passive ability \n\n At rank 5, summons two battalions of Abrakhân Warriors when activated \n Left click to activate",
+   "ru": "Тип модификатора: Лидерство\\nЛидерство ближайших врагов пассивно аннулируется\\nЗолотой король получает +25% брони, находясь рядом с Черным визирем\\nПассивная способность\\n\\nНа уровне 5, призывается два отряда воинов Абрахана\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Тип ефекту: Лідерство\nСкасовує все вороже лідерство поблизу\nПоряд із Чорним візиром Золотий король отримує бонус +25% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nНа 5 рівні після активації прикликає 2 загони воїнів Абрахана\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GoldenKingIntimidation",
+   "type": "Кнопка",
+   "en": "Lord of Wights (&T)",
+   "ru": "Повелитель умертвий (&C)",
+   "uk_ai": "Володар привидів (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipGoldenKingIntimidation",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Targeted enemy units flee in terror and take damage over time for 15 seconds\n Left click then left click target area",
+   "ru": "Требуется уровень 3\\nВраги в радиусе действия разбегаются в ужасе и получают постепенный урон в течение 15 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nВороги в області дії тікають у жаху й 15 сек. поступово отримують пошкодження\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DarkSubjugation",
+   "type": "Кнопка",
+   "en": "Dark Subjugation (&C)",
+   "ru": "Темное подчинение (&C)",
+   "uk_ai": "Темне підкорення (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDarkSubjugation",
+   "type": "Підказка",
+   "en": "Requires Level 7 \n Targeted Haradwaith units gain +200% damage and resistance to fear and terror for 20 seconds \n After 20 seconds have expired, affected units take damage over time for 5 seconds \n Does not affect monsters, heroic units or summoned units\n Left click then left click target units",
+   "ru": "Требуется уровень 7\\nСоюзные отряды Харада в радиусе действия наносят +200% урона и становятся невосприимчивыми к страху и ужасу в течение 20 секунд\\nПо истечении 20 секунд затронутые войска получат постепенный урон в течение 5 секунд\\nНе действует на монстров, героические и призванные отряды\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 7\nОбрані загони Харадвайту на 20 сек. отримують бонус +200% до пошкоджень і стійкість до страху та жаху\nПісля 20 сек. ці загони 5 сек. поступово отримують пошкодження\nНе діє на створінь, героїв і прикликані загони\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TheKingUnmasked",
+   "type": "Кнопка",
+   "en": "The King Unmasked (&V)",
+   "ru": "Король без маски (&V)",
+   "uk_ai": "Король без маски (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTheKingUnmasked",
+   "type": "Підказка",
+   "en": "Requires Level 10 \n The Golden King of Harad reveals himself to be Hoarmûrath, Third of the Nine \n Hoarmûrath gains +50% attack damage and +25% armour, plus additional poison damage \n Enemy units close to Hoarmûrath suffer damage over time \n Passive ability  \n\n When activated, Hoarmûrath continually summons temporary,\nsingle Risen Husks from the earth for 60 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 10\\nЗолотой король Харада предстает перед всеми как Хоармурат, Третий из Девяти\\nХоармурат наносит +50% урона и дополнительный урон ядом\\nВраги рядом с Хоармуратом получают периодический урон\\nПассивная способность\\n\\nПосле активации, Хоармурат непрерывно призывает из земли временных одиночных восставших мумий в течение 60 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10\nЗолотий король Хараду відкриває, що він — Хоармурат, Третій із Дев'яти\nХоармурат отримує бонус +50% до пошкоджень від атак і +25% броні, а також завдає додаткових пошкоджень отрутою\nВорожі загони поряд із Хоармуратом поступово отримують пошкодження\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації Хоармурат 60 сек. безперервно по одному прикликає\n з-під землі повсталих мерців\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

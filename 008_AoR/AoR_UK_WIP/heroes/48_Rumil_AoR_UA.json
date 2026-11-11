@@ -1,0 +1,116 @@
+{
+ "meta": {
+  "hero": "Rumil",
+  "uk_name": "Руміл",
+  "campaigns": [
+   "FotR",
+   "TTT"
+  ],
+  "missions": [
+   "Lothlorien",
+   "HelmsDeep"
+  ],
+  "templates": {
+   "кампанія": [
+    "ElvenRumil"
+   ],
+   "битва": [
+    "ElvenRumil"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею.",
+  "see_also": "Спільні з іншими героями рядки є лише в одному файлі: Haldir"
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:ElvenRumil",
+   "type": "Ім'я",
+   "en": "Rumil",
+   "ru": "Румиль",
+   "uk_ai": "Руміл",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGwedhanarLeadershipRumil",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Haldir and Orophin gain +10% damage and +5% experience gain\nDoes not stack\nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nХалдир и Орофин наносят +10% урона и набирают опыт на +5% быстрее, находясь рядом с Румилем\\nНе сочетается\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nГалдір і Орофін отримують бонус +10% до пошкоджень і на 5% швидше набирають досвід\nНе поєднується\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RumilWoundingArrow",
+   "type": "Кнопка",
+   "en": "Cúthalion (&R)",
+   "ru": "Cûthalion (&R)",
+   "uk_ai": "Тугий лук (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRumilWoundingArrow",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Single ranged attack\nCauses target monster to flee\nLeft click icon then left click on target",
+   "ru": "Требуется уровень 3\\nОдиночная дальняя атака\\nОбращает монстров в бегство\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 3\nОдиночний постріл\nОбране створіння тікає\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RumilLeadership",
+   "type": "Кнопка",
+   "en": "Sentinel of the Naith",
+   "ru": "Хранитель Наит",
+   "uk_ai": "Страж Наїту",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRumilLeadership",
+   "type": "Підказка",
+   "en": "Requires Level 6 \n Modifier Type: Leadership \n Nearby Silvan Scouts, Silvan Levy, Silvan Sentries and Marchwardens gain +50% vision range and archers gain +15% attack range\n Passive ability",
+   "ru": "Требуется уровень 6\\nТип модификатора: Лидерство\\nБлижайшие следопыты сильван, ополченцы-сильван, стражи сильван и стражи рубежей получают +50% обзора, а лучники Лориэна получают +15% дальности атаки\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 6\nТип ефекту: Лідерство\nСильванські розвідники, сильванське ополчення, сильванські вартові й прикордонні вартові поблизу отримують бонус +50% дальності огляду, а лучники — +15% дальності атаки\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RumilSummon",
+   "type": "Кнопка",
+   "en": "Feigned Voices (&C)",
+   "ru": "Мнимые голоса (&C)",
+   "uk_ai": "Удавані голоси (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRumilSummon",
+   "type": "Підказка",
+   "en": "Requires Level 8 \nSummons an illusion of Silvan Scouts at the target location \n Illusion archers' arrows deal no damage but debuff enemy units' speed and damage by 33% for 3 seconds\nDoes not affect heroic units or heroes\nLeft click icon then left click on pathable location",
+   "ru": "Требуется уровень 8\\nПризыв иллюзий сильван-лучников в область действия\\nИллюзорные лучники не наносят урона своими атаками, а вместо этого снижают скорость и урон врагов на -33% в течение 3 секунд\\nНе могут ослабить героев и героические отряды\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 8\nСтворює в обраному місці примару сильванських розвідників\nСтріли примарних лучників не завдають пошкоджень, але на 3 сек. знижують швидкість і пошкодження ворожих загонів на 33%\nНе діє на героїчні загони й героїв\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRumilWoundingArrowGifts",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Single ranged attack\nTarget enemy hero is slowed down by -75% for 10 seconds\nCauses target monster to flee\nLeft click icon then left click on target",
+   "ru": "Требуется уровень 3\\nОдиночная атака дальнего боя\\nВражеский герой замедляется на -75% в течение 10 секунд\\nОбращает монстров в бегство\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 3\nОдиночний постріл\nОбраний ворожий герой на 10 сек. сповільнюється на 75%\nОбране створіння тікає\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

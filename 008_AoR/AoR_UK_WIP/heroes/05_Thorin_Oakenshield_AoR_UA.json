@@ -1,0 +1,229 @@
+{
+ "meta": {
+  "hero": "Thorin Oakenshield",
+  "uk_name": "Торін Дубощит",
+  "campaigns": [
+   "Hobbit",
+   "FotR",
+   "RotK"
+  ],
+  "missions": [
+   "Destruction",
+   "Council",
+   "BattleofDale"
+  ],
+  "templates": {
+   "кампанія": [
+    "DwarvenThorin",
+    "YoungThorin"
+   ],
+   "битва": [
+    "DwarvenThorin",
+    "YoungThorin"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:DwarvenThorin",
+   "type": "Ім'я",
+   "en": "Thorin Oakenshield",
+   "ru": "Торин Дубощит",
+   "uk_ai": "Торін Дубощит",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleStanceHoldGroundThorin",
+   "type": "Підказка",
+   "en": "Shortcut: G \n +10% armour, -20% damage, -10% speed \nModifier Type: Leadership\nWhen Thorin attacks, nearby troops gain +33% armour for 8 seconds",
+   "ru": "Горячая клавиша: G\\n+10% брони, -20% урона, -10% скорости\\nТип модификатора: Лидерство\\nКогда Торин атакует, ближайшие союзные отряды получают +33% брони на 8 секунд",
+   "uk_ai": "Гаряча клавіша: G\n+10% броні, -20% пошкоджень, -10% швидкості\nТип ефекту: Лідерство\nКоли Торін атакує, загони поблизу на 8 сек. отримують бонус +33% броні",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ThorinLeadership",
+   "type": "Кнопка",
+   "en": "King Under the Mountain",
+   "ru": "Король-под-Горой",
+   "uk_ai": "Король-під-Горою",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipThorinLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Dwarves near Thorin gain 25% armour, resistance to fear and terror and earn experience 50% faster \nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nГномы рядом с Торином получают +25% брони, набирают опыт на +50% быстрее и становятся невосприимчивыми к страху и ужасу\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nДворфи поряд із Торіном отримують бонус +25% броні, стійкість до страху та жаху й на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ThorinResentment",
+   "type": "Кнопка",
+   "en": "Resentment (&R)",
+   "ru": "Негодование (&R)",
+   "uk_ai": "Пригнічення (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipThorinResentment",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Modifier Type: Active Debuff \n Targeted enemy units suffer -20% speed and -30% armour for 30 seconds\n Nullifies enemy leadership \n Left click icon then left click on target units",
+   "ru": "Требуется уровень 3\\nТип модификатора: Ослабление\\nВражеские отряды в области действия теряют -30% брони и -20% скорости передвижения в течение 30 секунд\\nОтменяет вражеское лидерство\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Активне ослаблення\nОбрані ворожі загони на 30 сек. отримують штраф -20% швидкості й -30% броні\nСкасовує вороже лідерство\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ThorinOrcrist",
+   "type": "Кнопка",
+   "en": "Goblin-Cleaver (&T)",
+   "ru": "Оркрист (&T)",
+   "uk_ai": "Оркрист — Гобліноруб (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipThorinOrcrist",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Thorin gains +75% magic damage and +100% armour for 30 seconds\n Left click to activate",
+   "ru": "Требуется уровень 5\\nТорин наносит +75% магического урона и получает +100% брони на 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nТорін на 30 сек. отримує бонус +75% до пошкоджень від магії і +100% броні\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ThorinRestoration",
+   "type": "Кнопка",
+   "en": "Driven By Prophecy (&C)",
+   "ru": "Ведомый пророчеством (&C)",
+   "uk_ai": "За покликом пророцтва (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipThorinRestoration",
+   "type": "Підказка",
+   "en": "Requires Level 7 \n Heals nearby allies and fully refreshes\ntheir special ability timers \n Left click icon then left click on target area",
+   "ru": "Требуется уровень 7\\nТорин исцеляет выбранных союзников и полностью перезаряжает их способности\\nЩелкните левой кнопкой мыши на значок, затем на целевой участок местности",
+   "uk_ai": "Необхідно: Рівень 7\nЗцілює союзників поблизу й повністю скидає таймер\nвідновлення їхніх здібностей\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ThorinDuBekar",
+   "type": "Кнопка",
+   "en": "Du Bekar! (&V)",
+   "ru": "Du Bekar! (&V)",
+   "uk_ai": "До зброї! (&V)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipThorinDuBekar",
+   "type": "Підказка",
+   "en": "Requires Level 10 \n Modifier Type: Spell \n Thorin and nearby allies gain resistance to knockback, +75% damage and +20% speed for 30 seconds\nThorin can crush enemies\n Enemies in wide radius around Thorin are stunned in fear for 15 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 10\\nТип модификатора: Заклинание\\nТорин и ближайшие союзники наносят +75% урона, получают +20% скорости передвижения и сопротивление отбрасыванию в течение 30 секунд\\nТорин может сокрушать врагов\\nВраги в большом радиусе вокруг Торина цепенеют от страха в теченеи 15 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10\nТип ефекту: Заклинання\nТорін і союзники поблизу на 30 сек. отримують стійкість до відкидання, +75% до пошкоджень і +20% швидкості\nТорін може топтати ворогів\nВороги в широкому радіусі навколо Торіна на 15 сек. будуть приголомшені страхом\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ThorinOrcristCampaign",
+   "type": "Кнопка",
+   "en": "Goblin-Cleaver (&R)",
+   "ru": "Оркрист (&R)",
+   "uk_ai": "Оркрист — Гобліноруб (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipThorinOrcristCampaign",
+   "type": "Підказка",
+   "en": "Thorin gains +75% magic damage and +100% armour for 30 seconds\n Left click to activate",
+   "ru": "Торин наносит +75% магического урона и получает +100% брони на 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Торін на 30 сек. отримує бонус +75% до пошкоджень від магії і +100% броні\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:YoungThorinLeadership",
+   "type": "Кнопка",
+   "en": "Prince of Erebor",
+   "ru": "Наследник Эребора",
+   "uk_ai": "Принц Еребору",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipYoungThorinLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Allies near King Thorin gain +33% damage, +33% armour, and earn experience 50% faster \nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nСоюзники рядом с королем Торином наносят +33% урона, получают +33% брони и набирают опыт на +50% быстрее\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзники поряд із королем Торіном отримують бонус +33% до пошкоджень, +33% броні й на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:YoungThorinOakenshield",
+   "type": "Кнопка",
+   "en": "Oakenshield (&R)",
+   "ru": "Дубощит (&R)",
+   "uk_ai": "Дубощит (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipYoungThorinOakenshield",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Thorin gains\n+75% magic damage and +100% armour for 30 seconds\n Left click to activate",
+   "ru": "Требуется уровень 3\\nТорин наносит +75% урона магией и получает +100% брони на 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nТорін отримує бонус\n+75% до пошкоджень від магії і +100% броні на 30 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:YoungThorinDuBekar",
+   "type": "Кнопка",
+   "en": "Du Bekar! (&T)",
+   "ru": "Du Bekar! (&T)",
+   "uk_ai": "До зброї! (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipYoungThorinDuBekar",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Modifier Type: Spell \n Thorin and nearby allies gain resistance to knockback, +75% armour and +20% speed for 30 seconds \nLeft click to activate",
+   "ru": "Требуется уровень 5\\nТип модификатора: Заклинание\\nТорин и ближайшие союзники получают +75% брони, сопротивление отбрасыванию и +20% скорости передвижения,а также могут сокрушать врагов в течение 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Заклинання\nТорін і союзники поблизу на 30 сек. отримують стійкість до відкидання, +75% броні й +20% швидкості\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

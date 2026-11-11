@@ -1,0 +1,106 @@
+{
+ "meta": {
+  "hero": "Câssimir",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Harad"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "HaradCassimir"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:HaradCassimir",
+   "type": "Ім'я",
+   "en": "Câssimir",
+   "ru": "Кассимир",
+   "uk_ai": "Кассімір",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:LordofStones",
+   "type": "Кнопка",
+   "en": "Lord of Stones (&W)",
+   "ru": "Повелитель камней (&W)",
+   "uk_ai": "Володар каменів (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLordofStones",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nNearby Black Númenórean units gain +25% armour, +33% damage, and +25% experience\nPassive ability\n\n Requires Level 8\nModifier Type: Spell\n All nearby friendly units +50% armour for 30 seconds\nLeft click to activate",
+   "ru": "Тип модификатора: Лидерство\\nБлижайшие отряды черных нуменорцев наносят +33% урона, получают +33% брони и набирают опыт на +25% быстрее\\nПассивная способность\\n\\nТребуется уровень 8\\nТип модификатора: Заклинание\\nВсе ближайшие дружественные отряды получают +50% брони на 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Тип ефекту: Лідерство\nЗагони чорних нуменорців поблизу отримують бонус +25% броні, +33% до пошкоджень і на 25% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nНеобхідно: Рівень 8\nТип ефекту: Заклинання\nУсі союзні загони поблизу на 30 сек. отримують бонус +50% броні\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CassimirMount",
+   "type": "Кнопка",
+   "en": "Mount / Dismount (&R)",
+   "ru": "Сесть верхом / спешиться (&R)",
+   "uk_ai": "Сісти верхи / Спішитися (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RuleoftheKingsMen",
+   "type": "Кнопка",
+   "en": "Rule of the King's Men (&T)",
+   "ru": "Власть короля людей (&T)",
+   "uk_ai": "Влада людей короля (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipRuleoftheKingsMen",
+   "type": "Підказка",
+   "en": "Requires Level 3\nCâssimir plants the Banner of the King's Men\nNearby units gain resistance to fear, terror and knockback\n Nearby battalions will replenish fallen units\nBanner lasts for 60 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 3\\nКассимир устанавливает Знамя Короля людей\\nБлижайшие отряды получают сопротивление отбрасыванию и становятся невосприимчивыми к страху и ужасу\\nСоюзные отряды пополняются, находясь рядом со знаменем\\nЗнамя действует в течение 60 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nКассімір встановлює стяг людей короля\nЗагони поблизу отримують стійкість до страху, жаху й відкидання\nЗагони поблизу поновлюють полеглих\nСтяг стоїть 60 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ColdJudgement",
+   "type": "Кнопка",
+   "en": "Cold Judgement (&C)",
+   "ru": "Хладнокровный приговор (&C)",
+   "uk_ai": "Холодний вирок (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipColdJudgement",
+   "type": "Підказка",
+   "en": "Requires Level 6 \n Enemy units within the radius are stunned for 5 seconds and have -33% armour for 10 seconds\n Left click icon then left click on target",
+   "ru": "Требуется уровень 6\\nВражеские войска в радиусе действия оглушаются и теряют -33% брони на 5 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 6\nВорожі загони в радіусі дії на 5 сек. стають приголомшеними й на 10 сек. отримують штраф -33% броні\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HewerofRanks",
+   "type": "Кнопка",
+   "en": "Hewer of Ranks (&V)",
+   "ru": "Каменотес (&V)",
+   "uk_ai": "Трощитель лав (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHewerofRanks",
+   "type": "Підказка",
+   "en": "Required: Rank 9 \n Câssimir knocks down and pins target hero for 15 seconds\n Normal units are knocked down and damaged \n Subsequently, Câssimir's damage and armour are increased by 50% for 30 seconds\n left click then click on target",
+   "ru": "Требуется уровень 9\\nКассимир сбивает с ног и обездвиживает вражеского героя на 15 секунд\\nВражеские войска сбиваются с ног и получают урон\\nУрон и броня Кассимира увеличиваются на +50% в течение 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 9\nКассімір збиває з ніг і на 15 сек. знерухомлює обраного героя\nЗвичайні загони збиває з ніг і завдає їм пошкоджень\nБроня та пошкодження Кассіміра на 30 сек. зростають на 50%\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

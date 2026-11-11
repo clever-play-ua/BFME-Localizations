@@ -1,0 +1,254 @@
+{
+ "meta": {
+  "hero": "Gimli",
+  "uk_name": "Ґімлі",
+  "campaigns": [
+   "FotR",
+   "TTT",
+   "RotK"
+  ],
+  "missions": [
+   "Party",
+   "Council",
+   "Redhorn",
+   "Moria",
+   "Khazad",
+   "Lothlorien",
+   "AmonHen",
+   "FordsofIsen",
+   "TamingofSmeagol",
+   "EavesofFangorn",
+   "DurinsTower",
+   "Ithilien",
+   "Westfold",
+   "GreyCompany",
+   "Osgiliath",
+   "HelmsDeep",
+   "Isengard",
+   "LordoftheRings",
+   "LightingoftheBeacons",
+   "PathsoftheDead",
+   "Pelargir",
+   "MinasTirithOuter",
+   "CirithUngol",
+   "MinasTirithInner",
+   "PelennorFields",
+   "BlackGate",
+   "ManyPartings",
+   "ScouringoftheShire",
+   "GreyHavens"
+  ],
+  "templates": {
+   "кампанія": [
+    "FellowshipGimli",
+    "RohanGimli"
+   ],
+   "битва": [
+    "DwarvenGimli",
+    "DwarvenGimli_Adventure",
+    "FellowshipGimli_GC",
+    "RohanGimli"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:RohanGimli",
+   "type": "Ім'я",
+   "en": "Gimli",
+   "ru": "Гимли",
+   "uk_ai": "Ґімлі",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AxeThrow",
+   "type": "Кнопка",
+   "en": "Axe Throw (&W)",
+   "ru": "Бросок топора (&W)",
+   "uk_ai": "Кидок сокири (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAxeThrow",
+   "type": "Підказка",
+   "en": "Powerful ranged attack with radius damage \n Left click icon then left click on target",
+   "ru": "Мощная дальняя атака с уроном по площади\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Потужна атака на відстані з пошкодженнями по площі \n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:EnduringWrath",
+   "type": "Кнопка",
+   "en": "Enduring Wrath",
+   "ru": "Пробужденная ярость",
+   "uk_ai": "Невгасимий гнів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEnduringWrath",
+   "type": "Підказка",
+   "en": "Requires Level 3\nConsecutive attacks temporarily increase Gimli's armour by 5% up to a maximum of 25% \n Passive ability",
+   "ru": "Требуется уровень 3\\nПоследовательные атаки временно увеличивают броню Гимли на +5% до максимума в +25%\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 3\nКожна наступна атака тимчасово збільшує броню Ґімлі на 5%, максимум до 25%\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellowshipLeap",
+   "type": "Кнопка",
+   "en": "Nobody Tosses A Dwarf (&T)",
+   "ru": "Никто не смеет бросать гномов! (&T)",
+   "uk_ai": "Дворфа ніхто не кидає (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellowshipLeap",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Gimli jumps to a location causing area-effect damage \n Left click icon then left click on target area",
+   "ru": "Требуется уровень 3\\nГимли совершает прыжок, нанося урон и отбрасывая врагов в радиусе действия\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 3\nҐімлі стрибає в обране місце й завдає пошкоджень по площі\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellowshipSlayer",
+   "type": "Кнопка",
+   "en": "Stubborn Pride (&C)",
+   "ru": "Упрямство гномов (&C)",
+   "uk_ai": "Уперта гордість (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCampaignSlayer",
+   "type": "Підказка",
+   "en": "Requires Level 6 \n Gimli gains +50% armour, +33% speed and deals knockback for 30 seconds\n Left click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 6\nҐімлі отримує бонус +50% броні, +33% швидкості й відкидає ворогів своїми ударами на 30 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElfFriendCampaign",
+   "type": "Кнопка",
+   "en": "Elf-friend",
+   "ru": "Друг-эльф",
+   "uk_ai": "Друг ельфів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElfFriendCampaign",
+   "type": "Підказка",
+   "en": "Requires Level 10\nModifier Type: Leadership \n Legolas gains +10% damage and armour when near Gimli\n Passive ability",
+   "ru": "Требуется уровень 10\\nТип модификатора: Лидерство\\nЛеголас наносит +10% урона и получает +10% брони, находясь рядом с Гимли\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 10\nТип ефекту: Лідерство\nПоряд із Ґімлі Леґолас отримує бонус +10% до пошкоджень і броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:Leap",
+   "type": "Кнопка",
+   "en": "&Leap Attack",
+   "ru": "Удар в прыжке (&L)",
+   "uk_ai": "Удар у стрибку (&L)",
+   "status": "RotWK UA",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLeap",
+   "type": "Підказка",
+   "en": "Requires Level 2 \n Gimli jumps to a location causing area-effect damage \n Left click icon then left click on target area",
+   "ru": "Требуется уровень 2\\nГимли совершает прыжок, нанося урон и отбрасывая врагов в радиусе действия\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 2 \n Ґімлі робить стрибок, завдаючи пошкоджень ворогам, що виявилися поруч. \n Клікніть на іконку, потім оберіть ділянку",
+   "status": "RotWK UA",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:Slayer",
+   "type": "Кнопка",
+   "en": "Slaye&r",
+   "ru": "Убийца (&R)",
+   "uk_ai": "Вбивця (&R)",
+   "status": "RotWK UA",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSlayer",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Gimli gains +100% damage and\nincreased attack and movement speed \n Left click to activate",
+   "ru": "Требуется уровень 5\\nГимли наносит +100% урона, скорость его передвижения увеличивается\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nҐімлі отримує бонус +100% до пошкоджень і\nшвидше атакує та рухається\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:ToolTipDwarvenGimliAxeThrow",
+   "type": "Підказка",
+   "en": "Powerful ranged attack with radius damage\nTarget enemy hero is slowed by -50% for 10 seconds\nLeft click icon then left click on target",
+   "ru": "Мощная дальняя атака с уроном по площади\\nПри попадании во вражеского героя он замедляется на -50% в течение 10 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Потужна атака на відстані з пошкодженнями по площі\nОбраний ворожий герой сповільнюється на 50% на 10 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToggleGimliWeapons",
+   "type": "Кнопка",
+   "en": "Axemaster (&R)",
+   "ru": "Мастер топора (&R)",
+   "uk_ai": "Майстер сокири (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleGimliWeapons",
+   "type": "Підказка",
+   "en": "Left click to toggle between Balin's Axe (double-headed) and Glóin's Axe (walking axe)\nBalin's Axe grants +33% armour and splash damage\nGlóin's Axe grants +10% movement speed and +50% attack speed",
+   "ru": "ЛКМ для переключения между топором Балина (двуглавый топор) и топором Глоина (походный топор)\\nТопор Балина дает +33% брони и позволяет наносить урон по области\\nТопор Глоина дает +10% скорости передвижения и +50% скорости атаки",
+   "uk_ai": "Клікніть, щоб перемкнутися між сокирою Баліна (дволезовою) та сокирою Ґлоїна (похідною)\nСокира Баліна дає бонус +33% броні й пошкодження по площі\nСокира Ґлоїна дає бонус +10% швидкості руху й +50% швидкості атаки",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEreborSlayer",
+   "type": "Підказка",
+   "en": "Requires Level 6 \n Gimli gains +50% damage and +33% speed for 30 seconds\n Left click to activate",
+   "ru": "Требуется уровень 6\\nГимли наносит +50% урона и получает +33% скорости передвижения на 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 6\nНа 30 сек. Ґімлі отримує бонус +50% до пошкоджень і +33% швидкості\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GimliElfFriend",
+   "type": "Кнопка",
+   "en": "Elf-friend (&V)",
+   "ru": "Друг-эльф (&V)",
+   "uk_ai": "Друг ельфів (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipGimliElfFriend",
+   "type": "Підказка",
+   "en": "Requires Level 10\nSummons Legolas Greenleaf to the battlefield\nLeft click to activate",
+   "ru": "Требуется уровень 10\\nПризвать Леголаса на поле боя\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10\nПрикликає Леґоласа Зеленолиста на поле бою\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

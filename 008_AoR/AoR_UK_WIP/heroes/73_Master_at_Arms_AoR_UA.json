@@ -1,0 +1,85 @@
+{
+ "meta": {
+  "hero": "Master-at-Arms",
+  "uk_name": "Майстер-зброяр",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "LightingoftheBeacons"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignMasteratArms"
+   ],
+   "битва": []
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:CampaignMasteratArms",
+   "type": "Ім'я",
+   "en": "Master-at-Arms",
+   "ru": "",
+   "uk_ai": "Майстер-зброяр",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:StrongThrust",
+   "type": "Кнопка",
+   "en": "Strong Thrust (&W)",
+   "ru": "",
+   "uk_ai": "Потужний випад (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipStrongThrust",
+   "type": "Підказка",
+   "en": "The Master-at-Arms thrusts his sword, knocking back enemy units in a straight line\n Left click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Майстер зброї робить випад мечем, відкидаючи ворожі загони по прямій\n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityRaiseShield",
+   "type": "Кнопка",
+   "en": "Raise Shield (&R)",
+   "ru": "",
+   "uk_ai": "Підняти щит (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipSpecialAbilityRaiseShield",
+   "type": "Підказка",
+   "en": "The Master-at-Arms raises his shield, gaining +300% armour for 20 seconds",
+   "ru": "",
+   "uk_ai": "Майстер зброї піднімає щит і отримує бонус +300% броні на 20 сек.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityEndPractice",
+   "type": "Кнопка",
+   "en": "End Practice",
+   "ru": "",
+   "uk_ai": "Завершити тренування",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipSpecialAbilityEndPractice",
+   "type": "Підказка",
+   "en": "Requires five rounds to have been beaten \n Finish practice early",
+   "ru": "",
+   "uk_ai": "Потрібно перемогти в п'яти раундах \n Завершити тренування достроково",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

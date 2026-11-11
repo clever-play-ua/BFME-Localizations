@@ -1,0 +1,94 @@
+{
+ "meta": {
+  "hero": "Halbarad Dúnadan",
+  "uk_name": "Галбарад Дунадан",
+  "campaigns": [
+   "FotR",
+   "TTT",
+   "RotK"
+  ],
+  "missions": [
+   "Party",
+   "GreyCompany",
+   "LordoftheRings",
+   "LightingoftheBeacons",
+   "PathsoftheDead",
+   "Pelargir",
+   "CirithUngol",
+   "PelennorFields",
+   "BlackGate",
+   "ManyPartings",
+   "ScouringoftheShire",
+   "GreyHavens"
+  ],
+  "templates": {
+   "кампанія": [
+    "ArnorHalbarad",
+    "CampaignHalbarad"
+   ],
+   "битва": [
+    "ArnorHalbarad"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею.",
+  "see_also": "Спільні з іншими героями рядки є лише в одному файлі: Elladan"
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:ArnorHalbarad",
+   "type": "Ім'я",
+   "en": "Halbarad Dúnadan",
+   "ru": "Хальбарад Дунэдайн",
+   "uk_ai": "Галбарад Дунадан",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHalbaradPerseverance",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Nearby Dúnedain gain +30% armour and +50% resistance to knockback for 30 seconds\n At level 7 summons four single Grey Company Rangers around Halbarad \n Left click to activate",
+   "ru": "Требуется уровень 5\\nБлижайшие дунэдайн получают +30% брони и +50% сопротивления отбрасыванию на 30 секунд\\nНа уровне 7, призывает четырех одиночных следопытов Серой компании\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nДунедайн поблизу на 30 сек. отримують бонус +30% броні й +50% стійкості до відкидання\nНа 7 рівні прикликає навколо Галбарада 4 слідопитів Сірого загону\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HalbaradHiddenVolley",
+   "type": "Кнопка",
+   "en": "Hidden Volley (&R)",
+   "ru": "Скрытый залп (&R)",
+   "uk_ai": "Прихований залп (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHalbaradHiddenVolley",
+   "type": "Підказка",
+   "en": "Halbarad calls his rangers to bombard anywhere within a great radius with a volley of arrows \nLeft click icon then left click on target area",
+   "ru": "Хальбарад приказывает своим следопытам обстрелять участок в большом радиусе залпом стрел\\nЩелкните левой кнопкой мыши на значок, затем по целевую область",
+   "uk_ai": "Галбарад наказує слідопитам обстріляти будь-яке місце у великому радіусі залпом стріл \nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HalbaradDevotedCaptain",
+   "type": "Кнопка",
+   "en": "Devoted Captain (&T)",
+   "ru": "Преданный капитан (&T)",
+   "uk_ai": "Відданий капітан (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipHalbaradDevotedCaptain",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Halbarad teleports to a nearby friendly hero\nWhen Halbarad arrives, nearby enemy units lose 20% armour for 30 seconds\nLeft click then left click target",
+   "ru": "Требуется уровень 3\\nХалбарад телепортируется к ближайшему дружественному герою\\nВражеские отряды теряют -20% брони на 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 3 \n Галбарад телепортується до союзного героя поблизу\nКоли Галбарад з'являється, ворожі загони поблизу втрачають 20% броні на 30 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

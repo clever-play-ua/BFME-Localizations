@@ -1,0 +1,118 @@
+{
+ "meta": {
+  "hero": "Bill Ferny",
+  "uk_name": "Білл Ферні",
+  "faction (ini Side)": [
+   "Fellowship"
+  ],
+  "alternate factions": [
+   "ruffians",
+   "scouring"
+  ],
+  "templates": [
+   "CampaignBillFerny"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:CampaignBillFerny",
+   "type": "Ім'я",
+   "en": "Bill Ferny",
+   "ru": "",
+   "uk_ai": "Білл Ферні",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FernyUnsavoury",
+   "type": "Кнопка",
+   "en": "Unsavoury Company (&W)",
+   "ru": "",
+   "uk_ai": "Сумнівна компанія (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFernyUnsavoury",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\n For every 15 allied Ruffian units nearby, Bill Ferny gains\n+5% damage and armour to a maximum of 25%\nNearby Ruffians gain +15% damage and armour and earn experience +25% faster\n Passive ability\n\n At Level 5, summons two battalions of Press Gang when activated\nAt rank 10, includes an additional battalion of Half-orc Bulwarks\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Лідерство\nЗа кожні 15 союзних одиниць розбійників поблизу Білл Ферні отримує бонус\n+5% до пошкоджень і броні, до максимуму 25%\nРозбійники поблизу отримують бонус +15% до пошкоджень і броні й на 25% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nНа 5 рівні після активації прикликає 2 загони вербувальників\nНа 10 рівні до них додається 1 загін напіворків-заслонів\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FernyBigMan",
+   "type": "Кнопка",
+   "en": "Chief's Big Man",
+   "ru": "",
+   "uk_ai": "Довірена особа",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFernyBigMan",
+   "type": "Підказка",
+   "en": "Requires Level 3\nBill Ferny and nearby Ruffians steal resources per hit from enemy structures and are healed per hit when attacking enemy units\nPassive ability",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3\nБілл Ферні й розбійники поблизу з кожним ударом мародерять ресурси з ворожих споруд, а атакуючи ворожі загони, відновлюють здоров'я\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FernyInsideJob",
+   "type": "Кнопка",
+   "en": "Inside Job (&T)",
+   "ru": "",
+   "uk_ai": "Робота зсередини (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFernyInsideJob",
+   "type": "Підказка",
+   "en": "Requires Level 6\nDisables target enemy structure for 30 seconds and grants vision of surrounding area for 60 seconds\nLeft click then left click on target",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 6\nДеактивує вказану ворожу споруду на 30 сек. і дозволяє бачити навколо неї на 60 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FernyFilthyCoward",
+   "type": "Кнопка",
+   "en": "Filthy Coward",
+   "ru": "",
+   "uk_ai": "Брудний боягуз",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipFernyFilthyCoward",
+   "type": "Підказка",
+   "en": "Requires Level 8\nWhen Bill Ferny reaches low health he becomes invulnerable but cannot attack for 15 seconds\nCannot be triggered again for 90 seconds\nPassive ability",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 8\nКоли здоров'я Білла Ферні падає до критичного рівня, він стає невразливим, але на 15 сек. не може атакувати\nПовторно спрацьовує не раніше ніж за 90 сек.\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FernyCoercion",
+   "type": "Кнопка",
+   "en": "Coercion (&V)",
+   "ru": "",
+   "uk_ai": "Примус (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFernyCoercion",
+   "type": "Підказка",
+   "en": "Requires Level 10\nTakes control of single enemy battalion for 30 seconds\n Cannot be used on heroic units \n Left click icon then left click on target enemies",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 10\nНа 30 сек. підкоряє собі 1 ворожий загін\nНе діє на героїв\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

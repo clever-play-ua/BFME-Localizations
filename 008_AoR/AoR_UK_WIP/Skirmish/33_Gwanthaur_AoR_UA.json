@@ -1,0 +1,97 @@
+{
+ "meta": {
+  "hero": "Gwanthaur",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Guldur"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "GuldurGwanthaur"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:GuldurGwanthaur",
+   "type": "Ім'я",
+   "en": "Gwanthaur",
+   "ru": "Гвантаур",
+   "uk_ai": "Ґвантаур",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GwanthaurSoulTrap",
+   "type": "Кнопка",
+   "en": "Soul Trap (&W)",
+   "ru": "Ловец душ (&W)",
+   "uk_ai": "Пастка для душ (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGwanthaurSoulTrap",
+   "type": "Підказка",
+   "en": "Enemy units within the radius take damage over time\nIf a unit dies, the Gwanthaur receives +5% armour and damage for 8 seconds\nStacks up to 25% armour and damage\nLeft click icon then left click on target area",
+   "ru": "Вражеские войска в радиусе получают урон\\nЗа каждого погибшего врага Гвантаур получает +5% брони и наносит +5% урона в течение 8 cекунд\\nСуммируется до максимума в +25% урона и +25% брони\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Ворожі загони в радіусі дії поступово отримують пошкодження\nКоли загін гине, Ґвантаур на 8 сек. отримує бонус +5% броні й пошкоджень\nНакопичується до +25% броні й пошкоджень\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GwanthaurSacrifice",
+   "type": "Кнопка",
+   "en": "Sacrifice (&R)",
+   "ru": "Жертва (&R)",
+   "uk_ai": "Необхідна жертва (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGwanthaurSacrifice",
+   "type": "Підказка",
+   "en": "The Gwanthaur can target an enemy or friendly unit to devour them and regain 20% health and deal +33% damage for 15 seconds\nLeft click icon then left click on target",
+   "ru": "Гвантаур может схватить союзного или вражеского воина, чтобы поглотить его\\nГвантаур восстанавливает 20% здоровья и наносит +33% урона в течение 15 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Ґвантаур пожирає обраний ворожий чи союзний загін: Завдяки чому відновлює 20% здоров'я й на 15 сек. завдає на 33% більше пошкоджень\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GwanthaurReclamation",
+   "type": "Кнопка",
+   "en": "Dark Reclamation (&T)",
+   "ru": "Темное восстановление (&T)",
+   "uk_ai": "Темне відновлення (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGwanthaurReclamation",
+   "type": "Підказка",
+   "en": "Targeted structure is destroyed\nTwisted trees appear in its place\nDoesn't affect Fortresses\nLeft click icon then left click on target structure",
+   "ru": "Выбранная постройка уничтожается\\nНа ее месте появляются зараженные деревья\\nНе действует на крепости\\nЩелкните левой кнопкой мыши на значок, затем на целевое строение",
+   "uk_ai": "Обрана споруда знищується\nНа її місці виростають прокляті дерева\nНе діє на фортеці\nКлікніть на іконку, потім оберіть споруду",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GwanthaurExpulsion",
+   "type": "Кнопка",
+   "en": "Expulsion (&C)",
+   "ru": "Изгнание (&C)",
+   "uk_ai": "Вигнання (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGwanthaurExpulsion",
+   "type": "Підказка",
+   "en": "Summons a wave of Shades to clear out the enemy\nLeft click icon then left click on target area",
+   "ru": "Призывает волну теней, чтобы уничтожить врагов\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Прикликає хвилю тіней, що зметає ворогів\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

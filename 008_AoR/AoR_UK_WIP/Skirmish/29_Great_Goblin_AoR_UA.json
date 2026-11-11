@@ -1,0 +1,115 @@
+{
+ "meta": {
+  "hero": "Great Goblin",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Wild"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "WildGreatGoblin"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:WildGreatGoblin",
+   "type": "Ім'я",
+   "en": "Great Goblin",
+   "ru": "Верховный гоблин",
+   "uk_ai": "Верховний ґоблін",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GreatGoblinDemand",
+   "type": "Кнопка",
+   "en": "Goblin King's Demand (&W)",
+   "ru": "Требование Короля гоблинов (&W)",
+   "uk_ai": "Вимога Короля ґоблінів (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGreatGoblinDemand",
+   "type": "Підказка",
+   "en": "Summons a Totem of the Swarm at the target location \n Totem can recruit Goblin-town Warriors and reveal stealthed units \n Maximum of 3 Totems allowed \n Left click then left click target location",
+   "ru": "Верховый гоблин устанавливает тотем роя\\nТотем позволяет призывать Городских гоблинов и обнаруживать скрытых врагов\\nБлижайшие вражеские отряды теряют -25% скорости передвижения\\nОграничение - 3 тотема\\nЩелкните левой кнопкой мыши на значок, затем на целевую точку",
+   "uk_ai": "Прикликає на обрану ділянку тотем рою\nТотем дає змогу наймати воїнів Ґоблінського міста й виявляти невидимі загони\nМаксимум 3 тотеми одночасно\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GreatGoblinLeadership",
+   "type": "Кнопка",
+   "en": "The Goblin King (&R)",
+   "ru": "Король гоблинов (&R)",
+   "uk_ai": "Король ґоблінів (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGreatGoblinLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Nearby Moria Orcs and Goblin-towners gain +33% damage and +33% armour and resistance to fear and terror\nPassive ability \n\n At Level 7 \n Gives targeted units excellent experience \n Left click icon then left click on target units",
+   "ru": "Тип модификатора: Лидерство\\nБлижайшие гоблины наносят +33% урона, получают +33% брони и становятся невосприимчивыми к страху и ужасу\\nПассивная способность\\n\\nНа уровне 7:\\nДает союзным войскам в области действия много опыта\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Тип ефекту: Лідерство\nМорійські орки й мешканці Ґоблінського міста поблизу отримують бонус +33% до пошкоджень і +33% броні та стійкість до страху й жаху\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nНа 7 рівні\nМиттєво наділяє обрані загони великою кількістю досвіду\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GreatGoblinSwarm",
+   "type": "Кнопка",
+   "en": "Swarm (&T)",
+   "ru": "Рой (&W)",
+   "uk_ai": "Рій (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGreatGoblinSwarm",
+   "type": "Підказка",
+   "en": "Requires Level 4 \n Summons three Goblin-town Warrior hordes \n Number of hordes summoned is increased by one with each rank \n\n Modifier Type: Buff \n When activated, nearby Moria-orcs and Goblin-towners gain +15% damage for 20 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 4\\nПризываются три стаи городских гоблинов\\nКоличество призываемых стай аналогично уровню Верховного гоблина\\n\\nТип модификатора: Усиление\\nПосле активации, ближайшие гоблины Мории и городские гоблины наносят +15% урона в течение 20 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 4\nПрикликає 3 орди воїнів Ґоблінського міста\nЗ кожним рівнем прикликає на 1 орду більше\n\nТип ефекту: Посилення\nПісля активації морійські орки й мешканці Ґоблінського міста поблизу на 20 сек. отримують бонус +15% до пошкоджень\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GreatGoblinAntiquarian",
+   "type": "Кнопка",
+   "en": "Antiquarian (&C)",
+   "ru": "Антикварщик (&C)",
+   "uk_ai": "Антиквар (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGreatGoblinAntiquarian",
+   "type": "Підказка",
+   "en": "Requires Level 7 \n The Great Goblin makes a deal on some fine antiques. Be careful though, his eyesight is going and he might get burned. Beware of Dragon Sickness. \n Left click on icon then left click on target area",
+   "ru": "Требуется уровень 7\\nВерховный гоблин заключает сделку на некоторые прекрасные предметы антиквариата. Будьте осторожны, его зрение ухудшается и он может обжечься. Остерегайтесь Драконьего недуга.\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 7\nВерховний ґоблін укладає угоду на деякий вишуканий антикваріат. Та будьте обачні: Зір у нього вже не той, і його можуть ошукати. Стережіться драконячої хвороби.\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GreatGoblinAbominableSong",
+   "type": "Кнопка",
+   "en": "Abominable Song (&V)",
+   "ru": "Отвратительная песня (&V)",
+   "uk_ai": "Огидна пісня (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipGreatGoblinAbominableSong",
+   "type": "Підказка",
+   "en": "Requires Level 9 \nModifier Type: Spell and Active Debuff \n Nearby friendly units gain +33% damage and +33% armour for 30 seconds\n Nearby enemy units suffer -25% damage and -20% armour for 30 second\nNullifies enemy leadership\nLeft click icon to activate",
+   "ru": "Требуется уровень 9\\nТип модификатора: Заклинание и активное ослабление\\nБлижайшие союзные войска наносят +33% урона и получают +33% брони на 30 секунд\\nБлижайшие вражеские войска теряют -25% урона и -20% брони в течение 30 секунд\\nОтменяет вражеское лидерство\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 9\nТип ефекту: Заклинання й активне ослаблення\nСоюзні загони поблизу на 30 сек. отримують бонус +33% до пошкоджень і +33% броні\nВорожі загони поблизу на 30 сек. отримують штраф -25% пошкоджень і -20% броні\nСкасовує вороже лідерство\nКлікніть на іконку, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

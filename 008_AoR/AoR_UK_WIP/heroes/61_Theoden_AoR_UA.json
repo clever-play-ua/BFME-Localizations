@@ -1,0 +1,145 @@
+{
+ "meta": {
+  "hero": "Théoden",
+  "uk_name": "Теоден",
+  "campaigns": [
+   "TTT",
+   "RotK"
+  ],
+  "missions": [
+   "GreyCompany",
+   "HelmsDeep",
+   "PelennorFields"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignTheoden"
+   ],
+   "битва": [
+    "RohanTheoden"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:RohanTheoden",
+   "type": "Ім'я",
+   "en": "Théoden",
+   "ru": "Теоден",
+   "uk_ai": "Теоден",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TheodenLeadership",
+   "type": "Кнопка",
+   "en": "King of Rohan",
+   "ru": "Король Рохана",
+   "uk_ai": "Король Рогану",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTheodenLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Allies near Théoden gain +50% armour, and earn experience 50% faster \n Passive ability",
+   "ru": "Тип модификатора: Лидерство\\nСоюзники рядом с Теоденом получают +50% брони и набирают опыт на +50% быстрее\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзники поряд із Теоденом отримують бонус +50% броні й на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TheodenNewMount",
+   "type": "Кнопка",
+   "en": "Mount Snowmane / Dismount (&R)",
+   "ru": "Оседлать Снежногрива / спешиться (&R)",
+   "uk_ai": "Осідлати Сніжногрива / Спішитися (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TheodenNewMountTooltip",
+   "type": "Підказка",
+   "en": "Left click to switch between \n mounted on Snowmane and on foot",
+   "ru": "ЛКМ - переключение между\\nверхом на Снежногриве\\спешившись",
+   "uk_ai": "Клікніть, щоб перемкнутися між\nверхи на Сніжногриві й пішки",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:StrengthRemembered",
+   "type": "Кнопка",
+   "en": "Strength Remembered (&T)",
+   "ru": "Сила, которую помнят (&T)",
+   "uk_ai": "Згадана сила (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipStrengthRememberedCampaign",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Heals nearby friendly units and heroes \n Left click to activate",
+   "ru": "Требуется уровень 3\\nИсцеляет ближайших союзников\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3 \n Зцілює союзні загони й героїв поблизу \n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GloriousCharge",
+   "type": "Кнопка",
+   "en": "Arise, Riders of Théoden! (&C)",
+   "ru": "Сражение в гневе (&C)",
+   "uk_ai": "Вставайте, Вершники Теодена! (&C)",
+   "status": "вичитано",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGloriousCharge",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Théoden must be mounted to use ability \n Modifier Type: Spell \n Théoden and nearby cavalry gain +100% armour and immunity to fear and terror for 20 seconds\n The more riders near Théoden, the larger the bonus \n(+10% armour per battalion, up to additional +100%)\n No force can slow this charge \n Left click to activate",
+   "ru": "Требуется уровень 5\\nТеоден должен быть в седле\\nТип модификатора: Заклинание\\nТеоден и ближайшие всадники получают +100% брони и становятся невосприимчивыми к страху и ужасу в течение 20 секунд\\nЧем больше всадников рядом с Теоденом, тем больше бонус\\n(+10% брони за каждый отряд до максимума в +100%)\\nНикакая сила не может замедлить этот натиск\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nЗдібність доступна лише верхи\nТип ефекту: Заклинання\nТеоден і кіннота поблизу на 20 сек. отримують бонус +100% броні й імунітет до страху та жаху\nЩо більше вершників поряд із Теоденом, то більший бонус\n(+10% броні за кожен загін, до +100% додатково)\nЖодна сила не сповільнить цю атаку\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KingsFavor",
+   "type": "Кнопка",
+   "en": "Oaths Fulfilled (&V)",
+   "ru": "Королевская милость (&V)",
+   "uk_ai": "Присяги дотримано (&V)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKingsFavor",
+   "type": "Підказка",
+   "en": "Requires Level 7 \n Targeted units gain large experience \n Left click icon then left click on target units",
+   "ru": "Требуется уровень 7\\nСоюзные отряды получают большое количество опыта\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 7\nМиттєво наділяє обрані загони великою кількістю досвіду\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:ToolTipStrengthRemembered",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Heals nearby friendly units and heroes \n\n Requires Level 5 \n Also summons two battalions of Kingsguard accompanied by Háma and Gamling \n\n Left click to activate",
+   "ru": "Требуется уровень 3\\nИсцеляет ближайших союзников\\n\\nТребуется уровень 5\\nТеоден призывает два отряда Королевской конной гвардии в сопровождении Хамы и Гамлинга\\n\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nЗцілює союзні загони й героїв поблизу\n\nНеобхідно: Рівень 5\nТакож прикликає 2 загони королівської варти разом із Гамою й Ґамлінґом\n\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

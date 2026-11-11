@@ -1,0 +1,76 @@
+{
+ "meta": {
+  "hero": "Hamfast Gamgee",
+  "uk_name": "Гемфаст Ґемджі",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "ScouringoftheShire"
+  ],
+  "templates": {
+   "кампанія": [
+    "ShireGafferGamgee"
+   ],
+   "битва": []
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:ShireGafferGamgee",
+   "type": "Ім'я",
+   "en": "Hamfast Gamgee",
+   "ru": "Хэмфаст Гэмджи",
+   "uk_ai": "Гемфаст Ґемджі",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipProudFatherGaffer",
+   "type": "Підказка",
+   "en": "Hamfast gains +33% armour and damage while near Samwise\nPassive ability",
+   "ru": "Хэмфаст наносит +33% урона и получает +33% брони, находясь рядом с Сэмуайзом\\nПассивная способность",
+   "uk_ai": "Гемфаст отримує бонус +33% броні й пошкоджень поряд із Семом\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GafferLeadership",
+   "type": "Кнопка",
+   "en": "The Gaffer",
+   "ru": "Старина",
+   "uk_ai": "Старий",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGafferLeadership",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Modifier Type: Spell \n Nearby structures gain +15% armour \nPassive ability",
+   "ru": "Требуется уровень 3\\nТип модификатора: Заклинание\\nБлижайшие строения получают +15% брони\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Заклинання\nСпоруди поблизу отримують бонус +15% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GafferStoutHeart",
+   "type": "Кнопка",
+   "en": "Stout-hearted (&C)",
+   "ru": "Храбрец (&C)",
+   "uk_ai": "Хоробре серце (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGafferStoutHeart",
+   "type": "Підказка",
+   "en": "Requires Level 5\nModifier Type: Active Debuff\nEnemy units within target radius cannot earn experience for 30 seconds\nNullifies enemy leadership\nLeft click then left click target area",
+   "ru": "Требуется уровень 5\\nТип модификатора: Активное ослабление\\nВражеские отряды в радиусе действия не могут получать опыт в течение 30 секунд\\nОтменяет вражеское лидерство\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Активне ослаблення\nВорожі загони в обраній ділянці не можуть набирати досвід 30 сек.\nСкасовує вороже лідерство\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

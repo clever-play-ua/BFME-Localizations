@@ -1,0 +1,115 @@
+{
+ "meta": {
+  "hero": "Bolg of the North",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Wild"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "WildBolgNew"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:WildBolgNew",
+   "type": "Ім'я",
+   "en": "Bolg of the North",
+   "ru": "Больг с Севера",
+   "uk_ai": "Болґ із Півночі",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BolgLeadership",
+   "type": "Кнопка",
+   "en": "Wild Overlord",
+   "ru": "Неистовый тиран",
+   "uk_ai": "Дикий володар",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBolgLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nNearby Orcs, Wargs and Giant Bats receive +50% armour, experience and resistance to fear and terror\nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nБлижайшие орки, варги и гигантские летучие мыши получают +50% брони, а также становятся невосприимчивыми к страху и ужасу\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nОрки, варґи й велетенські кажани поблизу отримують бонус +50% броні та на 50% швидше набирають досвід і отримують стійкість до страху та жаху\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BolgGrowingHatred",
+   "type": "Кнопка",
+   "en": "Growing Hatred (&R)",
+   "ru": "Закипающий гнев (&R)",
+   "uk_ai": "Зростаюча ненависть (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBolgGrowingHatred",
+   "type": "Підказка",
+   "en": "Bolg deals increased damage against Dwarves \n Passive ability \n\n When activated, Bolg deals knockback damage with a greater attack radius for 30 seconds\n At Level 3, consecutive attacks temporarily increase attack damage by 10% up to a maximum of 50% whilst ability is active\n Left click to activate",
+   "ru": "Больг наносит повышенный урон гномам\\nПассивная способность\\n\\nПосле активации, Больг наносит отбрасывающий урон с большим радиусом атаки в течение 30 секунд\\nНа уровне 3, на время действия способности последовательные атаки увеличивают урон за каждый удар на +10% до максимума в +50%\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Болґ завдає дворфам підвищених пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації Болґ на 30 сек. відкидає ворогів своїми ударами й атакує в більшому радіусі\nНа 3 рівні, поки діє здібність, кожна наступна атака тимчасово збільшує пошкодження на 10%, але максимум це 50%\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BolgRuledByFear",
+   "type": "Кнопка",
+   "en": "Ruled By Fear (&T)",
+   "ru": "Гонимые страхом (&T)",
+   "uk_ai": "Влада страху (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBolgRuledByFear",
+   "type": "Підказка",
+   "en": "Requires Level 4\n Modifier Type: Spell\nNearby allied units deal +125% damage, but lose -50% armour and do not gain experience for 20 seconds\n Nearby enemies cower in fear for 15 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 4\\nТип модификатора: Заклинание\\nБлижайшие союзные отряды наносят +125% урона, но теряют -50% брони и не набирают опыт в течение 20 секунд\\nБлижайшие вражеские отряды цепенеют от страха в течение 15 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 4\nТип ефекту: Заклинання\nСоюзні загони поблизу на 20 сек. отримують бонус +125% до пошкоджень, але втрачають 50% броні й не набирають досвід\nВороги поблизу на 15 сек. ціпеніють від страху\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BolgUnpierceableRanks",
+   "type": "Кнопка",
+   "en": "Unpierceable Ranks (&C)",
+   "ru": "Непробиваемый строй  (&C)",
+   "uk_ai": "Непробивні лави (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBolgUnpierceableRanks",
+   "type": "Підказка",
+   "en": "Requires Level 7\nBolg is protected by four Bodyguards \n Passive ability \n\n When activated, Bolg gains +50% armour for 30 seconds\n Left click to activate",
+   "ru": "Требуется уровень 7\\nБольга сопровождают четыре свирепых телохранителя\\nПассивная способность\\n\\nПосле активации, Больг получает +50% брони на 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 7\nБолґа захищають 4 охоронці\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації Болґ на 30 сек. отримує бонус +50% броні\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BolgTerrorOfNorth",
+   "type": "Кнопка",
+   "en": "Terror of the North (&V)",
+   "ru": "Ужас Севера (&V)",
+   "uk_ai": "Жах Півночі (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBolgTerrorOfNorth",
+   "type": "Підказка",
+   "en": "Requires Level 10\nBolg summons a small army of Mountain-orcs, Wolf-riders and Giant Bats\n Left click icon then left click target area",
+   "ru": "Требуется уровень 10\\nБольг призывает небольшую армию из горных орков, наездников на волках и гигантской летучей мыши\\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Необхідно: Рівень 10\nБолґ прикликає невелике військо гірських орків, вовчих вершників і велетенських кажанів\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "meta": {
+  "hero": "Elrohir",
+  "uk_name": "Елрохір",
+  "campaigns": [
+   "FotR",
+   "TTT",
+   "RotK"
+  ],
+  "missions": [
+   "Party",
+   "Council",
+   "GreyCompany",
+   "LordoftheRings",
+   "LightingoftheBeacons",
+   "PathsoftheDead",
+   "Pelargir",
+   "CirithUngol",
+   "PelennorFields",
+   "BlackGate",
+   "ManyPartings",
+   "ScouringoftheShire",
+   "GreyHavens"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignElrohir"
+   ],
+   "битва": [
+    "ElvenElrohir"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею.",
+  "see_also": "Спільні з іншими героями рядки є лише в одному файлі: Elladan"
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:Elrohir",
+   "type": "Ім'я",
+   "en": "Elrohir",
+   "ru": "Элрохир",
+   "uk_ai": "Елрохір",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElrohirLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n When near his brother, Elrohir gains +50% damage and +50% armour \nIf Elladan dies while Elrohir is on the field,\n Elrohir gains a temporary +100% damage increase but also loses -25% of his armour \n Passive ability",
+   "ru": "Тип модификатора: Лидерство\\nНаходясь рядом с братом, Элрохир наносит +50% урона и получает +50% брони\\nЕсли Элладан погибнет, пока Элрохир на поле,\\nЭлрохир получит временное увеличение урона +100%, но потеряет -25% брони\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nПоряд із братом Елрохір отримує бонус +50% до пошкоджень і +50% броні\nЯкщо Елладан гине, поки Елрохір на полі бою,\nЕлрохір тимчасово отримує бонус +100% до пошкоджень, але втрачає 25% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTwinsHeroesLeadershipCampaignElrohir",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Grants 25% damage to friendly units \n At level 5, reduces recharge time for nearby heroes' abilities by 15% and increases auto-heal of nearby heroes by 15%\n Does not affect his brother \nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nБлижайшие дружественные войска получают +25% брони\\nНа уровне 5, уменьшает время перезарядки способностей и увеличивает авто-исцеление ближайших героев на 15%\\nНе влияет на его брата\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство \n Союзні загони отримують бонус +25% до пошкоджень \n На 5 рівні скорочує час відновлення здібностей героїв поблизу на 15% і на 15% прискорює їхнє самозцілення\n Не діє на його брата \n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElrohirLeadership2",
+   "type": "Підказка",
+   "en": "Elrohir deals +33% extra damage to all Orcs \nPassive ability \n \n When activated, nearby orcs lose -25% armour for 30 seconds",
+   "ru": "Элрохир наносит +33% дополнительного урона всем оркам\\nПассивная способность\\n\\nПосле активации, ближайшие орки и уруки теряют -25% брони на 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Елрохір завдає оркам на 33% більше пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації орки поблизу на 30 сек. втрачають 25% броні",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElrohirSwiftStrikes",
+   "type": "Кнопка",
+   "en": "Swift Strikes (&C)",
+   "ru": "Стремительные удары (&C)",
+   "uk_ai": "Стрімкі удари (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElrohirSwiftStrikesCampaign",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Elrohir gains +33% attack speed for 30 seconds\n Left click to activate",
+   "ru": "Требуется уровень 3\\nЭлрохир получает +33% скорости атаки, теряя -33% брони в течение 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3 \n Елрохір отримує бонус +33% швидкості атаки на 30 сек.\n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ScionofElwing",
+   "type": "Кнопка",
+   "en": "Scion of Elwing (&V)",
+   "ru": "Потомок Эльвинг (&V)",
+   "uk_ai": "Нащадок Елвінґ (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipScionofElwing",
+   "type": "Підказка",
+   "en": "Requires Level 10\nElrohir calls forth a torrent of foam that damages and knocks back enemy units\nExtinguishes fires\nLeft click icon then left click on target",
+   "ru": "Требуется уровень 10\\nЭлрохир вызывает бурный поток, который наносит урон и отбрасывает врагов\\nТушит пожары\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 10\nЕлрохір викликає пінний потік, що завдає пошкоджень ворожим загонам і відкидає їх\nГасить пожежі\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:ToolTipTwinsHeroesLeadershipElrohir",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Grants 25% damage to nearby Bree-landers, Dúnedain and Elves \n At level 5, reduces recharge time for nearby heroes' abilities by 15% and increases auto-heal of nearby heroes by 15%\n Does not affect his brother \nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nБлижайшие эльфы, стражники Бри и воины дунэдайн получают +25% брони\\nНа уровне 5, уменьшает время перезарядки способностей и увеличивает авто-исцеление ближайших героев на 15%\\nНе влияет на его брата\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nМешканці Брі, дунедайн та ельфи поблизу отримують бонус +25% до пошкоджень\nНа 5 рівні скорочує час відновлення здібностей героїв поблизу на 15% і на 15% прискорює їхнє самозцілення\nНе діє на його брата\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElrohirSwiftStrikes",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Elrohir gains +33% attack speed and deals splash damage, but loses -10% armour for 30 seconds\n Left click to activate",
+   "ru": "Требуется уровень 3\\nЭлрохир получает +33% скорости атаки, теряя -33% брони в течение 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nЕлрохір на 30 сек. отримує бонус +33% швидкості атаки й завдає пошкоджень по площі, але втрачає 10% броні\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

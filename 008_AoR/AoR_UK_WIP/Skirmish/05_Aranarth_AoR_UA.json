@@ -1,0 +1,100 @@
+{
+ "meta": {
+  "hero": "Aranarth",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Arnor"
+  ],
+  "alternate factions": [
+   "angmar wars",
+   "arthedain"
+  ],
+  "templates": [
+   "ArnorAranarth"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:ArnorAranarth",
+   "type": "Ім'я",
+   "en": "Aranarth",
+   "ru": "Аранарт",
+   "uk_ai": "Аранарт",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AranarthCunningWarrior",
+   "type": "Кнопка",
+   "en": "Cunning Warrior (&R)",
+   "ru": "Искусный воин (&R)",
+   "uk_ai": "Вправний воїн (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAranarthCunningWarrior",
+   "type": "Підказка",
+   "en": "Aranarth exploits an enemy hero's weakness, reducing their armour and speed by 20% for 30 seconds\n At level 3, reduces armour and speed by 30% \n At level 6, reduces armour and speed by 40% \n At level 10, reduces armour and speed by 50% \nLeft click icon then left click on target",
+   "ru": "Аранарт использует слабость вражеского героя, снижая его броню и скорость на -20% в течение 30 секунд\\nНа уровне 3, снижает броню и скорость на -30%\\nНа уровне 6, снижает броню и скорость на -40%\\nНа уровне 10, снижает броню и скорость на -50%\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Аранарт послаблює ворожого героя: на 30 сек. знижує його броню й швидкість на 20%\nНа 3 рівні знижує броню й швидкість на 30%\nНа 6 рівні знижує броню й швидкість на 40%\nНа 10 рівні знижує броню й швидкість на 50%\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AranarthMarksman",
+   "type": "Кнопка",
+   "en": "Marksman (&T)",
+   "ru": "Меткий стрелок (&T)",
+   "uk_ai": "Влучний стрілець (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAranarthMarksman",
+   "type": "Підказка",
+   "en": "Requires Level 3\nSingle ranged attack\nTarget enemy suffers damage over time for 15 seconds\nCan only use with bow equipped\nLeft click icon then left click on target",
+   "ru": "Требуется уровень 3\\nОдиночная атака дальнего боя\\nЦелевой враг получает постепенный урон в течение 15 секунд\\nМожно использовать только с луком\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 3\nОдин постріл по ворожій цілі\nПісля ураження ворог 15 сек. поступово отримує пошкодження\nДоступно лише з луком\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AranarthImpenetrable",
+   "type": "Кнопка",
+   "en": "Impenetrable Lines (&C)",
+   "ru": "Стойкие ряды (&C)",
+   "uk_ai": "Тримати стрій (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAranarthImpenetrable",
+   "type": "Підказка",
+   "en": "Requires Level 6\nNearby friendly units gain +30% armour and +50% resistance to knockback for 30 seconds\n Left click to activate",
+   "ru": "Требуется уровень 6\\nБлижайшие дружественные отряды получают +30% брони и +50% сопротивления отбрасыванию в течение 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 6\nСоюзні загони поблизу на 30 сек. отримують бонус +30% броні й +50% стійкості до відкидання\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AranarthBanner",
+   "type": "Кнопка",
+   "en": "Chieftain of the Dúnedain (&V)",
+   "ru": "Вождь дунэдайн (&V)",
+   "uk_ai": "Отаман дунедайн (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipAranarthBanner",
+   "type": "Підказка",
+   "en": "Requires Level 10 \nAranarth unfurls the Banner of Annúminas\n For 60 seconds, allied units in a large radius gain +50% armour and are constantly replenished\nNearby allied heroes' ability cooldown times are reduced by 25%\nThe banner can be destroyed by the enemy in this time\n Left click icon to activate",
+   "ru": "Требуется уровень 10\\nАранарт разворачивает знамя Аннуминаса\\nВ течение 60 секунд союзные отряды в большом радиусе получают +50% брони и пополняют свои ряды\\nВремя перезарядки способностей союзных героев поблизости сокращается на 25%\\nЗа это время знамя может быть уничтожено противником\\nЩелкните левой кнопкой мыши на значок, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10\nАранарт розгортає стяг Аннумінаса\nНа 60 сек. союзні загони у великому радіусі отримують бонус +50% броні й поновлюють полеглих\nЗдібності союзних героїв поблизу відновлюються на 25% швидше\nСтяг може бути знищено ворогом\nКлікніть на іконку, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

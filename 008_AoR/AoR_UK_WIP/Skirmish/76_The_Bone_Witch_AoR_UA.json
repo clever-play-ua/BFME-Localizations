@@ -1,0 +1,99 @@
+{
+ "meta": {
+  "hero": "The Bone Witch",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Dunharrow"
+  ],
+  "alternate factions": [
+   "dunharrow"
+  ],
+  "templates": [
+   "DunharrowBoneWitch"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:OathbreakerBanshee",
+   "type": "Ім'я",
+   "en": "The Bone Witch",
+   "ru": "",
+   "uk_ai": "Кістяна відьма",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityKeeningSpirit",
+   "type": "Кнопка",
+   "en": "Keening Spirit",
+   "ru": "",
+   "uk_ai": "Зажурений дух",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipSpecialAbilityKeeningSpirit",
+   "type": "Підказка",
+   "en": "All nearby enemies suffer -20% speed and take slight damage over time \n Passive ability",
+   "ru": "",
+   "uk_ai": "Усі вороги поблизу отримують штраф -20% швидкості й поступово отримують незначні пошкодження\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityWickedSouls",
+   "type": "Кнопка",
+   "en": "Wicked Souls (&R)",
+   "ru": "",
+   "uk_ai": "Прокляті душі (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityDunharrowWickedSouls",
+   "type": "Підказка",
+   "en": "Requires Level 3\nThe Witch casts a flying skull, which knocks back and damages enemy units in its path\nLeft click then left click target area",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3\nВідьма чарує та жбурляє летючий череп, що відкидає ворожі загони на своєму шляху й завдає їм пошкоджень\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WhisperofDeathBanshee",
+   "type": "Кнопка",
+   "en": "Whisper of Death (&T)",
+   "ru": "",
+   "uk_ai": "Шепіт смерті (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipWhisperofDeathDunharrow",
+   "type": "Підказка",
+   "en": "Requires Level 5\nInflicts massive damage on a non-undead unit \n Left click icon then left click on target unit",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 5\nЗавдає величезних пошкоджень загону, що не належить до невмерлих\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WailoftheBanshee",
+   "type": "Кнопка",
+   "en": "Wail of the Banshee (&C)",
+   "ru": "",
+   "uk_ai": "Плач банші (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipDunharrowWailoftheBanshee",
+   "type": "Підказка",
+   "en": "Requires Level 7\nThe Witch lets out a blood-curdling scream, stunning enemy units and heroes for 5 seconds and setting ability timers to just used \n Left click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 7\nВідьма видає моторошний крик: ворожі загони й герої на 5 сек. приголомшені, а їхні здібності скидаються, ніби їх щойно застосували\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

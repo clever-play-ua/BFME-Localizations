@@ -1,0 +1,68 @@
+{
+ "meta": {
+  "hero": "Elendur",
+  "uk_name": "Елендур",
+  "campaigns": [
+   "FotR"
+  ],
+  "missions": [
+   "LastAlliance",
+   "Council"
+  ],
+  "templates": {
+   "кампанія": [
+    "SecondAgeElendur"
+   ],
+   "битва": []
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:SecondAgeElendur",
+   "type": "Ім'я",
+   "en": "Elendur",
+   "ru": "Элендур",
+   "uk_ai": "Елендур",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElendurRestoration",
+   "type": "Кнопка",
+   "en": "Hands of the Prince (&W)",
+   "ru": "Руки принца (&W)",
+   "uk_ai": "Руки принца (&W)",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElendurRestoration",
+   "type": "Підказка",
+   "en": "Heals nearby allies and fully refreshes\ntheir special ability timers \n Left click icon then left click on target area",
+   "ru": "Исцеляет ближайших союзников и полностью перезаряжает их способности\\nЩелкните левой кнопкой мыши на значок, затем на целевой отряды",
+   "uk_ai": "Зцілює союзників поблизу й повністю скидає таймер\nвідновлення їхніх здібностей \n Клікніть на іконку, потім оберіть ділянку",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElendurLeadership",
+   "type": "Кнопка",
+   "en": "Isildur's Heir",
+   "ru": "Наследник Исильдура",
+   "uk_ai": "Спадкоємець Ісілдура",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElendurLeadership",
+   "type": "Підказка",
+   "en": "Requires Level 4\nAllies near Elendur gain \n +33% damage, +33% armour, \n and earn experience 50% faster\nPassive ability",
+   "ru": "Требуется уровень 4\\nСоюзники рядом с Элендуром наносят +33% урона, получают +33% брони\\nи набирают опыт на +50% быстрее\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 4\nСоюзники поряд з Елендуром отримують бонус \n +33% до пошкоджень, +33% броні \n і на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "вичитано",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

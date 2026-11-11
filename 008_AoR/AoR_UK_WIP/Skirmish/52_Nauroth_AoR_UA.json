@@ -1,0 +1,100 @@
+{
+ "meta": {
+  "hero": "Nauroth",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Angmar"
+  ],
+  "alternate factions": [
+   "angmar",
+   "angmar wars"
+  ],
+  "templates": [
+   "AngmarNauroth"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:AngmarNauroth",
+   "type": "Ім'я",
+   "en": "Nauroth",
+   "ru": "Наурот",
+   "uk_ai": "Наурот",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:NaurothLunge",
+   "type": "Кнопка",
+   "en": "Lunge (&W)",
+   "ru": "Выпад (&W)",
+   "uk_ai": "Випад (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipNaurothLunge",
+   "type": "Підказка",
+   "en": "Nauroth gains +25% armour for 10 seconds and leaps to a location causing area-effect damage\n Left click icon then left click on target area",
+   "ru": "Наурот получает +25% брони на 10 секунд и совершает прыжок, нанося урон по площади\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Наурот на 10 сек. отримує бонус +25% броні й стрибає в обране місце, завдаючи пошкоджень по площі\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:NaurothBloodFreezingHowl",
+   "type": "Кнопка",
+   "en": "Blood-freezing Howl (&R)",
+   "ru": "Леденящий кровь вой (&R)",
+   "uk_ai": "Виття, що студить кров (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipNaurothBloodFreezingHowl",
+   "type": "Підказка",
+   "en": "Requires Level 3\nModifier Type: Debuff and Buff\nEnemy units within the radius cannot gain experience\nFriendly Wolves within the radius deal +50% damage\nAbility lasts 30 seconds\n\n At rank 6, also summons a horde of White Wolves \n Left click icon then left click on target units",
+   "ru": "Требуется уровень 3\\nТип модификатора: Ослабление и усиление\\nВражеские отряды в радиусе действия не набирают опыт\\nВолки Ангмара в радиусе действия наносят +50% урона\\nДействие способности длится 30 секунд\\n\\nНа уровне 6, также призывается стая белых волков\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Ослаблення й посилення\nВорожі загони в радіусі дії не можуть набирати досвід\nСоюзні вовки в радіусі дії завдають на 50% більше пошкоджень\nДіє 30 сек.\n\nНа 6 рівні також прикликає орду білих вовків\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:NaurothWolfInSheepClothing",
+   "type": "Кнопка",
+   "en": "Wolf in Sheep's Clothing (&T)",
+   "ru": "Волк в овечьей шкуре (&T)",
+   "uk_ai": "Вовк в овечій шкурі (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipNaurothWolfInSheepClothing",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Causes targeted units to become hostile towards each other for 15 seconds\n Left click icon then left click on target area",
+   "ru": "Требуется уровень 5\\nЗаставляет вражеские отряды атаковать друг друга в течение 15 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевых врагов",
+   "uk_ai": "Необхідно: Рівень 5\nОбрані загони на 15 сек. стають ворожими одне до одного\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:NaurothRavenousHunger",
+   "type": "Кнопка",
+   "en": "Ravenous Hunger (&C)",
+   "ru": "Хищный голод (&C)",
+   "uk_ai": "Ненаситний голод (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipNaurothRavenousHunger",
+   "type": "Підказка",
+   "en": "Requires Level 8\nLike Carcharoth, Nauroth possesses an insatiable hunger for flesh\nWhen activated, Nauroth deals strong damage to selected enemy to regain health and gain +25% movement speed and +33% damage for 20 seconds\n Left click icon then left click on target",
+   "ru": "Требуется уровень 8\\nКак и Кархарот, Наурот испытывает ненасытную жажду плоти\\nНаурот может растаптывать вражеские отряды\\nПассивная способность\\n\\nПосле активации, Наурот наносит большой урон целевому врагу и исцеляется, а также наносит +33% урона и получает +25% скорости в течение 20 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 8\nЯк і Каркарот, Наурот має ненаситний голод до плоті\nПісля активації Наурот завдає обраному ворогові значних пошкоджень, відновлює здоров'я й на 20 сек. отримує бонус +25% швидкості руху й +33% до пошкоджень\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

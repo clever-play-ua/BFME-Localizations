@@ -1,0 +1,227 @@
+{
+ "meta": {
+  "hero": "Gandalf the Grey",
+  "uk_name": "Ґендальф Сірий",
+  "campaigns": [
+   "FotR",
+   "TTT",
+   "RotK"
+  ],
+  "missions": [
+   "Party",
+   "Orthanc",
+   "Council",
+   "Redhorn",
+   "Moria",
+   "Khazad",
+   "FordsofIsen",
+   "TamingofSmeagol",
+   "EavesofFangorn",
+   "DurinsTower",
+   "Ithilien",
+   "Westfold",
+   "GreyCompany",
+   "Osgiliath",
+   "HelmsDeep",
+   "Isengard",
+   "LordoftheRings",
+   "LightingoftheBeacons",
+   "PathsoftheDead",
+   "Pelargir",
+   "MinasTirithOuter",
+   "CirithUngol",
+   "MinasTirithInner",
+   "PelennorFields",
+   "BlackGate",
+   "ManyPartings",
+   "ScouringoftheShire",
+   "GreyHavens"
+  ],
+  "templates": {
+   "кампанія": [
+    "FellowshipGandalfTheGrey",
+    "GandalfTheGrey"
+   ],
+   "битва": [
+    "GandalfTheGreyBotFA"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею.",
+  "see_also": "Спільні з іншими героями рядки є лише в одному файлі: Gandalf"
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:GandalfTheGrey",
+   "type": "Ім'я",
+   "en": "Gandalf the Grey",
+   "ru": "Гэндальф Серый",
+   "uk_ai": "Ґендальф Сірий",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WizardBlastGandalfTheGrey",
+   "type": "Кнопка",
+   "en": "The Grey Pilgrim (&T)",
+   "ru": "",
+   "uk_ai": "Сірий Мандрівник (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWizardBlastRadagast",
+   "type": "Підказка",
+   "en": "Close range attack that blasts back enemies \n Left click icon then left click on target",
+   "ru": "Магическая атака с близкого расстояния, отбрасывающая врагов\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Удар зблизька, що відкидає ворогів \n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GandalfGloriousCharge",
+   "type": "Кнопка",
+   "en": "Let's Risk A Little More Light (&R)",
+   "ru": "Давайте зажжем немного света (&R)",
+   "uk_ai": "Ризикнімо трохи більше світла (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellowshipGandalfGloriousCharge",
+   "type": "Підказка",
+   "en": "Drastically increases vision range and shroud reveal for 30 seconds\n for a short time \n Left click to activate",
+   "ru": "Значительно увеличивает обзор и раскрывает карту на 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Значно збільшує дальність огляду й розсіює туман війни на 30 сек.\n на короткий час \n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GandalfFoeHammer",
+   "type": "Кнопка",
+   "en": "The Foe-Hammer (&C)",
+   "ru": "Гламдринг (&C)",
+   "uk_ai": "Молот Ворогів (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellowshipLightningSword",
+   "type": "Підказка",
+   "en": "Shoots out lightning bolts from Gandalf's sword \n Left click icon then left click on target",
+   "ru": "Меч Гэндальфа приобретает способность поражать врагов разрядами молний\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Меч Ґендальфа метає блискавки \n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GandalfYouShallNotPassCampaign",
+   "type": "Кнопка",
+   "en": "You Shall Not Pass",
+   "ru": "Ты не пройдешь!",
+   "uk_ai": "Ти не пройдеш",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellowshipGandalfYouShallNotPass",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Stuns enemy units in a wide radius surrounding Gandalf for 10 seconds\n Left click to activate",
+   "ru": "Требуется уровень 3\\nОглушает вражеские войска в большом радиусе вокруг Гэндальфа на 10 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3 \n Приголомшує ворожі загони у великому радіусі навколо Ґендальфа на 10 сек.\n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GandalfNewMountCampaign",
+   "type": "Кнопка",
+   "en": "Mount Shadowfax / Dismount",
+   "ru": "Оседлать Сполоха / спешиться",
+   "uk_ai": "Осідлати Тінегрива / Спішитися",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GandalfHalflingLeaf",
+   "type": "Кнопка",
+   "en": "Gandalf's Cart (&W)",
+   "ru": "Повозка Гэндальфа (&W)",
+   "uk_ai": "Віз Ґендальфа (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGandalfHalflingLeaf",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Summons Gandalf's Travelling Cart\n Heals nearby allies \n Left click icon then left click on pathable location",
+   "ru": "Требуется уровень 3\\nВ выбранном месте появляется телега Гэндальфа\\nИсцеляет ближайших союзников\\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Необхідно: Рівень 3\nПрикликає дорожній віз Ґендальфа\nЗцілює союзників поблизу\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGandalfGloriousCharge",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Nearby archers gain +20% range and +15% damage for 30 seconds\n Left click to activate",
+   "ru": "Требуется уровень 5\\nБлижайшие лучники наносят +15% урона и получают +20% дальности атаки в течение 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nЛучники поблизу на 30 сек. отримують бонус +20% дальності й +15% до пошкоджень\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GandalfDisturber",
+   "type": "Кнопка",
+   "en": "Disturber of the Peace (&T)",
+   "ru": "Нарушитель спокойствия (&T)",
+   "uk_ai": "Порушник спокою (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGandalfDisturber",
+   "type": "Підказка",
+   "en": "Gandalf shoots off a peculiar firework at the selected target \n Left click icon then left click on target",
+   "ru": "Гэндальф запускает во врагов особенный фейерверк\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Ґендальф запускає в обрану ціль чудернацький феєрверк\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLightningSword",
+   "type": "Підказка",
+   "en": "Requires Level 2 \n Shoots out lightning bolts from Gandalf's sword \n Left click icon then left click on target",
+   "ru": "Требуется уровень 2\\nМеч Гэндальфа приобретает способность поражать врагов разрядами молний\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 2 \n Меч Ґендальфа метає блискавки \n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GandalfYouShallNotPass",
+   "type": "Кнопка",
+   "en": "You Shall Not Pass (&V)",
+   "ru": "Ты не пройдешь! (&V)",
+   "uk_ai": "Ти не пройдеш (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGandalfYouShallNotPass",
+   "type": "Підказка",
+   "en": "Requires Level 10 \n Stuns enemy units in a wide radius surrounding Gandalf for 10 seconds \n Left click to activate",
+   "ru": "Требуется уровень 10\\nОглушает вражеские войска в большом радиусе вокруг Гэндальфа на 10 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10\nВорожі загони в широкому радіусі навколо Ґендальфа будуть приголомшені на 10 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:ToolTipRivendellGandalfHalflingLeaf",
+   "type": "Підказка",
+   "en": "Summons Gandalf's Travelling Cart\n Heals nearby allies \n Left click icon then left click on pathable location",
+   "ru": "В выбранном месте появляется телега Гэндальфа\\nИсцеляет ближайших союзников\\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Прикликає віз Ґендальфа\nЗцілює союзників поблизу\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

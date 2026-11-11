@@ -1,0 +1,74 @@
+{
+ "meta": {
+  "hero": "Toradan",
+  "uk_name": "Торадан",
+  "campaigns": [
+   "TTT"
+  ],
+  "missions": [
+   "GreyCompany"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignTorodan"
+   ],
+   "битва": [
+    "CampaignTorodan"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею.",
+  "see_also": "Спільні з іншими героями рядки є лише в одному файлі: Faramir"
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:CampaignToradan",
+   "type": "Ім'я",
+   "en": "Toradan",
+   "ru": "Торадан",
+   "uk_ai": "Торадан",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToradanWideSweep",
+   "type": "Кнопка",
+   "en": "Wide Sweep (&W)",
+   "ru": "Широкий размах (&W)",
+   "uk_ai": "Широкий замах (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToradanWideSweep",
+   "type": "Підказка",
+   "en": "Toradan swings his sword hard, dealing damage to and knocking back everything around him \n Left click to activate",
+   "ru": "Торадан сильно размахивает мечом, нанося урон и отбрасывая врагов вокруг себя\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Торадан щосили розмахується мечем, завдаючи пошкоджень усім навколо й відкидаючи їх\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToradanGrizzledWarrior",
+   "type": "Кнопка",
+   "en": "Grizzled Warrior (&R)",
+   "ru": "Бывалый воин (&R)",
+   "uk_ai": "Загартований воїн (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToradanGrizzledWarrior",
+   "type": "Підказка",
+   "en": "For 20 seconds, Toradan reflects a portion of the damage dealt to him\nLeft click to activate",
+   "ru": "В течение 20 секунд Торадан отражает часть полученного урона\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Протягом 20 сек. Торадан повертає частину завданих йому пошкоджень\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

@@ -1,0 +1,1861 @@
+{
+ "meta": {
+  "mission": "008_The Battle of Pelennor Fields",
+  "campaign": "Return of the King (AoR 10.0)",
+  "count": 185,
+  "fields": "var — мітка; type — Назва/Ціль/Діалог/Репліка/Інше/Кнопка; ru — RU 9.3.1, якщо є; uk_ai — поточний текст (правте прямо тут); status — вичитано / чернетка AI; uk — порожньо",
+  "notes": "\\n — перенос рядка, кількість має збігатися з EN; гарячі клавіші (&W) латиницею. Здібності героїв винесені в папку heroes."
+ },
+ "strings": [
+  {
+   "var": "CampaignName:PelennorFields",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Назва",
+   "en": "The Battle of Pelennor Fields",
+   "ru": "",
+   "uk_ai": "Битва на Пеленнорських полях",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:ObjectiveHint01_Pelennor",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Ціль",
+   "en": "Destroy all catapults and trolls to drive the Enemy from the Pelennor",
+   "ru": "",
+   "uk_ai": "Знищте всі катапульти й тролів, щоб вигнати Ворога з Пеленнору",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:ObjectiveHint02_Pelennor",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Ціль",
+   "en": "Dismount your Rohirrim to help counter the Mumakil",
+   "ru": "",
+   "uk_ai": "Спішуйте рогіримів, щоб протистояти мумакілам",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective01_Pelennor",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Ціль",
+   "en": "Destroy all catapults and trolls in front of the city walls",
+   "ru": "",
+   "uk_ai": "Знищте всі катапульти й тролів перед мурами міста",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective02_Pelennor",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Ціль",
+   "en": "Retake the nearby hamlet",
+   "ru": "",
+   "uk_ai": "Відвоюйте сусіднє селище",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective03_Pelennor",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Ціль",
+   "en": "Repel the Haradrim",
+   "ru": "",
+   "uk_ai": "Відбийте харадримів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective04_Pelennor",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Ціль",
+   "en": "Defeat the Witch-king",
+   "ru": "",
+   "uk_ai": "Здолайте Короля-чаклуна",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective05_Pelennor",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Ціль",
+   "en": "Make your last stand",
+   "ru": "",
+   "uk_ai": "Прийміть останній бій",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective06_PelennorA",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Ціль",
+   "en": "Eomer, Imrahil and Elhelm must survive",
+   "ru": "",
+   "uk_ai": "Еомер, Імрагіл і Ельфгельм мають вижити",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective06_PelennorB",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Ціль",
+   "en": "Eomer, Imrahil, Elhelm and Gamling must survive",
+   "ru": "",
+   "uk_ai": "Еомер, Імрагіл, Ельфгельм і Ґамлінґ мають вижити",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective06_PelennorC",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Ціль",
+   "en": "Eomer, Imrahil, Boromir, and Faramir must survive",
+   "ru": "",
+   "uk_ai": "Еомер, Імрагіл, Боромир і Фарамір мають вижити",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective06_PelennorD",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Ціль",
+   "en": "Eomer, Imrahil, Boromir, Faramir and Gamling must survive",
+   "ru": "",
+   "uk_ai": "Еомер, Імрагіл, Боромир, Фарамір і Ґамлінґ мають вижити",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective07_Pelennor",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Ціль",
+   "en": "Liberate Harlond from the Enemy",
+   "ru": "",
+   "uk_ai": "Звільніть Харлонд від Ворога",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective08_Pelennor",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Ціль",
+   "en": "Rescue Eomer and Imrahil",
+   "ru": "",
+   "uk_ai": "Врятуйте Еомера й Імрагіла",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective09_Pelennor",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Ціль",
+   "en": "Slay Gothmog, the Lieutenant of Morgul",
+   "ru": "",
+   "uk_ai": "Вбийте Ґотмоґа, Морґульського намісника",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective10_Pelennor",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Ціль",
+   "en": "Rout the forces of the Enemy!",
+   "ru": "",
+   "uk_ai": "Розгроміть війська Ворога!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective01_Pelennor",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Ціль",
+   "en": "Slay Suladan the Black Serpent using Theoden",
+   "ru": "",
+   "uk_ai": "Вбийте Суладана Чорного Змія Теоденом",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective02_Pelennor",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Ціль",
+   "en": "Rescue 8 battalions en route to Imrahil and Eomer",
+   "ru": "",
+   "uk_ai": "Врятуйте 8 загонів на шляху до Імрагіла й Еомера",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_eomer044",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Bring down their chief!",
+   "ru": "",
+   "uk_ai": "Валіть їхнього ватажка!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_rohanguy037",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Their Lord approaches! Slay him! Break their will!",
+   "ru": "",
+   "uk_ai": "Їхній володар наближається! Вбийте його! Зламайте їхню волю!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_merry009",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Merry: Lady I won't leave you!",
+   "ru": "",
+   "uk_ai": "Меррі: Пані, я вас не покину!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn448",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Halbarad! You do not stand alone!",
+   "ru": "",
+   "uk_ai": "Гальбараде! Ти не самотній!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn456",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Halbarad! No!",
+   "ru": "",
+   "uk_ai": "Гальбараде! Ні!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_theoden070",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Theoden: Ride now! Ride now! Ride! Ride for ruin and the world's ending!",
+   "ru": "",
+   "uk_ai": "Теоден: Вперед! Вперед! Вперед! Вперед — на загибель і кінець світу!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_theoden071",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Theoden: Death! Death! DEATH!",
+   "ru": "",
+   "uk_ai": "Теоден: Смерть! Смерть! СМЕРТЬ!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_theoden072",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Theoden: Forth Eorlingas!",
+   "ru": "",
+   "uk_ai": "Теоден: Вперед, еорлінґи!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MGHelms_Eomer004",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Eomer: Press onward! Take them down!",
+   "ru": "",
+   "uk_ai": "Еомер: Наступайте! Валіть їх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_eomer048",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Eomer: Drive them to the River!",
+   "ru": "",
+   "uk_ai": "Еомер: Женіть їх до Ріки!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_theoden073",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Theoden: Make safe the City!",
+   "ru": "",
+   "uk_ai": "Теоден: Захистіть Місто!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_theoden074",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Theoden: Reform the lines! Reform the lines!",
+   "ru": "",
+   "uk_ai": "Теоден: Шикуйтеся! Шикуйтеся знову!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_theoden082",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Theoden: Gamling! Guard our rear, back towards the city! Grimbold! Take your company and secure the flank!",
+   "ru": "",
+   "uk_ai": "Теоден: Ґамлінґу! Прикривай тил, ближче до міста! Ґрімбольде! Бери свій загін і закріпи фланг!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_theoden083",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Theoden: Quickly! Reclaim the village and take defensive positions!",
+   "ru": "",
+   "uk_ai": "Теоден: Швидше! Відвоюйте село й займіть оборону!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_imrahil007",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Imrahil: Amroth! Amroth! Amroth for Gondor!",
+   "ru": "",
+   "uk_ai": "Імрагіл: Амрот! Амрот! Амрот за Ґондор!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_theoden075",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Theoden: Rally to me! To me!",
+   "ru": "",
+   "uk_ai": "Теоден: До мене! До мене!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MGMinas_Witc003",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Witch-king: Feast on his flesh",
+   "ru": "",
+   "uk_ai": "Король-чаклун: Пожирай його плоть",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_eowyn001",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Eowyn: I will kill you if you touch him!",
+   "ru": "",
+   "uk_ai": "Еовін: Торкнешся його — і я тебе вб'ю!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MGMinas_Witc002",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Witch-king: Do not come between the Nazgul and his prey",
+   "ru": "",
+   "uk_ai": "Король-чаклун: Не ставай між назґулом і його здобиччю",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MGMinas_Witc001",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Witch-king: You fool, no man can kill me! Die now!",
+   "ru": "",
+   "uk_ai": "Король-чаклун: Дурню, жоден чоловік не може мене вбити! Помри!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_eowyn004",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Eowyn: I am no man.",
+   "ru": "",
+   "uk_ai": "Еовін: Я не чоловік.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_imrahil003",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Imrahil: Gondor endures! Hold the line, my lords, though the night closes in around us.",
+   "ru": "",
+   "uk_ai": "Імрагіл: Ґондор стоїть! Тримайте стрій, володарі, хоч ніч і змикається довкола нас.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_eomer033",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Eomer: Stand fast! Let all remember that Rohan did not yield while breath remained!",
+   "ru": "",
+   "uk_ai": "Еомер: Стійте твердо! Хай усі пам'ятають: Роган не здався, доки в ньому жевріло дихання!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_forlong002",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Forlong: Fight on, sons of Gondor!",
+   "ru": "",
+   "uk_ai": "Форлонґ: Бийтеся, сини Ґондору!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_guritz001",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Guritz: Late as usual, pirate scum! There's knifework here needs doing!",
+   "ru": "",
+   "uk_ai": "Ґуріц: Як завжди, запізнюєтеся, піратська наволоч! Тут є робота для ножів!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_guritz002",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Guritz: Come on, you sea-rats! Get off your ships!",
+   "ru": "",
+   "uk_ai": "Ґуріц: Ну ж бо, морські щури! Злазьте з кораблів!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MEMinas_Gimli001",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Gimli: There's plenty for the both of us! May the best Dwarf win!",
+   "ru": "",
+   "uk_ai": "Ґімлі: Тут на нас обох вистачить! Хай переможе кращий дворф!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn243",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Aragorn: Unfurl the banner of Elendil! Forward, Men of Gondor!",
+   "ru": "",
+   "uk_ai": "Араґорн: Розгорніть стяг Еленділа! Вперед, люди Ґондору!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn244",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Aragorn: Legolas, what of the White City? Are we too late?",
+   "ru": "",
+   "uk_ai": "Араґорн: Леґоласе, що з Білим Містом? Ми не запізнилися?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas136",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Legolas: There is great ruin of fire across the field. The Enemy is everywhere and there is heavy fighting in front of the City.",
+   "ru": "",
+   "uk_ai": "Леґолас: Поле охоплене руйнівним вогнем. Ворог усюди, а перед Містом іде запеклий бій.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn368",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Aragorn: Then that is where we will go.",
+   "ru": "",
+   "uk_ai": "Араґорн: Тоді туди ми й підемо.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad065",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Halbarad: We cannot delay! The Prince of Dol Amroth is greatly outnumbered!",
+   "ru": "",
+   "uk_ai": "Гальбарад: Не можна баритися! Ворогів у кілька разів більше, ніж у принца Дол-Амроту!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_legolas013",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Legolas: We must find a way across here quickly.",
+   "ru": "",
+   "uk_ai": "Леґолас: Треба швидко знайти, як тут переправитися.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_imrahil004",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Imrahil: Who are you, that has come to our aid so fortuitously? We did not look to \n see any allies come into Harlond this day, let alone beneath black sails.",
+   "ru": "",
+   "uk_ai": "Імрагіл: Хто ви, що так вчасно прийшли нам на поміч? Ми не сподівалися \n побачити сьогодні в Харлонді союзників, та ще й під чорними вітрилами.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn369",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Aragorn: That will do, Halbarad. I will make no claims before Sauron is defeated.",
+   "ru": "",
+   "uk_ai": "Араґорн: Досить, Гальбараде. Я не висуватиму жодних домагань, доки Саурона не здолано.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir120",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Boromir: Here is a valiant captain of Men. It is good to see you, Aragorn.",
+   "ru": "",
+   "uk_ai": "Боромир: Ось звитяжний капітан людей. Радий тебе бачити, Араґорне.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn449",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Aragorn: And you, Boromir.",
+   "ru": "",
+   "uk_ai": "Араґорн: І я тебе, Боромире.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_eomer030",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Eomer: You come none too soon, my friend. Much loss and sorrow has befallen us.",
+   "ru": "",
+   "uk_ai": "Еомер: Ти прийшов саме вчасно, друже. Нас спіткало багато втрат і горя.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn450",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Aragorn: Then let us avenge it ere we speak of it!",
+   "ru": "",
+   "uk_ai": "Араґорн: Тоді помстімося за це, перш ніж говорити!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_imrahil005",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Imrahil: So it will be, my Lord Aragorn. We will take the fight to the Enemy!",
+   "ru": "",
+   "uk_ai": "Імрагіл: Так і буде, мій пане Араґорне. Понесімо бій до Ворога!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_imrahil006",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Imrahil: Their host gathers in the south. We must strike at their camp before they regain their strength.",
+   "ru": "",
+   "uk_ai": "Імрагіл: Їхнє військо збирається на півдні. Треба вдарити по їхньому табору, поки вони не відновили сили.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli134",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Gimli: Let us be rid of them!",
+   "ru": "",
+   "uk_ai": "Ґімлі: Позбудьмося їх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad081",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Halbarad: Come, servants of Shadow! Face the doom your Master has made for you!",
+   "ru": "",
+   "uk_ai": "Гальбарад: Ну ж бо, слуги Тіні! Зустріньте загибель, яку вам приготував ваш Господар!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gothmog003",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Gothmog: You think the might of Mordor is spent? Fool! You herald your own doom!",
+   "ru": "",
+   "uk_ai": "Ґотмоґ: Гадаєте, могутність Мордору вичерпано? Дурні! Ви кличете власну загибель!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn457",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Aragorn: They are broken, drive them from the field!",
+   "ru": "",
+   "uk_ai": "Араґорн: Їх зламано, женіть їх із поля!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir121",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Boromir: Drive them out, let none return!",
+   "ru": "",
+   "uk_ai": "Боромир: Женіть їх, щоб жоден не повернувся!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MEOsgil_Faramir001",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Faramir: For the glory of Gondor!",
+   "ru": "",
+   "uk_ai": "Фарамір: За славу Ґондору!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MGBlack_GondorSoldier014",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Soldier: We've won, we've won!",
+   "ru": "",
+   "uk_ai": "Воїн: Ми перемогли, перемогли!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MGOsgil_GondorOfficer015",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Soldier: The ENEMY is retreating! Victory is ours!",
+   "ru": "",
+   "uk_ai": "Воїн: ВОРОГ відступає! Перемога за нами!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elfhelm017",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Elfhelm: The ENEMY is retreating! Victory is ours!",
+   "ru": "",
+   "uk_ai": "Ельфгельм: ВОРОГ відступає! Перемога за нами!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_imrahil016",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Imrahil: The day is won!",
+   "ru": "",
+   "uk_ai": "Імрагіл: День за нами!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MGHelms_Aragorn026",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Aragorn: Victory is at hand!",
+   "ru": "",
+   "uk_ai": "Араґорн: Перемога вже близько!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn270A",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Aragorn: Halbarad, my truest friend. For you to fall when the aim for which you fought was so near is a grievous hurt.",
+   "ru": "",
+   "uk_ai": "Араґорн: Гальбараде, мій найвірніший друже. Як гірко, що ти поліг, коли мета, за яку ти бився, була вже так близько.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn270B",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Aragorn: Be at peace, son of Arnor.",
+   "ru": "",
+   "uk_ai": "Араґорн: Спочивай з миром, сину Арнору.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_faramir079",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Faramir: The Heir of Elendil has come forth, father. To refuse him would bring dishonour upon our House.\nIt is by the leadership of Aragorn that the Enemy has been repelled.",
+   "ru": "",
+   "uk_ai": "Фарамір: Спадкоємець Еленділа з'явився, батьку. Відмовити йому — значить зганьбити наш Дім.\nСаме під проводом Араґорна Ворога відкинуто.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor056",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Denethor: What say you of this, Boromir?",
+   "ru": "",
+   "uk_ai": "Денетор: А ти що на це скажеш, Боромире?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir041",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Boromir: This is a time to rejoice, father. Turning Aragorn away would invite chaos amongst our ranks.\nThis war is not over, and we must press our advantage whilst we can.",
+   "ru": "",
+   "uk_ai": "Боромир: Це час радіти, батьку. Якщо відштовхнути Араґорна, в наших лавах почнеться розлад.\nЦя війна ще не скінчена, і ми мусимо скористатися перевагою, поки можемо.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor057",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Denethor: Leave me. I require time and silence to examine the meaning of these events.",
+   "ru": "",
+   "uk_ai": "Денетор: Залиште мене. Мені потрібні час і тиша, щоб осмислити ці події.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_faramir080",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Faramir: We have little time.",
+   "ru": "",
+   "uk_ai": "Фарамір: У нас мало часу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor058",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Denethor: The time of my thought is yet mine to spend, Faramir!",
+   "ru": "",
+   "uk_ai": "Денетор: Час на роздуми — поки що мій, Фараміре!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn245",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Aragorn: Hail, Lord Denethor, Steward of Gondor. A star shines upon the hour of our meeting.",
+   "ru": "",
+   "uk_ai": "Араґорн: Вітаю тебе, володарю Денеторе, Наміснику Ґондору. Зоря сяє над годиною нашої зустрічі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor059",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Denethor: It is due to Boromir's counsel that I have come to realise what must be done.",
+   "ru": "",
+   "uk_ai": "Денетор: Саме завдяки пораді Боромира я зрозумів, що треба зробити.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor060",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Denethor: Today, I must render unto thee not merely lordship of my lands, but also of my people,\nwhose lives and well-being are near to my heart.",
+   "ru": "",
+   "uk_ai": "Денетор: Сьогодні я мушу передати тобі не лише владу над моїми землями, а й над моїм народом,\nчиє життя й добробут близькі моєму серцю.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn246A",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Aragorn: The House of Stewards has long seen to the survival of Gondor. Though I will take up kingship over you,\nI wish for you to remain at your post, and defend Minas Tirith in my absence.",
+   "ru": "",
+   "uk_ai": "Араґорн: Дім Намісників довго дбав про те, щоб Ґондор вистояв. Хоч я й стану вашим королем,\nя бажаю, щоб ти лишився на своєму посту й обороняв Мінас-Тіріт за моєї відсутності.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn246B",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Aragorn: Only together do we have a chance at victory.",
+   "ru": "",
+   "uk_ai": "Араґорн: Лише разом ми маємо шанс на перемогу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gondorsoldier036",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Gondor Soldier: Lord Eomer of Rohan! Your sister has been taken to the Houses of Healing. She yet lives,\nbut is near death! You must go to her at once!",
+   "ru": "",
+   "uk_ai": "Ґондорський воїн: Володарю Еомере Роганський! Вашу сестру віднесли до Обителі Зцілення. Вона ще жива,\nале при смерті! Ви мусите негайно йти до неї!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_eomer051",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Eomer: Eowyn!",
+   "ru": "",
+   "uk_ai": "Еомер: Еовін!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf252",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Gandalf: The hands of the king are the hands of a healer, and so shall the rightful king be known.\nCome, Aragorn. You are needed.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Руки короля — руки цілителя, і саме так впізнають законного короля.\nХодімо, Араґорне. Ти потрібен.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn247",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Aragorn: This City and realm has rested in the charge of the Stewards for many long years,\nand I will not make any claim until it is seen whether we or Mordor shall prevail.",
+   "ru": "",
+   "uk_ai": "Араґорн: Це Місто й королівство багато довгих років були під опікою Намісників,\nі я не висуватиму жодних домагань, доки не стане видно, хто переможе — ми чи Мордор.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_eomer049",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Eomer: You have raised the king's banner and displayed the tokens of Elendil's House.\nWill you suffer these to be challenged?",
+   "ru": "",
+   "uk_ai": "Еомер: Ти підняв королівський стяг і показав знаки Дому Еленділа.\nНевже дозволиш, щоб їх ставили під сумнів?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn248",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Aragorn: No. But I deem the time unripe, and I have no mind for strife except with our Enemy and his servants.\nI will await the welcome of the Lord of the City.",
+   "ru": "",
+   "uk_ai": "Араґорн: Ні. Але я вважаю, що час ще не настав, і не маю бажання ворогувати ні з ким, крім нашого Ворога та його слуг.\nЯ чекатиму запрошення від Володаря Міста.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_imrahil017",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Imrahil: Your words are wise, lord. But I would not have you remain like a beggar at the door.",
+   "ru": "",
+   "uk_ai": "Імрагіл: Мудрі твої слова, пане. Та я не хотів би, щоб ти стояв під дверима, мов жебрак.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf251A",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Gandalf: He must not.",
+   "ru": "",
+   "uk_ai": "Ґендальф: І не стоятиме.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf251B",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Gandalf: Denethor is no more. His son, now Steward, lies gravely wounded at the Houses of Healing.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Денетора більше немає. Його син, тепер Намісник, тяжко поранений лежить в Обителі Зцілення.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf251C",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Gandalf: Eomer, your sister is there also. She yet lives, but is near death. Go to her!",
+   "ru": "",
+   "uk_ai": "Ґендальф: Еомере, там і твоя сестра. Вона ще жива, але при смерті. Іди до неї!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf253",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Gandalf: At great cost have we survived the first assault. The next will be greater.\nPrudence would counsel you to strengthen what strong places remain to you.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Дорогою ціною ми пережили перший штурм. Наступний буде сильнішим.\nОбачність порадила б вам зміцнити ті твердині, що у вас іще лишилися.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_imrahil018",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Imrahil: Then you would have us retreat to our castles and await our doom?",
+   "ru": "",
+   "uk_ai": "Імрагіл: Тобто ти хочеш, щоб ми відступили до своїх замків і чекали загибелі?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf429",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Gandalf: No, for I do not counsel prudence. I believe that we must place our hope in the destruction of the Ring of Power.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Ні, бо я не раджу обачності. Я вірю, що маємо покласти надію на знищення Персня Влади.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn458",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Aragorn: We have come now to the very brink. To waver is to fall. We must march upon the Black Gate,\nto draw out Sauron's armies and give Frodo what time we can.",
+   "ru": "",
+   "uk_ai": "Араґорн: Ми стоїмо на самому краю. Завагатися — значить упасти. Ми мусимо рушити на Чорну браму,\nщоб виманити війська Саурона й дати Фродо стільки часу, скільки зможемо.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_eomer050",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Eomer: I know little of these deep matters. But you came to our rescue, and if you go, I will follow.",
+   "ru": "",
+   "uk_ai": "Еомер: Я мало тямлю в таких глибоких справах. Але ти прийшов нам на порятунок, і якщо ти підеш, я піду за тобою.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas138",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Legolas: We have come this far, Aragorn. We are with you.",
+   "ru": "",
+   "uk_ai": "Леґолас: Ми зайшли так далеко, Араґорне. Ми з тобою.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli136",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Gimli: Aye. Let none doubt the steadfastness of Durin's Folk.",
+   "ru": "",
+   "uk_ai": "Ґімлі: Еге ж. Хай ніхто не сумнівається у твердості народу Дуріна.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir042",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Boromir: Nor the courage of Gondor.",
+   "ru": "",
+   "uk_ai": "Боромир: Ані в мужності Ґондору.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_imrahil019",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Imrahil: Nor the courage of Gondor.",
+   "ru": "",
+   "uk_ai": "Імрагіл: Ані в мужності Ґондору.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli137",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Gimli: I wish I could summon some of our own kinsfolk south. A contingent of stout Dwarves, eager for battle.",
+   "ru": "",
+   "uk_ai": "Ґімлі: Шкода, що не можу покликати на південь когось із наших родичів. Загін міцних дворфів, що рвуться в бій.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas139",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Legolas: Your kinsmen may have no need to ride to war; I fear war already marches on their own lands.",
+   "ru": "",
+   "uk_ai": "Леґолас: Твоїм родичам, може, й не доведеться йти на війну: боюся, війна вже йде на їхні землі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_rohanguy030",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Quickly! Use the build plots to fortify our position!",
+   "ru": "",
+   "uk_ai": "Швидше! Використайте будівельні ділянки, щоб укріпити нашу позицію!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:HaradrimArrive_Pelennor",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Інше",
+   "en": "Haradrim Host Arrives",
+   "ru": "",
+   "uk_ai": "Прибуває військо харадримів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:EowynShieldHint01",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Інше",
+   "en": "Collect shields from the battlefield to withstand the Witch-king's attacks.",
+   "ru": "",
+   "uk_ai": "Збирайте щити на полі бою, щоб витримати атаки Короля-чаклуна.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:ImrahilEomer_Pelennor",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Інше",
+   "en": "Imrahil and Eomer will be overwhelmed in:",
+   "ru": "",
+   "uk_ai": "Імрагіла й Еомера здолають через:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:ObjectiveHint01b_Pelennor",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Ціль",
+   "en": "Use your Rohirrim's Song of Battle to regain health.",
+   "ru": "",
+   "uk_ai": "Скористайтеся «Бойовою піснею» рогіримів, щоб відновити здоров'я.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_rohanguy025",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Mundburg burns!",
+   "ru": "",
+   "uk_ai": "Мундбурґ палає!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_rohanguy026",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Drive forward, let us end the siege!",
+   "ru": "",
+   "uk_ai": "Вперед, покладімо край облозі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_rohanguy027",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Destroy those catapults!",
+   "ru": "",
+   "uk_ai": "Знищте ті катапульти!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_rohanguy028",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Trolls! Kill the trolls!",
+   "ru": "",
+   "uk_ai": "Тролі! Вбийте тролів!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_rohanguy029",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Watch out! Keep out of its range!",
+   "ru": "",
+   "uk_ai": "Обережно! Тримайтеся подалі від нього!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_wulfgar004",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Steel answers steel - forward men of Dunland!",
+   "ru": "",
+   "uk_ai": "Сталь на сталь — вперед, люди Дунланду!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_wulfgar005",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "We shall prove our worth!",
+   "ru": "",
+   "uk_ai": "Ми доведемо, чого варті!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_wulfgar006",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "They will sing of your wrath, Theoden Thengels-son!",
+   "ru": "",
+   "uk_ai": "Про твій гнів співатимуть пісні, Теодене, сину Тенґела!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_theoden081",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Sound the charge! Meet them head on!",
+   "ru": "",
+   "uk_ai": "Сурміть атаку! Зустріньмо їх лоб у лоб!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_theoden080",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Bring it down!",
+   "ru": "",
+   "uk_ai": "Валіть його!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_theoden084",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Strange warriors of the south!",
+   "ru": "",
+   "uk_ai": "Дивні воїни з півдня!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_suladan001",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Ride, my warriors! The Black Serpent is with you!",
+   "ru": "",
+   "uk_ai": "Вперед, мої воїни! Чорний Змій з вами!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_suladan002",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Kill their king! End this now!",
+   "ru": "",
+   "uk_ai": "Вбийте їхнього короля! Покладіть цьому край!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_suladan003",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Break these northmen under foot!",
+   "ru": "",
+   "uk_ai": "Розтопчіть цих північан!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_suladan004",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "You cannot withstand the fury of Sûladan!",
+   "ru": "",
+   "uk_ai": "Вам не встояти перед люттю Суладана!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_rohanguy031",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "The Southrons are upon us!",
+   "ru": "",
+   "uk_ai": "Південці вже тут!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_rohanguy032",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Towering troll-men! Keep your distance!",
+   "ru": "",
+   "uk_ai": "Велетенські люди-тролі! Тримайтеся на відстані!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_rohanguy033",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Have you ever seen the like of 'em?",
+   "ru": "",
+   "uk_ai": "Ти бачив колись таке?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_rohanguy034",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "What new foe is this? They're no orc!",
+   "ru": "",
+   "uk_ai": "Що це за новий ворог? Це не орки!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_rohanguy035",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Cavalry! Brace yourselves!",
+   "ru": "",
+   "uk_ai": "Кіннота! Тримайтеся!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_rohanguy036",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "The Southrons bear down on us once more!",
+   "ru": "",
+   "uk_ai": "Південці знову насідають на нас!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_rohanguy038",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "The Black Serpent is dead!",
+   "ru": "",
+   "uk_ai": "Чорний Змій мертвий!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_rohanguy039",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Lord Aragorn! You have returned!",
+   "ru": "",
+   "uk_ai": "Володарю Араґорне! Ти повернувся!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_rohanguy040",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "We knew you had not forsaken us!",
+   "ru": "",
+   "uk_ai": "Ми знали, що ти нас не покинув!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_eomer043",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Stay back! Watch their feet!",
+   "ru": "",
+   "uk_ai": "Назад! Стережіться їхніх ніг!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_eowyn005",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Begone, foul Dwimmerlaik! Lord of Carrion! Leave the dead in peace!",
+   "ru": "",
+   "uk_ai": "Геть, мерзенний двімерлайку! Володарю падла! Залиш мертвих у спокої!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_eowyn007",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Get back!",
+   "ru": "",
+   "uk_ai": "Назад!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_eowyn008",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "I will slay you!",
+   "ru": "",
+   "uk_ai": "Я тебе вб'ю!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_eowyn009",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Stay away from him!",
+   "ru": "",
+   "uk_ai": "Не підходь до нього!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_eowyn010",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Merry!",
+   "ru": "",
+   "uk_ai": "Меррі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgtt_boromir-163",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Діалог",
+   "en": "Boromir: We must hold the line!",
+   "ru": "",
+   "uk_ai": "Боромир: Ми мусимо втримати стрій!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_eomer034",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Out of doubt, our of dark, to the day's rising, to hope's end I rode and to heart's breaking!",
+   "ru": "",
+   "uk_ai": "З сумніву, з темряви, назустріч світанку, до краю надії я мчав, до розбитого серця!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_eomer045",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Grimbold!",
+   "ru": "",
+   "uk_ai": "Ґрімбольде!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_eomer046",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Dunhere fought to the last, he will be avenged!",
+   "ru": "",
+   "uk_ai": "Дунгере бився до останнього, за нього буде помщено!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_eomer047",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "To the bitter end!",
+   "ru": "",
+   "uk_ai": "До гіркого кінця!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_imrahil012",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Men of Gondor! Of Rohan! Here we make our stand!",
+   "ru": "",
+   "uk_ai": "Люди Ґондору! Рогану! Тут ми стоїмо на смерть!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_imrahil013",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Dol Amroth will not falter this day!",
+   "ru": "",
+   "uk_ai": "Дол-Амрот сьогодні не похитнеться!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_imrahil014",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Honour your fallen Lord!",
+   "ru": "",
+   "uk_ai": "Вшануйте свого полеглого Володаря!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_imrahil015",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Courage! Courage for the fallen!",
+   "ru": "",
+   "uk_ai": "Мужніше! Мужніше заради полеглих!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn451",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Make safe the harbour!",
+   "ru": "",
+   "uk_ai": "Захистіть гавань!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn452",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "You are not forsaken, rally to me!",
+   "ru": "",
+   "uk_ai": "Вас не покинуто, всі до мене!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn453",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "We come to Gondor's aid!",
+   "ru": "",
+   "uk_ai": "Ми йдемо на поміч Ґондору!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn454",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Fight on, Halbarad!",
+   "ru": "",
+   "uk_ai": "Бийся, Гальбараде!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn455",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Halbarad! Watch out!",
+   "ru": "",
+   "uk_ai": "Гальбараде! Обережно!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gothmog004",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Die, cur!",
+   "ru": "",
+   "uk_ai": "Здохни, собако!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gothmog005",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Scum! My guards will deal with you!",
+   "ru": "",
+   "uk_ai": "Покидьки! Моя варта з вами розбереться!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gothmog006",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Bring me their heads!",
+   "ru": "",
+   "uk_ai": "Принесіть мені їхні голови!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gothmog007",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "Kill them!",
+   "ru": "",
+   "uk_ai": "Вбийте їх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gothmog008",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "I'll do it myself!",
+   "ru": "",
+   "uk_ai": "Я сам це зроблю!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gothmog009",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "I'll gut you!",
+   "ru": "",
+   "uk_ai": "Я тебе випатраю!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gothmog010",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Репліка",
+   "en": "My warg hungers!",
+   "ru": "",
+   "uk_ai": "Мій варґ голодний!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:EowynNoMan",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "I Am No Man (&R)",
+   "ru": "",
+   "uk_ai": "Я не чоловік (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellowshipMerryEsquire",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Esquire of Rohan",
+   "ru": "",
+   "uk_ai": "Зброєносець Рогану",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellowshipMerryHorn",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Rohirric Horn (&V)",
+   "ru": "",
+   "uk_ai": "Ріг Рогану (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GothmogPelCarnage",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Orcish Resilience (&R)",
+   "ru": "",
+   "uk_ai": "Ороча витривалість (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GothmogPelDebuff",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Lieutenant's Scorn (&T)",
+   "ru": "",
+   "uk_ai": "Зневага намісника (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GothmogsWargBleedWeapon",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Shredding Jaws (&W)",
+   "ru": "",
+   "uk_ai": "Шматувальні щелепи (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HoldwinetheGreat",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Holdwine the Great (&C)",
+   "ru": "",
+   "uk_ai": "Голдвайн Великий (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PelennorRohirrimAimForEyes",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Aim for the Eyes! (&W)",
+   "ru": "",
+   "uk_ai": "Цільтеся в очі! (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PelennorRohirrimAimForEyesToolTip",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Rohirrim Archers deal +50% damage against Monsters and Heroes for 30 seconds\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Лучники рогіррімів завдають +50% пошкоджень створінням і героям на 30 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ShieldMaidenRotK",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Shieldmaiden of Rohan (&W)",
+   "ru": "",
+   "uk_ai": "Діва-воїтелька Рогану (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SongOfBattlePelennor",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Song of Battle (&R)",
+   "ru": "",
+   "uk_ai": "Пісня битви (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SwanKnightChargeAttack",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Imrahil! Imrahil (&W)",
+   "ru": "Имрахиль! Имрахиль! (&W)",
+   "uk_ai": "Імрагіл! Імрагіл! (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEomerLeadershipBG",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Modifier Type: Leadership \n Allied units near Éomer gain +33% damage \n\n Passive ability",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Лідерство \n Союзні загони поряд з Еомером отримують бонус +33% до пошкоджень \n\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEowynNoMan",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Éowyn deals heavy damage to targeted hero\n Target hero loses -25% movement speed for 10 seconds \n Left click then left click on target",
+   "ru": "",
+   "uk_ai": "Еовін завдає великих пошкоджень вказаному героєві\n Вказаний герой втрачає 25% швидкості руху на 10 сек. \n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipFellowshipMerryEsquire",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Merry gains +25 armour and +25% damage when near Éomer\nAt Level 3, Merry passively deals +200% damage against Nazgûl with his sword\nPassive ability",
+   "ru": "",
+   "uk_ai": "Меррі отримує бонус +25 броні й +25% до пошкоджень поряд з Еомером\nНа 3 рівні Меррі своїм мечем постійно завдає +200% пошкоджень назґулам\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipFellowshipMerryHalflingCourage",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Requires Level 5\nMerry permanently gains +600 health\n\nModifier Type: Leadership\nNearby friendly units gain +25% armour and earn experience 25% faster\n Stacks with Buffs and Spells\nPassive ability",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 5\nМеррі назавжди отримує бонус +600 здоров'я\n\nТип ефекту: Лідерство\nСоюзні загони поблизу отримують бонус +25% броні й на 25% швидше набирають досвід\n Поєднується з посиленнями та заклинаннями\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellowshipMerryHorn",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Requires Level 10\nMerry blows the silver horn of Rohan, stunning nearby enemy units with fear for 15 seconds\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 10\nМеррі сурмить у срібний ріг Рогану, і ворожі загони поблизу, охоплені страхом, приголомшені на 15 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGothmogPelDebuff",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Targeted enemy hero loses -25% armour for 30 seconds\nGorbag deals +25% damage to targeted hero for the duration\nLeft click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Вказаний ворожий герой втрачає 25% броні на 30 сек.\nУвесь цей час Ґотмоґ завдає вказаному героєві +25% до пошкоджень\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGothmogsWargBleedWeapon",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Targeted enemy hero takes heavy damage over time for 15 seconds\nLeft click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Вказаний ворожий герой отримує великі поступові пошкодження протягом 15 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHoldwinetheGreat",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Requires Level 7 \n Merry plunges his Blade of Westernesse into an enemy unit, hero or monster, dealing strong damage and decreasing armour by 33% for 10 seconds. \n Can only use when sword is equipped. \n Left click then left click on target",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 7 \n Меррі встромляє клинок Вестернесу у ворожий загін, героя чи створіння, завдаючи сильних пошкоджень і зменшуючи броню на 33% на 10 сек. \n Доступно лише з мечем. \n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShieldMaidenRotK",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Requires Shield Equipped\nÉowyn gains +100% armour for 5 seconds\n Left click to activate",
+   "ru": "",
+   "uk_ai": "Потрібно мати щит\nЕовін отримує бонус +100% броні на 5 сек.\n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSongOfBattle",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Modifier Type: Spell\nTarget allied units are healed and gain +25% damage for 30 seconds\nLeft click icon then left click on target",
+   "ru": "Тип модификатора: Заклинание\nСоюзные отряды исцеляются и наносят +25% урона в течение 30 секунд\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Тип ефекту: Заклинання\nВказані союзні загони зцілюються й отримують бонус +25% до пошкоджень на 30 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityGothmogPelCarnage",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Modifier Type: Weapon \n Gothmog gains\n+200% damage, +25% armour for 20 seconds \n Left click to activate",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Зброя \n Ґотмоґ отримує бонус\n+200% до пошкоджень, +25% броні на 20 сек. \n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSwanKnightChargeAttack",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Order Swan Knights to charge the enemy \n Modifier Type: Buff \n Swan Knights gain +50% damage and +50% armour for 20 seconds \nCauses meta impact \n Left click icon then left click on target",
+   "ru": "Приказать рыцарям-лебедям атаковать врага\nТип модификатора: Усиление\nРыцари лебедя наносят +50% урона и получают +50% брони на 20 секунд\nВызывает мета-удар\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Наказ лицарям Лебедя атакувати ворога \n Тип ефекту: Посилення \n Лицарі Лебедя отримують бонус +50% до пошкоджень і +50% броні на 20 сек. \nРозкидає ворогів \n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGloriousChargePelennor",
+   "mission": "008_The Battle of Pelennor Fields",
+   "type": "Кнопка",
+   "en": "Requires Level 5 \n Théoden must be mounted to use ability \n Modifier Type: Spell \n Théoden and allied cavalry mapwide gain +100% armour for 20 seconds\n The more riders near Théoden, the larger the bonus \n(+10% armour per battalion, up to additional +100%)\n No force can slow this charge \n\n At level 10 affected units are immune to fear and terror \nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 5\n Теоден має бути верхи, щоб активувати здібність \n Тип ефекту: Заклинання \n Теоден і союзна кавалерія по всій мапі отримують бонус +100% броні на 20 сек.\n Що більше вершників поруч із Теоденом, то більший бонус \n(+10% броні за кожен загін, до +100% додатково)\n Ніщо не сповільнить цю атаку \n\n На 10 рівні загони отримують імунітет до страху та жаху \nКлікніть, щоб активувати",
+   "status": "вичитано",
+   "uk": ""
+  }
+ ]
+}

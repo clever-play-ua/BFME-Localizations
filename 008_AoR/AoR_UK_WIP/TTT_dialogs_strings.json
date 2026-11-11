@@ -1,0 +1,2979 @@
+{
+ "meta": {
+  "campaign": "TTT (Дві вежі), AoR 10.0 — subtitles and buttons the first TTT file missed",
+  "fields": "en = AoR 10.0; ru = RU submod 9.3.1 (empty = no RU line); uk_ai = AI draft; uk = proofread text (2026-11-02 + spelling pass + user decisions). \n = line break; keep (&X) hotkeys Latin.",
+  "count": 330
+ },
+ "strings": [
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer044",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "Our scouts report that Sauron has marshalled his army and prepares to invade Gondor.",
+   "ru": "Наши разведчики докладывают, что Саурон собрал свою армию и готовится к вторжению в Гондор.",
+   "uk_ai": "Наші розвідники доповідають, що Саурон зібрав військо й готується вторгнутися в Ґондор.",
+   "uk": "Наші розвідники доповідають, що Саурон зібрав військо й готується до вторгнення у Ґондор."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer045",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "Orcs are on the move, Southrons have been spotted near our borders. Fair Ithilien will soon be under attack.",
+   "ru": "Орки в пути, южане замечены у наших границ. Славный Итилиэн скоро подвергнется нападению.",
+   "uk_ai": "Орки рушили, біля наших кордонів помітили південців. Скоро на прекрасний Ітілієн нападуть.",
+   "uk": "Орки вже в дорозі, а біля наших кордонів помітили людей півдня. Скоро на славний Ітілієн нападуть."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer046",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "Captain Faramir will direct his most trusted rangers to stall and waylay the enemy. \\n We must destroy the scouting parties before we are discovered.",
+   "ru": "Капитан Фарамир направит своих самых надежных следопытов, чтобы задержать и обвести врага вокруг пальца.\\nМы должны уничтожить разведчиков до того, как нас обнаружат.",
+   "uk_ai": "Капітан Фарамір пошле найвірніших слідопитів, щоб затримати ворога й улаштувати йому засідку. \\n Мусимо знищити розвідзагони, доки нас не помітили.",
+   "uk": "Капітан Фарамір пошле найвірніших слідопитів, щоб затримати ворога й влаштувати засідку. \\n Мусимо знищити розвідзагони, доки нас не помітили."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer015",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "Our rangers have reported that Mordor has established a large camp to the north-east.",
+   "ru": "Наши следопыты доложили, что Мордор разбил большой лагерь на северо-востоке.",
+   "uk_ai": "Наші слідопити доповіли, що Мордор розбив великий табір на ПІВНІЧНОМУ СХОДІ.",
+   "uk": "Наші слідопити доповіли, що Мордор розбив великий табір на ПІВНІЧНОМУ СХОДІ."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer016",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "This is Mordor's staging post for raids into Gondorian territory.",
+   "ru": "Это перевалочный пункт Мордора для набегов на территорию Гондора.",
+   "uk_ai": "Звідси Мордор робить набіги на землі Ґондору.",
+   "uk": "Саме звідси Мордор робить набіги на землі Ґондору."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer017",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "If we destroy this camp the enemy's advance will be slowed!",
+   "ru": "Если мы уничтожим этот лагерь, продвижение противника замедлится!",
+   "uk_ai": "Якщо знищимо цей табір, наступ ворога сповільниться!",
+   "uk": "Якщо знищимо цей табір, наступ ворога суттєво сповільниться!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer018",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "To strike at Mordor's base we will need the full strength of our forces in Ithilien.",
+   "ru": "Чтобы нанести удар по базе Мордора, нам понадобится больше следопытов.",
+   "uk_ai": "Щоб ударити по базі Мордору, нам знадобляться всі наші сили в Ітілієні.",
+   "uk": "Аби ударити по базі Мордору, нам знадобляться всі наші сили в Ітілієні."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer019",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "We must make contact with the other Ranger-captains.",
+   "ru": "Мы должны связаться с другими капитанами следопытов.",
+   "uk_ai": "Треба зв'язатися з іншими капітанами слідопитів.",
+   "uk": "Нам треба зв'язатися з іншими капітанами слідопитів."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer020",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "Anborn's rangers are camped in the northern woods, while Mablung and his men were sent south.",
+   "ru": "Следопыты Анборна расположились лагерем в северных лесах, а Маблунг и его люди отправились на юг.",
+   "uk_ai": "Слідопити Анборна отаборилися в північних лісах, а Маблунга з його людьми послали на південь.",
+   "uk": "Слідопити Анборна отаборилися в північних лісах, а Маблунга з його людьми послали на південь."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer021",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "There are other rangers hidden throughout the region as well. We should try and find as many as we can.",
+   "ru": "Также в здешних местах укрываются несколько наших разрозненных разведчиков, с которыми мы должны попытаться установить контакт, пока их не обнаружили.",
+   "uk_ai": "У цих краях ховаються й інші слідопити. Спробуймо знайти якомога більше.",
+   "uk": "У цих краях ховаються й інші слідопити. Спробуймо знайти якомога більше."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer024",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "The rangers will be hidden from view. Call out to them! They will respond and tell us their location.",
+   "ru": "Следопыты будут скрыты от глаз. Позовите их! Они откликнутся и сообщат нам о своем местонахождении.",
+   "uk_ai": "Слідопити сховані від очей. Покличте їх! Вони відгукнуться й підкажуть, де вони.",
+   "uk": "Слідопити будуть сховані від очей. Покличте їх! Вони відгукнуться й підкажуть, де вони."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer025",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "There are reports of Lumber mills throughout Ithilien. They're clearing away the trees, and with them, our cover.",
+   "ru": "Поступают сообщения о лесопилках по всему Итилиэну. Они вырубают деревья, а вместе с ними и наше укрытие.",
+   "uk_ai": "Кажуть, по всьому Ітілієну з'явилися лісопильні. Вони вирубують дерева, а з ними — і наше укриття.",
+   "uk": "Кажуть, по всьому Ітілієну з'явилися лісопильні. Вони вирубують дерева, а з ними — і наше укриття."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer026",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "We must take out these Lumber Mills or else we'll soon be battling on a barren plain.",
+   "ru": "Мы должны разрушить эти лесопилки, иначе вскоре мы будем вынуждены сражаться на бесплодной равнине.",
+   "uk_ai": "Треба знищити ці лісопильні, інакше скоро битимемося на голій рівнині.",
+   "uk": "Треба знищити ці лісопильні, інакше скоро битимемося на голих рівнинах."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer033",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "A strange creature was spotted on the cliffs to the northeast. We should send captain Anborn there to investigate.",
+   "ru": "На скалах к северо-востоку было замечено странное существо. Мы должны послать туда капитана Анборна на разведку.",
+   "uk_ai": "На скелях на ПІВНІЧНОМУ СХОДІ помітили дивну істоту. Пошлімо туди капітана Анборна, хай розвідає.",
+   "uk": "На скелях на ПІВНІЧНОМУ СХОДІ помітили дивну істоту. Відправимо туди капітана Анборна, нехай розвідає."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer036",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "A great Haradrim host will arrive soon. We must be ready to stop them!",
+   "ru": "Вскоре прибудет великое войско харадрим. Мы должны быть готовы остановить их!",
+   "uk_ai": "Скоро прибуде велике військо харадримів. Мусимо бути готові їх зупинити!",
+   "uk": "Скоро прибуде велике військо харадримів. Ми мусимо бути готові їх зупинити!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer037",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "We should stage an ambush and station men along the eastern pass.",
+   "ru": "Мы должны организовать засаду и расставить людей вдоль восточного перевала.",
+   "uk_ai": "Влаштуймо засідку й розставмо людей уздовж СХІДНОГО перевалу.",
+   "uk": "Влаштуймо засідку й розставмо людей уздовж СХІДНОГО перевалу."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer038",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "These ridges will hide our men from the enemy and allow us to strike when they are vulnerable.",
+   "ru": "Эти хребты скроют наших людей от врага и позволят нам нанести удар, когда они будут наиболее уязвимы.",
+   "uk_ai": "Ці гребені сховають наших людей від ворога й дадуть ударити, коли він буде вразливий.",
+   "uk": "Ці гребені сховають наших людей від ворога й дадуть вдарити, коли він буде найбільш вразливий."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer039",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "We will need a full force to defeat the Haradrim and their Mumakil. We can recruit more rangers from our camp.",
+   "ru": "Нам понадобятся все силы, чтобы победить харадрим и их мумаков. Мы можем призвать больше следопытов из нашего лагеря.",
+   "uk_ai": "Щоб здолати харадримів і їхніх мумакілів, потрібні всі сили. Ми можемо набрати більше слідопитів у нашому таборі.",
+   "uk": "Щоб здолати харадримів і їхніх мумакілів, потрібні всі сили. Ми можемо набрати більше слідопитів у нашому таборі."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer034",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "The creature Gollum has been captured. Take him back to Henneth Annun. Captain Faramir can question him later.",
+   "ru": "Существо по имени Голлум схвачено. Отведите его обратно в Хеннет-Аннун. Капитан Фарамир сможет допросить его позже.",
+   "uk_ai": "Істоту Ґолума схоплено. Відведіть його до Геннет-Аннуну. Капітан Фарамір допитає його згодом.",
+   "uk": "Істоту на ім'я Ґолум схоплено. Відведіть його до Геннет-Аннуну. Капітан Фарамір допитає його згодом."
+  },
+  {
+   "var": "CONTROLBAR:RangerLureIthilien",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Кнопка",
+   "en": "Lure (&R)",
+   "ru": "Приманка (&R)",
+   "uk_ai": "Приманка (&R)",
+   "uk": "Приманка (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRangerLureIthilienNew",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Кнопка",
+   "en": "Call out to hidden ranger units \\n Left click to activate",
+   "ru": "Призыв скрытого отряда следопытов\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Покликати сховані загони слідопитів \\n Клікніть, щоб активувати",
+   "uk": "Прикликає приховані загони слідопитів \\n Клікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:RangerLureIthilienforHordes",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Кнопка",
+   "en": "Lure",
+   "ru": "Приманка",
+   "uk_ai": "Приманка",
+   "uk": "Приманка"
+  },
+  {
+   "var": "CONTROLBAR:ToggleFaramirWeapons",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Кнопка",
+   "en": "Toggle Weapon (&W)",
+   "ru": "Смена оружия (&W)",
+   "uk_ai": "Змінити зброю (&W)",
+   "uk": "Змінити зброю (&W)"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer001",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "We must eliminate all of Mordor's patrols before they discover our secret refuge!",
+   "ru": "Мы должны уничтожить все патрули Мордора, пока они не обнаружили наше тайное убежище!",
+   "uk_ai": "Мусимо знищити всі патрулі Мордору, доки вони не знайшли наш таємний прихисток!",
+   "uk": "Мусимо знищити всі патрулі Мордору, доки вони не знайшли наше таємне укриття!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer002",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "The enemy will not see us, so long as we keep to the trees and keep a short distance away.",
+   "ru": "Враг не увидит нас, пока мы прячемся за деревьями и держимся на расстоянии.",
+   "uk_ai": "Ворог нас не побачить, доки ми триматимемося дерев і не підходитимемо близько.",
+   "uk": "Ворог нас не побачить, доки ми триматимемося дерев і триматимемося на відстані."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer003",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "Should we be spotted, we can lose the enemy by moving into the woods.",
+   "ru": "Если нас заметят, мы можем оторваться от врага, скрывшись в лесу.",
+   "uk_ai": "Якщо нас помітять, можна відірватися від ворога, сховавшись у лісі.",
+   "uk": "Якщо нас помітять, можна відірватися від ворога, сховавшись у лісі."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer004",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "We should lure the enemies away and kill them quietly...",
+   "ru": "Нужно выманивать врагов и убивать их тихо...",
+   "uk_ai": "Варто виманювати ворогів і тихо їх убивати...",
+   "uk": "Нам треба виманювати ворогів і тихо їх знищувати..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer005",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "We will do more damage if we attack from the flank and from behind.",
+   "ru": "Мы нанесем больше урона, если будем атаковать с фланга и сзади.",
+   "uk_ai": "Ми завдамо більше шкоди, якщо атакуватимемо з флангу й з тилу.",
+   "uk": "Ми завдамо більше шкоди, якщо атакуватимемо з флангу й з тилу."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer006",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "Madril and Damrod have returned. We should return to the refuge at Henneth Annun.",
+   "ru": "Мадриль и Дамрод вернулись. Мы должны вернуться в убежище в Хеннет-Аннун.",
+   "uk_ai": "Мадріл і Дамрод повернулися. Треба вертатися до прихистку в Геннет-Аннуні.",
+   "uk": "Мадріл і Дамрод повернулися. Треба вертатися до прихистку в Геннет-Аннуні."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer007",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "Watch out for that orc lookout!",
+   "ru": "Осторожно, орк-дозорный!",
+   "uk_ai": "Обережно, орчий вартовий!",
+   "uk": "Обережно, орчий вартовий!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer008",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "Those lookouts! will call down a great host upon us should they spot us!",
+   "ru": "Дозорные! Они приведут с собой большой отряд, если заметят нас!",
+   "uk_ai": "Ці вартові! Якщо помітять нас, накличуть на нас велике військо!",
+   "uk": "Ці вартові! Якщо вони помітять нас, то покличуть великий загін!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer009",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "The orc lookouts escaped! We must flee the area and prepare for Mordor reinforcements!",
+   "ru": "Дозорные орков сбежали! Нам нужно покинуть эту область и готовиться к появлению поискового отряда Мордора!",
+   "uk_ai": "Орчі вартові втекли! Треба покинути цю місцевість і готуватися до підкріплення Мордору!",
+   "uk": "Орчі вартові втекли! Треба покинути цю місцевість і готуватися до підкріплення Мордору!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer010",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "The orcs are burning the trees! Don't let them remove our cover!",
+   "ru": "Орки жгут деревья! Не дайте им лишить нас укрытия!",
+   "uk_ai": "Орки палять дерева! Не дайте їм позбавити нас укриття!",
+   "uk": "Орки палять дерева! Не дайте їм позбавити нас укриття!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer011",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "More orc lookouts have fled!",
+   "ru": "Сбежал еще один орк-дозорный!",
+   "uk_ai": "Утекли ще орчі вартові!",
+   "uk": "Ще більше орочих вартових втекло!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer012",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "Even more lookouts have escaped! Retreat to cover!",
+   "ru": "Сбежал еще один орк-дозорный!! Отступайте в укрытие!",
+   "uk_ai": "Утекли ще вартові! Відступайте в укриття!",
+   "uk": "Ще більше вартових втекло! Відступайте в укриття!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer013",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "Those lookouts will give away our position!",
+   "ru": "Дозорные выдадут нашу позицию!",
+   "uk_ai": "Ці вартові видадуть, де ми!",
+   "uk": "Ці вартові видадуть, де ми!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer014",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "We cannot allow any more orc lookouts to escape!",
+   "ru": "Мы не можем позволить сбежать ни одному орку-дозорному!",
+   "uk_ai": "Не можна дати втекти жодному орчому вартовому!",
+   "uk": "Не можна дати втекти жодному вартовому!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer022",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "We must find the remaining rangers at Anborn's camp.",
+   "ru": "Мы должны отыскать оставшихся следопытов в лагере Анборна.",
+   "uk_ai": "Треба знайти решту слідопитів у таборі Анборна.",
+   "uk": "Треба знайти решту слідопитів у таборі Анборна."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer023",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "We must find the remaining rangers at Mablung's camp.",
+   "ru": "Мы должны отыскать оставшихся следопытов в лагере Маблунга.",
+   "uk_ai": "Треба знайти решту слідопитів у таборі Маблунга.",
+   "uk": "Треба знайти решту слідопитів у таборі Маблунга."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer027",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "Five lumber mills remain, we must destroy them!",
+   "ru": "Осталось пять лесопилок, мы должны их уничтожить!",
+   "uk_ai": "Лишилося п'ять лісопилень, треба їх знищити!",
+   "uk": "Лишилося П'ЯТЬ лісопилень, треба їх знищити!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer028",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "There are only four lumber mills left",
+   "ru": "Осталось только четыре лесопилки",
+   "uk_ai": "Лишилося тільки чотири лісопильні",
+   "uk": "Лишилося тільки ЧОТИРИ лісопильні"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer029",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "We must destroy the last three lumber mills",
+   "ru": "Мы должны уничтожить последние три лесопилки",
+   "uk_ai": "Треба знищити останні три лісопильні",
+   "uk": "Треба знищити останні ТРИ лісопильні"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer030",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "There are only two lumber mills remaining",
+   "ru": "Осталось только две лесопилки",
+   "uk_ai": "Лишилося тільки дві лісопильні",
+   "uk": "Лишилося тільки ДВІ лісопильні"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer031",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "Only one lumber mill remains!",
+   "ru": "Осталась только одна лесопилка!",
+   "uk_ai": "Лишилася тільки одна лісопильня!",
+   "uk": "Лишилася всього ОДНА лісопильня!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer032",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "That's the last of their wretched lumber mills!",
+   "ru": "Это последняя из их жалких лесопилок!",
+   "uk_ai": "Це остання з їхніх клятих лісопилень!",
+   "uk": "Це остання з їхніх клятих лісопилень!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer035",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "Well done men! Without their camp, Mordor's forces will be cut off!",
+   "ru": "Так держать! Без их лагеря силы Мордора будут отрезаны!",
+   "uk_ai": "Молодці, воїни! Без табору сили Мордору буде відрізано!",
+   "uk": "Так тримати! Без цього табору сили Мордору буде відрізано!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer040",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "There are still rangers hiding in Ithilien. We should find them before the convoy arrives.",
+   "ru": "В Итилиэне все еще скрываются следопыты. Мы должны найти их до прибытия конвоя.",
+   "uk_ai": "В Ітілієні ще ховаються слідопити. Треба знайти їх до прибуття каравану.",
+   "uk": "В Ітілієні ще ховаються слідопити. Треба знайти їх до прибуття каравану."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer041",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "There are still areas of the ridge unprotected. We should make us of these vantage points quickly!",
+   "ru": "На хребте все еще есть незащищенные участки. Нам нужно воспользоваться этими точками обзора как можно скорее!",
+   "uk_ai": "На гребені ще є незахищені місця. Треба швидше зайняти ці висоти!",
+   "uk": "На гребені ще є незахищені місця. Треба швидше зайняти ці висоти!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer042",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "The final convoy has arrived! Destroy the last of these foul invaders!",
+   "ru": "Последний конвой прибыл! Уничтожьте этих мерзких захватчиков до последнего!",
+   "uk_ai": "Прибув останній караван! Знищте решту цих мерзенних загарбників!",
+   "uk": "Прибув останній караван! Знищте решту цих мерзенних загарбників!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ithilienofficer043",
+   "mission": "005_Ambush in Ithilien",
+   "type": "Реплика",
+   "en": "That's it! The Haradrim force has been destroyed!",
+   "ru": "Вот и все! Войска харадрим уничтожены!",
+   "uk_ai": "Ось і все! Військо харадримів знищено!",
+   "uk": "Ось і все! Військо харадримів знищено!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere014",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Реплика",
+   "en": "My Lord Erkenbrand is returning from the Fords of Isen... I fear the grim news he will bring. But if we light the Signal Fires to the East and West they will hasten to our aid!",
+   "ru": "Мой лорд Эркенбранд с армией возвращается с Изенских бродов... Я боюсь он несет мрачные вести. Если мы зажжем сигнальные костры на востоке и западе, то они ускорят шаг, чтобы прийти к нам на помощь!",
+   "uk_ai": "Мій володар Еркенбранд повертається з бродів Ізену... Боюся тих лихих вістей, що він принесе. Та якщо ми запалимо сигнальні вогні на СХОДІ й ЗАХОДІ, вони поспішать нам на поміч!",
+   "uk": "Мій володар Еркенбранд повертається з бродів Ізену... Боюся тих лихих вістей, що він принесе. Та якщо ми запалимо сигнальні вогні на СХОДІ й ЗАХОДІ, вони поспішать нам на поміч!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere015",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Реплика",
+   "en": "The signal fires have been lit! Lord Erkenbrand's forces will see our signal and should arrive soon.",
+   "ru": "Сигнальные костры зажжены!Лорд Эркенбранд увидит наш сигнал и скоро прибудет!",
+   "uk_ai": "Сигнальні вогні запалено! Війська володаря Еркенбранда побачать наш знак і скоро прибудуть.",
+   "uk": "Сигнальні вогні запалено! Війська володаря Еркенбранда побачать наш знак і скоро прибудуть."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere016",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Реплика",
+   "en": "Erkenbrand has returned with reinforcements!",
+   "ru": "Эркенбранд вернулся с подкреплением!",
+   "uk_ai": "Еркенбранд повернувся з підкріпленням!",
+   "uk": "Еркенбранд повернувся з підкріпленням!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere017",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Реплика",
+   "en": "Lord Erkenbrand! I am greatly relieved to see you alive and well. Saruman's hand has reached us here at Upbourn... let us beat him back together!",
+   "ru": "Лорд Эркенбранд! Я так рад видеть вас живым и здоровым! Длань Сарумана дотянулась и до Апборна... давайте же соберем все силы в кулак и отбросим ее приспешников!",
+   "uk_ai": "Володарю Еркенбранде! Яке полегшення бачити вас живим і здоровим. Рука Сарумана дотяглася й сюди, до Апборна... відкиньмо його разом!",
+   "uk": "Володарю Еркенбранде! Яке полегшення бачити вас живим і здоровим. Рука Сарумана дотяглася й сюди, до Апборна... відкиньмо його разом!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere030",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Реплика",
+   "en": "For Upbourn!",
+   "ru": "За Апборн!",
+   "uk_ai": "За Апборн!",
+   "uk": "За Апборн!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere029",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Реплика",
+   "en": "Fight on Men of Rohan! Bema is with you!",
+   "ru": "Сражайтесь, люди Рохана! Бема с вами!",
+   "uk_ai": "Бийтеся, люди Рогану! Бема з вами!",
+   "uk": "Бийтеся, люди Рогану! Бема з вами!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere031",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Реплика",
+   "en": "Protect the women and children!",
+   "ru": "Защищайте женщин и детей!",
+   "uk_ai": "Захищайте жінок і дітей!",
+   "uk": "Захищайте жінок і дітей!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere033",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Реплика",
+   "en": "Run back to Isengard, fell creature!",
+   "ru": "Беги обратно в Изенгард, падшая тварь!",
+   "uk_ai": "Тікай назад до Ізенґарду, лиха тварюко!",
+   "uk": "Тікай назад до Ізенґарду, лиха тварюко!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere034",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Реплика",
+   "en": "Rohan will not fall!",
+   "ru": "Рохан не падет!",
+   "uk_ai": "Роган не впаде!",
+   "uk": "Роган не паде!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere032",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Реплика",
+   "en": "In Thengel's name!",
+   "ru": "Во имя Тенгеля!",
+   "uk_ai": "В ім'я Тенґеля!",
+   "uk": "В ім'я Тенґеля!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere035",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Реплика",
+   "en": "Gandalf! We need your aid!",
+   "ru": "Гэндальф! Нам нужна твоя помощь!",
+   "uk_ai": "Ґендальфе! Нам потрібна твоя допомога!",
+   "uk": "Ґендальфе! Нам потрібна твоя допомога!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere018",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Реплика",
+   "en": "Isengard has broken through the North-eastern Wall!",
+   "ru": "Изенгард прорвался через северо-восточную стену!",
+   "uk_ai": "Ізенґард прорвався крізь ПІВНІЧНО-СХІДНУ стіну!",
+   "uk": "Ізенґард прорвався крізь ПІВНІЧНО-СХІДНУ стіну!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere019",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Реплика",
+   "en": "Saruman's forces approach the Southern Gate!",
+   "ru": "Силы Сарумана приближаются к южным вратам!",
+   "uk_ai": "Сили Сарумана наближаються до ПІВДЕННОЇ брами!",
+   "uk": "Сили Сарумана наближаються до ПІВДЕННОЇ брами!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere020",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Реплика",
+   "en": "Isengard is attacking the Northern Gate!",
+   "ru": "Изенгард атакует северные врата!",
+   "uk_ai": "Ізенґард атакує ПІВНІЧНУ браму!",
+   "uk": "Ізенґард атакує ПІВНІЧНУ браму!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere021",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Реплика",
+   "en": "Isengard approaches the Eastern Gate!",
+   "ru": "Изенгард приближается к восточным вратам!",
+   "uk_ai": "Ізенґард наближається до СХІДНОЇ брами!",
+   "uk": "Ізенґард наближається до СХІДНОЇ брами!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere022",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Реплика",
+   "en": "Look out! Armored Trolls from Isengard!",
+   "ru": "Берегитесь! Бронированные тролли Изенгарда!",
+   "uk_ai": "Обережно! Броньовані тролі з Ізенґарду!",
+   "uk": "Обережно! Броньовані тролі з Ізенґарду!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere023",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Реплика",
+   "en": "The Gate has fallen! We must not waver, Men of Rohan!",
+   "ru": "Врата пали! Не страшитесь, люди Рохана!",
+   "uk_ai": "Браму зламано! Не похитнімося, люди Рогану!",
+   "uk": "Браму зламано! Не похитнімося, люди Рогану!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere024",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Реплика",
+   "en": "The Wolves of Isengard approach!",
+   "ru": "Приближаются варги Изенгарда!",
+   "uk_ai": "Наближаються вовки Ізенґарду!",
+   "uk": "Наближаються вовки Ізенґарду!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere025",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Реплика",
+   "en": "We must defeat their leader before they tear Upbourn apart!",
+   "ru": "Мы должны обезглавить их войско, иначе Апборн не выстоит!",
+   "uk_ai": "Мусимо здолати їхнього ватажка, доки вони не розірвали Апборн на шматки!",
+   "uk": "Мусимо здолати їхнього ватажка, доки вони не розірвали Апборн на шматки!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere026",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Реплика",
+   "en": "Sharku? Was that his foul name? Pah. He lies dead in the mud.",
+   "ru": "Шарку? Так звали этого мерзавца? Его труп валяется в грязи.",
+   "uk_ai": "Шарку? Так звали цю мерзоту? Тьху. Він лежить мертвий у багнюці.",
+   "uk": "Шарку? Так звали цю мерзоту? Він лежить мертвий у багнюці."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere027",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Реплика",
+   "en": "That's it! We've defeated them all!",
+   "ru": "Вот и все! Мы победили!",
+   "uk_ai": "Ось і все! Ми їх усіх розбили!",
+   "uk": "Ось і все! Ми їх усіх розбили!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere028",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Реплика",
+   "en": "All that remains is to destroy their fetid camp...",
+   "ru": "Все, что осталось, это уничтожить их поганый лагерь...",
+   "uk_ai": "Лишилося тільки знищити їхній смердючий табір...",
+   "uk": "Лишилося тільки знищити їхній смердючий табір..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere001",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Диалог",
+   "en": "Dunhere: Gandalf Greyhame. This is indeed an unexpected meeting. \\n I am Dunhere, captain of the guard at Upbourn while my Lord Erkenbrand is away.",
+   "ru": "Дунхерэ: Гэндальф. Вот так неожиданная встреча!\\nЯ Дунхерэ, командир стражи Апборна, до тех пор пока милорд Эркенбранд в отъезде.",
+   "uk_ai": "Дунгер: Ґендальфе Сірий. Оце справді несподівана зустріч. \\n Я Дунгер, капітан варти Апборна, поки мого володаря Еркенбранда немає.",
+   "uk": "Дунгер: Ґендальфе Сірий. Оце справді несподівана зустріч. \\n Я Дунгер, капітан варти Апборна, поки мого володаря Еркенбранда немає."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere002",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Диалог",
+   "en": "Dunhere: Your arrival brings us much needed relief. We are beset on all sides. ",
+   "ru": "Дунхерэ: Ваше прибытие принесло нам столь необходимое облегчение. Нас осаждают со всех сторон!",
+   "uk_ai": "Дунгер: Ваше прибуття — велика полегша. Нас обступили з усіх боків.",
+   "uk": "Дунгер: Ваше прибуття — велика полегша. Нас обступили з усіх боків."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere003",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Диалог",
+   "en": "Dunhere: The Eastern gates have been destroyed. Isengard's raiders now flood the city.",
+   "ru": "Дунхерэ: Восточные врата были разрушены, а мародеры Изенгарда наводнили город.",
+   "uk_ai": "Дунгер: СХІДНУ браму зруйновано. Тепер місто заполонили нападники з Ізенґарду.",
+   "uk": "Дунгер: СХІДНУ браму зруйновано. Тепер місто заполонили нападники з Ізенґарду."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere004",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Диалог",
+   "en": "Dunhere: My men and I can hold the bridge, but we are cut off from the Eastern guard.",
+   "ru": "Дунхерэ: Я и мои люди можем удерживать мост, но мы отрезаны от восточной стражи.",
+   "uk_ai": "Дунгер: Я з моїми людьми можу втримати міст, але нас відрізано від СХІДНОЇ варти.",
+   "uk": "Дунгер: Я з моїми людьми можу втримати міст, але нас відрізано від СХІДНОЇ варти."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere005",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Диалог",
+   "en": "Dunhere: There is a flanking route to the north, and one to the south.",
+   "ru": "Дунхерэ: Есть обходной путь на севере и еще один на юге.",
+   "uk_ai": "Дунгер: Є обхідний шлях на ПІВНОЧІ й ще один на ПІВДНІ.",
+   "uk": "Дунгер: Є обхідний шлях на ПІВНОЧІ й ще один на ПІВДНІ."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere006",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Диалог",
+   "en": "Dunhere: An unexpected attack should give us an opportunity to break their lines and free the city.",
+   "ru": "Дунхерэ: Внезапная атака должна дать нам возможность прорвать их ряды и освободить город.",
+   "uk_ai": "Дунгер: Несподіваний удар дасть нам змогу прорвати їхні лави й звільнити місто.",
+   "uk": "Дунгер: Несподіваний удар дасть нам змогу прорвати їхні лави й звільнити місто."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere007",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Диалог",
+   "en": "Dunhere: I owe you my thanks, Gandalf. Were it not for you and your \\n companions, we would not have been able to withstand these raiders.",
+   "ru": "Дунхерэ: Я должен поблагодарить тебя, Гэндальф. Если бы не ты и твои\\nспутники, мы были бы обречены.",
+   "uk_ai": "Дунгер: Я вдячний тобі, Ґендальфе. Якби не ти та твої \\n супутники, ми не встояли б проти цих нападників.",
+   "uk": "Дунгер: Я вдячний тобі, Ґендальфе. Якби не ти та твої \\n супутники, ми не встояли б проти цих нападників."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere008",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Диалог",
+   "en": "Dunhere: However, I must once again ask you for your assistance in defending Upbourn.",
+   "ru": "Дунхерэ: Однако я должен еще раз попросить вас о помощи.",
+   "uk_ai": "Дунгер: Проте я мушу знову просити вашої допомоги в обороні Апборна.",
+   "uk": "Дунгер: Проте я мушу знову просити вашої допомоги в обороні Апборна."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere009",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Диалог",
+   "en": "Dunhere: My outriders have reported that a larger and more formidable army approaches.",
+   "ru": "Дунхерэ: Мои всадники доложили, что приближается более многочисленная и грозная армия.",
+   "uk_ai": "Дунгер: Мої роз'їзди доповідають, що наближається більше й грізніше військо.",
+   "uk": "Дунгер: Мої вершники доповідають, що наближається ще більше та ще грізніше військо."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere010",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Диалог",
+   "en": "Dunhere: The force has broken up, so that they may attack all three entrances to the city.",
+   "ru": "Дунхерэ: Их войска разделились, чтобы атаковать все три входа в город.",
+   "uk_ai": "Дунгер: Вони розділилися, щоб атакувати всі три входи до міста.",
+   "uk": "Дунгер: Вони розділилися, щоб атакувати всі три входи до міста."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere011",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Диалог",
+   "en": "Dunhere: The Northern and Southern Gates still stand for now, \\n but we cannot prevent them from entering the Eastern side of the city.",
+   "ru": "Дунхерэ: Северные и Южные врата все еще держатся,\\nно мы не можем помешать им войти с востока.",
+   "uk_ai": "Дунгер: ПІВНІЧНА й ПІВДЕННА брами поки що стоять, \\n але ми не можемо не пустити їх у СХІДНУ частину міста.",
+   "uk": "Дунгер: ПІВНІЧНА й ПІВДЕННА брами поки що стоять, \\n але ми не можемо не пустити їх у СХІДНУ частину міста."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere012",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Диалог",
+   "en": "Dunhere: They have also established a forward base in the south east of the lowland woods.",
+   "ru": "Дунхерэ: Они также создали передовую базу на юго-востоке леса в низине.",
+   "uk_ai": "Дунгер: А ще вони заклали передову базу на ПІВДЕННОМУ СХОДІ, у лісах низини.",
+   "uk": "Дунгер: А ще вони отаборилися на ПІВДЕННОМУ СХОДІ, у лісах низини."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_dunhere013",
+   "mission": "006_The Burning of the Westfold",
+   "type": "Диалог",
+   "en": "Dunhere: Upbourn is burning... I fear it is lost. But if we defeat this force and \\n destroy their camp, then we may yet have a chance to save the refugees.",
+   "ru": "Дунхерэ: Апборн горит... Боюсь, он потерян. Но если мы победим это войско и\\nуничтожим их лагерь, тогда у нас еще может быть шанс спасти беженцев.",
+   "uk_ai": "Дунгер: Апборн горить... Боюся, його втрачено. Але якщо ми розіб'ємо це військо й \\n знищимо їхній табір, то ще зможемо врятувати біженців.",
+   "uk": "Дунгер: Апборн горить... Боюся, його втрачено. Але якщо ми розіб'ємо це військо й \\n знищимо їхній табір, то ще зможемо врятувати біженців."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan019",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elladan: Of old, the Dunedain have dwelt in the ruins of Annuminas, on the shores of the Evendim.",
+   "ru": "Элладан: Издавна дунэдайн обитали в руинах Аннуминаса, на берегах Эвендима.",
+   "uk_ai": "Елладан: Здавна дунедайни жили серед руїн Аннумінаса, на берегах Івендиму.",
+   "uk": "Елладан: Здавна дунедайни жили серед руїн Аннумінаса, на берегах Івендиму."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir022",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elrohir: Halbarad holds council in a ruined tower, across the bridge.",
+   "ru": "Элрохир: Хальбарад проводит совет в разрушенной башне за мостом.",
+   "uk_ai": "Елрохір: Гальбарад скликає раду в зруйнованій вежі за мостом.",
+   "uk": "Елрохір: Гальбарад скликає раду в зруйнованій вежі за мостом."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad002b",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Halbarad: Orcs are marching down from the Ettenmoors. Wolves prowl the silent woods. Trolls range far and wide. \\n  Though we are stretched thin, I have dispatched what Rangers I could spare to protect the small-folk.",
+   "ru": "Хальбарад: Орки спускаются с Эттенских высот. Волки безмолвно рыщут по окрестным лесам. Тролли забредают в людские поселения.\\nПоэтому, несмотря на то, что наши силы немногочисленны, я не могу оставить полуросликов без защиты.",
+   "uk_ai": "Гальбарад: З Еттенських пустищ спускаються орки. Мовчазними лісами нишпорять вовки. Тролі блукають усюди. \\n  Хоч нас і мало, я вислав усіх слідопитів, кого міг, захищати малий народ.",
+   "uk": "Гальбарад: З Еттенських пустищ спускаються орки. Мовчазними лісами нишпорять вовки. Тролі блукають усюди. \\n  Хоч нас і мало, я відправив усіх слідопитів, яких міг, аби захистити напівросликів."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad002c",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Halbarad: Were we to abandon our posts now, they would be in great peril.",
+   "ru": "Хальбарад: Если мы сейчас оставим свои посты, то подвергнем их большой опасности.",
+   "uk_ai": "Гальбарад: Якщо ми зараз покинемо свої пости, вони опиняться у великій небезпеці.",
+   "uk": "Гальбарад: Якщо ми зараз покинемо свої пости, вони опиняться у великій небезпеці."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad001",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Halbarad: Welcome, my friends. How may I be of service to you?",
+   "ru": "Хальбарад: Добро пожаловать, друзья мои. Чем я могу быть вам полезен?",
+   "uk_ai": "Гальбарад: Вітаю, друзі. Чим можу вам служити?",
+   "uk": "Гальбарад: Вітаю, друзі. Чим можу вам допомогти?"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan001",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elladan: We have ridden from Rivendell with great haste. Lord Elrond sends word! Your chieftain is in need of aid.",
+   "ru": "Элладан: Мы покинули Ривенделл, как только до нас дошла весть, что ваш вождь нуждается в помощи!",
+   "uk_ai": "Елладан: Ми щодуху скакали з Рівенделу. Владика Елронд шле звістку! Ваш вождь потребує допомоги.",
+   "uk": "Елладан: Ми щодуху скакали з Рівенделу. Владика Елронд шле звістку! Ваш отаман потребує допомоги."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir001",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elrohir: We intend to ride south soon, and take part in the Great War. We ask that you gather what men you can and join us.",
+   "ru": "Элрохир: Мы намерены вскоре отправиться на юг и принять участие в Великой войне. Мы просим вас собрать всех, кого можете, и присоединиться к нам.",
+   "uk_ai": "Елрохір: Незабаром ми вирушаємо на південь, щоб узяти участь у Великій війні. Просимо вас зібрати всіх людей, кого зможете, і приєднатися до нас.",
+   "uk": "Елрохір: Незабаром ми вирушаємо на південь, щоб узяти участь у Великій війні. Просимо вас зібрати всіх людей, кого зможете, і приєднатися до нас."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad002a",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Halbarad: Happily would I ride out from hiding and rally to Aragorn's cause. But the lands of Eriador are troubled. \\n The Enemy is now ever-present.",
+   "ru": "Хальбарад: При других обстоятельствах, я бы незамедлительно покинул это место и встал в строй с Арагорном. Но в землях Эриадора неспокойно.\\nВраг вездесущ.",
+   "uk_ai": "Гальбарад: Я радо вийшов би зі схованки й став під стяг Араґорна. Але в землях Еріадору неспокійно. \\n Ворог тепер усюди.",
+   "uk": "Гальбарад: Я радо вийшов би зі схованки й став під стяг Араґорна. Але в землях Еріадору неспокійно. \\n Ворог тепер усюди."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan002",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elladan: Then we must do what we can to aid them!",
+   "ru": "Элладан: Тогда мы должны сделать все возможное, чтобы помочь им!",
+   "uk_ai": "Елладан: Тоді мусимо зробити все, щоб їм допомогти!",
+   "uk": "Елладан: Тоді мусимо зробити все, щоб їм допомогти!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir002",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elrohir: Tell us where to go.",
+   "ru": "Элрохир: Скажи, куда нам идти.",
+   "uk_ai": "Елрохір: Скажи, куди нам іти.",
+   "uk": "Елрохір: Скажи, куди нам йти."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad003",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Halbarad: I have marked the last known positions of my men. \\n When you are ready, travel to each location and gather all you can.",
+   "ru": "Хальбарад: Я отметил основные позиции, на которых моим людям не помешала бы ваша помощь.\\nКогда будете готовы, посетите их, а следопыты, которым вы сможете помочь примкнут к вашему отряду, выступающему на юг.",
+   "uk_ai": "Гальбарад: Я позначив, де востаннє бачили моїх людей. \\n Коли будете готові, обійдіть усі ці місця й зберіть усіх, кого зможете.",
+   "uk": "Гальбарад: Я позначив, де востаннє бачили моїх людей. \\n Коли будете готові, обійдіть усі ці місця й зберіть усіх, кого зможете."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad013",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "There is much to explore still in the lands of Annuminas, ancient seat of my people. Its surroundings may give some comfort to battle-weary eyes, should you desire it, as you face your trials ahead.",
+   "ru": "В руинах Аннуминаса, древней столице моего народа, осталось еще много неизведанного. Если вы того пожелаете, то его окрестности могут утешить уставшие от битв глаза.",
+   "uk_ai": "У землях Аннумінаса, давньої столиці мого народу, ще багато чого можна дослідити. Якщо забажаєте, його околиці дадуть трохи втіхи втомленим від битв очам перед випробуваннями, що чекають на вас.",
+   "uk": "У землях Аннумінаса, давньої столиці мого народу, ще багато чого можна дослідити. Якщо забажаєте, його околиці дадуть трохи втіхи втомленим від битв очам перед випробуваннями, що чекають на вас."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan005",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Would that we had seen Annuminas in the height of its glory.",
+   "ru": "Хотелось бы мне увидеть Аннуминас в зените его славы.",
+   "uk_ai": "Якби ж ми бачили Аннумінас у розквіті його слави.",
+   "uk": "Якби ж ми бачили Аннумінас у розквіті його слави."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir005",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Yet there is still a quiet beauty in its ruin and the passing of time.",
+   "ru": "В его руинах и уходящем времени все еще есть тихая красота.",
+   "uk_ai": "Та в його руїнах і плині часу досі є тиха краса.",
+   "uk": "Та в його руїнах і плині часу досі є тиха краса."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan006",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Perhaps the same can be said of the mortal lives of men?",
+   "ru": "Возможно, то же самое можно сказать и о земной жизни людей?",
+   "uk_ai": "Може, те саме можна сказати й про смертне життя людей?",
+   "uk": "Може, те саме можна сказати й про смертне життя людей?"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir006",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Its features are smooth and weathered. I wonder who it is.",
+   "ru": "Его черты сгладились и обветрены. Интересно, кто это?",
+   "uk_ai": "Риси стерті й вивітрені. Цікаво, хто це.",
+   "uk": "Риси стерті й вивітрені. Цікаво, хто це."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan007",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Wondrous are the towers of ancient Arnor, and equally the stone towers of Aule.",
+   "ru": "Чудесные башни древнего Арнора и не менее прекрасные каменные башни Аулэ.",
+   "uk_ai": "Дивовижні вежі давнього Арнору, як і кам'яні вежі Ауле.",
+   "uk": "Дивовижні вежі давнього Арнору, як і кам'яні вежі Ауле."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir004",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "A table of black marble, with a round depression in its centre.",
+   "ru": "Стол из черного мрамора с круглым углублением в центре.",
+   "uk_ai": "Стіл із чорного мармуру з круглою заглибиною посередині.",
+   "uk": "Стіл із чорного мармуру з круглою заглибиною посередині."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan004",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "A seat of one of the Palantiri of the North. Long has the Annuminas stone been lost, drowned in the icy bays of Forochel along with Arvedui, last king of Arthedain, with other heirlooms of his house.",
+   "ru": "Место хранения одного из палантиров Севера - Камня Аннуминаса. Однако он давно утерян  - затонул в ледяных заливах Форохеля вместе с Арведуи, последним королем Артэдайна, и другими реликвиями его дома.",
+   "uk_ai": "Місце одного з палантирів Півночі. Камінь Аннумінаса давно втрачено — він потонув у крижаних затоках Форохелю разом з Арведуї, останнім королем Артедайну, та іншими реліквіями його дому.",
+   "uk": "Місце одного з палантирів Півночі. Камінь Аннумінаса давно втрачено — він потонув у крижаних затоках Форохелю разом з Арведуї, останнім королем Артедайну, та іншими реліквіями його дому."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan003",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "A place of significance it seems, what do you suppose was its purpose?",
+   "ru": "Мое сердце подсказывает мне, что это особенное место, как думаешь, каково было его предназначение?",
+   "uk_ai": "Схоже, це важливе місце. Як гадаєш, для чого воно було?",
+   "uk": "Схоже, це важливе місце. Як гадаєш, для чого воно було?"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir003",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Who can say? Many are the strange forgotten rituals of Men.",
+   "ru": "Кто знает?! Множество странных забытых ритуалов людей.",
+   "uk_ai": "Хто знає? У людей чимало дивних забутих обрядів.",
+   "uk": "Хто знає? У людей чимало дивних забутих обрядів."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan008",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Fair are the remnants of Arnor even in its decline. But we shouldn't linger long, great still is the need of Halbarad and Aragorn.",
+   "ru": "Брат, обрати свой взор на эти многолетние руины павшего Арнора, они и по сей день выглядят величественно. Но не будем задерживаться, Хальбарад и Арагорн нуждаются в нашей помощи.",
+   "uk_ai": "Прекрасні рештки Арнору навіть у занепаді. Та не будемо баритися, Гальбарад і Араґорн досі дуже потребують допомоги.",
+   "uk": "Рештки Арнору прекрасні, навіть у занепаді. Та не будемо баритися, Гальбарад і Араґорн досі дуже потребують допомоги."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir007",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Perhaps, against hope, we may return in time and dwell by Annuminas, near to our kin and the shores of Lindon.",
+   "ru": "Возможно, вопреки всему, мы сможем когда-нибудь вернуться и поселиться у Аннуминаса, рядом с нашими сородичами и берегами Линдона.",
+   "uk_ai": "Може, всупереч надії, ми колись повернемося й оселимося біля Аннумінаса, поруч із нашими родичами й берегами Ліндону.",
+   "uk": "Може, всупереч надії, ми колись повернемося й оселимося біля Аннумінаса, поруч із нашими родичами й берегами Ліндону."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad004",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "We have heard whispers of a foul wight-lord taking up residence in an ancient barrow. I have sent rangers to investigate, but I have received no word from them...",
+   "ru": "Мы слышали шепот о том, что в древнем кургане поселился проклятый король. Я отправил следопытов на разведку, но не получил от них никаких вестей...",
+   "uk_ai": "До нас дійшли чутки, що в давньому кургані оселився мерзенний володар привидів. Я послав слідопитів розвідати, але від них немає жодної звістки...",
+   "uk": "До нас дійшли чутки, що в давньому кургані оселився мерзенний проклятий король. Я послав слідопитів розвідати, але від них немає жодної звістки..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad005",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Thank you, Sons of Elrond. I am glad to know this 'Cargast' has been destroyed.",
+   "ru": "Благодарю вас, сыны Элронда. Я рад узнать, что этот некто Каргаст был уничтожен.",
+   "uk_ai": "Дякую, сини Елронда. Радий знати, що цього «Карґаста» знищено.",
+   "uk": "Дякую, сини Елронда. Радий знати, що цього «Карґаста» знищено."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad008",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Orcs have crawled out from the Ettenmoors. They have attacked our outpost at Fornost. We must reinforce it, ere the Enemy turns it into a foothold of their assault upon Eriador!",
+   "ru": "Орки спускаются с Эттенских высот. Они атаковали наш форпост в Форносте. Мы должны укрепить его, пока враг не превратил его в плацдарм для нападения на Эриадор!",
+   "uk_ai": "З Еттенських пустищ виповзли орки. Вони напали на нашу заставу у Форності. Мусимо її підсилити, доки ворог не зробив із неї плацдарм для наступу на Еріадор!",
+   "uk": "З Еттенських пустищ виповзли орки. Вони напали на нашу заставу у Форності. Мусимо її підсилити, доки ворог не зробив із неї плацдарм для наступу на Еріадор!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad009",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Captain Toradan has informed me of your valor at Fornost. Well done!",
+   "ru": "Капитан Торадан сообщил мне о вашей доблести в Форносте. Так держать!",
+   "uk_ai": "Капітан Торадан розповів мені про вашу звитягу у Форності. Молодці!",
+   "uk": "Капітан Торадан розповів мені про вашу доблесть у Форності. Так тримати!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad006",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "I have received reports of a ruffian presence in the Marish, threatening the borders of the Shire. Help my men safeguard the small-folk, if you can.",
+   "ru": "Я получил сообщения о присутствии на Болотищах разбойников, угрожающих границам Шира. Помогите моим людям защитить маленький народец, если можете.",
+   "uk_ai": "Мені доповіли, що в Мариші з'явилися головорізи й загрожують кордонам Ширу. Допоможіть моїм людям захистити малий народ, якщо зможете.",
+   "uk": "Мені доповіли, що в Мариші з'явилися розбійники й загрожують кордонам Ширу. Якщо зможете, то допоможіть моїм людям захистити народ напівросликів."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad007",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "These ruffians are growing ever bolder. Who commands them, I wonder... ",
+   "ru": "Разбойники становятся все смелее. Интересно, кто ими верховодит...",
+   "uk_ai": "Ці головорізи дедалі зухвалішають. Цікаво, хто ними командує...",
+   "uk": "Ці розбійники стають дедалі зухвалішими. Цікаво, хто ними командує..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad010",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "The Trollshaws are once again infested with Trolls, led by a particularly vile specimen known as Gorg. Brave Elegost has gone to investigate the disappearance of a hunting party that was supposed to thin the herd...",
+   "ru": "В Троллистой пуще снова завелись тролли, во главе которых стоит особенно мерзкий экземпляр, известный как Горг. Храбрый Элегост отправился расследовать исчезновение охотничьего отряда, отправившегося на троллиную охоту...",
+   "uk_ai": "Тролячі хащі знову кишать тролями на чолі з особливо мерзенною тварюкою на ім'я Ґорґ. Відважний Елеґост вирушив з'ясувати, куди зник мисливський загін, що мав прорідити їхнє стадо...",
+   "uk": "Тролячі хащі знову кишать тролями на чолі з мерзенною тварюкою на ім'я Ґорґ. Відважний Елеґост вирушив з'ясувати, куди зник мисливський загін, що мав прорідити їхнє стадо..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad011",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Such an evil fate to befall these warriors! I am glad to know that this horrid troll had been put down.",
+   "ru": "Злая судьба постигла этих воинов! Я рад узнать, что этот ужасный тролль был уничтожен.",
+   "uk_ai": "Яка лиха доля спіткала цих воїнів! Радий знати, що того жахливого троля вбито.",
+   "uk": "Яка лиха доля спіткала цих воїнів! Я радий знати, що того жахливого троля вбито."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad012",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "You have gathered what Men could be found. It is time to take the fight to the Ettenmoors, and deliver a final blow to the Enemy's war effort. Let me know when you are ready and we will set off, but do not delay too long.",
+   "ru": "Следопыты собраны, ваша помощь поистине неоценима, братья мои. Пришло время выступить к Эттенским высотам и разрушить планы засевшего там врага. Дайте мне знать, когда будете готовы, и мы отправимся в путь, но не задерживайтесь слишком долго.",
+   "uk_ai": "Ви зібрали всіх людей, кого можна було знайти. Час перенести бій на Еттенські пустища й завдати останнього удару по воєнних задумах ворога. Скажіть, коли будете готові, і ми вирушимо, але не баріться надто довго.",
+   "uk": "Ви зібрали всіх людей, кого можна було знайти. Час перенести бій на Еттенські пустища й завдати останнього удару по воєнних задумах ворога. Скажіть, коли будете готові, і ми вирушимо, але не баріться надто довго."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir023",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "That is Amdir! He's badly wounded, but alive.",
+   "ru": "Это Амдир! Он тяжело ранен, но жив!",
+   "uk_ai": "Це Амдір! Він тяжко поранений, але живий.",
+   "uk": "Це Амдір! Він тяжко поранений, але живий."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir024",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "We must heal him quickly.",
+   "ru": "Мы должны исцелить его как можно скорее.",
+   "uk_ai": "Треба швидше його зцілити.",
+   "uk": "Треба швидше його зцілити."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan020",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Stay with him brother. I will look around for some Athelas.",
+   "ru": "Оставайся с ним, брат. Я поищу ацелас.",
+   "uk_ai": "Лишайся з ним, брате. Я пошукаю ацелас.",
+   "uk": "Лишайся з ним, брате. Я пошукаю ацелас."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_amdir023",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Amdir: There! The main door.",
+   "ru": "",
+   "uk_ai": "Амдір: Ось! Головні двері.",
+   "uk": "Амдір: Ось! Головні двері."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan075",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elladan: It's shut.",
+   "ru": "",
+   "uk_ai": "Елладан: Зачинено.",
+   "uk": "Елладан: Зачинено."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir058",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elrohir: We must be careful here.",
+   "ru": "",
+   "uk_ai": "Елрохір: Тут треба бути обережними.",
+   "uk": "Елрохір: Тут треба бути обережними."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_amdir017",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Amdir: I can see my men! But they look cold and lifeless!",
+   "ru": "Амдир: Я вижу своих людей! Но они выглядят холодными и безжизненными!",
+   "uk_ai": "Амдір: Я бачу своїх людей! Але вони холодні й нерухомі!",
+   "uk": "Амдір: Я бачу своїх людей! Але вони холодні й нерухомі!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan027",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elladan: They are being held in this place by that foul wight-lord.",
+   "ru": "Элладан: Их удерживает здесь этот проклятый лорд.",
+   "uk_ai": "Елладан: Їх тримає тут той мерзенний володар привидів.",
+   "uk": "Елладан: Їх тримає тут той мерзенний проклятий король."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir029",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elrohir: We must put an end to him before they are lost!",
+   "ru": "Элрохир: Мы должны покончить с ним, пока они не погибли!",
+   "uk_ai": "Елрохір: Мусимо покінчити з ним, доки вони не загинули!",
+   "uk": "Елрохір: Мусимо покінчити з ним, доки вони не загинули!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_amdir006b",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Amdir: Thank you. I hope we can return the favour soon.",
+   "ru": "Амдир: Спасибо. Надеюсь, мы скоро сможем оказать вам ответную услугу.",
+   "uk_ai": "Амдір: Дякую. Сподіваюся, ми скоро зможемо віддячити.",
+   "uk": "Амдір: Дякую. Сподіваюся, ми скоро зможемо віддячити."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir030",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "That's it! He's gone!",
+   "ru": "Вот и все! Его больше нет!",
+   "uk_ai": "Ось і все! Його більше немає!",
+   "uk": "Ось і все! Його більше немає!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan028",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elladan: This barrow is coming down around us. We must flee before we are trapped.",
+   "ru": "Элладан: Курган вот-вот обрушится! Бежим, иначе окажемся в ловушке!",
+   "uk_ai": "Елладан: Курган обвалюється довкола нас. Треба тікати, поки нас не завалило.",
+   "uk": "Елладан: Курган обвалюється довкола нас. Треба тікати, поки нас не завалило."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_amdir006a",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Amdir: I'm glad to be out of there. And gladder still to find the others alive. They are weakened, but the curse seems to be lifting.",
+   "ru": "Амдир: Я рад, что выбрался оттуда. И еще больше рад, что остальные живы. Они ослаблены, но проклятие, похоже, снимается.",
+   "uk_ai": "Амдір: Радий, що вибрався звідти. А ще радіше, що інші живі. Вони ослаблені, але прокляття, здається, відступає.",
+   "uk": "Амдір: Радий, що вибрався звідти. І ще більше радий, що інші живі. Вони ослаблені, але прокляття, здається, відступає."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan012",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elladan: Soon it might be. We came from Annuminas, where Halbarad bids you to return.",
+   "ru": "Элладан: Скоро это случится. Мы прибыли из Аннуминаса, куда по просьбе Хальбарада должны вернуться обратно.",
+   "uk_ai": "Елладан: Може, вже скоро. Ми прибули з Аннумінаса, Гальбарад кличе вас повернутися.",
+   "uk": "Елладан: Може, вже скоро. Ми прибули з Аннумінаса, Гальбарад кличе вас повернутися."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir011",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elrohir: We must gather our strength, and ride south to the aid of Aragorn.",
+   "ru": "Элрохир: Мы должны собраться с силами и отправиться на юг на помощь Арагорну.",
+   "uk_ai": "Елрохір: Мусимо зібратися з силами й поскакати на південь на допомогу Араґорнові.",
+   "uk": "Елрохір: Мусимо зібратися з силами й вирушити на південь на допомогу Араґорнові."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_amdir007",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Amdir: Then let's delay no longer. We will gather our supplies from the camp and return at once.",
+   "ru": "Амдир: Тогда не будем больше медлить. Мы соберем припасы в лагере и сразу же вернемся.",
+   "uk_ai": "Амдір: Тоді не зволікаймо. Заберемо припаси з табору й одразу повернемося.",
+   "uk": "Амдір: Тоді не зволікаймо. Заберемо припаси з табору й одразу повернемося."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan021",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "A plentiful bushel. I should return to Elrohir.",
+   "ru": "Этого будет достаточно. Мне нужно вернуться к Элрохиру и помочь раненому следопыту.",
+   "uk_ai": "Добрий жмут. Треба повертатися до Елрохіра.",
+   "uk": "Добрий жмут. Треба повертатися до Елрохіра."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_amdir001",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Thank you my friends, I feared the worst.",
+   "ru": "Спасибо вам, друзья, я боялся худшего.",
+   "uk_ai": "Дякую, друзі, я вже думав про найгірше.",
+   "uk": "Дякую вам, друзі, я вже думав про найгірше."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan009",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "What happened here, where is the rest of your company?",
+   "ru": "Что здесь произошло, где остальные следопыты?",
+   "uk_ai": "Що тут сталося? Де решта твого загону?",
+   "uk": "Що тут сталося? Де решта твого загону?"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_amdir002",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "We were taken in the night by surprise. Some dark presence has stirred the dead, and conceals them from our watch.",
+   "ru": "Ночью нас застали врасплох. Какое-то темное присутствие пробудило мертвых и скрыло их от нашего взора.",
+   "uk_ai": "Нас заскочили вночі. Якась темна сила розбурхала мерців і ховає їх від наших вартових.",
+   "uk": "На нас наскочили вночі. Якась темна сила розбурхала мерців і приховала їх від наших вартових."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir008",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "This is ill news, did no others survive?",
+   "ru": "Это плохие вести, неужели никто не выжил?",
+   "uk_ai": "Лихі вісті. Невже більше ніхто не вижив?",
+   "uk": "Погані новини це. Невже більше ніхто не вижив?"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_amdir003",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "I saw one of my group taken, wounded but alive. We should search the camp for any signs of a trail.",
+   "ru": "Я видел, как они забрали с собой одного из моей группы, раненого, но живого. Мы должны отыскать какие-нибудь следы в лагере.",
+   "uk_ai": "Я бачив, як забрали одного з наших — пораненого, але живого. Пошукаймо в таборі якихось слідів.",
+   "uk": "Я бачив, як забрали одного з наших — пораненого, але живого. Нам варто пошукати якихось слідів у таборі."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_amdir009",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "There, that is our camp. There must be a trail.",
+   "ru": "Вот, это наш лагерь. Здесь должна быть тропа.",
+   "uk_ai": "Ось наш табір. Тут мають бути сліди.",
+   "uk": "Ось наш табір. Тут мають бути сліди."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_amdir010",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "There are footprints leading this way.",
+   "ru": "Следы ведут по этому пути.",
+   "uk_ai": "Сюди ведуть сліди ніг.",
+   "uk": "Сюди ведуть сліди ніг."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_amdir011",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "I know this sword. They must have passed this way.",
+   "ru": "Я узнаю этот меч. Они должны были пройти этим путем.",
+   "uk_ai": "Я знаю цей меч. Вони, мабуть, пройшли тут.",
+   "uk": "Я знаю цей меч. Вони, мабуть, пройшли тут."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_amdir012",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "This satchel was carried by one of my men.",
+   "ru": "Эта сумка принадлежала одному из моих товарищей.",
+   "uk_ai": "Цю торбу носив один із моїх людей.",
+   "uk": "Цю торбу носив один із моїх людей."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_amdir013",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "The tracks lead up to that ridge. Come!",
+   "ru": "Следы ведут на тот хребет. Вперед!",
+   "uk_ai": "Сліди ведуть на той гребінь. Ходімо!",
+   "uk": "Сліди ведуть на той гребінь. Ходімо!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir025",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "A strange spell lies upon this place...",
+   "ru": "Странное заклятие лежит на этом месте...",
+   "uk_ai": "На цьому місці лежать дивні чари...",
+   "uk": "На цьому місці лежать дивні чари..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan022",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Look out, the spirits of the dead awaken!",
+   "ru": "Осторожно, духи мертвых пробуждаются!",
+   "uk_ai": "Обережно, духи мерців прокидаються!",
+   "uk": "Обережно, духи мерців прокидаються!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan023",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "The spirits are banished.",
+   "ru": "Духи изгнаны.",
+   "uk_ai": "Духів вигнано.",
+   "uk": "Духів вигнано."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_amdir004",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "The trail enters this great barrow of ancient Arnor. Long forgotten... and, until now, undisturbed.",
+   "ru": "Тропа ведет в этот большой курган древнего Арнора. Давно забытый... и до сих пор нетронутый.",
+   "uk_ai": "Сліди ведуть у цей великий курган давнього Арнору. Давно забутий... і досі ніким не потривожений.",
+   "uk": "Сліди ведуть у цей великий курган давнього Арнору. Давно забутий... і досі ніким не потривожений."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan010",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Some evil occupies the bones of the dead. Some foul sorcery from Angmar...",
+   "ru": "Зло обитает в костях мертвых. Мерзкое колдовство из Ангмара...",
+   "uk_ai": "Якесь зло вселилося в кістки мерців. Якесь мерзенне чаклунство з Анґмару...",
+   "uk": "Якесь зло вселилося в кістки мерців. Якесь мерзенне чаклунство з Анґмару..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir009",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Whatever it is, we must put an end to it.",
+   "ru": "Что бы это ни было, мы должны положить этому конец.",
+   "uk_ai": "Хоч би що це було, ми мусимо покласти йому край.",
+   "uk": "Хоч би що це було, ми мусимо покласти йому край."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_amdir005",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "And discover the fate of my kin.",
+   "ru": "И узнать судьбу моего рода.",
+   "uk_ai": "І дізнатися про долю моїх родичів.",
+   "uk": "І дізнатися про долю моїх людей."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_cargast011",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Who enters the domain of Cargast...",
+   "ru": "Вы, кто вторгся во владения Каргаста...",
+   "uk_ai": "Хто вторгся у володіння Карґаста...",
+   "uk": "Хто вторгся у володіння Карґаста..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_cargast012",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "You think yourself victorious... they will return...",
+   "ru": "Вы думаете, что победили... они вернутся...",
+   "uk_ai": "Думаєте, що перемогли... вони повернуться...",
+   "uk": "Думаєте, що перемогли... вони повернуться..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan042",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Watch out!",
+   "ru": "",
+   "uk_ai": "Обережно!",
+   "uk": "Обережно!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan011",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Behind the waystone! A hidden lever!",
+   "ru": "За путевым камнем скрытый рычаг!",
+   "uk_ai": "За дороговказним каменем! Схований важіль!",
+   "uk": "За дороговказним каменем! Схований важіль!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir076",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Look! Another keystone.",
+   "ru": "",
+   "uk_ai": "Дивись! Ще один камінь-ключ.",
+   "uk": "Дивись! Ще один камінь-ключ."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir028",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "The door has opened for us. Come!",
+   "ru": "Дверь открылась. Вперед!",
+   "uk_ai": "Двері для нас відчинилися. Ходімо!",
+   "uk": "Двері для нас відчинилися. Ходімо!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan066",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "What have you found?",
+   "ru": "",
+   "uk_ai": "Що ти знайшов?",
+   "uk": "Що ти знайшов?"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir077",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Look! A keystone.",
+   "ru": "",
+   "uk_ai": "Дивись! Камінь-ключ.",
+   "uk": "Дивись! Камінь-ключ."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan076",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "The lever is pulled, but the door is still shut.",
+   "ru": "",
+   "uk_ai": "Важіль потягнуто, але двері досі зачинені.",
+   "uk": "Важіль потягнуто, але двері досі зачинені."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir078",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "There must be another keystone hidden elsewhere?",
+   "ru": "",
+   "uk_ai": "Мабуть, десь схований ще один камінь-ключ?",
+   "uk": "Мабуть, десь схований ще один камінь-ключ?"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan077",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "We should search each chamber carefully.",
+   "ru": "",
+   "uk_ai": "Треба уважно обшукати кожну залу.",
+   "uk": "Треба уважно обшукати кожну залу."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_amdir016",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "There! The main door is now open to us.",
+   "ru": "Сюда! Главная дверь теперь открыта!",
+   "uk_ai": "Ось! Тепер головні двері відчинені.",
+   "uk": "Ось! Тепер головні двері відчинені."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan024",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Look out! The dead return!",
+   "ru": "Осторожно! Мертвые возвращаются!",
+   "uk_ai": "Обережно! Мерці повертаються!",
+   "uk": "Обережно! Мерці повертаються!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_amdir014",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "That stone appears to have summoned them. We must destroy it!",
+   "ru": "Судя по всему, их призывает этот камень. Уничтожим его!",
+   "uk_ai": "Схоже, це той камінь їх скликав. Мусимо його знищити!",
+   "uk": "Схоже, це той камінь їх скликав. Мусимо його знищити!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir026",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "The spell is broken. We can now pass freely.",
+   "ru": "Заклятие снято. Теперь мы можем пройти свободно.",
+   "uk_ai": "Чари розвіяно. Тепер можна вільно пройти.",
+   "uk": "Чари розвіяно. Тепер можна вільно пройти."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir027",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Another spell-stone... destroy it!",
+   "ru": "Еще один магический камень... уничтожьте его!",
+   "uk_ai": "Ще один зачарований камінь... знищте його!",
+   "uk": "Ще один зачарований камінь... знищте його!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan025",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "These wights are growing more powerful the further in we go... ",
+   "ru": "Чем дальше мы продвигаемся, тем сильнее становятся эти колдуны...",
+   "uk_ai": "Що глибше ми заходимо, то сильнішають ці привиди...",
+   "uk": "Що глибше ми заходимо, то сильнішають ці привиди..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_cargast014",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Hmpf... this changes nothing...",
+   "ru": "Хмпф... это ничего не меняет...",
+   "uk_ai": "Хм... це нічого не змінює...",
+   "uk": "Хм... це нічого не змінює..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_cargast013",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "A temporary reprieve... the dead do not waver...",
+   "ru": "Временная отсрочка... мертвые не отступают...",
+   "uk_ai": "Короткий перепочинок... мерці не відступають...",
+   "uk": "Короткий перепочинок... мерці не відступають..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_cargast015",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Well done... now, come closer...",
+   "ru": "Хорошо... теперь подойдите ближе...",
+   "uk_ai": "Добре... а тепер підійдіть ближче...",
+   "uk": "Добре... а тепер підійдіть ближче..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_cargast016",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "I await you... within the King's Chamber...",
+   "ru": "Я жду вас... в Чертоге короля...",
+   "uk_ai": "Я чекаю на вас... у Королівській залі...",
+   "uk": "Я чекаю на вас... у королівській залі..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_cargast017",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Your friends do not have long, Ranger...",
+   "ru": "Твоим друзьям осталось недолго, следопыт...",
+   "uk_ai": "Твоїм друзям лишилося недовго, слідопите...",
+   "uk": "Твоїм друзям лишилося недовго, слідопите..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_amdir015",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "We must be nearing its centre.",
+   "ru": "Мы, должно быть, приближаемся к центру.",
+   "uk_ai": "Мабуть, ми вже близько до серця кургану.",
+   "uk": "Мабуть, ми вже близько до серця кургану."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_cargast001",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "I bid thee welcome.",
+   "ru": "Приветствую вас.",
+   "uk_ai": "Вітаю вас.",
+   "uk": "Вітаю вас."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_cargast002",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "This barrow was once the tranquil resting place of kings.",
+   "ru": "Этот курган был когда-то местом упокоения королей.",
+   "uk_ai": "Колись цей курган був тихою усипальницею королів.",
+   "uk": "Колись цей курган був тихою усипальницею королів."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_cargast003",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Now, it is the domain of Cargast.",
+   "ru": "Теперь это владения Каргаста.",
+   "uk_ai": "Тепер це володіння Карґаста.",
+   "uk": "Тепер це володіння Карґаста."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_cargast004",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "You will all die.",
+   "ru": "И вы все умрете.",
+   "uk_ai": "Ви всі помрете.",
+   "uk": "Ви всі помрете."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_cargast005",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Your attempts to overthrow me are feeble and pathetic.",
+   "ru": "Ваши попытки одолеть меня слабы и жалки.",
+   "uk_ai": "Ваші спроби мене скинути — кволі й жалюгідні.",
+   "uk": "Ваші спроби мене скинути — кволі й жалюгідні."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_cargast008",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "My minions will take care of you!",
+   "ru": "Мои прислужники позаботятся о вас!",
+   "uk_ai": "Мої посіпаки про вас подбають!",
+   "uk": "Мої посіпаки про вас подбають!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_cargast006",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "You cannot stop what has been set in motion here!",
+   "ru": "Вам не остановить меня!",
+   "uk_ai": "Вам не зупинити того, що тут почалося!",
+   "uk": "Вам не зупинити того, що тут почалося!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_cargast009",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "You will join me! Living or dead!",
+   "ru": "Вы присоединитесь ко мне! Живыми или мертвыми!",
+   "uk_ai": "Ви приєднаєтеся до мене! Живими чи мертвими!",
+   "uk": "Ви приєднаєтеся до мене! Живими чи мертвими!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_cargast007",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Noooo! My bone-marrow!",
+   "ru": "Нееет! Мой костный мозг!",
+   "uk_ai": "Ні-і-і! Мій кістковий мозок!",
+   "uk": "Ні-і-і! Мій кістковий мозок!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_amdir018",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "My kin are starting to wake! Come, let us finish this.",
+   "ru": "Мои родичи пробуждаются! Спешим, мы должны покончим с этим!",
+   "uk_ai": "Мої родичі прокидаються! Ходімо, покінчимо з цим.",
+   "uk": "Мої родичі прокидаються! Нумо, покінчимо з цим."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_lothrandir001",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Lothrandir: Greetings! This is most unexpected. What brings the Sons of Elrond this far west?",
+   "ru": "ЛОТРАНДИР: Приветствую! Как неожиданно. Что привело сыновей Элронда так далеко на запад?",
+   "uk_ai": "Лотрандир: Вітаю! Оце несподіванка. Що привело синів Елронда так далеко на ЗАХІД?",
+   "uk": "Лотрандир: Вітаю! Оце несподіванка. Що привело синів Елронда так далеко на ЗАХІД?"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir012",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elrohir: We bear word from Annuminas and our father. Aragorn is in need of aid in our war against the Enemy.",
+   "ru": "Элрохир: Мы несем вести из Аннуминаса и от нашего отца. Арагорн нуждается в помощи на войне против нашего общего Врага.",
+   "uk_ai": "Елрохір: Ми несемо звістку з Аннумінаса й від нашого батька. Араґорн потребує допомоги у війні з ворогом.",
+   "uk": "Елрохір: Ми несемо звістку з Аннумінаса й від нашого батька. Араґорн потребує допомоги у війні з ворогом."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_lothrandir002",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Lothrandir: Then aid him we shall, though I fear someone else needs our aid. Look! Smoke rises to the south.",
+   "ru": "ЛОТРАНДИР: Тогда поможем ему, хотя, боюсь, наша помощь нужна еще кое-кому. Смотрите! Дым поднимается на юге.",
+   "uk_ai": "Лотрандир: Тоді допоможемо йому, хоча, боюся, наша допомога потрібна ще комусь. Дивіться! На півдні здіймається дим.",
+   "uk": "Лотрандир: Тоді допоможемо йому, хоча, боюся, наша допомога потрібна ще комусь. Дивіться! На півдні здіймається дим."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_lothrandir003",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Lothrandir: These farmlands belong to a brave hobbit. Maggot is his name. We often barter with him, \\n though I doubt he sees us as anything other than weary travelers...",
+   "ru": "ЛОТРАНДИР: Эти земли принадлежат храброму хоббиту. Его зовут Мэггот. Мы часто торгуем с ним,\\nХотя сомневаюсь, что он видит в нас только уставших путников...",
+   "uk_ai": "Лотрандир: Ці поля належать хороброму гобітові. Його звуть Меґот. Ми часто з ним торгуємо, \\n хоча, гадаю, для нього ми лише втомлені мандрівники...",
+   "uk": "Лотрандир: Ці поля належать хороброму гобітові. Його звуть Меґот. Ми часто з ним торгуємо, \\n хоча, гадаю, для нього ми лише втомлені мандрівники..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_maggot005",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Farmer Maggot: That'll teach them! My friends, I would be lost without you. If ever you come down to the borderlands, \\n don't hesitate to come knocking. Tea and mushrooms will always be ready for you!",
+   "ru": "Фермер Мэггот: Это их научит! Друзья мои, без вас я бы пропал. Если вы когда-нибудь будете в пограничных землях,\\nне стесняйтесь стучаться. Чай и грибы всегда будут готовы для вас!",
+   "uk_ai": "Фермер Меґот: Будуть знати! Друзі мої, без вас я б пропав. Якщо колись будете в Прикордонні, \\n заходьте не вагаючись. Для вас завжди знайдуться чай і гриби!",
+   "uk": "Фермер Меґот: Будуть знати! Друзі мої, без вас я б пропав. Якщо колись будете в Прикордонні, \\n заходьте не вагаючись. Для вас завжди знайдуться чай і гриби!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_lothrandir007",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Lothrandir: We shall, my dearest hobbit. Count on it! And good riddance to these ruffians. \\n They won't return in a hurry. It seems now we can hasten onwards.",
+   "ru": "ЛОТРАНДИР: Мы сделаем это, дорогой друг. Можешь на нас рассчитывать! Скатертью дорога этим бандитам.\\nОни не посмеют вернутся еще долгое время. Кажется, теперь мы можем поспешить дальше.",
+   "uk_ai": "Лотрандир: Неодмінно, мій любий гобіте. Можеш на нас розраховувати! І скатертю дорога цим головорізам. \\n Вони не скоро повернуться. Схоже, тепер ми можемо поспішити далі.",
+   "uk": "Лотрандир: Неодмінно, мій любий гобіте. Можеш на нас розраховувати! І скатертю дорога цим розбійникам. \\n Вони не скоро повернуться. Схоже, тепер ми можемо поспішити далі."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan014",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elladan: Indeed, but will they not return seeking revenge?",
+   "ru": "Элладан: Действительно, но не вернутся ли они, желая отомстить?",
+   "uk_ai": "Елладан: Справді, але чи не повернуться вони, щоб помститися?",
+   "uk": "Елладан: Справді, але чи не повернуться вони, щоб помститися?"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_lothrandir008",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Lothrandir: I will leave a few of my kin here. Any bandits that remain will think twice before causing \\n trouble again, especially when they see us on watch. Aragorn will understand, no doubt.",
+   "ru": "ЛОТРАНДИР: Я оставлю здесь несколько своих сородичей. Любые разбойники, что остались, дважды подумают, прежде чем причинить\\nзло хоббитам снова. Арагорн поймет, не сомневаюсь.",
+   "uk_ai": "Лотрандир: Я залишу тут кількох своїх родичів. Розбійники, що лишилися, двічі подумають, перш ніж знову \\n чинити лихо, особливо коли побачать нашу варту. Араґорн, безперечно, зрозуміє.",
+   "uk": "Лотрандир: Я залишу тут кількох своїх родичів. Розбійники, що лишилися, двічі подумають, перш ніж знову \\n чинити лихо, особливо коли побачать нашу варту. Араґорн, безперечно, зрозуміє."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_lothrandir004",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "They're assaulting the farmstead, we must be quick!",
+   "ru": "Они напали на усадьбу, нам нужно поторопиться!",
+   "uk_ai": "Вони нападають на садибу, треба поспішати!",
+   "uk": "Вони нападають на садибу, треба поспішати!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_maggot006",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Help me! These gurt buggers are trying to burn me farm!",
+   "ru": "Помогите! Эти проходимцы пытаются сжечь мою ферму!",
+   "uk_ai": "Рятуйте! Ці здоровані хочуть спалити мою ферму!",
+   "uk": "Рятуйте! Ці здоровані хочуть спалити мою ферму!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_maggot001",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Oi there! Showed up just in time you did! But what am I gonna do about my crops!",
+   "ru": "Эй, там! Вовремя вы появились! Но что мне делать с моими посевами!",
+   "uk_ai": "Гей, ви там! Якраз вчасно з'явилися! Але що ж мені робити з урожаєм!",
+   "uk": "Гей, ви там! Якраз вчасно з'явилися! Але що ж мені робити з урожаєм!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_lothrandir005",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "The fires haven't spread far, though we must be quick. Do you have no way to put them out?",
+   "ru": "Пожар не распространился далеко, но мы должны действовать быстро. Вы знаете, как потушить их?",
+   "uk_ai": "Вогонь ще не розійшовся далеко, але треба поспішати. Вам є чим його гасити?",
+   "uk": "Вогонь ще не розійшовся далеко, але треба поспішати. Вам є чим його гасити?"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_maggot002",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "I have a dam down the way, though only one cart. But those ruffians aren't like to let me wander about unchecked!",
+   "ru": "У меня есть плотина по дороге, но при этом всего одна повозка. А эти разбойники не позволят мне бродить беспрепятственно!",
+   "uk_ai": "Нижче по дорозі в мене є загата, та воз лише один. А ці головорізи не дадуть мені спокійно ходити туди-сюди!",
+   "uk": "Нижче по дорозі в мене є гребля, проте воз лише один. А ці розбійники не дадуть мені спокійно ходити туди-сюди!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan013",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Then we shall aid you! Save your crops and we'll escort you to the water.",
+   "ru": "Тогда мы поможем вам! Спасайте свои посевы, а мы проводим вас к воде.",
+   "uk_ai": "Тоді ми вам допоможемо! Рятуйте врожай, а ми проведемо вас до води.",
+   "uk": "Тоді ми вам допоможемо! Рятуйте врожай, а ми проведемо вас до води."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir013",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "We must also guard the homestead. These ruffians seek to do more than burn your crops.",
+   "ru": "Нам также необходимо охранять усадьбу. Эти разбойники замышляют гораздо большее, чем просто сжечь ваш урожай.",
+   "uk_ai": "Ще треба охороняти садибу. Ці головорізи хочуть не лише спалити ваш урожай.",
+   "uk": "Ще треба охороняти садибу. Ці розбійники хочуть не лише спалити ваш урожай."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_maggot003",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "My dogs can help you there. Grip! Fang! Wolf! Stay!",
+   "ru": "Мои собаки могут помочь вам. Клык! Хват! Волк! Сидеть!",
+   "uk_ai": "Тут вам допоможуть мої пси. Хапко! Ікло! Вовк! Стояти!",
+   "uk": "Тут вам допоможуть мої пси. Хапко! Ікло! Вовк! Стояти!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_maggot007",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Agh! Help! These ruffians are destroying me cart!",
+   "ru": "Ах! Помогите! Разбойники ломают мою тележку!",
+   "uk_ai": "Ой! Рятуйте! Головорізи трощать мій воз!",
+   "uk": "Ой! Рятуйте! Розбійники трощать мій воз!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_maggot008",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Keep me safe while I put out the last of these fires!",
+   "ru": "Охраняйте меня, пока я тушу последний пожар!",
+   "uk_ai": "Бережіть мене, поки я гашу останні пожежі!",
+   "uk": "Охороняйте мене, поки я гашу останні пожежі!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_maggot009",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "I'll need to go back for more water!",
+   "ru": "Мне нужно вернуться за водой!",
+   "uk_ai": "Треба повернутися по воду!",
+   "uk": "Треба повернутися по воду!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_maggot010",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "These fires will spread if we don't put them out soon!",
+   "ru": "Огонь будет распространяться, если мы не потушим его в ближайшее время!",
+   "uk_ai": "Якщо швидко не погасимо ці пожежі, вогонь розійдеться!",
+   "uk": "Якщо швидко не погасимо ці пожежі, вогонь розійдеться!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_maggot011",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "No! Me precious hounds! You buggers will pay for that!",
+   "ru": "Нет! Мои драгоценные гончие! Вы, ублюдки, заплатите за это!",
+   "uk_ai": "Ні! Мої любі пси! Ви, негідники, за це заплатите!",
+   "uk": "Ні! Мої любі песики! Ви, негідники, ви за це заплатите!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_lothrandir010",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Maggot is wounded! We must defend him!",
+   "ru": "Мэггот ранен! Мы должны защитить его!",
+   "uk_ai": "Меґота поранено! Мусимо його захистити!",
+   "uk": "Меґота поранено! Мусимо його захистити!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan029",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Look out! More Ruffians approach!",
+   "ru": "Берегитесь! К нам приближаются еще больше разбойников!",
+   "uk_ai": "Обережно! Наближаються ще головорізи!",
+   "uk": "Обережно! Наближаються ще розбійники!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_maggot004",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "So much gone, those buggers! But least we won't go hungry. I'd really like to have my dogs teach them a thing or two.",
+   "ru": "Сколько всего пропало, вот же бестолковые негодяи! Но, по крайней мере, мы не будем голодать. Я бы очень хотел, чтобы мои собаки научили их кое-чему.",
+   "uk_ai": "Стільки всього пропало через тих негідників! Та принаймні голодувати не будемо. От би мої пси дали їм доброї науки.",
+   "uk": "Стільки всього пропало через тих негідників! Та принаймні голодувати не будемо. От би мої пси дали їм доброї науки."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir014",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "They may get the chance. These bandits must be camped nearby to attack so freely.",
+   "ru": "У них может появиться такая возможность. Чтобы нападать так свободно, бандиты, должно быть, разбили лагерь где-то неподалеку.",
+   "uk_ai": "Може, ще й дадуть. Якщо ці розбійники так вільно нападають, їхній табір десь неподалік.",
+   "uk": "Може, ще й дадуть. Якщо ці розбійники так вільно нападають, їхній табір десь неподалік."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_lothrandir006",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "I agree. Let us drive off the rest of them, and they won't return again so soon.",
+   "ru": "Согласен. Давайте прогоним остальных, чтобы отбить у них охоту зариться на чужое.",
+   "uk_ai": "Згоден. Проженімо решту, і вони не скоро повернуться.",
+   "uk": "Згоден. Проженімо решту, і вони не скоро повернуться."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_lothrandir011",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "There is another camp nearby. Let us be rid of it!",
+   "ru": "Поблизости еще один лагерь. Мы должны уничтожить его!",
+   "uk_ai": "Поблизу ще один табір. Позбудьмося його!",
+   "uk": "Поблизу ще один табір. Позбудьмося його!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_ranger004",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Ranger: Sons of Elrond! We are -",
+   "ru": "",
+   "uk_ai": "Слідопит: Сини Елронда! Ми —",
+   "uk": "Слідопит: Сини Елронда! Ми —"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir031",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elrohir: White Wolves!",
+   "ru": "Элрохир: Белые волки!",
+   "uk_ai": "Елрохір: Білі вовки!",
+   "uk": "Елрохір: Білі вовки!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan030",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Dispatch them quickly!",
+   "ru": "Отправьте их на тот свет!",
+   "uk_ai": "Швидко з ними покінчимо!",
+   "uk": "Швидко з ними покінчимо!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_toradan002",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Toradan: They are routed at last, though the story may have been different had you \\n not arrived when you did. Were you following the trail of the orcs?",
+   "ru": "ТОРАДАН: Наконец-то мы разбили их, но все могло сложится иначе,\\nне будь вас в наших рядах. Вы шли по следу орков?",
+   "uk_ai": "Торадан: Нарешті їх розбито, хоча все могло скінчитися інакше, якби ви \\n не прибули вчасно. Ви йшли слідом за орками?",
+   "uk": "Торадан: Нарешті їх розбито, хоча все могло скінчитися інакше, якби ви \\n не прибули вчасно. Ви йшли слідом за орками?"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan015",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elladan: No, that was only by good fortune, and at the word of Halbarad your captain.",
+   "ru": "Элладан: Нет, это произошло лишь по счастливой случайности и по приказу Хальбарада, твоего капитана.",
+   "uk_ai": "Елладан: Ні, нам просто пощастило, а прийшли ми за словом Гальбарада, твого капітана.",
+   "uk": "Елладан: Ні, нам просто пощастило, а прийшли ми за словом Гальбарада, твого капітана."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir021",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elrohir: He bids us to aid you, and return to Annuminas from where we can gather our strength, and depart south, to the aid of Aragorn.",
+   "ru": "Элрохир: Он велел нам помочь тебе и вернуться в Аннуминас, откуда мы сможем собрать силы и отправиться на юг, на помощь Арагорну.",
+   "uk_ai": "Елрохір: Він велить нам допомогти вам і повернутися до Аннумінаса, звідки ми, зібравши сили, вирушимо на південь на допомогу Араґорнові.",
+   "uk": "Елрохір: Він велить нам допомогти вам і повернутися до Аннумінаса, звідки ми, зібравши сили, вирушимо на південь на допомогу Араґорнові."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_toradan003",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Toradan: I see. Then to Annuminas we will return! Yet these orcs trouble me. Our scouts report \\n a great gathering of their host in the Ettenmoors. We will need to deal with them before our journey southward.",
+   "ru": "ТОРАДАН: Хорошо. Мы отправимся в Аннуминас сразу же после того, как нанесем визит на Эттенские высоты! Разведчики доложили мне о\\nбольшом скоплении орков в тамошних местах. И должен сказать, это будет нелегкая прогулка.",
+   "uk_ai": "Торадан: Зрозуміло. Тоді повертаймося до Аннумінаса! Та ці орки мене непокоять. Розвідники доповідають, \\n що на Еттенських пустищах збирається велике їхнє військо. Доведеться розібратися з ними, перш ніж рушати на південь.",
+   "uk": "Торадан: Зрозуміло. Тоді повертаймося до Аннумінаса! Та ці орки мене непокоять. Розвідники доповідають, \\n що на Еттенських пустищах збирається велике їхнє військо. Доведеться розібратися з ними, перш ніж рушати на південь."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir032",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "These fell beasts have grown bold to come near Fornost!",
+   "ru": "Эти падшие звери осмелились приблизиться к Форносту!",
+   "uk_ai": "Ці лихі звірі так зухвалішали, що підходять до самого Форносту!",
+   "uk": "Ці лихі звірі так зухвалішали, що підходять до самого Форносту!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan031",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "I fear the Dunedain's hold on this place is wavering...",
+   "ru": "Боюсь, что власть дунэдайн над этим местом ослабевает...",
+   "uk_ai": "Боюся, дунедайни ледве тримають це місце...",
+   "uk": "Боюся, дунедайни ледве тримають це місце..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan032",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "We should find this city's keepers. Come, brother!",
+   "ru": "Мы должны найти хранителей этого города. Идем, брат!",
+   "uk_ai": "Треба знайти тих, хто стереже це місто. Ходімо, брате!",
+   "uk": "Треба знайти тих, хто стереже це місто. Ходімо, брате!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir033",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "There! Battle is underway!",
+   "ru": "Сюда! Битва началась!",
+   "uk_ai": "Там! Іде бій!",
+   "uk": "Там! Іде бій!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_toradan001",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Well met Sons of Elrond! We're indebted to you it seems, and not for the first time! But later! We are beset on all sides, and must move quickly to aid our scattered forces.",
+   "ru": "Рад встрече, сыновья Элронда! Похоже, мы в долгу перед вами, и не в первый раз! Однако, к делу! Нас осаждают со всех сторон, времени в обрез, нам нужно успеть собрать все разрозненные отряды следопытов.",
+   "uk_ai": "Радий зустрічі, сини Елронда! Схоже, ми знову у вас у боргу, і вже не вперше! Але про це згодом! Нас обступили з усіх боків, тож мусимо швидко допомогти нашим розпорошеним загонам.",
+   "uk": "Радий зустрічі, сини Елронда! Схоже, ми знову у вас у боргу, і вже не вперше! Але про це згодом! Нас обступили з усіх боків, тож мусимо швидко допомогти нашим розпорошеним загонам."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir015",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Lead the way! Our blades will follow.",
+   "ru": "Веди нас! Наши клинки с вами.",
+   "uk_ai": "Веди! Наші клинки підуть за тобою.",
+   "uk": "Веди! Наші мечі з вами."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_toradan005",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "There! A group of my warriors!",
+   "ru": "Вот! Мои воины!",
+   "uk_ai": "Он там! Загін моїх воїнів!",
+   "uk": "Он там! Загін моїх воїнів!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_toradan006",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Over there! My men are under attack!",
+   "ru": "Вот там! Мои люди атакованы!",
+   "uk_ai": "Он там! На моїх людей напали!",
+   "uk": "Он там! На моїх людей напали!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_toradan007",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Look there! My rangers are under attack!",
+   "ru": "Смотрите! Мои следопыты атакованы!",
+   "uk_ai": "Дивіться! На моїх слідопитів напали!",
+   "uk": "Дивіться! На моїх слідопитів напали!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_toradan010",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "We are running out of time! If we don't find my men soon, this city will be lost!",
+   "ru": "У нас мало времени! Если мы не найдем остальных в ближайшее время, этот город будет потерян!",
+   "uk_ai": "Час спливає! Якщо ми швидко не знайдемо моїх людей, місто впаде!",
+   "uk": "Час спливає! Якщо ми швидко не знайдемо моїх людей, місто впаде!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_toradan011",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "We were too late to save them...",
+   "ru": "Мы опоздали...",
+   "uk_ai": "Ми не встигли їх урятувати...",
+   "uk": "Ми не встигли їх урятувати..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_toradan012",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "My men were overrun...",
+   "ru": "Мои люди были разбиты...",
+   "uk_ai": "Моїх людей розгромили...",
+   "uk": "Моїх людей розбили..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_toradan008",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "We are losing too many men!",
+   "ru": "Мы теряем слишком много людей!",
+   "uk_ai": "Ми втрачаємо забагато людей!",
+   "uk": "Ми втрачаємо забагато людей!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_toradan013",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "They did not make it out alive...",
+   "ru": "Они не выбрались живыми...",
+   "uk_ai": "Вони не вибралися живими...",
+   "uk": "Вони не вибралися живими..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_toradan009",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "If we lose any more men, I fear we will be unable to repel the orcs!",
+   "ru": "Если мы потеряем еще хоть одного человека, боюсь, мы не сможем противостоять оркам!",
+   "uk_ai": "Якщо втратимо ще когось, боюся, нам не відбити орків!",
+   "uk": "Якщо ми втратимо ще когось, боюся, нам не здолати орків!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_toradan014",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "We have recovered most of my men, but some are still out there. ",
+   "ru": "Мы нашли большинство следопытов, но некоторые все еще там.",
+   "uk_ai": "Ми знайшли більшість моїх людей, але дехто ще десь там.",
+   "uk": "Ми знайшли більшість моїх людей, але дехто ще десь там."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_toradan015",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Excellent, we have found all my forces. Let us put an end to these vile goblins!",
+   "ru": "Превосходно, мы нашли все мое войско. Давайте покончим с этой нечистью!",
+   "uk_ai": "Чудово, ми знайшли всі мої загони. Покінчимо з цими мерзенними ґоблінами!",
+   "uk": "Чудово, ми знайшли всі мої загони. Покінчимо з цими мерзенними ґоблінами!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elegost018",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Trolls hide from the sun in their lairs. We should put a torch to it if we can. But any attack would be at great peril.",
+   "ru": "Тролли прячутся от солнца в своих логовах. Мы должны зажечь факел. Однако любая атака будет сопряжена с большой опасностью.",
+   "uk_ai": "Тролі ховаються від сонця у своєму лігві. Якщо вдасться, його варто підпалити. Але будь-який напад дуже небезпечний.",
+   "uk": "Тролі ховаються від сонця у своєму лігві. Якщо вдасться, його варто підпалити. Але будь-який напад дуже небезпечний."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir036",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "It is your call, Elegost.",
+   "ru": "Это твой выбор, Элегост.",
+   "uk_ai": "Вирішувати тобі, Елеґосте.",
+   "uk": "Вирішувати тобі, Елеґосте."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elegost008",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elegost: It is as I feared.",
+   "ru": "Элегост: Этого я и опасался.",
+   "uk_ai": "Елеґост: Так я й боявся.",
+   "uk": "Елеґост: Так я й боявся."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan017",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elladan: We must mourn your fallen friends later. Do you hear that?",
+   "ru": "Элладан: Мы будем оплакивать погибших друзей позже. Слышите это?",
+   "uk_ai": "Елладан: Оплачемо твоїх полеглих друзів згодом. Чуєте?",
+   "uk": "Елладан: Будемо оплакувати твоїх полеглих друзів згодом. Ви це чуєте?"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir019",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elrohir: A Hill-troll? No... it sounds bigger...",
+   "ru": "Элрохир: Горные тролли? Нет... звучит как кто-то покрупнее...",
+   "uk_ai": "Елрохір: Пагорбовий троль? Ні... звучить як щось більше...",
+   "uk": "Елрохір: Пагорбовий троль? Ні... звучить як щось більше..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elegost009",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elegost: This is an ambush! ",
+   "ru": "Элегост: Это засада!",
+   "uk_ai": "Елеґост: Це засідка!",
+   "uk": "Елеґост: Це засідка!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_gorg001",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Gorg: Clever elfs and man not so clever after all!",
+   "ru": "Горг: Эльфы и человек не так уж и умны в конце концов!",
+   "uk_ai": "Ґорґ: Розумні ельфи й людина зовсім не такі й розумні!",
+   "uk": "Ґорґ: Ельфи та людина зовсім не такі й розумні!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elegost010",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elegost: Nasty business, but it's done, and we're all in one piece. \\n Help me bury my brothers. Then we ride to Annunimas.",
+   "ru": "Элегост: Скверное дельце, но с ним покончено, а нам повезло уцелеть.\\nПомогите похоронить моих братьев. После чего я отправлюсь с вами в Аннуминас.",
+   "uk_ai": "Елеґост: Брудна справа, але її зроблено, і ми всі цілі. \\n Допоможіть мені поховати братів. Тоді поскачемо до Аннумінаса.",
+   "uk": "Елеґост: Брудна справа, але її зроблено, і ми всі цілі. \\n Допоможіть мені поховати братів. Тоді поскачемо до Аннумінаса."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan016",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Elegost of the Dunedain. You are known to us.",
+   "ru": "Элегост Дунэдайн. Мы слышали о тебе.",
+   "uk_ai": "Елеґост із дунедайнів. Ми про тебе чули.",
+   "uk": "Елеґост із дунедайнів. Ми про тебе чули."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elegost001",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Elrohir! Or is it Elladan? Either way, what brings the Sons of Elrond here?",
+   "ru": "Элрохир! Или это Элладан? В любом случае, что привело сюда сыновей Элронда?",
+   "uk_ai": "Елрохір! Чи то Елладан? Хай там як, що привело сюди синів Елронда?",
+   "uk": "Елрохір! Чи то Елладан? Хай там як, що привело сюди синів Елронда?"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir017",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "We have come to help you take care of this troll-menace. After this, you must ride with us to Annuminas. Halbarad gathers a warband to ride south.",
+   "ru": "Мы пришли, чтобы помочь разобраться с этой троллиной угрозой и призвать тебя в Аннуминас. Хальбарад собирает следопытов Севера, чтобы отправиться на юг, на помощь Арагорну.",
+   "uk_ai": "Ми прийшли допомогти тобі впоратися з тролячою напастю. Після цього ти маєш поскакати з нами до Аннумінаса. Гальбарад збирає загін, щоб вирушити на південь.",
+   "uk": "Ми прийшли допомогти тобі впоратися з тролячою напастю. Після цього ти маєш вирушити з нами до Аннумінаса. Гальбарад збирає загін, щоб вирушити на південь."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elegost002",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Very well. I have tracked a party of Rangers to these woods. They have not come out, and I fear the worst. I am going in to see what there is to see, and destroy what trolls I can.",
+   "ru": "Отлично. Я следил за отрядом следопытов в этих лесах, но потерял их след, и теперь опасаюсь худшего. Я намерен осмотреться в пуще и исстребить всех обитающих там троллей",
+   "uk_ai": "Гаразд. Я вистежив загін слідопитів до цих лісів. Вони звідти не вийшли, і я боюся найгіршого. Я йду туди подивитися, що там, і знищити стільки тролів, скільки зможу.",
+   "uk": "Гаразд. Я вистежив загін слідопитів до цих лісів. Вони звідти не вийшли, і я боюся найгіршого. Я йду туди подивитися, що там, і знищити стільки тролів, скільки зможу."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elegost012",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Trolls are large, clumsy, and easy to track. We will follow their trails.",
+   "ru": "Тролли большие и неуклюжие, их легко выследить. Мы пойдем по их следам.",
+   "uk_ai": "Тролі великі, незграбні, і їх легко вистежити. Ітимемо їхніми слідами.",
+   "uk": "Тролі великі, незграбні, і їх легко вистежити. Ми підемо за їхнім слідом."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elegost015",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Ssh! Be quiet. There's a troll passing by.",
+   "ru": "Тише! Не шумите. Я вижу тролля.",
+   "uk_ai": "Тс-с! Тихо. Повз іде троль.",
+   "uk": "Тс-с! Тихо. Повз іде троль."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elegost016",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "We can  stay in the trees and avoid it, but if we find a clearing I can lure the beast into an ambush.",
+   "ru": "Мы можем укрыться от него за деревьями, но, если мы найдем открытую поляну, я смогу заманить зверя в засаду.",
+   "uk_ai": "Можемо триматися дерев і обминути його, а якщо знайдемо галявину, я заманю звіра в засідку.",
+   "uk": "Можемо триматися дерев і обминути його, а якщо знайдемо галявину, я заманю звіра в засідку."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elegost017",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "That got his attention. Get ready!",
+   "ru": "Это привлекло его внимание. Приготовьтесь!",
+   "uk_ai": "Тепер він нас помітив. Готуйтеся!",
+   "uk": "Тепер він нас помітив. Готуйтеся!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir034",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Look, there are trolls guarding the path ahead.",
+   "ru": "Смотрите, тролли охраняют путь впереди.",
+   "uk_ai": "Дивіться, попереду шлях стережуть тролі.",
+   "uk": "Дивіться, попереду шлях стережуть тролі."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elegost013",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Let's go and have a chat. I can smell the booze from here. They're no threat as they are.",
+   "ru": "Пойдемте побеседуем с ними. Я чувствую запах выпивки. Сдается мне, эти двое не представляют для нас угрозы.",
+   "uk_ai": "Ходімо побалакаємо. Я звідси чую запах пійла. У такому стані вони не загроза.",
+   "uk": "Ходімо потеревенимо з ними. Я звідси чую запах випивки. У такому стані вони нам не загроза."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elegost003",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Troll! Let us pass, and we will leave you unharmed.",
+   "ru": "Тролль! Пропусти нас, и я пощажу тебя.",
+   "uk_ai": "Тролю! Пропусти нас, і ми тебе не зачепимо.",
+   "uk": "Тролю! Пропусти нас, і ми тебе не зачепимо."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_TrollA001",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Puny Dun-dan. You want inside-go the Trolly-shaws?",
+   "ru": "Жалкие дун-дан. Вы хотите идти внутрь Тролль-пущи?",
+   "uk_ai": "Мізерний Дун-дан. Ти хотіти всередину-йти в Тролюхащі?",
+   "uk": "Мізерний Дун-дан. Ти хотіти всередину-йти в Тролюхащі?"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_TrollB001",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Not Trolly-shaws! Troll-shaws!",
+   "ru": "Не Тролль-пуща! Троллья пуща!",
+   "uk_ai": "Не Тролюхащі! Тролячі хащі!",
+   "uk": "Не Тролюхащі! Тролячі хащі!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_TrollA002",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Oh. Sorry.",
+   "ru": "Ох. Извините.",
+   "uk_ai": "О. Вибач.",
+   "uk": "О. Вибач."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elegost004",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Yes. We are looking for our friends.",
+   "ru": "Да. Мы ищем своих друзей.",
+   "uk_ai": "Так. Ми шукаємо своїх друзів.",
+   "uk": "Так. Ми шукаємо своїх друзів."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_TrollB002",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "We see-saw none-body here. You inside-go cannot.",
+   "ru": "Мы не видим-видели здесь никого-либо. Вы внутрь идти не можете.",
+   "uk_ai": "Ми бачити-бачили ніхто-нікого тут. Ти всередину-йти не можна.",
+   "uk": "Ми бачити-бачили ніхто-нікого тут. Ти всередину-йти не можна."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elegost005",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Few things more tedious than talking to trolls...",
+   "ru": "Мало есть на свете более утомительных занятий, чем общение с троллями...",
+   "uk_ai": "Мало що нудніше, ніж розмови з тролями...",
+   "uk": "Мало що нудніше, ніж розмови з тролями..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elegost014",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "That went well. Now, let us resume our hunt.",
+   "ru": "Все прошло хорошо. Теперь давайте возобновим охоту.",
+   "uk_ai": "Усе минуло гладко. А тепер продовжимо полювання.",
+   "uk": "Усе пройшло гладко. А тепер продовжимо полювання."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan033",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "We were lucky. Trolls are no meager threat.",
+   "ru": "Нам повезло. Тролли не представляют угрозы.",
+   "uk_ai": "Нам пощастило. Тролі — загроза аж ніяк не мала.",
+   "uk": "Нам пощастило. Тролі — загроза аж ніяк не мала."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elegost006",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "The people that lived here were decent folk. Their murder must be avenged.",
+   "ru": "Люди, жившие здесь, были достойными людьми. Их убийство должно быть отомщено.",
+   "uk_ai": "Люди, що тут жили, були порядним народом. За їхню смерть треба помститися.",
+   "uk": "Люди, що тут жили, були порядними. За їхню смерть треба помститися."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan034",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "So it will.",
+   "ru": "Так и будет.",
+   "uk_ai": "Так і буде.",
+   "uk": "Так і буде."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir035",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Come, we must keep going.",
+   "ru": "Вперед, мы должны продолжить наш путь.",
+   "uk_ai": "Ходімо, треба йти далі.",
+   "uk": "Ходімо, треба йти далі."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan035",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "It is done. But we can risk no more delay. We must find Gorg and destroy him before he retreats from the light of the sun.",
+   "ru": "Все. Но нам нельзя больше медлить. Мы должны найти Горга, пока он не скрылся от света солнца.",
+   "uk_ai": "Готово. Але більше зволікати не можна. Треба знайти Ґорґа й знищити його, доки він не сховався від сонячного світла.",
+   "uk": "Готово. Але більше зволікати не можна. Треба знайти Ґорґа й знищити його, доки він не сховався від сонячного світла."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir018",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Look! A Manual of Martial Prowess, authored by Turgon, the King of lost Gondolin! This will surely interest our father.",
+   "ru": "Смотрите! Руководство по воинской доблести, автором которого является Тургон, король павшего Гондолина! Это, несомненно, заинтересует нашего отца.",
+   "uk_ai": "Дивіться! Посібник з бойової майстерності, який написав Турґон, король утраченого Ґондоліну! Нашого батька це неодмінно зацікавить.",
+   "uk": "Дивіться! Посібник з бойової майстерності, який написав Турґон, король утраченого Ґондоліну! Нашого батька це неодмінно зацікавить."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elegost007",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "I never knew trolls to be literate.",
+   "ru": "Никогда бы не подумал, что тролли могут быть грамотными.",
+   "uk_ai": "Ніколи не думав, що тролі вміють читати.",
+   "uk": "Ніколи не думав, що тролі вміють читати."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_gorg002",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Dun-dan! YOU ARE WEAK!",
+   "ru": "Дун-дан! Вы слабаки!",
+   "uk_ai": "Дун-дан! ТИ СЛАБКИЙ!",
+   "uk": "Дун-дан! ВИ СЛАБАКИ!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_gorg003",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "YOU WERE BORN OUT OF YOUR MOTHER'S JAMBAGS!",
+   "ru": "ГОРГ ВЫРВЕТ ВАШИ КИШКИ!",
+   "uk_ai": "ТЕБЕ МАМКА НАРОДИЛА З ЛАХМІТТЯ!",
+   "uk": "ТЕБЕ, МАБУТЬ, ЛЕЛЕКА В СМІТНИКУ ЗНАЙШОВ!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_gorg004",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "You are two elfs, but look like one elf!",
+   "ru": "Два эльфа, но выглядят как один!Что еще за эльфская магия?!",
+   "uk_ai": "Ви два ельфи, а з виду один ельф!",
+   "uk": "Два ельфи, а з виду наче один ельф!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_gorg005",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "I IS GREATEST TROLL OF TROLLY-SHAWS!",
+   "ru": "Я ВЕЛИЧАЙШИЙ ТРОЛЛЬ ТРОЛЛИСТОЙ ПУЩИ!",
+   "uk_ai": "Я Є НАЙБІЛЬШИЙ ТРОЛЬ ТРОЛЮХАЩІВ!",
+   "uk": "Я Є НАЙБІЛЬШИЙ ТРОЛЬ ТРОЛЮХАЩІВ!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_gorg006",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Gorg squash you into jelly!",
+   "ru": "Горг размажет ваши хлипкие черепушки!",
+   "uk_ai": "Ґорґ розчавить тебе на холодець!",
+   "uk": "Ґорґ розчавить вас на холодець!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad014",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Halbarad: We don't have the numbers to lay siege to this orc-hold",
+   "ru": "Хальбарад: У нас нет стольких людей, чтобы осадить эту крепость орков.",
+   "uk_ai": "Гальбарад: Нас замало, щоб узяти в облогу цю орчу твердиню",
+   "uk": "Гальбарад: Нас замало, щоб узяти в облогу цю орчу фортецю"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_amdir008",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Amdir: We needn't. We could try to find a way inside and cut down its vile castellan. \\n No band of orcs stays in line once its leader is dead.",
+   "ru": "Амдир: Не стоит. Мы можем попытаться найти путь внутрь и уничтожить мерзкого кастеляна.\\nЯ знаю, наверняка, что как только орочья свора лишается своего вожака, то сразу же рассеивается и перестает представлять угрозу.",
+   "uk_ai": "Амдір: А й не треба. Можна спробувати пробратися всередину й убити її мерзенного коменданта. \\n Жодна орча зграя не тримає лад, коли її ватажок мертвий.",
+   "uk": "Амдір: А й не треба. Можна спробувати пробратися всередину й убити її коменданта. \\n Жодна орча зграя не тримає лад, коли її ватажок мертвий."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan018",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elladan: They will start fighting amongst themselves.",
+   "ru": "Элладан: Они будут сражаться между собой.",
+   "uk_ai": "Елладан: Вони почнуть битися між собою.",
+   "uk": "Елладан: Вони почнуть битися між собою."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir020",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elrohir: Others might attempt to flee.",
+   "ru": "Элрохир: Остальные могут попытаться бежать.",
+   "uk_ai": "Елрохір: Інші можуть спробувати втекти.",
+   "uk": "Елрохір: Інші можуть спробувати втекти."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad015",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Halbarad: Cut the head off the snake. It could work.",
+   "ru": "Хальбарад: Срубить голову змее. Это может сработать.",
+   "uk_ai": "Гальбарад: Відрубати змії голову. Може спрацювати.",
+   "uk": "Гальбарад: Відрубати змії голову. Може спрацювати."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_lothrandir009",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Lothrandir: Is there a way in?",
+   "ru": "ЛОТРАНДИР: Есть ли путь внутрь?",
+   "uk_ai": "Лотрандир: А туди можна пробратися?",
+   "uk": "Лотрандир: А туди можна пробратися?"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elegost011",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elegost: We can try to find one.",
+   "ru": "Элегост: Мы можем попытаться найти одного.",
+   "uk_ai": "Елеґост: Можна спробувати знайти шлях.",
+   "uk": "Елеґост: Можна спробувати знайти шлях."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_toradan004",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Toradan: We'll thin them out once we get inside. Give them a real good fight.",
+   "ru": "ТОРАДАН: Будем стараться действовать скрытно на подступах к их логову, а когда проникнем внутрь дадим им настоящий бой.",
+   "uk_ai": "Торадан: Проберемося всередину — тоді й прорідимо їх. Дамо їм справжній бій.",
+   "uk": "Торадан: Проберемося всередину — тоді й прорідимо їх. Дамо їм справжній бій."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad016",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Halbarad: Send word to the others. We are going inside. You are to assemble near the front gate. Stay out of sight. \\n Once we slay the orc chief, we will set fire to his hall. Once you see the flames, prepare for battle.",
+   "ru": "Хальбарад: Передайте остальным. Мы идем внутрь. Вы должны собраться у главных врат. Держитесь подальше от посторонних глаз.\\nКак только мы убьем вождя орков, мы подожжем его зал. Как только вы увидите пламя, приготовьтесь к битве.",
+   "uk_ai": "Гальбарад: Передайте іншим. Ми йдемо всередину. Ви збираєтеся біля головної брами. Не показуйтеся на очі. \\n Щойно вб'ємо орчого ватажка, ми підпалимо його залу. Побачите полум'я — готуйтеся до бою.",
+   "uk": "Гальбарад: Передайте іншим. Ми йдемо всередину. Ви збираєтеся біля головної брами. Не показуйтеся на очі. \\n Щойно вб'ємо орчого ватажка, ми підпалимо його залу. Побачите полум'я — готуйтеся до бою."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_golfimbul001",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Golfimbul: You are brave, but foolish! This place will be your grave! My orcs will feast on your remains!",
+   "ru": "ГОЛЬФИМБУЛ: Ты храбр, но глуп! Это место станет твоей могилой! Мои орки будут пировать на твоих останках!",
+   "uk_ai": "Ґольфімбул: Ти хоробрий, але дурний! Це місце стане твоєю могилою! Мої орки бенкетуватимуть на твоїх рештках!",
+   "uk": "Ґольфімбул: Ти хоробрий, але дурний! Це місце стане твоєю могилою! Мої орки влаштують бенкет на твоїх рештках!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad021",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Halbarad: Golfimbul! The time has come to pay for your vile misdeeds!",
+   "ru": "Хальбарад: Гольфимбул! Пришло время тебе расплатиться за свои гнусные поступки!",
+   "uk_ai": "Гальбарад: Ґольфімбуле! Настав час заплатити за твої мерзенні злочини!",
+   "uk": "Гальбарад: Ґольфімбуле! Настав час заплатити за твої мерзенні злочини!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_amdir020",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Amdir: Be careful, this is no ordinary orc.",
+   "ru": "Амдир: Будьте осторожны, это не обычный орк.",
+   "uk_ai": "Амдір: Обережно, це не звичайний орк.",
+   "uk": "Амдір: Обережно, це не звичайний орк."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan036",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "We must defeat them. We cannot allow Golfimbul to escape.",
+   "ru": "Мы должны уничтожить их. Мы не можем позволить Гольфимбулу сбежать.",
+   "uk_ai": "Мусимо їх здолати. Не можна дати Ґольфімбулові втекти.",
+   "uk": "Треба їх здолати. Не можна дати Ґольфімбулові втекти."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad024a",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Halbarad: This battle is won, and for a while the north is freed from the tyranny of evil! But this war has only just begun.",
+   "ru": "Хальбарад: Эта битва выиграна, на некоторое время Север освобожден от тирании зла! Но эта война только началась.",
+   "uk_ai": "Гальбарад: Цю битву виграно, і на якийсь час Північ вільна від тиранії зла! Але ця війна лише почалася.",
+   "uk": "Гальбарад: Цю битву виграно, і на якийсь час Північ вільна від тиранії зла! Але ця війна лише почалася."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad024b",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Halbarad: Now, my brothers, we ride south! To the aid of Aragorn, and our distant kinsmen! Our time of silent guardians has ended. ",
+   "ru": "Хальбарад: Теперь, братья мои, мы выступаем на юг! На помощь Арагорну и нашим дальним сородичам! Время тайных заступников закончилось.",
+   "uk_ai": "Гальбарад: А тепер, брати мої, ми скачемо на південь! На допомогу Араґорнові й нашим далеким родичам! Час мовчазних вартових минув.",
+   "uk": "Гальбарад: А тепер, брати мої, ми скачемо на південь! На допомогу Араґорнові й нашим далеким родичам! Час мовчазних вартових минув."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad024c",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Halbarad: We will step into the light and take part in the great tale of this age, and see it through to the very end.",
+   "ru": "Хальбарад: Мы шагнем к свету и примем участие в великом предании этого века, и доведем его до самого конца.",
+   "uk_ai": "Гальбарад: Ми вийдемо на світло, візьмемо участь у великій повісті цієї доби й пройдемо її до самого кінця.",
+   "uk": "Гальбарад: Ми вийдемо на світло, візьмемо участь у великій повісті цієї доби й пройдемо її до самого кінця."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad024d",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Halbarad: For Arnor! For Gondor! In Elendil's name! We depart on the morrow, ere the rising of the sun!",
+   "ru": "Хальбарад: За Арнор! За Гондор! Во имя Элендила! Мы отправляемся в путь на следующий день до восхода солнца!",
+   "uk_ai": "Гальбарад: За Арнор! За Ґондор! В ім'я Еленділа! Вирушаємо завтра, ще до сходу сонця!",
+   "uk": "Гальбарад: За Арнор! За Ґондор! В ім'я Еленділа! Вирушаємо завтра, ще до сходу сонця!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elegost019",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "That grog is volatile stuff. A well placed arrow could set it alight.",
+   "ru": "Этот грог - взрывоопасная штука. Удачно пущенная стрела может поджечь его.",
+   "uk_ai": "Цей ґроґ легко займається. Влучна стріла може його підпалити.",
+   "uk": "Цей ґроґ легко займається. Влучна стріла може його підпалити."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad017",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Be cautious. There are lookouts. If we are spotted, we will be fighting off the whole garrison.",
+   "ru": "Будьте осторожны. Здесь есть дозорные. Если нас заметят, мы будем отбиваться от всего гарнизона.",
+   "uk_ai": "Обережно. Тут вартові. Якщо нас помітять, доведеться відбиватися від усього гарнізону.",
+   "uk": "Обережно. Тут вартові. Якщо нас помітять, доведеться відбиватися від усього гарнізону."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad018",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Kill these lookouts quickly.",
+   "ru": "Убейте дозорных, быстро.",
+   "uk_ai": "Швидко вбийте цих вартових.",
+   "uk": "Швидко вбийте вартових."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad019",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Watch out! We have alerted a lookout!",
+   "ru": "Берегитесь! Мы подняли тревогу!",
+   "uk_ai": "Обережно! Нас помітив вартовий!",
+   "uk": "Обережно! Нас помітив вартовий!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_amdir019",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "If we destroy their drums the orcs will be unable to call in their reinforcements.",
+   "ru": "Если мы уничтожим барабаны, орки не смогут вызвать подкрепление.",
+   "uk_ai": "Якщо знищимо їхні барабани, орки не зможуть скликати підкріплення.",
+   "uk": "Якщо знищимо їхні барабани, орки не зможуть викликати підкріплення."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_toradan016",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Here, there is a crack in the outer wall.",
+   "ru": "Сюда, здесь трещина во внешней стене.",
+   "uk_ai": "Сюди, у зовнішній стіні тріщина.",
+   "uk": "Сюди, тут у зовнішній стіні тріщина."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir037",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "We should be able to slip through there undetected.",
+   "ru": "Нам нужно проскользнуть туда незамеченными.",
+   "uk_ai": "Через неї ми мали б прослизнути непоміченими.",
+   "uk": "Через неї ми мали б прослизнути непоміченими."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_lothrandir012",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "These scaffolds are unstable. We may be able to use this to our advantage.",
+   "ru": "Эти строительные леса нестабильны. Возможно, мы сможем использовать это в своих интересах.",
+   "uk_ai": "Ці риштування хиткі. Можемо обернути це собі на користь.",
+   "uk": "Ці риштування хиткі. Можемо обернути це собі на користь."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad020",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "We must be approaching the stronghold.",
+   "ru": "Мы, должно быть, приближаемся к крепости.",
+   "uk_ai": "Мабуть, ми вже близько до твердині.",
+   "uk": "Мабуть, ми вже близько до фортеці."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_golfimbul002",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Argh! Orcs, kill these intruders!",
+   "ru": "Аргх! Орки, убейте этих незваных гостей!",
+   "uk_ai": "А-а! Орки, вбийте цих зайд!",
+   "uk": "А-а! Орки, вбийте цих порушників!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_toradan017",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Orcs are rallying to protect their leader!",
+   "ru": "Орки сплочаются для защиты своего лидера!",
+   "uk_ai": "Орки збираються, щоб захистити свого ватажка!",
+   "uk": "Орки збираються, щоб захистити свого ватажка!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_golfimbul003",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Futile! Pathetic! Your puny band cannot stop Golfimbul's horde!",
+   "ru": "Жалкие ничтожества! Вашему хилому сброду не остановить орду Гольфимбула!",
+   "uk_ai": "Марно! Жалюгідно! Вашій мізерній ватазі не зупинити орди Ґольфімбула!",
+   "uk": "Марно! Жалюгідно! Вашій мізерній ватазі не зупинити орди Ґольфімбула!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_golfimbul004",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Kill them all!",
+   "ru": "Убить их всех!",
+   "uk_ai": "Убийте всіх!",
+   "uk": "Убийте всіх!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_lothrandir013",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "More orcs are coming!",
+   "ru": "Больше орков приближается!",
+   "uk_ai": "Сунуть ще орки!",
+   "uk": "Сунуть ще орки!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_golfimbul005",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "The lands of Eriador cannot withstand the growing Shadow!",
+   "ru": "Земли Эриадора не смогут противостоять растущей Тени!",
+   "uk_ai": "Землям Еріадору не встояти перед Тінню, що зростає!",
+   "uk": "Землям Еріадору не встояти перед тінню, що зростає!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_golfimbul006",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Argh! Enough! Slay them, my warriors!",
+   "ru": "Аргх! Довольно! Убить их!",
+   "uk_ai": "А-а! Досить! Убийте їх, мої воїни!",
+   "uk": "А-а! Досить! Убийте їх, мої воїни!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elegost020",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Sons of Elrond! We need your blades!",
+   "ru": "Сыновья Элронда! Нам нужны ваши клинки!",
+   "uk_ai": "Сини Елронда! Нам потрібні ваші клинки!",
+   "uk": "Сини Елронда! Нам потрібні ваші мечі!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir038",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "With me, brother!",
+   "ru": "За мной, брат!",
+   "uk_ai": "За мною, брате!",
+   "uk": "За мною, брате!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_golfimbul007",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "The Great Eye's plans will not be undone so easily!",
+   "ru": "Замысел Великого Ока не так просто разрушить!",
+   "uk_ai": "Задуми Великого Ока не так легко зруйнувати!",
+   "uk": "Задуми Великого Ока не так легко зруйнувати!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad022",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Come on, let us finish this!",
+   "ru": "Вперед, давайте покончим с ним!",
+   "uk_ai": "Ну ж бо, покінчимо з цим!",
+   "uk": "Ну ж бо, покінчимо з цим!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_halbarad023",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Golfimbul is dead. Let us demolish his vile hold once and for all.",
+   "ru": "Гольфимбул мертв. Давайте раз и навсегда уничтожим его мерзкое логово.",
+   "uk_ai": "Ґольфімбул мертвий. Зруйнуймо його мерзенне лігво раз і назавжди.",
+   "uk": "Ґольфімбул мертвий. Зруйнуймо його мерзенне лігво раз і назавжди."
+  },
+  {
+   "var": "CONTROLBAR:FellowshipAthelasElladan",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Кнопка",
+   "en": "Athelas",
+   "ru": "Ацелас",
+   "uk_ai": "Ацелас",
+   "uk": "Ацелас"
+  },
+  {
+   "var": "CONTROLBAR:FellowshipAthelas",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Кнопка",
+   "en": "Kingsfoil (&R)",
+   "ru": "Королевский лист (&R)",
+   "uk_ai": "Атгелас — королівське листя (&R)",
+   "uk": "Атгелас — королівське листя (&R)"
+  },
+  {
+   "var": "TOOLTIP:DunedainSpear",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Кнопка",
+   "en": "Spears Equipped",
+   "ru": "Копья экипированы",
+   "uk_ai": "Озброєні списами",
+   "uk": "Озброєні списами"
+  },
+  {
+   "var": "UPGRADE:DunedainSpear",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Кнопка",
+   "en": "Spears Equipped",
+   "ru": "Копья экипированы",
+   "uk_ai": "Озброєні списами",
+   "uk": "Озброєні списами"
+  },
+  {
+   "var": "TOOLTIP:DunedainSword",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Кнопка",
+   "en": "Swords Equipped",
+   "ru": "Мечи экипированы",
+   "uk_ai": "Озброєні мечами",
+   "uk": "Озброєні мечами"
+  },
+  {
+   "var": "UPGRADE:DunedainSword",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Кнопка",
+   "en": "Swords Equipped",
+   "ru": "Мечи экипированы",
+   "uk_ai": "Озброєні мечами",
+   "uk": "Озброєні мечами"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elladan026",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "We will have to use both levers to open the main door.",
+   "ru": "Нам нужно воспользоваться двумя рычагами одновременно, чтобы открыть главную дверь.",
+   "uk_ai": "Щоб відчинити головні двері, доведеться потягнути обидва важелі.",
+   "uk": "Щоб відчинити головні двері, доведеться потягнути обидва важелі."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir010",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "Perhaps there is another?",
+   "ru": "Еще один ключ-камень, но его не сдвинуть с места. Может, есть еще один?",
+   "uk_ai": "Може, є ще один?",
+   "uk": "Може, є ще один?"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir016",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elrohir: No, that was only by good fortune, and at the word of Halbarad, your captain.",
+   "ru": "Элрохир: Нет, это произошло лишь по счастливой случайности и по приказу Хальбарада, вашего капитана.",
+   "uk_ai": "Елрохір: Ні, нам просто пощастило, а прийшли ми за словом Гальбарада, вашого капітана.",
+   "uk": "Елрохір: Ні, нам просто пощастило, а прийшли ми за словом Гальбарада, вашого капітана."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_elrohir059",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Диалог",
+   "en": "Elrohir: The dead draw closer.",
+   "ru": "",
+   "uk_ai": "Елрохір: Мерці наближаються.",
+   "uk": "Елрохір: Мерці наближаються."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_gorg007",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "[Overlong death rattle]",
+   "ru": "[Продолжительный предсмертный рык]",
+   "uk_ai": "[Довгий передсмертний хрип]",
+   "uk": "[Довгий передсмертний хрип]"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_cargast010",
+   "mission": "007_The Grey Company Sets Out",
+   "type": "Реплика",
+   "en": "RAAAAAH!",
+   "ru": "РААААА!",
+   "uk_ai": "Р-Р-А-А-А-А!",
+   "uk": "Р-Р-А-А-А-А!"
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_nazgul004",
+   "mission": "008_Escape from Osgiliath",
+   "type": "Реплика",
+   "en": "Son of Gondor... you are known to us...",
+   "ru": "Сын Гондора... ты знаком нам...",
+   "uk_ai": "Сину Ґондору... ми тебе знаємо...",
+   "uk": "Сину Ґондору... ми тебе знаємо..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_nazgul005",
+   "mission": "008_Escape from Osgiliath",
+   "type": "Реплика",
+   "en": "Foolish boy... like your father...",
+   "ru": "Глупый мальчишка... как твой отец...",
+   "uk_ai": "Дурний хлопчисько... як і твій батько...",
+   "uk": "Дурний хлопчисько... як і твій батько..."
+  },
+  {
+   "var": "DIALOGEVENT:mgfotr_nazgul006",
+   "mission": "008_Escape from Osgiliath",
+   "type": "Реплика",
+   "en": "Your victory is hollow... the Dark Lord will have your city...",
+   "ru": "Твоя победа ничтожна... Темный повелитель получит твой город...",
+   "uk_ai": "Твоя перемога порожня... Темний Володар забере твоє місто...",
+   "uk": "Твоя перемога ніщо... Темний Володар все одно забере твоє місто..."
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorOrcFighterHorde",
+   "mission": "010_The Last March of the Ents",
+   "type": "Кнопка",
+   "en": "Orc Warriors (&W)",
+   "ru": "Орки-воины (&W)",
+   "uk_ai": "Орки-воїни (&W)",
+   "uk": "Орки-воїни (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildMordorOrcFighterHorde",
+   "mission": "010_The Last March of the Ents",
+   "type": "Кнопка",
+   "en": "Strong vs. Pikemen \\n\\n Horde Bonus \\n Modifier Type: Spell \\n All Orc Warriors, Orc Pikemen and Orc Archers gain +25% damage and armour when gathered in numbers of 90 or more\\n\\n Ever since Sauron's return to Mordor, his orcs have multiplied and organized into great legions in service to Barad-dûr.",
+   "ru": "Сильны против пикинеров\\n\\nОрда\\nТип модификатора: Заклинание\\nВсе орки-воины, орки-копейщики и орки-лучники наносят +25% урона и получают +25% брони, если собраны в количестве 90 и более\\n\\nС тех пор, как Саурон вернулся в Мордор, его орды орков множились и объединилясь в большие легионы, под знаменем Барад-дура.",
+   "uk_ai": "Сильні проти пікінерів \\n\\n Бонус орди \\n Тип ефекту: Заклинання \\n Усі орки-воїни, орки-пікінери й орки-лучники отримують бонус +25% до пошкоджень і броні, коли їх зібрано 90 або більше\\n\\n Відтоді як Саурон повернувся до Мордору, його орки розплодилися й об'єдналися у великі легіони на службі Барад-дуру.",
+   "uk": "Ефективні проти пікінерів \\n\\n Бонус орди \\n Тип ефекту: Заклинання \\n Усі орки-воїни, орки-пікінери й орки-лучники отримують бонус +25% до пошкоджень і броні, коли їх зібрано 90 або більше\\n\\n Відтоді як Саурон повернувся до Мордору, його орки розплодилися й об'єдналися у великі легіони на службі Барад-дуру."
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorOrcArcherHorde",
+   "mission": "010_The Last March of the Ents",
+   "type": "Кнопка",
+   "en": "Orc Archers (&R)",
+   "ru": "Орки-лучники (&R)",
+   "uk_ai": "Орки-лучники (&R)",
+   "uk": "Орки-лучники (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildMordorOrcArcherHorde",
+   "mission": "010_The Last March of the Ents",
+   "type": "Кнопка",
+   "en": "Strong vs. Infantry \\n\\n Horde Bonus \\n Modifier Type: Spell \\n Orc Warriors, Orc Pikemen and Orc Archers gain +25% damage and armour when gathered in numbers of 90 or more\\n\\n Largely unskilled and ill-equipped, Mordor's archers are a prime example of strength in numbers.",
+   "ru": "Сильны против пехоты\\n\\nОрда\\nТип модификатора: Заклинание\\nВсе орки-воины, орки-копейщики и орки-лучники наносят +25% урона и получают +25% брони, если собраны в количестве 90 и более\\n\\nЛучники Мордора, которые, по большей части, плохо вооружены и плохо сражаются, являются ярким примером преимущества за счет численности.",
+   "uk_ai": "Сильні проти піхоти \\n\\n Бонус орди \\n Тип ефекту: Заклинання \\n Орки-воїни, орки-пікінери й орки-лучники отримують бонус +25% до пошкоджень і броні, коли їх зібрано 90 або більше\\n\\n Здебільшого невмілі й погано озброєні, лучники Мордору — яскравий приклад сили числа.",
+   "uk": "Ефективні проти піхоти \\n\\n Бонус орди \\n Тип ефекту: Заклинання \\n Орки-воїни, орки-пікінери й орки-лучники отримують бонус +25% до пошкоджень і броні, коли їх зібрано 90 або більше\\n\\n Здебільшого невмілі й погано озброєні, лучники Мордору — яскравий приклад сили числа."
+  }
+ ]
+}

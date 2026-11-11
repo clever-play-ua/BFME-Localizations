@@ -1,0 +1,115 @@
+{
+ "meta": {
+  "hero": "Caran-Lambar",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Harad"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "HaradCaranLambar"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:HaradCaranLambar",
+   "type": "Ім'я",
+   "en": "Caran-Lambar",
+   "ru": "Каран-Ламбар",
+   "uk_ai": "Каран-Ламбар",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MadChieftain",
+   "type": "Кнопка",
+   "en": "Mad Chieftain",
+   "ru": "Безумный вождь",
+   "uk_ai": "Божевільний отаман",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMadcheiftain",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\n For every 15 allied Haradwaith units nearby, Caran-Lambar gains +5% damage and movement speed to a maximum of 25% \n At level 5, nearby Nâfarati units gain +30% armour  \n Passive ability",
+   "ru": "Тип модификатора: Лидерство\\nЗа каждые 15 воинов Харада поблизости, Каран-Ламбар наносит +5% урона и получает +5% скорости передвижения до максимума в +25%\\nНа уровне 5, отряды воинов нафарати получают +30% брони\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nЗа кожні 15 одиниць Харадвайту поблизу, Каран-Ламбар отримує бонус +5% до пошкоджень і швидкості руху, максимум 25%\nНа 5 рівні загони нафараті поблизу отримують бонус +30% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BreakerofStone",
+   "type": "Кнопка",
+   "en": "Breaker of Stone (&R)",
+   "ru": "Крушитель камней (&R)",
+   "uk_ai": "Трощитель каменю (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBreakerofStone",
+   "type": "Підказка",
+   "en": "Requires Level 3\n Caran-Lambar slams the ground, damaging and knocking back enemy units and dealing heavy damage to structures in a small radius\nLeft click icon then left click on target",
+   "ru": "Требуется уровень 3\\nКаран-Ламбар ударяет по земле, отбрасывая врагов и нанося большой урон строениям в небольшом радиусе\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 3\nКаран-Ламбар б'є по землі, відкидаючи ворожі загони й завдаючи значних пошкоджень спорудам у невеликому радіусі\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:Derangement",
+   "type": "Кнопка",
+   "en": "Derangement (&T)",
+   "ru": "Психоз (&T)",
+   "uk_ai": "Божевілля (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDerangement",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Modifier Type: Leadership \n Nearby friendly units gain resistance to fear and terror \nPassive ability \n\nModifier Type: Debuff\nWhen activated, Caran-Lambar deals damage to himself \n Nearby enemy units lose -50% damage and attack speed for 30 seconds\n Left click to activate",
+   "ru": "Требуется уровень 5\\nТип модификатора: Лидерство\\nБлижайшие дружественные отряды становятся невосприимчивыми к страху и ужасу\\nПассивная способность\\n\\nТип модификатора: Ослабление\\nПосле активации, Каран-Ламбар наносит урон самому себе\\nБлижайшие вражеские отряды теряют -50% урона и -50% скорости атаки на 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Лідерство\nСоюзні загони поблизу отримують стійкість до страху та жаху\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nТип ефекту: Ослаблення\nПісля активації Каран-Ламбар завдає пошкоджень сам собі\nВорожі загони поблизу на 30 сек. отримують штраф -50% до пошкоджень і швидкості атаки\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DireStraits",
+   "type": "Кнопка",
+   "en": "Dire Straits",
+   "ru": "Отчаянное положение",
+   "uk_ai": "Скрутне становище",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDireStraits",
+   "type": "Підказка",
+   "en": "Requires Level 8 \n Once Caran-Lambar's health reaches less than 25% he goes into a terrifying rage, dealing 150% more damage and regaining health per hit for 15 seconds\nCannot be triggered again for 60 seconds\nPassive ability",
+   "ru": "Требуется уровень 8\\nЕсли здоровье Каран-Ламбара упадет ниже 25%, он впадает в ужасающую ярость, нанося на +150% больше урона и восстанавливая здоровье при каждом ударе в течение 15 секунд\\nПовторное срабатывание возможно не чаще чем раз в 60 секунд\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 8\nКоли здоров'я Каран-Ламбара падає нижче 25%, він на 15 сек. впадає в стан люті й завдає на 150% більше пошкоджень та відновлює здоров'я з кожним ударом\nПовторно спрацьовує не раніше ніж через 60 сек.\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityCaranLambarPull",
+   "type": "Кнопка",
+   "en": "Ensorcelled Rage (&V)",
+   "ru": "Заколдованный гнев (&V)",
+   "uk_ai": "Зачарована лють (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityCaranLambarPull",
+   "type": "Підказка",
+   "en": "Requires Level 10\n Caran-Lambar pulls all nearby enemies towards him\n For 30 seconds, Caran-Lambar gains +50% armour and movement speed and can crush enemy units\nLeft click to activate",
+   "ru": "Требуется уровень 10\\nКаран-Ламбар притягивает к себе всех ближайших врагов\\nНа 30 секунд Каран-Ламбар получает +50% брони и скорости передвижения и может сокрушать врагов\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10\nКаран-Ламбар притягує до себе всіх ворогів поблизу\nНа 30 сек. Каран-Ламбар отримує бонус +50% броні та швидкості руху і може, мов велетень, топтати ворожі загони\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

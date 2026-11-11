@@ -1,0 +1,106 @@
+{
+ "meta": {
+  "hero": "Shagrat",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Mordor"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "MordorShagrat"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:MordorShagrat",
+   "type": "Ім'я",
+   "en": "Shagrat",
+   "ru": "Шаграт",
+   "uk_ai": "Шаґрат",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShagratFierceRivalry",
+   "type": "Підказка",
+   "en": "When near Gorbag, Shagrat slowly takes damage over time \n Unlocks Brawl ability for Black Uruk Marauders allowing to kill friendly Orc Warriors or Legions of Morgul to gain combat experience\nPassive ability",
+   "ru": "Находясь рядом с Горбагом, Шаграт получает урон с течением времени\\nРазблокирует способность Драка для черных уруков-мародеров, позволяющую убивать союзных орков-воинов или орков легионов Моргула, чтобы получить боевой опыт\\nПассивная способность",
+   "uk_ai": "Поряд із Ґорбаґом Шаґрат повільно отримує пошкодження\nВідкриває чорним урукам-мародерам здібність «Бійка»: вони можуть убивати союзних орків-воїнів або легіони Морґулу, щоб набратися досвіду\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ShagratTowersCaptainLevel3",
+   "type": "Кнопка",
+   "en": "Captain of the Tower (&R)",
+   "ru": "Капитан башни (&R)",
+   "uk_ai": "Капітан вежі (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShagratTowersCaptain",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nMordor Towers and Orc Archers near Shagrat gain +15% vision, +15% range, and +15% damage\nAt rank 5, nearby Black Uruk Marauders gain +25% armour\nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nБашни Мордора и орки-лучники рядом с Шагратом наносят +15% урона, получают +15% дальности атаки и +15% обзора\\nНа уровне 5, ближайшие уруки-мародеры получают +25% брони\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nВежі Мордору й орки-лучники поряд із Шаґратом отримують бонус +15% дальності огляду, +15% дальності атаки й +15% до пошкоджень\nНа 5 рівні чорні уруки-мародери поблизу отримують бонус +25% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ShagratPillagers",
+   "type": "Кнопка",
+   "en": "Pillagers of Cirith Ungol (&T)",
+   "ru": "Расхитители из Кирит Унгола (&T)",
+   "uk_ai": "Грабіжники Кіріт-Унґолу (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShagratPillagers",
+   "type": "Підказка",
+   "en": "Requires Level 3\nShagrat spawns a temporary horde of Black Uruk Marauders when used on an allied or enemy building\nLeft click icon then left click on target building",
+   "ru": "Требуется уровень 3\\nЕсли использовать на дружественную или вражескую постройку, появится временный отряд черных уруков-мародеров\\nЩелкните левой кнопкой мыши на значок, затем на целевое строение",
+   "uk_ai": "Необхідно: Рівень 3\nЯкщо застосувати до союзної чи ворожої споруди, Шаґрат тимчасово прикликає орду чорних уруків-мародерів\nКлікніть на іконку, потім оберіть споруду",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ShagratLeadership",
+   "type": "Кнопка",
+   "en": "Loyalty to Lugbúrz (&C)",
+   "ru": "Верность Лугбурзу (&C)",
+   "uk_ai": "Вірність Луґбурцу (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShagratLeadership",
+   "type": "Підказка",
+   "en": "Requires Level 5\n Grants +25% damage to nearby Orc Warriors and Black Uruk Marauders as well as splash and knockback damage to Shagrat for 20 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 5\\nПосле активации, ближайшие орки-воины и черные уруки-мародеры наносят +25% урона, а Шаграт получает возможность отбрасывать врагов своими атаками в течение 20 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nНа 20 сек. орки-воїни й чорні уруки-мародери поблизу отримують бонус +25% до пошкоджень, а Шаґрат завдає пошкоджень по площі й відкидає ворогів своїми ударами\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ShagratCovetousUruk",
+   "type": "Кнопка",
+   "en": "Covetous Uruk",
+   "ru": "Жадный урук (&C)",
+   "uk_ai": "Жадібний урук",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShagratCovetousUruk",
+   "type": "Підказка",
+   "en": "Requires Level 7\nShagrat and nearby Black Uruk Marauders steal resources\nfrom slain foes\nPassive ability",
+   "ru": "Требуется уровень 7\\nШаграт и ближайшие черные уруки-мародеры зарабатывают ресурсы\\nза убийство врагов\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 7\nШаґрат і чорні уруки-мародери поблизу крадуть ресурси\nу вбитих ворогів\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "meta": {
+  "hero": "Óin",
+  "uk_name": "Оїн",
+  "campaigns": [
+   "FotR",
+   "RotK"
+  ],
+  "missions": [
+   "Council",
+   "Moria",
+   "BattleofDale"
+  ],
+  "templates": {
+   "кампанія": [
+    "DwarvenOin"
+   ],
+   "битва": [
+    "DwarvenOin"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею.",
+  "see_also": "Спільні з іншими героями рядки є лише в одному файлі: Glóin"
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:DwarvenOin",
+   "type": "Ім'я",
+   "en": "Óin",
+   "ru": "Оин",
+   "uk_ai": "Оїн",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:OinRestoration",
+   "type": "Кнопка",
+   "en": "Óin's Ointments (&R)",
+   "ru": "Мази Оина (&R)",
+   "uk_ai": "Мазі Оїна (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipOinRestoration",
+   "type": "Підказка",
+   "en": "Heals nearby allies \n Left click icon then left click on target area",
+   "ru": "Исцеляет ближайших союзников\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Зцілює союзників поблизу\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipOinOintments",
+   "type": "Підказка",
+   "en": "For 20 seconds, Oin and nearby allies are gradually healed and become immune to poison damage \n Left click icon to activate",
+   "ru": "",
+   "uk_ai": "Протягом 20 сек. Оїн і союзники поблизу поступово зцілюються й отримують імунітет до отрути\nКлікніть на іконку, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:OinTrumpet",
+   "type": "Кнопка",
+   "en": "Your Boys Flattened My Trumpet! (&T)",
+   "ru": "",
+   "uk_ai": "Ваші хлопці розчавили мою слухову трубку! (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipOinTrumpet",
+   "type": "Підказка",
+   "en": "Óin deals area of effect and knockback damage for 30 seconds\n Left click to activate",
+   "ru": "",
+   "uk_ai": "Оїн на 30 сек. завдає пошкоджень по площі й відкидає ворогів своїми ударами\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

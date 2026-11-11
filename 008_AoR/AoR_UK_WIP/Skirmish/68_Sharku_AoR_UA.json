@@ -1,0 +1,181 @@
+{
+ "meta": {
+  "hero": "Sharku",
+  "uk_name": "Шарку",
+  "faction (ini Side)": [
+   "Isengard"
+  ],
+  "alternate factions": [
+   "white hand"
+  ],
+  "templates": [
+   "IsengardSharku",
+   "IsengardSharku_WhiteHand"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:IsengardSharku",
+   "type": "Ім'я",
+   "en": "Sharku",
+   "ru": "Шарку",
+   "uk_ai": "Шарку",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BloodHunt",
+   "type": "Кнопка",
+   "en": "Blood Hunt",
+   "ru": "Кровавая охота",
+   "uk_ai": "Криваве полювання",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGBloodHunt",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Allied Warg-riders near Sharku gain +25% damage, +25% armour and earn experience 50% faster \nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nБлижайшие наездники на варгах наносят +33% урона, получают +33% брони и набирают опыт на +50% быстрее\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзні вершники на варґах поряд із Шарку отримують бонус +25% до пошкоджень, +25% броні й на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SendIntheWargs",
+   "type": "Кнопка",
+   "en": "Send in the Wargs (&R)",
+   "ru": "Натравить варгов (&R)",
+   "uk_ai": "Натравити варґів (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSendintheWargs",
+   "type": "Підказка",
+   "en": "Requires Level 3\n Summons a wave of charging Wargs to crush the enemy, dealing minor damage and knockback \n \n Recharge time: 2m \n Left click icon then left click on target",
+   "ru": "Требуется уровень 3\\nПризывается волна атакующих варгов, опрокидывающая вражеский строй\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 3\nПрикликає хвилю варґів, що біжать на ворога, завдають незначних пошкоджень і відкидають його\n\nЧас відновлення: 2 хв.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SharkuArmouredWolves",
+   "type": "Кнопка",
+   "en": "Armoured Wolves (&T)",
+   "ru": "Волчья броня (&T)",
+   "uk_ai": "Броньовані вовки (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSharkuArmouredWolves",
+   "type": "Підказка",
+   "en": "Requires Level 4\n Targeted Warg-riders battalion permanently gain\n+20% health and heavy armour\n Recharge time: 2m 30s \n \nAt rank 8, active ability's cooldown is reduced and area of effect is increased\n Recharge time: 2m\nLeft click icon then left click on target battalion",
+   "ru": "Требуется уровень 4\\nСоюзные отряды наездников на варгах в области действия навсегда получают\\n+20% здоровья и снаряжаются Тяжелыми доспехами\\nНа уровне 8, время перезарядки способности уменьшается, а радуис действия увеличивается\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 4\nОбраний загін вершників на варґах назавжди отримує\nбонус +20% здоров'я й важкі обладунки\nЧас відновлення: 2 хв. 30 сек.\n\nНа 8 рівні здібність відновлюється швидше, а площа дії збільшується\nЧас відновлення: 2 хв.\nКлікніть на іконку, потім оберіть загін",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SharkuManEater",
+   "type": "Кнопка",
+   "en": "Man Eater (&C)",
+   "ru": "Пожиратель людей (&С)",
+   "uk_ai": "Людожер (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSharkuManEater",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Kill target enemy infantry unit to restore 30% of Sharku's health and grant +25% damage and armour for 20 seconds\n \n Recharge time: 1m 30s \n Left click icon then left click on target enemy infantry unit",
+   "ru": "Требуется уровень 5\\nПриказать варгу убить врага, чтобы восстановить 30% здоровья Шарку и предоставить ему\\n+25% урона на 20 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 5\nВбиваючи обраного ворожого піхотинця, Шарку відновлює 30% здоров'я й на 20 сек. отримує бонус +25% до пошкоджень і броні\n\nЧас відновлення: 1 хв. 30 сек.\nКлікніть на іконку, потім оберіть ворожого піхотинця",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SummonBigWarg",
+   "type": "Кнопка",
+   "en": "Summon Warg Matriarch (&V)",
+   "ru": "Матриарх варгов (&V)",
+   "uk_ai": "Прикликати матріарха (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipSummonBigWarg",
+   "type": "Підказка",
+   "en": "Requires Level 8 \n Summons the wild Warg Matriarch to the battlefield \n She is hostile to all but Sharku \n \n Recharge time: 5m \n Left click icon to activate",
+   "ru": "Требуется уровень 8\\nПризывает матриарха варгов на поле битвы\\nОна враждебна ко всем, кроме Шарку\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 8\nПрикликає на поле бою матріарха варґів\nВона ворожа до всіх, крім Шарку\n\nЧас відновлення: 5 хв.\nКлікніть на іконку, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BloodHuntWhiteHand",
+   "type": "Кнопка",
+   "en": "Blood Hunt (&W)",
+   "ru": "Кровавая охота (&W)",
+   "uk_ai": "Криваве полювання (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGBloodHuntWhiteHand",
+   "type": "Підказка",
+   "en": "Left click to toggle mount\nModifier Type: Leadership \n Allied Wargs and Warg-riders near Sharku gain +25% damage, +25% armour and earn experience 50% faster \nPassive ability",
+   "ru": "Щелкните левой кнопкой мыши, чтобы переключиться на езду верхом\\nТип модификатора: Лидерство\\nСоюзные варги и наездники на варгах рядом с Шарку наносят +25% урона, получают +25% брони и набирают опыт на +50% быстрее\\nПассивная способность",
+   "uk_ai": "Клікніть, щоб сісти верхи чи спішитися\nТип ефекту: Лідерство\nСоюзні варґи й вершники на варґах поряд із Шарку отримують бонус +25% до пошкоджень, +25% броні й на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SharkuRaidersSummon",
+   "type": "Кнопка",
+   "en": "Orcish Raiders (&R)",
+   "ru": "Орки-налетчики (&R)",
+   "uk_ai": "Ороча навала (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSharkuRaidersSummon",
+   "type": "Підказка",
+   "en": "Requires Level 3\nSummons a horde of Sharku's Boys\nSharku's Boys passively debuff enemy cavalry's armour and deceleration\nAt rank 7, summons an additional horde of Sharku's Boys\nLeft click to activate",
+   "ru": "Требуется уровень 3\\nПризывается отряд Бойцов Шарку\\nБойцы Шарку пассивно снижают броню и скорость вражеской кавалерии\\nНа уровне 7, призывается дополнительный отряд Бойцов Шарку\\nЩелкните левой кнопкой мыши активировать",
+   "uk_ai": "Необхідно: Рівень 3\nПрикликає загін бійців Шарку\nВони постійно послаблюють броню ворожої кавалерії й сповільнюють її\nНа 7 рівні прикликає ще 1 додатковий загін бійців Шарку\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SharkuDirtyTricks",
+   "type": "Кнопка",
+   "en": "Dirty Tricks (&C)",
+   "ru": "Грязный трюк (&C)",
+   "uk_ai": "Брудні трюки (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSharkuDirtyTricks",
+   "type": "Підказка",
+   "en": "Requires Level 5\n Knocks down nearby units \n Stuns targeted heroes for 5 seconds\nTargeted enemy hero loses -25% armour for 30 seconds\nSharku deals +25% damage to targeted hero for the duration whilst dismounted\nLeft click icon then left click on target",
+   "ru": "Требуется уровень 5\\nСбивает с ног ближайших врагов\\nОглушает вражеских героев на 5 секунд\\nВражеский герой теряет -25% брони на 30 секунд\\nШарку наносит +25% урона целевому герою, будучи спешенным\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 5\nЗбиває з ніг загони поблизу\nПриголомшує обраних героїв на 5 сек.\nОбраний ворожий герой на 30 сек. втрачає 25% броні\nПоки діє здібність, Шарку пішки завдає обраному героєві на 25% більше пошкоджень\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSharkuManEaterWH",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Kill target enemy infantry unit to restore 30% of Sharku's health and grant\n+25% damage and armour for 20 seconds\nSharku cannot dismount for the duration of this effect\nLeft click icon then left click on target enemy infantry unit",
+   "ru": "Требуется уровень 5\\nПриказать варгу убить врага, чтобы восстановить 30% здоровья Шарку и предоставить ему\\n+25% урона на 20 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 5\nВбиває обрану ворожу одиницю: Шарку відновлює 30% здоров'я й отримує\nна 20 сек. бонус +25% до пошкоджень і броні\nПоки діє ефект, Шарку не може спішитися\nКлікніть на іконку, потім оберіть ворожого піхотинця",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "hero": "Razári",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Rhun"
+  ],
+  "alternate factions": [
+   "rhun"
+  ],
+  "templates": [
+   "RhunRazari"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:RhunRazari",
+   "type": "Ім'я",
+   "en": "Razári",
+   "ru": "Разари",
+   "uk_ai": "Разарі",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ManifestedTerror",
+   "type": "Кнопка",
+   "en": "Manifested Terror (&W)",
+   "ru": "Явленный ужас (&W)",
+   "uk_ai": "Втілений жах (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipManifestedTerror",
+   "type": "Підказка",
+   "en": "Rázari practices forbidden sorcery, channeling the powers of the void and stealing health with every hit. \nPassive Ability \n \n When activated, Rázari damages nearby units and pulses fear to them for 10 seconds \n Left click to activate",
+   "ru": "Разари практикует запрещенное колдовство, используя силу пустоты и похищая здоровье с каждым ударом\\nПассивная способность\\n\\nПосле активации, Разари наносит урон ближайшим отрядам и вызывает в них страх в течение 10 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Разарі вдається до забороненого чаклунства: черпає силу порожнечі й з кожним ударом витягує здоров'я.\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації Разарі 10 сек. завдає пошкоджень загонам поблизу й наганяє на них страх\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RazariFellOmen",
+   "type": "Кнопка",
+   "en": "Fell Omen (&R)",
+   "ru": "Знамение упадка (&R)",
+   "uk_ai": "Лихе знамення (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRazariFellOmen",
+   "type": "Підказка",
+   "en": "Requires Level 2\n Summons a Baleful Ward, which reduces enemy vision and speed \n by 15%, and reduces the cooldown of spells Rázari casts near it by 50% \n \n At level 5, Baleful Wards slowly damage nearby units \n \n Limited to 3 \n Left click icon then left click on target area",
+   "ru": "Требуется уровень 2\\nПризыв губительного тотема, снижающего радиус обзора и скорость передвижения врагов\\nна -15% и сокращающего время восстановления заклинаний Разари на 50%\\n\\nНа уровне 5, вражеские отряды рядом с губительным тотемом получают периодический урон\\n\\nОграничение - 3\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 2\nПрикликає згубний оберіг, що знижує дальність огляду й швидкість ворогів\nна 15%, а чари, які Разарі творить поряд із ним, відновлюються на 50% швидше\n\nНа 5 рівні згубні обереги завдають пошкоджень загонам поблизу\n\nМаксимум 3 одночасно\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RazariFeastOfSouls",
+   "type": "Кнопка",
+   "en": "Feast of Souls (&T)",
+   "ru": "Пиршество душ (&T)",
+   "uk_ai": "Бенкет душ (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRazariFeastOfSouls",
+   "type": "Підказка",
+   "en": "Requires Level 4\nEnemy units in target area suffer damage over time and deal 25% less damage for 5 seconds \nHeals Razári and nearby friendly non-mechanical units \nAt level 8, the amount allies are healed by greatly increases \n Left click icon then left click on target area",
+   "ru": "Требуется уровень 4\\nВражеские отряды в радиусе действия получают продолжительный урон и теряют -25% урона в течение 5 секунд\\nРазари и ближайшие союзные отряды исцеляются\\nНа уровне 8, количество исцеляемых союзников значительно увеличивается\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 4\nВорожі загони на обраній ділянці 5 сек. поступово отримують пошкодження й завдають на 25% менше пошкоджень\nЗцілює Разарі й союзні загони поблизу (крім техніки)\nНа 8 рівні союзники зцілюються значно сильніше\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RazariWhispersOfVoid",
+   "type": "Кнопка",
+   "en": "Whispers of the Void (&C)",
+   "ru": "Шепот пустоты (&C)",
+   "uk_ai": "Шепіт порожнечі (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipRazariWhispersOfVoid",
+   "type": "Підказка",
+   "en": "Requires Level 7\n Causes targeted units to become hostile\n towards each other for 15 seconds\n\n Can be cast on Baleful Wards to make them afflict nearby enemy units with damage over time, destroying them in the process. \n Left click icon then left click on target area",
+   "ru": "Требуется уровень 7\\nВражеские отряды становятся враждебными по отношению\\nдруг к другу в течении 15 секунд\\n\\nМожет быть наложено на губительные тотемы, чтобы заставить их наносить продолжительный урон ближайшим вражеским отрядам, уничтожая их в процессе\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 7\nОбрані загони на 15 сек. стають\nворожими одне до одного\n\nМожна застосувати до згубних оберегів: вони поступово завдають пошкоджень ворожим загонам поблизу, але при цьому руйнуються.\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WrathBalchoth",
+   "type": "Кнопка",
+   "en": "Wrath of the Balchoth (&V)",
+   "ru": "Ярость балхот (&V)",
+   "uk_ai": "Гнів балхотів (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWrathBalchoth",
+   "type": "Підказка",
+   "en": "Requires Level 10 \n Gain control of targeted enemies for 30 seconds\nDominated enemy units gain +50% damage but lose -50% armour whilst controlled\nLeft click icon then left click on target enemies",
+   "ru": "Требуется уровень 10\\nПолучение контроля над врагами в течение 30 секунд\\nЗахваченные вражеские отряды наносят +50% урона и теряют -50% брони, находясь под контролем\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 10\nБере під контроль обраних ворогів на 30 сек.\nПоки ворожі загони під контролем, вони отримують бонус +50% до пошкоджень, але втрачають 50% броні\nКлікніть на іконку, потім оберіть ворогів",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

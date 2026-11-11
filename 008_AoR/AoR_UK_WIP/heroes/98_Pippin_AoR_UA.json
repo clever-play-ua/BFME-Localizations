@@ -1,0 +1,205 @@
+{
+ "meta": {
+  "hero": "Pippin",
+  "uk_name": "Піпін",
+  "campaigns": [
+   "FotR",
+   "TTT",
+   "RotK"
+  ],
+  "missions": [
+   "Party",
+   "Bree",
+   "Weathertop",
+   "Council",
+   "Redhorn",
+   "Moria",
+   "Khazad",
+   "Lothlorien",
+   "AmonHen",
+   "FordsofIsen",
+   "TamingofSmeagol",
+   "EavesofFangorn",
+   "DurinsTower",
+   "Ithilien",
+   "Westfold",
+   "GreyCompany",
+   "Osgiliath",
+   "HelmsDeep",
+   "Isengard",
+   "LordoftheRings",
+   "LightingoftheBeacons",
+   "PathsoftheDead",
+   "Pelargir",
+   "MinasTirithOuter",
+   "CirithUngol",
+   "MinasTirithInner",
+   "PelennorFields",
+   "BlackGate",
+   "ManyPartings",
+   "ScouringoftheShire",
+   "GreyHavens"
+  ],
+  "templates": {
+   "кампанія": [
+    "FellowshipPippin",
+    "RohanPippin"
+   ],
+   "битва": [
+    "RohanPippin"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:RohanPippin",
+   "type": "Ім'я",
+   "en": "Pippin",
+   "ru": "Пиппин",
+   "uk_ai": "Піпін",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellowshipPippinCitadelGuard",
+   "type": "Кнопка",
+   "en": "Guard of the Citadel",
+   "ru": "",
+   "uk_ai": "Вартовий Цитаделі",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipFellowshipPippinCitadelGuard",
+   "type": "Підказка",
+   "en": "Pippin gains +25 armour and +25% damage when near Beregond\nAt Level 3, Pippin passively deals +200% damage against Nazgûl with his sword\nPassive ability",
+   "ru": "",
+   "uk_ai": "Піпін отримує бонус +25 броні й +25% до пошкоджень поряд із Береґондом\nНа 3 рівні Піпін своїм мечем постійно завдає +200% пошкоджень назґулам\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellowshipMerryHalflingCourage",
+   "type": "Кнопка",
+   "en": "Halfling Courage",
+   "ru": "",
+   "uk_ai": "Відвага напіврослика",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipFellowshipPippinHalflingCourage",
+   "type": "Підказка",
+   "en": "Requires Level 5\nPippin permanently gains +600 health\n\nModifier Type: Leadership\nNearby friendly units gain +25% damage and earn experience 25% faster\n Stacks with Buffs and Spells\nPassive ability",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 5\nПіпін назавжди отримує бонус +600 здоров'я\n\nТип ефекту: Лідерство\nСоюзні загони поблизу отримують бонус +25% до пошкоджень і на 25% швидше набирають досвід\n Поєднується з посиленнями та заклинаннями\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellowshipPippinPeriannath",
+   "type": "Кнопка",
+   "en": "Ernil i Pheriannath (&C)",
+   "ru": "",
+   "uk_ai": "Ерніл і Періаннат (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellowshipPippinPeriannath",
+   "type": "Підказка",
+   "en": "Requires Level 7\nCan be cast on allied and enemy units to increase allied armour and decrease enemy armour for 30 seconds respectively\nFriendly units gain +50% armour in the first 10 seconds, +30% armour in the next 10 seconds and +10% armour in the last 10 seconds\nEnemy units suffer -50% armour in the first 10 seconds, -40% armour in the next 10 seconds and -25% armour in the last 10 seconds\nLeft click then left click on target",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 7\nМожна застосувати до союзних і ворожих загонів: на 30 сек. союзники отримують броню, а вороги її втрачають\nСоюзні загони отримують бонус +50% броні в перші 10 сек., +30% броні в наступні 10 сек. і +10% броні в останні 10 сек.\nВорожі загони втрачають 50% броні в перші 10 сек., 40% броні в наступні 10 сек. і 25% броні в останні 10 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:Trollbane",
+   "type": "Кнопка",
+   "en": "Troll-bane (&V)",
+   "ru": "Погибель троллей (&V)",
+   "uk_ai": "Згуба тролів (&V)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipTrollbane",
+   "type": "Підказка",
+   "en": "Requires Level 10 \n Pippin gains +150% armour, knockback resistance and deals +250% damage against Monsters for 20 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 10\\nПиппин получает +150% брони, сопротивление отбрасыванию и наносит +250% урона монстрам в течение 20 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10\nНа 20 сек. Піпін отримує бонус +150% броні, стійкість до відкидання й завдає +250% пошкоджень створінням\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HobbitRockLure",
+   "type": "Кнопка",
+   "en": "Lure (&T)",
+   "ru": "Приманка (&T)",
+   "uk_ai": "Приманка (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PippinSpeed",
+   "type": "Кнопка",
+   "en": "Trotter (&C)",
+   "ru": "Бегун (&C)",
+   "uk_ai": "Прудконогий (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipPippinSpeed",
+   "type": "Підказка",
+   "en": "Modifier Type: Buff \n Pippin gains +50% speed for 40 seconds\n Left click to activate",
+   "ru": "Тип модификатора: Усиление\\nПиппин получает +50% скорости на 40 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Тип ефекту: Посилення \n Піпін отримує бонус +50% швидкості на 40 сек.\n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PippinFarsight",
+   "type": "Кнопка",
+   "en": "Unfold the Map (&V)",
+   "ru": "Разведка (&V)",
+   "uk_ai": "Розгорнути мапу (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPippinFarsight",
+   "type": "Підказка",
+   "en": "Reveals an area of the map \n Left click icon then left click on target area",
+   "ru": "Открывает область на карте\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Відкриває ділянку мапи \n Клікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PippinCourage",
+   "type": "Кнопка",
+   "en": "Halfling Courage",
+   "ru": "Отвага полуросликов",
+   "uk_ai": "Відвага напіврослика",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPippinCourage",
+   "type": "Підказка",
+   "en": "Requires Level 5\n Modifier Type: Leadership \n Nearby heroes earn experience 15% faster \n Pippin's health is increased \n Passive ability",
+   "ru": "Требуется уровень 5\\nТип модификатора: Лидерство\\nБлижайшие герои набирают опыт на +15% быстрее\\nЗдоровье Пиппина увеличивается\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Лідерство\nГерої поблизу на 15% швидше набирають досвід\nЗдоров'я Піпіна збільшується\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

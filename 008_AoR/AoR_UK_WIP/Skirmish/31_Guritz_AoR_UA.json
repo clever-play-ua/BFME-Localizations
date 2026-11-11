@@ -1,0 +1,99 @@
+{
+ "meta": {
+  "hero": "Guritz",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Morgul"
+  ],
+  "alternate factions": [
+   "morgul"
+  ],
+  "templates": [
+   "MordorGuritz"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:MordorGuritz",
+   "type": "Ім'я",
+   "en": "Guritz",
+   "ru": "Гуритц",
+   "uk_ai": "Ґуріц",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GuritzSweepingStrike",
+   "type": "Кнопка",
+   "en": "Sweeping Strike (&W)",
+   "ru": "Удар с размаха (&W)",
+   "uk_ai": "Розмашистий удар (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGuritzSweepingStrike",
+   "type": "Підказка",
+   "en": "Guritz swings his scythe hard, dealing damage to and knocking back everything around him \n Left click to activate",
+   "ru": "Гуритц делает взмах косой, нанося сильный урон и отбрасывая врагов вокруг себя\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Ґуріц щосили замахується косою, завдаючи пошкоджень усім довкола себе й відкидаючи їх\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GuritzDemoralise",
+   "type": "Кнопка",
+   "en": "Demoralise (&R)",
+   "ru": "Деморализация (&R)",
+   "uk_ai": "Деморалізувати (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGuritzDemoralise",
+   "type": "Підказка",
+   "en": "Requires Level 3\nModifier Type: Active Debuff\nEnemy units within target radius cannot earn experience for 30 seconds\nNullifies enemy leadership\nLeft click then left click target area",
+   "ru": "Требуется уровень 3\\nТип модификатора: Активное ослабление\\nВражеские отряды в радиусе действия не могут получать опыт в течение 30 секунд\\nОтменяет вражеское лидерство\\nЩелкните левой кнопкой мыши на значок, затем целевую область",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Активне ослаблення\nВорожі загони в обраній ділянці не отримують досвід на 30 сек.\nСкасовує вороже лідерство\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GuritzTactician",
+   "type": "Кнопка",
+   "en": "Cruel Tactician (&T)",
+   "ru": "Беспощадный тактик (&T)",
+   "uk_ai": "Безжальний тактик (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGuritzTactician",
+   "type": "Підказка",
+   "en": "Requires Level 5\nTarget enemy structure loses -33% armour for 20 seconds\n Left click icon then left click on target",
+   "ru": "Требуется уровень 5\\nВражеская постройка теряет -33% брони на 20 секунд\\nЩелкните левой кнопкой мыши на значку, затем на целевое строение",
+   "uk_ai": "Необхідно: Рівень 5\nОбрана ворожа споруда на 20 сек. втрачає 33% броні\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GuritzReleaseThePrisoners",
+   "type": "Кнопка",
+   "en": "Release the Prisoners! (&C)",
+   "ru": "Освободить пленников! (&C)",
+   "uk_ai": "Звільнити в'язнів! (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGuritzReleaseThePrisoners",
+   "type": "Підказка",
+   "en": "Requires Level 7\nCalls down a barrage of severed heads into a targeted area, causing fear in enemy units and dealing poison damage for 20 seconds\nLeft click icon then click on target area",
+   "ru": "Требуется уровень 7\\nОбрушить шквал отрубленных голов в область действия, наводя страх на вражеские отряды и нанося урон ядом в течение 20 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 7\nОбстрілює обрану ділянку відрубаними головами: вони лякають ворожі загони й 20 сек. завдають пошкоджень отрутою\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

@@ -1,0 +1,186 @@
+{
+ "meta": {
+  "hero": "Elfhelm",
+  "uk_name": "Ельфгельм",
+  "campaigns": [
+   "FotR",
+   "TTT",
+   "RotK"
+  ],
+  "missions": [
+   "Party",
+   "FordsofIsen",
+   "PelennorFields",
+   "BlackGate",
+   "ManyPartings",
+   "ScouringoftheShire",
+   "GreyHavens"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignElfhelm",
+    "RohanElfhelm"
+   ],
+   "битва": [
+    "RohanElfhelm"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:RohanElfhelm",
+   "type": "Ім'я",
+   "en": "Elfhelm",
+   "ru": "Эльфхельм",
+   "uk_ai": "Ельфгельм",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TheodenMount",
+   "type": "Кнопка",
+   "en": "Mount / Dismount (&R)",
+   "ru": "Сесть верхом / спешиться (&R)",
+   "uk_ai": "Сісти верхи / Спішитися (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToggleElfhelmWeapons",
+   "type": "Кнопка",
+   "en": "Toggle Weapon (&W)",
+   "ru": "Смена оружия (&W)",
+   "uk_ai": "Змінити зброю (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleElfhelmWeapons",
+   "type": "Підказка",
+   "en": "Left click to toggle between sword and bow",
+   "ru": "ЛКМ - выбор лука или меча",
+   "uk_ai": "Клікніть, щоб перемкнутися між мечем і луком",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CampaignElfhelmMuster",
+   "type": "Кнопка",
+   "en": "Unassailable",
+   "ru": "Сбор в Эдорасе",
+   "uk_ai": "Неприступний",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCampaignElfhelmMuster",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Consecutive melee attacks temporarily increase Elfhelm's armour by 5% up to a maximum of 25% \n Passive ability",
+   "ru": "Требуется уровень 3\\nАтакуя врагов мечом, Эльфхельм имеет шанс вызвать одиночного королевского стража Эдораса на 10 секунд\\nНаходясь верхом, вызывает одиночного королевского гвардейца\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 3 \n Кожна наступна атака в ближньому бою тимчасово збільшує броню Ельфгельма на 5%, але не більше ніж на 25% \n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElfhelmPromotion",
+   "type": "Кнопка",
+   "en": "Promotion (&C)",
+   "ru": "Поощрение (&C)",
+   "uk_ai": "Підвищення (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCampaignElfhelmPromotion",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Select a target battalion to upgrade it, permanently granting it +50% damage \n Left click on icon then left click on target battalion",
+   "ru": "Требуется уровень 5\\nЭльфхельм может усилить отряды в радиусе действия, навсегда предоставив им +50% урона\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 5 \n Оберіть загін, щоб покращити його: він назавжди отримує бонус +50% до пошкоджень \n Клікніть на іконку, потім оберіть загін",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElfhelmLeadership",
+   "type": "Кнопка",
+   "en": "Marshall of the East-mark",
+   "ru": "Военачальник Восточной Марки",
+   "uk_ai": "Маршал Східної марки",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCampaignElfhelmLeadership",
+   "type": "Підказка",
+   "en": "Requires Level 7 \n Modifier Type: Leadership \n Allied archers near Elfhelm gain +15% attack range and +33% damage\n Passive ability",
+   "ru": "Требуется уровень 7\\nТип модификатора: Лидерство\\nСоюзные лучники рядом с Эльфхельмом наносят +33% урона и получают +15% дальности атаки\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 7 \n Тип ефекту: Лідерство \n Союзні лучники поряд з Ельфгельмом отримують бонус +15% дальності атаки й +33% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CampaignElfhelmFlamingShot",
+   "type": "Кнопка",
+   "en": "Flaming Shot (&T)",
+   "ru": "",
+   "uk_ai": "Вогняний постріл (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCampaignElfhelmFlamingShot",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Elfhelm shoots a fire arrow at target enemy, dealing fire damage and setting fire to nearby area\nLeft click then left click on target",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3 \n Ельфгельм пускає у ворога вогняну стрілу, завдаючи пошкоджень вогнем і підпалюючи все довкола\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElfhelmQuickRescue",
+   "type": "Кнопка",
+   "en": "Quick Rescue (&T)",
+   "ru": "Быстрое cпасение (&T)",
+   "uk_ai": "Швидкий порятунок (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElfhelmQuickRescue",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Modifier Type: Spell \n Nearby infantry and cavalry gain +15% armour and +15% speed for 30 seconds \nLeft click to activate",
+   "ru": "Требуется уровень 3\\nТип модификатора: Заклинание\\nБлижайшая пехота и кавалерия получает +15% брони и +15% скорости передвижения на 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Заклинання\nПіхота й вершники поблизу на 30 сек. отримують бонус +15% броні й +15% швидкості\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElfhelmPromotion",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Select a target battalion to upgrade it, permanently granting it +25% damage \n Left click on icon then left click on target battalion",
+   "ru": "Требуется уровень 5\\nЭльфхельм может усилить отряды в радиусе действия, навсегда предоставив им +25% урона\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 5\nОберіть загін, щоб покращити його: він назавжди отримує бонус +25% до пошкоджень\nКлікніть на іконку, потім оберіть загін",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElfhelmLeadership",
+   "type": "Підказка",
+   "en": "Requires Level 7 \n Modifier Type: Leadership \n Halifirien Wardens, Yeoman Archers and Rohirrim Archers near Elfhelm gain +15% attack range and +33% damage\nRiders of Snowbourn near Elfhelm gain +33% armour\n Passive ability",
+   "ru": "Требуется уровень 7\\nТип модификатора: Лидерство\\nСтражи Халифириэна, йомены-лучники и лучники-рохиррим рядом с Эльфхельмом наносят +33% урона и получают +15% дальности атаки\\nБлижайшие всадники Сноуборна получают +33% брони\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 7\nТип ефекту: Лідерство\nВартові Галіфіріену, йомени-лучники та лучники Рогану поряд з Ельфгельмом отримують бонус +15% дальності атаки й +33% до пошкоджень\nВершники Сноуборну поряд з Ельфгельмом отримують бонус +33% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

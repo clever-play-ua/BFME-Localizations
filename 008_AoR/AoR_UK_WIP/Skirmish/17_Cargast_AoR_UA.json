@@ -1,0 +1,115 @@
+{
+ "meta": {
+  "hero": "Cargást",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Guldur"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "GuldurCargast"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:GuldurCargast",
+   "type": "Ім'я",
+   "en": "Cargást",
+   "ru": "Каргаст",
+   "uk_ai": "Карґаст",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CargastBarrowLord",
+   "type": "Кнопка",
+   "en": "Barrow-lord (&W)",
+   "ru": "Повелитель курганов (&W)",
+   "uk_ai": "Проклятий король (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCargastBarrowLord",
+   "type": "Підказка",
+   "en": "Nearby enemies are slowed passively by 15%\nThe radius of this effect increases with each level\nPassive ability\n\nCan be activated to deal a heavy strike against a targeted enemy, draining some life and knocking them over\nLeft click icon then left click on target",
+   "ru": "Ближайшие враги пассивно замедляются на 15%\\nРадиус этого эффекта увеличивается с каждым уровнем\\nПассивная способность\\n\\nМожет быть применено, чтобы нанести сильный удар, который исцелит Каргаста и отбросит врага\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Вороги поблизу постійно сповільнюються на 15%\nРадіус ефекту зростає з кожним рівнем\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nМожна активувати, щоб завдати обраному ворогові сильного удару, викрасти частину його життя та збити з ніг\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CargastLeadership",
+   "type": "Кнопка",
+   "en": "March of the Dead",
+   "ru": "Марш мертвецов",
+   "uk_ai": "Мертва хода",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCargastLeadership",
+   "type": "Підказка",
+   "en": "Requires Level 3\nCargást permanently gains +15% movement speed\n\nModifier Type: Leadership\nNearby friendly units gain +15% movement speed and +50% experience gain\nPassive ability",
+   "ru": "Требуется уровень 3\\nКаргаст навсегда получает +15% скорости передвижения\\n\\nТип модификатора: Лидерство\\nБлижайшие войска Гулдура получают +15% скорости передвижения и набирают опыт на +50% быстрее\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 3\nКарґаст назавжди отримує бонус +15% швидкості руху\n\nТип ефекту: Лідерство\nСоюзні загони поблизу отримують бонус +15% швидкості руху й на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CargastCursedTreasure",
+   "type": "Кнопка",
+   "en": "Cursed Treasure (&T)",
+   "ru": "Проклятое сокровище (&T)",
+   "uk_ai": "Проклятий скарб (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCargastCursedTreasure",
+   "type": "Підказка",
+   "en": "Requires Level 5\nTarget structure earns +100% more resources but all nearby units lose -15% armour for 30 seconds\nCan target enemy resource structures\nLeft click icon then left click on target",
+   "ru": "Требуется уровень 5\\nВыбранная ресурсная постройка производит +100% ресурсов и уменьшает броню всех находящихся рядом войск на -15% в течение 30 секунд\\nМожет использоваться и на вражеские ресурсные постройки\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 5\nПротягом 30 сек. обрана споруда дає на 100% більше ресурсів, але всі загони поблизу отримують штраф -15% броні\nМожна застосувати до ворожих ресурсних споруд\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CargastSpell",
+   "type": "Кнопка",
+   "en": "Spell of the Barrows (&C)",
+   "ru": "Заклинание из курганов (&C)",
+   "uk_ai": "Чари могильних пагорбів (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCargastSpell",
+   "type": "Підказка",
+   "en": "Requires Level 7\nTarget enemies cower in fear\nAny Risen Dead near Cargást deal +50% damage for 20 seconds\nLeft click icon then left click on target area",
+   "ru": "Требуется уровень 7\\nВраги в радиусе действия разбегаются в ужасе\\nВсе восставшие мертвецы рядом с Каргастом наносят +50% урона в течение 20 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 7\nОбрані вороги ціпеніють від страху\nПовсталі мерці поряд із Карґастом на 20 сек. завдають на 50% більше пошкоджень\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CargastDarkAwakening",
+   "type": "Кнопка",
+   "en": "Dark Awakening (&V)",
+   "ru": "Темное пробуждение (&V)",
+   "uk_ai": "Темне пробудження (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCargastDarkAwakening",
+   "type": "Підказка",
+   "en": "Requires Level 10\nCargást slowly but continually summons temporary,\nsingle Restless Warriors from the earth for 60 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 10\\nКаргаст медленно и непрерывно призывает из-под земли\\nодиночных непогребенных воинов в течение 60 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать или деактивировать",
+   "uk_ai": "Необхідно: Рівень 10\nКарґаст 60 сек. повільно, але безперервно прикликає з-під землі\nтимчасових поодиноких непохованих воїнів\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

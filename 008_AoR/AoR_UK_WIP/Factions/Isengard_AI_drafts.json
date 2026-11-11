@@ -1,0 +1,1253 @@
+{
+ "meta": {
+  "faction": "Isengard",
+  "note": "AI drafts for rows that had no Ukrainian at all (lowest priority: any proofread text wins)."
+ },
+ "strings": [
+  {
+   "var": "OBJECT:IsengardFortress",
+   "en": "Fortress",
+   "uk_ai": "Фортеця"
+  },
+  {
+   "var": "OBJECT:IsengardFortressDescription",
+   "en": "Recruits Heroes and Builders \\n Can be upgraded with improvements and expansions",
+   "uk_ai": "Вербує героїв і будівельників\\nМожна покращувати й добудовувати прибудови"
+  },
+  {
+   "var": "CONTROLBAR:SelectFocusIsengardFortress",
+   "en": "Cunning of Curunír (&T)",
+   "uk_ai": "Хитрість Куруніра (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandSelectFocusIsengardFortress",
+   "en": "Requires the Wisdom of Curunir upgrade \\n Allows Saruman to direct his cunning towards specific elements of Isengard's army \\n Only one Focus can be active at the same time",
+   "uk_ai": "Потребує покращення «Мудрість Куруніра»\\nДозволяє Саруману спрямувати свою хитрість на окремі частини війська Ізенґарду\\nОдночасно може діяти лише одна спеціалізація"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIsengardFortressMurderOfCrows",
+   "en": "Murder of Crows (&W)",
+   "uk_ai": "Вороняча зграя (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressMurderOfCrows",
+   "en": "Increases the vision range of the Fortress and provides stealth detection \\n Research time: 15s",
+   "uk_ai": "Збільшує дальність огляду фортеці й дає змогу виявляти невидимі загони\\nЧас дослідження: 15 сек."
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIsengardFortressExcavations",
+   "en": "Excavations (&E)",
+   "uk_ai": "Розкопки (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressExcavations",
+   "en": "Nearby structures gain +25% armour \\n Research time: 15s",
+   "uk_ai": "Споруди поблизу отримують бонус +25% броні\\nЧас дослідження: 15 сек."
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIsengardFortressBurningForges",
+   "en": "Burning Forges (&R)",
+   "uk_ai": "Палаючі горни (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressBurningForges",
+   "en": "Reduces cost of Isengard unit Upgrades \\n 1  Fortress with forges = 20% cheaper \\n 2 Fortresses with forges = 35% cheaper \\n 3 Fortresses with forges = 40% cheaper \\n 4 Fortresses with forges = 45% cheaper \\n 5 Fortresses with forges = 50% cheaper \\n Research time: 30s",
+   "uk_ai": "Знижує вартість покращень загонів Ізенґарду\\n1 фортеця з горнами — дешевше на 20%\\n2 фортеці з горнами — дешевше на 35%\\n3 фортеці з горнами — дешевше на 40%\\n4 фортеці з горнами — дешевше на 45%\\n5 фортець із горнами — дешевше на 50%\\nЧас дослідження: 30 сек."
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIsengardFortressOrcfireMunitions",
+   "en": "Orcfire Munitions (&T)",
+   "uk_ai": "Орочий вогонь (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressOrcfireMunitions",
+   "en": "Arms defensive towers with Fire Arrows \\n Research time: 30s",
+   "uk_ai": "Озброює оборонні вежі вогняними стрілами\\nЧас дослідження: 30 сек."
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIsengardFortressIronPlating",
+   "en": "Iron Plating (&S)",
+   "uk_ai": "Залізна обшивка (&S)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressIronPlating",
+   "en": "Increases Fortress and Wall armour by 65% \\n Prerequisite to Wisdom of Curunír \\n Research time: 30s",
+   "uk_ai": "Збільшує броню фортеці та стін на 65%\\nПотрібне для покращення «Мудрість Куруніра»\\nЧас дослідження: 30 сек."
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIsengardFortressWizardsTower",
+   "en": "Wisdom of Curunír (&D)",
+   "uk_ai": "Мудрість Куруніра (&D)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeIsengardFortressWizardsTower",
+   "en": "Requires the Iron Plating upgrade \\n Gives access to the Cunning of Curunír \\n Research time: 45s",
+   "uk_ai": "Потребує покращення «Залізна обшивка»\\nВідкриває «Хитрість Куруніра»\\nЧас дослідження: 45 сек."
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityIsengardFocusInfantry",
+   "en": "Focus: Fighting Uruk-hai (&W)",
+   "uk_ai": "Спеціалізація: бойові урук-хаї (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityIsengardFocusInfantry",
+   "en": "Select to activate \\n Provides bonuses to Fighting Uruk-hai, Uruk-hai Pikemen and Uruk-hai Shieldbearers +30% damage, +70% combat experience \\n Decreases price by 20% \\n Research time: 45s",
+   "uk_ai": "Клікніть для активації\\nБойові урук-хаї, урук-хаї пікінери та урук-хаї щитоносці отримують бонус +30% до пошкоджень і на 70% швидше набирають досвід\\nЗнижує їхню вартість на 20%\\nЧас дослідження: 45 сек."
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityIsengardFocusDunland",
+   "en": "Focus: Fury of Frecalund (&E)",
+   "uk_ai": "Спеціалізація: Лють Фрекалунду (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityIsengardFocusDunland",
+   "en": "Select to activate \\n Provides bonuses to Wildmen and Dunlendings \\n +15% armour, +70% combat experience \\n Decreases price by 10% \\n Research time: 45s",
+   "uk_ai": "Клікніть для активації\\nДикуни та дунландці отримують бонуси\\n+15% броні, на 70% швидше набирають досвід\\nЗнижує їхню вартість на 10%\\nЧас дослідження: 45 сек."
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityIsengardFocusArcher",
+   "en": "Focus: Wicked Marksmen (&R)",
+   "uk_ai": "Спеціалізація: Підступні стрільці (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityIsengardFocusArcher",
+   "en": "Select to activate \\n Provides bonuses to Uruk-hai Scouts and Crossbowmen \\n +35% damage, +25% range, +80% combat experience \\n Research time: 45s",
+   "uk_ai": "Клікніть для активації\\nУрук-хаї розвідники та урук-хаї арбалетники отримують бонуси\\n+35% до пошкоджень, +25% дальності, на 80% швидше набирають досвід\\nЧас дослідження: 45 сек."
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityIsengardFocusWarg",
+   "en": "Focus: Wolves of Isengard (&T)",
+   "uk_ai": "Спеціалізація: Вовки Ізенґарду (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityIsengardFocusWarg",
+   "en": "Select to activate \\n Provides bonuses to Warg-riders \\n +30% damage, +20% armour, +100% combat experience \\n Decreases price by 25% \\n Research time: 45s",
+   "uk_ai": "Клікніть для активації\\nВершники на варґах отримують бонуси\\n+30% до пошкоджень, +20% броні, на 100% швидше набирають досвід\\nЗнижує їхню вартість на 25%\\nЧас дослідження: 45 сек."
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityIsengardFocusSiege",
+   "en": "Focus: Metal and Wheels (&S)",
+   "uk_ai": "Спеціалізація: Метал і колеса (&S)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityIsengardFocusSiege",
+   "en": "Select to activate \\n Provides bonuses to Siege Equipment \\n +30% damage, +5% speed \\n Decreases price by 15% \\n Research time: 45s",
+   "uk_ai": "Клікніть для активації\\nОблогові машини отримують бонуси\\n+30% до пошкоджень, +5% швидкості\\nЗнижує їхню вартість на 15%\\nЧас дослідження: 45 сек."
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityIsengardFocusForge",
+   "en": "Focus: Black Steel (&D)",
+   "uk_ai": "Спеціалізація: Чорна сталь (&D)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityIsengardFocusForge",
+   "en": "Select to activate \\n Decreases the cost of upgrades \\n Also increases global armour by 3% and damage by 4% \\n Decreases upgrade price by 20% \\n Research time: 45s",
+   "uk_ai": "Клікніть для активації\\nЗнижує вартість покращень\\nТакож усі загони отримують бонус +3% броні та +4% до пошкоджень\\nПокращення дешевші на 20%\\nЧас дослідження: 45 сек."
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardFortress",
+   "en": "Build Fortress (&I)",
+   "uk_ai": "Фортеця (&I)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructIsengardFortress",
+   "en": "Recruits Builders and Heroes \\n Can be upgraded with various upgrades and expansions \\n Increases command point limit by 100 \\n Build time: 2m",
+   "uk_ai": "Вербує будівельників і героїв\\nМожна покращувати й добудовувати прибудови\\nЗбільшує ліміт очок командування на 100 од.\\nЧас будівництва: 2 хв."
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardTowerExpansion",
+   "en": "Arrow Tower Expansion (&W)",
+   "uk_ai": "Вежа лучників (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructIsengardTowerExpansion",
+   "en": "Defensive Arrow Tower that fires at enemies \\n Build time: 30s",
+   "uk_ai": "Оборонна вежа лучників, що стріляє по ворогах\\nЧас будівництва: 30 сек."
+  },
+  {
+   "var": "OBJECT:IsengardTowerExpansion",
+   "en": "Arrow Tower Expansion",
+   "uk_ai": "Вежа лучників"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardBallistaExpansion",
+   "en": "Ballista Expansion (&E)",
+   "uk_ai": "Прибудувати балісту (&E)"
+  },
+  {
+   "var": "OBJECT:IsengardBallistaExpansion",
+   "en": "Ballista Expansion",
+   "uk_ai": "Баліста"
+  },
+  {
+   "var": "CONTROLBAR:IsengardBallistaUpgrade",
+   "en": "&Replace Ballista",
+   "uk_ai": "Відновити балісту (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIsengardBallistaUpgrade",
+   "en": "Rebuilds the ballista on the platform",
+   "uk_ai": "Заново будує балісту на майданчику"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardMineLauncherExpansion",
+   "en": "Mine Launcher Expansion (&R)",
+   "uk_ai": "Прибудувати міномет (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructIsengardMineLauncherExpansion",
+   "en": "Launches explosive mines at nearby enemies \\n Build time: 30s",
+   "uk_ai": "Закидає ворогів поблизу вибуховими мінами\\nЧас будівництва: 30 сек."
+  },
+  {
+   "var": "OBJECT:IsengardMineLauncherExpansion",
+   "en": "Mine Launcher Expansion",
+   "uk_ai": "Міномет"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardWallHubExpansion",
+   "en": "Wall Hub Expansion (&T)",
+   "uk_ai": "Прибудувати стінну вежу (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructIsengardWallHubExpansion",
+   "en": "Allows the construction of walls \\n Build time: 50s",
+   "uk_ai": "Дозволяє будувати стіни\\nЧас будівництва: 50 сек."
+  },
+  {
+   "var": "OBJECT:IsengardPorter",
+   "en": "Builder",
+   "uk_ai": "Будівельник"
+  },
+  {
+   "var": "CONTROLBAR:ConstructFurnace",
+   "en": "Build Furnace (&W)",
+   "uk_ai": "Горнило (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFurnace",
+   "en": "Provides worked metals as a resource based on available terrain \\n Reduces the cost of Uruks \\n Increases command point limit by 50 \\n Build time: 15s",
+   "uk_ai": "Видобуває ресурси, що ближче стоять інші\\nресурсні споруди, то менше ресурсів видобувається.\\nЗнижує вартість уруків\\nЗбільшує ліміт очок командування на 50 од.\\nЧас будівництва: 15 сек."
+  },
+  {
+   "var": "OBJECT:Furnace",
+   "en": "Furnace",
+   "uk_ai": "Горнило"
+  },
+  {
+   "var": "OBJECT:FurnaceDescription",
+   "en": "Generates resources based on available terrain\\n Steel Bonus - Reduced cost of Uruk-hai \\n 2 Furnaces: 5% \\n 3 Furnaces: 10% \\n 4 Furnaces: 15% \\n 5+ Furnaces: 20%",
+   "uk_ai": "Видобуває ресурси, що ближче стоять інші\\nресурсні споруди, то менше ресурсів видобувається.\\nБонус сталі — знижує вартість урук-хаїв\\n2 Горнила: 5%\\n3 Горнила: 10%\\n4 Горнила: 15%\\n5 і більше Горнил: 20%"
+  },
+  {
+   "var": "CONTROLBAR:HeatBlast",
+   "en": "Heat Blast (&W)",
+   "uk_ai": "Жар (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHeatBlast",
+   "en": "Requires Level 2 and Fuel the Fires\\n Knocks back nearby enemy units and sets the surrounding area on fire \\n \\n Recharge time: 6m\\n Left click to activate",
+   "uk_ai": "Необхідно: Рівень 2 і «Піддати жару»\\nВідкидає ворожі загони поблизу й підпалює все навколо\\n\\nЧас відновлення: 6 хв.\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardLumberMill",
+   "en": "Lumber Mill (&D)",
+   "uk_ai": "Лісопильня (&D)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructLumberMill",
+   "en": "Harvests resources from nearby trees \\n Reduces cost of structures \\n Build time: 30s",
+   "uk_ai": "Добуває ресурси з дерев поблизу\\nЗнижує вартість споруд\\nЧас будівництва: 30 сек."
+  },
+  {
+   "var": "OBJECT:IsengardLumberMill",
+   "en": "Lumber Mill",
+   "uk_ai": "Лісопильня"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLumberMill",
+   "en": "Harvests resources from nearby trees \\n Wood Bonus - Reduced cost of structures \\n 2 Lumbermills: 5% \\n 3 Lumbermills: 10% \\n 4 Lumbermills: 15%",
+   "uk_ai": "Добуває ресурси з дерев поблизу\\nБонус деревини — знижує вартість споруд\\n2 Лісопильні: 5%\\n3 Лісопильні: 10%\\n4 Лісопильні: 15%"
+  },
+  {
+   "var": "OBJECT:LumberMill",
+   "en": "Lumber Mill",
+   "uk_ai": "Лісопильня"
+  },
+  {
+   "var": "OBJECT:LumberMillDescription",
+   "en": "Harvests resources from nearby trees \\n Reduces cost of buildings\\n 2 Lumber Mills: 5%\\n 3 Lumber Mills: 10%\\n 4 Lumber Mills: 15%",
+   "uk_ai": "Добуває ресурси з дерев поблизу\\nЗнижує вартість споруд\\n2 Лісопильні: 5%\\n3 Лісопильні: 10%\\n4 Лісопильні: 15%"
+  },
+  {
+   "var": "OBJECT:MordorWorker",
+   "en": "Orc Laborer",
+   "uk_ai": "Орк-робітник"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardArmory",
+   "en": "Build Armoury (&R)",
+   "uk_ai": "Зброярня (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIsengardArmory",
+   "en": "Manufactures thick armour and broad shields as a resource based on available terrain\\nResearches weapon and armour upgrades\\n Reduces cost of upgrades \\n Increases command point limit by 50 \\n Build time: 15s",
+   "uk_ai": "Видобуває ресурси, що ближче стоять інші\\nресурсні споруди, то менше ресурсів видобувається.\\nДослідження покращень зброї та обладунків\\nЗнижує вартість покращень\\nЗбільшує ліміт очок командування на 50 од.\\nЧас будівництва: 15 сек."
+  },
+  {
+   "var": "OBJECT:IsengardArmory",
+   "en": "Armoury",
+   "uk_ai": "Зброярня"
+  },
+  {
+   "var": "OBJECT:IsengardArmoryDescription",
+   "en": "Generates resources based on available terrain\\n Surplus Bonus - Reduced cost of upgrades \\n 2 Armouries: 5% \\n 3 Armouries: 10% \\n 4 Armouries: 15% \\n 5+ Armouries: 20%",
+   "uk_ai": "Видобуває ресурси, що ближче стоять інші\\nресурсні споруди, то менше ресурсів видобувається.\\nБонус запасів — знижує вартість покращень\\n2 Зброярні: 5%\\n3 Зброярні: 10%\\n4 Зброярні: 15%\\n5 і більше Зброярень: 20%"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyIsengardBasicTraining",
+   "en": "Research Banners of the White Hand (&W)",
+   "uk_ai": "Стяги Білої Руки (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyIsengardBasicTraining",
+   "en": "Allows hordes to purchase the Banners of the White Hand upgrade \\n Increases a horde to Level 2 \\n Research time: 30s",
+   "uk_ai": "Дає змогу кожному загону придбати покращення «Стяги Білої Руки»\\nПідвищує рівень загону до 2\\nЧас дослідження: 30 сек."
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyIsengardHeavyArmor",
+   "en": "Research Blackened Plate (&E)",
+   "uk_ai": "Почорнілі обладунки (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyIsengardHeavyArmor",
+   "en": "Allows hordes to purchase the Blackened Plate upgrade \\n When equipped, significantly reduces the amount of damage taken\\n Will upgrade all patrols instantly once upgrade is purchased \\n Research time: 30s",
+   "uk_ai": "Дає змогу кожному загону придбати це покращення\\nПісля оснащення значно зменшує отримувані пошкодження\\nПісля дослідження миттєво покращує обладунки всіх патрулів навколо будівель\\nЧас дослідження: 30 сек."
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyIsengardForgedBlades",
+   "en": "Research Cruel Blades (&R)",
+   "uk_ai": "Жорстокі клинки (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyIsengardForgedBlades",
+   "en": "Allows hordes to purchase the Cruel Blades upgrade \\n When equipped, increases the damage done by melee weapons\\n Will upgrade all patrols instantly once upgrade is purchased \\n Research time: 30s",
+   "uk_ai": "Дає змогу кожному загону придбати це покращення\\nПісля оснащення збільшує пошкодження в ближньому бою\\nПісля дослідження миттєво покращує зброю всіх патрулів навколо будівель\\nЧас дослідження: 30 сек."
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyIsengardFireArrows",
+   "en": "Research Fire Arrows (&T)",
+   "uk_ai": "Вогняні стріли (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyIsengardFireArrows",
+   "en": "Allows hordes to purchase the Fire Arrows upgrade \\n When equipped, significantly increases the damage done by arrows\\n Will upgrade all patrols and tower archers instantly once upgrade is purchased \\n Research time: 30s",
+   "uk_ai": "Дає змогу кожному загону придбати це покращення\\nПісля оснащення значно збільшує пошкодження стріл\\nПісля дослідження миттєво покращує стріли всіх патрулів і лучників у вежах\\nЧас дослідження: 30 сек."
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardUrukPit",
+   "en": "Build Uruk Pit (&T)",
+   "uk_ai": "Яма уруків (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructIsengardUrukPit",
+   "en": "Breeds the Fighting Uruk-hai\\n Build time: 30s",
+   "uk_ai": "Вирощує бойових урук-хаїв\\nЧас будівництва: 30 сек."
+  },
+  {
+   "var": "OBJECT:IsengardUrukPit",
+   "en": "Uruk Pit",
+   "uk_ai": "Яма уруків"
+  },
+  {
+   "var": "OBJECT:IsengardUrukPitDescription",
+   "en": "Level 2: +10% faster build speed and +1500 health\\n Level 3: +25% faster build speed and +1500 health",
+   "uk_ai": "Рівень 2: +10% до швидкості тренування і +1500 од. міцності\\nРівень 3: +25% до швидкості тренування і +1500 од. міцності"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeIsengardUrukPitLevel2",
+   "en": "Upgrade Uruk Pit to Level 2 (&A)",
+   "uk_ai": "Покращити яму уруків до 2-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeIsengardUrukPitLevel2",
+   "en": "Allows training of the Armoured Uruk-hai and Uruk Berserker units \\n Research time: 60s \\n +1500 Health \\n +10% faster build speed",
+   "uk_ai": "Дозволяє тренувати урук-хаїв у важких обладунках і берсерків\\nЧас дослідження: 60 сек.\\n+1500 од. міцності\\n+10% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeIsengardUrukPitLevel3",
+   "en": "Upgrade Uruk Pit to Level 3 (&A)",
+   "uk_ai": "Покращити яму уруків до 3-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeIsengardUrukPitLevel3",
+   "en": "Allows training of Uruk-hai Man-slayers \\n Research time: 45s \\n +1500 Health \\n +25% faster build speed",
+   "uk_ai": "Дозволяє тренувати урук-хаїв людобивців\\nЧас дослідження: 45 сек.\\n+1500 од. міцності\\n+25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeIsengardUrukPitLevel3_WOTR",
+   "en": "+25% faster build speed",
+   "uk_ai": "+25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardScoutHorde",
+   "en": "Uruk-hai Scouts (&W)",
+   "uk_ai": "Урук-хаї розвідники (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardScoutHorde",
+   "en": "Strong vs. Infantry and Pikemen \\n \\n Recruit time: 30s \\n Level 2: +10% Health, +10% Damage \\n Level 3-4: +9% Health, +9% Damage \\n Level 5: +8% Health, +8% Damage\\n \\n Saruman sent forth a legion of scouts to track down the Ringbearer and bring back his prize.",
+   "uk_ai": "Ефективні проти піхоти та пікінерів\\n\\nЧас тренування: 30 сек. \\n \\n Кожен рівень підвищує показники \\n Рівень 2: +10% здоров'я/+10% пошкоджень\\nРівні 3-4: +9% здоров'я/+9% пошкоджень\\nРівень 5: +8% здоров'я/+8% пошкоджень\\n\\nСаруман вислав легіон розвідників, щоб вистежити Персненосця й принести йому здобич."
+  },
+  {
+   "var": "OBJECT:HordeIsengardScout",
+   "en": "Uruk-hai Scouts",
+   "uk_ai": "Урук-хаї розвідники"
+  },
+  {
+   "var": "OBJECT:IsengardScout",
+   "en": "Uruk-hai Scout",
+   "uk_ai": "Урук-хай розвідник"
+  },
+  {
+   "var": "CONTROLBAR:ToggleUrukScoutWeapon",
+   "en": "Toggle Weapon (&W)",
+   "uk_ai": "Змінити зброю (&W)"
+  },
+  {
+   "var": "CONTROLBAR:Bloodthirsty",
+   "en": "Bloodlust",
+   "uk_ai": "Жага крові"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIsengardBloodthirsty",
+   "en": "Requires Level 3\\n Bloodlust grants Uruk-hai\\n+25% damage\\nPassive ability",
+   "uk_ai": "Необхідно: Рівень 3\\nЖага крові дає урук-хаям\\nбонус +25% до пошкоджень\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:UrukScoutHuntingArrows",
+   "en": "Hunting Arrows (&T)",
+   "uk_ai": "Мисливські стріли (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUrukScoutHuntingArrows",
+   "en": "Requires Level 3\\nFor 20 seconds, Uruk-hai Scouts' arrows slow targets by 33% for 5 seconds\\nCan only be used with bows equipped\\n \\n Recharge time: 1m 30s \\nLeft click to activate",
+   "uk_ai": "Необхідно: Рівень 3\\nНа 20 сек. стріли урук-хаїв розвідників сповільнюють ціль на 33% на 5 сек.\\nДіє лише з луками в руках\\n\\nЧас відновлення: 1 хв. 30 сек.\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIsengardBasicTraining",
+   "en": "Purchase Banners of the White Hand (&V)",
+   "uk_ai": "Придбати для загону «Стяги Білої Руки» (&V)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardUrukHai",
+   "en": " Fighting Uruk-hai (&E)",
+   "uk_ai": "Бойові урук-хаї (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardUrukHai",
+   "en": "Requires Level 2 Uruk Pit \\n Strong vs. Pikemen \\n Able to switch formation for improved defensive capabilities \\n \\n Recruit time: 30s\\n Level 2-3: +7% Health, +7% Damage \\n  Level 4-5: +6% Health, +6% Damage \\n \\n Crossbreeding orcs with goblin-men, Saruman has raised an army with but a single purpose; to destroy the world of Men.",
+   "uk_ai": "Необхідно: Яма уруків 2 рівня\\nЕфективні проти пікінерів\\nЗдатні змінювати стрій для підвищення оборони\\n\\nЧас тренування: 30 сек. \\n \\n Кожен рівень підвищує показники \\n Рівні 2-3: +7% здоров'я/+7% пошкоджень\\nРівні 4-5: +6% здоров'я/+6% пошкоджень\\n\\nСхрестивши орків з ґобліно-людьми, Саруман виростив військо з однією-єдиною метою — знищити світ людей."
+  },
+  {
+   "var": "OBJECT:HordeIsengardFighter",
+   "en": "Fighting Uruk-hai",
+   "uk_ai": "Бойові урук-хаї"
+  },
+  {
+   "var": "OBJECT:IsengardFighter",
+   "en": "Fighting Uruk-hai",
+   "uk_ai": "Бойовий урук-хай"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleIFighterLooseToBlockFormation",
+   "en": "+40% armour\\n-33% speed",
+   "uk_ai": "+40% броні\\n-33% швидкості"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIsengardHeavyArmor",
+   "en": "Purchase Blackened Plate (&T)",
+   "uk_ai": "Придбати для загону «Почорнілі обладунки» (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeIsengardHeavyArmor",
+   "en": "Upgrades this horde with Blackened Plate \\n Significantly reduces the amount of damage taken \\n Research time: 10s",
+   "uk_ai": "Оснащує цей загін почорнілими обладунками\\nСуттєво зменшує кількість ворожих пошкоджень\\nЧас дослідження: 10 сек."
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardCrossbowmen",
+   "en": "Uruk-hai Crossbowmen (&R)",
+   "uk_ai": "Урук-хаї арбалетники (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardCrossbowmen",
+   "en": "Requires Level 2 Uruk Pit \\n Strong vs. Infantry \\n \\n Recruit time: 30s \\n Level 2-3: +7% Health, +7% Damage \\n  Level 4-5: +6% Health, +6% Damage \\n \\n Outfitting them with crude crossbows, Saruman has minimized the training required for his Uruks to be deadly at range.",
+   "uk_ai": "Необхідно: Яма уруків 2 рівня\\nЕфективні проти піхоти\\n\\nЧас тренування: 30 сек. \\n \\n Кожен рівень підвищує показники \\n Рівні 2-3: +7% здоров'я/+7% пошкоджень\\nРівні 4-5: +6% здоров'я/+6% пошкоджень\\n\\nДавши урукам грубі арбалети, Саруман звів до мінімуму навчання, потрібне, щоб вони стали смертоносними на відстані."
+  },
+  {
+   "var": "OBJECT:HordeIsengardCrossbow",
+   "en": "Uruk-hai Crossbowmen",
+   "uk_ai": "Урук-хаї арбалетники"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeIsengardFireArrows",
+   "en": "Upgrades this horde with Fire Arrows \\n Significantly increases the damage done by arrows \\n Research time: 10s",
+   "uk_ai": "Оснащує цей загін вогняними стрілами\\nСуттєво збільшує пошкодження стріл\\nЧас дослідження: 10 сек."
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardPikemen",
+   "en": "Uruk-hai Pikemen (&T)",
+   "uk_ai": "Урук-хаї пікінери (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardPikemen",
+   "en": "Requires Level 2 Uruk Pit \\n Strong vs. Cavalry and Heroes \\n Able to switch formation for improved defensive capabilities \\n \\n Recruit time: 30s\\n Level 2-3: +7% Health, +7% Damage \\n  Level 4-5: +6% Health, +6% Damage \\n\\n Preparing to eradicate the Horse-lords of Rohan, Saruman outfitted great numbers of his Uruks with long pikes.",
+   "uk_ai": "Необхідно: Яма уруків 2 рівня\\nЕфективні проти кавалерії та героїв\\nЗдатні змінювати стрій для підвищення оборони\\n\\nЧас тренування: 30 сек. \\n \\n Кожен рівень підвищує показники \\n Рівні 2-3: +7% здоров'я/+7% пошкоджень\\nРівні 4-5: +6% здоров'я/+6% пошкоджень\\n\\nГотуючись знищити кінних володарів Рогану, Саруман озброїв велику кількість уруків довгими піками."
+  },
+  {
+   "var": "OBJECT:HordeIsengardPikemen",
+   "en": "Uruk-hai Pikemen",
+   "uk_ai": "Урук-хаї пікінери"
+  },
+  {
+   "var": "OBJECT:IsengardPikeman",
+   "en": "Uruk-hai Pikeman",
+   "uk_ai": "Урук-хай пікінер"
+  },
+  {
+   "var": "CONTROLBAR:TogglePhalanxFormation",
+   "en": "Phalanx Formation (&W)",
+   "uk_ai": "Стрій фаланги (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleIPikemanPhalanxFormation",
+   "en": "The units form a Spear Wall\\n Units lose 33% speed, gain resistance to knockback, decelerate crush, and gain +40% armour",
+   "uk_ai": "Загін вишиковується в стіну списів\\nВтрачає 33% швидкості, отримує стійкість до відкидання й топтання та бонус +40% броні"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardShieldbearers",
+   "en": "Uruk-hai Shieldbearers (&S)",
+   "uk_ai": "Урук-хаї щитоносці (&S)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardShieldBearer",
+   "en": "Requires Level 2 Uruk Pit \\n Heavily armoured support unit \\n Able to switch formation for improved defensive capabilities \\n \\n Recruit time: 30s \\n Level 2-3: +7% Health, +7% Damage \\n  Level 4-5: +6% Health, +6% Damage \\n \\n 'This is no rabble of mindless orcs. These are Uruk-hai. Their armour is thick and their shields broad.'",
+   "uk_ai": "Необхідно: Яма уруків 2 рівня\\nВажкоброньований загін підтримки\\nЗдатні змінювати стрій для підвищення оборони\\n\\nЧас тренування: 30 сек. \\n \\n Кожен рівень підвищує показники \\n Рівні 2-3: +7% здоров'я/+7% пошкоджень\\nРівні 4-5: +6% здоров'я/+6% пошкоджень\\n\\n«Це не збіговисько безмозких орків. Це урук-хаї. Їхні обладунки товсті, а щити широкі.»"
+  },
+  {
+   "var": "OBJECT:HordeIsengardShieldBearer",
+   "en": "Uruk-hai Shieldbearers",
+   "uk_ai": "Урук-хаї щитоносці"
+  },
+  {
+   "var": "OBJECT:IsengardShieldBearer",
+   "en": "Uruk-hai Shieldbearer",
+   "uk_ai": "Урук-хай щитоносець"
+  },
+  {
+   "var": "CONTROLBAR:ToggleBroadShieldsFormation",
+   "en": "Broad Shields Formation (&W)",
+   "uk_ai": "Стрій широких щитів (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBroadShields",
+   "en": "Modifier Type: Spell \\n Nearby friendly units in a small radius gain +33% armour\\nPassive ability\\n\\nShield-bearers can toggle formation to gain +40% armour but lose -33% movement speed\\nLeft click to activate",
+   "uk_ai": "Тип ефекту: Заклинання\\nСоюзні загони поряд отримують бонус +33% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\nЩитоносці можуть змінити стрій і отримати +40% броні, втративши 33% швидкості руху\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardBerserker",
+   "en": "Uruk-hai Berserker (&D)",
+   "uk_ai": "Берсерк (&D)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardBerserker",
+   "en": "Requires Level 2 Uruk Pit \\n Strong vs. Swordsmen and Pikemen \\n \\n Recruit time: 20s \\n Level 2-3: +7% Health, +7% Damage \\n  Level 4-5: +6% Health, +6% Damag\\n \\n Rather than dispose of early, less-refined specimens of Uruk, Saruman used these crazed creatures as deadly shock troops.",
+   "uk_ai": "Необхідно: Яма уруків 2 рівня\\nЕфективний проти мечників і пікінерів\\n\\nЧас тренування: 20 сек. \\n \\n Кожен рівень підвищує показники \\n Рівні 2-3: +7% здоров'я/+7% пошкоджень\\nРівні 4-5: +6% здоров'я/+6% пошкоджень\\n\\nЗамість того щоб позбутися ранніх, менш досконалих уруків, Саруман зробив цих шалених створінь смертоносними ударними військами."
+  },
+  {
+   "var": "OBJECT:IsengardBeserker",
+   "en": "Uruk-hai Berserker",
+   "uk_ai": "Берсерк"
+  },
+  {
+   "var": "CONTROLBAR:LightTorch",
+   "en": "Light Torch (&W)",
+   "uk_ai": "Запалити смолоскип (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLightTorch",
+   "en": "Light a torch that can detonate explosive mines\\n Berserker gains +20% speed but suffers -15% armour against arrow fire \\nLeft click to activate",
+   "uk_ai": "Запалює смолоскип, яким можна підірвати вибухові міни\\nБерсерк отримує бонус +20% швидкості, але має -15% броні проти стріл\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeMansblood",
+   "en": "Purchase Mansblood (&R)",
+   "uk_ai": "Придбати покращення «Людська кров» (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeMansblood",
+   "en": "Modifier type: Spell \\n Drenches this Berserker in the blood of his enemies \\n The splash radius of Berserker's attacks is permanently increased to 15\\nEach consecutive attack raises the Berserker's damage by 10% for 5 seconds \\n Research time: 10s",
+   "uk_ai": "Тип ефекту: Заклинання\\nЗрошує берсерка кров'ю його ворогів\\nРадіус ураження атак берсерка назавжди зростає до 15 од.\\nКожна наступна атака збільшує пошкодження берсерка на 10% на 5 сек.\\nЧас дослідження: 10 сек."
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeThickSkin",
+   "en": "Purchase Thick Skin (&T)",
+   "uk_ai": "Придбати покращення «Груба шкура» (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeThickSkin",
+   "en": "Long exposure to punishment results in thick skin \\n Berserker permanently gains +33% armour to all sources of damage and improved resistance to crush damage \\n Research time: 10s",
+   "uk_ai": "Довгі випробування болем загартовують шкуру\\nБерсерк назавжди отримує бонус +33% броні від усіх видів пошкоджень і кращу стійкість до розчавлювальних ударів\\nЧас дослідження: 10 сек."
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIronFist",
+   "en": "Purchase Iron Fist (&C)",
+   "uk_ai": "Придбати покращення «Залізний кулак» (&C)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeIronFist",
+   "en": "Modifier Type: Leadership \\n Grants this Berserker the rank of Captain \\n Berserker permanently gains +10% movement speed\\nNearby Uruks gain +15% damage and +15% movement speed \\n Research time: 10s",
+   "uk_ai": "Тип ефекту: Лідерство\\nНадає цьому берсерку звання капітана\\nБерсерк назавжди отримує бонус +10% швидкості руху\\nУруки поблизу отримують бонус +15% до пошкоджень і +15% швидкості руху\\nЧас дослідження: 10 сек."
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardMineBerserker",
+   "en": "Isengard Sapper (&F)",
+   "uk_ai": "Ізенґардський сапер (&F)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardMineBerserker",
+   "en": "Requires Level 2 Uruk Pit and Level 3 Siege Works\\n \\n Recruit time: 20s \\n \\n These Uruk Berserkers carry smaller bombs on their back to set alight, killing themselves and all people around them.",
+   "uk_ai": "Необхідно: Яма уруків 2 рівня й Облогова майстерня 3 рівня\\n\\nЧас тренування: 20 сек.\\n\\nЦі берсерки уруків несуть на спинах невеликі бомби, які підпалюють, гинучи разом з усіма довкола."
+  },
+  {
+   "var": "OBJECT:IsengardMineBeserker",
+   "en": "Isengard Sapper",
+   "uk_ai": "Ізенґардський сапер"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardManSlayerHorde",
+   "en": "Uruk-hai Man-slayers (&G)",
+   "uk_ai": "Урук-хаї людобивці (&G)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardManSlayerHorde",
+   "en": "Requires Level 3 Uruk Pit \\n Hero Unit. Limited to 2 \\n Strong vs. All Unit Types \\n \\n Recruit time 70s \\n Levels 2-5: +5% Health, +5% Damage \\n Levels 6-9: +4% Health, +4% Damage \\n Level 10: +3% Health, +3% Damage \\n \\n Driven mad by the scent of Man-flesh, these deranged creatures are capable of cleaving through armour and sustaining wounds that would kill ordinary orcs and uruks.",
+   "uk_ai": "Необхідно: Яма уруків 3 рівня\\nГероїчний загін. Максимум 2 одночасно\\nЕфективні проти всіх типів військ\\n\\nЧас тренування: 70 сек. \\n \\n Кожен рівень підвищує показники \\n Рівні 2-5: +5% здоров'я/+5% пошкоджень\\nРівні 6-9: +4% здоров'я/+4% пошкоджень\\nРівень 10: +3% здоров'я/+3% пошкоджень\\n\\nДоведені до шаленства запахом людської плоті, ці навіжені створіння прорубують обладунки й витримують рани, що вбили б звичайних орків та уруків."
+  },
+  {
+   "var": "OBJECT:HordeIsengardManSlayer",
+   "en": "Uruk-hai Man-slayers",
+   "uk_ai": "Урук-хаї людобивці"
+  },
+  {
+   "var": "OBJECT:IsengardManSlayer",
+   "en": "Uruk-hai Man-slayer",
+   "uk_ai": "Урук-хай людобивець"
+  },
+  {
+   "var": "CONTROLBAR:FanaticStoneWall",
+   "en": "Bane of the Rohirrim",
+   "uk_ai": "Згуба рогіримів"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFanaticStoneWall",
+   "en": "Man-slayers are highly resistant to knockback and immune to trample\\nPassive ability",
+   "uk_ai": "Людобивці мають високу стійкість до відкидання й імунітет до топтання\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:FanaticDeathWish",
+   "en": "Twisted Frenzy (&R)",
+   "uk_ai": "Скажене шаленство (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFanaticDeathWish",
+   "en": "Requires Level 3 \\n Man-slayers gain +150% damage at the cost of -33% armour for 20 seconds\\n \\n Recharge time: 2m \\n Left click to activate",
+   "uk_ai": "Необхідно: Рівень 3\\nЛюдобивці отримують бонус +150% до пошкоджень, але штраф -33% броні на 20 сек.\\n\\nЧас відновлення: 2 хв.\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ScourgeofMan",
+   "en": "Scent of Blood (&T)",
+   "uk_ai": "Запах крові (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipScourgeofMan",
+   "en": "Requires Level 5 \\n Man-slayers regain health per hit \\nPassive ability \\n\\n When activated, Man-slayers gain +33% movement speed for 20 seconds\\n \\n Recharge time: 3m \\n Left click to activate",
+   "uk_ai": "Необхідно: Рівень 5\\nЛюдобивці відновлюють здоров'я з кожним ударом\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\nПісля активації людобивці отримують бонус +33% швидкості руху на 20 сек.\\n\\nЧас відновлення: 3 хв.\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardTavern",
+   "en": "Build Clan Steading (&C)",
+   "uk_ai": "Стійбище (&C)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipIsengardTavern",
+   "en": "Trains Wildmen units \\n Build time: 30s",
+   "uk_ai": "Тренує загони дикунів\\nЧас будівництва: 30 сек."
+  },
+  {
+   "var": "OBJECT:IsengardTavern",
+   "en": "Clan Steading",
+   "uk_ai": "Стійбище"
+  },
+  {
+   "var": "OBJECT:IsengardTavernDescription",
+   "en": "Level 2: +10% faster build speed and +1500 health\\n Level 3: +25% faster build speed and +1500 health",
+   "uk_ai": "Рівень 2: +10% до швидкості тренування і +1500 од. міцності\\nРівень 3: +25% до швидкості тренування і +1500 од. міцності"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeIsengardTavernLevel2",
+   "en": "Upgrade Clan Steading to Level 2 (&A)",
+   "uk_ai": "Покращити стійбище до 2-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeIsengardTavernLevel2",
+   "en": "Allows training of Wildmen Skirmishers \\n Research time: 30s \\n +1500 Health \\n +10% faster build speed",
+   "uk_ai": "Дозволяє тренувати дикунів-метальників\\nЧас дослідження: 30 сек.\\n+1500 од. міцності\\n+10% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeIsengardTavernLevel3",
+   "en": "Upgrade Clan Steading to Level 3 (&A)",
+   "uk_ai": "Покращити стійбище до 3-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeIsengardTavernLevel3",
+   "en": "Adds defensive arrow tower\\n Research time: 60s \\n +1500 Health \\n+25% faster build speed",
+   "uk_ai": "Додає захисну вежу\\nЧас дослідження: 60 сек.\\n+1500 од. міцності\\n+25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardWildmanHorde",
+   "en": "Wildmen of Dunland (&W)",
+   "uk_ai": "Дикуни з Дунланду (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardWildmanHorde",
+   "en": "Strong vs. Pikemen and Structures\\nCan stealth near trees \\n \\n Recruit time: 20s \\n Level 2: +10% Health, +10% Damage \\n Level 3-4: +9% Health, +9% Damage \\n Level 5: +8% Health, +8% Damage \\n \\n Driven from their ancestral lands by the Rohirrim, the Wildmen of Dunland now believe they can get their revenge through the support of Saruman.",
+   "uk_ai": "Ефективні проти пікінерів і споруд\\nМожуть ховатися поблизу дерев\\n\\nЧас тренування: 20 сек. \\n \\n Кожен рівень підвищує показники \\n Рівень 2: +10% здоров'я/+10% пошкоджень\\nРівні 3-4: +9% здоров'я/+9% пошкоджень\\nРівень 5: +8% здоров'я/+8% пошкоджень\\n\\nВигнані рогіримами з земель предків, дикуни Дунланду тепер вірять, що з підтримкою Сарумана зможуть помститися."
+  },
+  {
+   "var": "OBJECT:HordeWildman",
+   "en": "Wildmen of Dunland",
+   "uk_ai": "Дикуни з Дунланду"
+  },
+  {
+   "var": "OBJECT:IsengardWildman",
+   "en": "Wildman of Dunland",
+   "uk_ai": "Дикун з Дунланду"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityWildmanPillage",
+   "en": "Requires Level 2\\nThe Wildmen steal resources whenever dealing damage to enemy structures \\n Passive ability",
+   "uk_ai": "Необхідно: Рівень 2\\nДикуни крадуть ресурси щоразу, коли завдають пошкоджень ворожим спорудам\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIsengardTorches",
+   "en": "Purchase Torches (&C)",
+   "uk_ai": "Придбати для загону «Смолоскипи» (&C)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeIsengardTorches",
+   "en": "Upgrades this horde with Torches \\n Increases the damage done by melee attacks \\n Research time: 10s",
+   "uk_ai": "Оснащує цей загін смолоскипами\\nЗбільшує пошкодження в ближньому бою\\nЧас дослідження: 10 сек."
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIsengardBasicTrainingWildman",
+   "en": "Purchase Elect Hersir (&V)",
+   "uk_ai": "Придбати для загону «Обраний герсир» (&V)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardWildmenSpearHorde",
+   "en": "Wildmen Spearmen (&E)",
+   "uk_ai": "Дикуни-списоносці (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardWildmenSpearHorde",
+   "en": "Strong vs. Cavalry and Heroes \\nCan stealth near trees \\n \\n Recruit time: 20s \\n Level 2: +10% Health, +10% Damage \\n Level 3-4: +9% Health, +9% Damage \\n Level 5: +8% Health, +8% Damage \\n \\n  Fearing the strawheads' mastery of horsemanship, a horde of Dunlendings rarely lacked an abundance of spears.",
+   "uk_ai": "Ефективні проти кавалерії та героїв\\nМожуть ховатися поблизу дерев\\n\\nЧас тренування: 20 сек. \\n \\n Кожен рівень підвищує показники \\n Рівень 2: +10% здоров'я/+10% пошкоджень\\nРівні 3-4: +9% здоров'я/+9% пошкоджень\\nРівень 5: +8% здоров'я/+8% пошкоджень\\n\\nБоячись вправності соломоголових у верховій їзді, дунландці рідко відчували брак списів."
+  },
+  {
+   "var": "OBJECT:HordeIsengardWildmenSpear",
+   "en": "Wildmen Spearmen",
+   "uk_ai": "Дикуни-списоносці"
+  },
+  {
+   "var": "OBJECT:IsengardWildmenSpear",
+   "en": "Spearman",
+   "uk_ai": "Списоносець"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardWildmanAxeHorde",
+   "en": "Wildmen Skirmishers (&R)",
+   "uk_ai": "Дикуни-метальники (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardWildmanAxeHorde",
+   "en": "Requires Level 2 Clan Steading \\nCan stealth near trees\\n Strong at range \\n \\n Recruit time: 20s \\n Level 2: +10% Health, +10% Damage \\n Level 3-4: +9% Health, +9% Damage \\n Level 5: +8% Health, +8% Damage \\n  \\n Though Dunlendings often considered the art of axe-throwing as more of a sport, some skilled warriors still employed it in battle.",
+   "uk_ai": "Необхідно: Стійбище 2 рівня\\nМожуть ховатися поблизу дерев\\nЕфективні на відстані\\n\\nЧас тренування: 20 сек. \\n \\n Кожен рівень підвищує показники \\n Рівень 2: +10% здоров'я/+10% пошкоджень\\nРівні 3-4: +9% здоров'я/+9% пошкоджень\\nРівень 5: +8% здоров'я/+8% пошкоджень\\n\\nХоча дунландці здебільшого вважали метання сокир забавою, деякі вправні воїни застосовували його й у бою."
+  },
+  {
+   "var": "OBJECT:IsengardWildmanAxeHorde",
+   "en": "Wildmen Skirmishers",
+   "uk_ai": "Дикуни-метальники"
+  },
+  {
+   "var": "OBJECT:IsengardWildmanAxe",
+   "en": "Wildmen Skirmisher",
+   "uk_ai": "Дикун-метальник"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardLonghouse",
+   "en": "Build Dunlending Longhouse (&M)",
+   "uk_ai": "Довгий дім дунландців (&M)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIsengardLonghouse",
+   "en": "Requires Wulfgar\\nTrains Dunlending units \\n Build time: 45s",
+   "uk_ai": "Необхідно: Вульфґар на полі бою\\nТренує загони дунландців\\nЧас будівництва: 45 сек."
+  },
+  {
+   "var": "OBJECT:IsengardLonghouse",
+   "en": "Dunlending Longhouse",
+   "uk_ai": "Довгий дім дунландців"
+  },
+  {
+   "var": "OBJECT:IsengardLonghouseDescription",
+   "en": "Level 2: +10% faster build speed and +1500 health\\n Level 3: +25% faster build speed and +1500 health",
+   "uk_ai": "Рівень 2: +10% до швидкості тренування і +1500 од. міцності\\nРівень 3: +25% до швидкості тренування і +1500 од. міцності"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeDunlendingLonghouseLevel2",
+   "en": "Upgrade Dunlending Longhouse to Level 2 (&A)",
+   "uk_ai": "Покращити довгий дім дунландців до 2-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeDunlendingLonghouseLevel2",
+   "en": "Allows training of Dunlending Longbowmen\\n Research time: 60s \\n +1500 Health \\n +10% faster build speed",
+   "uk_ai": "Дозволяє тренувати дунландських довголучників\\nЧас дослідження: 60 сек.\\n+1500 од. міцності\\n+10% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeDunlendingLonghouseLevel3",
+   "en": "Upgrade Dunlending Longhouse to Level 3 (&A)",
+   "uk_ai": "Покращити довгий дім дунландців до 3-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeDunlendingLonghouseLevel3",
+   "en": "Allows training of Dunnish Outriders and Dunlending Huskarls \\n Adds defensive arrow tower \\n Research time: 60s \\n +1500 Health \\n +25% faster build speed",
+   "uk_ai": "Дозволяє тренувати дунландських вершників і дунландських гускарлів\\nДодає захисну вежу\\nЧас дослідження: 60 сек.\\n+1500 од. міцності\\n+25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardDunlandAxemenHorde",
+   "en": "Dunlending Axemen (&W)",
+   "uk_ai": "Дунландські сокирники (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardDunlandAxemenHorde",
+   "en": "Elite Infantry \\nStrong vs. Pikemen \\n \\n Recruit time: 30s \\n Level 2-3: +7% Health, +7% Damage \\n  Level 4-5: +6% Health, +6% Damage \\n \\n An axe, a shield, and a helmet. These are the most valuable possessions of any Dunnish warrior.",
+   "uk_ai": "Елітна піхота\\nЕфективні проти пікінерів\\n\\nЧас тренування: 30 сек. \\n \\n Кожен рівень підвищує показники \\n Рівні 2-3: +7% здоров'я/+7% пошкоджень\\nРівні 4-5: +6% здоров'я/+6% пошкоджень\\n\\nСокира, щит і шолом — найцінніше майно кожного дунландського воїна."
+  },
+  {
+   "var": "OBJECT:DunlandAxemenHorde",
+   "en": "Dunlending Axemen",
+   "uk_ai": "Дунландські сокирники"
+  },
+  {
+   "var": "OBJECT:IsengardDunlandAxeman",
+   "en": "Dunlending Axeman",
+   "uk_ai": "Дунландський сокирник"
+  },
+  {
+   "var": "CONTROLBAR:DunlendingRallyingCry",
+   "en": "Rallying Cry (&W)",
+   "uk_ai": "Бойовий клич (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDunlendingRallyingCry",
+   "en": "Modifier Type: Spell \\n Requires Rank 3 \\n Nearby Wildmen and Dunlendings gain trample resistance and +15% movement speed for 30 seconds\\n \\n Recharge time: 6m \\n Left click to activate",
+   "uk_ai": "Тип ефекту: Заклинання\\nНеобхідно: Рівень 3\\nДикуни та дунландці поблизу отримують стійкість до топтання й +15% швидкості руху на 30 сек.\\n\\nЧас відновлення: 6 хв.\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeIsengardBasicTrainingDunland",
+   "en": "Purchase Crow Banners (&V)",
+   "uk_ai": "Придбати для загону «Воронячі стяги» (&V)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardDunlandArcherHorde",
+   "en": "Dunlending Longbowmen (&E)",
+   "uk_ai": "Дунландські довголучники (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardDunlandArcherHorde",
+   "en": "Requires Dunlending Longhouse level 2 \\n Elite Archers \\nStrong vs. Infantry \\n \\n Research time: 45s \\n Level 2-3: +7% Health, +7% Damage \\n  Level 4-5: +6% Health, +6% Damage \\n \\n 'The rocky hills of Dunland are difficult to farm, resulting in a sprawling culture of hunting based around the legend of the White Crow.'",
+   "uk_ai": "Необхідно: Довгий дім дунландців 2 рівня\\nЕлітні лучники\\nЕфективні проти піхоти\\n\\nЧас тренування: 45 сек.\\nРівні 2-3: +7% здоров'я/+7% пошкоджень\\nРівні 4-5: +6% здоров'я/+6% пошкоджень\\n\\n«Кам'янисті пагорби Дунланду важко обробляти, тож там розквітла мисливська культура, що постала довкола легенди про Білого Ворона.»"
+  },
+  {
+   "var": "OBJECT:HordeIsengardDunlandArcher",
+   "en": "Dunlending Longbowmen",
+   "uk_ai": "Дунландські довголучники"
+  },
+  {
+   "var": "OBJECT:IsengardDunlandArcher",
+   "en": "Dunlending Longbowman",
+   "uk_ai": "Дунландський довголучник"
+  },
+  {
+   "var": "CONTROLBAR:EyesoftheCrow",
+   "en": "Eyes of the Crow (&R)",
+   "uk_ai": "Очі ворона (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEyesoftheCrow",
+   "en": "Requires Level 2 \\n Longbowmen gain +25% range and +25% damage, at the cost of -25% movement speed for 20 seconds \\n \\n Recharge time: 3m \\n Left click to activate",
+   "uk_ai": "Необхідно: Рівень 2\\nДовголучники отримують бонус +25% дальності й +25% до пошкоджень, але штраф -25% швидкості руху на 20 сек.\\n\\nЧас відновлення: 3 хв.\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardDunlandRiderHorde",
+   "en": "Dunnish Outriders (&R)",
+   "uk_ai": "Дунландські вершники (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardDunlandRiderHorde",
+   "en": "Requires Dunlending Longhouse Level 3 \\n Elite Cavalry \\n Strong vs. Archers \\n \\n Recruit time: 45s \\n Level 2-3: +7% Health, +7% Damage \\n  Level 4-5: +6% Health, +6% Damage \\n \\n 'The Men of Dunland do not take kindly to notions of Rohirric equestrian superiority, claiming their Outriders can match any Rider of Rohan.'",
+   "uk_ai": "Необхідно: Довгий дім дунландців 3 рівня\\nЕлітна кавалерія\\nЕфективні проти лучників\\n\\nЧас тренування: 45 сек. \\n \\n Кожен рівень підвищує показники \\n Рівні 2-3: +7% здоров'я/+7% пошкоджень\\nРівні 4-5: +6% здоров'я/+6% пошкоджень\\n\\n«Люди Дунланду не терплять розмов про вищість роганських вершників і твердять, що їхні вершники не поступляться жодному Вершникові Рогану.»"
+  },
+  {
+   "var": "OBJECT:HordeIsengardDunlandRiders",
+   "en": "Dunnish Outriders",
+   "uk_ai": "Дунландські вершники"
+  },
+  {
+   "var": "OBJECT:IsengardDunlandRider",
+   "en": "Dunnish Outrider",
+   "uk_ai": "Дунландський вершник"
+  },
+  {
+   "var": "CONTROLBAR:WildCharge",
+   "en": "Wild Hunt (&W)",
+   "uk_ai": "Дике полювання (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWildCharge",
+   "en": "Requires Level 2 \\n Outriders gain increased +15% speed and trample, at the cost of -25% armour for 20 seconds \\n \\n Recharge time: 3m \\n Left click to activate",
+   "uk_ai": "Необхідно: Рівень 2\\nВершники отримують бонус +15% швидкості й топтання, але штраф -25% броні на 20 сек.\\n\\nЧас відновлення: 3 хв.\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardDunlandHuskarlHorde",
+   "en": "Dunlending Huskarls (&T)",
+   "uk_ai": "Дунландські гускарли (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardDunlandHuskarlHorde",
+   "en": "Requires Dunlending Longhouse Level 3\\nElite Infantry \\nStrong vs. Pikemen \\n Limited to 2 \\n \\n Recruit time: 40s \\n Level 2-3: +7% Health, +7% Damage \\n  Level 4-5: +6% Health, +6% Damage \\n \\n The Huskarls of Frecalund are fierce fighters, gathered from respectable houses to serve as the king's personal guard.",
+   "uk_ai": "Необхідно: Довгий дім дунландців 3 рівня\\nЕлітна піхота\\nЕфективні проти пікінерів\\nМаксимум 2 одночасно\\n\\nЧас тренування: 40 сек. \\n \\n Кожен рівень підвищує показники \\n Рівні 2-3: +7% здоров'я/+7% пошкоджень\\nРівні 4-5: +6% здоров'я/+6% пошкоджень\\n\\nГускарли Фрекалунду — запеклі бійці зі шляхетних родів, які служать особистою вартою короля."
+  },
+  {
+   "var": "OBJECT:DunlandHuskarlHorde",
+   "en": "Dunlending Huskarls",
+   "uk_ai": "Дунландські гускарли"
+  },
+  {
+   "var": "OBJECT:IsengardDunlandHuskarl",
+   "en": "Dunlending Huskarl",
+   "uk_ai": "Дунландський гускарл"
+  },
+  {
+   "var": "CONTROLBAR:DunlandMordhauGrip",
+   "en": "Mordhau Grip (&W)",
+   "uk_ai": "Удар навершям (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDunlandMordhauGrip",
+   "en": "Dunlending Huskarls use Mordhau grip for 20 seconds\\n Whilst active, Huskarls ignore unit armour and deal bonus damage vs heroes but do not deal splash damage \\n Weak vs structures and spam units \\n \\n Recharge time: 1m 30s \\n Left click to activate",
+   "uk_ai": "Дунландські гускарли перехоплюють мечі за лезо на 20 сек.\\nУ цей час гускарли ігнорують броню загонів і завдають додаткових пошкоджень героям, але не завдають пошкоджень по площі\\nСлабкі проти споруд і масових загонів\\n\\nЧас відновлення: 1 хв. 30 сек.\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:DunlandNobleLineage",
+   "en": "Noble Lineage",
+   "uk_ai": "Шляхетний родовід"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDunlandNobleLineage",
+   "en": "Modifier Type: Leadership\\nNearby Wildmen and Dunlendings receive\\n+50% experience gain and fear resistance\\nPassive ability",
+   "uk_ai": "Тип ефекту: Лідерство\\nДикуни та дунландці поблизу\\nна 50% швидше набирають досвід і отримують стійкість до страху\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:RecklessSwings",
+   "en": "Reckless Swings",
+   "uk_ai": "Нестримні замахи"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRecklessSwings",
+   "en": "Requires Level 3\\nConsecutive attacks temporarily increase attack damage by 5% \\nStacks to a maximum of 25%\\nPassive ability",
+   "uk_ai": "Необхідно: Рівень 3\\nКожна наступна атака тимчасово збільшує пошкодження на 5%\\nНакопичується до 25%\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardWargPit",
+   "en": "Build Warg Pit (&V)",
+   "uk_ai": "Варґове лігво (&V)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIsengardWargPit",
+   "en": "Trains Warg-riders \\n Build time: 30s",
+   "uk_ai": "Тренує вершників на варґах\\nЧас будівництва: 30 сек."
+  },
+  {
+   "var": "OBJECT:IsengardWargPit",
+   "en": "Warg Pit",
+   "uk_ai": "Варґове лігво"
+  },
+  {
+   "var": "OBJECT:IsengardWargPitDescription",
+   "en": "Level 2: +10% faster build speed and +1500 health\\n Level 3: +25% faster build speed and +1500 health",
+   "uk_ai": "Рівень 2: +10% до швидкості тренування і +1500 од. міцності\\nРівень 3: +25% до швидкості тренування і +1500 од. міцності"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeIsengardWargPitLevel2",
+   "en": "Upgrade Warg Pit to Level 2 (&A)",
+   "uk_ai": "Покращити варґове лігво до 2-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeIsengardWargPitLevel2",
+   "en": "Research time: 30s \\n +1500 Health \\n +10% faster build speed",
+   "uk_ai": "Час дослідження: 30 сек.\\n+1500 од. міцності\\n+10% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeIsengardWargPitLevel3",
+   "en": "Upgrade Warg Pit to Level 3 (&A)",
+   "uk_ai": "Покращити варґове лігво до 3-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeIsengardWargPitLevel3",
+   "en": "Grants an additional Warg to all Warg Sentries\\nDoes not stack \\n Research time: 45s \\n +1500 Health \\n +25% faster build speed",
+   "uk_ai": "Додає ще одного варґа до кожного загону сторожових варґів\\nНе накопичується\\nЧас дослідження: 45 сек.\\n+1500 од. міцності\\n+25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardWargRider",
+   "en": "Warg-riders (&W)",
+   "uk_ai": "Вершники на варґах (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardWargRider",
+   "en": "Strong vs. Swordsmen and Archers \\n \\n Recruit time: 30s \\n Level 2-3: +7% Health, +7% Damage \\n  Level 4-5: +6% Health, +6% Damage  \\n \\n For generations, Orcs have ridden Wargs - not as masters, but as equals - to track and ambush the Free Peoples.",
+   "uk_ai": "Ефективні проти мечників і лучників\\n\\nЧас тренування: 30 сек. \\n \\n Кожен рівень підвищує показники \\n Рівні 2-3: +7% здоров'я/+7% пошкоджень\\nРівні 4-5: +6% здоров'я/+6% пошкоджень\\n\\nПоколіннями орки їздили на варґах — не як господарі, а як рівні, — щоб вистежувати Вільні Народи й влаштовувати їм засідки."
+  },
+  {
+   "var": "OBJECT:HordeIsengardWargRiders",
+   "en": "Warg-riders",
+   "uk_ai": "Вершники на варґах"
+  },
+  {
+   "var": "OBJECT:IsengardWargRider",
+   "en": "Warg-rider",
+   "uk_ai": "Вершник на варґу"
+  },
+  {
+   "var": "CONTROLBAR:TooltipIsengardWargRiderHowl",
+   "en": "Modifier Type: Buff \\n Wargs gain +50% damage and +20% speed for 20 seconds\\n \\n Recharge time: 3m \\n Left click to activate",
+   "uk_ai": "Тип ефекту: Посилення\\nВарґи отримують бонус +50% до пошкоджень і +20% швидкості на 20 сек.\\n\\nЧас відновлення: 3 хв.\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardSiegeWorks",
+   "en": "Build Siege Works (&N)",
+   "uk_ai": "Майстерня (&N)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIsengardSiegeWorks",
+   "en": "Builds Isengard's Siege Weapons\\n At rank 2, repairs nearby siege engines \\n Build time: 30s",
+   "uk_ai": "Будує облогову зброю Ізенґарду\\nНа 2 рівні лагодить облогові машини поблизу\\nЧас будівництва: 30 сек."
+  },
+  {
+   "var": "OBJECT:IsengardSiegeWorks",
+   "en": "Siege Works",
+   "uk_ai": "Майстерня"
+  },
+  {
+   "var": "OBJECT:IsengardSiegeWorksDescription",
+   "en": "Level 2: +10% faster build speed and +1500 health\\n Level 3: +25% faster build speed and +1500 health",
+   "uk_ai": "Рівень 2: +10% до швидкості тренування і +1500 од. міцності\\nРівень 3: +25% до швидкості тренування і +1500 од. міцності"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeIsengardSiegeWorksLevel2",
+   "en": "Upgrade the Siege Works to Level 2 (&A)",
+   "uk_ai": "Покращити облогову майстерню до 2-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeIsengardSiegeWorksLevel2",
+   "en": "Allows the construction of Siege Ballistae\\n Heals nearby damaged siege machines \\n Research time: 30s \\n +1500 Health \\n+10% faster build speed",
+   "uk_ai": "Дозволяє будувати облогові балісти\\nЛагодить пошкоджені облогові машини поблизу\\nЧас дослідження: 30 сек.\\n+1500 од. міцності\\n+10% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeIsengardSiegeWorksLevel3",
+   "en": "Upgrade the Siege Works to Level 3 (&A)",
+   "uk_ai": "Покращити облогову майстерню до 3-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeIsengardSiegeWorksLevel3",
+   "en": "Allows the construction of the Explosive Mine\\nIncreased healing to nearby damaged siege machines \\n Adds defensive arrow tower \\n Research time: 45s \\n +1500 Health \\n +25% faster build speed",
+   "uk_ai": "Дозволяє будувати вибухову міну\\nШвидше лагодить пошкоджені облогові машини поблизу\\nДодає захисну вежу\\nЧас дослідження: 45 сек.\\n+1500 од. міцності\\n+25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardBatteringRam",
+   "en": "Battering Ram (&W)",
+   "uk_ai": "Таран (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardBatteringRam",
+   "en": "Breaks down castle gates and enemy structures \\n \\n Recruit time: 30s \\n \\n Heavily armoured, Saruman's rams make quick work of enemy gates, lending his Uruks access to the keep beyond.",
+   "uk_ai": "Розбиває брами замків і ворожі споруди\\n\\nЧас тренування: 30 сек.\\n\\nВажкоброньовані тарани Сарумана швидко розправляються з ворожими брамами, відкриваючи урукам шлях до фортеці."
+  },
+  {
+   "var": "OBJECT:IsengardBatteringRam",
+   "en": "Battering Ram",
+   "uk_ai": "Таран"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardSiegeBallista",
+   "en": "Siege Ballista (&E)",
+   "uk_ai": "Облогова баліста (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardSiegeBallista",
+   "en": "Requires Level 2 Siege Works \\n Strong vs. Structures and Siege Equipment \\n \\n Recruit time: 40s \\n \\n Relatively simple to use and aim, Saruman's ballistae serve to wipe out clusters of enemy troops and weaken their structures.",
+   "uk_ai": "Необхідно: Облогова майстерня 2 рівня\\nЕфективна проти споруд і облогових машин\\n\\nЧас тренування: 40 сек.\\n\\nПрості в користуванні й наведенні баліста Сарумана нищать скупчення ворожих військ і розхитують їхні споруди."
+  },
+  {
+   "var": "OBJECT:IsengardBallista",
+   "en": "Ballista",
+   "uk_ai": "Баліста"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardExplosiveMine",
+   "en": "Explosive Mine (&R)",
+   "uk_ai": "Вибухова міна (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardExplosiveMine",
+   "en": "Requires Level 3 Siege Works \\n Blast structures, castle walls, and gates \\n \\n Recruit time: 45s \\n\\n Requiring a method of breaching the Deeping Wall, Saruman produced mass quantities of highly destructive explosive powder.",
+   "uk_ai": "Необхідно: Облогова майстерня 3 рівня\\nПідриває споруди, стіни й брами замків\\n\\nЧас тренування: 45 сек.\\n\\nШукаючи спосіб пробити стіну Гельмового Яру, Саруман виготовив безліч руйнівного вибухового порошку."
+  },
+  {
+   "var": "OBJECT:IsengardExplosiveMine",
+   "en": "Explosive Mine",
+   "uk_ai": "Вибухова міна"
+  },
+  {
+   "var": "CONTROLBAR:DeployMine",
+   "en": "Deploy Mine (&W)",
+   "uk_ai": "Встановити міну (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDeployMine",
+   "en": "Deploy a powerful explosive",
+   "uk_ai": "Встановлює потужну вибухівку"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardBattleTower",
+   "en": "Lookout Tower (&Y)",
+   "uk_ai": "Сторожова вежа (&Y)"
+  },
+  {
+   "var": "OBJECT:IsengardBattleTower",
+   "en": "Lookout Tower",
+   "uk_ai": "Сторожова вежа"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeSentryTowerFireArrows",
+   "en": "Fire Arrows (&W)",
+   "uk_ai": "Вогняні стріли (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardWargSentry",
+   "en": "Build Warg Sentry (&F)",
+   "uk_ai": "Вартовий варґ (&F)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructIsengardWargSentry",
+   "en": "Defensive wargs that will attack nearby enemies \\n Build time: 30s",
+   "uk_ai": "Варґи-охоронці, що нападають на ворогів поблизу\\nЧас будівництва: 30 сек."
+  },
+  {
+   "var": "OBJECT:IsengardWargSentry",
+   "en": "Warg Sentry",
+   "uk_ai": "Вартовий варґ"
+  },
+  {
+   "var": "CONTROLBAR:Command_ConstructIsengardCastleWallHub",
+   "en": "Wall Hub (&A)",
+   "uk_ai": "Стінна вежа (&A)"
+  },
+  {
+   "var": "OBJECT:IsengardCastleWallHub",
+   "en": "Wall Hub",
+   "uk_ai": "Стінна вежа"
+  },
+  {
+   "var": "CONTROLBAR:IsengardWormtongueRecruit",
+   "en": "Recruit the spy of Saruman \\n Assassin, debuffs enemy troops, leadership nullifier\\n \\n Recruit time: 40s\\n Levels 2-5: +5% Health, +5% Damage \\n Levels 6-9: +4% Health, +4% Damage \\n Level 10: +3% Health, +3% Damage\\n \\n'Saruman the White has ever been our friend and ally.'",
+   "uk_ai": "Завербувати шпигуна Сарумана\\nУбивця, послаблює ворожі війська, нейтралізує лідерство\\n\\nЧас вербування: 40 сек.\\n\\nКожен рівень підвищує показники\\nРівні 2-5: +5% здоров'я/+5% пошкоджень\\nРівні 6-9: +4% здоров'я/+4% пошкоджень\\nРівень 10: +3% здоров'я/+3% пошкоджень\\n\\n«Саруман Білий завжди був нашим другом і союзником.»"
+  },
+  {
+   "var": "CONTROLBAR:IsengardWormtongueRevive",
+   "en": "Revive the fallen Hero, Wormtongue",
+   "uk_ai": "Відродити полеглого в бою Червеуста"
+  },
+  {
+   "var": "CONTROLBAR:Escape",
+   "en": "Escape (&W)",
+   "uk_ai": "Утеча (&W)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipEscape",
+   "en": "Wormtongue becomes stealthed and can neither be attacked nor make an attack for 30 seconds \\n \\n Recharge time: 1m 30s \\n Left click icon to activate",
+   "uk_ai": "Червеуст стає невидимим і на 30 сек. не може ні атакувати, ні зазнавати атак\\n\\nЧас відновлення: 1 хв. 30 сек.\\nКлікніть на іконку, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:IsengardSharkuRecruit",
+   "en": "Recruit the leader of the Warg-riders \\n Supports Warg-riders, strong versus enemy cavalry\\n \\n Recruit time: 40s \\n Levels 2-5: +5% Health, +5% Damage \\n Levels 6-9: +4% Health, +4% Damage \\n Level 10: +3% Health, +3% Damage\\n \\n 'He's dead. Took a little tumble off the cliff.'",
+   "uk_ai": "Завербувати ватажка вершників на варґах\\nПосилює вершників на варґах, ефективний проти ворожої кавалерії\\n\\nЧас вербування: 40 сек.\\n\\nКожен рівень підвищує показники\\nРівні 2-5: +5% здоров'я/+5% пошкоджень\\nРівні 6-9: +4% здоров'я/+4% пошкоджень\\nРівень 10: +3% здоров'я/+3% пошкоджень\\n\\n«Він мертвий. Трохи злетів з урвища.»"
+  },
+  {
+   "var": "CONTROLBAR:IsengardSharkuRevive",
+   "en": "Revive the fallen Hero, Sharku",
+   "uk_ai": "Відродити полеглого в бою Шарку"
+  },
+  {
+   "var": "CONTROLBAR:IsengardUglukRecruit",
+   "en": "Recruit the Uruk Captain, Uglúk \\n Supports Uruk-hai, summons reinforcements \\n \\n Recruit time: 50s \\n Levels 2-5: +5% Health, +5% Damage \\n Levels 6-9: +4% Health, +4% Damage \\n Level 10: +3% Health, +3% Damage \\n \\n 'They have something. An Elvish weapon. The master wants it for the war.'",
+   "uk_ai": "Завербувати капітана уруків Углука\\nПосилює урук-хаїв, прикликає підкріплення\\n\\nЧас вербування: 50 сек.\\n\\nКожен рівень підвищує показники\\nРівні 2-5: +5% здоров'я/+5% пошкоджень\\nРівні 6-9: +4% здоров'я/+4% пошкоджень\\nРівень 10: +3% здоров'я/+3% пошкоджень\\n\\n«У них щось є. Ельфійська зброя. Господарю вона потрібна для війни.»"
+  },
+  {
+   "var": "CONTROLBAR:IsengardUglukRevive",
+   "en": "Revive the fallen Hero, Uglúk",
+   "uk_ai": "Відродити полеглого в бою Углука"
+  },
+  {
+   "var": "CONTROLBAR:IsengardWulfgarRecruit",
+   "en": "Recruit the Dunlending Chieftain, Wulfgar \\n Supports Wildmen and Dunlendings, versatile\\n \\n Recruit time: 60s \\n Levels 2-5: +5% Health, +5% Damage \\n Levels 6-9: +4% Health, +4% Damage \\n Level 10: +3% Health, +3% Damage\\n \\n 'Once a noble warrior-chief, Wulfgar refused Saruman's demands of sworn allegiance, until the White Wizard demonstrated his absolute power by crushing the Rohirrim at the Fords of Isen.'",
+   "uk_ai": "Завербувати дунландського отамана Вульфґара\\nПосилює дикунів і дунландців, універсальний\\n\\nЧас вербування: 60 сек.\\n\\nКожен рівень підвищує показники\\nРівні 2-5: +5% здоров'я/+5% пошкоджень\\nРівні 6-9: +4% здоров'я/+4% пошкоджень\\nРівень 10: +3% здоров'я/+3% пошкоджень\\n\\n«Колись шляхетний вождь-воїн, Вульфґар відмовлявся присягти Саруманові на вірність, доки Білий Чарівник не показав свою абсолютну силу, розгромивши рогіримів біля Бродів Ізену.»"
+  },
+  {
+   "var": "CONTROLBAR:IsengardWulfgarRevive",
+   "en": "Revive the fallen Chieftain, Wulfgar",
+   "uk_ai": "Відродити полеглого в бою Вульфґара"
+  },
+  {
+   "var": "CONTROLBAR:IsengardLurtzRecruit",
+   "en": "Recruit the First Captain of the Uruk-hai\\n Supports Uruk-hai, strong versus enemy heroes \\n \\n Recruit time: 50s \\n Levels 2-5: +5% Health, +5% Damage \\n Levels 6-9: +4% Health, +4% Damage \\n Level 10: +3% Health, +3% Damage \\n  \\n 'Find the Halflings!'",
+   "uk_ai": "Завербувати першого капітана урук-хаїв\\nПосилює урук-хаїв, ефективний проти ворожих героїв\\n\\nЧас вербування: 50 сек.\\n\\nКожен рівень підвищує показники\\nРівні 2-5: +5% здоров'я/+5% пошкоджень\\nРівні 6-9: +4% здоров'я/+4% пошкоджень\\nРівень 10: +3% здоров'я/+3% пошкоджень\\n\\n«Знайдіть напівросликів!»"
+  },
+  {
+   "var": "CONTROLBAR:IsengardLurtzRevive",
+   "en": "Revive the fallen Hero, Lurtz",
+   "uk_ai": "Відродити полеглого в бою Лурца"
+  },
+  {
+   "var": "CONTROLBAR:IsengardSarumanRecruit",
+   "en": "Recruit Saruman the Wise, Master of Isengard, and First of the Istari. \\n Troop support, casts deadly spells on enemy troops \\n \\n Recruit time: 80s \\n Levels 2-5: +5% Health, +5% Damage \\n Levels 6-9: +4% Health, +4% Damage \\n Level 10: +3% Health, +3% Damage \\n \\n 'A new power is rising. Its victory is at hand. We have only to remove those who oppose us.'",
+   "uk_ai": "Завербувати Сарумана Мудрого, володаря Ізенґарду й першого з істарі.\\nПосилює війська, накладає смертельні закляття на ворожі загони\\n\\nЧас вербування: 80 сек.\\n\\nКожен рівень підвищує показники\\nРівні 2-5: +5% здоров'я/+5% пошкоджень\\nРівні 6-9: +4% здоров'я/+4% пошкоджень\\nРівень 10: +3% здоров'я/+3% пошкоджень\\n\\n«Нова сила постає. Її перемога вже близько. Нам лишилося тільки усунути тих, хто стоїть на заваді.»"
+  },
+  {
+   "var": "CONTROLBAR:IsengardSarumanRevive",
+   "en": "Revive the fallen Hero, Saruman",
+   "uk_ai": "Відродити полеглого в бою Сарумана"
+  }
+ ]
+}

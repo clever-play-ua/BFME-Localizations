@@ -1,0 +1,115 @@
+{
+ "meta": {
+  "hero": "Sûladan",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Harad"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "HaradSuladan"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:HaradSuladan",
+   "type": "Ім'я",
+   "en": "Sûladan",
+   "ru": "Суладан",
+   "uk_ai": "Суладан",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SuladanMount",
+   "type": "Кнопка",
+   "en": "The Black Serpent (&W)",
+   "ru": "Черный змей (&W)",
+   "uk_ai": "Чорний Змій (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SuladanMountTooltip",
+   "type": "Підказка",
+   "en": "Left click to toggle between mounted and dismounted \n\n Modifier Type: Leadership \n When mounted, Harondor Raiders near Sûladan gain +20% armour and -15% trample deceleration \n\n When dismounted, Harondor infantry gain +33% damage, +25% armour, and +25% experience\nPassive ability",
+   "ru": "ЛКМ - Сесть верхом / спешиться\\nТип модификатора: Лидерство\\nЕсли верхом, Харондорские налетчики рядом с Суладаном получают +20% брони и -15% замедления при растаптывании\\nЕсли пеший, харондорская пехота наносит +33% урона, получает +33% брони и набирает опыт на +25% быстрее\\nПассивная способность",
+   "uk_ai": "Клікніть, щоб сісти верхи чи спішитися\n\nТип ефекту: Лідерство\nКоли Суладан верхи, налітники Гарондору поряд із ним отримують бонус +20% броні й на 15% менше сповільнюються під час топтання\n\nКоли Суладан пішки, піхота Гарондору отримує бонус +33% до пошкоджень, +25% броні й на 25% швидше набирає досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SuladanSpearThrow",
+   "type": "Кнопка",
+   "en": "Severing Strike (&R)",
+   "ru": "Рубящий удар (&R)",
+   "uk_ai": "Розсікаючий удар (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSeveringStrike",
+   "type": "Підказка",
+   "en": "A single sword strike that deals strong damage to unit or hero\nIf a targeted enemy dies from Severing Strike, nearby Harondor units gain +33% damage for 30 seconds\nAt rank 3, target enemy takes damage over time and is slowed by -33% for 30 seconds\nAt rank 6, damage of initial strike is increased\nLeft click then left click target",
+   "ru": "Сильный удар мечом по одиночной цели\\nЕсли удар окажется смертельным, то ближайшие войска Харондора будут наносить +33% урона в течение 30 секунд\\nНа уровне 3, враг получает урон с течением времени и замедляется на -33% на 30 секунд\\nНа уровне 6, урон значительно увеличивается\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Удар мечем, що завдає значних пошкоджень загону чи героєві\nЯкщо обраний ворог гине від «Розсікаючого удару», загони Гарондору поблизу на 30 сек. отримують бонус +33% до пошкоджень\nНа 3 рівні обраний ворог 30 сек. поступово отримує пошкодження й сповільнюється на 33%\nНа 6 рівні перший удар завдає ще більше пошкоджень\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BladeoftheSerpentLord",
+   "type": "Кнопка",
+   "en": "Serpent Lord's Gaze",
+   "ru": "Взор Повелителя змей (&T)",
+   "uk_ai": "Погляд Володаря змій",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBladeoftheSerpentLord",
+   "type": "Підказка",
+   "en": "Requires Level 3\nModifier Type: Debuff\nNearby enemy units suffer -15% speed\nPassive ability",
+   "ru": "Требуется уровень 3\\nТип модификатора: Ослабление\\nБлижайшие вражеские отряды теряют -15% скорости\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Ослаблення\nВорожі загони поблизу отримують штраф -15% швидкості\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SouthronConquest",
+   "type": "Кнопка",
+   "en": "Lands Retaken (&C)",
+   "ru": "Отвоеванные земли (&C)",
+   "uk_ai": "Відвойовані землі (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSouthronConquest",
+   "type": "Підказка",
+   "en": "Requires Level 5\nSummons the Banner of the Black Serpent, defended by various single Harondor infantry\nNearby enemy structures lose -25% armour\nNearby enemy fortresses lose -15% armour\nNearby enemy farms produce fewer resources\nBanner lasts for 90 seconds\nLeft click then left click target area",
+   "ru": "Требуется уровень 5\\nСуладан устанавливает Знамя Черного змея, охраняемое различными пехотинцами Харондора\\nБлижайшие вражеские строения теряют -25% брони\\nВражеская крепость теряет -15% брони\\nБлижайшие вражеские фермы производят меньше ресурсов\\nЗнамя действует в течение 90 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевое местоположение",
+   "uk_ai": "Необхідно: Рівень 5\nПрикликає стяг Чорного Змія, який захищають окремі піхотинці Гарондору\nВорожі споруди поблизу втрачають 25% броні\nВорожі фортеці поблизу втрачають 15% броні\nВорожі ферми поблизу дають менше ресурсів\nСтяг стоїть 90 сек.\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:Onslaught",
+   "type": "Кнопка",
+   "en": "Onslaught (&V)",
+   "ru": "Беспощадный натиск (&V)",
+   "uk_ai": "Стрімкий наступ (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipOnslaught",
+   "type": "Підказка",
+   "en": "Requires Level 8 \n Requires Sûladan to be mounted \n Modifier Type: Spell \n Sûladan and nearby cavalry gain +50% armour and -100% trample deceleration for 20 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 8\\nСуладан должен быть в седле\\nТип модификатора: Заклинание\\nСуладан и ближайшая кавалерия получают +50% брони и -100% замедления при растаптывании на 20 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 8\nСуладан має бути верхи\nТип ефекту: Заклинання\nСуладан і вершники поблизу на 20 сек. отримують бонус +50% броні й зовсім не сповільнюються під час топтання (-100%)\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

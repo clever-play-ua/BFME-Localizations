@@ -1,0 +1,110 @@
+{
+ "meta": {
+  "hero": "Roäc",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Dwarves"
+  ],
+  "alternate factions": [
+   "battle of the five armies",
+   "durins folk"
+  ],
+  "templates": [
+   "DwarvenRoac",
+   "DwarvenRoac_BotFA"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:EreborRoac",
+   "type": "Ім'я",
+   "en": "Roäc",
+   "ru": "Роак",
+   "uk_ai": "Роак",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PromoteRoacToLevel3",
+   "type": "Кнопка",
+   "en": "Lord of Ravens (&W)",
+   "ru": "Предводитель воронов (&W)",
+   "uk_ai": "Володар воронів (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPromoteRoacToLevel3",
+   "type": "Підказка",
+   "en": "Allows Roäc to grow in strength \n Left click to purchase upgrade \n\n Modifier Type: Leadership \n Rank 1: Allied units near Roäc gain +5% speed. \n Rank 3: Allied heroes near Roäc gain +10% experience gain.\n Rank 5: Allied units near Roäc gain +10% speed\n Passive ability",
+   "ru": "Позволяет Роаку расти в силе\\nЩелкните левой кнопкой мыши, чтобы повысить уровень\\n\\nТип модификатора: Лидерство\\nУровень 1: Союзники рядом с Роаком получают +5% скорости передвижения\\nУровень 3: Союзные герои рядом с Роаком набирают опыт на +10% быстрее\\nУровень 5: Союзники рядом с Роаком получают +10% скорости передвижения\\nПассивная способность",
+   "uk_ai": "Дає Роаку змогу рости в силі\nКлікніть, щоб придбати покращення\n\nТип ефекту: Лідерство\n1 рівень: Союзні загони поряд із Роаком отримують бонус +5% швидкості.\n3 рівень: Союзні герої поряд із Роаком на 10% швидше набирають досвід.\n5 рівень: Союзні загони поряд із Роаком отримують бонус +10% швидкості\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRoacLeadership",
+   "type": "Підказка",
+   "en": "Roäc becomes invisible while remaining still\n Roäc detects stealthed units \nPassive ability",
+   "ru": "Роак становится невидимым, если не двигается\\nРоак обнаруживает скрытых врагов\\nПассивная способность",
+   "uk_ai": "Роак стає невидимим, коли стоїть на місці\nРоак бачить невидимі загони\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRoacLeadership2",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Modifier Type: Passive Debuff\n Enemies under Roäc lose -15% speed. \n Passive ability",
+   "ru": "Требуется уровень 3\\nТип модификатора: Пассивное слабление\\nВражеские отряды рядом с Роаком теряют -15% скорости\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Пасивне ослаблення\nВороги поряд з Роаком втрачають 15% швидкості.\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRoacMessenger",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Summons a battalion of Iron Hills Riders \n Left click icon then left click on pathable location",
+   "ru": "Требуется уровень 5\\nПризывается отряд наездников Железных холмов\\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Необхідно: Рівень 5\nПрикликає загін вершників Залізних пагорбів\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PromoteRoacToLevel5",
+   "type": "Кнопка",
+   "en": "Lord of Ravens (&W)",
+   "ru": "Предводитель воронов (&W)",
+   "uk_ai": "Володар воронів (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPromoteRoacToLevel5",
+   "type": "Підказка",
+   "en": "Allows Roäc to grow in strength \n Left click to purchase upgrade \n\n Modifier Type: Leadership \n Rank 1: Allied units near Roäc gain +5% speed. \n Rank 3: Allied heroes near Roäc gain +10% experience gain.\n Rank 5: Allied units near Roäc gain +10% speed\n Passive ability",
+   "ru": "Позволяет Роаку расти в силе\\nЩелкните левой кнопкой мыши, чтобы повысить уровень\\n\\nТип модификатора: Лидерство\\nУровень 1: Союзники рядом с Роаком получают +5% скорости передвижения\\nУровень 3: Союзные герои рядом с Роаком набирают опыт на +10% быстрее\\nУровень 5: Союзники рядом с Роаком получают +10% скорости передвижения\\nПассивная способность",
+   "uk_ai": "Дає Роаку змогу рости в силі\nКлікніть, щоб придбати покращення\n\nТип ефекту: Лідерство\n1 рівень: Союзні загони поряд із Роаком отримують бонус +5% швидкості.\n3 рівень: Союзні герої поряд із Роаком на 10% швидше набирають досвід.\n5 рівень: Союзні загони поряд із Роаком отримують бонус +10% швидкості\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RoacLordofRavens",
+   "type": "Кнопка",
+   "en": "Lord of Ravens",
+   "ru": "Предводитель воронов",
+   "uk_ai": "Володар воронів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRoacLordofRavens",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Rank 1: Allied units near Roäc gain +5% speed. \n Rank 3: Allied heroes near Roäc gain +10% experience gain.\n Rank 5: Allied units near Roäc gain +10% speed\nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nУровень 1: Союзники рядом с Роаком получают +5% скорости передвижения\\nУровень 3: Союзные герои рядом с Роаком набирают опыт на +10% быстрее\\nУровень 5: Союзники рядом с Роаком получают +10% скорости передвижения\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\n1 рівень: Союзні загони поряд із Роаком отримують бонус +5% швидкості.\n3 рівень: союзні герої поряд із Роаком на 10% швидше набирають досвід.\n5 рівень: союзні загони поряд із Роаком отримують бонус +10% швидкості\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

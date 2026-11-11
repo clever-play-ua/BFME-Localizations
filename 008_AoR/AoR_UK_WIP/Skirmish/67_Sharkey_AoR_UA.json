@@ -1,0 +1,109 @@
+{
+ "meta": {
+  "hero": "Sharkey",
+  "uk_name": "Шаркі",
+  "faction (ini Side)": [
+   "Fellowship"
+  ],
+  "alternate factions": [
+   "ruffians",
+   "scouring"
+  ],
+  "templates": [
+   "CampaignSharkey"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:CampaignSharkey",
+   "type": "Ім'я",
+   "en": "Sharkey",
+   "ru": "",
+   "uk_ai": "Шаркі",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SharkeyBoss",
+   "type": "Кнопка",
+   "en": "The Chief (&W)",
+   "ru": "",
+   "uk_ai": "Ватажок (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSharkeyBoss",
+   "type": "Підказка",
+   "en": "Close range attack that blasts back enemies \n Left click icon then left click on target \n \n Modifier Type: Debuff \n Enemies near Sharkey lose all leadership and cannot gain experience\nPassive ability",
+   "ru": "",
+   "uk_ai": "Атака зблизька, що відкидає ворогів\nКлікніть на іконку, потім оберіть ціль\n\nТип ефекту: Ослаблення\nВороги поряд із Шаркі втрачають усе лідерство й не можуть набирати досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FallenIstari",
+   "type": "Кнопка",
+   "en": "Fallen Istari (&R)",
+   "ru": "",
+   "uk_ai": "Занепалий істар (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFallenIstari",
+   "type": "Підказка",
+   "en": "Requires Level 3\nTarget enemies' ability timers are set to just used and enemy units in target area flee in terror\nLeft click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3\nЗдібності вказаних ворогів скидаються, ніби їх щойно застосували, а ворожі загони на ділянці тікають у жаху\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SharkeyPilferedGoods",
+   "type": "Кнопка",
+   "en": "Pilfered Goods (&T)",
+   "ru": "",
+   "uk_ai": "Награбоване добро (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSharkeyPilferedGoods",
+   "type": "Підказка",
+   "en": "Requires Level 5\nDeals heavy damage and steals 300 resources from target structure\nLeft click then left click on target",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 5\nЗавдає великих пошкоджень вказаній споруді й краде з неї 300 од. ресурсів\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SharkeyTransfix",
+   "type": "Кнопка",
+   "en": "Transfix (&C)",
+   "ru": "",
+   "uk_ai": "Параліч (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSharkeyTransfix",
+   "type": "Підказка",
+   "en": "Requires Level 7\nTarget enemy hero is crippled and cannot deal damage for 10 seconds\nLeft click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 7\nВказаний ворожий герой 10 сек. скалічений і не може завдавати пошкоджень\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SharkeyDominate",
+   "type": "Кнопка",
+   "en": "Voice of Saruman (&V)",
+   "ru": "",
+   "uk_ai": "Голос Сарумана (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

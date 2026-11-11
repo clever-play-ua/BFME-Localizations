@@ -1,0 +1,271 @@
+{
+ "meta": {
+  "hero": "Beregond",
+  "uk_name": "Береґонд",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "MinasTirithOuter",
+   "MinasTirithInner",
+   "BlackGate",
+   "ScouringoftheShire"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignBeregond"
+   ],
+   "битва": [
+    "GondorBeregond",
+    "IthilienBeregond"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:GondorBeregond",
+   "type": "Ім'я",
+   "en": "Beregond",
+   "ru": "Берегонд",
+   "uk_ai": "Береґонд",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToggleBeregondWeapons",
+   "type": "Кнопка",
+   "en": "Toggle Weapon (&W)",
+   "ru": "Сменить оружие (&W)",
+   "uk_ai": "Змінити зброю (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleBeregondWeapons",
+   "type": "Підказка",
+   "en": "Left click to toggle between bow and spear",
+   "ru": "ЛКМ - перекоючените между луком или копьем",
+   "uk_ai": "Клікніть, щоб перемкнутися між луком і списом",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DefenderoftheWhiteCityB",
+   "type": "Кнопка",
+   "en": "Defender of the White City (Bow) (&R)",
+   "ru": "Защитник Белого города (лук) (&R)",
+   "uk_ai": "Захисник Білого міста (лук) (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDefenderoftheWhiteCityB",
+   "type": "Підказка",
+   "en": "Requires Level 2 \n Shoots an arrow that causes severe damage and does knockback \n Left click icon then left click on target unit",
+   "ru": "Требуется уровень 2\\nАтака дальнего боя, которая наносит серьезный урон и отбрасывает врагов\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 2\nПостріл, що завдає важких пошкоджень і відкидає ворогів\nКлікніть на іконку, потім оберіть загін",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BeregondSummonLeadership",
+   "type": "Кнопка",
+   "en": "Sworn Brothers (&T)",
+   "ru": "",
+   "uk_ai": "Брати по присязі (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBeregondSummonLeadership",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Beregond calls a group of bow-wielding Guards of the Citadel to defend targeted location. They are immobile, but remain stealthed and will attack any enemy that approaches.\n At level 7, summons a larger group of Guards of the Citadel\n Left click icon then left click on pathable location",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3 \n Береґонд кличе загін лучників Варти Цитаделі захищати вказане місце. Вони не можуть рухатися, але лишаються невидимими й атакують кожного ворога, що наблизиться.\n На 7 рівні прикликає більший загін вартових Цитаделі\n Клікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BeregondAmbushAbility",
+   "type": "Кнопка",
+   "en": "Nock, Draw, Loose! (&C)",
+   "ru": "",
+   "uk_ai": "Наклади, натягни, стріляй! (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBeregondAmbushAbility",
+   "type": "Підказка",
+   "en": "Requires Level 5\nBeregond calls his Citadel Guards to bombard anywhere within a great radius with a volley of arrows \n Left click icon then left click on target area",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 5\nБереґонд наказує вартовим Цитаделі обстріляти будь-яке місце у великому радіусі залпом стріл \n Клікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BeregondSacrifice",
+   "type": "Кнопка",
+   "en": "Sacrifice (&V)",
+   "ru": "Самопожертвование (&V)",
+   "uk_ai": "Самопожертва (&V)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBeregondSacrifice",
+   "type": "Підказка",
+   "en": "Requires Level 8 \n Modifier Type: Spell \n Beregond suffers heavy damage while targeted allied hero becomes immune to damage for 10 seconds\n Left click icon then left click on target hero",
+   "ru": "Требуется уровень 8\\nТип модификатора: Заклинание\\nБерегонд получает серьезный урон, защищая дружественного героя и наделяя его неуязвимостью на 10 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевого героя",
+   "uk_ai": "Необхідно: Рівень 8\nТип ефекту: Заклинання\nБереґонд отримує значні пошкодження, а обраний союзний герой на 10 сек. стає невразливим\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DefenderoftheWhiteCityS",
+   "type": "Кнопка",
+   "en": "Defender of the White City (Spear) (&R)",
+   "ru": "Защитник Белого города (копье) (&R)",
+   "uk_ai": "Захисник Білого міста (спис) (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDefenderoftheWhiteCityS",
+   "type": "Підказка",
+   "en": "Requires Level 2 \n Heavy melee attack that causes severe damage and does knockback \n Left click icon then left click on target unit",
+   "ru": "Требуется уровень 2\\nМощная атака копьем, которая наносит серьезный урон и отбрасывает врагов\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 2\nПотужний удар зблизька, що завдає важких пошкоджень і відкидає ворогів\nКлікніть на іконку, потім оберіть загін",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:BeregondGuardoftheCitadel",
+   "type": "Кнопка",
+   "en": "Guard of the Citadel",
+   "ru": "Страж Цитадели",
+   "uk_ai": "Вартовий Цитаделі",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBeregondGuardoftheCitadel",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Modifier Type: Spell \n Nearby structures gain +30% armour \nPassive ability",
+   "ru": "Требуется уровень 5\\nТип модификатора: Заклинание\\nБлижайшие строения получают +30% брони\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Заклинання\nСпоруди поблизу отримують бонус +30% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BeregondFierceLoyalty",
+   "type": "Кнопка",
+   "en": "Fierce Loyalty",
+   "ru": "Безоговорочная верность",
+   "uk_ai": "Палка вірність",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBeregondFierceLoyalty",
+   "type": "Підказка",
+   "en": "Requires Level 7 \n Modifier Type: Leadership \n Faramir, Boromir, and Pippin gain +15% armour and +15% damage when near Beregond \nPassive ability",
+   "ru": "Требуется уровень 7\\nТип модификатора: Лидерство\\nФарамир, Боромир и Пиппин наносят +15% урона и получают +15% брони, находясь рядом с Берегондом\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 7\nТип ефекту: Лідерство\nПоряд із Береґондом Фарамір, Боромир і Піпін отримують бонус +15% броні й +15% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBeregondFierceLoyaltyIthilien",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Faramir and Boromir gain +15% armour and +15% damage when near Beregond\nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nФарамир и Боромир наносят +15% урона и получают +15% брони, находясь рядом с Берегондом\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nФарамір і Боромир поряд із Береґондом отримують бонус +15% броні й +15% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DefenderoftheWhiteCityBIthilien",
+   "type": "Кнопка",
+   "en": "Defender of the Prince (Bow) (&T)",
+   "ru": "Защитник принца (лук) (&T)",
+   "uk_ai": "Захисник принца (лук) (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDefenderoftheWhiteCityBIthilien",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Shoots an arrow that causes severe damage and does knockback \n Left click icon then left click on target unit",
+   "ru": "Требуется уровень 3\\nДальная атака, наносящая сильный урон и отбрасывающая врагов\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 3\nПостріл, що завдає важких пошкоджень і відкидає ворогів\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BeregondWhiteCompany",
+   "type": "Кнопка",
+   "en": "Captain of the White Company (&C)",
+   "ru": "Капитан Белой дружины (&C)",
+   "uk_ai": "Капітан Білої дружини (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBeregondWhiteCompany",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Modifier Type: Spell \n Nearby structures gain +30% armour \nPassive ability\n\nTarget allied hero is temporarily guarded by Guards of the Citadel and gains +50% armour, +50% faster experience gain, and +75% faster power recharge times for 30 seconds\nLeft click then left click allied hero",
+   "ru": "Требуется уровень 5\\nТип модификатора: Заклинание\\nБлижайшие строения получают +30% брони\\nПассивная способность\\n\\nНа защиту союзного героя временно призываются Стражи цитадели, а сам герой получает +50% брони, +50% скорости набора опыта и +75% скорости восстановления способностей в течение 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевого союзного героя",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Заклинання\nСпоруди поблизу отримують бонус +30% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nОбраного союзного героя тимчасово охороняє Варта Цитаделі, а сам він на 30 сек. отримує бонус +50% броні, на 50% швидше набирає досвід і на 75% швидше відновлює здібності\nКлікніть на іконку, потім оберіть союзного героя",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BeregondDevotion",
+   "type": "Кнопка",
+   "en": "Devotion (&V)",
+   "ru": "Преданность (&V)",
+   "uk_ai": "Відданість (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBeregondDevotion",
+   "type": "Підказка",
+   "en": "Requires Level 8\nBeregond and nearby White Company units gain +50% damage and gain immunity to ranged damage and knockback for 20 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 8\\nБерегонд и ближайшие отряды Белой дружины наносят +50% урона и становятся невосприимчивыми к атакам дальнего боя и отбрасыванию на 20 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 8\nНа 20 сек. Береґонд і загони Білої дружини поблизу отримують бонус +50% до пошкоджень і імунітет до атак на відстані й відкидання\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DefenderoftheWhiteCitySIthilien",
+   "type": "Кнопка",
+   "en": "Defender of the Prince (Spear) (&T)",
+   "ru": "Защитник принца (копье) (&T)",
+   "uk_ai": "Захисник принца (спис) (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDefenderoftheWhiteCitySIthilien",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Heavy melee attack that causes severe damage and does knockback \n Left click icon then left click on target unit",
+   "ru": "Требуется уровень 3\\nМощная атака ближнего боя, отбрасывающая врагов\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 3\nПотужна атака ближнього бою, що завдає важких пошкоджень і відкидає ворогів\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

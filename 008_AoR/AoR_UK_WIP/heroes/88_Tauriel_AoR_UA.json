@@ -1,0 +1,133 @@
+{
+ "meta": {
+  "hero": "Tauriel",
+  "uk_name": "Тауріель",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "BattleUnderTrees"
+  ],
+  "templates": {
+   "кампанія": [
+    "MirkwoodTauriel"
+   ],
+   "битва": [
+    "MirkwoodTauriel"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:MirkwoodTauriel",
+   "type": "Ім'я",
+   "en": "Tauriel",
+   "ru": "Тауриэль",
+   "uk_ai": "Тауріель",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TaurielLeadership",
+   "type": "Кнопка",
+   "en": "Silvan Captain",
+   "ru": "Капитан сильван",
+   "uk_ai": "Капітан сильванів",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTaurielLeadership",
+   "type": "Підказка",
+   "en": "Nearby Silvan units gain +15% vision and attack range and +25% experience gain\n At Level 3, nearby Silvan units ability cooldown times are reduced by 25% \n Passive ability",
+   "ru": "Ближайшие отряды сильван получают +15% обзора, +15% дальности атаки и набирают опыт на +25% быстрее\\nНа уровне 3, время восстановления способностей ближайших воинов-сильван сокращается на 25%\\nПассивная способность",
+   "uk_ai": "Сильванські загони поблизу отримують бонус +15% дальності огляду й атаки та на 25% швидше набирають досвід\nНа 3 рівні здібності сильванських загонів поблизу відновлюються на 25% швидше\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TaurielSummon",
+   "type": "Кнопка",
+   "en": "Eyes and Ears (&R)",
+   "ru": "Глаза и уши (&R)",
+   "uk_ai": "Очі й вуха (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTaurielSummon",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Tauriel calls a group of stationary Silvan Rangers to defend targeted location\nThey are immobile, but remain stealthed when not attacking\n Left click icon then left click on pathable location",
+   "ru": "Требуется уровень 3\\nТауриэль призывает отряд следопытов-сильван для защиты местности\\nОни неподвижны, но остаются скрытыми, пока не атакуют\\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Необхідно: Рівень 3\nТауріель кличе загін сильванських слідопитів захищати обране місце\nВони не рухаються, але лишаються невидимими, поки не атакують\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TaurielFleetFooted",
+   "type": "Кнопка",
+   "en": "Fleet-footed (&T)",
+   "ru": "Ветроногая (&T)",
+   "uk_ai": "Прудконога (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTaurielFleetFooted",
+   "type": "Підказка",
+   "en": "Requires Level 4 \n Modifier Type: Spell \n Nearby infantry gains +20% movement speed for 30 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 4\\nТип модификатора: Заклинание\\nБлижайшая пехота получает +20% скорости передвижения на 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 4\nТип ефекту: Заклинання\nПіхота поблизу на 30 сек. отримує бонус +20% швидкості руху\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TaurielDecisiveStrike",
+   "type": "Кнопка",
+   "en": "Close Quarter Combat (&C)",
+   "ru": "Ближний бой (&C)",
+   "uk_ai": "Ближній бій (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTaurielDecisiveStrike",
+   "type": "Підказка",
+   "en": "Requires Level 5\nTauriel uses her twin daggers for 30 seconds\nIncreases attack damage by +33% and deals splash damage\nLeft click to activate",
+   "ru": "Требуется уровень 5\\nТауриэль использует свои парные кинжалы в течение 30 секунд\\nУвеличивает урон на +33% и наносит урон по площади\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nТауріель на 30 сек. бере парні кинджали\nПошкодження від атак зростають на 33%, удари б'ють по площі\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TaurielEscape",
+   "type": "Кнопка",
+   "en": "Daughter of the Forest (&V)",
+   "ru": "Дочь леса (&V)",
+   "uk_ai": "Дочка лісу (&V)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipTaurielEscape",
+   "type": "Підказка",
+   "en": "Requires Level 8 \n Tauriel is able to disappear into the trees when she wishes \nTauriel teleports to target area \nLeft click icon then left click on pathable location",
+   "ru": "Требуется уровень 8\\nТауриэль может исчезать за деревьями в любое время\\nТауриэль перемещается в выбранное место\\nЩелкните левой кнопкой мыши на значок, затем на целевое местоположение",
+   "uk_ai": "Необхідно: Рівень 8\nТауріель може зникнути серед дерев, коли захоче\nТауріель телепортується в обране місце\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

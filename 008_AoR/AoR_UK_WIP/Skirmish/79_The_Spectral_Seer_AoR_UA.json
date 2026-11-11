@@ -1,0 +1,99 @@
+{
+ "meta": {
+  "hero": "The Spectral Seer",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Dunharrow"
+  ],
+  "alternate factions": [
+   "dunharrow"
+  ],
+  "templates": [
+   "DunharrowSpectralSeer"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:OathbreakerDruid",
+   "type": "Ім'я",
+   "en": "The Spectral Seer",
+   "ru": "",
+   "uk_ai": "Примарний провидець",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SeerUrsineSpirits",
+   "type": "Кнопка",
+   "en": "Ursine Spirits",
+   "ru": "",
+   "uk_ai": "Ведмежі духи",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSeerUrsineSpirits",
+   "type": "Підказка",
+   "en": "The Spectral Seer is always surrounded by 2 Spirit Bears that can be individually controlled\nModifier Type: Leadership\nNearby Spirit bears gain +15 armour and +25 damage\nPassive ability",
+   "ru": "",
+   "uk_ai": "Примарного провидця завжди оточують 2 ведмеді-духи, якими можна керувати окремо\nТип ефекту: Лідерство\nВедмеді-духи поблизу отримують бонус +15 до броні й +25 до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SeerAncestorsWrath",
+   "type": "Кнопка",
+   "en": "Ancestor's Wrath (&R)",
+   "ru": "",
+   "uk_ai": "Гнів предків (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDunharrowSeerAncestorsWrath",
+   "type": "Підказка",
+   "en": "Requires Level 3\nThe Spectral Seer lets out a blood-curdling roar\nNearby enemy units flee in terror\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3\nПримарний провидець видає моторошний рев\nВорожі загони поблизу тікають у жаху\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SeerEchoOfArtu",
+   "type": "Кнопка",
+   "en": "Echo of Artú (&T)",
+   "ru": "",
+   "uk_ai": "Відлуння Арту (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipDunharrowSeerEchoOfArtu",
+   "type": "Підказка",
+   "en": "Requires Level 5\nThe Spectral Seer remembers the might of Artú\nFor a 30 seconds, each consecutive attack summons a temporary Spirit Bear, up to a maximum of 3, for 10 seconds\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 5\nПримарний провидець згадує міць Арту\nПротягом 30 сек. кожна наступна атака прикликає на 10 сек. тимчасового ведмедя-духа, але не більше 3\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SeerCorpseFlies",
+   "type": "Кнопка",
+   "en": "Corpse Flies (&C)",
+   "ru": "",
+   "uk_ai": "Трупні мухи (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDunharrowSeerCorpseFlies",
+   "type": "Підказка",
+   "en": "Requires Level 7\nTargeted enemy units are beset by a cloud of Corpse Flies,\ncausing them to lose 50% vision and 25% armour\nand take damage over time for 15 seconds\nLeft click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 7\nОбрані ворожі загони оточує хмара трупних мух,\nзагони втрачають 50% огляду й 25% броні\nта 15 сек. поступово отримують пошкодження\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

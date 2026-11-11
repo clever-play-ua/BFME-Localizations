@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "hero": "Bard the Bowman",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Dwarves"
+  ],
+  "alternate factions": [
+   "battle of the five armies"
+  ],
+  "templates": [
+   "DwarvenCaptainofDale"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:DwarvenCaptainofDale",
+   "type": "Ім'я",
+   "en": "Bard the Bowman",
+   "ru": "Бард Лучник",
+   "uk_ai": "Бард Лучник",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BardSlamArrow",
+   "type": "Кнопка",
+   "en": "Black Arrow of Dale (&W)",
+   "ru": "Черная стрела Дэйла (&W)",
+   "uk_ai": "Чорна стріла Дейлу (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBardSlamArrow",
+   "type": "Підказка",
+   "en": "A precise arrow shot that decreases enemy armour by -33% for 15 seconds\n Left click icon then left click on target unit",
+   "ru": "Точный выстрел, снижающий броню цели на -33% в течение 25 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Влучний постріл, що на 15 сек. знижує броню ураженого ворога на 33%\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BardLeadership",
+   "type": "Кнопка",
+   "en": "Descendant of Girion",
+   "ru": "Потомок Гириона",
+   "uk_ai": "Нащадок Ґіріона",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBardLeadership",
+   "type": "Підказка",
+   "en": "Requires Level 8 \n Modifier Type: Leadership \n Archers near Bard gain +33% damage, +33% vision and +15% attack range \nPassive ability",
+   "ru": "Требуется уровень 8\\nТип модификатора: Лидерство\\nЛучники рядом с Бардом наносят +33% урона, получают +33% обзора и +15% дальности атаки\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 8\nТип ефекту: Лідерство\nЛучники поряд із Бардом отримують бонус +33% до пошкоджень, +33% дальності огляду й +15% дальності атаки\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FishBarrel",
+   "type": "Кнопка",
+   "en": "Honest Bargeman (&R)",
+   "ru": "Честный барочник (&R)",
+   "uk_ai": "Чесний човняр (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFishBarrel",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Bard delivers several barrels of fish that heals nearby units\n Left click on icon then left click on target position",
+   "ru": "Требуется уровень 3\\nБард выставляет несколько бочек с рыбой, которые исцеляют ближайших союзников\\nЩелкните левой кнопкой мыши на значок, затем на целевое местоположение",
+   "uk_ai": "Необхідно: Рівень 3\nБард виставляє кілька діжок риби, що зцілюють загони поблизу\nКлікніть на іконку, потім оберіть місце",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BardRabbleRouser",
+   "type": "Кнопка",
+   "en": "Rabble-rouser (&T)",
+   "ru": "Подстрекатель (&T)",
+   "uk_ai": "Провокатор (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBardRabbleRouser",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Targeted units gain moderate experience \nOnly affects Lake-town units\n Left click icon then left click on target units",
+   "ru": "Требуется уровень 5\\nОтряды людей Озерного города в области действия получают среднее количество опыта\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 5\nМиттєво наділяє обрані загони помірною кількістю досвіду\nДіє лише на загони Озерного міста\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BrandDeadEye",
+   "type": "Кнопка",
+   "en": "Dragonslayer (&V)",
+   "ru": "Убийца дракона (&V)",
+   "uk_ai": "Драконоборець (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBardDeadEye",
+   "type": "Підказка",
+   "en": "Requires Level 10 \n Bard summons a thrush\n He gains +33% attack speed, +70% damage, and +30% range\n Bard does bonus damage against monsters and flying units\nLasts for 20 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 10\\nБард призывает дрозда\\nБард наносит +70% урона, получает +33% скорости атаки и +30% дальности атак\\nБард наносит дополнительный урон монстрам и летающим врагам\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10\nБард кличе дрозда\nВін отримує бонус +33% швидкості атаки, +70% до пошкоджень і +30% дальності атаки\nБард завдає додаткових пошкоджень створінням і летючим істотам\nДіє 20 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

@@ -1,0 +1,286 @@
+{
+ "meta": {
+  "hero": "Aragorn",
+  "uk_name": "Араґорн",
+  "campaigns": [
+   "FotR",
+   "TTT",
+   "RotK"
+  ],
+  "missions": [
+   "Party",
+   "Bree",
+   "Weathertop",
+   "Council",
+   "Redhorn",
+   "Moria",
+   "Khazad",
+   "Lothlorien",
+   "AmonHen",
+   "FordsofIsen",
+   "TamingofSmeagol",
+   "EavesofFangorn",
+   "DurinsTower",
+   "Ithilien",
+   "Westfold",
+   "GreyCompany",
+   "Osgiliath",
+   "HelmsDeep",
+   "Isengard",
+   "LordoftheRings",
+   "LightingoftheBeacons",
+   "PathsoftheDead",
+   "Pelargir",
+   "MinasTirithOuter",
+   "CirithUngol",
+   "MinasTirithInner",
+   "PelennorFields",
+   "BlackGate",
+   "ManyPartings",
+   "ScouringoftheShire",
+   "GreyHavens"
+  ],
+  "templates": {
+   "кампанія": [
+    "FellowshipAragorn",
+    "FellowshipAragornNoLight",
+    "GondorAragorn"
+   ],
+   "битва": [
+    "ElvenAragorn"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:GondorAragorn",
+   "type": "Ім'я",
+   "en": "Aragorn",
+   "ru": "Арагорн",
+   "uk_ai": "Араґорн",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellowshipAthelas",
+   "type": "Кнопка",
+   "en": "Kingsfoil (&R)",
+   "ru": "Королевский лист (&R)",
+   "uk_ai": "Атгелас — королівське листя (&R)",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipFellowshipAthelas",
+   "type": "Підказка",
+   "en": "Heals nearby friendly Heroes \n Left click to activate",
+   "ru": "Исцеляет ближайших союзных героев\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Зцілює союзних героїв поблизу \n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellowshipAragornBlademaster",
+   "type": "Кнопка",
+   "en": "Faithful Protector (&T)",
+   "ru": "Верный защитник (&T)",
+   "uk_ai": "Вірний захисник (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipFellowshipAragornBlademaster",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Aragorn gains +100% damage, +100% armour, knocks back enemies and deals fire damage for 30 seconds\nCan only use with sword equipped\n Left click to activate",
+   "ru": "Требуется уровень 5\\nАрагорн наносит +100% урона и получает +100% брони\\nв течение 30 секунд\\nИспользуется только с экипированным мечом\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5 \n Араґорн отримує бонус +100% до пошкоджень, +100% броні, відкидає ворогів своїми ударами й завдає пошкоджень вогнем на 30 сек.\nДоступно лише з мечем\n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellowshipAragornLeaderofMen",
+   "type": "Кнопка",
+   "en": "Leader of Men (&C)",
+   "ru": "Предводитель людей (&C)",
+   "uk_ai": "Лідер вільних людей (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellowshipAragornLeaderofMen",
+   "type": "Підказка",
+   "en": "Requires Level 8 \n Modifier Type: Spell \n Nearby friendly units gain +33% armour\nPassive ability\n \n When activated, units near Aragorn gain +50% damage and immunity to fear and terror for 20 seconds \n Left click to activate",
+   "ru": "Требуется уровень 8\\nТип модификатора: Заклинание\\nБлижайшие отряды получают +33% брони\\n\\nПосле активации, войска рядом с Арагорном временно наносят +50% урона и становятся невосприимчивыми к ужасу\\nЩелкните левой кнопкой мыши на значок, чтобы применить",
+   "uk_ai": "Необхідно: Рівень 8\nТип ефекту: Заклинання\nСоюзні загони поблизу отримують бонус +33% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації загони поряд з Араґорном на 20 сек. отримують бонус +50% до пошкоджень і імунітет до страху та жаху\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:Athelas",
+   "type": "Кнопка",
+   "en": "Kingsfoil (&R)",
+   "ru": "Королевский лист (&R)",
+   "uk_ai": "Атгелас — королівське листя (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipAthelas",
+   "type": "Підказка",
+   "en": "Heals nearby friendly Heroes \n Left click to activate",
+   "ru": "Исцеление находящихся рядом союзных героев\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Зцілює союзних героїв поблизу \n Клікніть, щоб активувати",
+   "status": "RotWK UA",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AragornBladeMaster",
+   "type": "Кнопка",
+   "en": "Flame of the &West",
+   "ru": "Пламя Запада (&W)",
+   "uk_ai": "Полум'я Заходу (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipBladeMaster",
+   "type": "Підказка",
+   "en": "Requires Level 2 \n Aragorn temporarily gains\n+100% damage, +100% armour \n Left click to activate",
+   "ru": "Требуется уровень 2\\nВ течение некоторого времени Арагорн наносит +100% урона и получает +100% брони\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 2\nАраґорн тимчасово отримує бонус\n+100% до пошкоджень і +100% броні\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AragornLeadership",
+   "type": "Кнопка",
+   "en": "Elessar Telcontar",
+   "ru": "Элессар Телконтар",
+   "uk_ai": "Король Елессар Телконтар",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAragornLeadership",
+   "type": "Підказка",
+   "en": "Requires Level 4 \n Modifier Type: Leadership \n Allies near Aragorn gain +33% damage, +33% armour, and earn experience 50% faster \nPassive ability",
+   "ru": "Требуется уровень 4\\nТип модификатора: Лидерство\\nВоины рядом с Арагорном наносят +33% урона, получают +33% брони и набирают опыт на +50% быстрее\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 4\nТип ефекту: Лідерство\nСоюзники поряд з Араґорном отримують бонус +33% до пошкоджень, +33% броні й на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:Elendil",
+   "type": "Кнопка",
+   "en": "&Elendil!",
+   "ru": "Элендил! (&E)",
+   "uk_ai": "Еленділ [Друг ельфів] (&E)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElendil",
+   "type": "Підказка",
+   "en": "Requires Level 6 \n Causes nearby enemy units to flee \n Left click to activate",
+   "ru": "Требуется уровень 6\\nОбращает в бегство ближайших врагов\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 6\nВорожі загони поблизу тікають\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GreyHost",
+   "type": "Кнопка",
+   "en": "&The Grey Host",
+   "ru": "Серое воинство (&T)",
+   "uk_ai": "Сіре воїнство (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipGreyHost",
+   "type": "Підказка",
+   "en": "Requires Level 9 \n Summons Halbarad and several bands of Dúnedain to Aragorn's side \n Left click icon to activate",
+   "ru": "Требуется уровень 9\\nПризывается Хальбарад с несколькими отрядами дунэдайн\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 9\nАраґорн прикликає Галбарада й кілька загонів дунедайн\nКлікніть на іконку, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:DunedainChieftain",
+   "type": "Кнопка",
+   "en": "Chieftain of the Dúnedain",
+   "ru": "Вождь дунэдайн",
+   "uk_ai": "Отаман дунедайн",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDunedainChieftain",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nNearby Dúnedain gain +33% attack damage \n and become immune to fear and terror\nStacks with Buffs and Spells\n Passive ability \n \n Isildur's Heir \n Requires Level 9 and Andúril Upgrade \n Nearby Dúnedain gain +33% attack damage \n and become immune to fear and terror\n When activated, all nearby units gain +33% damage and +50% armour for 20 seconds",
+   "ru": "Тип модификатора: Лидерство\\nБлижайшие воины дунэдайн наносят +33% урона и становятся невосприимчивыми к страху и ужасу\\nСочетается с усилениями и заклинаниями\\nПассивная способность\\n\\nНаследник Исильдура\\nТребуется уровень 9 и улучшение Андурил\\nПосле активации, все ближайшие союзные отряды наносят +33% урона и получают +50% брони на 20 секунд",
+   "uk_ai": "Тип ефекту: Лідерство\nДунедайн поблизу отримують бонус +33% до пошкоджень від атак\nі імунітет до страху та жаху\nПоєднується з посиленнями й заклинаннями\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nСпадкоємець Ісілдура\nНеобхідно: Рівень 9 й покращення «Андуріл»\nДунедайн поблизу отримують бонус +33% до пошкоджень від атак\nі імунітет до страху та жаху\nПісля активації всі загони поблизу на 20 сек. отримують бонус +33% до пошкоджень і +50% броні",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MasterTracker",
+   "type": "Кнопка",
+   "en": "Master Tracker (&C)",
+   "ru": "Мастер-следопыт (&C)",
+   "uk_ai": "Майстер-слідопит (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMasterTrackerAbility",
+   "type": "Підказка",
+   "en": "Requires Level 3 \nModifier Type: Spell\nAragorn gains +150% vision range and +25% range while nearby allies gain +15% movement speed for 25 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 3\\nТип модификатора: Заклинание\\nАрагорн получает +150% обзора и +25% дальности атаки, в то время как ближайшие союзники получают +15% скорости передвижения на 25 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Заклинання\nАраґорн на 25 сек. отримує бонус +150% дальності огляду й +25% дальності атаки, а союзники поблизу +15% швидкості руху\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ArnorAragornBlademaster",
+   "type": "Кнопка",
+   "en": "A Fire Shall Be Woken (&V)",
+   "ru": "Пробудится былой огонь! (&V)",
+   "uk_ai": "Вогонь буде пробуджено (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipArnorAragornBlademaster",
+   "type": "Підказка",
+   "en": "Requires Level 6 \n Aragorn wields a torch and deals knockback damage \n Aragorn gains +50% damage and +25% armour for 30 seconds\n While the ability is active, nearby heroes gain +10% armour \n Can only use with sword equipped \n Left click to activate",
+   "ru": "Требуется уровень 6\\nАрагорн использует факел, нанося +50% урона, получая +25% брони\\nи отбрасывая врагов атаками\\nПока способность активна ближайшие герои получают +10% брони\\nМожно использовать только с мечом\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 6\nАраґорн бере смолоскип і відкидає ворогів своїми ударами\nАраґорн на 30 сек. отримує бонус +50% до пошкоджень і +25% броні\nПоки діє здібність, герої поблизу отримують бонус +10% броні\nМожна активувати лише коли Араґорн озброєний мечем\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AragornIsildurHeir",
+   "type": "Кнопка",
+   "en": "Isildur's Heir (&T)",
+   "ru": "Наследник Исильдура (&T)",
+   "uk_ai": "Спадкоємець Ісілдура (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellowshipAragornIsildurHeir",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nNearby Dúnedain gain +33% attack damage and become immune to fear and terror\nStacks with Buffs and Spells\n Passive ability \n\n Active ability: Requires Level 9 and Andúril \n When activated, all nearby units gain +33% damage and +50% armour for 20 seconds",
+   "ru": "Тип модификатора: Лидерство\\nБлижайшие воины дунэдайн наносят +33% урона и становятся невосприимчивыми к страху и ужасу\\nПассивная способность\\n\\nАктивное умение:\\nТребуется уровень 9 и улучшение Андурил\\nПосле активации, все ближайшие отряды наносят +33% урона и получают +50% брони на 20 секунд",
+   "uk_ai": "Тип ефекту: Лідерство\nДунедайн поблизу отримують бонус +33% до пошкоджень від атак і імунітет до страху та жаху\nПоєднується з посиленнями й заклинаннями\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nАктивна здібність. Необхідно: Рівень 9 і Андуріл\nПісля активації всі загони поблизу на 20 сек. отримують бонус +33% до пошкоджень і +50% броні",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

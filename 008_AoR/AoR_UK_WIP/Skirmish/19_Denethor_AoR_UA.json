@@ -1,0 +1,115 @@
+{
+ "meta": {
+  "hero": "Denethor",
+  "uk_name": "Денетор",
+  "faction (ini Side)": [
+   "Men"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "GondorDenethor"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:GondorDenethor",
+   "type": "Ім'я",
+   "en": "Denethor",
+   "ru": "Дэнетор",
+   "uk_ai": "Денетор",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DenethorSteward",
+   "type": "Кнопка",
+   "en": "Steward of Gondor",
+   "ru": "Наместник Гондора",
+   "uk_ai": "Намісник Ґондору",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipStewardLvl10",
+   "type": "Підказка",
+   "en": "Denethor is protected by his guards \n\n Modifier Type: Leadership \n Rank 1: Allied units near Denethor gain +25% armour \n Faramir loses -15% armour and -15% experience gain \n Rank 3: Allied units near Denethor gain +25% damage \n Gandalf loses -15% armour and -15% experience gain \n Rank 6: Allied units near Denethor gain +25% experience gain \n Elessar loses -15% armour\nPassive ability",
+   "ru": "Дэнетор под защитой своих стражей\\n\\nТип модификатора: Лидерство\\nУровень 1: Союзные войска рядом с Дэнетором получают +25% брони\\nФарамир теряет -15% брони и -15% скорости набора опыта\\nУровень 3: Союзные войска рядом с Дэнетором наносят +25% урона\\nГэндальф теряет -15% брони и -15% скорости набора опыта\\nУровень 6: Союзные войска рядом с Дэнетором набирают опыт на +25% быстрее\\nЭлессар теряет -15% брони\\nПассивная способность",
+   "uk_ai": "Денетор під захистом своїх вартових\n\nТип ефекту: Лідерство\n1 рівень: Союзні загони поряд із Денетором отримують бонус +25% броні\nФарамір втрачає 15% броні й на 15% повільніше набирає досвід\n3 рівень: Союзні загони поряд із Денетором отримують бонус +25% до пошкоджень\nҐендальф втрачає 15% броні й на 15% повільніше набирає досвід\n6 рівень: Союзні загони поряд із Денетором на 25% швидше набирають досвід\nЕлессар (Араґорн) втрачає 15% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DenethorPalantir",
+   "type": "Кнопка",
+   "en": "Stone of Anárion (&R)",
+   "ru": "Камень Анариона (&R)",
+   "uk_ai": "Камінь Анаріона (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipDenethorPalantir",
+   "type": "Підказка",
+   "en": "Can be cast to reveal shroud for 2 minutes\n \n Modifier Type: Active Debuff \n Targeted units, both friend and foe, lose all leadership for 30 seconds\n \n Left click on icon then left click on target area",
+   "ru": "Требуется уровень 3\\nМожет быть использован, чтобы рассеять туман войны на 2 минуты\\nТип модификатора: Ослабление\\nВойска в области действия, как союзные, так и вражеские, теряют все лидерство на 30 секунд\\n\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Можна застосувати, щоб розсіяти туман війни на 2 хв.\n\nТип ефекту: Активне ослаблення\nОбрані загони, і союзні, і ворожі, на 30 сек. втрачають усе лідерство\n\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DenethorHighAuthority",
+   "type": "Кнопка",
+   "en": "High Authority (&T)",
+   "ru": "Высокий авторитет (&T)",
+   "uk_ai": "Високий авторитет (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDenethorHighAuthority",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Commands targeted enemy units to flee in terror\n Left click on icon then left click on target units",
+   "ru": "Требуется уровень 3\\nВражеские войска в ужасе разбегаются\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 3\nЗмушує обрані ворожі загони тікати в жаху\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DenethorSummon",
+   "type": "Кнопка",
+   "en": "In Service of the Steward (&C)",
+   "ru": "На службе у наместника (&C)",
+   "uk_ai": "На службі в намісника (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDenethorSummon",
+   "type": "Підказка",
+   "en": "Requires Level 6 \n Summons a temporary battalion of Guards of the Citadel \n At level 10, also temporarily summons Berethor \n Left click on icon to activate",
+   "ru": "Требуется уровень 6\\nПризывается отряд стражей Цитадели\\nНа уровне 10, также призывается Беретор\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 6\nТимчасово прикликає загін Варти Цитаделі\nНа 10 рівні також тимчасово прикликає Беретора\nКлікніть на іконку, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DenethorContest",
+   "type": "Кнопка",
+   "en": "Contest of Wills (&V)",
+   "ru": "Испытание веры (&V)",
+   "uk_ai": "Змагання волі (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDenethorContest",
+   "type": "Підказка",
+   "en": "Requires Level 9 \n When cast on a friendly hero, increases damage output by +100% at the cost of -50% armour for 15 seconds\n When cast on an enemy hero, causes the hero to lose -33% armour and speed for 15 seconds\n Left click on icon then left click on target hero",
+   "ru": "Требуется уровень 9\\nПри использовании на союзного героя, его урон увеличивается на +100%, но броня уменьшается на -50% в течение 15 секунд\\nПри использовании на вражеского героя, он теряет -33% брони и скорости на 15 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевого героя",
+   "uk_ai": "Необхідно: Рівень 9\nЯкщо застосувати до союзного героя, це на 15 сек. збільшує його пошкодження на 100% ціною штрафу -50% броні\nЯкщо застосувати до ворожого героя, на 15 сек. той втрачає 33% броні й швидкості\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

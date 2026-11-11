@@ -1,0 +1,187 @@
+{
+ "meta": {
+  "hero": "Treebeard",
+  "uk_name": "Деревоборід",
+  "campaigns": [
+   "FotR",
+   "TTT",
+   "RotK"
+  ],
+  "missions": [
+   "Lothlorien",
+   "Isengard",
+   "MinasTirithOuter"
+  ],
+  "templates": {
+   "кампанія": [
+    "RohanTreeBerd"
+   ],
+   "битва": [
+    "RohanTreeBerd"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею.",
+  "see_also": "Спільні з іншими героями рядки є лише в одному файлі: Legolas"
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:RohanTreeBeard",
+   "type": "Ім'я",
+   "en": "Treebeard",
+   "ru": "Древобород",
+   "uk_ai": "Деревоборід",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ThrowRocks",
+   "type": "Кнопка",
+   "en": "Throw Rocks (&W)",
+   "ru": "Метание камней (&W)",
+   "uk_ai": "Кидати каміння (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipThrowRocks",
+   "type": "Підказка",
+   "en": "Switch to rock throwing mode",
+   "ru": "Метание камней во врагов",
+   "uk_ai": "Метання каменів у ворога.",
+   "status": "RotWK UA",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TreeBeardLeadership",
+   "type": "Кнопка",
+   "en": "March of the Ents",
+   "ru": "Последний поход энтов",
+   "uk_ai": "Похід ентів",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTreeBeardLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Spell \n Allied Ents and Huorns near Treebeard gain +50% armour, +25% vision and attack range \nPassive ability",
+   "ru": "Тип модификатора: Заклинание\\nЭнты и гворны рядом с Древобородом получают +50% брони, +25% обзора и +25% дальности атаки\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Заклинання\nСоюзні енти й гуорни поряд із Деревобородом отримують бонус +50% броні та +25% дальності огляду й атаки\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TreebeardRoar",
+   "type": "Кнопка",
+   "en": "Roar (&C)",
+   "ru": "Рев (&C)",
+   "uk_ai": "Рев (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTreebeardRoar",
+   "type": "Підказка",
+   "en": "Treebeard sounds a mighty Roar \n Treebeard, nearby Ents and Huorns become enraged and gain +50% speed and +33% armour against spearmen for 30 seconds \n\n Gifts of Lorien effect: \n Causes nearby enemies to flee in terror \n Left click to activate",
+   "ru": "Древобород издает могучий рев\\nДревобород, ближайшие энты и гворны приходят в ярость и получают +50% скорости на 30 секунд\\n\\nЭффект Дара Лориэна:\\nЗаставляет ближайших врагов разбегаться в ужасе\\nЩелкните левой кнопкой мыши на значок, чтобы активировать",
+   "uk_ai": "Деревоборід видає могутній рев\nДеревоборід, енти й гуорни поблизу шаленіють і на 30 сек. отримують бонус +50% швидкості й +33% броні проти списоносців\n\nЕфект «Дарів Лоріену»:\nВороги поблизу тікають у жаху\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TransportExitTreebeard",
+   "type": "Кнопка",
+   "en": "Ex&it Treebeard",
+   "ru": "Спуститься с Древоборода (&I)",
+   "uk_ai": "Злізти з Деревоборода (&I)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GrabBuildingChunk",
+   "type": "Кнопка",
+   "en": "Grab &Building Chunk",
+   "ru": "Камень (&B)",
+   "uk_ai": "Камінь (&B)",
+   "status": "RotWK UA",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityGrabBuildingChunk",
+   "type": "Підказка",
+   "en": "Pulls rock from building \n Left click icon then left click on target",
+   "ru": "Выламывание камня из постройки\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Виламування каменю з будівлі. \n Клікніть на іконку, потім оберіть ціль",
+   "status": "RotWK UA",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipBombard",
+   "type": "Підказка",
+   "en": "Bombard target area with devastating artillery\nLeft click icon then left click on target area",
+   "ru": "Обстрел участка поля боя из осадных орудий\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Артилерійський обстріл з облогових машин\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "вичитано",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToggleTrebWeapon",
+   "type": "Кнопка",
+   "en": "Bombard (&R)",
+   "ru": "Обстрел (&R)",
+   "uk_ai": "Обстрілювати (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:StopBombard",
+   "type": "Кнопка",
+   "en": "Stop Bombarding (&R)",
+   "ru": "Прекратить обстрел (&R)",
+   "uk_ai": "Припинити обстріл (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandStopBombard",
+   "type": "Підказка",
+   "en": "Left click to stop bombarding",
+   "ru": "ЛКМ - прекращение обстрела",
+   "uk_ai": "Клікніть, щоб припинити обстріл",
+   "status": "RotWK UA",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:ConstructTreebeard",
+   "type": "Кнопка",
+   "en": "Treebeard (&E)",
+   "ru": "Древобород (&E)",
+   "uk_ai": "Деревоборід (&E)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildTreebeard",
+   "type": "Підказка",
+   "en": "Strong vs. Swordsmen and Structures \n \n 'You must understand, young Hobbit, it takes a long time to say anything in Old Entish. And we never say anything unless it is worth taking a long time to say.'",
+   "ru": "Силен против мечников и строений\\n\\n\"Вы должны понять, юные хоббиты, разговор на древнем языке энтов занимает много времени. Если разговор не стоит того, то мы лучше помолчим.\"",
+   "uk_ai": "Ефективний проти: мечники й споруди\n\n«Розумієш, юний гобіте, староентською все кажеться дуже довго. І ми ніколи нічого не кажемо, якщо воно не варте того, щоб довго казати».",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "meta": {
+  "hero": "Gothmog",
+  "uk_name": "Ґотмоґ",
+  "faction (ini Side)": [
+   "Mordor",
+   "Morgul"
+  ],
+  "alternate factions": [
+   "morgul"
+  ],
+  "templates": [
+   "MordorGothmog",
+   "MorgulGothmog"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:MordorGothmog",
+   "type": "Ім'я",
+   "en": "Gothmog",
+   "ru": "Готмог",
+   "uk_ai": "Ґотмоґ",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GothmogToggleMounted",
+   "type": "Кнопка",
+   "en": "Mount / Dismount (&W)",
+   "ru": "Сесть верхом (&W) \\ Спешиться",
+   "uk_ai": "Сісти верхи / Спішитися (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGothmogToggleMounted",
+   "type": "Підказка",
+   "en": "Left click to mount/dismount Gothmog's Warg",
+   "ru": "ЛКМ - сесть на варга\\спешиться",
+   "uk_ai": "Клікніть, щоб осідлати варґа Ґотмоґа чи спішитися",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GothmogIronHand",
+   "type": "Кнопка",
+   "en": "Time of the Orc (&R)",
+   "ru": "Вождь орков (&R)",
+   "uk_ai": "Епоха орків (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGothmogIronHand",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nOrcs near Gothmog gain \n +33% damage, +33% armour,\n Immunity to fear and terror \nand earn experience 33% faster\nPassive ability\n\nAt rank 5, can be activated to call down a barrage of severed heads into a targeted area, causing fear in enemy units and dealing poison damage for 20 seconds\nLeft click icon then click on target area",
+   "ru": "Тип модификатора: Лидерство\\nОрки рядом с Готмогом наносят +33% урона,\\nполучают +33% брони, набирают опыт на +33% быстрее\\nи становятся невосприимчивыми к страху и ужасу\\nПассивная способность\\n\\nНа уровне 5, может быть активировано, чтобы вызвать обстрел целевой области отрубленными головами, наносящий урон ядом и заставляющий врагов цепенеть от страха в течение 20 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Тип ефекту: Лідерство\nОрки поряд із Ґотмоґом отримують бонус\n+33% до пошкоджень, +33% броні\nімунітет до страху та жаху\nі на 33% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nНа 5 рівні можна активувати, щоб обстріляти обрану ділянку відрубаними головами, які лякають ворожі загони й 20 сек. завдають пошкоджень отрутою\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GothmogOrcSummon",
+   "type": "Кнопка",
+   "en": "Form Ranks, Maggots! (&T)",
+   "ru": "Готовьтесь к бою, черви! (&T)",
+   "uk_ai": "Шикуйтеся, хробаки! (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGothmogOrcSummon",
+   "type": "Підказка",
+   "en": "Requires Level 3\nSummons a horde of Morgul Pikemen around Gothmog\nMorgul Pikemen grant a small damage boost\nto nearby orc archers\nAt rank 7, summons an additional horde of Morgul Pikemen\nGothmog can only cast when dismounted\nLeft click to activate",
+   "ru": "Требуется уровень 3\\nГотмог призывает отряд моргульских копейщиков в тяжелых доспехах,\\nкоторые ненамного увеличивают урон ближайших орков-лучников\\nНа уровне 7, призываются два отряда моргульских копейщиков\\nНельзя использовать верхом на варге\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nПрикликає навколо Ґотмоґа орду морґульських пікінерів\nМорґульські пікінери трохи посилюють пошкодження\nорків-лучників, що поблизу\nНа 7 рівні прикликає ще 1 орду морґульських пікінерів\nҐотмоґ може застосувати здібність лише пішки\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GothmogSiegeMaster",
+   "type": "Кнопка",
+   "en": "Master of Siege (&C)",
+   "ru": "Мастер осады (&C)",
+   "uk_ai": "Експерт з облоги (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGothmogSiegeMaster",
+   "type": "Підказка",
+   "en": "Requires Level 6\nPermanently  upgrades targeted Catapult into a Troll Catapult\nLeft click icon then left click on target",
+   "ru": "Требуется уровень 6\\nТип модификатора: Заклинание\\nЦелевая катапульта навсегда получает увеличение урона на +15% и +25% скорости перезарядки\\nЩелкните левой кнопкой мыши на значок, затем на целевую катапульту",
+   "uk_ai": "Необхідно: Рівень 6\nНазавжди перетворює обрану катапульту на тролячу катапульту\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GothmogIntoTheFray",
+   "type": "Кнопка",
+   "en": "Into the Fray (&V)",
+   "ru": "В атаку! (&V)",
+   "uk_ai": "До бою! (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGothmogIntoTheFray",
+   "type": "Підказка",
+   "en": "Requires Level 10\nModifier Type: Spell \nAllied units in a wide radius gain +15% movement speed and +50% damage for 30 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 10\\nТип модификатора: Заклинание\\nСоюзные войска в широком радиусе наносят +50% урона и получают +15% скорости передвижения в течение 30 секунд\\nЛКМ - применение",
+   "uk_ai": "Необхідно: Рівень 10\nТип ефекту: Заклинання\nСоюзні загони в широкому радіусі на 30 сек. отримують бонус +15% швидкості руху й +50% до пошкоджень\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMorgulGothmogIronHand",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nOrcs near Gothmog gain \n +33% damage, +33% armour,\n Immunity to fear and terror \nand earn experience 33% faster\nPassive ability\n\nAt rank 5, can be cast on a friendly Morgul Garrison to halve Morgul Orcs' production time for 60 seconds\nOrcs recruited in this period are fully upgraded\nLeft click icon then click on target structure",
+   "ru": "Тип модификатора: Лидерство\\nОрки рядом с Готмогом наносят +33% урона, получают +33% брони, набирают опыт на +33% быстрее\\nи становятся невосприимчивыми к страху и ужасу\\n\\nПассивная способность\\n\\nНа уровне 5, может быть применено к Гарнизону Моргула, чтобы сократить время подготовки орков Моргула вдвое в течение 60 секунд\\nОрки, набранные в этот период, полностью улучшены\\nЩелкните левой кнопкой мыши на значок, затем на целевое строение",
+   "uk_ai": "Тип ефекту: Лідерство\nОрки поряд із Ґотмоґом отримують бонус\n+33% до пошкоджень, +33% броні\nімунітет до страху та жаху\nі на 33% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nНа 5 рівні можна застосувати до союзного Морґульського гарнізону: на 60 сек. морґульські орки тренуються вдвічі швидше\nОрки, найняті за цей час, мають усі покращення\nКлікніть на іконку, потім оберіть споруду",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMorgulGothmogOrcSummon",
+   "type": "Підказка",
+   "en": "Requires Level 3\nSummons a horde of Morgul Pikemen around Gothmog\nMorgul Pikemen grant a small damage boost\nto nearby orc archers\nAt rank 5, also summons a Morannon Brute\nAt rank 7, summons an additional horde of Morgul Pikemen\nAt rank 10, summons an additional Morannon Brute\nGothmog can only cast when dismounted\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3\nПрикликає навколо Ґотмоґа орду морґульських пікінерів\nМорґульські пікінери трохи посилюють пошкодження\nорків-лучників поблизу\nНа 5 рівні також прикликає громилу Мораннону\nНа 7 рівні прикликає ще 1 орду морґульських пікінерів\nНа 10 рівні прикликає ще 1 громилу Мораннону\nҐотмоґ може застосувати здібність лише пішки\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

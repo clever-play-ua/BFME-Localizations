@@ -1,0 +1,210 @@
+{
+ "meta": {
+  "hero": "Balin",
+  "uk_name": "Балін",
+  "campaigns": [
+   "Hobbit",
+   "FotR",
+   "RotK"
+  ],
+  "missions": [
+   "Destruction",
+   "Council",
+   "Moria",
+   "BattleofDale"
+  ],
+  "templates": {
+   "кампанія": [
+    "DwarvenBalin",
+    "YoungBalin"
+   ],
+   "битва": [
+    "DwarvenBalin",
+    "DwarvenBalin_Adventure",
+    "DwarvenBalin_AdventureLotR",
+    "YoungBalin"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:DwarvenBalin",
+   "type": "Ім'я",
+   "en": "Balin",
+   "ru": "Балин",
+   "uk_ai": "Балін",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BalinLookout",
+   "type": "Кнопка",
+   "en": "Company's Lookout (&W)",
+   "ru": "Осторожная компания (&W)",
+   "uk_ai": "Вартовий загону (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipBalinLookout",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nAllies near Balin gain +25% vision range\nPassive ability \n\n At level 10, teleports target units to the targeted location\nDoes not work on siege units\nLeft click icon, then left click on target units, then left click on pathable location",
+   "ru": "Тип модификатора: Лидерство\\nСоюзники рядом с Балином получают +25% обзора\\nПассивная способность\\n\\nНа уровне 10, перемещает союзников в любую точку на карте\\nНе действует на осадные орудия\\nЩелкните левой кнопкой мыши на значок, затем на целевые единицы, после чего на доступное местоположение",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзники поряд із Баліном отримують бонус +25% дальності огляду\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nНа 10 рівні телепортує обрані загони в указане місце\nНе діє на облогові машини\nКлікніть на іконку, потім оберіть потрібні загони, потім оберіть ділянку для перенесення",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BalinFlag",
+   "type": "Кнопка",
+   "en": "Balin's Expedition (&R)",
+   "ru": "Экспедиция Балина (&R)",
+   "uk_ai": "Експедиція Баліна (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipBalinFlag",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Balin plants a banner of Durin. \n Nearby troops gain +33% damage, +25% armour, earn experience +50% faster, and are partially healed. \n At level 7, affected units are immune to knockback and are healed by a larger amount \n Left click to activate",
+   "ru": "Требуется уровень 3\\nБалин устанавливает знамя Дурина\\nСоюзные отряды рядом со знаменем наносят +33% урона, получают +25% брони и набирают опыт на +50% быстрее, а также постепенно исцеляются\\nНа уровне 7, вдобавок к предыдущим эффектам, союзники получают сопротивление отбрасыванию и исцеляются еще больше\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nБалін встановлює стяг Дуріна.\nЗагони поблизу отримують бонус +33% до пошкоджень, +25% броні, на 50% швидше набирають досвід і частково зцілюються.\nНа 7 рівні загони під дією стягу отримують імунітет до відкидання й зцілюються сильніше\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BalinDwarvenWisdom",
+   "type": "Кнопка",
+   "en": "Dwarven Wisdom (&T)",
+   "ru": "Мудрость гномов (&T)",
+   "uk_ai": "Мудрість дворфів (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBalinDwarvenWisdom",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Selected structure's resource output is raised to 200% for 60 seconds\n Left click icon then left click on target resource structure",
+   "ru": "Требуется уровень 5\\nВыбранная ресурсная постройка увеличивает производсто на +175% в течение минуты\\nЩелкните левой кнопкой мыши на значок, затем на целевое строение",
+   "uk_ai": "Необхідно: Рівень 5\nОбрана споруда 60 сек. дає вдвічі більше ресурсів (200%)\nКлікніть на іконку, потім оберіть ресурсну споруду",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BalinCounselorOfKings",
+   "type": "Кнопка",
+   "en": "Counselor of Kings (&C)",
+   "ru": "Советник королей (&C)",
+   "uk_ai": "Радник королів (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBalinCounselorOfKings",
+   "type": "Підказка",
+   "en": "Requires Level 7 \n Modifier Type: Spell \n Balin empowers a friendly hero, granting them 50% armour, 50% faster experience gain,\n and 75% faster power recharge times for 30 seconds\n Left click icon then left click on target hero",
+   "ru": "Требуется уровень 9\\nТип модификатора: Заклинание\\nБалин усиливает союзного героя, предоставляя ему +50% брони, +50% прироста опыта и ускоряя перезарядку его способностей на 75% в течение 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевого героя",
+   "uk_ai": "Необхідно: Рівень 7\nТип ефекту: Заклинання\nБалін посилює союзного героя: на 30 сек. той отримує бонус +50% броні, на 50% швидше набирає досвід\nі на 75% швидше відновлює здібності\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BalinCounselorOfKingsCampaign",
+   "type": "Кнопка",
+   "en": "Counselor of Kings (&R)",
+   "ru": "Советник королей (&R)",
+   "uk_ai": "Радник королів (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBalinCounselorOfKingsCampaign",
+   "type": "Підказка",
+   "en": "Modifier Type: Spell \n Balin empowers a friendly hero, granting them 50% armour, 50% faster experience gain,\n and 75% faster power recharge times for 30 seconds\n Left click icon then left click on target hero",
+   "ru": "Тип модификатора: Заклинание\\nБалин усиливает дружественного героя, предоставляя ему +50% брони, +50% прироста опыта и ускоряя перезарядку его способностей на 75% в течение 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевого героя",
+   "uk_ai": "Тип ефекту: Заклинання\nБалін посилює союзного героя: на 30 сек. той отримує бонус +50% броні, на 50% швидше набирає досвід\nі на 75% швидше відновлює здібності\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:YoungBalinTactician",
+   "type": "Кнопка",
+   "en": "Tactician (&W)",
+   "ru": "Тактик (&W)",
+   "uk_ai": "Тактик (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipYoungBalinTactician",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Give targeted friendly troops experience \n Left click icon then left click on target units",
+   "ru": "Требуется уровень 3\\nДает опыт выбранным войскам\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 3\nМиттєво наділяє досвідом обрані союзні загони\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:YoungBalinCounselorOfKings",
+   "type": "Кнопка",
+   "en": "King's Advisor (&R)",
+   "ru": "Советник королей (&R)",
+   "uk_ai": "Радник короля (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipYoungBalinCounselorOfKings",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Modifier Type: Spell \n Balin empowers a friendly hero, granting them 50% armour, 50% faster experience gain, and 75% faster power recharge times for 30 seconds\nLeft click icon then left click on target hero",
+   "ru": "Требуется уровень 3\\nТип модификатора: Заклинание\\nБалин усиливает дружественного героя, предоставляя ему +50% брони, +50% прироста опыта и +75% ускорения перезарядки способностей в течение 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевого героя",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Заклинання\nБалін посилює союзного героя: на 30 сек. той отримує бонус +50% броні, на 50% швидше набирає досвід і на 75% швидше відновлює здібності\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:BalinLookoutDurinsFolk",
+   "type": "Кнопка",
+   "en": "Company's Lookout",
+   "ru": "Осторожная компания",
+   "uk_ai": "Вартовий загону",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipBalinLookoutDurinsFolk",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nAllies near Balin gain +25% vision range\n\nPassive ability \n",
+   "ru": "Тип модификатора: Лидерство\\nСоюзники рядом с Балином получают +25% обзора\\n\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзники поряд із Баліном отримують бонус +25% дальності огляду\n\n~ ПАСИВНА ЗДІБНІСТЬ ~\n",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipBalinFlagDurinsFolk",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Balin plants a banner of Durin. \n Nearby troops gain +50% experience gain, +25% armour, +33% damage and are partially healed. \n At level 7, affected units are immune to knockback and are healed by a larger amount \n At level 10, summons a battalion of Khazâd-Dum Veterans \n Left click to activate",
+   "ru": "Требуется уровень 3\\nБалин устанавливает знамя Дурина\\nБлижайшие войска наносят +33% урона, получают +25% брони, набирают опыт +50% быстрее, а также постепенно исцеляются\\nНа уровне 7, вдобавок к предыдущим эффектам, союзники получают сопротивление отбрасыванию и исцеляются еще больше\\nНа уровне 10, призывается отряд Ветеранов Кхазад-дума\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nБалін встановлює стяг Дуріна\nЗагони поблизу отримують бонус +25% броні, +33% до пошкоджень, на 50% швидше набирають досвід і частково зцілюються\nНа 7 рівні загони під дією стягу отримують імунітет до відкидання й зцілюються сильніше\nНа 10 рівні прикликає загін ветеранів Казад-думу\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

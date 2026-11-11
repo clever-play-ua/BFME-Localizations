@@ -1,0 +1,1661 @@
+{
+ "meta": {
+  "mission": "005_The Siege of Gondor",
+  "campaign": "Return of the King (AoR 10.0)",
+  "count": 165,
+  "fields": "var — мітка; type — Назва/Ціль/Діалог/Репліка/Інше/Кнопка; ru — RU 9.3.1, якщо є; uk_ai — поточний текст (правте прямо тут); status — вичитано / чернетка AI; uk — порожньо",
+  "notes": "\\n — перенос рядка, кількість має збігатися з EN; гарячі клавіші (&W) латиницею. Здібності героїв винесені в папку heroes."
+ },
+ "strings": [
+  {
+   "var": "CampaignName:MinasTirithOuter",
+   "mission": "005_The Siege of Gondor",
+   "type": "Назва",
+   "en": "The Siege of Gondor",
+   "ru": "",
+   "uk_ai": "Облога Ґондору",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective01_Minas",
+   "mission": "005_The Siege of Gondor",
+   "type": "Ціль",
+   "en": "Speak to all Fiefdom lords in the courtyard.",
+   "ru": "",
+   "uk_ai": "Поговоріть з усіма володарями ленів на подвір'ї.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective02_Minas",
+   "mission": "005_The Siege of Gondor",
+   "type": "Ціль",
+   "en": "Defend the Rammas for as long as possible.",
+   "ru": "",
+   "uk_ai": "Утримуйте Раммас якомога довше.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective03_Minas",
+   "mission": "005_The Siege of Gondor",
+   "type": "Ціль",
+   "en": "Defend the outer walls.",
+   "ru": "",
+   "uk_ai": "Захистіть зовнішні мури.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective04_Minas",
+   "mission": "005_The Siege of Gondor",
+   "type": "Ціль",
+   "en": "Defend the courtyard.",
+   "ru": "",
+   "uk_ai": "Захистіть подвір'я.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective05_Minas",
+   "mission": "005_The Siege of Gondor",
+   "type": "Ціль",
+   "en": "Fall back to the second level.",
+   "ru": "",
+   "uk_ai": "Відступіть на другий ярус.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective01_Minas",
+   "mission": "005_The Siege of Gondor",
+   "type": "Ціль",
+   "en": "Hold the Rammas for at least 4 minutes.",
+   "ru": "",
+   "uk_ai": "Утримуйте Раммас щонайменше 4 хв.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective03_Minas",
+   "mission": "005_The Siege of Gondor",
+   "type": "Ціль",
+   "en": "Rescue the Citadel Guards.",
+   "ru": "",
+   "uk_ai": "Врятуйте вартових Цитаделі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf329",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Move onto the walls and ready yourselves! We must prepare to defend the City.",
+   "ru": "",
+   "uk_ai": "Ставайте на мури й готуйтеся! Ми мусимо підготуватися до оборони Міста.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf330",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "We will need more men to defend the walls. We must summon everyone able!",
+   "ru": "",
+   "uk_ai": "Для оборони мурів потрібно більше людей. Скличмо всіх, хто здатен битися!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf331",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Send these archers to the gate. The Enemy will send forth terrible siege machines. We must do all we can to repel them.",
+   "ru": "",
+   "uk_ai": "Пошліть цих лучників до брами. Ворог пустить у хід страшні облогові машини. Ми мусимо зробити все, щоб їх відбити.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf332",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "The board is set, the pieces are moving. Minas Tirith is the anvil upon which we smite the armies of Sauron. With luck, we will hold them until help arrives.",
+   "ru": "",
+   "uk_ai": "Дошку розставлено, фігури рушили. Мінас-Тіріт — ковадло, на якому ми розіб'ємо війська Саурона. Якщо пощастить, ми втримаємо їх, доки не прийде допомога.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Outer_Capture_Trebuchets_Flaming",
+   "mission": "005_The Siege of Gondor",
+   "type": "Інше",
+   "en": "Use Flaming Shot to command the Trebuchets to launch a flaming barrage.",
+   "ru": "",
+   "uk_ai": "Скористайтеся «Вогняним пострілом», щоб наказати требушетам вистрілити вогняним залпом.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf430",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Take command of the trebuchets! Their flaming shot will burn their ranks before they reach our walls!",
+   "ru": "",
+   "uk_ai": "Беріть требушети під своє командування! Їхні вогняні снаряди спалять ворожі лави ще до наших мурів!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf375",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "These orcs are stronger than the others! Their blades are imbued with a fell incantation! Stand fast!",
+   "ru": "",
+   "uk_ai": "Ці орки сильніші за інших! Їхні клинки сповнені лихого закляття! Стійте твердо!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf376",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Elite orcs approach! Stop them here!",
+   "ru": "",
+   "uk_ai": "Наближаються добірні орки! Зупиніть їх тут!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf407",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Variags from Khand! They must be repelled!",
+   "ru": "",
+   "uk_ai": "Варіаґи з Кханду! Ми мусимо їх відбити!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf408",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "The Variags are charging! Stop them at the wall!",
+   "ru": "",
+   "uk_ai": "Варіаґи йдуть у наступ! Зупиніть їх біля муру!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf409",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Easterlings! Show them no mercy!",
+   "ru": "",
+   "uk_ai": "Істерлінґи! Жодної їм пощади!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf410",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Wicked Men from the East! Cast them out!",
+   "ru": "",
+   "uk_ai": "Лихі люди зі Сходу! Відкиньте їх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf411",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Those Uruks are dangerous! Destroy them, ere we are overrun!",
+   "ru": "",
+   "uk_ai": "Ці уруки небезпечні! Знищте їх, поки нас не розчавили!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf412",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "The Uruks approach the wall! Rout them!",
+   "ru": "",
+   "uk_ai": "Уруки підходять до муру! Розбийте їх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf413",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "A furnace-troll! It will set the city aflame! It must be destroyed!",
+   "ru": "",
+   "uk_ai": "Пічний троль! Він підпалить місто! Його треба знищити!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf365",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "We have done all we can here! This fight is done! Retreat to the second level!",
+   "ru": "",
+   "uk_ai": "Ми зробили тут усе, що могли! Цей бій скінчено! Відступайте на другий ярус!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf373",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "We must save them, before they're cut down!",
+   "ru": "",
+   "uk_ai": "Ми мусимо врятувати їх, поки їх не порубали!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf374",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Your courage will not be forgotten, friend. May the Valar protect you.",
+   "ru": "",
+   "uk_ai": "Твоєї мужності не забудуть, друже. Хай Валар тебе бережуть.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gondorsoldier032",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Mithrandir! Over here! We're hard-pressed!",
+   "ru": "",
+   "uk_ai": "Мітрандире! Сюди! Нам скрутно!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gondorsoldier033",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "You have our thanks, Mithrandir. We must make haste to the upper levels before it is too late.",
+   "ru": "",
+   "uk_ai": "Дякуємо тобі, Мітрандире. Треба поспішати на верхні яруси, поки не пізно.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_masteratarms018",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Go on. I will stay behind, to save all those that I can.",
+   "ru": "",
+   "uk_ai": "Іди. Я лишуся, щоб урятувати всіх, кого зможу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf303",
+   "mission": "005_The Siege of Gondor",
+   "type": "Діалог",
+   "en": "Gandalf: Black clouds gather over the Mountains of Shadow. It will not be long ere the darkness of Mordor reaches the White City.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Над Тіньовими горами збираються чорні хмари. Невдовзі темрява Мордору досягне Білого Міста.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf304",
+   "mission": "005_The Siege of Gondor",
+   "type": "Діалог",
+   "en": "Gandalf: But Minas Tirith does not stand alone. In its hour of need,\nthe brave Lords of Gondor's fiefdoms have marshalled what Men they could.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Але Мінас-Тіріт не самотній. У годину скрути\nхоробрі володарі ленів Ґондору зібрали всіх людей, кого змогли.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf305",
+   "mission": "005_The Siege of Gondor",
+   "type": "Діалог",
+   "en": "Gandalf: But will it be enough?",
+   "ru": "",
+   "uk_ai": "Ґендальф: Але чи вистачить цього?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf306",
+   "mission": "005_The Siege of Gondor",
+   "type": "Діалог",
+   "en": "Gandalf: Before these walls, upon the fields of the Pelennor, is where the doom of our time shall be decided.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Саме тут, перед цими мурами, на полях Пеленнору, вирішиться доля нашої доби.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gondorsoldier031",
+   "mission": "005_The Siege of Gondor",
+   "type": "Діалог",
+   "en": "Soldier: Look! The forces of the Outlands are arriving!",
+   "ru": "",
+   "uk_ai": "Воїн: Дивіться! Прибувають війська з Окраїн!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf328",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "The Lords of Gondor's outlands have rallied to our defence. Follow me, Peregrin Took. Let us welcome these fine Captains of Men.",
+   "ru": "",
+   "uk_ai": "Володарі окраїн Ґондору стали на нашу оборону. Ходімо зі мною, Переґріне Туку. Привітаймо цих славних капітанів людей.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_faramir078",
+   "mission": "005_The Siege of Gondor",
+   "type": "Діалог",
+   "en": "Faramir: I fear the Rammas will not hold long.",
+   "ru": "",
+   "uk_ai": "Фарамір: Боюся, Раммас недовго протримається.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir040",
+   "mission": "005_The Siege of Gondor",
+   "type": "Діалог",
+   "en": "Boromir: Take heart, little brother. We will hold it as long we can.\nEvery orc killed here will lessen the assault upon the White City.",
+   "ru": "",
+   "uk_ai": "Боромир: Не падай духом, братику. Ми триматимемо його, скільки зможемо.\nКожен орк, убитий тут, послабить натиск на Біле Місто.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT: mgfotr_faramir091",
+   "mission": "005_The Siege of Gondor",
+   "type": "Діалог",
+   "en": "Faramir: I'm glad you're home, brother. Gondor has missed your leadership.",
+   "ru": "",
+   "uk_ai": "Фарамір: Я радий, що ти вдома, брате. Ґондорові бракувало твого проводу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgtt_boromir-249a",
+   "mission": "005_The Siege of Gondor",
+   "type": "Діалог",
+   "en": "Boromir: Men of Minas Tirith! You are called upon, not only by your Steward, but by your people!",
+   "ru": "",
+   "uk_ai": "Боромир: Люди Мінас-Тіріта! Вас кличе не лише ваш Намісник, а й ваш народ!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgtt_boromir-249b",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "The Enemy would leave your city a smouldering ruin, but for our valiant defence!\nDraw your swords, and beat them back across the River!",
+   "ru": "",
+   "uk_ai": "Ворог залишив би від вашого міста тліючі руїни, якби не наша звитяжна оборона!\nОголюйте мечі й відкиньте їх назад за Ріку!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_faramir092",
+   "mission": "005_The Siege of Gondor",
+   "type": "Діалог",
+   "en": "Faramir: Stand strong, Men of Minas Tirith! We must hold the Rammas as long it can be held.\nFight, for your city! For your people!",
+   "ru": "",
+   "uk_ai": "Фарамір: Тримайтеся, люди Мінас-Тіріта! Ми мусимо утримувати Раммас, скільки буде змоги.\nБийтеся за своє місто! За свій народ!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf419HINT",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Fountain Guards have joined your forces to defend Minas Tirith",
+   "ru": "",
+   "uk_ai": "Вартові Фонтану приєдналися до ваших військ, щоб захищати Мінас-Тіріт",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_faramir090",
+   "mission": "005_The Siege of Gondor",
+   "type": "Діалог",
+   "en": "Faramir: The Rammas is breached! The Shadow is almost upon us.",
+   "ru": "",
+   "uk_ai": "Фарамір: Раммас проломлено! Тінь уже майже над нами.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir108",
+   "mission": "005_The Siege of Gondor",
+   "type": "Діалог",
+   "en": "Boromir: We cannot allow the White City to fall.",
+   "ru": "",
+   "uk_ai": "Боромир: Ми не можемо дозволити Білому Місту впасти.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf320",
+   "mission": "005_The Siege of Gondor",
+   "type": "Діалог",
+   "en": "Gandalf: Take heart! Our hopes now lie in the strength of Men.\nSauron underestimates you. This he will come to regret!",
+   "ru": "",
+   "uk_ai": "Ґендальф: Не падайте духом! Тепер наша надія — у силі людей.\nСаурон вас недооцінює. І ще пошкодує про це!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf321",
+   "mission": "005_The Siege of Gondor",
+   "type": "Діалог",
+   "en": "Gandalf: Man the battlements! Prepare for battle!",
+   "ru": "",
+   "uk_ai": "Ґендальф: На мури! Готуйтеся до бою!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf307",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Brave Lord Forlong! Your doughty axemen will be of great use to the City.",
+   "ru": "",
+   "uk_ai": "Хоробрий володарю Форлонґу! Твої відважні сокирники стануть Місту у великій пригоді.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_forlong001",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "I did not look to find you here, Mithrandir, but I am glad of it!",
+   "ru": "",
+   "uk_ai": "Не сподівався застати тебе тут, Мітрандире, але радий цьому!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf312",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Hail Imrahil, son of Adrahil, Prince of Dol Amroth. There are few Men left in Gondor to match your wisdom. Your leadership will prove invaluable in the dark days ahead.",
+   "ru": "",
+   "uk_ai": "Вітаю, Імрагіле, сину Адрагіла, принце Дол-Амроту. Мало лишилося в Ґондорі людей, що зрівнялися б із тобою мудрістю. Твій провід буде неоціненним у темні дні, що настають.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_imrahil009",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "It gladdens my heart to meet you here, Mithrandir. Perhaps the fate of Gondor is not as grim as I perceived. Together, we will do all we can to avert its ruin.",
+   "ru": "",
+   "uk_ai": "Радію серцем, що зустрів тебе тут, Мітрандире. Можливо, доля Ґондору не така похмура, як мені здавалося. Разом ми зробимо все, щоб відвернути його загибель.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf309",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Duinhir of Morthond. Your archers are grim-faced and battle-hardened. Gondor thanks you for your swift arrival. These are your sons, I presume?",
+   "ru": "",
+   "uk_ai": "Дуїнгіре з Мортонду. Твої лучники суворі й загартовані в боях. Ґондор дякує тобі за швидке прибуття. Це, гадаю, твої сини?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_duinhir001",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Aye, Mithrandir. Duilin and Derufin are eager to prove their worth against our Enemy.",
+   "ru": "",
+   "uk_ai": "Так, Мітрандире. Дуїлін і Деруфін прагнуть довести свою вартість у бою з Ворогом.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf311",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Long have you defended your realm against the Enemy, Lord Golasgil. I am glad that despite your hardships you have found Men to march to our defence.",
+   "ru": "",
+   "uk_ai": "Довго ти обороняв свій край від Ворога, володарю Ґоласґіле. Радий, що попри всі негаразди ти знайшов людей, щоб вирушити нам на оборону.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_golasgil003",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "The lords of Anfalas remember their oaths well. I have brought what brave Men could be found.",
+   "ru": "",
+   "uk_ai": "Володарі Анфаласу добре пам'ятають свої присяги. Я привів усіх хоробрих людей, кого вдалося знайти.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf310",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "You have grown into a fine knight, Lord Hirluin. I have heard tell of the gallantry and skill at arms of your warriors.",
+   "ru": "",
+   "uk_ai": "Ти виріс славним лицарем, володарю Гірлуїне. Я чув про звитягу й бойову майстерність твоїх воїнів.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hirluin001",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Mithrandir! I was but a boy when last I saw you in my father's hall. Worry not, my Men shall throw the Enemy back over their black gates!",
+   "ru": "",
+   "uk_ai": "Мітрандире! Я був ще хлопчиком, коли востаннє бачив тебе в батьковій залі. Не хвилюйся, мої люди скинуть Ворога назад за його чорну браму!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf308",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Dervorin, the heir of the Ringlo Vale. I knew your father in his younger years. I am glad to see his strength is carried on in his scion.",
+   "ru": "",
+   "uk_ai": "Дерворине, спадкоємцю долини Рінґло. Я знав твого батька замолоду. Радий бачити, що його сила живе в його нащадкові.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_dervorin001",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "The Ringlo Vale is devoted to Gondor's defence. We will not let our Steward down.",
+   "ru": "",
+   "uk_ai": "Долина Рінґло віддана обороні Ґондору. Ми не підведемо нашого Намісника.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Setup_Ready_Timer",
+   "mission": "005_The Siege of Gondor",
+   "type": "Інше",
+   "en": "The Morgul host arrives in:",
+   "ru": "",
+   "uk_ai": "Морґульське військо прибуде через:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Setup_Army",
+   "mission": "005_The Siege of Gondor",
+   "type": "Інше",
+   "en": "Prepare the city, move all forces onto the walls.",
+   "ru": "",
+   "uk_ai": "Підготуйте місто: виведіть усі війська на мури.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Setup_Ready",
+   "mission": "005_The Siege of Gondor",
+   "type": "Інше",
+   "en": "Move Gandalf to the courtyard once you have finished your preparations.",
+   "ru": "",
+   "uk_ai": "Закінчивши приготування, приведіть Ґендальфа на подвір'я.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Rammas_Gate_Attacked",
+   "mission": "005_The Siege of Gondor",
+   "type": "Інше",
+   "en": "The Rammas gate is under attack.",
+   "ru": "",
+   "uk_ai": "Браму Раммасу атакують.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Rammas_Gate_Damaged",
+   "mission": "005_The Siege of Gondor",
+   "type": "Інше",
+   "en": "The Rammas gate is almost destroyed.",
+   "ru": "",
+   "uk_ai": "Брама Раммасу майже зруйнована.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Rammas_Retreat",
+   "mission": "005_The Siege of Gondor",
+   "type": "Інше",
+   "en": "The Rammas is lost, fall back.",
+   "ru": "",
+   "uk_ai": "Раммас утрачено, відступайте.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Timer_Minas_WallOverrun_L",
+   "mission": "005_The Siege of Gondor",
+   "type": "Інше",
+   "en": "The left wall will be overrun in:",
+   "ru": "",
+   "uk_ai": "Лівий мур буде захоплено через:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Timer_Minas_WallOverrun_R",
+   "mission": "005_The Siege of Gondor",
+   "type": "Інше",
+   "en": "The right wall will be overrun in:",
+   "ru": "",
+   "uk_ai": "Правий мур буде захоплено через:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Outer_Capture_Trebuchets",
+   "mission": "005_The Siege of Gondor",
+   "type": "Інше",
+   "en": "Keep heroes near to trebuchets to take command of them.",
+   "ru": "",
+   "uk_ai": "Тримайте героїв біля требушетів, щоб узяти їх під командування.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Outer_Heal",
+   "mission": "005_The Siege of Gondor",
+   "type": "Інше",
+   "en": "Gandalf's Ring of Fire passively heals nearby Heroes who are out of combat.",
+   "ru": "",
+   "uk_ai": "Перстень Вогню Ґендальфа пасивно лікує героїв поблизу, які не беруть участі в бою.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Outer_Gate_Approach_Trolls",
+   "mission": "005_The Siege of Gondor",
+   "type": "Інше",
+   "en": "Trolls are approaching the main gate.",
+   "ru": "",
+   "uk_ai": "До головної брами наближаються тролі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Outer_Gate_Approach_Rams",
+   "mission": "005_The Siege of Gondor",
+   "type": "Інше",
+   "en": "Battering Rams are approaching the main gate.",
+   "ru": "",
+   "uk_ai": "До головної брами наближаються тарани.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Outer_Gate_Approach_Ologs",
+   "mission": "005_The Siege of Gondor",
+   "type": "Інше",
+   "en": "Olog-hai are approaching the main gate.",
+   "ru": "",
+   "uk_ai": "До головної брами наближаються олоґ-хаї.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Outer_Gate_Attacked",
+   "mission": "005_The Siege of Gondor",
+   "type": "Інше",
+   "en": "The main gate is under attack.",
+   "ru": "",
+   "uk_ai": "Головну браму атакують.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Outer_Gate_Damaged",
+   "mission": "005_The Siege of Gondor",
+   "type": "Інше",
+   "en": "The main gate is almost destroyed.",
+   "ru": "",
+   "uk_ai": "Головна брама майже зруйнована.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Outer_Grond",
+   "mission": "005_The Siege of Gondor",
+   "type": "Інше",
+   "en": "Grond cannot be stopped.",
+   "ru": "",
+   "uk_ai": "Ґронд неможливо зупинити.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective02_Minas",
+   "mission": "005_The Siege of Gondor",
+   "type": "Ціль",
+   "en": "Kill at least 25 Trolls.",
+   "ru": "",
+   "uk_ai": "Вбийте щонайменше 25 тролів.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgtt_boromir-162",
+   "mission": "005_The Siege of Gondor",
+   "type": "Діалог",
+   "en": "Boromir: Let us go down to battle together",
+   "ru": "",
+   "uk_ai": "Боромир: Ходімо ж разом у бій",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_faramir093",
+   "mission": "005_The Siege of Gondor",
+   "type": "Діалог",
+   "en": "Faramir: Stand your ground! Slay all that you can! Fight on!",
+   "ru": "",
+   "uk_ai": "Фарамір: Тримайте позиції! Вбивайте всіх, кого зможете! Бийтеся далі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MGOsgil_Faramir025",
+   "mission": "005_The Siege of Gondor",
+   "type": "Діалог",
+   "en": "Faramir: Sauron will soon strike Minas Tirith. We must help to protect it!",
+   "ru": "",
+   "uk_ai": "Фарамір: Невдовзі Саурон ударить по Мінас-Тіріту. Ми мусимо допомогти його захистити!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MGOsgil_Faramir023",
+   "mission": "005_The Siege of Gondor",
+   "type": "Діалог",
+   "en": "Faramir: Now is the time to show our quality.",
+   "ru": "",
+   "uk_ai": "Фарамір: Настав час показати, чого ми варті.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf419",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "",
+   "ru": "",
+   "uk_ai": "",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf333",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Harken to me! We must destroy those siege ladders!",
+   "ru": "",
+   "uk_ai": "Слухайте мене! Ми мусимо знищити ті облогові драбини!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf334",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Our aim must be true if we are to repel these towers!",
+   "ru": "",
+   "uk_ai": "Цілимося точно, якщо хочемо відбити ці вежі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf335",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "They are destroying our trebuchets! Stop them!",
+   "ru": "",
+   "uk_ai": "Вони нищать наші требушети! Зупиніть їх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf336",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "We must rebuild our trebuchets!",
+   "ru": "",
+   "uk_ai": "Ми мусимо відбудувати наші требушети!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf337",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Lord Forlong is surrounded!",
+   "ru": "",
+   "uk_ai": "Володаря Форлонґа оточено!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf338",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Lord Hirluin needs our assistance!",
+   "ru": "",
+   "uk_ai": "Володареві Гірлуїну потрібна наша допомога!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf339",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "They will overwhelm Lord Golasgil! Rally to his aid!",
+   "ru": "",
+   "uk_ai": "Вони здолають володаря Ґоласґіла! Всі йому на поміч!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf340",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Send aid to Lord Duinhir!",
+   "ru": "",
+   "uk_ai": "Пошліть допомогу володареві Дуїнгіру!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf341",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "We must protect Lord Devorin!",
+   "ru": "",
+   "uk_ai": "Ми мусимо захистити володаря Дерворина!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf342",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Faramir, do not throw away your life so rashly!",
+   "ru": "",
+   "uk_ai": "Фараміре, не кидай свого життя так необачно!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf343",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Boromir! Go, aid your Captain!",
+   "ru": "",
+   "uk_ai": "Боромире! Іди, допоможи своєму капітанові!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf344",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Peregrin Took! This is no place for a hobbit! Fall back to safety.",
+   "ru": "",
+   "uk_ai": "Переґріне Туку! Гобітові тут не місце! Відступай у безпечне місце.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf345",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Irolas! I am coming!",
+   "ru": "",
+   "uk_ai": "Іроласе! Я йду!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf346",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Beregond is being overwhelmed!",
+   "ru": "",
+   "uk_ai": "Береґонда от-от здолають!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf347",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Our walls are overrun! We must push them back!",
+   "ru": "",
+   "uk_ai": "Вороги на наших мурах! Ми мусимо відкинути їх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf348",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Our defences weaken! Fight or they will overrun us!",
+   "ru": "",
+   "uk_ai": "Наша оборона слабне! Бийтеся, або нас розчавлять!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf349",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Trolls! Archers, to the gate!",
+   "ru": "",
+   "uk_ai": "Тролі! Лучники, до брами!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf350",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Battering rams approach! Defend the gate!",
+   "ru": "",
+   "uk_ai": "Наближаються тарани! Захищайте браму!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf351",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Fell Olog-hai! Faramir rally your archers to the gate!",
+   "ru": "",
+   "uk_ai": "Лихі олоґ-хаї! Фараміре, веди лучників до брами!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf352",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Fell Olog-hai! Beregond rally your archers to the gate!",
+   "ru": "",
+   "uk_ai": "Лихі олоґ-хаї! Береґонде, веди лучників до брами!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf353",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Nazgul! Steel yourselves, archers! Bring them down!",
+   "ru": "",
+   "uk_ai": "Назґули! Тримайтеся, лучники! Збийте їх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf354",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Cast out your fear! Aim for their Fell beasts!",
+   "ru": "",
+   "uk_ai": "Відкиньте страх! Цільтеся в їхніх крилатих чудовиськ!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf355",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Drive them from the walls!",
+   "ru": "",
+   "uk_ai": "Скиньте їх із мурів!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf356",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Stand firm! The strength of men must not wither!",
+   "ru": "",
+   "uk_ai": "Стійте твердо! Сила людей не повинна зів'янути!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf357",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Your valor will turn the tide—fight on!",
+   "ru": "",
+   "uk_ai": "Ваша звитяга переломить хід битви — бийтеся далі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf358",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Here we must break Sauron's armies!",
+   "ru": "",
+   "uk_ai": "Тут ми мусимо зламати війська Саурона!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf359",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Take heart men!",
+   "ru": "",
+   "uk_ai": "Не падайте духом, люди!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf360",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "With me men of Gondor! We must rally to the gate!",
+   "ru": "",
+   "uk_ai": "За мною, люди Ґондору! Всі до брами!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf361",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Destroy the Trolls, ere they break our line!",
+   "ru": "",
+   "uk_ai": "Знищте тролів, поки вони не прорвали наш стрій!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf362",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Wicked Men from the East! This will be their end!",
+   "ru": "",
+   "uk_ai": "Лихі люди зі Сходу! Тут їм і кінець!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf363",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Steady! We will hold them here, until the women and children are safe!",
+   "ru": "",
+   "uk_ai": "Тримайтеся! Ми стримаємо їх тут, доки жінки й діти не будуть у безпеці!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf364",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Warg riders! Ready yourselves!",
+   "ru": "",
+   "uk_ai": "Вершники на варґах! Готуйтеся!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf414",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Go back, fell creature!",
+   "ru": "",
+   "uk_ai": "Геть, лихе створіння!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf415",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Bring it down!",
+   "ru": "",
+   "uk_ai": "Валіть його!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf416",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Beregond, we need your bow!",
+   "ru": "",
+   "uk_ai": "Береґонде, нам потрібен твій лук!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf417",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Faramir, we need your bow!",
+   "ru": "",
+   "uk_ai": "Фараміре, нам потрібен твій лук!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf418",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Spears, forward!",
+   "ru": "",
+   "uk_ai": "Списи вперед!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf366",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "We cannot tarry! We must reach the second level with all haste!",
+   "ru": "",
+   "uk_ai": "Не можна баритися! Ми мусимо якнайшвидше дістатися другого ярусу!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf367",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Sauron underestimates the valour of Gondor. We will make them fight for every stone! Hold! Hold! Or soon our dead will lie upon each of the Seven Levels of Minas Tirith. We must fight! For Gondor!",
+   "ru": "",
+   "uk_ai": "Саурон недооцінює звитягу Ґондору. Ми змусимо їх битися за кожен камінь! Тримайтеся! Тримайтеся! Інакше скоро наші мертві лежатимуть на кожному з Семи ярусів Мінас-Тіріта. Ми мусимо битися! За Ґондор!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf368",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "The gate has fallen! Draw your swords, we must stop them here!",
+   "ru": "",
+   "uk_ai": "Браму зруйновано! Оголюйте мечі, ми мусимо зупинити їх тут!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf369",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Kill that troll before he destroys the inner gate!",
+   "ru": "",
+   "uk_ai": "Вбийте того троля, поки він не зруйнував внутрішню браму!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf370",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "Stop that ram! Before it reaches the inner gate!",
+   "ru": "",
+   "uk_ai": "Зупиніть той таран! Поки він не дістався внутрішньої брами!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf371",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "The inner gate is damaged! Send for timbers!",
+   "ru": "",
+   "uk_ai": "Внутрішню браму пошкоджено! Несіть колоди!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf372",
+   "mission": "005_The Siege of Gondor",
+   "type": "Репліка",
+   "en": "The gate has fallen! We can no longer hold them here. Fall back men!",
+   "ru": "",
+   "uk_ai": "Браму зруйновано! Тут нам їх більше не втримати. Відступайте, люди!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Inner_Gate_Timer",
+   "mission": "005_The Siege of Gondor",
+   "type": "Інше",
+   "en": "Hold the gate for:",
+   "ru": "",
+   "uk_ai": "Утримуйте браму ще:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Inner_Abandon",
+   "mission": "005_The Siege of Gondor",
+   "type": "Інше",
+   "en": "PLACEHOLDER - THE GATE WILL FALL, FALL BACK AND READY INFANTRY.",
+   "ru": "",
+   "uk_ai": "ЗАГЛУШКА — БРАМА ВПАДЕ, ВІДСТУПАЙТЕ Й ГОТУЙТЕ ПІХОТУ.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Inner_Retreat_Setup_Timer",
+   "mission": "005_The Siege of Gondor",
+   "type": "Інше",
+   "en": "Hold the upper level for:",
+   "ru": "",
+   "uk_ai": "Утримуйте верхній ярус ще:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Inner_Retreat_Timer",
+   "mission": "005_The Siege of Gondor",
+   "type": "Інше",
+   "en": "Army will retreat to the third level in:",
+   "ru": "",
+   "uk_ai": "Військо відступить на третій ярус через:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Timer_Rammas_WallOverrun",
+   "mission": "005_The Siege of Gondor",
+   "type": "Інше",
+   "en": "Rammas Echor will be overrun in:",
+   "ru": "",
+   "uk_ai": "Раммас-Ехор буде захоплено через:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Timer_Minas_Arrival",
+   "mission": "005_The Siege of Gondor",
+   "type": "Інше",
+   "en": "Mordor's forces will arrive in:",
+   "ru": "",
+   "uk_ai": "Війська Мордору прибудуть через:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FountainSwordArdentDefenders",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Ardent Defenders (&R)",
+   "ru": "",
+   "uk_ai": "Палкі захисники (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GandalfStandYourGround",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Stand Your Ground (&T)",
+   "ru": "Ни шагу назад  (&T)",
+   "uk_ai": "Тримати стрій (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GandalfWhiteRider",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "The White Rider (&T)",
+   "ru": "Белый всадник (&T)",
+   "uk_ai": "Білий Вершник (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GondorArcherDesperateVolley",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Desperate Volley (&T)",
+   "ru": "Отчаянный залп (&T)",
+   "uk_ai": "Відчайдушний залп (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GondorSoldierForGondor",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "For Gondor! (&R)",
+   "ru": "За Гондор! (&R)",
+   "uk_ai": "За Ґондор! (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GondorSpearmenFierceCharge",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Biting Steel (&R)",
+   "ru": "Острая сталь (&R)",
+   "uk_ai": "Кусюча сталь (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:IthilienLongShotAbilityBG",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Longshot (&R)",
+   "ru": "Дальний выстрел (&R)",
+   "uk_ai": "Далекий постріл (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KnightsofDolChargeofGloryCampaign",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Amroth for Gondor (&T)",
+   "ru": "",
+   "uk_ai": "Амрот за Ґондор (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:LightningSword",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Ligh&tning Sword",
+   "ru": "Клинок-молния (&T)",
+   "uk_ai": "Меч-блискавка (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RingOfFire",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "The Ring of Fire (&V)",
+   "ru": "Кольцо Огня (&V)",
+   "uk_ai": "Перстень Вогню (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityGrondGuardHammerUnderworld",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Hammer of the Underworld (&W)",
+   "ru": "",
+   "uk_ai": "Молот Підземного світу (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwarvenGloinSlam",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Powerful attack that causes meta impact and mass damage to structures \n Left click icon then left click on target",
+   "ru": "Нанесение огромного ущерба постройкам\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Потужна атака, що розкидає ворогів і завдає величезних пошкоджень спорудам \n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipFountainSwordArdentDefenders",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Requires Level 3 \n The Fountain Guards are surrounded by an aura that weakens enemies and enforces allies for 30 seconds\n Enemy units suffer -25% damage and armour\n Allied heroes gain +50% faster power recharge times \n Nearby friendly battalions are replenished over time\n Left click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3 \n На 30 сек. вартових Фонтану оточує аура, що послаблює ворогів і зміцнює союзників\n Вороги отримують штраф -25% пошкоджень і броні\n Здібності союзних героїв відновлюються на 50% швидше \n Союзні загони поблизу поступово поповнюються\n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGandalfStandYourGround",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Requires Level 3 \n Modifier Type: Spell \n Nearby allied units gain +50% damage and immunity to knockback for 30 seconds\nLeft click to activate",
+   "ru": "Требуется  уровень 3\nТип модификатора: Заклинание\nБлижайшие союзные отряды наносят +50% урона и получают сопротивление отбрасыванию в течение 30 секунд\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3 \n Тип ефекту: Заклинання \n Союзні загони поблизу отримують бонус +50% до пошкоджень і стійкість до відкидання на 30 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGandalfWhiteRider",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Requires Level 3 \n Gandalf gains +20% speed, +50% damage, \n and loses all deceleration for 30 seconds\n Can only be used mounted \n Left click to activate",
+   "ru": "Требуется уровень 3\nГэндальф наносит +50% урона, получает +20% скорости\nи не замедляется при растаптывании в течении 30 секунд\nМожно использовать только в седле\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3 \n Ґендальф отримує бонус +20% швидкості, +50% до пошкоджень \n і не сповільнюється на 30 сек.\n Доступно лише верхи \n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGondorArcherDesperateVolley",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "For 30 seconds, target unit or hero is marked by the Archers of Minas Tirith \n The target loses -25% armour and movement speed \n Left click then left click on target",
+   "ru": "В течение 30 секунд целевая единица или герой помечаются лучниками Минас Тирита\nЦель теряет -25% брони и скорости передвижения\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "На 30 сек. лучники Мінас-Тіріта позначають вказаний загін або героя \n Ціль втрачає 25% броні й швидкості руху \n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGondorSoldierForGondor",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Soldiers of Minas Tirith briefly gain +50% armour for 20 seconds\nLeft click to activate",
+   "ru": "Солдаты Минас Тирита получают +50% брони в течение 20 секунд\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Воїни Мінас-Тіріта отримують бонус +50% броні на 20 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGondorSpearmenFierceCharge",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "For 30 seconds, Spearmen of Minas Tirith's attacks deal damage over time\nLeft click to activate",
+   "ru": "В течение 30 секунд атаки пикинеров Минас Тирита наносят урон с течением времени\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "30 сек. атаки списоносців Мінас-Тіріта завдають поступових пошкоджень\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIstariLightMT",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Requires Level 7 \n Beam of light that damages and knocks back enemies \n Bonus vs. Balrogs and Nazgûl \n Target Nazgûl temporarily flee in terror \n Left click icon then left click on target",
+   "ru": "Требуется уровень 7\nЛуч света, наносящий урон врагам\nНаносит дополнительный урон балрогам и назгул\nЗаставляет назгул временно убегать в ужасе\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 7 \n Промінь світла, що завдає пошкоджень і відкидає ворогів \n Особливо дієвий проти балроґів і назґулів \n Вражені назґули тимчасово тікають у жаху \n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIthilienLongShotAbilityBG",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "The Rangers bombard anywhere within a great radius with a volley of arrows \n Left click icon then left click on target area",
+   "ru": "Следопыты обстреливают любой участок в пределах большого радиуса градом стрел\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Слідопити обстрілюють будь-яке місце у великому радіусі залпом стріл \n Клікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipKnightsofDolChargeofGloryCampaign",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Requires Level 5 \n Swan Knights gain +33% damage, +33% armour, and -50% Crush Deceleration for 20 seconds\nNo force can slow this charge\nCan only be used mounted\nLeft click to Activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 5 \n Лицарі Лебедя отримують бонус +33% до пошкоджень, +33% броні й на 50% менше сповільнюються під час топтання на 20 сек.\nНіщо не зупинить цієї атаки\nДоступно лише верхи\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRingOfFire",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Requires Level 10\nFor 60 seconds, targeted area becomes hostile to enemy forces, who take fire damage over time\nLeft click then left click target area",
+   "ru": "Требуется уровень 10\nВыбранный участок местности становится враждебным для вражеских сил, вражеские отряды в области действия получают урон от огня с течением времени\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 10\nНа 60 сек. вказана ділянка стає ворожою для супротивника: його загони поступово отримують пошкодження вогнем\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRingOfFireOuter",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Requires Level 10\nNarya, the Ring of Power, passively heals nearby friendly heroes\nPassive ability\n\nFor 60 seconds, targeted area becomes hostile to enemy forces, who take fire damage over time\nLeft click then left click target area",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 10\nНарья, Перстень Влади, постійно зцілює союзних героїв поблизу\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nНа 60 сек. вказана ділянка стає ворожою для супротивника: його загони поступово отримують пошкодження вогнем\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityGrondGuardHammerUnderworld",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Bûrghâsh slams the ground, damaging and knocking back enemy units and scorches the earth for 15 seconds\nUnits on scorched area take damage over time and are slowed by -33%\nLeft click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Бурґаш б'є об землю, завдаючи пошкоджень ворожим загонам, відкидаючи їх і випалюючи землю на 15 сек.\nЗагони на випаленій землі поступово отримують пошкодження й сповільнюються на 33%\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleRArcherLineToSkirmishFormation_BG",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "+25% damage, +15% speed, -50% armour",
+   "ru": "+25% урона, -50% брони и +15% скорости передвижения",
+   "uk_ai": "+25% до пошкоджень, +15% швидкості, -50% броні",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWizardBlastMT",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Close range attack that blasts back enemies\n Left click icon then left click on target\n\nModifier Type: Spell \n Allies near Gandalf gain 300% armour and become immune to fear and terror\nPassive ability \n\n Shield Bubble \n Gandalf occasionally gains +300% armour and resistance to knockback when attacked\nBubble lasts for 20 seconds and cannot be activated again for 60 seconds\n Passive ability but can be manually activated using the shortcut (U)",
+   "ru": "Атака ближнего боя, отбрасывающая врагов\nЩелкните левой кнопкой мыши на значок, затем на цель\n\nТип модификатора: Заклинание\nСоюзники рядом с Гэндальфом получают +300% брони и становятся невосприимчивыми к страху и ужасу\nПозволяет управлять ближайшими требушетами\nПассивная способность\n\nМагический щит\nГэндальф периодически получает +300% брони и сопротивление отбрасыванию\nЩит действует 20 секунд и не может быть активирован повторно в течение 60 секунд\nПассивная способность, но может быть активирована вручную с помощью горячей клавиши (U)",
+   "uk_ai": "Удар зблизька, що відкидає ворогів\n Клікніть на іконку, потім оберіть ціль\n\nТип ефекту: Заклинання \n Союзники поряд із Ґендальфом отримують 300% броні й імунітет до страху та жаху\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\n Захисна сфера \n Коли Ґендальфа атакують, він час від часу отримує бонус +300% броні й стійкість до відкидання\nСфера діє 20 сек. і знову спрацьовує не раніше ніж через 60 сек.\n Пасивна здібність, яку можна застосувати вручну клавішею (U)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWizardBlastMTInner",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Close range attack that blasts back enemies\n Left click icon then left click on target \n\n Modifier Type: Spell \n Allies near Gandalf gain 300% armour and become immune to fear and terror\nPassive ability",
+   "ru": "Атака ближнего боя, отбрасывающая врагов\nЩелкните левой кнопкой мыши на значок, затем на цель\nТип модификатора: Заклинание\nСоюзники рядом с Гэндальфом получают +300% брони и становятся невосприимчивыми к страху и ужасу\nПозволяет управлять ближайшими требушетами\nПассивная способность",
+   "uk_ai": "Удар зблизька, що відкидає ворогів\n Клікніть на іконку, потім оберіть ціль \n\n Тип ефекту: Заклинання \n Союзники поряд із Ґендальфом отримують 300% броні й імунітет до страху та жаху\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WizardBlastMT",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Commander of the West (&W)",
+   "ru": "Предводитель Запада (&W)",
+   "uk_ai": "Командувач Заходу (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CampaignGrondGuardUrukSlam",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Zealot of the Wolf's Head (&R)",
+   "ru": "",
+   "uk_ai": "Фанатик Вовчої Голови (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GloinSlam",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Sla&m",
+   "ru": "Удар по земле (&M)",
+   "uk_ai": "Удар (&M)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToggleSkirmishFormationYeomanArcher",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Skirmish Formation (&R)",
+   "ru": "Врассыпную (&R)",
+   "uk_ai": "Розсипний стрій (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToggleLineFormationYeomanArcher",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Line Formation (&R)",
+   "ru": "Линия (&R)",
+   "uk_ai": "Шереговий стрій (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleRArcherSkirmishToLineFormation",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "No bonus",
+   "ru": "Нет преимуществ",
+   "uk_ai": "Без бонусу",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToggleSkirmishFormation",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Skirmish Formation (&R)",
+   "ru": "Врассыпную (&R)",
+   "uk_ai": "Розсипний стрій (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToggleAnorienLineFormation",
+   "mission": "005_The Siege of Gondor",
+   "type": "Кнопка",
+   "en": "Line Formation (&R)",
+   "ru": "Линия (&R)",
+   "uk_ai": "Шереговий стрій (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

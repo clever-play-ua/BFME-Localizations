@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "hero": "Khren-ták",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Rhun"
+  ],
+  "alternate factions": [
+   "rhun"
+  ],
+  "templates": [
+   "RhunKhrenTak"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:RhunKhrenTak",
+   "type": "Ім'я",
+   "en": "Khren-ták",
+   "ru": "Крен-так",
+   "uk_ai": "Хрен-так",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PerfectStrike",
+   "type": "Кнопка",
+   "en": "Shield Slam (&W)",
+   "ru": "Удар щитом (&W)",
+   "uk_ai": "Удар щитом (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPerfectStrike",
+   "type": "Підказка",
+   "en": "For every 15 allied Rhûn units nearby, Khren-ták gains +5% armour to a maximum of 25% \n Passive ability \n \n When activated, Khren-ták slams the enemy with his shield, damaging and knocking them back\n Left click icon then left click on target",
+   "ru": "За каждые 15 союзных воинов Рун поблизости Кхрен-так получает +5% брони до максимума в +25%\\nПассивная способность\\n\\nПосле активации, Крен-так бьет щитом, нанося урон по площади и отбрасывая врагов\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "За кожні 15 союзних одиниць Руну поблизу Хрен-так отримує бонус +5% броні, максимум 25%\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації Хрен-так б'є ворога щитом, завдаючи пошкоджень і відкидаючи його\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:VeteransRule",
+   "type": "Кнопка",
+   "en": "Veteran's Rule",
+   "ru": "Правило ветерана",
+   "uk_ai": "Правило ветерана",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipVeteransRule",
+   "type": "Підказка",
+   "en": "Requires Level 3\nModifier Type: Leadership \n Dragon Knights near Khren-ták gain experience +50% faster\nAt level 6, grants nearby Easterling infantry an additional +25% damage and armour\n\n Passive Ability",
+   "ru": "Требуется уровень 3\\nТип модификатора: Лидерство\\nДраконьи рыцари рядом с Крен-таком набирают опыт на +50% быстрее\\nНа уровне 6, ближайшие пехотные отряды истерлингов наносят +25% урона и получают +25% брони\\n\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Лідерство\nДраконові лицарі поряд із Хрен-таком на 50% швидше набирають досвід\nНа 6 рівні піхота істерлінґів поблизу отримує додатковий бонус +25% до пошкоджень і броні\n\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RoaroftheBlackDragon",
+   "type": "Кнопка",
+   "en": "Strength's Reward (&T)",
+   "ru": "Награда за силу (&T)",
+   "uk_ai": "Нагорода за силу (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipRoaroftheBlackDragon",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Give targeted units excellent experience \n Left click icon then left click on target units",
+   "ru": "Требуется уровень 5\\nДарует союзным отрядам большое количество опыта\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 5\nМиттєво наділяє обрані загони великою кількістю досвіду\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:UnflinchingBlow",
+   "type": "Кнопка",
+   "en": "Great Wyrm's Supplication (&C)",
+   "ru": "Воззвание к Великому змею (&C)",
+   "uk_ai": "Благання до Великого Змія (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUnflinchingBlow",
+   "type": "Підказка",
+   "en": "Requires Level 7\n Khren-ták causes the surrounding earth to shatter, stunning nearby enemies for 5 seconds and granting knockback resistance to all nearby allies for 10 seconds\n\n Left click to activate",
+   "ru": "Требуется уровень 7\\nКрен-так ударяет своей булавой по земле, оглушая\\nближайших врагов на 5 секунд и даруя всем ближайшим отрядам сопротивление отбрасыванию на 10 секунд\\n\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 7\nХрен-так розколює землю навколо: вороги поблизу стають приголомшеними на 5 сек., а всі союзники поблизу на 10 сек. отримують стійкість до відкидання\n\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityZealotCharge",
+   "type": "Кнопка",
+   "en": "Dragon Lord's Wrath (&V)",
+   "ru": "Гнев Повелителя драконов (&V)",
+   "uk_ai": "Гнів Володаря драконів (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityZealotCharge",
+   "type": "Підказка",
+   "en": "Requires Level 10\nKhren-ták channels the might of the raging dragon, breathing fire over an area and dealing heavy damage to units and structures \nLeft click icon then left click on target",
+   "ru": "Требуется уровень 10\\nКрен-так демонстрирует мощь разгневанного дракона и обдает врагов огнем в области действия, нанося сильный урон отрядам и строениям\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 10\nХрен-так закликає силу лютого дракона й дихає вогнем на обрану ділянку, завдаючи значних пошкоджень загонам і спорудам\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

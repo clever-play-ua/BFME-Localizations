@@ -1,0 +1,661 @@
+{
+ "meta": {
+  "mission": "012_Many Partings",
+  "campaign": "Return of the King (AoR 10.0)",
+  "count": 65,
+  "fields": "var — мітка; type — Назва/Ціль/Діалог/Репліка/Інше/Кнопка; ru — RU 9.3.1, якщо є; uk_ai — поточний текст (правте прямо тут); status — вичитано / чернетка AI; uk — порожньо",
+  "notes": "\\n — перенос рядка, кількість має збігатися з EN; гарячі клавіші (&W) латиницею. Здібності героїв винесені в папку heroes."
+ },
+ "strings": [
+  {
+   "var": "CampaignName:ManyPartings",
+   "mission": "012_Many Partings",
+   "type": "Назва",
+   "en": "Many Partings",
+   "ru": "",
+   "uk_ai": "Багато прощань",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective01_ManyPartings",
+   "mission": "012_Many Partings",
+   "type": "Ціль",
+   "en": "Approach Gandalf at the steps of the Hall of Kings.",
+   "ru": "",
+   "uk_ai": "Підійдіть до Ґендальфа біля сходів Королівської Палати.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective02_ManyPartings",
+   "mission": "012_Many Partings",
+   "type": "Ціль",
+   "en": "Speak with Frodo, Sam, Merry and Pippin.",
+   "ru": "",
+   "uk_ai": "Поговоріть із Фродо, Семом, Меррі та Піпіном.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf045",
+   "mission": "012_Many Partings",
+   "type": "Діалог",
+   "en": "Gandalf: Now come the days of the king.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Ось і настають дні короля.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf301",
+   "mission": "012_Many Partings",
+   "type": "Діалог",
+   "en": "Gandalf: And may they be blessed.",
+   "ru": "",
+   "uk_ai": "Ґендальф: І хай вони будуть благословенні.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn065",
+   "mission": "012_Many Partings",
+   "type": "Діалог",
+   "en": "Elessar: This day does not belong to one man, but to all.",
+   "ru": "",
+   "uk_ai": "Елессар: Цей день належить не одній людині, а всім.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn427",
+   "mission": "012_Many Partings",
+   "type": "Діалог",
+   "en": "Elessar: Let us together rebuild this world, that we may share in days of peace.",
+   "ru": "",
+   "uk_ai": "Елессар: Відбудуймо разом цей світ, щоб разом зустріти дні миру.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:ElessarSong01",
+   "mission": "012_Many Partings",
+   "type": "Діалог",
+   "en": "Elessar: Out of the Great Sea...",
+   "ru": "",
+   "uk_ai": "Елессар: З Великого Моря...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:ElessarSong02",
+   "mission": "012_Many Partings",
+   "type": "Діалог",
+   "en": "Elessar: ...to Middle-earth I am come.",
+   "ru": "",
+   "uk_ai": "Елессар: ...до Середзем'я я прийшов.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:ElessarSong03",
+   "mission": "012_Many Partings",
+   "type": "Діалог",
+   "en": "Elessar: In this place I will abide...",
+   "ru": "",
+   "uk_ai": "Елессар: Тут я житиму...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:ElessarSong04",
+   "mission": "012_Many Partings",
+   "type": "Діалог",
+   "en": "Elessar: ...and my heirs...",
+   "ru": "",
+   "uk_ai": "Елессар: ...і мої спадкоємці...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:ElessarSong05",
+   "mission": "012_Many Partings",
+   "type": "Діалог",
+   "en": "Elessar: ...unto the ending of the world.",
+   "ru": "",
+   "uk_ai": "Елессар: ...аж до кінця світу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn252",
+   "mission": "012_Many Partings",
+   "type": "Діалог",
+   "en": "Elessar: My friends.",
+   "ru": "",
+   "uk_ai": "Елессар: Друзі мої.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn253",
+   "mission": "012_Many Partings",
+   "type": "Діалог",
+   "en": "Elessar: You bow to no one.",
+   "ru": "",
+   "uk_ai": "Елессар: Ви ні перед ким не схиляєтеся.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn433",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "You have travelled far, honoured guests. What news from the North?",
+   "ru": "",
+   "uk_ai": "Ви здолали далеку путь, шановні гості. Які вісті з Півночі?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gloin016",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "Hail, great King. We bring word from the Lonely Mountain, and from Dale. Thorin, son of Dáin, now rules in Erebor, after his father fell during the Easterling siege.",
+   "ru": "",
+   "uk_ai": "Вітаю, великий Королю. Ми несемо вісті з Самотньої Гори й Дейла. В Еребору тепер править Торін, син Дайна, — його батько поліг під час облоги істерлінґів.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_barding018",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "Brand of Dale perished also, and his son, Bard the Second, now rules the Kingdom of Dale.",
+   "ru": "",
+   "uk_ai": "Бранд із Дейла теж загинув, і тепер Королівством Дейл править його син, Бард Другий.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gloin017",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "When word of their Master's fall reached them, the Enemy faltered, and together the former Princes broke the siege and drove them back to Rhûn!",
+   "ru": "",
+   "uk_ai": "Коли до Ворога дійшла звістка про падіння їхнього Господаря, вони похитнулися, і колишні принци разом прорвали облогу й відкинули їх назад до Руну!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_barding019",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "We have come to bear witness to the dawn of an age of peace and prosperity, and of friendship between our realms.",
+   "ru": "",
+   "uk_ai": "Ми прийшли засвідчити світанок доби миру й достатку та дружби між нашими королівствами.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn434",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "We shall mourn the loss of your Kings, and honour the sacrifice of your people. If the Enemy had been allowed to establish a foothold at Erebor, the armies of Rhûn would have overwhelmed us before our gambit could have played out.",
+   "ru": "",
+   "uk_ai": "Ми оплакуватимемо ваших Королів і шануватимемо жертву вашого народу. Якби Ворог закріпився в Еребору, війська Руну розчавили б нас іще до того, як наш задум устиг би здійснитися.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn446",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "At last, I am come to the end of my trials.",
+   "ru": "",
+   "uk_ai": "Нарешті я дійшов до кінця своїх випробувань.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_arwen005",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "In my heart, I knew that you would. Luthien's choice now falls to me, and I have made it.",
+   "ru": "",
+   "uk_ai": "Серцем я знала, що так і буде. Вибір Лутієн тепер за мною, і я його зробила.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn447",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "Then walk with me, my lady.",
+   "ru": "",
+   "uk_ai": "Тоді ходімо зі мною, моя пані.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir106",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "Today is yours, my captain. My King.",
+   "ru": "",
+   "uk_ai": "Сьогодні твій день, мій капітане. Мій Королю.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn375",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "We are brothers, Boromir. Honour me with your council, given freely.",
+   "ru": "",
+   "uk_ai": "Ми брати, Боромире. Вшануй мене своєю порадою, даною від щирого серця.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_faramir087",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "Hail, Elessar. By your leave, I should like to remove to Ithilien, to rebuild what I can.",
+   "ru": "",
+   "uk_ai": "Вітаю, Елессаре. З твого дозволу я хотів би переїхати до Ітілієну й відбудувати все, що зможу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_faramir089",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "Hail, Elessar. The last Steward of Gondor begs leave to surrender his office.",
+   "ru": "",
+   "uk_ai": "Вітаю, Елессаре. Останній Намісник Ґондору просить дозволу скласти свої повноваження.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn377",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "So you shall, Faramir. But not as a captain. Yours is the Princedom of Ithilien.",
+   "ru": "",
+   "uk_ai": "Так і буде, Фараміре. Але не як капітан. Тобі належить князівство Ітілієн.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn378",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "That office has not ended. It will be yours and your heirs', so long as your line lasts.",
+   "ru": "",
+   "uk_ai": "Ця посада не скасована. Вона належатиме тобі й твоїм спадкоємцям, доки триватиме твій рід.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_faramir088",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "You honour me, my King.",
+   "ru": "",
+   "uk_ai": "Ти вшановуєш мене, мій королю.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn273",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "Hail to the new King of Rohan. Soon we shall renew that ancient oath between our peoples.",
+   "ru": "",
+   "uk_ai": "Слава новому Королю Рогану. Незабаром ми відновимо давню присягу між нашими народами.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_eomer035",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "Seldom before has the Oath of Eorl and Cirion borne more importance.",
+   "ru": "",
+   "uk_ai": "Рідко коли Присяга Еорла й Кіріона важила більше, ніж нині.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf420",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "At last, we have arrived at the end of our long labour. Enjoy this day of revelry, Aragorn.",
+   "ru": "",
+   "uk_ai": "Нарешті ми дійшли до кінця нашого довгого труда. Насолоджуйся цим святковим днем, Араґорне.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn432",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "I am forever grateful for your guidance, Gandalf. My heart tells me that you will depart, now that your task is complete. Middle-earth will not be the same without its Grey Pilgrim.",
+   "ru": "",
+   "uk_ai": "Я довіку вдячний тобі за твій провід, Ґендальфе. Серце підказує мені, що ти підеш, тепер, коли твоє завдання виконано. Середзем'я не буде таким, як раніше, без свого Сірого Мандрівника.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf421",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "So it must be, my old friend.",
+   "ru": "",
+   "uk_ai": "Так має бути, мій старий друже.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn272",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "What will you do now that the war is ended, master Dwarf?",
+   "ru": "",
+   "uk_ai": "Що ти робитимеш тепер, коли війна скінчилася, пане дворфе?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli071",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "I will go and see the Glittering Caves! Immeasurable halls",
+   "ru": "",
+   "uk_ai": "Піду подивлюся на Блискучі Печери! Безмежні зали,",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli072",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "filled with an everlasting music of water that tinkles into pools as fair as Kheled-zaram in the starlight. The Elf-prince will accompany me.",
+   "ru": "",
+   "uk_ai": "сповнені вічною музикою води, що дзвенить, стікаючи в озерця, прекрасні, як Келед-Зарам у сяйві зірок. Ельфійський принц піде зі мною.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn271",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "You have been by my side through great hardship, my friend. What follows for the Prince of the Woodland Realm?",
+   "ru": "",
+   "uk_ai": "Ти був поруч зі мною в найтяжчі часи, друже. Що чекає на принца Лісового Королівства?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas088",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "By Fangorn's leave, I will visit the deep places of the Entwood and see such trees as are nowhere else to be found in Middle-earth.",
+   "ru": "",
+   "uk_ai": "З дозволу Фанґорна я відвідаю глибини Ентового Лісу й побачу такі дерева, яких більше ніде в Середзем'ї не знайти.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas089",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "Gimli shall come with me, and thus we will journey on together to our own lands in the Greenwood and beyond.",
+   "ru": "",
+   "uk_ai": "Ґімлі піде зі мною, і так ми разом мандруватимемо до наших власних земель у Зеленоліссі й далі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn376",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "A great labour lies before us, my friend.",
+   "ru": "",
+   "uk_ai": "Попереду в нас великий труд, друже.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_eowyn006",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "You have brought hope to the hopeless, my Lord. In time, perhaps this world may heal from the hurt that was inflicted upon it.",
+   "ru": "",
+   "uk_ai": "Ти приніс надію безнадійним, мій пане. З часом, можливо, цей світ загоїть рани, яких йому завдали.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn379",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "It will, Eowyn. In time.",
+   "ru": "",
+   "uk_ai": "Загоїть, Еовін. З часом.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_imrahil008",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "Your wish is mine to command, o liege-lord, King of Gondor returned.",
+   "ru": "",
+   "uk_ai": "Твоє бажання — мій наказ, о мій сюзерене, повернений Королю Ґондору.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn380",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "Great were the deeds of the Swan Knights and their Lord. I thank you for all that you have done.",
+   "ru": "",
+   "uk_ai": "Великими були звершення Лицарів Лебедя та їхнього Володаря. Дякую тобі за все, що ти зробив.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_celeborn008",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "Gi suilon, Elessar. We have prevailed over the utmost peril, but great victory is oft delivered at great cost.",
+   "ru": "",
+   "uk_ai": "Ґі суілон, Елессаре. Ми подолали найбільшу небезпеку, але велика перемога часто дістається великою ціною.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_celeborn009",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "May your doom be other than mine, and your treasure remain with you to the end.",
+   "ru": "",
+   "uk_ai": "Хай твоя доля буде не такою, як моя, і хай твій скарб лишається з тобою до кінця.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn381",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "Annon allen, Golwendor.\n\nThank you, wise lord.",
+   "ru": "",
+   "uk_ai": "Аннон аллен, Ґолвендоре.\n\nДякую, мудрий володарю.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_galadriel019",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "Elfstone, through darkness you have come to your hope, and have now all your desire.",
+   "ru": "",
+   "uk_ai": "Ельфійський Камінь, крізь темряву ти прийшов до своєї надії, і тепер маєш усе, чого бажав.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_galadriel020",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "Use well the days! Namarië. We will not meet again.",
+   "ru": "",
+   "uk_ai": "Використай же ці дні добре! Намаріе. Ми більше не зустрінемося.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn382",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "The West bears a great debt to the wisdom of the Lady of Lorien.",
+   "ru": "",
+   "uk_ai": "Захід у великому боргу перед мудрістю леді Лоріену.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elrond040",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "The Third Age is over, and the Days of the Rings have ended. Bitter is this parting of father and daughter, one that must endure beyond the ends of the world.",
+   "ru": "",
+   "uk_ai": "Третя Епоха скінчилася, і Дні Перснів минули. Гірке це прощання батька з дочкою — прощання, що триватиме й за межами світу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elrond041",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "It soothes me to know that Arwen has found her happiness.",
+   "ru": "",
+   "uk_ai": "Мене втішає те, що Арвен знайшла своє щастя.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn383",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "Your guidance has ever illuminated my path, foster-father.",
+   "ru": "",
+   "uk_ai": "Твій провід завжди освітлював мені шлях, названий батьку.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn384",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "Though I completed the task set out before me, I believe I may have need of it still.",
+   "ru": "",
+   "uk_ai": "Хоч я й виконав покладене на мене завдання, гадаю, він мені ще знадобиться.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elrond042",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "What you need is already at your disposal, Estel. The strength of Numenor resides within you.",
+   "ru": "",
+   "uk_ai": "Те, що тобі потрібно, вже у твоїх руках, Естеле. Сила Нуменору живе в тобі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor064",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "At long last, Gondor sees the return of its King. I did not think this day would come.",
+   "ru": "",
+   "uk_ai": "Нарешті Ґондор бачить повернення свого Короля. Я не думав, що цей день настане.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor065",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "The Last Steward of Gondor begs leave to surrender his office.",
+   "ru": "",
+   "uk_ai": "Останній Намісник Ґондору просить дозволу скласти свої повноваження.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn385",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "Gondor owes much to the perseverance of the House of Stewards, and that office has not ended.",
+   "ru": "",
+   "uk_ai": "Ґондор багато чим завдячує стійкості Дому Намісників, і ця посада не скасована.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn386",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "It will remain yours, and your heirs', so long as your line lasts.",
+   "ru": "",
+   "uk_ai": "Вона лишиться за тобою й твоїми спадкоємцями, доки триватиме твій рід.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_haldir038",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "May the realms of Elves and Men be ever close in friendship and alliance.",
+   "ru": "",
+   "uk_ai": "Хай королівства ельфів і людей завжди будуть близькі в дружбі й союзі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn387",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "May it be so, Haldir of Lorien.",
+   "ru": "",
+   "uk_ai": "Хай так і буде, Галдіре з Лоріену.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elladan074",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "At long last, you have completed the path set out before you.",
+   "ru": "",
+   "uk_ai": "Нарешті ти пройшов шлях, що лежав перед тобою.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elrohir075",
+   "mission": "012_Many Partings",
+   "type": "Репліка",
+   "en": "And now a new path is revealed. Tread it wisely, my friend. Our counsel is ever at your disposal.",
+   "ru": "",
+   "uk_ai": "А тепер відкривається новий шлях. Іди ним мудро, друже. Наша порада завжди до твоїх послуг.",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

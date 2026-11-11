@@ -1,0 +1,1891 @@
+{
+ "meta": {
+  "mission": "003_The Paths of the Dead",
+  "campaign": "Return of the King (AoR 10.0)",
+  "count": 188,
+  "fields": "var — мітка; type — Назва/Ціль/Діалог/Репліка/Інше/Кнопка; ru — RU 9.3.1, якщо є; uk_ai — поточний текст (правте прямо тут); status — вичитано / чернетка AI; uk — порожньо",
+  "notes": "\\n — перенос рядка, кількість має збігатися з EN; гарячі клавіші (&W) латиницею. Здібності героїв винесені в папку heroes."
+ },
+ "strings": [
+  {
+   "var": "CampaignName:PathsoftheDead",
+   "mission": "003_The Paths of the Dead",
+   "type": "Назва",
+   "en": "The Paths of the Dead",
+   "ru": "",
+   "uk_ai": "Стежки Мертвих",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn234",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "We must move on.",
+   "ru": "",
+   "uk_ai": "Треба йти далі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn229",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Aragorn: Long ago, a Prince of Rohan ventured into this accursed mountain, \n determined to prove his courage. He never returned.",
+   "ru": "",
+   "uk_ai": "Араґорн: Колись давно принц Рогану зайшов у цю прокляту гору, \n бажаючи довести свою мужність. Він так і не повернувся.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_baldor001",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Baldor: Baldor am I. At last I have been found. What news of my father? What news of our fledgling Kingdom?",
+   "ru": "",
+   "uk_ai": "Балдор: Я — Балдор. Нарешті мене знайшли. Які вісті про мого батька? Що чути про наше молоде Королівство?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn230",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Aragorn: Your time has long since passed, young Prince.",
+   "ru": "",
+   "uk_ai": "Араґорн: Твій час давно минув, юний принце.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn231",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Aragorn: Many kings have ascended your father's throne at Meduseld, and cold Simbelmynë \n flowers over the many kingly tombs of his successors.",
+   "ru": "",
+   "uk_ai": "Араґорн: Багато королів посідали трон твого батька в Медусельді, і холодна симбельміне \n квітне над безліччю королівських гробниць його нащадків.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_baldor002",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Baldor: But it seems to me only recently that they came for me, howling from out of the darkness...",
+   "ru": "",
+   "uk_ai": "Балдор: Але мені здається, ніби вони прийшли по мене зовсім недавно, з виттям вихопившись із темряви...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_baldor003",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Baldor: They chased me through long corridors... I could not see my feet beneath the swirling mists.",
+   "ru": "",
+   "uk_ai": "Балдор: Вони гнали мене довгими коридорами... Я не бачив власних ніг у клубах туману.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_baldor009",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Baldor: I lost my girdle, given to me by my grandfather... by Eorl.",
+   "ru": "",
+   "uk_ai": "Балдор: Я загубив пояс, який дав мені дід... сам Еорл.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_baldor010",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Baldor: My brooch, too, a gift from my faithful wife... ",
+   "ru": "",
+   "uk_ai": "Балдор: І брошку — дарунок моєї вірної дружини...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_baldor011",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Baldor: ...and my helm, forged many years ago in the great Dwarf-smithies of the Grey Mountains...",
+   "ru": "",
+   "uk_ai": "Балдор: ...і шолом, викуваний багато років тому у великих кузнях дворфів Сірих гір...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn232",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Aragorn: I must bid thee farewell, Baldor, son of Brego. May you resume your long rest in peace.",
+   "ru": "",
+   "uk_ai": "Араґорн: Мушу попрощатися з тобою, Балдоре, сину Бреґо. Хай твій довгий сон триває в мирі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas113",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Perhaps this Prince of Men may find his rest once his belongings are returned to the place of his death...",
+   "ru": "",
+   "uk_ai": "Можливо, цей принц людей знайде спокій, якщо його речі повернуть на місце його смерті...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn318",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Aragorn: Perhaps the return of his heirlooms will allow his spirit to rest.",
+   "ru": "",
+   "uk_ai": "Араґорн: Можливо, якщо повернути його реліквії, дух його знайде спокій.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_baldor012",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Baldor: ...no rest will I find... ere my death is avenged.",
+   "ru": "",
+   "uk_ai": "Балдор: ...не знайду я спокою... доки за мою смерть не помстяться.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_kod019",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "So you have found that foolish prince! You shall share in his fate!",
+   "ru": "",
+   "uk_ai": "Отже, ви знайшли того нерозумного принца! Тож поділите його долю!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas106",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Legolas: What is this place?",
+   "ru": "",
+   "uk_ai": "Леґолас: Що це за місце?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn319",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Aragorn: Stay close.",
+   "ru": "",
+   "uk_ai": "Араґорн: Тримайтеся поруч.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli098",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Gimli: Something lingers over there!",
+   "ru": "",
+   "uk_ai": "Ґімлі: Там щось є!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elladan056",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Elladan: The spirits of the dead return!",
+   "ru": "",
+   "uk_ai": "Елладан: Духи мертвих повертаються!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas107",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Legolas: It's trapped us here!",
+   "ru": "",
+   "uk_ai": "Леґолас: Воно замкнуло нас тут!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn320",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "We cannot pass! We must defeat him!",
+   "ru": "",
+   "uk_ai": "Нам не пройти! Ми мусимо його здолати!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas109",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Legolas: Aragorn, there is a fell presence ahead!",
+   "ru": "",
+   "uk_ai": "Леґолас: Араґорне, попереду щось лихе!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elrohir046",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Elrohir: This foe is unlike any other!",
+   "ru": "",
+   "uk_ai": "Елрохір: Такого ворога ми ще не бачили!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli099",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Gimli: Undead beasts!?",
+   "ru": "",
+   "uk_ai": "Ґімлі: Неживі тварюки!?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn323",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Aragorn: Hold fast! Slay them all!",
+   "ru": "",
+   "uk_ai": "Араґорн: Стійте твердо! Вбийте їх усіх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elladan042",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Elladan: Watch out!",
+   "ru": "",
+   "uk_ai": "Елладан: Обережно!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli102",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Gimli: What is she!",
+   "ru": "",
+   "uk_ai": "Ґімлі: Що вона таке?!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn325",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Aragorn: Stand together! We will counter her fell sorcery!",
+   "ru": "",
+   "uk_ai": "Араґорн: Тримаймося разом! Ми відіб'ємо її лихе чаклунство!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas111",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "A dark power dwells within her!",
+   "ru": "",
+   "uk_ai": "У ній живе темна сила!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn326",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "I will defeat you, creature of shadow!",
+   "ru": "",
+   "uk_ai": "Я здолаю тебе, створіння тіні!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elladan070",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Elladan: Come! Over here.",
+   "ru": "",
+   "uk_ai": "Елладан: Сюди! Ось тут.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_toradan020",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Toradan: Watch out!",
+   "ru": "",
+   "uk_ai": "Торадан: Обережно!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgtt_aragorn072",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Aragorn: Stand back!",
+   "ru": "",
+   "uk_ai": "Араґорн: Назад!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad032",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Halbarad: Aragorn, you must press on without us.",
+   "ru": "",
+   "uk_ai": "Гальбарад: Араґорне, тобі доведеться йти далі без нас.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad033",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Halbarad: We shall wait here until the path is clear.",
+   "ru": "",
+   "uk_ai": "Гальбарад: Ми зачекаємо тут, доки шлях не звільниться.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_kod018",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Only a fool would seek an audience with the King of the Dead",
+   "ru": "",
+   "uk_ai": "Лише дурень шукатиме зустрічі з Королем Мертвих",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective01_PotD",
+   "mission": "003_The Paths of the Dead",
+   "type": "Ціль",
+   "en": "Reach the other side of the Dwimorberg",
+   "ru": "",
+   "uk_ai": "Дістаньтеся іншого боку Двіморберґу",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective02_PotD",
+   "mission": "003_The Paths of the Dead",
+   "type": "Ціль",
+   "en": "Defeat the Treasonous Champion",
+   "ru": "",
+   "uk_ai": "Здолайте Віроломного Чемпіона",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective03_PotD",
+   "mission": "003_The Paths of the Dead",
+   "type": "Ціль",
+   "en": "Defeat the Spectral Seer",
+   "ru": "",
+   "uk_ai": "Здолайте Примарного Провидця",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective04_PotD",
+   "mission": "003_The Paths of the Dead",
+   "type": "Ціль",
+   "en": "Defeat the Bone Witch",
+   "ru": "",
+   "uk_ai": "Здолайте Кістяну Відьму",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective05_PotD",
+   "mission": "003_The Paths of the Dead",
+   "type": "Ціль",
+   "en": "Defeat the King of the Dead",
+   "ru": "",
+   "uk_ai": "Здолайте Короля Мертвих",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective01_PotD",
+   "mission": "003_The Paths of the Dead",
+   "type": "Ціль",
+   "en": "Light all braziers in the Paths of the Dead",
+   "ru": "",
+   "uk_ai": "Запаліть усі жаровні на Стежках Мертвих",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MissionHint01_PotD",
+   "mission": "003_The Paths of the Dead",
+   "type": "Інше",
+   "en": "Light braziers by approaching them with Aragorn to permanently reveal an area of the map",
+   "ru": "",
+   "uk_ai": "Підведіть Араґорна до жаровні, щоб запалити її й назавжди відкрити ділянку мапи",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective02_PotD",
+   "mission": "003_The Paths of the Dead",
+   "type": "Ціль",
+   "en": "Light all torches in the Paths of the Dead",
+   "ru": "",
+   "uk_ai": "Запаліть усі смолоскипи на Стежках Мертвих",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MissionHint05_PotD",
+   "mission": "003_The Paths of the Dead",
+   "type": "Інше",
+   "en": "Torches will momentarily heal nearby units",
+   "ru": "",
+   "uk_ai": "Смолоскипи ненадовго лікують загони поблизу",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective03_PotD",
+   "mission": "003_The Paths of the Dead",
+   "type": "Ціль",
+   "en": "Return Baldor's Girdle, Brooch, and Helm",
+   "ru": "",
+   "uk_ai": "Поверніть пояс, брошку й шолом Балдора",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective04_PotD",
+   "mission": "003_The Paths of the Dead",
+   "type": "Ціль",
+   "en": "Listen to all parts of the Sage's story",
+   "ru": "",
+   "uk_ai": "Вислухайте всю оповідь Мудреця",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_lothrandir014",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Look out! It's collapsing",
+   "ru": "",
+   "uk_ai": "Обережно! Обвалюється",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas060",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Pale banners like shreds of cloud",
+   "ru": "",
+   "uk_ai": "Бліді стяги, мов клапті хмар",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas061",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "..spears rise..",
+   "ru": "",
+   "uk_ai": "..списи здіймаються..",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas062",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Like winter thickets through a shroud of mist",
+   "ru": "",
+   "uk_ai": "Мов зимові хащі крізь саван туману",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn233",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "We have broken their enchantment",
+   "ru": "",
+   "uk_ai": "Ми розвіяли їхні чари",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_haldir018",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "The spectres have faded. Let us move on.",
+   "ru": "",
+   "uk_ai": "Примари зникли. Ходімо далі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad030",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "A brazier! Quickly, let's get a fire started.",
+   "ru": "",
+   "uk_ai": "Жаровня! Швидше, розпалімо вогонь.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad034",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Another brazier! Down there!",
+   "ru": "",
+   "uk_ai": "Ще одна жаровня! Он там, унизу!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elrohir072",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "This darkness cannot endure.",
+   "ru": "",
+   "uk_ai": "Ця темрява не триватиме вічно.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad031",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "These shades amass. We must reach another brazier.",
+   "ru": "",
+   "uk_ai": "Тіні збираються. Треба дістатися наступної жаровні.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_amdir021",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "We have fought your kind before!",
+   "ru": "",
+   "uk_ai": "Ми вже билися з такими, як ви!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_gimli029",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "It's no wonder none survive these paths!",
+   "ru": "",
+   "uk_ai": "Не дивно, що ніхто не виходить живим із цих стежок!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn260",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "The dead linger on this path",
+   "ru": "",
+   "uk_ai": "Мертві блукають цим шляхом",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn264",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "They gather here in force!",
+   "ru": "",
+   "uk_ai": "Їх тут ціле військо!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_toradan019",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "These halls are perilous.",
+   "ru": "",
+   "uk_ai": "Ці зали небезпечні.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_haldir011",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "We must defeat them all!",
+   "ru": "",
+   "uk_ai": "Ми мусимо здолати їх усіх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn261",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Even through living death they obey!",
+   "ru": "",
+   "uk_ai": "Навіть у живій смерті вони коряться!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_gimli018",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "I have... a very bad feeling about this place.",
+   "ru": "",
+   "uk_ai": "У мене... дуже погане передчуття щодо цього місця.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas073",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Fear not Gimli, son of Gloin. It does not become you.",
+   "ru": "",
+   "uk_ai": "Не бійся, Ґімлі, сину Ґлоїна. Тобі це не личить.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_gimli025",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Dwarves would never build such flimsy things!",
+   "ru": "",
+   "uk_ai": "Дворфи ніколи б не збудували такого хиткого мотлоху!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elegost024",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Another blind passage, we must find another way.",
+   "ru": "",
+   "uk_ai": "Знову глухий прохід, треба шукати інший шлях.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn262",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Stay alert. Move with caution.",
+   "ru": "",
+   "uk_ai": "Будьте пильні. Рухайтеся обережно.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas091",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "How do we get through this?",
+   "ru": "",
+   "uk_ai": "Як нам тут пройти?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas077",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "We must pass through this!",
+   "ru": "",
+   "uk_ai": "Ми мусимо тут пройти!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas079",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "The mists are swirling!",
+   "ru": "",
+   "uk_ai": "Туман клубочиться!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli107",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "It's a doorway. How do we get through?",
+   "ru": "",
+   "uk_ai": "Це прохід. Як нам крізь нього пройти?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli108",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "There's another door here.",
+   "ru": "",
+   "uk_ai": "Тут ще одні двері.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli073",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "What is this wicked shrine they've hewn into the rock?",
+   "ru": "",
+   "uk_ai": "Що це за лиховісне святилище, вирубане в скелі?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elrohir067",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "I wonder what secrets it holds.",
+   "ru": "",
+   "uk_ai": "Цікаво, які таємниці воно береже.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_storyshrine1A",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Sage: I remember when the Sea-kings came... Mighty they were, clad in bright armour, carrying long, shining swords..",
+   "ru": "",
+   "uk_ai": "Мудрець: Я пам'ятаю, як прийшли Морські королі... Могутні вони були, в сяйливих обладунках, із довгими блискучими мечами...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_storyshrine1B",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Sage: In the face of this overwhelming glory an oath was sworn... to swear off the Dark One, \n and to aid the King of Gondor in his time of need...",
+   "ru": "",
+   "uk_ai": "Мудрець: Перед цією нездоланною славою було дано присягу... зректися Темного \n і допомогти Королю Ґондору в годину скрути...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_storyshrine2A",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Sage: Some were glad to be rid of the Dark One's influence, and welcomed back the faith of our forebears...",
+   "ru": "",
+   "uk_ai": "Мудрець: Дехто радо позбувся впливу Темного й повернувся до віри наших предків...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_storyshrine2B",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Sage: But for others worship of the Dark One was not so easily cast aside, for their power was built upon it...",
+   "ru": "",
+   "uk_ai": "Мудрець: Та іншим не так легко було відмовитися від поклоніння Темному, бо на ньому трималася їхня влада...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_storyshrine3A",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Sage: Our King, whose name has been forgotten, soon fell back into the old rituals, the old beliefs.",
+   "ru": "",
+   "uk_ai": "Мудрець: Наш Король, чиє ім'я забуто, невдовзі повернувся до давніх обрядів, давніх вірувань.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_storyshrine3B",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Sage: In the hour of need, when the world shook beneath the marching of great hosts, our King refused the call...",
+   "ru": "",
+   "uk_ai": "Мудрець: У годину скрути, коли світ здригався під кроками великих військ, наш Король відмовився відгукнутися на поклик...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_storyshrine4A",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Sage: When the Great Host crossed through our lands, we feared their wrath, sure to be delivered without mercy.",
+   "ru": "",
+   "uk_ai": "Мудрець: Коли Велике Військо проходило нашими землями, ми боялися їхнього гніву, що неодмінно впаде на нас без жалю.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_storyshrine4B",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Sage: But instead, Isildur sought out our King, and said unto him: \"Thou shalt be the last king. \n And if the West prove mightier than thy Black Master...",
+   "ru": "",
+   "uk_ai": "Мудрець: Але натомість Ісілдур розшукав нашого Короля й сказав йому: «Ти будеш останнім королем. \n І якщо Захід виявиться могутнішим за твого Чорного Господаря...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_storyshrine4C",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Sage: ..this curse I lay upon thee and thy folk: to rest never until your oath is fulfilled. \n For this war will last through years uncounted, and you shall be summoned once again ere the end.",
+   "ru": "",
+   "uk_ai": "Мудрець: ...то ось яке прокляття накладаю я на тебе й твій народ: не знати спокою, доки не виконаєте присяги. \n Бо ця війна триватиме незліченні роки, і вас покличуть знову, ще до кінця».",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_storyshrine5A",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Sage: Convinced of the Dark One's victory, we awaited the inevitable. Months turned into years, \n until nigh a decade later, word of the Dark One's defeat at long last reached our ears.",
+   "ru": "",
+   "uk_ai": "Мудрець: Певні перемоги Темного, ми чекали неминучого. Місяці складалися в роки, \n аж поки майже через десятиліття до нас нарешті не дійшла звістка про поразку Темного.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_storyshrine5B",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Sage: Despair fell upon our people. We sought refuge inside the mountain, rarely leaving it, \n for we feared the vengeance of Gondor.",
+   "ru": "",
+   "uk_ai": "Мудрець: Розпач охопив наш народ. Ми сховалися в горі й рідко її покидали, \n бо боялися помсти Ґондору.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_storyshrine5C",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Sage: It was during that dark time that the truth of Isildur's curse first became apparent...",
+   "ru": "",
+   "uk_ai": "Мудрець: Саме в ту темну пору вперше стала явною правдивість Ісілдурового прокляття...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_storyshrine6A",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Sage: We were once numerous, but within the darkness of the mountain our people faltered. \n Our King was among the first to die, his spirit lingering restlessly beneath the mountain.",
+   "ru": "",
+   "uk_ai": "Мудрець: Колись нас було багато, та в темряві гори наш народ занепав. \n Наш Король помер серед перших, і його неспокійний дух лишився блукати під горою.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_storyshrine6B",
+   "mission": "003_The Paths of the Dead",
+   "type": "Діалог",
+   "en": "Sage: Soon all the rest would join him there, until at long last our once-verdant mountain \n valleys were changed to places of dark terror, where no living man dared tread...",
+   "ru": "",
+   "uk_ai": "Мудрець: Невдовзі до нього приєдналися всі інші, аж поки наші колись зелені гірські \n долини не обернулися на місця темного жаху, куди жоден живий не наважувався ступити...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn266",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "These torches will help light our way through these passages.",
+   "ru": "",
+   "uk_ai": "Ці смолоскипи освітлять нам шлях крізь ці переходи.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MissionHint03_PotD",
+   "mission": "003_The Paths of the Dead",
+   "type": "Інше",
+   "en": "Kindled braziers replenish health and fallen troops over time. They also grant permanent vision and banish any wisps that approach it.",
+   "ru": "",
+   "uk_ai": "Запалені жаровні поступово відновлюють здоров'я й полеглих воїнів. Вони також дають постійний огляд і проганяють блукаючі вогники, що наближаються.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elladan066",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "What have you found?",
+   "ru": "",
+   "uk_ai": "Що ти знайшов?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas080",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "A lofty helmet after the fashion of the ancient Northmen. The fallen prince would want this returned.",
+   "ru": "",
+   "uk_ai": "Високий шолом на кшталт давніх північан. Полеглий принц хотів би, щоб його повернули.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn235",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "A belt of kingly make. This must belong to Baldor.",
+   "ru": "",
+   "uk_ai": "Пояс королівської роботи. Певно, це Балдорів.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn236",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "A brooch of the House of Eorl.  We should return this to Baldor.",
+   "ru": "",
+   "uk_ai": "Брошка дому Еорла. Треба повернути її Балдорові.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MissionHint04_PotD",
+   "mission": "003_The Paths of the Dead",
+   "type": "Інше",
+   "en": "Bring Baldor's belongings back to his corpse",
+   "ru": "",
+   "uk_ai": "Принесіть речі Балдора до його тіла",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MissionHint02_PotD",
+   "mission": "003_The Paths of the Dead",
+   "type": "Інше",
+   "en": "The spirits of the dead cause great fear to most of your heroes and units, and they will take damage over time at the sight of them.",
+   "ru": "",
+   "uk_ai": "Духи мертвих наганяють великий страх на більшість ваших героїв і загонів, і ті поступово втрачають здоров'я, коли їх бачать.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas078",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "The spirits of the dead!",
+   "ru": "",
+   "uk_ai": "Духи мертвих!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas093",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Their heralds rally fell spirits around their banners... slay them before we are overrun!",
+   "ru": "",
+   "uk_ai": "Їхні герольди скликають лихих духів під свої стяги... вбийте їх, поки нас не здолали!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_gimli017",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "I'm not trained to kill the dead!",
+   "ru": "",
+   "uk_ai": "Мене не вчили вбивати мертвих!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_gimli023",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "It would appear to be a trap!",
+   "ru": "",
+   "uk_ai": "Схоже, це пастка!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn263",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Stay together!",
+   "ru": "",
+   "uk_ai": "Тримайтеся разом!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_haldir019",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "They are gone. Come, we cannot linger here.",
+   "ru": "",
+   "uk_ai": "Їх більше немає. Ходімо, тут не можна баритися.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_gimli019",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Those blades cut, even if rusty!",
+   "ru": "",
+   "uk_ai": "Ці клинки ріжуть, хоч і заіржавілі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elegost023",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Look, they're shooting at us from up above!",
+   "ru": "",
+   "uk_ai": "Дивіться, вони стріляють у нас згори!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elegost022",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Archers! Volley!",
+   "ru": "",
+   "uk_ai": "Лучники! Залп!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elladan063",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Amdir! Bring up your spears!",
+   "ru": "",
+   "uk_ai": "Амдіре! Списи вперед!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas076",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "More spectres approach!",
+   "ru": "",
+   "uk_ai": "Наближаються нові примари!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas090",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "The spectres have returned!",
+   "ru": "",
+   "uk_ai": "Примари повернулися!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn275",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "This gate is shut. We must find another way.",
+   "ru": "",
+   "uk_ai": "Ця брама зачинена. Треба шукати інший шлях.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn265",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "The dead return!",
+   "ru": "",
+   "uk_ai": "Мертві повертаються!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas074",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "I do not fear the dead",
+   "ru": "",
+   "uk_ai": "Я не боюся мертвих",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_amdir022",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "We must defeat them all!",
+   "ru": "",
+   "uk_ai": "Ми мусимо здолати їх усіх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_kod017",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "A dead end!",
+   "ru": "",
+   "uk_ai": "Глухий кут!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_kod030",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Your road leads to nowhere!",
+   "ru": "",
+   "uk_ai": "Ваш шлях веде в нікуди!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_toradan018",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "They come again!",
+   "ru": "",
+   "uk_ai": "Вони знову йдуть!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_haldir017",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Something evil dwells within this place. I can feel it.",
+   "ru": "",
+   "uk_ai": "У цьому місці живе щось лихе. Я це відчуваю.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn321",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "He commands the dead! Do not show fear!",
+   "ru": "",
+   "uk_ai": "Він велить мертвими! Не показуйте страху!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas092",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "The heralds call forth more warriors! We must banish them!",
+   "ru": "",
+   "uk_ai": "Герольди скликають нових воїнів! Ми мусимо їх прогнати!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas108",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "They are gone. Let us move on.",
+   "ru": "",
+   "uk_ai": "Їх більше немає. Ходімо далі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn322",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "There is great evil within this mountain...",
+   "ru": "",
+   "uk_ai": "У цій горі живе велике зло...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli101",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "The dead seem to grow stronger the deeper we go into this accursed mountain...",
+   "ru": "",
+   "uk_ai": "Що глибше ми заходимо в цю прокляту гору, то сильнішими стають мертві...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn324",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Hold onto your courage, master Dwarf. We will overcome them.",
+   "ru": "",
+   "uk_ai": "Тримайся мужньо, пане дворфе. Ми їх здолаємо.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elrohir066",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Come, let us proceed.",
+   "ru": "",
+   "uk_ai": "Ходімо, рушаймо далі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas075",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "This is a place of great evil",
+   "ru": "",
+   "uk_ai": "Це місце великого зла",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas102",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "This witch is impervious to our weapons. It appears these spires empower her.",
+   "ru": "",
+   "uk_ai": "Наша зброя не бере цю відьму. Схоже, силу їй дають ці шпилі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli097",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "That foul sorcery is leaving the spires! Bring them down!",
+   "ru": "",
+   "uk_ai": "Те мерзенне чаклунство виходить зі шпилів! Валіть їх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn327",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "That weakened her! Let us strike now!",
+   "ru": "",
+   "uk_ai": "Це її послабило! Б'ємо зараз!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli103",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "We must destroy the last of these shrines ere we are overwhelmed!",
+   "ru": "",
+   "uk_ai": "Ми мусимо знищити останні з цих святилищ, поки нас не здолали!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn328",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "The Flame of the West shall be your end!",
+   "ru": "",
+   "uk_ai": "Полум'я Заходу стане твоїм кінцем!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elladan068",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Well done, my friends!",
+   "ru": "",
+   "uk_ai": "Чудова робота, друзі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas112",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Her power dissipates. I hope she may find some rest.",
+   "ru": "",
+   "uk_ai": "Її сила розвіюється. Сподіваюся, вона знайде спокій.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli104",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "I'd like some rest myself! I don't mean to linger here any longer!",
+   "ru": "",
+   "uk_ai": "Я й сам не проти спокою! Не маю жодного бажання лишатися тут довше!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn329",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "We must be close to the end. Come.",
+   "ru": "",
+   "uk_ai": "Ми, мабуть, уже близько до кінця. Ходімо.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_baldor005",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "I shall have vengeance!",
+   "ru": "",
+   "uk_ai": "Я помщуся!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_baldor004",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Perish traitors!",
+   "ru": "",
+   "uk_ai": "Згиньте, зрадники!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_baldor006",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Your wickedness will end!",
+   "ru": "",
+   "uk_ai": "Вашому лиходійству настане край!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_baldor007",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Curse you turncloak!",
+   "ru": "",
+   "uk_ai": "Будь ти проклятий, перевертню!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_baldor008",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Taste Rohirric steel coward!",
+   "ru": "",
+   "uk_ai": "Скуштуй роганської сталі, боягузе!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_haldir013",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "They flood across the chasm!",
+   "ru": "",
+   "uk_ai": "Вони ринуть через прірву!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_haldir016",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Back, foul thing!",
+   "ru": "",
+   "uk_ai": "Геть, мерзото!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_haldir014",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Still more come!",
+   "ru": "",
+   "uk_ai": "Вони все прибувають!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_haldir012",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Stay together!",
+   "ru": "",
+   "uk_ai": "Тримайтеся разом!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_haldir015",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Quickly, get behind cover!",
+   "ru": "",
+   "uk_ai": "Швидше, в укриття!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_kod023",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Men of the mountain, fight for me!",
+   "ru": "",
+   "uk_ai": "Люди гір, бийтеся за мене!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_kod009",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "None return from my mountain!",
+   "ru": "",
+   "uk_ai": "Ніхто не повертається з моєї гори!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_kod026",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Your life is forfeit",
+   "ru": "",
+   "uk_ai": "Твоє життя скінчене",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_kod024",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "The dead will be your undoing!",
+   "ru": "",
+   "uk_ai": "Мертві стануть вашою погибеллю!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_kod020",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "The men of the mountain know no fear... no weariness...",
+   "ru": "",
+   "uk_ai": "Люди гір не знають ні страху... ні втоми...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_kod027",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Even in death they obey me!",
+   "ru": "",
+   "uk_ai": "Навіть у смерті вони мені коряться!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_kod021",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "They will not stop until all of you lie dead...before my throne",
+   "ru": "",
+   "uk_ai": "Вони не спиняться, доки всі ви не ляжете мертвими... перед моїм троном",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_kod025",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "All light must fade!",
+   "ru": "",
+   "uk_ai": "Усе світло мусить згаснути!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_kod009",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Now you must die!",
+   "ru": "",
+   "uk_ai": "Тепер ти помреш!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_kod010",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "That line was broken!",
+   "ru": "",
+   "uk_ai": "Той рід перервався!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn179",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "It has been remade!",
+   "ru": "",
+   "uk_ai": "Його відновлено!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas063",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "The dead are followingl",
+   "ru": "",
+   "uk_ai": "Мертві йдуть слідом",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elegost021",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "The sight of them... I can feel my blood freezing within my veins...",
+   "ru": "",
+   "uk_ai": "Від їхнього вигляду... кров холоне в жилах...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_haldir033",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "The spirits of Men do not frighten me",
+   "ru": "",
+   "uk_ai": "Духи людей мене не лякають",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas110",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Let us end their suffering!",
+   "ru": "",
+   "uk_ai": "Покладімо край їхнім стражданням!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli100",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Bring your ghoulish face to my axe!",
+   "ru": "",
+   "uk_ai": "А ну підстав свою упирячу пику під мою сокиру!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_haldir010",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Look out, master Dwarf!",
+   "ru": "",
+   "uk_ai": "Обережно, пане дворфе!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_lothrandir015",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Something draws near...",
+   "ru": "",
+   "uk_ai": "Щось наближається...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elrohir063",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "Stay with me brother!",
+   "ru": "",
+   "uk_ai": "Тримайся біля мене, брате!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elrohir053",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "These spell-stones must be destroyed to free the dead!",
+   "ru": "",
+   "uk_ai": "Ці чарівні камені треба знищити, щоб звільнити мертвих!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_kod014",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "A dead end!",
+   "ru": "",
+   "uk_ai": "Глухий кут!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_kod022",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "It appears your path is blocked",
+   "ru": "",
+   "uk_ai": "Схоже, ваш шлях перекрито",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_kod028",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "You will not find what you seek!",
+   "ru": "",
+   "uk_ai": "Ви не знайдете того, що шукаєте!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_kod029",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "You will never leave this accursed place!",
+   "ru": "",
+   "uk_ai": "Ви ніколи не покинете цього проклятого місця!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DeathlyVeteransCampaign",
+   "mission": "003_The Paths of the Dead",
+   "type": "Кнопка",
+   "en": "Deathly Veterans",
+   "ru": "",
+   "uk_ai": "Мертві ветерани",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HalbaradBannerOfArwenNoHotkey",
+   "mission": "003_The Paths of the Dead",
+   "type": "Кнопка",
+   "en": "The Banner of Arwen",
+   "ru": "",
+   "uk_ai": "Стяг Арвен",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDeathlyChampion",
+   "mission": "003_The Paths of the Dead",
+   "type": "Кнопка",
+   "en": "Modifier Type: Spell \n Nearby oathbreakers gain +100% armour for 20 seconds\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Заклинання \n Порушники присяги поблизу отримують бонус +100% броні на 20 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDeathlyChampionBulwarkofDunharrow",
+   "mission": "003_The Paths of the Dead",
+   "type": "Кнопка",
+   "en": "The Champion slams his scythe into the ground, knocking back units around him and stunning them for 5 seconds \n Left click to activate",
+   "ru": "",
+   "uk_ai": "Чемпіон встромляє косу в землю, відкидаючи загони навколо себе й приголомшуючи їх на 5 сек. \n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDeathlyChampionReapingSlash",
+   "mission": "003_The Paths of the Dead",
+   "type": "Кнопка",
+   "en": "The Champion swings his scythe hard, dealing high initial damage and causing bleeding for 10 seconds to units all around\n The Champion regains health per hit for 30 seconds \n Left click to activate",
+   "ru": "",
+   "uk_ai": "Чемпіон щосили замахується косою, завдаючи великих пошкоджень і спричиняючи кровотечу на 10 сек. усім загонам навколо\n 30 сек. Чемпіон відновлює здоров'я з кожним ударом \n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDeathlyVeteransCampaign",
+   "mission": "003_The Paths of the Dead",
+   "type": "Кнопка",
+   "en": "The Oathbreaker Lords' attacks passively decrease armour by -15%\nand movement speed by -10% per hit\nDebuff does not stack with itself\nPassive ability",
+   "ru": "",
+   "uk_ai": "Кожен удар лордів-порушників присяги зменшує броню на 15%\nі швидкість руху на 10%\nОслаблення не накладається повторно\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipOathbreakerHeraldSummon",
+   "mission": "003_The Paths of the Dead",
+   "type": "Кнопка",
+   "en": "The Herald slowly but continually summons temporary,\nsingle Oathbreaker Warriors from the earth\nbut can't move or attack\nLeft click to activate and deactivate",
+   "ru": "",
+   "uk_ai": "Вісник повільно, але безперервно викликає із землі тимчасових\nпоодиноких воїнів-порушників присяги,\nале сам не може рухатися чи атакувати\nКлікніть, щоб увімкнути або вимкнути",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSeerAncestorsWrath",
+   "mission": "003_The Paths of the Dead",
+   "type": "Кнопка",
+   "en": "The Spectral Seer lets out a blood-curdling roar\nNearby enemy units flee in terror\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Примарний провидець видає моторошний рев\nВорожі загони поблизу тікають у жаху\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSeerCorpseFlies",
+   "mission": "003_The Paths of the Dead",
+   "type": "Кнопка",
+   "en": "Targeted enemy units are beset by a cloud of Corpse Flies,\ncausing them to lose 50% vision and 25% armour\nand take damage over time for 15 seconds\nLeft click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Вказані ворожі загони обсідає хмара трупних мух:\nвони втрачають 50% огляду й 25% броні\nта отримують поступові пошкодження протягом 15 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipSeerEchoOfArtu",
+   "mission": "003_The Paths of the Dead",
+   "type": "Кнопка",
+   "en": "The Spectral Seer remembers the might of Artú\nFor a 30 seconds, each consecutive attack summons a temporary Spirit Bear, up to a maximum of 3, for 15 seconds\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Примарний провидець згадує могуть Арту\nПротягом 30 сек. кожна наступна атака закликає тимчасового ведмедя-духа (не більше 3) на 15 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DeathlyChampion",
+   "mission": "003_The Paths of the Dead",
+   "type": "Кнопка",
+   "en": "Deathly Champion (&W)",
+   "ru": "",
+   "uk_ai": "Мертвий чемпіон (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DeathlyChampionBulwarkofDunharrow",
+   "mission": "003_The Paths of the Dead",
+   "type": "Кнопка",
+   "en": "Bulwark of Dunharrow (&T)",
+   "ru": "",
+   "uk_ai": "Твердиня Дунгарроу (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DeathlyChampionReapingSlash",
+   "mission": "003_The Paths of the Dead",
+   "type": "Кнопка",
+   "en": "Reaping Slash (&R)",
+   "ru": "",
+   "uk_ai": "Смертельна жатва (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:OathbreakerHeraldSummon",
+   "mission": "003_The Paths of the Dead",
+   "type": "Кнопка",
+   "en": "Herald of the Sleepless Dead (&R)",
+   "ru": "",
+   "uk_ai": "Вісник Безсонних Мерців (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SeerAncestorsWrath",
+   "mission": "003_The Paths of the Dead",
+   "type": "Кнопка",
+   "en": "Ancestor's Wrath (&R)",
+   "ru": "",
+   "uk_ai": "Гнів предків (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SeerCorpseFlies",
+   "mission": "003_The Paths of the Dead",
+   "type": "Кнопка",
+   "en": "Corpse Flies (&C)",
+   "ru": "",
+   "uk_ai": "Трупні мухи (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SeerEchoOfArtu",
+   "mission": "003_The Paths of the Dead",
+   "type": "Кнопка",
+   "en": "Echo of Artú (&T)",
+   "ru": "",
+   "uk_ai": "Відлуння Арту (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "TEMP:HALBARADINTRO01",
+   "mission": "003_The Paths of the Dead",
+   "type": "Репліка",
+   "en": "This is an evil door, and my death lies beyond it. I will dare to pass it nonetheless",
+   "ru": "",
+   "uk_ai": "Це лихі двері, і за ними чекає моя смерть. Та я все одно наважуся їх перейти",
+   "status": "вичитано",
+   "uk": ""
+  }
+ ]
+}

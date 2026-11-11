@@ -1,0 +1,113 @@
+{
+ "meta": {
+  "hero": "Thorin III Stonehelm",
+  "uk_name": "Торін III Кам'яний Шолом",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "BattleofDale"
+  ],
+  "templates": {
+   "кампанія": [
+    "FellowshipThorinStonehelm"
+   ],
+   "битва": [
+    "DwarvenThorinStonehelm"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:DwarvenThorinHelm",
+   "type": "Ім'я",
+   "en": "Thorin III Stonehelm",
+   "ru": "Торин III Каменный шлем",
+   "uk_ai": "Торін III Кам'яний Шолом",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PrinceOfErebor",
+   "type": "Кнопка",
+   "en": "Prince of Erebor",
+   "ru": "Принц Эребора",
+   "uk_ai": "Принц Еребору",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPrinceOfErebor",
+   "type": "Підказка",
+   "en": "Whenever Thorin attacks, nearby troops gain +33% damage for 5 seconds\nPassive ability \n\n At level 5, Thorin is accompanied by three Khazâd-uzbadul",
+   "ru": "Каждый раз, когда Торин атакует, ближайшие союзные отряды получают +33% урона на 5 секунд\\nПассивная способность\\n\\nНа уровне 5, Торина сопровождают три королевских стража",
+   "uk_ai": "Щоразу, коли Торін атакує, загони поблизу отримують бонус +33% до пошкоджень на 5 сек.\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nНа 5 рівні Торіна супроводжують троє хазад-узбадул",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DwarvenGrudge",
+   "type": "Кнопка",
+   "en": "Dwarven Grudge (&R)",
+   "ru": "Упрямство гномов (&R)",
+   "uk_ai": "Ґномська образа (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwarvenGrudge",
+   "type": "Підказка",
+   "en": "Thorin knocks back enemy units and gains +50% attack speed for 15 seconds\nPrince of Erebor bonus is increased to 50% damage during that time\nLeft click icon then left click on target\n\nAt rank 3, Thorin passively returns a percentage of damage dealt to him\nPassive ability",
+   "ru": "Торин отбрасывает врагов мощной атакой по площади, получая +50% скорости атаки и нанося +50% урона в течение 15 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель, чтобы активировать\\n\\nНа уровне 3, Торин пассивно возвращает процент нанесенного ему урона\\nПассивная способность",
+   "uk_ai": "Торін відкидає ворожі загони й отримує бонус +50% швидкості атаки на 15 сек.\nУвесь цей час бонус «Принц Еребору» зростає до 50% пошкоджень\nКлікніть на іконку, потім оберіть ціль\n\nНа 3 рівні Торін постійно повертає частину завданих йому пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DurinsChosen",
+   "type": "Кнопка",
+   "en": "Durin's Chosen (&T)",
+   "ru": "Избранник Дурина (&T)",
+   "uk_ai": "Обранці Дурина (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDurinsChosen",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Thorin and nearby Dwarven units briefly gain resistance to knockback and +75% damage for 30 seconds\nThorin can crush enemies for the duration\n Left click to activate",
+   "ru": "Требуется уровень 5\\nТорин и ближайшие гномы наносят +75% урона и получают сопротивление отбрасыванию на 30 секунд\\nТорин может сокрушать врагов\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nТорін і дворфійські загони поблизу на 30 сек. отримують стійкість до відкидання й +75% до пошкоджень\nУвесь цей час Торін може топтати ворогів\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:Stonehelm",
+   "type": "Кнопка",
+   "en": "Stonehelm (&C)",
+   "ru": "Каменный шлем (&C)",
+   "uk_ai": "Кам'яний Шолом (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipStonehelm",
+   "type": "Підказка",
+   "en": "Requires Level 8 \n Thorin dons the Stonehelm and permanently gains +33% armour\nPassive ability\n\nWhen activated, Thorin utters a terrifying shout, stunning enemies in his vicinity in terror for 15 seconds\nThorin and nearby friendly heroes gain +50% damage for 30 seconds\n Left click to activate",
+   "ru": "Требуется уровень 8\\nТорин надевает свой каменный шлем, получая +33% брони\\nПассивная способность\\n\\nПосле активации, Торин издает пугающий крик. Враги неподалеку застывают в ужасе на 15 секунд\\nТорин и ближайшие союзные герои наносят +50% урона в течение 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 8\nТорін надягає Кам'яний Шолом і назавжди отримує бонус +33% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації Торін видає страхітливий клич, і вороги поблизу на 15 сек. будуть приголомшені жахом\nТорін і союзні герої поблизу отримують бонус +50% до пошкоджень на 30 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

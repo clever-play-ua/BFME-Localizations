@@ -1,0 +1,97 @@
+{
+ "meta": {
+  "hero": "Mollok",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Mordor"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "MordorMollok"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:MordorMollok",
+   "type": "Ім'я",
+   "en": "Mollok",
+   "ru": "Моллок",
+   "uk_ai": "Моллок",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MollokkWillofSauron",
+   "type": "Кнопка",
+   "en": "Will of Sauron",
+   "ru": "Воля Саурона",
+   "uk_ai": "Воля Саурона",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMollokkWillofSauron",
+   "type": "Підказка",
+   "en": "Requires Level 3 \nModifier Type: Spell \n Mollok gains +15% resistance against normal arrows\n Passive ability",
+   "ru": "Требуется уровень 3\\nТип модификатора: Заклинание\\nМоллок получает +15% сопротивления от обычных стрел\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Заклинання\nМоллок отримує бонус +15% стійкості до звичайних стріл\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MordorMollokLeap",
+   "type": "Кнопка",
+   "en": "Leap (&R)",
+   "ru": "Прыжок (&R)",
+   "uk_ai": "Стрибок (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMordorMollokLeap",
+   "type": "Підказка",
+   "en": "Requires Level 4 \n Mollok jumps to a location causing \n area-effect damage \n Left click icon then left click on target area",
+   "ru": "Требуется уровень 4\\nМоллок прыгает в выбранную область, нанося большой урон и отбрасывая вражеские войска\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 4\nМоллок стрибає в обране місце\nй завдає пошкоджень по площі\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MollokLeadership",
+   "type": "Кнопка",
+   "en": "Lord of the Olog-hai",
+   "ru": "Вожак олог-хай",
+   "uk_ai": "Володар олоґ-хаїв",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMollokLeadership",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Modifier Type: Leadership \n Nearby allied Trolls gain\n+33% damage, +33% armour\nand earn experience 50% faster\nPassive ability",
+   "ru": "Требуется уровень 5\\nТип модификатора: Лидерство\\nБлижайшие тролли наносят +33% урона, получают +33% брони\\nи набирают опыт на +50% быстрее\\n\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Лідерство\nСоюзні тролі поблизу отримують бонус\n+33% до пошкоджень, +33% броні\nі на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MordorMollokReapingSlash",
+   "type": "Кнопка",
+   "en": "Reaping Slash (&C)",
+   "ru": "Кровавая жатва (&C)",
+   "uk_ai": "Смертельна жатва (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMordorMollokReapingSlash",
+   "type": "Підказка",
+   "en": "Requires Level 8 \n Mollok gains +100% damage and +25% armour and passively heals over time for 20 seconds\n Left click icon to activate",
+   "ru": "Требуется уровень 8\\nМоллок наносит +200% урона, получает +25% брони и постепенно исцеляется в течение 20 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 8\nМоллок на 20 сек. отримує бонус +100% до пошкоджень і +25% броні та поступово зцілюється\nКлікніть на іконку, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

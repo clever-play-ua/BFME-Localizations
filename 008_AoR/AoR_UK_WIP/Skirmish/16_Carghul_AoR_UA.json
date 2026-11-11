@@ -1,0 +1,118 @@
+{
+ "meta": {
+  "hero": "Carghûl",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Angmar"
+  ],
+  "alternate factions": [
+   "angmar",
+   "angmar wars"
+  ],
+  "templates": [
+   "AngmarCarghul"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:AngmarCarghul",
+   "type": "Ім'я",
+   "en": "Carghûl",
+   "ru": "Каргул",
+   "uk_ai": "Карґул",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AngmarCarghulFrostWight",
+   "type": "Кнопка",
+   "en": "Frost-wight (&W)",
+   "ru": "Ледяной призрак (&W)",
+   "uk_ai": "Крижаний привид (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAngmarCarghulFrostWight",
+   "type": "Підказка",
+   "en": "Carghûl becomes an incorporeal Frost-wight for 60 seconds\nCauses enemy units to flee in terror after transforming into a Frost-wight\nWhen in Frost-wight form, his abilities are enhanced, but his armour is reduced by -25% and damage reduced by -33%\nLeft click to activate",
+   "ru": "Каргул становится бесплотным Ледяным призраком на 60 секунд\\nБлижайшие вражеские отряды разбегаются в ужасе после превращения в Ледяного призрака\\nВ форме Ледяного призрака способности Каргула усиливаются, но броня снижается на -25%, а наносимый урон на -33%\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Карґул на 60 сек. стає безтілесним крижаним привидом\nПісля перетворення на привида ворожі загони тікають у жаху\nУ подобі привида його здібності посилюються, але броня знижується на 25%, а пошкодження — на 33%\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AngmarCarghulSpiritRend",
+   "type": "Кнопка",
+   "en": "Spirit Rend (&R)",
+   "ru": "Терзание духа (&R)",
+   "uk_ai": "Розрив духу (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipAngmarCarghulSpiritRend",
+   "type": "Підказка",
+   "en": "Targeted enemy unit takes damage\nDamage dealt is drained, healing Carghûl by a moderate amount\nWhen Frost-wight is active, attack deals damage to enemies in a large radius\nLeft click icon then left click on target",
+   "ru": "Целевой враг получает урон\\nНанесенный урон поглощается, восстанавливая умеренное количество здоровья Каргула\\nЕсли Ледяной призрак активен, атака наносит урон врагам в большом радиусе\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Обраний ворожий загін отримує пошкодження\nЗавдані пошкодження потрохи зцілюють Карґула\nУ подобі крижаного привида кожна атака завдає пошкоджень ворогам у великому радіусі\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AngmarCarghulRime",
+   "type": "Кнопка",
+   "en": "Touch of Rime (&T)",
+   "ru": "Леденящее прикосновение (&T)",
+   "uk_ai": "Дотик інею (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAngmarCarghulRime",
+   "type": "Підказка",
+   "en": "Requires Level 3\nWhen activated, allied units are slightly healed by each of Carghûl's strikes for 20 seconds\nWhen Frost-wight is active, Carghûl's attacks also knock back enemy units\nLeft click to activate",
+   "ru": "Требуется уровень 3\\nПосле активации, союзные отряды понемногу исцеляются при каждой атаке Каргула в течение 20 секунд\\nЕсли Ледяной призрак активен, атаки Каргула также отбрасывают врагов\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nПісля активації кожен удар Карґула на 20 сек. трохи зцілює союзні загони\nУ подобі крижаного привида атаки Карґула також відкидають ворожі загони\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AngmarCarghulWraithWalk",
+   "type": "Кнопка",
+   "en": "Wraith-walk (&C)",
+   "ru": "Призрачная поступь (&C)",
+   "uk_ai": "Примарна хода (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAngmarCarghulWraithWalk",
+   "type": "Підказка",
+   "en": "Requires Level 6\nCarghûl teleports to targeted area and upon arrival deals +50% damage for 10 seconds\nWhen Frost-wight is active, summons two Barrow-wights upon arrival\nLeft click icon then left click on target area",
+   "ru": "Требуется уровень 6\\nКаргул телепортируется в выбранную область и наносит +50% дополнительного урона в течение 10 секунд\\nЕсли Ледяной призрак активен, после телепортации призываются два могильных духа\\nЩелкните левой кнопкой мыши на значок, затем на целевую точку",
+   "uk_ai": "Необхідно: Рівень 6\nКарґул телепортується на обрану ділянку й після появи 10 сек. завдає на 50% більше пошкоджень\nУ подобі крижаного привида після появи прикликає 2 могильних духів\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AngmarCarghulDreadStorm",
+   "type": "Кнопка",
+   "en": "Dread Storm (&V)",
+   "ru": "Ужасающая буря (&V)",
+   "uk_ai": "Жахлива буря (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAngmarCarghulDreadStorm",
+   "type": "Підказка",
+   "en": "Requires Level 10\nSummons a small controllable Dread Storm for 30 seconds\n All units, friend and foe, take minor damage and are turned into Wraiths upon death\nWhen Frost-wight is active, Dread Storm has larger radius and lasts 45 seconds\nLeft click icon then left click on pathable location",
+   "ru": "Требуется уровень 10\\nПризывается небольшая управляемая Буря ужаса на 30 секунд\\nВсе попавшие в область действия бури, получают умеренный урон и после смерти превращаются в призраков\\nЕсли Ледяной призрак активен, Буря ужаса имеет больший радиус действия и длится 45 секунд\\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Необхідно: Рівень 10\nПрикликає на 30 сек. невелику керовану бурю\nУсі загони, і союзні, і ворожі, отримують незначні пошкодження, а загиблі стають привидами\nУ подобі крижаного привида буря має більший радіус і триває 45 сек.\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

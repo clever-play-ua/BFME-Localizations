@@ -1,0 +1,218 @@
+{
+ "meta": {
+  "hero": "Bilbo",
+  "uk_name": "Більбо",
+  "campaigns": [
+   "FotR"
+  ],
+  "missions": [
+   "Council"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignBilboYoung",
+    "CampaignOldBilbo",
+    "RingHeroBilbo"
+   ],
+   "битва": [
+    "HeroBilboBotfa",
+    "RingHeroBilbo",
+    "ShireBilbo"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:Bilbo",
+   "type": "Ім'я",
+   "en": "Bilbo",
+   "ru": "Бильбо",
+   "uk_ai": "Більбо",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BilboRiddleMaker",
+   "type": "Кнопка",
+   "en": "Riddle Maker (&T)",
+   "ru": "Загадки в темноте (&T)",
+   "uk_ai": "Майстер загадок (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipBilboRiddleMaker",
+   "type": "Підказка",
+   "en": "Causes enemy units and monsters in the radius to fight amongst themselves for 45 seconds\nLeft click icon then left click on target area",
+   "ru": "Заставляет вражеские войска в радиусе сражаться между собой в течение 45 секунд",
+   "uk_ai": "Змушує ворожі загони й створінь у радіусі битися між собою на 45 сек.\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BilboLeadership",
+   "type": "Кнопка",
+   "en": "Bilbo's Courage",
+   "ru": "Отвага Бильбо",
+   "uk_ai": "Відвага Більбо",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBilboLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Spell \n Nearby allies in a large radius gain\n+50% damage, +50% armour,\nand earn experience twice as fast\nNearby unit and hero ability cooldown times are reduced by 25% \nPassive ability",
+   "ru": "Тип модификатора: Заклинание\\nБлижайшие союзники на большой площади получают\\n+50% урона, +50% брони\\nи набирают опыт вдвое быстрее\\nУменьшает время перезарядки способностей войск и героев на 25%\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Заклинання\nСоюзники у великому радіусі отримують\nбонус +50% до пошкоджень, +50% броні\nй удвічі швидше набирають досвід\nЗдібності загонів і героїв поблизу відновлюються на 25% швидше\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BilboOldFriends",
+   "type": "Кнопка",
+   "en": "Old Friends (&V)",
+   "ru": "Старые друзья (&V)",
+   "uk_ai": "Старі друзі (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipBilboOldFriends",
+   "type": "Підказка",
+   "en": "Summons Gandalf the Grey",
+   "ru": "На поле боя временно призывается Гэндальф Серый",
+   "uk_ai": "Прикликає Ґендальфа Сірого",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:BilboKinglyGift",
+   "type": "Кнопка",
+   "en": "Kingly Gift (&R)",
+   "ru": "Королевский подарок (&R)",
+   "uk_ai": "Королівський дарунок (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBilboKinglyGift",
+   "type": "Підказка",
+   "en": "Bilbo gains +33% armour against ranged attacks for 30 seconds\nLeft click to activate",
+   "ru": "Бильбо получает +33% брони от дальних атак на 30 секунд\\nЩелкните левой кнопкой мыши на значок, чтобы активировать",
+   "uk_ai": "На 30 сек. Більбо отримує бонус +33% броні від атак на відстані\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BilboBurglar",
+   "type": "Кнопка",
+   "en": "Company's Burglar (&T)",
+   "ru": "Взломщик компании (&T)",
+   "uk_ai": "Злодій дружини (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipBilboBurglar",
+   "type": "Підказка",
+   "en": "Bilbo becomes stealthed and can neither be attacked nor make an attack for 30 seconds\n Left click icon to activate",
+   "ru": "Бильбо становится скрытым и не может быть атакован или атаковать в течение 30 секунд\\nЩелкните левой кнопкой мыши на значок, чтобы активировать",
+   "uk_ai": "На 30 сек. Більбо стає невидимим: його не можна атакувати, і він сам не може атакувати\nКлікніть на іконку, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RetiredBurglar",
+   "type": "Кнопка",
+   "en": "Retired Burglar",
+   "ru": "Взломщик в отставке",
+   "uk_ai": "Злодій на спочинку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRetiredBurglar",
+   "type": "Підказка",
+   "en": "Modifier Type: Spell\nBilbo can target enemy units\nAllies around the target gain 100% armour, +100% damage and resistance to fear and terror\n Passive ability",
+   "ru": "Тип модификатора: Заклинание\\nБильбо может выбирать целью врагов\\nСоюзники рядом с целью наносят +100% урона, получают +100% брони и становятся невосприимчивыми к страху и ужасу\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Заклинання\nБільбо може обирати ціллю ворожі загони\nСоюзники навколо цілі отримують бонус +100% броні, +100% до пошкоджень і стійкість до страху та жаху\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:VeryFondFarewell",
+   "type": "Кнопка",
+   "en": "A Very Fond Farewell (&R)",
+   "ru": "Самое теплое прощание (&R)",
+   "uk_ai": "Найщиріше прощання (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipVeryFondFarewell",
+   "type": "Підказка",
+   "en": "Bilbo slips on the One Ring and disappears from sight for 2 minutes\nBilbo cannot attack but his abilities can still be used\nLeft click to activate",
+   "ru": "Бильбо надевает Единое Кольцо и исчезает из виду на 2 минуты\\nБильбо не может атаковать, но его способности по-прежнему доступны\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Більбо надягає Єдиний Перстень і на 2 хв. зникає з очей\nБільбо не може атакувати, але може використовувати здібності\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TunnelsFilled",
+   "type": "Кнопка",
+   "en": "Tunnels Filled With Gold (&T)",
+   "ru": "Туннели, наполненные золотом (&T)",
+   "uk_ai": "Тунелі, повні золота (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTunnelsFilled",
+   "type": "Підказка",
+   "en": "Can be cast on a Hobbit-hole to spawn a Chest of Gold every 20 seconds for 2 minutes\nLeft click then left click on target structure",
+   "ru": "Можно использовать на Норе хоббита, чтобы каждые 20 секунд в течение 2 минут появлялся сундук с золотом\\nЩелкните левой кнопкой мыши на значок, затем на целевое строение",
+   "uk_ai": "Можна застосувати до гобітської нори: кожні 20 сек. протягом 2 хв. з'являється скриня із золотом\nКлікніть на іконку, потім оберіть споруду",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PartyInvitations",
+   "type": "Кнопка",
+   "en": "Party Invitations (&C)",
+   "ru": "Приглашение на вечеринку (&C)",
+   "uk_ai": "Запрошення на свято (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPartyInvitations",
+   "type": "Підказка",
+   "en": "Bilbo sends out his party invitations\nSummons a random battalion of Hobbit units\nLeft click to activate",
+   "ru": "Бильбо рассылает приглашения на вечеринку\\nПризывается случайный отряд хоббитов\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Більбо розсилає запрошення на свято\nПрикликає випадковий загін гобітів\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RoadGoesEverOn",
+   "type": "Кнопка",
+   "en": "The Road Goes Ever On (&V)",
+   "ru": "Дорога ведет вперед (&V)",
+   "uk_ai": "Дорога все далі й далі (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipRoadGoesEverOn",
+   "type": "Підказка",
+   "en": "Bilbo is quite ready for another adventure\nBilbo teleports to target location \nLeft click icon then left click on pathable location",
+   "ru": "Бильбо готов к новым приключениям\\nБильбо перемещается в целевое место\\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Більбо цілком готовий до нової пригоди\nБільбо телепортується в обране місце\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

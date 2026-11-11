@@ -1,0 +1,87 @@
+{
+ "meta": {
+  "hero": "Lord Hirluin the Fair",
+  "uk_name": "Лорд Гірлуїн Прекрасний",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "MinasTirithOuter",
+   "MinasTirithInner",
+   "PelennorFields"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignHirluin"
+   ],
+   "битва": []
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:CampaignHirluin",
+   "type": "Ім'я",
+   "en": "Lord Hirluin the Fair",
+   "ru": "",
+   "uk_ai": "Лорд Гірлуїн Прекрасний",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HirluinLeadership",
+   "type": "Кнопка",
+   "en": "Lord of Pinnath Gelin",
+   "ru": "",
+   "uk_ai": "Володар Піннат-Ґеліну",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipHirluinLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nAllies near Lord Hirluin gain +25% Armour\nStacks with Buffs and Spells\nPassive ability",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзники поряд із лордом Гірлуіном отримують бонус +25% броні\nПоєднується з посиленнями та заклинаннями\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GallantWords",
+   "type": "Кнопка",
+   "en": "Gallant Words (&R)",
+   "ru": "",
+   "uk_ai": "Шляхетні слова (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGallantWords",
+   "type": "Підказка",
+   "en": "Heals target allies \n Left click icon then left click on target area",
+   "ru": "",
+   "uk_ai": "Зцілює вказаних союзників \n Клікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HirluinKnightsErrand",
+   "type": "Кнопка",
+   "en": "Knight's Errand (&T)",
+   "ru": "",
+   "uk_ai": "Лицарська місія (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHirluinKnightsErrand",
+   "type": "Підказка",
+   "en": "Enemies within the radius lose 33% armour for 30 seconds\n Left click then left click on target areas",
+   "ru": "",
+   "uk_ai": "Вороги в радіусі дії втрачають 33% броні на 30 сек.\n Клікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

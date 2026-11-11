@@ -1,0 +1,100 @@
+{
+ "meta": {
+  "hero": "Lug the Mauled",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Wild"
+  ],
+  "alternate factions": [
+   "shadow and flame"
+  ],
+  "templates": [
+   "WildLugtheMauled",
+   "WildLugtheMauled_SaF"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:LugtheMauled",
+   "type": "Ім'я",
+   "en": "Lug the Mauled",
+   "ru": "Луг Растерзанный",
+   "uk_ai": "Луґ Пошматований",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToggleLugWeapon",
+   "type": "Кнопка",
+   "en": "Toggle Weapon (&W)",
+   "ru": "Смена оружия (&W)",
+   "uk_ai": "Змінити зброю (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleLugWeapon",
+   "type": "Підказка",
+   "en": "Left click to toggle between throwing knives and sword",
+   "ru": "Щелкните левой кнопкой мыши, для выбора между метательными ножами и мечом",
+   "uk_ai": "Клікніть, щоб перемкнутися між метальними ножами й мечем",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AzogHeadhunter",
+   "type": "Кнопка",
+   "en": "Head Hunter (&R)",
+   "ru": "Охотник за головами (&R)",
+   "uk_ai": "Мисливець за головами (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLugHeadhunter",
+   "type": "Підказка",
+   "en": "Puts a price on an enemy hero's head, reducing their armour and speed by 20% for 20 seconds\n At level 3, reduces armour and speed by 30% \n At level 6, reduces armour and speed by 40% \n At level 10, reduces armour and speed by 50% \nLeft click icon then left click on target",
+   "ru": "Назначает цену за голову вражеского героя, уменьшая его броню и скорость на 20% в течение 20 секунд\\nНа уровне 3, уменьшает броню и скорость на 30%\\nНа уровне 6, уменьшает броню и скорость на 40%\\nНа уровне 10, уменьшает броню и скорость на 50%\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Призначає ціну за голову ворожого героя: на 20 сек. знижує його броню й швидкість на 20%\nНа 3 рівні знижує на 30%\nНа 6 рівні знижує на 40%\nНа 10 рівні знижує на 50%\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GoingDownSwinging",
+   "type": "Кнопка",
+   "en": "Goin' Down Swinging (&T)",
+   "ru": "Режь! Руби! Кромсай! (&T)",
+   "uk_ai": "Як вмирати, то з боєм (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGoingDownSwinging",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Lug harms himself to gain +50% armour, +50% damage and +20% speed for 30 seconds\n Can only use with sword equipped \n Left click to activate",
+   "ru": "Требуется уровень 3\\nЛуг наносит себе урон, получая +50% брони, +50% урона и +20% скорости на 30 секунд\\nМожет использоваться только с мечом\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nЛуґ завдає пошкоджень сам собі й на 30 сек. отримує бонус +50% броні, +50% до пошкоджень і +20% швидкості\nДоступно лише коли споряджено меч\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:LugScorchedEarth",
+   "type": "Кнопка",
+   "en": "Scorched Earth (&C)",
+   "ru": "Выжженная земля (&C)",
+   "uk_ai": "Випалена земля (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLugScorchedEarth",
+   "type": "Підказка",
+   "en": "Requires Level 6 \n Lug sets fire to the earth and burns all friendly and enemy units \n Left click to activate",
+   "ru": "Требуется уровень 6\\nЛуг поджигает землю вокруг себя, нанося урон, как дружественным, так и вражеским войскам\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 6\nЛуґ підпалює землю навколо себе, завдаючи пошкоджень усім загонам навколо\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

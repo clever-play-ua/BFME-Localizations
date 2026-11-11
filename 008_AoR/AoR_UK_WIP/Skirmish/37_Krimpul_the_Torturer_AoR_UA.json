@@ -1,0 +1,88 @@
+{
+ "meta": {
+  "hero": "Krimpûl the Torturer",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Guldur"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "GuldurKrimpul"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:GuldurKrimpul",
+   "type": "Ім'я",
+   "en": "Krimpûl the Torturer",
+   "ru": "Кримпул Палач",
+   "uk_ai": "Крімпул Душогуб",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KrimpulOrcSummon",
+   "type": "Кнопка",
+   "en": "Orcish Chief (&W)",
+   "ru": "Вождь орков (&W)",
+   "uk_ai": "Орочий ватажок (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKrimpulOrcSummon",
+   "type": "Підказка",
+   "en": "Summons a battalion of Orc Gaolers \nAt rank 3, includes an additional battalion of Orc Hunters\nAt rank 7, includes an additional battalion of Orc Ravagers\nLeft click icon then left click on target location",
+   "ru": "Вызывает отряд орков-тюремщиков\\nНа уровне 3, вызывает дополнительный отряд орков-охотников\\nНа уровне 7, вызывает дополнительный отряд орков-опустошителей\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Прикликає загін орків-тюремників\nНа 3 рівні — додатковий загін орків-мисливців\nНа 7 рівні — додатковий загін орків-спустошувачів\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipKrimpulCommand",
+   "type": "Підказка",
+   "en": "Krimpûl has been tasked with retrieving the Rings of Power\nDeals +33% additional damage versus Gandalf the White,\nElrond, Galadriel, and Thorin Oakenshield\nAt rank 3, his strikes also lower the armour of enemies by 20%\nPassive ability",
+   "ru": "Кримпул получил приказ добыть Кольца Силы\\nКримпул наносит +33% дополнительного урона Гэндальфу Белому,\\nЭлронду, Галадриэли и Торину Дубощиту\\nНа уровне 3, его удары снижают броню врагов на -20%\\nПассивная способность",
+   "uk_ai": "Кримпулові доручено здобути Персні влади\nЗавдає на 33% більше пошкоджень Ґендальфу Білому,\nЕлронду, Ґаладріель і Торіну Дубощиту\nНа 3 рівні його удари також знижують броню ворогів на 20%\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KrimpulGaol",
+   "type": "Кнопка",
+   "en": "Dungeon Master (&T)",
+   "ru": "Смотритель подземелья (&T)",
+   "uk_ai": "Повелитель підземелля (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKrimpulGaol",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Summons a small Gaol that casts Dark Presence \n and may recruit Broken Rabble\nLeft click icon then left click on target location",
+   "ru": "Требуется уровень 5\\nНа поле боя временно появляется небольшая темница, источающая Темное присутствие и позволяющая набирать сломленное отребье\\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Необхідно: Рівень 5\nПрикликає на поле бою в'язницю, що застосовує «Темну присутність»\nі дає змогу наймати зломлену наволоч\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KrimpulCripple",
+   "type": "Кнопка",
+   "en": "Imprison (&C)",
+   "ru": "Заключение (&C)",
+   "uk_ai": "Полонити (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKrimpulCripple",
+   "type": "Підказка",
+   "en": "Requires Level 8\nKrimpûl cripples an enemy hero for 15 seconds\nCauses surrounding enemy units to cower in fear\nLeft click icon then left click on target",
+   "ru": "Требуется уровень 8\\nКримпул заключает вражеского героя в клетку, обездвиживая его на 15 секунд\\nБлижайшие вражеские войска испытывают неконтролируемый страх\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 8\nКримпул знерухомлює ворожого героя на 15 сек.\nВорожі загони навколо ціпеніють від страху\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

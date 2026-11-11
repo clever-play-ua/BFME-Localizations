@@ -1,0 +1,103 @@
+{
+ "meta": {
+  "hero": "Agmund",
+  "uk_name": "Аґмунд",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "BattleofDale"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignAgmund"
+   ],
+   "битва": []
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:FellowshipAgmund",
+   "type": "Ім'я",
+   "en": "Agmund",
+   "ru": "",
+   "uk_ai": "Аґмунд",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AgmundOrganisedDefence",
+   "type": "Кнопка",
+   "en": "Organised Defence (&W)",
+   "ru": "",
+   "uk_ai": "Злагоджена оборона (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAgmundHorn",
+   "type": "Підказка",
+   "en": "Nearby infantry and heroes gain +20% bonus speed and resistance to fear, terror, knockback and trample for 30 seconds\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Піхота й герої поблизу на 30 сек. отримують бонус +20% швидкості та стійкість до страху, жаху, відкидання й топтання\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AgmundCaptainOfGuard",
+   "type": "Кнопка",
+   "en": "Captain of the Guard (&R)",
+   "ru": "",
+   "uk_ai": "Капітан варти (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAgmundCaptainOfGuard",
+   "type": "Підказка",
+   "en": "Requires Level 3\nGive targeted friendly troops experience\nLeft click icon then left click on target units",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3\nМиттєво наділяє досвідом обрані союзні загони\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AgmundCaptainCounsel",
+   "type": "Кнопка",
+   "en": "Captain's Counsel (&T)",
+   "ru": "",
+   "uk_ai": "Порада капітана (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAgmundCaptainCounsel",
+   "type": "Підказка",
+   "en": "Requires Level 5\nModifier Type: Spell\nAgmund temporarily empowers a friendly hero, granting them 50% armour, 50% faster experience gain, and 75% faster power recharge times\nStacks with Leadership and Spells\nLeft click icon then left click on target hero",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Заклинання\nАґмунд тимчасово посилює союзного героя: той отримує бонус +50% броні, на 50% швидше набирає досвід і на 75% швидше відновлює здібності\nПоєднується з лідерством і заклинаннями\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AgmundSummonDaleGuard",
+   "type": "Кнопка",
+   "en": "Faithful Wardens (&C)",
+   "ru": "",
+   "uk_ai": "Вірні вартові (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAgmundSummonDaleGuard",
+   "type": "Підказка",
+   "en": "Requires Level 9\nAgmund stations five Wardens of Hársald to guard an allied hero or structure for 45 seconds \n Left click icon then left click on target hero or structure",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 9\nАґмунд ставить 5 вартових Гарсальда охороняти союзного героя чи споруду на 45 сек.\nКлікніть на іконку, потім оберіть героя чи споруду",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

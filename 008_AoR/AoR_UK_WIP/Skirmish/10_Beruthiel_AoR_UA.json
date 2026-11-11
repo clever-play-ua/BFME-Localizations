@@ -1,0 +1,133 @@
+{
+ "meta": {
+  "hero": "Berúthiel",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Harad"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "HaradBeruthiel"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:HaradBeruthiel",
+   "type": "Ім'я",
+   "en": "Berúthiel",
+   "ru": "Берутиэль",
+   "uk_ai": "Берутіель",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialPowerRiseToPower",
+   "type": "Кнопка",
+   "en": "Rise To Power (&W)",
+   "ru": "Восхождение к власти (&W)",
+   "uk_ai": "Шлях до влади (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialPowerRiseToPower",
+   "type": "Підказка",
+   "en": "Berúthiel manipulates her way into the higher echelons of Black Númenórean society \n Allows Berúthiel to rank up.\n Becomes more expensive the higher Berúthiel ranks up \n Left click to purchase upgrade",
+   "ru": "Берутиэль путем манипуляций стремится попасть в высшие эшелоны общества черных нуменорцев\\nПозволяет Берутиэль повышать уровень\\nСтановится тем дороже, чем выше уровень\\nЩелкните левой кнопкой мыши, чтобы повысить",
+   "uk_ai": "Берутіель інтригами пробивається у вищі кола чорних нуменорців\nДає Берутіель змогу підвищити рівень.\nЧим вище рівень Берутіель, тим це стає дорожчим\nКлікніть, щоб придбати покращення",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BeruthielCat",
+   "type": "Кнопка",
+   "en": "Eyes and Ears (&R)",
+   "ru": "Глаза и уши (&R)",
+   "uk_ai": "Очі й вуха (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBeruthielCat",
+   "type": "Підказка",
+   "en": "The Black Queen summons one of her cats to spy upon the enemy\n Limited to 3 \n Left click to activate",
+   "ru": "Черная королева вызывает одну из своих кошек, чтобы шпионить за врагами\\nОграничение - 3\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Чорна королева прикликає одного зі своїх котів, щоб шпигувати за ворогом\nМаксимум 3 одночасно\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:Disdain",
+   "type": "Кнопка",
+   "en": "Disdain (&T)",
+   "ru": "Презрение (&T)",
+   "uk_ai": "Зневага (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDisdain",
+   "type": "Підказка",
+   "en": "Requires Level 3\nModifier Type: Active Debuff\nTargeted enemy units suffer -25% damage and cannot gain experience for 30 seconds\nLeft click icon then left click on target units",
+   "ru": "Требуется уровень 3\\nТип модификатора: Активное ослабление\\nЗатронутые вражеские отряды теряют -25% урона и не могут получать опыт в течение 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Активне ослаблення\nОбрані ворожі загони на 30 сек. отримують штраф -25% пошкоджень і не отримують досвіду\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FeignedHysteria",
+   "type": "Кнопка",
+   "en": "Feigned Hysteria (&C)",
+   "ru": "Притворная истерия (&C)",
+   "uk_ai": "Награна істерика (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFeignedHysteria",
+   "type": "Підказка",
+   "en": "Requires Level 6 \n Modifier Type: Debuff \n Nearby enemy units lose all leadership and -25% armour for 30 seconds\nBerúthiel becomes invisible for 30 seconds, allowing her to escape\nLeft click to activate",
+   "ru": "Требуется уровень 6\\nТип модификатора: Ослабление\\nБлижайшие вражеские отряды теряют все лидерство и -25% брони на 30 секунд\\nБерутиэль становится невидимой в течение 30 секунд, что позволяет ей сбежать\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 6\nТип ефекту: Ослаблення\nВорожі загони поблизу на 30 сек. втрачають усе лідерство й 25% броні\nБерутіель на 30 сек. стає невидимою, що дає їй змогу втекти\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BeruthielEscort",
+   "type": "Кнопка",
+   "en": "Queen's Escort (&V)",
+   "ru": "Эскорт королевы (&V)",
+   "uk_ai": "Супровід королеви (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBeruthielEscort",
+   "type": "Підказка",
+   "en": "Requires Level 10 \n The Black Queen summons a fully armed battalion of Wardens of Umbar \nLeft click icon then left click on target area",
+   "ru": "Требуется уровень 10\\nЧерная королева призывает полностью вооруженный отряд черных нумернорцев с мечами\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 10\nЧорна королева прикликає озброєний загін вартових Умбару\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialPowerRiseToPowerFinal",
+   "type": "Кнопка",
+   "en": "Rise to Power",
+   "ru": "Восхождение к власти",
+   "uk_ai": "Шлях до влади",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialPowerRiseToPowerFinal",
+   "type": "Підказка",
+   "en": "Queen Berúthiel has manipulated her way to the upper echelons of Black Númenórean society \n Berúthiel can not be ranked up any further \n Passive ability",
+   "ru": "Королева Берутиэль проложила себе путь в высшие эшелоны общества черных нумерноцев\\nБерутиэль не может больше повысить уровень\\nПассивная способность",
+   "uk_ai": "Королева Берутіель інтригами пробилася у вищі кола чорних нуменорців\nРівень Берутіель більше не можна підвищити\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "meta": {
+  "hero": "Rómestámo",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Dorwinion"
+  ],
+  "alternate factions": [
+   "dorwinion"
+  ],
+  "templates": [
+   "Romestamo"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:Romestamo",
+   "type": "Ім'я",
+   "en": "Rómestámo",
+   "ru": "Роместамо",
+   "uk_ai": "Роместамо",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:EastHelper",
+   "type": "Кнопка",
+   "en": "East-helper (&R)",
+   "ru": "Друг Востока (&R)",
+   "uk_ai": "Помічник Сходу (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEastHelper",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nNearby friendly units gain +25% armour\nPassive Ability\nAt rank 3, can be activated to heal nearby friendly units and replace one dead unit per battalion\nLeft click to activate",
+   "ru": "Тип модификатора: Лидерство\\nБлижайшие дружественные отряды получают +25% брони\\nПассивная способность\\nНа уровне 3, может быть применено для исцеления ближайших дружественных войск и восполнения одного погибшего воина на отряд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзні загони поблизу отримують бонус +25% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~\nНа 3 рівні можна активувати, щоб зцілити союзні загони поблизу й поновити в кожному одного полеглого воїна\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HindranceToEvil",
+   "type": "Кнопка",
+   "en": "Hindrance to Evil (&T)",
+   "ru": "Препятствие злу (&T)",
+   "uk_ai": "Перепона злу (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHindranceToEvil",
+   "type": "Підказка",
+   "en": "Modifier Type: Passive Debuff \n Nearby enemy units suffer -33% damage and -25% armour\nNullifies enemy leaderships\nPassive ability\nAt rank 6, target enemies' special ability timers are reset to just used\nLeft click then left click target area",
+   "ru": "Тип модификатора: Ослабление\\nБлижайшие вражеские отряды теряют -33% урона и -25% брони\\nОтменяет вражеское лидерство\\nПассивная способность\\nНа уровне 6, способности врагов в радиусе действия уходят на перезарядку\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Тип ефекту: Пасивне ослаблення\nВорожі загони поблизу отримують штраф -33% пошкоджень і -25% броні\nСкасовує вороже лідерство\n~ ПАСИВНА ЗДІБНІСТЬ ~\nНа 6 рівні всі здібності обраних ворогів скидаються, ніби їх щойно застосували\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CobaltShard",
+   "type": "Кнопка",
+   "en": "Cobalt Shard (&C)",
+   "ru": "Осколок кобальта (&C)",
+   "uk_ai": "Кобальтовий уламок (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCobaltShard",
+   "type": "Підказка",
+   "en": "Places down a Cobalt Shard, which can be manually detonated, stunning enemy units for 5 seconds and causing damage over time for 20 seconds\nCobalt Shards also detonate if destroyed by enemy units\nA maximum of 3 Cobalt Shards may exist at a time\nLeft click to activate",
+   "ru": "Роместамо размещает осколок кобальта, который можно активировать вручную, чтобы оглушить ближайшие вражеские отряды на 5 секунд и наности им периодический урон в течение 20 секунд\\nОсколки кобальта также взрываются, после того как будут уничтожены врагами\\nОдновременно может быть размещено максимум 3 осколка\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Ставить кобальтовий уламок, який можна підірвати вручну: він на 5 сек. приголомшує ворожі загони й 20 сек. поступово завдає їм пошкоджень\nКобальтові уламки також вибухають, якщо їх знищать вороги\nМаксимум 3 кобальтові уламки одночасно\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "meta": {
+  "hero": "Ted Sandyman",
+  "uk_name": "Тед Сендімен",
+  "faction (ini Side)": [
+   "Fellowship"
+  ],
+  "alternate factions": [
+   "ruffians",
+   "scouring"
+  ],
+  "templates": [
+   "CampaignTedSandyman"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:CampaignTedSandyman",
+   "type": "Ім'я",
+   "en": "Ted Sandyman",
+   "ru": "",
+   "uk_ai": "Тед Сендімен",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SandymanInformant",
+   "type": "Кнопка",
+   "en": "Sharkey's Informant (&W)",
+   "ru": "",
+   "uk_ai": "Інформатор Шаркі (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSandymanInformant",
+   "type": "Підказка",
+   "en": "For 30 seconds, target enemy unit or structure is marked by Ted Sandyman\n Target enemy units lose -10% armour and movement speed for 30 seconds\nTarget enemy structures lose -10% armour and production output for 30 seconds\n Left click then left click on target",
+   "ru": "",
+   "uk_ai": "На 30 сек. Тед Сендімен позначає вказаний ворожий загін або споруду\nПозначені загони втрачають 10% броні й швидкості пересування на 30 сек.\nПозначені споруди втрачають 10% броні й продуктивності на 30 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SandymanVileWords",
+   "type": "Кнопка",
+   "en": "Villainous Miller (&R)",
+   "ru": "",
+   "uk_ai": "Зловісний мірошник (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSandymanVileWords",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Modifier Type: Active Debuff \n Targeted enemy units suffer -25% damage and -50% experience gain for 30 seconds\nLeft click icon then left click on target units",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Активне ослаблення\nОбрані ворожі загони на 30 сек. завдають на 25% менше пошкоджень і набирають на 50% менше досвіду\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SandymanConspirator",
+   "type": "Кнопка",
+   "en": "Co-conspirator (&T)",
+   "ru": "",
+   "uk_ai": "Спільник (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSandymanConspirator",
+   "type": "Підказка",
+   "en": "Requires Level 5\n Ted Sandyman blows his horn to grant nearby friendly units resistance to fear, terror, knockback and trample for 30 seconds\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 5\nТед Сендімен сурмить у ріг: союзні загони поблизу на 30 сек. стають стійкими до страху, жаху, відкидання й топтання\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SandymanMetalWheels",
+   "type": "Кнопка",
+   "en": "Heinous Deeds",
+   "ru": "",
+   "uk_ai": "Мерзенні справи",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSandymanMetalWheels",
+   "type": "Підказка",
+   "en": "Requires Level 7\nNearby Work Pits, Factories and the New Mill gain +15% armour and production output\nPassive ability",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 7\nРобітні Ями, фабрики й Новий Млин поблизу отримують бонус +15% броні й продуктивності\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

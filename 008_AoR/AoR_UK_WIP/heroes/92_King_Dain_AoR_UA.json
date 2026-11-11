@@ -1,0 +1,158 @@
+{
+ "meta": {
+  "hero": "King Dáin",
+  "uk_name": "Король Дайн",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "BattleofDale"
+  ],
+  "templates": {
+   "кампанія": [
+    "FellowshipKingDain"
+   ],
+   "битва": [
+    "DwarvenKingDain"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:DwarvenKingDain",
+   "type": "Ім'я",
+   "en": "King Dáin",
+   "ru": "Король Даин",
+   "uk_ai": "Король Дайн",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DainLeadership",
+   "type": "Кнопка",
+   "en": "King Under the Mountain",
+   "ru": "Король-под-Горой",
+   "uk_ai": "Король-під-Горою",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDainLeadershipBODE",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nAllies near King Dáin gain +25% armour and resistance to fear and terror\n King Dáin gains +33% attack damage when near King Brand\nPassive ability",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзники поряд із королем Дайном отримують бонус +25% броні й стійкість до страху та жаху\n Поряд із королем Брандом король Дайн завдає +33% пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MightyRage",
+   "type": "Кнопка",
+   "en": "The Red Axe (&R)",
+   "ru": "Красная секира (&R)",
+   "uk_ai": "Червона Сокира (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDainOldRedAxeBODE",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Modifier Type: Spell and Active Debuff \n Targeted friendly units gain +33% damage and armour for 30 seconds\n Targeted enemy units suffer -25% damage and -20% armour for 30 seconds\nLeft click icon then left click on target units",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3 \n Тип ефекту: Заклинання й активне ослаблення \n Вказані союзні загони отримують бонус +33% до пошкоджень і броні на 30 сек.\n Вказані ворожі загони отримують штраф -25% пошкоджень і -20% броні на 30 сек.\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DainRestoration",
+   "type": "Кнопка",
+   "en": "Mighty Veteran (&T)",
+   "ru": "Могучий ветеран (&T)",
+   "uk_ai": "Могутній ветеран (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDainRestoration",
+   "type": "Підказка",
+   "en": "Requires Level 5\nHeals nearby allies and fully refreshes their special ability timers\nLeft click icon then left click on target area",
+   "ru": "Требуется уровень 5\\nИсцеляет союзников в выбранной области и полностью перезаряжает их способности\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 5\nЗцілює союзників поблизу й повністю скидає таймер відновлення їхніх здібностей\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DainEmissary",
+   "type": "Кнопка",
+   "en": "King's Messenger (&C)",
+   "ru": "Посланник короля (&C)",
+   "uk_ai": "Посланець короля (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDainEmissary",
+   "type": "Підказка",
+   "en": "Requires Level 7\nTarget allied hero is immune to damage for 15 seconds \nTarget enemy hero is unable to attack for 15 seconds \nLeft click on icon then left click on target hero",
+   "ru": "Требуется уровень 7\\nПри применении на союзного героя, тот становится невосприимчив к урону в течение 15 секунд\\nПри применении на вражеского героя, тот теряет способность атаковать в течение 15 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевого героя",
+   "uk_ai": "Необхідно: Рівень 7\nОбраний союзний герой на 15 сек. стає невразливим\nОбраний ворожий герой на 15 сек. не може атакувати\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DainStand",
+   "type": "Кнопка",
+   "en": "Final Stand (&V)",
+   "ru": "Последняя битва (&V)",
+   "uk_ai": "Останній бій (&V)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDainSlayerCampaign",
+   "type": "Підказка",
+   "en": "Requires Level 10 \nKing Dáin gains +75% armour and deals splash damage for 30 seconds\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 10 \nКороль Дайн отримує бонус +75% броні й завдає пошкоджень по площі на 30 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:ToolTipDainLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nAllies near King Dáin gain +50% armour and resistance to fear and terror\n King Dáin gains +33% attack damage when near King Brand\nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nСоюзники рядом с королем Даином получают +50% брони и становятся невосприимчивыми к страху и ужасу\\nДаин наносит +33% урона, находясь рядом с королем Брандом\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзники поряд із Королем Дайном отримують бонус +50% броні й стійкість до страху та жаху\nПоряд із Королем Брандом Король Дайн отримує бонус +33% до пошкоджень від атак\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDainOldRedAxe",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Modifier Type: Spell and Active Debuff \n Targeted friendly units gain +33% damage and armour for 30 seconds\n Targeted enemy units suffer -25% damage and -20% armour for 30 seconds\n\nAt Level 6, targeted friendly units gain +50% damage and armour for 30 seconds\nLeft click icon then left click on target units",
+   "ru": "Требуется уровень 3\\nТип модификатора: Заклинание и активное ослабление\\nСоюзные отряды в радиусе действия наносят +33% урона и получают +33% брони в течение 30 секунд\\nВражеские отряды в радиусе действия теряют -25% урона и -20% брони в течение 30 секунд\\n\\nНа уровне 6, союзные отряды наносят +50% урона и получают +50% брони в течение 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Заклинання й активне ослаблення\nОбрані союзні загони на 30 сек. отримують бонус +33% до пошкоджень і броні\nОбрані ворожі загони на 30 сек. отримують штраф -25% пошкоджень і -20% броні\n\nНа 6 рівні обрані союзні загони на 30 сек. отримують бонус +50% до пошкоджень і броні\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDainSlayer",
+   "type": "Підказка",
+   "en": "Requires Level 10 \nKing Dáin gains +75% armour and deals splash damage for 30 seconds\nTemporarily summons two battalions of Iron Hills Guards\nLeft click to activate",
+   "ru": "Требуется уровень 10\\nДаин получает +75% брони, наносит урон по площади и отбрасывает врагов своими атаками в течение 30 секунд\\nВременно призываются два отряда воинов Железных холмов\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10\nКороль Дайн на 30 сек. отримує бонус +75% броні й завдає пошкоджень по площі\nТимчасово прикликає 2 загони гвардійців Залізних пагорбів\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

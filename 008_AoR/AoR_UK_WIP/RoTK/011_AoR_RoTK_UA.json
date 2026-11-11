@@ -1,0 +1,1641 @@
+{
+ "meta": {
+  "mission": "011_The Battle of the Black Gate",
+  "campaign": "Return of the King (AoR 10.0)",
+  "count": 163,
+  "fields": "var — мітка; type — Назва/Ціль/Діалог/Репліка/Інше/Кнопка; ru — RU 9.3.1, якщо є; uk_ai — поточний текст (правте прямо тут); status — вичитано / чернетка AI; uk — порожньо",
+  "notes": "\\n — перенос рядка, кількість має збігатися з EN; гарячі клавіші (&W) латиницею. Здібності героїв винесені в папку heroes."
+ },
+ "strings": [
+  {
+   "var": "CampaignName:BlackGate",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Назва",
+   "en": "The Battle of the Black Gate",
+   "ru": "",
+   "uk_ai": "Битва біля Чорної брами",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MissionHint01_BlackGate",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Інше",
+   "en": "Move troops onto marked positions.\nAll 25 battalions must be committed.\nYou may choose 8 heroes to hold the slopes. All remaining heroes will defend the summit.",
+   "ru": "",
+   "uk_ai": "Розставте війська на позначені позиції.\nУ бій треба кинути всі 25 загонів.\nВи можете обрати 8 героїв для утримання схилів. Решта героїв захищатиме вершину.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MissionHint02_BlackGate",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Інше",
+   "en": "Approach heroes to speak to them.",
+   "ru": "",
+   "uk_ai": "Підійдіть до героїв, щоб поговорити з ними.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MissionHint03_BlackGate",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Інше",
+   "en": "Move Aragorn to the summit once you have finished your preparations.",
+   "ru": "",
+   "uk_ai": "Закінчивши приготування, приведіть Араґорна на вершину.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MissionHint04_BlackGate",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Інше",
+   "en": "Aragorn cannot leave his command at the top of the hill. Use his powers to support your troops during the battle.",
+   "ru": "",
+   "uk_ai": "Араґорн не може залишити командний пост на вершині пагорба. Використовуйте його сили, щоб підтримувати війська під час битви.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective01_BlackGate",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Ціль",
+   "en": "Secure all hill positions.",
+   "ru": "",
+   "uk_ai": "Займіть усі позиції на пагорбі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective02_BlackGate",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Ціль",
+   "en": "Defeat the Mouth of Sauron.",
+   "ru": "",
+   "uk_ai": "Здолайте Вісника Саурона.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective03_BlackGate",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Ціль",
+   "en": "Survive.",
+   "ru": "",
+   "uk_ai": "Виживіть.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective04_BlackGate",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Ціль",
+   "en": "Hold the hill.",
+   "ru": "",
+   "uk_ai": "Утримайте пагорб.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective05_BlackGate",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Ціль",
+   "en": "Meet them head on!",
+   "ru": "",
+   "uk_ai": "Зустріньте їх лоб у лоб!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad037",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "The blood of Westernesse runs true with you, Aragorn. Together, we will emerge victorious.",
+   "ru": "",
+   "uk_ai": "У тобі тече справжня кров Вестернесу, Араґорне. Разом ми переможемо.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_haldir036",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "I will stand with you, Elessar.",
+   "ru": "",
+   "uk_ai": "Я стоятиму поруч із тобою, Елессаре.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir103",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "My sword is yours Aragorn. Let us make our stand together.",
+   "ru": "",
+   "uk_ai": "Мій меч — твій, Араґорне. Станьмо до бою разом.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf292",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "I am with you, Aragorn.",
+   "ru": "",
+   "uk_ai": "Я з тобою, Араґорне.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli109",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Hmph! The right choice! What took you so long?",
+   "ru": "",
+   "uk_ai": "Гм! Правильний вибір! Чого так довго?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas118",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "I am with you Aragorn, I will follow you to the end.",
+   "ru": "",
+   "uk_ai": "Я з тобою, Араґорне, я піду за тобою до кінця.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_merry034",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "For Frodo and Sam!",
+   "ru": "",
+   "uk_ai": "За Фродо й Сема!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin137",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Good one!.. wait, really?!",
+   "ru": "",
+   "uk_ai": "Чудово!.. стривайте, серйозно?!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_eomer038",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Let us draw swords together!",
+   "ru": "",
+   "uk_ai": "Оголімо мечі разом!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elfhelm007",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "My sword is yours, o Great King.",
+   "ru": "",
+   "uk_ai": "Мій меч — твій, о Великий Королю.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elladan072",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Our blades are sharp, Elessar. We will fight with you to the end.",
+   "ru": "",
+   "uk_ai": "Наші клинки гострі, Елессаре. Ми битимемося з тобою до кінця.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elrohir073",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Our strength is yours, Elessar.",
+   "ru": "",
+   "uk_ai": "Наша сила — твоя, Елессаре.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_beregond013",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "I am honoured to stand by your side, my King",
+   "ru": "",
+   "uk_ai": "Для мене честь стояти поруч із тобою, мій королю",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_golasgil001",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "I will do all in my power to aid you, Aragorn. Our country depends on us.",
+   "ru": "",
+   "uk_ai": "Я зроблю все, що в моїх силах, щоб допомогти тобі, Араґорне. Від нас залежить наша країна.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_imrahil001",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Dol Amroth stands with you, my King.",
+   "ru": "",
+   "uk_ai": "Дол-Амрот з тобою, мій королю.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_faramir094",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "I stand with you, Aragorn. This darkness will not endure.",
+   "ru": "",
+   "uk_ai": "Я з тобою, Араґорне. Ця темрява не триватиме вічно.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_Cine100A",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Never thought I'd die fighting side by side with an Elf.",
+   "ru": "",
+   "uk_ai": "Ніколи не думав, що помру пліч-о-пліч з ельфом.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_Cine100B",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "What about side by side with a friend?",
+   "ru": "",
+   "uk_ai": "А пліч-о-пліч із другом?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_Cine100C",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Aye - I could do that.",
+   "ru": "",
+   "uk_ai": "Еге ж — на таке я згоден.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad036",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "For the Dunedain, and for you, Aragorn. Our swords are yours.",
+   "ru": "",
+   "uk_ai": "За дунедайнів і за тебе, Араґорне. Наші мечі — твої.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_haldir037",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Within you lies the hope of all free peoples, Aragorn.",
+   "ru": "",
+   "uk_ai": "У тобі надія всіх вільних народів, Араґорне.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir104",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "I will follow you my brother, my captain, my King. ",
+   "ru": "",
+   "uk_ai": "Я піду за тобою, мій брате, мій капітане, мій королю.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf293",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "We have placed our hopes in you. Lead on, Aragorn.",
+   "ru": "",
+   "uk_ai": "Ми поклали на тебе свої надії. Веди нас, Араґорне.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli110",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "I'm with you lad! But keep the speeches short, eh?",
+   "ru": "",
+   "uk_ai": "Я з тобою, хлопче! Тільки промови покороче, га?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas119",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "My bow and my blades are yours, my friend.",
+   "ru": "",
+   "uk_ai": "Мій лук і мої клинки — твої, друже.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_merry033",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "I'll stand with you Aragorn!",
+   "ru": "",
+   "uk_ai": "Я стоятиму з тобою, Араґорне!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin138",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "We must be brave for our friends!",
+   "ru": "",
+   "uk_ai": "Ми мусимо бути хоробрими заради друзів!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_eomer039",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "You have our trust and our hearts. For Rohan.",
+   "ru": "",
+   "uk_ai": "Тобі належать наша довіра й наші серця. За Роган.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elfhelm008",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "I am with you. For Theoden! For Eomer!",
+   "ru": "",
+   "uk_ai": "Я з тобою. За Теодена! За Еомера!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elladan073",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "May the stars guide us",
+   "ru": "",
+   "uk_ai": "Хай зорі ведуть нас",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elrohir074",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Let us bring an end to this darkness.",
+   "ru": "",
+   "uk_ai": "Покладімо край цій темряві.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad029A",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "We have achieved many victories, yet all our labours may come to nought.",
+   "ru": "",
+   "uk_ai": "Ми здобули чимало перемог, та всі наші труди можуть піти нанівець.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_beregond014",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Your valour inspires us all, Aragorn. Let us show them the glory of Gondor.",
+   "ru": "",
+   "uk_ai": "Твоя звитяга надихає всіх нас, Араґорне. Покажімо їм славу Ґондору.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_golasgil002",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "You face a grim fate, Aragorn, but you do not face it alone.",
+   "ru": "",
+   "uk_ai": "На тебе чекає похмура доля, Араґорне, але ти зустрічаєш її не сам.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_imrahil002",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "You inspire us all, Aragorn. We will persevere.",
+   "ru": "",
+   "uk_ai": "Ти надихаєш усіх нас, Араґорне. Ми вистоїмо.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_faramir095",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "The storm has burst at last. So be it.",
+   "ru": "",
+   "uk_ai": "Буря нарешті вибухнула. Хай так і буде.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir105A",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Sauron committed a great force to conquer Minas Tirith.",
+   "ru": "",
+   "uk_ai": "Саурон кинув величезні сили на завоювання Мінас-Тіріта.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir105B",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "He may have been convinced that the White City harboured the One Ring, and that we might attempt to use it against him there.",
+   "ru": "",
+   "uk_ai": "Можливо, він був певен, що Біле Місто ховає Єдиний Перстень і що ми можемо спробувати використати його там проти нього.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir105C",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "For all his cunning, Sauron has underestimated our resilience to his corruption.",
+   "ru": "",
+   "uk_ai": "Попри всю свою хитрість, Саурон недооцінив нашу стійкість до його скверни.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn250A",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Indeed, my friend. The Dark Lord believes his victory is inevitable.",
+   "ru": "",
+   "uk_ai": "Саме так, друже. Темний Володар вірить, що його перемога неминуча.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn250B",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "That it lies within the nature of Man's base desires. He must be proven wrong.",
+   "ru": "",
+   "uk_ai": "Що вона закладена в самій природі ницих людських бажань. Треба довести, що він помиляється.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad028",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "A strange doom unfolds before us. Here we stand, men of valour all, but hopelessly outmatched.",
+   "ru": "",
+   "uk_ai": "Дивна доля розгортається перед нами. Ось ми стоїмо — всі звитяжні мужі, але безнадійно поступаємося силою.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad029B",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Does the ringbearer still live? Does it matter?",
+   "ru": "",
+   "uk_ai": "Чи ще живий Персненосець? Хіба це має значення?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn249",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Frodo is alive. That is what I must believe.",
+   "ru": "",
+   "uk_ai": "Фродо живий. Я мушу в це вірити.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_haldir008",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Even without his ring, Sauron's fell hordes will eventually overrun us all",
+   "ru": "",
+   "uk_ai": "Навіть без свого персня Сауронові лихі орди зрештою нас усіх розчавлять",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_haldir009",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "There is no hope for us, but that which we have placed in others.",
+   "ru": "",
+   "uk_ai": "У нас немає надії, крім тієї, яку ми поклали на інших.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn251",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Do not despair Haldir of Lothlorien. There is always hope",
+   "ru": "",
+   "uk_ai": "Не впадай у відчай, Галдіре з Лотлорієну. Надія є завжди",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_mouth014",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "My Lord is merciful, you can still save yourself",
+   "ru": "",
+   "uk_ai": "Мій Володар милостивий, ти ще можеш врятуватися",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_mouth017",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "A broken sword, and a broken line",
+   "ru": "",
+   "uk_ai": "Зламаний меч і зламаний рід",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_mouth018",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "My Master shall reward me greatly for this!",
+   "ru": "",
+   "uk_ai": "Мій Господар щедро винагородить мене за це!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_mouth019",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Your halfling fought better!",
+   "ru": "",
+   "uk_ai": "Твій напіврослик бився краще!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_mouth020",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "I am an Emissary! How dare you assault me!",
+   "ru": "",
+   "uk_ai": "Я посланець! Як ти смієш на мене нападати!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_mouth022",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "My guards will be more than enough.",
+   "ru": "",
+   "uk_ai": "Моєї варти буде більш ніж досить.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_mouth023",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Do you think you stand a chance against my guards?",
+   "ru": "",
+   "uk_ai": "Думаєш, маєш шанс проти моєї варти?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn335",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Діалог",
+   "en": "Aragorn: We will seize this hillock and defend it.",
+   "ru": "",
+   "uk_ai": "Араґорн: Ми займемо цей пагорб і оборонятимемо його.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn336",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Діалог",
+   "en": "Aragorn: With luck, we will be able to distract the Dark Lord's gaze long enough.",
+   "ru": "",
+   "uk_ai": "Араґорн: Якщо пощастить, ми зможемо достатньо довго відволікати погляд Темного Володаря.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn337",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Come, let us prepare!",
+   "ru": "",
+   "uk_ai": "Ходімо, готуймося!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_Cine084",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Діалог",
+   "en": "Sauron: Such a grand fate you have envisioned for yourself. It is clear that your forebears have passed their deluded conceit on to you.",
+   "ru": "",
+   "uk_ai": "Саурон: Яку величну долю ти собі намріяв. Видно, твої предки передали тобі свою оманливу пиху.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron058",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Діалог",
+   "en": "Sauron: A king of a doomed people, unable to save those he cares for. Surrender to me, or you will join your brethren in death.",
+   "ru": "",
+   "uk_ai": "Саурон: Король приреченого народу, нездатний урятувати тих, кого любить. Скорися мені — або приєднаєшся до своїх братів у смерті.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron059",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Діалог",
+   "en": "Sauron: A king of a doomed people, destined to fail, just like your forebears. Surrender to me, or you will join them in death.",
+   "ru": "",
+   "uk_ai": "Саурон: Король приреченого народу, якому судилося зазнати поразки, як і твоїм предкам. Скорися мені — або приєднаєшся до них у смерті.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron064",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Діалог",
+   "en": "Sauron: Death haunts all your line. So it is fated.",
+   "ru": "",
+   "uk_ai": "Саурон: Смерть переслідує весь твій рід. Така його доля.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron065",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Діалог",
+   "en": "Sauron: You could not protect them. You have failed.",
+   "ru": "",
+   "uk_ai": "Саурон: Ти не зміг їх захистити. Ти зазнав поразки.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron060",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Діалог",
+   "en": "Sauron: He, too, sought to challenge the Might of Mordor. You will share his fate.",
+   "ru": "",
+   "uk_ai": "Саурон: Він теж хотів кинути виклик Могутності Мордору. Ти поділиш його долю.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron066",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Діалог",
+   "en": "Sauron: Foolishness, thinly veiled as courage. You are just like him.",
+   "ru": "",
+   "uk_ai": "Саурон: Безглуздя, ледь прикрите мужністю. Ти такий самий, як він.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron061",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Діалог",
+   "en": "Sauron: So easily did he fall to the power of the Ring. How could you hope to resist?",
+   "ru": "",
+   "uk_ai": "Саурон: Як легко він піддався силі Персня. Як можеш ти сподіватися встояти?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron067",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Діалог",
+   "en": "Sauron: You cannot escape the weakness that runs in your blood.",
+   "ru": "",
+   "uk_ai": "Саурон: Тобі не втекти від слабкості, що тече в твоїй крові.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron062",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Діалог",
+   "en": "Sauron: He was mighty, yes, but I felled him all the same. Give up, Elessar, and receive my mercy.",
+   "ru": "",
+   "uk_ai": "Саурон: Він був могутній, так, але я все одно його повалив. Здайся, Елессаре, і прийми мою милість.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sauron063",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Діалог",
+   "en": "Sauron: Fool. Resist while you can. In the end, it will cost you everything. Now strike, if you dare!",
+   "ru": "",
+   "uk_ai": "Саурон: Дурню. Опирайся, поки можеш. Зрештою це коштуватиме тобі всього. А тепер бий, якщо смієш!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_mouth025",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Діалог",
+   "en": "Mouth of Sauron: There is no power that will avail you now.",
+   "ru": "",
+   "uk_ai": "Вісник Саурона: Тепер тобі не допоможе жодна сила.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_mouth026",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Діалог",
+   "en": "Mouth of Sauron: So ends the line of Isildur.",
+   "ru": "",
+   "uk_ai": "Вісник Саурона: Так кінчається рід Ісілдура.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn139",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "There is always hope.",
+   "ru": "",
+   "uk_ai": "Надія є завжди.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn429",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Діалог",
+   "en": "Aragorn: Fall back! Fall back!",
+   "ru": "",
+   "uk_ai": "Араґорн: Відступайте! Відступайте!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn430",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Діалог",
+   "en": "Aragorn: Stand with me! Together, we will fight to the end!",
+   "ru": "",
+   "uk_ai": "Араґорн: Станьте зі мною! Разом ми битимемося до кінця!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MissionHint05_BlackGate",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Інше",
+   "en": "Pull Aragorn back to the summit of the hill.",
+   "ru": "",
+   "uk_ai": "Відведіть Араґорна назад на вершину пагорба.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:CaptureTimer",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Інше",
+   "en": "Forces will transfer in:",
+   "ru": "",
+   "uk_ai": "Війська буде передано через:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:SetupTransferredHeroes",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Діалог",
+   "en": "Heroes remaining: ",
+   "ru": "",
+   "uk_ai": "Лишилося героїв:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:SetupTransferredHordes",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Діалог",
+   "en": "Battalions remaining: ",
+   "ru": "",
+   "uk_ai": "Лишилося загонів:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:SetupCompleteTimer",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Інше",
+   "en": "Riding out to the Black Gate in:",
+   "ru": "",
+   "uk_ai": "Виступ до Чорної брами через:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:OverrunOuter",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Інше",
+   "en": "Summit will be overrun in:",
+   "ru": "",
+   "uk_ai": "Вершину буде захоплено через:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:AragornMollokWarning",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Інше",
+   "en": "The Troll-chief approaches from the North-East!",
+   "ru": "",
+   "uk_ai": "З північного сходу наближається ватажок тролів!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:AragornNazgul01Warning",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Інше",
+   "en": "A Nazgul approaches from the North-East!",
+   "ru": "",
+   "uk_ai": "З північного сходу наближається назґул!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:AragornNazgul02Warning",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Інше",
+   "en": "A Nazgul approaches from the North-West!",
+   "ru": "",
+   "uk_ai": "З північного заходу наближається назґул!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:FrodoMTDOOM",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Інше",
+   "en": "Time until the Ring's destruction:",
+   "ru": "",
+   "uk_ai": "До знищення Персня лишилося:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective06_BlackGate",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Ціль",
+   "en": "Placeholder.",
+   "ru": "",
+   "uk_ai": "Заглушка.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective07_BlackGate",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Ціль",
+   "en": "Placeholder",
+   "ru": "",
+   "uk_ai": "Заглушка",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective01_BlackGate",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Ціль",
+   "en": "Placeholder.",
+   "ru": "",
+   "uk_ai": "Заглушка.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective02_BlackGate",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Ціль",
+   "en": "Placeholder.",
+   "ru": "",
+   "uk_ai": "Заглушка.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective03_BlackGate",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Ціль",
+   "en": "Placeholder.",
+   "ru": "",
+   "uk_ai": "Заглушка.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective04_BlackGate",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Ціль",
+   "en": "Placeholder",
+   "ru": "",
+   "uk_ai": "Заглушка",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:TESTTIMER",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Інше",
+   "en": "Use this timer to test",
+   "ru": "",
+   "uk_ai": "Тестовий таймер",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_mouth012",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "What chance do you think you have? The Dark Lord has not yet begun to unleash his full might.",
+   "ru": "",
+   "uk_ai": "На що ти сподіваєшся? Темний Володар ще й не почав показувати всю свою могутність.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_mouth013",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "There is no victory to be gained for you. You are all going to die.",
+   "ru": "",
+   "uk_ai": "Перемоги вам не здобути. Ви всі помрете.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_mouth015",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Foolish! Your fate is sealed",
+   "ru": "",
+   "uk_ai": "Безумці! Вашу долю вирішено",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_mouth016",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "None shall remember your name",
+   "ru": "",
+   "uk_ai": "Ніхто не згадає вашого імені",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_mouth021",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Guards... take care of him.",
+   "ru": "",
+   "uk_ai": "Варто... займіться ним.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn200",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Fall back!",
+   "ru": "",
+   "uk_ai": "Відступайте!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn193",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Hold your ground! Hold your ground!",
+   "ru": "",
+   "uk_ai": "Тримайте позиції! Тримайте позиції!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn194",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Sons of Gondor, of Rohan, my brothers",
+   "ru": "",
+   "uk_ai": "Сини Ґондору, Рогану, брати мої",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn195",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "I see in your eyes. The same fear that would take the heart of me",
+   "ru": "",
+   "uk_ai": "Я бачу у ваших очах той самий страх, що міг би скорити й моє серце",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn196",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "A day may come when the courage of men fails, when we forsake our friends and break all bond of fellowship. But it is not this day!",
+   "ru": "",
+   "uk_ai": "Може настати день, коли мужність людей згасне, коли ми покинемо друзів і розірвемо всі узи братерства. Але не сьогодні!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn197",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "An hour of wolves and shattered shields, when the age of men comes crashing down. But it is not this day. This day we fight!",
+   "ru": "",
+   "uk_ai": "Година вовків і розтрощених щитів, коли доба людей завалиться. Але не сьогодні. Сьогодні ми б'ємося!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn198",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "By all that you hold dear on this good earth. I bid you stand. Men of the West!",
+   "ru": "",
+   "uk_ai": "Усім, що вам дороге на цій добрій землі, закликаю вас: стійте! Люди Заходу!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn199",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "For Frodo",
+   "ru": "",
+   "uk_ai": "За Фродо",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn339",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "We must not falter!",
+   "ru": "",
+   "uk_ai": "Ми не повинні вагатися!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn340",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "They come! Brace yourselves!",
+   "ru": "",
+   "uk_ai": "Вони йдуть! Тримайтеся!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn341",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Hold onto your courage!",
+   "ru": "",
+   "uk_ai": "Не втрачайте мужності!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn342",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Stand now!",
+   "ru": "",
+   "uk_ai": "Стійте!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn343",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "The fate of Middle-earth rests on us!",
+   "ru": "",
+   "uk_ai": "Доля Середзем'я залежить від нас!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn344",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Hold the line! Let them come to us!",
+   "ru": "",
+   "uk_ai": "Тримайте стрій! Хай самі йдуть до нас!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn345",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Hold the hill!",
+   "ru": "",
+   "uk_ai": "Утримайте пагорб!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn346",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Do not fear!",
+   "ru": "",
+   "uk_ai": "Не бійтеся!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn347",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Stay true, more are coming!",
+   "ru": "",
+   "uk_ai": "Тримайтеся, йдуть іще!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn348",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Easterlings!",
+   "ru": "",
+   "uk_ai": "Істерлінґи!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn349",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Men from the far East!",
+   "ru": "",
+   "uk_ai": "Люди з далекого Сходу!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn350",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Aim for the trolls!",
+   "ru": "",
+   "uk_ai": "Цільтеся в тролів!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn351",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Drums!",
+   "ru": "",
+   "uk_ai": "Барабани!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn352",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Nazgul!",
+   "ru": "",
+   "uk_ai": "Назґул!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn353",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Fight! Fight to the last man!",
+   "ru": "",
+   "uk_ai": "Бийтеся! Бийтеся до останнього!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn354",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "You will fear us!",
+   "ru": "",
+   "uk_ai": "Ви ще нас побоїтеся!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn355",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "By Elendil!",
+   "ru": "",
+   "uk_ai": "За Еленділа!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn356",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "The Heir of Isildur is upon you!",
+   "ru": "",
+   "uk_ai": "Спадкоємець Ісілдура йде на вас!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn357",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Death awaits you!",
+   "ru": "",
+   "uk_ai": "На вас чекає смерть!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn358",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Crawl back to your Master!",
+   "ru": "",
+   "uk_ai": "Повзіть назад до свого Господаря!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn359",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "The Heir of Isildur has returned!",
+   "ru": "",
+   "uk_ai": "Спадкоємець Ісілдура повернувся!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn360",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Do not falter! Stand as one!",
+   "ru": "",
+   "uk_ai": "Не вагайтеся! Стійте як один!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn361",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "Fight on! For Gondor! For Rohan!",
+   "ru": "",
+   "uk_ai": "Бийтеся! За Ґондор! За Роган!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn362",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "For Frodo!",
+   "ru": "",
+   "uk_ai": "За Фродо!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn363",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Репліка",
+   "en": "This Evil will not last!",
+   "ru": "",
+   "uk_ai": "Це Зло не триватиме вічно!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:AragornNazgul03Warning",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Інше",
+   "en": "A Nazgul approaches from the West!",
+   "ru": "",
+   "uk_ai": "Із заходу наближається назґул!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BoromirToggleMount",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "Mount/Dismount (&C)",
+   "ru": "Сесть верхом / спешиться (&С)",
+   "uk_ai": "Сісти верхи / Спішитися (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CampaignDarkTowerGlaiveMalice",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "Dark Lord's Malice (&R)",
+   "ru": "",
+   "uk_ai": "Злоба Чорного Володаря (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CampaignDarkTowerSwordCommand",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "Dark Lord's Command (&R)",
+   "ru": "",
+   "uk_ai": "Наказ Чорного Володаря (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructCampaignBanneroftheGaladhrim",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "Build Banner of the Galadhrim (&W)",
+   "ru": "",
+   "uk_ai": "Стяг ґаладримів (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructCampaignBanneroftheRiddermark",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "Build Banner of the Riddermark (&R)",
+   "ru": "",
+   "uk_ai": "Стяг Ріддермарку (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructCampaignBanneroftheWhiteTree",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "Build Banner of the White Tree (&E)",
+   "ru": "",
+   "uk_ai": "Стяг Білого Древа (&E)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DoorWardenImpenetrableWall",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "Impenetrable Shield-wall (&R)",
+   "ru": "Непробиваемая стена из щитов (&R)",
+   "uk_ai": "Непробивна стіна щитів (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GolasgilShowStrength",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "Show of Strength (&C)",
+   "ru": "",
+   "uk_ai": "Показ сили (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GreyCompanyHuntCampaign_BG",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "Skilled Hunters (&R)",
+   "ru": "",
+   "uk_ai": "Вправні мисливці (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RohanArcherPiercingVolley",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "Piercing Volley (&T)",
+   "ru": "Стремительный залп (&T)",
+   "uk_ai": "Пробивний залп (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SongOfBattle",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "Song of Battle (&W)",
+   "ru": "Песнь битвы (&W)",
+   "uk_ai": "Пісня битви (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityMouthOfSauronMordantTongue",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "Mordant Tongue (&R)",
+   "ru": "Едкий язык (&R)",
+   "uk_ai": "Отруйний язик (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCampaignDarkTowerGlaiveMalice",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "Whilst active, Glaives of the Dark Tower gain +33% armour and knock back enemy units per hit for 20 seconds \n \n Recharge time: 1m 30s \n Left click to activate",
+   "ru": "",
+   "uk_ai": "Поки здібність діє, глефоносці Чорної Вежі отримують бонус +33% броні й кожним ударом відкидають ворожі загони на 20 сек. \n \n Час відновлення: 1 хв. 30 с \n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCampaignDarkTowerSwordCommand",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "Whilst active, Swords of the Dark Tower ignore unit armour and deal bonus damage vs heroes but do not deal splash damage for 20 seconds \n Weak vs structures and spam units \n \n Recharge time: 1m 30s \n Left click to activate",
+   "ru": "",
+   "uk_ai": "Поки здібність діє, мечники Чорної Вежі ігнорують броню загонів і завдають додаткових пошкоджень героям, але не завдають пошкоджень по площі на 20 сек. \n Слабкі проти споруд і масових загонів \n \n Час відновлення: 1 хв. 30 с \n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructCampaignBanneroftheGaladhrim",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "Honour the Galadhrim that fell during the Siege of the Hornburg\nAll nearby ranged units gain +15% damage and +10% range",
+   "ru": "",
+   "uk_ai": "Вшануйте ґаладримів, що полягли під час облоги Горнбурґу\nУсі загони далекого бою поблизу отримують бонус +15% до пошкоджень і +10% дальності",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructCampaignBanneroftheRiddermark",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "Imbue your troops with the courage of Rohan\nAll nearby melee units gain +15% armour",
+   "ru": "",
+   "uk_ai": "Надихніть свої війська відвагою Рогану\nУсі загони ближнього бою поблизу отримують бонус +15% броні",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructCampaignBanneroftheWhiteTree",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "Imbue your troops with the might of Gondor\nAll nearby melee units gain +15% damage",
+   "ru": "",
+   "uk_ai": "Надихніть свої війська могутністю Ґондору\nУсі загони ближнього бою поблизу отримують бонус +15% до пошкоджень",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDoorWardenImpenetrableWall",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "For 10 seconds, Door-wardens become immune to damage\nLeft click to activate",
+   "ru": "В течение 10 секунд стражи ворот становятся неуязвимыми для урона\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "На 10 сек. Вартові брами стають невразливими\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellowshipBoromirShieldBash_Rohan",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "Requires Boromir's Shield equipped\nBoromir slams his shield into his enemy, dealing strong damage and knocking back enemies within an arc in front of him\nLeft click to activate",
+   "ru": "Требуется экипировать щит Боромиора\nБоромир бьет врагов своим щитом , нанося сильный урон и отбрасывая их\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Потрібно мати щит Боромира\nБоромир б'є ворога щитом, завдаючи сильних пошкоджень і відкидаючи ворогів перед собою\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGreyCompanyHunt_BG",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "For 30 seconds, a target unit or hero is marked by the Grey Company\nThe target shares vision with the player, loses -25% speed and takes 50% more damage from Grey Company and Dúnedain attack\n Left click then left click on target",
+   "ru": "",
+   "uk_ai": "На 30 сек. Сірий Загін позначає вказаний загін або героя\nГравець бачить те саме, що й ціль; ціль втрачає 25% швидкості й отримує на 50% більше пошкоджень від атак Сірого Загону та дунедайн\n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRohanArcherPiercingVolley",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "Yeomen Archers' arrows knock back enemy infantry for 30 seconds\nLeft click to activate",
+   "ru": "Стрелы йоменов-лучников отбрасывают вражескую пехоту в течение 30 секунд\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Стріли лучників-йоменів відкидають ворожу піхоту на 30 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityMouthOfSauronMordantTongue",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "A foul incantation that deals heavy damage and damage over time to target enemy for 10 seconds \n Left click icon then left click on target",
+   "ru": "Злобное заклинание, наносящее врагу сильный единовременный урон и периодический урон в течение 10 секунд\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Мерзенне закляття, що завдає вказаному ворогові великих пошкоджень і поступових пошкоджень протягом 10 сек. \n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWarCry",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "Requires Level 5\n Modifier Type: Spell \n Targeted friendly units gain +33% damage, +20% speed, and resistance to fear and terror for 30 seconds\nLeft click icon then left click on target units",
+   "ru": "Требуется уровень 5\nТип модификатора: Заклинание\nСоюзные войска в радиусе действия наносят +33% урона,\nполучают +20% скорости передвижения и становятся невосприимчивыми к страху и ужасу на 30 секунд\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 5\n Тип ефекту: Заклинання \n Вказані союзні загони отримують бонус +33% до пошкоджень, +20% швидкості й стійкість до страху та жаху на 30 сек.\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEowynMount",
+   "mission": "011_The Battle of the Black Gate",
+   "type": "Кнопка",
+   "en": "Left click to switch between mounted and on foot",
+   "ru": "ЛКМ - сесть верхом или спешиться",
+   "uk_ai": "Клікніть, щоб перемкнутися між їздою верхи та пішим ходом",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

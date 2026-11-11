@@ -1,0 +1,178 @@
+{
+ "meta": {
+  "faction": "Men",
+  "note": "AI drafts for rows that had no Ukrainian at all (lowest priority: any proofread text wins)."
+ },
+ "strings": [
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners",
+   "en": "Modifier Type: Leadership \\n Allies near the Fortress gain +33% damage, +33% armour, and earn experience 50% faster\\n\\nReduces Hero cost by 10% \\n Reduces Hero recruit time by 10% \\n Reduces the cost of builders by 20%",
+   "uk_ai": "Тип ефекту: Лідерство\\nСоюзники поблизу фортеці отримують бонус +33% до пошкоджень, +33% броні й на 50% швидше набирають досвід\\n\\nЗнижує вартість героїв на 10%\\nСкорочує час вербування героїв на 10%\\nЗнижує вартість будівельників на 20%"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower",
+   "en": "Provides Palantir Vision Power and allows recruitment of Fountain Guard \\n Increases Fortress vision range",
+   "uk_ai": "Дає силу «Видіння палантира» й дозволяє вербувати Вартових Джерела\\nЗбільшує дальність огляду фортеці"
+  },
+  {
+   "var": "OBJECT:HordeGondorFountainGuard",
+   "en": "Fountain Guard",
+   "uk_ai": "Вартові Джерела"
+  },
+  {
+   "var": "OBJECT:GondorFountainGuard",
+   "en": "Fountain Guard",
+   "uk_ai": "Вартовий Джерела"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleFountainGuardLineToSpearWallFormation",
+   "en": "Fountain Guards form a Spear Wall\\n They gain +40% armour, immunity to knockback, fear, terror and all debuffs at the cost of -33% speed",
+   "uk_ai": "Вартові Джерела вишиковуються в стіну списів\\nОтримують +40% броні, імунітет до відкидання, страху, жаху й усіх ослаблень, але втрачають 33% швидкості"
+  },
+  {
+   "var": "CONTROLBAR:UndyingHopeLeadership",
+   "en": "Undying Hope",
+   "uk_ai": "Невмируща надія"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUndyingHopeLeadership",
+   "en": "Modifier Type: Spell \\nFountain Guards gain +10% armour for every nearby battalion of Minas Tirith, up to +50% armour\\n\\n When a Fountain Guard dies, nearby allies are healed by small amount\\n Passive ability",
+   "uk_ai": "Тип ефекту: Заклинання\\nВартові Джерела отримують бонус +10% броні за кожен загін Мінас-Тіріта поблизу, до +50% броні\\n\\nКоли гине Вартовий Джерела, союзники поблизу трохи зцілюються\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:FaithfulGuardianSlayer",
+   "en": "Expel (&T)",
+   "uk_ai": "Вигнання (&T)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipFaithfulGuardianSlayer",
+   "en": "Requires Level 3 \\n Fountain Guards deal +33% damage and knockback enemy units for 30 seconds \\n Left click to activate",
+   "uk_ai": "Необхідно: Рівень 3\\nНа 30 сек. Вартові Джерела отримують бонус +33% до пошкоджень і відкидають ворожі загони\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:FountainGuardTwo",
+   "en": "Ardent Defenders (&C)",
+   "uk_ai": "Палкі захисники (&C)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipFountainGuardTwo",
+   "en": "Requires Level 7 \\n The Fountain Guards are surrounded by an aura that weakens enemies and enforces allies for 30 seconds\\n Enemy units suffer -25% damage and armour \\n Allied structures gain +100% armour \\n Allied heroes gain +50% faster power recharge times \\n Nearby friendly battalions are replenished over time\\n Left click to activate ",
+   "uk_ai": "Необхідно: Рівень 7\\nНа 30 сек. Вартових Джерела оточує аура, що послаблює ворогів і посилює союзників\\nВорожі загони отримують штраф -25% пошкоджень і броні\\nСоюзні споруди отримують бонус +100% броні\\nСоюзні герої на 50% швидше відновлюють здібності\\nДружні загони поблизу поступово поновлюють полеглих\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "OBJECT:HordeLossarnachAxeMen",
+   "en": "Lossarnach Axemen",
+   "uk_ai": "Сокироносці Лоссарнаха"
+  },
+  {
+   "var": "OBJECT:LossarnachAxeMan",
+   "en": "Lossarnach Axeman",
+   "uk_ai": "Сокироносець Лоссарнаха"
+  },
+  {
+   "var": "OBJECT:HordeGondorSpearmen",
+   "en": "Spearmen of Minas Tirith",
+   "uk_ai": "Списоносці Мінас-Тіріта"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeGondorFireArrows",
+   "en": "Upgrades this battalion with Fire Arrows \\n Significantly increases the damage done by arrows",
+   "uk_ai": "Оснащує цей загін вогняними стрілами\\nСуттєво збільшує пошкодження стріл"
+  },
+  {
+   "var": "OBJECT:HordeGondorArcher",
+   "en": "Archers of Minas Tirith",
+   "uk_ai": "Лучники Мінас-Тіріта"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleRArcherLineToSkirmishFormation",
+   "en": "Requires level 2 \\n +25% damage, +15% speed, -50% armour",
+   "uk_ai": "Необхідно: Рівень 2\\n+25% до пошкоджень, +15% швидкості, -50% броні"
+  },
+  {
+   "var": "CONTROLBAR:ToggleIthilienWeapons",
+   "en": "Toggle Weapon (&R)",
+   "uk_ai": "Змінити зброю (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleIthilienWeapons",
+   "en": "Allows Rangers to switch between bow and sword\\n Grants +50% armour when using swords\\n Left click to toggle",
+   "uk_ai": "Слідопити перемикаються між луком і мечем\\nЗ мечами отримують бонус +50% броні\\nКлікніть, щоб перемкнути"
+  },
+  {
+   "var": "CONTROLBAR:MenLongShotAbility",
+   "en": "Longshot (&T)",
+   "uk_ai": "Далекий постріл (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMenLongShotAbility",
+   "en": "Requires Level 3\\nThe rangers bombard anywhere within a great radius with a volley of arrows \\n Left click icon then left click on target area",
+   "uk_ai": "Необхідно: Рівень 3\\nСлідопити накривають залпом стріл будь-яку ділянку у великому радіусі\\nКлікніть на іконку, потім оберіть ділянку"
+  },
+  {
+   "var": "CONTROLBAR:BodkinArrowUpgrade",
+   "en": "Bodkin Arrows (&C)",
+   "uk_ai": "Бронебійні стріли (&C)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeGondorBodkinArrows",
+   "en": "Upgrades this battalion with Bodkin Arrows \\n Reduces enemy armour against pierce by 25% when hit \\n Does not stack",
+   "uk_ai": "Оснащує цей загін бронебійними стрілами\\nВлучання зменшує броню ворога проти колючих атак на 25%\\nНе накопичується"
+  },
+  {
+   "var": "OBJECT:HordeGondorPinnathGelin",
+   "en": "Pinnath Gelin Riders",
+   "uk_ai": "Вершники Піннат-Ґеліна"
+  },
+  {
+   "var": "OBJECT:GondorPinnathGelin",
+   "en": "Pinnath Gelin Rider",
+   "uk_ai": "Вершник Піннат-Ґеліна"
+  },
+  {
+   "var": "OBJECT:HordeGondorKnight",
+   "en": "Knights of Minas Tirith",
+   "uk_ai": "Лицарі Мінас-Тіріта"
+  },
+  {
+   "var": "OBJECT:GondorKnights",
+   "en": "Knight of Minas Tirith",
+   "uk_ai": "Лицар Мінас-Тіріта"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGrandHarvestUpgrade",
+   "en": "+12% resources from farms \\n Player must maintain a Marketplace to benefit from this upgrade",
+   "uk_ai": "+12% ресурсів із зерносховищ\\nЩоб отримувати бонус, ринок має стояти"
+  },
+  {
+   "var": "CONTROLBAR:ConstructSiegeMaterialsUpgrade",
+   "en": "Siege Materials (&E)",
+   "uk_ai": "Матеріали для облоги (&E)"
+  },
+  {
+   "var": "CONTROLBAR:StoneWorkerLeadership",
+   "en": "Building Inspections",
+   "uk_ai": "Огляд будівель"
+  },
+  {
+   "var": "CONTROLBAR:TooltipStoneWorkerLeadership",
+   "en": "Modifier Type: Leadership \\n Nearby Structures gain +30% armour \\nPassive ability \\nMust maintain Stoneworker for upgrade",
+   "uk_ai": "Тип ефекту: Лідерство\\nСпоруди поблизу отримують бонус +30% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\nЩоб покращення діяло, каменярня має стояти"
+  },
+  {
+   "var": "CONTROLBAR:GondorImrahilRecruit",
+   "en": "Recruit the Prince of Dol Amroth, Imrahil. \\n Supports Fiefdom troops, supports cavalry \\n \\n Recruit time: 50s \\n Levels 2-5: +5% Health, +5% Damage \\n Levels 6-9: +4% Health, +4% Damage \\n Level 10: +3% Health, +3% Damage \\n \\n 'For a while I stand in the place of the Steward of Gondor, and it is mine to think first of its people.'",
+   "uk_ai": "Завербувати принца Дол-Амрота Імраїля.\\nПідтримує війська ленів, підтримує кавалерію\\n\\nЧас вербування: 50 сек.\\n\\nКожен рівень підвищує показники\\nРівні 2-5: +5% здоров'я, +5% до пошкоджень\\nРівні 6-9: +4% здоров'я, +4% до пошкоджень\\nРівень 10: +3% здоров'я, +3% до пошкоджень\\n\\n«Поки що я заступаю місце намісника Ґондору, і мій обов'язок — насамперед дбати про його народ.»"
+  },
+  {
+   "var": "CONTROLBAR:GondorImrahilRevive",
+   "en": "Revive the fallen Hero, Imrahil",
+   "uk_ai": "Відродити полеглого в бою Імраїля"
+  },
+  {
+   "var": "CONTROLBAR:GandalfTheWhiteRevive",
+   "en": "Revive the fallen Hero, Gandalf",
+   "uk_ai": "Відродити полеглого в бою Ґендальфа"
+  }
+ ]
+}

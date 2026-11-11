@@ -1,0 +1,2341 @@
+{
+ "meta": {
+  "mission": "006_Terror of Cirith Ungol",
+  "campaign": "Return of the King (AoR 10.0)",
+  "count": 233,
+  "fields": "var — мітка; type — Назва/Ціль/Діалог/Репліка/Інше/Кнопка; ru — RU 9.3.1, якщо є; uk_ai — поточний текст (правте прямо тут); status — вичитано / чернетка AI; uk — порожньо",
+  "notes": "\\n — перенос рядка, кількість має збігатися з EN; гарячі клавіші (&W) латиницею. Здібності героїв винесені в папку heroes."
+ },
+ "strings": [
+  {
+   "var": "CampaignName:CirithUngol",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Назва",
+   "en": "Terror of Cirith Ungol",
+   "ru": "",
+   "uk_ai": "Жах Кіріт-Унґолу",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MGAmonH_Frodo027",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Діалог",
+   "en": "Frodo: I'm trapped here!",
+   "ru": "",
+   "uk_ai": "Фродо: Я в пастці!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MGAmonH_Frodo053",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Oh nooo! Get away!",
+   "ru": "",
+   "uk_ai": "О ні-і-і! Геть від мене!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam149",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Діалог",
+   "en": "Sam: Why did that nasty old schemer lure Frodo in here?",
+   "ru": "",
+   "uk_ai": "Сем: І навіщо той мерзенний старий інтриган заманив сюди Фродо?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam150",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Діалог",
+   "en": "Sam: Whatever he's got planned, I've got to put a stop to it.",
+   "ru": "",
+   "uk_ai": "Сем: Хай що він там задумав, я мушу цьому завадити.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam130",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Діалог",
+   "en": "Sam: No turning back now...",
+   "ru": "",
+   "uk_ai": "Сем: Тепер уже не повернеш...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc058",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Діалог",
+   "en": "Orc: Why'd we set up camp 'ere? This place is a death trap!",
+   "ru": "",
+   "uk_ai": "Орк: І навіщо ми тут табором стали? Це ж смертельна пастка!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam196",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Діалог",
+   "en": "Sam: Oh no! Orcs!",
+   "ru": "",
+   "uk_ai": "Сем: О ні! Орки!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc059",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Діалог",
+   "en": "Orc: Who knows? Ain't my job to question Shagrat's orders. They say he reports to the Eye!",
+   "ru": "",
+   "uk_ai": "Орк: А хто його знає? Не моє діло обговорювати накази Шаґрата. Кажуть, він доповідає самому Оку!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc060",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Діалог",
+   "en": "Orc: Will you two shut up?! If we're gonna patrol this wretched place, I'd rather get it over with quick!",
+   "ru": "",
+   "uk_ai": "Орк: Може, ви двоє заткнетеся?! Як уже патрулювати цю кляту діру, то хоч швидше покінчити!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc061",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Діалог",
+   "en": "Orc: What was that? No! It's another one of them spiders!",
+   "ru": "",
+   "uk_ai": "Орк: Що це було? Ні! Ще один із тих павуків!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc062",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Діалог",
+   "en": "Orc: Get back! Get back!",
+   "ru": "",
+   "uk_ai": "Орк: Назад! Назад!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc063",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Діалог",
+   "en": "Orc: Every last Orc for himself!",
+   "ru": "",
+   "uk_ai": "Орк: Рятуйся хто може!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam198",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "They dropped a torch... I might need that!",
+   "ru": "",
+   "uk_ai": "Вони впустили смолоскип... Він мені може знадобитися!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc004",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Діалог",
+   "en": "Orc: Boss! What's goin' on!?",
+   "ru": "",
+   "uk_ai": "Орк: Начальнику! Що діється!?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag017",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Діалог",
+   "en": "Gorbag: Ugh... Shagrat's a traitorous dog. He's stealin' from the Eye... the fool could get us all killed.",
+   "ru": "",
+   "uk_ai": "Ґорбаґ: Тьху... Шаґрат — зрадливий пес. Краде в Ока... через цього дурня нас усіх повбивають.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc005",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Діалог",
+   "en": "Orc: What ya want us to do, boss?",
+   "ru": "",
+   "uk_ai": "Орк: Що нам робити, начальнику?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag018",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Діалог",
+   "en": "Gorbag: He's set his boys against us. We'll just have to kill 'em all. I'm off to the tower to finish the job. Follow me.",
+   "ru": "",
+   "uk_ai": "Ґорбаґ: Він нацькував на нас своїх хлопців. Доведеться вбити їх усіх. Я до вежі — покінчу з цим. За мною.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_sam048",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Діалог",
+   "en": "Sam: Don't worry Mr Frodo.",
+   "ru": "",
+   "uk_ai": "Сем: Не хвилюйтеся, пане Фродо.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_sam049",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Діалог",
+   "en": "Sam: I haven't forgot you.",
+   "ru": "",
+   "uk_ai": "Сем: Я вас не забув.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_sam052",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I'm going to have to find a way into that tower.",
+   "ru": "",
+   "uk_ai": "Треба знайти, як потрапити в ту вежу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MissionHint01_Shelob",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Інше",
+   "en": "The unwavering dread that pervades this place won't allow Sam to recover his health",
+   "ru": "",
+   "uk_ai": "Невідступний жах, що панує в цьому місці, не дає Сему відновлювати здоров'я",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:MissionHint02_Shelob",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Інше",
+   "en": "Sam has gained an additional 15% health",
+   "ru": "",
+   "uk_ai": "Здоров'я Сема збільшилося на 15%",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective01_Shelob",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Ціль",
+   "en": "Escape Shelob's Lair.",
+   "ru": "",
+   "uk_ai": "Вирвіться з лігва Шелоб.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective02_Shelob",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Ціль",
+   "en": "Find Frodo in Shelob's Lair.",
+   "ru": "",
+   "uk_ai": "Знайдіть Фродо в лігві Шелоб.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective03_Shelob",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Ціль",
+   "en": "Defeat Shelob.",
+   "ru": "",
+   "uk_ai": "Здолайте Шелоб.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective04_Shelob",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Ціль",
+   "en": "Fight your way back to the Tower of Cirith Ungol.",
+   "ru": "",
+   "uk_ai": "Проб'ється назад до Вежі Кіріт-Унґолу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective05_Shelob",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Ціль",
+   "en": "Save Frodo.",
+   "ru": "",
+   "uk_ai": "Врятуйте Фродо.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective06_Shelob",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Ціль",
+   "en": "Kill Gorbag.",
+   "ru": "",
+   "uk_ai": "Вбийте Ґорбаґа.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective01_Shelob",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Ціль",
+   "en": "Find 4 supply caches in Shelob's Lair.",
+   "ru": "",
+   "uk_ai": "Знайдіть 4 схованки з припасами в лігві Шелоб.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective02_Shelob",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Ціль",
+   "en": "Find all Orc allies in Cirith Ungol.",
+   "ru": "",
+   "uk_ai": "Знайдіть усіх союзників-орків у Кіріт-Унґолі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective03_Shelob",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Ціль",
+   "en": "Kill all remaining Orcs and Uruks in Cirith Ungol.",
+   "ru": "",
+   "uk_ai": "Вбийте всіх орків і уруків, що лишилися в Кіріт-Унґолі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam114",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I can't go 'round takin' hits like that! Gotta be careful and keep my wits about me...",
+   "ru": "",
+   "uk_ai": "Мені не можна отак підставлятися під удари! Треба бути обережним і не втрачати голови...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam115",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Not exactly sure what I was expecting...",
+   "ru": "",
+   "uk_ai": "Сам не знаю, чого я очікував...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam172",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Look! It's Sting! Old Mister Bilbo would be right cross if I didn't bring this back...",
+   "ru": "",
+   "uk_ai": "Гляньте! Жало! Старий пан Більбо страшенно розсердився б, якби я його не приніс...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam171",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "It's Mister Frodo's Elven-phial... I'll hold on to this.",
+   "ru": "",
+   "uk_ai": "Це ельфійський фіал пана Фродо... Я його збережу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam197",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Orcs! How am I going to get past them?!",
+   "ru": "",
+   "uk_ai": "Орки! Як же мені повз них проминути?!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam233",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Their grog looks flammable... if I had a torch, I might be able to set them alight!",
+   "ru": "",
+   "uk_ai": "Їхнє пійло, здається, горить... якби мав смолоскип, міг би їх підпалити!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam234",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Their grog looks flammable... I might be able to set them alight!",
+   "ru": "",
+   "uk_ai": "Їхнє пійло, здається, горить... я міг би їх підпалити!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam235",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "A torch... I might need that!",
+   "ru": "",
+   "uk_ai": "Смолоскип... Він мені може знадобитися!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc035",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "What's that!? He's massive!",
+   "ru": "",
+   "uk_ai": "Що це!? Здоровенний який!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk018",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Look out! The Troll's gone berserk!",
+   "ru": "",
+   "uk_ai": "Обережно! Троль сказився!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk021",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "It's finally dead! Lets gut those maggoty orcs that done set him off!",
+   "ru": "",
+   "uk_ai": "Нарешті здох! А тепер випатраймо тих червивих орків, що його роздрочили!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc013",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Look out! It's seen us!",
+   "ru": "",
+   "uk_ai": "Обережно! Він нас побачив!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc015",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Looks like that troll is moving down to the lower levels! Stay out of its way!",
+   "ru": "",
+   "uk_ai": "Схоже, той троль спускається на нижні яруси! Не лізьте йому під ноги!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc016",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "We did it! That troll is dead!",
+   "ru": "",
+   "uk_ai": "Ми це зробили! Троль здох!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc032",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "They've holed themselves up in the tower! What do we do!?",
+   "ru": "",
+   "uk_ai": "Вони засіли у вежі! Що робити!?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag044",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Gather up the lads... We'll flush them out...",
+   "ru": "",
+   "uk_ai": "Збирай хлопців... Викуримо їх...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc034",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Look at the size of these Uruks!",
+   "ru": "",
+   "uk_ai": "Ви гляньте, які здоровенні ці уруки!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc036",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "We did it! The Tower belongs to us!",
+   "ru": "",
+   "uk_ai": "Ми це зробили! Вежа наша!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag045",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Stay here and keep watch. I'm off up the tower and I don't want any lingerers creeping up on me!",
+   "ru": "",
+   "uk_ai": "Лишайтеся тут і стежте. Я йду нагору вежі, і щоб ніхто не підкрадався мені в спину!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc025",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Come on, let's use this winch to open the gate!",
+   "ru": "",
+   "uk_ai": "Давай, відчинимо браму цим коловоротом!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc026",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Another winch! Crank that gate open lads!",
+   "ru": "",
+   "uk_ai": "Ще один коловорот! Крутіть, хлопці, відчиняйте браму!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc027a",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "This gate's shut! There should be a winch nearby... ",
+   "ru": "",
+   "uk_ai": "Брама зачинена! Десь поряд має бути коловорот...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc027b",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "What are you waiting for!? Go find it!",
+   "ru": "",
+   "uk_ai": "Чого стоїш!? Іди шукай!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc028",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "We can't get through from this side! We'll have to go around and open it!",
+   "ru": "",
+   "uk_ai": "З цього боку не пройти! Доведеться обійти й відчинити!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc029",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Wrong side! We'll have to go round to open this gate up!",
+   "ru": "",
+   "uk_ai": "Не той бік! Доведеться обходити, щоб відчинити цю браму!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc044",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Careful! There's a troll behind that gate. It'll attack us if its set free!",
+   "ru": "",
+   "uk_ai": "Обережно! За тією брамою троль. Випустимо — накинеться на нас!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc045",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Release that troll, and it'll run rampant!",
+   "ru": "",
+   "uk_ai": "Випусти того троля — і він рознесе все довкола!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc074",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "It'll kill those uruk guards for us!",
+   "ru": "",
+   "uk_ai": "Він переб'є за нас тих урукських вартових!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc030",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "They've locked the door. We'll need to find the winch to get in there!",
+   "ru": "",
+   "uk_ai": "Вони замкнули двері. Треба знайти коловорот, щоб туди потрапити!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc031",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Діалог",
+   "en": "Orc: Yes! The final door is open! Push through to the tower!",
+   "ru": "",
+   "uk_ai": "Орк: Так! Останні двері відчинено! Проривайтеся до вежі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag043",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Keep going, up the tower!",
+   "ru": "",
+   "uk_ai": "Не спиняйтеся, нагору вежі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag046",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Crank the winch, now!",
+   "ru": "",
+   "uk_ai": "Крутіть коловорот, хутко!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc020",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Look at that fresh meat, just sitting there. That'll do us some good!",
+   "ru": "",
+   "uk_ai": "Ви гляньте, свіже м'ясо, просто отак лежить. Нам не завадить!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc021",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "A pot of boiling oil! We could use some flaming arrows...",
+   "ru": "",
+   "uk_ai": "Казан киплячої олії! Нам би вогняних стріл...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag037",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Aim for that grog!",
+   "ru": "",
+   "uk_ai": "Цільтеся в те пійло!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag038",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Light it up!",
+   "ru": "",
+   "uk_ai": "Підпалюйте!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc037",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "That tower's looking flimsy... cut its supports, and it'll crush these Uruks for us!",
+   "ru": "",
+   "uk_ai": "Та вежа ледве тримається... підрубай опори — і вона розчавить за нас цих уруків!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc042",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Careful, we're light on fighters and there's more Uruks ahead! There's got to be more orcs around here!",
+   "ru": "",
+   "uk_ai": "Обережно, бійців у нас мало, а попереду ще уруки! Тут мають бути ще орки!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc043",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "We've left some of the boys back there quarrelling with those Uruks! We should go back and get them!",
+   "ru": "",
+   "uk_ai": "Ми лишили там кількох хлопців гризтися з уруками! Треба повернутися по них!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam225",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "You'll not touch him again!",
+   "ru": "",
+   "uk_ai": "Ти більше його не торкнешся!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag047",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I'll make you squeal!",
+   "ru": "",
+   "uk_ai": "Ти в мене ще заверещиш!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag048",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Not so brave now, are ya?!",
+   "ru": "",
+   "uk_ai": "Що, вже не такий хоробрий?!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam226",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I'm not afraid of you!",
+   "ru": "",
+   "uk_ai": "Я тебе не боюся!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag049",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Is that all you've got?!",
+   "ru": "",
+   "uk_ai": "І це все, на що ти здатен?!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective07_Shelob",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Ціль",
+   "en": "Placeholder",
+   "ru": "",
+   "uk_ai": "Заглушка",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective04_Shelob",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Ціль",
+   "en": "Placeholder",
+   "ru": "",
+   "uk_ai": "Заглушка",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam116",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "There's more webs in here than air...",
+   "ru": "",
+   "uk_ai": "Тут більше павутиння, ніж повітря...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam117",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "More webs!",
+   "ru": "",
+   "uk_ai": "Знову павутиння!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam118",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Nasty thing!",
+   "ru": "",
+   "uk_ai": "Гидота!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam119",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Get back!",
+   "ru": "",
+   "uk_ai": "Геть!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam120",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Orcs!",
+   "ru": "",
+   "uk_ai": "Орки!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam121",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "What's that foul stench?",
+   "ru": "",
+   "uk_ai": "Що це за сморід?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam122",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Watch your step, now, Sam!",
+   "ru": "",
+   "uk_ai": "Обережно, Семе, дивися під ноги!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam123",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "These tunnels are endless...",
+   "ru": "",
+   "uk_ai": "Цим тунелям кінця немає...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam124",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "What in blazes is that!?",
+   "ru": "",
+   "uk_ai": "Що це в біса таке!?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam125",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Frodo... I hope you're okay.",
+   "ru": "",
+   "uk_ai": "Фродо... сподіваюся, ви цілі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam126",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Can't let my guard down!",
+   "ru": "",
+   "uk_ai": "Не можна втрачати пильності!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam127",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Need to stay focused...",
+   "ru": "",
+   "uk_ai": "Треба зосередитися...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam128",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "There's no end to it!",
+   "ru": "",
+   "uk_ai": "Цьому кінця-краю немає!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam129",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I don't like this one bit...",
+   "ru": "",
+   "uk_ai": "Мені це геть не подобається...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam131",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I hate spiders!",
+   "ru": "",
+   "uk_ai": "Ненавиджу павуків!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam132",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Can't see a thing!",
+   "ru": "",
+   "uk_ai": "Нічогісінько не видно!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam133",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Sure is quiet?",
+   "ru": "",
+   "uk_ai": "Щось аж надто тихо?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam134",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "What a gruesome sight!",
+   "ru": "",
+   "uk_ai": "Яке жахливе видовище!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam135",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "What happened here?",
+   "ru": "",
+   "uk_ai": "Що тут сталося?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam136",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I've got bad feeling about this one.",
+   "ru": "",
+   "uk_ai": "У мене погане передчуття.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam137",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I'd better watch my step",
+   "ru": "",
+   "uk_ai": "Краще дивитися під ноги",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam138",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "So many of them!",
+   "ru": "",
+   "uk_ai": "Скільки ж їх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam139",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "What a mess!",
+   "ru": "",
+   "uk_ai": "Оце безлад!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam140",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I hope there's no more of them.",
+   "ru": "",
+   "uk_ai": "Сподіваюся, їх більше немає.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam141",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I hope Mr Frodo isn't in one of these piles",
+   "ru": "",
+   "uk_ai": "Сподіваюся, пана Фродо немає в одній із цих купок",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam142",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "This gives me the shivers!",
+   "ru": "",
+   "uk_ai": "Аж мурашки по шкірі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam143",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Glad I wasn't around to see that!",
+   "ru": "",
+   "uk_ai": "Добре, що я цього не бачив!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam148",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I don't much like the look of this place...",
+   "ru": "",
+   "uk_ai": "Мені не надто подобається це місце...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam151",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Don't you worry, Mister Frodo! Your Sam is not far behind!",
+   "ru": "",
+   "uk_ai": "Не хвилюйтеся, пане Фродо! Ваш Сем уже близько!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam152",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I've gotta be more careful...",
+   "ru": "",
+   "uk_ai": "Треба бути обережнішим...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam153",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Spiders! Lots of them!",
+   "ru": "",
+   "uk_ai": "Павуки! Безліч павуків!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam154",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Even the tiny ones are monstrously large!",
+   "ru": "",
+   "uk_ai": "Навіть найменші — жахливо великі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam155",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "These ain't your average house harvestmen!",
+   "ru": "",
+   "uk_ai": "Це вам не звичайні хатні павучки-косарики!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam156",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I ain't scared of you, attercop!",
+   "ru": "",
+   "uk_ai": "Я тебе не боюся, павучиську!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam157",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "They're swarming!",
+   "ru": "",
+   "uk_ai": "Їх ціла хмара!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam158",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I can hear 'em skittering...",
+   "ru": "",
+   "uk_ai": "Чую, як вони шкрябають лапами...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam159",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Just stay where you are, Mister Frodo! Your good Sam is on his way!",
+   "ru": "",
+   "uk_ai": "Лишайтеся, де ви є, пане Фродо! Ваш вірний Сем уже йде!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam160",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "This doesn't taste half-bad!",
+   "ru": "",
+   "uk_ai": "А на смак непогано!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam161",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "They're a bit wrinkled, but juicy!",
+   "ru": "",
+   "uk_ai": "Трохи зморщені, зате соковиті!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam162",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "That hits the spot.",
+   "ru": "",
+   "uk_ai": "Оце те, що треба.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam163",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I feel like I can keep going a little further...",
+   "ru": "",
+   "uk_ai": "Здається, можу пройти ще трохи...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam164",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I can't just wander through this!",
+   "ru": "",
+   "uk_ai": "Крізь це просто так не пройдеш!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam165",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I've got to cut it apart!",
+   "ru": "",
+   "uk_ai": "Доведеться розрізати!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam166",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "These webs are thick!",
+   "ru": "",
+   "uk_ai": "Яке ж густе павутиння!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam167",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Careful... I'll be a spider's dinner if I get stuck!",
+   "ru": "",
+   "uk_ai": "Обережно... застрягну — і стану павучим обідом!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam168",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Sticky, nasty stuff!",
+   "ru": "",
+   "uk_ai": "Липка гидота!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam169",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I better hang on to this...",
+   "ru": "",
+   "uk_ai": "Краще це збережу...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam170",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "It's like the orcs and attercops are at war... that suits me just fine!",
+   "ru": "",
+   "uk_ai": "Схоже, орки з павучиськами воюють... мені це якраз до душі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc006",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Gut these maggots!",
+   "ru": "",
+   "uk_ai": "Випатрати цих хробаків!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc007",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Get over here, now!",
+   "ru": "",
+   "uk_ai": "А ну сюди, хутко!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc008",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Move your stinking hides over here!",
+   "ru": "",
+   "uk_ai": "Тягніть сюди свої смердючі шкури!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc009",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Stick 'em!",
+   "ru": "",
+   "uk_ai": "Коли їх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc010",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "We're getting clobbered!",
+   "ru": "",
+   "uk_ai": "Нас лупцюють!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc011",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Aiigh! They'll kill us all!",
+   "ru": "",
+   "uk_ai": "А-а-а! Вони нас усіх переб'ють!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc012",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I think we made a mistake ere!",
+   "ru": "",
+   "uk_ai": "Здається, ми тут дали маху!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc014",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Run away! It's too strong!",
+   "ru": "",
+   "uk_ai": "Тікай! Він надто сильний!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc017",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Oi, share some that around!",
+   "ru": "",
+   "uk_ai": "Гей, поділися!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc018",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Extra rations boys!",
+   "ru": "",
+   "uk_ai": "Подвійна пайка, хлопці!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc019",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Those Uruk scum will regret losing this!",
+   "ru": "",
+   "uk_ai": "Ці урукські покидьки ще пошкодують, що втратили це!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc022",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Dip your arrows boys! We'll light em up!",
+   "ru": "",
+   "uk_ai": "Мачайте стріли, хлопці! Зараз підпалимо!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc023",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Archers, bring your bows! Lets light up these arrows!",
+   "ru": "",
+   "uk_ai": "Лучники, сюди з луками! Підпалимо стріли!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc024",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Another boiling pot! Archers, get over there!",
+   "ru": "",
+   "uk_ai": "Ще один казан з окропом! Лучники, туди!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc033",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "For the Eye!",
+   "ru": "",
+   "uk_ai": "За Око!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc038",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "There it goes!",
+   "ru": "",
+   "uk_ai": "Пішло!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc039",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Get out of its way!",
+   "ru": "",
+   "uk_ai": "Геть з дороги!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc040",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Stay back!",
+   "ru": "",
+   "uk_ai": "Назад!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc041",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "It's coming down!",
+   "ru": "",
+   "uk_ai": "Падає!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc046",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Argh! What are you!",
+   "ru": "",
+   "uk_ai": "А-а-а! Що ти таке!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc047",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Come here you!",
+   "ru": "",
+   "uk_ai": "А ну йди сюди!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc048",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "There's the intruder! Stick him!",
+   "ru": "",
+   "uk_ai": "Ось він, чужинець! Коли його!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc049",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "The Uruk filth wiped out half the guard!",
+   "ru": "",
+   "uk_ai": "Ця урукська погань вирізала пів варти!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc050",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "What was that!? Oh... I thought it was another Uruk...",
+   "ru": "",
+   "uk_ai": "Що це було!? А... я думав, ще один урук...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc051",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Stay on your guard... they can't all be dead.",
+   "ru": "",
+   "uk_ai": "Не розслабляйтеся... не могли ж усі здохнути.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc052",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Let's get our stories straight... what happened 'ere?",
+   "ru": "",
+   "uk_ai": "Давайте домовимося, що казатимемо... що тут сталося?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc053",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "How many did you kill?",
+   "ru": "",
+   "uk_ai": "Скількох ти вбив?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc054",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I think I might be bleeding... internally.",
+   "ru": "",
+   "uk_ai": "Здається, в мене кровотеча... внутрішня.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc055",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "What was the whole thing about, anyway?",
+   "ru": "",
+   "uk_ai": "А через що взагалі вся ця колотнеча?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc056",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I hear Shagrat said somethin' vile about Gorbag's poor nan...",
+   "ru": "",
+   "uk_ai": "Кажуть, Шаґрат щось бридке ляпнув про бідолашну бабцю Ґорбаґа...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_orc057",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Who's gonna clean all this up?",
+   "ru": "",
+   "uk_ai": "І хто все це прибиратиме?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk004",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Kill these Morgul rats!",
+   "ru": "",
+   "uk_ai": "Вбийте цих морґульських щурів!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk005",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Die, Morgul scum!",
+   "ru": "",
+   "uk_ai": "Здохни, морґульська погань!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk006",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Rip em' up boys!",
+   "ru": "",
+   "uk_ai": "Рвіть їх, хлопці!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk007",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "We'll have your guts for garters!",
+   "ru": "",
+   "uk_ai": "Ми з вас кишки випустимо!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk008",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Crush the Snaga scum!",
+   "ru": "",
+   "uk_ai": "Розчавіть снаґівських покидьків!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk009",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Pull them apart!",
+   "ru": "",
+   "uk_ai": "Розірвіть їх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk010",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Strip the flesh from their bones!",
+   "ru": "",
+   "uk_ai": "Здеріть м'ясо з їхніх кісток!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk011",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Stop that one! Kill him!",
+   "ru": "",
+   "uk_ai": "Зупиніть того! Вбийте його!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk012",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Die you puny worms!",
+   "ru": "",
+   "uk_ai": "Здохніть, жалюгідні хробаки!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk013",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Those Morgul rats are attacking us!",
+   "ru": "",
+   "uk_ai": "Ці морґульські щури на нас нападають!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk014",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Argh! There they are! Run them down!",
+   "ru": "",
+   "uk_ai": "А-а-а! Ось вони! Наздоганяй!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk015",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Look, its more of those maggots!",
+   "ru": "",
+   "uk_ai": "Дивись, знову ці хробаки!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk016",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Come here you cowardly scum!",
+   "ru": "",
+   "uk_ai": "Іди сюди, боягузливий покидьку!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk017",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "You think you can take us!",
+   "ru": "",
+   "uk_ai": "Думаєш, здолаєш нас!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk019",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Aiee! That troll's gonna crush us!",
+   "ru": "",
+   "uk_ai": "А-а! Цей троль нас розчавить!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk020",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Bring it down! Now!",
+   "ru": "",
+   "uk_ai": "Валіть його! Негайно!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk022",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "The Tower is ours!",
+   "ru": "",
+   "uk_ai": "Вежа наша!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk023",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Keep this Snaga filth away from the Tower!",
+   "ru": "",
+   "uk_ai": "Не підпускайте цю снаґівську погань до Вежі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk024",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Fresh Meat!",
+   "ru": "",
+   "uk_ai": "Свіже м'ясо!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk025",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Something comes!",
+   "ru": "",
+   "uk_ai": "Щось наближається!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk026",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Over there!",
+   "ru": "",
+   "uk_ai": "Он там!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk027",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Shagrat will be pleased!",
+   "ru": "",
+   "uk_ai": "Шаґрат буде задоволений!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk028",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Grab that scum!",
+   "ru": "",
+   "uk_ai": "Хапай того покидька!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk029",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I'll have your head!",
+   "ru": "",
+   "uk_ai": "Я заберу твою голову!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk030",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Take that one to the tower!",
+   "ru": "",
+   "uk_ai": "Того — до вежі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk031",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "When are we gonna eat them?",
+   "ru": "",
+   "uk_ai": "А коли ми їх їстимемо?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk032",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I could go for a bite of orc...",
+   "ru": "",
+   "uk_ai": "Я б не відмовився від шматочка орка...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk033",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Was a long time coming...",
+   "ru": "",
+   "uk_ai": "Давно на це заносилося...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk034",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "That'll teach em to mess with us Uruks.",
+   "ru": "",
+   "uk_ai": "Тепер знатимуть, як зв'язуватися з нами, уруками.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk035",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Oi! Hands off. I'm saving that one.",
+   "ru": "",
+   "uk_ai": "Гей! Руки геть. Того я лишаю собі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk036",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "I musta killed a score of em.",
+   "ru": "",
+   "uk_ai": "Я, мабуть, кілька десятків їх поклав.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk037",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "It's gotten quiet... too quiet.",
+   "ru": "",
+   "uk_ai": "Стало тихо... аж надто тихо.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk038",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Look at all these dead boys. Pathetic.",
+   "ru": "",
+   "uk_ai": "Гляньте на всіх цих мертвяків. Жалюгідно.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk039",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Shame about the troll. Poor old Gurzok.",
+   "ru": "",
+   "uk_ai": "Шкода троля. Бідолашний старий Ґурзок.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk040",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Keep an eye out while I get some shut-eye.",
+   "ru": "",
+   "uk_ai": "Пильнуй, поки я трохи покуняю.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk041",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "The lads say there's an elf-warrior lurking about the fortress... be on your guard.",
+   "ru": "",
+   "uk_ai": "Хлопці кажуть, по фортеці никає якийсь ельф-воїн... будь насторожі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_uruk042",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "That's no Elf! That's a runt! Gut him!",
+   "ru": "",
+   "uk_ai": "Та який це ельф! Це ж мала недоросля! Випатрати його!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag019",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Fresh meat!",
+   "ru": "",
+   "uk_ai": "Свіже м'ясо!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag020",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Take em down!",
+   "ru": "",
+   "uk_ai": "Валіть їх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag021",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Argh! They're all over me!",
+   "ru": "",
+   "uk_ai": "А-а-а! Вони всюди на мені!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag022",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Aaargh! Get them off me!",
+   "ru": "",
+   "uk_ai": "А-а-а! Зніміть їх із мене!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag023",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Yer no match for us!",
+   "ru": "",
+   "uk_ai": "Куди вам до нас!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag024",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Oi, get over here!",
+   "ru": "",
+   "uk_ai": "Гей, сюди!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag025",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Don't let em get through!",
+   "ru": "",
+   "uk_ai": "Не дайте їм прорватися!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag026",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Come 'ere you!",
+   "ru": "",
+   "uk_ai": "А ну йди сюди!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag027",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Help us, will ya?!",
+   "ru": "",
+   "uk_ai": "Допоможи нам, га?!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag028",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Hold the gate!",
+   "ru": "",
+   "uk_ai": "Тримайте браму!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag029",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Oi, you! You look like you can handle yourself!",
+   "ru": "",
+   "uk_ai": "Гей, ти! Бачу, за себе постояти вмієш!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag030",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Come help us teach these Uruks a lesson!",
+   "ru": "",
+   "uk_ai": "Ходи, допоможи нам провчити цих уруків!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag031",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "It's not over yet, ya worm. Stay sharp!",
+   "ru": "",
+   "uk_ai": "Ще не кінець, хробаку. Не розслабляйся!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag032",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Crush them!",
+   "ru": "",
+   "uk_ai": "Розчавіть їх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag033",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Uruk filth!",
+   "ru": "",
+   "uk_ai": "Урукська погань!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag034",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Treacherous scum!",
+   "ru": "",
+   "uk_ai": "Зрадливі покидьки!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag035",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "More of them?!",
+   "ru": "",
+   "uk_ai": "Ще й ці?!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag036",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Watch out!",
+   "ru": "",
+   "uk_ai": "Обережно!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag039",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Light the barrel!",
+   "ru": "",
+   "uk_ai": "Підпалюй бочку!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag040",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Over there!",
+   "ru": "",
+   "uk_ai": "Он там!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag041",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Watch out for that troll!",
+   "ru": "",
+   "uk_ai": "Стережіться того троля!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gorbag042",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Репліка",
+   "en": "Let's use that troll against them!",
+   "ru": "",
+   "uk_ai": "Нацькуймо того троля на них!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CampaignSamTorchThrow",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Кнопка",
+   "en": "Throw Torch (&C)",
+   "ru": "",
+   "uk_ai": "Кинути смолоскип (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElvenCloakToCU",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Кнопка",
+   "en": "Elven Cloak (&W)",
+   "ru": "",
+   "uk_ai": "Ельфійський плащ (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FrenziedSwing",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Кнопка",
+   "en": "Frenzied Swing (&W)",
+   "ru": "",
+   "uk_ai": "Шалений замах (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SamwiseBladeMasterToCU",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Кнопка",
+   "en": "That's For My Old Gaffer! (&R)",
+   "ru": "",
+   "uk_ai": "Це тобі за мого Старого! (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TheOneRing_ToCU",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Кнопка",
+   "en": "A Heavy Burden (&C)",
+   "ru": "",
+   "uk_ai": "Тяжкий тягар (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCampaignSamTorchThrow",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Кнопка",
+   "en": "Sam throws a torch to target area \nInstantly destroys Spider Webs, Spider Eggs and Spiderlings in target area\nDeals damage over time within target area for 3 seconds\nLeft click icon then left click on target area",
+   "ru": "",
+   "uk_ai": "Сем кидає смолоскип на вказану ділянку \nМиттєво знищує павутину, павучі яйця й павученят на ділянці\nЗавдає поступових пошкоджень на ділянці на 3 сек.\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMorgulShotTOCU",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Кнопка",
+   "en": "Targeted enemy takes poison damage over time for 10 seconds and becomes a wight upon death \n Left click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Вказаний ворог отримує поступові пошкодження отрутою протягом 10 сек., а загинувши, стає привидом \n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPhialofGaladrielToCU",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Кнопка",
+   "en": "Causes enemy units to flee and stuns Shelob with fear\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Змушує ворожі загони тікати й приголомшує Шелоб страхом\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUrukJuggernautSmash",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Кнопка",
+   "en": "The Feral Uruk Juggernaut slams the ground, damaging and knocking back enemy units and dealing heavy damage to structures in a small radius\nLeft click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Дикий урук-громило б'є об землю, завдаючи пошкоджень ворожим загонам, відкидаючи їх і завдаючи великих пошкоджень спорудам у невеликому радіусі\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:UrukJuggernautSmash",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Кнопка",
+   "en": "Juggernaut (&R)",
+   "ru": "",
+   "uk_ai": "Громило (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElvenCloakCampaign",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Кнопка",
+   "en": "Becomes invisible when standing still \n Also passively grants +10% armour to all nearby hobbit heroes \n Left click to activate",
+   "ru": "Стать невидимым, оставаясь на месте\nТакже пассивно дарует +10% брони всем ближайшим героям-хоббитам\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Стає невидимим, коли стоїть на місці \n Також постійно дає +10% броні всім героям-гобітам поблизу \n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipSamwiseBladeMaster_Campaign",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Кнопка",
+   "en": "Requires Level 3 \nSam passively deals +200% damage against Nazgûl\nPassive ability\n\n Modifier Type: Buff \n Sam gains\n+100% damage, +100% armour for 30 seconds\n Left click to activate",
+   "ru": "Требуется уровень 3\nСэм пассивно наносит +200% дополнительного урона назгул\nПассивная способность\n\nТип модификатора: Усиление\nСэм наносит +100% урона и получает +100% брони на 30 секунд\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3 \nСем постійно завдає +200% пошкоджень назґулам\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\n Тип ефекту: Посилення \n Сем отримує бонус\n+100% до пошкоджень, +100% броні на 30 сек.\n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTheOneRing",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Кнопка",
+   "en": "Become invisible \n But beware the Eye of Sauron \n Left click to activate",
+   "ru": "Стать невидимым\nБерегитесь Ока Саурона\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Робить невидимим \n Але стережися Ока Саурона \n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MorgulShot",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Кнопка",
+   "en": "Morgul Shot (&R)",
+   "ru": "Выстрел Моргула (&R)",
+   "uk_ai": "Морґульський постріл (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PhialofGaladriel",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Кнопка",
+   "en": "Phial of Galadriel (&T)",
+   "ru": "Фиал Галадриэли (&T)",
+   "uk_ai": "Фіал Ґаладріель (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "UPGRADE:MordorFireArrowUpgrade",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Кнопка",
+   "en": "Fire Arrows",
+   "ru": "Огненные стрелы",
+   "uk_ai": "Вогняні стріли",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "TOOLTIP:MordorFireArrows",
+   "mission": "006_Terror of Cirith Ungol",
+   "type": "Кнопка",
+   "en": "Fire Arrows",
+   "ru": "Огненные стрелы",
+   "uk_ai": "Вогняні стріли",
+   "status": "вичитано",
+   "uk": ""
+  }
+ ]
+}

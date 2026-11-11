@@ -1,0 +1,88 @@
+{
+ "meta": {
+  "hero": "Lord Golasgil",
+  "uk_name": "Лорд Ґоласґіл",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "MinasTirithOuter",
+   "MinasTirithInner",
+   "BlackGate",
+   "ScouringoftheShire"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignGolasgil"
+   ],
+   "битва": []
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:CampaignGolasgil",
+   "type": "Ім'я",
+   "en": "Lord Golasgil",
+   "ru": "",
+   "uk_ai": "Лорд Ґоласґіл",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GolasgilLeadership",
+   "type": "Кнопка",
+   "en": "Lord of Anfalas",
+   "ru": "",
+   "uk_ai": "Володар Анфаласу",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipGolasgilLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nAllies near Lord Golasgil gain +25% Armour\nStacks with Buffs and Spells\nPassive ability",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзники поряд із лордом Ґоласґілом отримують бонус +25% броні\nПоєднується з посиленнями та заклинаннями\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GolasgilGuardSummon",
+   "type": "Кнопка",
+   "en": "Household Guard (&R)",
+   "ru": "",
+   "uk_ai": "Особиста варта (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGolasgilGuardSummon",
+   "type": "Підказка",
+   "en": "Lord Golasgil dispatches his Household Guard\nSummons 3 Household Guards that deal knockback damage\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Лорд Ґоласґіл висилає свою особисту варту\nПрикликає 3 вартових, чиї удари відкидають ворогів\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GolasgilShiningSteel",
+   "type": "Кнопка",
+   "en": "Shining Steel (&T)",
+   "ru": "",
+   "uk_ai": "Сяйна сталь (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGolasgilShiningSteel",
+   "type": "Підказка",
+   "en": "Enemy units within the radius are stunned for 5 seconds\n Lord Golasgil deals +25% damage for 30 seconds\n Left click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Ворожі загони в радіусі дії приголомшені на 5 сек.\n Лорд Ґоласґіл завдає +25% пошкоджень на 30 сек.\n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

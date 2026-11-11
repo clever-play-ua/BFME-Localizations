@@ -1,0 +1,121 @@
+{
+ "meta": {
+  "hero": "Annatar",
+  "uk_name": "Аннатар",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "LordoftheRings"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignAnnatar"
+   ],
+   "битва": []
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:CampaignAnnatar",
+   "type": "Ім'я",
+   "en": "Annatar",
+   "ru": "",
+   "uk_ai": "Аннатар",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AWiseChoice",
+   "type": "Кнопка",
+   "en": "A Wise Choice (&W)",
+   "ru": "",
+   "uk_ai": "Мудрий вибір (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAWiseChoice",
+   "type": "Підказка",
+   "en": "Your words carry wisdom, Golden One. Allow me to remain a while longer.",
+   "ru": "",
+   "uk_ai": "Ваші слова мають мудрість, о Золотий. Дозвольте мені лишитись ще трохи.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HowDareYou",
+   "type": "Кнопка",
+   "en": "How Dare You? (&R)",
+   "ru": "",
+   "uk_ai": "Як ти смієш? (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHowDareYou",
+   "type": "Підказка",
+   "en": "A hostage, say you. Do you not know to whom you speak?",
+   "ru": "",
+   "uk_ai": "Заручник, кажеш? Хіба ти не знаєш, із ким говориш?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CannotHoldMe",
+   "type": "Кнопка",
+   "en": "You Cannot Hold Me (&T)",
+   "ru": "",
+   "uk_ai": "Тобі мене не втримати (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCannotHoldMe",
+   "type": "Підказка",
+   "en": "You may cage me for a time, but I am well versed in the desires of Men's hearts.",
+   "ru": "",
+   "uk_ai": "Ти можеш на якийсь час замкнути мене в клітці, та я добре знаю, чого прагнуть людські серця.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DeathFindsYouAll",
+   "type": "Кнопка",
+   "en": "Death Finds You All (&W)",
+   "ru": "",
+   "uk_ai": "Смерть наздожене всіх (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDeathFindsYouAll",
+   "type": "Підказка",
+   "en": "The Valar's refusal to bestow upon you that which is rightfully yours is a stain from which their reputation cannot be washed. Alas, my King. All Men must die.",
+   "ru": "",
+   "uk_ai": "Те, що Валар відмовили вам у належному по праву, — пляма, яку з їхньої слави вже не змити. На жаль, мій королю. Усі люди мусять померти.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BeginTheGreatArmament",
+   "type": "Кнопка",
+   "en": "Begin the Great Armament (&R)",
+   "ru": "",
+   "uk_ai": "Розпочни Велике Озброєння (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBeginTheGreatArmament",
+   "type": "Підказка",
+   "en": "What you seek is within your grasp, O Great King.",
+   "ru": "",
+   "uk_ai": "Те, чого ви прагнете, у ваших руках, о Великий Королю.",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

@@ -1,0 +1,118 @@
+{
+ "meta": {
+  "hero": "Fatty Bolger",
+  "uk_name": "Товстун Болджер",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "ScouringoftheShire"
+  ],
+  "templates": {
+   "кампанія": [
+    "ShireFattyBolger"
+   ],
+   "битва": [
+    "ArnorFattyBolger"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:ArnorFattyBolger",
+   "type": "Ім'я",
+   "en": "Fatty Bolger",
+   "ru": "Толстячок Болждер",
+   "uk_ai": "Товстун Болджер",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FattyBolgerSpeed",
+   "type": "Кнопка",
+   "en": "Run, Fatty, Run! (&W)",
+   "ru": "Беги, Толстячок, беги! (&W)",
+   "uk_ai": "Біжи, Товстуне, біжи! (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipFattyBolgerSpeed",
+   "type": "Підказка",
+   "en": "Modifier Type: Buff \n Fatty Bolger gains +30% speed for 15 seconds\n Left click to activate",
+   "ru": "Тип модификатора: Усиление\\nТолстячок Болджер получает +30% скорости на 15 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Тип ефекту: Посилення\nНа 15 сек. Товстун Болджер отримує бонус +30% швидкості\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HornofBuckland",
+   "type": "Кнопка",
+   "en": "Fear! Fire! Foes! (&R)",
+   "ru": "Ужас! Пожар! Враги! (&R)",
+   "uk_ai": "Страх! Вогонь! Вороги! (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShireHornofBuckland",
+   "type": "Підказка",
+   "en": "Requires Level 3\nThe Horn-call of Buckland is sounded, decreasing recruit times of all Hobbit units for 300% for 30 seconds\n Left click to activate",
+   "ru": "Требуется уровень 3\\nЗвучит рог Бакленда, сокращая время призыва всех хоббитов на 300% в течение 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nЛунає ріг Бакленду: на 30 сек. час найму всіх гобітських загонів скорочується на 300%\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FattyConspirator",
+   "type": "Кнопка",
+   "en": "Co-conspirator (&T)",
+   "ru": "Сообщник (&T)",
+   "uk_ai": "Спільник (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFattyConspirator",
+   "type": "Підказка",
+   "en": "Requires Level 5\nModifier Type: Spell\nFatty temporarily empowers a friendly hero, granting them 50% armour, 50% faster experience gain, and 75% faster power recharge times\nStacks with Leadership and Spells\nLeft click icon then left click on target hero",
+   "ru": "Требуется уровень 5\\nТип модификатора: Заклинание\\nФэтти временно усиливает союзного героя, даруя ему +50% брони, ускоряя получение опыта на 50% и перезарядку способностей на 75%\\nСочетается с лидерством и заклинаниями\\nЩелкните левой кнопкой мыши на значок, затем на целевого героя",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Заклинання\nТовстун тимчасово посилює союзного героя: той отримує бонус +50% броні, на 50% швидше набирає досвід і на 75% швидше відновлює здібності\nПоєднується з лідерством і заклинаннями\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FattyPrecision",
+   "type": "Кнопка",
+   "en": "Halfling Precision (&C)",
+   "ru": "Меткость полурослика (&C)",
+   "uk_ai": "Влучність напіврослика (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFattyPrecision",
+   "type": "Підказка",
+   "en": "Requires Level 7 \n For 15 seconds, Fatty's attacks ignore enemy armour\n Left click to activate",
+   "ru": "Требуется уровень 7\\nВ течение 15 секунд атаки Фэтти игнорируют броню врагов\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 7\nПротягом 15 сек. атаки Товстуна ігнорують броню ворогів\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:ToolTipHornofBuckland",
+   "type": "Підказка",
+   "en": "Requires Level 2\nThe Horn-call of Buckland is sounded, all Hobbit units are recruited +300% faster for 30 seconds\n Left click to activate",
+   "ru": "Требуется уровень 2\\nПризыв из Бакленда уменьшет время призыва всех хоббитов-воинов в течение 30 секунд",
+   "uk_ai": "Необхідно: Рівень 2\nЛунає ріг Бакленду: на 30 сек. усі гобітські загони наймаються на 300% швидше\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

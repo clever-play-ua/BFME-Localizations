@@ -1,0 +1,142 @@
+{
+ "meta": {
+  "hero": "Elrond",
+  "uk_name": "Елронд",
+  "campaigns": [
+   "FotR"
+  ],
+  "missions": [
+   "LastAlliance"
+  ],
+  "templates": {
+   "кампанія": [
+    "SecondAgeElrond"
+   ],
+   "битва": [
+    "SecondAgeElrondAdventure"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:SecondAgeElrond",
+   "type": "Ім'я",
+   "en": "Elrond",
+   "ru": "Элронд",
+   "uk_ai": "Елронд",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElrondArrowVolleyAbility",
+   "type": "Кнопка",
+   "en": "Leithio I Philinn! (&W)",
+   "ru": "Leithio I Philinn! (&W)",
+   "uk_ai": "Пустити стріли! (&W)",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElrondArrowVolleyAbility",
+   "type": "Підказка",
+   "en": "Elrond calls elven archers to bombard anywhere within a great radius with a volley of arrows \n Left click icon then left click on target area",
+   "ru": "Элронд призывает эльфийских лучников атаковать любой участок местности залпом стрел\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Елронд наказує ельфійським лучникам обстріляти обране місце залпом стріл \n Клікніть на іконку, потім оберіть ділянку",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElrondLALeadership",
+   "type": "Кнопка",
+   "en": "Herald of Gil-galad",
+   "ru": "Вестник Гиль-галада",
+   "uk_ai": "Вісник Ґіл-ґалада",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElrondLALeadership",
+   "type": "Підказка",
+   "en": "When Gil-galad and Elendil joined forces, the Lord of Rivendell opened his sanctuary for the Kings to formulate their battleplans and assemble their forces. Scores of mighty arms and armour were wrought in Imladris during this time. Elrond would be Gil-galad's herald in the war to come. \n\n  Allies near Elrond gain \n +33% damage, +33% armour, \n and earn experience 50% faster\nPassive ability",
+   "ru": "Когда Гиль-галад и Элендил объединили свои силы, правитель Ривенделла открыл свое убежище для королей, чтобы спланировать атаку и собрать силы. За это время в Имладрисе было сотворено множество могучих мечей и доспехов. Элронд станет вестником Гиль-галада в грядущей войне.\\n\\nСоюзники рядом с Элрондом наносят +33% урона, получают +33% брони\\nи набирают опыт на +50% быстрее\\nПассивная способность",
+   "uk_ai": "Коли Ґіл-ґалад і Еленділ об'єднали сили, володар Рівенделу відчинив свій прихисток, щоб королі могли обміркувати плани битви й зібрати війська. Тоді в Імладрисі викували безліч могутньої зброї та обладунків. У прийдешній війні Елронд став вісником Ґіл-ґалада. \n\n  Союзники поряд з Елрондом отримують бонус \n +33% до пошкоджень, +33% броні \n і на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "вичитано",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:ElrondLALeadership_LAA",
+   "type": "Кнопка",
+   "en": "Herald of Gil-galad (&W)",
+   "ru": "Вестник Гиль-галада (&W)",
+   "uk_ai": "Вісник Ґіл-ґалада (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElrondLALeadership_LAA",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\n Allied heroes near Elrond earn experience 33% faster\nPassive ability\n\n Can be cast on a banner to instantly level it up by one rank\nLeft click icon then left click on target banner",
+   "ru": "Тип модификатора: Лидерство\\nСоюзные герои рядом с Элрондом набирают опыт на +33% быстрее\\nПассивная способность\\n\\nМожет быть применено к Штандарту Последнего союза, чтобы мгновенно повысить его уровень на один ранг\\nЩелкните левой кнопкой мыши на значок, затем на целевой штандарт",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзні герої поряд з Елрондом на 33% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nМожна застосувати до стягу, щоб миттєво підвищити його рівень на один\nКлікніть на іконку, потім оберіть стяг",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElrondArrowVolleyAbility_LAA",
+   "type": "Кнопка",
+   "en": "Leithio I Philinn! (&R)",
+   "ru": "Leithio I Philinn! (&R)",
+   "uk_ai": "Пустити стріли! (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElrondArrowVolleyAbility_LAA",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Elrond calls elven archers to bombard anywhere within a great radius with a volley of arrows \n Left click icon then left click on target area",
+   "ru": "Требуется уровень 3\\nЭлронд приказывает эльфийским лучникам обстрелять участок в пределах большого радиуса залпом стрел\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 3\nЕлронд наказує ельфійським лучникам засипати стрілами будь-яку ділянку у великому радіусі\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HeraldOfGilGalad_LAA",
+   "type": "Кнопка",
+   "en": "Warden of Imladris (&T)",
+   "ru": "Хранитель Имладрис (&T)",
+   "uk_ai": "Страж Імладрису (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHeraldOfGilGalad_LAA",
+   "type": "Підказка",
+   "en": "Requires Level 5 \nElrond gains 50% damage while his attacks deal splash damage for 30 seconds \n Left click to activate",
+   "ru": "Требуется уровень 5\\nЭлронд наносит +50% урона и отбрасывает врагов своими атаками в течение 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nНа 30 сек. Елронд отримує бонус +50% до пошкоджень, а його атаки завдають пошкоджень по площі\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElrondRingOfAir_LAA",
+   "type": "Кнопка",
+   "en": "Ring of Air (&C)",
+   "ru": "Кольцо воздуха (&C)",
+   "uk_ai": "Перстень Повітря (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipElrondRingOfAir_LAA",
+   "type": "Підказка",
+   "en": "Requires Level 8\n Modifier Type: Buff\nCreates a circular sanctuary around Elrond for 30 seconds\nAllied units gain +50% armour while in the area\n Nearby enemy units suffer -25% damage, -20% armour and lose all leadership \nLeft click icon to activate",
+   "ru": "Требуется уровень 8\\nТип модификатора: Усиление\\nЭлронд создает вокруг себя защитную ауру на 30 секунд\\nнаходясь в которой, союзные войска получают +75% брони\\nТип модификатора: Ослабление\\nНа уровне 5, ближайшие вражеские отряды теряют -25% урона, -20% брони и все лидерство, а ближайшие союзники становятся невосприимчивыми к страху и ужасу\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 8\nТип ефекту: Посилення\nНа 30 сек. створює навколо Елронда кругле святилище\nСоюзні загони в ньому отримують бонус +50% броні\nВорожі загони поблизу отримують штраф -25% пошкоджень, -20% броні й втрачають усе лідерство\nКлікніть на іконку, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

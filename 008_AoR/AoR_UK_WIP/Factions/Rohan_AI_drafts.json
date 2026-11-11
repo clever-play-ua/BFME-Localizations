@@ -1,0 +1,424 @@
+{
+ "meta": {
+  "faction": "Rohan",
+  "note": "AI drafts for rows that had no Ukrainian at all (lowest priority: any proofread text wins).",
+  "build": "in the build since 0.12 (draft; community proofreading on the site)"
+ },
+ "strings": [
+  {
+   "var": "CONTROLBAR:TooltipHornofHammerhand",
+   "en": "Requires the Horns of Hammerhand upgrade \\n Causes nearby enemy troops to be stunned in fear for 15 seconds\\n Left click to activate",
+   "uk_ai": "Потребує покращення «Ріг Гельма Молоторукого»\\nВорожі війська поблизу на 15 сек. приголомшені страхом\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRohanFortressRideofRohirrim",
+   "en": "Requires Ride of the Rohirrim upgrade \\n Summons two fully-upgraded Rohirrim battalions \\n Left click icon then left click on target area",
+   "uk_ai": "Потребує покращення «Напад рогіримів»\\nПрикликає 2 повністю покращені загони рогіримів\\nКлікніть на іконку, потім оберіть ділянку"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeRohanFortressBanners",
+   "en": "Royal Banners (&W)",
+   "uk_ai": "Королівські стяги (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeRohanFortressBanners",
+   "en": "Modifier Type: Leadership \\n Allies near the Fortress gain +33% damage, +33% armour, and earn experience 50% faster\\n\\nReduces Hero cost by 10% \\n Reduces Hero recruit time by 10% \\n Reduces the cost of builders by 20%",
+   "uk_ai": "Тип ефекту: Лідерство\\nСоюзники поблизу фортеці отримують бонус +33% до пошкоджень, +33% броні й на 50% швидше набирають досвід\\n\\nЗнижує вартість героїв на 10%\\nСкорочує час вербування героїв на 10%\\nЗнижує вартість будівельників на 20%"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDesperateGarrison",
+   "en": "Desperate Garrison (&E)",
+   "uk_ai": "Відчайдушний гарнізон (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDesperateGarrison",
+   "en": "Stations Spear-throwers in the Fortress",
+   "uk_ai": "Розміщує у фортеці метальників списів"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeRohanFortressFlamingMunitions",
+   "en": "Flaming Munitions (&R)",
+   "uk_ai": "Вогняні боєприпаси (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeRohanFortressFlamingMunitions",
+   "en": "Adds fire damage to all attached towers",
+   "uk_ai": "Усі вежі фортеці отримують можливість завдавати додаткових пошкоджень вогнем"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeHornofHammerhand",
+   "en": "Allows the Fortress to use the Horns of Hammerhand ability \\n Allows recruitment of Helmingas Warriors at the Barracks \\n Causes nearby enemy troops to be stunned in fear",
+   "uk_ai": "Дає фортеці здібність «Ріг Гельма Молоторукого»\\nДозволяє тренувати Гельмінґських воїнів у казармах\\nПриголомшує страхом ворожі війська поблизу"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeRohanFortressFortifications",
+   "en": "Hasty Fortifications (&S)",
+   "uk_ai": "Поспішні укріплення (&S)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeRohanFortressFortifications",
+   "en": "Increases Fortress armour by 65% \\n Damages units adjacent to fortress",
+   "uk_ai": "Збільшує броню фортеці на 65%\\nЗавдає пошкоджень загонам біля фортеці"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeRohanFortressMeadHall",
+   "en": "Mead Hall (&D)",
+   "uk_ai": "Медовий зал (&D)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeRohanFortressMeadHall",
+   "en": "Reduces Hero revival cost by 20% \\n Reduces Hero revival time by 20% \\n Heals nearby allies and replenishes fallen units",
+   "uk_ai": "Знижує вартість відродження героїв на 20%\\nСкорочує час відродження героїв на 20%\\nЗцілює союзників поблизу й поновлює полеглих у загонах"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeRohanFortressRideofRohirrim",
+   "en": "Ride of the Rohirrim (&F)",
+   "uk_ai": "Напад рогіримів (&F)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeRohanFortressRideofRohirrim",
+   "en": "Temporarily summons two fully-upgraded Rohirrim battalions",
+   "uk_ai": "Тимчасово прикликає 2 повністю покращені загони рогіримів"
+  },
+  {
+   "var": "OBJECT:DwarvenCastleWallHubExpansion",
+   "en": "Wall Hub Expansion",
+   "uk_ai": "Стінна вежа"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructRohanMangonelExpansion",
+   "en": "Long range defensive weapon",
+   "uk_ai": "Оборонна зброя великої дальності"
+  },
+  {
+   "var": "CONTROLBAR:OnagerUpgrade",
+   "en": "Replace Onager (&W)",
+   "uk_ai": "Відновити онагр (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipOnagerUpgrade",
+   "en": "Rebuilds the onager on the platform",
+   "uk_ai": "Заново будує онагр на майданчику"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRohanPeasantHasDraft",
+   "en": "Requires Draft power\\n Peasants have received swords and shields, gaining +5 damage and +30 health \\n Peasants can now be upgraded with Forged Blades and Heavy Armour",
+   "uk_ai": "Потребує сили «Призов»\\nСеляни отримали мечі й щити: +5 од. пошкоджень і +30 од. здоров'я\\nТепер селянам можна купити покращення «Зброя із мундбурзької сталі» й «Обладунки із мундбурзької сталі»"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyRohanBasicTraining",
+   "en": "Allows battalions to purchase the Heraldry of the Riddermark upgrade \\n Increases a battalion to Level 2",
+   "uk_ai": "Дає змогу кожному загону придбати покращення «Стяг Ріддермарку»\\nПідвищує рівень загону до 2"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyRohanForgedBlades",
+   "en": "Purchase Mundburg Steel Blades Upgrade \\n When equipped, increases the damage done by melee weapons\\n Will upgrade all patrols instantly once upgrade is purchased",
+   "uk_ai": "Покращення «Зброя із мундбурзької сталі»\\nПісля оснащення збільшує пошкодження в ближньому бою\\nПісля дослідження миттєво покращує зброю всіх патрулів навколо будівель"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyRohanHeavyArmor",
+   "en": "Purchase Mundburg Steel Armour Upgrade \\n When equipped, significantly reduces the amount of damage taken\\n Will upgrade all patrols instantly once upgrade is purchased",
+   "uk_ai": "Покращення «Обладунки із мундбурзької сталі»\\nПісля оснащення значно зменшує отримувані пошкодження\\nПісля дослідження миттєво покращує обладунки всіх патрулів навколо будівель"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanWestfolderHorde",
+   "en": "Requires Erkenbrand\\n Strong vs. Pikemen\\n Able to switch formation for improved defensive capabilities \\n \\n These hardy, disciplined men were some of the best-armed warriors in the Riddermark. Their shieldwall was feared amongst the enemies of the Westfold, particularly the men of Dunland.",
+   "uk_ai": "Необхідно: Еркенбранд на полі бою\\nЕфективні проти пікінерів\\nЗдатні змінювати стрій для підвищення оборони\\n\\nЦі загартовані, дисципліновані люди були одними з найкраще озброєних воїнів Ріддермарку. Їхньої стіни щитів боялися вороги Вестфолду, особливо люди Дунланду."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleWestfolderLineToBlockFormationElite",
+   "en": "+40% armour\\n-33% speed",
+   "uk_ai": "+40% броні\\n-33% швидкості"
+  },
+  {
+   "var": "CONTROLBAR:ForthEorlingas",
+   "en": "Forth Eorlingas! (&R)",
+   "uk_ai": "Вперед, еорлінґи! (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipForthEorlingas",
+   "en": "Requires level 2 \\n Westfolders briefly gain +25% damage and movement speed for 20 seconds\\nLeft click to activate",
+   "uk_ai": "Необхідно: Рівень 2\\nВоїни Вестфолду на 20 сек. отримують бонус +25% до пошкоджень і швидкості руху\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanDoorWardenHorde",
+   "en": "Requires Level 2 Barracks \\n Strong vs. Cavalry and Pikemen\\nCan switch from spears to swords\\n Able to switch formation for improved defensive capabilities \\n \\n Alternatively named the Door-Wardens, these warriors were hand-picked by the King and tasked with the safety of Meduseld. In times of war, they would each lead a small part of a greater Éored.",
+   "uk_ai": "Необхідно: Казарми 2 рівня\\nЕфективні проти кавалерії та пікінерів\\nМожуть змінювати списи на мечі\\nЗдатні змінювати стрій для підвищення оборони\\n\\nЇх ще звали Вартовими брами. Цих воїнів особисто відбирав король, і вони охороняли Медусельд. Під час війни кожен із них очолював невелику частину більшого еореду."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleLineToSchiltronFormation",
+   "en": "The Edoras Kingsguard form up into a schiltron formation\\n-30% movement speed, +15% damage and armour, immunity to knockback",
+   "uk_ai": "Королівська варта Едорасу шикується в кругову оборону\\n-30% швидкості руху, +15% до пошкоджень і броні, імунітет до відкидання"
+  },
+  {
+   "var": "CONTROLBAR:DoorWardenKingsguardLeadership",
+   "en": "Door-wardens (&R)",
+   "uk_ai": "Вартові брами (&R)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipDoorWardenKingsguardLeadership",
+   "en": "Modifier Type: Leadership \\n The Kingsguard grants nearby structures +33% armour\\n Passive ability \\n\\n When bought, permanently equips Doorwardens with swords\\n Left click to upgrade this unit",
+   "uk_ai": "Тип ефекту: Лідерство\\nКоролівська варта дає спорудам поблизу бонус +33% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nПісля придбання вартові брами назавжди отримують мечі\\nКлікніть, щоб покращити цей загін"
+  },
+  {
+   "var": "CONTROLBAR:SurrenderArms",
+   "en": "Surrender Arms (&T)",
+   "uk_ai": "Скласти зброю (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSurrenderArms",
+   "en": "Requires Level 3 \\n Enemy units within the radius deal -33% damage for 30 seconds\\n Left click on icon then left click on target battalion",
+   "uk_ai": "Необхідно: Рівень 3\\nВорожі загони в радіусі дії на 30 сек. отримують штраф -33% пошкоджень\\nКлікніть на іконку, потім оберіть загін"
+  },
+  {
+   "var": "CONTROLBAR:DoorWardenKingsguardLeadershipFake",
+   "en": "Door-wardens",
+   "uk_ai": "Вартові брами"
+  },
+  {
+   "var": "CONTROLBAR:TooltipDoorWardenKingsguardLeadershipFake",
+   "en": "Modifier Type: Leadership \\n The Kingsguard grants nearby structures +33% armour\\nPassive ability \\n\\n Swords have been equipped",
+   "uk_ai": "Тип ефекту: Лідерство\\nКоролівська варта дає спорудам поблизу бонус +33% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nМечі вже видано"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanHelmingasWardenHorde",
+   "en": "Requires Level 3 Barracks \\n and the Horns of Hammerhand upgrade\\n Hero Unit. \\nStrong vs. Infantry and Structures\\n Able to switch between mounted and on foot \\n \\n Helm's Deep was home to a garrison of veteran warriors. Keeping alive the image of Helm Hammerhand's martial prowess, they kept Rohan's primary refuge open and guarded against surprise assaults.",
+   "uk_ai": "Необхідно: Казарми 3 рівня\\nі покращення «Ріг Гельма Молоторукого»\\nГероїчний загін.\\nЕфективні проти піхоти та споруд\\nМожуть сідати верхи й спішуватися\\n\\nУ Гельмовому Яру стояв гарнізон досвідчених воїнів. Вони зберігали пам'ять про бойову звитягу Гельма Молоторукого, тримали відкритим головний прихисток Рогану й стерегли його від раптових нападів."
+  },
+  {
+   "var": "CONTROLBAR:HelmingasShieldCrush",
+   "en": "For the Hornburg! (&W)",
+   "uk_ai": "За Горнбурґ! (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHelmingasShieldCrush",
+   "en": "Modifier Type: Spell \\n Helmingas and nearby allies become immune to fear and terror \\nPassive ability \\n\\n When activated, the Helmingas can crush enemies and are immune to arrows for 20 seconds\\nLeft click to activate",
+   "uk_ai": "Тип ефекту: Заклинання\\nГельмінґські воїни та союзники поблизу отримують імунітет до страху й жаху\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nПісля активації Гельмінґські воїни на 20 сек. можуть розчавлювати ворогів і отримують імунітет до стріл\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:MarkOfFreca",
+   "en": "Mark of Freca (&T)",
+   "uk_ai": "Знак Фреки (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMarkOfFreca",
+   "en": "Requires Level 3 \\n The Helmingas grant the Mark of Freca to an enemy unit, \\n causing them to flee in terror, lose all leadership and -33% armour for 60 seconds\\n Left click on icon then left click on target battalion",
+   "uk_ai": "Необхідно: Рівень 3\\nГельмінґські воїни таврують ворожий загін знаком Фреки:\\nна 60 сек. той тікає в жаху, втрачає все лідерство й отримує штраф -33% броні\\nКлікніть на іконку, потім оберіть загін"
+  },
+  {
+   "var": "CONTROLBAR:MarkOfHelm",
+   "en": "Mark of Helm (&C)",
+   "uk_ai": "Знак Гельма (&C)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMarkOfHelm",
+   "en": "Requires Level 6 \\n The Helmingas grant the Mark of Helm to an allied unit, causing them to gain +75% attack damage for 30 seconds\\n Left click on icon then left click on target battalion",
+   "uk_ai": "Необхідно: Рівень 6\\nГельмінґські воїни дають союзному загону знак Гельма: на 30 сек. він отримує бонус +75% до пошкоджень\\nКлікніть на іконку, потім оберіть загін"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyRohanFireArrows",
+   "en": "Allows battalions to purchase the Fire Arrows upgrade \\n When equipped, significantly increases the damage \\n\\n Will upgrade all patrols instantly once upgrade is purchased",
+   "uk_ai": "Дає змогу кожному загону придбати покращення «Вогняні стріли»\\nПісля оснащення суттєво збільшує пошкодження\\n\\nПісля дослідження миттєво покращує стріли всіх патрулів"
+  },
+  {
+   "var": "OBJECT:FirienholtWarden",
+   "en": "Halifirien Warden",
+   "uk_ai": "Вартовий Галіфірієну"
+  },
+  {
+   "var": "CONTROLBAR:HalifirienGuards",
+   "en": "Halifirien Guards (&R)",
+   "uk_ai": "Варта Галіфірієну (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBlackArrows",
+   "en": "Requires Level 2\\n Long range ability that deals increased damage \\n Causes monsters to flee in terror \\n Left click icon then left click on target",
+   "uk_ai": "Необхідно: Рівень 2\\nЗдібність великої дальності, що завдає більше пошкоджень\\nЗмушує створінь тікати в жаху\\nКлікніть на іконку, потім оберіть ціль"
+  },
+  {
+   "var": "CONTROLBAR:FirienholtLongShotAbility",
+   "en": "Longshot (&T)",
+   "uk_ai": "Далекий постріл (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFirienholtLongShotAbility",
+   "en": "Requires Level 3\\nThe Wardens bombard anywhere within a great radius with a volley of arrows \\n Left click icon then left click on target area",
+   "uk_ai": "Необхідно: Рівень 3\\nВартові накривають залпом стріл будь-яку ділянку у великому радіусі\\nКлікніть на іконку, потім оберіть ділянку"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyRohanHorseShield",
+   "en": "Allows battalions to purchase the Horseman Shields upgrade \\n When equipped, significantly reduces the amount of damage taken from Arrows and Pikemen",
+   "uk_ai": "Дає змогу кожному загону придбати покращення «Щити вершників»\\nПісля оснащення значно зменшує пошкодження від лучників і пікінерів"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanStablesLevel2Upgrade",
+   "en": "Allows training of Rohirrim Warriors, Rohirrim Archers and Riders of Snowbourn and research of the Horseman Shield upgrade\\n+10% faster build speed",
+   "uk_ai": "Дозволяє тренувати воїнів-рогірими, лучників-рогірими й Сноуборнських вершників і досліджувати покращення «Щити вершників»\\n+10% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanStablesLevel3Upgrade",
+   "en": "Allows training of the Mounted Kingsguard\\nAdds defensive arrow tower\\n+25% faster build speed",
+   "uk_ai": "Дозволяє тренувати кінну королівську гвардію\\nДодає захисну вежу\\n+25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanHorsemenHorde",
+   "en": "Strong vs. Swordsmen and Archers \\n \\n Yeoman or peasant, in Rohan every man owned a horse, and had learned to defend themselves from horseback. When the need arose, these men would ride out to battle to defend their homes.",
+   "uk_ai": "Ефективні проти мечників і лучників\\n\\nЙомен чи селянин — у Рогані кожен чоловік мав коня й умів боронитися верхи. Коли була потреба, ці люди виїздили в бій захищати свої домівки."
+  },
+  {
+   "var": "CONTROLBAR:RohanArmaments",
+   "en": "Muster of Edoras",
+   "uk_ai": "Збір Едорасу"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGondorArmaments",
+   "en": "Requires Level 3\\n Modifier Type: Level\\n Units permanently gain 33% armour",
+   "uk_ai": "Необхідно: Рівень 3\\nТип ефекту: Рівень\\nЗагони назавжди отримують бонус +33% броні"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanRohirrimHorde",
+   "en": "Requires Level 2 Stables \\n Strong vs. Swordsmen and Archers \\n Able to switch formation for improved offensive capabilities \\n \\n During wartime, the King of Rohan would muster the Rohirrim, providing additional arms and armour to his subjects and organizing them into Éored's under command of a lord or marshal.",
+   "uk_ai": "Необхідно: Конюшні 2 рівня\\nЕфективні проти мечників і лучників\\nЗдатні змінювати стрій для підвищення ефективності атаки\\n\\nУ час війни король Рогану скликав рогіримів, видавав своїм підданим додаткову зброю й обладунки та розподіляв їх по еоредах під проводом лорда чи маршала."
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeRohanHorseShield",
+   "en": "Purchase Horsemen Shields (&R)",
+   "uk_ai": "Придбати для загону «Щити вершників» (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeRohanHorseShield",
+   "en": "Upgrades this battalion with Horseman Shields \\n Significantly reduces the amount of damage taken from Arrows and Pikemen",
+   "uk_ai": "Оснащує цей загін щитами вершників\\nСуттєво зменшує пошкодження від стріл і пікінерів"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanRohirrimArcherHorde",
+   "en": "Requires Level 2 Stables \\n Strong vs. Swordsmen and Heroes \\n \\n Rohirrim most adept at equestrian archery would form up into specialist regiments to repeatedly flank the enemy with arrow fire before retreating out of range.",
+   "uk_ai": "Необхідно: Конюшні 2 рівня\\nЕфективні проти мечників і героїв\\n\\nНайвправніші в кінній стрільбі рогірими збиралися в особливі загони, що раз у раз обходили ворога з флангу, засипали його стрілами й відходили на безпечну відстань."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanSnowbournRiderHorde",
+   "en": "Requires Level 2 Stables \\n Strong vs. Cavalry, Monsters, and Heroes \\n On axe, strong frontline unit, weak vs. Cavalry and Archers \\n \\n The Riders of Snowbourn were a heavy cavalry unit, capable of breaking the fiercest of enemy ranks and opening them up for the remainder of the army.",
+   "uk_ai": "Необхідно: Конюшні 2 рівня\\nЕфективні проти кавалерії, створінь і героїв\\nЗ сокирами — сильний загін передової, слабкий проти кавалерії та лучників\\n\\nСноуборнські вершники були важкою кавалерією, здатною проломити найзапекліші ворожі ряди й відкрити їх для решти війська."
+  },
+  {
+   "var": "CONTROLBAR:SnowbournCharge",
+   "en": "Thunderous Charge",
+   "uk_ai": "Громовий натиск"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSnowbournCharge",
+   "en": "Instead of trampling, when ordered to attack, Riders of Snowbourn charge with their lances, dealing +400% damage against units on their first attack at the cost of their lances\\nRiders of Snowbourn re-equip their lances 20 seconds after leaving combat\\nThe cooldown decreases with each level of any Stables present on the map \\n Decreasing to 15 seconds on level 2 and to 10 seconds on level 3\\nPassive ability",
+   "uk_ai": "Замість топтання, отримавши наказ атакувати, Сноуборнські вершники йдуть у натиск зі списами й першою атакою завдають загонам +400% до пошкоджень, але втрачають списи\\nСноуборнські вершники знову беруть списи через 20 сек. після виходу з бою\\nЧас відновлення зменшується з кожним рівнем будь-яких конюшень на мапі\\nДо 15 сек. на 2 рівні й до 10 сек. на 3 рівні\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:SnowbournAxe",
+   "en": "Great Axes (&R)",
+   "uk_ai": "Великі сокири (&R)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSnowbournAxe",
+   "en": "When purchased, permanently equips Riders of Snowbourn with Great Axes\\n Riders of Snowbourn lose ability to trample but become more proficient in melee combat \\n Allows switching formation for improved defensive capabilities \\n Left click to upgrade this unit",
+   "uk_ai": "Після придбання Сноуборнські вершники назавжди отримують великі сокири\\nВони втрачають топтання, але краще б'ються в ближньому бою\\nЗдатні змінювати стрій для підвищення оборони\\nКлікніть, щоб покращити цей загін"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeRohanHorseShieldSnowbourn",
+   "en": "Purchase Horsemen Shields (&T)",
+   "uk_ai": "Придбати для загону «Щити вершників» (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToggleCombatFormation",
+   "en": "Combat Formation (&W)",
+   "uk_ai": "Бойовий стрій (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleSnowbourneLineFormation",
+   "en": "+60% armour and -40% speed",
+   "uk_ai": "+60% броні та -40% швидкості"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanKingsguardHorde",
+   "en": "Requires Level 3 Stables \\n Strong vs. Swordsmen and Archers \\n Can switch between Bow and Spear \\n \\n These mounted elites formed the personal bodyguard of the King and his heirs, performing great deeds at arms to keep safe their charge. \\n Limited to 3",
+   "uk_ai": "Необхідно: Конюшні 3 рівня\\nЕфективні проти мечників і лучників\\nМожуть змінювати лук на спис\\n\\nЦі кінні вибранці становили особисту охорону короля та його спадкоємців і звершували великі ратні подвиги, оберігаючи їх.\\nМаксимум 3 одночасно"
+  },
+  {
+   "var": "CONTROLBAR:ToggleRohirrimWeapons",
+   "en": "Alternate Weapon (&W)",
+   "uk_ai": "Змінити зброю (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleRohirrimWeapons",
+   "en": "Left click to switch weapons",
+   "uk_ai": "Клікніть, щоб змінити зброю"
+  },
+  {
+   "var": "CONTROLBAR:KingsguardLeadership",
+   "en": "Royal Escort",
+   "uk_ai": "Королівський супровід"
+  },
+  {
+   "var": "CONTROLBAR:TooltipKingsguardLeadership",
+   "en": "Modifier Type: Leadership \\n The Kingsguards grant nearby heroes +15% armour\\n \\n Passive ability",
+   "uk_ai": "Тип ефекту: Лідерство\\nКоролівська гвардія дає героям поблизу бонус +15% броні\\n\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMundburgMasonry",
+   "en": "Requires level 2 Workshop\\nStructures gain a 33% boost in armour\\nDoes not affect Fortress\\nPlayer must maintain a Workshop to benefit from this upgrade",
+   "uk_ai": "Необхідно: Майстерня 2 рівня\\nСпоруди отримують бонус +33% броні\\nНе діє на фортецю\\nЩоб покращення діяло, майстерня має стояти"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanWorkshopLevel2Upgrade",
+   "en": "Allows training of Rohirric Onager and research of Mundburg Masonry upgrade \\n Heals nearby damaged siege machines \\n +10% faster build speed",
+   "uk_ai": "Дозволяє будувати рогіримські онагри й досліджувати покращення «Мундбурзька кам'яна кладка»\\nЛагодить пошкоджені облогові машини поблизу\\n+10% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanWorkshopLevel3Upgrade",
+   "en": "+25% faster build speed \\n Increased healing to nearby damaged siege machines",
+   "uk_ai": "+25% до швидкості тренування\\nШвидше лагодить пошкоджені облогові машини поблизу"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanBatteringRam",
+   "en": "Breaks down castle gates and enemy structures \\n \\n The Rohirrim associated horses with strength and nobility. No wonder then that they preferred to adorn their battering rams with iron-wrought horse-heads, to bring down an enemy's gate with noble fury.",
+   "uk_ai": "Розбиває брами замків і ворожі споруди\\n\\nРогірими пов'язували коней із силою та шляхетністю. Тож не дивно, що свої тарани вони прикрашали кованими кінськими головами, аби трощити ворожі брами з шляхетною люттю."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanMangonel",
+   "en": "Requires Level 2 Workshop \\n Strong vs. Structures\\nCan launch a bale of burning hay, setting fire to the area surrounding impact.\\n \\n Though not as advanced as their allies in Gondor, the Rohirrim were nonetheless capable of constructing powerful ranged siege weapons.",
+   "uk_ai": "Необхідно: Майстерня 2 рівня\\nЕфективний проти споруд\\nМоже метати палаючий тюк сіна, що підпалює все навколо місця влучання.\\n\\nХоч рогірими й поступалися в цьому союзникам із Ґондору, вони теж уміли будувати потужну облогову зброю дальньої дії."
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityHayBale",
+   "en": "Launch Hay Bale (&T)",
+   "uk_ai": "Метнути тюк сіна (&T)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSpecialAbilityHayBale",
+   "en": "Launches a flaming hay bale at targeted area \\n causes fire in the affected area",
+   "uk_ai": "Метає палаючий тюк сіна на обрану ділянку\\nпідпалюючи все в зоні влучання"
+  },
+  {
+   "var": "CONTROLBAR:DraftTowerOath",
+   "en": "Oaths You Have Taken... (&E)",
+   "uk_ai": "Присяги, які ви склали... (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDraftTowerOathWestfolder",
+   "en": "Summons a permanent battalion of Westfolders \\n Can be cast near any Draft Tower or Fortress \\n Respects command point limit \\n Requires 75 command points to be summoned \\n Left click then left click target area",
+   "uk_ai": "Прикликає постійний загін воїнів Вестфолду\\nМожна використати біля будь-якої вежі призову чи фортеці\\nВраховує ліміт очок командування\\nПотрібно 75 очок командування\\nКлікніть на іконку, потім оберіть ділянку"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDraftTowerOathFirienholt",
+   "en": "Summons a permanent battalion of Halifirien Wardens \\n Can be cast near any Draft Tower or Fortress \\n Respects command point limit \\n Requires 72 command points to be summoned \\n Left click then left click target area",
+   "uk_ai": "Прикликає постійний загін Вартових Галіфірієну\\nМожна використати біля будь-якої вежі призову чи фортеці\\nВраховує ліміт очок командування\\nПотрібно 72 очки командування\\nКлікніть на іконку, потім оберіть ділянку"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDraftTowerOathSnowbourn",
+   "en": "Summons a permanent battalion of Riders of Snowbourn \\n Can be cast near any Draft Tower or Fortress \\n Respects command point limit \\n Requires 80 command points to be summoned \\n Left click then left click target area",
+   "uk_ai": "Прикликає постійний загін Сноуборнських вершників\\nМожна використати біля будь-якої вежі призову чи фортеці\\nВраховує ліміт очок командування\\nПотрібно 80 очок командування\\nКлікніть на іконку, потім оберіть ділянку"
+  },
+  {
+   "var": "OBJECT:DwarvenWallHub",
+   "en": "Wall Hub",
+   "uk_ai": "Стінна вежа"
+  }
+ ]
+}

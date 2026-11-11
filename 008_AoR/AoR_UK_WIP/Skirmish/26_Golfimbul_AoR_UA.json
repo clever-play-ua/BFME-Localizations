@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "hero": "Golfimbul",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Wild"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "WildGolfimbul"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:WildGolfimbul",
+   "type": "Ім'я",
+   "en": "Golfimbul",
+   "ru": "Гольфимбул",
+   "uk_ai": "Ґольфімбул",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GolfimbulLeadership",
+   "type": "Кнопка",
+   "en": "Chieftain of Mount Gram",
+   "ru": "Вождь горы Грэм",
+   "uk_ai": "Отаман гори Ґрам",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipGolfimbulLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \nNearby Wargs and Cavalry gains\n +25% damage, +15% speed and earn experience 50% faster\n Passive ability",
+   "ru": "Тип модификатора: Лидерство\\nБлижайшие варги и наездники наносят\\n+25% урона, получают +15% скорости и набирают опыт на +50% быстрее\\n\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nВарґи й вершники поблизу отримують бонус\n+25% до пошкоджень, +15% швидкості й на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GolfimbulWargSummon",
+   "type": "Кнопка",
+   "en": "White Wolves of Forochel (&R)",
+   "ru": "Белые волки Форохеля (&R)",
+   "uk_ai": "Білі вовки Форохеля (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGolfimbulWargSummon",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Golfimbul summons 3 White Wolves at the target area. \nAt level 6 number of summoned Wolves is increased to 6 \n Left click on icon then left click on target area",
+   "ru": "Требуется уровень 3\\nГольфимбул призывает трех белых волков\\nНа уровне 6, призывает шесть белых волков\\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Необхідно: Рівень 3\nҐольфімбул прикликає 3 білих вовків на обрану ділянку.\nНа 6 рівні прикликає 6 вовків\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GolfimbulHatred",
+   "type": "Кнопка",
+   "en": "Hatred of the Fair Folk (&T)",
+   "ru": "Ненависть к полуросликам (&T)",
+   "uk_ai": "Ненависть до напівросликів (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipGolfimbulHatred",
+   "type": "Підказка",
+   "en": "Requires Level 8 \n Modifier Type: Spell \n Golfimbul seeks to exact his revenge upon the Fair-folk\n Golfimbul and nearby Wolves, Wargs, and Wolf-Riders gain\n+50% damage, +50% armour and -50% trample deceleration for 20 seconds\n Left click to activate",
+   "ru": "Требуется уровень 8\\nТип модификатора: Заклинание\\nГольфимбул стремится отомстить полуросликам\\nГольфимбул, а также ближайшие волки, варги и волчьи всадники наносят\\n+50% урона, получают +50% брони и -50% замедления при растаптывании в течение 20 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 8\nТип ефекту: Заклинання\nҐольфімбул прагне помститися гобітам\nҐольфімбул і вовки, варґи та вовчі вершники поблизу отримують\nна 20 сек. бонус +50% до пошкоджень, +50% броні й на 50% менше сповільнюються під час топтання\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

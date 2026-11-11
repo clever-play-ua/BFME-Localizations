@@ -1,0 +1,135 @@
+{
+ "meta": {
+  "hero": "Fili",
+  "uk_name": "Філі",
+  "campaigns": [
+   "FotR",
+   "RotK"
+  ],
+  "missions": [
+   "Council",
+   "BattleofDale"
+  ],
+  "templates": {
+   "кампанія": [
+    "DwarvenFili"
+   ],
+   "битва": [
+    "DwarvenFili"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:DwarvenFili",
+   "type": "Ім'я",
+   "en": "Fili",
+   "ru": "Фили",
+   "uk_ai": "Філі",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BrotherhoodLeadership",
+   "type": "Кнопка",
+   "en": "Brotherhood",
+   "ru": "Братство",
+   "uk_ai": "Братерство",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBrotherhoodKili",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Fili gains +20% damage when near Kili\n Passive ability",
+   "ru": "Тип модификатора: Лидерство\\nФили наносит +20% урона, находясь рядом с Кили\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nПоряд із Кілі Філі отримує бонус +20% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FiliAxeThrow",
+   "type": "Кнопка",
+   "en": "Hidden Blade (&R)",
+   "ru": "Скрытое лезвие (&R)",
+   "uk_ai": "Прихований клинок (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFiliAxeThrow",
+   "type": "Підказка",
+   "en": "Requires Level 3 \nFili deals heavy damage to a single target,\n crippling it for 10 seconds \n Left click icon then left click on target",
+   "ru": "Требуется уровень 3\\nФили наносит большой урон одной цели и обездвиживает ее на 10 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 3\nФілі завдає значних пошкоджень одній цілі\nй калічить її на 10 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FiliSlayer",
+   "type": "Кнопка",
+   "en": "Dwarven Dexterity (&T)",
+   "ru": "Проворство гномов (&T)",
+   "uk_ai": "Спритність дворфів (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFiliSlayer",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Fili gains +25% damage and increased attack and movement speed for 30 seconds\n Left click to activate",
+   "ru": "Требуется уровень 5\\nФили наносит +25% урона, получает +25% скорости атаки и передвижения в течение 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nФілі на 30 сек. отримує бонус +25% до пошкоджень і швидше атакує та рухається\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FiliLeadership",
+   "type": "Кнопка",
+   "en": "Heir to the Throne",
+   "ru": "Наследник трона",
+   "uk_ai": "Спадкоємець трону",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFiliLeadership",
+   "type": "Підказка",
+   "en": "Requires Level 8 \nModifier Type: Leadership \n Basic Erebor Dwarves and Ered Luin Dwarves near Fili gain +33% damage and +25% armour\n Passive ability",
+   "ru": "Требуется уровень 8\\nТип модификатора: Лидерство\\nСтандартные гномьи отряды и отряды гномов Эред Луин рядом с Фили наносят +33% урона и получают +25% брони\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 8\nТип ефекту: Лідерство\nЗвичайні дворфи Еребору й Еред-Луїну поряд із Філі отримують бонус +33% до пошкоджень і +25% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FiliSlayerCampaign",
+   "type": "Кнопка",
+   "en": "Dwarven Dexterity (&R)",
+   "ru": "Проворство гномов (&R)",
+   "uk_ai": "Спритність дворфів (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFiliSlayerCampaign",
+   "type": "Підказка",
+   "en": "Fili gains +25% damage, attack, and movement speed for 30 seconds\n Left click to activate",
+   "ru": "Фили наносит +25% урона, получает +25% скорости атаки и передвижения в течение 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Філі на 30 сек. отримує бонус +25% до пошкоджень, швидкості атаки й руху\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

@@ -1,0 +1,112 @@
+{
+ "meta": {
+  "hero": "Mablung",
+  "uk_name": "Маблунґ",
+  "campaigns": [
+   "TTT"
+  ],
+  "missions": [
+   "Ithilien"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignMablung"
+   ],
+   "битва": [
+    "CampaignMablung",
+    "IthilienMablung"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею.",
+  "see_also": "Спільні з іншими героями рядки є лише в одному файлі: Faramir"
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:GondorMablung",
+   "type": "Ім'я",
+   "en": "Mablung",
+   "ru": "Маблунг",
+   "uk_ai": "Маблунґ",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MablungKeenEyed",
+   "type": "Кнопка",
+   "en": "Keen Eyed (&T)",
+   "ru": "Острый глаз (&T)",
+   "uk_ai": "Зіркий (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipMablungKeenEyed",
+   "type": "Підказка",
+   "en": "Mablung gains +150% vision range for 25 seconds\n Left click to activate",
+   "ru": "Маблунг временно увеличивает дальность обзора на +150%\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Маблунґ на 25 сек. отримує бонус +150% дальності огляду\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MablungLethalAim",
+   "type": "Кнопка",
+   "en": "Lethal Aim (&T)",
+   "ru": "Смертельная точность (&T)",
+   "uk_ai": "Смертельна влучність (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMablungLethalAim",
+   "type": "Підказка",
+   "en": "Enemies within the radius lose -33% armour\nagainst ranged attacks for 30 seconds\n Left click then left click on target area",
+   "ru": "Враги в области действия получают повышенный урон от дальних атак\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Вороги в радіусі дії втрачають 33% броні\nпроти атак здалеку на 30 сек.\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:MablungKeenEyedIthilien",
+   "type": "Кнопка",
+   "en": "Keen Eyed (&R)",
+   "ru": "Острые глаза (&R)",
+   "uk_ai": "Зіркий (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIthilienMablungLethalAim",
+   "type": "Підказка",
+   "en": "Requires Level 3\nEnemies within the radius lose -33% armour\nagainst ranged attacks for 30 seconds\n Left click then left click on target area",
+   "ru": "Требуется уровень 3\\nВраги в пределах радиуса теряют -33% брони\\nот атак дальнего боя на 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 3\nНа 30 сек. вороги в радіусі отримують штраф -33% броні\nвід атак на відстані\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MablungDeadlyThrust",
+   "type": "Кнопка",
+   "en": "Deadly Thrust (&C)",
+   "ru": "Смертельный удар (&C)",
+   "uk_ai": "Смертельний удар (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMablungDeadlyThrust",
+   "type": "Підказка",
+   "en": "Requires Level 5\nHeavy melee attack that causes severe damage and does knockback\nIncreased radius and damage at level 7\nTarget enemy hero suffers -50% armour for 10 seconds at level 10\nCan only use with spear equipped\nLeft click icon then left click on target unit",
+   "ru": "Требуется уровень 5\\nМощная атака ближнего боя, наносящая сильный урон и отбрасывающая врагов\\nНа уровне 7, увеличение урона и радиуса действия\\nНа уровне 10, целевой вражеский герой теряет -50% брони на 10 секунд\\nМожет быть применено только с экипированным копьем\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 5\nПотужна атака ближнього бою, що завдає важких пошкоджень і відкидає ворогів\nНа 7 рівні — більший радіус і пошкодження\nНа 10 рівні обраний ворожий герой отримує штраф -50% броні на 10 сек.\nМожна використати, лише коли в руках спис\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

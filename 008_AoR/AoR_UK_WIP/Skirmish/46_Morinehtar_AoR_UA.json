@@ -1,0 +1,99 @@
+{
+ "meta": {
+  "hero": "Morinehtar",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Dorwinion"
+  ],
+  "alternate factions": [
+   "dorwinion"
+  ],
+  "templates": [
+   "Morinehtar"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:Morinehtar",
+   "type": "Ім'я",
+   "en": "Morinehtar",
+   "ru": "Моринетар",
+   "uk_ai": "Моринегтар",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:IthrynLuin",
+   "type": "Кнопка",
+   "en": "Ithryn Luin",
+   "ru": "Синие маги",
+   "uk_ai": "Ітрин Луїн",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIthrynLuin",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nWhen near each other, the Blue Wizards gain +50% armour\nPassive Ability",
+   "ru": "Тип модификатора: Лидерство\\nСиние маги получают +50% брони, находясь рядом друг с другом\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nПоряд один з одним Сині чарівники отримують бонус +50% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DarknessSlayer",
+   "type": "Кнопка",
+   "en": "Darkness-slayer (&R)",
+   "ru": "Борец с тьмой (&R)",
+   "uk_ai": "Губитель темряви (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDarknessSlayer",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nNearby friendly units gain +25% damage\nPassive Ability\nAt rank 3, can be activated to grant Morinehtar +50% damage for 30 seconds\nLeft click to activate",
+   "ru": "Тип модификатора: Лидерство\\nБлижайшие дружественные отряды наносят +25% урона\\nПассивная способность\\nНа уровне 3, после активации Моринетар наносит +50% урона в течение 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзні загони поблизу отримують бонус +25% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~\nНа 3 рівні можна активувати, щоб Моринегтар на 30 сек. отримав бонус +50% до пошкоджень\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilitySpearOfOrome",
+   "type": "Кнопка",
+   "en": "Spear of Oromë (&T)",
+   "ru": "Копье Оромэ (&T)",
+   "uk_ai": "Спис Ороме (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilitySpearOfOrome",
+   "type": "Підказка",
+   "en": "Morinehtar throws the Spear of Oromë, which knocks back and damages enemy units in its path\nLeft click then left click target area",
+   "ru": "Моринетар запускате копье Оромэ, отбрасывающее и наносящее урон всем врагам на своем пути\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Моринегтар кидає Спис Ороме, що відкидає всі ворожі загони на своєму шляху й завдає їм пошкоджень\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AzureGuardian",
+   "type": "Кнопка",
+   "en": "Azure Guardian (&C)",
+   "ru": "Лазурный страж (&C)",
+   "uk_ai": "Лазуровий вартовий (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAzureGuardian",
+   "type": "Підказка",
+   "en": "Morinehtar teleports to target location and stuns nearby enemy units for 5 seconds upon arrival\nLeft click then left click target location",
+   "ru": "Моринетар телепортируется в выбранную точку и оглушает ближайшие вражеские отряды на 5 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Моринегтар телепортується на обрану ділянку й при появі на 5 сек. приголомшує ворожі загони поблизу\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

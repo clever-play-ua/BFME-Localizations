@@ -1,0 +1,87 @@
+{
+ "meta": {
+  "hero": "Dervorin",
+  "uk_name": "Дерворін",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "MinasTirithOuter",
+   "MinasTirithInner",
+   "PelennorFields"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignDervorin"
+   ],
+   "битва": []
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:CampaignDervorin",
+   "type": "Ім'я",
+   "en": "Dervorin",
+   "ru": "",
+   "uk_ai": "Дерворін",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DervorinLeadership",
+   "type": "Кнопка",
+   "en": "Commander of the Vale",
+   "ru": "",
+   "uk_ai": "Командир Долини",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipDervorinLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nAllies near Dervorin gain +25% Armour\nStacks with Buffs and Spells\nPassive ability",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзники поряд із Дерворіном отримують бонус +25% броні\nПоєднується з посиленнями та заклинаннями\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DervorinDraught",
+   "type": "Кнопка",
+   "en": "Ringló Draught (&R)",
+   "ru": "",
+   "uk_ai": "Напій з Ринґло (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDervorinDraught",
+   "type": "Підказка",
+   "en": "Modifier Type: Spell\nFriendly units within the radius gain +25% damage for 30 seconds\n Left click on icon then left click on target battalion",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Заклинання\nСоюзні загони в радіусі дії отримують бонус +25% до пошкоджень на 30 сек.\n Клікніть на іконку, потім оберіть загін",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DervorinDoughtyWarrior",
+   "type": "Кнопка",
+   "en": "Doughty Warrior (&T)",
+   "ru": "",
+   "uk_ai": "Звитяжний воїн (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDervorinDoughtyWarrior",
+   "type": "Підказка",
+   "en": "Dervorin gains +50% armour and deals knockback for 30 seconds\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Дерворін отримує бонус +50% броні й відкидає ворогів своїми ударами на 30 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

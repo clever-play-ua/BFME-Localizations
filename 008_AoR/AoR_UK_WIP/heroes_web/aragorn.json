@@ -1,0 +1,466 @@
+{
+ "hero": "Aragorn",
+ "uk_name": "Араґорн",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:GondorAragorn",
+     "t": "Name",
+     "en": "Aragorn",
+     "uk": "Араґорн",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:Athelas",
+     "t": "Button",
+     "en": "Kingsfoil (&R)",
+     "uk": "Атгелас — королівське листя (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipAthelas",
+     "t": "Tooltip",
+     "en": "Heals nearby friendly Heroes \\n Left click to activate",
+     "uk": "Зцілює союзних героїв поблизу\\n Клікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToggleFaramirWeapons",
+     "t": "Button",
+     "en": "Toggle Weapon (&W)",
+     "uk": "Змінити зброю (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipToggleFaramirWeapons",
+     "t": "Tooltip",
+     "en": "Left click to toggle between bow and sword",
+     "uk": "Клікніть, щоб перемкнутися між луком і мечем",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FellowshipAthelas",
+     "t": "Button",
+     "en": "Kingsfoil (&R)",
+     "uk": "Атгелас — королівське листя (&R)",
+     "st": "ok",
+     "dup": "CONTROLBAR:Athelas"
+    },
+    {
+     "v": "CONTROLBAR:TooltipFellowshipAthelas",
+     "t": "Tooltip",
+     "en": "Heals nearby friendly Heroes \\n Left click to activate",
+     "uk": "Зцілює союзних героїв поблизу\\n Клікніть, щоб активувати",
+     "st": "ok",
+     "dup": "CONTROLBAR:TooltipAthelas"
+    },
+    {
+     "v": "CONTROLBAR:FellowshipAragornBlademaster",
+     "t": "Button",
+     "en": "Faithful Protector (&T)",
+     "uk": "Вірний захисник (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipFellowshipAragornBlademaster",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Aragorn gains +100% damage, +100% armour, knocks back enemies and deals fire damage for 30 seconds\\nCan only use with sword equipped\\n Left click to activate",
+     "uk": "Необхідно: Рівень 5\\n Араґорн отримує бонус +100% до пошкоджень, +100% броні, відкидає ворогів своїми ударами й завдає пошкоджень вогнем на 30 сек.\\nДоступно лише з мечем\\n Клікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipFellowshipStriderBlademaster",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Strider gains +100% damage, +100% armour, knocks back enemies and wields a torch for 30 seconds\\nCan only use with sword equipped\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 5\\nБродяжник отримує бонус +100% до пошкоджень, +100% броні, відкидає ворогів своїми ударами й бере смолоскип на 30 сек.\\nДоступно лише з мечем\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FellowshipAragornLeaderofMen",
+     "t": "Button",
+     "en": "Leader of Men (&C)",
+     "uk": "Лідер вільних людей (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFellowshipAragornLeaderofMen",
+     "t": "Tooltip",
+     "en": "Requires Level 8 \\n Modifier Type: Spell \\n Nearby friendly units gain +33% armour\\nPassive ability\\n \\n When activated, units near Aragorn gain +50% damage and immunity to fear and terror for 20 seconds \\n Left click to activate",
+     "uk": "Необхідно: Рівень 8\\nТип ефекту: Заклинання\\nСоюзні загони поблизу отримують бонус +33% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nПісля активації загони поряд з Араґорном на 20 сек. отримують бонус +50% до пошкоджень і імунітет до страху та жаху\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFellowshipStriderLeaderofMen",
+     "t": "Tooltip",
+     "en": "Requires Level 8 \\n Modifier Type: Spell \\n Nearby friendly units gain +33% armour\\nPassive ability\\n \\n When activated, units near Strider gain +50% damage and immunity to fear and terror for 20 seconds \\n Left click to activate",
+     "uk": "Необхідно: Рівень 8\\nТип ефекту: Заклинання\\nСоюзні загони поблизу отримують бонус +33% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nПісля активації загони поряд із Бродяжником на 20 сек. отримують бонус +50% до пошкоджень і імунітет до страху та жаху\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:AragornToggleMount",
+     "t": "Button",
+     "en": "Mount/Dismount (&C)",
+     "uk": "Сісти верхи / Спішитися (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEowynMount",
+     "t": "Tooltip",
+     "en": "Left click to switch between mounted and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою верхи та пішим ходом",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:AragornLeaderofMen",
+     "t": "Button",
+     "en": "Leader of Men (&T)",
+     "uk": "Лідер вільних людей (&T)",
+     "st": "ok",
+     "dup": "CONTROLBAR:FellowshipAragornLeaderofMen"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipAragornLeaderofMen",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n Nearby friendly units gain +33% armour \\n \\n When activated, units near Aragorn gain +50% damage and immunity to fear and terror for 20 seconds \\n Left click to activate",
+     "uk": "Тип ефекту: Заклинання\\nСоюзні загони поблизу отримують бонус +33% броні\\n\\nПісля активації загони поряд з Араґорном на 20 сек. отримують бонус +50% до пошкоджень і імунітет до страху та жаху\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Last Alliance",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:AragornBladeMaster",
+     "t": "Button",
+     "en": "Flame of the &West",
+     "uk": "Полум'я Заходу (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipBladeMaster",
+     "t": "Tooltip",
+     "en": "Requires Level 2 \\n Aragorn temporarily gains\\n+100% damage, +100% armour \\n Left click to activate",
+     "uk": "Необхідно: Рівень 2\\nАраґорн тимчасово отримує бонус\\n+100% до пошкоджень і +100% броні\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:AragornLeadership",
+     "t": "Button",
+     "en": "Elessar Telcontar",
+     "uk": "Король Елессар Телконтар",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipAragornLeadership",
+     "t": "Tooltip",
+     "en": "Requires Level 4 \\n Modifier Type: Leadership \\n Allies near Aragorn gain +33% damage, +33% armour, and earn experience 50% faster \\nPassive ability",
+     "uk": "Необхідно: Рівень 4\\nТип ефекту: Лідерство\\nСоюзники поряд з Араґорном отримують бонус +33% до пошкоджень,\\n+33% броні й на 50% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:Elendil",
+     "t": "Button",
+     "en": "&Elendil!",
+     "uk": "Еленділ! [Друг ельфів] (&E)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElendil",
+     "t": "Tooltip",
+     "en": "Requires Level 6 \\n Causes nearby enemy units to flee \\n Left click to activate",
+     "uk": "Необхідно: Рівень 6\\nВорожі загони поблизу тікають\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GreyHost",
+     "t": "Button",
+     "en": "&The Grey Host",
+     "uk": "Сіре воїнство (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipGreyHost",
+     "t": "Tooltip",
+     "en": "Requires Level 9 \\n Summons Halbarad and several bands of Dúnedain to Aragorn's side \\n Left click icon to activate",
+     "uk": "Необхідно: Рівень 9\\nАраґорн прикликає Галбарада й кілька загонів дунедайн\\nКлікніть на іконку, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Return of the King",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:FellowshipAthelasRotK",
+     "t": "Button",
+     "en": "Kingsfoil (&W)",
+     "uk": "Атгелас — королівське листя (&W)",
+     "st": "ok",
+     "dup": "CONTROLBAR:Athelas"
+    },
+    {
+     "v": "CONTROLBAR:FellowshipAragornBlademasterRotK",
+     "t": "Button",
+     "en": "Faithful Protector (&R)",
+     "uk": "Вірний захисник (&R)",
+     "st": "ok",
+     "dup": "CONTROLBAR:FellowshipAragornBlademaster"
+    },
+    {
+     "v": "CONTROLBAR:ElessarOathbreakerRotK",
+     "t": "Button",
+     "en": "Fulfill Your Oath! (&C)",
+     "uk": "Виконайте свою присягу! (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElessarOathbreakerRotK",
+     "t": "Tooltip",
+     "en": "Summons an army of Oathbreakers that will kill and terrify anything in its path\\nLeft click icon then left click on target",
+     "uk": "Закликає військо порушників присяги, що вбиває й наганяє жах на все на своєму шляху\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:AragornSwiftDispatch",
+     "t": "Button",
+     "en": "Swift Dispatch (&R)",
+     "uk": "Швидка розправа (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipAragornSwiftDispatch",
+     "t": "Tooltip",
+     "en": "Aragorn quickly throws his knife, dealing strong damage to the targeted enemy unit\\nLeft click then left click on target",
+     "uk": "Араґорн кидає ніж, завдаючи сильних\\nпошкоджень вказаному ворожому загону\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:AragornRangerSubtlety",
+     "t": "Button",
+     "en": "Ranger's Subtlety (&T)",
+     "uk": "Пильність слідопита (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipAragornRangerSubtlety",
+     "t": "Tooltip",
+     "en": "Aragorn gains +150% vision range for 25 seconds\\nLeft click to activate",
+     "uk": "Араґорн отримує бонус +150% дальності огляду на 25 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:AragornRareGift",
+     "t": "Button",
+     "en": "A Rare Gift (&C)",
+     "uk": "Рідкісний дар (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipAragornRareGift",
+     "t": "Tooltip",
+     "en": "Aragorn becomes stealthed and can neither attack nor be attacked for 10 seconds\\nLeft click to activate",
+     "uk": "Араґорн стає невидимим: 10 сек. він не може\\nні атакувати, ні отримувати пошкоджень\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:AragornToken",
+     "t": "Button",
+     "en": "Token of Umbar (&V)",
+     "uk": "Трофей Умбару (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipAragornToken",
+     "t": "Tooltip",
+     "en": "Enemy units within the radius are stunned for 8 seconds\\n Left click icon then left click on target",
+     "uk": "Приголомшує ворожі загони на 8 сек.\\n Клікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Battle of the Black Gate",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:ElessarEnvinyatar",
+     "t": "Button",
+     "en": "Envinyatar (&R)",
+     "uk": "Енвіньятар (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElessarEnvinyatar",
+     "t": "Tooltip",
+     "en": "Heals Aragorn and friendly Heroes across map \\n Left click to activate",
+     "uk": "Зцілює Араґорна й союзних героїв на всій мапі\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:CampaignElessarBladeMaster",
+     "t": "Button",
+     "en": "Andúril, Flame of the West (&W)",
+     "uk": "Андуріл, Полум'я Заходу (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipElessarBladeMaster",
+     "t": "Tooltip",
+     "en": "Aragorn deals magic damage and splash damage \\n When activated, grants +50% extra fire damage, slows enemies by 10% and decreases their armour by 5% for 5 seconds\\nDebuff does not stack with itself\\nLeft click to activate",
+     "uk": "Араґорн завдає пошкоджень магією та по площі\\nПісля активації надає бонус +50% до пошкоджень вогнем, а вороги на 5 сек. сповільнюються на 10% і втрачають 5% броні\\nОслаблення не накопичується\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SpecialAbilityFellowshipElessarEstel",
+     "t": "Button",
+     "en": "Estel (&T)",
+     "uk": "Естель (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSpecialAbilityFellowshipElessarEstel",
+     "t": "Tooltip",
+     "en": "Aragorn casts off the Shadow and remains fixed in his purpose\\nLeft click to activate",
+     "uk": "Араґорн відкидає Тінь і не відступає від своєї мети\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:CampaignSauronLeadership",
+     "t": "Button",
+     "en": "Fiery Presence",
+     "uk": "Вогняна присутність",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSauronLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n All nearby units cower in fear whether friend or foe \\nPassive ability \\n\\n When activated, nearby enemy units and heroes are paralysed for 10 seconds \\n Left click to activate",
+     "uk": "Тип ефекту: Лідерство\\nУсі загони поблизу, дружні й ворожі, тремтять від страху\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nПісля активації ворожі загони й герої поблизу паралізовані на 10 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SpecialAbilityCommanderSword",
+     "t": "Button",
+     "en": "Sword of Elendil (&T)",
+     "uk": "Меч Еленділа (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCommanderSword",
+     "t": "Tooltip",
+     "en": "Modifier Type: Active Debuff \\n Targeted enemy units suffer -33% damage and armour for 30 seconds\\nNullifies enemy leadership\\n Left click icon then left click on target units",
+     "uk": "Тип ефекту: Активне ослаблення\\nОбрані ворожі загони на 30 сек. отримують штраф -33% пошкоджень і броні\\nСкасовує вороже лідерство\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SpecialAbilityCommanderWords",
+     "t": "Button",
+     "en": "Words of Hope (&C)",
+     "uk": "Слова надії (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCommanderWords",
+     "t": "Tooltip",
+     "en": "Friendly units within the radius gain +50% damage and armour for 30 seconds\\n Left click on icon then left click on target battalion",
+     "uk": "Союзні загони на 30 сек. отримують бонус +50% до пошкоджень і броні\\nКлікніть на іконку, потім оберіть загін",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Rivendell",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:DunedainChieftain",
+     "t": "Button",
+     "en": "Chieftain of the Dúnedain",
+     "uk": "Капітан дунедайн",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDunedainChieftain",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\nNearby Dúnedain gain +33% attack damage \\n and become immune to fear and terror\\nStacks with Buffs and Spells\\n Passive ability \\n \\n Isildur's Heir \\n Requires Level 9 and Andúril Upgrade \\n Nearby Dúnedain gain +33% attack damage \\n and become immune to fear and terror\\n When activated, all nearby units gain +33% damage and +50% armour for 20 seconds",
+     "uk": "Тип ефекту: Лідерство\\nДунедайн поблизу отримують бонус +33% до пошкоджень від атак\\nі імунітет до страху та жаху\\nПоєднується з посиленнями й заклинаннями\\n\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nСпадкоємець Ісілдура\\nНеобхідно: Рівень 9 й покращення «Андуріл»\\nДунедайн поблизу отримують бонус +33% до пошкоджень від атак\\nі імунітет до страху та жаху\\nПісля активації всі загони поблизу на 20 сек. отримують бонус +33% до пошкоджень і +50% броні",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:MasterTracker",
+     "t": "Button",
+     "en": "Master Tracker (&C)",
+     "uk": "Майстер-слідопит (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipMasterTrackerAbility",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\nModifier Type: Spell\\nAragorn gains +150% vision range and +25% range while nearby allies gain +15% movement speed for 25 seconds\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 3\\nТип ефекту: Заклинання\\nАраґорн на 25 сек. отримує бонус +150% дальності огляду й +25% дальності атаки, а союзники поблизу +15% швидкості руху\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ArnorAragornBlademaster",
+     "t": "Button",
+     "en": "A Fire Shall Be Woken (&V)",
+     "uk": "Вогонь буде пробуджено (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipArnorAragornBlademaster",
+     "t": "Tooltip",
+     "en": "Requires Level 6 \\n Aragorn wields a torch and deals knockback damage \\n Aragorn gains +50% damage and +25% armour for 30 seconds\\n While the ability is active, nearby heroes gain +10% armour \\n Can only use with sword equipped \\n Left click to activate",
+     "uk": "Необхідно: Рівень 6\\nАраґорн бере смолоскип і відкидає ворогів своїми ударами\\nТакож на 30 сек. отримує бонус +50% до пошкоджень і +25% броні\\nПоки діє здібність, герої поблизу отримують бонус +10% броні\\nМожна активувати лише коли Араґорн озброєний мечем\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:AragornIsildurHeir",
+     "t": "Button",
+     "en": "Isildur's Heir (&T)",
+     "uk": "Спадкоємець Ісілдура (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFellowshipAragornIsildurHeir",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\nNearby Dúnedain gain +33% attack damage and become immune to fear and terror\\nStacks with Buffs and Spells\\n Passive ability \\n\\n Active ability: Requires Level 9 and Andúril \\n When activated, all nearby units gain +33% damage and +50% armour for 20 seconds",
+     "uk": "Тип ефекту: Лідерство\\nДунедайн поблизу отримують бонус +33% до пошкоджень від атак і імунітет до страху та жаху\\nПоєднується з посиленнями й заклинаннями\\n\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nАктивна здібність. Необхідно: Рівень 9 і Андуріл\\nПісля активації всі загони поблизу на 20 сек. отримують бонус +33% до пошкоджень і +50% броні",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Summoned",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:ThreeHuntersLeadership",
+     "t": "Button",
+     "en": "The Three Hunters",
+     "uk": "Три мисливці",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHuntersLeadershipAragorn",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n When near Legolas or Gimli, Aragorn gains +25% armour and speed\\n Passive ability",
+     "uk": "Тип ефекту: Лідерство\\nПоряд із Леґоласом чи Ґімлі Араґорн отримує бонус +25% броні й швидкості\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,209 @@
+{
+ "meta": {
+  "hero": "Saruman",
+  "uk_name": "Саруман",
+  "faction (ini Side)": [
+   "Isengard",
+   "WhiteHand"
+  ],
+  "alternate factions": [
+   "white hand"
+  ],
+  "templates": [
+   "IsengardSaruman",
+   "IsengardSaruman_WhiteHand"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:IsengardSaruman",
+   "type": "Ім'я",
+   "en": "Saruman",
+   "ru": "Саруман",
+   "uk_ai": "Саруман",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SarumanWizardBlast",
+   "type": "Кнопка",
+   "en": "Lord of Orthanc (&W)",
+   "ru": "Правитель Ортханка (&W)",
+   "uk_ai": "Володар Ортханку (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSarumanWizardBlast",
+   "type": "Підказка",
+   "en": "Close range attack that blasts back enemies \n \n Recharge time: 1m 10s \n Left click icon then left click on target \n \n Modifier Type: Spell \n Allies near Saruman gain 300% armour to magic and elemental damage, earn experience 50% faster and become immune to fear and terror \nPassive ability",
+   "ru": "Мощная магическая атака с близкого расстояния, отбрасывающая врагов\\nЩелкните левой кнопкой мыши на значок, затем на цель\\n\\nТип модификатора: Заклинание\\nСоюзники рядом с Саруманом получают +300% брони от магического и стихийного урона, набирают опыт на +50% быстрее, а также становятся невосприимчивыми к страху и ужасу\\nПассивная способность",
+   "uk_ai": "Атака зблизька, що відкидає ворогів\n\nЧас відновлення: 1 хв. 10 сек.\nКлікніть на іконку, потім оберіть ціль\n\nТип ефекту: Заклинання\nСоюзники поряд із Саруманом отримують бонус +300% броні проти пошкоджень від магії та стихій, на 50% швидше набирають досвід і отримують імунітет до страху та жаху\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilitySarumanFireball",
+   "type": "Кнопка",
+   "en": "Fireball (&R)",
+   "ru": "Огненный шар (&R)",
+   "uk_ai": "Вогняна куля (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilitySarumanFireball",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Throws a ball of energy \n \n Recharge time: 1m 30s \n Left click icon then left click on target",
+   "ru": "Требуется уровень 3\\nМагический огненный шар, отбрасывающий и поджигающий врагов\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 3\nМагічна вогняна куля, що підпалює та відкидає ворогів\n\nЧас відновлення: 1 хв. 30 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpeechCraft",
+   "type": "Кнопка",
+   "en": "Speech Craft (&T)",
+   "ru": "Красноречие (&T)",
+   "uk_ai": "Мистецтво переконання (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpeechCraft",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Give targeted units excellent experience \n \n Recharge time: 2m 30s \n Left click icon then left click on target units",
+   "ru": "Требуется уровень 5\\nСоюзные отряды в области действия получают много опыта\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 5\nМиттєво наділяє обрані загони великою кількістю досвіду\n\nЧас відновлення: 2 хв. 30 сек.\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SarumanThunderBolt",
+   "type": "Кнопка",
+   "en": "Redhorn's Wrath (&C)",
+   "ru": "Гнев Карадраса (&C)",
+   "uk_ai": "Гнів Карадрасу (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSarumanThunderBolt",
+   "type": "Підказка",
+   "en": "Requires Level 7 \n Strikes a powerful lightning bolt against targeted enemies\n \n Recharge time: 2m 30s \n Left click icon then left click on target",
+   "ru": "Требуется уровень 7\\nМощный удар молнии по выбранному участку местности\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 7\nБ'є по обраних ворогах потужною блискавкою\n\nЧас відновлення: 2 хв. 30 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SarumanDominate",
+   "type": "Кнопка",
+   "en": "Voice of Curunír (&V)",
+   "ru": "Голос Курунира (&V)",
+   "uk_ai": "Голос Куруніра (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDominate",
+   "type": "Підказка",
+   "en": "Requires Level 10 \n Gain control of targeted enemies for 30 seconds\n \n Recharge time: 6m \n Left click icon then left click on target enemies",
+   "ru": "Требуется уровень 10\\nСаруман берет под контроль вражеские отряды в области действия в течение 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 10\nБере під контроль обраних ворогів на 30 сек.\n\nЧас відновлення: 6 хв.\nКлікніть на іконку, потім оберіть ворогів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilitySarumanImprovedBlast",
+   "type": "Кнопка",
+   "en": "Saruman of Many Colours (&W)",
+   "ru": "Саруман Многоцветный (&W)",
+   "uk_ai": "Саруман Різнобарвний (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilitySarumanImprovedBlast",
+   "type": "Підказка",
+   "en": "Allows Saruman to attack from great range \n Can be used to crush enemy units \nLeft click icon then left click on target area \n \n Modifier Type: Spell\n Nearby units gain +50% damage, +50% armour, increased experience gain, and fear immunity. At rank 5, nearby furnaces gain +50% resources \n Nearby enemies are terrified \n Passive ability",
+   "ru": "Позволяет Саруману атаковать с дальнего расстояния\\nМожет быть использовано, чтобы сокрушать вражеские войска\\nЩелкните левой кнопкой мыши на значок, затем на целевую область\\n\\nТип модификатора: Заклинание\\nСоюзные войска рядом с Саруманом наносят +50% урона, получают +50% брони, набирают опыт вдвое быстрее и становятся невосприимчивыми к страху\\nНа уровне 5, ближайшие плавильни производят +50% ресурсов\\nСаруман вселяет страх в ближайших врагов\\nПассивная способность",
+   "uk_ai": "Саруман може атакувати з великої відстані\n Можна використовувати для знищення ворожих загонів.\nКлікніть на іконку, потім оберіть ділянку\n\nТип ефекту: Заклинання\nЗагони поблизу отримують бонус +50% до пошкоджень, +50% броні, швидше набирають досвід і отримують імунітет до страху. На 5 рівні горна поблизу дають на 50% більше ресурсів\nВороги поблизу в стані жаху\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SarumanRuinousWrath",
+   "type": "Кнопка",
+   "en": "Ruinous Wrath (&R)",
+   "ru": "Разрушительный гнев (&R)",
+   "uk_ai": "Нищівний гнів (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSarumanRuinousWrath",
+   "type": "Підказка",
+   "en": "Requires Level 3\nFlame erupts from the ground beneath the targeted enemies for 15 seconds\nLeft click icon then left click on target area",
+   "ru": "Требуется уровень 3\\nНа указанной области из под земли вырывается пламя\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 3\nПід обраними ворогами на 15 сек. з-під землі виривається полум'я\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DarkEloquence",
+   "type": "Кнопка",
+   "en": "Dark Eloquence (&T)",
+   "ru": "Темное влияние (&T)",
+   "uk_ai": "Темне красномовство (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDarkEloquence",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Give targeted units excellent experience \n Shorter cooldown with the One Ring \n Left click icon then left click on target units",
+   "ru": "Требуется уровень 5\\nСоюзные отряды в радиусе действия получают много опыта\\nБолее короткое время перезарядки с Единым Кольцом\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 5\nМиттєво наділяє обрані загони великою кількістю досвіду\nПри наявності Єдиного Перстня перезаряджається швидше\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SarumanStormofOrthanc",
+   "type": "Кнопка",
+   "en": "Storm of Orthanc (&C)",
+   "ru": "Буря Ортханка (&C)",
+   "uk_ai": "Буря Ортханку (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSarumanStormOfOrthanc",
+   "type": "Підказка",
+   "en": "Requires Level 7\nSummons a moveable cloud that shoots lightning, enemies below are slowed\nLeft click icon then left click on target area",
+   "ru": "Требуется уровень 7\\nВызывается подвижное облако, поражающее врагов молниями\\nВражеские войска, оказавшиеся под облаком - замедляются\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 7\nПрикликає контрольовану хмару, що б'є блискавками й сповільнює ворогів під нею\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SarumanDominateRing",
+   "type": "Кнопка",
+   "en": "The Ruling Ring (&V)",
+   "ru": "Кольцо Всевластья (&V)",
+   "uk_ai": "Перстень Всевладдя (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDominateRing",
+   "type": "Підказка",
+   "en": "Requires Level 10 \n Permanently gain control of targeted enemies \n Left click icon then left click on target enemies",
+   "ru": "Требуется уровень 10\\nСаруман временно берет под контроль вражеские отряды в радиусе действия",
+   "uk_ai": "Необхідно: Рівень 10\nНазавжди бере під контроль обраних ворогів\nКлікніть на іконку, потім оберіть ворогів",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

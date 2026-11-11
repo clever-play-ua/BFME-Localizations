@@ -1,0 +1,103 @@
+{
+ "meta": {
+  "hero": "Gandalf's Cart",
+  "uk_name": "Віз Ґендальфа",
+  "campaigns": [
+   "FotR"
+  ],
+  "missions": [
+   "Party"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignGandalfCart"
+   ],
+   "битва": []
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:GandalfCart",
+   "type": "Ім'я",
+   "en": "Gandalf's Cart",
+   "ru": "Повозка Гэндальфа",
+   "uk_ai": "Віз Ґендальфа",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DoNotKillHim",
+   "type": "Кнопка",
+   "en": "Do Not Kill Him Even Now (&W)",
+   "ru": "",
+   "uk_ai": "Не вбивайте його навіть тепер (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDoNotKillHim",
+   "type": "Підказка",
+   "en": "Do not kill him even now. For he has not hurt me. And in any case I do not wish him to be slain in this evil mood.",
+   "ru": "",
+   "uk_ai": "Не вбивайте його навіть тепер. Мені він шкоди не заподіяв. І хай там як, я не хочу, щоб його вбили, коли він у такому лихому настрої.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:IllTurnDeservesAnother",
+   "type": "Кнопка",
+   "en": "One Ill Turn Deserves Another - Kill Him (&R)",
+   "ru": "",
+   "uk_ai": "Зло за зло — вбийте його (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIllTurnDeservesAnother",
+   "type": "Підказка",
+   "en": "I offered you mercy, Saruman, and you repaid it with treachery. One ill turn deserves another - kill him.",
+   "ru": "",
+   "uk_ai": "Я виявив до тебе милосердя, Сарумане, а ти відплатив зрадою. Лихо за лихо — вбийте його.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PreviewFireworks",
+   "type": "Кнопка",
+   "en": "Preview Fireworks (&W)",
+   "ru": "",
+   "uk_ai": "Показати феєрверк (&W)",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPreviewFireworks",
+   "type": "Підказка",
+   "en": "Preview Gandalf's Fireworks\n Left click to activate",
+   "ru": "",
+   "uk_ai": "Показати феєрверк Ґендальфа\n Клікніть, щоб активувати",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:IgnoreChildren",
+   "type": "Кнопка",
+   "en": "Away With You! (&R)",
+   "ru": "",
+   "uk_ai": "Геть звідси! (&R)",
+   "status": "вичитано",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIgnoreChildren",
+   "type": "Підказка",
+   "en": "Run away now! You'll get plenty when the time comes.\n Left click to activate",
+   "ru": "",
+   "uk_ai": "А тепер біжіть! Як настане час, усього вам вистачить.\n Клікніть, щоб активувати",
+   "status": "вичитано",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

@@ -1,0 +1,75 @@
+{
+ "meta": {
+  "hero": "Bifur",
+  "uk_name": "Біфур",
+  "campaigns": [
+   "FotR",
+   "RotK"
+  ],
+  "missions": [
+   "Council",
+   "BattleofDale"
+  ],
+  "templates": {
+   "кампанія": [
+    "DwarvenBifur"
+   ],
+   "битва": [
+    "DwarvenBifur"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:DwarvenBifur",
+   "type": "Ім'я",
+   "en": "Bifur",
+   "ru": "Бифур",
+   "uk_ai": "Біфур",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WorkingClassDwarves",
+   "type": "Кнопка",
+   "en": "Working Class Dwarves",
+   "ru": "Гномы-рабочие",
+   "uk_ai": "Дворфи-трудяги",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWorkingClassDwarves",
+   "type": "Підказка",
+   "en": "Modifier Type: Spell \n Bifur, Bofur and Bombur gain +15% damage and +15% armour when near each other \nPassive ability",
+   "ru": "Тип модификатора: Заклинание\\nБифур, Бофур и Бомбур наносят +15% урона и получают +15% брони, находясь рядом друг с другом\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Заклинання\nПоряд одне з одним Біфур, Бофур і Бомбур отримують бонус +15% до пошкоджень і +15% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BifurSkewer",
+   "type": "Кнопка",
+   "en": "Skewer (&R)",
+   "ru": "Пронзание (&R)",
+   "uk_ai": "Протинання (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBifurSkewer",
+   "type": "Підказка",
+   "en": "Bifur thrusts with his boar spear, causing damage over time and reducing the target's movement speed by -25% for 10 seconds\nDeals +50% additional damage against monsters\nLeft click icon then left click on target",
+   "ru": "Сильный удар копьем, наносящий урон с течением времени и снижающий скорость передвижения цели на -25% в течение 10 секунд\\nНаносит +50% дополнительного урона монстрам\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Біфур б'є кабанячим списом: завдає тривалих пошкоджень і на 10 сек. сповільнює ціль на 25%\nЗавдає створінням на 50% більше пошкоджень\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

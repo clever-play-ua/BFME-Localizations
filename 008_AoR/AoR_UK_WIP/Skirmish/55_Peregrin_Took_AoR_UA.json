@@ -1,0 +1,91 @@
+{
+ "meta": {
+  "hero": "Peregrin Took",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Shire"
+  ],
+  "alternate factions": [
+   "scouring",
+   "shire"
+  ],
+  "templates": [
+   "ShirePippin"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:ShirePippin",
+   "type": "Ім'я",
+   "en": "Peregrin Took",
+   "ru": "Перегрин Тук",
+   "uk_ai": "Переґрін Тук",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBondsofFellowshipPippin",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\n Peregrin gains +15% damage when near Meriadoc, Samwise or Frodo\nPassive ability\nActivate to become invisible when standing still\nLeft click to activate",
+   "ru": "Тип модификатора: Лидерство\\nПерегрин наносит +15% урона, находясь рядом с Мериадоком, Сэмуайзом или Фродо\\nПассивная способность\\nАктивируйте, чтобы стать невидимым, оставаясь на месте\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Тип ефекту: Лідерство\nПоряд із Меріадоком, Семвайзом чи Фродо Переґрін отримує бонус +15% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~\nАктивуйте, щоб стати невидимим, коли стоїте на місці\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TookishTenacity",
+   "type": "Кнопка",
+   "en": "Tookish Tenacity (&T)",
+   "ru": "Упорство Туков (&T)",
+   "uk_ai": "Туківська впертість (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTookishTenacity",
+   "type": "Підказка",
+   "en": "Requires Level 3\nModifier Type: Leadership\n Nearby Hobbit units gain +25% damage and range\nPassive ability\nPeregrin calls a group of stationary Took Archers to defend targeted location\nThey are immobile, but remain stealthed when not attacking\n Left click icon then left click on pathable location",
+   "ru": "Требуется уровень 3\\nТип модификатора: Лидерство\\nБлижайшие хоббиты наносят +25% урона и получают +25% дальности атаки\\nПассивная способность\\nПерегрин вызывает группу неподвижных лучников Туков для защиты выбранного местности\\nОни не могут передвигаться, но остаются невидимыми, когда не атакуют\\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Лідерство\nГобітські загони поблизу отримують бонус +25% до пошкоджень і дальності атаки\n~ ПАСИВНА ЗДІБНІСТЬ ~\nПереґрін кличе загін нерухомих лучників-Туків захищати обране місце\nВони не рухаються й лишаються невидимими, поки не атакують\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PippinKnight",
+   "type": "Кнопка",
+   "en": "Knight of Gondor (&C)",
+   "ru": "Рыцарь Гондора (&C)",
+   "uk_ai": "Лицар Ґондору (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPippinKnight",
+   "type": "Підказка",
+   "en": "Requires Level 5\nModifier Type: Spell\nNearby heroes earn experience +50% faster\nStacks with Leaderships, Spells and Buffs\nWhen activated, target friendly hero becomes immune to damage for 10 seconds\nLeft click then left click target hero",
+   "ru": "Требуется уровень 5\\nТип модификатора: Заклинание\\nБлижайшие герои набирают опыт на +50% быстрее\\nСочетается с лидерством, заклинаниями и усилениями\\nПосле активации, дружественный герой становится невосприимчив к урону на 10 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевого героя",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Заклинання\nГерої поблизу на 50% швидше набирають досвід\nПоєднується з лідерством, заклинаннями й посиленнями\nПісля активації обраний союзний герой на 10 сек. стає невразливим\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PippinInquisitive",
+   "type": "Кнопка",
+   "en": "Inquisitive (&V)",
+   "ru": "Любознательность (&V)",
+   "uk_ai": "Допитливий (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPippinInquisitive",
+   "type": "Підказка",
+   "en": "Requires Level 7\nTeleports target units to the targeted location\nDoes not work on siege units\nLeft click icon, then left click on target units, then left click on pathable location",
+   "ru": "Требуется уровень  7\\nПереносит выбранных союзников в любую точку на карте\\nНе действует на осадные орудия\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды, после чего на доступное местоположение",
+   "uk_ai": "Необхідно: Рівень 7\nТелепортує обрані загони в указане місце\nНе діє на облогові машини\nКлікніть на іконку, потім оберіть потрібні загони, потім оберіть ділянку для перенесення",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

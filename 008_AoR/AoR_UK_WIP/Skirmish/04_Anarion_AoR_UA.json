@@ -1,0 +1,108 @@
+{
+ "meta": {
+  "hero": "Anárion",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "LastAlliance"
+  ],
+  "alternate factions": [
+   "last alliance"
+  ],
+  "templates": [
+   "SecondAgeAnarionAdventure"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:SecondAgeAnarion",
+   "type": "Ім'я",
+   "en": "Anárion",
+   "ru": "Анарион",
+   "uk_ai": "Анаріон",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAnarionJointLeadership_LAA",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Anárion gains +15% damage and armour when near Isildur\n Passive ability",
+   "ru": "Тип модификатора: Лидерство\\nАнарион наносит +15% урона и получает +15% брони, находясь рядом с Исильдуром\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nПоряд з Ісілдуром Анаріон отримує бонус +15% до пошкоджень і броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AnarionForGondor_LAA",
+   "type": "Кнопка",
+   "en": "Glory of the Realms in Exile (&R)",
+   "ru": "Былое величие (&R)",
+   "uk_ai": "Колишня велич (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAnarionForGondor_LAS",
+   "type": "Підказка",
+   "en": "Requires Level 3\n Modifier Type: Spell \n Targeted friendly units gain\n+33% armour and resistance to knockback for 30 seconds\nLeft click icon then left click on target units",
+   "ru": "Требуется уровень 3\\nТип модификатора: Заклинание\\nСоюзные отряды в радиусе действия получают\\n+33% брони и сопротивление отбрасыванию на 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Заклинання\nВказані союзні загони отримують бонус\n+33% броні й стійкість до відкидання на 30 сек.\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AnarionMasterSiege_LAA",
+   "type": "Кнопка",
+   "en": "Master of the Siege",
+   "ru": "Мастер осады",
+   "uk_ai": "Експерт з облоги",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAnarionMasterSiege_LAA",
+   "type": "Підказка",
+   "en": "Requires Level 5\n Modifier Type: Leadership \n Nearby siege equipment gains 10% range \n Nearby Dúnedain units gain 25% damage against buildings\n Passive ability",
+   "ru": "Требуется уровень 5\\nТип модификатора: Лидерство\\nБлижайшие осадные орудия получают +10% дальности атаки\\nБлижайшие отряды дунэдайн наносят +25% урона по строениям\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Лідерство\nОблогові машини поблизу отримують бонус +10% дальності атаки\nЗагони дунедайн поблизу отримують бонус +25% до пошкоджень спорудам\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AnarionLordofAnor_LAA",
+   "type": "Кнопка",
+   "en": "Lord of Minas Anor (&C)",
+   "ru": "Правитель Минас Анора (&C)",
+   "uk_ai": "Володар Мінас-Анора (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAnarionLordofAnor_LAS",
+   "type": "Підказка",
+   "en": "Requires Level 7 \n When cast on a friendly hero, increases damage output by +100% for 15 seconds\n When cast on an enemy hero, causes the hero to lose -33% armour and speed for 15 seconds\n Left click on icon then left click on target hero",
+   "ru": "Требуется уровень 7\\nПри использовании на союзного героя, его урон увеличивается на +100%, но броня уменьшается на -50% в течение 15 секунд\\nПри использовании на вражеского героя, он теряет -33% брони и скорости на 15 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевого героя",
+   "uk_ai": "Необхідно: Рівень 7\nЯкщо застосувати до союзного героя, на 15 сек. збільшує його пошкодження на 100%\nЯкщо застосувати до ворожого героя, на 15 сек. той втрачає 33% броні й швидкості\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:VeteransOsgiliathSummonLAA",
+   "type": "Кнопка",
+   "en": "Experienced Warrior (&V)",
+   "ru": "Опытный воин (&V)",
+   "uk_ai": "Досвідчений воїн (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipVeteransOsgiliathSummonLAA",
+   "type": "Підказка",
+   "en": "Requires Level 10 \n Summons two battalions of Bârim an-Nimruzîrim\nLeft click to activate",
+   "ru": "Требуется  уровень 10\\nПризывает два отряда Бурим ан-Нимрузорим\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10\nПрикликає 2 загони Барім ан-Німрузірім\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

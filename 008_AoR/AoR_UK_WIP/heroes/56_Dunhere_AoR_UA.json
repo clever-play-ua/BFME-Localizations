@@ -1,0 +1,70 @@
+{
+ "meta": {
+  "hero": "Dúnhere",
+  "uk_name": "Дунгер",
+  "campaigns": [
+   "TTT",
+   "RotK"
+  ],
+  "missions": [
+   "Westfold",
+   "HelmsDeep",
+   "PelennorFields"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignDunhere"
+   ],
+   "битва": []
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:RohanDunhere",
+   "type": "Ім'я",
+   "en": "Dúnhere",
+   "ru": "Дунхерэ",
+   "uk_ai": "Дунгер",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DunhereHoldLine",
+   "type": "Кнопка",
+   "en": "Hold the Line! (&W)",
+   "ru": "Держать оборону! (&W)",
+   "uk_ai": "Тримати стрій! (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDunhereHoldLine",
+   "type": "Підказка",
+   "en": "Dúnhere enters a defensive stance, granting nearby friendly units +25% armour,\nand 100% knockback resistance at the cost of -25% movement speed\nEffect lasts 30 seconds\nLeft click to activate",
+   "ru": "Дунхерэ приказывает занять оборонительную позицию, ближайшие отряды получают +25 брони и сопротивление отбрасыванию, теряя скорость передвижения на 25%\\nЭффект длится 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Дунгер стає в оборону: союзні загони поблизу отримують бонус +25% броні\nі 100% стійкості до відкидання ціною -25% швидкості пересування\nЕфект триває 30 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DunhereCaptain",
+   "type": "Кнопка",
+   "en": "Captain of Upbourn (&R)",
+   "ru": "Капитан Апборна (&R)",
+   "uk_ai": "Капітан Апборна (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDunhereCaptain",
+   "type": "Підказка",
+   "en": "Nearby units gain +50% experience\nPassive ability\n\nCan be activated to grant Dúnhere +50% damage for 20 seconds\nLeft click to activate",
+   "ru": "Ближайшие союзные отряды набирают опыт на +50% быстрее\\nПассивная способность\\n\\nПосле активации, Дунхерэ наносит +50% урона в течение 20 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Загони поблизу на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації Дунгер отримує бонус +50% до пошкоджень на 20 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

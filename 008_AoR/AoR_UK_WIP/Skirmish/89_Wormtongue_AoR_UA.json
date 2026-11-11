@@ -1,0 +1,63 @@
+{
+ "meta": {
+  "hero": "Wormtongue",
+  "uk_name": "Червеуст",
+  "faction (ini Side)": [
+   "Isengard"
+  ],
+  "alternate factions": [
+   "white hand"
+  ],
+  "templates": [
+   "IsengardWormTongue"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:IsengardWormTongue",
+   "type": "Ім'я",
+   "en": "Wormtongue",
+   "ru": "Гнилоуст",
+   "uk_ai": "Червеуст",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:VenomousWords",
+   "type": "Кнопка",
+   "en": "Venomous Words (&R)",
+   "ru": "Ядовитые слова (&R)",
+   "uk_ai": "Отруйні слова (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipVenomousWords",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Modifier Type: Active Debuff \nTargeted enemy units suffer -25% damage and -20% armour for 30 seconds\nNullifies enemy leadership\n \n Recharge time: 60s \nLeft click icon then left click on target units",
+   "ru": "Требуется уровень 3\\nТип модификатора: Ослабление\\nВражеские отряды в области действия теряют -25% урона и -20% брони на 30 секунд\\nОтменяет вражеское лидерство\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Активне ослаблення\nВказані ворожі загони отримують штраф -25% пошкоджень і -20% броні на 30 сек.\nСкасовує вороже лідерство\n\nЧас відновлення: 60 сек.\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MalignedLeechcraft",
+   "type": "Кнопка",
+   "en": "Maligned Leechcraft (&C)",
+   "ru": "Оклеветанный (&C)",
+   "uk_ai": "Прокляте цілительство (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMalignedLeechcraft",
+   "type": "Підказка",
+   "en": "Requires Level 8 \n Targeted enemy hero's ability timers are set to just used \n \n Recharge time: 3m \n Left click icon then left click on target",
+   "ru": "Требуется уровень 8\\nВсе активные способности вражеского героя уходят на перезарядку\\nЩелкните левой кнопкой мыши на значок, затем щелкните левой кнопкой мыши на цели",
+   "uk_ai": "Необхідно: Рівень 8\nУсі здібності обраного ворожого героя скидаються, ніби їх щойно застосували\n\nЧас відновлення: 3 хв.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

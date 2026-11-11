@@ -1,0 +1,1371 @@
+{
+ "meta": {
+  "mission": "010_Battle of Dale and Erebor",
+  "campaign": "Return of the King (AoR 10.0)",
+  "count": 136,
+  "fields": "var — мітка; type — Назва/Ціль/Діалог/Репліка/Інше/Кнопка; ru — RU 9.3.1, якщо є; uk_ai — поточний текст (правте прямо тут); status — вичитано / чернетка AI; uk — порожньо",
+  "notes": "\\n — перенос рядка, кількість має збігатися з EN; гарячі клавіші (&W) латиницею. Здібності героїв винесені в папку heroes."
+ },
+ "strings": [
+  {
+   "var": "CampaignName:BattleofDale",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Назва",
+   "en": "Battle of Dale and Erebor",
+   "ru": "",
+   "uk_ai": "Битва за Дейл та Еребор",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:1Test",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Інше",
+   "en": "Second Wave:",
+   "ru": "Вторая волна:",
+   "uk_ai": "Друга хвиля:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:SpellBookWarChantRhun",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Інше",
+   "en": "SpellBookWarChantRhun:",
+   "ru": "",
+   "uk_ai": "SpellBookWarChantRhun:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:SpellBookRecklessFervour",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Інше",
+   "en": "SpellBookRecklessFervour:",
+   "ru": "",
+   "uk_ai": "SpellBookRecklessFervour:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:SpellBookReversalOfFortune",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Інше",
+   "en": "SpellBookReversalOfFortune:",
+   "ru": "",
+   "uk_ai": "SpellBookReversalOfFortune:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:SpellBookArrowVolleyRhun",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Інше",
+   "en": "SpellBookArrowVolleyRhun:",
+   "ru": "",
+   "uk_ai": "SpellBookArrowVolleyRhun:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:SpellBookRhunWarBanner",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Інше",
+   "en": "SpellBookRhunWarBanner:",
+   "ru": "",
+   "uk_ai": "SpellBookRhunWarBanner:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:SpellBookDarkness",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Інше",
+   "en": "SpellBookDarkness:",
+   "ru": "",
+   "uk_ai": "SpellBookDarkness:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_agmund007",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "My lord, the enemy comes again!",
+   "ru": "",
+   "uk_ai": "Мій пане, ворог знову наступає!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_bardofficer002",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "Many guards are still fighting among the flames! We must reach them before it's too late!",
+   "ru": "",
+   "uk_ai": "Багато вартових досі б'ються серед полум'я! Треба дістатися до них, поки не пізно!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_bardofficer003",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "The sudden flames have trapped many people inside their homes. We cannot let them burn!",
+   "ru": "",
+   "uk_ai": "Раптова пожежа замкнула багатьох людей у їхніх домівках. Ми не можемо дати їм згоріти!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:ObjectiveHint01_BODE",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Ціль",
+   "en": "We can heal our wounded at the statue of Girion.",
+   "ru": "",
+   "uk_ai": "Поранених можна вилікувати біля статуї Ґіріона.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:ObjectiveHint02_BODE",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Ціль",
+   "en": "Destroying collapsed beams will free trapped townspeople.",
+   "ru": "",
+   "uk_ai": "Знищуйте обвалені балки, щоб звільнити замкнених містян.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:ObjectiveHint04_BODE",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Ціль",
+   "en": "Gather reinforcements from the lands surrounding Erebor before they are overrun.",
+   "ru": "",
+   "uk_ai": "Зберіть підкріплення в землях довкола Еребору, поки їх не знищили.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:ObjectiveHint05_BODE",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Ціль",
+   "en": "The forces of the enemy grow by the minute - do not delay!",
+   "ru": "",
+   "uk_ai": "Ворожі сили зростають щохвилини — не зволікайте!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:ObjectiveHint06_BODE",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Ціль",
+   "en": "Cross the northern bridge.",
+   "ru": "",
+   "uk_ai": "Перейдіть північний міст.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:ObjectiveHint07_BODE",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Ціль",
+   "en": "Prepare your defences on the slopes of Erebor.",
+   "ru": "",
+   "uk_ai": "Підготуйте оборону на схилах Еребору.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:ObjectiveHint08_BODE",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Ціль",
+   "en": "We can use the Horns of Dale to stun surrounding enemies.",
+   "ru": "",
+   "uk_ai": "Роги Дейла можуть приголомшити ворогів поблизу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective01_BODE",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Ціль",
+   "en": "Rescue Guard-captain Agmund",
+   "ru": "",
+   "uk_ai": "Врятуйте капітана варти Аґмунда",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective02_BODE",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Ціль",
+   "en": "Free 10 trapped townspeople from their burning homes",
+   "ru": "",
+   "uk_ai": "Визволіть 10 містян, замкнених у палаючих домівках",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective03_BODE",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Ціль",
+   "en": "Destroy 6 Flamethrowers",
+   "ru": "",
+   "uk_ai": "Знищте 6 вогнеметів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective04_BODE",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Ціль",
+   "en": "Cross the northern bridge and join forces with King Dáin and King Brand outside the gates of Erebor.",
+   "ru": "",
+   "uk_ai": "Перейдіть північний міст і з'єднайтеся з королем Дайном і королем Брандом біля брами Еребору.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective05_BODE",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Ціль",
+   "en": "Slay Khren-tak, Scourge of Dorwinion.",
+   "ru": "",
+   "uk_ai": "Вбийте Хрен-така, Бич Дорвініону.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective06_BODE",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Ціль",
+   "en": "Defend Erebor against the Easterling assault.",
+   "ru": "",
+   "uk_ai": "Захистіть Еребор від наступу істерлінґів.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective07_BODE",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Ціль",
+   "en": "Defend the body of King Brand.",
+   "ru": "",
+   "uk_ai": "Захистіть тіло короля Бранда.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective01_BODE",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Ціль",
+   "en": "Gather 3 battalions of Bardings before reaching Agmund",
+   "ru": "",
+   "uk_ai": "Зберіть 3 загони бардинґів, перш ніж дістатися Аґмунда",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective02_BODE",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Ціль",
+   "en": "Reach Vidú and his Dorwinion legions.",
+   "ru": "",
+   "uk_ai": "Дістаньтеся Віду та його дорвініонських легіонів.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective03_BODE",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Ціль",
+   "en": "Assist Dwalin at the mining settlement the southwest of the River.",
+   "ru": "",
+   "uk_ai": "Допоможіть Двалінові в шахтарському поселенні на південний захід від Ріки.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_bardII001",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Prince Bard II: The armies of the East have crossed the river Carnen.",
+   "ru": "",
+   "uk_ai": "Принц Бард II: Війська Сходу перейшли ріку Карнен.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_bardII002",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Prince Bard II: Like a flame through dry tinder, they have ravaged the lands of our kingdom \n and drove my father's forces back to Dale.",
+   "ru": "",
+   "uk_ai": "Принц Бард II: Мов полум'я сухим хмизом, вони спустошили землі нашого королівства \n й відкинули військо мого батька назад до Дейла.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_bardII003",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Prince Bard II: With unwavering fury, they have laid siege to our fair capital, \n seeking to destroy all that we have built since the time of Bard the Dragonslayer, my revered ancestor.",
+   "ru": "",
+   "uk_ai": "Принц Бард II: З невгамовною люттю вони взяли в облогу нашу прекрасну столицю, \n прагнучи знищити все, що ми збудували від часів Барда Драконоборця, мого шанованого предка.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_bardII004",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Prince Bard II: My father leads the remnants of the army towards Erebor, to fortify the stronghold. \n But we still have Men fighting here. We must do what we can to gather them before they're overrun.",
+   "ru": "",
+   "uk_ai": "Принц Бард II: Мій батько веде рештки війська до Еребору, щоб зміцнити твердиню. \n Але тут іще б'ються наші люди. Ми мусимо зробити все, щоб зібрати їх, поки їх не знищили.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_bardofficer001",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Barding Officer: Prince! Guard-captain Agmund is holding out at the barracks with \n a contingent of Men, but the Easterlings are heavy upon him!",
+   "ru": "",
+   "uk_ai": "Офіцер бардинґів: Принце! Капітан варти Аґмунд тримається в казармах із \n загоном людей, але істерлінґи сильно на нього тиснуть!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_bardII005",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Prince Bard II: We will go at once. Follow me, Men of Dale!",
+   "ru": "",
+   "uk_ai": "Принц Бард II: Вирушаймо негайно. За мною, люди Дейла!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_bardII006",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Prince Bard II: Their foul machinations rain fire upon home and hearth!",
+   "ru": "",
+   "uk_ai": "Принц Бард II: Їхні мерзенні машини засипають вогнем наші домівки й оселі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_bardII007",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Prince Bard II: We must destroy them, and rescue the townspeople from the flames!",
+   "ru": "",
+   "uk_ai": "Принц Бард II: Ми мусимо знищити їх і врятувати містян із полум'я!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_agmund018",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Agmund: We will do all we can! Come men! Defend your homes!",
+   "ru": "",
+   "uk_ai": "Аґмунд: Ми зробимо все, що зможемо! Вперед, люди! Захищайте свої домівки!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_bardII028",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Prince Bard II: We have done all we can. They may take Dale for a time, but we will reclaim it. \n For now, we need to reach the Mountain!",
+   "ru": "",
+   "uk_ai": "Принц Бард II: Ми зробили все, що могли. Вони можуть на якийсь час захопити Дейл, але ми його відвоюємо. \n А зараз нам треба дістатися Гори!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_agmund008",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Agmund: Over the bridge men, hurry!",
+   "ru": "",
+   "uk_ai": "Аґмунд: Через міст, люди, швидше!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_brand003",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "King Brand: This way! Make your way to the mountain!",
+   "ru": "",
+   "uk_ai": "Король Бранд: Сюди! Пробивайтеся до гори!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_dain005",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "King Dáin: The horde of Rhûn is upon us!",
+   "ru": "",
+   "uk_ai": "Король Дайн: Орда Руну вже тут!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_agmund002",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Agmund: Look! They seek to cut us off!",
+   "ru": "",
+   "uk_ai": "Аґмунд: Дивіться! Вони хочуть нас відрізати!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_agmund003",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Agmund: We will never make it through there, we must find another way!",
+   "ru": "",
+   "uk_ai": "Аґмунд: Там нам ніколи не пройти, треба шукати інший шлях!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_agmund004",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Agmund: We could take the eastern road and flank them from the rear. \n There may yet be survivors in the nearby villages to bolster our ranks.",
+   "ru": "",
+   "uk_ai": "Аґмунд: Ми могли б піти східним шляхом і вдарити їм у тил. \n У сусідніх селах ще можуть бути вцілілі, щоб поповнити наші лави.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_agmund005",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Agmund: But we must make haste! The Easterling host draws closer by the second.",
+   "ru": "",
+   "uk_ai": "Аґмунд: Але треба поспішати! Військо істерлінґів наближається щомиті.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_bardII029",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Prince Bard II: It will take time ere their positions are fortified.",
+   "ru": "",
+   "uk_ai": "Принц Бард II: Їм знадобиться час, щоб укріпити свої позиції.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_agmund006",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Agmund: My Prince, we cannot save them all.",
+   "ru": "",
+   "uk_ai": "Аґмунд: Мій принце, ми не врятуємо всіх.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_bardII030",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Prince Bard II: We must try.",
+   "ru": "",
+   "uk_ai": "Принц Бард II: Ми мусимо спробувати.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_agmund010",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Agmund: Hold!",
+   "ru": "",
+   "uk_ai": "Аґмунд: Тримайтеся!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_barding013",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Barding: There are too many!",
+   "ru": "",
+   "uk_ai": "Бардинґ: Їх забагато!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_bardII050",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Bard: Steel yourselves! Do not give in to fear!",
+   "ru": "",
+   "uk_ai": "Бард: Тримайтеся! Не піддавайтеся страху!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_brand001",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "King Brand: I fear our chance at victory has grown thin. Their armies are endless.",
+   "ru": "",
+   "uk_ai": "Король Бранд: Боюся, наш шанс на перемогу тане. Їхнім військам немає кінця.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_dain001",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "King Dáin: Endless or no, the walls of Erebor will not be breached by these heathens. \n Our stores are bountiful, and our arrows are plenty. We will outlast them.",
+   "ru": "",
+   "uk_ai": "Король Дайн: Є кінець чи немає, а мурів Еребору цим поганам не проломити. \n Наші комори повні, і стріл у нас удосталь. Ми їх пересидимо.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_brand002",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "King Brand: I fear they will not relent ere the Dark Lord himself commands them to, or is dethroned.",
+   "ru": "",
+   "uk_ai": "Король Бранд: Боюся, вони не відступлять, доки сам Темний Володар їм не накаже або доки його не скинуть.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_stonehelm011",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Thorin III Stonehelm: Plenty of glory to be had.",
+   "ru": "",
+   "uk_ai": "Торін III Кам'яний Шолом: Слави тут вистачить на всіх.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_bardII041",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Prince Bard II: Hard-won glory, to be sure.",
+   "ru": "",
+   "uk_ai": "Принц Бард II: Тяжко здобутої слави, безперечно.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_stonehelm012",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Thorin III Stonehelm: That is the only glory worth having, my friend!",
+   "ru": "",
+   "uk_ai": "Торін III Кам'яний Шолом: Лише така слава чогось і варта, друже!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_brand012",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "King Brand: You will not...conquer us..",
+   "ru": "",
+   "uk_ai": "Король Бранд: Вам не... підкорити нас..",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_bardII047",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Prince Bard II: Father! No...",
+   "ru": "",
+   "uk_ai": "Принц Бард II: Батьку! Ні...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_bardII048",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Prince Bard II: You will pay for this!",
+   "ru": "",
+   "uk_ai": "Принц Бард II: Ви заплатите за це!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_dain002",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "King Dáin: Thorin! Retreat to the Mountain! This battle is lost!",
+   "ru": "",
+   "uk_ai": "Король Дайн: Торіне! Відступай до Гори! Цю битву програно!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_stonehelm019",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Thorin III Stonehelm: No! Durin's Folk do not flee from a fight!",
+   "ru": "",
+   "uk_ai": "Торін III Кам'яний Шолом: Ні! Народ Дуріна не тікає з бою!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_dain003",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "King Dáin: There will be plenty more fighting to be had. You must live to take vengeance another day!",
+   "ru": "",
+   "uk_ai": "Король Дайн: Бійок ще буде вдосталь. Ти мусиш вижити, щоб помститися іншим разом!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_bardII049",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Prince Bard II: My lord Ironfoot...",
+   "ru": "",
+   "uk_ai": "Принц Бард II: Мій пане Залізностопе...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_dain004",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "King Dáin: Go, my boy. Hold the mountain. This is a kingly matter.",
+   "ru": "",
+   "uk_ai": "Король Дайн: Іди, хлопче. Утримай гору. Це справа королівська.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_agmund017",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "Prince Bard! You arrived just in time!",
+   "ru": "",
+   "uk_ai": "Принце Барде! Ви прибули якраз вчасно!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_agmund001",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "You have my thanks, my Prince. My Men are at your command.",
+   "ru": "",
+   "uk_ai": "Дякую вам, мій принце. Мої люди у вашому розпорядженні.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_vidu001",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "It is the Prince himself! To what do we owe this great honour? Is it the fact that everything is on fire?",
+   "ru": "",
+   "uk_ai": "Та це ж сам Принц! Чим ми заслужили таку велику честь? Може, тим, що все довкола палає?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_bardII008",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "Will you fight with us, Men of Dorwinion?",
+   "ru": "",
+   "uk_ai": "Чи будете ви битися з нами, люди Дорвініону?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_vidu002",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "How could we refuse? Our swords are yours!",
+   "ru": "",
+   "uk_ai": "Хіба ми можемо відмовити? Наші мечі — ваші!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BODE_SIEGE_HINT",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Інше",
+   "en": "Bard can use Warrior's Wit to stun siege engines.",
+   "ru": "",
+   "uk_ai": "Бард може скористатися «Кмітливістю воїна», щоб приголомшити облогові машини.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_dwalin002",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "Hah! You've the fire of your forebears, my lad. I'll not forget this!",
+   "ru": "",
+   "uk_ai": "Ха! У тобі вогонь твоїх предків, хлопче. Я цього не забуду!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_dwalin003",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "Go on! I'll take the West-road and rally what kin I can find. We'll be back these Easterlings won't know what hit 'em!",
+   "ru": "",
+   "uk_ai": "Іди! Я піду Західним шляхом і зберу всіх родичів, кого знайду. Ми повернемося — ці істерлінґи й не второпають, що на них звалилося!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_vidu009",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "So ends the story of the Scourge of Dorwinion. May it be swiftly forgotten.",
+   "ru": "",
+   "uk_ai": "Так скінчилася історія Бича Дорвініону. Хай її якнайшвидше забудуть.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_agmund013",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "We cannot tarry, the Easterling host will not be far behind.",
+   "ru": "",
+   "uk_ai": "Не можна баритися, військо істерлінґів недалеко позаду.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_bardII051",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "We must strike at their forward camp before we are cut-off.",
+   "ru": "",
+   "uk_ai": "Ми мусимо вдарити по їхньому передовому табору, поки нас не відрізали.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_agmund012",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "Reinforcements! The prince of Erebor has come!",
+   "ru": "",
+   "uk_ai": "Підкріплення! Прийшов принц Еребору!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_stonehelm001",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "What's the matter, Bardings? Battle's getting a little heated for you? A good thing Stonehelm has come!",
+   "ru": "",
+   "uk_ai": "Що таке, бардинґи? Битва для вас загаряча? Добре, що прийшов Кам'яний Шолом!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_bardII039",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "Aye, my friend. We could use a few stout axemen.",
+   "ru": "",
+   "uk_ai": "Еге ж, друже. Кілька міцних сокирників нам не завадять.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_agmund014",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "We've done it.",
+   "ru": "",
+   "uk_ai": "Ми це зробили.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_agmund015",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "But the town is a ruin. They have destroyed everything.",
+   "ru": "",
+   "uk_ai": "Але місто лежить у руїнах. Вони знищили все.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_bardII053",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "We will make them pay, and mourn thereafter. But first, we must make it to the mountain. Our people need us.",
+   "ru": "",
+   "uk_ai": "Ми змусимо їх заплатити, а тоді оплакуватимемо. Але спершу треба дістатися гори. Наш народ потребує нас.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:AssaultBegins_BODE",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Інше",
+   "en": "Easterling Host Arrives",
+   "ru": "",
+   "uk_ai": "Прибуває військо істерлінґів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_dain006",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "We must ready our defences! We will not let them reach the gates of Erebor.",
+   "ru": "",
+   "uk_ai": "Ми мусимо підготувати оборону! Ми не дамо їм дійти до брами Еребору.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_brand004",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "Take up positions!",
+   "ru": "",
+   "uk_ai": "Займайте позиції!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_brand005",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "By your hand, Dale will be avenged!",
+   "ru": "",
+   "uk_ai": "Твоєю рукою за Дейл буде помщено!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_vahrus03",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "Send in the serfs! Soften up their ranks!",
+   "ru": "",
+   "uk_ai": "Женіть кріпаків уперед! Розхитайте їхні лави!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_dwarf015",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "Look! They're falling back!",
+   "ru": "",
+   "uk_ai": "Дивіться! Вони відступають!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_brand007",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "No. They are amassing a greater assault. This fight is not over yet!",
+   "ru": "",
+   "uk_ai": "Ні. Вони збирають сили для ще більшого наступу. Цей бій ще не скінчено!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_agmund016",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "They come again!",
+   "ru": "",
+   "uk_ai": "Вони знову йдуть!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_barding015",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "We've defeated them!",
+   "ru": "",
+   "uk_ai": "Ми їх перемогли!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_vahrus04",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "Useless! They will know the fury of the Golden Horde!",
+   "ru": "",
+   "uk_ai": "Нікчеми! Вони пізнають лють Золотої Орди!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_bardII054",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "Make ready for the next assault!",
+   "ru": "",
+   "uk_ai": "Готуйтеся до наступного штурму!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_brand008",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "The Enemy does not relent! Hold your ground!",
+   "ru": "",
+   "uk_ai": "Ворог не відступає! Тримайте позиції!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_brand009",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "Their forces ready themselves for a final push.",
+   "ru": "",
+   "uk_ai": "Їхні війська готуються до останнього удару.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_dain008",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "And we will be ready to meet them! Dwarves, this is our final stand! Defend Erebor to your last!",
+   "ru": "",
+   "uk_ai": "А ми будемо готові їх зустріти! Дворфи, це наш останній бій! Захищайте Еребор до останнього!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_vahrus01",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "We will not stop ere this mountain is taken!",
+   "ru": "",
+   "uk_ai": "Ми не спинимося, доки цю гору не буде взято!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_vahrus02",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "For Sauron! For the Onyx Emperor!",
+   "ru": "",
+   "uk_ai": "За Саурона! За Оніксового Імператора!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_dwarf017",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "A War-drake from Rhûn!",
+   "ru": "",
+   "uk_ai": "Бойовий ящір із Руну!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_dain025",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "Hold fast! We will not cower before this fell beast!",
+   "ru": "",
+   "uk_ai": "Тримайтеся! Ми не зіщулимося перед цим лихим звіром!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_dwarf019",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "We did it! The Drake has fallen!",
+   "ru": "",
+   "uk_ai": "Ми це зробили! Ящір упав!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_dwarf020",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "This is no victory... the enemy still presses forward!",
+   "ru": "",
+   "uk_ai": "Це не перемога... ворог досі наступає!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_dain028",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "And they will meet the same end!",
+   "ru": "",
+   "uk_ai": "І на них чекає той самий кінець!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_dwalin004",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "Du bekar! Forward, to the king!",
+   "ru": "",
+   "uk_ai": "Ду бекар! (До зброї!) Вперед, до короля!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_brand011",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "They are too many!",
+   "ru": "",
+   "uk_ai": "Їх забагато!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_dain011",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "Fall back! Fall back to the mountain!",
+   "ru": "",
+   "uk_ai": "Відступайте! Відступайте до гори!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective04_BODESHORT",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Ціль",
+   "en": "Cross the northern bridge and join forces with King Dáin and King Brand.",
+   "ru": "",
+   "uk_ai": "Перейдіть північний міст і з'єднайтеся з королем Дайном і королем Брандом.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_agmund009",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "Keep moving! They will not stop coming - we must reach the safety of the mountain!",
+   "ru": "",
+   "uk_ai": "Не спиняйтеся! Вони не перестануть сунути — ми мусимо дістатися безпечної гори!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_agmund011",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "Protect the Prince! Send them back to their dark master!",
+   "ru": "",
+   "uk_ai": "Захищайте Принца! Відішліть їх назад до їхнього темного господаря!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_dwarf014",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "Their fell lord has fallen!",
+   "ru": "",
+   "uk_ai": "Їхній лихий володар упав!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_dwarf016",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "There are too many of them!",
+   "ru": "",
+   "uk_ai": "Їх забагато!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_bardII055",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "Stand, Men and Dwarves!",
+   "ru": "",
+   "uk_ai": "Стійте, люди й дворфи!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgrotk_vahrus05",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "Bring up the Dragonflame! Show no mercy!",
+   "ru": "",
+   "uk_ai": "Несіть Драконяче полум'я! Жодної пощади!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_dwarf018",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "Its gaze... it steals the warmth of my blood!",
+   "ru": "",
+   "uk_ai": "Його погляд... він краде тепло з моєї крові!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_dain026",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "Fire! Stay out of the blaze!",
+   "ru": "",
+   "uk_ai": "Вогонь! Тримайтеся подалі від полум'я!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_dain027",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Репліка",
+   "en": "It wanes! Press the attack!",
+   "ru": "",
+   "uk_ai": "Він слабне! Наступайте!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_dain012",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Діалог",
+   "en": "Dain: Do not let them touch the fallen King!",
+   "ru": "",
+   "uk_ai": "Дайн: Не дайте їм торкнутися полеглого Короля!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BODE_FINAL_HINT",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Інше",
+   "en": "Guard King Brand's body.",
+   "ru": "",
+   "uk_ai": "Охороняйте тіло короля Бранда.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HornsofDaleCampaign",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Кнопка",
+   "en": "Horns of the City (&W)",
+   "ru": "",
+   "uk_ai": "Роги Міста (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PrinceBardArmySummon",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Кнопка",
+   "en": "To The King! (&V)",
+   "ru": "",
+   "uk_ai": "До короля! (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PrinceBardIISturdy",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Кнопка",
+   "en": "Steadfast Scion (&C)",
+   "ru": "",
+   "uk_ai": "Непохитний нащадок (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RhunWarBannerBuffLevel1",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Кнопка",
+   "en": "Desperate Gambit Level 1",
+   "ru": "Отчаянный гамбит 1 уровня",
+   "uk_ai": "Відчайдушна ставка, рівень 1",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RhunWarBannerBuffLevel2",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Кнопка",
+   "en": "Desperate Gambit Level 2",
+   "ru": "Отчаянный гамбит 2 уровня",
+   "uk_ai": "Відчайдушна ставка, рівень 2",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RhunWarBannerBuffLevel3",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Кнопка",
+   "en": "Desperate Gambit Level 3",
+   "ru": "Отчаянный гамбит 3 уровня",
+   "uk_ai": "Відчайдушна ставка, рівень 3",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBardDragonSlayerLegacy",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Кнопка",
+   "en": "Requires Level 5\nModifier Type: Spell\nBard II and nearby allies gain resistance to knockback, +75% damage and +20% Speed for 30 seconds\nStacks with Leadership and Spells\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Заклинання\nБард II і союзники поблизу отримують стійкість до відкидання, +75% до пошкоджень і +20% швидкості на 30 сек.\nПоєднується з лідерством і заклинаннями\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBardPrinceOfDale",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Кнопка",
+   "en": "Modifier Type: Leadership\nAllies near Prince Bard II gain +33% Damage, +33% Armour, and earn experience 50% faster\nStacks with Buffs and Spells\nPassive ability",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзники поряд із принцом Бардом II отримують бонус +33% до пошкоджень, +33% броні й на 50% швидше набирають досвід\nПоєднується з посиленнями та заклинаннями\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDurinsChosenBODE",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Кнопка",
+   "en": "Requires Level 5 \n Thorin and nearby Dwarven units briefly gain resistance to knockback and +33% damage for 30 seconds\nThorin can crush enemies for the duration\n Left click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 5 \n Торін і ґномські загони поблизу отримують стійкість до відкидання й +33% до пошкоджень на 30 сек.\nУвесь цей час Торін може топтати ворогів\n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwarvenGrudgeBODE",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Кнопка",
+   "en": "Thorin knocks back enemy units and gains +50% attack speed for 15 seconds\nPrince of Erebor bonus is increased to 50% damage during that time\nLeft click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Торін відкидає ворожі загони й отримує бонус +50% швидкості атаки на 15 сек.\nУвесь цей час бонус «Принц Еребору» зростає до 50% пошкоджень\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipHornsofDaleCampaign",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Кнопка",
+   "en": "When activated, causes nearby enemies to cower in fear for 15 seconds\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Ворожі загони поблизу, охоплені страхом, ціпеніють на 15 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPrinceBardIISturdy",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Кнопка",
+   "en": "Requires Level 7\nBard II becomes invulnerable to damage for 10 seconds\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 7\nБард II стає невразливим на 10 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPrinceOfEreborBODE",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Кнопка",
+   "en": "Whenever Thorin attacks, nearby troops gain +33% damage for 5 seconds\nPassive ability",
+   "ru": "",
+   "uk_ai": "Щоразу, коли Торін атакує, війська поблизу отримують бонус +33% до пошкоджень на 5 сек.\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRhunWarBannerBuffLevel1",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Кнопка",
+   "en": "Nearby allies gain +25% armour and +50% experience gain. Desperate Gambit's bonuses increase the longer the banner is alive",
+   "ru": "Ближайшие отряды Рун получают +25% брони и набирают опыт на +50% быстрее. Чем дольше штандарт находится на поле боя, тем мощнее усиления он предоставляет",
+   "uk_ai": "Союзники поблизу отримують бонус +25% броні й на 50% більше досвіду. Що довше стоїть стяг, то більші бонуси «Відчайдушної ставки»",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRhunWarBannerBuffLevel2",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Кнопка",
+   "en": "Nearby allies gain +50% armour, +25% damage, and +100% experience gain. The banner gains 1000 additional health",
+   "ru": "Ближайшие отряды Рун получают +50% брони, наносят +25% урона и набирают опыт на +100% быстрее. Штандарт получает 1000 дополнительных очков здоровья",
+   "uk_ai": "Союзники поблизу отримують бонус +50% броні, +25% до пошкоджень і на 100% більше досвіду. Стяг отримує 1000 додаткового здоров'я",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRhunWarBannerBuffLevel3",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Кнопка",
+   "en": "Nearby allies gain +50% armour, +50% damage, +100% experience gain, and resistance to knockback. The banner gains 1000 additional health",
+   "ru": "Ближайшие отряды Рун получают +50% брони и сопротивление отбрасыванию,а также наносят +50% урона и набирают опыт на +100% быстрее. Штандарт получает 1000 дополнительных очков здоровья",
+   "uk_ai": "Союзники поблизу отримують бонус +50% броні, +50% до пошкоджень, на 100% більше досвіду й стійкість до відкидання. Стяг отримує 1000 додаткового здоров'я",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipToTheLastMan",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Кнопка",
+   "en": "Temporarily increases the production speed of Rhûn infantry for 30 seconds \n Left click to activate",
+   "ru": "Время подготовки пехоты Рун сокращается в течение 30 секунд\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Тимчасово на 30 сек. прискорює підготовку піхоти Руну \n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToTheLastMan",
+   "mission": "010_Battle of Dale and Erebor",
+   "type": "Кнопка",
+   "en": "To the Last Man (&W)",
+   "ru": "До последнего солдата (&W)",
+   "uk_ai": "До останнього воїна (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

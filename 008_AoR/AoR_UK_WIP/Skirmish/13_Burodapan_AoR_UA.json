@@ -1,0 +1,115 @@
+{
+ "meta": {
+  "hero": "Burôdapân",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Harad"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "HaradBurodapan"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:HaradBurodapan",
+   "type": "Ім'я",
+   "en": "Burôdapân",
+   "ru": "Буродапан",
+   "uk_ai": "Буродапан",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:LordofWaves",
+   "type": "Кнопка",
+   "en": "Lord of Waves",
+   "ru": "Повелитель волн",
+   "uk_ai": "Володар хвиль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLordofWaves",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Nearby Corsairs gain +33% armour and damage and +33% experience\nAt level 5, Burôdapân and nearby Corsairs earn resources per kill\nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nПираты рядом с Буродапаном наносят +33% урона, получают +33% брони и набирают опыт на +33% быстрее\\nНа уровне 5, Буродапан и ближайшие пираты зарабатывают ресурсы за убийство врагов\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nПірати поблизу отримують бонус +33% броні й пошкоджень і на 33% швидше набирають досвід\nНа 5 рівні Буродапан і пірати поблизу отримують ресурси за кожне вбивство\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TakeAllYouCan",
+   "type": "Кнопка",
+   "en": "Take All You Can (&R)",
+   "ru": "Берите все, что можете! (&R)",
+   "uk_ai": "Бери все, що можеш (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDominateBurod",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Takes control of single enemy battalion for 30 seconds\n Cannot be used on heroic units \n Left click icon then left click on target enemies",
+   "ru": "Требуется уровень 3\\nПозволяет Буродапану взять под контроль один вражеский отряд на 30 секунд\\nНе действует на героические отряды\\nЩелкните левой кнопкой мыши на значок, затем на целевой отряд",
+   "uk_ai": "Необхідно: Рівень 3\nНа 30 сек. підкоряє собі один ворожий загін\nНе діє на героїв\nКлікніть на іконку, потім оберіть ворогів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityGiveNothingBack",
+   "type": "Кнопка",
+   "en": "Give Nothing Back (&T)",
+   "ru": "Ничего не возвращать (&T)",
+   "uk_ai": "Нічого не віддавай (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityGiveNothingBack",
+   "type": "Підказка",
+   "en": "Requires Level 6\nSet fire to selected area, dealing heavy damage to units \n Left click icon then left click on target area",
+   "ru": "Требуется уровень 6\\nПоджечь выбранную область, нанося большой урон вражеским войскам и строениям\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 6\nПідпалює обрану ділянку й завдає ворожим загонам на ній значних пошкоджень\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WateryGraves",
+   "type": "Кнопка",
+   "en": "Watery Graves (&C)",
+   "ru": "Водные могилы (&C)",
+   "uk_ai": "Водяні могили (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWateryGraves",
+   "type": "Підказка",
+   "en": "Requires Level 8\nDeals significant damage over time to structures for 15 seconds \n Can be cast from a large distance \n Left click icon then left click on target",
+   "ru": "Требуется уровень 8\\nНаносит значительный постепенный урон строениям в течение 15 секунд\\nМожет применяться с большого расстояния\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 8\nПротягом 15 сек. поступово завдає спорудам значних пошкоджень\nМожна застосувати з великої відстані\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HornofKarna",
+   "type": "Кнопка",
+   "en": "Horn of Kârna (&V)",
+   "ru": "Рог Карны (&V)",
+   "uk_ai": "Ріг Карни (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHornofKarnaSummon",
+   "type": "Підказка",
+   "en": "Requires Level 10\nBurôdapân summons the Horn of Kârna\nWhen sounded, the Horn invokes the Fury of the Deep, which causes nearby units to fight amongst themselves for 30 seconds\nHorn of Kârna is limited to 1\nLeft click icon then left click on target area",
+   "ru": "Требуется уровень 10\\nБуродапан устанавливает Рог Карны\\nКогда рог звучит, он вызывает Ярость глубин, которая заставляет ближайшие отряды сражаться между собой в течение 30 секунд\\nОграничение - 1 Рог Карны\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 10\nБуродапан встановлює Ріг Карни\nКоли в ріг сурмлять, він пробуджує Лють безодні, і загони поблизу 30 сек. починають битися між собою\nМаксимум 1 Ріг Карни одночасно\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

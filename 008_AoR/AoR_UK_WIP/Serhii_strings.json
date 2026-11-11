@@ -1,0 +1,3877 @@
+{
+ "meta": {
+  "опис": "Рядки, які переклав лише Сергій (у нашому перекладі їх ще немає). Його текст уже прогнано через наші правила; якщо щось змінено, оригінал у полі «було_у_Сергія». Правте прямо в «sergii». \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею.",
+  "рядків": 534
+ },
+ "strings": [
+  {
+   "var": "BANNERUI:BlackrootValeArcher",
+   "cat": "Інтерфейс підкріплень",
+   "en": "Blackroot Vale Archer",
+   "ru": "Лучник долины Чернокорня",
+   "sergii": "Лучник Долини Чорнокореня"
+  },
+  {
+   "var": "BANNERUI:BlackrootValeArchers",
+   "cat": "Інтерфейс підкріплень",
+   "en": "Blackroot Vale Archers",
+   "ru": "Лучники долины Чернокорня",
+   "sergii": "Лучники Долини Чорнокореня"
+  },
+  {
+   "var": "BANNERUI:GondorFighters",
+   "cat": "Інтерфейс підкріплень",
+   "en": "Soldiers of Minas Tirith",
+   "ru": "Солдаты Минас Тирита",
+   "sergii": "Воїни Мінас-Тіріта"
+  },
+  {
+   "var": "BANNERUI:GondorLinhirSentries",
+   "cat": "Інтерфейс підкріплень",
+   "en": "Linhir Spearmen",
+   "ru": "Копейщики Линхира",
+   "sergii": "Списоносці Лінхіра"
+  },
+  {
+   "var": "BANNERUI:GondorLinhirSentry",
+   "cat": "Інтерфейс підкріплень",
+   "en": "Linhir Spearman",
+   "ru": "Копейщик Линхира",
+   "sergii": "Списоносці Лінхіра"
+  },
+  {
+   "var": "BANNERUI:GondorRanger",
+   "cat": "Інтерфейс підкріплень",
+   "en": "Ithilien Ranger",
+   "ru": "Следопыт Итилиэна",
+   "sergii": "Слідопит Ітілієну",
+   "було_у_Сергія": "Слідопит Ітілієна"
+  },
+  {
+   "var": "BANNERUI:GondorRangers",
+   "cat": "Інтерфейс підкріплень",
+   "en": "Ithilien Rangers",
+   "ru": "Следопыты Итилиэна",
+   "sergii": "Слідопити Ітілієну",
+   "було_у_Сергія": "Слідопити Ітілієна"
+  },
+  {
+   "var": "BANNERUI:Lamedon Clansmen",
+   "cat": "Інтерфейс підкріплень",
+   "en": "Lamedon Clansmen",
+   "ru": "Воины Ламедона",
+   "sergii": "Мечники Ламедона"
+  },
+  {
+   "var": "BANNERUI:LamedonClansman",
+   "cat": "Інтерфейс підкріплень",
+   "en": "Lamedon Clansman",
+   "ru": "Воин Ламедона",
+   "sergii": "Мечник Ламедона"
+  },
+  {
+   "var": "BANNERUI:LamedonClansmen",
+   "cat": "Інтерфейс підкріплень",
+   "en": "Lamedon Clansmen",
+   "ru": "Мечник Ламедона",
+   "sergii": "Мечники Ламедона"
+  },
+  {
+   "var": "CONTROLBAR:BatallionAreadyHasUpgrade",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "This upgrade has already been purchased",
+   "ru": "Усовершенствование проведено",
+   "sergii": "Це покращення ВЖЕ придбано",
+   "було_у_Сергія": "Це удосконалення вже придбано",
+   "примітка": "взято наш переклад цієї ж англійської фрази"
+  },
+  {
+   "var": "CONTROLBAR:CommandPoints",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Command Points",
+   "ru": "Очки Командования",
+   "sergii": "Очки командування"
+  },
+  {
+   "var": "CONTROLBAR:CouncilDesc",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Building: %.0f%%",
+   "ru": "Строительство: %.0f%%",
+   "sergii": "Будівництво: %.0f%%"
+  },
+  {
+   "var": "CONTROLBAR:EvilPlayerExperienceMenu",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Powers Menu",
+   "ru": "Палантир способностей",
+   "sergii": "Меню Сили"
+  },
+  {
+   "var": "CONTROLBAR:GondorAnbornHotkey",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Anborn (&R)",
+   "ru": "Анборн (&R)",
+   "sergii": "Анборн (&R)"
+  },
+  {
+   "var": "CONTROLBAR:GondorAnbornRecruit",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Recruit the master scout of Ithilien\n\n'I have my bow here, and I have posted other archers, nigh as good marksmen as myself, on either bank. We wait only for your command to shoot, Captain.'",
+   "ru": "Призвать главного разведчика Итилиэна\n\n\"У меня здесь мой лук, и я расставил других лучников, почти таких же метких стрелков, на обоих берегах. Мы ждем только вашего приказа, капитан.\"",
+   "sergii": "Завербувати головного слідопита Ітілієну\n\n«Мій лук зі мною, а на обох берегах я розставив інших лучників, які стріляють майже так само влучно, як і я. Ми чекаємо лише на ваш наказ стріляти, капітане»",
+   "було_у_Сергія": "Закликати головного слідопита Ітілієна\n\n«Мій лук зі мною, а на обох берегах я розставив інших лучників, які стріляють майже так само влучно, як і я. Ми чекаємо лише на ваш наказ стріляти, капітане»"
+  },
+  {
+   "var": "CONTROLBAR:GondorAnbornRevive",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Revive the fallen hero, Anborn",
+   "ru": "Воскресить павшего героя, Анборна",
+   "sergii": "Відродити полеглого в бою Анборна"
+  },
+  {
+   "var": "CONTROLBAR:GondorAragornHotkey",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "&Aragorn",
+   "ru": "Арагорн (&A)",
+   "sergii": "Араґорн (&A)"
+  },
+  {
+   "var": "CONTROLBAR:GondorAragornRevive",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Revive the fallen Hero, Aragorn",
+   "ru": "Воскресить павшего героя, Арагорна",
+   "sergii": "Відродити полеглого в бою Араґорна"
+  },
+  {
+   "var": "CONTROLBAR:GondorBeregondHotkey",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Beregond (&R)",
+   "ru": "Берегонд (&R)",
+   "sergii": "Береґонд (&R)",
+   "було_у_Сергія": "Берегонд (&R)"
+  },
+  {
+   "var": "CONTROLBAR:GondorBeregondRevive",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Revive the fallen Hero, Beregond",
+   "ru": "Воскресить павшего героя, Берегонда",
+   "sergii": "Відродити полеглого в бою Береґонда",
+   "було_у_Сергія": "Воскресити полеглого в бою героя, Берегонда"
+  },
+  {
+   "var": "CONTROLBAR:GondorBerethorHotkey",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Beretho&r",
+   "ru": "Беретор (&R)",
+   "sergii": "Беретор (&R)"
+  },
+  {
+   "var": "CONTROLBAR:GondorBerethorRevive",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Revive the fallen Hero, Berethor",
+   "ru": "Воскресить павшего героя, Беретора",
+   "sergii": "Відродити полеглого в бою Беретора"
+  },
+  {
+   "var": "CONTROLBAR:GondorBoromirHotkey",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Boromir (&D)",
+   "ru": "Боромир (&D)",
+   "sergii": "Боромир (&D)"
+  },
+  {
+   "var": "CONTROLBAR:GondorBoromirRevive",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Revive the fallen Hero, Boromir",
+   "ru": "Воскресить павшего героя, Боромира",
+   "sergii": "Відродити полеглого в бою Боромира"
+  },
+  {
+   "var": "CONTROLBAR:GondorDamrodHotkey",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Damrod",
+   "ru": "Дамрод",
+   "sergii": "Дамрод"
+  },
+  {
+   "var": "CONTROLBAR:GondorDamrodRecruit",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Hero Unit. Recruit a fighter skilled with bow and sword",
+   "ru": "Герой. Боец, искусный в обращении с мечом и луком.",
+   "sergii": "Герой. Боєць, що майстерно володіє мечем і луком"
+  },
+  {
+   "var": "CONTROLBAR:GondorDamrodRevive",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Revive the fallen Hero, Damrod",
+   "ru": "Воскресить павшего героя, Дамрода",
+   "sergii": "Відродити полеглого в бою Дамрода"
+  },
+  {
+   "var": "CONTROLBAR:GondorDenethorHotkey",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Denethor II, Son of Ecthelion (&T)",
+   "ru": "Дэнетор II, сын Эктелиона (&T)",
+   "sergii": "Денетор ІІ, син Ектеліона (&T)"
+  },
+  {
+   "var": "CONTROLBAR:GondorDenethorRevive",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Revive the fallen Steward of Gondor",
+   "ru": "Воскресить наместника Гондора",
+   "sergii": "Відродити полеглого в бою намісника Ґондору"
+  },
+  {
+   "var": "CONTROLBAR:GondorEarnurHotkey",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Eärnur",
+   "ru": "Эарнур (&E)",
+   "sergii": "Еарнур"
+  },
+  {
+   "var": "CONTROLBAR:GondorEarnurRecruit",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Recruit the Prince of Gondor\n\nA fierce warrior and leader of Men, Prince Eärnur led a Gondorian army to Arthedain's aid. Though he arrived too late to prevent Angmar's ruinous hammer blow, he banished the Witch-king from the northern realms, igniting a long rivalry with the Dark Lord's deadliest servant.",
+   "ru": "Призвать принца Гондора\n\nПылкий воин и предводитель людей, принц Эарнур привел гондорскую армию на помощь Артэдайну. Хотя он прибыл слишком поздно, чтобы предотвратить разрушительный удар молота Ангмара, он изгнал Короля-чародея из северных королевств, положив начало долгому соперничеству с самым смертоносным слугой Темного Властелина.",
+   "sergii": "Завербувати принца Ґондору\n\nВідважний воїн та лідер людей, принц Ернур привів ґондорську армію на допомогу Артедайну. Хоча він прибув надто пізно, аби запобігти нищівному удару молота Анґмару, він вигнав Короля-чаклуна з північних королівств, поклавши початок давньому суперництву з найсмертоноснішим слугою Темного Володаря.",
+   "було_у_Сергія": "Закликати принца Ґондору\n\nНесамовитий воїн та ватажок людей, принц Ернур привів ґондорську армію на допомогу Артедайну. Хоча він прибув надто пізно, аби запобігти нищівному удару молота Ангмара, він вигнав Короля-Чаклуна з північних королівств, поклавши початок давньому суперництву з найсмертоноснішим слугою Темного Володаря."
+  },
+  {
+   "var": "CONTROLBAR:GondorFaramirHotkey",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Faramir (&S)",
+   "ru": "Фарамир (&S)",
+   "sergii": "Фарамір (&S)"
+  },
+  {
+   "var": "CONTROLBAR:GondorFaramirRevive",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Revive the fallen Hero, Faramir",
+   "ru": "Воскресить павшего героя, Фарамира",
+   "sergii": "Відродити полеглого в бою Фараміра"
+  },
+  {
+   "var": "CONTROLBAR:GondorForlongHotkey",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Forlong (&E)",
+   "ru": "Форлонг (&E)",
+   "sergii": "Форлонґ (&E)",
+   "було_у_Сергія": "Форлонг (&E)"
+  },
+  {
+   "var": "CONTROLBAR:GondorForlongHotkey_GC",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Forlong (&W)",
+   "ru": "",
+   "sergii": "Форлонґ (&W)",
+   "було_у_Сергія": "Форлонг (&W)"
+  },
+  {
+   "var": "CONTROLBAR:GondorForlongRevive",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Revive the fallen Hero, Forlong",
+   "ru": "Воскресить павшего героя, Форлонга",
+   "sergii": "Відродити полеглого в бою Форлонґа",
+   "було_у_Сергія": "Воскресити полеглого в бою героя, Форлонга"
+  },
+  {
+   "var": "CONTROLBAR:GondorHalbaradHotkey",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Halbarad (&R)",
+   "ru": "Хальбарад (&R)",
+   "sergii": "Галбарад (&R)",
+   "було_у_Сергія": "Гальбарад (&R)"
+  },
+  {
+   "var": "CONTROLBAR:GondorHalbaradHotkey_GC",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Halbarad (&E)",
+   "ru": "",
+   "sergii": "Галбарад (&E)",
+   "було_у_Сергія": "Гальбарад (&E)"
+  },
+  {
+   "var": "CONTROLBAR:GondorHalbaradRevive",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Revive the fallen Hero, Halbarad",
+   "ru": "Воскресить павшего героя, Хальбарада",
+   "sergii": "Відродити полеглого в бою Галбарада",
+   "було_у_Сергія": "Воскресити полеглого в бою героя, Гальбарада"
+  },
+  {
+   "var": "CONTROLBAR:GoodPlayerExperienceMenu",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Powers Menu",
+   "ru": "Палантир способностей",
+   "sergii": "Меню Сили"
+  },
+  {
+   "var": "CONTROLBAR:Options",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "In game Menu",
+   "ru": "Меню игры",
+   "sergii": "Меню гри"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDescriptionMenFarm",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Generates resources based on available terrain\n Pasture Bonus - Reduced cost of cavalry \n 2 Farms: 5% \n 3 Farms: 10% \n 4 Farms: 15% \n 5 Farms: 20%",
+   "ru": "Производит ресурсы на доступной местности\nПастбища Гондора - снижает стоимость кавалерии\n2 фермы: 5%\n3 фермы: 10%\n4 фермы: 15%\n5 ферм: 20%",
+   "sergii": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\n Зменшує вартість кавалерії \n 2 Ферми: 5% \n 3 Ферми: 10% \n 4 Ферми: 15% \n 5 Ферми: 20%"
+  },
+  {
+   "var": "CONTROLBAR:UnderConstructionDesc",
+   "cat": "Кнопки: Війна Персня / службове",
+   "en": "Building: %.0f%%",
+   "ru": "Ход строительства: %.0f%%",
+   "sergii": "Будівництво: %.0f%%"
+  },
+  {
+   "var": "CONTROLBAR:Command_GondorCastleWallHub_BeginRamp",
+   "cat": "Кнопки: будівництво",
+   "en": "Build Ramp",
+   "ru": "Насыпь",
+   "sergii": "Насип"
+  },
+  {
+   "var": "CONTROLBAR:Command_GondorCastleWallHub_SmallWallSpan",
+   "cat": "Кнопки: будівництво",
+   "en": "Build Wall (&W)",
+   "ru": "Стена (&W)",
+   "sergii": "Стіна (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructArnorArrowTowerExpansionAdventure",
+   "cat": "Кнопки: будівництво",
+   "en": "Arrow Tower Expansion (&E)",
+   "ru": "",
+   "sergii": "Вежа лучників (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenArrowTowerExpansion",
+   "cat": "Кнопки: будівництво",
+   "en": "Arrow Tower Expansion (&E)",
+   "ru": "Башня стрелков (&E)",
+   "sergii": "Вежа лучників (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenBarracksWotR",
+   "cat": "Кнопки: будівництво",
+   "en": "Build Barracks (&W)",
+   "ru": "Построить казармы (&W)",
+   "sergii": "Казарми (&W)",
+   "було_у_Сергія": "Казарми (&W)",
+   "примітка": "взято наш переклад цієї ж англійської фрази"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenBlacksmith",
+   "cat": "Кнопки: будівництво",
+   "en": "Build Blacksmith (&R)",
+   "ru": "Построить кузню (&R)",
+   "sergii": "Ковальня (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenFarmGranary",
+   "cat": "Кнопки: будівництво",
+   "en": "Build Granary (&W)",
+   "ru": "Построить амбар (&W)",
+   "sergii": "Зерносховище (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenFortressWOTR",
+   "cat": "Кнопки: будівництво",
+   "en": "Outpost (&I)",
+   "ru": "Аванпост",
+   "sergii": "Аванпост (&I)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenMarketPlace",
+   "cat": "Кнопки: будівництво",
+   "en": "Build Marketplace (&M)",
+   "ru": "Побудувати рынок (&M)",
+   "sergii": "Ринок (&M)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenSolemnStatueExpansion",
+   "cat": "Кнопки: будівництво",
+   "en": "Solemn Statue Expansion (&T)",
+   "ru": "Торжественная статуя (&T)",
+   "sergii": "Прибудувати величну статую (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenStableWotR",
+   "cat": "Кнопки: будівництво",
+   "en": "Build Stables (&R)",
+   "ru": "Построить конюшню (&R)",
+   "sergii": "Конюшні (&R)",
+   "було_у_Сергія": "Стайні (&R)",
+   "примітка": "взято наш переклад цієї ж англійської фрази"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenStableWotRRealTime",
+   "cat": "Кнопки: будівництво",
+   "en": "Build Stables (&R)",
+   "ru": "Построить конюшню (&R)",
+   "sergii": "Конюшні (&R)",
+   "було_у_Сергія": "Стайні (&R)",
+   "примітка": "взято наш переклад цієї ж англійської фрази"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenStoneMaker",
+   "cat": "Кнопки: будівництво",
+   "en": "Build Stoneworker (&F)",
+   "ru": "Построить каменотес (&F)",
+   "sergii": "Каменярня (&F)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenTrebuchetExpansion",
+   "cat": "Кнопки: будівництво",
+   "en": "Trebuchet Expansion (&R)",
+   "ru": "Камнемет (&R)",
+   "sergii": "Прибудувати требушет (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenWorkshop",
+   "cat": "Кнопки: будівництво",
+   "en": "Build Siege Works (&N)",
+   "ru": "Построить мастерскую (&N)",
+   "sergii": "Майстерня (&N)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenWorkshopWotRRealTime",
+   "cat": "Кнопки: будівництво",
+   "en": "Build Siege Works (&T)",
+   "ru": "Построить мастерскую (&T)",
+   "sergii": "Майстерня (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMonumenttoElendil",
+   "cat": "Кнопки: будівництво",
+   "en": "Build Monument to Elendil (&U)",
+   "ru": "Построить статую Элендила (&U)",
+   "sergii": "Статуя Еленділа (&U)"
+  },
+  {
+   "var": "CONTROLBAR:MonumenttoElendilBuildTooltip",
+   "cat": "Кнопки: будівництво",
+   "en": "Provides a leadership bonus to nearby units\nHeals nearby allies and replenishes fallen units\n Detects stealth\n\n The High King of Gondor and Arnor was ever remembered in the South-kingdom, even in its days of waning.",
+   "ru": "Предоставляет лидерство ближайшим союзным войскам\nИсцеляет ближайших союзников и пополняет их ряды вне боя\nОбнаруживает скрытых врагов\n\nВерховного короля Гондора и Арнора всегда помнили в Южном королевстве, даже в дни его упадка.",
+   "sergii": "Надає бонус лідерства найближчим союзникам\nВідновлює здоров'я та чисельність одиниць в загонах, що перебувають поблизу\n Виявляє невидимі загони\n\n Великого короля Ґондору та Арнору завжди пам'ятали у Південному королівстві, навіть у часи його занепаду.",
+   "було_у_Сергія": "Надає бонус лідерства найближчим союзникам\nВідновлює здоров’я та чисельність союзників, що перебувають поблизу\n Виявляє приховані війська\n\n Великого короля Ґондору та Арнору завжди пам’ятали у Південному королівстві, навіть у часи його занепаду."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommand_ConstructIsengardCastleWallHub",
+   "cat": "Кнопки: будівництво",
+   "en": "Allows the construction of walls \n Build time: 25s",
+   "ru": "Позволяет строить стены",
+   "sergii": "Дозволяє будувати стіни \n Час побудови: 25 сек."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructArnorFortress",
+   "cat": "Кнопки: будівництво",
+   "en": "Recruits Builders and Heroes \n Can be upgraded with improvements and expansions",
+   "ru": "Позволяет обучать строителей и призывать героев\nПоддается разнообразным улучшениям",
+   "sergii": "Навчання будівельників, вербування героїв \n Можна покращувати й розширювати",
+   "було_у_Сергія": "Навчання будівельників, заклик героїв \n Піддається різноманітним удосконаленням"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMenArrowTowerExpansion",
+   "cat": "Кнопки: будівництво",
+   "en": "Short range defensive tower \n Benefits from the Flaming Munitions upgrade",
+   "ru": "Небольшая оборонительная башня\nУлучшается после исследования огненных боеприпасов",
+   "sergii": "Оборонна вежа малого радіуса \n Посилюється покращенням «Вогняні боєприпаси»"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMenBarracks",
+   "cat": "Кнопки: будівництво",
+   "en": "Trains the melee infantry of Gondor",
+   "ru": "Позволяет тренировать пехоту Гондора",
+   "sergii": "Тренування піхоти Ґондору"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMenBlacksmith",
+   "cat": "Кнопки: будівництво",
+   "en": "Provides worked metals as a resource based on available terrain\nResearches weapons and armour upgrades\n Reduces cost of upgrades \n Increases command point limit by 50",
+   "ru": "Производит ресурсы на доступной местности\nИсследует улучшения оружия и доспехов\nСнижает стоимость улучшений\nУвеличивает очки командования на 50",
+   "sergii": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nПокращення зброї та обладунків\n Знижує вартість покращень \n Збільшує ліміт очок командування на 50 од.",
+   "було_у_Сергія": "Виробництво оброблених металів як ресурсів залежно від доступної місцевості\nДослідження удосконалення зброї та обладунків\n Знижує вартість удосконалень \n Збільшення ліміту очок командування на 50"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMenFarmGranary",
+   "cat": "Кнопки: будівництво",
+   "en": "Provides stores as a resource based on available terrain \nReduced cost of cavalry \n Increases command point limit by 50",
+   "ru": "Производит ресурсы\nСнижает стоимость кавалерии\nУвеличивает очки командования на 50",
+   "sergii": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nЗнижує вартість кавалерії \n Збільшує ліміт очок командування на 50 од."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMenMarketPlace",
+   "cat": "Кнопки: будівництво",
+   "en": "Marketplace creates economy upgrades\n Limited to 1",
+   "ru": "Рынок позволят исследовать экономические улучшения",
+   "sergii": "Ринок дозволяє робити покращення, що пов'язані з економікою\n Максимум 1 одночасно",
+   "було_у_Сергія": "Винахід удосконалень, пов'язаних з економікою\n Обмеження - 1"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMenMarketPlace_Disabled",
+   "cat": "Кнопки: будівництво",
+   "en": "Increases resources from farms by 12%\n Limited to 1\n\n The Marketplace is already built",
+   "ru": "Увеличивает добычу ресурсов с ферм на 12%",
+   "sergii": "Збільшує видобуток ресурсів з зерносховищ на 12%\n Максимум 1 одночасно\n\n Ринок уже побудовано",
+   "було_у_Сергія": "Збільшує видобуток ресурсів з зерносховищ на 12%\n Обмеження — 1\n\n Ринок уже побудовано"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMenSolemnStatueExpansion",
+   "cat": "Кнопки: будівництво",
+   "en": "Fountain Guards will defend the statue and attack nearby enemies",
+   "ru": "Стражи фонтана будут защищать статую и атаковать ближайших врагов",
+   "sergii": "Вартові фонтану захищатимуть статую та атакуватимуть найближчих ворогів"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMenStable",
+   "cat": "Кнопки: будівництво",
+   "en": "Trains Gondor's cavalry",
+   "ru": "Позволяет тренировать кавалерию Гондора",
+   "sergii": "Дозволяє тренувати кавалерію Ґондору"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMenStoneMaker",
+   "cat": "Кнопки: будівництво",
+   "en": "Strengthens nearby structures \n Reduces cost of buildings \n Generates a small amount of resources \n Increases command point limit by 10\n Limited to 5",
+   "ru": "Добывает небольшое количество ресурсов\nУкрепляет ближайшие постройки\nУменьшает стоимость построек\nОграничение - 5\nУвеличивает очки командования на 10",
+   "sergii": "Зміцнює найближчі споруди \n Знижує вартість будівель \nПеріодично виробляє трохи ресурсів\n Збільшує ліміт очок командування на 10 од.\n Максимум 5 одночасно",
+   "було_у_Сергія": "Зміцнює найближчі споруди \n Знижує вартість будівель \n Виробляє невелику кількість ресурсів \n Збільшення ліміту очок командування на 10\n Обмеження — 5"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMenTrebuchetExpansion",
+   "cat": "Кнопки: будівництво",
+   "en": "Long range defensive weapon \n Benefits from the Flaming Munitions upgrade",
+   "ru": "Дальнобойное защитное орудие\nУлучшается после исследования огненных боеприпасов",
+   "sergii": "Далекобійна захисна зброя \n Удосконалюється з проведенням досліджень вогняних боєприпасів"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMenWorkshop",
+   "cat": "Кнопки: будівництво",
+   "en": "Constructs and upgrades Trebuchets\n At rank 2, repairs nearby siege engines",
+   "ru": "Позволяет строить и улучшать камнеметы\nНа уровне 2 восстанавливает ближайшие осадные орудия",
+   "sergii": "Будівництво та покращення облогової зброї\n На 2 рівні лагодить облогові машини поблизу",
+   "було_у_Сергія": "Будівництво та удосконалення облогової зброї\n На 2-му рівні ремонтує найближчу облогову зброю"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMenArcheryRange",
+   "cat": "Кнопки: будівництво",
+   "en": "Trains and upgrades Gondor's Archers",
+   "ru": "Обучение лучников Гондора",
+   "sergii": "Дозволяє тренувати та покращувати лучників Ґондору",
+   "було_у_Сергія": "Дозволяє тренувати та удосконалювати лучників Ґондору"
+  },
+  {
+   "var": "CONTROLBAR:KingEomerRestoration",
+   "cat": "Кнопки: здібності героїв",
+   "en": "Restoration (&T)",
+   "ru": "Восстановление (&T)",
+   "sergii": "Відновлення (&T)"
+  },
+  {
+   "var": "CONTROLBAR:Stop",
+   "cat": "Кнопки: здібності загонів",
+   "en": "&Stop",
+   "ru": "Остановка (&S)",
+   "sergii": "Зупинитись (&S)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandStop",
+   "cat": "Кнопки: здібності загонів",
+   "en": "Stop",
+   "ru": "Остановить",
+   "sergii": "Зупинитись"
+  },
+  {
+   "var": "CONTROLBAR:DenethorFavor",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Stalwart Defense (&T)",
+   "ru": "Стойкая оборона (&T)",
+   "sergii": "Стійка оборона (&T)"
+  },
+  {
+   "var": "CONTROLBAR:EvacuateAll",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Evacuate All (&E)",
+   "ru": "Покинуть постройку (&E)",
+   "sergii": "Покинути будівлю (&E)"
+  },
+  {
+   "var": "CONTROLBAR:GarrisonExit",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Evacuate",
+   "ru": "Выход",
+   "sergii": "Вихід"
+  },
+  {
+   "var": "CONTROLBAR:RadialBack",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Back (&A)",
+   "ru": "Назад (A)",
+   "sergii": "Назад (&A)"
+  },
+  {
+   "var": "CONTROLBAR:SelectRevivablesArnorFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Heroes (&E)",
+   "ru": "Герои (&E)",
+   "sergii": "Герої (&E)"
+  },
+  {
+   "var": "CONTROLBAR:SelectRevivablesDwarvenFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Heroes (&E)",
+   "ru": "Герои (&E)",
+   "sergii": "Герої (&E)"
+  },
+  {
+   "var": "CONTROLBAR:SelectRevivablesElvenFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Heroes (&E)",
+   "ru": "Герои (&E)",
+   "sergii": "Герої (&E)"
+  },
+  {
+   "var": "CONTROLBAR:SelectRevivablesGoblinFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Heroes (&E)",
+   "ru": "Герои (&E)",
+   "sergii": "Герої (&E)"
+  },
+  {
+   "var": "CONTROLBAR:SelectRevivablesIsengardFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Heroes (&E)",
+   "ru": "Герои (&E)",
+   "sergii": "Герої (&E)"
+  },
+  {
+   "var": "CONTROLBAR:SelectRevivablesMenFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Heroes (&E)",
+   "ru": "Герои (&E)",
+   "sergii": "Герої (&E)"
+  },
+  {
+   "var": "CONTROLBAR:SelectRevivablesMordorFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Heroes (&E)",
+   "ru": "Герои (&E)",
+   "sergii": "Герої (&E)"
+  },
+  {
+   "var": "CONTROLBAR:SelectRevivablesShireFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Heroes (&W)",
+   "ru": "Герои (&W)",
+   "sergii": "Герої (&W)"
+  },
+  {
+   "var": "CONTROLBAR:SelectUpgradesDwarvenFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Fortress Upgrades (&R)",
+   "ru": "Улучшения крепости (&R)",
+   "sergii": "Удосконалення фортеці (&R)"
+  },
+  {
+   "var": "CONTROLBAR:SelectUpgradesElvenFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Fortress Upgrades (&R)",
+   "ru": "Улучшения крепости (&R)",
+   "sergii": "Удосконалення фортеці (&R)"
+  },
+  {
+   "var": "CONTROLBAR:SelectUpgradesIsengardFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Upgrade Fortress (&R)",
+   "ru": "Улучшения крепости (&R)",
+   "sergii": "Удосконалення фортеці (&R)"
+  },
+  {
+   "var": "CONTROLBAR:SelectUpgradesMenFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Fortress Upgrades (&R)",
+   "ru": "Улучшения крепости (&R)",
+   "sergii": "Удосконалення фортеці (&R)"
+  },
+  {
+   "var": "CONTROLBAR:SelectUpgradesMordorFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Upgrade Fortress (&R)",
+   "ru": "Улучшения крепости (&R)",
+   "sergii": "Удосконалення фортеці (&R)"
+  },
+  {
+   "var": "CONTROLBAR:SelectUpgradesWildFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Fortress Upgrades (&R)",
+   "ru": "Улучшения крепости (&R)",
+   "sergii": "Удосконалення фортеці (&R)"
+  },
+  {
+   "var": "CONTROLBAR:StartCitadelSelfRepair",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Self Repair",
+   "ru": "Ремонт",
+   "sergii": "Автоматичний ремонт"
+  },
+  {
+   "var": "CONTROLBAR:StartSelfRepair",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Self Repair",
+   "ru": "Ремонт",
+   "sergii": "Автоматичний ремонт"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandRadialBack",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Return to the previous button set",
+   "ru": "Возвращение к предыдущим действиям",
+   "sergii": "Повернення до попередніх дій"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandSelectRevivablesArnorFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Recruit and revive Heroes",
+   "ru": "Призыв и воскрешение героев",
+   "sergii": "Вербування та відродження героїв"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandSelectRevivablesDwarvenFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Recruit and revive Heroes",
+   "ru": "Призыв и воскрешение героев",
+   "sergii": "Вербування та відродження героїв"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandSelectRevivablesElvenFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Recruit and revive Heroes",
+   "ru": "Призыв и воскрешение героев",
+   "sergii": "Вербування та відродження героїв"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandSelectRevivablesIsengardFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Recruit and Revive Heroes",
+   "ru": "Позволяет призывать и воскрешать героев",
+   "sergii": "Вербування та відродження героїв"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandSelectRevivablesMenFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Recruit and revive Heroes",
+   "ru": "Призыв и воскрешение героев",
+   "sergii": "Вербування та відродження героїв"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandSelectRevivablesMenFortress_WOTR",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Recruit and revive Heroes \n\n In War of the Ring, you can recruit the Ring Hero but only revive other Heroes that die during this battle",
+   "ru": "Призыв и воскрешение героев\n\nВ Битве за Кольцо вы можете нанять героя Кольца, но других героев, которые погибли во время последней битвы, вы можете только воскресить",
+   "sergii": "Вербування та відродження героїв \n\n У «Війні Персня» ви можете завербувати героя Персня, але інших героїв, які загинули під час останньої битви, ви можете лише відродити."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandSelectRevivablesMordorFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Recruit and Revive Heroes",
+   "ru": "Позволяет призывать и воскрешать героев",
+   "sergii": "Вербування та відродження героїв"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandSelectRevivablesWildFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Recruit and revive Heroes",
+   "ru": "Призыв и воскрешение героев",
+   "sergii": "Вербування та відродження героїв"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandSelectUpgradesDwarvenFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Purchase upgrades and additional defenses for the Fortress",
+   "ru": "Исследование улучшений и изобретение дополнительной защиты для крепости",
+   "sergii": "Дозволяє придбати покращення та укріплювати захист фортеці",
+   "було_у_Сергія": "Дозволяє досліджувати можливості удосконалення та зміцнювати захист фортеці"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandSelectUpgradesElvenFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Purchase upgrades and additional defenses for the Fortress",
+   "ru": "Исследование улучшений и дополнительной защиты для крепости",
+   "sergii": "Дозволяє придбати покращення та укріплювати захист фортеці",
+   "було_у_Сергія": "Дозволяє досліджувати можливості удосконалення та зміцнювати захист фортеці"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandSelectUpgradesIsengardFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Purchase upgrades and additional defenses for the Fortress",
+   "ru": "Исследование улучшений и дополнительной защиты для крепости",
+   "sergii": "Дозволяє придбати покращення та укріплювати захист фортеці",
+   "було_у_Сергія": "Дозволяє досліджувати можливості удосконалення та зміцнювати захист фортеці"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandSelectUpgradesLAHeraldry",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Purchase upgrades and additional defenses for the Standards of the Free Peoples",
+   "ru": "Позволяет исследовать улучшения и дополнительную защиту для Штандартов свободных народов",
+   "sergii": "Дозволяє придбати покращення та укріплювати захист для Прапорів Вільних народів",
+   "було_у_Сергія": "Дозволяє досліджувати удосконалення та зміцнювати захист для Прапорів Вільних народів"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandSelectUpgradesMenFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Purchase upgrades and additional defenses for the Fortress",
+   "ru": "Исследование улучшений и дополнительной защиты для крепости",
+   "sergii": "Дозволяє придбати покращення та укріплювати захист фортеці",
+   "було_у_Сергія": "Дозволяє досліджувати можливості удосконалення та зміцнювати захист фортеці"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandSelectUpgradesMordorFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Purchase upgrades and additional defenses for the Fortress",
+   "ru": "Исследование улучшений и дополнительной защиты для крепости",
+   "sergii": "Дозволяє придбати покращення та укріплювати захист фортеці",
+   "було_у_Сергія": "Дозволяє досліджувати можливості удосконалення та зміцнювати захист фортеці"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandSelectUpgradesWildFortress",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Purchase upgrades and additional defenses for the Fortress",
+   "ru": "Исследование улучшений и дополнительной защиты для крепости",
+   "sergii": "Дозволяє придбати покращення та укріплювати захист фортеці",
+   "було_у_Сергія": "Дозволяє досліджувати можливості удосконалення та зміцнювати захист фортеці"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDenethorFavor",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Requires Bulwark of the West upgrade \n Summons two battalions of Guards of the Citadel \n \n Left click icon then left click on target area",
+   "ru": "Необходимо улучшение Оплот запада\nВременно призываются два отряда стражей Цитадели\n\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "sergii": "Потребує покращення «Оплот Заходу» \n Тимчасово прикликає 2 загони Варти Цитаделі \n \n Клікніть на іконку, потім оберіть ділянку",
+   "було_у_Сергія": "Необхідно: удосконалення «Оплот Заходу» \n Дозволяє тимчасово закликати два загони Вартових Цитаделі \n \n Клікніть на піктограмі, а потім - на прохідній ділянці місцевості"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEvacuate",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Order all units to exit",
+   "ru": "Приказать всем войскам выйти",
+   "sergii": "Наказати ВСІМ загонам покинути будівлю",
+   "було_у_Сергія": "Наказати всім військам вийти"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipStructureExit",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Order this unit to exit",
+   "ru": "Выход из постройки",
+   "sergii": "Вихід із будівлі.",
+   "було_у_Сергія": "Наказати ЦЬОМУ загону покинути будівлю",
+   "примітка": "взято наш переклад цієї ж англійської фрази"
+  },
+  {
+   "var": "CONTROLBAR:TooltipStartSelfRepair",
+   "cat": "Кнопки: кнопки будівель",
+   "en": "Allow the structure to repair itself automatically",
+   "ru": "Автоматический ремонт постройки",
+   "sergii": "Увімкнути автоматичний ремонт"
+  },
+  {
+   "var": "CONTROLBAR:Command_ConstructMenWallHubExpansion",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Wall Hub Expansion (&W)",
+   "ru": "Башенка (&W)",
+   "sergii": "Стінна вежа (&W)"
+  },
+  {
+   "var": "CONTROLBAR:Command_GondorCastleWallHub_BeginWallSpan",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Build Wall (&W)",
+   "ru": "Стена (&W)",
+   "sergii": "Стіна (&W)"
+  },
+  {
+   "var": "CONTROLBAR:Command_IsengardCastleWallHub_BeginWallSpan",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Build Wall (&W)",
+   "ru": "Стена (&W)",
+   "sergii": "Стіна (&W)"
+  },
+  {
+   "var": "CONTROLBAR:Command_MenWallUpgradeToHub",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Wall Hub (&W)",
+   "ru": "Башенка (&W)",
+   "sergii": "Стінна вежа (&W)",
+   "було_у_Сергія": "Стінна вежа (&W)",
+   "примітка": "взято наш переклад цієї ж англійської фрази"
+  },
+  {
+   "var": "CONTROLBAR:Command_MenWallUpgradeToTrebuchet",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Trebuchet (&S)",
+   "ru": "Камнемет (&S)",
+   "sergii": "Требушет (&S)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructArnorTrebuchetExpansion",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "&Trebuchet Expansion",
+   "ru": "Требушет (&T)",
+   "sergii": "Прибудувати требушет (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructArnorTrebuchetExpansionAdventure",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Trebuchet Expansion (&W)",
+   "ru": "",
+   "sergii": "Прибудувати требушет (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorLamedonFighterHorde",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Lamedon Clansmen (&W)",
+   "ru": "Мечники Ламедона (&W)",
+   "sergii": "Мечники Ламедона (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorPeasant",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Peasant",
+   "ru": "Крестьянин",
+   "sergii": "Селянин"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorPinnathGelinHorde",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Pinnath Gelin Riders (&W)",
+   "ru": "Всадники Пиннат Гелина (&W)",
+   "sergii": "Вершники Піннат-Ґеліна (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorRangerSpearHorde",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Ithilien Sentinels (&W)",
+   "ru": "Стражи Итилиэна (&W)",
+   "sergii": "Вартові Ітілієну (&W)",
+   "було_у_Сергія": "Вартові Ітілієна (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorSentryTower",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Build Battle Tower",
+   "ru": "Башня стрелков",
+   "sergii": "Оборонна вежа",
+   "було_у_Сергія": "Побудувати оборонну вежу",
+   "примітка": "взято наш переклад цієї ж англійської фрази"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorTrebuchet",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Trebuchet (&W)",
+   "ru": "Камнемет (&W)",
+   "sergii": "Требушет (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorWall",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Build Gondor &Wall",
+   "ru": "Стена (&W)",
+   "sergii": "Стіна (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGrandHarvestUpgrade",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Grand Harvest (&W)",
+   "ru": "Изобилие (&W)",
+   "sergii": "Великий врожай (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenBarracksWotRRealTime",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Build Barracks (&W)",
+   "ru": "Построить казармы (&W)",
+   "sergii": "Казарми (&W)",
+   "було_у_Сергія": "Казарми (&W)",
+   "примітка": "взято наш переклад цієї ж англійської фрази"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyGondorBasicTraining",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Research Banners of the White Tree (&W)",
+   "ru": "Знамена Белого древа (&W)",
+   "sergii": "Прапори Білого Дерева (&W)"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyNumenoreanEngineering",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Númenórean Engineering (&W)",
+   "ru": "Нуменорская инженерия (&W)",
+   "sergii": "Нуменорська інженерія (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorBlackrootArcherHorde_SwornAllegiance",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Strong vs. Infantry and Monsters \n Come equipped with Armaments of the White City \n \n The inhabitants of the Blackroot Vale were known in Gondor for their archery skills, and their lord Duinhir took five-hundred bowmen to the Battle of the Pelennor Fields.",
+   "ru": "Сильны против пехоты и монстров\nПризываются с вооружением Белого города\nВойска из провинций\n\nЖители долины Черного корня были известны в Гондоре своими навыками стрельбы из лука. Их лорд Дуинхир призвал пятьсот лучников на битву при Пеленнорских полях.",
+   "sergii": "Ефективні проти піхоти та створінь \n Мають озброєння Білого Міста \n \n Жителі Долини Чорнокореня славилися по всьому Ґондору як неперевершені стрільці. Їхній володар Дуїнхір привів 500 вірних лучників на Битву на Пеленнорських полях.",
+   "було_у_Сергія": "Сильні проти піхоти та монстрів \n Закликаються з озброєнням Білого Міста \n \n Жителі Долини Чорнокореня славилися в усьому Ґондорі як неперевершені стрільці. Їхній лорд Дуїнхір привів п'ятсот вірних лучників на Битву на Пеленнорських полях, аби виконати свій обов'язок перед троном."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorFighterHorde_Osgiliath",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Strong vs. Pikemen\n Able to switch formation for improved defensive capabilities \n \n Even during its decline at the end of the Third Age, Minas Tirith maintained a sizeable garrison of men-at-arms.",
+   "ru": "Сильны против пикинеров\nМогут менять строй для улучшения защитных характеристик\n\nДаже во время своего упадка в конце Третьей эпохи, Минас Тирит поддерживали значительные силы вооруженных людей.",
+   "sergii": "Ефективні проти пікінерів\n Здатні змінювати стрій для підвищення оборони \n \n Навіть під час занепаду наприкінці Третьої Епохи Мінас-Тіріт утримував чисельний гарнізон воїнів."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorLamedonFighterHorde",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Strong vs. Pikemen \n \n Hailing from the forested highlands of Lamedon, these men have long defended their lands from Southron incursions.",
+   "ru": "Сильны против пикинеров\nВойска из провинций\n\nЭти люди, родом из нагорья Ламедон, издавна защищали свои земли от набегов войск южан.",
+   "sergii": "Ефективні проти пікінерів \n \n Вихідці з лісистого високогір'я Ламедона, ці люди тривалий час захищали свої землі від набігів людей з півдня."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorLamedonFighterHorde_SwornAllegiance",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Strong vs. Pikemen \n Come equipped with Armaments of the White City \n \n Hailing from the forested highlands of Lamedon, these men have long defended their lands from Southron incursions.",
+   "ru": "Сильны против пикинеров\nПризываются с вооружением Белого города\nВойска из провинций\n\nЭти люди, родом из нагорья Ламедон, издавна защищали свои земли от набегов войск южан.",
+   "sergii": "Ефективні проти пікінерів \n Мають озброєння Білого Міста \n \n Вихідці з лісистих високогір'їв Ламедона, ці люди тривалий час захищали свої землі від набігів південців.",
+   "було_у_Сергія": "Сильні проти пікінерів \n Закликаються з озброєнням Білого Міста \n \n Вихідці з лісистого високогір'я Ламедона, ці люди тривалий час захищали свої землі від набігів людей півдня."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorPeasant",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Gondor Peasant \n Can repair buildings",
+   "ru": "Гондорский крестьянин\nМожет ремонтировать постройки",
+   "sergii": "Селянин Ґондору \n Може ремонтувати побудови"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorRangerSpearHorde",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Strong vs. Cavalry and Heroes \n Stealth near trees\n \n Many were the secret camps and stores of the Rangers of Ithilien, well-guarded by staunch warriors.",
+   "ru": "Сильны против кавалерии и героев\nМогут скрываться вблизи деревьев\n\nЭти стойкие воины охраняли многочисленные тайные лагеря и хранилища Итилиэна.",
+   "sergii": "Ефективні проти кавалерії та героїв \n Можуть ховатися поблизу дерев\n \n Ці стійкі воїни невтомно охороняють безліч таємних таборів та сховищ Ітілієну.",
+   "було_у_Сергія": "Ефективні проти кавалерії та героїв \n Можуть ховатися поблизу дерев\n \n У густих лісах Ітілієна сховано безліч таємних таборів і складів, які невтомно охороняють ці стійкі воїни."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorTrebuchet",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Strong vs. Structures \n\n A Trebuchet launches a huge boulder with terrifying speed, splintering defences and crushing warriors.",
+   "ru": "Сильны против строений\nЭто орудие запускает огромный валун с ужасающей скоростью, уничтожая оборону и сокрушая воинов.",
+   "sergii": "Вкрай ефективні проти споруд та скупчення військ \n\n Требушети жбурляють величезне каміння на велику відстань."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommand_ConstructArnorWallHubExpansion",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Allows the construction of walls",
+   "ru": "Позволяет строить стены",
+   "sergii": "Дозволяє будувати стіни"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommand_ConstructElvenWallHubExpansion",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Allows the construction of walls",
+   "ru": "Позволяет строить стены",
+   "sergii": "Дозволяє будувати стіни"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommand_ConstructMenWallHubExpansion",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Allows the construction of walls",
+   "ru": "Позволяет строить стены",
+   "sergii": "Дозволяє будувати стіни"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommand_GondorCastleWallHub_BeginWallSpan",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Left click and drag to construct a Wall",
+   "ru": "Щелкните мышью и переместите ее - вы построите стену",
+   "sergii": "Клікніть і потягніть мишу, щоб побудувати стіну"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommand_MenWallUpgradeToHub",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Allows construction of additional walls",
+   "ru": "Позволяет строить дополнительные стены",
+   "sergii": "Дозволяє будувати додаткові стіни"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommand_MenWallUpgradeToTrebuchet",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Long range defensive weapon",
+   "ru": "Дальнобойное защитное орудие",
+   "sergii": "Оборонна зброя великої дальності",
+   "було_у_Сергія": "Далекобійна оборонна зброя",
+   "примітка": "взято наш переклад цієї ж англійської фрази"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructArnorTrebuchetExpansion",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Long range defensive weapon",
+   "ru": "Дальнобойное защитное орудие\nУлучшается после исследования огненных боеприпасов",
+   "sergii": "Оборонна зброя великої дальності",
+   "було_у_Сергія": "Далекобійна оборонна зброя",
+   "примітка": "взято наш переклад цієї ж англійської фрази"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMenFarm",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Provides food as a resource based on available terrain \nReduced cost of cavalry \n Increases command point limit by 50",
+   "ru": "Производит ресурсы\nСнижает стоимость кавалерии\nУвеличивает очки командования на 50",
+   "sergii": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nЗнижує вартість кавалерії \n Збільшує ліміт очок командування на 50 од."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTraining",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Allows battalions to purchase the Banners of the White Tree upgrade \n Increases a battalion to Level 2",
+   "ru": "Позволяет отрядам приобретать Знамена Белого древа\nПовышает отряд до уровня 2",
+   "sergii": "Дає змогу кожному загону придбати прапори Білого Дерева \n Підвищує рівень загону до 2"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyGondorBasicTrainingArnor",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Allows battalions to purchase the Banners of the Seven Stars upgrade \n Increases a battalion to Level 2",
+   "ru": "Позволяет отрядам приобретать Знамена Вечерней звезды\nПовышает отряд до уровня 2",
+   "sergii": "Дає змогу кожному загону придбати прапори Семи Зірок \n Підвищує рівень загону до 2"
+  },
+  {
+   "var": "CONTROLBAR:TooltipCommand_DwarvenCastleWallHub_BeginWallSpan",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Left click and drag to construct a Wall",
+   "ru": "Щелкните мышью и переместите ее - вы построите стену",
+   "sergii": "Клікніть і потягніть мишу, щоб побудувати стіну"
+  },
+  {
+   "var": "CONTROLBAR:TooltipCommand_IsengardCastleWallHub_BeginWallSpan",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "Left click and drag to construct a Wall",
+   "ru": "Стена (&W)",
+   "sergii": "Клікніть і потягніть мишу, щоб побудувати стіну"
+  },
+  {
+   "var": "CONTROLBAR:TransportEvacuate",
+   "cat": "Кнопки: кнопки окремих карт",
+   "en": "E&vacuate",
+   "ru": "Высадка (&V)",
+   "sergii": "Висадка (&V)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorArcherHorde",
+   "cat": "Кнопки: найм загонів",
+   "en": "Archers of Minas Tirith (&E)",
+   "ru": "Лучники Минас Тирита (&E)",
+   "sergii": "Лучники Мінас-Тіріта (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorBlackrootArcherHorde",
+   "cat": "Кнопки: найм загонів",
+   "en": "Blackroot Vale Archers (&W)",
+   "ru": "Лучники долины Чернокорня (&W)",
+   "sergii": "Лучники Долини Чорнокореня (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorBlackrootArcherHordeWotR",
+   "cat": "Кнопки: найм загонів",
+   "en": "Blackroot Vale Archers (&R)",
+   "ru": "",
+   "sergii": "Лучники Долини Чорнокореня (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorDolArcherHorde_GC",
+   "cat": "Кнопки: найм загонів",
+   "en": "Dol Amroth Archers (&R)",
+   "ru": "",
+   "sergii": "Лучники Дол-Амроту (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorFighterHorde",
+   "cat": "Кнопки: найм загонів",
+   "en": "Soldiers of Minas Tirith (&T)",
+   "ru": "Солдаты Минас Тирита (&T)",
+   "sergii": "Воїни Мінас-Тіріта (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorKnightHorde",
+   "cat": "Кнопки: найм загонів",
+   "en": "Knights of Minas Tirith (&E)",
+   "ru": "Рыцари Минас Тирита (&E)",
+   "sergii": "Лицарі Мінас-Тіріта (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorKnightsofDolHorde",
+   "cat": "Кнопки: найм загонів",
+   "en": "Swan Knights (&E)",
+   "ru": "Рыцари Дол Амрота (&E)",
+   "sergii": "Лицарі Дол-Амрота (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorLinhirPikeHorde",
+   "cat": "Кнопки: найм загонів",
+   "en": "Linhir Spearmen (&E)",
+   "ru": "Копейщики Линхира (&E)",
+   "sergii": "Списоносці Лінхіра (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorPinnathGelinHorde_GC",
+   "cat": "Кнопки: найм загонів",
+   "en": "Pinnath Gelin Riders (&S)",
+   "ru": "",
+   "sergii": "Вершники Піннат-Ґеліна (&S)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorRangerHorde",
+   "cat": "Кнопки: найм загонів",
+   "en": "Ithilien Rangers (&R)",
+   "ru": "Следопыты Итилиэна (&R)",
+   "sergii": "Слідопити Ітілієну (&R)",
+   "було_у_Сергія": "Слідопити Ітілієна (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorRangerSpearHordeAdventure",
+   "cat": "Кнопки: найм загонів",
+   "en": "Ithilien Sentinels (&E)",
+   "ru": "Стражи Итилиэна (&E)",
+   "sergii": "Вартові Ітілієну (&E)",
+   "було_у_Сергія": "Вартові Ітілієна (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorSpearmenHorde",
+   "cat": "Кнопки: найм загонів",
+   "en": "Spearmen of Minas Tirith (&S)",
+   "ru": "Пикинеры Минас Тирита (&S)",
+   "sergii": "Списоносці Мінас-Тіріта (&S)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructLossarnachAxeMenHorde",
+   "cat": "Кнопки: найм загонів",
+   "en": "Lossarnach Axemen (&R)",
+   "ru": "Топорщики Лоссарнаха (&R)",
+   "sergii": "Сокироносці Лоссарнаха (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenPorter",
+   "cat": "Кнопки: найм загонів",
+   "en": "Builder (&W)",
+   "ru": "Строитель (&W)",
+   "sergii": "Будівельник (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorArcherHorde",
+   "cat": "Кнопки: найм загонів",
+   "en": "Requires Level 2 Archery Range \n Strong vs. Infantry and Monsters \n Able to switch formation for improved offensive capabilities \n \nWielding great bows of heartwood, Anórien archers played a vital role in the defense of the White City.",
+   "ru": "Требуется Стрельбище 2 уровня\nСильны против пехоты и монстров\nМогут менять строй для улучшения атакующих характеристик\n\nОбладавшие упуругими луками из сердцевины деревьев, лучники Анориэна играли важную роль в защите Белого города.",
+   "sergii": "Необхідно: Стрільбище 2 рівня \n Ефективні проти піхоти та створінь \n Здатні змінювати стрій для підвищення ефективності атаки \n \nВолодіючи величними луками з серцевини дерев, лучники Анорієну відіграли вирішальну роль у обороні Білого Міста.",
+   "було_у_Сергія": "Необхідно: Стрільбище 2-го рівня \n Сильні проти піхоти та монстрів \n Здатні змінювати стрій для підвищення ефективності атаки \n \nВолодіючи величними луками з серцевини деревини, лучники Анорієну відіграли вирішальну роль у обороні Білого Міста."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorBlackrootArcherHorde",
+   "cat": "Кнопки: найм загонів",
+   "en": "Strong vs. Infantry and Monsters \n \n The inhabitants of the Blackroot Vale were known in Gondor for their archery skills, and their lord Duinhir took five-hundred bowmen to the Battle of the Pelennor Fields.",
+   "ru": "Сильны против пехоты и монстров\nВойска из провинций\n\nЖители долины Черного корня были известны в Гондоре своими навыками стрельбы из лука. Их лорд Дуинхир призвал пятьсот лучников на битву при Пеленнорских полях.",
+   "sergii": "Ефективні проти піхоти та створінь \n \n Жителі Долини Чорнокореня славилися в усьому Ґондорі як неперевершені стрільці. Їхній лорд Дуїнхір привів 500 вірних лучників на Битву на Пеленнорських полях, аби виконати свій обов'язок перед троном."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorFighterHorde",
+   "cat": "Кнопки: найм загонів",
+   "en": "Requires Level 2 Barracks \n Strong vs. Pikemen\n Able to switch formation for improved defensive capabilities \n \n Even during its decline at the end of the Third Age, Minas Tirith maintained a sizeable garrison of men-at-arms.",
+   "ru": "Требуются Казармы 2 уровня\nСильны против пикинеров\nМогут менять строй для улучшения защитных характеристик\n\nДаже во время своего упадка в конце Третьей эпохи, Минас Тирит поддерживали значительные силы вооруженных людей.",
+   "sergii": "Необхідно: Казарми 2 рівня \n Ефективні проти пікінерів\n Здатні змінювати стрій для підвищення оборони \n \n Навіть під час занепаду наприкінці Третьої Епохи Мінас-Тіріт утримував чисельний гарнізон воїнів.",
+   "було_у_Сергія": "Необхідно: Казарми 2-го рівня \n Сильні проти пікінерів\n Здатні змінювати стрій для підвищення захисних характеристик \n \n Навіть під час занепаду наприкінці Третьої Епохи Мінас-Тіріт утримував чисельний гарнізон воїнів."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorFountainGuardHorde",
+   "cat": "Кнопки: найм загонів",
+   "en": "Requires the Tower of Ecthelion upgrade\n Hero Unit. Limited to 2. \nStrong vs. Cavalry \n Able to switch formation for improved defensive capabilities \n \n These men are the silent Guards of the White Tree. Their arms and armour, inlaid with Mithril, invoke the memory of lost Númenor.",
+   "ru": "Требуется улучшение Башня Эктелиона\nГероический отряд. Ограничение - 2\nСильны против кавалерии\nМогут менять строй для улучшения защитных характеристик\n\nЭти люди - безмолвные стражи Белого древа. Их оружие и доспехи, инкрустированные мифрилом, напоминают им о потерянном королевстве Нуменор.",
+   "sergii": "Потребує покращення «Вежа Ектеліона»\n Героїчний загін. Максимум 2 одночасно. \nЕфективні проти кавалерії \n Здатні змінювати стрій для підвищення оборони \n \n Ці люди — мовчазні вартові Білого Дерева. Їхні обладунки та зброя, інкрустовані міфрилом, нагадують про втрачений Нуменор.",
+   "було_у_Сергія": "Необхідно: удосконалення «Вежа Ектеліона»\n Героїчні війська. Обмеження - 2. \nСильні проти кавалерії \n Здатні змінювати стрій для підвищення захисних характеристик \n \n Ці люди — мовчазні вартові Білого Дерева. Їхні обладунки та зброя, інкрустовані міфрилом, викликають у пам'яті втрачений Нуменор."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorLancerHorde",
+   "cat": "Кнопки: найм загонів",
+   "en": "Requires Level 2 Stables \n Strong vs. Swordsmen and Archers \n Able to switch formation for improved offensive capabilities \n \n Minas Tirith maintained a small, elite cavalry division for the purpose of sorties and harassing the Enemy.",
+   "ru": "Требуются Конюшни 2 уровня\nСильны против лучников и мечников\nМогут менять строй для улучшения защитных характеристик\n\nМинас Тирит содержал небольшой элитный дивизион кавалерии с целью вылазок и преследования врага.",
+   "sergii": "Необхідно: Конюшні 2 рівня \n Ефективні проти мечників і лучників \n Здатні змінювати стрій для підвищення ефективності атаки \n \n Мінас-Тіріт утримував невеликий елітний підрозділ кінноти для здійснення вилазок та виснаження ворога.",
+   "було_у_Сергія": "Необхідно: Стайні 2-го рівня \n Сильні проти мечників та лучників \n Здатні змінювати стрій для підвищення ефективності атаки \n \n Мінас-Тіріт утримував невеликий елітний підрозділ кінноти для здійснення вилазок та виснаження ворога."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorLinhirPikeHorde",
+   "cat": "Кнопки: найм загонів",
+   "en": "Strong vs. Cavalry and Heroes \n Able to switch formation for improved defensive capabilities \n \n During the last days of the War of the Ring, the Men of Linhir stood valiantly against a combined assault of Corsairs and Haradrim.",
+   "ru": "Сильны против кавалерии и героев\nВойска из провинций\nМогут менять строй для улучшения защитных характеристик\n\nВ последние дни Войны Кольца люди Линхира отважно выступали против совместных сил пиратов Умбара и харадрим.",
+   "sergii": "Ефективні проти кавалерії та героїв \n Здатні змінювати стрій для підвищення оборони \n \n У останні дні Війни Персня люди Лінхіра хоробро билися проти спільного нападу піратів та харадримів."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorPinnathGelinHorde",
+   "cat": "Кнопки: найм загонів",
+   "en": "Strong vs. Swordsmen and Archers \n \n As Pinnath Gelin was a loyal province of Gondor, Hirluin marched some three-hundred well-armed soldiers to the aid of Minas Tirith during the Battle of the Pelennor Fields.",
+   "ru": "Сильны против лучников и пехоты\nВойска из провинций\n\nПоскольку Пиннат Гелин была подвластной провинцией Гондора, Хирлуин отправил триста хорошо вооруженных солдат на помощь Минас Тириту во время битвы на Пеленнорских полях.",
+   "sergii": "Ефективні проти мечників і лучників \n \n Як вірна провінція Ґондору, лорд Гірлуїн із Піннат-Ґеліна привів 300 відбірних воїнів на допомогу Мінас-Тіріту в час Битви на Пеленнорських полях."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorRangerHorde",
+   "cat": "Кнопки: найм загонів",
+   "en": "Requires Level 3 Archery Range and Faramir \n Strong vs. Infantry and Monsters \n Stealth near trees \n Can fire Longshot arrow volleys\n \n The Rangers are the descendants of the people who once dwelt in Ithilien, before it fell from Gondor's control.",
+   "ru": "Требуется Стрельбище 3 уровня и призванный Фарамир\nСильны против пехоты и монстров\nМогут скрываться вблизи деревьев\nМогут обстреливать врагов залпами стрел\n\nСледопыты - потомки людей, которые когда-то жили в Итилиэне, пока эта земля не вышла из-под контроля Гондора.",
+   "sergii": "Необхідно: Стрільбище 3 рівня й Фарамір на полі бою \n Ефективні проти піхоти та створінь \n Можуть ховатися поблизу дерев \n Можуть обстрілювати ворогів залпами стріл\n \n Слідопити є нащадками людей, що колись мешкали в Ітілієні, перш ніж той відійшов з-під контролю Ґондору.",
+   "було_у_Сергія": "Необхідно: Стрільбище 3-го рівня та закликаний Фарамір \n Сильні проти піхоти та монстрів \n Можуть ховатися поблизу дерев \n Можуть обстрілювати ворогів залпами стріл\n \n Слідопити є нащадками люду, що колись мешкав в Ітілієні, перш ніж той випав з-під контролю Ґондору."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorSpearmenHorde",
+   "cat": "Кнопки: найм загонів",
+   "en": "Requires Level 2 Barracks \n Strong vs. Cavalry and Heroes \n Able to switch formation for improved defensive capabilities \n \n Maintaining a large regiment of spearmen has proved invaluable during Anórien's wars against the equestrian Haradrim.",
+   "ru": "Требуются Казармы 2 уровня\nСильны против кавалерии и героев\n\nСодержание большого полка пикинеров оказалось бесценным во время войны Анориэна против конницы харадримов.",
+   "sergii": "Необхідно: Казарми 2 рівня \n Ефективні проти кавалерії та героїв \n Здатні змінювати стрій для підвищення оборони \n \n Могутній полк пікінерів став вирішальною силою у війні Анорієна проти вершників харадримів.",
+   "було_у_Сергія": "Необхідно: Казарми 2-го рівня \n Сильні проти кавалерії та героїв \n Здатні змінювати стрій для підвищення захисних характеристик \n \n Могутній полк пікінерів став вирішальною силою у війні Анорієна проти вершників харадримів."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildLossarnachAxeMenHorde",
+   "cat": "Кнопки: найм загонів",
+   "en": "Requires Forlong \n Strong vs. Pikemen and Buildings \n\n The lands of Lossarnach were renowned for their natural beauty, and its soldiers for their ferocity and loyalty to their Steward.",
+   "ru": "Требуется призванный Форлонг\nСильны против пикинеров и строений\nВойска из провинций\n\nЗемли Лоссарнаха славились своей природной красотой, а солдаты - своей свирепостью и верностью своему правителю.",
+   "sergii": "Необхідно: Форлонґ \n Ефективні проти пікінерів та будівель \n\n Землі Лоссарнаха славилися своєю природною красою, а його воїни — лютістю та вірністю своєму наміснику.",
+   "було_у_Сергія": "Необхідно: закликати Форлонга \n Сильні проти пікінерів та будівель \n\n Землі Лоссарнаха славилися своєю природною красою, а його воїни — лютістю та вірністю своєму наміснику."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMenPorter",
+   "cat": "Кнопки: найм загонів",
+   "en": "Train a Builder \n Builds structures",
+   "ru": "Обучение строителей\nВозводит постройки",
+   "sergii": "Навчання будівельника \n Будує споруди"
+  },
+  {
+   "var": "CONTROLBAR:ConstructArnorArrowTowerExpansion",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "A&rrow Tower Expansion",
+   "ru": "Башня стрелков (&R)",
+   "sergii": "Прибудувати вежу лучників (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorArcher",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Archer of Minas Tirith",
+   "ru": "Лучники Минас Тирита",
+   "sergii": "Лучник Мінас-Тіріта"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorArcherRange",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Build Archery Range",
+   "ru": "Cтрельбище",
+   "sergii": "Стрільбище",
+   "було_у_Сергія": "Стрільбище",
+   "примітка": "взято наш переклад цієї ж англійської фрази"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorBarracks",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Build Barracks",
+   "ru": "Построить казармы",
+   "sergii": "Казарми",
+   "було_у_Сергія": "Казарми",
+   "примітка": "взято наш переклад цієї ж англійської фрази"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorBattleTower",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Battle Tower",
+   "ru": "Башня стрелков",
+   "sergii": "Оборонна вежа"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorBlackSmith",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Build Blacksmith",
+   "ru": "Построить кузница",
+   "sergii": "Ковальня"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorCavalry",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Knights of Minas Tirith",
+   "ru": "Рыцари Минас Тирита",
+   "sergii": "Лицарі Мінас-Тіріта"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorDolArcherHorde",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Dol Amroth Archers (&W)",
+   "ru": "Лучники Дол Амрота (&W)",
+   "sergii": "Лучники Дол-Амроту (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorDolMAArmsHorde",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Dol Amroth Men at Arms (&W)",
+   "ru": "Гвардейцы Дол Амрота (&W)",
+   "sergii": "Воїни Дол-Амроту (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorFarm",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Build Farm",
+   "ru": "Построить ферму",
+   "sergii": "Ферма",
+   "було_у_Сергія": "Ферма",
+   "примітка": "взято наш переклад цієї ж англійської фрази"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorFireArrowPorter",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Gondor Fire Arrows Porter",
+   "ru": "Подносчик огненных стрел",
+   "sergii": "Носій вогняних стріл"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorForgeLevel2Upgrade",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "&Upgrade Blacksmith to Level 2",
+   "ru": "Кузница, уровень 2 (&U)",
+   "sergii": "Ковальня, рівень 2 (&U)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorForgeLevel3Upgrade",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "&Upgrade Blacksmith to Level 3",
+   "ru": "Кузница, уровень 3 (&U)",
+   "sergii": "Ковальня, рівень 3 (&U)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorFountainGuardHorde",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Fountain Guards (&S)",
+   "ru": "Стражи источника (&S)",
+   "sergii": "Вартові Джерела (&S)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorFountainGuardHordes",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Gondor &Fountain Guards",
+   "ru": "Стражи источника (&F)",
+   "sergii": "Вартові Джерела (&F)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorFountainSwordHorde",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Swords of the Fountain",
+   "ru": "",
+   "sergii": "Мечники Джерела"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorGondorFighterHorde",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Unit of Soldiers of Minas Tirith",
+   "ru": "Тренировать солдат Минас Тирита",
+   "sergii": "Загін воїнів Мінас-Тіріта"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorHeavyArmorPorter",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Gondor Heavy Armour Porter",
+   "ru": "Подносчик тяжелых доспехов",
+   "sergii": "Носій важких обладунків"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorHseHeal",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Construct House of Healing",
+   "ru": "Обитель исцеления",
+   "sergii": "Оселя зцілення"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorKeep",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Build Keep",
+   "ru": "Построить крепость",
+   "sergii": "Фортеця"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorKnightShieldPorter",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Gondor Knight Shield Porter",
+   "ru": "Подносчик рыцарских щитов",
+   "sergii": "Носій лицарських щитів"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorLancerHorde",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Knights of Minas Tirith (&E)",
+   "ru": "Рыцари Минас Тирита (&E)",
+   "sergii": "Лицарі Мінас-Тіріта (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorMarketPlace",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Build Marketplace",
+   "ru": "Построить рынок",
+   "sergii": "Ринок"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorPorter",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Builder",
+   "ru": "Строитель",
+   "sergii": "Будівельник"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorRangerSummonedHorde",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "T&rain Rangers of the North",
+   "ru": "Призыв следопытов Севера (&R)",
+   "sergii": "Тренування слідопитів Півночі (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorShieldGuardHorde",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Guards of the &Citadel",
+   "ru": "Стражи цитадели (&C)",
+   "sergii": "Вартові Цитаделі (&C)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorSilverTreeBanner",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "White Tree Banner Carrier",
+   "ru": "Знаменосец Белого древа",
+   "sergii": "Прапороносець Білого Дерева"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorStable",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Build Stable",
+   "ru": "Построить Конюшню",
+   "sergii": "Конюшні"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorStatue",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Build Heroic Statue",
+   "ru": "Статуя Элендила",
+   "sergii": "Статуя Еленділа"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorStoneMaker",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Build Stoneworker",
+   "ru": "Укрепленные стены",
+   "sergii": "Каменярня"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorSwordsPorter",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Gondor Forged Blades Porter",
+   "ru": "Подносчик стального оружия",
+   "sergii": "Носій сталевої зброї"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorWatchTower",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Build Watch Tower",
+   "ru": "Дозорная башня",
+   "sergii": "Вартова вежа"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorWell",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Build Well",
+   "ru": "Фонтан",
+   "sergii": "Джерело"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorWhiteTower",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Build Gondor White Tower",
+   "ru": "Белая башня",
+   "sergii": "Ґондорська Біла Вежа"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorWorkshop",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Build Siege Works",
+   "ru": "Построить осадную мастерскую",
+   "sergii": "Майстерня"
+  },
+  {
+   "var": "CONTROLBAR:ConstructLossarnachAxeMenHorde_GC",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Lossarnach Axemen (&T)",
+   "ru": "",
+   "sergii": "Сокироносці Лоссарнаха (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenPorterAIFake",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Builder",
+   "ru": "Строитель",
+   "sergii": "Будівельник"
+  },
+  {
+   "var": "CONTROLBAR:ElrondRestoration",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "&Restoration",
+   "ru": "Восстановление (&R)",
+   "sergii": "Відновлення (&R)"
+  },
+  {
+   "var": "CONTROLBAR:Evacuate",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Evacuate",
+   "ru": "Выход",
+   "sergii": "Вихід"
+  },
+  {
+   "var": "CONTROLBAR:EvacuateAndEnterGarrison",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Evacuate",
+   "ru": "Выход",
+   "sergii": "Вихід"
+  },
+  {
+   "var": "CONTROLBAR:GondorAragornRecruit",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Recruit Elessar Telcontar, King of Gondor and Arnor. \n \n 'Et Eärello Endorenna utúlien. Sinome maruvan ar Hildinyar tenn' Ambar-metta...'",
+   "ru": "Призвать Элессара Тельконтар, короля Гондора и Арнора\n\n\"Великое море вернуло наш род в Средиземье. И здесь будут пребывать мои потомки до конца веков!\"",
+   "sergii": "Завербувати Елессара Телконтара, Короля Ґондору та Арнору. \n \n «З Великого Моря до Середзем'я я прийшов. Тут житиму я і мої нащадки до кінця світу...»",
+   "було_у_Сергія": "Закликти Елесара Телконтара, Короля Ґондору та Арнору. \n \n «З Великого Моря до Середзем'я я прийшов. Тут житиму я і мої нащадки до кінця світу...»"
+  },
+  {
+   "var": "CONTROLBAR:GondorArcherBonus",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Bows of Yew",
+   "ru": "Тисовые луки",
+   "sergii": "Тисові луки"
+  },
+  {
+   "var": "CONTROLBAR:GondorBeregondRecruit",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Recruit the Guard of the Citadel Beregond \n Base defence, supports heroes, versatile\n \n Recruit time: 50s \n Levels 2-5: +5% Health, +5% Damage \n Levels 6-9: +4% Health, +4% Damage \n Level 10: +3% Health, +3% Damage \n \n 'I am no captain. Neither office nor rank nor lordship have I, being but a plain man of arms of the Third Company of the Citadel.'",
+   "ru": "Призвать стража цитадели, Берегонда\n\n\"Я не капитан. Я не имею ни должности, ни чина, ни господства, я простой человек из Третьего отряда стражей Цитадели.\"",
+   "sergii": "Завербувати вартового Цитаделі, Береґонда \n Оборона фортеці, підтримка героїв, універсальний\n \n Час вербування: 50 сек. \n \n Кожен рівень підвищує показники \n Рівні 2-5: +5% здоров'я, +5% до пошкоджень \n Рівні 6-9: +4% здоров'я, +4% до пошкоджень \n Рівень 10: +3% здоров'я, +3% до пошкоджень \n \n «Я не капітан. Я не маю ні посади, ні звання, ні титулу, бо я лише звичайний воїн Третьої роти Цитаделі».",
+   "було_у_Сергія": "Закликати вартового Цитаделі, Берегонда \n Оборона фортеці, підтримка героїв, універсальний\n \n Час заклику: 50с \n Рівні 2-5: +5% здоров'я, +5% шкоди \n Рівні 6-9: +4% здоров'я, +4% шкоди \n Рівень 10: +3% здоров'я, +3% шкоди \n \n «Я не капітан. Я не маю ні посади, ні звання, ні титулу, бо я лише звичайний воїн Третьої роти Цитаделі»."
+  },
+  {
+   "var": "CONTROLBAR:GondorBerethorRecruit",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Recruit the Captain of the Guard \n \n 'A loyal Guard-captain, Berethor was sent to Rivendell by Denethor to ascertain the well-being of his firstborn son.'",
+   "ru": "Призвать капитана стражи Белого города\n\n\"Верный капитан стражи Беретор был послан Дэнетором в Ривенделл, чтобы выяснить судьбу его первенца.\"",
+   "sergii": "Завербувати капітана варти \n \n «Вірний капітан варти, Беретор, був відправлений Денетором до Рівенделлу, щоб дізнатися про стан його старшого сина.»",
+   "було_у_Сергія": "Закликати капітана варти \n \n «Вірний капітан варти, Беретор, був відправлений Денетором до Рівенделлу, щоб дізнатися про стан його старшого сина.»"
+  },
+  {
+   "var": "CONTROLBAR:GondorBoromirRecruit",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Recruit the Captain of the White Tower \n Brawler, frontline support, supports Minas Tirith troops \n \n Recruit time: 60s \nLevels 2-5: +5% Health, +5% Damage \n Levels 6-9: +4% Health, +4% Damage \n Level 10: +3% Health, +3% Damage \n \n 'Let the armies of Mordor know this: Never again will the land of my people fall into enemy hands!'",
+   "ru": "Призвать капитана Белой башни\n\n\"Пусть отродья Мордора знают: никогда больше земля моего народа не перейдет в руки врага!\"",
+   "sergii": "Завербувати капітана Білої Вежі \n Боєць ближнього бою, підтримка на передовій, підтримує загони Мінас-Тіріта \n \n Час вербування: 60 сек. \n \n Кожен рівень підвищує показники \n Рівні 2-5: +5% здоров'я, +5% до пошкоджень \n Рівні 6-9: +4% здоров'я, +4% до пошкоджень \n Рівень 10: +3% здоров'я, +3% до пошкоджень \n \n «Нехай армії Мордору закарбують собі це: земля мого народу більше ніколи не впаде до рук ворога!»",
+   "було_у_Сергія": "Закликати капітана Білої Вежі \n Боєць ближнього бою, підтримка на передовій, підтримує війська Мінас-Тіріта \n \n Час заклику: 60s \nРівні 2-5: +5% здоров'я, +5% шкоди \n Рівні 6-9: +4% здоров'я, +4% шкоди \n Рівень 10: +3% здоров'я, +3% шкоди \n \n «Нехай армії Мордору закарбують собі це: земля мого народу більше ніколи не впаде до рук ворога!»"
+  },
+  {
+   "var": "CONTROLBAR:GondorCastleWallHub",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Build Wall Hub (&A)",
+   "ru": "Построить башенку (&A)",
+   "sergii": "Стінна вежа (&A)"
+  },
+  {
+   "var": "CONTROLBAR:GondorDenethorRecruit",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Recruit the Steward of Gondor \n Troop support, crowd control, summons reinforcements \n\n Recruit time: 50s \nLevels 2-5: +5% Health, +5% Damage \n Levels 6-9: +4% Health, +4% Damage \n Level 10: +3% Health, +3% Damage \n\n 'And I shall not forget it. Nor fail to reward that which is given. Fealty with love, valor with honor, disloyalty with vengeance.'",
+   "ru": "Призвать наместника Гондора\n\n\"И я не забуду этого. И не замедлю как должно воздать тебе. Любовью за верность, почестями за доблесть, а за измену - отмщением.\"",
+   "sergii": "Завербувати намісника Ґондору \n Підтримка загонів, контроль натовпу, виклик підкріплення \n\n Час вербування: 50 сек. \n \n Кожен рівень підвищує показники \n Рівні 2-5: +5% здоров'я, +5% до пошкоджень \n Рівні 6-9: +4% здоров'я, +4% до пошкоджень \n Рівень 10: +3% здоров'я, +3% до пошкоджень \n\n «І я не забуду цього. І не зраджу тому, що дано. Вірність — із любов'ю, хоробрість — з пошаною, зраду — з помстою!»",
+   "було_у_Сергія": "Закликати намісника Ґондору \n Підтримка військ, контроль натовпу, виклик підкріплення \n\n Час заклику: 50с \nLevels 2-5: +5% здоров'я, +5% шкоди \n Рівні 6-9: +4% здоров'я, +4% шкоди \n Рівень 10: +3% здоров'я, +3% шкоди \n\n «І я не забуду цього. І не зраджу тому, що дано. Вірність — із любов'ю, звитягу — з пошаною, зраду — з помстою!»"
+  },
+  {
+   "var": "CONTROLBAR:GondorFaramirRecruit",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Recruit the Captain of the Ithilien Rangers \n Strong versus monsters, supports Ithilien Rangers and Knights of Minas Tirith, versatile \n \n Recruit time: 60s \nLevels 2-5: +5% Health, +5% Damage \n Levels 6-9: +4% Health, +4% Damage \n Level 10: +3% Health, +3% Damage \n \n 'I do not love the bright sword for its sharpness, nor the arrow for its swiftness, nor the warrior for his glory. I love only that which they defend.'",
+   "ru": "Призвать капитана следопытов Итилиэна\n\n\"Я не люблю яркий меч за его остроту, ни стрелу за ее быстроту, ни воина за его славу. Я люблю только то, что они защищают.\"",
+   "sergii": "Завербувати капітана слідопитів Ітілієну \n Ефективний проти створінь, підтримує слідопитів Ітілієну та лицарів Мінас-Тіріта, універсальний \n \n Час вербування: 60 сек. \n \n Кожен рівень підвищує показники \n Рівні 2-5: +5% здоров'я, +5% до пошкоджень \n Рівні 6-9: +4% здоров'я, +4% до пошкоджень \n Рівень 10: +3% здоров'я, +3% до пошкоджень \n \n «Я не люблю гострого меча за його гостроту, ні стріли за її прудкість, ні воїна за його славу. Я люблю лише те, що вони боронять...»",
+   "було_у_Сергія": "Закликти капітана слідопитів Ітілієна \n Сильний проти чудовиськ, підтримує слідопитів Ітілієна та лицарів Дол-Амрота, універсальний \n \n Час заклику: 60с \nРівні 2-5: +5% здоров'я, +5% шкоди \n Рівні 6-9: +4% здоров'я, +4% шкоди \n Рівень 10: +3% здоров'я, +3% шкоди \n \n «Я не люблю гострого меча за його гостроту, ні стріли за її прудкість, ні воїна за його славу. Я люблю лише те, що вони бооронять...»"
+  },
+  {
+   "var": "CONTROLBAR:GondorForlongRecruit",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Recruit the Lord of Lossarnach \n Brawler, supports Fiefdom troops \n \n Recruit time: 40s \n Levels 2-5: +5% Health, +5% Damage \n Levels 6-9: +4% Health, +4% Damage \n Level 10: +3% Health, +3% Damage \n\n 'True heart, true friend! Forlong!'",
+   "ru": "Призвать военачальника Лоссарнаха\n\n\"Храброе сердце, настоящий друг! Форлонг!\"",
+   "sergii": "Завербувати воєначальника Лоссарнаха \n Боєць ближнього бою, підтримка загонів ленів \n \n Час вербування: 40 сек. \n \n Кожен рівень підвищує показники \n Рівні 2-5: +5% здоров'я, +5% до пошкоджень \n Рівні 6-9: +4% здоров'я, +4% до пошкоджень \n Рівень 10: +3% здоров'я, +3% до пошкоджень \n\n «Вірне серце, вірний друг! Форлонґ!»",
+   "було_у_Сергія": "Закликати воєначальника Лоссарнаха \n Боєць ближнього бою, підтримка військ володінь \n \n Час заклику: 40с \n Рівні 2-5: +5% здоров'я, +5% шкоди \n Рівні 6-9: +4% здоров'я, +4% шкоди \n Рівень 10: +3% здоров'я, +3% шкоди \n\n «Вірне серце, вірний друг! Форлонг!»"
+  },
+  {
+   "var": "CONTROLBAR:GondorHalbaradRecruit",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Recruit the captain of the Dúnedain, Halbarad. \n \n 'This is an evil door, and my death lies beyond it. I will dare to pass it nonetheless.'",
+   "ru": "Призвать капитана дунэдайн, Хальбарада\n\n\"Это злая дверь, и моя смерть лежит за ней. Тем не менее, я осмелюсь пройти в нее.\"",
+   "sergii": "Завербувати капітана дунедайн — Галбарада. \n \n «Це лихі двері, і за ними на мене чекає смерть. Але я все одно наважуся пройти крізь них!»",
+   "було_у_Сергія": "Закликати капітана дунедайн — Гальбарада. \n \n «Це лихі двері, і за ними на мене чекає смерть. Але я все одно наважуся пройти крізь них!»"
+  },
+  {
+   "var": "CONTROLBAR:GoodPlayerExperienceMenuDescription",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Increase the Power of the Evenstar.\n Destroy units to gain new powers",
+   "ru": "Увеличьте Силу Вечерней Звезды\nУничтожайте врагов, чтобы получать очки силы",
+   "sergii": "Збільшує силу Вечірньої Зірки.\n Знищуйте загони, щоб отримати нові сили",
+   "було_у_Сергія": "Збільшує силу Вечірньої Зірки.\n Знищуйте війська, щоб отримати нові сили"
+  },
+  {
+   "var": "CONTROLBAR:GrandHarvest",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Grand Harvest",
+   "ru": "Богатый урожай",
+   "sergii": "Великий врожай"
+  },
+  {
+   "var": "CONTROLBAR:IvoryTowerVision",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Palantír of the White Tower (&D)",
+   "ru": "Палантир Белой башни (&D)",
+   "sergii": "Палантир Білої Вежі (&D)"
+  },
+  {
+   "var": "CONTROLBAR:OptionsDescription",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Pause the game to change options, \n save, load, restart \n or exit",
+   "ru": "Приостановите игру, чтобы изменить ее параметры,\nпровести сохранение, загрузку, перезапуск\nили выйти из игры",
+   "sergii": "Поставте гру на паузу аби змінити налаштування, \n зберегти гру, завантажити гру, перезапустити \n або вийти"
+  },
+  {
+   "var": "CONTROLBAR:PlayerStatus",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Objectives",
+   "ru": "Задания",
+   "sergii": "Цілі завдання"
+  },
+  {
+   "var": "CONTROLBAR:PlayerStatusDescription",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "View Player Status and Tribute",
+   "ru": "Просмотр сведений об игроках и ресурсах",
+   "sergii": "Перегляд інформації про гравців та ресурси"
+  },
+  {
+   "var": "CONTROLBAR:Power",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Power",
+   "ru": "Способность",
+   "sergii": "Здібність"
+  },
+  {
+   "var": "CONTROLBAR:PowerDescription",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Current Power: %d\nRequired Power: %d",
+   "ru": "Текущая способность: %d\nТребующаяся способность: %d",
+   "sergii": "Поточна Сила: %d \n Необхідна Сила: %d"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyGondorFireArrows_GC",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Research Fire Arrows (&R)",
+   "ru": "Огненные стрелы (&R)",
+   "sergii": "Вогняні стріли (&R)"
+  },
+  {
+   "var": "CONTROLBAR:SelectRevivablesDunharrowFortress",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Heroes (&E)",
+   "ru": "",
+   "sergii": "Герої (&E)"
+  },
+  {
+   "var": "CONTROLBAR:SelectUpgradesArnorFortress",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Fortress Upgrades (&R)",
+   "ru": "Улучшения крепости (&R)",
+   "sergii": "Удосконалення фортеці (&R)"
+  },
+  {
+   "var": "CONTROLBAR:SummonEagleAllies",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "The Messengers of Manwë",
+   "ru": "Посланники Манвэ",
+   "sergii": "Посланці Манве"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorBattleTower",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Defensive Arrow Tower \n Can be garrisoned with archers for extra damage output",
+   "ru": "Башня стрелков\nДля увеличения урона разместите внутри башни гарнизон стрелков",
+   "sergii": "Оборонна вежа \n Можна розмістити загін лучників, щоб збільшити пошкодження",
+   "було_у_Сергія": "Оборонна вежа \n Щоб збільшити шкоду, розмістіть там гарнізон стрільців"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorFighterHordeOld",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Strong vs. Pikemen \n Able to switch formation for improved defensive capabilities",
+   "ru": "Сильны против пикинеров\nМогут менять строй для улучшения защитных характеристик",
+   "sergii": "Ефективні проти пікінерів \n Здатні змінювати стрій для підвищення оборони"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorFireArrowPorter",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Can upgrade 1 group of archers",
+   "ru": "Может улучшить 1 отряд лучников",
+   "sergii": "Може покращити 1 загін лучників",
+   "було_у_Сергія": "Може удосконалити один загін лучників",
+   "перевірити": "цифри не як в EN"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorFireStonePorter",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Requires Level 2 Siege Works \n Trebuchets do +200 damage",
+   "ru": "Требуется Мастерская 2 уровня\nКамнеметы наносят +200% урона",
+   "sergii": "Необхідно: Майстерня 2 рівня \n Требушети отримують бонус +200 од. до пошкоджень",
+   "було_у_Сергія": "Необхідно: Майстерня 2-го рівня \n Требушети отримують +200% до шкоди"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorForgeLevel2Upgrade",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Allows research of Heavy Armour and Forged Blades",
+   "ru": "Исследование стального оружия и тяжелой брони",
+   "sergii": "Дослідження Важких обладунків та Зброї з кованої сталі"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorForgeLevel3Upgrade",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Adds defensive arrow tower",
+   "ru": "Добавляет защитную башню",
+   "sergii": "Додає захисну вежу"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorForgedBladesPorter",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Requires Level 2 Blacksmith \n +50 damage by Knights, Soldiers and Tower Guards",
+   "ru": "Требуется Кузница 2 уровня\nРыцари, пехотинцы и стражи Цитадели наносят +50% урона",
+   "sergii": "Необхідно: Ковальня 2 рівня \n Лицарі, воїни та вартові Цитаделі отримують бонус +50 од. до пошкоджень",
+   "було_у_Сергія": "Необхідно: Кузня 2-го рівня \n Лицарі, Піхотинці та Вартові Цитаделі отримують +50 до шкоди"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorLinhirPikeHorde_SwornAllegiance",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Strong vs. Cavalry and Heroes \n Able to switch formation for improved defensive capabilities \n Come equipped with Armaments of the White City \n \n During the last days of the War of the Ring, the Men of Linhir stood valiantly against a combined assault of Corsairs and Haradrim.",
+   "ru": "Сильны против кавалерии и героев\nМожно менять строй для улучшения защитных характеристик\nПризываются с вооружением Белого Города\n\nВ последние дни Войны Кольца люди Линхира отважно выступали против совместных сил пиратов Умбара и харадрим.",
+   "sergii": "Ефективні проти кавалерії та героїв \n Здатні змінювати стрій для підвищення оборони \n Мають озброєння Білого Міста \n \n У останні дні Війни Персня люди Лінхіра хоробро билися проти спільного нападу сил піратів та харадримів.",
+   "було_у_Сергія": "Сильні проти кавалерії та героїв \n Здатні змінювати стрій для підвищення захисних характеристик \n Закликаються з озброєнням Білого Міста \n \n У останні дні Війни Персня люди Лінхіра хоробро билися проти спільного нападу сил піратів та харадримів."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorManAtArms",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Build Soldiers of Minas Tirith",
+   "ru": "Тренировать солдат Минас Тирита",
+   "sergii": "Тренувати воїнів Мінас-Тіріта"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorShieldGuardHorde",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Requires Level 2 Barracks \n Strong vs. Cavalry and Heroes \n \n Maintaining a large regiment of pikemen has proved invaluable during Anórien's wars against the equestrian Haradrim.",
+   "ru": "Требуются Казармы 2 уровня\nСильны против кавалерии и героев\n\nСодержание большого полка пикинеров оказалось очень кстати во время войны Анориэна с конниками харадрим.",
+   "sergii": "Необхідно: Казарми 2 рівня \n Ефективні проти кавалерії та героїв \n \n Могутній полк пікінерів став вирішальною силою у війні Анорієна проти вершників харадримів.",
+   "було_у_Сергія": "Необхідно: Казарми 2-го рівня \n Сильні проти кавалерії та героїв \n \n Могутній полк пікінерів став вирішальною силою у війні Анорієна проти вершників харадримів."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorSilverTreeBanner",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Upgrades a battalion to Level 2 \n Can only be applied to a Level 1 battalion",
+   "ru": "Отряд получает уровень 2\nУсиление возможно только для отряда уровня 1",
+   "sergii": "Підвищує рівень цього загону до 2 \n Покращення можна придбати, лише коли загін має 1 рівень"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorSpearmenHorde_NoRequirement",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Strong vs. Cavalry and Heroes \n Able to switch formation for improved defensive capabilities \n \n Maintaining a large regiment of spearmen has proved invaluable during Anórien's wars against the equestrian Haradrim.",
+   "ru": "Сильны против кавалерии и героев\nМогут менять построение для улучшения защитных характеристик\n\nСодержание большого полка пикинеров оказалось бесценным во время войны Анориэна против конницы харадримов.",
+   "sergii": "Ефективні проти кавалерії та героїв \n Здатні змінювати стрій для підвищення оборони \n \n Могутній полк пікінерів став вирішальною силою у війні Анорієна проти вершників харадримів."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildLossarnachAxeMenHorde_SwornAllegiance",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Requires Forlong \n Strong vs. Pikemen and Buildings \n Come equipped with Armaments of the White City \n\n The lands of Lossarnach were renowned for their natural beauty, and its soldiers for their ferocity and loyalty to their Steward.",
+   "ru": "Требуется призванный Форлонг\nСильны против пикинеров и строений\nПризываются с вооружением Белого города\nВойска из провинций\n\nЗемли Лоссарнаха славились своей природной красотой, а солдаты - своим мужеством и верностью своему правителю.",
+   "sergii": "Необхідно: Форлонґ \n Ефективні проти пікінерів та будівель \n Мають озброєння Білого Міста \n\n Землі Лоссарнаха славилися своєю природною красою, а його воїни — лютістю та вірністю своєму наміснику.",
+   "було_у_Сергія": "Необхідно: закликати Форлонга \n Сильні проти пікінерів та будівель \n Закликаються з озброєнням Білого Міста \n\n Землі Лоссарнаха славилися своєю природною красою, а його воїни — лютістю та вірністю своєму наміснику."
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandSelectUpgradesArnorFortress",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Purchase upgrades and additional defenses for the Fortress",
+   "ru": "Позволяет исследовать улучшения и укреплять защиту крепости",
+   "sergii": "Дозволяє придбати покращення та укріплювати захист фортеці",
+   "було_у_Сергія": "Дозволяє досліджувати можливості удосконалення та зміцнювати захист фортеці"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandSelectUpgradesLAFortress",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Purchase upgrades and additional defenses for the Gathering of the Hosts",
+   "ru": "Исследование улучшений и дополнительной защиты для Совета Воинств",
+   "sergii": "Дозволяє придбати покращення та додатковий захист для Збору воїнств",
+   "було_у_Сергія": "Дослідження щодо удосконалень та додаткового захисту для Ради військ"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructArnorWallHub",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Wall Hubs can be used to build walls",
+   "ru": "Башенки позволяют простраивать стены",
+   "sergii": "Від стінних веж можна протягувати нові стіни.",
+   "було_у_Сергія": "Від веж можна протягувати і будувати нові стіни",
+   "примітка": "взято наш переклад цієї ж англійської фрази"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMenPorterWotR",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Train a Builder \n Builds structures\nLimited to 1",
+   "ru": "Обучение строителей\nВозводит постройки\nОграничение - 1",
+   "sergii": "Навчання будівельника \n Будує споруди\nМаксимум 1 одночасно",
+   "було_у_Сергія": "Навчання будівельника \n Будує будівлі та споруди\nОбмеження — 1"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEvacuateAndEnterGarrison",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Evacute building",
+   "ru": "Отряд покидает постройку",
+   "sergii": "Загін залишає будівлю"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyGondorFireArrows",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Allows battalions to purchase the Fire Arrows upgrade \n When equipped, significantly increases the damage \n\n Allows Ithilien Rangers to purchase the Bodkin Arrows upgrade \n When equipped, reduces enemy armour against pierce by 25% when hit \n\n Will upgrade all patrols instantly once upgrade is purchased",
+   "ru": "Улучшить отряд Огненными стрелами\nСущественное увеличение урона от стрел\n\nПозволяет улучшать отряды следопытов Итилиэна Заостренными стрелами\nПри попадании уменьшает броню противника на 25%",
+   "sergii": "Дає змогу кожному загону придбати покращення «Вогняні стріли»\n Після оснащення значно збільшує пошкодження стріл\n\n Дозволяє слідопитам Ітілієну купувати покращення Загострені стріли \n Зменшує броню ворогів проти колючих пошкоджень на 25% при влучанні \n\n Після дослідження миттєво покращує стріли всіх патрулів навколо будівель",
+   "було_у_Сергія": "Дозволяє споряджати загони Вогняними стрілами \n Значне збільшення шкоди від стріл \n\n Дозволяє Слідопитам Ітілієна купувати удосконалення Загострені стріли \n Зменшує броню ворогів проти колючої шкоди на 25% при влучанні \n\n Під час дослідження це удосконалення миттєво отримують вартові біля будівель"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeArnorFortressNumenorStonework",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Increases Fortress and Wall armour by 65% \n Prerequisite for Tower of Ecthelion",
+   "ru": "Увеличение защиты крепости и стен на 65%\nТребуется для строительства Башни Эктелиона",
+   "sergii": "Збільшення міцності фортеці та стін на 65% \n Потрібне для покращення «Вежа Ектеліона»",
+   "було_у_Сергія": "Збільшення броні фортеці та стін на 65% \n Необхідно для удосконалення «Вежа Ектеліона»"
+  },
+  {
+   "var": "CONTROLBAR:TooltipIvoryTowerVision",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Requires the Tower of Ecthelion upgrade \n Reveals the entire shroud for 30 seconds \n Detects stealthed units",
+   "ru": "Требуется улучшение Башня Эктелиона\nТуман войны рассеивается на 30 секунд\nОбнаруживает скрытых врагов",
+   "sergii": "Потребує покращення «Вежа Ектеліона» \n Туман війни розсіюється на 30 сек. \n Виявляє невидимі загони",
+   "було_у_Сергія": "Необхідно: удосконалення «Вежа Ектеліона» \n Туман війни розсіюється на 30 секунд \n Виявляє приховані війська"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSummonDolAmrothAllies_WOTR",
+   "cat": "Кнопки: не використовується в грі",
+   "en": "Summons a Dol Amroth Citadel \n Limited to 2 \n Once used, passively unlocks Men-at-Arms and Swan Knights \n Left click on icon then left click on target area",
+   "ru": "В выбранном месте появляется Цитадель Дол Амрота\nОграничение - 2\nПосле использования пассивно разблокирует гвардейцев и рыцарей Дол Амрота\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "sergii": "Прикликає Цитадель Дол-Амрота \n Максимум 2 одночасно \n Після використання пасивно розблоковує латників і Лицарів Лебедя \n Клікніть на іконку, потім оберіть ділянку",
+   "було_у_Сергія": "Закликає Цитадель Дол-Амрота \n Обмеження — 2 Цитаделі \n Після використання пасивно розблоковує Гвардійців та Лицарів Дол-Амрота \n Клікніть на піктограмі, а потім - на прохідній ділянці місцевості"
+  },
+  {
+   "var": "CONTROLBAR:Command_LorienWallUpgradeToPosternGate",
+   "cat": "Кнопки: покращення",
+   "en": "Postern Gate (&W)",
+   "ru": "Боковые ворота (&W)",
+   "sergii": "Потайна брама (&W)"
+  },
+  {
+   "var": "CONTROLBAR:Command_MenWallUpgradeToPosternGate",
+   "cat": "Кнопки: покращення",
+   "en": "Postern Gate (&R)",
+   "ru": "Боковые ворота (&R)",
+   "sergii": "Потайна брама (&R)"
+  },
+  {
+   "var": "CONTROLBAR:Command_MenWallUpgradeToRegularGate",
+   "cat": "Кнопки: покращення",
+   "en": "Gate (&E)",
+   "ru": "Ворота (&E)",
+   "sergii": "Брама (&E)"
+  },
+  {
+   "var": "CONTROLBAR:Command_MenWallUpgradeToTower",
+   "cat": "Кнопки: покращення",
+   "en": "Arrow Tower (&T)",
+   "ru": "Башня стрелков (&T)",
+   "sergii": "Вежа лучників (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorArcheryRangeLevel2Upgrade",
+   "cat": "Кнопки: покращення",
+   "en": "Upgrade Archery Range to Level 2 (&A)",
+   "ru": "Улучшить Стрельбище до уровня 2 (&A)",
+   "sergii": "Покращити стрільбище до 2-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorArcheryRangeLevel3Upgrade",
+   "cat": "Кнопки: покращення",
+   "en": "Upgrade Archery Range to Level 3 (&A)",
+   "ru": "Улучшить Стрельбище до уровня 3 (&A)",
+   "sergii": "Покращити стрільбище до 3-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorBarracks2Upgrade",
+   "cat": "Кнопки: покращення",
+   "en": "Upgrade Barracks to Level 2 (&A)",
+   "ru": "Улучшить Казармы до уровня 2 (&A)",
+   "sergii": "Покращити казарми до 2-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorBarracksLevel3Upgrade",
+   "cat": "Кнопки: покращення",
+   "en": "Upgrade Barracks to Level 3 (&A)",
+   "ru": "Улучшить Казармы до уровня 3 (&A)",
+   "sergii": "Покращити казарми до 3-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorStable2Upgrade",
+   "cat": "Кнопки: покращення",
+   "en": "Upgrade Stables to Level 2 (&A)",
+   "ru": "Улучшить Конюшню до уровня 2 (&A)",
+   "sergii": "Покращити конюшні до 2-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorStableLevel3Upgrade",
+   "cat": "Кнопки: покращення",
+   "en": "Upgrade Stables to Level 3 (&A)",
+   "ru": "Улучшить Конюшню до уровня 3 (&A)",
+   "sergii": "Покращити конюшні до 3-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorWorkshop2Upgrade",
+   "cat": "Кнопки: покращення",
+   "en": "Upgrade Siege Works to Level 2 (&A)",
+   "ru": "Улучшить Мастерскую до уровня 2 (&A)",
+   "sergii": "Покращити майстерню до 2-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorWorkshopLevel3Upgrade",
+   "cat": "Кнопки: покращення",
+   "en": "Upgrade Siege Works to Level 3 (&A)",
+   "ru": "Улучшить Мастерскую до уровня 3 (&A)",
+   "sergii": "Покращити майстерню до 3-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:GondorBattleTowerGarrison",
+   "cat": "Кнопки: покращення",
+   "en": "Anórien Sentry (&W)",
+   "ru": "Часовые Анориэна (&W)",
+   "sergii": "Анорієнські вартові (&W)"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyGondorFireArrows",
+   "cat": "Кнопки: покращення",
+   "en": "Research Fire Arrows (&T)",
+   "ru": "Огненные стрелы (&T)",
+   "sergii": "Вогняні стріли (&T)"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyGondorFireStones",
+   "cat": "Кнопки: покращення",
+   "en": "Research Fire Stones (&E)",
+   "ru": "Огненные камни (&E)",
+   "sergii": "Вогняне каміння (&E)"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyGondorForgedBlades",
+   "cat": "Кнопки: покращення",
+   "en": "Research Tempered Blades (&E)",
+   "ru": "Кованые клинки (&E)",
+   "sergii": "Загартовані клинки (&E)"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyGondorHeavyArmor",
+   "cat": "Кнопки: покращення",
+   "en": "Research Steel Cuirasses (&R)",
+   "ru": "Стальные кирасы (&R)",
+   "sergii": "Сталеві обладунки (&R)"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeGondorBasicTraining",
+   "cat": "Кнопки: покращення",
+   "en": "Purchase Banners of the White Tree (&V)",
+   "ru": "Знамена Белого древа (&V)",
+   "sergii": "Прапори Білого Дерева (&V)"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeMenFortressBanners",
+   "cat": "Кнопки: покращення",
+   "en": "Banners of the White Tree (&W)",
+   "ru": "Знамена Белого древа (&W)",
+   "sergii": "Прапори Білого Дерева (&W)"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeMenFortressBoilingOil",
+   "cat": "Кнопки: покращення",
+   "en": "Bulwark of the West (&R)",
+   "ru": "Оплот Запада (&R)",
+   "sergii": "Оплот Заходу (&R)"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeMenFortressFlamingMunitions",
+   "cat": "Кнопки: покращення",
+   "en": "Flaming Munitions (&T)",
+   "ru": "Огненные боеприпасы (&T)",
+   "sergii": "Вогняні боєприпаси (&T)"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeMenFortressHouseOfHealing",
+   "cat": "Кнопки: покращення",
+   "en": "House of Healing (&E)",
+   "ru": "Обитель исцеления (&E)",
+   "sergii": "Оселя зцілення (&E)"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeMenFortressIvoryTower",
+   "cat": "Кнопки: покращення",
+   "en": "Tower of Ecthelion (&D)",
+   "ru": "Башня Эктелиона (&D)",
+   "sergii": "Вежа Ектеліона (&D)"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeMenFortressNumenorStonework",
+   "cat": "Кнопки: покращення",
+   "en": "Númenórean Stonework (&S)",
+   "ru": "Нуменорская кладка (&S)",
+   "sergii": "Нуменорська кам'яна кладка (&S)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorArcheryRangeLevel2Upgrade",
+   "cat": "Кнопки: покращення",
+   "en": "Allows training of Archers of Minas Tirith\n+10% faster build speed",
+   "ru": "Позволяет тренировать лучников Минас Тирита\n+10% скорости работы",
+   "sergii": "Дозволяє тренувати лучників Мінас-Тіріта\n+10% до швидкості тренування",
+   "було_у_Сергія": "Дозволяє тренувати лучників Мінас-Тіріта\n+10 % до швидкості підготовки військ"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorArcheryRangeLevel2Upgrade_Osgiliath",
+   "cat": "Кнопки: покращення",
+   "en": "Allows training of Ithilien Rangers\n+10% faster build speed",
+   "ru": "Позволяет тренировать следопытов Итилиэна\n+10% скорости работы",
+   "sergii": "Дозволяє тренувати слідопитів Ітілієну\n+10% до швидкості тренування",
+   "було_у_Сергія": "Дозволяє тренувати Cлідопитів Ітілієна\n+10% до швидкості підготовки військ"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorArcheryRangeLevel3Upgrade",
+   "cat": "Кнопки: покращення",
+   "en": "Allows training of Ithilien Rangers\n Allows purchase of the Fire Arrow Upgrade\n+25% faster build speed\nAdds defensive arrow tower",
+   "ru": "Позволяет тренировать следопытов Итилиэна\nПозволяет исследовать огненные стрелы\n+25% скорости работы\nДобавляет защитную башню",
+   "sergii": "Дозволяє тренувати слідопитів Ітілієну\n Розблоковує доступ до дослідження Вогняних стріл\n+25% до швидкості тренування\nДодає захисну вежу",
+   "було_у_Сергія": "Дозволяє тренувати Cлідопитів Ітілієна\n Розблоковує доступ до дослідження Вогняних стріл\n+25 % до швидкості підготовки військ\nДодає захисну вежу"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorArcheryRangeLevel3Upgrade_Osgiliath",
+   "cat": "Кнопки: покращення",
+   "en": "Allows purchase of the Fire Arrow Upgrade\n+25% faster build speed\nAdds defensive arrow tower",
+   "ru": "Позволяет исследовать огненные стрелы\n+25% скорости работы\nДобавляет защитную башню",
+   "sergii": "Розблоковує доступ до дослідження Вогняних стріл\n+25% до швидкості тренування\nДодає захисну вежу",
+   "було_у_Сергія": "Розблоковує доступ до дослідження Вогняних стріл\n+25% до швидкості підготовки військ\nДодає захисну вежу"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorBarracksLevel2Upgrade",
+   "cat": "Кнопки: покращення",
+   "en": "Allows training of Soldiers and Spearmen of Minas Tirith \n+10% faster build speed",
+   "ru": "Позволяет тренировать солдат и пикинеров Минас Тирита\n+10% скорости работы",
+   "sergii": "Дозволяє тренувати воїнів і списоносців Мінас-Тіріта \n+10% до швидкості тренування",
+   "було_у_Сергія": "Дозволяє тренувати Солдатів і Списників Мінас-Тіріта \n+10 % до швидкості підготовки військ"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorBarracksLevel3Upgrade",
+   "cat": "Кнопки: покращення",
+   "en": "Adds defensive arrow tower\n+25% faster build speed",
+   "ru": "Добавляет башню стрелков\n+25% скорости работы",
+   "sergii": "Додає захисну вежу\n+25% до швидкості тренування",
+   "було_у_Сергія": "Додає захисну вежу\n+25% до швидкості підготовки військ"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorStableLevel2Upgrade",
+   "cat": "Кнопки: покращення",
+   "en": "Allows training of Knights of Minas Tirith\n+10% faster build speed",
+   "ru": "Позволяет тренировать рыцарей Минас Тирита\n+10% скорости работы",
+   "sergii": "Дозволяє тренувати лицарів Мінас-Тіріта\n+10% до швидкості тренування",
+   "було_у_Сергія": "Дозволяє тренувати Лицарів Мінас-Тіріта\n+10 % до швидкості підготовки військ"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorStableLevel3Upgrade",
+   "cat": "Кнопки: покращення",
+   "en": "+25% faster build speed\nAdds defensive arrow tower",
+   "ru": "Уровень 3: +25% скорости работы\nДобавляет башню стрелков",
+   "sergii": "Рівень 3: +25% до швидкості тренування\nДодає захисну вежу",
+   "було_у_Сергія": "Рівень 3: +25% до швидкості підготовки військ\nДодає захисну вежу",
+   "перевірити": "цифри не як в EN"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorWorkshopLevel2Upgrade",
+   "cat": "Кнопки: покращення",
+   "en": "Allows research of the Fire Stones upgrade\nHeals nearby damaged siege machines \n+10% faster build speed",
+   "ru": "Позволяет получить огненные камни\nВосстанавливает ближайшие осадные орудия\n+10% скорости работы",
+   "sergii": "Дозволяє досліджувати Вогняне каміння\nЛагодить пошкоджені облогові машини поблизу\n+10% до швидкості тренування",
+   "було_у_Сергія": "Дозволяє досліджувати Вогняне каміння\nВідновлює міцність найближчої облогової зброї \n+10 % до швидкості підготовки військ"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGondorWorkshopLevel3Upgrade",
+   "cat": "Кнопки: покращення",
+   "en": "+25% faster build speed\nIncreased healing to nearby damaged siege machines \nAdds defensive arrow tower",
+   "ru": "+25% скорости работы\nВосстанавливает ближайшие осадные орудия\nДобавляет башню стрелков",
+   "sergii": "+25% до швидкості тренування\nШвидше лагодить пошкоджені облогові машини поблизу\nДодає захисну вежу",
+   "було_у_Сергія": "+25 % до швидкості підготовки військ\nВідновлює міцність найближчої облогової зброї \nДодає захисну вежу"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildSiegeMaterialsUpgrade",
+   "cat": "Кнопки: покращення",
+   "en": "Destroyed structures refund 50% of cost \n Player must maintain a Marketplace to benefit from this upgrade",
+   "ru": "Возврат 50% стоимости уничтоженных построек\nИгрок должен сохранить Рынок, чтобы воспользоваться этим улучшением",
+   "sergii": "За зруйновані споруди відшкодовується 50% вартості \n Щоб скористатися перевагами цього покращення, гравець мусить мати Ринок",
+   "було_у_Сергія": "За зруйновані споруди відшкодовується 50 % вартості \n Щоб скористатися перевагами цього удосконалення, гравець повинен зберегти Ринок"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommand_ArnorWallUpgradeToTower",
+   "cat": "Кнопки: покращення",
+   "en": "Fires arrows at enemy troops",
+   "ru": "Стреляет во врагов стрелы",
+   "sergii": "Обстрілює найближчих ворогів стрілами"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommand_ArnorWallUpgradeToTrebuchet",
+   "cat": "Кнопки: покращення",
+   "en": "Long range defensive weapon",
+   "ru": "Дальнобойное защитное орудие",
+   "sergii": "Оборонна зброя великої дальності",
+   "було_у_Сергія": "Далекобійна захисна зброя",
+   "примітка": "взято наш переклад цієї ж англійської фрази"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommand_MenWallUpgradeToPosternGate",
+   "cat": "Кнопки: покращення",
+   "en": "Allows friendly units to pass through the wall \n Invisible to enemies",
+   "ru": "Союзники получают возможность проходить сквозь стену\nВорота невидимы для врагов",
+   "sergii": "Союзники отримують можливість проходити крізь стіну \n Ворота непомітні для ворогів"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommand_MenWallUpgradeToRegularGate",
+   "cat": "Кнопки: покращення",
+   "en": "This primary defensive gate can be opened and closed",
+   "ru": "Основные ворота. Могут открываться и закрываться",
+   "sergii": "Головна брама; може відкриватися та закриватися"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommand_MenWallUpgradeToTower",
+   "cat": "Кнопки: покращення",
+   "en": "Fires arrows at enemy troops",
+   "ru": "Стреляет во врагов стрелы",
+   "sergii": "Обстрілює найближчих ворогів стрілами"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGondorBattleTowerGarrison",
+   "cat": "Кнопки: покращення",
+   "en": "Stations a permanent sentry inside the tower. \n Left click to purchase",
+   "ru": "Постоянная стража внутри башни\nЩелкните левой кнопкой мыши, чтобы приобрести",
+   "sergii": "Розміщення варти, що чергує у вежі. \n Клікніть, щоб придбати"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBoilingOil",
+   "cat": "Кнопки: покращення",
+   "en": "Unlocks the Stalwart Defense ability \n Can be used to summon two battalions of Guards of the Citadel to defend the fortress",
+   "ru": "Открывает способность Стойкая оборона\nВременно призывает два отряда стражей Цитадели для защиты крепости",
+   "sergii": "Розблоковує здібність «Стійка оборона» \n Тимчасово прикликає 2 загони Варти Цитаделі для захисту фортеці",
+   "було_у_Сергія": "Розблоковує здібність «Стійка оборона» \n Дозволяє тимчасово закликати два загони Вартових Цитаделі для захисту фортеці"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeMenFortressFlamingMunitions",
+   "cat": "Кнопки: покращення",
+   "en": "Adds fire damage to all attached towers and machines",
+   "ru": "Все башни и прикрепленные камнеметы получают возможность наносить дополнительный урон от огня",
+   "sergii": "Усі вежі фортеці та требушети отримують можливість завдавати додаткових пошкоджень вогнем",
+   "було_у_Сергія": "Усі фортечні вежі та требушети отримують можливість завдавати додаткової шкоди від вогню"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeMenFortressHouseOfHealing",
+   "cat": "Кнопки: покращення",
+   "en": "Reduces Hero revival cost by 20% \n Reduces Hero revival time by 20% \n Heals nearby allies and replenishes fallen units",
+   "ru": "Союзные войска рядом с крепостью постепенно исцеляются и восполняют свои ряды\nСнижение стоимости воскрешения героев на 20%\nСнижение времени воскрешения героев на 20%",
+   "sergii": "Зниження вартості відродження героїв на 20% \n Скорочення часу відродження героїв на 20% \n Відновлює здоров'я та чисельність союзників, що перебувають поблизу",
+   "було_у_Сергія": "Зниження вартості воскресіння героїв на 20% \n Скорочення часу воскресіння героїв на 20% \n Відновлює здоров’я та чисельність союзників, що перебувають поблизу"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeMenFortressNumenorStonework",
+   "cat": "Кнопки: покращення",
+   "en": "Increases Fortress and Wall armour by 65% \n Prerequisite for Tower of Ecthelion",
+   "ru": "Укрепление защиты стен и крепости на 65%\nНеобходимо для Башни Эктелиона",
+   "sergii": "Збільшення міцності фортеці та стін на 65% \n Потрібне для покращення «Вежа Ектеліона»",
+   "було_у_Сергія": "Збільшення броні фортеці та стін на 65% \n Необхідно для удосконалення «Вежа Ектеліона»"
+  },
+  {
+   "var": "Map:MAPMPaelinveren",
+   "cat": "Назви й описи карт",
+   "en": "Aelin Veren*",
+   "ru": "*Аэлин Верен",
+   "sergii": "Аелін Верен*"
+  },
+  {
+   "var": "Map:MAPMPaelinveren/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Aelin Veren lies in Northern Ithilien, where its beautiful gardens cover the ruins of long-forgotten royal thermae. \n Capturable: Inn, Signal Fire \n Creeps: Wargs \n Region: Gondor",
+   "ru": "Аэлин Верен находится на севере Итилиэна, где его прекрасные сады покрывают руины давно забытых королевских терм.\nЗахватываемые точки: Походный лагерь, Сигнальный огонь\nЛогова: Варги\nРегион: Гондор",
+   "sergii": "Аелін Верен розташований у Північному Ітілієні, де його чарівні сади вкривають руїни давно забутих королівських терм. \n Захоплювані об'єкти: Корчма, Сигнальний вогонь\n Лігва: Варґи\n Регіон: Ґондор"
+  },
+  {
+   "var": "Map:MAPMPaldamori",
+   "cat": "Назви й описи карт",
+   "en": "Aldamóri*",
+   "ru": "*Альдамори",
+   "sergii": "Альдаморі*"
+  },
+  {
+   "var": "Map:MAPMPaldamori/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Aldamóri is a secluded land, hidden in the northern forests of Rhun, where a tribe of Kinn-lai elves and Men coexist peacefully. \n Capturable: Inn \n Creeps: Warg \n Region: Rhûn",
+   "ru": "Альдамори - это уединенная земля, скрытая в северных лесах Рун, где мирно сосуществуют люди и эльфы кинн-лай.\nЗахватываемые точки: Походный лагерь\nЛогова: Варги\nРегион: Рун",
+   "sergii": "Альдаморі — це відлюдна земля, схована у північних лісах Руну, де мирно співіснують плем'я ельфів Кінн-лаї та люди. \n Захоплювані об'єкти: Корчма\n Лігва: Варґи\n Регіон: Рун"
+  },
+  {
+   "var": "Map:MAPMPalternatearthedain",
+   "cat": "Назви й описи карт",
+   "en": "Alternate Faction: Arthedain*",
+   "ru": "Альтернативная фракция: Артэдайн*",
+   "sergii": "Альтернативна фракція: Артедайн*"
+  },
+  {
+   "var": "Map:MAPMPalternatearthedain/Desc",
+   "cat": "Назви й описи карт",
+   "en": "The last remnant of the North Kingdom, Arthedain valiantly attempts to stem the tide of evil washing out of fell Angmar. King Arvedui, scion of Westernesse, fields his steel-clad armies, glittering beneath the sun as it sets on his kingdom.\nAlternate Faction Map \n Replaced Faction: Gondor",
+   "ru": "Последний осколок Северного королевства - Артэдайн, доблестно пытается остановить волну зла, хлынувшую из падшего Ангмара. Король Арведуи, потомок Вестернесса, выставляет свои облаченные в стальную броню армии, сверкающие под солнцем, заходящим над его королевством.\nЗаменяемая фракция: Гондор",
+   "sergii": "Останній оплот Північного Королівства, Артедайн відважно намагається стримати навалу зла, що хлинула з лиховісного Анґмару. Король Арведуї, нащадок Вестернесса, виводить свої викувані зі сталі війська, що сяють під сонцем, яке заходить над його королівством.\nМапа альтернативної фракції \n Замінена фракція: Ґондор"
+  },
+  {
+   "var": "Map:MAPMPalternatebattleofthefivearmies",
+   "cat": "Назви й описи карт",
+   "en": "Alternate Faction: Battle of the Five Armies*",
+   "ru": "Альтернативная фракция: Битва пяти воинств*",
+   "sergii": "Альтернативна фракція: Битва п'яти воїнств*"
+  },
+  {
+   "var": "Map:MAPMPalternatebattleofthefivearmies/Desc",
+   "cat": "Назви й описи карт",
+   "en": "'... in all the mountains there was a forging and an arming. Then they marched... until around and beneath the great mountain Gundabad of the North, where was their capital, a vast host was assembled ready to sweep down in time of storm unawares upon the South.'\nAlternate Faction Map \n Replaced Faction: Erebor",
+   "ru": "\"...во всех горах звенели молоты - ковали оружие и вооружались. Затем они выдвинулись... пока вокруг великой горы Гундабад на севере, где была их столица, собиралась небывалая армия, готовая с первой грозовой тучей двинуться на юг.\"\nЗаменяемая фракция: Эребор",
+   "sergii": "«... по всіх горах ішло кування та озброєння. Потім вони вирушили в похід... поки навколо та під великою горою Ґундабад, що на Півночі, де була їхня столиця, не зібралося величезне військо, готове під час бурі зненацька обрушитися на Південь.»\nМапа альтернативної фракції \n Замінена фракція: Еребор"
+  },
+  {
+   "var": "Map:MAPMPalternatedolamroth",
+   "cat": "Назви й описи карт",
+   "en": "Alternate Faction: Dol Amroth*",
+   "ru": "Альтернативная фракция: Дол Амрот*",
+   "sergii": "Альтернативна фракція: Дол-Амрот*"
+  },
+  {
+   "var": "Map:MAPMPalternatedolamroth/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Dol Amroth was a stronghold that lay upon a high coastal promontory, ruled by an ancient family of high-blooded Princes rumored to be of Elven descent. \nAlternate Faction Map \n Replaced Faction: Lothlórien",
+   "ru": "Дол Амрот был крепостью, расположенной на высоком прибрежном мысе, которой управляла древняя семья высокородных принцев, по слухам, эльфийского происхождения.\nЗаменяемая фракция: Лотлориэн",
+   "sergii": "Дол-Амрот — це фортеця, що стояла на високому прибережному мисі, якою правив стародавній рід висококровних князів, про яких ходили чутки, що вони мають ельфійське походження. \nМапа альтернативної фракції \n Замінена фракція: Лотлорієн",
+   "було_у_Сергія": "Дол Амрот - це фортеця, що стояла на високому прибережному мисі, якою правив стародавній рід висококровних князів, про яких ходили чутки, що вони мають ельфійське походження. \nМапа альтернативної фракції \n Замінена фракція: Лотлорієн"
+  },
+  {
+   "var": "Map:MAPMPalternatedorwinion",
+   "cat": "Назви й описи карт",
+   "en": "Alternate Faction: Dorwinion*",
+   "ru": "Альтернативная фракция: Дорвинион*",
+   "sergii": "Альтернативна фракція: Дорвініон*"
+  },
+  {
+   "var": "Map:MAPMPalternatedorwinion/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Sent as emissaries of the Valar, the Ithryn Luin scoured the far East in search of the Enemy and to kindle dissension among his servants, thus hindering their efforts to overwhelm Dorwinion. \nAlternate Faction Map \n Replaced Faction: Woodland Realm",
+   "ru": "Отправленные как посланники Валар, Синие маги прочесывали дальний восток в поисках врагов и разжигали раздор среди его слуг, тем самым препятствуя их усилиям одолеть Дорвинион.\nЗаменяемая фракция: Лесное королевство",
+   "sergii": "Надіслані як посланці Валар, Ітрин Луїн обнишпорили далекий Схід у пошуках ворога та щоб розпалити ворожнечу серед його слуг, тим самим завадивши їхнім спробам підкорити Дорвініон. \nМапа альтернативної фракції \n Замінена фракція: Лісове королівство"
+  },
+  {
+   "var": "Map:MAPMPalternatedunharrow",
+   "cat": "Назви й описи карт",
+   "en": "Alternate Faction: Dead of Dunharrow*",
+   "ru": "",
+   "sergii": "Альтернативна фракція: Мертві з Дунгарроу*"
+  },
+  {
+   "var": "Map:MAPMPalternatedunharrow/Desc",
+   "cat": "Назви й описи карт",
+   "en": "The way is shut. It was made by those who are Dead, and the Dead keep it, until the time comes. The way is shut.\nAlternate Faction Map \n Replaced Faction: Rohan",
+   "ru": "",
+   "sergii": "Шлях закритий. Його звели ті, хто мертвий, і мертві тримають його, доки не настане час. Шлях закритий.\nМапа альтернативної фракції \n Замінена фракція: Роган"
+  },
+  {
+   "var": "Map:MAPMPalternatedurinsfolk",
+   "cat": "Назви й описи карт",
+   "en": "Alternate Faction: Durin's Folk*",
+   "ru": "Альтернативная фракция: Народ Дурина*",
+   "sergii": "Альтернативна фракція: Народ Дуріна*"
+  },
+  {
+   "var": "Map:MAPMPalternatedurinsfolk/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Though many Dwarves emigrated to the newly founded Kingdom of Erebor after the death of Smaug, some remained in the Iron Hills, mining its ferrous mineral, and forming settlements of hardy Dwarves whose martial skill is undeniable.\nAlternate Faction Map \n Replaced Faction: Erebor",
+   "ru": "Хотя после смерти Смауга многие гномы переселились в недавно возрожденное королевство Эребор, некоторые остались в Железных холмах, добывая там железистые минералы и основывая поселения выносливых гномов, чье боевое мастерство неоспоримо.\nЗаменяемая фракция: Эребор",
+   "sergii": "Хоч чимало гномів і переселилися до новозаснованого Королівства Еребор після смерті Смауґа, деякі лишилися в Залізних Горах, видобуваючи багаті на залізо мінерали та засновуючи поселення витривалих гномів, чия бойова майстерність є незаперечною.\nМапа альтернативної фракції \n Замінена фракція: Еребор"
+  },
+  {
+   "var": "Map:MAPMPalternategreycompany",
+   "cat": "Назви й описи карт",
+   "en": "Alternate Faction: Grey Company*",
+   "ru": "",
+   "sergii": "Альтернативна фракція: Сірий Загін*"
+  },
+  {
+   "var": "Map:MAPMPalternategreycompany/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Emerging from the Paths of the Dead, Aragorn and the Grey Company hastened through the southern lands of Gondor towards Minas Tirith, arriving first at the river Morthond and the Blackroot Vale. \nAlternate Faction Map \n Replaced Faction: Gondor",
+   "ru": "",
+   "sergii": "Вийшовши зі Стежок Мертвих, Араґорн та Сірий Загін поспішили південними землями Ґондору до Мінас-Тіріта, діставшись спершу річки Мортонд та Долини Чорного Потоку. \nМапа альтернативної фракції \n Замінена фракція: Ґондор"
+  },
+  {
+   "var": "Map:MAPMPalternateithilien",
+   "cat": "Назви й описи карт",
+   "en": "Alternate Faction: Ithilien*",
+   "ru": "Альтернативная фракция: Итилиэн*",
+   "sergii": "Альтернативна фракція: Ітілієн*"
+  },
+  {
+   "var": "Map:MAPMPalternateithilien/Desc",
+   "cat": "Назви й описи карт",
+   "en": "The Enemy moves against Gondor: Orcs and Uruks despoil the verdant forests of Ithilien, legions of Southrons march to the Black Lands unchecked. Faramir, Captain of Gondor, and his Rangers are tasked with waylaying these foes before their numbers overwhelm the White City.\nAlternate Faction Map \n Replaced Faction: Gondor",
+   "ru": "Враг надвигается на Гондор: орки и уруки разоряют зеленые леса Итилиэна, легионы южан беспрепятственно продвигаются к Черным землям. Фарамиру, капитану Гондора, и его следопытам поручено сдерживать врагов, пока Белый город готовит оборону.\nЗаменяемая фракция: Гондор",
+   "sergii": "Ворог наступає на Ґондор: орки та уруки плюндрують зелені ліси Ітілієну, а легіони південців безперешкодно маршують до Чорних Земель. Фарамир, капітан Ґондору, та його слідопити мають завдання влаштовувати засади цим ворогам, перш ніж їхня чисельність здолає Біле Місто.\nМапа альтернативної фракції \n Замінена фракція: Ґондор",
+   "було_у_Сергія": "Ворог наступає на Гондор: орки та уруки плюндрують зелені ліси Ітілієну, а легіони південців безперешкодно маршують до Чорних Земель. Фарамир, капітан Ґондору, та його слідопити мають завдання влаштовувати засади цим ворогам, перш ніж їхня чисельність здолає Біле Місто.\nМапа альтернативної фракції \n Замінена фракція: Ґондор"
+  },
+  {
+   "var": "Map:MAPMPalternateshadowandflame",
+   "cat": "Назви й описи карт",
+   "en": "Alternate Faction: Shadow and Flame*",
+   "ru": "Альтернативная фракция: Тень и Пламя*",
+   "sergii": "Альтернативна фракція: Тінь і Полум'я*"
+  },
+  {
+   "var": "Map:MAPMPalternateshadowandflame/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Khazad-dûm, the once great Dwarven kingdom, was desecrated by Orcs that swarmed the now abandoned halls. Yet, there are older and fouler things than Orcs that dwell in the deep places of the world.\nAlternate Faction Map \n Replaced Faction: Misty Mountains",
+   "ru": "Казад-Дум, некогда великое королевство гномов, было осквернено орками, заполонившими ныне заброшенные залы. Однако в самых отдаленных уголках его коридоров обитают существа более древние и отвратительные, чем орки.\nЗаменяемая фракция: Мглистые горы",
+   "sergii": "Казад-дум, колись величне дворфійське королівство, було осквернене орками, які заполонили нині покинуті зали. Проте в глибоких куточках світу живуть істоти, давніші та потворіші за орків.\nМапа альтернативної фракції \n Замінена фракція: Імлисті гори"
+  },
+  {
+   "var": "Map:MAPMPamathafa",
+   "cat": "Назви й описи карт",
+   "en": "Amathafa*",
+   "ru": "Аматафа*",
+   "sergii": "Аматафа*"
+  },
+  {
+   "var": "Map:MAPMPamathafa/Desc",
+   "cat": "Назви й описи карт",
+   "en": "The wide plains of Haradwaith are interspersed by grassy savannahs that spring to life during the wet seasons, bringing abundant birds and wildlife to seasonal water holes. Here live the tribal Mahûd, amongst herds of wild Mûmakil. \n Creeps: Warg \n Region: Haradwaith",
+   "ru": "Широкие равнины Харадвайта чередуются с травянистыми саваннами, оживляющимися во влажные сезоны и привлекающими множество птиц и диких животных к местным водоемам. Здесь живут племена махуд среди стад диких мумаков.\nЛогова: Варги\nРегион: Харадвайт",
+   "sergii": "Широкі рівнини Харадвайту чергуються з трав'янистими саванами, які оживають під час сезонів дощів, приваблюючи велику кількість птахів та дичини до сезонних водойм. Тут серед стад диких мумаків живуть племена махуд. \n Лігва: Варґи\n Регіон: Харадвайт"
+  },
+  {
+   "var": "Map:MAPMPandrast",
+   "cat": "Назви й описи карт",
+   "en": "Andrast*",
+   "ru": "Андраст*",
+   "sergii": "Андраст*"
+  },
+  {
+   "var": "Map:MAPMPandrast/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Andrast is a long cape in the south-west of Gondor, between the Bay of Belfalas and the Great Sea, populated by scattered settlements. \n Capturable: Inn \n Creeps: Warg \n Region: Gondor",
+   "ru": "Андраст был длинным мысом на юго-западе Гондора, между заливом Белфалас и Великим морем, населенным разбросанными поселениями.\nЗахватываемые точки: Походный лагерь\nЛогова: Варги\nРегион: Гондор",
+   "sergii": "Андраст — це довгий мис на південному заході Ґондору, між Белфалаською затокою та Великим Морем, заселений розрізненими поселеннями. \n Захоплювані об'єкти: Корчма\n Лігва: Варґи\n Регіон: Ґондор"
+  },
+  {
+   "var": "Map:MAPMParchet",
+   "cat": "Назви й описи карт",
+   "en": "Archet*",
+   "ru": "Арчет*",
+   "sergii": "Арчет*"
+  },
+  {
+   "var": "Map:MAPMParchet/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Archet is the most remote of the settlements of the Bree-land, set among the trees on the northern edge of the Chetwood. A few hobbits live there, but the inhabitants were predominantly Big Folk. \n Capturable: Inn \n Creeps: Barrow Wight, Hill Troll \n Region: Arnor",
+   "ru": "Арчет - самое дальнее из поселений в землях Бри, которое находилось в северной части Четвуда и восточнее самого Бри. Основное население - люди Бри, есть также и небольшое количество хоббитов.\nЛогова: Призраки, горные тролли\nРегион: Арнор",
+   "sergii": "Арчет — найвіддаленіше з поселень на землях Брі, розташоване серед дерев у північній частині Четвуду. Тут мешкає кілька гобітів, але все ж основне населення — це народи, що вищі за них. \n Захоплювані об'єкти: Корчма\n Лігва: Могильний дух, Гірський троль\n Регіон: Арнор"
+  },
+  {
+   "var": "Map:MAPMPayanathiri",
+   "cat": "Назви й описи карт",
+   "en": "Aya Nathiri*",
+   "ru": "Айя Натири*",
+   "sergii": "Ая Натірі*"
+  },
+  {
+   "var": "Map:MAPMPayanathiri/Desc",
+   "cat": "Назви й описи карт",
+   "en": "The dense jungles surrounding the Nâfarat River are home to many warring tribes, the greatest of which inhabits the territory of Aya Nathiri, the chiefdom of Caran Lambar. \n Capturable: Inn \n Creeps: Karadd \n Region: Haradwaith",
+   "ru": "В густых джунглях, окружающих реку Нафарат, обитает множество враждующих племен, самое большое из которых населяет территорию Айя-Натири под управлением Каран-Ламбара.\nЗахватываемые точки: Походный лагерь\nЛогова: Карадды\nРегион: Харадвайт",
+   "sergii": "Густі джунглі навколо річки Нафарат є домівкою для багатьох ворогуючих племен, найбільше з яких населяє територію Ая Натірі, вождівства Каран Ламбар. \n Захоплювані об'єкти: Корчма\n Лігва: Карадди\n Регіон: Харадвайт"
+  },
+  {
+   "var": "Map:MAPMPayunama",
+   "cat": "Назви й описи карт",
+   "en": "Ayún-âma*",
+   "ru": "Айан-ама*",
+   "sergii": "Аюн-ама*"
+  },
+  {
+   "var": "Map:MAPMPayunama/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Once known as the Heavenly Eyes, these two temples have long been swallowed by the unforgiving sands of the Abrakhânic desert and are now known as Ayún-âma, the 'Eyes that are Blind'. \n Capturable: Inn \n Creeps: Scorpion, Warg \n Region: Haradwaith",
+   "ru": "Когда-то известные как Небесные глаза, эти два храма давно поглощены безжалостными песками пустыни Абрахан и теперь известны как Айан-ама, «Слепые глаза».\nЗахватываемые точки: Походный лагерь\nЛогова: Скорпионы, варги\nРегион: Харадвайт",
+   "sergii": "Колись відомі як Небесні Очі, ці два храми давно поглинули нещадні піски Абраханської пустелі, і тепер вони відомі як Аюн-ама — «Очі, що осліпли». \n Захоплювані об'єкти: Корчма\n Лігва: Скорпіони, Варґи\n Регіон: Харадвайт"
+  },
+  {
+   "var": "Map:MAPMPbakhjad",
+   "cat": "Назви й описи карт",
+   "en": "Bakhjad*",
+   "ru": "Бакджад*",
+   "sergii": "Бах'яд*"
+  },
+  {
+   "var": "Map:MAPMPbakhjad/Desc",
+   "cat": "Назви й описи карт",
+   "en": "In the heart of an enigmatic and mist-shrouded jungle, a forgotten world reveals itself as tendrils of ethereal fog weave through towering trees and ancient vines. \n Capturable: Inn, Signal Fire \n Creeps: Karadd, Jungle Warg \n Region: Haradwaith",
+   "ru": "В самом сердце загадочны и окутанных туманом джунглей, забытый мир раскрывается перед нами, когда струйки эфирного тумана пронизывают высокие деревья и древние лианы.\nЗахватываемые точки: Походный лагерь, Сигнальный огонь\nЛогова: Карадды, джунглевые варги\nРегион: Харадвайт",
+   "sergii": "У серці загадкового та оповитого туманом джунглів відкривається забутий світ, де пасма ефірного туману вплітаються у кремезні дерева та прадавні ліани. \n Захоплювані об'єкти: Корчма, Сигнальний вогонь\n Лігва: Карадди, Джунглеві варґи\n Регіон: Харадвайт"
+  },
+  {
+   "var": "Map:MAPMPbelegaerabyss",
+   "cat": "Назви й описи карт",
+   "en": "Belegaer Abyss*",
+   "ru": "Бездна Белегаэра*",
+   "sergii": "Белегаєрська Безодня*"
+  },
+  {
+   "var": "Map:MAPMPbelegaerabyss/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Deep beneath the waves of Belegaer, the Great Sea, remnants of past civilisations remain forever lost to the watery abyss and the passing of the ages. \n Capturable: Inn \n Creeps: Barrow Wight \n Region: Lindon",
+   "ru": "Глубоко под волнами Белегаэра, Великого моря, остатки прошлых цивилизаций навеки затеряны в водной пучине с течением многих веков.\nЗахватываемые точки: Походный лагерь\nЛогова: Призраки\nРегион: Линдон",
+   "sergii": "Глибоко під хвилями Белегаєра, Великого Моря, залишки минулих цивілізацій навіки загублені у водяній безодні та плині століть. \n Захоплювані об'єкти: Корчма\n Лігва: Могильний дух\n Регіон: Ліндон"
+  },
+  {
+   "var": "Map:MAPMPbesiegedurthang",
+   "cat": "Назви й описи карт",
+   "en": "Besiege: Durthang*",
+   "ru": "Осада: Дуртанг*",
+   "sergii": "Облога: Дуртанг*"
+  },
+  {
+   "var": "Map:MAPMPbesiegedurthang/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Durthang stands upon the northern passes of Ephel Dúath near the Black Gate. Originally a Gondorian fortress, it is now one of several orc strongholds that guard Mordor's western flank. \n Capturable: Inn \n Creeps: Goblin \n Region: Mordor",
+   "ru": "Дуртанг расположен на северных перевалах Эфель-Дуат, недалеко от Черных врат. Изначально гондорская крепость теперь является одним из нескольких орочьих оплотов, стерегущих фланг Мордора.\nЗахватываемые точки: Походный лагерь\nЛогова: Гоблины\nРегион: Мордор",
+   "sergii": "Дуртанг велично стоїть на північних перевалах Ефель-Дуату поблизу Чорної брами. Спочатку ґондорська фортеця, нині він є однією з кількох орочих оплотів, що охороняють західний фланг Мордору. \n Захоплювані об'єкти: Корчма\n Лігва: Ґобліни\n Регіон: Мордор"
+  },
+  {
+   "var": "Map:MAPMPbesiegeesgaroth",
+   "cat": "Назви й описи карт",
+   "en": "Besiege: Esgaroth*",
+   "ru": "Осада: Эсгарот*",
+   "sergii": "Облога: Есґарот*"
+  },
+  {
+   "var": "Map:MAPMPbesiegeesgaroth/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Esgaroth, or Lake-town, lies south of Erebor and east of Mirkwood, built upon wooden stilts sunk deep into the Long Lake. Its hardy people have a long history of trade with the Woodland Realm, and the Kingdoms of Erebor and Dale. \n Capturable: Signal Fire, Inn, Dock \n Region: Erebor",
+   "ru": "Эсгарот, или Озерный город, расположен к югу от Эребора и к востоку от Лихолесья. Он построен на деревянных сваях, погруженных глубоко в Долгое озеро. Его выносливый народ издавна ведет торговлю с Лесным королевством, королевствами Эребор и Дэйл.\nЗахватываемые точки: Сигнальный огонь, Походный лагерь, Пристань\nРегион: Рованион",
+   "sergii": "Есґарот, або Озерне місто, лежить на південь від Еребору та на схід від Лихолісся, зведене на дерев'яних палях, занурених глибоко в Довге озеро. Його загартований народ має тривалу історію торгівлі з Лісовим королівством та королівствами Еребор і Дейл. \n Захоплювані об'єкти: Сигнальний вогонь, Корчма, Причал\n Регіон: Еребор"
+  },
+  {
+   "var": "Map:MAPMPbesiegegundabad",
+   "cat": "Назви й описи карт",
+   "en": "Besiege: Gundabad*",
+   "ru": "Осада: Гундабад*",
+   "sergii": "Облога: Ґундабад*"
+  },
+  {
+   "var": "Map:MAPMPbesiegegundabad/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Gundabad is a mountain in the northern reaches of the Misty Mountains, sacred to the Dwarves as the place of their ancestral awakening. It has long since been overrun by orcs of the Misty Mountains led by Bolg, to the everlasting hatred of Durin's Folk. \n Creeps: Snow Troll, Mountain Giant \n Region: Misty Mountains",
+   "ru": "Гундабад - гора в северной части Мглистых гор, священна для гномов как место пробуждения их предков. Давным-давно ее захватили орки Мглистых Гор во главе с Больгом, к вечной ненависти народа Дурина.\nЛогова: Снежные тролли, горные гиганты\nРегион: Мглистые горы",
+   "sergii": "Ґундабад — це гора в північних окраїнах Імлистих гір, священна для гномів як місце пробудження їхніх предків. Вона вже давно захоплена орками Імлистих гір під проводом Болґа, що палає вічною ненавистю в серцях Народу Дуріна. \n Лігва: Снігові тролі, Гірські велетні\n Регіон: Імлисті гори"
+  },
+  {
+   "var": "Map:MAPMPbesiegehallsoftheelvenking",
+   "cat": "Назви й описи карт",
+   "en": "Besiege: Halls of the Elvenking*",
+   "ru": "Осада: Залы Эльфийского короля*",
+   "sergii": "Облога: Зали ельфійського короля*"
+  },
+  {
+   "var": "Map:MAPMPbesiegehallsoftheelvenking/Desc",
+   "cat": "Назви й описи карт",
+   "en": "In Northern Mirkwood lie the Halls of the Elvenking, hidden stronghold of Thranduil and the elves of the Woodland Realm. Its many streams lead through cavernous halls carved into the living rock, out past the wine cellars, and eventually east towards the Long Lake. \n Creeps: Spider \n Region: Rhovanion",
+   "ru": "В Северном Лихолесье расположены Залы Эльфийского короля, скрытая твердыня Трандуила и эльфов Лесного королевства. Его многочисленные ручьи ведут через пещерные залы, высеченные в живой скале, мимо винных погребов и, в конце концов, на восток, к Долгому озеру.\nЛогова: Пауки\nРегион: Рованион",
+   "sergii": "У Північному Лихоліссі розташовані Зали ельфійського короля, прихована фортеця Трандуїла та ельфів Лісового королівства. Його численні струмки протікають крізь печерні зали, висічені в живій скелі, повз винні погреби і, зрештою, на схід, до Довгого озера. \n Лігва: Павуки\n Регіон: Рованіон"
+  },
+  {
+   "var": "Map:MAPMPbesiegehidar",
+   "cat": "Назви й описи карт",
+   "en": "Besiege: Hîdar*",
+   "ru": "Осада: Хидар*",
+   "sergii": "Облога: Гідар*"
+  },
+  {
+   "var": "Map:MAPMPbesiegehidar/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Built upon a desert oasis by Númenóreans long ago, the city of Hîdar has since changed hands many times. Many seek to claim it, for holding Hîdar means holding sway over all of Near Harad. \n Capturable: Signal Fire, Inn \n Creeps: Scorpion \n Hazards: Dehydration \n Region: Haradwaith",
+   "ru": "Город Хидар, возведенный в пустынном оазисе нуменорцами в давние времена, с тех пор много раз переходил из рук в руки. Многие стремятся завладеть им, ведь владеть Хидаром - значит властвовать над всем Ближним Харадом.\nЗахватываемые точки: Сигнальный огонь, Походный лагерь\nЛогова: Скорпионы\nОпасности: Обезвоживание\nРегион: Харадвайт",
+   "sergii": "Зведена давним-давно нуменорцями в пустельній оазі, фортеця Гідар відтоді багаторазово переходила з рук у руки. Багато хто прагне захопити її, адже той, хто володіє Гідаром, тримає владу над усім Близьким Гарадом. \n Захоплювані об'єкти: Сигнальний вогонь, Корчма\n Лігва: Скорпіони\n Небезпеки: Зневоднення \n Регіон: Харадвайт"
+  },
+  {
+   "var": "Map:MAPMPbesiegehornburg",
+   "cat": "Назви й описи карт",
+   "en": "Besiege: Hornburg*",
+   "ru": "Осада: Хорнбург*",
+   "sergii": "Облога: Горнбурґ*"
+  },
+  {
+   "var": "Map:MAPMPbesiegehornburg/Desc",
+   "cat": "Назви й описи карт",
+   "en": "The Hornburg, located at the mouth of the gorge called Helm's Deep, is a great stronghold of Rohan and sanctuary in times of war. Its vast Deeping Wall spans the width of the valley, and behind the staunch fortress lie the Glittering Caves.\n Capturable: Inn\n Region: Rohan",
+   "ru": "Хорнбург, расположенный в устье ущелья, называемого Хельмовой падью, - великая твердыня Рохана и убежище во время войны. Его несокрушимая крепостная стена простирается на всю ширину долины, а за прочной крепостью находятся Сверкающие пещеры.\nЗахватываемые точки: Походный лагерь\nРегион: Рохан",
+   "sergii": "Горнбурґ, розташований біля входу в ущелину, що зветься Гельмовим Яром, є великою фортецею Рогану та прихистком у часи війни. Його велична глибока стіна простягається вздовж усієї долини, а позаду незламної фортеці лежать Блискучі печери.\n Захоплювані об'єкти: Корчма\n Регіон: Роган"
+  },
+  {
+   "var": "Map:MAPMPbesiegeisengard",
+   "cat": "Назви й описи карт",
+   "en": "Besiege: Isengard*",
+   "ru": "Осада: Изенгард*",
+   "sergii": "Облога: Ізенґард*"
+  },
+  {
+   "var": "Map:MAPMPbesiegeisengard/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Isengard is a great fortress located at the southern end of the Misty Mountains, near the Gap of Rohan. In the centre of the Ring of Isengard stands the stone tower of Orthanc, entrusted to Saruman the White. \n Creeps: Warg \n Region: Rohan",
+   "ru": "Изенгард - великая крепость, расположенная в долине на южной оконечности Мглистых гор, недалеко от ущелья Рохан. В центре Кольца Изенгарда стояла каменная башня Ортханк, вверенная Саруману Белому.\nЛогова: Варги\nРегион: Рохан",
+   "sergii": "Ізенґард — це велична фортеця, розташована на південному краї Імлистих гір, поблизу Роганського Проходу. У центрі Кільця Ізенґарду стоїть кам'яна вежа Ортганк, довірена Саруману Білому. \n Лігва: Варґи\n Регіон: Роган"
+  },
+  {
+   "var": "Map:MAPMPbesiegekingdomoferebor",
+   "cat": "Назви й описи карт",
+   "en": "Besiege: Kingdom of Erebor*",
+   "ru": "Осада: Королевство Эребор*",
+   "sergii": "Облога: Королівство Еребор*"
+  },
+  {
+   "var": "Map:MAPMPbesiegekingdomoferebor/Desc",
+   "cat": "Назви й описи карт",
+   "en": "The Lonely Mountain, or Erebor, is a mountain in the north-east of Rhovanion. It is the source of the river Running, and the greatest kingdom of Durin's Folk in the Third Age. \n Capturable: Outpost, Inn \n Region: Erebor",
+   "ru": "Одинокая гора или Эребор - гора на северо-востоке Рованиона. Это источник Бегущей реки (Келдуин) и величайшее королевство народа Дурина в Третьей эпохе.\nЗахватываемые точки: Походный лагерь\nРегион: Эребор",
+   "sergii": "Самотня Гора, або Еребор, — це гора на північному сході Рованіону. Вона є витоком річки Бистриці й осередком найвеличнішого королівства Народу Дуріна в Третю Епоху. \n Захоплювані об'єкти: Аванпост, Корчма\n Регіон: Еребор"
+  },
+  {
+   "var": "Map:MAPMPbesiegewulfborg",
+   "cat": "Назви й описи карт",
+   "en": "Besiege: Wulfborg*",
+   "ru": "Осада: Вульфборг*",
+   "sergii": "Облога: Вульфборґ*"
+  },
+  {
+   "var": "Map:MAPMPbesiegewulfborg/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Wulfborg is the capital of Frecalund, a Dunlending realm under the banner of King Wulfgar. Saruman the White is known to visit, stirring its folk with speeches of injustice and retribution against their foes. \n Capturable: Inn \n Creeps: Warg \n Region: Enedwaith",
+   "ru": "Вульфборг - столица Фрекалунда, дунландского королевства под знаменем короля Вульфгара. Известно, что Саруман Белый посещает его, возбуждая народ речами о несправедливости и возмездии врагам.\nЗахватываемые точки: Походный лагерь\nЛогова: Варги\nРегион: Эриадор",
+   "sergii": "Вульфборґ — це столиця Фрекалунду, королівства дунландців під прапором короля Вульфґара. Відомо, що Саруман Білий буває тут, збурюючи народ промовами про несправедливість та відплату їхнім ворогам. \n Захоплювані об'єкти: Корчма\n Лігва: Варґи\n Регіон: Енедвайт"
+  },
+  {
+   "var": "Map:MAPMPblackrootvale",
+   "cat": "Назви й описи карт",
+   "en": "Blackroot Vale*",
+   "ru": "Долина Чернокорня*",
+   "sergii": "Долина Чорного Кореня*"
+  },
+  {
+   "var": "Map:MAPMPblackrootvale/Desc",
+   "cat": "Назви й описи карт",
+   "en": "The Blackroot Vale is a dark valley in the shadows of the White Mountains, through which flows the River Blackroot, or Morthond. \n Capturable: Inn \n Creeps: Goblin \n Region: Gondor",
+   "ru": "Долина Чернокорня - это темная долина в тени Белых гор, через которую протекает Чернотечная река или Мортонд.\nЗахватываемые точки: Походный лагерь\nЛогова: Гоблины\nРегион: Гондор",
+   "sergii": "Долина Чорного Кореня — це темна долина в тіні Білих гір, через яку протікає річка Чорнокорінь, або Мортонд. \n Захоплювані об'єкти: Корчма\n Лігва: Ґобліни\n Регіон: Ґондор"
+  },
+  {
+   "var": "Map:MAPMPbloodwood",
+   "cat": "Назви й описи карт",
+   "en": "Bloodwood*",
+   "ru": "Кровавый лес*",
+   "sergii": "Кривавий ліс*"
+  },
+  {
+   "var": "Map:MAPMPbloodwood/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Within the last flicker of Mr Bones' dark and dying soul lies the accursed realm of Bloodwood, where the spirits of his victims suffer for all eternity. \n Capturable: Inn \n Creeps: Warg \n Region: Arnor",
+   "ru": "В последнем проблеске мрачной и умирающей души мистера Боунса простирается проклятое царство Кровавого леса, где души его жертв страдают вечно.\nЗахватываемые точки: Походный лагерь\nЛогова: Варги\nРегион: Арнор",
+   "sergii": "У останньому мерехтінні темної та вмираючої душі пана Боунза лежить прокляте царство Кривавого лісу, де духи його жертв страждають протягом геть цілої вічності. \n Захоплювані об'єкти: Корчма\n Лігва: Варґи\n Регіон: Арнор"
+  },
+  {
+   "var": "Map:MAPMPbruinengorges",
+   "cat": "Назви й описи карт",
+   "en": "Bruinen Gorges*",
+   "ru": "Ущелья Бруинена*",
+   "sergii": "Ущелини Бруїнену*"
+  },
+  {
+   "var": "Map:MAPMPbruinengorges/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Densely wooded valleys surround the River Bruinen and the hidden route towards Rivendell. The area is known for its towering rock formations, autumnal forests, and dangerous troll lairs. \n Creeps: Cave Troll \n Capturable: Inn \n Region: Eriador",
+   "ru": "Долины с густыми лесами окружают реку Бруинен и скрытый проход к Ривенделлу. Эта местность известна своими возвышающимися скальными образованиями, осенними лесами и опасными логовами троллей.\nЛогова: Пещерные тролли\nЗахватываемые точки: Походный лагерь\nРегион: Эриадор",
+   "sergii": "Густі лісисті долини оточують річку Бруїнен та прихований шлях до Рівенделлу. Ця місцевість відома своїми високими скельними утвореннями, осінніми лісами та небезпечними лігвами тролів. \n Лігва: Печерні тролі\n Захоплювані об'єкти: Корчма\n Регіон: Еріадор"
+  },
+  {
+   "var": "Map:MAPMPcairandros",
+   "cat": "Назви й описи карт",
+   "en": "Cair Andros",
+   "ru": "Каир Андрос*",
+   "sergii": "Каїр-Андрос"
+  },
+  {
+   "var": "Map:MAPMPcairandros/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Cair Andros is an island fortress on the Anduin, north of Osgiliath. Together, the two locations guard the vulnerable crossing-points of the Anduin into the lands of Gondor to the west. \n Capturable: Signal Fire, Inn \n Creeps: Warg, Barrow Wight \n Region: Gondor",
+   "ru": "Каир Андрос - остров-крепость на Андуине, к северу от Осгилиата. Вместе эти две локации охраняют уязвимые точки перехода Андуина в земли Гондора на западе.\nЗахватываемые точки: Сигнальный огонь, Походный лагерь\nЛогова: Пещерные тролли, варги, призраки\nРегион: Гондор",
+   "sergii": "Каїр-Андрос — це острівна фортеця на Андуїні, розташована на північ від Осґіліату. Разом ці дві локації охороняють уразливі переправи через Андуїн до земель Ґондору на заході. \n Захоплювані об'єкти: Сигнальний вогонь, Корчма\n Лігва: Варґи, Могильні духи\n Регіон: Ґондор"
+  },
+  {
+   "var": "Map:MAPMPcapeofforlond",
+   "cat": "Назви й описи карт",
+   "en": "Cape of Forlond*",
+   "ru": "Мыс Форлонда*",
+   "sergii": "Мис Форлонд*"
+  },
+  {
+   "var": "Map:MAPMPcapeofforlond/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Forlond is a harbour that lay on the northern shore of the Gulf of Lune, in the Elvish land of Forlindon. \n Capturable: Signal Fire, Outpost, Dock \n Creeps: Hill Troll, Warg, Goblin \n Region: Lindon",
+   "ru": "Форлонд был гаванью на северном берегу Залива Лун в эльфийской земле Форлиндон.\nЗахватываемые точки: Сигнальный огонь, Застава, Пристань\nЛогова: Горные Тролли, варги, гоблины\nРегион: Линдон",
+   "sergii": "Форлонд — це гавань, що лежить на північному березі Лунської Затоки, у ельфійській землі Форліндон. \n Захоплювані об'єкти: Сигнальний вогонь, Аванпост, Причал\n Лігва: Гірські тролі, Варґи, Ґобліни\n Регіон: Ліндон"
+  },
+  {
+   "var": "Map:MAPMPcarnen",
+   "cat": "Назви й описи карт",
+   "en": "Carnen*",
+   "ru": "Карнен*",
+   "sergii": "Карнен*"
+  },
+  {
+   "var": "Map:MAPMPcarnen/Desc",
+   "cat": "Назви й описи карт",
+   "en": "The Carnen flows south from the Iron Hills. It is known as the Redwater, because the iron from the mountains gives it a red tinge. \n Capturable: Signal Fire, Inn \n Creeps: Warg, Goblin \n Region: Erebor",
+   "ru": "Карнен течет на юг от Железных холмов. Он известен как Красная вода, потому что горное железо придает ему красный оттенок.\nЗахватываемые точки: Сигнальный огонь, Походный лагерь\nЛогова: Варги, гоблины\nРегион: Эребор",
+   "sergii": "Карнен тече на південь від Залізних пагорбів. Вона відома як Червона Вода, адже залізо з пагорбів надає їй червонуватого відтінку. \n Захоплювані об'єкти: Сигнальний вогонь, Корчма\n Лігва: Варґи, Ґобліни\n Регіон: Еребор"
+  },
+  {
+   "var": "Map:MAPMPcarrock",
+   "cat": "Назви й описи карт",
+   "en": "Carrock*",
+   "ru": "Каррок*",
+   "sergii": "Каррок*"
+  },
+  {
+   "var": "Map:MAPMPcarrock/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Narrow steps were carved by Beorn into the very cliff face of the Carrock, a stony eyot and ford of stones in the upper reaches of the Anduin. \n Creeps: Warg \n Region: Rhovanion",
+   "ru": "Узкие ступеньки были вырезаны Беорном на самой скале Каррока, каменистого островка и брода из камней в верховьях Андуина.\nЗахватываемые точки: Каррок\nЛогова: Варги\nРегион: Рованион",
+   "sergii": "Вузькі сходи були висічені Беорном у самій скелі Карроку — кам'янистому острівці та кам'янистому броді у верхній течії Андуїну. \n Лігва: Варґи\n Регіон: Рованіон"
+  },
+  {
+   "var": "Map:MAPMPcelduin",
+   "cat": "Назви й описи карт",
+   "en": "Celduin",
+   "ru": "Келдуин*",
+   "sergii": "Келдуїн"
+  },
+  {
+   "var": "Map:MAPMPcelduin/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Scattered settlements span the Celduin, which flows south past Esgaroth, eventually turning towards the Sea of Rhûn. \n Capturable: Signal Fire, Inn, Outpost, Dock \n Creeps: Cave Troll, Barrow Wight \n Region: Erebor",
+   "ru": "Разрозненные поселения охватывают Келдуин, который течет на юг мимо Эсгарота и в конечном итоге поворачивает к морю Рун.\nЗахватываемые точки: Сигнальный огонь, Походный лагерь, Пристань\nЛогова: Пещерный тролль, призраки\nРегион: Эребор",
+   "sergii": "Розпорошені поселення простягаються уздовж Келдуїн, яка тече на південь повз Есґарот, врешті повертаючи до Моря Рун. \n Захоплювані об'єкти: Сигнальний вогонь, Корчма, Аванпост, Причал\n Лігва: Печерні тролі, Могильні духи\n Регіон: Еребор"
+  },
+  {
+   "var": "Map:MAPMPchetwood",
+   "cat": "Назви й описи карт",
+   "en": "Chetwood*",
+   "ru": "*Четвудский лес",
+   "sergii": "Четвуд*"
+  },
+  {
+   "var": "Map:MAPMPchetwood/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Chetwood is the broad woodland that lay to the north and east of the Bree-hill. The village of Archet was built among the trees near its edge. \n Capturable: Inn \n Creeps: Warg \n Region: Arnor",
+   "ru": "Четвуд - это обширный лесной массив, расположенный к северу и востоку от холма Бри. У его края, среди деревьев, была построена деревня Арчет.\nЗахватываемые точки: Походный лагерь\nЛогова: Варги\nРегион: Арнор",
+   "sergii": "Четвуд — це великий лісовий масив, розташований на північ і на схід від пагорба Брі. Село Арчет було збудоване серед дерев біля його краю. \n Захоплювані об'єкти: Корчма\n Лігва: Варґи\n Регіон: Арнор"
+  },
+  {
+   "var": "Map:MAPMPcirithungol",
+   "cat": "Назви й описи карт",
+   "en": "Cirith Ungol*",
+   "ru": "Кирит Унгол*",
+   "sergii": "Кіріт-Унґол*"
+  },
+  {
+   "var": "Map:MAPMPcirithungol/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Cirith Ungol is located on the north shoulder of the Morgul Pass. During the War of the Ring, Frodo and Samwise were led through the pass by Gollum to the lair of the giant spider Shelob, who dwelt there. \n Capturable: Outpost \n Creeps: Spider, Goblin \n Region: Mordor",
+   "ru": "Кирит Унгол расположен на северном берегу Моргульского перевала. Во время Войны Кольца Голлум провел Фродо и Сэма через проход к логову гигантской паучихи Шелоб, которая там обитала.\nЗахватываемые точки: Застава\nЛогова: Пауки, гоблины\nРегион: Мордор",
+   "sergii": "Кіріт-Унґол розташований на північному плечі Перевалу Морґул. Під час Війни Персня Ґолум провів через цей перевал Фродо та Семвайза до лігва гігантського павука Шелоб, яка жила там. \n Захоплювані об'єкти: Аванпост\n Лігва: Павуки, Ґобліни\n Регіон: Мордор"
+  },
+  {
+   "var": "Map:MAPMPcoastofardumir",
+   "cat": "Назви й описи карт",
+   "en": "Coast of Ardumir*",
+   "ru": "Побережье Ардумира*",
+   "sergii": "Мис Ардумір*"
+  },
+  {
+   "var": "Map:MAPMPcoastofardumir/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Dramatic white cliffs and sandy bays form this archipelago near the Umbarian coastline, a shelter for smugglers and raiding corsair pirates. \n Capturable: Signal Fire, Inn, Dock \n Creeps: Corsair \n Region: Haradwaith",
+   "ru": "Живописные белые скалы и песчаные бухты образуют этот архипелаг у берегов Умбара, прибежища контрабандистов и пиратов.\nЗахватываемые точки: Сигнальный огонь, Походный лагерь, Пристань\nЛогова: Пираты\nРегион: Харадвайт",
+   "sergii": "Драматичні білі скелі та піщані затоки утворюють цей архіпелаг поблизу узбережжя Умбару, який слугує прихистком для контрабандистів та піратів-нападників. \n Захоплювані об'єкти: Сигнальний вогонь, Корчма, Причал\n Лігва: Пірати\n Регіон: Харадвайт"
+  },
+  {
+   "var": "Map:MAPMPcrossingofporos",
+   "cat": "Назви й описи карт",
+   "en": "Crossing of Poros*",
+   "ru": "Переправа через Порос*",
+   "sergii": "Переправа через Порос*"
+  },
+  {
+   "var": "Map:MAPMPcrossingofporos/Desc",
+   "cat": "Назви й описи карт",
+   "en": "The Crossing of Poros marks the point where the Harad Road passes over the river Poros, where Gondor's southern lands lead into the lush wooded region of Ithilien. \n Capturable: Signal Fire, Inn \n Creeps: Goblin \n Region: Gondor",
+   "ru": "Переправа через Порос отмечает место, где дорога из Харада пересекает реку Порос, а южные земли Гондора ведут в пышный лесистый край Итилиэна.\nЗахватываемые точки: Сигнальный огонь, Походный лагерь\nЛогова: Гоблины\nРегион: Гондор",
+   "sergii": "Переправа через Порос позначає місце, де Харадський шлях проходить через річку Порос, де південні землі Ґондору переходять у пишний лісистий край Ітілієну. \n Захоплювані об'єкти: Сигнальний вогонь, Корчма\n Лігва: Ґобліни\n Регіон: Ґондор"
+  },
+  {
+   "var": "Map:MAPMPdaergil",
+   "cat": "Назви й описи карт",
+   "en": "Daergil*",
+   "ru": "Даэргил*",
+   "sergii": "Даерґіл*"
+  },
+  {
+   "var": "Map:MAPMPdaergil/Desc",
+   "cat": "Назви й описи карт",
+   "en": "This secluded passage through the foothills connects the Trollshaws and the scattered ruins of Eregion. \n Capturable: Inn \n Creeps: Cave Troll, Goblin \n Region: Eriador",
+   "ru": "Этот уединенный проход через предгорья соединяет Троллистую пущу и разбросанные руины Эрегиона.\nЗахватываемые точки: Походный лагерь\nЛогова: Пещерные тролли, гоблины\nРегион: Эриадор",
+   "sergii": "Цей відокремлений перехід через підніжжя гір з'єднує Тролевий ліс та розпорошені руїни Ереґіону. \n Захоплювані об'єкти: Корчма\n Лігва: Печерні тролі, Ґобліни\n Регіон: Еріадор"
+  },
+  {
+   "var": "Map:MAPMPdeadmansdike",
+   "cat": "Назви й описи карт",
+   "en": "Deadman's Dike*",
+   "ru": "Мертвецкий вал*",
+   "sergii": "Вал мерця*"
+  },
+  {
+   "var": "Map:MAPMPdeadmansdike/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Destroyed by the Witch-king of Angmar centuries ago, the ruins of Fornost are a ruined and desolate place, now more commonly known as Deadman's Dike. \n Capturable: Signal Fire, Inn \n Creeps: Barrow Wight \n Region: Arnor",
+   "ru": "Форност, разрушенный Королем-чародеем Ангмара много веков назад, представляет собой разрушенное и пустынное место, более известное как Мертвецкий вал.\nЗахватываемые точки: Сигнальный огонь, Походный лагерь\nЛогова: Призраки\nРегион: Арнор",
+   "sergii": "Зруйновані Королем-чаклуном Анґмару століття тому, руїни Форноста є спустошеним та знівеченим місцем, нині більш відомим як Вал мерця. \n Захоплювані об'єкти: Сигнальний вогонь, Корчма\n Лігва: Могильні духи\n Регіон: Арнор"
+  },
+  {
+   "var": "Map:MAPMPdepthsofdolguldur",
+   "cat": "Назви й описи карт",
+   "en": "Depths of Dol Guldur*",
+   "ru": "Низины Дол Гулдура*",
+   "sergii": "Надра Дол-Ґулдура*"
+  },
+  {
+   "var": "Map:MAPMPdepthsofdolguldur/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Beneath the shadowy spires of Dol Guldur, the stench of fetid ponds and forest decay clings to the damp air, seeping between twisting corridors and rusted iron bars of long-forgotten prison cells. \n Capturable: Inn \n Creeps: Barrow Wight, Spider\n Region: Rhovanion",
+   "ru": "Под мрачными шпилями Дол Гулдура в сыром воздухе витает зловоние затхлых прудов и лесного гниения, просачивающееся между извилистыми коридорами и ржавыми железными решетками давно забытых тюремных подземелий.\nЗахватываемые точки: Походный лагерь\nЛогова: Могильные духи, пауки\nРегион: Рованион",
+   "sergii": "Під тіньовими шпилями Дол-Ґулдуру сморід гнилісних ставків та лісового зіпсуття в'ється у вогкому повітрі, просочуючись між покрученими коридорами й іржавими ґратами давно забутих тюремних камер. \n Захоплювані об'єкти: Корчма\n Лігва: Могильні духи, Павуки\n Регіон: Рованіон"
+  },
+  {
+   "var": "Map:MAPMPdirenfirel",
+   "cat": "Назви й описи карт",
+   "en": "Direnfirel*",
+   "ru": "Диренфирель*",
+   "sergii": "Діренфайрель*"
+  },
+  {
+   "var": "Map:MAPMPdirenfirel/Desc",
+   "cat": "Назви й описи карт",
+   "en": "A small village located in Western Rohan at the edges of the Entwash near Fangorn. \n Capturable: Inn \n Creeps: Warg \n Region: Rohan",
+   "ru": "Небольшая деревня, расположенная в Западном Рохане, на окраине реки Энтова купель возле Фангорна.\nЗахватываемые точки: Походный лагерь\nЛогова: Варги\nРегион: Рохан",
+   "sergii": "Невелике селище, розташоване в Західному Рогані на узліссі Фанґорна, неподалік річки Ентваш. \n Захоплювані об'єкти: Корчма\n Лігва: Варґи\n Регіон: Роган"
+  },
+  {
+   "var": "Map:MAPMPdolguldur",
+   "cat": "Назви й описи карт",
+   "en": "Dol Guldur",
+   "ru": "Дол Гулдур*",
+   "sergii": "Дол-Ґулдур"
+  },
+  {
+   "var": "Map:MAPMPdolguldur/Desc",
+   "cat": "Назви й описи карт",
+   "en": "Sauron's hilltop stronghold in Mirkwood, now led by his Ringwraiths. \n Capturable: Signal Fire \n Creeps: Spider \n Region: Rhovanion",
+   "ru": "Крепость Саурона на вершине холма в Лихолесье, ныне захваченная его Призраками Кольца.\nЗахватываемые точки: Сигнальный огонь\nЛогова: Пауки\nРегион: Рованион",
+   "sergii": "Вершинна фортеця Саурона у Лихоліссі, якою нині правлять його назґули. \n Захоплювані об'єкти: Сигнальний вогонь\n Лігва: Павуки\n Регіон: Рованіон",
+   "було_у_Сергія": "Вершинна фортеця Саурона у Лихоліссі, якою нині правлять його Назґули. \n Захоплюваний об'єкт: сигнальний вогонь \n Лігва: павуки \n Регіон: Рованіон"
+  },
+  {
+   "var": "Map:MAPSPbalinsexpedition",
+   "cat": "Назви й описи карт",
+   "en": "Tales of Middle-earth: Balin's Expedition*",
+   "ru": "Сказания Средиземья: Экспедиция Балина",
+   "sergii": "Оповіді Середзем'я: Експедиція Баліна*"
+  },
+  {
+   "var": "Map:MAPSPbalinsexpedition/Desc",
+   "cat": "Назви й описи карт",
+   "en": "In T.A. 2989 after the Kingdom of the Lonely Mountain had been restored, Balin and his company set out to reclaim the great ancestral halls of the Dwarves, Khazad-dûm. \n Singleplayer Mission \n Player Faction: Erebor \n Recommended on High settings or above. \n Save your progress often.",
+   "ru": "В 2989 году Т.А. после восстановления королевства Одинокой горы, Балин и его компания отправились отвоевывать великие родовые залы гномов, Кхазад-дум...\nОдиночная миссия\nФракция: Эребор",
+   "sergii": "У 2989 році Третьої Епохи, після відновлення Королівства Самотньої Гори, Балін та його супутники вирушили, щоб повернути собі величні родові зали гномів — Казад-дум. \n Однокористувацька місія \n Фракція гравця: Еребор \n Рекомендується на високих налаштуваннях або вище. \n Зберігайте свій прогрес якомога частіше."
+  },
+  {
+   "var": "OBJECT:ArnorCastleWallHub",
+   "cat": "Назви юнітів і будівель",
+   "en": "Wall Hub Expansion",
+   "ru": "Башенка",
+   "sergii": "Стінна вежа"
+  },
+  {
+   "var": "OBJECT:BlackrootValeArcher",
+   "cat": "Назви юнітів і будівель",
+   "en": "Blackroot Vale Archer",
+   "ru": "Лучник долины Чернокорня",
+   "sergii": "Лучники Долини Чорнокореня"
+  },
+  {
+   "var": "OBJECT:GenericSentryTowerDescription",
+   "cat": "Назви юнітів і будівель",
+   "en": "Defensive tower that fires arrows at nearby enemies \n Can be garrisoned with archers to increase damage output",
+   "ru": "Оборонительное сооружение, атакующее ближайших врагов стрелами\nДля увеличения наносимого урона в башне может быть размещен отряд лучников",
+   "sergii": "Оборонна вежа, що стріляє стрілами по ворогах, які наближаються \n Можна розмістити лучників для збільшення пошкоджень",
+   "було_у_Сергія": "Оборонна вежа, що стріляє стрілами по ворогах, які наближаються \n Можна розмістити лучників для збільшення шкоди"
+  },
+  {
+   "var": "OBJECT:GolfimbulBodyguard",
+   "cat": "Назви юнітів і будівель",
+   "en": "Golfimbul's Bodyguard",
+   "ru": "Телохранитель Гольфимбула",
+   "sergii": "Тілоохоронець Ґольфімбула"
+  },
+  {
+   "var": "OBJECT:GondorArcher",
+   "cat": "Назви юнітів і будівель",
+   "en": "Archer of Minas Tirith",
+   "ru": "Лучник Минас Тирита",
+   "sergii": "Лучники Мінас-Тіріта"
+  },
+  {
+   "var": "OBJECT:GondorArcherRange",
+   "cat": "Назви юнітів і будівель",
+   "en": "Archery Range",
+   "ru": "Стрельбище",
+   "sergii": "Стрільбище"
+  },
+  {
+   "var": "OBJECT:GondorArcheryRangeDescription",
+   "cat": "Назви юнітів і будівель",
+   "en": "Level 2: +10% faster build speed\n Level 3: +25% faster build speed",
+   "ru": "Уровень 2: +10% скорости работы\nУровень 3: +25% скорости работы",
+   "sergii": "Рівень 2: швидкість будівництва +10%\n Рівень 3: швидкість будівництва +25%"
+  },
+  {
+   "var": "OBJECT:GondorArmorRack",
+   "cat": "Назви юнітів і будівель",
+   "en": "Armour Rack",
+   "ru": "Стойка для брони",
+   "sergii": "Стійка для броні"
+  },
+  {
+   "var": "OBJECT:GondorBanner",
+   "cat": "Назви юнітів і будівель",
+   "en": "Banner Carrier",
+   "ru": "Знаменосец",
+   "sergii": "Прапороносець"
+  },
+  {
+   "var": "OBJECT:GondorBarracks",
+   "cat": "Назви юнітів і будівель",
+   "en": "Barracks",
+   "ru": "Казармы",
+   "sergii": "Казарми"
+  },
+  {
+   "var": "OBJECT:GondorBarracksDescription",
+   "cat": "Назви юнітів і будівель",
+   "en": "Level 2: +10% faster build speed\n Level 3: +25% faster build speed",
+   "ru": "Уровень 2: +10% скорости работы\nУровень 3: +25% скорости работы",
+   "sergii": "Рівень 2: швидкість будівництва +10%\n Рівень 3: швидкість будівництва +25%"
+  },
+  {
+   "var": "OBJECT:GondorBaseDefenseFoundation",
+   "cat": "Назви юнітів і будівель",
+   "en": "Defensive Foundation",
+   "ru": "Фундамент оборонительного сооружения",
+   "sergii": "Фундамент оборонної споруди"
+  },
+  {
+   "var": "OBJECT:GondorBaseTower",
+   "cat": "Назви юнітів і будівель",
+   "en": "Tower",
+   "ru": "Башня стрелков",
+   "sergii": "Вежа"
+  },
+  {
+   "var": "OBJECT:GondorBaseWall",
+   "cat": "Назви юнітів і будівель",
+   "en": "Wall",
+   "ru": "Стена",
+   "sergii": "Стіна"
+  },
+  {
+   "var": "OBJECT:GondorBaseWallTreb",
+   "cat": "Назви юнітів і будівель",
+   "en": "Trebuchet",
+   "ru": "Камнемет",
+   "sergii": "Требушет"
+  },
+  {
+   "var": "OBJECT:GondorBattleTower",
+   "cat": "Назви юнітів і будівель",
+   "en": "Battle Tower",
+   "ru": "Башня стрелков",
+   "sergii": "Оборонна вежа"
+  },
+  {
+   "var": "OBJECT:GondorBattleTowerDescription",
+   "cat": "Назви юнітів і будівель",
+   "en": "Defensive tower that fires arrows at nearby enemies",
+   "ru": "Оборонительное сооружение, атакующее ближайших врагов стрелами",
+   "sergii": "Оборонна вежа, що стріляє стрілами по ворогах, які наближаються"
+  },
+  {
+   "var": "OBJECT:GondorBlackSmith",
+   "cat": "Назви юнітів і будівель",
+   "en": "Blacksmith",
+   "ru": "Кузница",
+   "sergii": "Ковальня"
+  },
+  {
+   "var": "OBJECT:GondorBlackrootArcher",
+   "cat": "Назви юнітів і будівель",
+   "en": "Blackroot Vale Archer",
+   "ru": "Лучник долины Чернокорня",
+   "sergii": "Лучники Долини Чорнокореня"
+  },
+  {
+   "var": "OBJECT:GondorBlacksmithDescription",
+   "cat": "Назви юнітів і будівель",
+   "en": "Researches weapons and armour upgrades \n Provides worked metals as a resource based on available terrain \n Steel Bonus - Reduced cost of upgrades \n 2 Blacksmiths: 5% \n 3 Blacksmiths: 10% \n 4 Blacksmiths: 15% \n 5 Blacksmiths: 20% \n 6+ Blacksmiths: 25%",
+   "ru": "Позволяет исследовать усовершенствования оружия и брони\nПроизводит ресурсы\nСнижает стоимость улучшений\n2 кузницы: 5%\n3 кузницы: 10%\n4 кузницы: 15%\n5 кузниц: 20%\n6 и более: 25%",
+   "sergii": "Дослідження покращень зброї та броні \nВидобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\n Знижує вартість покращень \n 2 Ковальні: 5% \n 3 Ковальні: 10% \n 4 Ковальні: 15% \n 5 Ковалень: 20% \n 6 і більше: 25%",
+   "було_у_Сергія": "Дослідження удосконалень зброї та броні \n Виробництво оброблених металів як ресурсів залежно від доступної місцевості \n Знижує вартість удосконалень \n 2 Кузні: 5% \n 3 Кузні: 10% \n 4 Кузні: 15% \n 5 Кузень: 20% \n 6 і більше: 25%"
+  },
+  {
+   "var": "OBJECT:GondorBuildingFoundation",
+   "cat": "Назви юнітів і будівель",
+   "en": "Building Foundation",
+   "ru": "Фундамент постройки",
+   "sergii": "Фундамент будівлі"
+  },
+  {
+   "var": "OBJECT:GondorBuildingGeneral",
+   "cat": "Назви юнітів і будівель",
+   "en": "Gondor Building",
+   "ru": "Гондорская постройка",
+   "sergii": "Ґондорська споруда"
+  },
+  {
+   "var": "OBJECT:GondorBuildingGeneral1",
+   "cat": "Назви юнітів і будівель",
+   "en": "Gondorian Ruins",
+   "ru": "Гондорские руины",
+   "sergii": "Ґондорські руїни"
+  },
+  {
+   "var": "OBJECT:GondorBuildingGeneral2",
+   "cat": "Назви юнітів і будівель",
+   "en": "Gondor Building 2",
+   "ru": "Гондорская постройка",
+   "sergii": "Ґондорська споруда 2"
+  },
+  {
+   "var": "OBJECT:GondorBuildingGeneral3",
+   "cat": "Назви юнітів і будівель",
+   "en": "Gondor Building 3",
+   "ru": "Гондорская постройка",
+   "sergii": "Ґондорська споруда 3"
+  },
+  {
+   "var": "OBJECT:GondorBuildingGeneral4",
+   "cat": "Назви юнітів і будівель",
+   "en": "Gondor Building 4",
+   "ru": "Гондорская постройка",
+   "sergii": "Ґондорська споруда 4"
+  },
+  {
+   "var": "OBJECT:GondorBuildingGeneral5",
+   "cat": "Назви юнітів і будівель",
+   "en": "Gondor Building 5",
+   "ru": "Гондорская постройка",
+   "sergii": "Ґондорська споруда 5"
+  },
+  {
+   "var": "OBJECT:GondorBuildingGeneral6",
+   "cat": "Назви юнітів і будівель",
+   "en": "Gondor Building 6",
+   "ru": "Гондорская постройка",
+   "sergii": "Ґондорська споруда 6"
+  },
+  {
+   "var": "OBJECT:GondorBuildingGeneral7",
+   "cat": "Назви юнітів і будівель",
+   "en": "Gondor Building 7",
+   "ru": "Гондорская постройка",
+   "sergii": "Ґондорська споруда 7"
+  },
+  {
+   "var": "OBJECT:GondorBuildingGeneral8",
+   "cat": "Назви юнітів і будівель",
+   "en": "Gondor Building 8",
+   "ru": "Гондорская постройка",
+   "sergii": "Ґондорська споруда 8"
+  },
+  {
+   "var": "OBJECT:GondorBuildingIthilien",
+   "cat": "Назви юнітів і будівель",
+   "en": "Gondor Building",
+   "ru": "Гондорская постройка",
+   "sergii": "Ґондорська споруда"
+  },
+  {
+   "var": "OBJECT:GondorBulwark",
+   "cat": "Назви юнітів і будівель",
+   "en": "Delegation of the White City",
+   "ru": "Башня Белого города",
+   "sergii": "Посольство Білого міста",
+   "було_у_Сергія": "Посланці з Білого міста",
+   "примітка": "взято наш переклад цієї ж англійської фрази"
+  },
+  {
+   "var": "OBJECT:GondorCampKeep",
+   "cat": "Назви юнітів і будівель",
+   "en": "Citadel",
+   "ru": "Цитадель",
+   "sergii": "Цитадель"
+  },
+  {
+   "var": "OBJECT:GondorCastleBarracks_temp",
+   "cat": "Назви юнітів і будівель",
+   "en": "Gondor Barracks",
+   "ru": "Гондорские казармы",
+   "sergii": "Ґондорські казарми"
+  },
+  {
+   "var": "OBJECT:GondorCastleBaseKeep",
+   "cat": "Назви юнітів і будівель",
+   "en": "Citadel",
+   "ru": "Цитадель",
+   "sergii": "Цитадель"
+  },
+  {
+   "var": "OBJECT:GondorCastleElevator",
+   "cat": "Назви юнітів і будівель",
+   "en": "Castle Stairs",
+   "ru": "Лестница замка",
+   "sergii": "Сходи фортеці"
+  },
+  {
+   "var": "OBJECT:GondorCastleFoundation_temp",
+   "cat": "Назви юнітів і будівель",
+   "en": "Castle Foundation",
+   "ru": "Фундамент замка",
+   "sergii": "Фундамент фортеці"
+  },
+  {
+   "var": "OBJECT:GondorCastleGate",
+   "cat": "Назви юнітів і будівель",
+   "en": "Castle Gate",
+   "ru": "Ворота замка",
+   "sergii": "Брама фортеці"
+  },
+  {
+   "var": "OBJECT:GondorCastleGateTower",
+   "cat": "Назви юнітів і будівель",
+   "en": "Gate Tower",
+   "ru": "Надвратная башня",
+   "sergii": "Надбрамна вежа"
+  },
+  {
+   "var": "OBJECT:GondorCastleKeep_temp",
+   "cat": "Назви юнітів і будівель",
+   "en": "Gondor Keep",
+   "ru": "Гондорская обитель",
+   "sergii": "Обитель Ґондору"
+  },
+  {
+   "var": "OBJECT:GondorCastleUpgradeBattleTower",
+   "cat": "Назви юнітів і будівель",
+   "en": "Battle Tower",
+   "ru": "Башня стрелков",
+   "sergii": "Оборонна вежа"
+  },
+  {
+   "var": "OBJECT:GondorCastleUpgradeNumenorian",
+   "cat": "Назви юнітів і будівель",
+   "en": "Númenórean Stonework",
+   "ru": "Нуменорская кладка",
+   "sergii": "Нуменорська кам'яна кладка"
+  },
+  {
+   "var": "OBJECT:GondorCastleUpgradePosternGate",
+   "cat": "Назви юнітів і будівель",
+   "en": "Postern Gate",
+   "ru": "Боковые ворота",
+   "sergii": "Потайна брама"
+  },
+  {
+   "var": "OBJECT:GondorCastleUpgradeStructuralFireArrows",
+   "cat": "Назви юнітів і будівель",
+   "en": "Structures with Fire Arrows",
+   "ru": "Постройки с огненными стрелами",
+   "sergii": "Споруди з вогняними стрілами"
+  },
+  {
+   "var": "OBJECT:GondorCastleUpgradeTrebuchet",
+   "cat": "Назви юнітів і будівель",
+   "en": "Trebuchet",
+   "ru": "Камнемет",
+   "sergii": "Требушет"
+  },
+  {
+   "var": "OBJECT:GondorCastleWall",
+   "cat": "Назви юнітів і будівель",
+   "en": "Wall",
+   "ru": "Стена",
+   "sergii": "Стіна"
+  },
+  {
+   "var": "OBJECT:GondorCastleWallArrowTower",
+   "cat": "Назви юнітів і будівель",
+   "en": "Arrow Tower",
+   "ru": "Башня стрелков",
+   "sergii": "Вежа лучників"
+  },
+  {
+   "var": "OBJECT:GondorCastleWallHub",
+   "cat": "Назви юнітів і будівель",
+   "en": "Wall Hub Expansion",
+   "ru": "Башенка",
+   "sergii": "Стінна вежа"
+  },
+  {
+   "var": "OBJECT:GondorCastleWallPosternGate",
+   "cat": "Назви юнітів і будівель",
+   "en": "Postern Gate",
+   "ru": "Боковые ворота",
+   "sergii": "Потайна брама"
+  },
+  {
+   "var": "OBJECT:GondorCastleWallTrebuchet",
+   "cat": "Назви юнітів і будівель",
+   "en": "Trebuchet Tower",
+   "ru": "Башня камнеметов",
+   "sergii": "Требушетна вежа"
+  },
+  {
+   "var": "OBJECT:GondorCastleWallUpgrade",
+   "cat": "Назви юнітів і будівель",
+   "en": "Castle Wall",
+   "ru": "Стена замка",
+   "sergii": "Стіна фортеці"
+  },
+  {
+   "var": "OBJECT:GondorCastleWall_temp",
+   "cat": "Назви юнітів і будівель",
+   "en": "Gondor Wall",
+   "ru": "Гондорская стена",
+   "sergii": "Ґондорська стіна"
+  },
+  {
+   "var": "OBJECT:GondorEarnur",
+   "cat": "Назви юнітів і будівель",
+   "en": "Eärnur",
+   "ru": "Эарнур",
+   "sergii": "Еарнур"
+  },
+  {
+   "var": "OBJECT:GondorEarnurRevive",
+   "cat": "Назви юнітів і будівель",
+   "en": "Revive the fallen Hero, Eärnur",
+   "ru": "Воскресить павшего в бою Эарнура",
+   "sergii": "Відродити полеглого в бою Еарнура"
+  },
+  {
+   "var": "OBJECT:GondorFarm",
+   "cat": "Назви юнітів і будівель",
+   "en": "Farm",
+   "ru": "Ферма",
+   "sergii": "Ферма"
+  },
+  {
+   "var": "OBJECT:GondorFarmDescription",
+   "cat": "Назви юнітів і будівель",
+   "en": "Reduces cost of cavalry\n 2 Farms: 10%\n 3 Farms: 15% \n 4 Farms: 20%\n 5 Farms: 25%\n 6+ Farms: 30%",
+   "ru": "Снижает стоимость кавалерии\n2 фермы: 10%\n3 фермы: 15%\n4 фермы: 20%\n5 ферм: 25%\n6 и более: 30%",
+   "sergii": "Знижує вартість кавалерії\n 2 Зерносховища: 10%\n 3 Зерносховища: 15% \n 4 Зерносховища: 20%\n 5 Зерносховищ: 25%\n 6 і більше Зерносховищ: 30%"
+  },
+  {
+   "var": "OBJECT:GondorFighter",
+   "cat": "Назви юнітів і будівель",
+   "en": "Soldier of Minas Tirith",
+   "ru": "Солдат Минас Тирита",
+   "sergii": "Воїни Мінас-Тіріта"
+  },
+  {
+   "var": "OBJECT:GondorGate",
+   "cat": "Назви юнітів і будівель",
+   "en": "Gate",
+   "ru": "Ворота",
+   "sergii": "Брама"
+  },
+  {
+   "var": "OBJECT:GondorGateTower",
+   "cat": "Назви юнітів і будівель",
+   "en": "Gate Tower",
+   "ru": "Надвратная башня",
+   "sergii": "Надбрамна вежа"
+  },
+  {
+   "var": "OBJECT:GondorGranary",
+   "cat": "Назви юнітів і будівель",
+   "en": "Granary",
+   "ru": "Амбар",
+   "sergii": "Зерносховище"
+  },
+  {
+   "var": "OBJECT:GondorGwaihir",
+   "cat": "Назви юнітів і будівель",
+   "en": "Gwaihir",
+   "ru": "Гвайхир",
+   "sergii": "Ґвайгір"
+  },
+  {
+   "var": "OBJECT:GondorHseHeal",
+   "cat": "Назви юнітів і будівель",
+   "en": "House of Healing",
+   "ru": "Обитель исцеления",
+   "sergii": "Оселя зцілення"
+  },
+  {
+   "var": "OBJECT:GondorKeep",
+   "cat": "Назви юнітів і будівель",
+   "en": "Battle Tower",
+   "ru": "Башня",
+   "sergii": "Оборонна вежа"
+  },
+  {
+   "var": "OBJECT:GondorLamedonFighter",
+   "cat": "Назви юнітів і будівель",
+   "en": "Lamedon Clansman",
+   "ru": "Мечник Ламедона",
+   "sergii": "Мечники Ламедона"
+  },
+  {
+   "var": "OBJECT:GondorLinhirPike",
+   "cat": "Назви юнітів і будівель",
+   "en": "Linhir Spearman",
+   "ru": "Копейщик Линхира",
+   "sergii": "Списоносці Лінхіра"
+  },
+  {
+   "var": "OBJECT:GondorMarket",
+   "cat": "Назви юнітів і будівель",
+   "en": "Marketplace",
+   "ru": "Рынок",
+   "sergii": "Ринок"
+  },
+  {
+   "var": "OBJECT:GondorMarketPlaceDescription",
+   "cat": "Назви юнітів і будівель",
+   "en": "Must keep in play to maintain Grand Harvest and Siege Materials upgrades",
+   "ru": "Рынок не должен быть разрушен, чтобы улучшения Богатый урожай и Осадные материалы были доступны",
+   "sergii": "Ринок не повинен бути зруйнований, щоб покращення «Великий врожай» та «Матеріали для облоги» були доступними",
+   "було_у_Сергія": "Ринок не повинен бути зруйнований, щоб удосконалення «Великий врожай» та «Матеріали для облоги» були доступними"
+  },
+  {
+   "var": "OBJECT:GondorPeasant",
+   "cat": "Назви юнітів і будівель",
+   "en": "Peasant",
+   "ru": "Крестьянин",
+   "sergii": "Селянин"
+  },
+  {
+   "var": "OBJECT:GondorPorter",
+   "cat": "Назви юнітів і будівель",
+   "en": "Builder",
+   "ru": "Строитель",
+   "sergii": "Будівельник"
+  },
+  {
+   "var": "OBJECT:GondorRanger",
+   "cat": "Назви юнітів і будівель",
+   "en": "Ithilien Ranger",
+   "ru": "Следопыт Итилиэна",
+   "sergii": "Слідопити Ітілієну",
+   "було_у_Сергія": "Слідопити Ітілієна"
+  },
+  {
+   "var": "OBJECT:GondorSentryTower",
+   "cat": "Назви юнітів і будівель",
+   "en": "Lone Tower",
+   "ru": "Одинокая башня",
+   "sergii": "Самотня вежа"
+  },
+  {
+   "var": "OBJECT:GondorSolemnStatue",
+   "cat": "Назви юнітів і будівель",
+   "en": "Solemn Statue Expansion",
+   "ru": "Торжественная статуя",
+   "sergii": "Велична статуя"
+  },
+  {
+   "var": "OBJECT:GondorSpearmen",
+   "cat": "Назви юнітів і будівель",
+   "en": "Spearman of Minas Tirith",
+   "ru": "Пикинер Минас Тирита",
+   "sergii": "Списоносці Мінас-Тіріта"
+  },
+  {
+   "var": "OBJECT:GondorStable",
+   "cat": "Назви юнітів і будівель",
+   "en": "Stables",
+   "ru": "Конюшня",
+   "sergii": "Конюшні"
+  },
+  {
+   "var": "OBJECT:GondorStablesDescription",
+   "cat": "Назви юнітів і будівель",
+   "en": "Level 2: +10% faster build speed\n Level 3: +25% faster build speed",
+   "ru": "Уровень 2: +10% скорости работы\nУровень 3: +25% скорости работы",
+   "sergii": "Рівень 2: швидкість будівництва +10%\n Рівень 3: швидкість будівництва +25%"
+  },
+  {
+   "var": "OBJECT:GondorStatue",
+   "cat": "Назви юнітів і будівель",
+   "en": "Heroic Statue",
+   "ru": "Статуя Элендила",
+   "sergii": "Статуя Еленділа"
+  },
+  {
+   "var": "OBJECT:GondorStatueDescription",
+   "cat": "Назви юнітів і будівель",
+   "en": "Allies near the statue gain \n +50% damage, +50% armour, \n and earn experience twice as fast\n Reduces cost of heroes",
+   "ru": "Союзные воины рядом со статуей наносят\n+50% урона, получают +50% брони\nи набирают опыт вдвое быстрее\nСнижает стоимость призыва героев",
+   "sergii": "Воїни, які перебувають поблизу статуї, отримують бонус \n +50% до пошкоджень, +50% броні, \n та вдвічі швидше здобувають досвід\n Знижує вартість вербування героїв",
+   "було_у_Сергія": "Воїни, які перебувають поблизу статуї, отримують \n +50% завданої шкоди, +50% до броні, \n та вдвічі швидше здобувають досвід\n Знижує вартість заклику героїв"
+  },
+  {
+   "var": "OBJECT:GondorStoneMaker",
+   "cat": "Назви юнітів і будівель",
+   "en": "Stoneworker",
+   "ru": "Каменотес",
+   "sergii": "Каменярня"
+  },
+  {
+   "var": "OBJECT:GondorStoneworkerDescription",
+   "cat": "Назви юнітів і будівель",
+   "en": "Generates a small amount of resources \n Reduces cost of buildings \n 1 Stoneworker: 5%\n 2 Stoneworkers: 10\n 3 Stoneworkers: 15\n 4 Stoneworkers: 20\n 5 Stoneworkers: 25%",
+   "ru": "Производит небольшое количество ресурсов\nСнижается стоимость построек\n1 каменотес: 5%\n2 каменотеса: 10\n3 каменотеса: 15\n4 каменотеса: 20\n5 и более: 25%",
+   "sergii": "Періодично виробляє трохи ресурсів\n Знижує вартість будівель \n 1 Каменярня: 5%\n 2 Каменярні: 10\n 3 Каменярні: 15\n 4 Каменярні: 20\n 5 Каменярень: 25%"
+  },
+  {
+   "var": "OBJECT:GondorTent",
+   "cat": "Назви юнітів і будівель",
+   "en": "Tent",
+   "ru": "Палатка",
+   "sergii": "Намет"
+  },
+  {
+   "var": "OBJECT:GondorTowerShieldGuard",
+   "cat": "Назви юнітів і будівель",
+   "en": "Guard of the Citadel",
+   "ru": "Страж цитадели",
+   "sergii": "Вартовий Цитаделі",
+   "було_у_Сергія": "Вартові Цитаделі",
+   "примітка": "взято наш переклад цієї ж англійської фрази"
+  },
+  {
+   "var": "OBJECT:GondorTownsman",
+   "cat": "Назви юнітів і будівель",
+   "en": "Townsmen",
+   "ru": "Горожанин",
+   "sergii": "Містяни"
+  },
+  {
+   "var": "OBJECT:GondorTrebuchet",
+   "cat": "Назви юнітів і будівель",
+   "en": "Trebuchet",
+   "ru": "Камнемет",
+   "sergii": "Требушет"
+  },
+  {
+   "var": "OBJECT:GondorTrebuchetOutcropping",
+   "cat": "Назви юнітів і будівель",
+   "en": "Trebuchet Rampart",
+   "ru": "Площадка для камнеметов",
+   "sergii": "Майданчик для требушета"
+  },
+  {
+   "var": "OBJECT:GondorUpgradeReinforcedGate",
+   "cat": "Назви юнітів і будівель",
+   "en": "Reinforced Gate",
+   "ru": "Укрепленные ворота",
+   "sergii": "Укріплена брама"
+  },
+  {
+   "var": "OBJECT:GondorWall",
+   "cat": "Назви юнітів і будівель",
+   "en": "Wall",
+   "ru": "Стена",
+   "sergii": "Стіна"
+  },
+  {
+   "var": "OBJECT:GondorWallFoundation",
+   "cat": "Назви юнітів і будівель",
+   "en": "Wall Foundation",
+   "ru": "Фундамент стены",
+   "sergii": "Фундамент стіни"
+  },
+  {
+   "var": "OBJECT:GondorWallGate",
+   "cat": "Назви юнітів і будівель",
+   "en": "Gate",
+   "ru": "Ворота",
+   "sergii": "Брама"
+  },
+  {
+   "var": "OBJECT:GondorWallHub",
+   "cat": "Назви юнітів і будівель",
+   "en": "Wall Hub",
+   "ru": "Башенка",
+   "sergii": "Стінна вежа",
+   "було_у_Сергія": "Стінна башта",
+   "примітка": "взято наш переклад цієї ж англійської фрази"
+  },
+  {
+   "var": "OBJECT:GondorWatchTower",
+   "cat": "Назви юнітів і будівель",
+   "en": "Arrow Tower",
+   "ru": "Башня стрелков",
+   "sergii": "Вежа лучників"
+  },
+  {
+   "var": "OBJECT:GondorWell",
+   "cat": "Назви юнітів і будівель",
+   "en": "Well",
+   "ru": "Фонтан цитадели",
+   "sergii": "Джерело Цитаделі"
+  },
+  {
+   "var": "OBJECT:GondorWellDescription",
+   "cat": "Назви юнітів і будівель",
+   "en": "Replenishes health and units in nearby battalions\n Reduces the cost of infantry",
+   "ru": "Ближайшие союзники исцеляются и пополняют свои ряды вне боя\nСнижает стоимость пехоты",
+   "sergii": "Зцілює найближчих союзників поза боєм і поповнює їхню чисельність\n Знижує вартість піхоти"
+  },
+  {
+   "var": "OBJECT:GondorWorker",
+   "cat": "Назви юнітів і будівель",
+   "en": "Builder",
+   "ru": "Строитель",
+   "sergii": "Будівельник"
+  },
+  {
+   "var": "OBJECT:GondorWorkshop",
+   "cat": "Назви юнітів і будівель",
+   "en": "Siege Works",
+   "ru": "Мастерская",
+   "sergii": "Велика майстерня"
+  },
+  {
+   "var": "OBJECT:GondorWorkshopDescription",
+   "cat": "Назви юнітів і будівель",
+   "en": "Level 2: +10% faster build speed\n Level 3: +25% faster build speed",
+   "ru": "Уровень 2: +10% скорости работы\nУровень 3: +25% скорости работы",
+   "sergii": "Рівень 2: швидкість будівництва +10%\n Рівень 3: швидкість будівництва +25%"
+  },
+  {
+   "var": "OBJECT:Grass",
+   "cat": "Назви юнітів і будівель",
+   "en": "Grass",
+   "ru": "Трава",
+   "sergii": "Трава"
+  },
+  {
+   "var": "OBJECT:HordeBlackrootValeArcher",
+   "cat": "Назви юнітів і будівель",
+   "en": "Blackroot Vale Archers",
+   "ru": "Лучники долины Чернокорня",
+   "sergii": "Лучники Долини Чорнокореня"
+  },
+  {
+   "var": "OBJECT:HordeGondorBlackrootArcher",
+   "cat": "Назви юнітів і будівель",
+   "en": "Blackroot Vale Archers",
+   "ru": "Лучники долины Чернокорня",
+   "sergii": "Лучники Долини Чорнокореня"
+  },
+  {
+   "var": "OBJECT:HordeGondorLamedonFighter",
+   "cat": "Назви юнітів і будівель",
+   "en": "Lamedon Clansmen",
+   "ru": "Мечники Ламедона",
+   "sergii": "Мечники Ламедона"
+  },
+  {
+   "var": "OBJECT:HordeGondorLinhirPike",
+   "cat": "Назви юнітів і будівель",
+   "en": "Linhir Spearmen",
+   "ru": "Копейщики Линхира",
+   "sergii": "Списоносці Лінхіра"
+  },
+  {
+   "var": "OBJECT:HordeGondorRanger",
+   "cat": "Назви юнітів і будівель",
+   "en": "Ithilien Rangers",
+   "ru": "Следопыты Итилиэна",
+   "sergii": "Слідопити Ітілієну",
+   "було_у_Сергія": "Слідопити Ітілієна"
+  },
+  {
+   "var": "OBJECT:HordeGondorSoldier",
+   "cat": "Назви юнітів і будівель",
+   "en": "Soldiers of Minas Tirith",
+   "ru": "Солдаты Минас Тирита",
+   "sergii": "Воїни Мінас-Тіріта"
+  },
+  {
+   "var": "OBJECT:HordeGondorSoldierCombo",
+   "cat": "Назви юнітів і будівель",
+   "en": "Soldiers of Minas Tirith",
+   "ru": "Солдаты Минас Тирита",
+   "sergii": "Воїни Мінас-Тіріта"
+  },
+  {
+   "var": "OBJECT:MenBuildingFoundation",
+   "cat": "Назви юнітів і будівель",
+   "en": "Expansion Plot",
+   "ru": "Фундамент постройки",
+   "sergii": "Фундамент будівництва"
+  },
+  {
+   "var": "OBJECT:MenFortressDescription",
+   "cat": "Назви юнітів і будівель",
+   "en": "Recruits Heroes and Builders \n Can be upgraded with improvements and expansions",
+   "ru": "Позволяет обучать строителей и призывать героев\nПоддается разнообразным улучшениям",
+   "sergii": "Навчання будівельників, вербування героїв \n Можна покращувати й розширювати",
+   "було_у_Сергія": "Навчання будівельників, заклик героїв \n Піддається різноманітним удосконаленням"
+  },
+  {
+   "var": "OBJECT:MonumenttoElendil",
+   "cat": "Назви юнітів і будівель",
+   "en": "Monument to Elendil",
+   "ru": "Статуя Элендила",
+   "sergii": "Статуя Еленділа"
+  },
+  {
+   "var": "OBJECT:MonumenttoElendilDescription",
+   "cat": "Назви юнітів і будівель",
+   "en": "Modifier Type: Leadership \n Allies near the Statue gain +25% damage, +25% armour, earn experience 33% faster, and become immune to fear and terror\nReplenishes health and units in nearby battalions",
+   "ru": "Тип модификатора: Лидерство\nСоюзники, находящиеся рядом со статуей, наносят +25% урона, получают +25% брони, набирают опыт на +33% быстрее и становятся невосприимчивыми к страху и ужасу\nИсцеляет и постепенно восполняет ближайшие союзные отряды",
+   "sergii": "Тип ефекту: Лідерство\n Союзники поблизу статуї отримують бонус +25% до пошкоджень, +25% броні, на 33% швидше набирають досвід, та отримують імунітет до страху й жаху\nВідновлює здоров'я та чисельність найближчих загонів",
+   "було_у_Сергія": "Тип модифікатора: лідерство \n Союзники поблизу статуї отримують +25% до шкоди, +25% до броні, здобувають досвід на 33% швидше, та стають нечутливими до ефектів страху й жаху\nВідновлює здоров’я та чисельність найближчих загонів"
+  },
+  {
+   "var": "Object:ArnorTrebuchetExpansion",
+   "cat": "Назви юнітів і будівель",
+   "en": "Trebuchet Expansion",
+   "ru": "Требушет",
+   "sergii": "Требушет"
+  },
+  {
+   "var": "Object:ArrowTowerExpansion",
+   "cat": "Назви юнітів і будівель",
+   "en": "Arrow Tower Expansion",
+   "ru": "Башня стрелков",
+   "sergii": "Вежа лучників"
+  },
+  {
+   "var": "Object:GondorCastleWallSegment",
+   "cat": "Назви юнітів і будівель",
+   "en": "Wall",
+   "ru": "Стена",
+   "sergii": "Стіна"
+  },
+  {
+   "var": "Object:MenFortress",
+   "cat": "Назви юнітів і будівель",
+   "en": "Fortress",
+   "ru": "Крепость",
+   "sergii": "Фортеця"
+  },
+  {
+   "var": "Object:TrebuchetExpansion",
+   "cat": "Назви юнітів і будівель",
+   "en": "Trebuchet Expansion",
+   "ru": "Камнемет",
+   "sergii": "Требушет"
+  },
+  {
+   "var": "UPGRADE:GondorBasicTraining",
+   "cat": "Покращення (повідомлення)",
+   "en": "Banners of the White Tree",
+   "ru": "Знаменосец Белого древа",
+   "sergii": "Прапори Білого Дерева"
+  },
+  {
+   "var": "UPGRADE:MarketplaceUpgradeDefiance",
+   "cat": "Покращення (повідомлення)",
+   "en": "Siege Materials",
+   "ru": "Материалы для осады",
+   "sergii": "Матеріали для облоги"
+  },
+  {
+   "var": "UPGRADE:MarketplaceUpgradeGrandHarvest",
+   "cat": "Покращення (повідомлення)",
+   "en": "Grand Harvest",
+   "ru": "Обильный урожай",
+   "sergii": "Великий врожай"
+  },
+  {
+   "var": "UPGRADE:MarketplaceUpgradeGrandHarvestLorien",
+   "cat": "Покращення (повідомлення)",
+   "en": "Things That Will Be",
+   "ru": "То, что будет",
+   "sergii": "Те, що ще не сталося"
+  },
+  {
+   "var": "UPGRADE:MarketplaceUpgradeIronOre",
+   "cat": "Покращення (повідомлення)",
+   "en": "Steel of Westernesse",
+   "ru": "Сталь Вестернесса",
+   "sergii": "Сталь Вестернесса"
+  },
+  {
+   "var": "Upgrade:MenArrowTower",
+   "cat": "Покращення (повідомлення)",
+   "en": "Arrow Tower",
+   "ru": "Башня лучников",
+   "sergii": "Вежа лучників"
+  },
+  {
+   "var": "Upgrade:MenGate",
+   "cat": "Покращення (повідомлення)",
+   "en": "Gate",
+   "ru": "Ворота",
+   "sergii": "Брама"
+  },
+  {
+   "var": "Upgrade:MenPosternGate",
+   "cat": "Покращення (повідомлення)",
+   "en": "Postern Gate",
+   "ru": "Боковые ворота",
+   "sergii": "Потайна брама"
+  },
+  {
+   "var": "Upgrade:MenTrebuchet",
+   "cat": "Покращення (повідомлення)",
+   "en": "Trebuchet",
+   "ru": "Камнемет",
+   "sergii": "Требушет"
+  },
+  {
+   "var": "Upgrade:MenWallHub",
+   "cat": "Покращення (повідомлення)",
+   "en": "Wall Hub",
+   "ru": "Башенка",
+   "sergii": "Стінна вежа",
+   "було_у_Сергія": "Стінна башта",
+   "примітка": "взято наш переклад цієї ж англійської фрази"
+  },
+  {
+   "var": "SCIENCE:Rank",
+   "cat": "Сили Персня",
+   "en": "Level %d",
+   "ru": "Уровень: %d",
+   "sergii": "Рівень %d"
+  },
+  {
+   "var": "SCIENCE:Rank1",
+   "cat": "Сили Персня",
+   "en": "Rank 1",
+   "ru": "Ранг 1",
+   "sergii": "Ранг 1"
+  },
+  {
+   "var": "SCIENCE:Rank2",
+   "cat": "Сили Персня",
+   "en": "Rank 2",
+   "ru": "Ранг 2",
+   "sergii": "Ранг 2"
+  },
+  {
+   "var": "SCIENCE:Rank3",
+   "cat": "Сили Персня",
+   "en": "Rank 3",
+   "ru": "Ранг 3",
+   "sergii": "Ранг 3"
+  },
+  {
+   "var": "SCIENCE:Rank4",
+   "cat": "Сили Персня",
+   "en": "Rank 4",
+   "ru": "Ранг 4",
+   "sergii": "Ранг 4"
+  },
+  {
+   "var": "SCIENCE:Rank5",
+   "cat": "Сили Персня",
+   "en": "Rank 5",
+   "ru": "Ранг 5",
+   "sergii": "Ранг 5"
+  },
+  {
+   "var": "SCIENCE:Rank6",
+   "cat": "Сили Персня",
+   "en": "Rank 6",
+   "ru": "Ранг 6",
+   "sergii": "Ранг 6"
+  },
+  {
+   "var": "SCIENCE:Rank7",
+   "cat": "Сили Персня",
+   "en": "Rank 7",
+   "ru": "Ранг 7",
+   "sergii": "Ранг 7"
+  },
+  {
+   "var": "SCIENCE:Rank8",
+   "cat": "Сили Персня",
+   "en": "Rank 8",
+   "ru": "Ранг 8",
+   "sergii": "Ранг 8"
+  },
+  {
+   "var": "SCIENCE:SkillPoints",
+   "cat": "Сили Персня",
+   "en": "Skill Points: %d",
+   "ru": "Очки опыта: %d",
+   "sergii": "Очки досвіду: %d"
+  },
+  {
+   "var": "CREDITS:NewLineThanks2",
+   "cat": "Титри",
+   "en": "The Lord of the Rings(tm); The Return of the King(tm)",
+   "ru": "а также всем создателям и актерам фильма",
+   "sergii": "Володар Перснів(tm); Повернення Короля(tm)"
+  }
+ ]
+}

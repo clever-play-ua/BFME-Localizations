@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "hero": "Meneldor",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Rivendell"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "HighPassMeneldor"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:HighPassMeneldor",
+   "type": "Ім'я",
+   "en": "Meneldor",
+   "ru": "",
+   "uk_ai": "Менелдор",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PurchaseHighPassMeneldor",
+   "type": "Кнопка",
+   "en": "&Meneldor",
+   "ru": "",
+   "uk_ai": "Менелдор (&M)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseHighPassMeneldor",
+   "type": "Підказка",
+   "en": "Recruit a powerful follower of Gwaihir",
+   "ru": "",
+   "uk_ai": "Завербувати могутнього соратника Ґвайгіра",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DebilitatingGrasp",
+   "type": "Кнопка",
+   "en": "Debilitating Grasp",
+   "ru": "",
+   "uk_ai": "Виснажлива хватка",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDebilitatingGrasp",
+   "type": "Підказка",
+   "en": "Units attacked by Meneldor are temporarily slowed\n Passive ability",
+   "ru": "",
+   "uk_ai": "Загони, які атакує Менелдор, тимчасово сповільнюються\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MessengerofManwe",
+   "type": "Кнопка",
+   "en": "Messenger of Manwe",
+   "ru": "",
+   "uk_ai": "Посланець Манве",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMessengerofManwe",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Nearby Greater and Lesser Eagles gain +25% armour, and +15% speed\n Passive ability",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Лідерство\nВеликі й малі орли поблизу отримують бонус +25% броні й +15% швидкості\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

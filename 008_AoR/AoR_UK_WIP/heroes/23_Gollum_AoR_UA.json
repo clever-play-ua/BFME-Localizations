@@ -1,0 +1,111 @@
+{
+ "meta": {
+  "hero": "Gollum",
+  "uk_name": "Ґолум",
+  "campaigns": [
+   "FotR",
+   "TTT",
+   "RotK"
+  ],
+  "missions": [
+   "Party",
+   "Moria",
+   "FordsofIsen",
+   "TamingofSmeagol",
+   "EavesofFangorn",
+   "DurinsTower",
+   "Ithilien",
+   "Westfold",
+   "GreyCompany",
+   "Osgiliath",
+   "HelmsDeep",
+   "Isengard",
+   "LordoftheRings",
+   "LightingoftheBeacons",
+   "PathsoftheDead",
+   "Pelargir",
+   "MinasTirithOuter",
+   "CirithUngol",
+   "MinasTirithInner",
+   "PelennorFields",
+   "BlackGate",
+   "ManyPartings",
+   "ScouringoftheShire",
+   "GreyHavens"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignGollum",
+    "NeutralGollum"
+   ],
+   "битва": []
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:NeutralGollum",
+   "type": "Ім'я",
+   "en": "Gollum",
+   "ru": "Голлум",
+   "uk_ai": "Ґолум",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilitySmeagolWring",
+   "type": "Кнопка",
+   "en": "Wring Its Filthy Little Neck (&W)",
+   "ru": "Свернуть его грязную шею! (&R)",
+   "uk_ai": "Скрутити його брудну шийку (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilitySmeagolWring",
+   "type": "Підказка",
+   "en": "Deals strong damage to a single unit \n Left click then left click on target",
+   "ru": "Наносит сильный урон одиночной цели\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Завдає сильних пошкоджень 1 загону\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SmeagolLeadership",
+   "type": "Кнопка",
+   "en": "Master's Guide",
+   "ru": "Наставления хозяина",
+   "uk_ai": "Провідник Господаря",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSmeagolLeadershipCampaign",
+   "type": "Підказка",
+   "en": "Sméagol is passively stealthed unless he attacks and can detect other stealthed units\n Passive ability",
+   "ru": "Смеагол пассивно скрыт, если не атакует и может обнаруживать других скрытых врагов\\nПассивная способность",
+   "uk_ai": "Смеаґол постійно невидимий, доки не атакує, і бачить інші невидимі загони\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SmeagolTenacious",
+   "type": "Кнопка",
+   "en": "Tenacious Creature",
+   "ru": "Упрямое создание",
+   "uk_ai": "Чіпке створіння",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipSmeagolTenacious",
+   "type": "Підказка",
+   "en": "When Sméagol reaches low health, he gains +33% attack and +100% armour for 20 seconds\nCannot be triggered again for 60 seconds\nPassive ability",
+   "ru": "Если здоровье Смеагола достигнет низкого уровня, он получит усиление, нанося +33% урона и получая +100% брони на 20 секунд\\nНе может срабатывать чаще чем один раз за 60 секунд\\nПассивная способность",
+   "uk_ai": "Коли здоров'я Смеаґола падає до критичного рівня, він отримує бонус +33% атаки й +100% броні на 20 сек.\nПовторно спрацьовує не раніше ніж за 60 сек.\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

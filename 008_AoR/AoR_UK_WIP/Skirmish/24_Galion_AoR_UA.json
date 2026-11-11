@@ -1,0 +1,99 @@
+{
+ "meta": {
+  "hero": "Galion",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Mirkwood"
+  ],
+  "alternate factions": [
+   "dorwinion"
+  ],
+  "templates": [
+   "MirkwoodGalion"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:MirkwoodGalion",
+   "type": "Ім'я",
+   "en": "Galion",
+   "ru": "Галион",
+   "uk_ai": "Ґаліон",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MasterofWines",
+   "type": "Кнопка",
+   "en": "Angry Drunk",
+   "ru": "Крепкая выпивка",
+   "uk_ai": "Знатне питво",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMasterofWines",
+   "type": "Підказка",
+   "en": "When near Vineyards and Wells of Wine, Galion gains +33% damage\nPassive ability",
+   "ru": "Галион наносит +33% урона, находясь рядом с Виноградниками и Винными фонтанами\\nПассивная способность",
+   "uk_ai": "Поряд із виноградниками й винними криницями Ґаліон отримує бонус +33% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GalionMiruvor",
+   "type": "Кнопка",
+   "en": "Miruvor (&R)",
+   "ru": "Мирувор (&R)",
+   "uk_ai": "Мірувор (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGalionMiruvor",
+   "type": "Підказка",
+   "en": "Moderately heals friendly units nearby Galion\n Heals by a larger amount at levels 6 and 9 \n Left click to activate",
+   "ru": "Умеренно исцеляет союзников рядом с Галионом\\nИсцеление улучшается на 6 и 9 уровнях\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Помірно зцілює союзні загони поряд із Ґаліоном\nНа 6 і 9 рівнях зцілює сильніше\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GalionDorwinionRed",
+   "type": "Кнопка",
+   "en": "Dorwinion Red (&T)",
+   "ru": "Красное из Дорвиниона (&T)",
+   "uk_ai": "Червоне дорвініонське (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGalionDorwinionRed",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Friendly units within the radius gain +50% damage but lose -25% armour for 30 seconds\n Increased radius at levels 5 and 7 \n Left click on icon then left click on target battalion",
+   "ru": "Требуется уровень 3\\nСоюзные отряды в радиусе действия наносят +50% урона, теряя -25% брони в течение 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 3\nСоюзні загони в радіусі дії на 30 сек. отримують бонус +50% до пошкоджень, але втрачають 25% броні\nНа 5 і 7 рівнях радіус збільшується\nКлікніть на іконку, потім оберіть загін",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GalionBadBatch",
+   "type": "Кнопка",
+   "en": "Bad Batch (&C)",
+   "ru": "Плохая партия (&C)",
+   "uk_ai": "Бракована партія (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGalionBadBatch",
+   "type": "Підказка",
+   "en": "Requires Level 7 \n Causes targeted units to become hostile towards each other for 15 seconds\n Left click icon then left click on target area",
+   "ru": "Требуется уровень 7\\nЗаставляет вражеские войска становиться враждебными по отношению друг к другу в течение 15 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 7\nОбрані загони на 15 сек. стають ворожими одне до одного\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

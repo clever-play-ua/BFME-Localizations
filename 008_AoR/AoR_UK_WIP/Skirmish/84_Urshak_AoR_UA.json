@@ -1,0 +1,118 @@
+{
+ "meta": {
+  "hero": "Urshak",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Wild"
+  ],
+  "alternate factions": [
+   "shadow and flame"
+  ],
+  "templates": [
+   "WildUrshak",
+   "WildUrshak_SaF"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:WildUrshak",
+   "type": "Ім'я",
+   "en": "Urshak",
+   "ru": "Уршак",
+   "uk_ai": "Уршак",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:UrshakIntimidation",
+   "type": "Кнопка",
+   "en": "Intimidation (&W)",
+   "ru": "Запугивание (&W)",
+   "uk_ai": "Залякування (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUrshakIntimidation",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Trolls, Bats and Giants near Urshak gain\n+15% speed and vision\nPassive ability \n\n Modifier Type: Passive Debuff \n Nearby enemy units suffer -15% damage and -10% armour\n At rank 5, Nearby enemy units suffer -25% damage, -20% armour and -10% speed \nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nТролли, летучие мыши и горные гиганты рядом с Уршаком получают\\n+15% обзора и +15% скорости передвижения\\nПассивная способность\\n\\nТип модификатора: Пассивное ослабление\\nБлижайшие вражеские отряды теряют -15% урона и -10% брони\\nНа уровне 5, -25% урона, -20% брони и -10% скорости передвижения\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nТролі, кажани й велетні поряд з Уршаком отримують бонус\n+15% швидкості й дальності огляду\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nТип ефекту: Пасивне ослаблення\nВорожі загони поблизу отримують штраф -15% пошкоджень і -10% броні\nНа 5 рівні ворожі загони поблизу отримують штраф -25% пошкоджень, -20% броні й -10% швидкості\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:UrshakShakeFoundation",
+   "type": "Кнопка",
+   "en": "Cave In (&R)",
+   "ru": "Внутрь! (&R)",
+   "uk_ai": "Обвал (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUrshakShakeFoundation",
+   "type": "Підказка",
+   "en": "Requires Level 3\nTarget enemy building takes heavy damage\nand is disabled for 20 seconds\n Automatically opens targeted gate \n Left click icon then left click on target",
+   "ru": "Требуется уровень 3\\nВыбранная вражеская постройка получает большой урон\\nи отключается на 20 секунд\\nАвтоматически открывает выбранные ворота\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 3\nОбрана ворожа споруда отримує значні пошкодження\nі на 20 сек. виходить з ладу\nАвтоматично відчиняє обрану браму\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:UrshakSoulFreeze",
+   "type": "Кнопка",
+   "en": "Fell Winter (&T)",
+   "ru": "Стужа (&T)",
+   "uk_ai": "Люта зима (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUrshakSoulFreeze",
+   "type": "Підказка",
+   "en": "Requires Level 6\nAffected enemy and ally units are frozen and cannot move, attack or receive upgrades for 15 seconds \n Left click icon then left click on target area",
+   "ru": "Требуется уровень 6\\nВлияет на врагов и союзников. Войска заморожены и не могут двигаться, атаковать и быть атакованы в течение 15 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 6\nВорожі й союзні загони в області дії замерзають і 15 сек. не можуть рухатися, атакувати чи отримувати покращення\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:UrshakWellOfSouls",
+   "type": "Кнопка",
+   "en": "The Black Pit (&C)",
+   "ru": "Черная яма (&C)",
+   "uk_ai": "Чорна яма (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUrshakWellOfSouls",
+   "type": "Підказка",
+   "en": "Requires Level 8\nEnemy units in target area suffer medium damage over time \nHeals nearby friendly units. \n Left click icon then left click on target area",
+   "ru": "Требуется уровень 8\\nВражеские войска в области получают периодический умеренный урон\\nСоюзники рядом с Уршаком умеренно исцеляются\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 8\nВорожі загони на обраній ділянці поступово отримують невеликі пошкодження\nЗцілює союзні загони поблизу.\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:UrshakIntimidationActive",
+   "type": "Кнопка",
+   "en": "Dark Prophecy (&V)",
+   "ru": "Темное пророчество",
+   "uk_ai": "Темне пророцтво (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUrshakIntimidationActive",
+   "type": "Підказка",
+   "en": "Requires Level 10 \n Urshak bewitches targeted units, causing them to become hostile towards each other \n Left click icon then left click on target area",
+   "ru": "Требуется уровень 10\\nУршак околдовывает вражеские войска, заставляя их сражаться друг с другом\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 10\nУршак накладає чари на обрані загони, і вони стають ворожими одне до одного\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

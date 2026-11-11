@@ -1,0 +1,1621 @@
+{
+ "meta": {
+  "mission": "009_Battle under the Trees",
+  "campaign": "Return of the King (AoR 10.0)",
+  "count": 161,
+  "fields": "var — мітка; type — Назва/Ціль/Діалог/Репліка/Інше/Кнопка; ru — RU 9.3.1, якщо є; uk_ai — поточний текст (правте прямо тут); status — вичитано / чернетка AI; uk — порожньо",
+  "notes": "\\n — перенос рядка, кількість має збігатися з EN; гарячі клавіші (&W) латиницею. Здібності героїв винесені в папку heroes."
+ },
+ "strings": [
+  {
+   "var": "CampaignName:BattleUnderTrees",
+   "mission": "009_Battle under the Trees",
+   "type": "Назва",
+   "en": "Battle under the Trees",
+   "ru": "",
+   "uk_ai": "Битва під деревами",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Waystone01",
+   "mission": "009_Battle under the Trees",
+   "type": "Інше",
+   "en": "Use Waystones to teleport units between crossings, or bring reinforcements from the camp.",
+   "ru": "",
+   "uk_ai": "Шляхові камені дозволяють переміщати загони між переправами або приводити підкріплення з табору.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:ObjectiveHint02_ButT",
+   "mission": "009_Battle under the Trees",
+   "type": "Ціль",
+   "en": "The Enemy burns the Forest! Use the Woodmen to extinguish the flames!",
+   "ru": "",
+   "uk_ai": "Ворог палить Ліс! Гасіть полум'я за допомогою лісовиків!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:ObjectiveHint03_ButT",
+   "mission": "009_Battle under the Trees",
+   "type": "Ціль",
+   "en": "Cross the River and destroy the Enemy!",
+   "ru": "",
+   "uk_ai": "Перейдіть Ріку й знищте Ворога!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective01_ButT",
+   "mission": "009_Battle under the Trees",
+   "type": "Ціль",
+   "en": "Secure new allies before the Enemy reaches the Forest River",
+   "ru": "",
+   "uk_ai": "Здобудьте нових союзників, перш ніж Ворог дійде до Лісової Ріки",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective02_ButT",
+   "mission": "009_Battle under the Trees",
+   "type": "Ціль",
+   "en": "Organise the defence of the Forest River",
+   "ru": "",
+   "uk_ai": "Організуйте оборону Лісової Ріки",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective03_ButT",
+   "mission": "009_Battle under the Trees",
+   "type": "Ціль",
+   "en": "Destroy the Enemy",
+   "ru": "",
+   "uk_ai": "Знищте Ворога",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective04_ButT",
+   "mission": "009_Battle under the Trees",
+   "type": "Ціль",
+   "en": "Clear out Saenathra's Spawning Glade",
+   "ru": "",
+   "uk_ai": "Очистьте Розплідну галявину Саенатри",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective05_ButT",
+   "mission": "009_Battle under the Trees",
+   "type": "Ціль",
+   "en": "Uproot the Enemy's camp and banish his Lieutenant",
+   "ru": "",
+   "uk_ai": "Знищте табір Ворога й проженіть його намісника",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective06_ButT",
+   "mission": "009_Battle under the Trees",
+   "type": "Ціль",
+   "en": "Defeat the Gwanthaur",
+   "ru": "",
+   "uk_ai": "Здолайте Ґвантаура",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective01_ButT",
+   "mission": "009_Battle under the Trees",
+   "type": "Ціль",
+   "en": "Find at least 10 groups of allies",
+   "ru": "",
+   "uk_ai": "Знайдіть щонайменше 10 груп союзників",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective03_ButT",
+   "mission": "009_Battle under the Trees",
+   "type": "Ціль",
+   "en": "Slay Krimpul using Grimbeorn",
+   "ru": "",
+   "uk_ai": "Вбийте Кримпула Ґрімбеорном",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective04_ButTHint",
+   "mission": "009_Battle under the Trees",
+   "type": "Ціль",
+   "en": "Toxic fumes linger in this glade. Destroy the mushrooms to lift the poision.",
+   "ru": "",
+   "uk_ai": "На цій галявині стоять отруйні випари. Знищте гриби, щоб розвіяти отруту.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective03_ButTComplete",
+   "mission": "009_Battle under the Trees",
+   "type": "Ціль",
+   "en": "Slay Krimpul using Grimbeorn\n\nGrimbeorn will permanently deal 15% more damage",
+   "ru": "",
+   "uk_ai": "Вбийте Кримпула Ґрімбеорном\n\nҐрімбеорн назавжди завдаватиме на 15% більше шкоди",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective04_ButTComplete02",
+   "mission": "009_Battle under the Trees",
+   "type": "Ціль",
+   "en": "All mushrooms are destroyed. Their poision is lifted, and the path is safe.",
+   "ru": "",
+   "uk_ai": "Усі гриби знищено. Отруту розвіяно, і шлях тепер безпечний.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective04_ButTComplete01",
+   "mission": "009_Battle under the Trees",
+   "type": "Ціль",
+   "en": "All mushrooms are destroyed. Their toxins are lifted, and there will be fewer spiders to oppose us now.",
+   "ru": "",
+   "uk_ai": "Усі гриби знищено. Отрута розвіялася, і павуків, що нам протистоять, тепер поменшає.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel038",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "We must stand fast!",
+   "ru": "",
+   "uk_ai": "Ми мусимо вистояти!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel034",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Feren! Be careful!",
+   "ru": "",
+   "uk_ai": "Ферене! Обережно!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel035",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Watch out, my King!",
+   "ru": "",
+   "uk_ai": "Стережіться, мій королю!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren010",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Do not yield your positions!",
+   "ru": "",
+   "uk_ai": "Не здавайте позицій!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren006",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Tauriel needs our aid!",
+   "ru": "",
+   "uk_ai": "Тауріель потрібна наша допомога!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren007",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Defend the Elvenking!",
+   "ru": "",
+   "uk_ai": "Захищайте Ельфійського короля!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_grimbeorn005",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Beornings, with me!",
+   "ru": "",
+   "uk_ai": "Беорнінґи, за мною!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel019",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "The Enemy has entered here!",
+   "ru": "",
+   "uk_ai": "Ворог проник сюди!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel029",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "We have gathered many, but our kin are still out there. We must find them!",
+   "ru": "",
+   "uk_ai": "Ми зібрали багатьох, але наші родичі ще десь там. Ми мусимо їх знайти!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel027",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "We are running out of time. We must find our allies soon!",
+   "ru": "",
+   "uk_ai": "Час спливає. Нам треба швидше знайти союзників!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren004",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "The Enemy draws near and our defences are not ready! We must reinforce the crossings!",
+   "ru": "",
+   "uk_ai": "Ворог близько, а наша оборона не готова! Треба зміцнити переправи!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel033",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Archers take up ambush positions! We can strike at the orcs before they reach open grounds.",
+   "ru": "",
+   "uk_ai": "Лучники, займайте засідки! Ми вдаримо по орках, перш ніж вони вийдуть на відкрите місце.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel043",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Take heart! We will not fall here!",
+   "ru": "",
+   "uk_ai": "Не падайте духом! Ми тут не впадемо!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil005",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "The fell horde approaches. Elves, stand firm and do not falter!",
+   "ru": "",
+   "uk_ai": "Наближається лиха орда. Ельфи, стійте твердо й не вагайтеся!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren003",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "We will not allow a single orc to cross the river!",
+   "ru": "",
+   "uk_ai": "Ми не дозволимо жодному оркові перейти ріку!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel042",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "You shall regret coming here!",
+   "ru": "",
+   "uk_ai": "Ви пошкодуєте, що прийшли сюди!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren008",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "They are crossing the River!",
+   "ru": "",
+   "uk_ai": "Вони переходять Ріку!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren015",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Look out! More are coming!",
+   "ru": "",
+   "uk_ai": "Обережно! Йдуть іще!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil006",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Stand together, do not falter! For the Woodland Realm!",
+   "ru": "",
+   "uk_ai": "Тримаймося разом, не вагаймося! За Лісове Королівство!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil012",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Follow your King!",
+   "ru": "",
+   "uk_ai": "За своїм Королем!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel041",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Aim for the archers!",
+   "ru": "",
+   "uk_ai": "Цільтеся в лучників!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren012",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Strike them down, one by one!",
+   "ru": "",
+   "uk_ai": "Валіть їх одного за одним!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren013",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "They cannot be allowed to enter here!",
+   "ru": "",
+   "uk_ai": "Не можна дозволити їм увійти сюди!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren009",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Throw them back across the water!",
+   "ru": "",
+   "uk_ai": "Скиньте їх назад за воду!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel039",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Hold your positions!",
+   "ru": "",
+   "uk_ai": "Тримайте позиції!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil011",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "They have doomed themselves!",
+   "ru": "",
+   "uk_ai": "Вони самі себе прирекли!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil024",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Stand fast! Do not give in to fear!",
+   "ru": "",
+   "uk_ai": "Стійте твердо! Не піддавайтеся страху!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel040",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Put an end to these foul creatures!",
+   "ru": "",
+   "uk_ai": "Покладіть край цим мерзенним створінням!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren011",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "They threaten to overrun us!",
+   "ru": "",
+   "uk_ai": "Вони от-от нас розчавлять!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil007",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "We deal with them here!",
+   "ru": "",
+   "uk_ai": "Ми розберемося з ними тут!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren020",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Stand fast elves! Do not waver!",
+   "ru": "",
+   "uk_ai": "Стійте твердо, ельфи! Не хитайтеся!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren018",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "For the Woodland Realm!",
+   "ru": "",
+   "uk_ai": "За Лісове Королівство!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel036",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "They are swarming!",
+   "ru": "",
+   "uk_ai": "Їх ціла хмара!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel037",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Do not let them surround us!",
+   "ru": "",
+   "uk_ai": "Не дайте їм нас оточити!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel013",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Stand and fight!",
+   "ru": "",
+   "uk_ai": "Стійте й бийтеся!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saenathra001",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Squirm all you like... you cannot stop this infestation!",
+   "ru": "",
+   "uk_ai": "Борсайтеся скільки завгодно... цієї навали вам не зупинити!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saenathra006",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "The nerve! Slay them, sisters!",
+   "ru": "",
+   "uk_ai": "Яке зухвальство! Вбийте їх, сестри!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saenathra007",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "No... no... we were promised... so much more...",
+   "ru": "",
+   "uk_ai": "Ні... ні... нам обіцяли... набагато більше...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saenathra002",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Come to my lair, little creatures... my sisters and I await you!",
+   "ru": "",
+   "uk_ai": "Ходіть до мого лігва, малі створіння... ми з сестрами на вас чекаємо!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_radagast005",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Be careful! These mists are a malevolent poison...",
+   "ru": "",
+   "uk_ai": "Обережно! Цей туман — підступна отрута...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel017",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "They skitter all around...",
+   "ru": "",
+   "uk_ai": "Вони шкрябочуть довкола...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_grimbeorn008",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "They must be destroyed!",
+   "ru": "",
+   "uk_ai": "Їх треба знищити!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saenathra003",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Foolish elflings, to disturb the home of Shelob's spawn...",
+   "ru": "",
+   "uk_ai": "Нерозумні ельфенята, як смієте ви турбувати дім нащадків Шелоб...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saenathra005",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "We have had enough of your meddling. Come, my sisters! We feast on elfling tonight!",
+   "ru": "",
+   "uk_ai": "Досить уже вашого втручання. Ходімо, сестри! Сьогодні ласуємо ельфенятиною!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil017",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "That wretched spider is dead.",
+   "ru": "",
+   "uk_ai": "Той мерзенний павук здох.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_radagast012",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "We've made safe a path. Summon your forces, King Thranduil, and let us end this.",
+   "ru": "",
+   "uk_ai": "Ми розчистили шлях. Скликай свої війська, королю Трандуїле, і покладімо цьому край.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil022",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Come, let us march upon their camp and root out this evil once and for all.",
+   "ru": "",
+   "uk_ai": "Ходімо, рушимо на їхній табір і викорінимо це зло раз і назавжди.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_radagast007",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Our Enemy is well defended. We will need our full strength to break through.",
+   "ru": "",
+   "uk_ai": "Наш Ворог добре захищений. Щоб прорватися, знадобляться всі наші сили.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil013",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "To battle, Elves of the Woodland Realm!",
+   "ru": "",
+   "uk_ai": "До бою, ельфи Лісового Королівства!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren016",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Forward elves!",
+   "ru": "",
+   "uk_ai": "Вперед, ельфи!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil009",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Destroy their fortifications!",
+   "ru": "",
+   "uk_ai": "Знищте їхні укріплення!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil010",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Burn their wretched hovels!",
+   "ru": "",
+   "uk_ai": "Спаліть їхні жалюгідні халупи!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel044",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Return to the Shadow, foul creatures!",
+   "ru": "",
+   "uk_ai": "Повертайтеся в Тінь, мерзенні створіння!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren017",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Charge their positions!",
+   "ru": "",
+   "uk_ai": "В атаку на їхні позиції!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_radagast006",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "They have been twisted to the Dark Lord's will!",
+   "ru": "",
+   "uk_ai": "Їх викривили під волю Темного Володаря!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren021",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "They are a twisted mockery! Cut them down!",
+   "ru": "",
+   "uk_ai": "Це викривлена наруга! Рубайте їх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_radagast008",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "A foul mockery of life!",
+   "ru": "",
+   "uk_ai": "Мерзенна наруга над життям!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_grimbeorn004",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Destroy those towers!",
+   "ru": "",
+   "uk_ai": "Знищте ті вежі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_grimbeorn007",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "They can't hold us back!",
+   "ru": "",
+   "uk_ai": "Їм нас не стримати!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel046",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "It is a nightmare!",
+   "ru": "",
+   "uk_ai": "Це справжній жах!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil027",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "We will not cower to this evil! Here we make our final stand!",
+   "ru": "",
+   "uk_ai": "Ми не зіщулимося перед цим злом! Тут ми стоїмо на смерть!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_grimbeorn009",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "The beast's strength is waning!",
+   "ru": "",
+   "uk_ai": "Сила звіра слабне!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil032",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Thranduil: The horror of Mordor has left a shadow in my heart. Its memory dims the light of the sun. \n I have ever known that it would return.",
+   "ru": "",
+   "uk_ai": "Трандуїл: Жах Мордору залишив тінь у моєму серці. Пам'ять про нього затьмарює сонячне світло. \n Я завжди знав, що він повернеться.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil033",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Thranduil: For such is the nature of evil. In time, all foul things crawl forth... But I will not idly await its coming.",
+   "ru": "",
+   "uk_ai": "Трандуїл: Бо така природа зла. З часом усе мерзенне виповзає назовні... Але я не чекатиму його склавши руки.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil034",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Thranduil: While the shadow gathers upon the marches of my Kingdom, we have come to meet it. \n We will beat back the forces of Mordor, and avert the fiery ruin they seek to inflict upon us!",
+   "ru": "",
+   "uk_ai": "Трандуїл: Тінь збирається на рубежах мого Королівства, і ми вийшли їй назустріч. \n Ми відкинемо війська Мордору й відвернемо вогняну руїну, яку вони хочуть на нас накликати!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil029",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Thranduil: Our sentinels report the Enemy is preparing their assault.",
+   "ru": "",
+   "uk_ai": "Трандуїл: Наші вартові доповідають, що Ворог готує наступ.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil030",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Thranduil: War rages to the South...",
+   "ru": "",
+   "uk_ai": "Трандуїл: На Півдні вирує війна...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil031",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Thranduil: ...and many of our wilder kin have taken refuge north of the River.",
+   "ru": "",
+   "uk_ai": "Трандуїл: ...і багато наших диких родичів знайшли притулок на північ від Ріки.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil002",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Thranduil: They are not alone. Bands of Woodmen have been sighted travelling in these woods, \n likely seeking our aid in the defence of their homes.",
+   "ru": "",
+   "uk_ai": "Трандуїл: Вони не самі. У цих лісах бачили загони лісовиків, \n що, певно, шукають нашої допомоги в обороні своїх домівок.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil003",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Thranduil: We must gather them to bolster our defences.",
+   "ru": "",
+   "uk_ai": "Трандуїл: Ми мусимо зібрати їх, щоб зміцнити оборону.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel001",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Tauriel: I will go at once, my King.",
+   "ru": "",
+   "uk_ai": "Тауріель: Я вирушаю негайно, мій королю.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel002",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Our allies are scattered in the forest. If we do not find them quickly they will be forever lost. We cannot tarry!",
+   "ru": "",
+   "uk_ai": "Наші союзники розкидані по лісі. Якщо не знайдемо їх швидко, вони загинуть назавжди. Не можна баритися!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_mountedscout000",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Scout: My King! The Enemy is near! The forest burns!",
+   "ru": "",
+   "uk_ai": "Розвідник: Мій Королю! Ворог близько! Ліс палає!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren024",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Feren: We shall make Mordor pay for this incursion!",
+   "ru": "",
+   "uk_ai": "Ферен: Ми змусимо Мордор заплатити за це вторгнення!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil004",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Thranduil: Take up positions! We will not yield an inch of our Realm!",
+   "ru": "",
+   "uk_ai": "Трандуїл: Займайте позиції! Ми не віддамо ані п'яді нашого Королівства!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil019",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Thranduil: The broodmother has fled. But I fear this is not the last we will see of her.",
+   "ru": "",
+   "uk_ai": "Трандуїл: Мати виводку втекла. Але боюся, ми ще її побачимо.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_radagast002",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Radagast: They will not stop coming unless we root them out at their source.",
+   "ru": "",
+   "uk_ai": "Радаґаст: Вони не перестануть сунути, доки ми не викорінимо їх у самому джерелі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_radagast003",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Radagast: Saenathra makes her lair not far from here. Those fell warrens \n are narrow, and filled with her spawn. Her vile toxins drift all around.",
+   "ru": "",
+   "uk_ai": "Радаґаст: Саенатра має лігво неподалік. Ті лихі нори \n вузькі й кишать її виводком. Довкола ширяться її мерзенні отрути.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil020",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Thranduil: I will not risk what forces we have. We shall clear it out ere we march them through.",
+   "ru": "",
+   "uk_ai": "Трандуїл: Я не ризикуватиму тими силами, що маємо. Ми очистимо її, перш ніж вести їх туди.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_radagast004",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Radagast: The Orcs come from further south, where the Lieutenant of Dol Guldur has set up his war camp.",
+   "ru": "",
+   "uk_ai": "Радаґаст: Орки йдуть із далекого півдня, де намісник Дол-Ґулдура розбив свій бойовий табір.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil016",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Thranduil: Then let us strike while we have the advantage. We cannot allow the Enemy time to reorder his forces.",
+   "ru": "",
+   "uk_ai": "Трандуїл: Тоді вдармо, поки маємо перевагу. Не можна дати Ворогові часу перешикувати війська.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_khamul002",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Khamul: Your victory may seem near, but you have forgotten \n about the one who lurks in the dark places... among the blackness of the oldest boughs...",
+   "ru": "",
+   "uk_ai": "Хамул: Ваша перемога може здаватися близькою, але ви забули \n про того, хто чатує в темних місцях... серед чорноти найдавніших гілок...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil025",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Thranduil: It cannot be...",
+   "ru": "",
+   "uk_ai": "Трандуїл: Не може бути...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel045",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Tauriel: What is this creature!?",
+   "ru": "",
+   "uk_ai": "Тауріель: Що це за створіння!?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel047",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Tauriel: Twisted roots... a visage of death!",
+   "ru": "",
+   "uk_ai": "Тауріель: Покручене коріння... лик смерті!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren019",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Feren: It is the Gwanthaur!",
+   "ru": "",
+   "uk_ai": "Ферен: Це Ґвантаур!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil026",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Thranduil: We cannot fall back. Elves ready yourselves, we kill it here!",
+   "ru": "",
+   "uk_ai": "Трандуїл: Відступати нам нікуди. Ельфи, готуйтеся, ми вб'ємо його тут!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren022",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Feren: It cannot be killed!",
+   "ru": "",
+   "uk_ai": "Ферен: Його неможливо вбити!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_radagast009",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Radagast: Look! We are not alone!",
+   "ru": "",
+   "uk_ai": "Радаґаст: Дивіться! Ми не самі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_radagast010",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Radagast: This is not the last of them. So long as the old fortress on the Hill of Sorcery remains, \n Greenwood the Great will not be cleansed, and you will not be free of the Dark Lord's memory.",
+   "ru": "",
+   "uk_ai": "Радаґаст: Це ще не останні з них. Доки стоїть стара фортеця на Пагорбі Чаклунства, \n Велике Зеленолісся не очиститься, і ви не звільнитеся від пам'яті про Темного Володаря.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil028",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Thranduil: I do not possess the power to bring that place to ruin. Its evil is too great...",
+   "ru": "",
+   "uk_ai": "Трандуїл: Я не маю сили зруйнувати те місце. Його зло надто велике...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_radagast011",
+   "mission": "009_Battle under the Trees",
+   "type": "Діалог",
+   "en": "Radagast: There is one who does. In time, she will make her way from the Golden Wood to here. \n Stay vigilant, King Thranduil! This war is not over...",
+   "ru": "",
+   "uk_ai": "Радаґаст: Є та, хто має. З часом вона прийде сюди із Золотого Лісу. \n Будь пильний, королю Трандуїле! Ця війна ще не скінчена...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel014",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Begone fell creatures!",
+   "ru": "",
+   "uk_ai": "Геть, лихі створіння!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel012",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "They are surrounded!",
+   "ru": "",
+   "uk_ai": "Їх оточено!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel006",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "You are far from home, Woodmen. The Elvenking will protect you.",
+   "ru": "",
+   "uk_ai": "Ви далеко від дому, лісовики. Ельфійський король вас захистить.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel003",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "My friends, the Enemy has come. We are in need of your aid!",
+   "ru": "",
+   "uk_ai": "Друзі, Ворог прийшов. Нам потрібна ваша допомога!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel005",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "The Enemy burns all in his path. Join us, Ithilrim!",
+   "ru": "",
+   "uk_ai": "Ворог палить усе на своєму шляху. Приєднуйтеся до нас, ітільрим!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel008",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "We will help you!",
+   "ru": "",
+   "uk_ai": "Ми вам допоможемо!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel025",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "With each casualty, our chances of victory grow slimmer.",
+   "ru": "",
+   "uk_ai": "З кожною втратою наші шанси на перемогу тануть.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel028",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "The Enemy draws near. We cannot tarry here!",
+   "ru": "",
+   "uk_ai": "Ворог близько. Тут не можна баритися!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel015",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "It isn't safe here! Come with us!",
+   "ru": "",
+   "uk_ai": "Тут небезпечно! Ходіть з нами!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel010",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "There, the Enemy seeks to overwhelm them!",
+   "ru": "",
+   "uk_ai": "Он там, Ворог хоче їх розчавити!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel007",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Elves and Men must stand together in the face of this threat!",
+   "ru": "",
+   "uk_ai": "Перед цією загрозою ельфи й люди мусять стояти разом!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel011",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "We must reach them, hurry!",
+   "ru": "",
+   "uk_ai": "Ми мусимо до них дістатися, швидше!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel009",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Look there! Our kin needs our aid!",
+   "ru": "",
+   "uk_ai": "Дивіться! Нашим родичам потрібна допомога!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel004",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Our lands are under assault. Will you aid us?",
+   "ru": "",
+   "uk_ai": "На наші землі напали. Ви допоможете нам?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel031",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "There is no time left. We must return to King Thranduil!",
+   "ru": "",
+   "uk_ai": "Часу більше немає. Ми мусимо повернутися до короля Трандуїла!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel030",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Excellent! Our full strength is gathered!",
+   "ru": "",
+   "uk_ai": "Чудово! Усі наші сили зібрано!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel032",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Come. We must return to King Thranduil!",
+   "ru": "",
+   "uk_ai": "Ходімо. Ми мусимо повернутися до короля Трандуїла!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:ObjectiveHint01_ButT",
+   "mission": "009_Battle under the Trees",
+   "type": "Ціль",
+   "en": "We can use the Waystones to reposition our defences quickly.",
+   "ru": "",
+   "uk_ai": "Шляхові камені дозволяють швидко перекидати нашу оборону.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren001",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Elves, we must strike out now and establish our defences.",
+   "ru": "",
+   "uk_ai": "Ельфи, треба виступати негайно й зайняти оборону.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren023",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "We cannot hold them! We must retreat!",
+   "ru": "",
+   "uk_ai": "Нам їх не втримати! Відступаймо!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_grimbeorn001",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Let none survive!",
+   "ru": "",
+   "uk_ai": "Щоб жоден не вижив!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_radagast001",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Forth, my friends! Let us be rid of this wickedness!",
+   "ru": "",
+   "uk_ai": "Вперед, друзі! Позбудьмося цієї мерзоти!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil014",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Aiwendil! Your aid is most welcome! Help us throw them back across the river!",
+   "ru": "",
+   "uk_ai": "Айвенділе! Твоя допомога вельми доречна! Допоможи нам скинути їх назад за ріку!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_grimbeorn002",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "I will crush this vile orc myself!",
+   "ru": "",
+   "uk_ai": "Я сам розчавлю цього мерзенного орка!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_grimbeorn003",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Bring them to me!",
+   "ru": "",
+   "uk_ai": "Давайте їх сюди!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel022",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Our allies... we were too late to save them.",
+   "ru": "",
+   "uk_ai": "Наші союзники... ми не встигли їх урятувати.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil008",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Show them no mercy!",
+   "ru": "",
+   "uk_ai": "Жодної їм пощади!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren005",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "It is done!",
+   "ru": "",
+   "uk_ai": "Зроблено!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil015",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Our enemies have fallen. Their assault has failed.",
+   "ru": "",
+   "uk_ai": "Наші вороги полягли. Їхній наступ провалився.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel016",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "This place reeks of filth...",
+   "ru": "",
+   "uk_ai": "Тут смердить гниллю...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel018",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "We cannot allow them to fester...",
+   "ru": "",
+   "uk_ai": "Не можна дозволити їм розплоджуватися...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_grimbeorn006",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Stomp them into the earth!",
+   "ru": "",
+   "uk_ai": "Втопчіть їх у землю!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren014",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Cleanse the valley of this wicked brood!",
+   "ru": "",
+   "uk_ai": "Очистьте долину від цього лихого виводку!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_saenathra004",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "The eggs! Hah... hardly an inconvenience... we will make more!",
+   "ru": "",
+   "uk_ai": "Яйця! Ха... невелика втрата... ми відкладемо ще!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_khamul001",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "A lesser Elf-lord, a mangy skinchanger, and a middling magician. \n You believe that mastery of this forest is yours? The Eye of Sauron is upon me! \n I am empowered by his Will!",
+   "ru": "",
+   "uk_ai": "Дрібний ельфійський володар, шолудивий перевертень і посередній чарівник. \n Ви вірите, що панування над цим лісом — ваше? Око Саурона дивиться на мене! \n Його Воля дає мені силу!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil023",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Your time has come, servant of darkness!",
+   "ru": "",
+   "uk_ai": "Твій час настав, слуго темряви!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective02_ButT",
+   "mission": "009_Battle under the Trees",
+   "type": "Ціль",
+   "en": "Prevent the enemy from setting fire to the forest north of the River",
+   "ru": "",
+   "uk_ai": "Не дайте ворогові підпалити ліс на північ від Ріки",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective04_ButT",
+   "mission": "009_Battle under the Trees",
+   "type": "Ціль",
+   "en": "Destroy all toxic mushrooms",
+   "ru": "",
+   "uk_ai": "Знищте всі отруйні гриби",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel020",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "We were too late to save them.",
+   "ru": "",
+   "uk_ai": "Ми не встигли їх урятувати.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel021",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "They did not make it out alive.",
+   "ru": "",
+   "uk_ai": "Вони не вибралися живими.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel023",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "They're gone. our efforts were in vain.",
+   "ru": "",
+   "uk_ai": "Їх більше немає. Наші зусилля були марними.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel024",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "We have failed them...",
+   "ru": "",
+   "uk_ai": "Ми їх підвели...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_tauriel026",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "The loss of our kin weakens our defences.",
+   "ru": "",
+   "uk_ai": "Втрата родичів послаблює нашу оборону.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_feren002",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "The Enemy will seek to take control of the river fords. It is here that we must halt their advance.",
+   "ru": "",
+   "uk_ai": "Ворог спробує захопити броди. Саме тут ми мусимо зупинити його наступ.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elf038",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "Our fallen allies!",
+   "ru": "",
+   "uk_ai": "Наші полеглі союзники!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elf039",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "We could have saved them all... now they have risen against us!",
+   "ru": "",
+   "uk_ai": "Ми могли врятувати їх усіх... а тепер вони повстали проти нас!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_thranduil018",
+   "mission": "009_Battle under the Trees",
+   "type": "Репліка",
+   "en": "We must gather our forces and march upon their stronghold!",
+   "ru": "",
+   "uk_ai": "Ми мусимо зібрати війська й рушити на їхню твердиню!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:EchoOfBeorn",
+   "mission": "009_Battle under the Trees",
+   "type": "Кнопка",
+   "en": "Echo of Beorn (&T)",
+   "ru": "",
+   "uk_ai": "Відлуння Беорна (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipEchoOfBeorn",
+   "mission": "009_Battle under the Trees",
+   "type": "Кнопка",
+   "en": "Requires Level 3\nThe Beorning Ursa remembers the might of Beorn\nFor a 30 seconds, each consecutive attack summons a temporary Spirit Bear, up to a maximum of 3, for 10 seconds\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3\nБеорнінґ Урса згадує могуть Беорна\nПротягом 30 сек. кожна наступна атака закликає тимчасового ведмедя-духа (не більше 3) на 10 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUrsaLeaderOfThePack",
+   "mission": "009_Battle under the Trees",
+   "type": "Кнопка",
+   "en": "The Beorning Ursa is always surrounded by 2 Vale-bears that can be individually controlled\nModifier Type: Leadership\nNearby Vale-bears gain +15 armour and +25 damage\nPassive ability",
+   "ru": "",
+   "uk_ai": "Беорнінґа Урсу завжди супроводжують 2 ведмеді з Долини, якими можна керувати окремо\nТип ефекту: Лідерство\nВедмеді з Долини поблизу отримують бонус +15 броні й +25 пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWrathOfTheUrsa",
+   "mission": "009_Battle under the Trees",
+   "type": "Кнопка",
+   "en": "Requires Level 2\nThe Beorning Ursa lets out a blood-curdling roar\nNearby enemy units flee in terror\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 2\nБеорнінґ Урса видає моторошний рев\nВорожі загони поблизу тікають у жаху\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:UrsaLeaderOfThePack",
+   "mission": "009_Battle under the Trees",
+   "type": "Кнопка",
+   "en": "Leader of the Pack",
+   "ru": "",
+   "uk_ai": "Ватажок зграї",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WrathOfTheUrsa",
+   "mission": "009_Battle under the Trees",
+   "type": "Кнопка",
+   "en": "Wrath of the Ursa (&R)",
+   "ru": "",
+   "uk_ai": "Гнів Урси (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

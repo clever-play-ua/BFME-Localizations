@@ -1,0 +1,217 @@
+{
+ "meta": {
+  "hero": "Khamûl",
+  "uk_name": "Хамул",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "LordoftheRings"
+  ],
+  "templates": {
+   "кампанія": [
+    "GuldurKhamul"
+   ],
+   "битва": [
+    "GuldurKhamul",
+    "MordorFellBeastInterface",
+    "RhunKhamul"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:MordorFellBeast",
+   "type": "Ім'я",
+   "en": "Khamûl",
+   "ru": "Кхамул",
+   "uk_ai": "Хамул",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:MordorKhamul",
+   "type": "Ім'я",
+   "en": "Khamûl",
+   "ru": "Кхамул",
+   "uk_ai": "Хамул",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:NineAreAbroad",
+   "type": "Кнопка",
+   "en": "The Nine Are Abroad (&W)",
+   "ru": "Девятеро за пределами (&W)",
+   "uk_ai": "Дев'ятеро вирушили (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBlackRiderDreadVisageKhamul",
+   "type": "Підказка",
+   "en": "As more Nazgûl gather, their strength grows \n +10% damage and +10% armour per every Ringwraith nearby \n Passive ability \n\n Requires Level 2 \n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% damage and -20% armour \n\n Left click to switch between mounted and on foot",
+   "ru": "По мере того как все больше назгул собираются вместе, их сила растет +10% урона и +10% брони за каждого кольценосца\\nПассивная способность\\n\\nТребуется уровень 2\\nТип модификатора: Пассивное ослабление\\nБлижайшие вражеские отряды теряют -25% урона и -20% брони\\nПассивная способность\\n\\nЩелкните левой кнопкой мыши на значок, чтобы оседлать коня или спешиться",
+   "uk_ai": "Що більше назґулів збирається разом, то вони сильніші\n+10% до пошкоджень і +10% броні за кожного назґула поблизу\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nНеобхідно: Рівень 2\nТип ефекту: Пасивне ослаблення\nВорожі загони поблизу отримують штраф -25% пошкоджень і -20% броні\n\nКлікніть, щоб перемкнутися між верховим і пішим строєм",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ScreechKhamul",
+   "type": "Кнопка",
+   "en": "Screech (&R)",
+   "ru": "Визг (&R)",
+   "uk_ai": "Пронизливий крик (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipScreech",
+   "type": "Підказка",
+   "en": "Causes enemy units to flee in terror \n Left click to activate",
+   "ru": "Заставляет врагов в ужасе разбегаться\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Вороги розбігаються від жаху. \n Клікніть, щоб активувати",
+   "status": "RotWK UA",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KhamulLieutnant",
+   "type": "Кнопка",
+   "en": "Lieutenant of Dol Guldur",
+   "ru": "Военачальник Дол Гулдура",
+   "uk_ai": "Лейтенант Дол-Ґулдура",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKhamulLieutnant",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Khamûl takes on his role as the Lieutenant of Dol Guldur\nModifier Type: Leadership\nNearby friendly units gain +33% damage\nPassive ability\n\n At rank 5, Khamûl dons his armour, granting him +25% armour and causing nearby enemy units to suffer damage over time",
+   "ru": "Требуется уровень 3\\nКхамул берет на себя роль военачальника Дол Гулдура\\nТип модификатора: Лидерство\\nБлижайшие отряды Гулдура наносят +33% урона\\nПассивная способность\\n\\nНа уровне 5, Кхамул облачается в доспехи, получая +25% брони и нанося периодический урон ближайшим врагам",
+   "uk_ai": "Необхідно: Рівень 3\nХамул бере на себе роль лейтенанта Дол-Ґулдура\nТип ефекту: Лідерство\nСоюзні загони поблизу отримують бонус +33% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nНа 5 рівні Хамул вдягає обладунки: отримує бонус +25% броні, а ворожі загони поблизу поступово отримують пошкодження",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WordsofDeath",
+   "type": "Кнопка",
+   "en": "Fell Ward (&C)",
+   "ru": "Покровительство тьмы (&C)",
+   "uk_ai": "Лихий оберіг (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWordsofDeath",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n When activated, places a Rune Circle around Khamûl\nFriendly units within the Rune Circle gain +75% armour to Ranged, Fire, Frost and Magic damage for 60 seconds\n Left click icon then left click on pathable location",
+   "ru": "Требуется уровень 5",
+   "uk_ai": "Необхідно: Рівень 5\nПісля активації створює навколо Хамула рунне коло\nСоюзні загони в рунному колі на 60 сек. отримують бонус +75% броні проти пошкоджень на відстані, вогнем, холодом і магією\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BlackEasterling",
+   "type": "Кнопка",
+   "en": "The Black Easterling (&V)",
+   "ru": "Темный истерлинг (&V)",
+   "uk_ai": "Чорний істерлінґ (&V)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKhamulStorm",
+   "type": "Підказка",
+   "en": "Requires Level 8 \n Modifier Type: Spell \n Khamûl and nearby friendly units gain +75% damage and +20% speed but lose -25% armour and gain no experience for 20 seconds\n Also summons four Accursed Guards \nLeft click to activate",
+   "ru": "Требуется уровень 8\\nТип модификатора: Заклинание\\nКхамул и ближайшие отряды Гулдура наносят +75% урона и получают +20% скорости, теряя -25% брони и не набирая опыт в течение 20 секунд\\nТакже призывает четырех проклятых стражей\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 8\nТип ефекту: Заклинання\nХамул і союзні загони поблизу на 20 сек. отримують бонус +75% до пошкоджень і +20% швидкості, але втрачають 25% броні й не набирають досвіду\nТакож прикликає чотирьох проклятих вартових\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:ScreechSummonedFellbeasts",
+   "type": "Кнопка",
+   "en": "Screech (&W)",
+   "ru": "Визг (&W)",
+   "uk_ai": "Пронизливий крик (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityNazgulNineServantsOfSauron",
+   "type": "Кнопка",
+   "en": "The Nine are Abroad",
+   "ru": "Девятеро",
+   "uk_ai": "Дев'ятеро вирушили",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityNazgulNineServantsOfSauron",
+   "type": "Підказка",
+   "en": "As more Nazgûl gather, their strength grows\nNearby Nazgûl receive +10% damage and armour\nPassive ability",
+   "ru": "По мере того как все больше назгул собираются вместе, их сила растет +10% урона и +10% брони за каждого кольценосца\\nПассивная способность",
+   "uk_ai": "Що більше назґулів збирається разом, то вони сильніші\nНазґули поблизу отримують бонус +10% до пошкоджень і броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityNazgulNineServantsOfSauronBlackRider",
+   "type": "Підказка",
+   "en": "As more Nazgûl gather, their strength grows \n +10% damage and +10% armour per every Ringwraith nearby \n Passive ability \n\n Requires Level 2 \n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% damage and -20% armour\nPassive ability",
+   "ru": "По мере того как все больше назгул собираются вместе, их сила растет +10% урона и +10% брони за каждого кольценосца\\nПассивная способность\\n\\nТребуется уровень 2\\nТип модификатора: Пассивное ослабление\\nБлижайшие вражеские отряды теряют -25% урона и -20% брони\\nПассивная способность",
+   "uk_ai": "Що більше назґулів збирається разом, то вони сильніші\n+10% до пошкоджень і +10% броні за кожного назґула поблизу\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nНеобхідно: Рівень 2\nТип ефекту: Пасивне ослаблення\nВорожі загони поблизу отримують штраф -25% пошкоджень і -20% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpectersJauntKhamul",
+   "type": "Кнопка",
+   "en": "Spectre's Jaunt (&R)",
+   "ru": "Призрачная поступь (&R)",
+   "uk_ai": "Примарний ривок (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipSpectersJaunt",
+   "type": "Підказка",
+   "en": "Khamûl teleports to targeted area and causes enemy units to flee in terror \n Left click icon then left click on target area",
+   "ru": "Кхамул телепортируется в указанное место и заставляет вражеских юнитов бежать в ужасе\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Хамул телепортується на обрану ділянку, і ворожі загони тікають у жаху\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KhamulLieutnantRhun",
+   "type": "Кнопка",
+   "en": "The Shadow of the East (&T)",
+   "ru": "",
+   "uk_ai": "Тінь Сходу (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKhamulLieutnantRhunActive",
+   "type": "Підказка",
+   "en": "Requires Level 3\nModifier Type: Leadership\nNearby friendly units gain +33% damage\nPassive ability \n\n When activated, Khamûl slams his war mace into the ground, damaging and knocking back all enemies in a line \n Left click then left click on target",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Лідерство\nСоюзні загони поблизу отримують бонус +33% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації Хамул б'є бойовою булавою об землю, завдаючи пошкоджень і відкидаючи всіх ворогів на лінії удару\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "meta": {
+  "hero": "Úlf the Váldúgr",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Angmar"
+  ],
+  "alternate factions": [
+   "angmar",
+   "angmar wars"
+  ],
+  "templates": [
+   "AngmarValdugr"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:AngmarValdugr",
+   "type": "Ім'я",
+   "en": "Úlf the Váldúgr",
+   "ru": "Ульф Вальдаугр",
+   "uk_ai": "Ульф Вальдуґр",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ValdugrLeadership",
+   "type": "Кнопка",
+   "en": "Warchief of the Váldgoil (&W)",
+   "ru": "Вождь племени Вальдгойл (&W)",
+   "uk_ai": "Вождь вальдґойлів (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipValdugrLeadership",
+   "type": "Підказка",
+   "en": "Reduces the build cost of the Ancestral Hall\n and Váldgoil units by -25%\nModifier Type: Leadership\nNearby Váldgoil units gain +25% damage, +25% armour, and resistance to fear and terror\nPassive ability \n \n Left click to switch between mounted and on foot",
+   "ru": "Снижает стоимость строительства Зала предков и набор отрядов Вальдгойл на -25%\\nТип модификатора: Лидерство\\nБлижайшие отряды Вальдгойл наносят +25% урона, получают +25% брони и становятся невосприимчивыми к страху и ужасу\\nПассивная способность\\n\\nЩелкните левой кнопкой мыши, чтобы сесть на коня или спешиться",
+   "uk_ai": "Знижує вартість будівництва Зали предків\nі загонів вальдґойлів на 25%\nТип ефекту: Лідерство\nЗагони вальдґойлів поблизу отримують бонус +25% до пошкоджень, +25% броні й стійкість до страху та жаху\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nКлікніть, щоб перемкнутися між верховим і пішим строєм",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:UlfSacrificialRite",
+   "type": "Кнопка",
+   "en": "Sacrifical Rite (&R)",
+   "ru": "Ритуал жертвоприношения (&R)",
+   "uk_ai": "Жертовний обряд (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUlfSacrificialRite",
+   "type": "Підказка",
+   "en": "Úlf can select an enemy battalion or hero for a sacrifice\n For 30 seconds Úlf and nearby allies gain +33% damage and +100% experience gain when near chosen enemy\nLeft click then left click target enemy unit",
+   "ru": "Ульф может выбрать вражеский отряд или героя для жертвоприношения\\nВ течение 30 секунд Ульф и ближайшие союзники наносят +33% урона и набирают опыт на +100% быстрее, находясь рядом с выбранным отрядом или героем\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Ульф може обрати ворожий загін чи героя для жертвоприношення\nНа 30 сек. Ульф і союзники поблизу, поряд з обраним ворогом, отримують бонус +33% до пошкоджень і на 100% швидше набирають досвід\nКлікніть на іконку, потім оберіть ворожий загін",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ValdugrShout",
+   "type": "Кнопка",
+   "en": "Terrifying Shout (&T)",
+   "ru": "Ужасающий вопль (&T)",
+   "uk_ai": "Жахливий крик (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipValdugrShout",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Úlf lets out a cry, causing enemy units to flee in terror \n Left click to activate",
+   "ru": "Требуется уровень 3\\nУльф издает вопль, заставляя врагов разбегаться в ужасе\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nУльф вигукує бойовий клич, і ворожі загони тікають у жаху\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityValdugr",
+   "type": "Кнопка",
+   "en": "Váldúgr (&C)",
+   "ru": "Вальдаугр (&C)",
+   "uk_ai": "Вальдуґр (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipSpecialAbilityValdugr",
+   "type": "Підказка",
+   "en": "Requires Level 6\nÚlf takes on the Spirit of the Wolf\nFor 30 seconds, each consecutive attack summons a temporary White Wolf, up to a maximum of 3\n At rank 8, the maximum is increased to 5\nLeft click to activate",
+   "ru": "Требуется уровень 6\\nУльф обретает Дух волка на 30 секунд\\nКаждая последующая атака призывает временного белого волка до максимума в трех белых волков\\nНа уровне 8, максимум увеличивается до пяти белых волков\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 6\nУльф переймає дух вовка\nПротягом 30 сек. кожна наступна атака прикликає тимчасового білого вовка, максимум 3\nНа 8 рівні — максимум 5\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:UlfFrenzy",
+   "type": "Кнопка",
+   "en": "Blood Frenzy (&V)",
+   "ru": "Кровавое безумие (&V)",
+   "uk_ai": "Кривава лють (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUlfFrenzy",
+   "type": "Підказка",
+   "en": "Requires Level 8 \n Modifier Type: Spell \n Úlf and nearby Oathsworn units gain +50% damage and armour for 20 seconds\nWhilst active, Úlf's attacks heal himself and nearby allies\nLeft click icon to activate",
+   "ru": "Требуется уровень 8\\nТип модификатора: Заклинание\\nУльф и ближайшие отряды Клятвенников наносят +50% урона и получают +50% брони на 20 секунд\\nПока способность активна, атаки Ульфа исцеляют его самого и ближайших союзников\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 8\nТип ефекту: Заклинання\nУльф і загони присяжників поблизу на 20 сек. отримують бонус +50% до пошкоджень і броні\nПоки діє здібність, атаки Ульфа зцілюють його самого й союзників поблизу\nКлікніть на іконку, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

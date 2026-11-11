@@ -1,0 +1,123 @@
+{
+ "meta": {
+  "hero": "Idrial",
+  "uk_name": "Ідріал",
+  "campaigns": [
+   "FotR"
+  ],
+  "missions": [
+   "Lothlorien"
+  ],
+  "templates": {
+   "кампанія": [
+    "ElvenIdrial"
+   ],
+   "битва": [
+    "ElvenIdrial"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:ElvenIdrial",
+   "type": "Ім'я",
+   "en": "Idrial",
+   "ru": "Идриаль",
+   "uk_ai": "Ідріал",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:Fluidstrike",
+   "type": "Кнопка",
+   "en": "Fluid Strike (&W)",
+   "ru": "Текучий удар (&W)",
+   "uk_ai": "Плинний удар (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFluidStrike",
+   "type": "Підказка",
+   "en": "Powerful attack that causes meta impact\n Damage increases as Idrial levels \n Left click icon then left click on target",
+   "ru": "Мощная атака магией воды, наносящая урон по площади\\nУрон увеличивается по мере повышения уровня Идриаль\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Потужна атака, що розкидає ворогів\nПошкодження зростають із рівнем Ідріал\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CleanseShadow",
+   "type": "Кнопка",
+   "en": "Cleanse Shadow (&R)",
+   "ru": "Очищение тени (&R)",
+   "uk_ai": "Очищення від тіні (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipCleanseShadow",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Modifier Type: Leadership \n Nearby Sindar Pathstalkers and Handmaidens gain +25% damage and +25% armour\nPassive ability \n\n Left click to moderately heal and grant allied units immunity to fear and terror for 30 seconds",
+   "ru": "Требуется уровень 3\\nТип модификатора: Лидерство\\nБлижайшие следопыты синдар и сияющие девы наносят +25% урона и получают +25% брони\\nПассивная способность\\n\\nПосле активации, союзники отряды рядом с Идриаль умеренно исцеляются и становятся невосприимчивыми к страху и ужасу в течение 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Лідерство\nСиндарські слідопити й служниці поблизу отримують бонус +25% до пошкоджень і +25% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nКлікніть, щоб помірно зцілити союзні загони й дати їм на 30 сек. імунітет до страху та жаху",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GiftofGaladriel",
+   "type": "Кнопка",
+   "en": "Gift of Galadriel (&T)",
+   "ru": "Дар Галадриэль (&T)",
+   "uk_ai": "Дар Ґаладріелі (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipGiftofGaladriel",
+   "type": "Підказка",
+   "en": "Requires Level 7 \n Summons a golden tree that is surrounded by Elven mists onto the battlefield \n Friendly units within the mist become stealthed \n Modifier Type: Active Debuff \n Nearby enemy units suffer -25% damage and -20% armour\nNullifies enemy leadership \n Left click icon then left click on target area",
+   "ru": "Требуется уровень 7\\nПризывает на поле битвы Золотое древо, окруженное эльфийскими туманами\\nСоюзные отряды в тумане становятся скрытыми\\nТип модификатора: Ослабление\\nБлижайшие вражеские войска теряют -25% урона и -20% брони\\nОтменяет вражеское лидерство\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 7\nВирощує на полі бою золоте дерево, оповите ельфійським туманом\nСоюзні загони в тумані стають невидимими\nТип ефекту: Активне ослаблення\nВорожі загони поблизу отримують штраф -25% пошкоджень і -20% броні\nСкасовує вороже лідерство\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HasteoftheElves",
+   "type": "Кнопка",
+   "en": "Haste of the Elves",
+   "ru": "Эльфийская поспешность",
+   "uk_ai": "Ельфійська квапливість",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHasteoftheElves",
+   "type": "Підказка",
+   "en": "Requires Level 10 \n Modifier Type: Spell \n Idrial's power cooldowns are reduced by 20% permanently\n Passive ability",
+   "ru": "Требуется уровень 10\\nТип модификатора: Заклинание\\nПерезарядка способностей Идриаль навсегда снижена на 20%\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 10\nТип ефекту: Заклинання\nЗдібності Ідріал назавжди відновлюються на 20% швидше\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipCleanseShadowGifts",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Modifier Type: Leadership \n Nearby Sindar Pathstalkers and Handmaidens gain +25% damage and +25% armour\nPassive ability \n\n Left click to moderately heal, replenish and grant allied units immunity to fear and terror for 30 seconds in a wider radius",
+   "ru": "Требуется уровень 3\\nТип модификатора: Лидерство\\nБлижайшие следопыты синдар и сияющие девы наносят +25% урона и получают +25% брони\\nПассивная способность\\n\\nПосле активации, союзные отряды рядом с Идриаль в широком радиусе умеренно исцеляются и пополняют свои ряды, а также становятся невосприимчивыми к страху и ужасу в течение 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Лідерство\nСиндарські слідопити й служниці поблизу отримують бонус +25% до пошкоджень і +25% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nКлікніть, щоб у ширшому радіусі помірно зцілити союзні загони, поновити їхніх полеглих і дати їм на 30 сек. імунітет до страху та жаху",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

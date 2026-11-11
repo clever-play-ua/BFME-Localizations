@@ -1,0 +1,170 @@
+{
+ "meta": {
+  "hero": "Gorbag",
+  "uk_name": "Ґорбаґ",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "CirithUngol"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignGorbag",
+    "MordorGorbag"
+   ],
+   "битва": [
+    "MordorGorbag"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:MordorGorbag",
+   "type": "Ім'я",
+   "en": "Gorbag",
+   "ru": "Горбаг",
+   "uk_ai": "Ґорбаґ",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GorbagMorgulCunningCampaign",
+   "type": "Кнопка",
+   "en": "Orcish Cunning (&W)",
+   "ru": "",
+   "uk_ai": "Ороча хитрість (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGorbagMorgulCunningCampaign",
+   "type": "Підказка",
+   "en": "Gorbag gains +25% damage, +25% armour and +15% speed for 30 seconds\n Left click to activate",
+   "ru": "",
+   "uk_ai": "Ґорбаґ отримує бонус +25% до пошкоджень, +25% броні й +15% швидкості на 30 сек.\n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GorbagDropkickCampaign",
+   "type": "Кнопка",
+   "en": "Dropkick (&R)",
+   "ru": "",
+   "uk_ai": "Удар ногою в стрибку (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGorbagDropkick",
+   "type": "Підказка",
+   "en": "Requires Level 2\n Knocks down nearby units \n Stuns targeted heroes for 5 seconds \nCan be used with Orcish Cunning\nLeft click icon then left click on target",
+   "ru": "Требуется уровень 2\\nСбивает с ног ближайших врагов\\nОглушает вражеского героя на 5 секунд\\nМожно использовать с Орочьим коварством\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 2\n Збиває з ніг загони поблизу \n Приголомшує обраних героїв на 5 сек. \nМожна поєднувати з «Орочою хитрістю»\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GorbagBleedWeapon",
+   "type": "Кнопка",
+   "en": "I'll Bleed You (&C)",
+   "ru": "Я пущу тебе кровь! (&C)",
+   "uk_ai": "Я тобі пущу кров (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGorbagBleedWeapon_Campaign",
+   "type": "Підказка",
+   "en": "Requires Level 4\nTargeted enemy Feral Uruk takes heavy damage over time for 15 seconds\nLeft click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 4\nВказаний ворожий дикий урук отримує великі поступові пошкодження протягом 15 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FierceRivalry",
+   "type": "Кнопка",
+   "en": "Fierce Rivalry",
+   "ru": "Ожесточенное соперничество",
+   "uk_ai": "Люте суперництво",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGorbagFierceRivalry",
+   "type": "Підказка",
+   "en": "When near Shagrat, Gorbag slowly takes damage over time \n Passive ability",
+   "ru": "Находясь рядом с Шагратом, Горбаг получает урон с течением времени\\nПассивная способность",
+   "uk_ai": "Поряд із Шаґратом Ґорбаґ поступово отримує пошкодження\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GorbagMorgulCunning",
+   "type": "Кнопка",
+   "en": "Orcish Cunning (&R)",
+   "ru": "Орочье коварство (&R)",
+   "uk_ai": "Ороча хитрість (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGorbagMorgulCunning",
+   "type": "Підказка",
+   "en": "Grows in power as Gorbag levels\nAt rank 1, Gorbag's ranged avoidance is increased\nAt rank 3, Gorbag is able to stealth for 30 seconds - Gorbag loses stealth if he attacks\nAt rank 5, +25% damage for 30 seconds plus prior effects\nAt rank 7, passively gains +25% damage and +15% speed\nAt rank 10, passively gains +25% armour\nLeft click to activate",
+   "ru": "Растет в силе с уровнем Горбага\\nНа уровне 1, улучшается уклонение от атак дальнего боя\\nНа уровне 3, Горбаг способен скрываться в течение 30 секунд, но теряет скрытность, если атакует\\nНа уровне 5, Горбаг наносит +25% урона в течение 30 секунд, вдобавок к предыдущим эффектам\\nНа уровне 7, наносит +25% дополнительного урона и получает +15% скорости передвижения\\nНа уровне 10, пассивно получает +25% брони\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Сила зростає з рівнем Ґорбаґа\nНа 1 рівні Ґорбаґ краще ухиляється від атак на відстані\nНа 3 рівні Ґорбаґ може стати невидимим на 30 сек. — невидимість зникає, якщо він атакує\nНа 5 рівні — +25% до пошкоджень на 30 сек. на додачу до попереднього\nНа 7 рівні пасивно отримує бонус +25% до пошкоджень і +15% швидкості\nНа 10 рівні пасивно отримує бонус +25% броні\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GorbagDropkick",
+   "type": "Кнопка",
+   "en": "Dropkick (&T)",
+   "ru": "Удар с полулета (&T)",
+   "uk_ai": "Удар ногою в стрибку (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGorbagBleedWeapon",
+   "type": "Підказка",
+   "en": "Requires Level 4\nTargeted enemy hero takes heavy damage over time for 15 seconds\nLeft click icon then left click on target",
+   "ru": "Требуется уровень 4\\nВражеский герой получает серьезный постепенный урон\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 4\nОбраний ворожий герой 15 сек. отримує значні пошкодження\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GorbagLoyaltyWeapon",
+   "type": "Кнопка",
+   "en": "Loyalty to the Red Eye (&V)",
+   "ru": "Верность Всевидящему Оку (&V)",
+   "uk_ai": "Вірність Червоному Оку (&V)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGorbagLoyaltyWeapon",
+   "type": "Підказка",
+   "en": "Requires Level 7\nTargeted enemy hero loses -25% armour for 30 seconds\nGorbag deals +25% damage to targeted hero for the duration\nLeft click icon then left click on target",
+   "ru": "Требуется уровень 7\\nОтмеченный вражеский герой теряет -25% брони на 30 секунд\\nГорбаг наносит +25% урона целевому герою в течение этого времени\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 7\nОбраний ворожий герой на 30 сек. втрачає 25% броні\nПротягом цього часу Ґорбаґ завдає йому на 25% більше пошкоджень\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

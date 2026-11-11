@@ -1,0 +1,146 @@
+{
+ "meta": {
+  "hero": "Kili",
+  "uk_name": "Кілі",
+  "campaigns": [
+   "FotR",
+   "RotK"
+  ],
+  "missions": [
+   "Council",
+   "BattleofDale"
+  ],
+  "templates": {
+   "кампанія": [
+    "DwarvenKili"
+   ],
+   "битва": [
+    "DwarvenKili"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею.",
+  "see_also": "Спільні з іншими героями рядки є лише в одному файлі: Fili"
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:DwarvenKili",
+   "type": "Ім'я",
+   "en": "Kili",
+   "ru": "Кили",
+   "uk_ai": "Кілі",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToggleLurtzWeapon",
+   "type": "Кнопка",
+   "en": "Toggle Weapon (&W)",
+   "ru": "Смена оружия (&W)",
+   "uk_ai": "Змінити зброю (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleLurtzWeapon",
+   "type": "Підказка",
+   "en": "Left click to toggle between bow and sword",
+   "ru": "Щелкните левой кнопкой мыши, чтобы сменить оружие",
+   "uk_ai": "Клікніть, щоб перемкнутися між луком і мечем",
+   "status": "RotWK UA",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBrotherhoodFili",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Kili gains +20% damage when near Fili\n Passive ability",
+   "ru": "Тип модификатора: Лидерство\\nКили наносит +20% урона, находясь рядом с Фили\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nПоряд із Філі Кілі отримує бонус +20% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KiliArrowDodge",
+   "type": "Кнопка",
+   "en": "Luck of Battle",
+   "ru": "Удача в битве",
+   "uk_ai": "Бойове щастя",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKiliArrowDodge",
+   "type": "Підказка",
+   "en": "Kili permanently gains a boost in evasion to ranged attacks \n Passive ability",
+   "ru": "Кили навсегда получает повышенное уклонение от дальних атак\\nПассивная способность",
+   "uk_ai": "Кілі назавжди отримує кращий шанс ухилитися від атак на відстані\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KiliQuickshot",
+   "type": "Кнопка",
+   "en": "Quick Shot (&C)",
+   "ru": "Быстрый выстрел (&C)",
+   "uk_ai": "Швидкий постріл (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKiliQuickshot",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Kili gains +15% damage and +33% attack speed for 20 seconds\n Can only use with bow equipped \n Left click to activate",
+   "ru": "Требуется уровень 3\\nКили наносит +15% урона и увеличивает скорость атаки на +33% в течение 20 секунд\\nМожно использовать только с луком\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nКілі на 20 сек. отримує бонус +15% до пошкоджень і +33% швидкості атаки\nДоступно лише з луком\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KiliHighSpirits",
+   "type": "Кнопка",
+   "en": "High Spirits (&V)",
+   "ru": "Приподнятое настроение (&V)",
+   "uk_ai": "Бадьорий дух (&V)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKiliHighSpirits",
+   "type": "Підказка",
+   "en": "Requires Level 8\n Grants experience to nearby troops.\nOnly affects dwarven units\n Left click icon then left click on target units",
+   "ru": "Требуется уровень 8\\nПредоставляет опыт ближайшим союзникам\\nДействует только на гномов\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 8\nМиттєво наділяє досвідом загони поблизу.\nДіє лише на дворфів\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KiliQuickshotCampaign",
+   "type": "Кнопка",
+   "en": "Quick Shot (&T)",
+   "ru": "Быстрый выстрел (&T)",
+   "uk_ai": "Швидкий постріл (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKiliQuickshotCampaign",
+   "type": "Підказка",
+   "en": "Kili gains +15% damage and +33% attack speed for 20 seconds\n Can only use with bow equipped \n Left click to activate",
+   "ru": "Кили наносит +15% урона и увеличивает скорость атаки на +33% в течение 20 секунд\\nМожно использовать только с луком\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Кілі на 20 сек. отримує бонус +15% до пошкоджень і +33% швидкості атаки\nДоступно лише з луком\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

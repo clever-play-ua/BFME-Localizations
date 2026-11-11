@@ -1,0 +1,113 @@
+{
+ "meta": {
+  "hero": "Queen Saenathra",
+  "uk_name": "Королева Саенатра",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "LordoftheRings"
+  ],
+  "templates": {
+   "кампанія": [
+    "GuldurSaenathra"
+   ],
+   "битва": [
+    "GuldurSaenathra"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:GuldurSaenathra",
+   "type": "Ім'я",
+   "en": "Queen Saenathra",
+   "ru": "Королева Саэнатра",
+   "uk_ai": "Королева Саенатра",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityGuldurSaenathraTunnel",
+   "type": "Кнопка",
+   "en": "Burrow (&W)",
+   "ru": "Нора (&W)",
+   "uk_ai": "Підкоп (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityGuldurSaenathraTunnel",
+   "type": "Підказка",
+   "en": "Requires Level 2\nAllows Saenathra to tunnel under the ground and emerge at any unshrouded location \n Left click icon then left click on target location",
+   "ru": "Требуется уровень 2\\nПозволяет Саэнатре проложить туннель под землей и появиться в любом выбранном месте\\nЩелкните левой кнопкой мыши на значок, затем на целевом местоположении",
+   "uk_ai": "Необхідно: Рівень 2\nСаенатра може прорити хід під землею й вилізти в будь-якому відкритому місці\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GuldurSaenathraFeast",
+   "type": "Кнопка",
+   "en": "Feast, My Children! (&R)",
+   "ru": "Пир, дети мои! (&R)",
+   "uk_ai": "Бенкетуйте, діти мої! (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGuldurSaenathraFeast",
+   "type": "Підказка",
+   "en": "Requires Level 3\nModifier Type: Debuff and Buff\nEnemy units within the radius are slowed by 33%\n Saenathra and friendly Spiders within the radius deal +50% damage\nAbility lasts 30 seconds\n\n At rank 6, also summons a horde of Fell Brood \n Left click icon then left click on target units",
+   "ru": "Требуется уровень 3\\nТип модификатора: Усиление и ослабление\\nВсе враги в радиусе действия замедляются на -33%\\nСаэнатра и пауки в радиусе действия наносят +50% урона\\nДействияе способности длится 30 секунд\\n\\nНа уровне 6, призывается свирепый выводок\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Ослаблення й посилення\nВорожі загони в радіусі сповільнюються на 33%\nСаенатра й союзні павуки в радіусі завдають +50% пошкоджень\nДіє 30 сек.\n\nНа 6 рівні також прикликає орду лихого виводку\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GuldurSaenathraWebOfLies",
+   "type": "Кнопка",
+   "en": "Web of Lies (&T)",
+   "ru": "Паутина лжи (&T)",
+   "uk_ai": "Павутина брехні (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGuldurSaenathraWebOfLies",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Causes targeted units to become hostile towards each other for 15 seconds\n Left click icon then left click on target area",
+   "ru": "Требуется уровень 5\\nЗаставляет выбранные войска становиться враждебными по отношению друг к другу в течение 15 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 5\nОбрані загони на 15 сек. стають ворожими одне до одного\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GuldurSaenathraEndlessHunger",
+   "type": "Кнопка",
+   "en": "Endless Hunger (&C)",
+   "ru": "Бесконечный голод (&C)",
+   "uk_ai": "Безкраїй голод (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipGuldurSaenathraEndlessHunger",
+   "type": "Підказка",
+   "en": "Requires Level 8\nLike Ungoliant, Saenathra possesses an insatiable hunger\nfor flesh and precious objects\nSaenathra can move across impassable terrain, and steals resources when dealing damage to enemy units and structures\nPassive ability\n\nWhen activated, Saenathra regains 30% health\nLeft click to activate",
+   "ru": "Требуется уровень 8\\nПодобно Унголиант, Саэнатра обладает ненасытным голодом плоти и драгоценных предметов\\nСаэнатра может перемещаться по непроходимой местности и красть ресурсы, атакуя вражеские войска и постройки\\nПассивная способность\\n\\nПосле активации, Саэнатра восстанавливает 30% здоровья\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 8\nЯк і Унґоліант, Саенатра має ненаситний голод\nдо плоті й коштовностей\nСаенатра може долати непрохідну місцевість і краде ресурси, коли завдає пошкоджень ворожим загонам і спорудам\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації Саенатра відновлює 30% здоров'я\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

@@ -1,0 +1,100 @@
+{
+ "meta": {
+  "hero": "Worm",
+  "uk_name": "Черв",
+  "faction (ini Side)": [
+   "Fellowship"
+  ],
+  "alternate factions": [
+   "ruffians",
+   "scouring"
+  ],
+  "templates": [
+   "CampaignWorm"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:CampaignWorm",
+   "type": "Ім'я",
+   "en": "Worm",
+   "ru": "",
+   "uk_ai": "Черв",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CampaignWormEscape",
+   "type": "Кнопка",
+   "en": "Withered Wretch (&W)",
+   "ru": "",
+   "uk_ai": "Жалюгідний нікчема (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipCampaignWormEscape",
+   "type": "Підказка",
+   "en": "Worm becomes stealthed and can neither be attacked nor make an attack for 30 seconds\n Left click icon to activate",
+   "ru": "",
+   "uk_ai": "Черв стає невидимим і 30 сек. не може ні атакувати, ні бути атакованим\nКлікніть на іконку, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CampaignWormReviled",
+   "type": "Кнопка",
+   "en": "Reviled By All (&R)",
+   "ru": "",
+   "uk_ai": "Усіма зневажений (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCampaignWormReviled",
+   "type": "Підказка",
+   "en": "Requires Level 3\nWorm deals damage to himself\nAll nearby units, allied and enemy, are stunned with fear for 10 seconds\n Left click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3\nЧерв завдає пошкоджень сам собі\nУсі загони поблизу, і союзні, і ворожі, на 10 сек. будуть приголомшені страхом\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:Backstab",
+   "type": "Кнопка",
+   "en": "Back Stab (&T)",
+   "ru": "Удар в спину (&T)",
+   "uk_ai": "Удар у спину (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBackstab",
+   "type": "Підказка",
+   "en": "Requires Level 4 \n Deals 500 instant damage and 800 poison damage over 10 seconds to the targeted enemy. \n \nAt rank 10, targeted enemy hero cannot gain experience,\n has its damage output reduced by 50%, and loses 25% movement speed for 30 seconds \n \n Recharge time: 1m 30s \n Left click icon then left click on target",
+   "ru": "Требуется уровень 4\\nАтака ближнего боя, наносящая большой урон врагу и отравляющая его\\nНа уровне 10, вражеский герой не может получать опыт,\\nего урон снижен на -50%, а скорость передвижения на -25% в течение 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 4\nМиттєво завдає обраному ворогові 500 од. пошкоджень і ще 800 од. пошкоджень отрутою протягом 10 сек.\n\nНа 10 рівні обраний ворожий герой на 30 сек. не може набирати досвід,\nзавдає на 50% менше пошкоджень і втрачає 25% швидкості руху\n\nЧас відновлення: 1 хв. 30 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CampaignWormRavenous",
+   "type": "Кнопка",
+   "en": "Ravenous Hunger (&C)",
+   "ru": "",
+   "uk_ai": "Ненаситний голод (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCampaignWormRavenous",
+   "type": "Підказка",
+   "en": "Requires Level 8\nDeals strong damage target enemy unit \n Worm is healed and gains +50% armour and damage for 20 seconds\n Left click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 8\nЗавдає сильних пошкоджень вказаному ворожому загону\nЧерв відновлює здоров'я й отримує бонус +50% броні та пошкоджень на 20 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

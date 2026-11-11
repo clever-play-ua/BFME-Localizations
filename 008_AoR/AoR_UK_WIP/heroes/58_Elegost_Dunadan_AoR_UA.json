@@ -1,0 +1,113 @@
+{
+ "meta": {
+  "hero": "Elegost Dúnadan",
+  "uk_name": "Елеґост Дунадан",
+  "campaigns": [
+   "TTT"
+  ],
+  "missions": [
+   "GreyCompany"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignElegost"
+   ],
+   "битва": [
+    "CampaignElegost"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:EreborElegost",
+   "type": "Ім'я",
+   "en": "Elegost Dúnadan",
+   "ru": "Элегост Дунэдайн",
+   "uk_ai": "Елеґост Дунадан",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElegostTrueShot",
+   "type": "Кнопка",
+   "en": "True Shot (&W)",
+   "ru": "Ослепительный выстрел (&W)",
+   "uk_ai": "Влучний постріл (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElegostTrueShot",
+   "type": "Підказка",
+   "en": "A high damage attack that instills fear into enemy units for 10 seconds\nLeft click icon then left click on target",
+   "ru": "Атака с высоким уроном, оглушающая вражеские войска на 10 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Потужна атака, що на 10 сек. наганяє страх на ворожі загони\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElegostHeal",
+   "type": "Кнопка",
+   "en": "Grace of Kingsfoil (&R)",
+   "ru": "Королевская милость (&R)",
+   "uk_ai": "Благодать королівського листя (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElegostHeal",
+   "type": "Підказка",
+   "en": "For 10 seconds, Elegost heals nearby units and heroes over time\nLeft click to activate",
+   "ru": "В течение 10 секунд Элегост исцеляет ближайшие войска и героев\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Протягом 10 сек. Елеґост поступово зцілює загони й героїв поблизу\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElegostRangerCraft",
+   "type": "Кнопка",
+   "en": "Ranger Craft (&T)",
+   "ru": "Ремесло следопытов (&T)",
+   "uk_ai": "Майстерність слідопитів (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElegostRangerCraft",
+   "type": "Підказка",
+   "en": "Enemies in radius lose -50% vision range and -25% movement speed for 30 seconds\n Left click then left click on target area",
+   "ru": "Враги в радиусе теряют -50% обзора и -25% скорости передвижения на 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Вороги в радіусі на 30 сек. втрачають 50% дальності огляду й 25% швидкості руху\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RangerLureIthilien",
+   "type": "Кнопка",
+   "en": "Lure (&R)",
+   "ru": "Приманка (&R)",
+   "uk_ai": "Приманка (&R)",
+   "status": "вичитано",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRangerLureIthilien",
+   "type": "Підказка",
+   "en": "Lures nearby enemy units \n Left click to activate",
+   "ru": "Приманивает вражеские отряды\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Приманює ворожі загони поблизу\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

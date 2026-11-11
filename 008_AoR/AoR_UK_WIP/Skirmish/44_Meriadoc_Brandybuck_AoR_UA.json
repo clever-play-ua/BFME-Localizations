@@ -1,0 +1,100 @@
+{
+ "meta": {
+  "hero": "Meriadoc Brandybuck",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Shire"
+  ],
+  "alternate factions": [
+   "scouring",
+   "shire"
+  ],
+  "templates": [
+   "ShireMeriadoc"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:ShireMeriadoc",
+   "type": "Ім'я",
+   "en": "Meriadoc Brandybuck",
+   "ru": "Мериадок Брэндибак",
+   "uk_ai": "Меріадок Брендібак",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:EowynMount",
+   "type": "Кнопка",
+   "en": "Mount / Dismount (&W)",
+   "ru": "Сесть верхом / спешиться (&W)",
+   "uk_ai": "Сісти верхи / Спішитися (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBondsofFellowshipMerry",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\n Meriadoc gains +15% damage when near Peregrin, Samwise or Frodo\nPassive ability\nActivate to become invisible when standing still\nLeft click to activate",
+   "ru": "Тип модификатора: Лидерство\\nМериадок наносит +15% урона, находясь рядом с Перегрином, Сэмуайзом или Фродо\\nПассивная способность\\nАктивируйте, чтобы стать невидимым, оставаясь на месте\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Тип ефекту: Лідерство\nПоряд із Переґріном, Семвайзом чи Фродо Меріадок отримує бонус +15% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~\nАктивуйте, щоб стати невидимим, коли стоїте на місці\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MerryKnight",
+   "type": "Кнопка",
+   "en": "Knight of Rohan (&T)",
+   "ru": "Рыцарь Рохана (&T)",
+   "uk_ai": "Лицар Рогану (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMerryKnight",
+   "type": "Підказка",
+   "en": "Requires Level 3\nModifier Type: Leadership\n Nearby Hobbit units gain +25% armour and experience\nPassive ability\nMeriadoc plunges his Blade of Westernesse into an enemy hero, dealing strong damage and crippling them for 10 seconds\n Left click icon then left click on target enemy hero",
+   "ru": "Требуется уровень 3\\nТип модификатора: Лидерство\\nБлижайшие хоббиты получают +25% брони и набирают опыт на +25% быстрее\\nПассивная способность\\nМериадок вонзает свой клинок Вестернесса во вражеского героя, нанося ему сильный урон и обездвиживая на 10 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Лідерство\nГобітські загони поблизу отримують бонус +25% броні й на 25% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~\nМеріадок встромляє клинок Вестернесу у ворожого героя, завдаючи значних пошкоджень і калічачи його на 10 сек.\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MerryHorn",
+   "type": "Кнопка",
+   "en": "Rohirric Horn (&C)",
+   "ru": "Роханский горн (&C)",
+   "uk_ai": "Ріг Рогану (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMerryHorn",
+   "type": "Підказка",
+   "en": "Requires Level 5\nMeriadoc blows the silver horn of Rohan, stunning nearby enemy units with fear for 15 seconds\nCan only be cast dismounted\nLeft click to activate",
+   "ru": "Требуется уровень 5\\nМериадок трубит в серебряный рог Рохана, заставляя ближайших врагов цепенеть от страха в течение 15 секунд\\nМожно использовать только спешившись\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nМеріадок сурмить у срібний ріг Рогану й на 15 сек. приголомшує ворожі загони поблизу страхом\nМожна застосувати лише пішки\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MerryMagnificent",
+   "type": "Кнопка",
+   "en": "Meriadoc the Magnificent (&V)",
+   "ru": "Мериадок Великолепный (&V)",
+   "uk_ai": "Меріадок Пишний (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMerryMagnificent",
+   "type": "Підказка",
+   "en": "Requires Level 7\nModifier Type: Spell\nNearby units gain +15% speed and resistance to fear, terror, knockback and trample for 30 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 7\\nТип модификатора: Заклинание\\nБлижайшие союзные отряды получают +15% скорости и сопротивление отбрасыванию, а также становятся невосприимчивыми к страху и ужасу на 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 7\nТип ефекту: Заклинання\nЗагони поблизу на 30 сек. отримують бонус +15% швидкості й імунітет до страху, жаху, відкидання та топтання\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

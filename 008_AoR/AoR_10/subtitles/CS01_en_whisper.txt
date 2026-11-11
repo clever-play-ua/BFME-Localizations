@@ -1,0 +1,37 @@
+   1.86    4.48  The shadow is almost upon us, Aragorn.
+   5.30   10.58  Soon I must come unto all that I strove for, or I will fall into darkness.
+  11.08   14.34  You shall not pass!
+  15.32   17.36  Then this world will come to ruin.
+  18.08   21.30  Long have you carried with you the remnants of the past.
+  24.12   25.90  This is your test.
+  30.00   35.18  Every path you have trod through wilderness, through war, has led to this road.
+  38.78   40.58  We come to it at last.
+  41.94   44.50  The great battle of our time.
+  47.50   51.56  The blade that was broken, you return to Minas Tirith.
+  52.62   56.44  Put aside the Ranger. Become who you were born to be.
+  60.42   63.76  No! Let it go, you filth!
+  77.20   78.40  We fight.
+  79.74   84.26  I see in your eyes the same fear that would take the heart of me.
+  86.12   89.24  A day may come when the courage of men fails.
+  89.24   92.92  When we forsake our friends and break all bonds of fellowship.
+  95.94   98.10  But it is not this day!
+  98.52  100.44  Whatever happens, stay with me.
+ 100.62  101.80  This day we fight!
+ 108.18  109.76  Amroth the Gondor.
+ 113.24  113.94  My lord.
+ 118.02  122.52  All we have to decide here is what to do with the time that is given to us.
+ 123.70  126.52  Let go! Let go of our mother!
+ 127.86  130.82  Fall back! Fall back to the mountain!
+ 131.56  132.70  We fall back!
+ 133.12  133.18  We fall back!
+ 133.18  135.24  We fall back!
+ 135.24  137.44  We fall back!
+ 137.44  139.96  We fall back!
+ 139.96  141.26  We fall back!
+ 141.26  142.94  We fall back!
+ 144.60  145.66  We fall back!
+ 145.74  147.74  We fall back!
+ 148.04  149.90  We fall back!
+ 150.08  151.72  We fall back!
+ 151.72  151.84  We fall back!
+ 151.84  151.98  Holiday Day

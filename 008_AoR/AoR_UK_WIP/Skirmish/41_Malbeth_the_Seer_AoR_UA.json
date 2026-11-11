@@ -1,0 +1,136 @@
+{
+ "meta": {
+  "hero": "Malbeth the Seer",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Arnor"
+  ],
+  "alternate factions": [
+   "angmar wars",
+   "arthedain"
+  ],
+  "templates": [
+   "ArnorMalbeth"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:ArnorMalbeth",
+   "type": "Ім'я",
+   "en": "Malbeth the Seer",
+   "ru": "Мальбет Провидец",
+   "uk_ai": "Малбет Провидець",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialPowerMalbethCounsellor",
+   "type": "Кнопка",
+   "en": "Royal Counsellor (&W)",
+   "ru": "Королевский советник (&W)",
+   "uk_ai": "Королівський радник (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialPowerMalbethCounsellor",
+   "type": "Підказка",
+   "en": "Malbeth can target enemy units\nAllies around the target gain 33% armour\nPassive ability\n\nAllows Malbeth to rank up\n Becomes more expensive the higher Malbeth ranks up\nAlso passively grants Malbeth a high percentage of ranged damage avoidance and increased armour per level\nLeft click to purchase upgrade",
+   "ru": "Мальбет может выбирать целью вражеские отряды\\nСоюзники рядом с целью получают +33% брони\\nПассивная способность\\n\\nПозволяет Мальбету повышать уровень\\nСтановится тем дороже, чем выше уровень Мальбета\\nТакже пассивно повышается броня за каждый уровень\\nЩелкните левой кнопкой мыши, чтобы повысить уровень",
+   "uk_ai": "Малбет може обирати ціллю ворожі загони\nСоюзники навколо цілі отримують бонус +33% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nДає Малбету змогу підвищити рівень\nЩо вищий рівень Малбета, то дорожче\nТакож з кожним рівнем Малбет частіше ухиляється від атак на відстані й отримує більше броні\nКлікніть, щоб придбати покращення",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MalbethForesight",
+   "type": "Кнопка",
+   "en": "Foresight (&R)",
+   "ru": "Предвидение (&R)",
+   "uk_ai": "Передбачення (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMalbethForesight",
+   "type": "Підказка",
+   "en": "Targeted allied units permanently gain +25% vision and range\nLeft click then left click target area",
+   "ru": "Союзные отряды в радиусе действия навсегда получают +25% дальности атаки и обзору\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Обрані союзні загони назавжди отримують бонус +25% дальності огляду й атаки\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MalbethPreparations",
+   "type": "Кнопка",
+   "en": "Hastened Preparations (&T)",
+   "ru": "Подготовка к войне (&T)",
+   "uk_ai": "Поспішні збори (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMalbethPreparations",
+   "type": "Підказка",
+   "en": "Requires Level 3\nTargeted Arnorian Mill's resource production is increased by 300% for 60 seconds\nLeft click then left click target Arnorian Mill",
+   "ru": "Требуется уровень 3\\nПроизводство ресурсов на Арнорской мельнице увеличивается на +300% в течение 60 секунд\\nЩелкните левой кнопкой мыши на значок, затем  на Арнорскую мельницу",
+   "uk_ai": "Необхідно: Рівень 3\nОбраний арнорський млин на 60 сек. дає на 300% більше ресурсів\nКлікніть на іконку, потім оберіть арнорський млин",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MalbethWiseCounsel",
+   "type": "Кнопка",
+   "en": "Wise Counsel (&C)",
+   "ru": "Мудрый советник (&C)",
+   "uk_ai": "Мудра порада (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDainKingsFavor",
+   "type": "Підказка",
+   "en": "Requires Level 6 \n Targeted units gain large experience \n Left click icon then left click on target units",
+   "ru": "Требуется уровень 6\\nСоюзные отряды получают большое количество опыта\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 6\nМиттєво наділяє обрані загони великою кількістю досвіду\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MalbethProphecy",
+   "type": "Кнопка",
+   "en": "Prophecy of Kings (&V)",
+   "ru": "Пророчество королей (&V)",
+   "uk_ai": "Пророцтво королів (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMalbethProphecy",
+   "type": "Підказка",
+   "en": "Requires Level 10\nTarget allied hero is healed greatly and their ability cooldown timers are reset\nLeft click then left click target hero",
+   "ru": "Требуется уровень 10\\nСоюзный герой исцеляется, а все его способности полностью перезаряжаются\\nЩелкните левой кнопкой мыши на значок, затем на целевого героя",
+   "uk_ai": "Необхідно: Рівень 10\nОбраний союзний герой значно зцілюється, а таймер відновлення його здібностей повністю скидається\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialPowerMalbethCounsellorFinal",
+   "type": "Кнопка",
+   "en": "Royal Counsellor",
+   "ru": "Королевский советник",
+   "uk_ai": "Королівський радник",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialPowerMalbethCounsellorFinal",
+   "type": "Підказка",
+   "en": "Malbeth can target enemy units\nAllies around the target gain 33% armour\nPassive ability",
+   "ru": "Малбет может выбирать целью вражеские отряды\\nСоюзники рядом с целью получают +33% брони\\nПассивная способность",
+   "uk_ai": "Малбет може обирати ціллю ворожі загони\nСоюзники навколо цілі отримують бонус +33% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

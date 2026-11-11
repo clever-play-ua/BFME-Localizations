@@ -1,0 +1,107 @@
+{
+ "meta": {
+  "hero": "Shelob",
+  "uk_name": "Шелоб",
+  "faction (ini Side)": [
+   "Mordor"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "MordorShelobNew",
+   "MordorShelob_Summon"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:WildShelob",
+   "type": "Ім'я",
+   "en": "Shelob",
+   "ru": "Шелоб",
+   "uk_ai": "Шелоб",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ShelobUngoliantSpawn",
+   "type": "Кнопка",
+   "en": "Spawn of Ungoliant",
+   "ru": "Порождение Унголиант",
+   "uk_ai": "Виводок Унґоліант",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShelobUngoliantSpawn",
+   "type": "Підказка",
+   "en": "Shelob continuously spawns tiny spiders that deal damage\nto nearby enemies and slow them by 15%\nPassive ability",
+   "ru": "Шелоб постоянно порождает крошечных пауков, которые наносят урон\\nближайшим врагам и замедляют их на 15%\\nПассивная способность",
+   "uk_ai": "Шелоб породжує крихітних павуків, що завдають пошкоджень\nворогам поблизу й сповільнюють їх на 15%\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ShelobDarkDeterrent",
+   "type": "Кнопка",
+   "en": "Dark Deterrent (&R)",
+   "ru": "Темное устрашение (&R)",
+   "uk_ai": "Темне застереження (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShelobDarkDeterrent",
+   "type": "Підказка",
+   "en": "Enemies within the radius are stunned for 5 seconds and receive poison damage for 15 seconds\nLeft click icon then left click on target area",
+   "ru": "Враги в радиусе действия оглушаются на 5 секунд и получают урон от яда в течение 15 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Вороги в радіусі дії приголомшуються на 5 сек. та 15 сек. отримують пошкодження отрутою\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ShelobFellStinger",
+   "type": "Кнопка",
+   "en": "Fell Stinger (&T)",
+   "ru": "Гнилостное жало (&T)",
+   "uk_ai": "Лихе жало (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShelobFellStinger",
+   "type": "Підказка",
+   "en": "Shelob deals strong damage to a hero and regains a portion of her health\nLeft click icon then left click on target",
+   "ru": "Шелоб наносит сильный урон вражескому герою и восстанавливает часть своего здоровья\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Шелоб завдає героєві значних пошкоджень, а також відновлює частину свого здоров'я\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeMordorFortressShelobTerror",
+   "type": "Кнопка",
+   "en": "&Terror of Cirith Ungol",
+   "ru": "Ужас Кирит Унгола (&T)",
+   "uk_ai": "Жах Кіріт-Унґолу (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressShelobTerror",
+   "type": "Підказка",
+   "en": "Requires the Morgul Sorcery upgrade\nShelob is temporarily summoned to defend this Fortress",
+   "ru": "Требуется улучшение Моргульское колдовство\\nШелоб временно призывается для защиты этой крепости",
+   "uk_ai": "Потребує покращення «Морґульське чаклунство»\nШелоб тимчасово прикликається для захисту цієї фортеці",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "ToolTip:LackMorgulSorcery",
+   "type": "Кнопка",
+   "en": "Requires the Morgul Sorcery upgrade\nHis Deadliest Servants:\nPassively grants +10% damage and +10% armour to all Nazgûl on the battlefield\nDoes not affect Fellbeasts\n\nAllows the Fortress to use the Beacon of Morgul:\nAll orcs on the battlefield gain 15% speed and +50% damage and armour for 30 seconds",
+   "ru": "Требуется улучшение Моргульское колдовство\\nЕго смертоносные слуги:\\nПассивно дарует +10% урона и +10% брони всем назгул на поле боя\\nНе действует на крылатых тварей\\nПозволяет крепости использовать Маяк Минас Моргула:\\nПосле активации, все орки на поле боя наносят +50% урона, получают +50% брони и +15% скорости в течение 30 секунд",
+   "uk_ai": "Потребує покращення «Морґульське чаклунство»\nЙого найлютіші слуги:\nПасивно дає всім назґулам на полі бою бонус +10% до пошкоджень і +10% броні\nНе діє на крилатих потвор\n\nДає фортеці змогу запалити Вогонь Морґулу:\nУсі орки на полі бою отримують бонус 15% швидкості, +50% до пошкоджень і броні на 30 сек.",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

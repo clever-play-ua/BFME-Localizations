@@ -1,0 +1,254 @@
+{
+ "meta": {
+  "hero": "Durin's Bane",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Neutral",
+   "Wild"
+  ],
+  "alternate factions": [
+   "shadow and flame"
+  ],
+  "templates": [
+   "MordorBalrog",
+   "MoriaDurinsBane"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:Balrog",
+   "type": "Ім'я",
+   "en": "Durin's Bane",
+   "ru": "Погибель Дурина",
+   "uk_ai": "Дурінова загибель",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityIgnite",
+   "type": "Кнопка",
+   "en": "Ignite (&W)",
+   "ru": "Воспламенение (&W)",
+   "uk_ai": "Спалахнути (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityIgnite",
+   "type": "Підказка",
+   "en": "The Balrog gains +50% damage, +50% armour for 30 seconds\nReduced the recharge time of special powers \n Causes enemy units to flee in terror \n Left click to activate",
+   "ru": "Балрог получает +50% брони и наносит +50% урона в течение 30 секунд\\nУменьшает время перезарядки способностей\\nЗаставляет вражеские войска бежать в ужасе\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Балроґ на 30 сек. отримує бонус +50% до пошкоджень і +50% броні\nЗдібності відновлюються швидше\nВороги розбігаються від жаху.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityFireWhip",
+   "type": "Кнопка",
+   "en": "Fire Whip (&R)",
+   "ru": "Огненный кнут (&R)",
+   "uk_ai": "Вогняний батіг (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityFireWhip",
+   "type": "Підказка",
+   "en": "Attacks with flaming whip \n Left click icon then left click on target",
+   "ru": "Удар огненным хлыстом\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Удар вогняним батогом\nКлікніть на іконку, потім оберіть ціль",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityBalrogScream",
+   "type": "Кнопка",
+   "en": "Scream (&T)",
+   "ru": "Рык (&T)",
+   "uk_ai": "Рев (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityBalrogScream",
+   "type": "Підказка",
+   "en": "Screams and stuns nearby enemy units in fear for 15 seconds\n Left click to activate",
+   "ru": "Демонический рык, заставляющий врагов цепенеть от страха в течение 15 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Демонічний рев приголомшує ворожі загони поблизу на 15 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityBalrogBreath",
+   "type": "Кнопка",
+   "en": "Breathe Fire (&C)",
+   "ru": "Огненное дыхание (&C)",
+   "uk_ai": "Вогняний подих (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityBalrogBreath",
+   "type": "Підказка",
+   "en": "Breathes fire \n Left click icon then left click on target area",
+   "ru": "Извергнуть пламя\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Вогняний подих\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityBalrogWings",
+   "type": "Кнопка",
+   "en": "Wings (&V)",
+   "ru": "Крылья (&V)",
+   "uk_ai": "Крила (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityBalrogWings",
+   "type": "Підказка",
+   "en": "Use wings for a short flight \n Left click icon then left click on target area",
+   "ru": "Непродолжительный полет над землей\\nЩелкните левой кнопкой мыши на значок, затем на целевое местоположение",
+   "uk_ai": "Перелетіти на невелику відстань\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DurinsBane",
+   "type": "Кнопка",
+   "en": "Durin's Bane (&W)",
+   "ru": "",
+   "uk_ai": "Дурінова загибель (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDurinsBane",
+   "type": "Підказка",
+   "en": "Destroys targeted enemy Dwarven hero\nLeft click then left click target hero",
+   "ru": "Уничтожить вражеского гномьего героя\\nЩелкните левой кнопкой мыши на значок, затем на целевого героя",
+   "uk_ai": "Знищує обраного ворожого героя-дворфа\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityDurinsBaneIgnite",
+   "type": "Кнопка",
+   "en": "Ignite (&R)",
+   "ru": "Воспламенение (&R)",
+   "uk_ai": "Спалахнути (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityDurinsBaneIgnite",
+   "type": "Підказка",
+   "en": "Requires Level 3\nDurin's Bane gains +50% damage, +50% armour for 30 seconds\nReduced the recharge time of special powers \n Causes enemy units to flee in terror \n Left click to activate",
+   "ru": "Требуется уровень 3\\nПогибель Дурина наносит +50% урона и получает +50% брони в течение 30 секунд\\nВремя перезарядки специальных способностей сокращается\\nЗаставляет вражеские отряды разбегаться в ужасе\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nДурінова загибель на 30 сек. отримує бонус +50% до пошкоджень і +50% броні\nЗдібності відновлюються швидше\nВороги розбігаються від жаху.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ShadowAndFlame",
+   "type": "Кнопка",
+   "en": "Shadow and Flame (&T)",
+   "ru": "Тень и пламя (&T)",
+   "uk_ai": "Тінь і полум'я (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShadowAndFlame",
+   "type": "Підказка",
+   "en": "Requires Level 5\nModifier Type: Spell\nNearby allied units deal +125% damage, but lose -50% armour and do not gain experience for 20 seconds\n Stuns nearby enemy units in fear for 15 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 5\\nТип модификатора: Заклинание\\nБлижайшие союзные отряды наносят +125% урона, но теряют -50% брони и не получают опыта в течение 20 секунд\\nОглушает ближайшие вражеские отряды на 15 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Заклинання\nСоюзні загони поблизу на 20 сек. отримують бонус +125% до пошкоджень, але втрачають 50% броні й не набирають досвід\nПриголомшує ворожі загони поблизу страхом на 15 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityDurinsBaneWhip",
+   "type": "Кнопка",
+   "en": "Fire Whip (&C)",
+   "ru": "Огненный хлыст (&C)",
+   "uk_ai": "Вогняний батіг (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityDurinsBaneWhip",
+   "type": "Підказка",
+   "en": "Requires Level 7\nDurin's Bane attacks target enemy with flaming whip \n Left click icon then left click on target",
+   "ru": "Требуется уровень 7\\nПогибель Дурина атакует врага огненным кнутом\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 7\nДурінова загибель атакує обраного ворога вогняним батогом\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityDurinsBaneBreath",
+   "type": "Кнопка",
+   "en": "Breathe Fire (&V)",
+   "ru": "Огненное дыхание (&V)",
+   "uk_ai": "Вогняний подих (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityDurinsBaneBreath",
+   "type": "Підказка",
+   "en": "Requires Level 10\nDurin's Bane breathes fire to incinerate enemy units and structures\n Left click icon then left click on target area",
+   "ru": "Требуется уровень 10\\nОгненное дыхание Балрога испепеляет врагов и вражеские строения\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 10\nДурінова загибель видихає вогонь, що спопеляє ворожі загони й споруди\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDurinsBaneRing",
+   "type": "Підказка",
+   "en": "Durin's Bane is permanently ignited and nearby enemy units suffer fire damage\nPassive ability\nWhen activated, destroys targeted enemy hero\n(only deals 50% of total damage to Gandalf, Elessar, Saruman, Witch-king, Bolg, Galadriel, Elrond, Glorfindel, Thranduil, Théoden, Necromancer, Golden King)\nLeft click then left click target hero",
+   "ru": "Балрог воспламеняется и пассивно наносит ближайшим врагам урон огнем\\nПассивная способность\\nПосле активации, уничтожает выбранного вражеского героя\\n(наносит 50% урона Гэндальфу, Элессару, Саруману, Королю-чародея, Больгу, Галадриэли, Элронду, Глорфинделу, Трандуилу, Теодену, Некроманту, Золотому королю)\\nЩелкните левой кнопкой мыши на значок, затем на целевого героя",
+   "uk_ai": "Дурінова загибель постійно палає, і ворожі загони поблизу отримують пошкодження вогнем\n~ ПАСИВНА ЗДІБНІСТЬ ~\nПісля активації знищує обраного ворожого героя\n(Ґендальфу, Елессару (Араґорну), Саруману, Королю-чаклуну, Болґу, Ґаладріель, Елронду, Ґлорфінделу, Трандуїлу, Теодену, Некроманту й Золотому королю завдає лише 50% пошкоджень)\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityDurinsBaneImmolation",
+   "type": "Кнопка",
+   "en": "Immolation (&R)",
+   "ru": "Жертвоприношение (&R)",
+   "uk_ai": "Самоспалення (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityDurinsBaneImmolation",
+   "type": "Підказка",
+   "en": "Requires Level 3\nDurin's Bane sends out a blastwave and knocks back enemy units\nDurin's Bane gains +50% damage, +50% armour for 30 seconds\nReduced the recharge time of special powers \n Causes enemy units to flee in terror \n Left click to activate",
+   "ru": "Требуется уровень 3\\nПогибель Дурина отбрасыват врагов вокруг себя,\\nнанося +50% урона и получая +50% брони на 30 секунд\\nВремя перезарядки специальных способностей сокращается\\nЗаставляет вражеские отряды разбегаться в ужасе\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nДурінова загибель випускає вибухову хвилю, що відкидає ворожі загони\nДурінова загибель на 30 сек. отримує бонус +50% до пошкоджень і +50% броні\nЗдібності відновлюються швидше\nВороги розбігаються від жаху.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShadowAndFlameRing",
+   "type": "Підказка",
+   "en": "Requires Level 5\nModifier Type: Spell\nNearby allied units deal +125% damage and +50% armour for 20 seconds\n Stuns nearby enemy units in fear for 15 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 5\\nТип модификатора: Заклинание\\nБлижайшие союзные отряды наносят +125% урона и получают +50% брони в течение 20 секунд\\nОглушает ближайших врагов на 15 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Заклинання\nСоюзні загони поблизу на 20 сек. отримують бонус +125% до пошкоджень і +50% броні\nПриголомшує ворожі загони поблизу страхом на 15 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityDurinsBaneWhipRing",
+   "type": "Підказка",
+   "en": "Requires Level 7\nDurin's Bane attacks target enemy with flaming whip\nDeals increased damage with the One Ring\nLeft click icon then left click on target",
+   "ru": "Требуется уровень 7\\nПогибель Дурина атакует врагов огненным кнутом\\nНаносит повышенный урон с помощью Единого кольца\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 7\nДурінова загибель атакує обраного ворога вогняним батогом\nЗ Єдиним Перснем завдає ще більше пошкоджень\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

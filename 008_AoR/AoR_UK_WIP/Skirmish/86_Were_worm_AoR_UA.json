@@ -1,0 +1,43 @@
+{
+ "meta": {
+  "hero": "Were-worm",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Neutral"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "Wyrm"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:Wyrm",
+   "type": "Ім'я",
+   "en": "Were-worm",
+   "ru": "Червь",
+   "uk_ai": "Підземний змій",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityWyrmReposition",
+   "type": "Кнопка",
+   "en": "Reposition (&W)",
+   "ru": "Смена позиции (&W)",
+   "uk_ai": "Зміна позиції (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityWyrmReposition",
+   "type": "Підказка",
+   "en": "Move the Were-worm to a different location on the battlefield",
+   "ru": "Червь перемещается в другую область поля боя",
+   "uk_ai": "Перемістити підземного змія в інше місце на полі бою",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

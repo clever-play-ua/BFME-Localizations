@@ -1,0 +1,73 @@
+{
+ "meta": {
+  "hero": "Sinda Spirit",
+  "uk_name": "Дух синда",
+  "campaigns": [
+   "TTT"
+  ],
+  "missions": [
+   "TamingofSmeagol"
+  ],
+  "templates": {
+   "кампанія": [
+    "SecondAgeOropher"
+   ],
+   "битва": [
+    "SecondAgeOropher"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:ElvenOropher",
+   "type": "Ім'я",
+   "en": "Sinda Spirit",
+   "ru": "Дух Синда",
+   "uk_ai": "Дух синда",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:OropherWordofPower",
+   "type": "Кнопка",
+   "en": "Elvenking's Lament (&W)",
+   "ru": "Стенания эльфийского короля",
+   "uk_ai": "Плач ельфійського короля (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipOropherWordofPower",
+   "type": "Підказка",
+   "en": "Blasts back and stuns surrounding units for 10 seconds\n Left click to activate",
+   "ru": "Отбрасывает и оглушает окружающих врагов на 10 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Відкидає загони навколо й приголомшує їх на 10 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:OropherAtonementStrike",
+   "type": "Кнопка",
+   "en": "Strike of Atonement (&R)",
+   "ru": "",
+   "uk_ai": "Удар спокути (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipOropherAtonementStrike",
+   "type": "Підказка",
+   "en": "Knocks down and pins target Undead enemy for 15 seconds\n Left click then left click on target",
+   "ru": "",
+   "uk_ai": "Збиває з ніг і на 15 сек. знерухомлює обраного невмерлого ворога\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

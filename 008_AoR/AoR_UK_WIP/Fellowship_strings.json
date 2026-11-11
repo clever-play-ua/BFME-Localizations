@@ -1,0 +1,3088 @@
+{
+ "meta": {
+  "what": "AoR 10.0 — фракція Fellowship (герої та об'єкти кампаній): назви, кнопки, підказки",
+  "fields": "var — мітка; group — герой/об'єкт; type — Назва/Кнопка/Підказка; en; ru — RU 9.3.1, якщо є; uk_ai — чернетка AI (можна правити прямо тут); uk — порожньо",
+  "notes": "Гарячі клавіші (&W) лишаються латиницею. \\n — перенос рядка, їх кількість має збігатися з EN.",
+  "count": 342
+ },
+ "strings": [
+  {
+   "var": "CONTROLBAR:HaradUmbarDeckguardHorde",
+   "group": "Umbar Deck-guards",
+   "type": "Кнопка",
+   "en": "Umbar Deck-guards",
+   "ru": "",
+   "uk_ai": "Палубна варта Умбару",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:AotRNoxiousMushroomProp",
+   "group": "Noxious Mushroom",
+   "type": "Назва",
+   "en": "Noxious Mushroom",
+   "ru": "",
+   "uk_ai": "Отруйний гриб",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:ArnorMaggotsHoundHorde",
+   "group": "Maggot's Hounds Horde",
+   "type": "Назва",
+   "en": "Maggot's Hounds Horde",
+   "ru": "Гончие фермера Мэггота",
+   "uk_ai": "Пси фермера Меґота",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:ArPharazon",
+   "group": "Ar-Pharazon the Golden",
+   "type": "Назва",
+   "en": "Ar-Pharazon the Golden",
+   "ru": "",
+   "uk_ai": "Ар-Фаразон Золотий",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:BeorningUrsa",
+   "group": "Beorning Ursa",
+   "type": "Назва",
+   "en": "Beorning Ursa",
+   "ru": "",
+   "uk_ai": "Беорнінґ-ведмідь",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:BlackPhilip",
+   "group": "Phillip",
+   "type": "Назва",
+   "en": "Phillip",
+   "ru": "",
+   "uk_ai": "Філіп",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignAmdir",
+   "group": "Amdir",
+   "type": "Назва",
+   "en": "Amdir",
+   "ru": "Амдир",
+   "uk_ai": "Амдір",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AmdirBanishingStrike",
+   "group": "Amdir",
+   "type": "Кнопка",
+   "en": "Banishing Strike (&W)",
+   "ru": "Пронзающий удар (&W)",
+   "uk_ai": "Удар вигнання (&W)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AmdirNobleHeart",
+   "group": "Amdir",
+   "type": "Кнопка",
+   "en": "Noble Heart (&R)",
+   "ru": "Благородное сердце (&R)",
+   "uk_ai": "Шляхетне серце (&R)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAmdirBanishingStrike",
+   "group": "Amdir",
+   "type": "Підказка",
+   "en": "Amdír drives his spear forward fearlessly, dealing powerful damage to a single unit \n Left click then left click on target",
+   "ru": "Амдир бесстрашно бросается вперед со своим копьем, нанося сильный урон одиночной цели\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Амдір безстрашно б'є списом уперед, завдаючи великих пошкоджень 1 загону\nКлікніть на іконку, потім оберіть ціль",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipAmdirNobleHeart",
+   "group": "Amdir",
+   "type": "Підказка",
+   "en": "Amdír's bravery in the face of evil causes his enemies to flee in terror \n Left click to activate",
+   "ru": "Храбрость Амдира перед лицом зла заставляет его врагов ненадолго цепенеть от ужаса\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Відвага Амдіра перед лицем зла змушує ворогів тікати в жаху\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignAngbor",
+   "group": "Angbor the Fearless",
+   "type": "Назва",
+   "en": "Angbor the Fearless",
+   "ru": "",
+   "uk_ai": "Анґбор Безстрашний",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignAnnatar",
+   "group": "Annatar",
+   "type": "Назва",
+   "en": "Annatar",
+   "ru": "",
+   "uk_ai": "Аннатар",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignBanneroftheGaladhrim",
+   "group": "Banner of the Galadhrim",
+   "type": "Назва",
+   "en": "Banner of the Galadhrim",
+   "ru": "",
+   "uk_ai": "Стяг ґаладримів",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignBanneroftheRiddermark",
+   "group": "Banner of the Riddermark",
+   "type": "Назва",
+   "en": "Banner of the Riddermark",
+   "ru": "",
+   "uk_ai": "Стяг Ріддермарку",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignBanneroftheWhiteTree",
+   "group": "Banner of the White Tree",
+   "type": "Назва",
+   "en": "Banner of the White Tree",
+   "ru": "",
+   "uk_ai": "Стяг Білого Древа",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignBergil",
+   "group": "Bergil",
+   "type": "Назва",
+   "en": "Bergil",
+   "ru": "",
+   "uk_ai": "Берґіл",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignBillFerny",
+   "group": "Bill Ferny",
+   "type": "Назва",
+   "en": "Bill Ferny",
+   "ru": "",
+   "uk_ai": "Білл Ферні",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FernyBigMan",
+   "group": "Bill Ferny",
+   "type": "Кнопка",
+   "en": "Chief's Big Man",
+   "ru": "",
+   "uk_ai": "Права рука Ватажка",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FernyCoercion",
+   "group": "Bill Ferny",
+   "type": "Кнопка",
+   "en": "Coercion (&V)",
+   "ru": "",
+   "uk_ai": "Примус (&V)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FernyFilthyCoward",
+   "group": "Bill Ferny",
+   "type": "Кнопка",
+   "en": "Filthy Coward",
+   "ru": "",
+   "uk_ai": "Брудний боягуз",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FernyInsideJob",
+   "group": "Bill Ferny",
+   "type": "Кнопка",
+   "en": "Inside Job (&T)",
+   "ru": "",
+   "uk_ai": "Робота зсередини (&T)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FernyUnsavoury",
+   "group": "Bill Ferny",
+   "type": "Кнопка",
+   "en": "Unsavoury Company (&W)",
+   "ru": "",
+   "uk_ai": "Сумнівна компанія (&W)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFernyBigMan",
+   "group": "Bill Ferny",
+   "type": "Підказка",
+   "en": "Requires Level 3\nBill Ferny and nearby Ruffians steal resources per hit from enemy structures and are healed per hit when attacking enemy units\nPassive ability",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3\nБілл Ферні й розбійники поблизу з кожним ударом крадуть ресурси з ворожих споруд, а атакуючи ворожі загони, відновлюють здоров'я\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFernyCoercion",
+   "group": "Bill Ferny",
+   "type": "Підказка",
+   "en": "Requires Level 10\nTakes control of single enemy battalion for 30 seconds\n Cannot be used on heroic units \n Left click icon then left click on target enemies",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 10\nНа 30 секунд підкоряє собі один ворожий загін\nНе діє на героїв\nКлікніть на іконку, потім оберіть ціль",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipFernyFilthyCoward",
+   "group": "Bill Ferny",
+   "type": "Підказка",
+   "en": "Requires Level 8\nWhen Bill Ferny reaches low health he becomes invulnerable but cannot attack for 15 seconds\nCannot be triggered again for 90 seconds\nPassive ability",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 8\nКоли здоров'я Білла Ферні падає до критичного рівня, він стає невразливим, але 15 секунд не може атакувати\nПовторно спрацьовує не раніше ніж за 90 секунд\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFernyInsideJob",
+   "group": "Bill Ferny",
+   "type": "Підказка",
+   "en": "Requires Level 6\nDisables target enemy structure for 30 seconds and grants vision of surrounding area for 60 seconds\nLeft click then left click on target",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 6\nВимикає вказану ворожу споруду на 30 секунд і відкриває огляд навколо неї на 60 секунд\nКлікніть на іконку, потім оберіть ціль",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFernyUnsavoury",
+   "group": "Bill Ferny",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\n For every 15 allied Ruffian units nearby, Bill Ferny gains\n+5% damage and armour to a maximum of 25%\nNearby Ruffians gain +15% damage and armour and earn experience +25% faster\n Passive ability\n\n At Level 5, summons two battalions of Press Gang when activated\nAt rank 10, includes an additional battalion of Half-orc Bulwarks\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Лідерство\nЗа кожні 15 союзних загонів розбійників поблизу Білл Ферні отримує бонус\n+5% до пошкоджень і броні, до максимуму 25%\nРозбійники поблизу отримують бонус +15% до пошкоджень і броні й на 25% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nНа 5 рівні після активації закликає 2 загони вербувальників\nНа 10 рівні до них додається загін напіворків-заслонів\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignCaravan",
+   "group": "Caravan",
+   "type": "Назва",
+   "en": "Caravan",
+   "ru": "",
+   "uk_ai": "Караван",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignDerufin",
+   "group": "Derufin",
+   "type": "Назва",
+   "en": "Derufin",
+   "ru": "",
+   "uk_ai": "Деруфін",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignDervorin",
+   "group": "Dervorin",
+   "type": "Назва",
+   "en": "Dervorin",
+   "ru": "",
+   "uk_ai": "Дерворін",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignDuilin",
+   "group": "Duilin",
+   "type": "Назва",
+   "en": "Duilin",
+   "ru": "",
+   "uk_ai": "Дуїлін",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignDuinhir",
+   "group": "Lord Duinhir",
+   "type": "Назва",
+   "en": "Lord Duinhir",
+   "ru": "",
+   "uk_ai": "Лорд Дуїнгір",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignFirebombCache",
+   "group": "Firebomb Cache",
+   "type": "Назва",
+   "en": "Firebomb Cache",
+   "ru": "Склад бомб",
+   "uk_ai": "Склад вогняних бомб",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignGolasgil",
+   "group": "Lord Golasgil",
+   "type": "Назва",
+   "en": "Lord Golasgil",
+   "ru": "",
+   "uk_ai": "Лорд Ґоласґіл",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignGolasgilGuard",
+   "group": "Golasgil Household Guard",
+   "type": "Назва",
+   "en": "Golasgil Household Guard",
+   "ru": "",
+   "uk_ai": "Особиста варта Ґоласґіла",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignGreatSpider",
+   "group": "Shelob's Spawn",
+   "type": "Назва",
+   "en": "Shelob's Spawn",
+   "ru": "",
+   "uk_ai": "Нащадок Шелоб",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignGrog",
+   "group": "Grog",
+   "type": "Назва",
+   "en": "Grog",
+   "ru": "Грог",
+   "uk_ai": "Ґроґ",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignGrondGuardUruk",
+   "group": "Grond-guard Torchbearer",
+   "type": "Назва",
+   "en": "Grond-guard Torchbearer",
+   "ru": "",
+   "uk_ai": "Факелоносець варти Ґронда",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignHalvegil",
+   "group": "Halvegil",
+   "type": "Назва",
+   "en": "Halvegil",
+   "ru": "",
+   "uk_ai": "Гальвеґіл",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignHirluin",
+   "group": "Lord Hirluin the Fair",
+   "type": "Назва",
+   "en": "Lord Hirluin the Fair",
+   "ru": "",
+   "uk_ai": "Лорд Гірлуїн Прекрасний",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignHuntersLangstrand",
+   "group": "Hunter of Langstrand",
+   "type": "Назва",
+   "en": "Hunter of Langstrand",
+   "ru": "",
+   "uk_ai": "Мисливець Ланґстранду",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignHuntersLangstrandHorde",
+   "group": "Hunters of Langstrand",
+   "type": "Назва",
+   "en": "Hunters of Langstrand",
+   "ru": "",
+   "uk_ai": "Мисливці Ланґстранду",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignHurinoftheKeys",
+   "group": "Hurin of the Keys",
+   "type": "Назва",
+   "en": "Hurin of the Keys",
+   "ru": "",
+   "uk_ai": "Гурін Ключник",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignIrolas",
+   "group": "Irolas",
+   "type": "Назва",
+   "en": "Irolas",
+   "ru": "",
+   "uk_ai": "Іролас",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructIthilienRam_Ettenmoors",
+   "group": "Ithilien Troop Tent",
+   "type": "Кнопка",
+   "en": "Dúnedain Battering Ram (&S)",
+   "ru": "",
+   "uk_ai": "Таран дунедайн (&S)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIthilienRam_Ettenmoors",
+   "group": "Ithilien Troop Tent",
+   "type": "Підказка",
+   "en": "Breaks down castle gates and enemy structures \n \n Swiftly constructed to serve the needs of Rangers, these battering rams are manned by staunch warriors, and few enemy gates can withstand them.",
+   "ru": "",
+   "uk_ai": "Розбиває ворота фортець і ворожі споруди\n\nЦі тарани швидко збивають для потреб слідопитів, а керують ними стійкі воїни — мало які ворожі ворота перед ними встоять.",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignLothrandir",
+   "group": "Lothrandir",
+   "type": "Назва",
+   "en": "Lothrandir",
+   "ru": "Лотрандир",
+   "uk_ai": "Лотрандир",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:LothrandirQuickDispatch",
+   "group": "Lothrandir",
+   "type": "Кнопка",
+   "en": "Quick Dispatch (&W)",
+   "ru": "Проворство (&W)",
+   "uk_ai": "Швидка розправа (&W)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:LothrandirSubtleWays",
+   "group": "Lothrandir",
+   "type": "Кнопка",
+   "en": "Subtle Ways (&R)",
+   "ru": "Уловка следопыта (&R)",
+   "uk_ai": "Потаємні стежки (&R)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLothrandirQuickDispatch",
+   "group": "Lothrandir",
+   "type": "Підказка",
+   "en": "Lothrandir gains +25% attack and movement speed for 30 seconds\n Left click to activate",
+   "ru": "Лотрандир получает +25% скорости атаки и передвижения на 30 секунд\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Лотрандир отримує бонус +25% до швидкості атаки й пересування на 30 секунд\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLothrandirSubtleWays",
+   "group": "Lothrandir",
+   "type": "Підказка",
+   "en": "Lothrandir and targeted allies become stealthed and deal increased damage for 30 seconds\n Left click icon then left click on target units",
+   "ru": "Лотрандир и союзники в радиусе действия становятся скрытыми, а также наносят повышенный урон в течение 30 секунд\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Лотрандир і вибрані союзники стають невидимими й завдають більше пошкоджень протягом 30 секунд\nКлікніть на іконку, потім оберіть потрібні загони",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignMasteratArms",
+   "group": "Master-at-Arms",
+   "type": "Назва",
+   "en": "Master-at-Arms",
+   "ru": "",
+   "uk_ai": "Майстер-зброяр",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignRiderofRohan",
+   "group": "Rider of Rohan",
+   "type": "Назва",
+   "en": "Rider of Rohan",
+   "ru": "",
+   "uk_ai": "Вершник Рогану",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanSpearThrowerHorde",
+   "group": "Rohan Troop Tent",
+   "type": "Кнопка",
+   "en": "Yeomen Spear Throwers (&R)",
+   "ru": "Йомены-копьеметатели (&R)",
+   "uk_ai": "Йомени-метальники списів (&R)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanSpearThrowerHorde",
+   "group": "Rohan Troop Tent",
+   "type": "Підказка",
+   "en": "Strong vs. Heavily Armoured units and Siege Machines \n \n The walls of the Hornburg were defended by men hailing from the surrounding valley. Valiantly they defended the keep during the War of the Ring.",
+   "ru": "Сильны против тяжеловооруженных врагов и осадных машин\n\nСтены Хельмовой пади защищали люди из окрестных долин. Они доблестно отстаивали крепость во время Войны Кольца.",
+   "uk_ai": "Ефективні проти: важкоброньовані загони й облогові машини\n\nСтіни Горнбурґу боронили чоловіки з навколишньої долини. Під час Війни Персня вони звитяжно захищали фортецю.",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignRoheryn",
+   "group": "Roheryn",
+   "type": "Назва",
+   "en": "Roheryn",
+   "ru": "Рохерин",
+   "uk_ai": "Рогерин",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignSharkey",
+   "group": "Sharkey",
+   "type": "Назва",
+   "en": "Sharkey",
+   "ru": "",
+   "uk_ai": "Шаркі",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ChainGang",
+   "group": "Sharkey",
+   "type": "Кнопка",
+   "en": "Chain Gang",
+   "ru": "",
+   "uk_ai": "Кайдани",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FallenIstari",
+   "group": "Sharkey",
+   "type": "Кнопка",
+   "en": "Fallen Istari (&R)",
+   "ru": "",
+   "uk_ai": "Занепалий істар (&R)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FiresIsengard",
+   "group": "Sharkey",
+   "type": "Кнопка",
+   "en": "Fires of Isengard",
+   "ru": "",
+   "uk_ai": "Вогні Ізенґарду",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:IsengardRemnant",
+   "group": "Sharkey",
+   "type": "Кнопка",
+   "en": "Remnant of Isengard",
+   "ru": "",
+   "uk_ai": "Рештки Ізенґарду",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RuffianCrackWhip",
+   "group": "Sharkey",
+   "type": "Кнопка",
+   "en": "Crack the Whip!",
+   "ru": "",
+   "uk_ai": "Хльоснути батогом!",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RuffianDominate",
+   "group": "Sharkey",
+   "type": "Кнопка",
+   "en": "Voice of the Ring-maker",
+   "ru": "",
+   "uk_ai": "Голос Творця Перснів",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SharkeyBoss",
+   "group": "Sharkey",
+   "type": "Кнопка",
+   "en": "The Chief (&W)",
+   "ru": "",
+   "uk_ai": "Ватажок (&W)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SharkeyDominate",
+   "group": "Sharkey",
+   "type": "Кнопка",
+   "en": "Voice of Saruman (&V)",
+   "ru": "",
+   "uk_ai": "Голос Сарумана (&V)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SharkeyPilferedGoods",
+   "group": "Sharkey",
+   "type": "Кнопка",
+   "en": "Pilfered Goods (&T)",
+   "ru": "",
+   "uk_ai": "Награбоване добро (&T)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SharkeyTransfix",
+   "group": "Sharkey",
+   "type": "Кнопка",
+   "en": "Transfix (&C)",
+   "ru": "",
+   "uk_ai": "Заціпеніння (&C)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpellBookNewMill",
+   "group": "Sharkey",
+   "type": "Кнопка",
+   "en": "The New Mill",
+   "ru": "",
+   "uk_ai": "Новий Млин",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpellBookWargArchers",
+   "group": "Sharkey",
+   "type": "Кнопка",
+   "en": "Wolves of Isengard",
+   "ru": "",
+   "uk_ai": "Вовки Ізенґарду",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipChainGang",
+   "group": "Sharkey",
+   "type": "Підказка",
+   "en": "Stuns every enemy unit in a small area for 4 seconds \n Left click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Приголомшує всі ворожі загони на невеликій ділянці на 4 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFallenIstari",
+   "group": "Sharkey",
+   "type": "Підказка",
+   "en": "Requires Level 3\nTarget enemies' ability timers are set to just used and enemy units in target area flee in terror\nLeft click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3\nЗдібності вказаних ворогів скидаються, ніби їх щойно застосували, а ворожі загони на ділянці тікають у жаху\nКлікніть на іконку, потім оберіть ціль",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFiresIsengard",
+   "group": "Sharkey",
+   "type": "Підказка",
+   "en": "Spawns a stash of Explosive Mines which detonate after 20 seconds\nDeals heavy damage to enemy units and structures\nLeft click icon then left click on pathable location",
+   "ru": "",
+   "uk_ai": "Створює схованку вибухових мін, що вибухають через 20 секунд\nЗавдають великих пошкоджень ворожим загонам і спорудам\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipIsengardRemnant",
+   "group": "Sharkey",
+   "type": "Підказка",
+   "en": "Summons several hordes of Isengard Orcs led by an Uruk-hai Berserker to fight for your side \n Left click icon then left click on pathable location",
+   "ru": "",
+   "uk_ai": "Закликає на ваш бік кілька загонів ізенґардських орків на чолі з берсерком урук-хаїв\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipRuffianCrackWhip",
+   "group": "Sharkey",
+   "type": "Підказка",
+   "en": "For 90 seconds, all Ruffian units gain +33% damage, +15% movement speed and immunity to fear and terror at the cost of -15% armour \n Left click to activate",
+   "ru": "",
+   "uk_ai": "На 90 секунд усі загони розбійників отримують бонус +33% до пошкоджень, +15% швидкості пересування й імунітет до страху та жаху ціною -15% броні\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRuffianDominate",
+   "group": "Sharkey",
+   "type": "Підказка",
+   "en": "Takes control of enemy units within the radius for 30 seconds\n When the spell runs out, targeted enemy units take damage \nLeft click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Підкоряє собі ворожі загони в радіусі дії на 30 секунд\nКоли дія закінчується, ці загони отримують пошкодження\nКлікніть на іконку, потім оберіть ціль",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSharkeyBoss",
+   "group": "Sharkey",
+   "type": "Підказка",
+   "en": "Close range attack that blasts back enemies \n Left click icon then left click on target \n \n Modifier Type: Debuff \n Enemies near Sharkey lose all leadership and cannot gain experience\nPassive ability",
+   "ru": "",
+   "uk_ai": "Атака зблизька, що відкидає ворогів\nКлікніть на іконку, потім оберіть ціль\n\nТип ефекту: Ослаблення\nВороги поряд із Шаркі втрачають усе лідерство й не можуть набирати досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSharkeyPilferedGoods",
+   "group": "Sharkey",
+   "type": "Підказка",
+   "en": "Requires Level 5\nDeals heavy damage and steals 300 resources from target structure\nLeft click then left click on target",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 5\nЗавдає великих пошкоджень вказаній споруді й краде з неї 300 ресурсів\nКлікніть на іконку, потім оберіть ціль",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSharkeyTransfix",
+   "group": "Sharkey",
+   "type": "Підказка",
+   "en": "Requires Level 7\nTarget enemy hero is crippled and cannot deal damage for 10 seconds\nLeft click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 7\nВказаний ворожий герой 10 секунд скалічений і не може завдавати пошкоджень\nКлікніть на іконку, потім оберіть ціль",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpellBookNewMill",
+   "group": "Sharkey",
+   "type": "Підказка",
+   "en": "Summons the New Mill\nNew Mill harvests a high amount of resources from nearby trees\nAllows recruitment of Sandyman's Cronies\nLimited to 1\nLeft click icon then left click on pathable location",
+   "ru": "",
+   "uk_ai": "Закликає Новий Млин\nНовий Млин збирає багато ресурсів з дерев поблизу\nДає змогу наймати поплічників Сендімена\nМаксимум 1 одночасно\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipSpellBookWargArchers",
+   "group": "Sharkey",
+   "type": "Підказка",
+   "en": "Summons three upgraded battalions of Warg-rider Archers \n Left click icon then left click on pathable location",
+   "ru": "",
+   "uk_ai": "Закликає три покращені загони вершників на варґах із луками\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WarChantRuffian",
+   "group": "Sharkey",
+   "type": "Кнопка",
+   "en": "Thuggery",
+   "ru": "",
+   "uk_ai": "Розбій",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignSpiritAmdir",
+   "group": "Tethered King",
+   "type": "Назва",
+   "en": "Tethered King",
+   "ru": "",
+   "uk_ai": "Прикутий король",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignSpiritElfLord",
+   "group": "Tethered Lord",
+   "type": "Назва",
+   "en": "Tethered Lord",
+   "ru": "",
+   "uk_ai": "Прикутий володар",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignTedSandyman",
+   "group": "Ted Sandyman",
+   "type": "Назва",
+   "en": "Ted Sandyman",
+   "ru": "",
+   "uk_ai": "Тед Сендімен",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SandymanConspirator",
+   "group": "Ted Sandyman",
+   "type": "Кнопка",
+   "en": "Co-conspirator (&T)",
+   "ru": "",
+   "uk_ai": "Спільник (&T)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SandymanInformant",
+   "group": "Ted Sandyman",
+   "type": "Кнопка",
+   "en": "Sharkey's Informant (&W)",
+   "ru": "",
+   "uk_ai": "Донощик Шаркі (&W)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SandymanMetalWheels",
+   "group": "Ted Sandyman",
+   "type": "Кнопка",
+   "en": "Heinous Deeds",
+   "ru": "",
+   "uk_ai": "Мерзенні справи",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SandymanVileWords",
+   "group": "Ted Sandyman",
+   "type": "Кнопка",
+   "en": "Villainous Miller (&R)",
+   "ru": "",
+   "uk_ai": "Лиходій-мірошник (&R)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSandymanConspirator",
+   "group": "Ted Sandyman",
+   "type": "Підказка",
+   "en": "Requires Level 5\n Ted Sandyman blows his horn to grant nearby friendly units resistance to fear, terror, knockback and trample for 30 seconds\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 5\nТед Сендімен сурмить у ріг: союзні загони поблизу на 30 секунд стають стійкими до страху, жаху, відкидання й топтання\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSandymanInformant",
+   "group": "Ted Sandyman",
+   "type": "Підказка",
+   "en": "For 30 seconds, target enemy unit or structure is marked by Ted Sandyman\n Target enemy units lose -10% armour and movement speed for 30 seconds\nTarget enemy structures lose -10% armour and production output for 30 seconds\n Left click then left click on target",
+   "ru": "",
+   "uk_ai": "На 30 секунд Тед Сендімен позначає вказаний ворожий загін або споруду\nПозначені загони втрачають 10% броні й швидкості пересування на 30 секунд\nПозначені споруди втрачають 10% броні й продуктивності на 30 секунд\nКлікніть на іконку, потім оберіть ціль",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSandymanMetalWheels",
+   "group": "Ted Sandyman",
+   "type": "Підказка",
+   "en": "Requires Level 7\nNearby Work Pits, Factories and the New Mill gain +15% armour and production output\nPassive ability",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 7\nРобітні Ями, фабрики й Новий Млин поблизу отримують бонус +15% броні й продуктивності\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSandymanVileWords",
+   "group": "Ted Sandyman",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Modifier Type: Active Debuff \n Targeted enemy units suffer -25% damage and -50% experience gain for 30 seconds\nLeft click icon then left click on target units",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Активне ослаблення\nВибрані ворожі загони на 30 секунд завдають на 25% менше пошкоджень і набирають на 50% менше досвіду\nКлікніть на іконку, потім оберіть потрібні загони",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignToradan",
+   "group": "Toradan",
+   "type": "Назва",
+   "en": "Toradan",
+   "ru": "Торадан",
+   "uk_ai": "Торадан",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToradanGrizzledWarrior",
+   "group": "Toradan",
+   "type": "Підказка",
+   "en": "For 20 seconds, Toradan reflects a portion of the damage dealt to him\nLeft click to activate",
+   "ru": "В течение 20 секунд Торадан отражает часть полученного урона\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Протягом 20 секунд Торадан повертає частину завданих йому пошкоджень\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToradanWideSweep",
+   "group": "Toradan",
+   "type": "Підказка",
+   "en": "Toradan swings his sword hard, dealing damage to and knocking back everything around him \n Left click to activate",
+   "ru": "Торадан сильно размахивает мечом, нанося урон и отбрасывая врагов вокруг себя\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Торадан щосили розмахується мечем, завдаючи пошкоджень усім навколо й відкидаючи їх\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToradanGrizzledWarrior",
+   "group": "Toradan",
+   "type": "Кнопка",
+   "en": "Grizzled Warrior (&R)",
+   "ru": "Бывалый воин (&R)",
+   "uk_ai": "Загартований воїн (&R)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToradanWideSweep",
+   "group": "Toradan",
+   "type": "Кнопка",
+   "en": "Wide Sweep (&W)",
+   "ru": "Широкий размах (&W)",
+   "uk_ai": "Широкий замах (&W)",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignUmbarianStandard",
+   "group": "Umbarian Standard",
+   "type": "Назва",
+   "en": "Umbarian Standard",
+   "ru": "",
+   "uk_ai": "Умбарський штандарт",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUmbarianStandardBuffLevel1",
+   "group": "Umbarian Standard",
+   "type": "Підказка",
+   "en": "Nearby Corsairs and Black Númenóreans gain +20% armour, +20% damage and +50% experience gain. Rising Zealotry's bonuses increase the longer the Standard is alive",
+   "ru": "",
+   "uk_ai": "Пірати й чорні нуменорці поблизу отримують бонус +20% броні, +20% до пошкоджень і на 50% швидше набирають досвід. Що довше стоїть штандарт, то більший бонус «Зростання фанатизму»",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUmbarianStandardBuffLevel2",
+   "group": "Umbarian Standard",
+   "type": "Підказка",
+   "en": "Nearby Corsairs and Black Númenóreans gain +40% armour, +40% damage, and +100% experience gain. The Standard gains 1000 additional health",
+   "ru": "",
+   "uk_ai": "Пірати й чорні нуменорці поблизу отримують бонус +40% броні, +40% до пошкоджень і на 100% швидше набирають досвід. Штандарт отримує 1000 додаткового здоров'я",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUmbarianStandardBuffLevel3",
+   "group": "Umbarian Standard",
+   "type": "Підказка",
+   "en": "Nearby Corsairs and Black Númenóreans gain +60% armour, +60% damage, +100% experience gain, and resistance to knockback. The Standard gains 1000 additional health",
+   "ru": "",
+   "uk_ai": "Пірати й чорні нуменорці поблизу отримують бонус +60% броні, +60% до пошкоджень, на 100% швидше набирають досвід і стають стійкими до відкидання. Штандарт отримує 1000 додаткового здоров'я",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:UmbarianStandardBuffLevel1",
+   "group": "Umbarian Standard",
+   "type": "Кнопка",
+   "en": "Rising Zealotry Level 1",
+   "ru": "",
+   "uk_ai": "Зростання фанатизму: рівень 1",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:UmbarianStandardBuffLevel2",
+   "group": "Umbarian Standard",
+   "type": "Кнопка",
+   "en": "Rising Zealotry Level 2",
+   "ru": "",
+   "uk_ai": "Зростання фанатизму: рівень 2",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:UmbarianStandardBuffLevel3",
+   "group": "Umbarian Standard",
+   "type": "Кнопка",
+   "en": "Rising Zealotry Level 3",
+   "ru": "",
+   "uk_ai": "Зростання фанатизму: рівень 3",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignWarDrake",
+   "group": "Rhûn War-drake",
+   "type": "Назва",
+   "en": "Rhûn War-drake",
+   "ru": "",
+   "uk_ai": "Бойовий дракон Руну",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CampaignWorm",
+   "group": "Worm",
+   "type": "Назва",
+   "en": "Worm",
+   "ru": "",
+   "uk_ai": "Черв",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CampaignWormEscape",
+   "group": "Worm",
+   "type": "Кнопка",
+   "en": "Withered Wretch (&W)",
+   "ru": "",
+   "uk_ai": "Жалюгідний нікчема (&W)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CampaignWormRavenous",
+   "group": "Worm",
+   "type": "Кнопка",
+   "en": "Ravenous Hunger (&C)",
+   "ru": "",
+   "uk_ai": "Ненаситний голод (&C)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CampaignWormReviled",
+   "group": "Worm",
+   "type": "Кнопка",
+   "en": "Reviled By All (&R)",
+   "ru": "",
+   "uk_ai": "Усіма зневажений (&R)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipCampaignWormEscape",
+   "group": "Worm",
+   "type": "Підказка",
+   "en": "Worm becomes stealthed and can neither be attacked nor make an attack for 30 seconds\n Left click icon to activate",
+   "ru": "",
+   "uk_ai": "Черв стає невидимим і 30 секунд не може ні атакувати, ні бути атакованим\nКлікніть на іконку, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCampaignWormRavenous",
+   "group": "Worm",
+   "type": "Підказка",
+   "en": "Requires Level 8\nDeals strong damage target enemy unit \n Worm is healed and gains +50% armour and damage for 20 seconds\n Left click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 8\nЗавдає сильних пошкоджень вказаному ворожому загону\nЧерв відновлює здоров'я й отримує бонус +50% броні та пошкоджень на 20 секунд\nКлікніть на іконку, потім оберіть ціль",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCampaignWormReviled",
+   "group": "Worm",
+   "type": "Підказка",
+   "en": "Requires Level 3\nWorm deals damage to himself\nAll nearby units, allied and enemy, are stunned with fear for 10 seconds\n Left click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3\nЧерв завдає пошкоджень сам собі\nУсі загони поблизу, і союзні, і ворожі, на 10 секунд заціпеніють від страху\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:Cat",
+   "group": "Cat",
+   "type": "Назва",
+   "en": "Cat",
+   "ru": "Кошка",
+   "uk_ai": "Кіт",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CelebrimborShade",
+   "group": "Shade of Celebrimbor",
+   "type": "Назва",
+   "en": "Shade of Celebrimbor",
+   "ru": "",
+   "uk_ai": "Тінь Келебрімбора",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:ChiefLibrarian",
+   "group": "Chief Librarian Eruantin",
+   "type": "Назва",
+   "en": "Chief Librarian Eruantin",
+   "ru": "",
+   "uk_ai": "Головний бібліотекар Еруантін",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CorpseFlies",
+   "group": "Corpse Flies",
+   "type": "Назва",
+   "en": "Corpse Flies",
+   "ru": "",
+   "uk_ai": "Трупні мухи",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CorsairBallistaShip",
+   "group": "Corsair Scorpion Ship",
+   "type": "Назва",
+   "en": "Corsair Scorpion Ship",
+   "ru": "Пиратский корабль Скорпион",
+   "uk_ai": "Піратський корабель зі скорпіоном",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:CorsairPlunderChest",
+   "group": "Plunder Chest",
+   "type": "Назва",
+   "en": "Plunder Chest",
+   "ru": "",
+   "uk_ai": "Скриня зі здобиччю",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipYoungDwalinGloriousCharge",
+   "group": "Dwalin",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Dwalin lets out a cry, causing enemy units to flee in terror \n Left click to activate",
+   "ru": "Требуется уровень 3\nДвалин издает крик, заставляя вражеские отряды разбегаться в ужасе\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nДвалін видає бойовий клич, і ворожі загони тікають у жаху\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipYoungDwalinLeadership",
+   "group": "Dwalin",
+   "type": "Підказка",
+   "en": "Modifier Type: Spell \n When near Thorin, Dwalin gains\n+15% damage, +15% armour, and +15% attack speed \nPassive ability",
+   "ru": "Тип модификатора: Заклинание\nДвалин рядом с Торином наносит\n+15% урона, получает +15% брони и +15% скорости атаки\nПассивная способность",
+   "uk_ai": "Тип ефекту: Заклинання\nПоряд із Торіном Двалін отримує бонус\n+15% до пошкоджень, +15% броні й +15% швидкості атаки\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:YoungDwalinGloriousCharge",
+   "group": "Dwalin",
+   "type": "Кнопка",
+   "en": "Baruk Khazâd! (&T)",
+   "ru": "Baruk Khazâd! (&T)",
+   "uk_ai": "Baruk Khazâd! (&T)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:YoungDwalinLeadership",
+   "group": "Dwalin",
+   "type": "Кнопка",
+   "en": "Brother-in-Arms",
+   "ru": "Братья по оружию",
+   "uk_ai": "Побратим",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipYoungBalinCounselorOfKings",
+   "group": "Balin",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Modifier Type: Spell \n Balin empowers a friendly hero, granting them 50% armour, 50% faster experience gain, and 75% faster power recharge times for 30 seconds\nLeft click icon then left click on target hero",
+   "ru": "Требуется уровень 3\nТип модификатора: Заклинание\nБалин усиливает дружественного героя, предоставляя ему +50% брони, +50% прироста опыта и +75% ускорения перезарядки способностей в течение 30 секунд\nЩелкните левой кнопкой мыши на значок, затем на целевого героя",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Заклинання\nБалін посилює союзного героя: на 30 секунд той отримує бонус +50% броні, на 50% швидше набирає досвід і на 75% швидше відновлює здібності\nКлікніть на іконку, потім оберіть героя",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipYoungBalinTactician",
+   "group": "Balin",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Give targeted friendly troops experience \n Left click icon then left click on target units",
+   "ru": "Требуется уровень 3\nДает опыт выбранным войскам\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 3\nМиттєво наділяє досвідом обрані союзні загони\nКлікніть на іконку, потім оберіть потрібні загони",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:YoungBalinCounselorOfKings",
+   "group": "Balin",
+   "type": "Кнопка",
+   "en": "King's Advisor (&R)",
+   "ru": "Советник королей (&R)",
+   "uk_ai": "Радник короля (&R)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:YoungBalinTactician",
+   "group": "Balin",
+   "type": "Кнопка",
+   "en": "Tactician (&W)",
+   "ru": "Тактик (&W)",
+   "uk_ai": "Тактик (&W)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipYoungDainBarukKhazad",
+   "group": "Lord Dáin II Ironfoot",
+   "type": "Підказка",
+   "en": "Requires Level 2 \nPowerful attack that causes meta impact \n Can only be used when dismounted \n Left click icon then left click on target",
+   "ru": "Требуется уровень 2\nМощная атака ближнего боя, наносящая огромный урон скоплениям врагов\nДоступно только в спешенном состоянии\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 2\nПотужна атака, що розкидає ворогів\nДоступна лише в пішому строю\nКлікніть на іконку, потім оберіть ціль",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:YoungDainBarukKhazad",
+   "group": "Lord Dáin II Ironfoot",
+   "type": "Кнопка",
+   "en": "Baruk Khazâd! (&W)",
+   "ru": "Baruk Khazâd! (&W)",
+   "uk_ai": "Baruk Khazâd! (&W)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:EreborDainBarukKhazad_WotR",
+   "group": "Lord Dáin II Ironfoot",
+   "type": "Кнопка",
+   "en": "Baruk Khazâd! (&R)",
+   "ru": "",
+   "uk_ai": "Baruk Khazâd! (&R)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:EreborDainRecklessAssault_WotR",
+   "group": "Lord Dáin II Ironfoot",
+   "type": "Кнопка",
+   "en": "Reckless Assault (&T)",
+   "ru": "",
+   "uk_ai": "Нестримний натиск (&T)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:EreborDainToTheKing_WotR",
+   "group": "Lord Dáin II Ironfoot",
+   "type": "Кнопка",
+   "en": "To the King! (&C)",
+   "ru": "",
+   "uk_ai": "До короля! (&C)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DurinPillarDebuff",
+   "group": "Moria Pillar",
+   "type": "Кнопка",
+   "en": "Imposing Splendor",
+   "ru": "Грандиозное великолепие",
+   "uk_ai": "Велична пишнота",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDurinPillarDebuff",
+   "group": "Moria Pillar",
+   "type": "Підказка",
+   "en": "Modifier Type: Debuff\nEnemy units near the Pillar lose -33% damage\nPassive ability",
+   "ru": "Тип модификатора: ослабление\nВраги рядом со столпом теряют -33% урона\nПассивная способность",
+   "uk_ai": "Тип ефекту: Ослаблення\nВорожі загони поряд зі стовпом завдають на 33% менше пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipYoungThorinDuBekar",
+   "group": "Thorin Oakenshield",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Modifier Type: Spell \n Thorin and nearby allies gain resistance to knockback, +75% armour and +20% speed for 30 seconds \nLeft click to activate",
+   "ru": "Требуется уровень 5\nТип модификатора: Заклинание\nТорин и ближайшие союзники получают +75% брони, сопротивление отбрасыванию и +20% скорости передвижения,а также могут сокрушать врагов в течение 30 секунд\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Заклинання\nТорін і союзники поблизу на 30 секунд отримують стійкість до відкидання, +75% броні й +20% швидкості\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipYoungThorinLeadership",
+   "group": "Thorin Oakenshield",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Allies near King Thorin gain +33% damage, +33% armour, and earn experience 50% faster \nPassive ability",
+   "ru": "Тип модификатора: Лидерство\nСоюзники рядом с королем Торином наносят +33% урона, получают +33% брони и набирают опыт на +50% быстрее\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзники поряд із королем Торіном отримують бонус +33% до пошкоджень, +33% броні й на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipYoungThorinOakenshield",
+   "group": "Thorin Oakenshield",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Thorin gains\n+75% magic damage and +100% armour for 30 seconds\n Left click to activate",
+   "ru": "Требуется уровень 3\nТорин наносит +75% урона магией и получает +100% брони на 30 секунд\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nТорін отримує бонус\n+75% магічних пошкоджень і +100% броні на 30 секунд\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:YoungThorinDuBekar",
+   "group": "Thorin Oakenshield",
+   "type": "Кнопка",
+   "en": "Du Bekar! (&T)",
+   "ru": "Du Bekar! (&T)",
+   "uk_ai": "Du Bekar! (&T)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:YoungThorinLeadership",
+   "group": "Thorin Oakenshield",
+   "type": "Кнопка",
+   "en": "Prince of Erebor",
+   "ru": "Наследник Эребора",
+   "uk_ai": "Принц Еребору",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:YoungThorinOakenshield",
+   "group": "Thorin Oakenshield",
+   "type": "Кнопка",
+   "en": "Oakenshield (&R)",
+   "ru": "Дубощит (&R)",
+   "uk_ai": "Дубощит (&R)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipYoungThorinDuBekar_WotR",
+   "group": "Thorin Oakenshield",
+   "type": "Підказка",
+   "en": "Requires Level 7 \n Modifier Type: Spell \n Thorin and nearby allies gain resistance to knockback, +75% armour and +20% speed for 30 seconds \nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 7\nТип ефекту: Заклинання\nТорін і союзники поблизу на 30 секунд отримують стійкість до відкидання, +75% броні й +20% швидкості\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipYoungThorinOakenshield_WotR",
+   "group": "Thorin Oakenshield",
+   "type": "Підказка",
+   "en": "Requires Level 4 \n Thorin gains\n+75% magic damage and +100% armour for 30 seconds\n Left click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 4\nТорін отримує бонус\n+75% магічних пошкоджень і +100% броні на 30 секунд\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:DwarvenThorinHelm",
+   "group": "Thorin III Stonehelm",
+   "type": "Назва",
+   "en": "Thorin III Stonehelm",
+   "ru": "Торин III Каменный шлем",
+   "uk_ai": "Торін III Кам'яний Шолом",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:Stonehelm",
+   "group": "Thorin III Stonehelm",
+   "type": "Кнопка",
+   "en": "Stonehelm (&C)",
+   "ru": "Каменный шлем (&C)",
+   "uk_ai": "Кам'яний Шолом (&C)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDurinsChosen",
+   "group": "Thorin III Stonehelm",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Thorin and nearby Dwarven units briefly gain resistance to knockback and +75% damage for 30 seconds\nThorin can crush enemies for the duration\n Left click to activate",
+   "ru": "Требуется уровень 5\nТорин и ближайшие гномы наносят +75% урона и получают сопротивление отбрасыванию на 30 секунд\nТорин может сокрушать врагов\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nТорін і дворфійські загони поблизу на 30 секунд отримують стійкість до відкидання й +75% до пошкоджень\nУвесь цей час Торін може топтати ворогів\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwarvenGrudge",
+   "group": "Thorin III Stonehelm",
+   "type": "Підказка",
+   "en": "Thorin knocks back enemy units and gains +50% attack speed for 15 seconds\nPrince of Erebor bonus is increased to 50% damage during that time\nLeft click icon then left click on target\n\nAt rank 3, Thorin passively returns a percentage of damage dealt to him\nPassive ability",
+   "ru": "Торин отбрасывает врагов мощной атакой по площади, получая +50% скорости атаки и нанося +50% урона в течение 15 секунд\nЩелкните левой кнопкой мыши на значок, затем на цель, чтобы активировать\n\nНа уровне 3, Торин пассивно возвращает процент нанесенного ему урона\nПассивная способность",
+   "uk_ai": "Торін відкидає ворожі загони й отримує бонус +50% швидкості атаки на 15 секунд\nУвесь цей час бонус «Принц Еребору» зростає до 50% пошкоджень\nКлікніть на іконку, потім оберіть ціль\n\nНа 3 рівні Торін постійно повертає частину завданих йому пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPrinceOfErebor",
+   "group": "Thorin III Stonehelm",
+   "type": "Підказка",
+   "en": "Whenever Thorin attacks, nearby troops gain +33% damage for 5 seconds\nPassive ability \n\n At level 5, Thorin is accompanied by three Khazâd-uzbadul",
+   "ru": "Каждый раз, когда Торин атакует, ближайшие союзные отряды получают +33% урона на 5 секунд\nПассивная способность\n\nНа уровне 5, Торина сопровождают три королевских стража",
+   "uk_ai": "Щоразу, коли Торін атакує, загони поблизу отримують бонус +33% до пошкоджень на 5 секунд\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nНа 5 рівні Торіна супроводжують троє хазад-узбадул",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipStonehelm",
+   "group": "Thorin III Stonehelm",
+   "type": "Підказка",
+   "en": "Requires Level 8 \n Thorin dons the Stonehelm and permanently gains +33% armour\nPassive ability\n\nWhen activated, Thorin utters a terrifying shout, stunning enemies in his vicinity in terror for 15 seconds\nThorin and nearby friendly heroes gain +50% damage for 30 seconds\n Left click to activate",
+   "ru": "Требуется уровень 8\nТорин надевает свой каменный шлем, получая +33% брони\nПассивная способность\n\nПосле активации, Торин издает пугающий крик. Враги неподалеку застывают в ужасе на 15 секунд\nТорин и ближайшие союзные герои наносят +50% урона в течение 30 секунд\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 8\nТорін надягає Кам'яний Шолом і назавжди отримує бонус +33% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації Торін видає страхітливий клич, і вороги поблизу на 15 секунд заціпеніють від жаху\nТорін і союзні герої поблизу отримують бонус +50% до пошкоджень на 30 секунд\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:DwarvenThrain",
+   "group": "Thráin",
+   "type": "Назва",
+   "en": "Thráin",
+   "ru": "Траин",
+   "uk_ai": "Траїн",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:OakenBird",
+   "group": "Thráin",
+   "type": "Кнопка",
+   "en": "Wisdom of the Ravens (&R)",
+   "ru": "Мудрость воронов (&R)",
+   "uk_ai": "Мудрість воронів (&R)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ThrainSmash",
+   "group": "Thráin",
+   "type": "Кнопка",
+   "en": "Son of Thrór (&W)",
+   "ru": "Сын Трора (&W)",
+   "uk_ai": "Син Трора (&W)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipOakenBird",
+   "group": "Thráin",
+   "type": "Підказка",
+   "en": "Requires Level 2 \n Heals nearby friendly units \n Left click to activate",
+   "ru": "Требуется уровень 2\nБлижайшие союзники в большом радиусе исцеляются\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 2\nЗцілює союзні загони поблизу\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipThrainSmash",
+   "group": "Thráin",
+   "type": "Підказка",
+   "en": "Thráin slams the ground, knocking back enemy units and dealing heavy damage to structures in a small radius \n Left click icon then left click on target",
+   "ru": "Траин ударяет по земле, отбрасывая врагов вокруг себя\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Траїн б'є об землю, відкидаючи ворожі загони й завдаючи значних пошкоджень спорудам у невеликому радіусі\nКлікніть на іконку, потім оберіть ціль",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipOakenBird_WotR",
+   "group": "Thráin",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Heals nearby friendly units \n Left click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 5\nЗцілює союзні загони поблизу\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:DwarvenThror",
+   "group": "King Thrór",
+   "type": "Назва",
+   "en": "King Thrór",
+   "ru": "Король Трор",
+   "uk_ai": "Король Трор",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ThrorLeadership",
+   "group": "King Thrór",
+   "type": "Кнопка",
+   "en": "King of Durin's Folk",
+   "ru": "Король народа Дурина",
+   "uk_ai": "Король народу Дуріна",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipThrorLeadership",
+   "group": "King Thrór",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Allies near King Thrór gain +50% damage, +75% armour, and earn experience 50% faster \nPassive ability",
+   "ru": "Тип модификатора: Лидерство\nСоюзники рядом с королем Трором наносят +50% урона, получают +75% брони и набирают опыт на +50% быстрее\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзники поряд із королем Трором отримують бонус +50% до пошкоджень, +75% броні й на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:ElfSmith",
+   "group": "Elf Smith",
+   "type": "Назва",
+   "en": "Elf Smith",
+   "ru": "",
+   "uk_ai": "Ельф-коваль",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellowshipAragornBlademaster",
+   "group": "Elladan",
+   "type": "Кнопка",
+   "en": "Faithful Protector (&T)",
+   "ru": "Верный защитник (&T)",
+   "uk_ai": "Вірний захисник (&T)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellowshipAragornLeaderofMen",
+   "group": "Elladan",
+   "type": "Кнопка",
+   "en": "Leader of Men (&C)",
+   "ru": "Предводитель людей (&C)",
+   "uk_ai": "Провідник людей (&C)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellowshipAragornLeaderofMen",
+   "group": "Elladan",
+   "type": "Підказка",
+   "en": "Requires Level 8 \n Modifier Type: Spell \n Nearby friendly units gain +33% armour\nPassive ability\n \n When activated, units near Aragorn gain +50% damage and immunity to fear and terror for 20 seconds \n Left click to activate",
+   "ru": "Требуется уровень 8\nТип модификатора: Заклинание\nБлижайшие отряды получают +33% брони\n\nПосле активации, войска рядом с Арагорном временно наносят +50% урона и становятся невосприимчивыми к ужасу\nЩелкните левой кнопкой мыши на значок, чтобы применить",
+   "uk_ai": "Необхідно: Рівень 8\nТип ефекту: Заклинання\nСоюзні загони поблизу отримують бонус +33% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації загони поряд з Араґорном на 20 секунд отримують бонус +50% до пошкоджень і імунітет до страху та жаху\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HaldirFaithfulCompanion",
+   "group": "Haldir",
+   "type": "Кнопка",
+   "en": "Faithful Companion",
+   "ru": "Верный спутник",
+   "uk_ai": "Вірний супутник",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HaldirLeadershipCampaign",
+   "group": "Haldir",
+   "type": "Кнопка",
+   "en": "Captain of the Galadhrim (&C)",
+   "ru": "Капитан галадрим (&C)",
+   "uk_ai": "Капітан ґаладримів (&C)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HaldirSkillMarchwardens",
+   "group": "Haldir",
+   "type": "Кнопка",
+   "en": "Skill of the Marchwardens (&T)",
+   "ru": "Мастерство стражей границ (&T)",
+   "uk_ai": "Вправність прикордонників (&T)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToggleHaldirWeapons",
+   "group": "Haldir",
+   "type": "Кнопка",
+   "en": "Alternate Weapon (&R)",
+   "ru": "Смена оружия (&R)",
+   "uk_ai": "Змінити зброю (&R)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHaldirFaithfulCompanion",
+   "group": "Haldir",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Aragorn, Gimli and Legolas gain +10% damage when nearby Haldir\nPassive ability",
+   "ru": "Тип модификатора: Лидерство\nАрагорн, Гимли и Леголас наносят +10% урона, находясь рядом с Халдиром\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nАраґорн, Ґімлі й Леґолас поряд із Галдіром отримують бонус +10% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHaldirLeadershipCampaign",
+   "group": "Haldir",
+   "type": "Підказка",
+   "en": "Requires Level 6 \n Modifier Type: Leadership \n Nearby allies gain +33% damage and +20% armour\n Passive ability \n\n Modifier Type: Level \n Haldir dons his heavy armour and gains 25% armour increase\n Passive ability \n\n Modifier Type: Spell \n Nearby units gain +50% damage and +15% speed for 30 seconds \nLeft click to activate",
+   "ru": "Требуется уровень 6\nТип модификатора: Лидерство\nБлижайшие союзные отряды наносят +33% урона и получают +20% брони\nПассивная способность\n\nТип модификатора: Уровень\nХалдир облачается в тяжелые доспехи, получая +25% брони\nПассивная способность\n\nТип модификатора: Заклинание\nПосле активации, ближайшие союзные отряды наносят +50% урона и получают +15% скорости передвижения на 30 секунд\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 6\nТип ефекту: Лідерство\nСоюзники поблизу отримують бонус +33% до пошкоджень і +20% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nТип ефекту: Рівень\nГалдір надягає важкий обладунок і отримує бонус +25% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nТип ефекту: Заклинання\nЗагони поблизу отримують бонус +50% до пошкоджень і +15% швидкості на 30 секунд\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHaldirSkillMarchwardens",
+   "group": "Haldir",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Targeted enemies take +33% damage from ranged attacks for 30 seconds\n Left click then left click on target",
+   "ru": "Требуется уровень 3\nВраги в радиусе действия получают +33% дополнительного урона от дальних атак в течение 30 секунд\nЩелкните левой кнопкой мыши на значок, затем на целе",
+   "uk_ai": "Необхідно: Рівень 3\nВибрані вороги на 30 секунд отримують на 33% більше пошкоджень від атак здалеку\nКлікніть на іконку, потім оберіть ціль",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:EregionSpearman",
+   "group": "Eregion Spear-elf",
+   "type": "Назва",
+   "en": "Eregion Spear-elf",
+   "ru": "Страж Эрегиона",
+   "uk_ai": "Ельф-списник Ереґіону",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:EregionSpearmen",
+   "group": "Eregion Spears",
+   "type": "Назва",
+   "en": "Eregion Spears",
+   "ru": "Страж Эрегиона",
+   "uk_ai": "Списники Ереґіону",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:EregionWarrior",
+   "group": "Eregion Warrior",
+   "type": "Назва",
+   "en": "Eregion Warrior",
+   "ru": "Мечник Эрегиона",
+   "uk_ai": "Воїн Ереґіону",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:EregionWarriors",
+   "group": "Eregion Warriors",
+   "type": "Назва",
+   "en": "Eregion Warriors",
+   "ru": "Мечники Эрегиона",
+   "uk_ai": "Воїни Ереґіону",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:FellowshipArathorn",
+   "group": "Arathorn",
+   "type": "Назва",
+   "en": "Arathorn",
+   "ru": "",
+   "uk_ai": "Араторн",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:FellowshipSmeagol",
+   "group": "Sméagol",
+   "type": "Назва",
+   "en": "Sméagol",
+   "ru": "Смеагол",
+   "uk_ai": "Смеаґол",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SmeagolTenacious",
+   "group": "Sméagol",
+   "type": "Кнопка",
+   "en": "Tenacious Creature",
+   "ru": "Упрямое создание",
+   "uk_ai": "Чіпке створіння",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilitySmeagolWring",
+   "group": "Sméagol",
+   "type": "Кнопка",
+   "en": "Wring Its Filthy Little Neck (&W)",
+   "ru": "Свернуть его грязную шею! (&R)",
+   "uk_ai": "Скрутити його брудну шийку (&W)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSmeagolLeadership",
+   "group": "Sméagol",
+   "type": "Підказка",
+   "en": "Sméagol is passively stealthed unless he attacks and can detect other stealthed units \n Nearby heroes gain +33% speed \n Passive ability",
+   "ru": "Смеагол пассивно скрыт, если не атакует и может обнаруживать других скрытых врагов\nБлижайшие герои получают +33% скорости передвижения\nПассивная способность",
+   "uk_ai": "Смеаґол постійно невидимий, доки не атакує, і бачить інші невидимі загони\nГерої поблизу отримують бонус +33% швидкості\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipSmeagolTenacious",
+   "group": "Sméagol",
+   "type": "Підказка",
+   "en": "When Sméagol reaches low health, he gains +33% attack and +100% armour for 20 seconds\nCannot be triggered again for 60 seconds\nPassive ability",
+   "ru": "Если здоровье Смеагола достигнет низкого уровня, он получит усиление, нанося +33% урона и получая +100% брони на 20 секунд\nНе может срабатывать чаще чем один раз за 60 секунд\nПассивная способность",
+   "uk_ai": "Коли здоров'я Смеаґола падає до критичного рівня, він отримує бонус +33% атаки й +100% броні на 20 секунд\nПовторно спрацьовує не раніше ніж за 60 секунд\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilitySmeagolWring",
+   "group": "Sméagol",
+   "type": "Підказка",
+   "en": "Deals strong damage to a single unit \n Left click then left click on target",
+   "ru": "Наносит сильный урон одиночной цели\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Завдає сильних пошкоджень 1 загону\nКлікніть на іконку, потім оберіть ціль",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:GamlingRoyalBanner",
+   "group": "Banner of Eorl",
+   "type": "Назва",
+   "en": "Banner of Eorl",
+   "ru": "Знамена Эорла",
+   "uk_ai": "Стяг Еорла",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DoNotKillHim",
+   "group": "Gandalf's Cart",
+   "type": "Кнопка",
+   "en": "Do Not Kill Him Even Now (&W)",
+   "ru": "",
+   "uk_ai": "Не вбивайте його навіть тепер (&W)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:IllTurnDeservesAnother",
+   "group": "Gandalf's Cart",
+   "type": "Кнопка",
+   "en": "One Ill Turn Deserves Another - Kill Him (&R)",
+   "ru": "",
+   "uk_ai": "Зло за зло — убийте його (&R)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDoNotKillHim",
+   "group": "Gandalf's Cart",
+   "type": "Підказка",
+   "en": "Do not kill him even now. For he has not hurt me. And in any case I do not wish him to be slain in this evil mood.",
+   "ru": "",
+   "uk_ai": "Не вбивайте його навіть тепер. Мені він шкоди не заподіяв. І хай там як, я не хочу, щоб його вбили, коли він у такому лихому настрої.",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIllTurnDeservesAnother",
+   "group": "Gandalf's Cart",
+   "type": "Підказка",
+   "en": "I offered you mercy, Saruman, and you repaid it with treachery. One ill turn deserves another - kill him.",
+   "ru": "",
+   "uk_ai": "Я виявив до тебе милосердя, Сарумане, а ти відплатив зрадою. Лихо за лихо — вбийте його.",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GandalfNewMountCampaignNoHotkey",
+   "group": "Gandalf",
+   "type": "Кнопка",
+   "en": "Mount Shadowfax / Dismount",
+   "ru": "Оседлать Сполоха / спешиться",
+   "uk_ai": "Осідлати Тінегрива / Спішитися",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGandalfPrepareForBattleCampaign",
+   "group": "Gandalf",
+   "type": "Підказка",
+   "en": "Requires Level 4 \n Modifier Type: Spell \n Gandalf gains +25% damage and armour for 30 seconds\nAllied units near Gandalf become immune to debuffs and knockback whilst ability is active\nNearby structures recruit units 50% faster for 60 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 4\nТип модификатора: Заклинание\nГэндальф наносит +25% урона и получает +50% брони на 30 секунд\nСоюзники рядом с Гэндальфом становятся невосприимчивыми к ослаблениям и отбрасыванию на время действия способности\nБлижайшие строения набирают войска на 50% быстрее в течение 60 секунд\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 4\nТип ефекту: Заклинання\nҐендальф отримує бонус +25% до пошкоджень і броні на 30 секунд\nПоки діє здібність, союзні загони поряд із Ґендальфом мають імунітет до ослаблень і відкидання\nСпоруди поблизу на 60 секунд наймають загони на 50% швидше\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIstariLight",
+   "group": "Gandalf",
+   "type": "Підказка",
+   "en": "Requires Level 7 \n Beam of light that damages enemies \n Bonus vs. Balrogs and Nazgûl \n Left click icon then left click on target",
+   "ru": "Требуется уровень 7\nЛуч света, наносящий сильный урон врагам\nНаносит огромный урон балрогу и назгул\nЩелкните левой кнопкой мыши  на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 7\nПромінь світла, що завдає пошкоджень ворогам\nОсобливо ефективний проти балроґів і назґулів\nКлікніть на іконку, потім оберіть ціль",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWizardBlastCampaign",
+   "group": "Gandalf",
+   "type": "Підказка",
+   "en": "Close range attack that blasts back enemies\n Left click icon then left click on target \n\n Modifier Type: Spell \n Allies near Gandalf gain 300% armour to magic and elemental damage, earn experience 100% faster and become immune to fear and terror\nPassive ability \n\n Shield Bubble \n Gandalf occasionally gains +300% armour and resistance to knockback when attacked\nBubble lasts for 20 seconds and cannot be activated again for 60 seconds\n Passive ability but can be manually activated using the shortcut (U)",
+   "ru": "Магическая атака с близкого расстояния, отбрасывающая врагов\nЩелкните левой кнопкой мыши на значок, затем на цель\n\nТип модификатора: Заклинание\nСоюзники рядом с Гэндальфом получают +300% брони от магического и стихийного урона, набирают опыт на +50% быстрее, а также становятся невосприимчивыми к страху и ужасу\nПассивная способность\n\nМагический щит\nГэндальфа периодически окружает магическая сфера, дающая ему +75% брони и сопротивление отбрасыванию\nЩит действует 20 секунд и не может быть активирован снова в течение 60 секунд\nПассивная способность, но может быть активирована быстрой клавиши (U)",
+   "uk_ai": "Атака зблизька, що відкидає ворогів\nКлікніть на іконку, потім оберіть ціль\n\nТип ефекту: Заклинання\nСоюзники поряд із Ґендальфом отримують бонус +300% броні проти пошкоджень від магії та стихій, на 100% швидше набирають досвід і отримують імунітет до страху та жаху\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nЗахисна сфера\nКоли Ґендальфа атакують, він час від часу отримує бонус +300% броні й стійкість до відкидання\nСфера діє 20 секунд і повторно спрацьовує не раніше ніж за 60 секунд\nПасивна здібність, яку можна застосувати вручну клавішею (U)",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:GarrisonableBush",
+   "group": "Hiding Spot",
+   "type": "Назва",
+   "en": "Hiding Spot",
+   "ru": "Укрытие",
+   "uk_ai": "Схованка",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AnbornBarbedArrows",
+   "group": "Anborn",
+   "type": "Кнопка",
+   "en": "Barbed Arrows (&C)",
+   "ru": "Зазубренные стрелы (&C)",
+   "uk_ai": "Зазубрені стріли (&C)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AnbornPoisonArrows",
+   "group": "Anborn",
+   "type": "Кнопка",
+   "en": "Poison Arrows (&C)",
+   "ru": "Отравленные стрелы (&C)",
+   "uk_ai": "Отруйні стріли (&C)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipAnbornBarbedArrows",
+   "group": "Anborn",
+   "type": "Підказка",
+   "en": "Left click to switch to Barbed Arrows \n Targeted enemies are slowed by 50% for 5 seconds",
+   "ru": "Переключиться на зазубренные стрелы\nВражеские отряды замедляются на -50% в течение 5 секунд",
+   "uk_ai": "Клікніть, щоб перейти на зазубрені стріли\nВказані вороги сповільнюються на 50% на 5 секунд",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipAnbornPoisonArrows",
+   "group": "Anborn",
+   "type": "Підказка",
+   "en": "Left click to switch to Poison Arrows \n Inflicts damage over time",
+   "ru": "Переключиться на отравленные стрелы\nНаносят урон с течением времени",
+   "uk_ai": "Клікніть, щоб перейти на отруйні стріли\nЗавдають поступових пошкоджень",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DamrodQuickDispatch",
+   "group": "Damrod",
+   "type": "Кнопка",
+   "en": "Quick Dispatch (&C)",
+   "ru": "Проворство (&C)",
+   "uk_ai": "Швидка розправа (&C)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DamrodSkilledHunter",
+   "group": "Damrod",
+   "type": "Кнопка",
+   "en": "Skilled Hunter (&T)",
+   "ru": "Опытный охотник (&T)",
+   "uk_ai": "Вправний мисливець (&T)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDamrodQuickDispatch",
+   "group": "Damrod",
+   "type": "Підказка",
+   "en": "Damrod receives +25% attack and movement speed for 30 seconds\n Left click to activate",
+   "ru": "Дамрод получает +25% скорости атаки и передвижения на 30 секунд\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Дамрод отримує бонус +25% до швидкості атаки й пересування на 30 секунд\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MablungKeenEyed",
+   "group": "Mablung",
+   "type": "Кнопка",
+   "en": "Keen Eyed (&T)",
+   "ru": "Острый глаз (&T)",
+   "uk_ai": "Зіркий (&T)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMablungLethalAim",
+   "group": "Mablung",
+   "type": "Підказка",
+   "en": "Enemies within the radius lose -33% armour\nagainst ranged attacks for 30 seconds\n Left click then left click on target area",
+   "ru": "Враги в области действия получают повышенный урон от дальних атак\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Вороги в радіусі дії втрачають 33% броні\nпроти атак здалеку на 30 секунд\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MadrilSnare",
+   "group": "Madril",
+   "type": "Кнопка",
+   "en": "Master of Ambush (&C)",
+   "ru": "Мастер засад (&C)",
+   "uk_ai": "Майстер засідок (&C)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMadrilSnare",
+   "group": "Madril",
+   "type": "Підказка",
+   "en": "An experienced Ranger, Madril knows how best to execute a successful ambush upon his foes \n Madril stuns nearby enemies for 5 seconds\n Left click then left click target location",
+   "ru": "Опытный следопыт Мадрил знает, как лучше всего устроить успешную засаду своим врагам\nМадрил оглушает ближайших врагов на 5 секунд\nЩелкните левой кнопкой мыши на значок, затем на целевое местоположение",
+   "uk_ai": "Досвідчений слідопит Мадріл знає, як найкраще влаштувати ворогам засідку\nМадріл приголомшує ворогів поблизу на 5 секунд\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:GwaithiMirdain",
+   "group": "Gwaith-i-Mirdain",
+   "type": "Назва",
+   "en": "Gwaith-i-Mirdain",
+   "ru": "",
+   "uk_ai": "Ґвайт-і-Мірдайн",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:HaradUmbarDeckguard",
+   "group": "Umbar Deck-guard",
+   "type": "Назва",
+   "en": "Umbar Deck-guard",
+   "ru": "",
+   "uk_ai": "Палубний вартовий Умбару",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:HaradUmbarMarksman",
+   "group": "Umbar Marksman",
+   "type": "Назва",
+   "en": "Umbar Marksman",
+   "ru": "",
+   "uk_ai": "Умбарський стрілець",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:HaradUmbarMarksmanHorde",
+   "group": "Umbar Marksmen",
+   "type": "Назва",
+   "en": "Umbar Marksmen",
+   "ru": "",
+   "uk_ai": "Умбарські стрільці",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUmbarBarbedArrows",
+   "group": "Umbar Marksmen",
+   "type": "Підказка",
+   "en": "Requires Level 2\nUmbar Marksman shoot a volley of barbed arrows which cause meta impact and increased damage\nLeft click then left click on target",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 2\nУмбарські стрільці випускають залп зазубрених стріл, що розкидає ворогів і завдає підвищених пошкоджень\nКлікніть на іконку, потім оберіть ціль",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:UmbarBarbedArrows",
+   "group": "Umbar Marksmen",
+   "type": "Кнопка",
+   "en": "Barbed Arrows (&T)",
+   "ru": "",
+   "uk_ai": "Зазубрені стріли (&T)",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:HaradUmbarRaider",
+   "group": "Umbar Raider",
+   "type": "Назва",
+   "en": "Umbar Raider",
+   "ru": "",
+   "uk_ai": "Умбарський нападник",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:HaradUmbarRaiderHorde",
+   "group": "Umbar Raiders",
+   "type": "Назва",
+   "en": "Umbar Raiders",
+   "ru": "",
+   "uk_ai": "Умбарські нападники",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:HobbitMilitia",
+   "group": "Armed Hobbit",
+   "type": "Назва",
+   "en": "Armed Hobbit",
+   "ru": "",
+   "uk_ai": "Озброєний гобіт",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:HobbitMilitiaHorde",
+   "group": "Hobbit Militia",
+   "type": "Назва",
+   "en": "Hobbit Militia",
+   "ru": "",
+   "uk_ai": "Гобітське ополчення",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:HordeCampaignIthilrim",
+   "group": "Ithilrim",
+   "type": "Назва",
+   "en": "Ithilrim",
+   "ru": "",
+   "uk_ai": "Ітілрім",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CampaignElessarBladeMaster",
+   "group": "Ithilrim",
+   "type": "Кнопка",
+   "en": "Andúril, Flame of the West (&W)",
+   "ru": "Андурил, Пламя Запада (&W)",
+   "uk_ai": "Андуріл, Полум'я Заходу (&W)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElessarEnvinyatar",
+   "group": "Ithilrim",
+   "type": "Кнопка",
+   "en": "Envinyatar (&R)",
+   "ru": "Envinyatar (&R)",
+   "uk_ai": "Енвіньятар (&R)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:IthilrimDebuff",
+   "group": "Ithilrim",
+   "type": "Кнопка",
+   "en": "Waning Light",
+   "ru": "",
+   "uk_ai": "Згасле світло",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:IthilrimHeal",
+   "group": "Ithilrim",
+   "type": "Кнопка",
+   "en": "Gannan-galad (&T)",
+   "ru": "",
+   "uk_ai": "Ґаннан-ґалад (&T)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:IthilrimTerror",
+   "group": "Ithilrim",
+   "type": "Кнопка",
+   "en": "Ithilrúth (&R)",
+   "ru": "",
+   "uk_ai": "Ітілрут (&R)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:IthilrimXP",
+   "group": "Ithilrim",
+   "type": "Кнопка",
+   "en": "Albeth (&C)",
+   "ru": "",
+   "uk_ai": "Альбет (&C)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityCommanderSword",
+   "group": "Ithilrim",
+   "type": "Кнопка",
+   "en": "Sword of Elendil (&T)",
+   "ru": "Меч Элендила (&W)",
+   "uk_ai": "Меч Еленділа (&T)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityCommanderWords",
+   "group": "Ithilrim",
+   "type": "Кнопка",
+   "en": "Words of Hope (&C)",
+   "ru": "Слова надежды (&R)",
+   "uk_ai": "Слова надії (&C)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityFellowshipElessarEstel",
+   "group": "Ithilrim",
+   "type": "Кнопка",
+   "en": "Estel (&T)",
+   "ru": "Эстель (&T)",
+   "uk_ai": "Естель (&T)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommanderSword",
+   "group": "Ithilrim",
+   "type": "Підказка",
+   "en": "Modifier Type: Active Debuff \n Targeted enemy units suffer -33% damage and armour for 30 seconds\nNullifies enemy leadership\n Left click icon then left click on target units",
+   "ru": "Тип модификатора: Активное ослабление\nОтменяет вражеское лидерство\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Тип ефекту: Активне ослаблення\nВибрані ворожі загони на 30 секунд втрачають 33% пошкоджень і броні\nСкасовує вороже лідерство\nКлікніть на іконку, потім оберіть потрібні загони",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommanderWords",
+   "group": "Ithilrim",
+   "type": "Підказка",
+   "en": "Friendly units within the radius gain +50% damage and armour for 30 seconds\n Left click on icon then left click on target battalion",
+   "ru": "Союзные отряды в радиусе действия получают +25% брони на 30 секунд\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Союзні загони в радіусі дії отримують бонус +50% до пошкоджень і броні на 30 секунд\nКлікніть на іконку, потім оберіть загін",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElessarEnvinyatar",
+   "group": "Ithilrim",
+   "type": "Підказка",
+   "en": "Heals Aragorn and friendly Heroes across map \n Left click to activate",
+   "ru": "Исцеляет союзников по всей карте\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Зцілює Араґорна й союзних героїв по всій мапі\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIthilrimDebuff",
+   "group": "Ithilrim",
+   "type": "Підказка",
+   "en": "Modifier Type: Debuff\nIthilrim can target units to decrease their armour and damage by 15% and buildings to decrease their armour by 33%\nPassive ability",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Ослаблення\nІтілрім можуть атакувати загони, знижуючи їхню броню й пошкодження на 15%, і споруди, знижуючи їхню броню на 33%\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIthilrimHeal",
+   "group": "Ithilrim",
+   "type": "Підказка",
+   "en": "Allied units and heroes in target area are healed by a moderate amount and gain +50% faster recharge times for 30 seconds\nLeft click then left click target area",
+   "ru": "",
+   "uk_ai": "Союзні загони й герої на ділянці помірно зцілюються й на 30 секунд на 50% швидше відновлюють здібності\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipIthilrimTerror",
+   "group": "Ithilrim",
+   "type": "Підказка",
+   "en": "Enemy units in target area flee in terror and suffer damage over time for 10 seconds\nLeft click then left click target area",
+   "ru": "",
+   "uk_ai": "Ворожі загони на ділянці тікають у жаху й 10 секунд отримують поступові пошкодження\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIthilrimXP",
+   "group": "Ithilrim",
+   "type": "Підказка",
+   "en": "Allied units in target area are granted moderate experience\nLeft click then left click target area",
+   "ru": "",
+   "uk_ai": "Миттєво дає помірний досвід союзним загонам на ділянці\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityFellowshipElessarEstel",
+   "group": "Ithilrim",
+   "type": "Підказка",
+   "en": "Aragorn casts off the Shadow and remains fixed in his purpose\nLeft click to activate",
+   "ru": "Арагорн отбрасывает Тень и остается верным своему решению\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Араґорн відкидає Тінь і непохитно тримається своєї мети\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:HordeRingloValeSoldier",
+   "group": "Soldiers of the Ringló Vale",
+   "type": "Назва",
+   "en": "Soldiers of the Ringló Vale",
+   "ru": "",
+   "uk_ai": "Воїни долини Рінґло",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:IsengardAttackTroll",
+   "group": "Isengard Siege Troll",
+   "type": "Назва",
+   "en": "Isengard Siege Troll",
+   "ru": "Осадный тролль Изенгарда",
+   "uk_ai": "Облоговий троль Ізенґарду",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityIsengardTrollCarnage",
+   "group": "Isengard Siege Troll",
+   "type": "Кнопка",
+   "en": "Armoured Rampage (&W)",
+   "ru": "Буйство (&W)",
+   "uk_ai": "Броньований шал (&W)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityIsengardTrollCarnage",
+   "group": "Isengard Siege Troll",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n The Siege Troll gains +50% damage and +100% armour for 20 seconds\n\n Left click to activate",
+   "ru": "Требуется уровень 3\nОсадный тролль наносит +50% урона и получает +100% брони на 20 секунд\n\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nОблоговий троль отримує бонус +50% до пошкоджень і +100% броні на 20 секунд\n\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:Ithilrim",
+   "group": "Ithilrim",
+   "type": "Назва",
+   "en": "Ithilrim",
+   "ru": "",
+   "uk_ai": "Ітілрім",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructHighPassAmbusherHorde",
+   "group": "Noldor Tent",
+   "type": "Кнопка",
+   "en": "High Pass &Ambushers",
+   "ru": "",
+   "uk_ai": "Засідники Високого перевалу (&A)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructHighPassEncampmentLevel2Upgrade",
+   "group": "Noldor Tent",
+   "type": "Кнопка",
+   "en": "Upgrade Camp to Level 2 (&A)",
+   "ru": "",
+   "uk_ai": "Покращити табір до рівня 2 (&A)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructHighPassEncampmentLevel3Upgrade",
+   "group": "Noldor Tent",
+   "type": "Кнопка",
+   "en": "Upgrade Camp to Level 3 (&A)",
+   "ru": "",
+   "uk_ai": "Покращити табір до рівня 3 (&A)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructHighPassGlaivemenHorde",
+   "group": "Noldor Tent",
+   "type": "Кнопка",
+   "en": "High Pass &Sentinals",
+   "ru": "",
+   "uk_ai": "Вартові Високого перевалу (&S)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructHighPassRangerHorde",
+   "group": "Noldor Tent",
+   "type": "Кнопка",
+   "en": "High Pass &Rangers",
+   "ru": "",
+   "uk_ai": "Слідопити Високого перевалу (&R)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildHighPassAmbusherHorde",
+   "group": "Noldor Tent",
+   "type": "Підказка",
+   "en": "High Pass Ambushers \n Strong vs. Pikemen \n\nThere is no Elf in Rivendell that has not been trained, at one point or another, to masterfully wield a sword.",
+   "ru": "",
+   "uk_ai": "Засідники Високого перевалу\nЕфективні проти: пікінери\n\nУ Рівенделі немає ельфа, якого б колись не навчили майстерно володіти мечем.",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildHighPassEncampmentLevel2Upgrade",
+   "group": "Noldor Tent",
+   "type": "Підказка",
+   "en": "+10% faster build speed",
+   "ru": "",
+   "uk_ai": "+10% до швидкості будівництва",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildHighPassEncampmentLevel3Upgrade",
+   "group": "Noldor Tent",
+   "type": "Підказка",
+   "en": "+25% faster build speed",
+   "ru": "",
+   "uk_ai": "+25% до швидкості будівництва",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildHighPassGlaivemenHorde",
+   "group": "Noldor Tent",
+   "type": "Підказка",
+   "en": "High Pass Sentinals \n Strong vs. Cavalry, Monsters, and Heroes \n\nThe Valley of Imladris is hidden largely thanks to Elrond's Ring, and in part thanks to these archers making sure no encroaching enemy lives to tell of its location.",
+   "ru": "",
+   "uk_ai": "Вартові Високого перевалу\nЕфективні проти: кавалерія, створіння й герої\n\nДолина Імладрис схована здебільшого завдяки Персню Елронда, а почасти й завдяки цим лучникам: жоден ворог, що підбереться надто близько, не виживе, щоб розповісти, де вона.",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildHighPassRangerHorde",
+   "group": "Noldor Tent",
+   "type": "Підказка",
+   "en": "High Pass Ambushers \n Strong vs. Infantry, Monsters \n\nThe Valley of Imladris is hidden largely thanks to Elrond's Ring, and in part thanks to these archers making sure no encroaching enemy lives to tell of its location.",
+   "ru": "",
+   "uk_ai": "Засідники Високого перевалу\nЕфективні проти: піхота, створіння\n\nДолина Імладрис схована здебільшого завдяки Персню Елронда, а почасти й завдяки цим лучникам: жоден ворог, що підбереться надто близько, не виживе, щоб розповісти, де вона.",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:LAGondorTent",
+   "group": "Dúnedain Tent",
+   "type": "Назва",
+   "en": "Dúnedain Tent",
+   "ru": "Палатка дунэдайн",
+   "uk_ai": "Намет дунедайн",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:Lindir",
+   "group": "Lindir",
+   "type": "Назва",
+   "en": "Lindir",
+   "ru": "Линдир",
+   "uk_ai": "Ліндір",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:LonePoet",
+   "group": "Lone Poet",
+   "type": "Назва",
+   "en": "Lone Poet",
+   "ru": "",
+   "uk_ai": "Самотній поет",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:MinasWaystone",
+   "group": "Waystone",
+   "type": "Назва",
+   "en": "Waystone",
+   "ru": "",
+   "uk_ai": "Шляховий камінь",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BlackMatriarch",
+   "group": "Minas Tirith Gate",
+   "type": "Кнопка",
+   "en": "The Black Matriarch",
+   "ru": "Черный матриарх",
+   "uk_ai": "Чорна Праматір",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BurningSands",
+   "group": "Minas Tirith Gate",
+   "type": "Кнопка",
+   "en": "Burning Sands",
+   "ru": "Горящие пески",
+   "uk_ai": "Палючі піски",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CurseWindDemon",
+   "group": "Minas Tirith Gate",
+   "type": "Кнопка",
+   "en": "Curse of the Wind Demon",
+   "ru": "Проклятье демона ветра",
+   "uk_ai": "Прокляття демона вітру",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DRYSPELL",
+   "group": "Minas Tirith Gate",
+   "type": "Кнопка",
+   "en": "Dry Spell",
+   "ru": "Засуха",
+   "uk_ai": "Посуха",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ForthMenDarkness",
+   "group": "Minas Tirith Gate",
+   "type": "Кнопка",
+   "en": "Forth, Men of Darkness",
+   "ru": "Вперед, люди Тьмы!",
+   "uk_ai": "Уперед, люди Темряви",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HaradOasis",
+   "group": "Minas Tirith Gate",
+   "type": "Кнопка",
+   "en": "Oasis",
+   "ru": "Оазис",
+   "uk_ai": "Оаза",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HaradSentry",
+   "group": "Minas Tirith Gate",
+   "type": "Кнопка",
+   "en": "Southron Sentry",
+   "ru": "Дозорная вышка",
+   "uk_ai": "Південна спостережна вежа",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HaradWarChant",
+   "group": "Minas Tirith Gate",
+   "type": "Кнопка",
+   "en": "Horn of the Serpent Lord",
+   "ru": "Рог Повелителя змей",
+   "uk_ai": "Ріг Повелителя Змія",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KhandishCharioteers",
+   "group": "Minas Tirith Gate",
+   "type": "Кнопка",
+   "en": "Khandish Charioteers",
+   "ru": "Колесницы Кханда",
+   "uk_ai": "Колісничі Кханду",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ThreatofMordor",
+   "group": "Minas Tirith Gate",
+   "type": "Кнопка",
+   "en": "March to War",
+   "ru": "Марш на войну",
+   "uk_ai": "Похід на війну",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipBlackMatriarch",
+   "group": "Minas Tirith Gate",
+   "type": "Підказка",
+   "en": "Summons the Black Matriarch, an ancient, towering Mûmak, black of skin with fiery red eyes. A heavily armoured, nigh unstoppable beast of destruction \n \n Left click icon then left click on target area",
+   "ru": "Призвать Черного матриарха. Древнего, с черной кожей и огненно-красными глазами, возвышающегося над всеми тяжело бронированного мумака, почти неудержимого зверя разрушения.\n\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Закликає Чорну Праматір — прадавнього велетенського мумака з чорною шкірою й вогненно-червоними очима. Важкоброньований, майже нестримний звір руйнування\n\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipBurningSands",
+   "group": "Minas Tirith Gate",
+   "type": "Підказка",
+   "en": "Calls a fiery beam of sunlight to scorch the \nbattlefield. Stuns light-sensitive creatures. \n Left click icon then left click on target area",
+   "ru": "Выбранную область поражает огненный луч солнечного света, испепеляющий как врагов так и союзников в радиусе действия и наносящий умеренный урон строениям\nОглушает светочувствительных существ\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Закликає вогненний промінь сонця, що випалює\nполе бою. Приголомшує істот, чутливих до світла.\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipCurseWindDemon",
+   "group": "Minas Tirith Gate",
+   "type": "Підказка",
+   "en": "All units within the radius are scattered and suffer damage \n \n Left click icon then left click on target area",
+   "ru": "Все враги в радиусе действия отбрасываются и получают умеренный урон\n\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Усі загони в радіусі дії розкидає, і вони отримують пошкодження\n\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipDrySpell",
+   "group": "Minas Tirith Gate",
+   "type": "Підказка",
+   "en": "Reduces production of any resource structure within the area of effect for 150 seconds \nResource production is decreased by -75% \nLeft click icon then left click on target area",
+   "ru": "Снижает производство любой структуры в зоне действия эффекта в течение 150 секунд\nПроизводство ресурсов снижается на -75%\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Знижує видобуток усіх ресурсних споруд на ділянці на 150 секунд\nВидобуток ресурсів падає на 75%\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipForthMenDarkness",
+   "group": "Minas Tirith Gate",
+   "type": "Підказка",
+   "en": "Summons two battalions of heavy-armoured Great Khân's Phalanx led by a Great Khân's Acolyte\n\n Left click icon then left click on target area",
+   "ru": "Призываются два отряда тяжеловооруженной фаланги истерлингов во главе с приближенным Великого Кхана\n\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Закликає 2 загони важкоброньованої фаланги Великого Хана на чолі з послушником Великого Хана\n\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipHaradOasis",
+   "group": "Minas Tirith Gate",
+   "type": "Підказка",
+   "en": "Summons a palm tree surrounded by a natural moat of clear water \n Nearby units are passively healed and fallen units are replenished\nUnits can be fortified by the Oasis' cleansing waters\n Limited to 2 \n \n Left click icon then left click on target area",
+   "ru": "В выбранном месте появляется пальма, окруженная естественным рвом с чистой водой\nБлижайшие союзники постепенно исцеляются, пополняют свои ряды и укрепляются рядом с чистыми водами оазиса\nОграничение - 2\n\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Закликає пальму, оточену природним ровом із чистою водою\nЗагони поблизу поступово зцілюються, а полеглі воїни поповнюються\nЦілюща вода оази може зміцнювати загони\nМаксимум 2 одночасно\n\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipHaradSentry",
+   "group": "Minas Tirith Gate",
+   "type": "Підказка",
+   "en": "Summons a Sentry Tower that generates a small amount of resources, provides strong line of sight and detects stealth \n Limited to 4 \n \n Left click icon then left click on target area",
+   "ru": "Призывается сторожевая башня, обеспечивающая хорошую видимость и обнаруживающая скрытых врагов\nПроизводит небольшое количество ресурсов\n\nОграничение - 4\nЩелкните левой кнопкой мыши на значок, затем на целевое местоположение",
+   "uk_ai": "Закликає спостережну вежу, що дає трохи ресурсів, має широкий огляд і виявляє невидимих\nМаксимум 4 одночасно\n\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipKhandishCharioteers",
+   "group": "Minas Tirith Gate",
+   "type": "Підказка",
+   "en": "Summons three Khandish Chariots\n\n Left click icon then left click on target area",
+   "ru": "Призываются три колесницы Кханда\n\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Закликає три колісниці Кханду\n\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipThreatofMordor",
+   "group": "Minas Tirith Gate",
+   "type": "Підказка",
+   "en": "For 60 seconds, allied units mapwide gain +20% damage, +15% armour and are immune to debuffs \n Left click to activate",
+   "ru": "В течение 60 секунд все войска Харадвайта на карте наносят +20% урона, получают +15% брони и становятся невосприимчивыми к ослаблениям\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "На 60 секунд союзні загони по всій мапі отримують бонус +20% до пошкоджень, +15% броні й імунітет до ослаблень\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipTribesofHarad",
+   "group": "Minas Tirith Gate",
+   "type": "Підказка",
+   "en": "Summons a Tribal Camp \n Limited to 2 \n  The Tribal Camp may summon permanent Tribal Axemen, Bowmen, and Spearmen \n When Subjugation: Near Harad is researched, the Tribal Camp may summon permanent Harondor Spearmen, Archers and Raiders \n\n Left click icon then left click on target area",
+   "ru": "В выбранном месте появляется Племенной лагерь\nОграничение - 2\nПлеменной лагерь позволяет призывать Племенных топорщиков, лучников и копейщиков\nЕсли Покорение: Ближний Харад задействовано, в лагере становится доступен призыв копейщиков, лучников и всадников Харондора\n\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Закликає табір племен\nМаксимум 2 одночасно\nУ таборі племен можна закликати постійних племінних сокирників, лучників і списоносців\nПісля дослідження «Підкорення: Ближній Харад» у таборі можна закликати постійних списоносців, лучників і вершників Гарондору\n\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipUnrelentingSun",
+   "group": "Minas Tirith Gate",
+   "type": "Підказка",
+   "en": "Cancels Freezing Rain, Blessing of Ulmo, Lights Go Out, White Winter and Darkness\n Enemy units across the map are slowed by -33% and take damage over time for 15 seconds\n Modifier Type: Buff \n Haradwaith units gain +20% movement speed for 15 seconds\n\nLeft click to activate",
+   "ru": "Отменяет Ледяной дождь, Благословение Ульмо, Угасающий свет, Белую зиму и Тьму\nВражеские отряды на всей карте замедляются на -33% и получают постепенный урон в течение 15 секунд\nТип модификатора: Усиление\nВойска Харада получают +20% скорости передвижения в течение 15 секунд\n\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Скасовує ефекти погоди: «Крижаний дощ», «Благословення Улмо», «Згасання світла», «Білу зиму» й «Пітьму»\nВорожі загони по всій мапі сповільнюються на 33% і 15 секунд отримують поступові пошкодження\nТип ефекту: Посилення\nЗагони Харадвайту отримують бонус +20% швидкості пересування на 15 секунд\n\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TribesofHarad",
+   "group": "Minas Tirith Gate",
+   "type": "Кнопка",
+   "en": "Tribes of Harad",
+   "ru": "Племена Харада",
+   "uk_ai": "Племена Хараду",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:UnrelentingSun",
+   "group": "Minas Tirith Gate",
+   "type": "Кнопка",
+   "en": "Unrelenting Sun",
+   "ru": "Неумолимое солнце",
+   "uk_ai": "Нещадне сонце",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:NumenoreanSoldier",
+   "group": "Númenórean Soldier",
+   "type": "Назва",
+   "en": "Númenórean Soldier",
+   "ru": "",
+   "uk_ai": "Нуменорський воїн",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:NumenoreanSoldierHorde",
+   "group": "Númenórean Soldiers",
+   "type": "Назва",
+   "en": "Númenórean Soldiers",
+   "ru": "",
+   "uk_ai": "Нуменорські воїни",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:NumenorRoyalGuard",
+   "group": "Númenórean Royal Guard",
+   "type": "Назва",
+   "en": "Númenórean Royal Guard",
+   "ru": "",
+   "uk_ai": "Королівська варта Нуменору",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:NumenorZigurGuard",
+   "group": "Guard of Zigûr",
+   "type": "Назва",
+   "en": "Guard of Zigûr",
+   "ru": "",
+   "uk_ai": "Варта Зіґура",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityWickedSouls",
+   "group": "The Bone Witch",
+   "type": "Підказка",
+   "en": "The Witch casts a flying skull, which knocks back and damages enemy units in its path\nLeft click then left click target area",
+   "ru": "",
+   "uk_ai": "Відьма випускає летючий череп, що відкидає ворожі загони на своєму шляху й завдає їм пошкоджень\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipWailoftheBanshee",
+   "group": "The Bone Witch",
+   "type": "Підказка",
+   "en": "The Witch lets out a blood-curdling scream, stunning enemy units and heroes for 5 seconds and setting ability timers to just used \n Left click to activate",
+   "ru": "",
+   "uk_ai": "Відьма видає моторошний вереск: ворожі загони й герої на 5 секунд приголомшені, а їхні здібності скидаються, ніби їх щойно застосували\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipWhisperofDeathBanshee",
+   "group": "The Bone Witch",
+   "type": "Підказка",
+   "en": "Inflicts massive damage on a non-undead unit \n Left click icon then left click on target unit",
+   "ru": "",
+   "uk_ai": "Завдає величезних пошкоджень загону, що не належить до нежиті\nКлікніть на іконку, потім оберіть ціль",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:OathbreakerHuskarl",
+   "group": "Oathbreaker Huskarl",
+   "type": "Назва",
+   "en": "Oathbreaker Huskarl",
+   "ru": "Клятвопреступник-хускарл",
+   "uk_ai": "Гускарл-порушник присяги",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:RatHorde",
+   "group": "Rats",
+   "type": "Назва",
+   "en": "Rats",
+   "ru": "Крысы",
+   "uk_ai": "Щури",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:RatUnit",
+   "group": "Rat",
+   "type": "Назва",
+   "en": "Rat",
+   "ru": "Крыса",
+   "uk_ai": "Щур",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:RingloValeSoldier",
+   "group": "Soldier of the Ringló Vale",
+   "type": "Назва",
+   "en": "Soldier of the Ringló Vale",
+   "ru": "",
+   "uk_ai": "Воїн долини Рінґло",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:RohanBaldor",
+   "group": "Baldor's Ghost",
+   "type": "Назва",
+   "en": "Baldor's Ghost",
+   "ru": "",
+   "uk_ai": "Привид Балдора",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:RohanDismountedRohirrim",
+   "group": "Rohirrim Footman",
+   "type": "Назва",
+   "en": "Rohirrim Footman",
+   "ru": "Пехотинец рохиррим",
+   "uk_ai": "Рогірим-піхотинець",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:RohanDismountedRohirrimHorde",
+   "group": "Rohirrim Footmen",
+   "type": "Назва",
+   "en": "Rohirrim Footmen",
+   "ru": "Пехотинцы рохиррим",
+   "uk_ai": "Піші рогірими",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:RohanDunhere",
+   "group": "Dúnhere",
+   "type": "Назва",
+   "en": "Dúnhere",
+   "ru": "Дунхерэ",
+   "uk_ai": "Дунгер",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DunhereCaptain",
+   "group": "Dúnhere",
+   "type": "Кнопка",
+   "en": "Captain of Upbourn (&R)",
+   "ru": "Капитан Апборна (&R)",
+   "uk_ai": "Капітан Апборна (&R)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DunhereHoldLine",
+   "group": "Dúnhere",
+   "type": "Кнопка",
+   "en": "Hold the Line! (&W)",
+   "ru": "Держать оборону! (&W)",
+   "uk_ai": "Тримати стрій! (&W)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDunhereCaptain",
+   "group": "Dúnhere",
+   "type": "Підказка",
+   "en": "Nearby units gain +50% experience\nPassive ability\n\nCan be activated to grant Dúnhere +50% damage for 20 seconds\nLeft click to activate",
+   "ru": "Ближайшие союзные отряды набирают опыт на +50% быстрее\nПассивная способность\n\nПосле активации, Дунхерэ наносит +50% урона в течение 20 секунд\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Загони поблизу на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації Дунгер отримує бонус +50% до пошкоджень на 20 секунд\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDunhereHoldLine",
+   "group": "Dúnhere",
+   "type": "Підказка",
+   "en": "Dúnhere enters a defensive stance, granting nearby friendly units +25% armour,\nand 100% knockback resistance at the cost of -25% movement speed\nEffect lasts 30 seconds\nLeft click to activate",
+   "ru": "Дунхерэ приказывает занять оборонительную позицию, ближайшие отряды получают +25 брони и сопротивление отбрасыванию, теряя скорость передвижения на 25%\nЭффект длится 30 секунд\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Дунгер стає в оборону: союзні загони поблизу отримують бонус +25% броні\nі 100% стійкості до відкидання ціною -25% швидкості пересування\nЕфект триває 30 секунд\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FrodoMithrilShirt",
+   "group": "Frodo",
+   "type": "Кнопка",
+   "en": "Mithril Shirt",
+   "ru": "Мифрильная кольчуга",
+   "uk_ai": "Мітрилова кольчуга",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FrodoRedBook",
+   "group": "Frodo",
+   "type": "Кнопка",
+   "en": "Red Book of Westmarch (&V)",
+   "ru": "",
+   "uk_ai": "Червона книга Західного краю (&V)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PhialofGaladrielFrodoToCU",
+   "group": "Frodo",
+   "type": "Кнопка",
+   "en": "Phial of Galadriel (&W)",
+   "ru": "",
+   "uk_ai": "Фіал Ґаладріелі (&W)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RevengeWithRevenge",
+   "group": "Frodo",
+   "type": "Кнопка",
+   "en": "It Is Useless To Meet Revenge With Revenge (&R)",
+   "ru": "",
+   "uk_ai": "Марно відповідати помстою на помсту (&R)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ScouringFrodoLeadership",
+   "group": "Frodo",
+   "type": "Кнопка",
+   "en": "Frodo of the Nine Fingers",
+   "ru": "",
+   "uk_ai": "Фродо Дев'ятипалий",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TheOneRing_Campaign",
+   "group": "Frodo",
+   "type": "Кнопка",
+   "en": "A Heavy Burden (&R)",
+   "ru": "Тяжелое бремя (&R)",
+   "uk_ai": "Тяжкий тягар (&R)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipFrodoMithrilShirt",
+   "group": "Frodo",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Frodo receives his shirt of mithril mail \n granting him +50% armour \n \n Passive ability",
+   "ru": "Требуется уровень 3\nФродо надевает мифрильную кольчугу,\nполучая +50% брони\n\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 3\nФродо отримує мітрилову кольчугу,\nщо дає йому +50% броні\n\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFrodoRedBook",
+   "group": "Frodo",
+   "type": "Підказка",
+   "en": "Frodo tells the tale of the downfall of the Lord of the Rings and the Return of the King\nGive targeted friendly troops experience\nLeft click icon then left click on target units",
+   "ru": "",
+   "uk_ai": "Фродо розповідає історію про падіння Володаря Перснів і Повернення Короля\nМиттєво наділяє досвідом обрані союзні загони\nКлікніть на іконку, потім оберіть потрібні загони",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPhialofGaladrielMarshes",
+   "group": "Frodo",
+   "type": "Підказка",
+   "en": "Stuns and deals damage over time to Undead units for 5 seconds \n Left click to activate",
+   "ru": "",
+   "uk_ai": "Приголомшує нежить і 5 секунд завдає їй поступових пошкоджень\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRevengeWithRevenge",
+   "group": "Frodo",
+   "type": "Підказка",
+   "en": "I will not have him slain. It is useless to meet revenge with revenge: it will heal nothing. Go, Saruman, by the speediest way!",
+   "ru": "",
+   "uk_ai": "Я не дозволю його вбити. Марно відповідати помстою на помсту: це нічого не зцілить. Іди, Сарумане, найкоротшою дорогою!",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipScouringFrodoLeadership",
+   "group": "Frodo",
+   "type": "Підказка",
+   "en": "Requires Level 5\nModifier Type: Leadership\nNearby allies gain +33% damage, +33% armour,\nand earn experience twice as fast\n\n Stacks with Buffs and Spells\n Passive ability",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Лідерство\nСоюзники поблизу отримують бонус +33% до пошкоджень, +33% броні\nй удвічі швидше набирають досвід\n\nПоєднується з посиленнями й заклинаннями\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWordsArePoison",
+   "group": "Frodo",
+   "type": "Підказка",
+   "en": "Your words are poison, Saruman. I will have you speak no more, slay him!",
+   "ru": "",
+   "uk_ai": "Твої слова — отрута, Сарумане. Я не дам тобі більше говорити, вбийте його!",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WordsArePoison",
+   "group": "Frodo",
+   "type": "Кнопка",
+   "en": "Your Words Are Poison (&W)",
+   "ru": "",
+   "uk_ai": "Твої слова — отрута (&W)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElfFriendCampaign",
+   "group": "Gimli",
+   "type": "Кнопка",
+   "en": "Elf-friend",
+   "ru": "Друг-эльф",
+   "uk_ai": "Друг ельфів",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:EnduringWrath",
+   "group": "Gimli",
+   "type": "Кнопка",
+   "en": "Enduring Wrath",
+   "ru": "Пробужденная ярость",
+   "uk_ai": "Невгасимий гнів",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellowshipLeap_GC",
+   "group": "Gimli",
+   "type": "Кнопка",
+   "en": "Nobody Tosses A Dwarf (&R)",
+   "ru": "Никто не смеет бросать гномов! (&R)",
+   "uk_ai": "Дворфа ніхто не кидає (&R)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellowshipSlayer_GC",
+   "group": "Gimli",
+   "type": "Кнопка",
+   "en": "Stubborn Pride (&T)",
+   "ru": "Упрямство гномов (&T)",
+   "uk_ai": "Уперта гордість (&T)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCampaignSlayer",
+   "group": "Gimli",
+   "type": "Підказка",
+   "en": "Requires Level 6 \n Gimli gains +50% armour, +33% speed and deals knockback for 30 seconds\n Left click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 6\nҐімлі отримує бонус +50% броні, +33% швидкості й відкидає ворогів протягом 30 секунд\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElfFriendCampaign",
+   "group": "Gimli",
+   "type": "Підказка",
+   "en": "Requires Level 10\nModifier Type: Leadership \n Legolas gains +10% damage and armour when near Gimli\n Passive ability",
+   "ru": "Требуется уровень 10\nТип модификатора: Лидерство\nЛеголас наносит +10% урона и получает +10% брони, находясь рядом с Гимли\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 10\nТип ефекту: Лідерство\nПоряд із Ґімлі Леґолас отримує бонус +10% до пошкоджень і броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEnduringWrath",
+   "group": "Gimli",
+   "type": "Підказка",
+   "en": "Requires Level 3\nConsecutive attacks temporarily increase Gimli's armour by 5% up to a maximum of 25% \n Passive ability",
+   "ru": "Требуется уровень 3\nПоследовательные атаки временно увеличивают броню Гимли на +5% до максимума в +25%\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 3\nКожна наступна атака тимчасово збільшує броню Ґімлі на 5%, максимум до 25%\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellowshipSlayer",
+   "group": "Gimli",
+   "type": "Підказка",
+   "en": "Requires Level 6 \n Gimli gains +50% armour and +33% speed for 30 seconds\n Left click to activate",
+   "ru": "Требуется уровень 6\nГимли наносит +50% урона и получает +33% скорости передвижения на 30 секунд\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 6\nҐімлі отримує бонус +50% броні й +33% швидкості на 30 секунд\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GrimboldHeal",
+   "group": "Grimbold",
+   "type": "Кнопка",
+   "en": "Rohirric Triage (&T)",
+   "ru": "Медицина рохиррим (&T)",
+   "uk_ai": "Польова медицина Рогану (&T)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GrimboldLeadership",
+   "group": "Grimbold",
+   "type": "Кнопка",
+   "en": "Valiant Captain",
+   "ru": "Доблестный капитан",
+   "uk_ai": "Відважний капітан",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GrimboldProtection",
+   "group": "Grimbold",
+   "type": "Кнопка",
+   "en": "Protection of Grimslade (&R)",
+   "ru": "Защита Гримслейда (&R)",
+   "uk_ai": "Захист Ґрімслейду (&R)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGrimboldHeal",
+   "group": "Grimbold",
+   "type": "Підказка",
+   "en": "Requires Level 6 \n Heal nearby units in a small radius\n Left click to activate",
+   "ru": "Требуется уровень 6\nИсцеляет ближайшие войска в небольшом радиусе\nЩелкните левой кнопкой мыши на значок, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 6\nЗцілює загони поблизу в невеликому радіусі\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGrimboldLeadership",
+   "group": "Grimbold",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Modifier Type: Leadership \n Nearby infantry units gain +33% armour and +33% damage\nPassive ability",
+   "ru": "Требуется уровень 5\nТип модификатора: Лидерство\nБлижайшие отряды пехоты наносят +33% урона и получают +33% брони\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Лідерство\nПіхота поблизу отримує бонус +33% броні й +33% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGrimboldProtection",
+   "group": "Grimbold",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Targeted allied units gain +50% armour for 30 seconds\nLeft click on icon then left click on target units",
+   "ru": "Требуется уровень 5\nСоюзные отряды в радиусе действия получают +50% брони на 30 секунд\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 5\nВибрані союзні загони отримують бонус +50% броні на 30 секунд\nКлікніть на іконку, потім оберіть потрібні загони",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:Dwarf-friendCampaign",
+   "group": "Legolas",
+   "type": "Кнопка",
+   "en": "Dwarf-friend",
+   "ru": "Друг-гном",
+   "uk_ai": "Друг дворфів",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwarfFriendCampaign",
+   "group": "Legolas",
+   "type": "Підказка",
+   "en": "Requires Level 10\nModifier Type: Leadership \n Gimli gains +10% damage, armour and movement speed when near Legolas\n Passive ability",
+   "ru": "Требуется уровень 10\nТип модификатора: Лидерство\nГимли наносит +10% урона, получает +10% брони и скорости передвижения, находясь рядом с Леголасом\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 10\nТип ефекту: Лідерство\nПоряд із Леґоласом Ґімлі отримує бонус +10% до пошкоджень, броні й швидкості пересування\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellowshipLegolasPrinceMirkwood",
+   "group": "Legolas",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n When activated, nearby friendly archers temporarily gain +20% damage and armour for 20 seconds \n Modifier Type: Leadership \n Nearby friendly units are immune to fear and terror\n At level 6, nearby friendly units gain +33% damage and +25% vision range\n Passive ability",
+   "ru": "Требуется уровень 3\nПосле активации, ближайшие союзные лучники наносят +20% урона и получают +20% брони\nТип модификатора: Лидерство\nБлижайшие дружественные войска становятся невосприимчивыми к страху и ужасу\nНа уровне 6, ближайшие союзные отряды наносят +33% урона и получают +25% обзора\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 3\nПісля активації союзні лучники поблизу на 20 секунд отримують бонус +20% до пошкоджень і броні\nТип ефекту: Лідерство\nСоюзні загони поблизу мають імунітет до страху та жаху\nНа 6 рівні союзні загони поблизу отримують бонус +33% до пошкоджень і +25% дальності огляду\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipStewPot_Campaign",
+   "group": "Sam",
+   "type": "Підказка",
+   "en": "Requires Level 6 \n Summons a pot of stew that heals nearby units and detects stealth \n Left click on icon then left click on target position",
+   "ru": "Требуется уровень 6\nСэм ставит котелок с тушеным мясом, который исцеляет ближайшие войска и обнаруживает скрытых врагов\nЩелкните левой кнопкой мыши на значок, затем на целевое местоположение",
+   "uk_ai": "Необхідно: Рівень 6\nСтавить казанок рагу, що зцілює загони поблизу й виявляє невидимих\nКлікніть на іконку, потім оберіть місце",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:ShireFrodo",
+   "group": "Frodo Baggins",
+   "type": "Назва",
+   "en": "Frodo Baggins",
+   "ru": "Фродо Бэггинс",
+   "uk_ai": "Фродо Беґінз",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:SpiderEggs",
+   "group": "Egg Cluster",
+   "type": "Назва",
+   "en": "Egg Cluster",
+   "ru": "",
+   "uk_ai": "Кладка яєць",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:SpiderTrap",
+   "group": "Spider Web",
+   "type": "Назва",
+   "en": "Spider Web",
+   "ru": "",
+   "uk_ai": "Павутина",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:SpiritBear",
+   "group": "Spirit Bear",
+   "type": "Назва",
+   "en": "Spirit Bear",
+   "ru": "",
+   "uk_ai": "Ведмідь-дух",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:UmbarBoatswain",
+   "group": "Umbar Boatswain",
+   "type": "Назва",
+   "en": "Umbar Boatswain",
+   "ru": "",
+   "uk_ai": "Умбарський боцман",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUmbarBoatswainCripple",
+   "group": "Umbar Boatswain",
+   "type": "Підказка",
+   "en": "Target enemy hero is stunned for 20 seconds, during which its armour and attack damage is decreased by 25%\nNearby enemy units lose -33% armour and damage for 30 seconds\nLeft click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Вказаний ворожий герой оглушений на 20 секунд, і весь цей час його броня й пошкодження знижені на 25%\nВорожі загони поблизу втрачають 33% броні й пошкоджень на 30 секунд\nКлікніть на іконку, потім оберіть ціль",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUmbarBoatswainLeadership",
+   "group": "Umbar Boatswain",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Nearby Corsairs gain +33% armour and damage and resistance to fear and terror\nStacks with Buffs and Spells\nPassive ability",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Лідерство\nПірати поблизу отримують бонус +33% броні й пошкоджень і стійкість до страху та жаху\nПоєднується з посиленнями й заклинаннями\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:UmbarBoatswainCripple",
+   "group": "Umbar Boatswain",
+   "type": "Кнопка",
+   "en": "To The Brig! (&R)",
+   "ru": "",
+   "uk_ai": "У карцер! (&R)",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:UmbarBoatswainLeadership",
+   "group": "Umbar Boatswain",
+   "type": "Кнопка",
+   "en": "Bosun",
+   "ru": "",
+   "uk_ai": "Боцман",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:ValeBear",
+   "group": "Vale-bear",
+   "type": "Назва",
+   "en": "Vale-bear",
+   "ru": "",
+   "uk_ai": "Ведмідь долини",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipSummonMordorAllies",
+   "group": "IsengardSpellBook",
+   "type": "Підказка",
+   "en": "Summons two hordes of Orc Warriors, one horde of Orc Pikemen, one horde of Orc Archers equipped with fire arrows and Grishnákh to fight for your side for 60 seconds \n \n Recharge time: 6m \nLeft click icon then left click on pathable location",
+   "ru": "На поле боя призывается Гришнак с двумя отрядами орков-воинов, отрядом орков-копейщиков и отрядом орков-лучников, вооруженных огненными стрелами\n\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Закликає на ваш бік на 60 секунд Ґрішнаха з 2 загонами орків-воїнів, загоном орків-пікінерів і загоном орків-лучників із вогняними стрілами\n\nЧас відновлення: 6 хв\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CracksOfDoom",
+   "group": "MordorSpellBook",
+   "type": "Кнопка",
+   "en": "Cracks of Doom",
+   "ru": "Разломы судьбы",
+   "uk_ai": "Тріщини Фатуму",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SummonGenericMordorSpy",
+   "group": "MordorSpellBook",
+   "type": "Кнопка",
+   "en": "Trackers of Cirith Ungol",
+   "ru": "Следопыты Кирит Унгола",
+   "uk_ai": "Слідопити Кіріт-Унґолу",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCracksOfDoom",
+   "group": "MordorSpellBook",
+   "type": "Підказка",
+   "en": "Summons a patch of cracked, volcanic earth for 15 seconds \n Enemy units inside take damage over time and are slowed by -33%\n Left click icon then left click on target area",
+   "ru": "На поле боя появляется участок потрескавшейся вулканической земли на 15 секунд\nВсе враги в радиусе действия замедляются на -33% и получают периодический урон\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Закликає ділянку потрісканої вулканічної землі на 15 секунд\nВорожі загони на ній отримують поступові пошкодження й сповільнюються на 33%\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMordorCalltheHorde",
+   "group": "MordorSpellBook",
+   "type": "Підказка",
+   "en": "Increases Orc and Uruk Production Speed for 45 seconds\n Once used, permanently grants Mark of the Red Eye to Orc Warriors and Orc Pikemen.\n Black Uruks are not granted Mark of the Red Eye\n Left click to activate",
+   "ru": "Время подготовки орков и уруков сокращено в течение 45 секунд\nОтряды орков, во время действия этой способности, призываются с Меткой Красного Ока\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Пришвидшує навчання орків і уруків на 45 секунд\nПісля активації орки-воїни й орки-пікінери назавжди отримують Знак Червоного Ока.\nЧорні уруки Знака Червоного Ока не отримують\nКлікніть, щоб активувати",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSummonGenericMordorSpy",
+   "group": "MordorSpellBook",
+   "type": "Підказка",
+   "en": "Summons a small horde of Ungol Trackers\nUngol Trackers are fast-moving units that clear shroud and detect stealth \n Nearby enemy units suffer -15% damage and armour\n Left click icon then left click on pathable location",
+   "ru": "На поле боя появляются три следопыта Унгола\nБыстродвижущиеся орки-следопыты, которые рассеивают туман войны и обнаруживают скрытых врагов\nБлижайшие вражеские войска теряют -15% урона и -15% брони\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Закликає невеликий загін унґольських слідопитів\nУнґольські слідопити — швидкі загони, що розвіюють туман війни й виявляють невидимих\nВорожі загони поблизу втрачають 15% пошкоджень і броні\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipSummonHaradrimRaiders",
+   "group": "MordorSpellBook",
+   "type": "Підказка",
+   "en": "Summon two battalions of Haradrim Raiders to the battlefield \n Once used, passively unlocks Golden Axemen \n Left click on icon then left click on target area",
+   "ru": "На поле битвы призываются два отряда наездников харадрим\nПосле использования пассивно разблокирует Золотых топорщиков\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Закликає на поле бою 2 загони харадримських вершників\nПісля активації назавжди відкриває Золотих сокирників\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AngmarCitadel",
+   "group": "WildSpellBook",
+   "type": "Кнопка",
+   "en": "Ruin of Angmar",
+   "ru": "Руины Ангмара",
+   "uk_ai": "Руїни Анґмару",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipAngmarCitadel",
+   "group": "WildSpellBook",
+   "type": "Підказка",
+   "en": "Summons a desolate Ruin of Angmar \n Limited to 2 \n The Ruin can recruit Dead of Arnor and White Wolves, \n as well as cast a local snow storm \n Left click on icon then left click on target area",
+   "ru": "В выбранном месте появляются опустошенные руины Ангмара\nОграничение - 2\nПозволяют призывать мертвецов Арнора и белых волков\nВражеские отряды рядом с руинами Ангмара теряют все лидерство\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Закликає похмурі Руїни Анґмару\nМаксимум 2 одночасно\nУ руїнах можна наймати Мертвих Арнору й білих вовків,\nа також викликати снігову бурю поблизу\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTheyAreComing",
+   "group": "WildSpellBook",
+   "type": "Підказка",
+   "en": "Targeted Orc or Were-worm Tunnel spawns 2 permanent battalions of Moria-orc Screechers and a Cave-troll Destroyer \n Moria-orcs respect command point limit whilst Cave-troll Destroyer doesn't \n Left click then left click target",
+   "ru": "Из выбранного Туннеля гоблинов или Туннеля червеоборотня призываются два отряда Гоблинов-крикунов Мории и Пещерный тролль-разрушитель\nГоблины требуют свободные очки командования, Пещерный тролль-разрушитель нет\nЩелкните левой кнопкой мыши на значок, затем на целевой туннель",
+   "uk_ai": "Вказаний тунель орків чи черв'яка-перевертня закликає 2 постійні загони морійських орків-верескунів і печерного троля-руйнівника\nМорійські орки займають очки командування, а печерний троль-руйнівник — ні\nКлікніть на іконку, потім оберіть ціль",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipTrollishStew",
+   "group": "WildSpellBook",
+   "type": "Підказка",
+   "en": "Temporarily summons a kettle of Trollish Stew, guarded by Tom, Bert, and William \n The Trollish Stew provides healing, grants +15% armour and damage to nearby units and detects stealth \n Left click icon then left click on pathable location",
+   "ru": "Временно призывается котел с тролльим рагу, охраняемый Томом, Бертом и Биллом\nТроллье рагу исцеляет ближайших союзников, дарует +15% урона и +15% брони, а также обнаруживает скрытых врагов\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Тимчасово закликає казан тролячого рагу, який стережуть Том, Берт і Вільям\nТролляче рагу зцілює, дає загонам поблизу +15% броні й пошкоджень і виявляє невидимих\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TrollishStew",
+   "group": "WildSpellBook",
+   "type": "Кнопка",
+   "en": "Trollish Stew",
+   "ru": "Троллье рагу",
+   "uk_ai": "Тролляче рагу",
+   "uk": ""
+  }
+ ]
+}

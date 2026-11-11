@@ -1,0 +1,255 @@
+{
+ "meta": {
+  "hero": "Boromir",
+  "uk_name": "Боромир",
+  "campaigns": [
+   "FotR",
+   "TTT",
+   "RotK"
+  ],
+  "missions": [
+   "Party",
+   "Council",
+   "Redhorn",
+   "Moria",
+   "Khazad",
+   "Lothlorien",
+   "AmonHen",
+   "FordsofIsen",
+   "TamingofSmeagol",
+   "EavesofFangorn",
+   "DurinsTower",
+   "Ithilien",
+   "Westfold",
+   "GreyCompany",
+   "HelmsDeep",
+   "Isengard",
+   "LordoftheRings",
+   "LightingoftheBeacons",
+   "PathsoftheDead",
+   "Pelargir",
+   "MinasTirithOuter",
+   "CirithUngol",
+   "MinasTirithInner",
+   "PelennorFields",
+   "BlackGate",
+   "ManyPartings",
+   "ScouringoftheShire",
+   "GreyHavens"
+  ],
+  "templates": {
+   "кампанія": [
+    "FellowshipBoromir",
+    "GondorBoromir"
+   ],
+   "битва": [
+    "DolAmrothBoromir",
+    "GondorBoromir"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:GondorBoromir",
+   "type": "Ім'я",
+   "en": "Boromir",
+   "ru": "Боромир",
+   "uk_ai": "Боромир",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellowshipBoromirShieldBash",
+   "type": "Кнопка",
+   "en": "Shield Bash (&W)",
+   "ru": "Удар щитом (&W)",
+   "uk_ai": "Удар щитом (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellowshipBoromirShieldBash",
+   "type": "Підказка",
+   "en": "Boromir slams his shield into his enemy, dealing strong damage and knocking back enemies within an arc in front of him\nLeft click to activate",
+   "ru": "Боромир бьет врагов своим щитом , нанося сильный урон и отбрасывая их\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Боромир б'є ворога щитом, завдаючи сильних пошкоджень і відкидаючи ворогів перед собою\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WannaBoroMiKnife",
+   "type": "Кнопка",
+   "en": "Knife Throw (&R)",
+   "ru": "Бросок ножа (&R)",
+   "uk_ai": "Кинути ножа (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipFellowshipWannaBoroMiKnife",
+   "type": "Підказка",
+   "en": "Boromir throws his knife at an enemy unit, knocking them back and reducing their armour by 25% for 10 seconds \n Left click icon then left click on target",
+   "ru": "Боромир бросает свой нож, отбрасывая врагов и снижая их броню на -25% в течение 10 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Боромир кидає ніж у ворожий загін, відкидаючи його й зменшуючи його броню на 25% на 10 сек. \n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HornofGondorFellowship",
+   "type": "Кнопка",
+   "en": "Horn of Gondor (&T)",
+   "ru": "Рог Гондора (&T)",
+   "uk_ai": "Ріг Ґондору (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellowshipHornofGondor",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Stun enemies with fear for 15 seconds \n Left click to activate",
+   "ru": "Требуется уровень 3\\nУслышав звук этого рога, враги цепенеют от страха на 15 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3 \n Звук рогу Ґондору лякає та приголомшує ворогів на 15 сек. \n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WarCry",
+   "type": "Кнопка",
+   "en": "For Gondor! (&C)",
+   "ru": "За Гондор! (&C)",
+   "uk_ai": "За Ґондор! (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellowshipWarCry",
+   "type": "Підказка",
+   "en": "Requires Level 6\n Modifier Type: Leadership \n Nearby allies gain +33% damage, +25% armour and earn experience 50% faster\nPassive ability \n \n When activated, nearby friendly units gain\n+33% damage, +20% speed, and resistance to fear and terror for 30 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 6\\nТип модификатора: Лидерство\\nБлижайшие союзники наносят +33% урона, получают +25% брони и набирают опыт на +50% быстрее\\nПассивная способность\\n\\nПосле активации, ближайшие союзные отряды наносят +33% урона,\\nполучают +20% скорости и становятся невосприимчивыми к страху и ужасу на 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 6\n Тип ефекту: Лідерство \n Союзники поблизу отримують бонус +33% до пошкоджень, +25% броні й на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~\n \n Після активації союзні загони поблизу отримують бонус\n+33% до пошкоджень, +20% швидкості й стійкість до страху та жаху на 30 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellowshipBoromirMasteredFate",
+   "type": "Кнопка",
+   "en": "Mastered Fate (&V)",
+   "ru": "Покоривший судьбу (&V)",
+   "uk_ai": "Підкорена доля (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipFellowshipBoromirMasteredFate",
+   "type": "Підказка",
+   "en": "Requires Level 8\nBoromir heals himself for a small amount and gains +50% armour for 15 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 8\\nБоромир умеренно исцеляет себя и получает +50% брони на 15 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 8\nБоромир трохи зцілюється й отримує бонус +50% броні на 15 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BoromirLeadership",
+   "type": "Кнопка",
+   "en": "Captain of the White Tower",
+   "ru": "Капитан Белой башни",
+   "uk_ai": "Капітан Білої вежі",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBoromirNewLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Soldiers, Spearmen, and Archers of Minas Tirith near Boromir gain +33% damage and +25% armour \n \n At level 5, Boromir dons his Gondorian Armour and permanently gains +15% armour \nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nСолдаты, лучники и пикинеры Минас Тирита наносят\\n+33% урона и получают +33% брони, находясь рядом с Боромиром\\n\\nНа уровне 5, Боромир облачается в доспехи Гондора, навсегда получая +15% брони\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nВоїни, списоносці й лучники Мінас-Тіріта поряд із Боромиром отримують бонус +33% до пошкоджень і +25% броні\n\nНа 5 рівні Боромир вдягає ґондорські обладунки й назавжди отримує бонус +15% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipWannaBoroMiKnife",
+   "type": "Підказка",
+   "en": "Requires Level 2\n Boromir throws his knife at an enemy unit, knocking them back and reducing their armour by 25% for 10 seconds \n Left click icon then left click on target",
+   "ru": "Требуется уровень 2\\nБоромир бросает свой нож, отбрасывая врагов и снижая их броню на -25% в течение 10 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 2\nБоромир кидає ніж у ворожий загін чим відкидає його та на 10 сек. знижує його броню на 25%\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HornofGondor",
+   "type": "Кнопка",
+   "en": "Horn of Gondor (&T)",
+   "ru": "Рог Гондора (&R)",
+   "uk_ai": "Ріг Ґондору (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHornofGondor",
+   "type": "Підказка",
+   "en": "Requires Level 4 \n Stun enemies with fear for 15 seconds \n Left click to activate",
+   "ru": "Требуется уровень 4\\nУслышав звук этого рога, враги цепенеют от страха на 15 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 4\nЗвук рогу Ґондору лякає та приголомшує ворогів на 15 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWarCryBoromir",
+   "type": "Підказка",
+   "en": "Requires Level 5\n Modifier Type: Spell \n Nearby friendly units gain +33% damage, +20% speed, and resistance to fear and terror for 30 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 5\\nТип модификатора: Заклинание\\nСоюзные войска в радиусе действия наносят +33% урона,\\nполучают +20% скорости передвижения и становятся невосприимчивыми к страху и ужасу на 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Заклинання\nСоюзні загони поблизу на 30 сек. отримують бонус +33% до пошкоджень, +20% швидкості й стійкість до страху та жаху\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CaptainofGondor",
+   "type": "Кнопка",
+   "en": "Proud, Stubborn, Strong (&V)",
+   "ru": "Гордый, упрямый, сильный (&V)",
+   "uk_ai": "Гордий, упертий та сильний (&V)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCaptainofGondorBoromir",
+   "type": "Підказка",
+   "en": "Requires Level 7 \nGive targeted units superior experience\n Left click icon then left click on target units \n \n Modifier Type: Spell \n When Boromir reaches 25% health, he gains +200% armour for 15 seconds\nCannot be triggered again for 60 seconds\n Passive ability",
+   "ru": "Требуется уровень 7\\nСоюзные отряды в области действия получают много опыта\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды\\n\\nТип модификатора: Заклинание\\nЕсли здоровье Боромира упадет до 25%, он получит +200% брони на 15 секунд\\nПовторное срабатывание невозможно в течение 60 секунд\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 7\nМиттєво наділяє обрані загони значною кількістю досвіду\nКлікніть на іконку, потім оберіть потрібні загони\n\nТип ефекту: Заклинання\nКоли здоров'я Боромира падає до 25%, він на 15 сек. отримує бонус +200% броні\nПовторно спрацьовує не раніше ніж через 60 сек.\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:ToolTipBoromirLeadershipDA",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nFriendly units near Boromir gain +33% armour and earn experience +50% faster\nAt Level 5, Boromir dons his Gondorian armour and gains +10% armour\nPassive Ability",
+   "ru": "Тип модификатора: Лидерство\\nСоюзные отряды рядом с Боромиром получают +33% брони и набирают опыт на +50% быстрее\\nНа уровне 5, Боромир облачается в доспехи Гондора, получая +10% брони\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзні загони поряд із Боромиром отримують бонус +33% броні й на 50% швидше набирають досвід\nНа 5 рівні Боромир вдягає ґондорські обладунки й отримує бонус +10% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WannaBoroMiKnifeDolAmroth",
+   "type": "Кнопка",
+   "en": "Knife Throw (&R)",
+   "ru": "Бросок ножа (&R)",
+   "uk_ai": "Кинути ножа (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

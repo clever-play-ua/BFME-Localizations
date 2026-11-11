@@ -1,0 +1,122 @@
+{
+ "meta": {
+  "hero": "Irolas",
+  "uk_name": "Іролас",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "MinasTirithOuter",
+   "MinasTirithInner"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignIrolas"
+   ],
+   "битва": []
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:CampaignIrolas",
+   "type": "Ім'я",
+   "en": "Irolas",
+   "ru": "",
+   "uk_ai": "Іролас",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:IrolasLeadership",
+   "type": "Кнопка",
+   "en": "Officer of the Guard",
+   "ru": "",
+   "uk_ai": "Офіцер Варти",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipIrolasLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nAllied Soldiers, Spearmen and Archers of the White City gain +33% armour and damage and earn experience +50% faster\nStacks with Spells and Buffs\nPassive ability",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзні воїни, списоносці й лучники Білого Міста отримують бонус +33% броні й пошкоджень і на 50% швидше набирають досвід\nПоєднується із заклинаннями та посиленнями\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:IrolasStoutDefender",
+   "type": "Кнопка",
+   "en": "Stout Defender (&R)",
+   "ru": "",
+   "uk_ai": "Стійкий захисник (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIrolasStoutDefender",
+   "type": "Підказка",
+   "en": "Modifier Type: Spell \n Irolas and targeted allied hero gain +50% armour for 30 seconds\n Left click icon then left click on target hero",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Заклинання \n Іролас і вказаний союзний герой отримують бонус +50% броні на 30 сек.\n Клікніть на іконку, потім оберіть потрібного героя",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:IrolasWarChant",
+   "type": "Кнопка",
+   "en": "For the White City! (&T)",
+   "ru": "",
+   "uk_ai": "За Біле Місто! (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIrolasWarChant",
+   "type": "Підказка",
+   "en": "Modifier Type: Spell \n Targeted friendly units gain\n+33% armour, +20% speed, and resistance to fear and terror for 30 seconds\nLeft click icon then left click on target units",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Заклинання \n Вказані союзні загони отримують бонус\n+33% броні, +20% швидкості й стійкість до страху та жаху на 30 сек.\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:IrolasSwornSword",
+   "type": "Кнопка",
+   "en": "Sworn Sword (&C)",
+   "ru": "",
+   "uk_ai": "Присяжний меч (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIrolasSwornSword",
+   "type": "Підказка",
+   "en": "Irolas slashes at targeted enemy units, dealing splash damage and lingering damage over time for 10 seconds\nLeft click then left click on target",
+   "ru": "",
+   "uk_ai": "Іролас рубає вказані ворожі загони, завдаючи пошкоджень по площі й поступових пошкоджень протягом 10 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:IrolasBombard",
+   "type": "Кнопка",
+   "en": "Clear Them Out! (&V)",
+   "ru": "",
+   "uk_ai": "Очистити їх! (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIrolasBombard",
+   "type": "Підказка",
+   "en": "Irolas signals the bombardment of target area\nEnemy units in target area take damage and are knocked back\nLeft click icon then left click on target area",
+   "ru": "",
+   "uk_ai": "Іролас подає сигнал обстріляти вказану ділянку\nВорожі загони на ній отримують пошкодження й відкидаються\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

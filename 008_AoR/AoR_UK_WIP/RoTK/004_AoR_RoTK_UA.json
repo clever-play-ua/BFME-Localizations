@@ -1,0 +1,2291 @@
+{
+ "meta": {
+  "mission": "004_The Return of the King",
+  "campaign": "Return of the King (AoR 10.0)",
+  "count": 228,
+  "fields": "var — мітка; type — Назва/Ціль/Діалог/Репліка/Інше/Кнопка; ru — RU 9.3.1, якщо є; uk_ai — поточний текст (правте прямо тут); status — вичитано / чернетка AI; uk — порожньо",
+  "notes": "\\n — перенос рядка, кількість має збігатися з EN; гарячі клавіші (&W) латиницею. Здібності героїв винесені в папку heroes."
+ },
+ "strings": [
+  {
+   "var": "CampaignName:Pelargir",
+   "mission": "004_The Return of the King",
+   "type": "Назва",
+   "en": "The Return of the King",
+   "ru": "",
+   "uk_ai": "Повернення короля",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:AragornHidden",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Stealth - Aragorn Hidden: ",
+   "ru": "",
+   "uk_ai": "Скритність — Араґорн схований:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:AragornHidden2",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Stealth - Chase On: ",
+   "ru": "",
+   "uk_ai": "Скритність — погоня:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:AragornHidden3",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Stealth - Chase Delay: ",
+   "ru": "",
+   "uk_ai": "Скритність — затримка погоні:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:AragornHidden5",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Stealth - Patrol Moving Reset: ",
+   "ru": "",
+   "uk_ai": "Скритність — скидання руху патруля:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:LootersKilled",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Stealth - Looters Killed: ",
+   "ru": "",
+   "uk_ai": "Скритність — убито мародерів:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:AragornHidden4",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Stealth - Enemies Attacking: ",
+   "ru": "",
+   "uk_ai": "Скритність — вороги атакують:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective01_RotK",
+   "mission": "004_The Return of the King",
+   "type": "Ціль",
+   "en": "Liberate the outpost.",
+   "ru": "",
+   "uk_ai": "Звільніть аванпост.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective02_RotK",
+   "mission": "004_The Return of the King",
+   "type": "Ціль",
+   "en": "Capture the dock to the south.",
+   "ru": "",
+   "uk_ai": "Захопіть причал на півдні.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective03_RotK",
+   "mission": "004_The Return of the King",
+   "type": "Ціль",
+   "en": "Light the Great Lighthouse to hasten the arrival of Angbor",
+   "ru": "",
+   "uk_ai": "Запаліть Великий маяк, щоб пришвидшити прибуття Анґбора",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective04_RotK",
+   "mission": "004_The Return of the King",
+   "type": "Ціль",
+   "en": "Open the Main Gate to the city",
+   "ru": "",
+   "uk_ai": "Відчиніть Головну браму міста",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective05_RotK",
+   "mission": "004_The Return of the King",
+   "type": "Ціль",
+   "en": "Destroy the firepot cache to lure away gate guards",
+   "ru": "",
+   "uk_ai": "Знищте склад вогняних горщиків, щоб відволікти вартових брами",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective06_RotK",
+   "mission": "004_The Return of the King",
+   "type": "Ціль",
+   "en": "Destroy the Haradrim forces in Pelargir",
+   "ru": "",
+   "uk_ai": "Знищте війська харадримів у Пеларґірі",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective07_RotK",
+   "mission": "004_The Return of the King",
+   "type": "Ціль",
+   "en": "Reclaim all guard towers in Pelargir",
+   "ru": "",
+   "uk_ai": "Відвоюйте всі сторожові вежі Пеларґіра",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective08_RotK",
+   "mission": "004_The Return of the King",
+   "type": "Ціль",
+   "en": "Destroy the corsair fleet around the citadel",
+   "ru": "",
+   "uk_ai": "Знищте піратський флот біля цитаделі",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective09_RotK",
+   "mission": "004_The Return of the King",
+   "type": "Ціль",
+   "en": "Defeat Cassimir",
+   "ru": "",
+   "uk_ai": "Здолайте Кассіміра",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective02_RotK",
+   "mission": "004_The Return of the King",
+   "type": "Ціль",
+   "en": "Kill at least 2 Corsair looters",
+   "ru": "",
+   "uk_ai": "Вбийте щонайменше 2 піратів-мародерів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective03_RotK",
+   "mission": "004_The Return of the King",
+   "type": "Ціль",
+   "en": "Free all captives in Pelargir",
+   "ru": "",
+   "uk_ai": "Звільніть усіх полонених у Пеларґірі",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Aragorn_Board",
+   "mission": "004_The Return of the King",
+   "type": "Інше",
+   "en": "Use the captured fishing boat to transport Aragorn to Barad Ciryn.",
+   "ru": "",
+   "uk_ai": "Скористайтеся захопленим рибальським човном, щоб переправити Араґорна на Барад-Кірин.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad040",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "I will lend you my aid, kinsmen.",
+   "ru": "",
+   "uk_ai": "Я допоможу тобі, родичу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad054",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Flee back to Umbar!",
+   "ru": "",
+   "uk_ai": "Тікайте назад до Умбару!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad048",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Gather arms, Men! Help us reclaim your city!",
+   "ru": "",
+   "uk_ai": "До зброї, люди! Допоможіть нам відвоювати ваше місто!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elladan064",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "These Haradrim are fierce warriors. We must be careful.",
+   "ru": "",
+   "uk_ai": "Ці харадрими — запеклі воїни. Треба бути обережними.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirofficer017",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "They've raised scaffolds around the tower! Strike them down!",
+   "ru": "",
+   "uk_ai": "Вони звели риштовання довкола вежі! Валіть їх!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirofficer010",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "This looks like it was hidden here recently... must've been looted by these raiders.",
+   "ru": "",
+   "uk_ai": "Схоже, це сховали тут нещодавно... мабуть, награбували ці розбійники.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elladan047",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "This place has been overrun by Corsairs!",
+   "ru": "",
+   "uk_ai": "Тут повно піратів!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_haldir021",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Sauron has darkened their very hearts!",
+   "ru": "",
+   "uk_ai": "Саурон затьмарив самі їхні серця!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirofficer009",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "We have taken the dock!",
+   "ru": "",
+   "uk_ai": "Ми захопили причал!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn408",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "This vessel will do.",
+   "ru": "",
+   "uk_ai": "Цей човен згодиться.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas122",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "We will wait for you, until you open the gates.",
+   "ru": "",
+   "uk_ai": "Ми чекатимемо на тебе, доки ти не відчиниш браму.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli129",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Be careful, laddie.",
+   "ru": "",
+   "uk_ai": "Обережно там, хлопче.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn409",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "I must reach the beacon...",
+   "ru": "",
+   "uk_ai": "Мені треба дістатися маяка...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn365",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "These tokens are symbols of Umbarian authority. It could come in useful...",
+   "ru": "",
+   "uk_ai": "Ці знаки — символи влади Умбару. Можуть стати в пригоді...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn412",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "It is done. This should hasten Angbor's forces. Now I must reach the city and make for the gate before we are discovered.",
+   "ru": "",
+   "uk_ai": "Зроблено. Це пришвидшить війська Анґбора. Тепер треба дістатися міста й прослизнути до брами, поки нас не викрили.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn396",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "This tower was built long ago, when Númenorean Mariners first established this City. I am glad to see it has escaped destruction.",
+   "ru": "",
+   "uk_ai": "Цю вежу збудували давно, коли нуменорські мореплавці щойно заснували це Місто. Радий, що руйнування її оминуло.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn371",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "That looks like the safest place to enter the City...",
+   "ru": "",
+   "uk_ai": "Схоже, звідти найбезпечніше пробратися в Місто...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn413",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "I have been discovered! I cannot hide from this assassin... I must fight!",
+   "ru": "",
+   "uk_ai": "Мене викрили! Від цього вбивці не сховатися... Доведеться битися!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn404",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "I cannot get close. I must find a way to distract them.",
+   "ru": "",
+   "uk_ai": "Мені не підійти ближче. Треба якось їх відволікти.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_corsair043",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Did you see that huge stack of firepots? Wonder what the bosun's planning...",
+   "ru": "",
+   "uk_ai": "Бачив ту здоровенну купу вогняних горщиків? Цікаво, що боцман задумав...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_corsair044",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "I reckon they're going to blow up the lighthouse. That's gonna be quite a blast...",
+   "ru": "",
+   "uk_ai": "Гадаю, вони хочуть висадити маяк у повітря. Оце буде вибух...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_corsair045",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Oh aye, it'll be heard for miles around!",
+   "ru": "",
+   "uk_ai": "Еге ж, на милі довкола чути буде!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn405",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "If I could set off this cache of firepots, it should draw their attention.",
+   "ru": "",
+   "uk_ai": "Якщо підпалити цей склад вогняних горщиків, це має привернути їхню увагу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn406",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "It is alight. I must get to safety!",
+   "ru": "",
+   "uk_ai": "Займається. Треба сховатися!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn407",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "That will bring them running. Perhaps I can reach the gate now.",
+   "ru": "",
+   "uk_ai": "Тепер вони збіжаться. Може, тепер я дістануся брами.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mfotr_aragorn399",
+   "mission": "004_The Return of the King",
+   "type": "Інше",
+   "en": "The Water Gate. Opening this will free up passage from the River.",
+   "ru": "",
+   "uk_ai": "Водяна брама. Якщо її відчинити, звільниться прохід з Ріки.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad046",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Look, they have captured more soldiers!",
+   "ru": "",
+   "uk_ai": "Дивіться, вони захопили ще воїнів!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad047",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "More captives!",
+   "ru": "",
+   "uk_ai": "Ще полонені!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirofficer016",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "My lord, the corsairs are using our guard towers to reinforce their army! We must reclaim them!",
+   "ru": "",
+   "uk_ai": "Мій пане, пірати використовують наші сторожові вежі, щоб поповнювати військо! Треба їх відвоювати!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elrohir051",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Capture the tower, quick!",
+   "ru": "",
+   "uk_ai": "Захопіть вежу, швидше!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elrohir049",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Claim it!",
+   "ru": "",
+   "uk_ai": "Займіть її!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_burodapan003",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Thorongil comes! He pursues a vain ambition. The deep one will come for all.",
+   "ru": "",
+   "uk_ai": "Торонґіл іде! Марні його прагнення. Той, хто з глибин, прийде по всіх.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_burodapan004",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Draw steel!",
+   "ru": "",
+   "uk_ai": "Оголюйте клинки!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_burodapan005",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Awaken the sleeper!",
+   "ru": "",
+   "uk_ai": "Розбудіть сплячого!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_burodapan006",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Obey, creature!",
+   "ru": "",
+   "uk_ai": "Корись, створіння!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_burodapan007",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Come forth from the darkest depths!",
+   "ru": "",
+   "uk_ai": "Вийди з найтемніших глибин!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_burodapan008",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "We are not strong enough yet... back! Across the bridge!",
+   "ru": "",
+   "uk_ai": "Ми ще недостатньо сильні... назад! Через міст!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad052",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "We will oust you, pretenders!",
+   "ru": "",
+   "uk_ai": "Ми вас виженемо, самозванці!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn459",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "The dread horn is sounded! Beware! They will fight with strength renewed!",
+   "ru": "",
+   "uk_ai": "Засурмив страшний ріг! Стережіться! Вони битимуться з новою силою!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli138",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Their fell horn rouses them again! We must destroy it!",
+   "ru": "",
+   "uk_ai": "Їхній лихий ріг знову піднімає їх! Ми мусимо його знищити!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elladan046",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "This city burns!",
+   "ru": "",
+   "uk_ai": "Місто палає!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_haldir022",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "If we do not act quickly, all the free peoples shall share the grim fate of this city!",
+   "ru": "",
+   "uk_ai": "Якщо не діятимемо швидко, всі вільні народи спіткає похмура доля цього міста!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elrohir050",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "We must save all that we can!",
+   "ru": "",
+   "uk_ai": "Ми мусимо врятувати все, що зможемо!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad051",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "You and your lords will pay for your incursions!",
+   "ru": "",
+   "uk_ai": "Ви та ваші володарі заплатите за свої набіги!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas124",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Steel yourselves. The Enemy comes!",
+   "ru": "",
+   "uk_ai": "Готуйтеся. Ворог іде!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad049",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "They have set the streets ablaze! We must rescue all that we can!",
+   "ru": "",
+   "uk_ai": "Вони підпалили вулиці! Ми мусимо врятувати всіх, кого зможемо!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirofficer018",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "The outer district is secure. We must push onto the citadel!",
+   "ru": "",
+   "uk_ai": "Зовнішній квартал у безпеці. Тепер — на цитадель!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad050",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "We will push you back into the sea!",
+   "ru": "",
+   "uk_ai": "Ми скинемо вас назад у море!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirofficer019",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Look ahead - they've blocked our passage. We'll have to smash through it!",
+   "ru": "",
+   "uk_ai": "Попереду — вони перекрили нам шлях. Доведеться прорубуватися!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas131",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "The landing is clear, but the island is heavily guarded.",
+   "ru": "",
+   "uk_ai": "Місце висадки вільне, але острів добре охороняють.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli114",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Pah, nothing we haven't faced before.",
+   "ru": "",
+   "uk_ai": "Пф, нічого такого, з чим ми ще не стикалися.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn424",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Come, my friends! It is time to reclaim Tol Rammath!",
+   "ru": "",
+   "uk_ai": "Вперед, друзі! Час відвоювати Тол-Раммат!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad053",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "You will fear the sons of Arnor!",
+   "ru": "",
+   "uk_ai": "Ви ще затремтите перед синами Арнору!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_cassimir005",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "The Blood of the West courses through my veins!",
+   "ru": "",
+   "uk_ai": "У моїх жилах тече Кров Заходу!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_cassimir010",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "You will pay!",
+   "ru": "",
+   "uk_ai": "Ти заплатиш!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_cassimir011",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Fall like the dog you really are!",
+   "ru": "",
+   "uk_ai": "Здохни, як пес, яким ти і є!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_cassimir006",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "I will not fall... I will not!",
+   "ru": "",
+   "uk_ai": "Я не впаду... не впаду!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_cassimir008",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "The high blood of Umbar is not yet spent!",
+   "ru": "",
+   "uk_ai": "Висока кров Умбару ще не вичерпана!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_cassimir009",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Vengeance is mine!",
+   "ru": "",
+   "uk_ai": "Помста — моя!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_cassimir013",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "I will not die!",
+   "ru": "",
+   "uk_ai": "Я не помру!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_cassimir007",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "No... my line...",
+   "ru": "",
+   "uk_ai": "Ні... мій рід...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad057",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Lord Angbor is in trouble!",
+   "ru": "",
+   "uk_ai": "Володар Анґбор у біді!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli111",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Gimli: What is this place? This rock? I have never seen its like.",
+   "ru": "",
+   "uk_ai": "Ґімлі: Що це за місце? Що за камінь? Я такого ще не бачив.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn367A",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Aragorn: It is the Stone of Erech. Brought out of the ruin of Númenor, it was placed here by Isildur when he landed in Gondor.",
+   "ru": "",
+   "uk_ai": "Араґорн: Це Камінь Ереха. Його винесли з руїн Нуменору, і поставив його тут Ісілдур, коли висадився в Ґондорі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn367B",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Aragorn: It was at this Oathstone that the Men of the Mountain swore their false fealty, and sealed their fate.",
+   "ru": "",
+   "uk_ai": "Араґорн: Саме на цьому Камені Присяги люди гір присягнули у фальшивій вірності — і вирішили свою долю.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas120",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Legolas: They have followed us here.",
+   "ru": "",
+   "uk_ai": "Леґолас: Вони пішли за нами сюди.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn237",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Aragorn: Oathbreakers, why have you come?",
+   "ru": "",
+   "uk_ai": "Араґорн: Порушники присяги, навіщо ви прийшли?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_kod031",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "King of the Dead: To fulfil our oath and have peace.",
+   "ru": "",
+   "uk_ai": "Король Мертвих: Щоб виконати нашу присягу й здобути спокій.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn238",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Aragorn: The hour of doom is now upon us. I will go to Pelargir upon Anduin, and you shall come after me.",
+   "ru": "",
+   "uk_ai": "Араґорн: Година долі настала. Я піду до Пеларґіра над Андуїном, а ви підете за мною.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn239",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Aragorn: And when this land is clean of the servants of Sauron, I will hold the oath fulfilled, and you shall have peace and depart.",
+   "ru": "",
+   "uk_ai": "Араґорн: І коли цю землю буде очищено від слуг Саурона, я визнаю присягу виконаною, і ви здобудете спокій і підете.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn240",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Aragorn: For I am Elessar, the Heir of Isildur of Gondor.",
+   "ru": "",
+   "uk_ai": "Араґорн: Бо я — Елессар, спадкоємець Ісілдура з Ґондору.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elladan049",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Elladan: The wind carries the sounds of battle!",
+   "ru": "",
+   "uk_ai": "Елладан: Вітер доносить звуки битви!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas121",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Legolas: Look ahead! A skirmish!",
+   "ru": "",
+   "uk_ai": "Леґолас: Дивіться, попереду! Сутичка!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn370",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Aragorn: Let us hasten to their aid!",
+   "ru": "",
+   "uk_ai": "Араґорн: Поспішімо їм на допомогу!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirofficer001",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Pelargir Officer: You have my thanks. But who are you? Why have you come upon Pelargir in its hour of ruin?",
+   "ru": "",
+   "uk_ai": "Офіцер Пеларґіра: Дякую вам. Але хто ви? Чому прийшли до Пеларґіра в годину його загибелі?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn241",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Aragorn: I am Aragorn, son of Arathorn. My companions and I have come to liberate the lands of Gondor.",
+   "ru": "",
+   "uk_ai": "Араґорн: Я — Араґорн, син Араторна. Ми з товаришами прийшли визволити землі Ґондору.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirofficer002",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Pelargir Officer: My lord... Pelargir burns. The Southrons have come in numbers as yet unseen in our lifetimes.",
+   "ru": "",
+   "uk_ai": "Офіцер Пеларґіра: Мій пане... Пеларґір палає. Південці прийшли в такій силі, якої ми ще не бачили за свого життя.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirofficer003",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Pelargir Officer: They are inside the walls, and guard all passages into the City, by land or by water.\n I fear that soon there will be naught left but smouldering stone.",
+   "ru": "",
+   "uk_ai": "Офіцер Пеларґіра: Вони вже в мурах і стережуть усі шляхи до Міста — і суходолом, і водою.\n Боюся, скоро тут лишиться саме тліюче каміння.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirofficer004",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Pelargir Officer: We have received word that Angbor of Lamedon is coming, but time is against us\n - and we have no means of entering the City.",
+   "ru": "",
+   "uk_ai": "Офіцер Пеларґіра: Ми отримали звістку, що йде Анґбор із Ламедону, але час проти нас\n — і нам нема як потрапити в Місто.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn242",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Aragorn: And yet we must. That Gate needs to be opened from within.",
+   "ru": "",
+   "uk_ai": "Араґорн: А все ж мусимо. Ту Браму треба відчинити зсередини.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirofficer005",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Pelargir Officer: But how?",
+   "ru": "",
+   "uk_ai": "Офіцер Пеларґіра: Але як?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn267",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Aragorn: I will go.",
+   "ru": "",
+   "uk_ai": "Араґорн: Піду я.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli112",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Gimli: It is a dangerous task...",
+   "ru": "",
+   "uk_ai": "Ґімлі: Це небезпечна справа...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn268",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Aragorn: Do not worry, Gimli. I can avoid being seen if I wish.",
+   "ru": "",
+   "uk_ai": "Араґорн: Не хвилюйся, Ґімлі. Якщо захочу, мене ніхто не побачить.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirofficer006",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Pelargir Officer: We might hasten Angbor's arrival by reclaiming the island of Barad Ciryn.\n The beacon can be seen from afar, and does not burn by day unless catastrophe is upon the City.",
+   "ru": "",
+   "uk_ai": "Офіцер Пеларґіра: Прибуття Анґбора можна пришвидшити, якщо відвоювати острів Барад-Кірин.\n Його маяк видно здалеку, і вдень він горить лише тоді, коли Місту загрожує лихо.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn364",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Aragorn: Then I will reclaim it. But first, I need a boat.",
+   "ru": "",
+   "uk_ai": "Араґорн: Тоді я його відвоюю. Але спершу мені потрібен човен.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirofficer007",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Pelargir Officer: There is an old dock not far from here. But the southrons covet this landing, and will fight to keep it.",
+   "ru": "",
+   "uk_ai": "Офіцер Пеларґіра: Неподалік є старий причал. Але південці зазіхають на цю пристань і битимуться за неї.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirofficer008",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Pelargir Officer: We will need our full strength to reclaim the beach. Let us establish a camp and bolster our forces.",
+   "ru": "",
+   "uk_ai": "Офіцер Пеларґіра: Щоб відвоювати берег, нам знадобляться всі сили. Розіб'ємо табір і зміцнимо військо.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirciv004",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Dying Guard: You... who are you?",
+   "ru": "",
+   "uk_ai": "Умираючий вартовий: Ти... хто ти?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirciv001",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Dying Guard: They are everywhere... Pelargir has fallen.",
+   "ru": "",
+   "uk_ai": "Умираючий вартовий: Вони всюди... Пеларґір упав.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn372",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Aragorn: Not yet. Help will come.",
+   "ru": "",
+   "uk_ai": "Араґорн: Ще ні. Допомога прийде.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirciv002",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Dying Guard: They are guarding the gate. None can make it out or in.",
+   "ru": "",
+   "uk_ai": "Умираючий вартовий: Вони стережуть браму. Ніхто не може ні вийти, ні ввійти.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirciv006",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Dying Guard: They're stockpiling their infernal firepots. Who knows what they're planning...",
+   "ru": "",
+   "uk_ai": "Умираючий вартовий: Вони збирають свої пекельні вогняні горщики. Хтозна, що вони задумали...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn373",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Aragorn: Save your strength.",
+   "ru": "",
+   "uk_ai": "Араґорн: Бережи сили.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirciv003",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Dying Guard: It matters little. Cloaked in black... he appeared from\nthe shadows... and shot me with a poisoned bolt.",
+   "ru": "",
+   "uk_ai": "Умираючий вартовий: Це вже не важливо. У чорному плащі... він вийшов із\nтіні... і влучив у мене отруйним болтом.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn397",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Aragorn: Be still.",
+   "ru": "",
+   "uk_ai": "Араґорн: Лежи тихо.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn398",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Aragorn: That should slow the poison and stem the bleeding.\nStay out of sight until this is over.",
+   "ru": "",
+   "uk_ai": "Араґорн: Це сповільнить дію отрути й зупинить кровотечу.\nНе показуйся, доки все не скінчиться.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirciv005",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Dying Guard: Thank you... my lord.",
+   "ru": "",
+   "uk_ai": "Умираючий вартовий: Дякую... мій пане.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn400",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Aragorn: Black cloaks... poisoned darts. The Hasharin have come.",
+   "ru": "",
+   "uk_ai": "Араґорн: Чорні плащі... отруйні дротики. Прийшли гашаріни.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn427x",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Aragorn: They are a dangerous foe... and the streets are teeming with guards.\nI should stay out of sight, lest I bring the whole garrison down upon my head.",
+   "ru": "",
+   "uk_ai": "Араґорн: Це небезпечний ворог... а на вулицях аж кишить вартою.\nКраще не показуватися, щоб не накликати на себе весь гарнізон.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:hint_hasharin_warning02",
+   "mission": "004_The Return of the King",
+   "type": "Інше",
+   "en": "Killing too many guards will alert Hasharin assassins. They must be defeated for Aragorn to remain undetected.",
+   "ru": "",
+   "uk_ai": "Якщо вбити забагато вартових, це насторожить убивць-гашарінів. Щоб Араґорна не викрили, їх треба здолати.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:hint_hasharin_warning03",
+   "mission": "004_The Return of the King",
+   "type": "Інше",
+   "en": "Hasharin will always detect Aragorn, even when he is stealthed, if he enters their vision.",
+   "ru": "",
+   "uk_ai": "Гашаріни завжди помітять Араґорна, навіть у режимі скритності, якщо він потрапить у їхнє поле зору.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn428",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Aragorn: I can use these alleyways to slip past the guards.",
+   "ru": "",
+   "uk_ai": "Араґорн: Цими провулками можна прослизнути повз вартових.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:hint_hasharin_warning04",
+   "mission": "004_The Return of the King",
+   "type": "Інше",
+   "en": "While undetected, Aragorn can use these areas to avoid guards.",
+   "ru": "",
+   "uk_ai": "Поки його не помітили, Араґорн може ховатися в цих місцях від вартових.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_angbor001",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Angbor: The heir of Isildur emerges unscathed from amongst the wreckage\n of the Enemy. We live in strange times indeed.",
+   "ru": "",
+   "uk_ai": "Анґбор: Спадкоємець Ісілдура виходить неушкодженим з-поміж уламків\n ворожого війська. Дивні ж настали часи.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn401",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Aragorn: Hail, Lord Angbor. Your arrival is most timely.",
+   "ru": "",
+   "uk_ai": "Араґорн: Вітаю, володарю Анґборе. Ти прибув якраз вчасно.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli115",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Gimli: Well done, lad! Now, allow us to do our part.",
+   "ru": "",
+   "uk_ai": "Ґімлі: Молодець, хлопче! А тепер дозволь і нам зробити своє.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_legolas125",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Legolas: This city of Men will be free once more.",
+   "ru": "",
+   "uk_ai": "Леґолас: Це місто людей знову буде вільним.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirofficer011",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Look! They're raising the bridge!",
+   "ru": "",
+   "uk_ai": "Дивіться! Вони піднімають міст!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirofficer012",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Pelargir Officer: We've driven them back, but the fight is not yet over.",
+   "ru": "",
+   "uk_ai": "Офіцер Пеларґіра: Ми їх відкинули, але бій ще не скінчено.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirofficer013",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Pelargir Officer: It seems they intend to withstand us from the Citadel.",
+   "ru": "",
+   "uk_ai": "Офіцер Пеларґіра: Схоже, вони збираються оборонятися в Цитаделі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirofficer014",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Pelargir Officer: They're defending the island by blockade. We must attempt to break through, and land where the wall has been breached!",
+   "ru": "",
+   "uk_ai": "Офіцер Пеларґіра: Вони заблокували острів. Треба спробувати прорватися й висадитися там, де мур проломлено!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pelargirofficer015",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Pelargir Officer: There is an abandoned black ship nearby. Let us board this vessel and take the fight to them!",
+   "ru": "",
+   "uk_ai": "Офіцер Пеларґіра: Неподалік стоїть покинутий чорний корабель. Піднімімося на борт і понесімо бій до них!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn414",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Aragorn: Your time is at hand, Men of the Mountain! Come forth and lend us your aid!",
+   "ru": "",
+   "uk_ai": "Араґорн: Ваш час настав, люди гір! Виходьте й допоможіть нам!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_kod032",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "King of the Dead: Stand, ye wrathful dead! Fight now, and earn the rest you crave!",
+   "ru": "",
+   "uk_ai": "Король Мертвих: Вставайте, гнівні мерці! Бийтеся — і здобудете спокій, якого прагнете!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_burodapan001",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Burodapan: You old fool! We should have left when we had the chance! Now he is upon us!",
+   "ru": "",
+   "uk_ai": "Буродапан: Старий ти дурню! Треба було тікати, поки була змога! Тепер він уже тут!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_cassimir001",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Cassimir: Be off then, you plundering coward! I will avenge our father.",
+   "ru": "",
+   "uk_ai": "Кассімір: То тікай, грабіжнику-боягузе! Я помщуся за нашого батька.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_cassimir002",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Cassimir: Thorongil's head will be on a spike outside of my palace, and all shall know the supremacy of the line of Herumor!",
+   "ru": "",
+   "uk_ai": "Кассімір: Голова Торонґіла стирчатиме на палі перед моїм палацом, і всі пізнають зверхність роду Херумора!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_burodapan002",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Burodapan: I will not die for your lordship, brother. This war is a fool's errand. I serve a greater purpose.",
+   "ru": "",
+   "uk_ai": "Буродапан: Я не помиратиму за твою владу, брате. Ця війна — безглузда затія. Я служу вищій меті.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn425",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "The Enemy sends forth more of their ships. I will send the Dead to bar their passage.",
+   "ru": "",
+   "uk_ai": "Ворог посилає нові кораблі. Я пошлю Мертвих перекрити їм шлях.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_cassimir003",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Cassimir: Thorongil! Today, I will do what my father could not. Your false line ends here!",
+   "ru": "",
+   "uk_ai": "Кассімір: Торонґіле! Сьогодні я зроблю те, чого не зміг мій батько. Твій фальшивий рід скінчиться тут!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn426",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Aragorn: Surrender, lord, and I will grant you clemency.",
+   "ru": "",
+   "uk_ai": "Араґорн: Здайся, володарю, і я тебе помилую.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_cassimir004",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Cassimir: I will not bow. Draw your sword!",
+   "ru": "",
+   "uk_ai": "Кассімір: Я не схилюся. Оголюй меч!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_cassimir012",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Once you have fallen, your city will be next!",
+   "ru": "",
+   "uk_ai": "Коли ти впадеш, наступним буде твоє місто!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_kod015",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "King of the Dead: Release us!",
+   "ru": "",
+   "uk_ai": "Король Мертвих: Звільни нас!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_kod016",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "King of the Dead: You gave us your word!",
+   "ru": "",
+   "uk_ai": "Король Мертвих: Ти дав нам слово!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli069",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Gimli: They have fought mightily. Their debt is surely paid.",
+   "ru": "",
+   "uk_ai": "Ґімлі: Вони билися звитяжно. Їхній борг напевно сплачено.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn227",
+   "mission": "004_The Return of the King",
+   "type": "Діалог",
+   "en": "Aragorn: I hold your oath fulfilled... Go... be at peace.",
+   "ru": "",
+   "uk_ai": "Араґорн: Я визнаю вашу присягу виконаною... Ідіть... спочивайте в мирі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:FailsafeTimer",
+   "mission": "004_The Return of the King",
+   "type": "Інше",
+   "en": "Stuck hero will be teleported in:",
+   "ru": "",
+   "uk_ai": "Героя, що застряг, буде перенесено через:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:stealth_kills",
+   "mission": "004_The Return of the King",
+   "type": "Інше",
+   "en": "Kills Until Detection :",
+   "ru": "",
+   "uk_ai": "Вбивств до викриття:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Reinforcements",
+   "mission": "004_The Return of the King",
+   "type": "Інше",
+   "en": "Reinforcements have landed in the north.",
+   "ru": "",
+   "uk_ai": "На півночі висадилося підкріплення.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Horn_Timer",
+   "mission": "004_The Return of the King",
+   "type": "Інше",
+   "en": "Horn of Karna is sounded in:",
+   "ru": "",
+   "uk_ai": "Ріг Карни засурмить через:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Horn_Start",
+   "mission": "004_The Return of the King",
+   "type": "Інше",
+   "en": "Burodapan possesses the Horn of Karna. When it sounds, the Corsairs under his command grow far more dangerous.",
+   "ru": "",
+   "uk_ai": "У Буродапана є Ріг Карни. Коли він сурмить, пірати під його проводом стають набагато небезпечнішими.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Horn_Fire",
+   "mission": "004_The Return of the King",
+   "type": "Інше",
+   "en": "The Horn of Karna drives the Corsairs to madness. They will deal more damage while under its influence",
+   "ru": "",
+   "uk_ai": "Ріг Карни доводить піратів до шаленства. Під його впливом вони завдають більше шкоди",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective01_RotK",
+   "mission": "004_The Return of the King",
+   "type": "Ціль",
+   "en": "Find all hidden treasures",
+   "ru": "",
+   "uk_ai": "Знайдіть усі сховані скарби",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective04_RotK",
+   "mission": "004_The Return of the King",
+   "type": "Ціль",
+   "en": "Placeholder",
+   "ru": "",
+   "uk_ai": "Заглушка",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective05_RotK",
+   "mission": "004_The Return of the King",
+   "type": "Ціль",
+   "en": "Placeholder",
+   "ru": "",
+   "uk_ai": "Заглушка",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:AngborTimer_RotK",
+   "mission": "004_The Return of the King",
+   "type": "Інше",
+   "en": "Angbor will arrive in:",
+   "ru": "",
+   "uk_ai": "Анґбор прибуде через:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gimli113",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Baruk Khazad!",
+   "ru": "",
+   "uk_ai": "Барук Казад! (Дворфійські сокири!)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_corsair040",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Hark! Who are you, and where'd you come from?",
+   "ru": "",
+   "uk_ai": "Стій! Хто ти й звідки взявся?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_corsair041",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Oh, aye? I think not. Get him!",
+   "ru": "",
+   "uk_ai": "Ага, аякже? Щось не віриться. Хапай його!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_corsair042",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Get over here! We’re getting clobbered!",
+   "ru": "",
+   "uk_ai": "Сюди! Нас тут лупцюють!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_bnum029",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Who contests our right of conquest!?",
+   "ru": "",
+   "uk_ai": "Хто сміє заперечувати наше право завойовника!?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn410",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Your cruelty ends here!",
+   "ru": "",
+   "uk_ai": "Твоїй жорстокості настав кінець!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn411",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "You should not have entered Gondor!",
+   "ru": "",
+   "uk_ai": "Не слід було тобі приходити в Ґондор!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:hint_hasharin_warning01",
+   "mission": "004_The Return of the King",
+   "type": "Інше",
+   "en": "Aragorn must avoid being detected.",
+   "ru": "",
+   "uk_ai": "Араґорн не повинен потрапити на очі ворогам.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_aragorn374",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "They seek to overrun us!",
+   "ru": "",
+   "uk_ai": "Вони хочуть нас розчавити!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_corsair004",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "We have been deceived! Defend the port!",
+   "ru": "",
+   "uk_ai": "Нас ошукали! Захищайте порт!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_angbor002",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Let us be rid of these Southron invaders!",
+   "ru": "",
+   "uk_ai": "Позбудьмося цих південних загарбників!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_angbor003",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Clear them out! Throw them back into the sea!",
+   "ru": "",
+   "uk_ai": "Виженіть їх! Скиньте назад у море!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_angbor004",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Give them no quarter! No reprieve!",
+   "ru": "",
+   "uk_ai": "Жодної пощади! Жодного перепочинку!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_angbor011",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Show them the wrath of Lamedon!",
+   "ru": "",
+   "uk_ai": "Покажіть їм гнів Ламедону!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Hint_Towers",
+   "mission": "004_The Return of the King",
+   "type": "Інше",
+   "en": "All guard towers in Pelargir must be reclaimed.",
+   "ru": "",
+   "uk_ai": "Треба відвоювати всі сторожові вежі Пеларґіра.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elladan044",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Draw your weapons!",
+   "ru": "",
+   "uk_ai": "До зброї!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elladan045",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Push forward!",
+   "ru": "",
+   "uk_ai": "Вперед!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elladan048",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "We must hold this position!",
+   "ru": "",
+   "uk_ai": "Ми мусимо втримати цю позицію!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elrohir047",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Fight with all your might!",
+   "ru": "",
+   "uk_ai": "Бийтеся щосили!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elrohir048",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "let nothing stand in our way!",
+   "ru": "",
+   "uk_ai": "Ніщо не стане нам на заваді!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elrohir052",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "They seek to overrun us!",
+   "ru": "",
+   "uk_ai": "Вони хочуть нас розчавити!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_haldir020",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Flee or be slain where you stand!",
+   "ru": "",
+   "uk_ai": "Тікайте, або загинете на місці!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_haldir023",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Aragorn, watch out!",
+   "ru": "",
+   "uk_ai": "Араґорне, обережно!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad039",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "This is Aragorn, son of Arathorn. He is the heir of Elendil, and to the Throne of Gondor.",
+   "ru": "",
+   "uk_ai": "Це Араґорн, син Араторна. Він спадкоємець Еленділа й Трону Ґондору.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad041",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Soon we will return north, to the ruins of Annuminas. Though I suspect it will not be ruined for long.",
+   "ru": "",
+   "uk_ai": "Незабаром ми повернемося на північ, до руїн Аннуміноса. Хоча, гадаю, руїнами він лишатиметься недовго.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad042",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "We've done it. The tower is ours!",
+   "ru": "",
+   "uk_ai": "Нам вдалося. Вежа наша!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad043",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Their banners have been struck! This tower belongs to us.",
+   "ru": "",
+   "uk_ai": "Їхні стяги спущено! Ця вежа належить нам.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad044",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Only one tower remains to them, let us claim it!",
+   "ru": "",
+   "uk_ai": "У них лишилася тільки одна вежа — займімо її!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad045",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "The forces of Umbar overrun this area. We should find another way.",
+   "ru": "",
+   "uk_ai": "Тут хазяйнують війська Умбару. Треба шукати інший шлях.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad055",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "They bring up reinforcements!",
+   "ru": "",
+   "uk_ai": "Вони підтягують підкріплення!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_halbarad056",
+   "mission": "004_The Return of the King",
+   "type": "Репліка",
+   "en": "Stand your ground, more are coming!",
+   "ru": "",
+   "uk_ai": "Тримайте позиції, йдуть іще!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AragornRangerSubtlety",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Ranger's Subtlety (&T)",
+   "ru": "Хитрость следопыта (&R)",
+   "uk_ai": "Пильність слідопита (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AragornRareGift",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "A Rare Gift (&C)",
+   "ru": "Редкий дар (&T)",
+   "uk_ai": "Рідкісний дар (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AragornShipSleeplessDead",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "The Sleepless Dead (&T)",
+   "ru": "",
+   "uk_ai": "Безсонні Мерці (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AragornSwiftDispatch",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Swift Dispatch (&R)",
+   "ru": "Быстрая отправка (&W)",
+   "uk_ai": "Швидка розправа (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AragornToken",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Token of Umbar (&V)",
+   "ru": "Эмблема Умбара (&C)",
+   "uk_ai": "Трофей Умбару (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BlackUrukVenomArrows",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Venom-tipped Arrows (&W)",
+   "ru": "",
+   "uk_ai": "Отруєні стріли (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructHaradUmbarBoatswain",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Umbar Boatswain (&T)",
+   "ru": "",
+   "uk_ai": "Умбарський боцман (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructHaradUmbarDeckguardHorde",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Umbar Deck-guards (&R)",
+   "ru": "",
+   "uk_ai": "Умбарська палубна варта (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructHaradUmbarMarksmanHorde",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Umbar Marksmen (&E)",
+   "ru": "",
+   "uk_ai": "Умбарські стрільці (&E)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructHaradUmbarRaiderHorde",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Umbar Raiders (&W)",
+   "ru": "",
+   "uk_ai": "Умбарські грабіжники (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructHaradwaithHasharinBlade",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Hasharin Blade (&S)",
+   "ru": "Клинок Хашарина (&S)",
+   "uk_ai": "Клинок гашаріну (&S)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorBarricadeExpansion",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Barricade Expansion (&E)",
+   "ru": "Башня стрелков (&E)",
+   "uk_ai": "Прибудова: барикада (&E)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorGateWatchersExpansion",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Gate Watchers Expansion (&R)",
+   "ru": "Хранители врат (&R)",
+   "uk_ai": "Прибудова: Вартові брами (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorWallCatapultExpansion",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Catapult Expansion (&W)",
+   "ru": "Катапульта (&W)",
+   "uk_ai": "Прибудова: катапульта (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElessarOathbreakerRotK",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Fulfill Your Oath! (&C)",
+   "ru": "",
+   "uk_ai": "Виконайте свою присягу! (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellowshipAragornBlademasterRotK",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Faithful Protector (&R)",
+   "ru": "",
+   "uk_ai": "Вірний захисник (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellowshipAthelasRotK",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Kingsfoil (&W)",
+   "ru": "",
+   "uk_ai": "Атгелас — королівське листя (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KarnaBloodCurse",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Blood Curse of Kârna (&R)",
+   "ru": "",
+   "uk_ai": "Криваве прокляття Карни (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAragornRangerSubtlety",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Aragorn gains +150% vision range for 25 seconds\nLeft click to activate",
+   "ru": "Арагорн получает +150% обзора на 25 секунд\nПассивная способность",
+   "uk_ai": "Араґорн отримує бонус +150% дальності огляду на 25 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipAragornRareGift",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Aragorn becomes stealthed and can neither attack nor be attacked for 10 seconds\nLeft click to activate",
+   "ru": "Арагорн становится невидимым и не может ни атаковать, ни быть атакованным в течение 10 секунд\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Араґорн стає невидимим: 10 сек. він не може ні атакувати, ні зазнати атаки\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAragornSwiftDispatch",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Aragorn quickly throws his knife, dealing strong damage to the targeted enemy unit\nLeft click then left click on target",
+   "ru": "Арагорн метает свой нож, нанося сильный урон цели или активируя целевую ловушку\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Араґорн блискавично кидає ніж, завдаючи сильних пошкоджень вказаному ворожому загону\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAragornToken",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Enemy units within the radius are stunned for 8 seconds\n Left click icon then left click on target",
+   "ru": "Вражеские отряды в радиусе действия оглушаются на 8 секунд\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Ворожі загони в радіусі дії приголомшені на 8 сек.\n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBlackUrukVenomArrows",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Black Uruk Hunters shoot venom-tipped arrows that cause damage over time for 15 seconds\nLeft click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Чорні уруки-мисливці стріляють отруєними стрілами, що завдають поступових пошкоджень протягом 15 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildHaradUmbarBoatswain",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Strong vs. Swordsmen and Pikemen\nUnquestionably loyal to Burôdapân, the Boatswain keeps the Black Fleet's crew in order through fear - woe to those foolish enough to question the Bosun's orders.",
+   "ru": "",
+   "uk_ai": "Ефективний проти: мечники й пікінери\nБезмежно відданий Буродапанові, боцман тримає команду Чорного флоту в покорі страхом — горе тим, хто наважиться перечити його наказам.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildHaradUmbarDeckguardHorde",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Strong vs. Cavalry and Heroes \n Able to switch formation for improved defensive capabilities\n\nPlunderer Bonus\nModifier Type: Spell\nCorsairs of Umbar gain +5% damage for every nearby Corsair horde, up to a maximum of +35% damage\n \n Under the command of the Lord of Waves, the Corsairs of Umbar bring terror to the seas - leaving ruin and destruction in their wake.",
+   "ru": "",
+   "uk_ai": "Ефективні проти: кавалерія й герої \n Можуть змінювати стрій для кращого захисту\n\nБонус грабіжників\nТип ефекту: Заклинання\nПірати Умбару отримують бонус +5% до пошкоджень за кожну орду піратів поблизу, але не більше +35%\n \n Під командуванням Володаря Хвиль пірати Умбару сіють жах на морях, лишаючи по собі руїни й спустошення.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildHaradUmbarMarksmanHorde",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Strong vs. Infantry\n\nPlunderer Bonus\nModifier Type: Spell\nCorsairs of Umbar gain +5% damage for every nearby Corsair horde, up to a maximum of +35% damage\n \n Whilst pillaging enemy settlements, the Corsairs of Umbar let loose cruel arrow volleys from the safety of the Black Fleet.",
+   "ru": "",
+   "uk_ai": "Ефективні проти: піхота\n\nБонус грабіжників\nТип ефекту: Заклинання\nПірати Умбару отримують бонус +5% до пошкоджень за кожну орду піратів поблизу, але не більше +35%\n \n Грабуючи ворожі поселення, пірати Умбару безжально засипають їх стрілами з безпечних палуб Чорного флоту.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildHaradUmbarRaiderHorde",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Strong vs. Pikemen\n\nPlunderer Bonus\nModifier Type: Spell\nCorsairs of Umbar gain +5% damage for every nearby Corsair horde, up to a maximum of +35% damage\n \n Theives, brigands and vagabonds, these swarthy Men of Umbar have long been a thorn in the side of Gondor's coastal Fiefdoms.",
+   "ru": "",
+   "uk_ai": "Ефективні проти: пікінери\n\nБонус грабіжників\nТип ефекту: Заклинання\nПірати Умбару отримують бонус +5% до пошкоджень за кожну орду піратів поблизу, але не більше +35%\n \n Злодії, розбійники й волоцюги — ці смагляві люди Умбару здавна були скалкою в оці прибережних ленів Ґондору.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildHaradwaithHasharinBlade",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Requires Level 2 Sanctum of Zigûr \n Strong vs. Heroes \n Limited to 5 \n \n The Hasharin are an order of assassins founded by the wicked Syâr-Rhul in order to silence and intimidate the Golden King's adversaries amongst the Haradrim tribes",
+   "ru": "Требуется Святилище Зигура 3 уровня\nСильны против героев\nОграничение - 5\n\nХашарин - орден убийц, основанный злобным Сияр-Рулом, чтобы запугать и заставить молчать врагов Золотого короля среди племен харадрим.",
+   "uk_ai": "Потрібно Святилище Зіґура, рівень 2 \n Ефективні проти: герої \n Максимум 5 одночасно \n \n Гашаріни — орден убивць, заснований підступним Сіар-Рулом, щоб змушувати до мовчання й залякувати супротивників Золотого Короля серед племен харадримів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCorsairShipSleeplessDead",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Summons a temporary horde of Sleepless Dead\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Закликає тимчасову орду Безсонних Мерців\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElessarOathbreakerRotK",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Summons an army of Oathbreakers that will kill and terrify anything in its path\nLeft click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Закликає військо порушників присяги, що вбиває й наганяє жах на все на своєму шляху\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKarnaBloodCurse",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Allied units mapwide gain +75% damage, +20% movement speed and immunity to fear, terror and debuffs for 30 seconds\n Left click to activate",
+   "ru": "",
+   "uk_ai": "Союзні загони по всій мапі отримують бонус +75% до пошкоджень, +20% швидкості руху й імунітет до страху, жаху та ослаблень на 30 сек.\n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipVortexFear",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Summons a spectral whirlpool to destroy enemy ship\nLeft click then left click target location",
+   "ru": "",
+   "uk_ai": "Викликає примарний вир, що знищує ворожий корабель\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:VortexFear",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Vortex of Fear (&R)",
+   "ru": "",
+   "uk_ai": "Вир страху (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructHaradwaithNumenoreanVanguard",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Black Númenórean Vanguard (&R)",
+   "ru": "Авангард черных нуменорцев (&R)",
+   "uk_ai": "Авангард чорних нуменорців (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildHaradwaithNumenoreanVanguard",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Requires Level 3 Umbarian Citadel \n  Strong vs. Infantry \n \n Charging forth on great armoured horses, the mounted nobility of Umbar are known to have smashed tribal insurrections even when greatly outnumbered.",
+   "ru": "Требуется Цитадель Умбара 3 уровня\nСильны против пехоты\n\nИзвестно, что конная знать Умбара, выступающая на тяжело бронированных лошадях, подавляла племенные восстания, даже будучи в значительном меньшинстве.",
+   "uk_ai": "Потрібна Умбарська цитадель, рівень 3 \n  Ефективні проти: піхота \n \n Мчачи в атаку на могутніх закутих у броню конях, вершники-шляхтичі Умбару не раз придушували бунти племен, навіть коли ті мали значну перевагу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructHaradwaithWatchersofKarnaHorde",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Watchers of Kârna (&T)",
+   "ru": "Хранители Карны (&T)",
+   "uk_ai": "Вартові Карни (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildHaradwaithWatchersofKarnaHorde",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Requires Level 3 Umbarian Citadel and Bûrodapân \n Strong vs. Cavalry and Heroes\nHero Unit. Limited to 3\n \n Deep within the southern jungle there lies a ruined temple, beneath which slumbers an ancient evil. Tribes send forth great warriors to guard it while it sleeps, to appease it as its hollow dreams taint the land.\n Through some dark ritual, the Corsair-lord Burôdapân inherited the loyalty of these watchers, who now deify him.",
+   "ru": "Требуется Цитадель Умбара 3 уровня и призванный Буродапан\nСильны против кавалерии и героев\nГероический отряд. Ограничение - 3\n\nГлубоко в южных джунглях стоит разрушенный храм, под которым дремлет древнее зло. Племена посылают великих воинов, чтобы охранять его, пока он спит, чтобы успокоить его, пока его пустые сны не оскверняют землю.\nС помощью какого-то темного ритуала повелитель корсаров Буродапан заслужил преданность этих хранителей, которые теперь обожествляют его.",
+   "uk_ai": "Потрібні Умбарська цитадель, рівень 3, і Буродапан \n Ефективні проти: кавалерія й герої\nГероїчний загін. Максимум 3 одночасно\n \n Глибоко в південних джунглях стоїть зруйнований храм, а під ним спить давнє зло. Племена посилають туди великих воїнів стерегти його сон і задобрювати його, бо його порожні сни отруюють землю.\n Через якийсь темний ритуал вірність цих вартових успадкував піратський володар Буродапан, і тепер вони шанують його як бога.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMordorBarricadeExpansion",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Defensive arrow tower that fires at enemy units",
+   "ru": "Защитное сооружение, ведущее стрельбу по врагам",
+   "uk_ai": "Оборонна вежа з лучниками, що стріляє по ворожих загонах",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMordorGateWatchersExpansion",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Causes enemy units to flee in terror\n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% damage and -20% armour",
+   "ru": "Вражеские войска в ужасе разбегаются\nТип модификатора: Ослабление\nБлижайшие вражеские войска теряют -25% урона и -20% брони",
+   "uk_ai": "Змушує ворожі загони тікати в жаху\n Тип ефекту: Пасивне ослаблення \n Ворожі загони поблизу отримують штраф -25% пошкоджень і -20% броні",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMordorWallCatapultExpansion",
+   "mission": "004_The Return of the King",
+   "type": "Кнопка",
+   "en": "Long range defensive weapon",
+   "ru": "Дальнобойное защитное орудие",
+   "uk_ai": "Оборонна зброя великої дальності",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

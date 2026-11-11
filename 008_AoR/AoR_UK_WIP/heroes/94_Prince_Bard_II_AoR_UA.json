@@ -1,0 +1,121 @@
+{
+ "meta": {
+  "hero": "Prince Bard II",
+  "uk_name": "Принц Бард II",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "BattleofDale"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignBardII"
+   ],
+   "битва": []
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:FellowshipBardII",
+   "type": "Ім'я",
+   "en": "Prince Bard II",
+   "ru": "",
+   "uk_ai": "Принц Бард II",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BardPrinceOfDale",
+   "type": "Кнопка",
+   "en": "Prince of Dale",
+   "ru": "",
+   "uk_ai": "Принц Дейла",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBardPrinceOfDaleBODE",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nAllies near Prince Bard II gain +15% Damage, +15% Armour, and earn experience 15% faster\nStacks with Buffs and Spells\nPassive ability",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзники поряд із принцом Бардом II отримують бонус +15% до пошкоджень, +15% броні й на 15% швидше набирають досвід\nПоєднується з посиленнями та заклинаннями\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BardWarriorsWit",
+   "type": "Кнопка",
+   "en": "Deft Swordsman (&R)",
+   "ru": "",
+   "uk_ai": "Вправний мечник (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBardWarriorsWit",
+   "type": "Підказка",
+   "en": "Requires Level 3\nBard II gains +50% damage and +50% armour for 30 seconds\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3\nБард II отримує бонус +50% до пошкоджень і +50% броні на 30 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BardDragonSlayerLegacy",
+   "type": "Кнопка",
+   "en": "Dragonslayer's Legacy (&T)",
+   "ru": "",
+   "uk_ai": "Спадок Драконоборця (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBardDragonSlayerLegacyBODE",
+   "type": "Підказка",
+   "en": "Requires Level 5\nModifier Type: Spell\nBard II and nearby allies gain resistance to knockback, +33% damage and +20% Speed for 30 seconds\nStacks with Leadership and Spells\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Заклинання\nБард II і союзники поблизу отримують стійкість до відкидання, +33% до пошкоджень і +20% швидкості на 30 сек.\nПоєднується з лідерством і заклинаннями\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PrinceBardIIDisarm",
+   "type": "Кнопка",
+   "en": "Warrior's Wit (&C)",
+   "ru": "",
+   "uk_ai": "Кмітливість воїна (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPrinceBardIIDisarm",
+   "type": "Підказка",
+   "en": "Requires Level 8\nBard II disarms his opponent\nSelected enemy hero or siege machine takes damage and cannot deal damage for 10 seconds\nLeft click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 8\nБард II обеззброює супротивника\nВказаний ворожий герой або облогова машина отримує пошкодження й не може завдавати пошкоджень 10 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PrinceBardIISturdyCampaign",
+   "type": "Кнопка",
+   "en": "Steadfast Scion (&V)",
+   "ru": "",
+   "uk_ai": "Непохитний нащадок (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPrinceBardIISturdyCampaign",
+   "type": "Підказка",
+   "en": "Requires Level 10\nBard II becomes invulnerable to damage for 10 seconds\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 10\nБард II стає невразливим на 10 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

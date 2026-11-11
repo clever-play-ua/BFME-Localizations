@@ -1,0 +1,118 @@
+{
+ "meta": {
+  "hero": "Akhôrahil, Fourth of the Nine",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Angmar"
+  ],
+  "alternate factions": [
+   "angmar",
+   "angmar wars"
+  ],
+  "templates": [
+   "AngmarAkhorahil"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:AngmarAkhorahil",
+   "type": "Ім'я",
+   "en": "Akhôrahil, Fourth of the Nine",
+   "ru": "Акхорахил, Четвертый из Девяти",
+   "uk_ai": "Ахорагіл, Четвертий із Дев'яти",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:LieutenantCarnDum",
+   "type": "Кнопка",
+   "en": "Lieutenant of Carn Dûm",
+   "ru": "Полководец Карн Дума",
+   "uk_ai": "Лейтенант Карн-Дума",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLieutenantCarnDum",
+   "type": "Підказка",
+   "en": "As more Nazgûl gather, their strength grows \n +10% damage and +10% armour per every Ringwraith nearby \n Passive ability \n\nModifier Type: Passive Debuff \n Nearby enemy units suffer -25% damage and -20% armour\n At Level 5, nearby Undead units gain gain +15% movement speed and +25% damage\nPassive ability",
+   "ru": "По мере того как все больше назгул собираются вместе, их сила растет +10% урона и +10% брони за каждого кольценосца\\nПассивная способность\\n\\nТип модификатора: Пассивное ослабление\\nБлижайшие вражеские отряды теряют -25% урона и -20% брони\\nНа уровне 5, ближайшие орды нежити наносят +25% урона и получают +15% скорости передвижения\\nПассивная способность",
+   "uk_ai": "Що більше назґулів збирається разом, то більша їх сила\nБонус +10% до пошкоджень і +10% броні за кожного назґула поблизу\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nТип ефекту: Пасивне ослаблення\nВорожі загони поблизу отримують штраф -25% пошкоджень і -20% броні\nНа 5 рівні загони невмерлих поблизу отримують бонус +15% швидкості руху й +25% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FourthOfNine",
+   "type": "Кнопка",
+   "en": "Fourth of the Nine (&R)",
+   "ru": "Четвертый из Девяти (&R)",
+   "uk_ai": "Четвертий із Дев'яти (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipFourthOfNine",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Targeted enemy units flee in terror and take damage over time for 15 seconds\nAt Level 6, summons Barrow-wights at target location\nLeft click then left click target area",
+   "ru": "Требуется уровень 3\\nВражеские отряды в радиусе действия разбегаются в ужасе и получают урон в течение 15 секунд\\nНа уровне 6, призываются могильные духи\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 3\nОбрані ворожі загони тікають у жаху й 15 сек. поступово отримують пошкодження\nНа 6 рівні прикликає могильних духів на обрану ділянку\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AkhorahilAccursedSteel",
+   "type": "Кнопка",
+   "en": "Accursed Steel (&T)",
+   "ru": "Проклятая сталь (&T)",
+   "uk_ai": "Проклята сталь (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAkhorahilAccursedSteel",
+   "type": "Підказка",
+   "en": "Requires Level 5\n Targeted enemy takes poison damage\nover time, and becomes a wight upon death \n Target enemy hero is stunned for 10 seconds and their ability timers are set to just used \n Left click icon then left click on target",
+   "ru": "Требуется уровень 5\\nЦелевой враг получает урон от яда с течением времени и превращается в призрака после смерти\\nВражеский герой оглушается на 10 секунд, а его способности уходят на перезарядку\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 5\nОбраний ворог поступово отримує пошкодження отрутою,\nа після смерті стає привидом\nОбраний ворожий герой приголомшується на 10 сек., а на всіх його здібностях вмикається таймер, ніби їх щойно застосували\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WordsofPestilenceMorgul",
+   "type": "Кнопка",
+   "en": "Words of Pestilence (&C)",
+   "ru": "Слова чумы (&C)",
+   "uk_ai": "Слова мору (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMOSLieutenant",
+   "type": "Підказка",
+   "en": "Requires Level 8 \n Fully refreshes allied hero special ability timers \n Slightly heals heroes in radius \n Left click icon then left click on target area",
+   "ru": "Требуется уровень 8\\nПолностью перезаряжает способности союзных героев в радиусе действия\\nНенамного исцеляет героев в радиусе действия\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 8\nПовністю скидає таймер відновлення здібностей у союзних героїв\nТрохи зцілює героїв у радіусі дії\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:Forodgul",
+   "type": "Кнопка",
+   "en": "Forodgûl (&V)",
+   "ru": "Forodgûl (&V)",
+   "uk_ai": "Фородґул (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipForodgul",
+   "type": "Підказка",
+   "en": "Requires Level 10\nEnemy units near to Akhôrahil suffer damage over time\nWhen active, Akhôrahil gains +50% armour, deals +33% damage and knockback for 30 second\nAkhôrahil's attacks have a chance of freezing target enemies for 5 seconds whilst ability is active\nLeft click to activate",
+   "ru": "Требуется уровень 10\\nВраги получают периодический урон, находясь рядом с Акхорахилом\\nКогда способность активна, Акхорахил наносит +33% урона, получает +50% брони и отбрасывает врагов своими атакми в течение 30 секунд\\nАтаки Акхорахила с определенным шансом замораживают целевых врагов на 5 секунд, пока способность активна\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10\nВорожі загони поряд з Ахорагілом поступово отримують пошкодження\nПоки діє здібність, Ахорагіл отримує бонус +50% броні, +33% до пошкоджень і відкидає ворогів своїми ударами на 30 сек.\nПоки діє здібність, атаки Ахорагіла можуть заморозити ворогів на 5 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

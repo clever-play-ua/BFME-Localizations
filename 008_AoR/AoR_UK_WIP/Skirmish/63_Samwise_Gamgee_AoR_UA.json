@@ -1,0 +1,91 @@
+{
+ "meta": {
+  "hero": "Samwise Gamgee",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Shire"
+  ],
+  "alternate factions": [
+   "scouring",
+   "shire"
+  ],
+  "templates": [
+   "ShireSamwise"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:ShireSam",
+   "type": "Ім'я",
+   "en": "Samwise Gamgee",
+   "ru": "Сэмуайз Гэмджи",
+   "uk_ai": "Семвайз Ґемджі",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBondsofFellowshipSam",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\n Samwise gains +15% damage when near Peregrin, Meriadoc or Frodo\nPassive ability\nActivate to become invisible when standing still\nLeft click to activate",
+   "ru": "Тип модификатора: Лидерство\\nСэмуайз наносит +15% урона, находясь рядом с Перегрином, Мериадоком или Фродо\\nПассивная способность\\nАктивируйте, чтобы стать невидимым, оставаясь на месте\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Тип ефекту: Лідерство\nПоряд із Переґріном, Меріадоком чи Фродо Семвайз отримує бонус +15% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~\nАктивуйте, щоб ставати невидимим, коли стоїте на місці\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ShireStewPot",
+   "type": "Кнопка",
+   "en": "Rabbit Stew (&T)",
+   "ru": "Рагу из кролика (&T)",
+   "uk_ai": "Кроляче рагу (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShireStewPot",
+   "type": "Підказка",
+   "en": "Requires Level 3\nSummons a pot of stew that heals nearby units, replenishes fallen units and grants +50% armour\n Left click on icon then left click on target position",
+   "ru": "Требуется уровень 3\\nСэмуайз как в былые времена ставит котелок с тушеным кроликом, который дарует +50% брони, исцеляет ближайших союзников и пополняет павших воинов в отрядах\\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Необхідно: Рівень 3\nСем, як і колись, ставить казанок рагу, що зцілює загони поблизу, поновлює їхніх полеглих і дає їм бонус +50% броні\nКлікніть на іконку, потім оберіть місце",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ShireSamwiseBlademaster",
+   "type": "Кнопка",
+   "en": "That's For My Old Gaffer (&C)",
+   "ru": "Это за моего папашу! (&C)",
+   "uk_ai": "Це тобі за мого Старого! (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipShireSamwiseBlademaster",
+   "type": "Підказка",
+   "en": "Requires Level 5\nModifier Type: Buff \n Sam gains +100% damage, +50% armour for 30 seconds\n Left click to activate",
+   "ru": "Требуется уровень 5\\nТип модификатора: Усиление\\nСэмуайз наносит +100% урона и получает +50% брони на 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Посилення\nСем на 30 сек. отримує бонус +100% до пошкоджень і +50% броні\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ShireSamTheBrave",
+   "type": "Кнопка",
+   "en": "Samwise the Brave (&V)",
+   "ru": "Сэмуайз Храбрый (&V)",
+   "uk_ai": "Семвайз Хоробрий (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShireSamTheBrave",
+   "type": "Підказка",
+   "en": "Requires Level 10\nModifier Type: Spell \n Nearby friendly units within a wide radius become invulnerable whilst nearby enemy units take damage over time for 30 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 10\\nТип модификатора: Заклинание\\nСоюзные отряды в широком радиусе становятся неуязвимыми, а вражеские отряды получают продолжительный урон в течение 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10\nТип ефекту: Заклинання\nНа 30 сек. союзні загони в широкому радіусі стають невразливими, а ворожі загони поблизу поступово отримують пошкодження\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

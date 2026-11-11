@@ -1,0 +1,4471 @@
+{
+ "meta": {
+  "mission": "002_Lighting of the Beacons",
+  "campaign": "Return of the King (AoR 10.0)",
+  "count": 446,
+  "fields": "var — мітка; type — Назва/Ціль/Діалог/Репліка/Інше/Кнопка; ru — RU 9.3.1, якщо є; uk_ai — поточний текст (правте прямо тут); status — вичитано / чернетка AI; uk — порожньо",
+  "notes": "\\n — перенос рядка, кількість має збігатися з EN; гарячі клавіші (&W) латиницею. Здібності героїв винесені в папку heroes."
+ },
+ "strings": [
+  {
+   "var": "CampaignName:LightingoftheBeacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Назва",
+   "en": "Lighting of the Beacons",
+   "ru": "",
+   "uk_ai": "Запалення сигнальних вогнів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective01_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "Speak to Lord Denethor",
+   "ru": "",
+   "uk_ai": "Поговоріть із володарем Денетором",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective02_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "Train with the Citadel Guard at the Barracks to receive your armour",
+   "ru": "",
+   "uk_ai": "Пройдіть навчання з Вартою Цитаделі в казармах, щоб отримати обладунок",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective03_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "Pay your respects at Rath Dínen",
+   "ru": "",
+   "uk_ai": "Вшануйте пам'ять предків у Рат-Дінені",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective04_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "Find Gandalf",
+   "ru": "",
+   "uk_ai": "Знайдіть Ґендальфа",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective05_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "Light the Beacon",
+   "ru": "",
+   "uk_ai": "Запаліть сигнальний вогонь",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective06_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "Find a bottle of brandy to distract the guards",
+   "ru": "",
+   "uk_ai": "Знайдіть пляшку бренді, щоб відволікти вартових",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective06_BeaconsA",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "Find a bottle of brandy to distract the guards",
+   "ru": "",
+   "uk_ai": "Знайдіть пляшку бренді, щоб відволікти вартових",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective06_BeaconsB",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "Use the bottle of brandy to distract the guards",
+   "ru": "",
+   "uk_ai": "Відволічіть вартових пляшкою бренді",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective06_BeaconsAlt",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "Use the brandy to distract the guards.",
+   "ru": "",
+   "uk_ai": "Відволічіть вартових за допомогою бренді.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective01_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "Explore the Seventh Level with Gandalf",
+   "ru": "",
+   "uk_ai": "Огляньте Сьомий ярус разом із Ґендальфом",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective02_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "Explore every location on the Seventh Level",
+   "ru": "",
+   "uk_ai": "Відвідайте кожне місце на Сьомому ярусі",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective03_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "Clear the moss from 6 memorials",
+   "ru": "",
+   "uk_ai": "Очистьте від моху 6 пам'ятників",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective05_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "Return the books to the Head Librarian of Minas Tirith",
+   "ru": "",
+   "uk_ai": "Поверніть книги головному бібліотекареві Мінас-Тіріта",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective06_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "Retrieve clean linen from the Fuller's on the Third Level",
+   "ru": "",
+   "uk_ai": "Заберіть чисту білизну із сукновальні на Третьому ярусі",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective07_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "Find a reward for Shadowfax",
+   "ru": "",
+   "uk_ai": "Знайдіть нагороду для Тінегрива",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective08_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "Find the missing cat",
+   "ru": "",
+   "uk_ai": "Знайдіть кицьку, що загубилася",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective09_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "Find and return the missing spyglass",
+   "ru": "",
+   "uk_ai": "Знайдіть і поверніть загублену підзорну трубу",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective09_Beacons_ALT",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "Return the spyglass to the Cartographers Guild",
+   "ru": "",
+   "uk_ai": "Поверніть підзорну трубу до Гільдії картографів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective11_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "Receive Faramir's Gift from the Royal Armouries",
+   "ru": "",
+   "uk_ai": "Отримайте дар Фараміра в Королівській зброярні",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective12_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "Play hide and seek with Bergil",
+   "ru": "",
+   "uk_ai": "Пограйте в хованки з Берґілом",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor052",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Denethor: The Ring of Power lay within your grasp! What folly came over you that you let the halfling keep it?",
+   "ru": "",
+   "uk_ai": "Денетор: Перстень Влади був у тебе в руках! Яке безумство тебе охопило, що ти лишив його напіврослику?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir037",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Boromir: A greater folly it would have been to take it.",
+   "ru": "",
+   "uk_ai": "Боромир: Більшим безумством було б його взяти.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir038",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Boromir: To my shame, I made the attempt, and by good fate, the Ring of Power was kept from me.",
+   "ru": "",
+   "uk_ai": "Боромир: На мій сором, я спробував, і, на щастя, Перстень Влади мені не дістався.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor053",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Denethor: What good can it do for Gondor now? Without its power, this war cannot be won.",
+   "ru": "",
+   "uk_ai": "Денетор: Яка тепер з нього користь для Ґондору? Без його сили цієї війни не виграти.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor054",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Denethor: Worse yet, the halfling will surely be caught by Sauron's spies.",
+   "ru": "",
+   "uk_ai": "Денетор: Ба гірше — напіврослика напевно схоплять Сауронові шпигуни.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor055",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Denethor: On its Master's finger, the Ring will bring us to utter ruin!",
+   "ru": "",
+   "uk_ai": "Денетор: На пальці свого Господаря Перстень доведе нас до цілковитої загибелі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir039",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Boromir: Keep to the path of hope, father. No ruin will come to Gondor while its sons defend it.",
+   "ru": "",
+   "uk_ai": "Боромир: Тримайся шляху надії, батьку. Ґондор не загине, поки його сини його боронять.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf213",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: Now listen carefully.",
+   "ru": "",
+   "uk_ai": "Ґендальф: А тепер слухай уважно.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf214",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: Lord Denethor is Boromir's father. To give him news of his beloved son's death would be most unwise.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Володар Денетор — батько Боромира. Звістка про смерть улюбленого сина була б зараз вельми нерозважливою.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf215",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Gandalf:...And do not mention Frodo, and say nothing of Aragorn either.\nIn fact it's best if you did not speak at all, Peregrin Took.",
+   "ru": "",
+   "uk_ai": "Ґендальф: ...І не згадуй про Фродо, і про Араґорна теж ні слова.\nТа взагалі краще мовчи, Переґріне Туку.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf216",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: Hail Denethor, son of Ecthelion, Lord and Steward of Gondor.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Вітаю тебе, Денеторе, сину Ектеліона, Володарю й Наміснику Ґондору.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf217",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: I come with tidings in this dark hour, and with council.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Я прийшов у цю темну годину з вістями й порадою.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor034",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Denethor: Perhaps you come to explain this...",
+   "ru": "",
+   "uk_ai": "Денетор: Можливо, ти прийшов пояснити ось це...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor035",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Denethor: Perhaps you come to tell me why my son is dead...",
+   "ru": "",
+   "uk_ai": "Денетор: Можливо, ти прийшов розповісти, чому загинув мій син...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin054",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: Boromir died to save us, my kinsman and me.",
+   "ru": "",
+   "uk_ai": "Піпін: Боромир загинув, рятуючи нас — мого родича і мене.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin055",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: He fell defending us from many foes.",
+   "ru": "",
+   "uk_ai": "Піпін: Він поліг, захищаючи нас від безлічі ворогів.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin056",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: I offer you my service, such as it is...",
+   "ru": "",
+   "uk_ai": "Піпін: Я пропоную вам свою службу, хоч яка вона є...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin057",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: In payment of this debt.",
+   "ru": "",
+   "uk_ai": "Піпін: В уплату цього боргу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor036",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Denethor: This is my first command to you.",
+   "ru": "",
+   "uk_ai": "Денетор: Ось мій перший наказ тобі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor037",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Denethor: How did you escape and my son did not, so mighty a man as he was?",
+   "ru": "",
+   "uk_ai": "Денетор: Як вийшло, що ти врятувався, а мій син — ні, хоч яким могутнім він був?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin058",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: The mightiest man may be slain by one arrow... and Boromir was pierced by many.",
+   "ru": "",
+   "uk_ai": "Піпін: Наймогутнішого чоловіка може вбити одна стріла... а Боромира пронизали десятки.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf218",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: My Lord!",
+   "ru": "",
+   "uk_ai": "Ґендальф: Мій володарю!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf219",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: There will be a time to grieve for Boromir, but it is not now.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Настане час оплакати Боромира, але не зараз.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf220",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: War is coming!",
+   "ru": "",
+   "uk_ai": "Ґендальф: Наближається війна!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf221",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: The Enemy is on your doorstep!",
+   "ru": "",
+   "uk_ai": "Ґендальф: Ворог уже на твоєму порозі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf222",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: As Steward you are charged with the defence of this city... where are Gondor's armies?",
+   "ru": "",
+   "uk_ai": "Ґендальф: Як Намісник, ти відповідаєш за оборону цього міста... де війська Ґондору?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf223",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: You still have friends.",
+   "ru": "",
+   "uk_ai": "Ґендальф: У тебе ще є друзі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor038",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Denethor: You think you are wise, Mithrandir...",
+   "ru": "",
+   "uk_ai": "Денетор: Ти вважаєш себе мудрим, Мітрандире...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor039",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Denethor: Yet for all your subtleties you have not wisdom.",
+   "ru": "",
+   "uk_ai": "Денетор: Та попри всю твою хитромудрість, мудрості в тобі немає.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor040",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Denethor: Do you think the eyes of the White Tower are blind?",
+   "ru": "",
+   "uk_ai": "Денетор: Гадаєш, очі Білої Вежі сліпі?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor041",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Denethor: I have seen more than you know.",
+   "ru": "",
+   "uk_ai": "Денетор: Я бачив більше, ніж ти думаєш.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor043",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Denethor: I know who rides with Théoden of Rohan. Oh yes.",
+   "ru": "",
+   "uk_ai": "Денетор: Я знаю, хто їде разом з Теоденом Роганським. О так.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor044",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Denethor: Word has reached my ears of this Aragorn, son of Arathorn,\nand I tell you now, I will not bow to this Ranger from the North!",
+   "ru": "",
+   "uk_ai": "Денетор: До мене дійшли чутки про цього Араґорна, сина Араторна,\nі кажу тобі одразу: я не схилюся перед цим Слідопитом з Півночі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor045",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Denethor: Last of a ragged house, long bereft of lordship.",
+   "ru": "",
+   "uk_ai": "Денетор: Останнім із занепалого роду, що давно втратив владу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf225",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: Authority is not given to you to deny the return of the King, Steward!",
+   "ru": "",
+   "uk_ai": "Ґендальф: Тобі не дано права перешкоджати поверненню Короля, Наміснику!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor046",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Denethor: The rule of Gondor is mine! And no other's!",
+   "ru": "",
+   "uk_ai": "Денетор: Влада в Ґондорі — моя! І нічия більше!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf142",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "He would even use his grief as a cloak!",
+   "ru": "",
+   "uk_ai": "Він навіть горем своїм прикривається!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf143",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "A thousand years this city has stood.",
+   "ru": "",
+   "uk_ai": "Тисячу років стоїть це місто.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf144",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Now at the whim of a madman it will fall.",
+   "ru": "",
+   "uk_ai": "А тепер через примху божевільного воно впаде.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf145",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "The White Tree, the Tree of the King, will never bloom again.",
+   "ru": "",
+   "uk_ai": "Біле Древо, Древо Короля, більше ніколи не зацвіте.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir034",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Boromir: It is a dark fate that has reunited us, son of Paladin. Evil days await the White City.",
+   "ru": "",
+   "uk_ai": "Боромир: Темна доля звела нас знову, сину Паладина. Лихі дні чекають на Біле Місто.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin065",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: Be that as it may, I am very glad to see you alive and well! You saved my life, and Merry's too.",
+   "ru": "",
+   "uk_ai": "Піпін: Хай там як, я страшенно радий бачити тебе живим і здоровим! Ти врятував життя мені, і Меррі теж.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin066",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: I would like to offer you my service, such as it is, in payment of this debt!",
+   "ru": "",
+   "uk_ai": "Піпін: Я хотів би запропонувати тобі свою службу, хоч яка вона є, в уплату цього боргу!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir035",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Boromir: The Tower Guard is ever in need of clever warriors such as yourself.",
+   "ru": "",
+   "uk_ai": "Боромир: Варті Вежі завжди потрібні кмітливі воїни, як ти.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir036",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Boromir: Pledge yourself to Gondor, and any debt between us would surely be paid.",
+   "ru": "",
+   "uk_ai": "Боромир: Присягни Ґондору — і будь-який борг між нами буде сплачено.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin059",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: Here do I swear fealty and service to Gondor. In peace or war, in living or dying,\nfrom this hour henceforth, until my lord release me, or death take me.",
+   "ru": "",
+   "uk_ai": "Піпін: Отут присягаю я на вірність і службу Ґондору. У мирі чи війні, в житті чи смерті,\nвід цієї години й надалі, доки мій володар не звільнить мене або смерть не забере.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor047",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Denethor: And I shall not forget it!",
+   "ru": "",
+   "uk_ai": "Денетор: І я цього не забуду!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor048",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Denethor: Nor fail to reward that which is given.",
+   "ru": "",
+   "uk_ai": "Денетор: І не забуду віддячити за те, що дано.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor049",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Denethor: Fealty with love.",
+   "ru": "",
+   "uk_ai": "Денетор: За вірність — любов'ю.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor050",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Denethor: Valour with honour.",
+   "ru": "",
+   "uk_ai": "Денетор: За звитягу — честю.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor051",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Denethor: Disloyalty with vengeance.",
+   "ru": "",
+   "uk_ai": "Денетор: За зраду — помстою.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin120",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: So, what happens now?",
+   "ru": "",
+   "uk_ai": "Піпін: І що тепер?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf249",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: You are a Guard of the Citadel now, Peregrin Took. You will have to do as you're told!",
+   "ru": "",
+   "uk_ai": "Ґендальф: Ти тепер вартовий Цитаделі, Переґріне Туку. Тож доведеться виконувати накази!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf250",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: Come and see me once you have familiarised yourself with the duties of your new station. I have urgent matters to attend.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Приходь до мене, коли ознайомишся з обов'язками на новій посаді. У мене невідкладні справи.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_beregond001",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Beregond: Welcome to the ranks of the Citadel Guard, perian. I have been instructed to inform you of your duties.",
+   "ru": "",
+   "uk_ai": "Береґонд: Ласкаво просимо до лав Варти Цитаделі, періане. Мені доручено розповісти тобі про твої обов'язки.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin067",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: My duties?",
+   "ru": "",
+   "uk_ai": "Піпін: Мої обов'язки?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_beregond002",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Beregond: Indeed! Your role is far from ceremonial. A Citadel Guard has many responsibilities he must attend to.",
+   "ru": "",
+   "uk_ai": "Береґонд: Саме так! Твоя роль аж ніяк не церемоніальна. Вартовий Цитаделі має чимало обов'язків.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin068",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: ...Oh. I see.",
+   "ru": "",
+   "uk_ai": "Піпін: ...А. Зрозуміло.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_beregond003",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Beregond: You should explore the Seventh Level for a while. There are many important places here for you to discover.",
+   "ru": "",
+   "uk_ai": "Береґонд: Тобі варто трохи оглянути Сьомий ярус. Тут багато важливих місць, які варто знати.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_beregond004",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Beregond: At the very least, you should visit the Citadel Barracks, to receive your training and your armour...",
+   "ru": "",
+   "uk_ai": "Береґонд: Щонайменше зайди до казарм Цитаделі, щоб пройти навчання й отримати обладунок...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_beregond005",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Beregond: ...and Rath Dínen to pay your respects to the lords of ages past.",
+   "ru": "",
+   "uk_ai": "Береґонд: ...і до Рат-Дінена, щоб ушанувати володарів минулих віків.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_beregond006",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Beregond: Once you've done so, come see me at the Gate.",
+   "ru": "",
+   "uk_ai": "Береґонд: Коли впораєшся, знайди мене біля Брами.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin108",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: Well, looks like I've got some things to take care of!",
+   "ru": "",
+   "uk_ai": "Піпін: Що ж, схоже, в мене є справи!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hallowsguard001",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Hallows Guard: Halt! Who are you, and why do you seek entrance to Rath Dínen?",
+   "ru": "",
+   "uk_ai": "Вартовий Усипальниці: Стій! Хто ти і навіщо прагнеш увійти до Рат-Дінена?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin074",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: Peregrin Took am I, son of Paladin!\nI have joined the Citadel Guard of the White City, and have been instructed to explore the Seventh Level by Captain Beregond!",
+   "ru": "",
+   "uk_ai": "Піпін: Я Переґрін Тук, син Паладина!\nЯ вступив до Варти Цитаделі Білого Міста, і капітан Береґонд доручив мені оглянути Сьомий ярус!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hallowsguard002A",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Hallows Guard: Captain Beregond? Beregond is but a guard.\nBut I have been informed of the arrival of a Halfling Prince from a distant land.",
+   "ru": "",
+   "uk_ai": "Вартовий Усипальниці: Капітан Береґонд? Береґонд — простий вартовий.\nАле мене повідомили про прибуття принца напіврослика з далекого краю.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hallowsguard002B",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Hallows Guard: That must be you. You may pass. Treat this hallowed place with the veneration it demands.",
+   "ru": "",
+   "uk_ai": "Вартовий Усипальниці: Мабуть, це ти. Можеш пройти. Шануй це священне місце, як воно того заслуговує.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin077",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: There's so many statues. So many tombs. Pay my respects, Beregond said.\nHow long has it been since somebody's cleared the moss off of these solemn faces?",
+   "ru": "",
+   "uk_ai": "Піпін: Скільки статуй. Скільки гробниць. «Вшануй пам'ять», — сказав Береґонд.\nКоли ж востаннє хтось зчищав мох із цих урочистих облич?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:rathdinen",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "RATH DÍNEN",
+   "ru": "",
+   "uk_ai": "РАТ-ДІНЕН",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_beregond007",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Beregond: The Fifth Level is open to you, master hobbit. My duties require my attention,\nbut you may explore at your leisure. For now, at least.",
+   "ru": "",
+   "uk_ai": "Береґонд: П'ятий ярус для тебе відкритий, пане гобіте. Мене кличуть обов'язки,\nале ти можеш оглядати все, скільки забажаєш. Принаймні поки що.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin085",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: Thank you, Captain Beregond!",
+   "ru": "",
+   "uk_ai": "Піпін: Дякую, капітане Береґонде!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_beregond008",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Beregond: No captain am I! I am but a humble guard of the Citadel, same as you.",
+   "ru": "",
+   "uk_ai": "Береґонд: Я не капітан! Я лише скромний вартовий Цитаделі, як і ти.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin086",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: My apologies. Have you seen Gandalf anywhere?",
+   "ru": "",
+   "uk_ai": "Піпін: Перепрошую. Ти ніде не бачив Ґендальфа?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_beregond009",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Beregond: Mithrandir has disappeared. I do not know where to. He did not look happy.",
+   "ru": "",
+   "uk_ai": "Береґонд: Мітрандир зник. Не знаю куди. Вигляд у нього був невеселий.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin087",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: He rarely does!",
+   "ru": "",
+   "uk_ai": "Піпін: Він рідко буває веселим!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_librarian001A",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Librarian: 'Fairy-tales of Lamedon', 'King Turambar's Conquest of Rhun', and 'A Tale of Two Kingdoms'.\nThese have been missing for years. Thank you for returning them.",
+   "ru": "",
+   "uk_ai": "Бібліотекар: «Казки Ламедону», «Завоювання Руну королем Турамбаром» і «Повість про два королівства».\nЇх не могли знайти роками. Дякую, що повернув їх.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_librarian001B",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Librarian: I would reward you, but doing a good deed is its own reward, wouldn't you agree?",
+   "ru": "",
+   "uk_ai": "Бібліотекар: Я б тебе нагородив, та добра справа — сама собі нагорода, чи не так?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_faramir074",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Faramir: Welcome, Master Hobbit. I hear you are to join the Tower Guard.",
+   "ru": "",
+   "uk_ai": "Фарамір: Вітаю, пане гобіте. Я чув, ти вступаєш до Варти Вежі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin088",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: Gandalf told me you've seen Frodo. Was he well?",
+   "ru": "",
+   "uk_ai": "Піпін: Ґендальф сказав, що ти бачив Фродо. Як він?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_faramir075",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Faramir: He was. You are his kin?",
+   "ru": "",
+   "uk_ai": "Фарамір: Цілий і здоровий. Ти його родич?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin089",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: Second-cousin once-removed. What of Samwise?",
+   "ru": "",
+   "uk_ai": "Піпін: Троюрідний брат через коліно. А що Семвайз?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_faramir076",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Faramir: His brave and loyal gardener. He, too, was well.\nI have no doubt in his ability to keep his master safe.",
+   "ru": "",
+   "uk_ai": "Фарамір: Його хоробрий і відданий садівник? Він теж був у доброму здоров'ї.\nЯ не сумніваюся, що він зуміє вберегти свого господаря.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_faramir077",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Faramir: Go and see the armourer, and tell him that I sent you. He should have a gift for you.",
+   "ru": "",
+   "uk_ai": "Фарамір: Іди до зброяра й скажи, що тебе прислав я. У нього має бути для тебе дарунок.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir102",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Ah, master Peregrin. There you are!",
+   "ru": "",
+   "uk_ai": "А, пане Переґріне. Ось ти де!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin094",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: Boromir... Thank you again for what you did for us. For a long time I thought you had fallen.\nSeeing you alive makes me think there is still hope for us.",
+   "ru": "",
+   "uk_ai": "Піпін: Боромире... Ще раз дякую за те, що ти для нас зробив. Я довго думав, що ти загинув.\nБачу тебе живим — і думаю, що для нас ще є надія.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir074",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Boromir: Hope remains, Peregrin Took. I have placed mine in Aragorn, who will join us here in time.",
+   "ru": "",
+   "uk_ai": "Боромир: Надія лишається, Переґріне Туку. Свою я поклав на Араґорна, який згодом прийде до нас.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir072",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Boromir: The pledge you have made is a show of great nobility, my friend.\nA halfling prince amongst the ranks of the Citadel Guard is a wondrous sight to behold.",
+   "ru": "",
+   "uk_ai": "Боромир: Твоя присяга — ознака великого шляхетства, друже.\nПринц напіврослик у лавах Варти Цитаделі — дивовижне видовище.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin093",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: Thank you. But you know that I'm not really a prince, right?",
+   "ru": "",
+   "uk_ai": "Піпін: Дякую. Але ти ж знаєш, що я насправді не принц, правда?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir073",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Boromir: All good tales deserve some embellishment.",
+   "ru": "",
+   "uk_ai": "Боромир: Кожна добра історія заслуговує на прикрасу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_armourer001",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Armourer: Captain Faramir has sent word of your coming. It took some work, but I have found the item he wished for you to have.\nHis helmet, crafted for him by my father, when the captain was still a young boy.",
+   "ru": "",
+   "uk_ai": "Зброяр: Капітан Фарамір повідомив про твій прихід. Довелося попотіти, але я знайшов те, що він хотів тобі передати.\nЙого шолом, який викував для нього мій батько, коли капітан був ще хлопчиком.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin092",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: I have a large head for a Hobbit, but it looks like it'll fit!",
+   "ru": "",
+   "uk_ai": "Піпін: Як на гобіта, голова в мене велика, але, схоже, пасуватиме!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_armourer002",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Armourer: Try it on and see.",
+   "ru": "",
+   "uk_ai": "Зброяр: Приміряй і побачиш.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin101",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: I must look even taller now! I wish I could show my friends.",
+   "ru": "",
+   "uk_ai": "Піпін: Тепер я, мабуть, здаюся ще вищим! Шкода, друзі не бачать.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ioreth001A",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Ioreth: You look as if you have stepped right out from an old tale. A halfling prince from a distant land.\nWould that I could go there.",
+   "ru": "",
+   "uk_ai": "Іорет: Ти наче зійшов зі сторінок старовинної казки. Принц напіврослик із далекого краю.\nОт якби й мені туди потрапити.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ioreth001B",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Ioreth: No, I should not say such things. My duties are here, in the Houses of Healing, as they have been for many years.\nI expect we will be busy soon. War is coming.",
+   "ru": "",
+   "uk_ai": "Іорет: Ні, не годиться таке казати. Мої обов'язки тут, в Обителі Зцілення, як і багато років тому.\nГадаю, скоро в нас буде чимало роботи. Наближається війна.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin090",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: Is there anything that I might assist you with? You know, to prepare?",
+   "ru": "",
+   "uk_ai": "Піпін: Можу я чимось допомогти? Ну, щоб підготуватися?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ioreth002A",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Ioreth: There are a great many things that I must see to. We need clean linens. Sheets and bandages, as many as can be found.\nThe Fuller's on the Third Level should have a batch ready.",
+   "ru": "",
+   "uk_ai": "Іорет: Мені треба подбати про безліч речей. Нам потрібна чиста білизна. Простирадла й бинти — скільки знайдеться.\nУ сукновальні на Третьому ярусі має бути готова партія.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ioreth002B",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Ioreth: I am not as agile as I once was, running through the flowering fields of Imloth Melui. Perhaps you could fetch them?",
+   "ru": "",
+   "uk_ai": "Іорет: Я вже не така прудка, як колись, коли бігала квітучими луками Імлот-Мелуї. Може, ти принесеш її?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin100",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Here's the linen you requested milady.",
+   "ru": "",
+   "uk_ai": "Ось білизна, яку ви просили, пані.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_ioreth003",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Milady? Well, I never! I am but a servant of the warden of this house. Thank you, kind sir. Come visit us again sometime, and tell us a tale or two from your homeland. In good health, of course!",
+   "ru": "",
+   "uk_ai": "Пані? Ну й ну! Я лише служниця при доглядачеві цієї обителі. Дякую, люб'язний пане. Заходь до нас іще якось і розкажи пару історій про свій край. Звісно, при доброму здоров'ї!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_fuller01",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Fuller: Greetings, Master Halfling.",
+   "ru": "",
+   "uk_ai": "Сукновал: Вітаю, пане напіврослику.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin105",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: Hello! Ioreth sent me from the sixth level to collect some fresh linen.",
+   "ru": "",
+   "uk_ai": "Піпін: Добридень! Іорет прислала мене із Шостого ярусу забрати чисту білизну.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_fuller02",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Fuller: Ah yes, for the Houses of Healing? Of course, we have a small bundle here you can take. I'm afraid the rest are still drying,\nbut I will have one of the porters deliver the remainder before tomorrow.",
+   "ru": "",
+   "uk_ai": "Сукновал: А, для Обителі Зцілення? Звісно, ось невеликий клунок, можеш узяти. Боюся, решта ще сохне,\nале я попрошу когось із носіїв доставити її до завтра.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin106",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: I'm sure she will understand. Thank you!",
+   "ru": "",
+   "uk_ai": "Піпін: Певен, вона зрозуміє. Дякую!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin097",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Here is the clean linen Ioreth has asked me to retrieve.",
+   "ru": "",
+   "uk_ai": "Ось чиста білизна, яку Іорет просила мене принести.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_harion001",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Harion: Oho, behold! A Halfling, from the verdant Shire!",
+   "ru": "",
+   "uk_ai": "Гаріон: Ого, погляньте! Напіврослик із зеленого Ширу!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin095",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: You know of Halflings?",
+   "ru": "",
+   "uk_ai": "Піпін: Ви знаєте про напіврослків?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_alethendir001",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Alethendir: Certainly! Most folk hereabouts would deem you to have sprung right out of some old Elvish tale.",
+   "ru": "",
+   "uk_ai": "Алетендір: Аякже! Більшість тутешніх вирішили б, що ти вискочив просто зі старої ельфійської казки.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_harion002",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Harion: But we know better! Cross Calenardhon, now known as Rohan, or the Riddermark...",
+   "ru": "",
+   "uk_ai": "Гаріон: Але ми знаємо краще! Перетни Календардон, що нині зветься Роганом, або Ріддермарком...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_alethendir002",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Alethendir: Westward, until you reach the Isen and cross it at its fords...",
+   "ru": "",
+   "uk_ai": "Алетендір: На захід, аж до Ізену, і перейди його бродами...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_harion003",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Harion: Then north you must journey for many leagues, following the ancient road...",
+   "ru": "",
+   "uk_ai": "Гаріон: Потім багато ліг мандруй на північ старовинним шляхом...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_alethendir003",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Alethendir: Until you reach Tharbad, the ancient crossing.",
+   "ru": "",
+   "uk_ai": "Алетендір: Аж до Тарбада, давньої переправи.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_harion004",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Harion: And yet many leagues more, further northward, to the town of Bree, past the ancient tombs of our distant kin.",
+   "ru": "",
+   "uk_ai": "Гаріон: І ще багато ліг далі на північ, до містечка Брі, повз стародавні гробниці наших далеких родичів.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_alethendir004",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Alethendir: Then westward you must tread, ever upon the Road, past the ancient forest, until you reach the Baranduin...",
+   "ru": "",
+   "uk_ai": "Алетендір: Потім на захід, весь час Трактом, повз прадавній ліс, аж до Барандуїну...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_harion005",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Harion: Or Brandywine, as the locals have it...",
+   "ru": "",
+   "uk_ai": "Гаріон: Або Брендівайну, як кажуть місцеві...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_harionandalethendir001",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Both: And lo, you've reached the Shire!",
+   "ru": "",
+   "uk_ai": "Обидва: І ось ти вже в Ширі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_harion006",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Harion: Yes, there is much to explore in this vast world, but also within these hallowed walls.",
+   "ru": "",
+   "uk_ai": "Гаріон: Так, у цьому величезному світі багато чого варто дослідити, але й у цих священних мурах теж.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_alethendir005",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Alethendir: Indeed - have you ventured to the topmost levels?\nThere lies the greatest vantage point to survey the City and the lay of the land.",
+   "ru": "",
+   "uk_ai": "Алетендір: Саме так — ти вже піднімався на найвищі яруси?\nЗвідти найкраще видно все Місто й навколишні землі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_harion007",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Harion: We would lend you our spyglass, though we seem to have misplaced it...\nDo let us know if you find it amongst your exploits.",
+   "ru": "",
+   "uk_ai": "Гаріон: Ми позичили б тобі нашу підзорну трубу, та, здається, кудись її поклали...\nДай нам знати, якщо натрапиш на неї у своїх мандрах.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin098",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "That must be the spyglass the cartographers are looking for. I should take it back to them.",
+   "ru": "",
+   "uk_ai": "Мабуть, це та сама підзорна труба, яку шукають картографи. Треба віднести її їм.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin175",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "What's this? Someone must've misplaced it. Oof, it's heavy! Must be expensive!",
+   "ru": "",
+   "uk_ai": "Що це? Хтось, мабуть, загубив. Ох, важка! Певно, дорога!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_alethendir006",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Ah, you have returned! Did you happen upon our spyglass?",
+   "ru": "",
+   "uk_ai": "А, ти повернувся! Не натрапив часом на нашу підзорну трубу?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin119",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Here we are!",
+   "ru": "",
+   "uk_ai": "Ось вона!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_harion008",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Thank you kindly! This is quite essential for our work. A token of our appreciation, a map of Minas Tirith. It's the most detailed map you'll find of this city.",
+   "ru": "",
+   "uk_ai": "Щиро дякуємо! Вона вкрай потрібна для нашої роботи. На знак вдячності — мапа Мінас-Тіріта. Детальнішої мапи цього міста ти не знайдеш.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_alethendir007",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Safe travels!",
+   "ru": "",
+   "uk_ai": "Щасливої дороги!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:SpyglassBonus",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "Pippin has been given a City Map, which can reveal an area of the map",
+   "ru": "",
+   "uk_ai": "Піпін отримав мапу Міста, яка може відкрити ділянку мапи",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfruitseller01",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Fruit Seller: Fresh fruit! Ringlo Red apples, sweet and oh so juicy!",
+   "ru": "",
+   "uk_ai": "Продавець фруктів: Свіжі фрукти! Червоні яблука з Рінґло — солодкі й такі соковиті!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfruitseller02",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Fruit Seller: Here young master, have one! Just don't tell your Ma...",
+   "ru": "",
+   "uk_ai": "Продавець фруктів: Ось, юний пане, візьми одне! Тільки мамі не кажи...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin096",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "An apple! I should give it to Shadowfax",
+   "ru": "",
+   "uk_ai": "Яблуко! Віддам його Тінегриву",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_bergil01",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Bergil: Hello there! I am Bergil, son of Beregond of the Guards. I haven't seen you before. What is your name?",
+   "ru": "",
+   "uk_ai": "Берґіл: Привіт! Я Берґіл, син Береґонда з Варти. Я тебе раніше не бачив. Як тебе звати?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin121",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: I am Pippin of the Shire. I've met your father - I am also of the Guards!",
+   "ru": "",
+   "uk_ai": "Піпін: Я Піпін із Ширу. Я знайомий з твоїм батьком — я теж із Варти!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_bergil02",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Bergil: You? How old are you? You look much too short to be a guard!",
+   "ru": "",
+   "uk_ai": "Берґіл: Ти? Скільки тобі років? Ти ж замалий для вартового!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin122",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: I am twenty-nine years of age. And I am rather tall for a Hobbit, I'll have you know.",
+   "ru": "",
+   "uk_ai": "Піпін: Мені двадцять дев'ять. І як на гобіта я досить високий, щоб ти знав.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_bergil03",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Bergil: Never heard of a Hobbit before... are you any good at playing hide and seek? I've wanted to play all day.",
+   "ru": "",
+   "uk_ai": "Берґіл: Ніколи не чув про гобітів... а ти вмієш гратися в хованки? Я цілий день хочу пограти.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin123",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: I suppose so...",
+   "ru": "",
+   "uk_ai": "Піпін: Мабуть, умію...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_bergil04",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Bergil: Then come and find me!",
+   "ru": "",
+   "uk_ai": "Берґіл: Тоді шукай мене!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin124",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: Very well. I think I can take a break from my duties!",
+   "ru": "",
+   "uk_ai": "Піпін: Гаразд. Думаю, можу трохи відпочити від своїх обов'язків!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_barveteran001",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Veteran: Greetings, perian. From whence do you hail?",
+   "ru": "",
+   "uk_ai": "Ветеран: Вітаю, періане. Звідки ти родом?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin128",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: Me? Oh, I'm from the Shire. I don't suppose you've heard of it. It lies far to the north.",
+   "ru": "",
+   "uk_ai": "Піпін: Я? О, я із Ширу. Навряд чи ви про нього чули. Він далеко на півночі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_barveteran002",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Veteran: I have never travelled north, I fear. My journeys have taken me south... to Umbar.",
+   "ru": "",
+   "uk_ai": "Ветеран: Боюся, на півночі я ніколи не бував. Мої шляхи вели на південь... до Умбару.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin129",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: Umbar?",
+   "ru": "",
+   "uk_ai": "Піпін: До Умбару?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_barveteran003A",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Veteran: Aye. Nigh on forty years ago, I served under the legendary captain known as Thorongil, the Eagle of the Star.",
+   "ru": "",
+   "uk_ai": "Ветеран: Еге ж. Майже сорок років тому я служив під началом легендарного капітана Торонґіла, Орла Зорі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_barveteran003B",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Veteran: Gondor had long suffered the aggression of the southern corsairs - lawless scum, all -\nuntil our captain undertook a daring raid upon their wretched capital.",
+   "ru": "",
+   "uk_ai": "Ветеран: Ґондор довго терпів напади південних піратів — самі беззаконні покидьки, —\nаж поки наш капітан не наважився на зухвалий набіг на їхню жалюгідну столицю.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_barveteran003C",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Veteran: We burned their black fleet, and Thorongil himself slew the Master of their havens in single combat.\nFor many years after that, the southrons left our coasts in peace... but now it seems their villainy has resumed.",
+   "ru": "",
+   "uk_ai": "Ветеран: Ми спалили їхній чорний флот, а сам Торонґіл убив Володаря їхніх гаваней у двобої.\nБагато років після того південці не чіпали наших берегів... та тепер, схоже, їхнє лиходійство відновилося.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_barveteran003D",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Veteran: I fear the power of Mordor has emboldened them. If I were still young,\nI would venture coastward, and throw them back into the sea...",
+   "ru": "",
+   "uk_ai": "Ветеран: Боюся, сила Мордору додала їм зухвалості. Якби я був молодий,\nто вирушив би до узбережжя й скинув їх назад у море...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin130",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: I'm sure you would, master warrior.",
+   "ru": "",
+   "uk_ai": "Піпін: Певен, так і було б, пане воїне.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_barveteran004",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Veteran: Hmm. Thank you, perian, for accompanying me today. Here, take this bottle of brandy.\nIt's from Lossarnach - and quite renowned. Don't go drinking it all at once, now.",
+   "ru": "",
+   "uk_ai": "Ветеран: Гм. Дякую, періане, що склав мені компанію. Ось, візьми пляшку бренді.\nВоно з Лоссарнаху — і вельми славетне. Тільки не випий усе за раз.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin131",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "I bet I could distract the beacon guard with this...",
+   "ru": "",
+   "uk_ai": "Б'юся об заклад, цим можна відволікти вартового біля сигнального вогню...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin132",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Oh, thank you. Very kind. Might warm up some cold bones with this!",
+   "ru": "",
+   "uk_ai": "О, дякую. Дуже люб'язно. Буде чим зігріти старі кістки!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf187",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: Peregrin Took, my lad... There is a task now to be done.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Переґріне Туку, хлопче мій... Є одна справа.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf188",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: Another opportunity for one of the Shire folk to prove their great worth!",
+   "ru": "",
+   "uk_ai": "Ґендальф: Ще одна нагода для когось із ширян довести свою велику цінність!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf189",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: You must light the beacon.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Ти мусиш запалити сигнальний вогонь.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf190",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: This will send word to Théoden and our allies in Rohan.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Так звістка дійде до Теодена й наших союзників у Рогані.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf191",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: You must not fail me.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Не підведи мене.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf284",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: The fate of the White City depends upon it.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Від цього залежить доля Білого Міста.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_beaconguard02",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Beacon Guard 01: The wind's freezing up here. What I wouldn't give for a Lossarnach brandy to warm up these bones.",
+   "ru": "",
+   "uk_ai": "Вартовий вогню 1: Вітер тут крижаний. Чого б я тільки не віддав за лоссарнахське бренді, щоб зігріти кістки.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_beaconguard21",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Beacon Guard 02: I hear the White Swan Inn just got a new shipment of this stuff. Rare these days!",
+   "ru": "",
+   "uk_ai": "Вартовий вогню 2: Кажуть, у «Білий Лебідь» щойно привезли нову партію. Нині це рідкість!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin159",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "The guards mentioned a certain brandy. I should find the White Swan Inn, and see if I can get a bottle.",
+   "ru": "",
+   "uk_ai": "Вартові згадували якесь бренді. Треба знайти корчму «Білий Лебідь» і спробувати дістати пляшку.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin160",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "The guards mentioned a certain brandy. I should go back to the White Swan Inn, and see if I can get a bottle.",
+   "ru": "",
+   "uk_ai": "Вартові згадували якесь бренді. Треба повернутися до корчми «Білий Лебідь» і спробувати дістати пляшку.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin103",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: I'll just leave this here...",
+   "ru": "",
+   "uk_ai": "Піпін: Я просто залишу це тут...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_beaconguard03",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Beacon Guard 01: What's that? Go have a look!",
+   "ru": "",
+   "uk_ai": "Вартовий вогню 1: Що це там? Піди глянь!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_beaconguard04",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Beacon Guard 02: Is that what I think it is? Keep watch while I warm up!",
+   "ru": "",
+   "uk_ai": "Вартовий вогню 2: Невже це те, що я думаю? Ти стережи, а я погріюся!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin111",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: That took care of one of them! I'll just distract the other and quickly get to the beacon.",
+   "ru": "",
+   "uk_ai": "Піпін: Одного позбувся! Тепер відволічу другого — і швиденько до вогню.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtareahousesofhealing",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "HOUSES OF HEALING",
+   "ru": "",
+   "uk_ai": "ОБИТЕЛЬ ЗЦІЛЕННЯ",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtarearoyalbarracks",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "BARRACKS OF THE CITADEL GUARD",
+   "ru": "",
+   "uk_ai": "КАЗАРМИ ВАРТИ ЦИТАДЕЛІ",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtarearoyalarmoury",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "ROYAL ARMOURIES",
+   "ru": "",
+   "uk_ai": "КОРОЛІВСЬКА ЗБРОЯРНЯ",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtarearoyalstables",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "ROYAL STABLES",
+   "ru": "",
+   "uk_ai": "КОРОЛІВСЬКІ СТАЙНІ",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtarealibrary",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "LIBRARY",
+   "ru": "",
+   "uk_ai": "БІБЛІОТЕКА",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:cartographersguild",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "CARTOGRAPHERS GUILD",
+   "ru": "",
+   "uk_ai": "ГІЛЬДІЯ КАРТОГРАФІВ",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:tavern",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "WHITE SWAN INN",
+   "ru": "",
+   "uk_ai": "КОРЧМА «БІЛИЙ ЛЕБІДЬ»",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:fullers",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "FULLERS",
+   "ru": "",
+   "uk_ai": "СУКНОВАЛЬНЯ",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:markets",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "MARKETS",
+   "ru": "",
+   "uk_ai": "РИНОК",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:houseofthekings",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "HOUSE OF THE KINGS",
+   "ru": "",
+   "uk_ai": "УСИПАЛЬНИЦЯ КОРОЛІВ",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:houseofthestewards",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "HOUSE OF THE STEWARDS",
+   "ru": "",
+   "uk_ai": "УСИПАЛЬНИЦЯ НАМІСНИКІВ",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtareaseventhlevel",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "SEVENTH LEVEL",
+   "ru": "",
+   "uk_ai": "СЬОМИЙ ЯРУС",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtareasixthlevel",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "SIXTH LEVEL",
+   "ru": "",
+   "uk_ai": "ШОСТИЙ ЯРУС",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtareafifthlevel",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "FIFTH LEVEL",
+   "ru": "",
+   "uk_ai": "П'ЯТИЙ ЯРУС",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtareafourthlevel",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "FOURTH LEVEL",
+   "ru": "",
+   "uk_ai": "ЧЕТВЕРТИЙ ЯРУС",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtareathirdlevel",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "THIRD LEVEL",
+   "ru": "",
+   "uk_ai": "ТРЕТІЙ ЯРУС",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NoticeboardMarket_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "Venture to the Fourth level for the weekly market\nLocal produce, crafts and other rarities\nArvedui's Square, 4th Level, South Quarter",
+   "ru": "",
+   "uk_ai": "Завітайте на Четвертий ярус на щотижневий ринок\nМісцеві продукти, ремесла та інші рідкості\nПлоща Арведуї, 4-й ярус, Південний квартал",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NoticeboardLibrary_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "Reading is a valuable skill and a great way to enrich your life.\nKnowledge and tales of old await you at the Library\nFifth Level",
+   "ru": "",
+   "uk_ai": "Читання — цінна навичка й чудовий спосіб збагатити своє життя.\nЗнання та давні оповіді чекають на вас у Бібліотеці\nП'ятий ярус",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NoticeboardCat_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Missing cat:\nBlack and lean with green eyes\nReward for safe return to the White Swan Inn\nNo imposters!",
+   "ru": "",
+   "uk_ai": "Зникла кицька:\nЧорна, худенька, із зеленими очима\nВинагорода за повернення в корчму «Білий Лебідь»\nСамозванців не приводити!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NoticeboardTraveller_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "A trustworthy escort is sought for a journey from Minas Tirith to Dol Amroth.\nThe roads grow treacherous - reward offered to those who can ensure safe arrival.\nIf you deem yourself a skilled and vigilant companion, leave word at the noticeboard at the White Swan Inn.",
+   "ru": "",
+   "uk_ai": "Шукаю надійного супровідника для подорожі з Мінас-Тіріта до Дол-Амроту.\nДороги стають небезпечними — винагорода тому, хто забезпечить безпечне прибуття.\nЯкщо вважаєте себе вправним і пильним супутником, залиште звістку на дошці оголошень у корчмі «Білий Лебідь».",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NoticeboardHallows_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "Proclamation\nBy the authority vested in the Steward of Gondor, access to the hallowed grounds of Rath Dínen is strictly prohibited except by special permission from the Steward himself. This decree aims to safeguard the sanctity of our revered tombs and monuments. Any breach will be met with severe consequences.\n \nSteward Denethor II",
+   "ru": "",
+   "uk_ai": "Оголошення\nВладою, наданою Наміснику Ґондору, доступ до священних земель Рат-Дінена суворо заборонено без особливого дозволу самого Намісника. Цей указ має на меті вберегти святість наших шанованих гробниць і пам'ятників. Будь-яке порушення суворо каратиметься.\n \nНамісник Денетор II",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NoticeboardHealers_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "Salves, remedies and dressings\nHealing advice on the first and fifteenth of each month\nAsk for Sister Elinor at the Houses of Healing, Fifth Level",
+   "ru": "",
+   "uk_ai": "Мазі, ліки та перев'язувальні матеріали\nПоради цілителів першого й п'ятнадцятого числа щомісяця\nПитайте сестру Елінор в Обителі Зцілення, П'ятий ярус",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NoticeboardSmith_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "Visit the Harlond Hammer for quality weapons and armor!\nHorseshoes, chains and metalwork\nSpecial discount this week only",
+   "ru": "",
+   "uk_ai": "Завітайте до «Харлондського Молота» по якісну зброю й обладунки!\nПідкови, ланцюги та металеві вироби\nЗнижка лише цього тижня",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:NoticeboardStables_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "For Sale: Trusty Mare of Halifirien stock\nChestnut with white patches\nInquire at the City Stables\nFourth Level, near the South Gate",
+   "ru": "",
+   "uk_ai": "Продається: надійна кобила галіфірієнської породи\nГніда з білими плямами\nПитайте в Міських конюшнях\nЧетвертий ярус, біля Південної брами",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley36",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "The City is old. It crumbles in places seen and unseen. It's up to us to patch it up.",
+   "ru": "",
+   "uk_ai": "Місто старе. Воно кришиться — і там, де видно, і там, де ні. Латати його — наша справа.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_irolas001",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Lord Denethor has long served with wisdom and surety. Through his leadership and foresight we have withstood the legions of Mordor.",
+   "ru": "",
+   "uk_ai": "Володар Денетор віддавна править мудро й певно. Завдяки його проводу й передбачливості ми встояли перед легіонами Мордору.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hurin001",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Hail, perian. Welcome to Minas Tirith. I am Húrin, Warden of the Keys.",
+   "ru": "",
+   "uk_ai": "Вітаю, періане. Ласкаво просимо до Мінас-Тіріта. Я Гурін, Ключник.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin133",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Nice to meet you sir. If I may ask, what does a warden of the keys do?",
+   "ru": "",
+   "uk_ai": "Радий знайомству, пане. Дозвольте спитати: а що робить ключник?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hurin002A",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Ours is an ancient office, dating back to the time of Anárion.",
+   "ru": "",
+   "uk_ai": "Наша посада давня, вона сягає часів Анаріона.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hurin002B",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Of old, the Warden was in charge of the Gates of the City. Their lawful opening and closing, and averting the trespass of unwanted visitors.",
+   "ru": "",
+   "uk_ai": "Здавна Ключник відав Брамами Міста: їх законним відчиненням і зачиненням, а також тим, щоб не пропускати непроханих гостей.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hurin002C",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "These days, the Warden is also in charge of the City Guard.",
+   "ru": "",
+   "uk_ai": "Нині Ключник також очолює Міську варту.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin134",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Sounds like an important job.",
+   "ru": "",
+   "uk_ai": "Схоже, важлива робота.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hurin003",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "An honourable one, to be certain.",
+   "ru": "",
+   "uk_ai": "І почесна, без сумніву.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin115",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Ah! The bald man?",
+   "ru": "",
+   "uk_ai": "А! Той лисий?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin104",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Ehh... No, thanks.",
+   "ru": "",
+   "uk_ai": "Е-е... Ні, дякую.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf285",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Denethor is beset by some dark despair... a device of Sauron's, I fear.",
+   "ru": "",
+   "uk_ai": "Денетора охопив якийсь темний відчай... боюся, це Сауронові підступи.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir099",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Word has been sent to the southern fiefs. Imrahil, Forlong... they will fight.",
+   "ru": "",
+   "uk_ai": "Звістку розіслано до південних ленів. Імрагіл, Форлонґ... вони битимуться.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf286",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "But will it be enough? Their lands are under assault.",
+   "ru": "",
+   "uk_ai": "Але чи вистачить цього? На їхні землі напали.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir100",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "It will not.",
+   "ru": "",
+   "uk_ai": "Не вистачить.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf287",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "We must light the Beacon, Boromir. Théoden will come.",
+   "ru": "",
+   "uk_ai": "Ми мусимо запалити сигнальний вогонь, Боромире. Теоден прийде.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_boromir101",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Does Aragorn ride with him?",
+   "ru": "",
+   "uk_ai": "Араґорн їде з ним?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf288",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "He does. We must make way for the return of the King.",
+   "ru": "",
+   "uk_ai": "Так. Ми мусимо проторувати шлях для повернення Короля.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf289",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Peregrin Took! Eavesdropping, are we!? I hoped you'd have learned a lesson about sticking your nose where it does not belong. Go do as you've been told, and then come see me once you've finished your tasks!",
+   "ru": "",
+   "uk_ai": "Переґріне Туку! Підслуховуємо, га?! Я сподівався, ти засвоїв урок, що не варто пхати носа, куди не просять. Іди виконуй, що тобі сказали, а як упораєшся зі своїми завданнями — приходь до мене!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley27",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Hail, perian. Should you find yourself lost amongst the streets of the city, use these waystones to find your way.",
+   "ru": "",
+   "uk_ai": "Вітаю, періане. Якщо заблукаєш вулицями міста, скористайся цими шляховими каменями, щоб знайти дорогу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf151",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: The old wisdom born out of the West was forsaken.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Давню мудрість, народжену на Заході, було відкинуто.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf152",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: Kings made tombs more splendid than the houses of the living...",
+   "ru": "",
+   "uk_ai": "Ґендальф: Королі будували гробниці пишніші за домівки живих...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf153",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: ...and counted the old names of their descent dearer than the names of their sons.",
+   "ru": "",
+   "uk_ai": "Ґендальф: ...і цінували давні імена своїх предків більше, ніж імена власних синів.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf154",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: Childless lords sat in aged halls, musing on heraldry...",
+   "ru": "",
+   "uk_ai": "Ґендальф: Бездітні володарі сиділи у старих палатах, розмірковуючи над гербами...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf155",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: ...or in high cold towers asking questions of the stars...",
+   "ru": "",
+   "uk_ai": "Ґендальф: ...або у високих холодних вежах розпитували зірки...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf156",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: ...and so the people of Gondor fell into ruin.",
+   "ru": "",
+   "uk_ai": "Ґендальф: ...і так народ Ґондору занепав.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf157",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: The line of Kings failed...",
+   "ru": "",
+   "uk_ai": "Ґендальф: Рід Королів перервався...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf158",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: ...the White Tree withered...",
+   "ru": "",
+   "uk_ai": "Ґендальф: ...Біле Древо всохло...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf159",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: ...the rule of Gondor was given over to lesser Men.",
+   "ru": "",
+   "uk_ai": "Ґендальф: ...а владу в Ґондорі передали меншим людям.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin019",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: Mordor...",
+   "ru": "",
+   "uk_ai": "Піпін: Мордор...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf160",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: Yes, there it lies.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Так, ось він.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf161",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: This city has dwelt ever in the sight of its shadow.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Це місто завжди жило під його тінню.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin020",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: A storm is coming.",
+   "ru": "",
+   "uk_ai": "Піпін: Насувається буря.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf162",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: This is not the weather of the world.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Це не звичайна негода.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf163",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: This is a device of Sauron's making, a broil of fume he sends ahead of his host.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Це витвір Саурона — клуби диму, які він посилає поперед свого війська.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf164",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: The orcs of Mordor have no love of daylight...",
+   "ru": "",
+   "uk_ai": "Ґендальф: Орки Мордору не люблять денного світла...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf165",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: ...so he covers the face of the sun to ease their passage along the road to war.",
+   "ru": "",
+   "uk_ai": "Ґендальф: ...тож він затуляє лик сонця, щоб полегшити їм шлях на війну.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf166",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: When the shadow of Mordor reaches this city...",
+   "ru": "",
+   "uk_ai": "Ґендальф: Коли тінь Мордору досягне цього міста...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf167",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: ...It will begin.",
+   "ru": "",
+   "uk_ai": "Ґендальф: ...усе почнеться.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin018",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: Why are they still guarding it?",
+   "ru": "",
+   "uk_ai": "Піпін: Чому його досі стережуть?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf146",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: They guard it because they have hope.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Стережуть, бо мають надію.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf147",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: Faith and fading hope that one day it will flower.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Віру й згасаючу надію, що колись воно зацвіте.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf148",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: The King will come...",
+   "ru": "",
+   "uk_ai": "Ґендальф: Король прийде...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf149",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: ...and this city will be as it once was...",
+   "ru": "",
+   "uk_ai": "Ґендальф: ...і це місто стане таким, яким було колись...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf150",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: ...before it fell into decay.",
+   "ru": "",
+   "uk_ai": "Ґендальф: ...до свого занепаду.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin016",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: It's the tree...",
+   "ru": "",
+   "uk_ai": "Піпін: Це ж те дерево...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin017",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: Gandalf, Gandalf!",
+   "ru": "",
+   "uk_ai": "Піпін: Ґендальфе, Ґендальфе!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf139",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: Yes, the White Tree of Gondor. The Tree of the King.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Так, Біле Древо Ґондору. Древо Короля.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf140",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: Lord Denethor, however, is not the King.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Утім, володар Денетор — не Король.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf141",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: He is a steward only. A caretaker of the throne.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Він лише намісник. Доглядач трону.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin069",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "So, I'm of the Citadel Guard, but judging by your regalia, you're in a different order?",
+   "ru": "",
+   "uk_ai": "Отже, я з Варти Цитаделі, а ти, судячи з убрання, з іншого ордену?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:FountainGuard001",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "...",
+   "ru": "",
+   "uk_ai": "...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin070",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "It must be a hard job, standing around here all day.",
+   "ru": "",
+   "uk_ai": "Мабуть, нелегка це робота — стовбичити тут цілісінький день.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin071",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "I stood guard many times myself, when my friend Merry went into Farmer Maggot's crop and... well... nevermind that.",
+   "ru": "",
+   "uk_ai": "Я й сам не раз стояв на чатах, коли мій друг Меррі ліз на поле фермера Меґота і... ну... не зважай.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin072",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Can I get you something? An apple? Some water? Maybe a pint?",
+   "ru": "",
+   "uk_ai": "Може, тобі щось принести? Яблуко? Води? Чи, може, кухоль пива?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin073",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "A magnificent silver spike. I wonder which is the tallest, this one, or the ones near the western borders of the Shire?",
+   "ru": "",
+   "uk_ai": "Чудовий срібний шпиль. Цікаво, котрий вищий — цей чи ті, що біля західних кордонів Ширу?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor063",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Leave me to my thoughts, halfling. Grave matters require my attention.",
+   "ru": "",
+   "uk_ai": "Залиш мене з моїми думками, напіврослику. Мене чекають серйозні справи.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_beaconguard01",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Beacon Guard: Halt! Passage to the beacons is restricted by the authority of the Steward, even for those among the Citadel Guard.",
+   "ru": "",
+   "uk_ai": "Вартовий вогню: Стій! Прохід до сигнальних вогнів закрито з наказу Намісника — навіть для Варти Цитаделі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf290",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "You mustn't tarry Peregrin Took! That beacon must be lit!",
+   "ru": "",
+   "uk_ai": "Не барися, Переґріне Туку! Сигнальний вогонь треба запалити!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_masteratarms001",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "What is your purpose, Halfling?",
+   "ru": "",
+   "uk_ai": "Чого тобі, напіврослику?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin075",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "As a Guard of the Citadel, I am expected to practice my swordplay. I have some experience, mind you. It's been a long journey to get here!",
+   "ru": "",
+   "uk_ai": "Як вартовий Цитаделі, я маю вправлятися з мечем. Певний досвід у мене є, щоб ви знали. Шлях сюди був довгий!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_masteratarms002",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "I do not doubt it, young sir. But the warriors in this yard are highly skilled. It would be too dangerous, and I have no time now to go over the fundamentals. It would be best if you observed.",
+   "ru": "",
+   "uk_ai": "Не сумніваюся, юний пане. Але воїни на цьому подвір'ї дуже вправні. Це було б надто небезпечно, а пояснювати основи мені зараз ніколи. Краще спостерігай.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin076",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "As you wish! I'd rather not get beaten bloody. It'll be nice to get a rest anyhow.",
+   "ru": "",
+   "uk_ai": "Як скажете! Не хотілося б, щоб мене відлупцювали до крові. Та й відпочити не завадить.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective02_TrainingFailed",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "You must complete 5 waves of training to obtain Pippin's armour.",
+   "ru": "",
+   "uk_ai": "Щоб отримати обладунок Піпіна, треба пройти 5 хвиль тренування.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_masteratarms003",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Master-at-Arms: That's how it's done, Halfling! Here is your armour - may it serve you well.\nYou may return at anytime to observe more practice, should you desire it.",
+   "ru": "",
+   "uk_ai": "Майстер-зброяр: Ось як це робиться, напіврослику! Ось твій обладунок — хай добре тобі служить.\nМожеш повертатися будь-коли й дивитися на тренування, якщо захочеш.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective02_TrainingPrompt",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "Move Pippin onto the spotlight to begin training.",
+   "ru": "",
+   "uk_ai": "Поставте Піпіна в освітлене коло, щоб почати тренування.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin109",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Mardil Voronwe. It says he was the first of the Ruling Stewards... after King Earnur disappeared...",
+   "ru": "",
+   "uk_ai": "Марділ Воронве. Тут написано, що він був першим із Правлячих Намісників... після того, як зник король Еарнур...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin110",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Here lies Ecthelion the Second... I think this is Lord Denethor's father.",
+   "ru": "",
+   "uk_ai": "Тут спочиває Ектеліон Другий... Здається, це батько володаря Денетора.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin084",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Dusty old tomes. It appears someone once used this spot for quiet reading.",
+   "ru": "",
+   "uk_ai": "Запилені старі фоліанти. Схоже, колись тут хтось любив тихенько почитати.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin083",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Lord Denethor seemed more kingly than any Man I have ever seen, save perhaps Strider when we were in Rivendell. Yet he is only a steward... a protector of the throne.",
+   "ru": "",
+   "uk_ai": "Володар Денетор здався мені величнішим за будь-кого з людей, кого я бачив, хіба що окрім Бродяжника в Рівенделлі. Та він лише намісник... охоронець трону.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin079",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "A-ná-rion. This tomb looks to be the eldest. Oh... this face looks familiar. He looks like the great Argonath that we saw from the Elven boats.",
+   "ru": "",
+   "uk_ai": "А-на-рі-он. Ця гробниця, схоже, найдавніша. О... це обличчя здається знайомим. Він схожий на величні Арґонат, які ми бачили з ельфійських човнів.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin081",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Earnur. The only one without a body. Wonder what happened to him!",
+   "ru": "",
+   "uk_ai": "Еарнур. Єдиний, від кого не лишилося тіла. Цікаво, що з ним сталося!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin080",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Hy-ar... Hy-ar... Hy-ar-men-dacil. Goodness, what a name. And look! They carved his likeness wearing armour. He must have been a great warrior.",
+   "ru": "",
+   "uk_ai": "Гі-ар... Гі-ар... Гі-ар-мен-да-кіл. Оце так ім'я. А погляньте! Його зобразили в обладунку. Певно, був великий воїн.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin082",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "A wee tomb... this one tells a story most sad...",
+   "ru": "",
+   "uk_ai": "Крихітна гробниця... її історія дуже сумна...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin078",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Gandalf told me that Gondor has been without a King for many generations. Yet so many of them are laid to rest here. This City is old... older than the Shire, no doubt.",
+   "ru": "",
+   "uk_ai": "Ґендальф казав, що Ґондор багато поколінь живе без Короля. А стільки з них тут спочиває. Це Місто старе... без сумніву, старше за Шир.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_beregond010",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Have you paid your respects at Rath Dínen?",
+   "ru": "",
+   "uk_ai": "Ти вже вшанував пам'ять предків у Рат-Дінені?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_beregond011",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "The Master-at-Arms awaits you, friend. Don't keep him waiting!",
+   "ru": "",
+   "uk_ai": "Майстер-зброяр чекає на тебе, друже. Не змушуй його чекати!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin091",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Dear Shadowfax! How swiftly you carried us! Safely through lands that Gandalf says are no longer safe for gentle folk. I will find you a token of friendship, a reward for your unfaltering service.",
+   "ru": "",
+   "uk_ai": "Любий Тінегриве! Як швидко ти нас ніс! Безпечно — крізь землі, які, за словами Ґендальфа, більше не безпечні для мирного люду. Я знайду тобі знак дружби, нагороду за твою невтомну службу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin099",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Here, my lord - it's not much, but it's the finest apple from the city markets I could find.",
+   "ru": "",
+   "uk_ai": "Ось, мій пане, — небагато, але це найкраще яблуко, яке я знайшов на міському ринку.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:HINT_BERGIL_AREA",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "You are leaving the area in which Bergil is hiding. You can go back to find him, or come back later.",
+   "ru": "",
+   "uk_ai": "Ви залишаєте місцевість, де ховається Берґіл. Можна повернутися й знайти його або прийти пізніше.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_bergil05",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Bergil: Took you long enough! Let's play again!",
+   "ru": "",
+   "uk_ai": "Берґіл: Довго ж ти! Пограймо ще!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_bergil06",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Bergil: Got me! Not bad, not bad! Let's see if you can find me this time...",
+   "ru": "",
+   "uk_ai": "Берґіл: Знайшов! Непогано, непогано! Подивимося, чи знайдеш мене цього разу...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_bergil07",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Bergil: You're good, Master Pippin!",
+   "ru": "",
+   "uk_ai": "Берґіл: А ти вправний, пане Піпіне!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_bergil08",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Bergil: Come again soon, I beg. I wish there was no war, for we might have had some merry times!",
+   "ru": "",
+   "uk_ai": "Берґіл: Приходь швидше ще, прошу. Шкода, що війна, бо ми могли б весело провести час!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin125",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Pippin: Sure, I'll come find you if I've got time... a Guard of the Citadel\nhas many duties he must attend to, after all. Until then!",
+   "ru": "",
+   "uk_ai": "Піпін: Звісно, прийду до тебе, якщо матиму час... зрештою, вартовий Цитаделі\nмає чимало обов'язків. До зустрічі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_bergil09",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Bergil: Farewell for this time! Thank you for your company. Take my greetings to my father!",
+   "ru": "",
+   "uk_ai": "Берґіл: Поки що прощавай! Дякую, що погрався зі мною. Передавай вітання батькові!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin126",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "I met your son Bergil. He sends his greetings!",
+   "ru": "",
+   "uk_ai": "Я познайомився з твоїм сином Берґілом. Він передає вітання!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_beregond012",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Did you now? I hope he didn't distract you too much. That boy loves his games.",
+   "ru": "",
+   "uk_ai": "Он як? Сподіваюся, він не надто тебе відволікав. Цей хлопчина обожнює ігри.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin176",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Surely Bergil hasn't gone this far.",
+   "ru": "",
+   "uk_ai": "Навряд чи Берґіл забрів аж так далеко.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin177",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "I bet Bergil is hiding somewhere around here.",
+   "ru": "",
+   "uk_ai": "Б'юся об заклад, Берґіл ховається десь тут.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_barkeep001",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Where has that darn cat got to... place is crawling w' mice... er oh! What I meant was - we're ship shape alright!",
+   "ru": "",
+   "uk_ai": "Куди ж подівся той клятий кіт... скрізь миші кишать... е-е, ой! Я хотів сказати — у нас усе в найкращому порядку!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_barkeep002",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Oh, there you are, my sweet! Thank you, young master! Here, ‘ave a pint on the house!...Err, you are of age, aren't ye?",
+   "ru": "",
+   "uk_ai": "О, ось ти де, моя солоденька! Дякую, юний пане! Ось, кухоль за рахунок закладу!.. Е-е, а ти вже повнолітній, га?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin107",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Oh, I think your master's looking for you, little kitten!",
+   "ru": "",
+   "uk_ai": "О, здається, твій господар тебе шукає, кошенятко!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective04_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "Visit the House of the Kings and House of the Stewards",
+   "ru": "",
+   "uk_ai": "Відвідайте Усипальницю Королів та Усипальницю Намісників",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:BonusObjective10_Beacons",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Ціль",
+   "en": "Explore the Fifth, Fourth and Third Levels of Minas Tirith",
+   "ru": "",
+   "uk_ai": "Огляньте П'ятий, Четвертий і Третій яруси Мінас-Тіріта",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:WaystoneHint",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "The White City is vast. You may use Waystones to quickly access a previously discovered location.",
+   "ru": "",
+   "uk_ai": "Біле Місто величезне. Шляхові камені дозволяють швидко переміститися до вже відкритого місця.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf224",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Gandalf: You are not alone in this fight.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Ти не самотній у цій боротьбі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_denethor042",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Діалог",
+   "en": "Denethor: With your left hand you would use me as a shield against Mordor...\nand with your right you would seek to supplant me.",
+   "ru": "",
+   "uk_ai": "Денетор: Лівою рукою ти хотів би заслонитися мною від Мордору...\nа правою — посісти моє місце.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_masteratarms004",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Keep your elbow up!",
+   "ru": "",
+   "uk_ai": "Лікоть вище!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_masteratarms005",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Watch your footwork!",
+   "ru": "",
+   "uk_ai": "Стеж за ногами!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_masteratarms006",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Pivot!",
+   "ru": "",
+   "uk_ai": "Розворот!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_masteratarms007",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Raise that shield next time!",
+   "ru": "",
+   "uk_ai": "Наступного разу піднімай щит!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_masteratarms008",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Keep practising!",
+   "ru": "",
+   "uk_ai": "Тренуйся далі!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_masteratarms009",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Shoddy swordplay!",
+   "ru": "",
+   "uk_ai": "Жалюгідна робота мечем!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_masteratarms010",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Come, get up!",
+   "ru": "",
+   "uk_ai": "Ну ж бо, вставай!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_masteratarms011",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "I’ve seen you do better!",
+   "ru": "",
+   "uk_ai": "Я бачив, що ти можеш краще!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_masteratarms012",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "You must be faster!",
+   "ru": "",
+   "uk_ai": "Треба швидше!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_masteratarms013",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "That's enough of that",
+   "ru": "",
+   "uk_ai": "Досить",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_librarian002",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Notes, notes, notes… so many notes!",
+   "ru": "",
+   "uk_ai": "Нотатки, нотатки, нотатки… скільки ж нотаток!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_librarian003",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "It's a tough job, but somebody has to do it.",
+   "ru": "",
+   "uk_ai": "Робота нелегка, але хтось мусить її робити.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_hohdunadan001",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Plants have many uses, both to harm and heal. And sometimes the most unassuming are the most potent. Athelas... its sweet smell soothes those who have seen too much of war...",
+   "ru": "",
+   "uk_ai": "Рослини мають безліч застосувань — і на шкоду, і на зцілення. І часом найнепримітніші з них — найсильніші. Ацелас... його солодкий запах заспокоює тих, хто надто багато бачив на війні...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin102",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Say, friend, you wouldn't have any Brandy, would you?",
+   "ru": "",
+   "uk_ai": "Слухай, друже, а бренді в тебе часом не знайдеться?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_barkeep003",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Anything for you, little pal",
+   "ru": "",
+   "uk_ai": "Для тебе — що завгодно, малий",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin127",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "'Premium Lossarnach Brandy'... That should take care of that guard!",
+   "ru": "",
+   "uk_ai": "«Добірне лоссарнахське бренді»... Це має впоратися з тим вартовим!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_fifthlevelgateguard01",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Shoo! You're not going up there, puss!",
+   "ru": "",
+   "uk_ai": "Киш! Тобі туди не можна, кицю!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivnobleconvo_01",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Lord Denethor knows what he is doing... But where is Imrahil? Where are our soldiers?",
+   "ru": "",
+   "uk_ai": "Володар Денетор знає, що робить... Але де Імрагіл? Де наші воїни?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivnobleconvo_02",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Every day, the darkness of Mordor draws closer... We have bountiful stores. We will outlast them. Sauron seeks to destroy us, not raid our stores...",
+   "ru": "",
+   "uk_ai": "З кожним днем темрява Мордору ближчає... У нас великі запаси. Ми їх пересидимо. Саурон прагне нас знищити, а не пограбувати наші комори...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivnobleconvo_03",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "We should have bolstered the garrison years ago. Now the hour has grown too late. One Gondorian is worth a score of Mordorian scum. I would not be so sure...",
+   "ru": "",
+   "uk_ai": "Слід було посилити гарнізон ще багато років тому. Тепер уже запізно. Один ґондорець вартий двадцятка мордорських покидьків. Я б не був такий певен...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivnobleconvo_05",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "We should have rekindled the old alliances the day Osgiliath was lost. Retaking it was but a temporary reprieve. Why did we not send envoys north? The Elvenking does not gladly dispatch his elves to the aid of Men..",
+   "ru": "",
+   "uk_ai": "Треба було відновити давні союзи того ж дня, коли ми втратили Осґіліат. Відвоювали його лише на якийсь час. Чому ми не відрядили посланців на північ? Ельфійський король неохоче посилає своїх ельфів на поміч людям...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivnobleconvo_06",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "No army has ever breached the Othram. You worry too much. They say Curunir laid low the great wall at Helm's Deep, using some dark sorcery. Who can know what fell devices the Dark Lord himself will send with his armies?",
+   "ru": "",
+   "uk_ai": "Жодне військо ще не проломило Отрам. Ти надто переймаєшся. Кажуть, Курунір зруйнував великий мур у Гельмовому Яру якимсь темним чаклунством. Хто знає, які лихі знаряддя пошле зі своїми військами сам Темний Володар?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivnobleconvo_07",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "So Mithrandir has returned to the White City. They say doom follows in his footsteps...",
+   "ru": "",
+   "uk_ai": "Отже, Мітрандир повернувся до Білого Міста. Кажуть, за ним слідом ходить біда...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivnobleconvo_08",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "I haven't slept for days... and when I do, I dream of the Black Land. Last night I dreamt of a comely maiden amidst the flowers in Imloth Melui.",
+   "ru": "",
+   "uk_ai": "Я вже кілька днів не сплю... а як засну, то сниться Чорна Земля. А мені минулої ночі наснилася гарна дівчина серед квітів Імлот-Мелуї.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivnobleconvo_18",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Lord Denethor is wise, yes, but I  cannot ignore the evidence of my eyes. We need more men. More will come.",
+   "ru": "",
+   "uk_ai": "Володар Денетор мудрий, так, але я не можу не вірити власним очам. Нам потрібно більше людей. Прийдуть ще.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley01",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Hey watch it!",
+   "ru": "",
+   "uk_ai": "Гей, обережніше!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley02",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Whaddaya want?",
+   "ru": "",
+   "uk_ai": "Чого тобі?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley03",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "You best keep out of trouble...",
+   "ru": "",
+   "uk_ai": "Краще не шукай халепи...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley04",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Oi, be careful!",
+   "ru": "",
+   "uk_ai": "Гей, обережно!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley05",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "6th level? That'll take all day",
+   "ru": "",
+   "uk_ai": "Шостий ярус? Це ж на цілий день",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley06",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Some old man in white darn near ran me down this morning.",
+   "ru": "",
+   "uk_ai": "Якийсь старий у білому мало мене не збив зранку.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley07",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Have you seen Andreth today?",
+   "ru": "",
+   "uk_ai": "Ти сьогодні бачив Андрет?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley08",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Hmm?",
+   "ru": "",
+   "uk_ai": "Гм?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley09",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Hmmm?",
+   "ru": "",
+   "uk_ai": "Гм-м?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley10",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "What is it?",
+   "ru": "",
+   "uk_ai": "Що таке?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley11",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "And you are?",
+   "ru": "",
+   "uk_ai": "А ти хто?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley12",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "What's the hurry?",
+   "ru": "",
+   "uk_ai": "Куди так поспішаєш?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley13",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Ain't no orc that can scale these walls.",
+   "ru": "",
+   "uk_ai": "Нема такого орка, що видерся б на ці мури.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley14",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "By order of the steward...? That's the third one this week...",
+   "ru": "",
+   "uk_ai": "«З наказу намісника»...? Це вже третій за тиждень...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley15",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Little short for a guard aren't ya?",
+   "ru": "",
+   "uk_ai": "Замалий ти для вартового, га?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley16",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Did you hear? Captain Boromir has returned!",
+   "ru": "",
+   "uk_ai": "Чув? Капітан Боромир повернувся!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley17",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Captain Boromir has been away for many moons... I hope he returns soon.",
+   "ru": "",
+   "uk_ai": "Капітана Боромира не було вже багато місяців... Сподіваюся, він скоро повернеться.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley18",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "The eastern sky grows dark... I fear for what is to come.",
+   "ru": "",
+   "uk_ai": "Небо на сході темніє... Боюся того, що буде.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley19",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "If you are looking for something, make sure to seek out a notice board.",
+   "ru": "",
+   "uk_ai": "Якщо щось шукаєш, неодмінно знайди дошку оголошень.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley20",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "You are looking for the Citadel Barracks? It lies up ahead, beneath the shadow of the Hall of the Kings.",
+   "ru": "",
+   "uk_ai": "Шукаєш казарми Цитаделі? Вони попереду, в тіні Королівської Палати.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley21",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Gandalf? Ah, Mithrandir. Yes, he passed this way.",
+   "ru": "",
+   "uk_ai": "Ґендальф? А, Мітрандир. Так, він проходив тут.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley22",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "You are looking for the White Wizard? I saw him heading west, with some haste!",
+   "ru": "",
+   "uk_ai": "Шукаєш Білого Чарівника? Я бачив, як він поспіхом ішов на захід!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley23",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "The finest horse I ever did see. But I doubt even he can resist a shiny red apple from the market...",
+   "ru": "",
+   "uk_ai": "Найкращий кінь, якого я бачив. Та навряд чи навіть він встоїть перед блискучим червоним яблуком із ринку...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley24",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "The White Swan Inn is the finest establishment this side of the Rock.",
+   "ru": "",
+   "uk_ai": "«Білий Лебідь» — найкращий заклад по цей бік Скелі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley26",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "That sword looks to be of ancient make. Did you get it at the armoury?",
+   "ru": "",
+   "uk_ai": "Цей меч, схоже, давньої роботи. Ти взяв його у зброярні?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley28",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Looking for the Master-at-Arms? He's over there.",
+   "ru": "",
+   "uk_ai": "Шукаєш майстра-зброяра? Він он там.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley29",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Well...hmm. Yes.",
+   "ru": "",
+   "uk_ai": "Ну... гм. Так.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley30",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Worry not. The White City will not fall",
+   "ru": "",
+   "uk_ai": "Не хвилюйся. Біле Місто не впаде",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley31",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "We are on watch",
+   "ru": "",
+   "uk_ai": "Ми на варті",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley32",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Be vigilant, young sir",
+   "ru": "",
+   "uk_ai": "Будь пильний, юний пане",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley33",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Do not let the threat of Mordor frighten you.",
+   "ru": "",
+   "uk_ai": "Не дай загрозі Мордору тебе налякати.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley34",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "The Men of Gondor have ever stood against the shadow.",
+   "ru": "",
+   "uk_ai": "Люди Ґондору завжди протистояли тіні.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfoley35",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "You are safe within these walls, perian.",
+   "ru": "",
+   "uk_ai": "У цих мурах ти в безпеці, періане.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley01",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "The days are growing darker...",
+   "ru": "",
+   "uk_ai": "Дні стають усе темнішими...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley02",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "If you come bearing ill news, I'd rather be spared.",
+   "ru": "",
+   "uk_ai": "Якщо несеш лихі вісті, краще мені їх не чути.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley03",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "If Osgiliath falls, what are we to do?",
+   "ru": "",
+   "uk_ai": "Якщо Осґіліат впаде, що нам робити?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley04",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Look at him... he's quite short for a prince...",
+   "ru": "",
+   "uk_ai": "Погляньте на нього... як на принца, він таки низенький...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley05",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "My husband patrols the forests of Ithilien... I hope he is well.",
+   "ru": "",
+   "uk_ai": "Мій чоловік патрулює ліси Ітілієну... Сподіваюся, з ним усе гаразд.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley06",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "I have stocked up on food... one never knows these days.",
+   "ru": "",
+   "uk_ai": "Я запаслася харчами... нині ніколи не знаєш.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley07",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Where are you off to?",
+   "ru": "",
+   "uk_ai": "Куди це ти?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley08",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Watch it!",
+   "ru": "",
+   "uk_ai": "Обережніше!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley08a",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Watch it!",
+   "ru": "",
+   "uk_ai": "Обережніше!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley09",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Hmm?",
+   "ru": "",
+   "uk_ai": "Гм?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley09a",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Hmm?",
+   "ru": "",
+   "uk_ai": "Гм?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley10",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Yes?",
+   "ru": "",
+   "uk_ai": "Так?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley10a",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Yes?",
+   "ru": "",
+   "uk_ai": "Так?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley11",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Can I help you?",
+   "ru": "",
+   "uk_ai": "Чим можу допомогти?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley11a",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Can I help you?",
+   "ru": "",
+   "uk_ai": "Чим можу допомогти?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley12",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Who are you?",
+   "ru": "",
+   "uk_ai": "Хто ти?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley12a",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Who are you?",
+   "ru": "",
+   "uk_ai": "Хто ти?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley13",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "The market is plentiful… but for how long?",
+   "ru": "",
+   "uk_ai": "На ринку всього вдосталь… але надовго?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley14",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "All my daughter talks about now is the coming arrival of all these fair fiefdom lords...",
+   "ru": "",
+   "uk_ai": "Моя донька тільки й говорить, що про прибуття всіх цих вродливих володарів ленів...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley15",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "It's the prince of the Halflings!",
+   "ru": "",
+   "uk_ai": "Це ж принц напіврослків!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley16",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Mind yourself!",
+   "ru": "",
+   "uk_ai": "Обережно!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley17",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Who is that?",
+   "ru": "",
+   "uk_ai": "Хто це?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley18",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Will you help me carry a sack of grain to the granary?",
+   "ru": "",
+   "uk_ai": "Допоможеш мені віднести мішок зерна до комори?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley19",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "The city is secure",
+   "ru": "",
+   "uk_ai": "Місто в безпеці",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemshortfoley20",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Lord Denethor knows best",
+   "ru": "",
+   "uk_ai": "Володареві Денетору видніше",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemlongfoley01",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "He walked out of the Houses of Healing before the changing of the guard! Now suddenly he can no longer make his bed because he's \"injured\"...",
+   "ru": "",
+   "uk_ai": "Він пішов з Обителі Зцілення ще до зміни варти! А тепер раптом не може застелити ліжко, бо він, бачте, «поранений»...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemlongfoley02",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "They've sent my boy to garrison the Rammas Echor... I haven't slept a wink since... Do not despair. Ivorwen tells me Captain Boromir has returned!",
+   "ru": "",
+   "uk_ai": "Мого хлопця відрядили до гарнізону на Раммас-Ехорі... Я відтоді й ока не зімкнула... Не впадай у відчай. Іворвен каже, що капітан Боромир повернувся!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemlongfoley03",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "The city is getting crowded... Three times they've broken in to take our grain sack. I've asked Ohtar to bolt our windows shut.",
+   "ru": "",
+   "uk_ai": "У місті стає тісно... Тричі до нас уже вдиралися по мішок зерна. Я попросила Охтара забити вікна.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemlongfoley04",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "...two whole pheasants! As if Lord Forlong himself were coming over for dinner!",
+   "ru": "",
+   "uk_ai": "...аж двох фазанів! Наче сам володар Форлонґ прийде на вечерю!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemlongfoley05",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "...How I long for a stay in a nice cottage in Lossarnach. But it's much too late for that now. The roads are dangerous.",
+   "ru": "",
+   "uk_ai": "...Як мені хочеться пожити в затишній хатинці в Лоссарнаху. Але тепер уже запізно. Дороги небезпечні.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemlongfoley06",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "From whence did you snatch that armour, boy? Oh... My apologies.",
+   "ru": "",
+   "uk_ai": "Де це ти поцупив той обладунок, хлопче? Ой... перепрошую.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemlongfoley07",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Do you reckon we're safe here? My mother always said that there is no place as secure as our White City...",
+   "ru": "",
+   "uk_ai": "Як гадаєш, ми тут у безпеці? Мати завжди казала, що немає місця надійнішого за наше Біле Місто...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemlongfoley08",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "All these lords seem to do is talk. We are in need of great deeds, not debate!",
+   "ru": "",
+   "uk_ai": "Ці володарі тільки й уміють, що балакати. Нам потрібні великі діла, а не суперечки!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfemlongfoley09",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Should the time come, will you pick up a blade and fight? Of course. My husband doesn’t know, but I’ve kept my father’s sword secure, and in good condition...",
+   "ru": "",
+   "uk_ai": "Якщо настане час, ти візьмеш до рук клинок і битимешся? Звісно. Мій чоловік не знає, але я зберегла батьків меч — і він у доброму стані...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivarmourer01",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "...aye sir, a bit of scrubbing and that blood will come right out no bother",
+   "ru": "",
+   "uk_ai": "...так, пане, трохи пошкребти — і кров зійде без жодного клопоту",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivbutcher01",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Fine meats for sale! Pheasant and fowl! Salted pork!",
+   "ru": "",
+   "uk_ai": "Добірне м'ясо! Фазани й птиця! Солона свинина!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivfishmonger01",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Fresh fish for sale! Mussels! Harlond herring! Amroth redfin!",
+   "ru": "",
+   "uk_ai": "Свіжа риба! Мідії! Харлондський оселедець! Амротський червоноперець!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivodos01",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Odo's Oddities! Clangers, whizzbangers, shakers and noise makers! How about you, fine sir?",
+   "ru": "",
+   "uk_ai": "Дивовижі від Одо! Брязкальця, тріскачки, гримучки й шумовиння! Може, вам щось, шановний пане?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivtoymaker01",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "...wind it up and just like that it'll spring to life! Er... well, it usually does... This one seems to be stuck...",
+   "ru": "",
+   "uk_ai": "...накрутіть — і вона враз оживе! Е-е... ну, зазвичай оживає... Ця, здається, заїла...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivweaponsmith01",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "...can't be too careful these days! On the road or on the street, best have a dagger by yer side!",
+   "ru": "",
+   "uk_ai": "...нині обережність не завадить! Хоч у дорозі, хоч на вулиці — краще мати при боці кинджал!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivwinemerchant01",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "The finest wine from Tolfalas! Rare Dorwinion reds!",
+   "ru": "",
+   "uk_ai": "Найкраще вино з Тольфаласу! Рідкісні червоні вина з Дорвініону!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivmerchant_01",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Get your apples while we have 'em!",
+   "ru": "",
+   "uk_ai": "Беріть яблука, поки є!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivmerchant_02",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "You look like you appreciate the finer things in life.",
+   "ru": "",
+   "uk_ai": "Бачу, ви цінуєте вишукані речі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivmerchant_03",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "What are you looking for, halfling?",
+   "ru": "",
+   "uk_ai": "Що шукаєш, напіврослику?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivmerchant_04",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "I buy and trade.",
+   "ru": "",
+   "uk_ai": "Купую й обмінюю.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivmerchant_05",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Looking for something specific?",
+   "ru": "",
+   "uk_ai": "Шукаєте щось певне?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivmerchant_06",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "I have the finest wares in the land.",
+   "ru": "",
+   "uk_ai": "У мене найкращий крам у краю.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivmerchant_07",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "I supply only the finest goods.",
+   "ru": "",
+   "uk_ai": "Я постачаю лише найкращі товари.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivmerchant_08",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "In all my days, never have I seen your kind walk these streets.",
+   "ru": "",
+   "uk_ai": "Скільки живу, а таких, як ти, на цих вулицях не бачив.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivmerchant_09",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "What brings you to market today?",
+   "ru": "",
+   "uk_ai": "Що привело тебе сьогодні на ринок?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mtcivmerchant_10",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "War's brewing. Best stock up while you can.",
+   "ru": "",
+   "uk_ai": "Насувається війна. Краще запастися, поки можна.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_trebuchetguard01",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Please don't touch the siege machinery son, that is a dangerous thing!",
+   "ru": "",
+   "uk_ai": "Не чіпай облогових машин, синку, це небезпечна штука!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_chiefinspector001",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "Well met, halfling! Are you enjoying the sights of the city?",
+   "ru": "",
+   "uk_ai": "Вітаю, напіврослику! Подобаються краєвиди міста?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_riderofrohan001",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Репліка",
+   "en": "I was sent here to maintain the trade of horses between Rohan and Gondor.",
+   "ru": "",
+   "uk_ai": "Мене прислали сюди підтримувати торгівлю кіньми між Роганом і Ґондором.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Timer Arena Break",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "Next round starts in:",
+   "ru": "",
+   "uk_ai": "Наступний раунд почнеться через:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Timer Arena Enter",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "Practice starts in:",
+   "ru": "",
+   "uk_ai": "Тренування почнеться через:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Counter Arena Waves Completed",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "Rounds completed:",
+   "ru": "",
+   "uk_ai": "Пройдено раундів:",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Arena Wave Complete 01",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "Round 01 Complete!",
+   "ru": "",
+   "uk_ai": "Раунд 01 пройдено!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Arena Wave Complete 02",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "Round 02 Complete!",
+   "ru": "",
+   "uk_ai": "Раунд 02 пройдено!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Arena Wave Complete 03",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "Round 03 Complete!",
+   "ru": "",
+   "uk_ai": "Раунд 03 пройдено!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Arena Wave Complete 04",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "Round 04 Complete!",
+   "ru": "",
+   "uk_ai": "Раунд 04 пройдено!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Arena Wave Complete 05",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "Round 05 Complete!",
+   "ru": "",
+   "uk_ai": "Раунд 05 пройдено!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Arena Wave Complete 06",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "Round 06 Complete!",
+   "ru": "",
+   "uk_ai": "Раунд 06 пройдено!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Arena Wave Complete 07",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "Round 07 Complete!",
+   "ru": "",
+   "uk_ai": "Раунд 07 пройдено!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Arena Wave Complete 08",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "Round 08 Complete!",
+   "ru": "",
+   "uk_ai": "Раунд 08 пройдено!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Arena Wave Complete 09",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "Round 09 Complete!",
+   "ru": "",
+   "uk_ai": "Раунд 09 пройдено!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Arena Wave Complete 10",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "Round 10 Complete!",
+   "ru": "",
+   "uk_ai": "Раунд 10 пройдено!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Arena Wave Complete Repeat",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "You have survived another round!",
+   "ru": "",
+   "uk_ai": "Ви вистояли ще один раунд!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Arena Waves Record Win",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "New record number of rounds defeated!",
+   "ru": "",
+   "uk_ai": "Новий рекорд пройдених раундів!",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Arena Waves Record Fail",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Інше",
+   "en": "You failed to beat your previous record.",
+   "ru": "",
+   "uk_ai": "Вам не вдалося побити свій попередній рекорд.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GreyCompanyHuntCampaign",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Кнопка",
+   "en": "Skilled Hunters (&T)",
+   "ru": "",
+   "uk_ai": "Вправні мисливці (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GreyCompanySilentDefendersCampaign",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Кнопка",
+   "en": "Silent Defenders (&R)",
+   "ru": "",
+   "uk_ai": "Мовчазні захисники (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGreyCompanySilentDefendersCampaign",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Кнопка",
+   "en": "Requires Level 3\nNearby Grey Company Rangers gain +25% damage for 30 seconds\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3\nСлідопити Сірого Загону поблизу отримують бонус +25% до пошкоджень на 30 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWaystoneTeleportCampaignLtB",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Кнопка",
+   "en": "Pippin travels to the selected level\n Requires such level's Waystone to have been approached\nLeft click to activate",
+   "ru": "Пиппин перемещается на выбранный ярус\nТребуется, чтобы Путевой камень этого яруса уже был найден\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Піпін переноситься на обраний ярус\n Спершу треба підійти до дороговказного каменя цього ярусу\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WaystoneTeleportL3",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Кнопка",
+   "en": "Level 3",
+   "ru": "Ярус 3",
+   "uk_ai": "Ярус 3",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WaystoneTeleportL4",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Кнопка",
+   "en": "Level 4",
+   "ru": "Ярус 4",
+   "uk_ai": "Ярус 4",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WaystoneTeleportL5",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Кнопка",
+   "en": "Level 5",
+   "ru": "Ярус 5",
+   "uk_ai": "Ярус 5",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WaystoneTeleportL6",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Кнопка",
+   "en": "Level 6",
+   "ru": "Ярус 6",
+   "uk_ai": "Ярус 6",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WaystoneTeleportL7",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Кнопка",
+   "en": "Level 7",
+   "ru": "Ярус 7",
+   "uk_ai": "Ярус 7",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipArwenFlood",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Кнопка",
+   "en": "Requires Level 6\n Summons a flood that will damage enemies\nand put out fires \n Left click icon then left click on target",
+   "ru": "Требуется уровень 6\nПризывается наводнение, которое наносит большой урон врагам\nи тушит огонь\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 6\n Викликає повінь, що завдає пошкоджень ворогам\nі гасить пожежі \n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGreyCompanyHunt",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Кнопка",
+   "en": "Requires Level 5\n For 30 seconds, a target unit or hero is marked by the Grey Company\nThe target shares vision with the player, loses -25% speed and takes 50% more damage from Grey Company and Dúnedain attack\n Left click then left click on target",
+   "ru": "Требуется уровень 5\nВ течение 30 секунд вражеский отряд или герой помечаются Серой компанией\nЦель разделяет видение с игроком, теряет -25% скорости и получает на 50% больше урона от атак Серой компании и воинов-дунэдайн\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 5\n На 30 сек. Сірий Загін позначає вказаний загін або героя\nГравець бачить те саме, що й ціль; ціль втрачає 25% швидкості й отримує на 50% більше пошкоджень від атак Сірого Загону та дунедайн\n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WaystoneTeleport",
+   "mission": "002_Lighting of the Beacons",
+   "type": "Кнопка",
+   "en": "Elvenking's Road (&W)",
+   "ru": "Тропы короля (&W)",
+   "uk_ai": "Шлях Короля ельфів (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

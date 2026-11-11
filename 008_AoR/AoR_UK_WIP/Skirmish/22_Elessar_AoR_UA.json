@@ -1,0 +1,106 @@
+{
+ "meta": {
+  "hero": "Elessar",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Men"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "GondorElessar"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:GondorElessar",
+   "type": "Ім'я",
+   "en": "Elessar",
+   "ru": "Элессар",
+   "uk_ai": "Елессар",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElessarToggleMount",
+   "type": "Кнопка",
+   "en": "Mount Roheryn / Dismount (&W)",
+   "ru": "Оседлать Рохерина / Спешиться (&W)",
+   "uk_ai": "Осідлати Рогерина / Спішитися (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElessarAthelas",
+   "type": "Кнопка",
+   "en": "Hands of the King (&R)",
+   "ru": "Руки короля (&R)",
+   "uk_ai": "Руки короля (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipElessarAthelas",
+   "type": "Підказка",
+   "en": "Heals nearby friendly Heroes and strengthens them by granting \n them +33% armour for 30 seconds\n Left click to activate",
+   "ru": "Исцеляет ближайших дружественных героев и усиливает их, предоставляя им\\n+33% брони на 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Зцілює союзних героїв поблизу й посилює їх:\nПротягом 30 сек. вони отримують бонус +33% броні\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElessarBladeMaster",
+   "type": "Кнопка",
+   "en": "Andúril, Flame of the West (&T)",
+   "ru": "Андурил, Пламя Запада (&T)",
+   "uk_ai": "Андуріл, Полум'я Заходу (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipElessarBladeMaster",
+   "type": "Підказка",
+   "en": "Aragorn deals magic damage and splash damage \n When activated, grants +50% extra fire damage, slows enemies by 10% and decreases their armour by 5% for 5 seconds\nDebuff does not stack with itself\nLeft click to activate",
+   "ru": "Арагорн наносит магический урон и атакует по площади\\nПосле активации, дает +50% дополнительного урона от огня, замедляет врагов на -10% и уменьшает их броню на -5% в течение 5 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Араґорн завдає пошкоджень магією та по площі\nПісля активації надає бонус +50% до пошкоджень вогнем, а вороги на 5 сек. сповільнюються на 10% і втрачають 5% броні\nОслаблення не накопичується\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElessarEstelActive",
+   "type": "Кнопка",
+   "en": "Estel (&C)",
+   "ru": "Эстель (&C)",
+   "uk_ai": "Естель (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElessarEstelActive",
+   "type": "Підказка",
+   "en": "Modifier Type: Spell\nWhen activated, nearby units gain +33% damage and +33% armour for 60 seconds\nLeft click to activate",
+   "ru": "Тип модификатора: Заклинание\\nПосле активации, ближайшие союзные войска наносят +33% урона и получают +33% брони в течение 60 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Тип ефекту: Заклинання\nПісля активації загони поблизу на 60 сек. отримують бонус +33% до пошкоджень і +33% броні\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElessarOathbreaker",
+   "type": "Кнопка",
+   "en": "Fulfill Your Oath! (&V)",
+   "ru": "Исполните свою клятву! (&V)",
+   "uk_ai": "Виконайте свою присягу! (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElessarOathbreaker",
+   "type": "Підказка",
+   "en": "Summons an army of Oathbreakers that will kill and terrify anything in its path \nElessar can only cast when dismounted\nLeft click icon then left click on target",
+   "ru": "Призывается армия клятвопреступников, которая сметает все на своем пути\\nМожно использовать только спешившись\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Прикликає військо порушників присяги, що вбиває й жахає всіх на своєму шляху\nЕлессар може застосувати здібність лише пішки\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

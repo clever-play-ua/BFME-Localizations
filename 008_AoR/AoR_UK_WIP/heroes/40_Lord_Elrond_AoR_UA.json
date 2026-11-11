@@ -1,0 +1,171 @@
+{
+ "meta": {
+  "hero": "Lord Elrond",
+  "uk_name": "Володар Елронд",
+  "campaigns": [
+   "FotR"
+  ],
+  "missions": [
+   "Council"
+  ],
+  "templates": {
+   "кампанія": [
+    "ElvenElrond"
+   ],
+   "битва": [
+    "ArnorElrond",
+    "ElvenElrond"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:ElvenElrond",
+   "type": "Ім'я",
+   "en": "Lord Elrond",
+   "ru": "Владыка Элронд",
+   "uk_ai": "Володар Елронд",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElrondLeadership",
+   "type": "Кнопка",
+   "en": "Lord of Rivendell",
+   "ru": "Правитель Ривенделла",
+   "uk_ai": "Володар Рівенделу",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipElrondLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Allies near Elrond gain +25% damage +25% armour and earn experience 50% faster\n While Elrond is on the field, his Library may be constructed for free \nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nСоюзные отряды рядом с Элрондом наносят +25% урона, получают +25% брони и набирают опыт на +50% быстрее\\nКогда Элронд находится на поле боя, его Библиотека может быть построена бесплатно\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзники поряд з Елрондом отримують бонус +25% до пошкоджень, +25% броні й на 50% швидше набирають досвід\nПоки Елронд на полі бою, його бібліотеку можна збудувати безкоштовно\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HeraldOfGilGalad",
+   "type": "Кнопка",
+   "en": "Herald of Gil-galad (&R)",
+   "ru": "Вестник Гиль-галада (&R)",
+   "uk_ai": "Вісник Ґіл-ґалада (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHeraldOfGilGalad",
+   "type": "Підказка",
+   "en": "Elrond gains 50% damage while his attacks deal splash and knockback damage for 30 seconds\n At level 5, attack radius is further increased \n Left click to activate",
+   "ru": "Элронд наносит +50% урона и отбрасывает врагов своими атаками в течение 30 секунд",
+   "uk_ai": "Елронд на 30 сек. отримує бонус +50% до пошкоджень, а його удари б'ють по площі й відкидають ворогів\nНа 5 рівні радіус атаки ще більший\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElrondRingOfAir",
+   "type": "Кнопка",
+   "en": "Ring of Air (&T)",
+   "ru": "Кольцо воздуха (&T)",
+   "uk_ai": "Перстень Повітря (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipElrondRingOfAir",
+   "type": "Підказка",
+   "en": "Requires Level 3\n Modifier Type: Buff\nCreates a circular sanctuary around Elrond for 30 seconds\nAllied units gain +50% armour while in the area\nRank 5: Nearby enemy units suffer -25% damage, -20% armour and lose all leadership while nearby allies are immune to fear and terror\nRank 8: The sanctuary's radius increases and enemy units are knocked back each 7 seconds \nLeft click icon to activate",
+   "ru": "Требуется уровень 8\\nТип модификатора: Усиление\\nЭлронд создает вокруг себя защитную ауру на 30 секунд\\nнаходясь в которой, союзные войска получают +75% брони\\nТип модификатора: Ослабление\\nНа уровне 5, ближайшие вражеские отряды теряют все лидерство, -25% урона и -20% брони, а ближайшие союзники становятся невосприимчивыми к страху и ужасу\\nНа уровне 8, радиус ауры увеличивается, а вражеские войска периодически отбрасываются\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Посилення\nНа 30 сек. створює навколо Елронда коло-прихисток\nСоюзні загони в ньому отримують бонус +50% броні\n5 рівень: ворожі загони поблизу отримують штраф -25% пошкоджень, -20% броні й утрачають усе лідерство, а союзники поблизу мають імунітет до страху та жаху\n8 рівень: радіус прихистку збільшується, а ворожі загони відкидає кожні 7 сек.\nКлікніть на іконку, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElrondHeavyArmor",
+   "type": "Кнопка",
+   "en": "Armaments of Ost-in-Edhil",
+   "ru": "Вооружение Ост-ин-Эдиля",
+   "uk_ai": "Обладунки Ост-ін-Еділя",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElrondHeavyArmor",
+   "type": "Підказка",
+   "en": "Requires Level 6 \n Elrond equips his heavy armour \n Modifier Type: Spell \n Elrond gains +33% armour and +50% resistance to knockback\n Passive ability",
+   "ru": "Требуется уровень 6\\nЭлронд облачается в свои доспехи\\nТип модификатора: Заклинание\\nЭлронд получает +33% брони и +50% сопротивления отбрасыванию\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 6\nЕлронд вдягає важкі обладунки\nТип ефекту: Заклинання\nЕлронд отримує бонус +33% броні й +50% стійкості до відкидання\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElrondEarendilion",
+   "type": "Кнопка",
+   "en": "The Last Homely House (&V)",
+   "ru": "Последний домашний приют (&V)",
+   "uk_ai": "Останній Затишний Дім (&V)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElrondEarendilion",
+   "type": "Підказка",
+   "en": "Requires Level 10 \n Heals nearby allies and fully refreshes\ntheir special ability timers \n Left click icon then left click on target area",
+   "ru": "Требуется уровень 10\\nИсцеляет выбранных союзников и полностью восстанавливает их способности\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 10\nЗцілює союзників поблизу й повністю скидає таймер\nвідновлення їхніх здібностей\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:RingElrondArrowVolleyAbility",
+   "type": "Кнопка",
+   "en": "Leithio I Philinn! (&T)",
+   "ru": "Leithio I Philinn! (&T)",
+   "uk_ai": "Пустити стріли! (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRingElrondArrowVolleyAbility",
+   "type": "Підказка",
+   "en": "Requires Level 3\nElrond calls elven archers to instantly bombard anywhere within a great radius with a volley of arrows\nAt Level 6, a second volley is shot shortly after the first\nLeft click icon then left click on target area",
+   "ru": "Требуется уровень 3\\nЭлронд приказывает эльфийским лучникам выпустить залп стрел в любое место в большом радиусе\\nНа уровне 6, за первым залпом сразу же следует второй\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 3\nЕлронд наказує ельфійським лучникам миттєво засипати стрілами будь-яку ділянку у великому радіусі\nНа 6 рівні невдовзі після першого залпу лунає другий\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElrondLastAlliance",
+   "type": "Кнопка",
+   "en": "Veteran of the Last Alliance (&C)",
+   "ru": "Ветеран Последнего союза (&C)",
+   "uk_ai": "Ветеран Останнього союзу (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElrondLastAlliance",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Elrond equips his heavy armour \n Modifier Type: Spell \n Elrond gains +33% armour and +50% resistance to knockback\nPassive ability\n\nAt Level 7, permanently summons a battalion of Veterans of the Last Alliance\nLimited to 1\nLeft click to activate",
+   "ru": "Требуется уровень 5\\nЭлронд облачается в доспехи нолдор\\nТип модификатора: Заклинание\\nЭлронд получает +33% брони и +50% сопротивления отбрасыванию\\nПассивная способность\\n\\nНа уровне 7, призывает отряд Ветеранов Последнего союза\\nОграничение - 1\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nЕлронд вдягає важкі обладунки\nТип ефекту: Заклинання\nЕлронд отримує бонус +33% броні й +50% стійкості до відкидання\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nНа 7 рівні назавжди прикликає загін ветеранів Останнього союзу\nМаксимум 1 одночасно\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

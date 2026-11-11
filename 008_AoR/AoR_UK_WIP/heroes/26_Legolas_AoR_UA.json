@@ -1,0 +1,270 @@
+{
+ "meta": {
+  "hero": "Legolas",
+  "uk_name": "Леґолас",
+  "campaigns": [
+   "FotR",
+   "TTT",
+   "RotK"
+  ],
+  "missions": [
+   "Party",
+   "Council",
+   "Redhorn",
+   "Moria",
+   "Khazad",
+   "Lothlorien",
+   "AmonHen",
+   "FordsofIsen",
+   "TamingofSmeagol",
+   "EavesofFangorn",
+   "DurinsTower",
+   "Ithilien",
+   "Westfold",
+   "GreyCompany",
+   "Osgiliath",
+   "HelmsDeep",
+   "Isengard",
+   "LordoftheRings",
+   "LightingoftheBeacons",
+   "PathsoftheDead",
+   "Pelargir",
+   "MinasTirithOuter",
+   "CirithUngol",
+   "MinasTirithInner",
+   "PelennorFields",
+   "BlackGate",
+   "ManyPartings",
+   "ScouringoftheShire",
+   "GreyHavens"
+  ],
+  "templates": {
+   "кампанія": [
+    "FellowshipLegolas",
+    "RohanLegolas"
+   ],
+   "битва": [
+    "MirkwoodLegolas"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:RohanLegolas",
+   "type": "Ім'я",
+   "en": "Legolas",
+   "ru": "Леголас",
+   "uk_ai": "Леґолас",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleLegolasWeapons",
+   "type": "Підказка",
+   "en": "Left click to toggle between bow and white knives",
+   "ru": "ЛКМ - выбор лука или кинжалов",
+   "uk_ai": "Клікніть, щоб перемкнутися між луком і білими кинджалами",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellowshipHawkStrike",
+   "type": "Кнопка",
+   "en": "Twin Arrows (&R)",
+   "ru": "Двойная стрела (&R)",
+   "uk_ai": "Подвійна стріла (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHawkStrike",
+   "type": "Підказка",
+   "en": "Double-arrow attack that deals splash damage \n Left click icon then left click on target",
+   "ru": "Выстрел двумя стрелами сразу, наносящий урон по площади\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Постріл двома стрілами, що завдає пошкоджень по площі\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PrinceMirkwood",
+   "type": "Кнопка",
+   "en": "Prince of Mirkwood (&T)",
+   "ru": "Принц Лихолесья (&T)",
+   "uk_ai": "Принц Лихолісся (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellowshipLegolasPrinceMirkwood",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n When activated, nearby friendly archers temporarily gain +20% damage and armour for 20 seconds \n Modifier Type: Leadership \n Nearby friendly units are immune to fear and terror\n At level 6, nearby friendly units gain +33% damage and +25% vision range\n Passive ability",
+   "ru": "Требуется уровень 3\\nПосле активации, ближайшие союзные лучники наносят +20% урона и получают +20% брони\\nТип модификатора: Лидерство\\nБлижайшие дружественные войска становятся невосприимчивыми к страху и ужасу\\nНа уровне 6, ближайшие союзные отряды наносят +33% урона и получают +25% обзора\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 3\nПісля активації союзні лучники поблизу на 20 сек. отримують бонус +20% до пошкоджень і броні\nТип ефекту: Лідерство\nСоюзні загони поблизу мають імунітет до страху та жаху\nНа 6 рівні союзні загони поблизу отримують бонус +33% до пошкоджень і +25% дальності огляду\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellowshipLegolasSlayer",
+   "type": "Кнопка",
+   "en": "Piercing Shots (&C)",
+   "ru": "Пронзающие стрелы (&C)",
+   "uk_ai": "Пронизливі постріли (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellowshipLegolasSlayer",
+   "type": "Підказка",
+   "en": "Requires Level 6 \n For 15 seconds, Legolas' arrows ignore enemy armour and slow down their targets by 40% for 5 seconds\n Left click to activate",
+   "ru": "Требуется уровень 6\\nВ течение 15 секунд Леголас игнорирует броню врагов и замедляет их на -40% в течение 5 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 6\nПротягом 15 сек. стріли Леґоласа ігнорують броню ворогів і на 5 сек. сповільнюють цілі на 40%\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:Dwarf-friendCampaign",
+   "type": "Кнопка",
+   "en": "Dwarf-friend",
+   "ru": "Друг-гном",
+   "uk_ai": "Друг дворфів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwarfFriendCampaign",
+   "type": "Підказка",
+   "en": "Requires Level 10\nModifier Type: Leadership \n Gimli gains +10% damage, armour and movement speed when near Legolas\n Passive ability",
+   "ru": "Требуется уровень 10\\nТип модификатора: Лидерство\\nГимли наносит +10% урона, получает +10% брони и скорости передвижения, находясь рядом с Леголасом\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 10\nТип ефекту: Лідерство\nПоряд із Леґоласом Ґімлі отримує бонус +10% до пошкоджень, броні й швидкості пересування\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HawkStrike",
+   "type": "Кнопка",
+   "en": "Hawk St&rike",
+   "ru": "Когти сокола (&R)",
+   "uk_ai": "Кігті сокола (&R)",
+   "status": "RotWK UA",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TransportExit",
+   "type": "Кнопка",
+   "en": "Exit Transport",
+   "ru": "Высадка",
+   "uk_ai": "Висадка",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTransportExit",
+   "type": "Підказка",
+   "en": "Order this unit to exit",
+   "ru": "Выход из постройки",
+   "uk_ai": "Вихід із будівлі.",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:LegolasToggleMount",
+   "type": "Кнопка",
+   "en": "Mount/Dismount (&C)",
+   "ru": "Сесть верхом / спешиться (&C)",
+   "uk_ai": "Сісти верхи / Спішитися (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TrainArchers",
+   "type": "Кнопка",
+   "en": "Train Ar&chers",
+   "ru": "Стрелки (&C)",
+   "uk_ai": "Тренування лучників (&C)",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLegolasTrainArchers",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Targeted Good archers gain good experience \n Left click icon then left click on target archers",
+   "ru": "Требуется уровень 3\\nСоюзные лучники в области действия получают много опыта\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 3\nМиттєво наділяє чималим досвідом обраних лучників світлих сил\nКлікніть на іконку, потім оберіть лучників",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KnifeFighter",
+   "type": "Кнопка",
+   "en": "Knife Figh&ter",
+   "ru": "Стремительные клинки (&T)",
+   "uk_ai": "Стрімкі клинки (&T)",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKnifeFighter",
+   "type": "Підказка",
+   "en": "Requires Level 4 \n Alternate melee attack \n +50% armour \n Left click to activate",
+   "ru": "Требуется уровень 4\\nАльтернативная атака ближнего боя\\nЛеголас получает +50% брони\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 4\nІнша атака зблизька\n+50% броні\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ArrowWind",
+   "type": "Кнопка",
+   "en": "Arrow Wind (&T)",
+   "ru": "Стальной ветер (&T)",
+   "uk_ai": "Вітер стріл (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipArrowWind",
+   "type": "Підказка",
+   "en": "Launch a continuous volley of arrows \n Can only use dismounted \n Left click icon then left click on target area",
+   "ru": "Непрерывно обстреливать выбранную область залпами стрел\\nМожет использоваться только спешенным героем\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Безперервний обстріл стрілами\nЛише в пішому строю\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:ToolTipFellowshipLegolasTrainArchers",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Targeted Good archers gain good experience \n Left click icon then left click on target archers \n \n Modifier Type: Leadership \n Nearby friendly units are immune to fear and terror\n At level 6, nearby friendly units gain +33% damage \n and +25% vision range\n Passive ability",
+   "ru": "Требуется уровень 3\\nСоюзные эльфы-лучники в области действия получают опыт\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды\\n\\nТип модификатора: Лидерство\\nБлижайшие союзные отряды становятся невосприимчивыми к страху и ужасу\\nНа уровне 6, также наносят +33% урона и получают +25% обзора\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 3\nМиттєво наділяє чималим досвідом обраних лучників світлих сил\nКлікніть на іконку, потім оберіть лучників\n\nТип ефекту: Лідерство\nСоюзні загони поблизу мають імунітет до страху та жаху\nНа 6 рівні союзні загони поблизу отримують бонус +33% до пошкоджень\nі +25% дальності огляду\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:LegolasDwarfFriend",
+   "type": "Кнопка",
+   "en": "Dwarf-friend (&V)",
+   "ru": "Друг-гном (&V)",
+   "uk_ai": "Друг дворфів (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipLegolasDwarfFriend",
+   "type": "Підказка",
+   "en": "Requires Level 10\nSummons Gimli son of Glóin to the battlefield\nLeft click to activate",
+   "ru": "Требуется уровень 10\\nНа поле битвы призывается Гимли, сын Глоина\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10\nПрикликає на поле бою Ґімлі, сина Ґлоїна\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

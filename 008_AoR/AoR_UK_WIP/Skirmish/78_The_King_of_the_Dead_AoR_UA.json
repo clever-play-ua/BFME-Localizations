@@ -1,0 +1,210 @@
+{
+ "meta": {
+  "hero": "The King of the Dead",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Dunharrow",
+   "Men"
+  ],
+  "alternate factions": [
+   "dunharrow",
+   "grey company"
+  ],
+  "templates": [
+   "DunharrowKingoftheDead",
+   "GreyCompanyKingoftheDead"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:KotD",
+   "type": "Ім'я",
+   "en": "The King of the Dead",
+   "ru": "Король мертвых",
+   "uk_ai": "Король Мертвих",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AccursedKing",
+   "type": "Кнопка",
+   "en": "Accursed King",
+   "ru": "",
+   "uk_ai": "Проклятий король",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAccursedKing",
+   "type": "Підказка",
+   "en": "The King of the Dead grows in strength as he levels up, dealing increased damage at level 3, 5 and 8\n\nModifier Type: Leadership and Debuff\nNearby enemy units lose -10% armour and nearby Oathbreakers gain +10% armour\nWith each level gained, effect is increased by 10% up to a maximum of 50%\nAt level 5, nearby Oathbreakers gain +15% movement speed\nAt level 6, Nearby enemy units lose -10% damage\nWith each level gained, effect is increased by 10% up to a maximum of 50%\nPassive ability",
+   "ru": "",
+   "uk_ai": "Король Мертвих стає сильнішим з кожним рівнем: на 3, 5 і 8 рівнях завдає більше пошкоджень\n\nТип ефекту: Лідерство й ослаблення\nВорожі загони поблизу втрачають 10% броні, а порушники присяги поблизу отримують бонус +10% броні\nЗ кожним рівнем ефект зростає на 10%, максимум 50%\nНа 5 рівні порушники присяги поблизу отримують бонус +15% швидкості руху\nНа 6 рівні ворожі загони поблизу отримують штраф -10% до пошкоджень\nЗ кожним рівнем ефект зростає на 10%, максимум 50%\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KotDSleeplessDead",
+   "type": "Кнопка",
+   "en": "The Sleepless Dead (&R)",
+   "ru": "",
+   "uk_ai": "Безсонні мерці (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKotDSleeplessDead",
+   "type": "Підказка",
+   "en": "Summons a permanent horde of Sleepless Dead\nAn additional horde is summoned at level 3, 5, 7 and 9\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Назавжди прикликає орду безсонних мерців\nНа 3, 5, 7 і 9 рівнях прикликає ще по 1 орді\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KotDWayShut",
+   "type": "Кнопка",
+   "en": "The Way Is Shut (&T)",
+   "ru": "",
+   "uk_ai": "Шляху нема (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKotDWayShut",
+   "type": "Підказка",
+   "en": "Requires Level 2\nTargeted enemy units are stunned for 5 seconds\nLeft click then left click target area",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 2\nОбрані ворожі загони приголомшені на 5 сек.\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KotDDreadStrike",
+   "type": "Кнопка",
+   "en": "Dread Strike (&C)",
+   "ru": "",
+   "uk_ai": "Жахливий удар (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipKotDDreadStrike",
+   "type": "Підказка",
+   "en": "Requires Level 5\nThe King of the Dead teleports to an enemy hero, draining some life and inflicting high damage\nTarget enemy hero suffers damage over time for 30 seconds\nLeft click then left click target enemy hero",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 5\nКороль Мертвих телепортується до ворожого героя, витягає частину його життя й завдає значних пошкоджень\nОбраний ворожий герой 30 сек. поступово отримує пошкодження\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpectralRush",
+   "type": "Кнопка",
+   "en": "Spectral Rush (&T)",
+   "ru": "",
+   "uk_ai": "Примарний натиск (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpectralRush",
+   "type": "Підказка",
+   "en": "Requires Level 8\nSummons a wave of Sleepless Dead that will kill and terrify anything in its path \n Left click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 8\nПрикликає хвилю Безсонних мерців, які вбивають та жахають все на своєму шляху\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAccursedKingCampaign",
+   "type": "Підказка",
+   "en": "The King of the Dead grows in strength as he levels up, dealing increased damage at level 3, 5 and 8\n\nModifier Type: Leadership and Debuff\nNearby enemy units lose -10% armour and nearby Oathbreakers gain +10% armour\nWith each level gained, effect is increased by 10% up to a maximum of 50%\nAt level 5, nearby Oathbreakers gain +15% movement speed\nAt level 6, Nearby enemy units lose -10% damage\nWith each level gained, effect is increased by 10% up to a maximum of 50%\nPassive ability \n Blasts back and damages units and heroes in a wide radius surrounding the King of the Dead \n Left click to activate",
+   "ru": "",
+   "uk_ai": "Король Мертвих стає сильнішим з кожним рівнем: на 3, 5 і 8 рівнях завдає більше пошкоджень\n\nТип ефекту: Лідерство й ослаблення\nВорожі загони поблизу втрачають 10% броні, а порушники присяги поблизу отримують бонус +10% броні\nЗ кожним рівнем ефект зростає на 10%, максимум 50%\nНа 5 рівні порушники присяги поблизу отримують бонус +15% швидкості руху\nНа 6 рівні ворожі загони поблизу втрачають 10% пошкоджень\nЗ кожним рівнем ефект зростає на 10%, але не більше 50%\n~ ПАСИВНА ЗДІБНІСТЬ ~\nВідкидає загони й героїв у широкому радіусі навколо Короля Мертвих і завдає їм пошкоджень\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipKotDDreadStrikeLeap",
+   "type": "Підказка",
+   "en": "The King of the Dead teleports to an enemy hero, draining some life and inflicting high damage\nTarget enemy hero suffers damage over time for 30 seconds\nLeft click then left click target enemy hero",
+   "ru": "",
+   "uk_ai": "Король Мертвих телепортується до ворожого героя, витягає частину його життя й завдає значних пошкоджень\nОбраний ворожий герой 30 сек. поступово отримує пошкодження\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KotDLeadership",
+   "type": "Кнопка",
+   "en": "March of the Dead",
+   "ru": "Марш мертвых",
+   "uk_ai": "Мертва хода",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKotDLeadership",
+   "type": "Підказка",
+   "en": "Requires Level 3\nThe King of the Dead permanently gains +15% movement speed\n\nModifier Type: Leadership\nNearby friendly units and heroes gain +15% movement speed and +50% experience gain\nPassive ability",
+   "ru": "Требуется уровень 3\\nКороль мертвых навсегда получает +15% скорости передвижения\\n\\nТип модификатора: Лидерство\\nБлижайшие союзные отряды и герои получают +15% скорости передвижения, а также набирают опыт на +50% быстрее\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 3\nКороль Мертвих отримує бонус +15% швидкості руху\n\nТип ефекту: Лідерство\nСоюзні загони й герої поблизу отримують бонус +15% швидкості руху й на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KotDSpell",
+   "type": "Кнопка",
+   "en": "Curse of the Dead King (&R)",
+   "ru": "Проклятье Мертвого короля",
+   "uk_ai": "Прокляття Мертвого короля (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKotDSpell",
+   "type": "Підказка",
+   "en": "Requires Level 5\nTarget enemies flee in terror\nAny Oathbreaker Warriors near the King of the Dead deal +50% damage for 20 seconds\nLeft click icon then left click on target area",
+   "ru": "Требуется уровень 5\\nВражеские отряды в радиусе действия разбегаются в ужасе\\nВсе клятвопреступники рядом с Королем мертвых наносят +50% урона в течение 20 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 5\nОбрані вороги тікають у жаху\nВоїни-порушники присяги поряд із Королем Мертвих на 20 сек. завдають на 50% більше пошкоджень\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KotDCallBeyond",
+   "type": "Кнопка",
+   "en": "A Call Beyond (&T)",
+   "ru": "Потусторонний зов",
+   "uk_ai": "Поклик потойбіччя (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKotDCallBeyond",
+   "type": "Підказка",
+   "en": "Requires Level 7\nThe King of the Dead slowly but continually summons temporary,\nsingle Oathbreaker Warriors from the earth for 60 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 7\\nКороль мертвых призывает из-под земли временных воинов-клятвопреступников в течение 60 секунд\\nЛКМ - активация/деактивация",
+   "uk_ai": "Необхідно: Рівень 7\nКороль Мертвих 60 сек. прикликає з-під землі\nтимчасових воїнів-порушників присяги, по одному\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KotDOathbreaker",
+   "type": "Кнопка",
+   "en": "Fulfill Your Oath! (&C)",
+   "ru": "Исполните свою клятву! (&L)",
+   "uk_ai": "Виконайте свою присягу! (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKotDOathbreaker",
+   "type": "Підказка",
+   "en": "Requires Level 10\nSummons an army of Oathbreakers that will kill and terrify anything in its path \n Left click icon then left click on target",
+   "ru": "Требуется уровень 10\\nПризывается армия клятвопреступников, которая убивает и наводит ужас на всех, кто попадается им на пути\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 10\nПрикликає військо порушників присяги, що вбиває й жахає все на своєму шляху\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

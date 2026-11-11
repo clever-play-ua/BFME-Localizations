@@ -1,0 +1,108 @@
+{
+ "meta": {
+  "hero": "Durin the Deathless",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "LastAlliance"
+  ],
+  "alternate factions": [
+   "last alliance"
+  ],
+  "templates": [
+   "LastAllianceDurinIV"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:LastAllianceDurinIV",
+   "type": "Ім'я",
+   "en": "Durin the Deathless",
+   "ru": "Дурин Бессмертный",
+   "uk_ai": "Дурін Безсмертний",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DurinLeadership",
+   "type": "Кнопка",
+   "en": "King of Khazad-dûm",
+   "ru": "Король Кхазад-дума",
+   "uk_ai": "Король Казад-думу",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDurinLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nDwarves near Durin the Deathless gain 25% damage, armour and earn experience 33% faster\nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nГномы рядом с Дурином наносят +25% урона, получают +25% брони и набирают опыт на +33% быстрее\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nДворфи поряд із Дуріном Безсмертним отримують бонус +25% до пошкоджень і броні та на 33% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DurinResentment",
+   "type": "Кнопка",
+   "en": "Wrath of the Naugrim (&R)",
+   "ru": "Гнев Наугрим (&R)",
+   "uk_ai": "Гнів науґрімів (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DurinRingPower",
+   "type": "Кнопка",
+   "en": "Ring of Power (&T)",
+   "ru": "Кольцо Силы (&T)",
+   "uk_ai": "Перстень влади (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDurinRingPower",
+   "type": "Підказка",
+   "en": "Requires Level 5\nCan be cast on allied Last Alliance structure to spawn a chest of 1000 resources\nEnemy units nearby the target structure are stunned in fear for 15 seconds and lose -25% damage and armour for 30 seconds\nLeft click icon then left click on target structure",
+   "ru": "Требуется уровень 5\\nМожет быть использовано на дружественных строениях Последнего союза, чтобы добыть сундук с 1000 ресурсов\\nВражеские отряды, находящиеся рядом с целевым строением, цепенеют от страха на 15 секунд, а также теряют -25% урона и -25% брони в течение 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевое строение",
+   "uk_ai": "Необхідно: Рівень 5\nМожна застосувати до союзної споруди Останнього Союзу, щоб з'явилася скриня на 1000 од. ресурсів\nВорожі загони поряд з обраною спорудою на 15 сек. приголомшені страхом і на 30 сек. отримують -25% пошкоджень і броні\nКлікніть на іконку, потім оберіть споруду",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DurinPillar",
+   "type": "Кнопка",
+   "en": "Master of Stone (&C)",
+   "ru": "Повелитель камня (&C)",
+   "uk_ai": "Володар каменю (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipDurinPillar",
+   "type": "Підказка",
+   "en": "Requires Level 8\nDurin the Deathless summons a pillar of Khazad-dûm from beneath the earth to knock back enemy units\nEnemy units near the Pillar lose -33% damage\nLeft click and left click target area",
+   "ru": "Требуется уровень 8\\nДурин Бессмертный ударяет своим оружием по земле, вызывая столп Кхазад-дума из-под земли и отбрасывая врагов\\nВражеские отряды рядом со столпом теряют -33% урона\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 8\nДурін Безсмертний підіймає з-під землі колону Казад-думу, що відкидає ворожі загони\nВорожі загони поряд із колоною втрачають 33% пошкоджень\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DurinDeathless",
+   "type": "Кнопка",
+   "en": "Deathless (&V)",
+   "ru": "Бессмертный (&V)",
+   "uk_ai": "Безсмертний (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDurinDeathless",
+   "type": "Підказка",
+   "en": "Requires Level 10\nDurin the Deathless becomes invulnerable and gains +50% damage for 20 second\nLeft click to activate",
+   "ru": "Требуется уровень 10\\nДурин Бессмертный становится неуязвимым и наносит +50% урона в течение 20 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10\nДурін Безсмертний на 20 сек. стає безсмертним і отримує бонус +50% до пошкоджень\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "meta": {
+  "hero": "Mouth of Sauron",
+  "uk_name": "Вісник Саурона",
+  "faction (ini Side)": [
+   "Mordor"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "MordorMouthOfSauron"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:MordorMouthOfSauron",
+   "type": "Ім'я",
+   "en": "Mouth of Sauron",
+   "ru": "Глашатай Саурона",
+   "uk_ai": "Вісник Саурона",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MouthOfSauronDoubt",
+   "type": "Кнопка",
+   "en": "Dark Sorcery (&R)",
+   "ru": "Темное колдовство (&R)",
+   "uk_ai": "Темне чаклунство (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMouthOfSauronDoubt",
+   "type": "Підказка",
+   "en": "Requires Level 4 \n Modifier Type: Active Debuff \n Targeted enemy units suffer -20% damage and -20% armour for 30 seconds\n Nullifies enemy leadership\n\n Modifier Type: Active Buff \n Targeted allied units gain +33% damage and +33% armour for 30 seconds\n Left click icon then left click on target units",
+   "ru": "Требуется уровень 4\\nТип модификатора: Ослабление\\nВражеские отряды в радиусе действия теряют -20% урона и -20% брони\\nОтменяет вражеское лидерство\\nТип модификатора: Активное усиление\\nСоюзные отряды в радиусе действия наносят +33% урона и получают +33% брони\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 4\nТип ефекту: Активне ослаблення\nОбрані ворожі загони на 30 сек. отримують штраф -20% пошкоджень і -20% броні\nСкасовує вороже лідерство\n\nТип ефекту: Активне посилення\nОбрані союзні загони на 30 сек. отримують бонус +33% до пошкоджень і +33% броні\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MOSAmbassador",
+   "type": "Кнопка",
+   "en": "Ambassador (&T)",
+   "ru": "Посланник (&T)",
+   "uk_ai": "Посол (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMOSAmbassador",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n The Mouth of Sauron gains 100% armour and is resistant to knockback, but deals -25% damage for 20 seconds\n Left click to activate",
+   "ru": "Требуется уровень 5\\nГлашатай Саурона получает +100% брони и сопротивление отбрасыванию, теряя -25% урона в течение 20 секунд\\n\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nВісник Саурона на 20 сек. отримує бонус +100% броні й стійкість до відкидання, але завдає на 25% менше пошкоджень\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MOSLieutenant",
+   "type": "Кнопка",
+   "en": "Lieutenant of Barad-dûr (&C)",
+   "ru": "Смотритель Барад-дура (&C)",
+   "uk_ai": "Лейтенант Барад-дура (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MouthOfSauronDissent",
+   "type": "Кнопка",
+   "en": "Faithless and Accursed (&V)",
+   "ru": "Безверный и проклятый (&V)",
+   "uk_ai": "Безвірні і прокляті (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMouthOfSauronDissent",
+   "type": "Підказка",
+   "en": "Requires Level 10 \n Causes targeted units to become hostile towards each other for 35 seconds\nAffects enemy and allied units\nLeft click icon then left click on target area",
+   "ru": "Требуется уровень 10\\nВынуждает отряды сражаться друг с другом в течение 35 секунд\\nВлияет как на врагов, так и на союзников\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 10\nОбрані загони на 35 сек. стають ворожими одне до одного\nДіє як на ворожі, так і на союзні загони\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMouthOfSauronDoubtCampaign",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Modifier Type: Active Debuff \n Targeted enemy units suffer -20% damage and -20% armour for 30 seconds\n Nullifies enemy leadership\n\n Modifier Type: Active Buff \n Targeted allied units gain +33% damage and +33% armour for 30 seconds\n Left click icon then left click on target units",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Активне ослаблення\nОбрані ворожі загони на 30 сек. отримують штраф -20% пошкоджень і -20% броні\nСкасовує вороже лідерство\n\nТип ефекту: Активне посилення\nОбрані союзні загони на 30 сек. отримують бонус +33% до пошкоджень і +33% броні\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

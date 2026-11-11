@@ -1,0 +1,1048 @@
+{
+ "meta": {
+  "faction": "Heroes",
+  "note": "Community proofread lines from the campaign-hero pages (highest priority in the build and on the site)."
+ },
+ "strings": [
+  {
+   "var": "CONTROLBAR:ToolTipThrowRocks",
+   "en": "Switch to rock throwing mode",
+   "uk": "Жбурляє камені у ворогів.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Frodo_FoLD_2026-11-10-15-54.json"
+  },
+  {
+   "var": "CONTROLBAR:TheOneRing_Campaign",
+   "en": "A Heavy Burden (&R)",
+   "uk": "Важке ярмо (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTheOneRing",
+   "en": "Become invisible\\nBut beware the Eye of Sauron\\nLeft click to activate",
+   "uk": "Робить невидимим\\nАле стережіться Ока Саурона\\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Frodo_FoLD_2026-11-10-15-54.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipFrodoMithrilShirt",
+   "en": "Requires Level 3\\nFrodo receives his shirt of mithril mail\\ngranting him +50% armour\\n\\nPassive ability",
+   "uk": "Необхідно: Рівень 3\\nФродо вдягає мітрилову кольчугу,\\nщо дає йому +50% броні\\n\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Frodo_FoLD_2026-11-10-15-54.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHobbitRockLure",
+   "en": "The hobbit throws a rock to lure enemy units to target area\\nLeft click icon then left click on target area",
+   "uk": "Гобіт кидає камінь, щоб відволікти ворожі загони на вказане місце\\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Frodo_FoLD_2026-11-10-15-54.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElvenCloak",
+   "en": "Becomes invisible when standing still\\nLeft click to activate",
+   "uk": "Стає невидимим для ворогів, поки не рухається.\\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Frodo_FoLD_2026-11-10-15-54.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFrodoLeadership",
+   "en": "Modifier Type: Spell\\nNearby allies in a large radius gain\\n+50% damage, +50% armour,\\nand earn experience twice as fast\\nNearby unit and hero ability cooldown times are reduced by 25%\\nPassive ability",
+   "uk": "Тип ефекту: Заклинання\\nСоюзники у великому радіусі отримують\\nбонус +50% до пошкоджень та +50% броні\\nй удвічі швидше набирають досвід\\nЗдібності загонів і героїв поблизу відновлюються на 25% швидше\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Frodo_FoLD_2026-11-10-15-54.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPhialofGaladrielMarshes",
+   "en": "Stuns and deals damage over time to Undead units for 5 seconds\\nLeft click to activate",
+   "uk": "На 5 сек. приголомшує загони невмерлих\\nй завдає їм періодичних пошкоджень\\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Frodo_FoLD_2026-11-10-15-54.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipScouringFrodoLeadership",
+   "en": "Requires Level 5\\nModifier Type: Leadership\\nNearby allies gain +33% damage, +33% armour,\\nand earn experience twice as fast\\n\\nStacks with Buffs and Spells\\nPassive ability",
+   "uk": "Необхідно: Рівень 5\\nТип ефекту: Лідерство\\nСоюзники поблизу отримують бонус +33% до пошкоджень, +33% броні\\nй удвічі швидше набирають досвід\\n\\nПоєднується з посиленнями й заклинаннями\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Frodo_FoLD_2026-11-10-15-54.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFrodoRedBook",
+   "en": "Frodo tells the tale of the downfall of the Lord of the Rings and the Return of the King\\nGive targeted friendly troops experience\\nLeft click icon then left click on target units",
+   "uk": "Фродо розповідає історію про падіння Володаря Перснів і Повернення Короля\\nЦі історії дають досвід обраним союзним загонам\\nКлікніть на іконку, потім оберіть потрібні загони",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Frodo_FoLD_2026-11-10-15-54.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIllTurnDeservesAnother",
+   "en": "I offered you mercy, Saruman, and you repaid it with treachery. One ill turn deserves another - kill him.",
+   "uk": "Я виявив до тебе милосердя, Сарумане, а ти відплатив зрадою. Зло за зло — вбийте його.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Frodo_FoLD_2026-11-10-15-54.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBondsofFellowshipFrodo",
+   "en": "Modifier Type: Leadership\\nFrodo gains +15% damage when near Peregrin, Meriadoc or Samwise\\nPassive ability\\nActivate to become invisible when standing still\\nLeft click to activate",
+   "uk": "Тип ефекту: Лідерство\\nПоряд із Переґріном, Меріадоком чи Семом\\nФродо отримує бонус +15% до пошкоджень\\n\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nАктивуйте, щоб ставати невидимим, коли стоїте на місці\\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Frodo_FoLD_2026-11-10-15-54.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFrodoDissent",
+   "en": "Requires Level 3\\nCauses enemy units and monsters in the radius to fight amongst themselves for 45 seconds\\nLeft click icon then left click on target area",
+   "uk": "Необхідно: Рівень 3\\nЗмушує ворожі загони битися між собою на 45 сек.\\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Frodo_FoLD_2026-11-10-15-54.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShireFrodoLeadership",
+   "en": "Requires Level 5\\nModifier Type: Leadership\\nNearby allies gain +50% damage, +50% armour,\\nand earn experience twice as fast\\nNearby unit and hero ability cooldown times are reduced by 25%\\nPassive ability",
+   "uk": "Необхідно: Рівень 5\\nТип ефекту: Лідерство\\nСоюзники поблизу отримують бонус +50% до пошкоджень,\\n+50% броні й удвічі швидше набирають досвід\\nЗдібності загонів і героїв поблизу відновлюються на 25% швидше\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_Frodo_FoLD_2026-11-10-15-54.json"
+  },
+  {
+   "var": "OBJECT:RohanFrodo",
+   "en": "Frodo",
+   "uk": "Фродо",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:FrodoMithrilShirt",
+   "en": "Mithril Shirt",
+   "uk": "Мітрилова кольчуга",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TheOneRing",
+   "en": "The One Ring (&R)",
+   "uk": "Єдиний Перстень (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:FrodoLeadership",
+   "en": "The Fate of Middle-earth",
+   "uk": "Доля Середзем'я",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPhialofGaladriel",
+   "en": "Causes enemy units to flee\nLeft click to activate",
+   "uk": "Фродо дістає фіал, і вороги розбігаються від жаху.\n Клікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:SamwisetheBrave",
+   "en": "The Guide and the Gardener (&V)",
+   "uk": "Провідник і садівник (&V)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSamwisetheBrave",
+   "en": "Summons Frodo's faithful gardener, Samwise Gamgee, and Sméagol, his guide\nLeft click icon to activate",
+   "uk": "Прикликає вірного садівника Фродо, Сема Ґемджі, і його провідника Смеаґола\nКлікніть на іконку, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ShirePhialOfGaladriel",
+   "en": "Light of Eärendil (&T)",
+   "uk": "Світло Еаренділа (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShirePhialOfGaladriel",
+   "en": "Nearby enemies flee in terror and suffer damage over time for 10 seconds\nLeft click to activate",
+   "uk": "Вороги поблизу тікають у жаху й 10 сек. отримують поступові пошкодження\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ShireFrodoLeadership",
+   "en": "Hero of Middle-earth",
+   "uk": "Герой Середзем'я",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ExperiencedWalker",
+   "en": "Experienced Walker (&W)",
+   "uk": "Досвідчений мандрівник (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipExperiencedWalker",
+   "en": "Modifier Type: Buff\nFrodo gains +50% speed for 40 seconds\nLeft click to activate",
+   "uk": "Тип ефекту: Посилення\nФродо отримує бонус +50% до швидкості на 40 сек.\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ScouringFrodoLeadership",
+   "en": "Frodo of the Nine Fingers",
+   "uk": "Фродо Дев'ятипалий",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:FrodoDissent",
+   "en": "Frodo of the Nine Fingers (&C)",
+   "uk": "Фродо Дев'ятипалий (&C)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:FrodoShoo",
+   "en": "Shoo Hungry Onlookers (&R)",
+   "uk": "Прогнати голодних роззяв (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFrodoShoo",
+   "en": "Frodo shoos the hungry onlookers\nLeft click to activate",
+   "uk": "Фродо проганяє голодних роззяв\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:EvadeLobelia",
+   "en": "Evade Lobelia (&T)",
+   "uk": "Сховатися від Лобелії (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHobbitRockLureAlep",
+   "en": "Frodo throws an apple to lure Phillip to target area\nLeft click icon then left click on target area",
+   "uk": "Фродо кидає яблуко, щоб приманити цапа Філіпа у вказане місце\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:FrodoRedBook",
+   "en": "Red Book of Westmarch (&V)",
+   "uk": "Червона книга Західного краю (&V)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:WordsArePoison",
+   "en": "Your Words Are Poison (&W)",
+   "uk": "Твої слова — отрута (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWordsArePoison",
+   "en": "Your words are poison, Saruman. I will have you speak no more, slay him!",
+   "uk": "Твої слова — отрута, Сарумане. Я не дам тобі більше говорити, вбийте його!",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRevengeWithRevenge",
+   "en": "I will not have him slain. It is useless to meet revenge with revenge: it will heal nothing. Go, Saruman, by the speediest way!",
+   "uk": "Я не дозволю його вбити. Марно відповідати помстою на помсту: це нічого не зцілить. Іди, Сарумане, найкоротшою дорогою!",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:RevengeWithRevenge",
+   "en": "It Is Useless To Meet Revenge With Revenge (&R)",
+   "uk": "Марно відповідати помстою на помсту (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:DoNotKillHim",
+   "en": "Do Not Kill Him Even Now (&W)",
+   "uk": "Не вбивайте його навіть тепер (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDoNotKillHim",
+   "en": "Do not kill him even now. For he has not hurt me. And in any case I do not wish him to be slain in this evil mood.",
+   "uk": "Не вбивайте його навіть тепер. Мені він шкоди не заподіяв. І хай там як, я не хочу, щоб його вбили, коли він у такому лихому настрої.",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:IllTurnDeservesAnother",
+   "en": "One Ill Turn Deserves Another - Kill Him (&R)",
+   "uk": "Зло за зло — вбийте його (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSamwiseBladeMaster_Campaign",
+   "en": "Requires Level 3\nSam passively deals +200% damage against Nazgûl\nPassive ability\n\nModifier Type: Buff\nSam gains\n+100% damage, +100% armour for 30 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 3\nСем завдає +200% пошкоджень назґулам\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\n Тип ефекту: Посилення\n Сем отримує бонус\n+100% до пошкоджень, +100% броні на 30 сек.\n Клікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:SamwiseBladeMaster",
+   "en": "That's For My Old Gaffer! (&T)",
+   "uk": "Це тобі за мого Старого! (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:SamwiseBladeMasterToCU",
+   "en": "That's For My Old Gaffer! (&R)",
+   "uk": "Це тобі за мого Старого! (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipStewPot_Campaign",
+   "en": "Requires Level 6\nSummons a pot of stew that heals nearby units and detects stealth\nLeft click on icon then left click on target position",
+   "uk": "Необхідно: Рівень 6\nСтавить казанок з рагу, що зцілює всіх поблизу й виявляє невидимих ворогів\nКлікніть на іконку, потім оберіть місце",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:StewPot",
+   "en": "Rabbit Stew (&V)",
+   "uk": "Кроляче рагу (&V)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ShireStewPot",
+   "en": "Rabbit Stew (&T)",
+   "uk": "Кроляче рагу (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPhialofGaladrielToCU",
+   "en": "Causes enemy units to flee and stuns Shelob with fear\nLeft click to activate",
+   "uk": "Змушує ворожі загони тікати й приголомшує Шелоб\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TheOneRing_ToCU",
+   "en": "A Heavy Burden (&C)",
+   "uk": "Важке ярмо (&C)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCampaignSamTorchThrow",
+   "en": "Sam throws a torch to target area\nInstantly destroys Spider Webs, Spider Eggs and Spiderlings in target area\nDeals damage over time within target area for 3 seconds\nLeft click icon then left click on target area",
+   "uk": "Сем кидає смолоскип, який миттєво знищує павутину,\nпавучі яйця й маленьких павуків\nЗавдає пошкоджень на місці, куди він падає на 3 сек.\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBondsofFellowshipSam",
+   "en": "Modifier Type: Leadership\nSamwise gains +15% damage when near Peregrin, Meriadoc or Frodo\nPassive ability\nActivate to become invisible when standing still\nLeft click to activate",
+   "uk": "Тип ефекту: Лідерство\nПоряд із Переґріном, Меріадоком чи Фродо\nСемвайз отримує бонус +15% до пошкоджень\n\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nАктивуйте, щоб ставати невидимим, коли стоїте на місці\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShireStewPot",
+   "en": "Requires Level 3\nSummons a pot of stew that heals nearby units, replenishes fallen units and grants +50% armour\nLeft click on icon then left click on target position",
+   "uk": "Необхідно: Рівень 3\nСем, як і колись, ставить казанок з рагу, що зцілює загони поблизу,\nпоновлює їхніх полеглих і дає їм бонус +50% броні\nКлікніть на іконку, потім оберіть місце",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ShireSamTheBrave",
+   "en": "Samwise the Brave (&V)",
+   "uk": "Семвайз Хоробрий (&V)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShireSamTheBrave",
+   "en": "Requires Level 10\nModifier Type: Spell\nNearby friendly units within a wide radius become invulnerable whilst nearby enemy units take damage over time for 30 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 10\nТип ефекту: Заклинання\nНа 30 сек. союзні загони в широкому радіусі стають невразливими, а ворожі загони поблизу поступово отримують пошкодження\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ShireSamwiseBlademaster",
+   "en": "That's For My Old Gaffer (&C)",
+   "uk": "Це тобі за мого Старого! (&C)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipShireSamwiseBlademaster",
+   "en": "Requires Level 5\nModifier Type: Buff\nSam gains +100% damage, +50% armour for 30 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 5\nТип ефекту: Посилення\nСем на 30 сек. отримує бонус +100% до пошкоджень і +50% броні\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:tooltipCommand_ToggleEntRockThrow",
+   "en": "Toggle Rock-Throw Mode (&W)",
+   "uk": "Режим кидання каміння (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:HobbitCloak",
+   "en": "Hide Here, Qui&ck!",
+   "uk": "Ховаймося тут, швидко! (&C)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ElvenCloak",
+   "en": "Elven Cloak (&R)",
+   "uk": "Ельфійський плащ (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:PhialofGaladriel",
+   "en": "Phial of Galadriel (&T)",
+   "uk": "Фіал Ґаладріель (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:PhialofGaladrielFrodoToCU",
+   "en": "Phial of Galadriel (&W)",
+   "uk": "Фіал Ґаладріель (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:BondsofFellowship",
+   "en": "Bonds of Fellowship (&R)",
+   "uk": "Узи Братства (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:HobbitRockLure",
+   "en": "Lure (&T)",
+   "uk": "Приманка (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElvenCloakCampaign",
+   "en": "Becomes invisible when standing still\nAlso passively grants +10% armour to all nearby hobbit heroes\nLeft click to activate",
+   "uk": "Стає невидимим, коли стоїть на місці\n Також постійно дає +10% броні всім героям-гобітам поблизу\n Клікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEvadeLobelia",
+   "en": "Becomes invisible when standing still\nAlso passively grants +10% armour to all nearby hobbit heroes\nLeft click to activate",
+   "uk": "Стає невидимим, коли стоїть на місці\n Також постійно дає +10% броні всім героям-гобітам поблизу\n Клікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:RohanSam",
+   "en": "Sam",
+   "uk": "Сем",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSamwiseBladeMaster",
+   "en": "Sam passively deals +200% damage against Nazgûl\nPassive ability\n\nModifier Type: Buff\nSam gains\n+100% damage, +50% armour for 30 seconds\nLeft click to activate",
+   "uk": "Сем постійно завдає +200% пошкоджень назґулам\n\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nТип ефекту: Посилення\nНа 30 сек. Сем отримує\nбонус +100% до пошкоджень, +50% броні\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipStewPot",
+   "en": "Summons a pot of stew that heals nearby units and detects stealth\nLeft click on icon then left click on target position",
+   "uk": "Ставить казанок рагу, що зцілює загони поблизу й виявляє невидимих ворогів\nКлікніть на іконку, потім оберіть місце",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSamwiseFrodoLeadership",
+   "en": "Modifier Type: Leadership\nFrodo gains +100% armour\nPassive ability",
+   "uk": "Тип ефекту: Лідерство\nФродо отримує бонус +100% броні\n\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:SamwiseFrodoLeadership",
+   "en": "Don't You Lose Him",
+   "uk": "Не загуби його",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:CampaignSamTorchThrow",
+   "en": "Throw Torch (&C)",
+   "uk": "Кинути смолоскип (&C)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:ShireSam",
+   "en": "Samwise Gamgee",
+   "uk": "Семвайз Ґемджі",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:GondorAragorn",
+   "en": "Aragorn",
+   "uk": "Араґорн",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:Athelas",
+   "en": "Kingsfoil (&R)",
+   "uk": "Атгелас — королівське листя (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:FellowshipAthelas",
+   "en": "Kingsfoil (&R)",
+   "uk": "Атгелас — королівське листя (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:FellowshipAthelasRotK",
+   "en": "Kingsfoil (&W)",
+   "uk": "Атгелас — королівське листя (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipAthelas",
+   "en": "Heals nearby friendly Heroes\nLeft click to activate",
+   "uk": "Зцілює союзних героїв поблизу\n Клікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipFellowshipAthelas",
+   "en": "Heals nearby friendly Heroes\nLeft click to activate",
+   "uk": "Зцілює союзних героїв поблизу\n Клікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToggleFaramirWeapons",
+   "en": "Toggle Weapon (&W)",
+   "uk": "Змінити зброю (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleFaramirWeapons",
+   "en": "Left click to toggle between bow and sword",
+   "uk": "Клікніть, щоб перемкнутися між луком і мечем",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipFellowshipAragornBlademaster",
+   "en": "Requires Level 5\nAragorn gains +100% damage, +100% armour, knocks back enemies and deals fire damage for 30 seconds\nCan only use with sword equipped\nLeft click to activate",
+   "uk": "Необхідно: Рівень 5\n Араґорн отримує бонус +100% до пошкоджень, +100% броні, відкидає ворогів своїми ударами й завдає пошкоджень вогнем на 30 сек.\nДоступно лише з мечем\n Клікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipFellowshipStriderBlademaster",
+   "en": "Requires Level 5\nStrider gains +100% damage, +100% armour, knocks back enemies and wields a torch for 30 seconds\nCan only use with sword equipped\nLeft click to activate",
+   "uk": "Необхідно: Рівень 5\nБродяжник отримує бонус +100% до пошкоджень, +100% броні, відкидає ворогів своїми ударами й бере смолоскип на 30 сек.\nДоступно лише з мечем\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:FellowshipAragornBlademaster",
+   "en": "Faithful Protector (&T)",
+   "uk": "Вірний захисник (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:FellowshipAragornBlademasterRotK",
+   "en": "Faithful Protector (&R)",
+   "uk": "Вірний захисник (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellowshipAragornLeaderofMen",
+   "en": "Requires Level 8\nModifier Type: Spell\nNearby friendly units gain +33% armour\nPassive ability\n\nWhen activated, units near Aragorn gain +50% damage and immunity to fear and terror for 20 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 8\nТип ефекту: Заклинання\nСоюзні загони поблизу отримують бонус +33% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації загони поряд з Араґорном на 20 сек. отримують бонус +50% до пошкоджень і імунітет до страху та жаху\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellowshipStriderLeaderofMen",
+   "en": "Requires Level 8\nModifier Type: Spell\nNearby friendly units gain +33% armour\nPassive ability\n\nWhen activated, units near Strider gain +50% damage and immunity to fear and terror for 20 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 8\nТип ефекту: Заклинання\nСоюзні загони поблизу отримують бонус +33% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації загони поряд із Бродяжником на 20 сек. отримують бонус +50% до пошкоджень і імунітет до страху та жаху\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:FellowshipAragornLeaderofMen",
+   "en": "Leader of Men (&C)",
+   "uk": "Лідер вільних людей (&C)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:AragornLeaderofMen",
+   "en": "Leader of Men (&T)",
+   "uk": "Лідер вільних людей (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:AragornToggleMount",
+   "en": "Mount/Dismount (&C)",
+   "uk": "Сісти верхи / Спішитися (&C)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEowynMount",
+   "en": "Left click to switch between mounted and on foot",
+   "uk": "Клікніть, щоб перемкнутися між їздою верхи та пішим ходом",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAragornLeaderofMen",
+   "en": "Modifier Type: Spell\nNearby friendly units gain +33% armour\n\nWhen activated, units near Aragorn gain +50% damage and immunity to fear and terror for 20 seconds\nLeft click to activate",
+   "uk": "Тип ефекту: Заклинання\nСоюзні загони поблизу отримують бонус +33% броні\n\nПісля активації загони поряд з Араґорном на 20 сек. отримують бонус +50% до пошкоджень і імунітет до страху та жаху\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipBladeMaster",
+   "en": "Requires Level 2\nAragorn temporarily gains\n+100% damage, +100% armour\nLeft click to activate",
+   "uk": "Необхідно: Рівень 2\nАраґорн тимчасово отримує бонус\n+100% до пошкоджень і +100% броні\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:AragornBladeMaster",
+   "en": "Flame of the &West",
+   "uk": "Полум'я Заходу (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAragornLeadership",
+   "en": "Requires Level 4\nModifier Type: Leadership\nAllies near Aragorn gain +33% damage, +33% armour, and earn experience 50% faster\nPassive ability",
+   "uk": "Необхідно: Рівень 4\nТип ефекту: Лідерство\nСоюзники поряд з Араґорном отримують бонус +33% до пошкоджень,\n+33% броні й на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:AragornLeadership",
+   "en": "Elessar Telcontar",
+   "uk": "Король Елессар Телконтар",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:Elendil",
+   "en": "&Elendil!",
+   "uk": "Еленділ! [Друг ельфів] (&E)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElendil",
+   "en": "Requires Level 6\nCauses nearby enemy units to flee\nLeft click to activate",
+   "uk": "Необхідно: Рівень 6\nВорожі загони поблизу тікають\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:GreyHost",
+   "en": "&The Grey Host",
+   "uk": "Сіре воїнство (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipGreyHost",
+   "en": "Requires Level 9\nSummons Halbarad and several bands of Dúnedain to Aragorn's side\nLeft click icon to activate",
+   "uk": "Необхідно: Рівень 9\nАраґорн прикликає Галбарада й кілька загонів дунедайн\nКлікніть на іконку, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ElessarOathbreakerRotK",
+   "en": "Fulfill Your Oath! (&C)",
+   "uk": "Виконайте свою присягу! (&C)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElessarOathbreakerRotK",
+   "en": "Summons an army of Oathbreakers that will kill and terrify anything in its path\nLeft click icon then left click on target",
+   "uk": "Закликає військо порушників присяги, що вбиває й наганяє жах на все на своєму шляху\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAragornSwiftDispatch",
+   "en": "Aragorn quickly throws his knife, dealing strong damage to the targeted enemy unit\nLeft click then left click on target",
+   "uk": "Араґорн кидає ніж, завдаючи сильних\nпошкоджень вказаному ворожому загону\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:AragornSwiftDispatch",
+   "en": "Swift Dispatch (&R)",
+   "uk": "Швидка розправа (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:AragornRangerSubtlety",
+   "en": "Ranger's Subtlety (&T)",
+   "uk": "Пильність слідопита (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAragornRangerSubtlety",
+   "en": "Aragorn gains +150% vision range for 25 seconds\nLeft click to activate",
+   "uk": "Араґорн отримує бонус +150% дальності огляду на 25 сек.\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipAragornRareGift",
+   "en": "Aragorn becomes stealthed and can neither attack nor be attacked for 10 seconds\nLeft click to activate",
+   "uk": "Араґорн стає невидимим: 10 сек. він не може\nні атакувати, ні отримувати пошкоджень\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:AragornRareGift",
+   "en": "A Rare Gift (&C)",
+   "uk": "Рідкісний дар (&C)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAragornToken",
+   "en": "Enemy units within the radius are stunned for 8 seconds\nLeft click icon then left click on target",
+   "uk": "Приголомшує ворожі загони на 8 сек.\n Клікніть на іконку, потім оберіть ціль",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:AragornToken",
+   "en": "Token of Umbar (&V)",
+   "uk": "Трофей Умбару (&V)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ElessarEnvinyatar",
+   "en": "Envinyatar (&R)",
+   "uk": "Енвіньятар (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElessarEnvinyatar",
+   "en": "Heals Aragorn and friendly Heroes across map\nLeft click to activate",
+   "uk": "Зцілює Араґорна й союзних героїв на всій мапі\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:CampaignElessarBladeMaster",
+   "en": "Andúril, Flame of the West (&W)",
+   "uk": "Андуріл, Полум'я Заходу (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipElessarBladeMaster",
+   "en": "Aragorn deals magic damage and splash damage\nWhen activated, grants +50% extra fire damage, slows enemies by 10% and decreases their armour by 5% for 5 seconds\nDebuff does not stack with itself\nLeft click to activate",
+   "uk": "Араґорн завдає пошкоджень магією та по площі\nПісля активації надає бонус +50% до пошкоджень вогнем, а вороги на 5 сек. сповільнюються на 10% і втрачають 5% броні\nОслаблення не накопичується\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityFellowshipElessarEstel",
+   "en": "Estel (&T)",
+   "uk": "Естель (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityFellowshipElessarEstel",
+   "en": "Aragorn casts off the Shadow and remains fixed in his purpose\nLeft click to activate",
+   "uk": "Араґорн відкидає Тінь і не відступає від своєї мети\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSauronLeadership",
+   "en": "Modifier Type: Leadership\nAll nearby units cower in fear whether friend or foe\nPassive ability\n\nWhen activated, nearby enemy units and heroes are paralysed for 10 seconds\nLeft click to activate",
+   "uk": "Тип ефекту: Лідерство\nУсі загони поблизу, дружні й ворожі, тремтять від страху\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації ворожі загони й герої поблизу паралізовані на 10 сек.\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:CampaignSauronLeadership",
+   "en": "Fiery Presence",
+   "uk": "Вогняна присутність",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommanderSword",
+   "en": "Modifier Type: Active Debuff\nTargeted enemy units suffer -33% damage and armour for 30 seconds\nNullifies enemy leadership\nLeft click icon then left click on target units",
+   "uk": "Тип ефекту: Активне ослаблення\nОбрані ворожі загони на 30 сек. отримують штраф -33% пошкоджень і броні\nСкасовує вороже лідерство\nКлікніть на іконку, потім оберіть потрібні загони",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityCommanderSword",
+   "en": "Sword of Elendil (&T)",
+   "uk": "Меч Еленділа (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommanderWords",
+   "en": "Friendly units within the radius gain +50% damage and armour for 30 seconds\nLeft click on icon then left click on target battalion",
+   "uk": "Союзні загони на 30 сек. отримують бонус +50% до пошкоджень і броні\nКлікніть на іконку, потім оберіть загін",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityCommanderWords",
+   "en": "Words of Hope (&C)",
+   "uk": "Слова надії (&C)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:DunedainChieftain",
+   "en": "Chieftain of the Dúnedain",
+   "uk": "Капітан дунедайн",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDunedainChieftain",
+   "en": "Modifier Type: Leadership\nNearby Dúnedain gain +33% attack damage\nand become immune to fear and terror\nStacks with Buffs and Spells\nPassive ability\n\nIsildur's Heir\nRequires Level 9 and Andúril Upgrade\nNearby Dúnedain gain +33% attack damage\nand become immune to fear and terror\nWhen activated, all nearby units gain +33% damage and +50% armour for 20 seconds",
+   "uk": "Тип ефекту: Лідерство\nДунедайн поблизу отримують бонус +33% до пошкоджень від атак\nі імунітет до страху та жаху\nПоєднується з посиленнями й заклинаннями\n\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nСпадкоємець Ісілдура\nНеобхідно: Рівень 9 й покращення «Андуріл»\nДунедайн поблизу отримують бонус +33% до пошкоджень від атак\nі імунітет до страху та жаху\nПісля активації всі загони поблизу на 20 сек. отримують бонус +33% до пошкоджень і +50% броні",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:MasterTracker",
+   "en": "Master Tracker (&C)",
+   "uk": "Майстер-слідопит (&C)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMasterTrackerAbility",
+   "en": "Requires Level 3\nModifier Type: Spell\nAragorn gains +150% vision range and +25% range while nearby allies gain +15% movement speed for 25 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 3\nТип ефекту: Заклинання\nАраґорн на 25 сек. отримує бонус +150% дальності огляду й +25% дальності атаки, а союзники поблизу +15% швидкості руху\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipArnorAragornBlademaster",
+   "en": "Requires Level 6\nAragorn wields a torch and deals knockback damage\nAragorn gains +50% damage and +25% armour for 30 seconds\nWhile the ability is active, nearby heroes gain +10% armour\nCan only use with sword equipped\nLeft click to activate",
+   "uk": "Необхідно: Рівень 6\nАраґорн бере смолоскип і відкидає ворогів своїми ударами\nТакож на 30 сек. отримує бонус +50% до пошкоджень і +25% броні\nПоки діє здібність, герої поблизу отримують бонус +10% броні\nМожна активувати лише коли Араґорн озброєний мечем\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ArnorAragornBlademaster",
+   "en": "A Fire Shall Be Woken (&V)",
+   "uk": "Вогонь буде пробуджено (&V)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellowshipAragornIsildurHeir",
+   "en": "Modifier Type: Leadership\nNearby Dúnedain gain +33% attack damage and become immune to fear and terror\nStacks with Buffs and Spells\nPassive ability\n\nActive ability: Requires Level 9 and Andúril\nWhen activated, all nearby units gain +33% damage and +50% armour for 20 seconds",
+   "uk": "Тип ефекту: Лідерство\nДунедайн поблизу отримують бонус +33% до пошкоджень від атак і імунітет до страху та жаху\nПоєднується з посиленнями й заклинаннями\n\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nАктивна здібність. Необхідно: Рівень 9 і Андуріл\nПісля активації всі загони поблизу на 20 сек. отримують бонус +33% до пошкоджень і +50% броні",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:AragornIsildurHeir",
+   "en": "Isildur's Heir (&T)",
+   "uk": "Спадкоємець Ісілдура (&T)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ThreeHuntersLeadership",
+   "en": "The Three Hunters",
+   "uk": "Три мисливці",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHuntersLeadershipAragorn",
+   "en": "Modifier Type: Leadership\nWhen near Legolas or Gimli, Aragorn gains +25% armour and speed\nPassive ability",
+   "uk": "Тип ефекту: Лідерство\nПоряд із Леґоласом чи Ґімлі Араґорн отримує бонус +25% броні й швидкості\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  }
+ ]
+}

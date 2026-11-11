@@ -1,0 +1,70 @@
+{
+ "meta": {
+  "hero": "Landroval",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Rivendell"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "HighPassLandroval"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:HighPassLandroval",
+   "type": "Ім'я",
+   "en": "Landroval",
+   "ru": "",
+   "uk_ai": "Ландровал",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PurchaseHighPassLandroval",
+   "type": "Кнопка",
+   "en": "&Landroval",
+   "ru": "",
+   "uk_ai": "Ландровал (&L)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseHighPassLandroval",
+   "type": "Підказка",
+   "en": "Recruit the brother of Gwaihir",
+   "ru": "",
+   "uk_ai": "Завербувати брата Ґвайгіра",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:LandrovalBladeMaster",
+   "type": "Кнопка",
+   "en": "Descendant of Thorondor (&R)",
+   "ru": "",
+   "uk_ai": "Нащадок Торондора (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipLandrovalBladeMaster",
+   "type": "Підказка",
+   "en": "Modifier Type: Buff \n Landroval gains\n+50% damage, +50% armour for 20 seconds\n Left click to activate",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Посилення\nЛандровал отримує\nна 20 сек. бонус +50% до пошкоджень і +50% броні\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:LandrovalScreech",
+   "type": "Кнопка",
+   "en": "Terrifying Screech (&C)",
+   "ru": "",
+   "uk_ai": "Жахливий крик (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

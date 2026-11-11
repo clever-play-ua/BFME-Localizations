@@ -1,0 +1,121 @@
+{
+ "meta": {
+  "hero": "Damrod",
+  "uk_name": "Дамрод",
+  "campaigns": [
+   "TTT"
+  ],
+  "missions": [
+   "Ithilien"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignDamrod"
+   ],
+   "битва": [
+    "CampaignDamrod",
+    "IthilienDamrod"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею.",
+  "see_also": "Спільні з іншими героями рядки є лише в одному файлі: Faramir"
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:GondorDamrod",
+   "type": "Ім'я",
+   "en": "Damrod",
+   "ru": "Дамрод",
+   "uk_ai": "Дамрод",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DamrodSkilledHunter",
+   "type": "Кнопка",
+   "en": "Skilled Hunter (&T)",
+   "ru": "Опытный охотник (&T)",
+   "uk_ai": "Вправний мисливець (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDamrodSkilledHunter",
+   "type": "Підказка",
+   "en": "Can be cast on enemy units to permanently track their movements \n Can only use with bow equipped \n Left click, then left click on target",
+   "ru": "Может быть применено на вражеских отрядах, чтобы постоянно отслеживать их перемещения\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Можна застосувати до ворожих загонів, щоб постійно стежити за їхніми пересуваннями\nДоступно лише з луком\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DamrodQuickDispatch",
+   "type": "Кнопка",
+   "en": "Quick Dispatch (&C)",
+   "ru": "Проворство (&C)",
+   "uk_ai": "Швидка розправа (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDamrodQuickDispatch",
+   "type": "Підказка",
+   "en": "Damrod receives +25% attack and movement speed for 30 seconds\n Left click to activate",
+   "ru": "Дамрод получает +25% скорости атаки и передвижения на 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Дамрод отримує бонус +25% до швидкості атаки й пересування на 30 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:DamrodSkilledHunterIthilien",
+   "type": "Кнопка",
+   "en": "Skilled Hunter (&R)",
+   "ru": "Опытный охотник (&R)",
+   "uk_ai": "Вправний мисливець (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DamrodQuickDispatchIthilien",
+   "type": "Кнопка",
+   "en": "Quick Dispatch (&T)",
+   "ru": "Быстрое прибытие (&T)",
+   "uk_ai": "Швидка розправа (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDamrodQuickDispatchIthilien",
+   "type": "Підказка",
+   "en": "Requires Level 3\nDamrod receives +25% attack and movement speed for 30 seconds\n Left click to activate",
+   "ru": "Требуется уровень 3\\nДамрод наносит +25% урона и получает +25% скорости атаки на 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nНа 30 сек. Дамрод отримує бонус +25% швидкості атаки й пересування\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DamrodRefuge",
+   "type": "Кнопка",
+   "en": "Refuge (&C)",
+   "ru": "Убежище (&C)",
+   "uk_ai": "Прихисток (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipDamrodRefuge",
+   "type": "Підказка",
+   "en": "Requires Level 5\nDamrod sets up a Forward Camp for 90 seconds\nAllies near the Forward Camp are stealthed, healed, replenished and gain +25% damage, +25% armour and +33% experience gain\nLeft click then left click target area",
+   "ru": "Требуется уровень 5\\nДамрод устанавливает Передовой лагерь на 90 секунд\\nСоюзники рядом с Передовым лагерем становятся скрытыми, постепенно исцеляются и наносят +25% урона, а также получают +25% брони и набирают опыт на +33% быстрее\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 5\nДамрод на 90 сек. розбиває передовий табір\nСоюзники поряд із передовим табором стають невидимими, зцілюються, поновлюють полеглих, отримують бонус +25% до пошкоджень і +25% броні та на 33% швидше набирають досвід\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

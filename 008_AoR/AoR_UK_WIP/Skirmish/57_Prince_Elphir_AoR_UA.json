@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "hero": "Prince Elphir",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "DolAmroth"
+  ],
+  "alternate factions": [
+   "dol amroth"
+  ],
+  "templates": [
+   "DolAmrothElphir"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:DolAmrothElphir",
+   "type": "Ім'я",
+   "en": "Prince Elphir",
+   "ru": "Принц Эльфир",
+   "uk_ai": "Принц Елфір",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElphirHeirApparent",
+   "type": "Кнопка",
+   "en": "Heir Apparent (&W)",
+   "ru": "Наследник престола (&W)",
+   "uk_ai": "Престолонаступник (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElphirHeirApparent",
+   "type": "Підказка",
+   "en": "Elphir mounts/dismounts his warhorse Môrethir\nLeft click to activate\n\nWhen Elphir attacks, nearby units gain +25% damage for 5 seconds\nAt Level 3, Elphir is surrounded by 3 Champions of Tirith Aear, they mount and dismount with Elphir\nPassive ability",
+   "ru": "Эльфир седлает своего боевого коня Моретира или спешивается\\nЩелкните левой кнопкой мыши, чтобы активировать\\n\\nКогда Эльфир атакует, ближайшие союзные отряды наносят +25% урона в течение 5 секунд\\nНа уровне 3, Эльфира сопровождают три чемпиона Тирит Аэра, которые седлают коней и спешиваются вместе с Эльфиром\\nПассивная способность",
+   "uk_ai": "Елфір сідає на свого бойового коня Моретіра чи спішується\nКлікніть, щоб активувати\n\nКоли Елфір атакує, загони поблизу на 5 сек. отримують бонус +25% до пошкоджень\nНа 3 рівні Елфіра супроводжують 3 захисники Тіріт-Аеара: вони сідають верхи й спішуються разом з ним\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElphirProperPreparations",
+   "type": "Кнопка",
+   "en": "Proper Preparations (&R)",
+   "ru": "Надлежащая подготовка (&R)",
+   "uk_ai": "Належні приготування (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElphirProperPreparations",
+   "type": "Підказка",
+   "en": "Requires Level 3\nElphir has learned from his enemies to the South and made proper preparations\nAllied units near Elphir gain +20% movement and attack speed and regularly regenerate soldiers for 30 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 3\\nЭльфир извлек уроки из опыта своих врагов на юге и подготовился должным образом\\nСоюзные отряды рядом с Эльфиром получают +20% скорости передвижения и +20% скорости атаки, а также пополняют свои ряды в течение 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nЕлфір повчився у своїх ворогів на Півдні й належно підготувався\nСоюзні загони поряд з Елфіром на 30 сек. отримують бонус +20% швидкості руху й атаки та регулярно поновлюють полеглих\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElphirEnsnare",
+   "type": "Кнопка",
+   "en": "Ensnare (&T)",
+   "ru": "Опутывающая ловушка (&T)",
+   "uk_ai": "Обплутати (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipElphirEnsnare",
+   "type": "Підказка",
+   "en": "Requires Level 5\nElphir learns from his allies in the Greenwood and prepares traps for his foes\nElphir places a snare, if the snare is hit by enemy units, it slows enemy units in a large radius by 33% for 20 seconds\nAt Level 8, enemy units are slowed by 66%. \nAt Level 10, enemies also suffer -33% attack speed\nLeft click then left click target area",
+   "ru": "Требуется уровень 5\\nЭльфир обучался у своих союзников в Зеленолесье и умеет расставлять ловушки для своих врагов\\nЭльфир устанавливает ловушку, при попадании в которую, враги в большом радиусе замедляются на 33% в течение 20 секунд\\nНа уровне 8, враги замедляются на 66%\\nНа уровне 10, ловушка также снижает скорость атаки врагов на -33%\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 5\nЕлфір повчився у своїх союзників із Зеленолісся й готує пастки для ворогів\nЕлфір ставить пастку: якщо ворожі загони її зачеплять, вона на 20 сек. сповільнить ворожі загони у великому радіусі на 33%\nНа 8 рівні ворожі загони сповільнюються на 66%.\nНа 10 рівні вороги додатково отримують штраф -33% швидкості атаки\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElphirArtofWar",
+   "type": "Кнопка",
+   "en": "The Art of War (&C)",
+   "ru": "Искусство войны (&C)",
+   "uk_ai": "Мистецтво війни (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipElphirArtofWar",
+   "type": "Підказка",
+   "en": "Requires Level 7\nElphir learns from the past: all warfare is based on deception\nTeleports units in selected area to anywhere on the map\nDoes not work on siege units\n Left click icon, then left click on target units, then left click on pathable location",
+   "ru": "Требуется уровень 7\\nЭльфир учится на прошлом: всякая война основана на хитрости\\nПеремещает союзников в области действия в любую точку на карте\\nНе действует на осадные орудия\\nЩелкните левой кнопкой мыши на значок, затем на целевые единицы, после чего на доступное местоположение",
+   "uk_ai": "Необхідно: Рівень 7\nЕлфір вчиться з минулого: будь-яка війна ґрунтується на обмані\nЕлфір телепортує загони з обраної ділянки будь-куди на мапі\nНе діє на облогові машини\nКлікніть на іконку, потім оберіть потрібні загони, потім оберіть ділянку для перенесення",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElphirBitterLesson",
+   "type": "Кнопка",
+   "en": "Bitter Lesson Learnt (&V)",
+   "ru": "Горький урок (&V)",
+   "uk_ai": "Гіркий урок (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElphirBitterLesson",
+   "type": "Підказка",
+   "en": "Requires Level 10 \nElphir learns from Mordor: slay them in their homes\nTargeted structure takes heavy damage, is disabled, and enemies in a medium range take heavy damage over time for 10 seconds\nLeft click icon then left click on target",
+   "ru": "Требуется уровень 10\\nЭльфир учится у Мордора: убивайте их в своих домах\\nВражеская постройка получает серьезный урон и отключается, а враги в среднем радиусе получают сильный урон в течение 10 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевое строение",
+   "uk_ai": "Необхідно: Рівень 10\nЕлфір вчиться в Мордору: вбивайте їх у їхніх домівках\nОбрана споруда отримує значні пошкодження й виходить з ладу, а вороги поблизу 10 сек. поступово отримують значні пошкодження\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

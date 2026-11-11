@@ -1,0 +1,81 @@
+{
+ "meta": {
+  "hero": "Treasonous Champion",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Dunharrow"
+  ],
+  "alternate factions": [
+   "dunharrow"
+  ],
+  "templates": [
+   "DunharrowTreasonousChampion"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:OathbreakerSpectralChampion",
+   "type": "Ім'я",
+   "en": "Treasonous Champion",
+   "ru": "",
+   "uk_ai": "Зрадливий чемпіон",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DeathlyChampion",
+   "type": "Кнопка",
+   "en": "Deathly Champion (&W)",
+   "ru": "",
+   "uk_ai": "Мертвий чемпіон (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDunharrowDeathlyChampion",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nNearby Oathbreakers gain +25% Armour and Experience\nThe Treasonous Champion reflects 10% of damage dealt towards him by nearby enemies\nPassive ability\nWhen activated, nearby Oathbreakers gain +50% damage for 20 seconds\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Лідерство\nПорушники присяги поблизу отримують бонус +25% броні й на 25% швидше набирають досвід\nЗрадливий чемпіон повертає ворогам поблизу 10% від пошкоджень, які отримує\n~ ПАСИВНА ЗДІБНІСТЬ ~\nПісля активації порушники присяги поблизу на 20 сек. отримують бонус +50% до пошкоджень\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DeathlyChampionReapingSlash",
+   "type": "Кнопка",
+   "en": "Reaping Slash (&R)",
+   "ru": "",
+   "uk_ai": "Смертельна жатва (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDunharrowChampionReapingSlash",
+   "type": "Підказка",
+   "en": "Requires Level 3\nThe Champion swings his scythe hard, dealing high initial damage and causing bleeding for 10 seconds to units all around\n The Champion regains health per hit for 30 seconds \n Left click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 3\nЧемпіон щосили замахується косою: завдає значних пошкоджень загонам довкола, і вони 10 сек. стікають кров'ю\nЧемпіон 30 сек. відновлює здоров'я з кожним ударом\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DeathlyChampionBulwarkofDunharrow",
+   "type": "Кнопка",
+   "en": "Bulwark of Dunharrow (&T)",
+   "ru": "",
+   "uk_ai": "Фортеця Дунгарроу (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDunharrowChampionBulwarkofDunharrow",
+   "type": "Підказка",
+   "en": "Requires Level 5\nThe Champion slams his scythe into the ground, knocking back units around him and stunning them for 5 seconds \n Left click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 5\nЧемпіон встромляє свою косу в землю, відкидаючи загони навколо й приголомшуючи їх на 5 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

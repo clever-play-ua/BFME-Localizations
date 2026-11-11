@@ -1,0 +1,200 @@
+{
+ "meta": {
+  "hero": "Éowyn",
+  "uk_name": "Еовін",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "PelennorFields"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignEowyn"
+   ],
+   "битва": [
+    "RohanEowyn"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:RohanEowyn",
+   "type": "Ім'я",
+   "en": "Éowyn",
+   "ru": "Эовин",
+   "uk_ai": "Еовін",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:EowynCampaignMount",
+   "type": "Кнопка",
+   "en": "Mount Windfola / Dismount (&W)",
+   "ru": "",
+   "uk_ai": "Осідлати Віндфолу / Спішитися (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCampaignEowynMount",
+   "type": "Підказка",
+   "en": "Left click to switch between mounted on Windfola and on foot \n When mounted on Windfola, Eowyn gains +25% armour near Rohirrim units",
+   "ru": "",
+   "uk_ai": "Клікніть, щоб перемкнутися між їздою на Віндфолі та пішим ходом \n Верхи на Віндфолі Еовін отримує бонус +25% броні поряд із загонами рогіррімів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:EowynCourage",
+   "type": "Кнопка",
+   "en": "Courage for our Friends (&C)",
+   "ru": "Мужайтесь ради наших друзей (&C)",
+   "uk_ai": "Відвага заради друзів (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEowynCourage",
+   "type": "Підказка",
+   "en": "Requires Level 6 \n Modifier Type: Spell \n Éowyn gains +33% damage and armour while nearby allies gain resistance to fear and terror for 30 seconds \n Left click to activate",
+   "ru": "Требуется уровень 6\\nТип модификатора: Заклинание\\nЭовин наносит +33% урона и получает +33% брони, а ближайшие союзники становятся невосприимчивыми к страху и ужасу на 30 секунд\\n\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 6\nТип ефекту: Заклинання\nЕовін на 30 сек. отримує бонус +33% до пошкоджень і броні, а союзники поблизу — стійкість до страху та жаху\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:Smite",
+   "type": "Кнопка",
+   "en": "Begone, Foul Dwimmerlaik (&T)",
+   "ru": "Прочь, нечистый сын мрака! (&T)",
+   "uk_ai": "Геть, нечиста потворо (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSmite",
+   "type": "Підказка",
+   "en": "Requires Level 5\n Strong ranged attack against a single target\n Deals 200% extra damage to the Witch-king of Angmar\n Reduces targeted enemy's speed by -25% for 15 seconds \n Left click icon then left click on target",
+   "ru": "Требуется уровень 5\\nМощная дальняя атака по одиночной цели\\nНаносит большой урон летающим врагам\\nНаносит +200% дополнительного урона Ангмарскому Королю-чародею\\nЗамедляет цель на -25% в течение 15 секунд\\nЩелкните левой кнопкой на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 5\nПотужна атака на відстані по одній цілі\nЗавдає Королю-чаклуну Анґмару на 200% більше пошкоджень\nНа 15 сек. знижує швидкість обраного ворога на 25%\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:EowynLeadership",
+   "type": "Кнопка",
+   "en": "Lady of Rohan",
+   "ru": "Леди Рохана",
+   "uk_ai": "Леді Рогану",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEowynLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Peasants near Éowyn gain +33% armour, and earn experience 33% faster \nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nКрестьяне рядом с Эовин получают +25% брони и набирают опыт на +33% быстрее\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nСеляни поряд з Еовін отримують бонус +33% броні й на 33% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:EowynReadiness",
+   "type": "Кнопка",
+   "en": "Readiness (&R)",
+   "ru": "Призыв на службу (&R)",
+   "uk_ai": "Готовність (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEowynReadiness",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Summons a permanent battalion of drafted Peasants\nRespects command point limit\nLeft click to activate",
+   "ru": "Требуется уровень 3\\nЭовин призывает отряд вооруженных крестьян\\nЗанимают очки командования, не могут быть призваны если предел достигнут\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nПрикликає постійний загін мобілізованих селян\nВраховує ліміт очок командування\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToggleEowynDernhelm",
+   "type": "Кнопка",
+   "en": "Dernhelm (&T)",
+   "ru": "Дернхельм (&T)",
+   "uk_ai": "Дернгельм (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleEowynDernhelm",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Éowyn dons Dernhelm's armour \n Toggle between White Lady and Dernhelm",
+   "ru": "Требуется уровень 5\\nЭовин облачается в доспехи Дернхельма\\nПереключение между образом Белой леди и образом Дернхельма",
+   "uk_ai": "Необхідно: Рівень 5\nЕовін вдягає обладунки Дернгельма\nПеремикання між Білою леді й Дернгельмом",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:EowynIthilienGarden",
+   "type": "Кнопка",
+   "en": "Lady of Ithilien (&C)",
+   "ru": "Леди Итилиэна (&C)",
+   "uk_ai": "Леді Ітілієну (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEowynIthilienGarden",
+   "type": "Підказка",
+   "en": "Requires Level 8 \n Summons a garden for 5 minutes that heals nearby units and detects stealth \n Left click on icon then left click on target position",
+   "ru": "Требуется уровень 8\\nПризывается сад на 5 минут, который исцеляет ближайших союзников и обнаруживает скрытых врагов\\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Необхідно: Рівень 8\nНа 5 хв. створює сад, що зцілює загони поблизу й виявляє невидимих\nКлікніть на іконку, потім оберіть місце",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToggleEowynLady",
+   "type": "Кнопка",
+   "en": "White Lady (&W)",
+   "ru": "Леди в белом (&W)",
+   "uk_ai": "Біла леді (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleEowynLady",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Éowyn dons her gown \n Toggle between White Lady and Dernhelm",
+   "ru": "Требуется уровень 5\\nЭовин надевает свое платье\\nПереключение между образом Белой леди и образом Дернхельма",
+   "uk_ai": "Необхідно: Рівень 5\nЕовін вдягає сукню\nПеремикання між Білою леді й Дернгельмом",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:EowynNewMount",
+   "type": "Кнопка",
+   "en": "Mount Windfola / Dismount (&R)",
+   "ru": "Сесть верхом на Виндфола или спешиться (&R)",
+   "uk_ai": "Осідлати Віндфолу / Спішитися (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipNewEowynMount",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Left click to switch between mounted on Windfola and on foot \n When mounted on Windfola, Eowyn gains +25% armour near Rohirrim units",
+   "ru": "Требуется уровень 5\\nЛКМ - оседлать Виндфола или спешиться\\nКогда Эовин верхом на Виндфоле, она получает +25% брони, находясь рядом с войсками рохиррим",
+   "uk_ai": "Необхідно: Рівень 5\nКлікніть, щоб перемкнутися між їздою на Віндфолі й пішим строєм\nВерхи на Віндфолі Еовін отримує бонус +25% броні поряд із загонами рогіримів",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

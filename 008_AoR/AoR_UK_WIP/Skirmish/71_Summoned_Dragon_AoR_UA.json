@@ -1,0 +1,44 @@
+{
+ "meta": {
+  "hero": "Summoned Dragon",
+  "uk_name": "Покликаний дракон",
+  "faction (ini Side)": [
+   "Neutral"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "SummonedDragon",
+   "SummonedDragonJH1"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:SummonedDragon",
+   "type": "Ім'я",
+   "en": "Summoned Dragon",
+   "ru": "Призванный дракон",
+   "uk_ai": "Прикликаний дракон",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilitySummonedDragonReposition",
+   "type": "Кнопка",
+   "en": "&Reposition",
+   "ru": "Смена позиции (&R)",
+   "uk_ai": "Зміна позиції (&R)",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilitySummonedDragonReposition",
+   "type": "Підказка",
+   "en": "Move the dragon to a different location on the battlefield",
+   "ru": "Дракон перемещается в другую область поля боя",
+   "uk_ai": "Перемістити дракона в інше місце на полі бою",
+   "status": "RotWK UA",
+   "uk": ""
+  }
+ ]
+}

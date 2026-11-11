@@ -1,0 +1,95 @@
+{
+ "meta": {
+  "hero": "Grimbold",
+  "uk_name": "Ґрімбольд",
+  "campaigns": [
+   "TTT",
+   "RotK"
+  ],
+  "missions": [
+   "FordsofIsen",
+   "PelennorFields"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignGrimbold"
+   ],
+   "битва": [
+    "CampaignGrimbold"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:RohanGrimbold",
+   "type": "Ім'я",
+   "en": "Grimbold",
+   "ru": "Гримбольд",
+   "uk_ai": "Ґрімбольд",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GrimboldLeadership",
+   "type": "Кнопка",
+   "en": "Valiant Captain",
+   "ru": "Доблестный капитан",
+   "uk_ai": "Відважний капітан",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGrimboldLeadership",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Modifier Type: Leadership \n Nearby infantry units gain +33% armour and +33% damage\nPassive ability",
+   "ru": "Требуется уровень 5\\nТип модификатора: Лидерство\\nБлижайшие отряды пехоты наносят +33% урона и получают +33% брони\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Лідерство\nПіхота поблизу отримує бонус +33% броні й +33% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GrimboldProtection",
+   "type": "Кнопка",
+   "en": "Protection of Grimslade (&R)",
+   "ru": "Защита Гримслейда (&R)",
+   "uk_ai": "Захист Ґрімслейду (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGrimboldProtection",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Targeted allied units gain +50% armour for 30 seconds\nLeft click on icon then left click on target units",
+   "ru": "Требуется уровень 5\\nСоюзные отряды в радиусе действия получают +50% брони на 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 5\nОбрані союзні загони отримують бонус +50% броні на 30 сек.\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GrimboldHeal",
+   "type": "Кнопка",
+   "en": "Rohirric Triage (&T)",
+   "ru": "Медицина рохиррим (&T)",
+   "uk_ai": "Польова медицина Рогану (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGrimboldHeal",
+   "type": "Підказка",
+   "en": "Requires Level 6 \n Heal nearby units in a small radius\n Left click to activate",
+   "ru": "Требуется уровень 6\\nИсцеляет ближайшие войска в небольшом радиусе\\nЩелкните левой кнопкой мыши на значок, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 6\nЗцілює загони поблизу в невеликому радіусі\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

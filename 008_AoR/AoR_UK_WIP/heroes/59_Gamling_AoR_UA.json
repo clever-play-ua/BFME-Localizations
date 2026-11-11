@@ -1,0 +1,65 @@
+{
+ "meta": {
+  "hero": "Gamling",
+  "uk_name": "Ґамлінґ",
+  "campaigns": [
+   "TTT",
+   "RotK"
+  ],
+  "missions": [
+   "GreyCompany",
+   "HelmsDeep",
+   "PelennorFields"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignGamling"
+   ],
+   "битва": [
+    "RohanGamling"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:RohanGamling",
+   "type": "Ім'я",
+   "en": "Gamling",
+   "ru": "Гамлинг",
+   "uk_ai": "Ґамлінґ",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GamlingWhateverEnd",
+   "type": "Кнопка",
+   "en": "To Whatever End (&W)",
+   "ru": "Во что бы то ни стало (&W)",
+   "uk_ai": "Хоч би яким був кінець (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGamlingWhateverEnd",
+   "type": "Підказка",
+   "en": "Modifier Type: Buff \n Target hero gains +25% armour for 30 seconds\n Left click icon then left click on target hero",
+   "ru": "Тип модификатора: Усиление\\nСоюзный герой получает +25% брони на 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевого героя",
+   "uk_ai": "Тип ефекту: Посилення\nОбраний герой на 30 сек. отримує бонус +25% броні\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGamlingWhateverEndCampaign",
+   "type": "Підказка",
+   "en": "Modifier Type: Buff \n Target hero gains +25% armour for 30 seconds\nLeft click icon then left click on target hero",
+   "ru": "Тип модификатора: Усиление\\nСоюзный герой получает +25% брони на 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевого героя",
+   "uk_ai": "Тип ефекту: Посилення\nОбраний герой на 30 сек. отримує бонус +25% броні\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

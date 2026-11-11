@@ -1,0 +1,115 @@
+{
+ "meta": {
+  "hero": "Smaug",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Wild"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "WildSmaug"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:Drogoth",
+   "type": "Ім'я",
+   "en": "Smaug",
+   "ru": "Смауг",
+   "uk_ai": "Смоґ",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SmaugDismount",
+   "type": "Кнопка",
+   "en": "Land (&W)",
+   "ru": "Приземлиться (&W)",
+   "uk_ai": "Приземлитися (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SmaugDismountTooltip",
+   "type": "Підказка",
+   "en": "Left click to land \n Left click then left click target area",
+   "ru": "Щелкните левой кнопкой мыши, чтобы приземлиться\\nЩелкните левой кнопкой мыши на значок, затем на целевую точку",
+   "uk_ai": "Клікніть, щоб приземлитися\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityWingBlast",
+   "type": "Кнопка",
+   "en": "Wings Like A Hurricane (&R)",
+   "ru": "Крылья, как ураган (&R)",
+   "uk_ai": "Крила, мов ураган (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityWingBlast",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Shoots a shockwave of force below Smaug, causing meta damage to enemies \n Left click icon then left click on target area",
+   "ru": "Требуется уровень 3\\nУдарная волна, расходящаяся от Смауга, наносит огромный урон и отбрасывает врагов\\nЩелкните на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 3\nУдарна хвиля під Смоґом б'є та розкидає ворогів\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityDrogothFireflight",
+   "type": "Кнопка",
+   "en": "Fiery Spirit (&T)",
+   "ru": "Испепеление (&T)",
+   "uk_ai": "Вогняний дух (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityDrogothFireflight",
+   "type": "Підказка",
+   "en": "Requires Level 6 \n Sends a fiery dragon missile at selected target \n Left click icon then left click on target",
+   "ru": "Требуется уровень 6\\nСмауг поджигает врагов драконьим пламенем\\nЩелкните на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 6\nДракон вивергає полум'я на обрану ціль.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityIncinerate",
+   "type": "Кнопка",
+   "en": "I Am Death (&C)",
+   "ru": "Я - сама смерть! (&C)",
+   "uk_ai": "Я — сама смерть (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityIncinerate",
+   "type": "Підказка",
+   "en": "Requires Level 10 \n Breathes fire over a selected area \n Left click icon then left click on target area",
+   "ru": "Требуется уровень 10\\nСмауг поражает огнем указанный участок местности\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 10\nОбрану ділянку на полі бою вражає вогонь.\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SmaugDissent",
+   "type": "Кнопка",
+   "en": "Dragon Sickness (&V)",
+   "ru": "Драконий недуг (&V)",
+   "uk_ai": "Драконяча недуга (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSmaugDissent",
+   "type": "Підказка",
+   "en": "Requires Level 10\nCauses targeted units and monsters to become hostile towards each other for 45 seconds\n Left click icon then left click on target area",
+   "ru": "Требуется уровень 10\\nЗаставляет врагов становиться враждебными по отношению друг к другу в течение 45 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевой участок местности",
+   "uk_ai": "Необхідно: Рівень 10\nОбрані загони й створіння на 45 сек. стають ворожими одне до одного\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

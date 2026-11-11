@@ -1,0 +1,129 @@
+{
+ "meta": {
+  "hero": "Anborn",
+  "uk_name": "Анборн",
+  "campaigns": [
+   "TTT"
+  ],
+  "missions": [
+   "Ithilien"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignAnborn"
+   ],
+   "битва": [
+    "CampaignAnborn",
+    "IthilienAnborn"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:GondorAnborn",
+   "type": "Ім'я",
+   "en": "Anborn",
+   "ru": "Анборн",
+   "uk_ai": "Анборн",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AnbornMasterScout",
+   "type": "Кнопка",
+   "en": "Master Scout (&T)",
+   "ru": "Искусный следопыт (&T)",
+   "uk_ai": "Майстер-розвідник (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipAnbornMasterScout",
+   "type": "Підказка",
+   "en": "Nearby friendly units are camouflaged \n Left click to activate",
+   "ru": "Ближайшие союзники становятся скрытыми\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Союзні загони поблизу маскуються\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AnbornPoisonArrows",
+   "type": "Кнопка",
+   "en": "Poison Arrows (&C)",
+   "ru": "Отравленные стрелы (&C)",
+   "uk_ai": "Отруйні стріли (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipAnbornPoisonArrows",
+   "type": "Підказка",
+   "en": "Left click to switch to Poison Arrows \n Inflicts damage over time",
+   "ru": "Переключиться на отравленные стрелы\\nНаносят урон с течением времени",
+   "uk_ai": "Клікніть, щоб перейти на отруйні стріли\nЗавдають поступових пошкоджень",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:AnbornPoisonShots",
+   "type": "Кнопка",
+   "en": "Poison Shots (&R)",
+   "ru": "Отравленные стрелы (&R)",
+   "uk_ai": "Отруйні стріли (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAnbornPoisonShots",
+   "type": "Підказка",
+   "en": "Anborn's arrows deal damage over time for 15 seconds\nCan only be used with bow equipped\nLeft click to activate",
+   "ru": "Стрелы Анборна наносят продолжительный урон в течение 15 секунд\\nМожет быть применено только с экипированным луком\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "На 15 сек. стріли Анборна завдають поступових пошкоджень\nМожна використати, лише коли в руках лук\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AnbornTakePoint",
+   "type": "Кнопка",
+   "en": "Take Point (&C)",
+   "ru": "Занять позицию (&C)",
+   "uk_ai": "Зайняти позицію (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAnbornTakePoint",
+   "type": "Підказка",
+   "en": "Requires Level 3\n Anborn calls a group of Rangers to defend targeted location. They are immobile, but remain stealthed and will attack any enemy that approaches\n At level 7, summons a larger group of Rangers\n Left click icon then left click on pathable location",
+   "ru": "Требуется уровень 3\\nАнборн призывает группу следопытов на защиту указанной области. Они неподвижны, но остаются скрытыми и атакуют всех ближайших врагов\\nНа уровне 7, призывает большую группу следопытов\\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Необхідно: Рівень 3\nАнборн кличе загін слідопитів захищати вказане місце. Вони не можуть рухатися, але лишаються невидимими й атакують кожного ворога, що наблизиться\nНа 7 рівні прикликає більший загін слідопитів\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AnbornNightRaid",
+   "type": "Кнопка",
+   "en": "Night Raid (&V)",
+   "ru": "Ночная вылазка (&V)",
+   "uk_ai": "Нічний наліт (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAnbornNightRaid",
+   "type": "Підказка",
+   "en": "Requires Level 7\nAnborn and nearby Ithilien Skirmishers, Sentinels and Outriders steal resources when attacking buildings\n Passive ability\n\nCan be cast on enemy resource structure to pause production for 60 seconds\nLeft click icon then left click on target structure",
+   "ru": "Требуется уровень 7\\nАнборн и ближайшие заступники, часовые и всадники Итилиэна крадут ресурсы, атакуя вражеские строения\\nПассивная способность\\n\\nМожет быть применено на вражеской ресурсной постройке, чтобы остановить ее производство на 60 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевое вражеское строение",
+   "uk_ai": "Необхідно: Рівень 7\nАнборн і легкоозброєні воїни, вартові та вершники-розвідники Ітілієну поблизу крадуть ресурси, атакуючи споруди\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nМожна застосувати до ворожої ресурсної споруди, щоб на 60 сек. зупинити її виробництво\nКлікніть на іконку, потім оберіть споруду",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

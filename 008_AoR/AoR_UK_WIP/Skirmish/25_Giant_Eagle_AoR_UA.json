@@ -1,0 +1,43 @@
+{
+ "meta": {
+  "hero": "Giant Eagle",
+  "uk_name": "Орел Манве",
+  "faction (ini Side)": [
+   "Rivendell"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "RivendellGwaihir"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:GondorGwiegher",
+   "type": "Ім'я",
+   "en": "Giant Eagle",
+   "ru": "Гигантский орел",
+   "uk_ai": "Велетенський орел",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityWingBlastGwaihir",
+   "type": "Кнопка",
+   "en": "Wings Like A Hurricane (&W)",
+   "ru": "Крылья, как ураган (&W)",
+   "uk_ai": "Крила, мов ураган (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityWingBlastGwaihir",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Shoots a shockwave of force below the Eagle for 20 seconds, causing meta damage to enemies \n Left click icon then left click on target area",
+   "ru": "Требуется уровень 5\\nГвайхир размахивает крыльями, отбрасывая и нанося урон врагам под собой в течение 20 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 5\nПротягом 20 сек. б'є крилами під собою, завдає ворогам пошкоджень і розкидає їх\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

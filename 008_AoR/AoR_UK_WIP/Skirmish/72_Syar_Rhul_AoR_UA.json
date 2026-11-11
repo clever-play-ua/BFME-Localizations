@@ -1,0 +1,115 @@
+{
+ "meta": {
+  "hero": "Syâr-Rhul",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Harad"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "HaradSyarRhul"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:HaradSyarRhul",
+   "type": "Ім'я",
+   "en": "Syâr-Rhul",
+   "ru": "Сияр-Рул",
+   "uk_ai": "Сіар-Рул",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:GoldenKingVizierLeadership",
+   "type": "Кнопка",
+   "en": "Golden King's Vizier",
+   "ru": "Визирь Золотого короля",
+   "uk_ai": "Візир Золотого короля",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGoldenKingVizierLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nTribal and Harondor units gain +15% experience, +15% armour and +15% damage\nRank 3: leadership expands to include Mahûd units\nRank 6: leadership expands to include units from the Sanctum of Zigûr\nRank 10: Leadership expands to include Black Númenórean units\n\nWhen near the Golden King, the Black Vizier gains +50% armour\nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nПлеменные и харондорские воины наносят +15% урона, получают +15% брони и набирают опыт на +15% быстрее\\nУровень 3: Лидерство усиливает воинов махуд\\nУровень 6: Лидерство усиливает культистов и хашаринов\\nУровень 10: Лидерство усиливает отряды черных нуменорцев\\n\\nЧерный визирь получает +50% брони, находясь рядом с Золотым королем\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nЗагони племен і Гарондору отримують бонус +15% броні й +15% до пошкоджень і на 15% швидше набирають досвід\n3 рівень: лідерство поширюється на загони магудів\n6 рівень: лідерство поширюється на загони зі Святилища Зіґура\n10 рівень: лідерство поширюється на загони чорних нуменорців\n\nПоряд із Золотим королем Чорний візир отримує бонус +50% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:VizierEnforcer",
+   "type": "Кнопка",
+   "en": "Enforcer (&R)",
+   "ru": "Смотритель (&R)",
+   "uk_ai": "Наглядач (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipVizierEnforcer",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Can be cast on a friendly or enemy resource structure to pause production for 60 seconds \n Spawns a Tribute Chest which can be decommissioned at the Fortress for 250 resources \n If the Tribute Chest is killed before reaching the Fortress, it drops a treasure chest of 125 resources \n Left click icon then left click on target",
+   "ru": "Требуется уровень 3\\nМожет быть применено на дружественную или вражескую ресурсную структуру, чтобы приостановить производство на 60 секунд\\nПорождает сундук с данью, который можно списать в крепости за 250 ресурсов\\nЕсли сундук с данью будет уничтожен до того как достигнет крепости, то из него выпадет сундук с сокровищами, содержащий 125 ресурсов\\nЩелкните левой кнопкой мыши на значок, затем на целевую структуру",
+   "uk_ai": "Необхідно: Рівень 3\nМожна застосувати до союзної чи ворожої ресурсної споруди, щоб призупинити її виробництво на 60 сек.\nЗ'являється скриня данини, яку можна здати у фортеці за 250 од. ресурсів\nЯкщо скриню данини знищать дорогою до фортеці, з неї випаде скарб на 125 од. ресурсів\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DarkSacrifice",
+   "type": "Кнопка",
+   "en": "Dark Sacrifice (&T)",
+   "ru": "Темная жертва (&T)",
+   "uk_ai": "Темна жертва (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipVizierDarkSacrifice",
+   "type": "Підказка",
+   "en": "Requires Level 6\n Modifier Type: Spell\n Targeted allied units gain +50% damage for 30 seconds\n Left click icon then left click on target units",
+   "ru": "Требуется уровень 6\\nТип модификатора: Заклинание\\nСоюзные отряды в области действия наносят +50% урона в течение 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 6\nТип ефекту: Заклинання\nОбрані союзні загони на 30 сек. отримують бонус +50% до пошкоджень\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ArbiterofFaith",
+   "type": "Кнопка",
+   "en": "Arbiter of Faith (&C)",
+   "ru": "Вершитель судеб (&C)",
+   "uk_ai": "Вершитель віри (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipArbiterofFaith",
+   "type": "Підказка",
+   "en": "Requires Level 9 \n Modifier Type: Spell \n Syâr-Rhul spreads the faith to a target hero\n\nIf used on an allied hero, they gain double experience gain and their abilities will cool down 50% faster for 60 seconds\nSummons two Hasharin Blades to defend target allied hero\n\nIf used on an enemy hero, they will be unable to gain experience and their abilities will cool down 50% slower for 60 seconds\nSummons two Hasharin Blades to attack target enemy hero\n\nLeft click icon then left click on target hero",
+   "ru": "Требуется уровень 9\\nТип модификатора: Заклинание\\nСияр-Рул распространяет веру на выбранного героя\\n\\nПри использовании на союзного героя, он получает двойной прирост опыта, а его способности перезаряжаются на 50% быстрее в течение 60 секунд\\nПризываются два Хашарина для защиты союзного героя\\n\\nЕсли использовать на вражеского героя, он не сможет получать опыт, а его способности будут перезаряжаться на 50% медленнее в течение 60 секунд\\nПризываются два Хашарина для атаки на вражеского героя\\n\\nЩелкните левой кнопкой мыши на значок, затем на целевого героя",
+   "uk_ai": "Необхідно: Рівень 9\nТип ефекту: Заклинання\nСіар-Рул навертає обраного героя до віри\n\nЯкщо застосувати до союзного героя, на 60 сек. він набирає вдвічі більше досвіду, а його здібності відновлюються на 50% швидше\nПрикликає 2 клинків-гашарінів захищати обраного союзного героя\n\nЯкщо застосувати до ворожого героя, на 60 сек. він не може набирати досвід, а його здібності відновлюються на 50% повільніше\nПрикликає 2 клинків-гашарінів атакувати обраного ворожого героя\n\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SyarRhulKingsFavor",
+   "type": "Кнопка",
+   "en": "False Promises (&V)",
+   "ru": "Ложные обещания (&V)",
+   "uk_ai": "Фальшиві обіцянки (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSyarRhulKingsFavor",
+   "type": "Підказка",
+   "en": "Requires Level 10 \n Give targeted units excellent experience \n Left click icon then left click on target units",
+   "ru": "Требуется уровень 10\\nСоюзные отряды в области действия получают много опыта\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 10\nМиттєво наділяє обрані загони великим досвідом\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

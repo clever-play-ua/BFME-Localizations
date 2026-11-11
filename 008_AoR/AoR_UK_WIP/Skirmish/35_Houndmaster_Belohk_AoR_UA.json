@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "hero": "Houndmaster Bélohk",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Rhun"
+  ],
+  "alternate factions": [
+   "rhun"
+  ],
+  "templates": [
+   "RhunBelokhZa"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:RhunBelokhZa",
+   "type": "Ім'я",
+   "en": "Houndmaster Bélohk",
+   "ru": "Бэлокх",
+   "uk_ai": "Псар Белох",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:Houndmaster",
+   "type": "Кнопка",
+   "en": "The Houndmaster (&W)",
+   "ru": "Заводчик гончих (&W)",
+   "uk_ai": "Псар (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHoundmaster",
+   "type": "Підказка",
+   "en": "Houndmaster Bélohk is accompanied by three Khandish Wardogs\n Passive ability \n When activated, summons an additional temporary Wardog that follows the Houndmaster and attacks his enemies\n Summons an additional Wardog at level 5, and 2 more at level 10\nLeft click to activate",
+   "ru": "Бэлокха сопровождают три боевых пса\\nПассивная способность\\nПосле активации, призывается дополнительнй временный боевой пес Кханда, который будет следовать за заводчиком гончих и бросаться на его врагов\\nПризывается дополнительный боевой пес на уровне 5 и еще два на уровне 10\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Псаря Белоха супроводжують 3 кхандські бойові пси\n~ ПАСИВНА ЗДІБНІСТЬ ~\nПісля активації тимчасово прикликає ще 1 бойового пса, що йде за Псарем і атакує його ворогів\nНа 5 рівні прикликає ще 1 бойового пса, а на 10 рівні — ще 2\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MasterSteppes",
+   "type": "Кнопка",
+   "en": "Master of the Khandish Steppes (&R)",
+   "ru": "Хозяин степей Кханда (R)",
+   "uk_ai": "Володар кхандських степів (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipMasterSteppes",
+   "type": "Підказка",
+   "en": "Requires Level 3\nModifier Type: Leadership\n Nearby Variags, Wardogs, and Rhûn Serf units gain +15% armour and +15% damage\nPassive ability\n\n Left click to switch between mounted and on foot",
+   "ru": "Требуется уровень 3\\nТип модификатора: Лидерство\\nБлижайшие отряды варягов, сервов Рун, а также стаи боевых псов наносят +15% урона и получают +15% брони\\nПассивная способность\\n\\nЩелкните левой кнопкой мыши, чтобы спешиться/оседлать коня",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Лідерство\nВаріаґи, бойові пси й кріпаки Руну поблизу отримують бонус +15% броні й +15% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nКлікніть, щоб сісти верхи чи спішитися",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WarmongersShot",
+   "type": "Кнопка",
+   "en": "Warmonger's Shot (&T)",
+   "ru": "Выстрел разжигателя войны (&T)",
+   "uk_ai": "Постріл палія війни (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWarmongersShot",
+   "type": "Підказка",
+   "en": "Requires Level 4\n A precise arrow shot that slows down an enemy unit by -70% and reduces their vision by 50% for 15 seconds \n Left click icon then left click on target unit",
+   "ru": "Требуется уровень 4\\nТочный выстрел стрелой, замедляющий врага на -70% и снижающий его радиус обзора на -50% в течение 15 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 4\nВлучний постріл, що на 15 сек. сповільнює ворожий загін на 70% і зменшує його дальність огляду на 50%\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RendingArrow",
+   "type": "Кнопка",
+   "en": "Rending Arrows",
+   "ru": "Разящие стрелы",
+   "uk_ai": "Рвучі стріли",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRendingArrow",
+   "type": "Підказка",
+   "en": "Requires Level 5\n The Houndmaster's arrows cause enemies to suffer damage over time for 10 seconds\nPassive ability",
+   "ru": "Требуется уровень 5\\nСтрелы Бэлокха наносят врагам продолжительный урон в течение 10 секунд\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 5\nСтріли Псаря на 10 сек. завдають ворогам пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FuryoftheBeasts",
+   "type": "Кнопка",
+   "en": "Fury of the Beasts (&V)",
+   "ru": "Звериная ярость (&V)",
+   "uk_ai": "Звірина лють (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipFuryoftheBeasts",
+   "type": "Підказка",
+   "en": "Requires Level 8\nModifier Type: Spell\nNearby Variags, Outriders, and Khandish Wardogs gain +50% damage, +50% armour and -25% trample deceleration for 10 seconds\n At rank 10, duration of effect increases to 20 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 8\\nТип модификатора: Заклинание\\nБлижайшие варяги, всадники и боевые псы Кханда наносят +50% урона, получают +50% брони и -25% замедления при растаптывании на 10 секунд\\nНа уровне 10, длительность действия увеличивается до 20 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 8\nТип ефекту: Заклинання\nВаріаґи, вершники-розвідники й кхандські бойові пси поблизу на 10 сек. отримують бонус +50% до пошкоджень, +50% броні й на 25% менше сповільнюються під час топтання\nНа 10 рівні ефект триває 20 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

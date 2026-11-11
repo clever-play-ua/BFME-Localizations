@@ -1,0 +1,272 @@
+{
+ "meta": {
+  "hero": "The Witch-king of Angmar",
+  "uk_name": "Король-чаклун Анґмару",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "LordoftheRings"
+  ],
+  "templates": {
+   "кампанія": [
+    "MordorWitchKing"
+   ],
+   "битва": [
+    "AngmarWitchking",
+    "MordorWitchKing",
+    "MorgulWitchKing"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:MordorWitchKing",
+   "type": "Ім'я",
+   "en": "The Witch-king of Angmar",
+   "ru": "Ангмарский Король-чародей",
+   "uk_ai": "Король-чаклун Анґмару",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ChiefoftheNine",
+   "type": "Кнопка",
+   "en": "Chief of the Nine (&W)",
+   "ru": "Предводитель Девяти (&W)",
+   "uk_ai": "Ватажок Дев'ятьох (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipChiefoftheNine",
+   "type": "Підказка",
+   "en": "As more Nazgûl gather, their strength grows \n +10% damage and +10% armour per every Nazgûl nearby \n Passive ability\n\n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% damage and -25% armour\nNullifies enemy leaderships\nPassive ability \n\n Left click to switch between mounted and on foot",
+   "ru": "По мере того как все больше назгул собираются вместе, их сила растет +10% урона и +10% брони за каждого кольценосца\\nПассивная способность\\n\\nТип модификатора: Пассивное ослабление\\nБлижайшие вражеские отряды теряют -25% урона и -25% брони\\nОтменяет вражеское лидерство\\nПассивная способность\\n\\nЩелкните левой кнопкой мыши на значок, чтобы оседлать коня или спешиться",
+   "uk_ai": "Що більше назґулів збирається разом, то вони сильніші\n+10% до пошкоджень і +10% броні за кожного назґула поблизу\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nТип ефекту: Пасивне ослаблення\nВорожі загони поблизу отримують штраф -25% пошкоджень і -25% броні\nСкасовує вороже лідерство\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nКлікніть, щоб перемкнутися між верховим і пішим строєм",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DreadWrath",
+   "type": "Кнопка",
+   "en": "Chill of Angmar (&R)",
+   "ru": "Холод Ангмара (&R)",
+   "uk_ai": "Холод Анґмару (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipChillofAngmarWK",
+   "type": "Підказка",
+   "en": "The Witch-king reflects 10% of all damage dealt to him by nearby enemies\nPassive ability\n\nWhen activated, the Witch-king is surrounded by a storm of hail and frost for 30 seconds, damaging nearby enemy units, more the closer they are to him\n At Level 5, deals increased damage\n At level 8, nearby enemy units are terrified\nLeft click to activate",
+   "ru": "Король-чародей отражает 10% урона, наносимого в ближнем бою\\nПассивная способность\\n\\nПосле активации, Король-чародей на 30 секунд окружен бурей града и мороза, которая наносит урон ближайшим врагам\\nНа уровне 5, урон увеличивается\\nНа уровне 8, наводит ужас на ближайших врагов\\nЩелкните левой кнопкой мыши на значок, чтобы активировать",
+   "uk_ai": "Король-чаклун відбиває 10% усіх пошкоджень, яких йому завдають вороги поблизу\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації Короля-чаклуна на 30 сек. оточує буря граду й морозу, що завдає пошкоджень ворожим загонам поблизу — тим сильніше, чим ближче вони до нього\nНа 5 рівні завдає більше пошкоджень\nНа 8 рівні ворожі загони поблизу охоплює жах\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MordorWitchkingMorgulCorruption",
+   "type": "Кнопка",
+   "en": "Morgul Blade (&T)",
+   "ru": "Моргульский клинок (&T)",
+   "uk_ai": "Морґульський клинок (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMordorWitchkingMorgulCorruption",
+   "type": "Підказка",
+   "en": "Requires Level 4 \n Targeted enemy takes poison damage\nover time for 10 seconds, and becomes a wight upon death \n Target enemy hero is stunned for 10 seconds and their ability timers are set to just used \n Left click icon then left click on target",
+   "ru": "Требуется уровень 4\\nВраг получает урон ядом\\nс течением времени и становится призраком после смерти\\nОглушает вражеского героя на 10 секунд и обнуляет все его способности\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 4\nОбраний ворог 10 сек. отримує пошкодження\nвід отрути, а після смерті стає привидом\nОбраний ворожий герой на 10 сек. стає приголомшеним, а всі його здібності скидаються, ніби їх щойно застосували\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:OpenInTheNameOfMordor",
+   "type": "Кнопка",
+   "en": "Open in the Name of Mordor (&C)",
+   "ru": "Открыть во имя Мордора (&C)",
+   "uk_ai": "Відчинити в ім'я Мордору (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipOpenInTheNameOfMordor",
+   "type": "Підказка",
+   "en": "Requires Level 6\nDeals damage to target enemy structure and disables it for 20 seconds\nEnemy units nearby the targeted structure take damage over time and turn into a Wight when killed\nAutomatically opens targeted gate\nLeft click then left click target enemy structure",
+   "ru": "Требуется уровень 6\\nНаносит урон выбранному вражескому строению и выводит его из строя на 20 секунд\\nВраги, находящиеся рядом с целевым строением, получают урон с течением времени и превращаются в призраков после смерти\\nАвтоматически открывает ворота\\nЩелкните левой кнопкой мыши на значок, затем на целевое строение",
+   "uk_ai": "Необхідно: Рівень 6\nЗавдає пошкоджень обраній ворожій споруді й виводить її з ладу на 20 сек.\nВорожі загони поряд зі спорудою поступово отримують пошкодження, а загиблі стають привидами\nАвтоматично відчиняє обрану браму\nКлікніть на іконку, потім оберіть ворожу споруду",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WKWordofPower",
+   "type": "Кнопка",
+   "en": "This is My Hour! (&V)",
+   "ru": "Мой час настал! (&V)",
+   "uk_ai": "Настав мій час! (&V)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWKWordofPower",
+   "type": "Підказка",
+   "en": "Requires Level 10 \n Blasts back and damages units in a wide radius surrounding the Witch-king\n Left click to activate",
+   "ru": "Требуется уровень 10\\nОтбрасывает и поджигает врагов вокруг Короля-чародея\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10\nВідкидає загони в широкому радіусі навколо Короля-чаклуна й завдає їм пошкоджень\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WitchKingMount",
+   "type": "Кнопка",
+   "en": "Mount / Dismount (&W)",
+   "ru": "Сесть на крылатую тварь",
+   "uk_ai": "Сісти верхи / Спішитися (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:LordOfAngmar",
+   "type": "Кнопка",
+   "en": "Lord of Angmar (&W)",
+   "ru": "Правитель Ангмара (&W)",
+   "uk_ai": "Володар Анґмару (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipLordOfAngmar",
+   "type": "Підказка",
+   "en": "As more Nazgûl gather, their strength grows \n +10% damage and +10% armour per every Nazgûl nearby \n Passive ability\n\n Modifier Type: Passive Debuff\nNullifies enemy leaderships\nPassive ability \n\n Left click to switch between mounted and on foot",
+   "ru": "По мере того как все больше назгул собираются вместе, их сила растет +10% урона и +10% брони за каждого кольценосца\\nПассивная способность\\n\\nТип модификатора: Пассивное ослабление\\nОтменяет вражеское лидерство\\nПассивная способность\\n\\nЩелкните левой кнопкой мыши, чтобы оседлать коня или спешиться",
+   "uk_ai": "Що більше назґулів збирається разом, то вони сильніші\n+10% до пошкоджень і +10% броні за кожного назґула поблизу\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nТип ефекту: Пасивне ослаблення\nСкасовує вороже лідерство\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nКлікніть, щоб сісти верхи або спішитися",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ShiveringPresence",
+   "type": "Кнопка",
+   "en": "Shivering Presence (&R)",
+   "ru": "Содрогающее присутствие (&R)",
+   "uk_ai": "Моторошна присутність (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWKShiveringPresence",
+   "type": "Підказка",
+   "en": "Modifier Type: Spell\nNearby Angmar units afflicted by Slow Decay are no longer drained over time\nAngmar units afflicted by Slow Decay become resistant to fear and terror, receive +33% damage and armour, and are healed by a small amount\nPassive ability\n\nAt Level 3, can be activated to surround the Witch-king with a storm of hail and frost for 30 seconds\ndamaging nearby enemy units, more the closer they are to him\nLeft click to activate",
+   "ru": "Тип модификатора: Заклинание\\nБлижайшие отряды Ангмара, подверженные Медленному разложению, перестают истощаться со временем, наносят +33% урона и получают +33% брони, а также понемногу исцеляются вне боя\\nПассивная способность\\n\\nНа уровне 3, может быть применено, чтобы вызвать бурю града и мороза, окружающую Короля-чародея в течение 30 секунд и\\nнаносящую урон ближайшим врагам, тем сильнее, чем они ближе\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Тип ефекту: Заклинання\nЗагони Анґмару поблизу, уражені Повільним тлінням, більше не виснажуються\nЗагони Анґмару, уражені Повільним тлінням, стають стійкими до страху та жаху, отримують бонус +33% до пошкоджень і броні та трохи зцілюються\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nНа 3 рівні можна активувати, щоб на 30 сек. оточити Короля-чаклуна бурею граду й морозу,\nщо завдає пошкоджень ворожим загонам поблизу — тим більших, чим ближче вони до нього\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WKDarkSorcerer",
+   "type": "Кнопка",
+   "en": "Dark Sorcerer (&T)",
+   "ru": "Темный чародей (&T)",
+   "uk_ai": "Темний чаклун (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDarkSorcerer",
+   "type": "Підказка",
+   "en": "Requires Level 3\nThe Witch-king casts a necromantic spell on enemies\nwithin a radius, dealing heavy damage and resurrecting the dead as Risen Dead under the player's control\nAt rank 5, can be cast on Restless Barrows to summon a horde of Dead of Arnor - respects command point limit\nAt rank 6, increased damage\nAt rank 10, increased damage\nLeft click icon then left click on target enemies",
+   "ru": "Требуется уровень 3\\nКороль-чародей накладывает некромантическое заклинание\\nна врагов в области, нанося значительный урон и воскрешая\\nпогибших в виде восставших мертвецов под контролем игрока\\nНа уровне 5, может быть применено к беспокойному кургану, чтобы вызвать отряд Мертвецов Арнора - с учетом предела очков командования\\nНа уровне 6, урон увеличивается\\nНа уровне 10, урон увеличивается еще больше\\nЩелкните левой кнопкой на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 3\nКороль-чаклун накладає некромантичне закляття на ворогів\nу радіусі: завдає значних пошкоджень і підіймає загиблих як Повсталих мерців під контролем гравця\nНа 5 рівні можна застосувати до Неспокійних курганів, щоб прикликати орду Мертвих Арнору — враховує ліміт очок командування\nНа 6 рівні пошкодження зростають\nНа 10 рівні пошкодження зростають\nКлікніть на іконку, потім оберіть ворогів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CursedThreshold",
+   "type": "Кнопка",
+   "en": "Cursed Threshold (&C)",
+   "ru": "Проклятый рубеж (&C)",
+   "uk_ai": "Проклятий поріг (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AngmarWKWordofPower",
+   "type": "Кнопка",
+   "en": "Chief of the Nine (&V)",
+   "ru": "Предводитель Девятерых (&V)",
+   "uk_ai": "Ватажок Дев'ятьох (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAngmarWKWordofPower",
+   "type": "Підказка",
+   "en": "Requires Level 8\nThe Witch-king reveals himself as the Lord of the Nazgûl and servant of Sauron\nThe Witch-king now reflects 10% of all damage dealt to him by nearby enemies\nModifier Type: Passive Debuff\nNearby enemy units suffer -25% damage and -25% armour\n\nBlasts back and damages units in a wide radius surrounding the Witch-king\nLeft click to activate",
+   "ru": "Требуется уровень 8\\nКороль-чародей раскрывает себя как Предводитель назгул и слуга Саурона\\nТеперь Король-чародей отражает 10% всего урона, наносимого ему в ближнем бою\\nТип модификатора: Пассивное ослабление\\nБлижайшие вражеские отряды теряют -25% урона и -25% брони\\n\\nПосле активации, враги отбрасываются и получают сильный урон в широком радиусе вокруг Короля-чародея\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 8\nКороль-чаклун постає як Володар назґулів і слуга Саурона\nТепер Король-чаклун відбиває 10% усіх пошкоджень, яких йому завдають вороги поблизу\nТип ефекту: Пасивне ослаблення\nВорожі загони поблизу отримують штраф -25% пошкоджень і -25% броні\n\nВідкидає загони в широкому радіусі навколо Короля-чаклуна й завдає їм пошкоджень\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:KrimpulCommand",
+   "type": "Кнопка",
+   "en": "Master's Command",
+   "ru": "Приказ повелителя",
+   "uk_ai": "Наказ володаря",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipLordOfAngmarRing",
+   "type": "Підказка",
+   "en": "As more Nazgûl gather, their strength grows \n +10% damage and +10% armour per every Nazgûl nearby \n Passive ability\n\nThe Witch-king reflects 10% of all damage dealt to him by nearby enemies\nModifier Type: Passive Debuff \n Nearby enemy units suffer -25% damage and -25% armour\nNullifies enemy leaderships\nPassive ability \n\n Left click to switch between mounted and on foot",
+   "ru": "По мере того как все больше назгул собираются вместе, их сила растет\\n+10% урона и +10% брони за каждого кольценосца\\nПассивная способность\\n\\nКороль-чародей отражает 10% всего урона, наносимого ему в ближнем бою\\nТип модификатора: Пассивное ослабление\\nБлижайшие вражеские отряды теряют -25% урона и -25% брони\\nОтменяет вражеское лидерство\\nПассивная способность\\n\\nЩелкните левой кнопкой мыши, чтобы оседлать коня или спешиться",
+   "uk_ai": "Що більше назґулів збирається разом, то вони сильніші\n+10% до пошкоджень і +10% броні за кожного назґула поблизу\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nКороль-чаклун відбиває 10% усіх пошкоджень, яких йому завдають вороги поблизу\nТип ефекту: Пасивне ослаблення\nВорожі загони поблизу отримують штраф -25% пошкоджень і -25% броні\nСкасовує вороже лідерство\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nКлікніть, щоб сісти верхи або спішитися",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWKShiveringPresenceWithRing",
+   "type": "Підказка",
+   "en": "Modifier Type: Spell\nNearby Angmar units afflicted by Slow Decay are no longer drained over time\nAngmar units afflicted by Slow Decay become resistant to fear and terror, receive +33% damage and armour, and are healed by a small amount\n\nThe Witch-king is permanently surrounded by a storm of hail and ice damaging nearby enemy units, more the closer they are to him\nPassive ability\n\nWhen activated, permanently summons three Ringwraiths\nLeft click to activate",
+   "ru": "Тип модификатора: Заклинание\\nБлижайшие отряды Ангмара, подверженные Медленному разложению, перестают истощаться со временем, наносят +33% урона и получают +33% брони, а также понемногу исцеляются вне боя\\n\\nКороль-чародей постоянно окружен бурей града и льда, наносящей урон ближайшим врагам, тем сильнее, чем они ближе\\nПассивная способность\\n\\nПосле активации, навсегда призываются три призрака Кольца\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Тип ефекту: Заклинання\nЗагони Анґмару поблизу, уражені Повільним тлінням, більше не виснажуються\nЗагони Анґмару, уражені Повільним тлінням, стають стійкими до страху та жаху, отримують бонус +33% до пошкоджень і броні та трохи зцілюються\n\nКороля-чаклуна постійно оточує буря граду й льоду, що завдає пошкоджень ворожим загонам поблизу — тим більших, чим ближче вони до нього\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації назавжди прикликає 3 назґулів\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDarkSorcererUpgraded",
+   "type": "Підказка",
+   "en": "Requires Level 3\nThe Witch-king casts a necromantic spell on enemies\nwithin a large radius, dealing heavy damage and resurrecting the dead as Wights under the player's control\nCan be cast on Restless Barrows to summon a horde of Dead of Arnor\nLeft click icon then left click on target enemies",
+   "ru": "Требуется уровень 3\\nКороль-чародей накладывает некромантическое заклинание на врагов\\nв области, нанося значительный урон и воскрешая погибших\\nв виде духов под контролем игрока\\nМожет быть наложено на Беспокойный курган, чтобы призвать отряд Мертвецов Арнора\\nЩелкните левой кнопкой на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 3\nКороль-чаклун накладає некромантичне закляття на ворогів\nу великому радіусі: завдає значних пошкоджень і підіймає загиблих як привидів під контролем гравця\nМожна застосувати до Неспокійних курганів, щоб прикликати орду Мертвих Арнору\nКлікніть на іконку, потім оберіть ворогів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAngmarWKWordofPowerRing",
+   "type": "Підказка",
+   "en": "Requires Level 8\nThe Witch-king reveals himself as the Lord of the Nazgûl and servant of Sauron\nBlasts back and damages units in a wide radius surrounding the Witch-king\nShorter cooldown with the One Ring\nLeft click to activate",
+   "ru": "Требуется уровень 8\\nКороль-чародей раскрывает себя как Предводитель назгул и слуга Саурона\\nПосле активации, враги отбрасываются и получают сильный урон в широком радиусе вокруг Короля-чародея\\nСокращенное время перезарядки c Единым Кольцом\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 8\nКороль-чаклун постає як Володар назґулів і слуга Саурона\nВідкидає загони в широкому радіусі навколо Короля-чаклуна й завдає їм пошкоджень\nЗ Єдиним Перснем відновлюється швидше\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

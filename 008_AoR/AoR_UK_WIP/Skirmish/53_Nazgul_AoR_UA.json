@@ -1,0 +1,175 @@
+{
+ "meta": {
+  "hero": "Nazgûl",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Mordor",
+   "Morgul"
+  ],
+  "alternate factions": [
+   "morgul"
+  ],
+  "templates": [
+   "MordorAkhorahil",
+   "MordorUvatha",
+   "MorgulNazgulA",
+   "MorgulNazgulB"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:MordorAkhorahil",
+   "type": "Ім'я",
+   "en": "Nazgûl",
+   "ru": "Назгул",
+   "uk_ai": "Назґул",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "OBJECT:MordorUvatha",
+   "type": "Ім'я",
+   "en": "Nazgûl",
+   "ru": "Назгул",
+   "uk_ai": "Назґул",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipNazgulMount",
+   "type": "Підказка",
+   "en": "As more Nazgûl gather, their strength grows \n +10% damage and +10% armour per every Nazgûl nearby \n Passive ability\n\n Modifier Type: Passive Debuff \n Nearby enemy units suffer -25% damage and -20% armour\nPassive ability\n\n Left click to switch between mounted and on foot",
+   "ru": "По мере того как все больше назгул собираются вместе, их сила растет\\n+10% урона и +10% брони за каждого кольценосца\\nПассивная способность\\n\\nТип модификатора: Пассивное ослабление\\nБлижайшие вражеские отряды теряют -25% урона и -20% брони\\nОтменяет вражеское лидерство\\nПассивная способность\\n\\nЩелкните левой кнопкой мыши на значок, чтобы переключиться между конным и пешим ходом",
+   "uk_ai": "Що більше назґулів збирається разом, то вони сильніші\n+10% до пошкоджень і +10% броні за кожного назґула поблизу\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nТип ефекту: Пасивне ослаблення\nВорожі загони поблизу отримують штраф -25% пошкоджень і -20% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nКлікніть, щоб перемкнутися між верховим і пішим строєм",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipScreechBlackRider",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Causes enemy units to flee in terror \n Left click to activate",
+   "ru": "Требуется уровень 3\\nЗаставляет вражеские отряды разбегаться в ужасе\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nЗмушує ворогів розбігтися від жаху.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellPursuit",
+   "type": "Кнопка",
+   "en": "Relentless Pursuit (&T)",
+   "ru": "Неустанное преследование (&T)",
+   "uk_ai": "Невтомне полювання (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipFellPursuit",
+   "type": "Підказка",
+   "en": "Requires Level 6\n Nazgûl gain +20% movement speed and +33% armour for 30 seconds\nCan only be used when mounted\nNazgûl cannot dismount whilst ability is active \nLeft click to activate",
+   "ru": "Требуется уровень 6\\nНазгул получает +33% брони и +20% скорости передвижения в течение 30 секунд\\nМожет использоваться только верхом\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 6\nНазґули на 30 сек. отримують бонус +20% швидкості руху й +33% броні\nМожна застосувати лише верхи\nПоки діє здібність, назґули не можуть спішитися\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BlackBreath",
+   "type": "Кнопка",
+   "en": "Black Breath (&C)",
+   "ru": "Черное дыхание (&C)",
+   "uk_ai": "Чорний подих (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBlackBreath",
+   "type": "Підказка",
+   "en": "Requires Level 10\nBlack Breath emanates from the Nazgûl\nNearby enemy units caught in the breath take damage over time for 15 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 10\\nЧерное дыхание исходит от назгул\\nБлижайшие враги получают постепенный урон в течение 15 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10\nВід назґула віє Чорним подихом\nВорожі загони поблизу 15 сек. поступово отримують пошкодження\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:FellBeastUpgrade",
+   "type": "Кнопка",
+   "en": "Flight of the Hell-hawks (&V)",
+   "ru": "Крылатый ужас (&V)",
+   "uk_ai": "Крилатий жах (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipFellBeastUpgrade",
+   "type": "Підказка",
+   "en": "Allows Nazgûl to mount Fellbeast instead of horse",
+   "ru": "Позволяет назгул садиться на крылатую тварь вместо коня",
+   "uk_ai": "Дає змогу назґулу осідлати крилату потвору замість коня",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:LackFellBeastUpgrade",
+   "type": "Кнопка",
+   "en": "Requires Breeding Grounds upgrade",
+   "ru": "Требуется улучшение Площадки для разведения",
+   "uk_ai": "Потребує покращення «Гніздовище»",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BlackRiderMorgulBlade",
+   "type": "Кнопка",
+   "en": "Morgu&l Blade",
+   "ru": "Моргульский клинок (&L)",
+   "uk_ai": "Морґульський клинок (&L)",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMorgomirMorgulBlade",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Targeted enemy takes poison damage over \n time and becomes a wight upon death \n Left click icon then left click on target",
+   "ru": "Требуется уровень 5\\nУказанный враг время от времени получает урон от яда, а после смерти становится призраком\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 5\nОбраний ворог поступово отримує\nпошкодження отрутою, а після смерті стає привидом\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BlackBreathFellbeast",
+   "type": "Кнопка",
+   "en": "Black Breath (&T)",
+   "ru": "Черное дыхание (&T)",
+   "uk_ai": "Чорний подих (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBlackBreathMorgul",
+   "type": "Підказка",
+   "en": "Requires Level 3\nBlack Breath emanates from the Nazgûl\nNearby enemy units caught in the breath take damage over time for 15 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 3\\nЧерное дыхание исходит от Назгула\\nБлижайшие вражеские отряды, попавшие под действие дыхания, получают урон в течение 15 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nВід назґула віє Чорним подихом\nВорожі загони поблизу, 15 сек. поступово отримують пошкодження\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WordsofDeathMorgul",
+   "type": "Кнопка",
+   "en": "Words of Death (&C)",
+   "ru": "Слова смерти (&C)",
+   "uk_ai": "Слова смерті (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWordsofDeathMorgul",
+   "type": "Підказка",
+   "en": "Requires Level 6 \n The Nazgûl places a Rune Circle on target area\nFriendly units within the Rune Circle gain +75% armour to Ranged, Fire, Frost and Magic damage for 60 seconds\n Left click icon then left click on pathable location",
+   "ru": "Требуется уровень 6\\nНазгул создает рунный круг в радиусе действия\\nДружественные юниты в рунном круге получают +75% брони от дальних атак, огненного, ледяного и магического урона в течение 60 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 6\nНазґул створює рунне коло на обраній ділянці\nСоюзні загони в рунному колі на 60 сек. отримують бонус +75% броні проти пошкоджень на відстані, а також вогнем, холодом і магією\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

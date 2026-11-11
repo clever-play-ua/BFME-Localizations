@@ -1,0 +1,99 @@
+{
+ "meta": {
+  "hero": "Amdír",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "LastAlliance"
+  ],
+  "alternate factions": [
+   "last alliance"
+  ],
+  "templates": [
+   "SecondAgeAmdirAdventure"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:Amdir",
+   "type": "Ім'я",
+   "en": "Amdír",
+   "ru": "Амдир",
+   "uk_ai": "Амдір",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AmdirMalgaladPassive",
+   "type": "Кнопка",
+   "en": "Malgalad",
+   "ru": "Мальгалад",
+   "uk_ai": "Малгалад",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipAmdirMalgaladPassive",
+   "type": "Підказка",
+   "en": "Every time Amdír attacks, he and nearby allies are slightly healed \n Passive ability",
+   "ru": "Каждый раз, когда Амрот атакует, он и ближайшие союзники понемногу исцеляются\\nПассивная способность",
+   "uk_ai": "Щоразу, коли Амдір атакує, він і союзники поблизу потрохи зцілюються\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AmdirBladeMasterLAA",
+   "type": "Кнопка",
+   "en": "Golden Wrath (&R)",
+   "ru": "Сияющий гнев (&R)",
+   "uk_ai": "Золотий гнів (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipAmdirBladeMasterLAA",
+   "type": "Підказка",
+   "en": "Requires Level 4 \n Amdír knocks back enemy units and gains 33% attack speed, but loses 20% armour for 30 seconds\n Malgalad's heal is increased for the duration \n Left click then left click on target",
+   "ru": "Требуется уровень 4\\nАмрот отбрасывает врагов и получает +33% скорости атаки, но теряет -20% брони на 30 секунд\\nИсцеление Мальгалада увеличивается на время действия эффекта\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 4\nНа 30 сек. Амдір відкидає ворожі загони й отримує бонус +33% швидкості атаки, але має штраф -20% броні\nНа цей час зцілення «Малгалада» посилюється\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AmdirJoyBattleLAA",
+   "type": "Кнопка",
+   "en": "Joy of Battle (&T)",
+   "ru": "Радость битвы (&T)",
+   "uk_ai": "Радість битви (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAmdirJoyBattleLAA",
+   "type": "Підказка",
+   "en": "Requires Level 7\n Amdír teleports to targeted enemy unit, dealing area of effect damage upon impact\nLeft click icon then left click on target area",
+   "ru": "Требуется уровень 7\\nАмрот телепортируется к врагам, нанося урон по площади\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 7\nАмдір телепортується до обраного ворожого загону й одразу після цього завдає пошкоджень по площі\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HeirOfAmdirLAA",
+   "type": "Кнопка",
+   "en": "Beloved Heir (&C)",
+   "ru": "Любимый наследник (&C)",
+   "uk_ai": "Улюблений спадкоємець (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHeirOfAmdirLAA",
+   "type": "Підказка",
+   "en": "Requires Level 10 \n Summons Amroth Amdírion and two battalions of Amroth-na Armegil\nLeft click to activate",
+   "ru": "Требуется уровень 10\\nПризывает Амрота Амдриона и два отряда Амрот-на Армегил\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10\nПрикликає Амрота Амдіріона й 2 загони Амрот-на Армеґіл\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

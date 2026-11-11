@@ -1,0 +1,115 @@
+{
+ "meta": {
+  "hero": "Master of Lake-town",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Dwarves"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "DwarvenLaketownMaster"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:LaketownMaster",
+   "type": "Ім'я",
+   "en": "Master of Lake-town",
+   "ru": "Бургомистр",
+   "uk_ai": "Бурмістр Озерного міста",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MasteroftheLake",
+   "type": "Кнопка",
+   "en": "Master of the Lake",
+   "ru": "Правитель Озерного города",
+   "uk_ai": "Володар Озера",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMasteroftheLake",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nGrants +5% damage to nearby Lake-town units\nand increases by 5% per rank\nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nДает +5% урона ближайшим отрядам Озерного города\\nи увеличивается на +5% за уровень\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nЗагони Озерного міста поблизу отримують бонус +5% до пошкоджень\nі ще +5% з кожним рівнем\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MasterSpy",
+   "type": "Кнопка",
+   "en": "Subtle Subterfuge (&R)",
+   "ru": "Тонкая уловка (&R)",
+   "uk_ai": "Майстерна хитрість (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMasterSpy",
+   "type": "Підказка",
+   "en": "Place a Master's Spy on the map\nThe Master's Spy is stealthed and cannot move, and reveals a large amount of shroud \n Left click icon then left click on pathable location",
+   "ru": "В любой точке карты временно появляется шпион бургомистра. Шпион рассеивает туман войны в большой области, будучи скрытым и неспособным двигаться\\nЩелкните левой кнопкой мыши на значок, затем на целевой участок карты",
+   "uk_ai": "Розміщує на мапі шпигуна Бурмістра\nШпигун Бурмістра невидимий, стоїть на місці й розвіює туман війни на великій площі\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:UnderhandedStrike",
+   "type": "Кнопка",
+   "en": "Underhanded Strike (&T)",
+   "ru": "Коварный удар (&T)",
+   "uk_ai": "Підступний удар (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUnderhandedStrike",
+   "type": "Підказка",
+   "en": "Deals heavy melee damage to enemy unit\nTargeted enemy unit or hero is crippled for 10 seconds\nLeft click icon then left click on target",
+   "ru": "Атака ближнего боя, наносящая врагам или герою серьезный урон и обездвиживающая на 10 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Завдає ворожому загону значних пошкоджень у ближньому бою\nОбраний ворожий загін чи герой стають покалічені на 10 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:LaketownCallGuard",
+   "type": "Кнопка",
+   "en": "Call the Guard! (&C)",
+   "ru": "Позвать стражу! (&C)",
+   "uk_ai": "Кличте варту! (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLaketownCallGuard",
+   "type": "Підказка",
+   "en": "Requires Level 3\nTemporarily summons a battalion of Guards of the Master \n At rank 6, summons two battalions \n Left click to activate",
+   "ru": "Требуется уровень 3\\nВременно вызывается отряд Стражи бургомистра\\nНа уровне 6, призываются два отряда\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 3\nТимчасово прикликає загін варти Бурмістра\nНа 6 рівні прикликає 2 загони\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AncientStatute",
+   "type": "Кнопка",
+   "en": "Ancient Statute (&V)",
+   "ru": "Древняя статуя (&V)",
+   "uk_ai": "Давній закон (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAncientStatute",
+   "type": "Підказка",
+   "en": "Requires Level 9\n The Master of Lake-town and nearby Lake-town units steal resources when striking buildings\n Passive ability\n\nCan be cast on any resource structure to spawn a chest of 850 resources\nResource production is paused for 30 seconds\nLeft click icon then left click on target structure",
+   "ru": "Требуется уровень 9\\nБургомистр и ближайшие войска крадут ресурсы, атакуя вражеские строения\\nПассивная способность\\n\\nМожно применить к любой ресурсной постройке, чтобы получить сундук с 850 ресурсами\\nПриостанавливает производство ресурсов в этой постройке на 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевую структуру",
+   "uk_ai": "Необхідно: Рівень 9\nБурмістр Озерного міста й загони Озерного міста поблизу крадуть ресурси, атакуючи споруди\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nМожна застосувати до будь-якої ресурсної споруди, щоб з'явилася скриня з 850 од. ресурсів\nВиробництво ресурсів припиняється на 30 сек.\nКлікніть на іконку, потім оберіть споруду",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

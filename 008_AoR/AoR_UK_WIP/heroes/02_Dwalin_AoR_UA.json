@@ -1,0 +1,238 @@
+{
+ "meta": {
+  "hero": "Dwalin",
+  "uk_name": "Двалін",
+  "campaigns": [
+   "Hobbit",
+   "FotR",
+   "RotK"
+  ],
+  "missions": [
+   "Destruction",
+   "Council",
+   "BattleofDale"
+  ],
+  "templates": {
+   "кампанія": [
+    "DwarvenDwalin",
+    "FellowshipOldDwalin",
+    "YoungDwalin"
+   ],
+   "битва": [
+    "DwarvenDwalin",
+    "YoungDwalin"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:Dwalin",
+   "type": "Ім'я",
+   "en": "Dwalin",
+   "ru": "Двалин",
+   "uk_ai": "Двалін",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:tooltipCommand_ToggleDwalinAxesBasic",
+   "type": "Підказка",
+   "en": "Toggle to Grasper and Keeper (&W)",
+   "ru": "Переключение на Хватателя и Хранителя (&W)",
+   "uk_ai": "«Хапач Зберігач» (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwalinAxesBasic",
+   "type": "Підказка",
+   "en": "Switch to Grasper and Keeper\nDwalin gains +33% damage against infantry and +50% damage radius",
+   "ru": "Переключение на парные топоры\\nДвалин наносит +33% урона вражеским отрядам пехоты и получает +50% радиуса атаки",
+   "uk_ai": "Перемкнути на «Хапача Зберігача»\nДвалін отримує бонус +33% до пошкоджень проти піхоти й +50% радіуса ураження",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DwalinLeadership",
+   "type": "Кнопка",
+   "en": "Brother-in-Arms",
+   "ru": "Братья по оружию",
+   "uk_ai": "Побратим",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwalinLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Spell \n When near Thorin, Dwalin gains\n+15% damage, +15% armour, and +15% attack speed \nPassive ability",
+   "ru": "Тип модификатора: Заклинание\\nДвалин рядом с Торином наносит\\n+15% урона, получает +15% брони и +15% скорости атаки\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Заклинання\nПоряд із Торіном Двалін отримує бонус\n+15% до пошкоджень, +15% броні й +15% швидкості атаки\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DwalinGloriousCharge",
+   "type": "Кнопка",
+   "en": "Baruk Khazâd! (&T)",
+   "ru": "Baruk Khazâd! (&T)",
+   "uk_ai": "Дворфійські сокири! (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwalinGloriousCharge",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Dwalin lets out a cry, causing enemy units to flee in terror \n Left click to activate",
+   "ru": "Требуется уровень 3\\nДвалин издает крик, заставляя вражеские войска разбегаться в ужасе\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nДвалін вигукує бойовий клич, чим лякає ворожі загони і вони тікають у жаху\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DwalinSmash",
+   "type": "Кнопка",
+   "en": "Furious Blow (&C)",
+   "ru": "Яростный удар (&C)",
+   "uk_ai": "Удар люті (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwalinSmash",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Dwalin slams the ground, knocking back enemy units and dealing heavy damage to structures in a small radius \n Left click icon then left click on target",
+   "ru": "Требуется уровень 5\\nДвалин ударяет по земле, отбрасывая врагов и нанося большой урон постройкам в небольшом радиусе\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 5\nДвалін б'є об землю, відкидаючи ворожі загони й завдаючи значних пошкоджень спорудам у невеликому радіусі\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DwalinJuggernaut",
+   "type": "Кнопка",
+   "en": "Dwarven Juggernaut (&V)",
+   "ru": "Гномья несокрушимость (&V)",
+   "uk_ai": "Незламний дворф (&V)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwalinJuggernaut",
+   "type": "Підказка",
+   "en": "Requires Level 8 \n Modifier Type: Buff \n Dwalin gains\n+200% armour, Resistance to knockback, and deals knockback damage for 30 seconds\n Left click to activate",
+   "ru": "Требуется уровень 8\\nТип модификатора: Усиление\\nДвалин получает +200% брони и сопротивление отбрасыванию, а также сам отбрасывает врагов атаками в течение 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 8\nТип ефекту: Посилення\nДвалін на 30 сек. отримує бонус\n+200% броні, стійкість до відкидання й відкидає ворогів своїми ударами\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:tooltipCommand_ToggleDwalinAxesUpg",
+   "type": "Підказка",
+   "en": "Toggle to Dual Axes (&W)",
+   "ru": "Переключение на парные топоры (&W)",
+   "uk_ai": "«Парні сокири» (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwalinAxesUpg",
+   "type": "Підказка",
+   "en": "Switch to Dual Axes\nDwalin gains +33% damage against infantry and +50% damage radius",
+   "ru": "Переключение на парные топоры\\nДвалин наносит +33% урона вражеским отрядам пехоты и получает +50% радиуса атаки",
+   "uk_ai": "Перемкнути на «Парні сокири»\nДвалін отримує бонус +33% до пошкоджень проти піхоти й +50% радіуса ураження",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DwalinSmashCampaign",
+   "type": "Кнопка",
+   "en": "Furious Blow (&T)",
+   "ru": "Яростный удар (&T)",
+   "uk_ai": "Удар люті (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwalinSmashCampaign",
+   "type": "Підказка",
+   "en": "Dwalin slams the ground, knocking back enemy units and dealing heavy damage to structures in a small radius \n Left click icon then left click on target",
+   "ru": "Двалин ударяет по земле, отбрасывая врагов и нанося большой урон постройкам в небольшом радиусе\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Двалін б'є об землю, відкидаючи ворожі загони й завдаючи значних пошкоджень спорудам у невеликому радіусі\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DwalinLeadership_Old",
+   "type": "Кнопка",
+   "en": "Son of Fundin",
+   "ru": "Сын Фундина",
+   "uk_ai": "Син Фундіна",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwalinLeadership_Old",
+   "type": "Підказка",
+   "en": "Modifier Type: Spell \n When near Balin, Dwalin gains\n+15% damage, +15% armour, and +15% attack speed \nPassive ability",
+   "ru": "Тип модификатора: Заклинание\\nДвалин рядом с Торином наносит\\n+15% урона, получает +15% брони и +15% скорости атаки\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Заклинання\nКоли Двалін знаходиться поряд з Баліном, то Двалін отримує бонус\n+15% до пошкоджень, +15% броні й +15% швидкості атаки\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:YoungDwalinLeadership",
+   "type": "Кнопка",
+   "en": "Brother-in-Arms",
+   "ru": "Братья по оружию",
+   "uk_ai": "Побратим",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipYoungDwalinLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Spell \n When near Thorin, Dwalin gains\n+15% damage, +15% armour, and +15% attack speed \nPassive ability",
+   "ru": "Тип модификатора: Заклинание\\nДвалин рядом с Торином наносит\\n+15% урона, получает +15% брони и +15% скорости атаки\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Заклинання\nПоряд із Торіном Двалін отримує бонус\n+15% до пошкоджень, +15% броні й +15% швидкості атаки\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:YoungDwalinGloriousCharge",
+   "type": "Кнопка",
+   "en": "Baruk Khazâd! (&T)",
+   "ru": "Baruk Khazâd! (&T)",
+   "uk_ai": "Дворфійські сокири! (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipYoungDwalinGloriousCharge",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Dwalin lets out a cry, causing enemy units to flee in terror \n Left click to activate",
+   "ru": "Требуется уровень 3\\nДвалин издает крик, заставляя вражеские отряды разбегаться в ужасе\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nДвалін вигукує бойовий клич, чим лякає ворожі загони і вони тікають у жаху\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

@@ -1,0 +1,153 @@
+{
+ "meta": {
+  "hero": "Arcah",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Dwarves"
+  ],
+  "alternate factions": [
+   "durins folk"
+  ],
+  "templates": [
+   "DwarvenArcah"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:EreborArcah",
+   "type": "Ім'я",
+   "en": "Arcah",
+   "ru": "Арках",
+   "uk_ai": "Арках",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PromoteArcahToLevel3",
+   "type": "Кнопка",
+   "en": "Lady of Ravens (&W)",
+   "ru": "Госпожа воронов (&W)",
+   "uk_ai": "Володарка Воронів (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPromoteArcahToLevel3",
+   "type": "Підказка",
+   "en": "Allows Arcah to grow in strength \n Left click to purchase upgrade \n\n Modifier Type: Leadership \n Rank 1: Allied units near Arcah gain +5% speed\n Rank 3: Allied heroes near Arcah gain +10% experience gain\n Rank 5: Allied units near Arcah gain +10% speed\n Passive ability",
+   "ru": "Позволяет Арках расти в силе\\nЩелкните левой кнопкой мыши, чтобы повысить уровень\\n\\nТип модификатора: Лидерство\\nУровень 1: Союзники рядом с Арках получают +5% скорости передвижения\\nУровень 3: Союзные герои рядом с Арках набирают опыт на +10% быстрее\\nУровень 5: Союзники рядом с Арках получают +10% скорости передвижения\\nПассивная способность",
+   "uk_ai": "Дає Арках змогу рости в силі\nКлікніть, щоб придбати покращення\n\nТип ефекту: Лідерство\n1 рівень: союзні загони поряд з Арках отримують бонус +5% швидкості\n3 рівень: союзні герої поряд з Арках на 10% швидше набирають досвід\n5 рівень: союзні загони поряд з Арках отримують бонус +10% швидкості\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RoacLeadership",
+   "type": "Кнопка",
+   "en": "Subtle Ways",
+   "ru": "Чутье и хитрость",
+   "uk_ai": "Потаємні стежки",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipArcahLeadership",
+   "type": "Підказка",
+   "en": "Arcah becomes invisible while remaining still\n Arcah detects stealthed units \nPassive ability",
+   "ru": "Арках становится невидимой, если не двигается\\nАрках обнаруживает скрытых врагов\\nПассивная способность",
+   "uk_ai": "Арках стає невидимою, якщо не рухається\nАрках бачить невидимих ворогів\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RoacLeadership2",
+   "type": "Кнопка",
+   "en": "Unkindness of Ravens",
+   "ru": "Недоброжелательность воронов",
+   "uk_ai": "Зграя воронів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipArcahLeadership2",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Modifier Type: Passive Debuff\n Enemies under Arcah lose -15% speed\n Passive ability",
+   "ru": "Требуется уровень 3\\nТип модификатора: Пассивное ослабление\\nВражеские отряды рядом с Арках теряют -15% скорости\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Пасивне ослаблення\nВороги поряд з Арках втрачають 15% швидкості\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RoacWisdom",
+   "type": "Кнопка",
+   "en": "Wisdom of Yore (&C)",
+   "ru": "Мудрость былых времен (&C)",
+   "uk_ai": "Давня мудрість (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRoacWisdom",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Targeted units gain moderate experience\nGrants additional experience at Level 5\n Left click icon then left click on target units",
+   "ru": "Требуется уровень 3\\nСоюзные отряды в радиусе действия получают умеренное количество опыта\\nНа уровне 5, количество получаемого опыта увеличивается\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 3\nМиттєво наділяє обрані загони невеликою кількістю досвіду\nНа 5 рівні кількість досвіду зростає\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RoacMessenger",
+   "type": "Кнопка",
+   "en": "Messenger of the King (&V)",
+   "ru": "Посланник короля (&V)",
+   "uk_ai": "Посланець короля (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipArcahMessenger",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Summons a battalion of Barding Outriders \n Left click icon then left click on pathable location",
+   "ru": "Требуется уровень 5\\nПризывается отряд всадников-бардингов\\nЩелкните левой кнопкой мыши на значок, затем на доступное местоположение",
+   "uk_ai": "Необхідно: Рівень 5\nПрикликає загін бардінґських вершників-розвідників\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PromoteArcahToLevel5",
+   "type": "Кнопка",
+   "en": "Lady of Ravens (&W)",
+   "ru": "Госпожа воронов (&W)",
+   "uk_ai": "Володарка Воронів (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPromoteArcahToLevel5",
+   "type": "Підказка",
+   "en": "Allows Arcah to grow in strength \n Left click to purchase upgrade\n\n Modifier Type: Leadership \n Rank 1: Allied units near Arcah gain +5% speed\n Rank 3: Allied heroes near Arcah gain +10% experience gain\n Rank 5: Allied units near Arcah gain +10% speed\n Passive ability",
+   "ru": "Позволяет Арках расти в силе\\nЩелкните левой кнопкой мыши, чтобы повысить уровень\\n\\nТип модификатора: Лидерство\\nУровень 1: Союзники рядом с Арках получают +5% скорости передвижения\\nУровень 3: Союзные герои рядом с Арках набирают опыт на +10% быстрее\\nУровень 5: Союзники рядом с Арках получают +10% скорости передвижения\\nПассивная способность",
+   "uk_ai": "Дає Арках змогу рости в силі\nКлікніть, щоб придбати покращення\n\nТип ефекту: Лідерство\n1 рівень: союзні загони поряд з Арках отримують бонус +5% швидкості\n3 рівень: союзні герої поряд з Арках на 10% швидше набирають досвід\n5 рівень: союзні загони поряд з Арках отримують бонус +10% швидкості\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ArcahLadyofRavens",
+   "type": "Кнопка",
+   "en": "Lady of Ravens",
+   "ru": "Госпожа воронов",
+   "uk_ai": "Володарка Воронів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipArcahLadyofRavens",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Rank 1: Allied units near Arcah gain +5% speed\n Rank 3: Allied heroes near Arcah gain +10% experience gain\n Rank 5: Allied units near Arcah gain +10% speed\nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nУровень 1: Союзники рядом с Арках получают +5% скорости передвижения\\nУровень 3: Союзные герои рядом с Арках набирают опыт на +10% быстрее\\nУровень 5: Союзники рядом с Арках получают +10% скорости передвижения\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\n1 рівень: союзні загони поряд з Арках отримують бонус +5% швидкості\n3 рівень: союзні герої поряд з Арках на 10% швидше набирають досвід\n5 рівень: союзні загони поряд з Арках отримують бонус +10% швидкості\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

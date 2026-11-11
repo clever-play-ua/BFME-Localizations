@@ -1,0 +1,1108 @@
+{
+ "meta": {
+  "faction": "Mordor",
+  "note": "AI drafts for rows that had no Ukrainian at all (lowest priority: any proofread text wins)."
+ },
+ "strings": [
+  {
+   "var": "OBJECT:MordorFortress",
+   "en": "Fortress",
+   "uk_ai": "Фортеця"
+  },
+  {
+   "var": "OBJECT:MordorFortressDescription",
+   "en": "Recruits Builders and Heroes \\n Can be upgraded with improvements and expansions",
+   "uk_ai": "Найм будівельників та вербування героїв\\nПридбання покращень та прибудова додаткових споруд"
+  },
+  {
+   "var": "CONTROLBAR:MordorFortressDeadliestServants",
+   "en": "His Deadliest Servants",
+   "uk_ai": "Його найгрізніші слуги"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMordorFortressDeadliestServants",
+   "en": "Requires the Morgul Spire upgrade\\nGrants +10% damage and +10% armour\\nto all Nazgûl on the battlefield\\nDoes not affect Fellbeasts\\nPassive ability",
+   "uk_ai": "Потребує покращення «Морґульський шпиль»\\nДає +10% до пошкоджень і +10% броні\\nусім назґулам на полі бою\\nНе діє на крилатих потвор\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:MordorFortressMorgulSpire",
+   "en": "Beacon of Morgul (&G)",
+   "uk_ai": "Маяк Морґулу (&G)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMordorFortressMorgulSpire",
+   "en": "Requires the Morgul Spire upgrade\\nAll orcs on the battlefield gain 15% speed and +50% damage and armour for 30 seconds\\nLeft click to activate",
+   "uk_ai": "Потребує покращення «Морґульський шпиль»\\nУсі орки на полі бою на 30 сек. отримують бонус +15% швидкості, +50% до пошкоджень і +50% броні\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:FireWeaponMordorFortressMagmaCauldrons",
+   "en": "Noxious Fumes (&T)",
+   "uk_ai": "Отруйні випари (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFireWeaponMordorFortressMagmaCauldrons",
+   "en": "Requires the Scorching Spires upgrade \\n The Fortress emits poisonous smoke\\nEnemies caught in the smoke suffer damage over time for 15 seconds\\n Left click to activate",
+   "uk_ai": "Потребує покращення «Пекучі шпилі»\\nФортеця випускає отруйний дим\\nВороги в диму 15 сек. поступово отримують пошкодження\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeMordorFortressDoomPyres",
+   "en": "Heraldry of the Dark Lord (&W)",
+   "uk_ai": "Стяги Темного Володаря (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressDoomPyres",
+   "en": "Modifier Type: Leadership \\n Allies near the Fortress gain +33% damage, +33% armour, and earn experience 50% faster\\n\\nReduces Hero cost by 10% \\n Reduces Hero recruit time by 10% \\n Reduces cost of builders by 20%",
+   "uk_ai": "Тип ефекту: Лідерство\\nСоюзники поблизу фортеці отримують бонус +33% до пошкоджень, +33% броні й на 50% швидше набирають досвід\\n\\nЗнижує вартість героїв на 10%\\nСкорочує час вербування героїв на 10%\\nЗнижує вартість будівельників на 20%"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeMordorFortressLavaMoat",
+   "en": "Flames of Sammath Naur (&E)",
+   "uk_ai": "Полум'я Саммат-Науру (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressLavaMoat",
+   "en": "Damages enemy units adjacent to the Fortress",
+   "uk_ai": "Завдає пошкоджень ворожим загонам біля фортеці"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeMordorFortressMagmaCauldrons",
+   "en": "Scorching Spires (&R)",
+   "uk_ai": "Пекучі шпилі (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressMagmaCauldrons",
+   "en": "Allows the Fortress to emit noxious fumes to poison enemy units",
+   "uk_ai": "Дає фортеці змогу випускати отруйні випари, що отруюють ворожі загони"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressMorgulSorcery",
+   "en": "Increases Fortress armour by 65% \\n Unlocks Gothmog and Legions of Morgul\\n Prerequisite to Morgul Spire",
+   "uk_ai": "Збільшує броню фортеці на 65%\\nВідкриває Ґотмоґа й Морґульські легіони\\nПотрібне для покращення «Морґульський шпиль»"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeMordorFortressMorgulSpire",
+   "en": "Morgul Spire (&D)",
+   "uk_ai": "Морґульський шпиль (&D)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeMordorFortressMorgulSpire",
+   "en": "Requires the Morgul Sorcery upgrade\\n Allows recruitment of Witch-king's Vanguard\\n\\n His Deadliest Servants:\\nPassively grants +10% damage and 10% armour\\nto all Nazgûl on the battlefield\\nDoes not affect Fellbeasts\\n\\nAllows the Fortress to use the Beacon of Morgul:\\nAll orcs on the battlefield gain 15% speed and +50% damage and armour for 30 seconds",
+   "uk_ai": "Потребує покращення «Морґульське чаклунство»\\nДозволяє вербувати Авангард Короля-чаклуна\\n\\nЙого найгрізніші слуги:\\nПостійно дає +10% до пошкоджень і +10% броні\\nусім назґулам на полі бою\\nНе діє на крилатих потвор\\n\\nДає фортеці змогу використовувати «Маяк Морґулу»:\\nУсі орки на полі бою на 30 сек. отримують бонус +15% швидкості, +50% до пошкоджень і +50% броні"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorFortress",
+   "en": "Build Fortress (&I)",
+   "uk_ai": "Фортеця (&I)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMordorFortress",
+   "en": "Recruits Builders and Heroes \\n Can be upgraded with various improvements and expansions \\n Increases command point limit by 100",
+   "uk_ai": "Найм будівельників та вербування героїв\\nПридбання покращень та прибудова додаткових споруд\\nЗбільшує ліміт очок командування на 100 од."
+  },
+  {
+   "var": "OBJECT:MordorWallCatapultExpansion",
+   "en": "Catapult Expansion",
+   "uk_ai": "Прибудова: катапульта"
+  },
+  {
+   "var": "CONTROLBAR:MordorCatapultUpgrade",
+   "en": "&Replace Catapult",
+   "uk_ai": "Відновити катапульту (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMordorCatapultUpgrade",
+   "en": "Rebuilds the catapult on the platform",
+   "uk_ai": "Відновлює катапульту на майданчику"
+  },
+  {
+   "var": "OBJECT:MordorBarricadeExpansion",
+   "en": "Barricade Expansion",
+   "uk_ai": "Прибудова: барикада"
+  },
+  {
+   "var": "OBJECT:MordorGateWatcherExpansion",
+   "en": "Gate Watchers Expansion",
+   "uk_ai": "Прибудова: Вартові брами"
+  },
+  {
+   "var": "OBJECT:MordorPorter",
+   "en": "Builder",
+   "uk_ai": "Будівельник"
+  },
+  {
+   "var": "OBJECT:HordeMordorMorgulOrc",
+   "en": "Legion of Morgul",
+   "uk_ai": "Морґульський легіон"
+  },
+  {
+   "var": "OBJECT:MordorMorgulOrc",
+   "en": "Legion of Morgul",
+   "uk_ai": "Морґульський легіонер"
+  },
+  {
+   "var": "CONTROLBAR:SorcerousSteel",
+   "en": "Sorcerous Steel",
+   "uk_ai": "Зачарована сталь"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSorcerousSteel",
+   "en": "Melee attacks decrease enemy armour by 15% for 5 seconds\\nDebuff does not stack with itself\\nPassive ability",
+   "uk_ai": "Удари в ближньому бою знижують броню ворога на 15% на 5 сек.\\nОслаблення не накопичується\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildMordorVangaurdHorde",
+   "en": "Requires the Morgul Spire upgrade\\n Hero Unit. Limited to 1 \\nStrong vs. Infantry and Heroes \\n \\n These soulless men have long served the Witch-king as his personal bodyguard and the vanguard of his legions.",
+   "uk_ai": "Потребує покращення «Морґульський шпиль»\\nГероїчний загін. Максимум 1 одночасно\\nЕфективні проти піхоти та героїв\\n\\nЦі бездушні люди здавна служать Королю-чаклуну особистою вартою й авангардом його легіонів."
+  },
+  {
+   "var": "OBJECT:HordeMordorVangaurd",
+   "en": "Witch-king's Vanguard",
+   "uk_ai": "Авангард Короля-чаклуна"
+  },
+  {
+   "var": "OBJECT:MordorVangaurd",
+   "en": "Witch-king's Vanguard",
+   "uk_ai": "Воїн авангарду Короля-чаклуна"
+  },
+  {
+   "var": "CONTROLBAR:VanguardWitchKingCommand",
+   "en": "Witch-king's Command (&T)",
+   "uk_ai": "Наказ Короля-чаклуна (&T)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipVanguardWitchKingCommand",
+   "en": "The Witch-king's Vanguard glide past enemies like the wind and become immune to knockback for 30 seconds\\nCan only use when mounted\\nLeft click to activate",
+   "uk_ai": "Авангард Короля-чаклуна на 30 сек. проноситься повз ворогів, наче вітер, і отримує імунітет до відкидання\\nЛише верхи\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:VanguardRanksOfIron",
+   "en": "Ranks of Iron (&C)",
+   "uk_ai": "Залізні лави (&C)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipVanguardRanksOfIron",
+   "en": "Requires Level 5\\nThe Witch-king's Vanguard gain +33% armour and deal knockback per attack at the cost of -50% movement speed for 30 seconds\\nLeft click to activate",
+   "uk_ai": "Необхідно: Рівень 5\\nАвангард Короля-чаклуна на 30 сек. отримує бонус +33% броні й відкидає ворогів своїми ударами, але отримує штраф -50% швидкості руху\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ConstructSlaughterHouse",
+   "en": "Build Slave Farm (&W)",
+   "uk_ai": "Рабська ферма (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSlaughterHouse",
+   "en": "Provides meat as a resource based on available terrain\\n Allows allied orcs to be decommissioned for additional experience\\n Reduced cost of Trolls and Great Beasts of Gorgoroth \\n Increases command point limit by 50",
+   "uk_ai": "Видобуває ресурси, що ближче стоять інші\\nресурсні споруди, то менше ресурсів видобувається.\\nДозволяє розпускати союзних орків заради додаткового досвіду\\nЗнижує вартість тролів і Великих звірів Ґорґорота\\nЗбільшує ліміт очок командування на 50 од."
+  },
+  {
+   "var": "OBJECT:MordorSlaughterHouse",
+   "en": "Slave Farm",
+   "uk_ai": "Рабська ферма"
+  },
+  {
+   "var": "CONTROLBAR:MordorSlaughterHouseDescription",
+   "en": "Provides food as a resource based on available terrain \\n Allows allied orcs to be decommissioned for additional experience\\n Food Bonus - Reduced cost of Trolls and Great Beasts of Gorgoroth \\n 2 Slave Farms: 5% \\n 3 Slave Farms: 10% \\n 4 Slave Farms: 15% \\n 5 Slave Farms: 20%",
+   "uk_ai": "Видобуває ресурси, що ближче стоять інші\\nресурсні споруди, то менше ресурсів видобувається.\\nДозволяє розпускати союзних орків заради додаткового досвіду\\nБонус їжі — знижує вартість тролів і Великих звірів Ґорґорота\\n2 Рабські ферми: 5%\\n3 Рабські ферми: 10%\\n4 Рабські ферми: 15%\\n5 Рабських ферм: 20%"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorLumberMill",
+   "en": "Build Lumber Mill (&D)",
+   "uk_ai": "Лісопильня (&D)"
+  },
+  {
+   "var": "OBJECT:MordorLumberMill",
+   "en": "Lumber Mill",
+   "uk_ai": "Лісопильня"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorArmory",
+   "en": "Build Gorgoroth Foundry (&R)",
+   "uk_ai": "Ливарня Ґорґорота (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMordorArmory",
+   "en": "Manufactures and trades armour as a resource based on available terrain\\nResearches weapon and armour upgrades\\n Reduced cost of upgrades \\n Increases command point limit by 50\\n\\nThough crude in appearance, the weapons and armour that came from the great forges of fell Gorgoroth were potent, and rightly feared amongst the Gondorian ranks.",
+   "uk_ai": "Видобуває ресурси, що ближче стоять інші\\nресурсні споруди, то менше ресурсів видобувається.\\nПокращення зброї та обладунків\\nЗнижує вартість покращень\\nЗбільшує ліміт очок командування на 50 од.\\n\\nХоч на вигляд і грубі, зброя й обладунки з великих кузень лихого Ґорґорота були грізні — і недарма їх боялися в лавах Ґондору."
+  },
+  {
+   "var": "OBJECT:MordorArmory",
+   "en": "Gorgoroth Foundry",
+   "uk_ai": "Ливарня Ґорґорота"
+  },
+  {
+   "var": "OBJECT:MordorArmoryDescription",
+   "en": "Generates resources based on available terrain\\n Surplus Bonus - Reduced cost of upgrades \\n 2 Foundries: 5% \\n 3 Foundries: 10% \\n 4 Foundries: 15% \\n 5+ Foundries: 20%",
+   "uk_ai": "Видобуває ресурси, що ближче стоять інші\\nресурсні споруди, то менше ресурсів видобувається.\\nБонус запасів — знижує вартість покращень\\n2 Ливарні: 5%\\n3 Ливарні: 10%\\n4 Ливарні: 15%\\n5 і більше: 20%"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyMordorBasicTraining",
+   "en": "Research Banners of the Red Eye (&W)",
+   "uk_ai": "Стяги Червоного Ока (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyMordorBasicTraining",
+   "en": "Allows hordes to purchase the Banners of the Red Eye upgrade \\n Increases a horde to Level 2",
+   "uk_ai": "Дає змогу кожному загону придбати покращення «Стяги Червоного Ока»\\nПідвищує рівень загону до 2"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyMordorFireArrows",
+   "en": "Research Fire Arrows (&R)",
+   "uk_ai": "Вогняні стріли (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyMordorFireArrows",
+   "en": "Allows hordes to purchase the Fire Arrows upgrade \\nWhen equipped, significantly increases the damage done by arrows \\n Will upgrade all patrols and tower archers instantly once upgrade is purchased",
+   "uk_ai": "Дає змогу кожному загону придбати покращення «Вогняні стріли»\\nПісля оснащення значно збільшує пошкодження стріл\\nПісля дослідження миттєво покращує стріли всіх патрулів і лучників у вежах"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyMordorForgedBlades",
+   "en": "Research Cruel Blades (&E)",
+   "uk_ai": "Нещадні клинки (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyMordorForgedBlades",
+   "en": "Allows hordes to purchase the Cruel Blades upgrade \\n When equipped, increases the damage done by melee weapons\\n Will upgrade all patrols instantly once upgrade is purchased",
+   "uk_ai": "Дає змогу кожному загону придбати покращення «Нещадні клинки»\\nПісля оснащення збільшує пошкодження в ближньому бою\\nПісля дослідження миттєво покращує зброю всіх патрулів навколо будівель"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyMordorHeavyArmor",
+   "en": "Research Jagged Steel Armour (&T)",
+   "uk_ai": "Броня із зазубреної сталі (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyMordorHeavyArmor",
+   "en": "Allows hordes to purchase the Jagged Steel Armour upgrade \\n When equipped, significantly reduces the amount of damage taken\\n Will upgrade all patrols instantly once upgrade is purchased",
+   "uk_ai": "Дає змогу кожному загону придбати покращення «Броня із зазубреної сталі»\\nПісля оснащення значно зменшує отримувані пошкодження\\nПісля дослідження миттєво покращує обладунки всіх патрулів навколо будівель"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorOrcPit",
+   "en": "Build Orcish Stronghold (&T)",
+   "uk_ai": "Ороча твердиня (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMordorOrcPit",
+   "en": "Trains Mordor Orc Units and Black Uruks\\n\\nThroughout the Ash Mountains and the barren plains of Mordor were located many orcish strongholds, from where the Dark Tower's captains controlled the surrounding lands, keeping invaders out and subduing the orcs living near.",
+   "uk_ai": "Тренує орків Мордору й чорних уруків\\n\\nПо всіх Попелястих горах і голих рівнинах Мордору стояли орочі твердині, звідки капітани Чорної Вежі правили довколишніми землями, не пускали чужинців і тримали в покорі орків, що жили поруч."
+  },
+  {
+   "var": "OBJECT:MordorOrcPit",
+   "en": "Orcish Stronghold",
+   "uk_ai": "Ороча твердиня"
+  },
+  {
+   "var": "OBJECT:MordorOrcPitDescription",
+   "en": "Level 2: +10% faster build speed\\n Level 3: +25% faster build speed",
+   "uk_ai": "Рівень 2: +10% до швидкості тренування\\nРівень 3: +25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeMordorOrcPitLevel2",
+   "en": "Upgrade Orcish Stronghold to Level 2 (&A)",
+   "uk_ai": "Покращити ороччу твердиню до 2-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeMordorOrcPitLevel2",
+   "en": "Allows training of Black Uruks\\n +10% faster build speed",
+   "uk_ai": "Дозволяє тренувати чорних уруків\\n+10% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeMordorOrcPitLevel3",
+   "en": "Upgrade Orcish Stronghold to Level 3 (&A)",
+   "uk_ai": "Покращити ороччу твердиню до 3-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeMordorOrcPitLevel3",
+   "en": "+25% faster build speed",
+   "uk_ai": "+25% до швидкості тренування"
+  },
+  {
+   "var": "OBJECT:HordeMordorOrcs",
+   "en": "Orc Warriors",
+   "uk_ai": "Орки-воїни"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorPikeHorde",
+   "en": "Orc Pikemen (&E)",
+   "uk_ai": "Орки-пікінери (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildMordorPikeHorde",
+   "en": "Strong vs. Cavalry and Heroes \\n\\n Horde Bonus \\n Modifier Type: Spell \\n Orc Warriors, Orc Pikemen and Orc Archers gain +25% damage and armour when gathered in numbers of 90 or more\\n \\n Ever since Sauron's return to Mordor, his orcs have multiplied and organized into great legions in service to Barad-dûr.",
+   "uk_ai": "Ефективні проти кавалерії та героїв\\n\\nЧисельна перевага\\nТип ефекту: Заклинання\\nОрки-воїни, орки-пікінери й орки-лучники отримують бонус +25% до пошкоджень і +25% броні, якщо зібрані в кількості 90 і більше\\n\\nВідколи Саурон повернувся до Мордору, його орки розплодилися й зібралися у великі легіони на службі Барад-дура."
+  },
+  {
+   "var": "OBJECT:HordeMordorPikemen",
+   "en": "Orc Pikemen",
+   "uk_ai": "Орки-пікінери"
+  },
+  {
+   "var": "OBJECT:MordorPike",
+   "en": "Orc Pikeman",
+   "uk_ai": "Орк-пікінер"
+  },
+  {
+   "var": "OBJECT:HordeMordorArchers",
+   "en": "Orc Archers",
+   "uk_ai": "Орки-лучники"
+  },
+  {
+   "var": "OBJECT:MordorArcher",
+   "en": "Orc Archer",
+   "uk_ai": "Орк-лучник"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorBlackOrcHorde",
+   "en": "Black Uruk Marauders (&T)",
+   "uk_ai": "Чорні уруки-мародери (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildMordorBlackOrcHorde",
+   "en": "Requires Level 2 Orcish Stronghold \\n Strong vs. Pikemen and Structures\\n\\n The Black Uruks of Barad-dûr are the elite of Sauron's orc armies, first bred to devastate Ithilien.",
+   "uk_ai": "Необхідно: Ороча твердиня 2 рівня\\nЕфективні проти пікінерів і споруд\\n\\nЧорні уруки Барад-дура — еліта орочих армій Саурона, яку вивели, щоб спустошити Ітілієн."
+  },
+  {
+   "var": "OBJECT:HordeMordorBlackOrcs",
+   "en": "Black Uruk Marauders",
+   "uk_ai": "Чорні уруки-мародери"
+  },
+  {
+   "var": "OBJECT:MordorBlackOrc",
+   "en": "Black Uruk Marauder",
+   "uk_ai": "Чорний урук-мародер"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBlackOrcBloodthirsty",
+   "en": "Requires Level 4\\n The Mark of the Red Eye grants\\n+25% damage\\nPassive ability",
+   "uk_ai": "Необхідно: Рівень 4\\nЗнак Червоного Ока дає\\nбонус +25% до пошкоджень\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:BlackUrukBrawl",
+   "en": "Brawl (&R)",
+   "uk_ai": "Бійка (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBlackUrukBrawl",
+   "en": "Requires Shagrat\\nOrder this unit to kill friendly Orcs\\nor Legions of Morgul to gain combat experience \\nLeft click icon then left click on target",
+   "uk_ai": "Потрібен Шаґрат\\nНакажіть загону вбивати союзних орків\\nабо Морґульські легіони, щоб набратися бойового досвіду\\nКлікніть на іконку, потім оберіть ціль"
+  },
+  {
+   "var": "CONTROLBAR:BlackUrukDespoiler",
+   "en": "Despoiler (&T)",
+   "uk_ai": "Грабіжник (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBlackUrukDespoiler",
+   "en": "Requires Level 3\\nBlack Uruk Marauders gain +25% damage against structures\\nand leech resources when attacking structures for 20 seconds\\nLeft click to activate",
+   "uk_ai": "Необхідно: Рівень 3\\nЧорні уруки-мародери на 20 сек. отримують бонус +25% до пошкоджень спорудам\\nі висмоктують ресурси, атакуючи споруди\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorHaradrimPalace",
+   "en": "Build Easterling Garrison (&C)",
+   "uk_ai": "Гарнізон істерлінґів (&C)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMordorHaradrimPalace",
+   "en": "Trains Variag and Easterling units\\n\\nThe fearsome legions from the East were numerous, both pouring into Rhovanion to the north and into Mordor, where they set up great war camps, awaiting the Dark Lord's signal for war.",
+   "uk_ai": "Тренує загони варіаґів та істерлінґів\\n\\nГрізні легіони зі Сходу були численні: вони рушали і на північ, у Рованіон, і до Мордору, де ставали великими воєнними таборами й чекали знаку Темного Володаря до війни."
+  },
+  {
+   "var": "OBJECT:MordorHaradrimPalace",
+   "en": "Easterling Garrison",
+   "uk_ai": "Гарнізон істерлінґів"
+  },
+  {
+   "var": "OBJECT:MordorHaradrimPalaceDescription",
+   "en": "Level 2: +10% faster build speed\\n Level 3: +25% faster build speed",
+   "uk_ai": "Рівень 2: +10% до швидкості тренування\\nРівень 3: +25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyMordorBarbedArrows",
+   "en": "Research Barbed Arrows (&T)",
+   "uk_ai": "Зазубрені стріли (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyMordorBarbedArrows",
+   "en": "Allows hordes to purchase the Barbed Arrows upgrade \\n When equipped, increases the damage done by arrows, adds slash damage",
+   "uk_ai": "Дає змогу кожному загону придбати покращення «Зазубрені стріли»\\nПісля оснащення збільшує пошкодження стріл і додає рубальні пошкодження"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeMordorHaradrimPalaceLevel2",
+   "en": "Upgrade Easterling Garrison to Level 2 (&A)",
+   "uk_ai": "Покращити гарнізон істерлінґів до 2-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeMordorHaradrimPalaceLevel2",
+   "en": "Allows training of Great Khân's Archers\\n +10% faster build speed",
+   "uk_ai": "Дозволяє тренувати Лучників Великого Хана\\n+10% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeMordorHaradrimPalaceLevel3",
+   "en": "Upgrade Easterling Garrison to Level 3 (&A)",
+   "uk_ai": "Покращити гарнізон істерлінґів до 3-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeMordorHaradrimPalaceLevel3",
+   "en": "Unlocks research of Barbed Arrows and recruitment of Khân-bórainax and Khân-kâtaphranax\\n +25% faster build speed \\n Adds defensive arrow tower",
+   "uk_ai": "Відкриває дослідження «Зазубрених стріл» і тренування Хан-борайнакс і Хан-катафранакс\\n+25% до швидкості тренування\\nДодає захисну вежу"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorVariagHorde",
+   "en": "Variags of Khand (&W)",
+   "uk_ai": "Варіаґи Кханду (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildMordorVariagHorde",
+   "en": "Strong vs. Pikemen and Archers \\n \\n The Variags of Khand were a formidable race of warriors, born from a long history of conflict with the lands of Gondor.",
+   "uk_ai": "Ефективні проти пікінерів і лучників\\n\\nВаріаґи Кханду були грізним народом воїнів, загартованим довгою історією війн із землями Ґондору."
+  },
+  {
+   "var": "OBJECT:HordeMordorVariag",
+   "en": "Variags of Khand",
+   "uk_ai": "Варіаґи Кханду"
+  },
+  {
+   "var": "OBJECT:MordorVariag",
+   "en": "Variag of Khand",
+   "uk_ai": "Варіаґ Кханду"
+  },
+  {
+   "var": "CONTROLBAR:FuryofKhand",
+   "en": "Plainsrunners (&W)",
+   "uk_ai": "Степові бігуни (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFuryofKhand",
+   "en": "Variags gain 33% speed at the cost of 10% armour for 20 seconds\\n Left click to activate",
+   "uk_ai": "Варіаґи на 20 сек. отримують бонус +33% швидкості, але штраф -10% броні\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:VariagArcherAbility",
+   "en": "Shield Cover",
+   "uk_ai": "Щитовий заслін"
+  },
+  {
+   "var": "CONTROLBAR:ToolVariagArcherAbility",
+   "en": "Variags gain 15% armour against ranged attacks as long as there are more than 10 units in battalion \\n Passive ability",
+   "uk_ai": "Варіаґи отримують бонус +15% броні від атак на відстані, поки в загоні більше 10 воїнів\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorEasterlingHorde",
+   "en": "Khân-pâlainax (&E)",
+   "uk_ai": "Хан-палайнакс (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildMordorEasterlingHorde",
+   "en": "Great Khân's Phalanx\\n Strong vs. Cavalry and Heroes \\n Able to switch formation for improved defensive capabilities\\n \\n The Khân-pâlainax made up the brunt of the expedition forces sent to Mordor. They advanced upon their enemies in fearsome formation, shields locked and pikes forward.",
+   "uk_ai": "Фаланга Великого Хана\\nЕфективні проти кавалерії та героїв\\nЗдатні змінювати стрій для підвищення оборони\\n\\nХан-палайнакс становили основу військ, посланих до Мордору. Вони йшли на ворога грізним строєм — щит до щита, піки вперед."
+  },
+  {
+   "var": "OBJECT:HordeMordorEasterlings",
+   "en": "Khân-pâlainax",
+   "uk_ai": "Хан-палайнакс"
+  },
+  {
+   "var": "OBJECT:MordorEasterling",
+   "en": "Khân-pâlanax",
+   "uk_ai": "Хан-паланакс"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorEasterlingArcherHorde",
+   "en": "Khân-yûn-âkhax (&R)",
+   "uk_ai": "Хан-юн-ахакс (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildMordorEasterlingArcherHorde",
+   "en": "Great Khân's Archers\\nRequires Level 2 Easterling Garrison \\n Strong vs. Infantry \\n \\n Khân-yûn-âkhax were highly trained marksmen that carried heavy warbows and quivers full of twisted barbed arrows, raining death upon the enemy even as the phalanx advanced.",
+   "uk_ai": "Лучники Великого Хана\\nНеобхідно: Гарнізон істерлінґів 2 рівня\\nЕфективні проти піхоти\\n\\nХан-юн-ахакс були вишколеними стрільцями з важкими бойовими луками й сагайдаками, повними кручених зазубрених стріл: вони сіяли смерть серед ворогів, поки фаланга йшла вперед."
+  },
+  {
+   "var": "OBJECT:HordeMordorEasterlingArcher",
+   "en": "Khân-yûn-âkhax",
+   "uk_ai": "Хан-юн-ахакс"
+  },
+  {
+   "var": "OBJECT:MordorEasterlingArcher",
+   "en": "Khân-yû-âkhax",
+   "uk_ai": "Хан-ю-ахакс"
+  },
+  {
+   "var": "CONTROLBAR:BarbedArrowUpgrade",
+   "en": "Barbed Arrows (&C)",
+   "uk_ai": "Зазубрені стріли (&C)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeMordorBarbedArrows",
+   "en": "Upgrades this horde with Barbed Arrows \\n increases the damage done by arrows, adds slash damage",
+   "uk_ai": "Оснащує цей загін зазубреними стрілами\\nзбільшує пошкодження стріл і додає рубальні пошкодження"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorEasterlingKataphractHorde",
+   "en": "Khân-kâtaphranax (&S)",
+   "uk_ai": "Хан-катафранакс (&S)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildMordorEasterlingKataphractHorde",
+   "en": "Golden Cataphracts\\nRequires Level 3 Easterling Garrison\\nElite Cavalry \\nStrong vs. Archers \\n \\n The Khân-kâtaphranax were made up of nobles high and lesser. These heavily-armoured steeds charging forth, shaking the earth, thundering across the plain, was a force few armies could withstand.",
+   "uk_ai": "Золоті катафрактарії\\nНеобхідно: Гарнізон істерлінґів 3 рівня\\nЕлітна кавалерія\\nЕфективні проти лучників\\n\\nХан-катафранакс складалися з вельмож вищих і нижчих. Ці важко закуті коні, що мчали вперед, трусили землю й гриміли рівниною, були силою, перед якою встояло мало армій."
+  },
+  {
+   "var": "OBJECT:HordeMordorEasterlingKataphract",
+   "en": "Khân-kâtaphranax",
+   "uk_ai": "Хан-катафранакс"
+  },
+  {
+   "var": "OBJECT:MordorEasterlingKataphract",
+   "en": "Khân-kâtaphrax",
+   "uk_ai": "Хан-катафракс"
+  },
+  {
+   "var": "CONTROLBAR:ConstructEasterlingAxemenHorde",
+   "en": "Khân-bórainax (&D)",
+   "uk_ai": "Хан-борайнакс (&D)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildEasterlingAxemenHorde",
+   "en": "Golden Axemen\\nRequires Level 3 Easterling Garrison and He Is Gathering All Evil To Him upgrade\\nStrong vs. Pikemen\\nLimited to 3\\n\\n The Khân-bórainax traditionally remained at the back of the Rhûnic legions, only entering the fray as reserves to relieve a tired front line of phalanx and smash the remaining enemy.",
+   "uk_ai": "Золоті сокирники\\nНеобхідно: Гарнізон істерлінґів 3 рівня й покращення «Він збирає до себе все зло»\\nЕфективні проти пікінерів\\nМаксимум 3 одночасно\\n\\nХан-борайнакс зазвичай стояли в тилу рунських легіонів і вступали в бій лише як резерв: змінити втомлену передову фалангу й розтрощити рештки ворога."
+  },
+  {
+   "var": "OBJECT:HordeEasterlingAxemen",
+   "en": "Khân-bórainax",
+   "uk_ai": "Хан-борайнакс"
+  },
+  {
+   "var": "OBJECT:EasterlingAxeman",
+   "en": "Khân-bórax",
+   "uk_ai": "Хан-боракс"
+  },
+  {
+   "var": "CONTROLBAR:EasterlingSplash",
+   "en": "Indomitable (&W)",
+   "uk_ai": "Нездоланні (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEasterlingSplash",
+   "en": "Golden Axemen gain +50% damage and immunity to knockback and trample for 20 seconds\\nLeft click to activate",
+   "uk_ai": "Золоті сокирники на 20 сек. отримують бонус +50% до пошкоджень та імунітет до відкидання й топтання\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSerratedArmorAxemen",
+   "en": "Requires Level 3\\nGolden Axemen gain +20% armour and reflect received melee damage back to attacking units\\nPassive ability",
+   "uk_ai": "Необхідно: Рівень 3\\nЗолоті сокирники отримують бонус +20% броні й повертають отримані пошкодження ближнього бою нападникам\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:NoQuarter",
+   "en": "No Quarter (&T)",
+   "uk_ai": "Без пощади (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipNoQuarter",
+   "en": "Requires Level 4\\nModifier Type: Spell\\nNearby Easterling and Variag units gain +50% armour and resistance to fear and terror for 30 seconds\\nLeft click to activate",
+   "uk_ai": "Необхідно: Рівень 4\\nТип ефекту: Заклинання\\nІстерлінґи й варіаґи поблизу на 30 сек. отримують бонус +50% броні та стійкість до страху й жаху\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorTrollCage",
+   "en": "Build Troll Cage (&V)",
+   "uk_ai": "Клітка тролів (&V)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMordorTrollCage",
+   "en": "Trains Mountain, Drummer, and Attack Trolls",
+   "uk_ai": "Тренує гірських тролів, тролів-барабанщиків і олоґ-хаїв"
+  },
+  {
+   "var": "OBJECT:MordorTrollCage",
+   "en": "Troll Cage",
+   "uk_ai": "Клітка тролів"
+  },
+  {
+   "var": "OBJECT:MordorTrollCageDescription",
+   "en": "Level 2: +10% faster build speed\\n Level 3: +25% faster build speed",
+   "uk_ai": "Рівень 2: +10% до швидкості тренування\\nРівень 3: +25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeMordorTrollCageLevel2",
+   "en": "Upgrade Troll Cage to Level 2 (&A)",
+   "uk_ai": "Покращити клітку тролів до 2-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeMordorTrollCageLevel2",
+   "en": "Allows training of the Drummer Troll \\n +10% faster build speed",
+   "uk_ai": "Дозволяє тренувати тролів-барабанщиків\\n+10% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeMordorTrollCageLevel3",
+   "en": "Upgrade Troll Cage to Level 3 (&A)",
+   "uk_ai": "Покращити клітку тролів до 3-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeMordorTrollCageLevel3",
+   "en": "Allows training of the Attack Troll \\n +25% faster build speed",
+   "uk_ai": "Дозволяє тренувати олоґ-хаїв\\n+25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorMountainTroll",
+   "en": "Mountain Troll (&W)",
+   "uk_ai": "Гірський троль (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildMordorMountainTroll",
+   "en": "Strong vs. Swordsmen and Structures \\n \\n Sauron's Olog-hai are fierce and cunning, able to withstand sunlight while under the sway of the Dark Lord's will.",
+   "uk_ai": "Ефективний проти мечників і споруд\\n\\nОлоґ-хаї Саурона люті й хитрі; поки над ними панує воля Темного Володаря, вони витримують сонячне світло."
+  },
+  {
+   "var": "OBJECT:MordorMountainTroll",
+   "en": "Mountain Troll",
+   "uk_ai": "Гірський троль"
+  },
+  {
+   "var": "CONTROLBAR:TrollFindTastyOrc",
+   "en": "Find an Orc to Eat (&T)",
+   "uk_ai": "З'їсти орка (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTrollFindTastyOrc",
+   "en": "Find an Orc to eat\\nMountain Troll heals over time for 10 seconds after eating an Orc",
+   "uk_ai": "Знайти й з'їсти орка\\nЗ'ївши орка, гірський троль 10 сек. поступово відновлює здоров'я"
+  },
+  {
+   "var": "CONTROLBAR:GrabPassenger",
+   "en": "Grab &Weapon",
+   "uk_ai": "Підняти зброю (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityGrabPassenger",
+   "en": "Pick up a tree or rock to use as weapon",
+   "uk_ai": "Підняти дерево чи камінь і бити ним, як зброєю"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorDrummerTrolls",
+   "en": "Drummer Troll (&E)",
+   "uk_ai": "Троль-барабанщик (&E)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipConstructMordorDrummerTrolls",
+   "en": "Requires Level 2 Troll Cage \\n Provides Leadership to nearby allies \\n \\n Trolls bearing leather-skinned drums are a great way to boost orcish morale - and keep them marching in line.",
+   "uk_ai": "Необхідно: Клітка тролів 2 рівня\\nПосилює союзників поблизу лідерством\\n\\nТролі з обтягнутими шкірою барабанами — чудовий спосіб підняти бойовий дух орків і змусити їх триматися строю."
+  },
+  {
+   "var": "OBJECT:MordorDrummerTroll",
+   "en": "Drummer Troll",
+   "uk_ai": "Троль-барабанщик"
+  },
+  {
+   "var": "CONTROLBAR:DrumsofWar",
+   "en": "Drums of War",
+   "uk_ai": "Барабани війни"
+  },
+  {
+   "var": "CONTROLBAR:DescriptionConstructMordorDrummerTrolls",
+   "en": "Modifier Type: Leadership \\n Allies near the Drummer Troll gain +33% damage, +33% armour, and earn experience 50% faster \\n Passive ability",
+   "uk_ai": "Тип ефекту: Лідерство\\nСоюзники поряд із тролем-барабанщиком отримують бонус +33% до пошкоджень, +33% броні й на 50% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:Roar",
+   "en": "Roar (&R)",
+   "uk_ai": "Рев (&R)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipRoar",
+   "en": "Causes enemy units to flee in terror \\n Left click to activate",
+   "uk_ai": "Вороги розбігаються від жаху\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorAttackTroll",
+   "en": "Olog-hai (&R)",
+   "uk_ai": "Олоґ-хай (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildMordorAttackTroll",
+   "en": "Requires Level 3 Troll Cage \\n Strong vs. Swordsmen, Cavalry, and Structures \\n \\n The cruelest, most intelligent of the Olog-hai were clad in jagged black armour and sent to the front line to serve as some of Sauron's most feared warriors.",
+   "uk_ai": "Необхідно: Клітка тролів 3 рівня\\nЕфективний проти мечників, кавалерії та споруд\\n\\nНайжорстокіших і найкмітливіших олоґ-хаїв закували в зазубрені чорні обладунки й послали на передову — вони були серед найгрізніших воїнів Саурона."
+  },
+  {
+   "var": "OBJECT:MordorAttackTroll",
+   "en": "Olog-hai",
+   "uk_ai": "Олоґ-хай"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorSiegeWorks",
+   "en": "Build Great Siege Works (&N)",
+   "uk_ai": "Велика облогова майстерня (&N)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipordorSiegeWorks",
+   "en": "Builds siege weapons \\n At rank 2, repairs nearby siege engines\\nAt rank 3, heals nearby Great Beasts",
+   "uk_ai": "Будує облогову зброю\\nНа 2 рівні лагодить облогові машини поблизу\\nНа 3 рівні зцілює Великих звірів поблизу"
+  },
+  {
+   "var": "OBJECT:MordorSiegeWorks",
+   "en": "Great Siege Works",
+   "uk_ai": "Велика облогова майстерня"
+  },
+  {
+   "var": "OBJECT:MordorGreatSiegeWorksDescription",
+   "en": "Level 2: +10% faster build speed\\n Level 3: +25% faster build speed",
+   "uk_ai": "Рівень 2: +10% до швидкості тренування\\nРівень 3: +25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeMordorSiegeWorksLevel2",
+   "en": "Upgrade Siege Works to Level 2 (&A)",
+   "uk_ai": "Покращити майстерню до 2-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeMordorSiegeWorksLevel2",
+   "en": "Allows construction of the Catapults and Great Beasts of Gorgoroth \\nHeals nearby damaged siege machines \\n +10% faster build speed",
+   "uk_ai": "Дозволяє будувати катапульти й Великих звірів Ґорґорота\\nЛагодить пошкоджені облогові машини поблизу\\n+10% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeMordorSiegeWorksLevel3",
+   "en": "Upgrade Siege Works to Level 3 (&A)",
+   "uk_ai": "Покращити майстерню до 3-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeMordorSiegeWorksLevel3",
+   "en": "Allows recruitment of Grond\\nHeals nearby Great Beasts and provides increased healing to nearby damaged siege machines \\n+25% faster build speed",
+   "uk_ai": "Дозволяє вербувати Ґронда\\nЗцілює Великих звірів поблизу й швидше лагодить пошкоджені облогові машини поблизу\\n+25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorBatteringRam",
+   "en": "Battering Ram (&W)",
+   "uk_ai": "Таран (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildMordorBatteringRam",
+   "en": "Breaks down castle gates and enemy structures \\n \\n Once its gate falls, few strongholds can withstand the swarms of Mordor.",
+   "uk_ai": "Нищить брами й ворожі споруди\\n\\nКоли падає брама, мало яка твердиня встоїть перед ордами Мордору."
+  },
+  {
+   "var": "OBJECT:MordorBatteringRam",
+   "en": "Battering Ram",
+   "uk_ai": "Таран"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorCatapult",
+   "en": "Catapult (&E)",
+   "uk_ai": "Катапульта (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildMordorCatapult",
+   "en": "Requires Level 2 Great Siege Works \\n Strong vs. Structures \\n\\n These vile contraptions rain down death and terror upon the Dark Lord's enemies.",
+   "uk_ai": "Необхідно: Велика облогова майстерня 2 рівня\\nЕфективна проти споруд\\n\\nЦі мерзенні машини засипають ворогів Темного Володаря смертю й жахом."
+  },
+  {
+   "var": "OBJECT:MordorCatapult",
+   "en": "Catapult",
+   "uk_ai": "Катапульта"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityHumanHeads",
+   "en": "Launch Skulls (&T)",
+   "uk_ai": "Метнути черепи (&T)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSpecialAbilityHumanHeads",
+   "en": "Requires Release the Prisoners!\\nLaunches skulls as ammunition \\n Causes terror to enemy units nearby the impact \\n Left click icon then left click on target",
+   "uk_ai": "Потребує покращення «Звільнити в'язнів!»\\nМетає черепи замість каміння\\nНаганяє жах на ворожі загони біля місця влучання\\nКлікніть на іконку, потім оберіть ціль"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeMordorHumanHeads",
+   "en": "Release the Prisoners! (&C)",
+   "uk_ai": "Звільнити в'язнів! (&C)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeMordorHumanHeads",
+   "en": "Allows Catapult to cast Launch Skulls ability\\nLaunches skulls as ammunition \\n Causes terror to enemy units nearby the impact",
+   "uk_ai": "Дає катапульті здібність «Метнути черепи»\\nМетає черепи замість каміння\\nНаганяє жах на ворожі загони біля місця влучання"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorGreatBeast",
+   "en": "Great Beast of Gorgoroth (&R)",
+   "uk_ai": "Великий звір Ґорґорота (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildMordorGreatBeast",
+   "en": "Requires Level 2 Great Siege Works \\n Strong vs. Structures and Cavalry \\n\\n These lumbering creatures are native to the great ash-covered plains of Gorgoroth, feeding on the thick roots that grow in the dry soil of that barren land. The orcs were quick to realize their potential as beasts of burden and war, and have long bred them in captivity, fielding them in Sauron's war against the lands of Gondor.",
+   "uk_ai": "Необхідно: Велика облогова майстерня 2 рівня\\nЕфективний проти споруд і кавалерії\\n\\nЦі незграбні створіння живуть на великих укритих попелом рівнинах Ґорґорота й живляться товстим корінням, що росте в сухій землі цього безплідного краю. Орки швидко збагнули, що з них вийдуть в'ючні й бойові звірі, і здавна розводять їх у неволі, виводячи на війну Саурона проти Ґондору."
+  },
+  {
+   "var": "OBJECT:GreatBeast",
+   "en": "Great Beast",
+   "uk_ai": "Великий звір"
+  },
+  {
+   "var": "CONTROLBAR:GreatBeastChargeAttack",
+   "en": "Stampede (&W)",
+   "uk_ai": "Тупіт (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityGreatBeastChargeAttack",
+   "en": "Order Great Beast to trample the enemy \\n Left click icon then left click on target",
+   "uk_ai": "Наказати Великому звірові розтоптати ворога\\nКлікніть на іконку, потім оберіть ціль"
+  },
+  {
+   "var": "CONTROLBAR:GreatBeastHouda",
+   "en": "Hop On, Boys! (&R)",
+   "uk_ai": "Залазьте, хлопці! (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeGreatBeastHouda",
+   "en": "Upgrade this Great Beast with a carriage with orcish archers \\n Orc Archers benefit from the fire arrow upgrade",
+   "uk_ai": "Ставить на Великого звіра башту з орками-лучниками\\nОркам-лучникам діє покращення «Вогняні стріли»"
+  },
+  {
+   "var": "CONTROLBAR:GreatBeastGrog",
+   "en": "Give 'Em Some Grog! (&T)",
+   "uk_ai": "Наливайте їм ґроґу! (&T)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipPurchaseUpgradeGreatBeastGrog",
+   "en": "Upgrade this Great Beast with the ability to toss a highly volatile barrel of grog",
+   "uk_ai": "Дає Великому звірові здібність кидати вкрай вибухову бочку ґроґу"
+  },
+  {
+   "var": "CONTROLBAR:GreatBeastFear",
+   "en": "Beast of War (&C)",
+   "uk_ai": "Звір війни (&C)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipPurchaseUpgradeGreatBeastFear",
+   "en": "Upgrade this Great Beast with the ability to cause enemy units to cower in fear",
+   "uk_ai": "Дає Великому звірові здібність, що змушує ворожі загони тремтіти від страху"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSpecialAbilityGreatBeastGrog",
+   "en": "Allows the orcs to toss a barrel of highly volatile grog \\n that explode on the battlefield \\n Left click icon then left click on target area",
+   "uk_ai": "Орки кидають бочку вкрай вибухового ґроґу,\\nщо вибухає на полі бою\\nКлікніть на іконку, потім оберіть ділянку"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSpecialAbilityGreatBeastFear",
+   "en": "Causes enemy units to flee in terror\\n Left click on icon",
+   "uk_ai": "Вороги розбігаються від жаху\\nКлікніть на іконку"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorGrond",
+   "en": "Grond (&T)",
+   "uk_ai": "Ґронд (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildMordorGrond",
+   "en": "Requires Level 3 Siege Works and Gothmog\\n Extremely Strong vs. Structures \\n Can't cross bridges \\n \\n This giant battering ram was named after the Hammer of the Underworld - Morgoth's weapon of choice. No gate can hope to stand against it.",
+   "uk_ai": "Необхідно: Облогова майстерня 3 рівня й Ґотмоґ\\nНадзвичайно ефективний проти споруд\\nНе може переходити мости\\n\\nЦей велетенський таран назвали на честь Молота Підземного світу — улюбленої зброї Морґота. Жодна брама перед ним не встоїть."
+  },
+  {
+   "var": "OBJECT:MordorGrond",
+   "en": "Grond",
+   "uk_ai": "Ґронд"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMordorBattleTower",
+   "en": "Build Tower of Mordor (&Y)",
+   "uk_ai": "Вежа Мордору (&Y)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMordorBattleTower",
+   "en": "Defensive tower that fires arrows at nearby enemies\\n\\nWhen Sauron returned to Mordor, he ordered the construction of massive, terrible towers, meant to keep a watchful eye upon the bordering lands of Gondor.",
+   "uk_ai": "Оборонна вежа, що стріляє стрілами по ворогах, які наближаються\\n\\nПовернувшись до Мордору, Саурон звелів звести величезні жахливі вежі, щоб пильно стежити за прикордонними землями Ґондору."
+  },
+  {
+   "var": "OBJECT:MordorBattleTower",
+   "en": "Tower of Mordor",
+   "uk_ai": "Вежа Мордору"
+  },
+  {
+   "var": "CONTROLBAR:BTBaradDur",
+   "en": "Banner of Barad-dûr (&E)",
+   "uk_ai": "Стяг Барад-дура (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTBaradDur",
+   "en": "Modifier Type: Spell \\n Allies near the Tower gain +10% damage\\nLeft click to purchase",
+   "uk_ai": "Тип ефекту: Заклинання\\nСоюзники біля вежі отримують бонус +10% до пошкоджень\\nКлікніть, щоб придбати"
+  },
+  {
+   "var": "CONTROLBAR:BTCirithUngol",
+   "en": "Banner of Cirith Ungol (&R)",
+   "uk_ai": "Стяг Кіріт-Унґолу (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTCirithUngol",
+   "en": "Modifier Type: Spell \\n Increases Tower's vision range by 50%\\nLeft click to purchase",
+   "uk_ai": "Тип ефекту: Заклинання\\nЗбільшує дальність огляду вежі на 50%\\nКлікніть, щоб придбати"
+  },
+  {
+   "var": "CONTROLBAR:BTMinasMorgul",
+   "en": "Banner of Minas Morgul (&T)",
+   "uk_ai": "Стяг Мінас-Морґулу (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTMinasMorgul",
+   "en": "Enemy units nearby the Tower take minor damage over time\\nLeft click to purchase",
+   "uk_ai": "Ворожі загони біля вежі поступово отримують незначні пошкодження\\nКлікніть, щоб придбати"
+  },
+  {
+   "var": "CONTROLBAR:BTRhun",
+   "en": "Banner of Rhûn (&S)",
+   "uk_ai": "Стяг Руну (&S)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTRhun",
+   "en": "Orc Archers manning the Tower are replaced by Great Khân's Archers\\nLeft click to purchase",
+   "uk_ai": "Орків-лучників на вежі замінюють Лучники Великого Хана\\nКлікніть, щоб придбати"
+  },
+  {
+   "var": "CONTROLBAR:BTBaradDurUpgraded",
+   "en": "Banner of Barad-dûr",
+   "uk_ai": "Стяг Барад-дура"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTBaradDurUpgraded",
+   "en": "Modifier Type: Spell \\n Allies near the Tower gain +10% damage\\nPassive ability",
+   "uk_ai": "Тип ефекту: Заклинання\\nСоюзники біля вежі отримують бонус +10% до пошкоджень\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:BTCirithUngolUpgraded",
+   "en": "Banner of Cirith Ungol",
+   "uk_ai": "Стяг Кіріт-Унґолу"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTCirithUngolUpgraded",
+   "en": "Modifier Type: Spell \\n Increases Tower's vision range by 50%\\nPassive ability",
+   "uk_ai": "Тип ефекту: Заклинання\\nЗбільшує дальність огляду вежі на 50%\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:BTMinasMorgulUpgraded",
+   "en": "Banner of Minas Morgul",
+   "uk_ai": "Стяг Мінас-Морґулу"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTMinasMorgulUpgraded",
+   "en": "Enemy units nearby the Tower take minor damage over time\\nPassive ability",
+   "uk_ai": "Ворожі загони біля вежі поступово отримують незначні пошкодження\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:BTRhunUpgraded",
+   "en": "Banner of Rhûn",
+   "uk_ai": "Стяг Руну"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTRhunUpgraded",
+   "en": "Orc Archers manning the Tower are replaced by Great Khân's Archers\\nPassive ability",
+   "uk_ai": "Орків-лучників на вежі замінюють Лучники Великого Хана\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "OBJECT:MordorBase",
+   "en": "Barad-dur",
+   "uk_ai": "Барад-дур"
+  },
+  {
+   "var": "CONTROLBAR:TestBaseUpgrade",
+   "en": "Base upgrade.",
+   "uk_ai": "Покращення бази."
+  },
+  {
+   "var": "CONTROLBAR:TooltipTestBaseUpgrade",
+   "en": "Test base upgrade.",
+   "uk_ai": "Тестове покращення бази."
+  },
+  {
+   "var": "CONTROLBAR:MordorGothmogRecruit",
+   "en": "Requires the Morgul Sorcery upgrade \\nUnlocks Grond\\n Recruit the Lieutenant of Minas Morgul. \\n \\n 'The Age of Men is over. The Time of the Orc has come.'",
+   "uk_ai": "Потребує покращення «Морґульське чаклунство»\\nВідкриває Ґронда\\nЗавербувати лейтенанта Мінас-Морґулу.\\n\\n«Епоха людей минула. Настав час орків»."
+  },
+  {
+   "var": "CONTROLBAR:MordorGothmogRevive",
+   "en": "Revive the fallen Hero, Gothmog",
+   "uk_ai": "Відродити полеглого в бою Ґотмоґа"
+  },
+  {
+   "var": "CONTROLBAR:MordorMouthofSauronRecruit",
+   "en": "Recruit the Messenger of Sauron. \\n \\n 'Surety you crave! Sauron gives none. If you sue for his clemency then you must do his bidding.'",
+   "uk_ai": "Завербувати Вісника Саурона.\\n\\n«Гарантій прагнете! Саурон їх не дає. Якщо благаєте його про милість, мусите виконувати його волю»."
+  },
+  {
+   "var": "CONTROLBAR:MordorMouthOfSauronRevive",
+   "en": "Revive the fallen Hero, Mouth of Sauron",
+   "uk_ai": "Відродити полеглого в бою Вісника Саурона"
+  },
+  {
+   "var": "CONTROLBAR:AkhorahilRecruit",
+   "en": "Recruit a Nazgûl, one of Sauron's deadliest servants \\n \\n 'They were once men; great kings of men. Then Sauron the Deceiver gave to them nine Rings of Power.'",
+   "uk_ai": "Завербувати назґула, одного з найгрізніших слуг Саурона\\n\\n«Колись вони були людьми, великими королями людей. А тоді Саурон Ошуканець дав їм дев'ять Перснів Влади»."
+  },
+  {
+   "var": "CONTROLBAR:AkhorahilRevive",
+   "en": "Revive the fallen Nazgûl",
+   "uk_ai": "Відродити полеглого назґула"
+  },
+  {
+   "var": "CONTROLBAR:MordorKhamulRecruit",
+   "en": "Recruit Khamûl, the Shadow of the East \\n \\n 'They are the Nazgûl, Ringwraiths, neither living nor dead.'",
+   "uk_ai": "Завербувати Хамула, Тінь Сходу\\n\\n«Це назґули, примари Персня, ні живі, ні мертві»."
+  },
+  {
+   "var": "CONTROLBAR:MordorKhamulRevive",
+   "en": "Revive the fallen hero, Khamûl the Easterling",
+   "uk_ai": "Відродити полеглого в бою Хамула Істерлінґа"
+  },
+  {
+   "var": "CONTROLBAR:DreadVisageKhamul",
+   "en": "Black Breath",
+   "uk_ai": "Чорний подих"
+  },
+  {
+   "var": "CONTROLBAR:UvathaRecruit",
+   "en": "Recruit a Nazgûl, one of Sauron's deadliest servants \\n \\n 'Blinded by their greed, they took them without question, one by one falling into darkness.'",
+   "uk_ai": "Завербувати назґула, одного з найгрізніших слуг Саурона\\n\\n«Засліплені жадобою, вони взяли їх без жодних питань і один за одним упали в темряву»."
+  },
+  {
+   "var": "CONTROLBAR:UvathaRevive",
+   "en": "Revive the fallen Nazgûl",
+   "uk_ai": "Відродити полеглого назґула"
+  },
+  {
+   "var": "CONTROLBAR:MordorMollokRecruit",
+   "en": "Recruit Mollok, Lord of the Olog-hai \\n \\n Once Sauron learned of Aragorn's challenge, he instructed Mollok to personally slay the King of Gondor.",
+   "uk_ai": "Завербувати Моллока, володаря олоґ-хаїв\\n\\nДовідавшись про виклик Араґорна, Саурон наказав Моллокові власноруч убити короля Ґондору."
+  },
+  {
+   "var": "CONTROLBAR:MordorMollokRevive",
+   "en": "Revive the fallen Hero, Mollok",
+   "uk_ai": "Відродити полеглого в бою Моллока"
+  },
+  {
+   "var": "OBJECT:MordorWitchKingOnFellBeast",
+   "en": "The Witch-king of Angmar",
+   "uk_ai": "Король-чаклун Анґмару"
+  },
+  {
+   "var": "CONTROLBAR:MordorWitchKingOnFellBeastRecruit",
+   "en": "Recruit the First of the Nine \\n \\n 'Send forth all legions. Do not stop the attack until the city is taken. Slay them all.'",
+   "uk_ai": "Завербувати Першого з Дев'яти\\n\\n«Кидайте в бій усі легіони. Не припиняйте наступу, доки місто не впаде. Убийте всіх»."
+  },
+  {
+   "var": "CONTROLBAR:MordorWitchKingOnFellBeastRevive",
+   "en": "Revive the fallen Hero, the Witch-king of Angmar",
+   "uk_ai": "Відродити полеглого в бою Короля-чаклуна Анґмару"
+  },
+  {
+   "var": "CONTROLBAR:MordorFellBeastRecruit",
+   "en": "Recruit a Fellbeast",
+   "uk_ai": "Завербувати крилату потвору"
+  },
+  {
+   "var": "CONTROLBAR:MordorFellBeastRevive",
+   "en": "Revive the fallen Fellbeast",
+   "uk_ai": "Відродити полеглу крилату потвору"
+  },
+  {
+   "var": "CONTROLBAR:TooltipChiefoftheNineFellbeast",
+   "en": "As more Nazgûl gather, their strength grows \\n +10% damage and +10% armour per every Nazgûl nearby \\n Passive ability\\n\\n Modifier Type: Passive Debuff \\n Nearby enemy units suffer -25% damage and -25% armour\\nNullifies enemy leaderships\\nPassive ability \\n\\n Left click then left click on pathable location",
+   "uk_ai": "Що більше назґулів збирається разом, то більша їхня сила\\n+10% до пошкоджень і +10% броні за кожного назґула поблизу\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nТип ефекту: Пасивне ослаблення\\nВорожі загони поблизу отримують штраф -25% пошкоджень і -25% броні\\nСкасовує вороже лідерство\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nКлікніть на іконку, потім оберіть ділянку"
+  },
+  {
+   "var": "CONTROLBAR:BlackDart",
+   "en": "Black Dart (&T)",
+   "uk_ai": "Чорна стріла (&T)"
+  }
+ ]
+}

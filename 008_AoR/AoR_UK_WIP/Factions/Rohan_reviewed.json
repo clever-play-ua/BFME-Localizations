@@ -1,0 +1,2720 @@
+{
+ "meta": {
+  "faction": "Rohan",
+  "note": "Community proofread lines (highest priority in the build and on the site)."
+ },
+ "strings": [
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeRohanFortressFlamingMunitions",
+   "en": "Adds fire damage to all attached towers",
+   "uk": "Вежі навколо фортеці отримують вогняні стріли",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeHornofHammerhand",
+   "en": "Allows the Fortress to use the Horns of Hammerhand ability\nAllows recruitment of Helmingas Warriors at the Barracks\nCauses nearby enemy troops to be stunned in fear",
+   "uk": "Розблоковує використання здібності «Ріг Гельма Молоторукого»\nДозволяє тренувати Гельмінґських воїнів у казармах\nПриголомшує страхом ворожі війська поблизу",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeRohanFortressFortifications",
+   "en": "Hasty Fortifications (&S)",
+   "uk": "Швидка фортифікація (&S)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeRohanFortressMeadHall",
+   "en": "Reduces Hero revival cost by 20% \\n Reduces Hero revival time by 20% \\n Heals nearby allies and replenishes fallen units",
+   "uk": "Знижує вартість та час відродження героїв на 20%\nЗцілює союзників поблизу й поновлює полеглих у загонах",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:GondorPorter",
+   "en": "Builder",
+   "uk": "Будівельник",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanMangonelExpansion",
+   "en": "Onager Expansion (&R)",
+   "uk": "Онагр (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructRohanMangonelExpansion",
+   "en": "Long range defensive weapon",
+   "uk": "Оборонна облогова машина, що метає камені",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipOnagerUpgrade",
+   "en": "Rebuilds the onager on the platform",
+   "uk": "Відновлює онагр на майданчику",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenArrowTowerExpansion",
+   "en": "Arrow Tower Expansion (&E)",
+   "uk": "Вежа лучників (&E)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMenArrowTowerExpansion",
+   "en": "Short range defensive tower \\n Benefits from the Flaming Munitions upgrade",
+   "uk": "Захисна вежа малого радіуса\n Посилюється покращенням «Вогняні боєприпаси»",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipHornofHammerhand",
+   "en": "Requires the Horns of Hammerhand upgrade \\n Causes nearby enemy troops to be stunned in fear for 15 seconds\\n Left click to activate",
+   "uk": "Спочатку треба придбати покращення «Ріг Гельма Молоторукого»\nВорожі війська поблизу на 15 сек. приголомшені страхом\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRohanFortressRideofRohirrim",
+   "en": "Requires Ride of the Rohirrim upgrade\nSummons two fully-upgraded Rohirrim battalions\nLeft click icon then left click on target area",
+   "uk": "Спочатку треба придбати покращення «Рогірими до бою!»\nПрикликає 2 повністю покращені загони рогіримів\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanFortressRideofRohirrim",
+   "en": "Ride of the Rohirrim (&S)",
+   "uk": "Рогірими до бою! (&S)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanMerryRecruit",
+   "en": "Recruit the Squire of Rohan. \\n \\n 'I just want to help my friends. Frodo, Sam, Pippin. More than anything, I wish I could see them again.'",
+   "uk": "Завербувати зброєносця Рогану.\n\n«Я просто хочу допомогти своїм друзям. Фродо, Сему, Піпіну.\nПонад усе на світі я мрію знову їх побачити».",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanMerryRevive",
+   "en": "Revive the fallen Hero, Merry",
+   "uk": "Відродити полеглого в бою Меррі",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipBladeofWesternesse",
+   "en": "Requires Level 3 \\n Passively deals +200% damage against Nazgûl",
+   "uk": "Необхідно: Рівень 3\n +200% до пошкоджень назґулам\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMerryLeadership",
+   "en": "Requires Level 5 \\n Modifier Type: Leadership \\n Merry gains +15% armour and +15% damage when near Éowyn \\n Nearby heroes gain experience +15% faster \\n Merry's health is increased \\n Passive ability",
+   "uk": "Необхідно: Рівень 5\nТип ефекту: Лідерство\nМеррі отримує бонус +15% броні й +15% до пошкоджень поряд з Еовін\nГерої поблизу на 15% швидше набирають досвід\nЗдоров'я Меррі збільшується\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanEowynRevive",
+   "en": "Revive the fallen Hero, Éowyn",
+   "uk": "Відродити полеглу в бою Еовін",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEowynLeadership",
+   "en": "Modifier Type: Leadership \\n Peasants near Éowyn gain +33% armour, and earn experience 33% faster \\nPassive ability",
+   "uk": "Тип ефекту: Лідерство\nСеляни поряд з Еовін отримують бонус\n+33% броні й на 33% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:EowynReadiness",
+   "en": "Readiness (&R)",
+   "uk": "Напоготові (&R)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEowynReadiness",
+   "en": "Requires Level 3 \\n Summons a permanent battalion of drafted Peasants\\nRespects command point limit\\nLeft click to activate",
+   "uk": "Необхідно: Рівень 3\nПрикликає постійний загін озброєних селян\nВраховує ліміт очок командування\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleEowynDernhelm",
+   "en": "Requires Level 5 \\n Éowyn dons Dernhelm's armour \\n Toggle between White Lady and Dernhelm",
+   "uk": "Необхідно: Рівень 5\nЕовін вдягає обладунки Дернгельма\nМожна перемикатися між Білою леді й Дернгельмом",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToggleEowynLady",
+   "en": "White Lady (&W)",
+   "uk": "Біла леді (&W)",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleEowynLady",
+   "en": "Requires Level 5 \\n Éowyn dons her gown \\n Toggle between White Lady and Dernhelm",
+   "uk": "Необхідно: Рівень 5\nЕовін вдягає сукню\nМожна перемикатися між Білою леді й Дернгельмом",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipNewEowynMount",
+   "en": "Requires Level 5 \\n Left click to switch between mounted on Windfola and on foot \\n When mounted on Windfola, Eowyn gains +25% armour near Rohirrim units",
+   "uk": "Необхідно: Рівень 5\nКлікніть, щоб перемкнутися між їздою на Віндфолі й пішим ходом\nВерхи на Віндфолі Еовін отримує бонус +25% броні поряд із загонами рогіримів",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSmite",
+   "en": "Requires Level 5\\n Strong ranged attack against a single target\\n Deals 200% extra damage to the Witch-king of Angmar\\n Reduces targeted enemy's speed by -25% for 15 seconds \\n Left click icon then left click on target",
+   "uk": "Необхідно: Рівень 5\nПотужна атака на відстані по одній цілі\nНа 15 сек. знижує швидкість ураженого ворога на 25%\nНа 200% більше пошкоджень Королю-чаклуну Анґмару\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEowynCourage",
+   "en": "Requires Level 6 \\n Modifier Type: Spell \\n Éowyn gains +33% damage and armour while nearby allies gain resistance to fear and terror for 30 seconds \\n Left click to activate",
+   "uk": "Необхідно: Рівень 6\nТип ефекту: Заклинання\nЕовін на 30 сек. отримує бонус +33% до пошкоджень та броні,\nа союзники поблизу — стійкість до страху та жаху\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:RohanWell",
+   "en": "Edoras Well",
+   "uk": "Криниця Едорасу",
+   "by": "FoLD",
+   "date": "2026-11-10",
+   "file": "AoR_UA_FoLD_2026-11-10-18-16.json"
+  },
+  {
+   "var": "OBJECT:RohanCastleCatapultExpansion",
+   "en": "Onager Expansion",
+   "uk": "Онагр",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "Object:ArrowTowerExpansion",
+   "en": "Arrow Tower Expansion",
+   "uk": "Вежа лучників",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeRohanFortressRideofRohirrim",
+   "en": "Ride of the Rohirrim (&F)",
+   "uk": "Рогірими до бою! (&F)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:MenFortressDescription",
+   "en": "Recruits Heroes and Builders\nCan be upgraded with improvements and expansions",
+   "uk": "Найм будівельників та вербування героїв\nПридбання покращень та прибудова додаткових споруд",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "Object:MenFortress",
+   "en": "Fortress",
+   "uk": "Фортеця",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:Command_ConstructMenWallHubExpansion",
+   "en": "Wall Hub Expansion (&W)",
+   "uk": "Стінна вежа (&W)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:DwarvenCastleWallHubExpansion",
+   "en": "Wall Hub Expansion",
+   "uk": "Стінна вежа",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommand_ConstructMenWallHubExpansion",
+   "en": "Allows the construction of walls",
+   "uk": "Дозволяє будувати стіни",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:OnagerUpgrade",
+   "en": "Replace Onager (&W)",
+   "uk": "Відновити онагр (&W)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:HornofHammerhand",
+   "en": "Horns of Hammerhand (&T)",
+   "uk": "Ріг Гельма Молоторукого (&T)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeRohanFortressBanners",
+   "en": "Modifier Type: Leadership\nAllies near the Fortress gain +33% damage, +33% armour, and earn experience 50% faster\n\nReduces Hero cost by 10%\nReduces Hero recruit time by 10%\nReduces the cost of builders by 20%",
+   "uk": "Тип ефекту: Лідерство\nСоюзники поблизу фортеці отримують бонус +33% до пошкоджень та броні й на 50% швидше набирають досвід\n\nЗнижує вартість героїв на 10%\nСкорочує час вербування героїв на 10%\nЗнижує вартість будівельників на 20%",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDesperateGarrison",
+   "en": "Desperate Garrison (&E)",
+   "uk": "Відчайдушний гарнізон (&E)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDesperateGarrison",
+   "en": "Stations Spear-throwers in the Fortress",
+   "uk": "Розміщує у фортеці метальників списів",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeRohanFortressFlamingMunitions",
+   "en": "Flaming Munitions (&R)",
+   "uk": "Вогняні боєприпаси (&R)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeRohanFortressFortifications",
+   "en": "Increases Fortress armour by 65%\nDamages units adjacent to fortress",
+   "uk": "Збільшує броню фортеці на 65%\nЗавдає пошкоджень загонам біля фортеці",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeRohanFortressMeadHall",
+   "en": "Mead Hall (&D)",
+   "uk": "Медова зала (&D)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeRohanFortressRideofRohirrim",
+   "en": "Temporarily summons two fully-upgraded Rohirrim battalions",
+   "uk": "Тимчасово прикликає 2 повністю покращені загони рогіримів",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "TOOLTIP:LackRohanFortressMeadHall",
+   "en": "Requires the Mead Hall upgrade\nAllows the summoning of two fully-upgraded Rohirrim battalions",
+   "uk": "Необхідно: покращення «Медова зала»\nДозволяє тимчасово прикликати 2 повністю покращених загони рогіримів",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeRohanFortressBanners",
+   "en": "Royal Banners (&W)",
+   "uk": "Королівські стяги (&W)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructRohanFarm",
+   "en": "Provides field as a resource based on available terrain\nReduced cost of cavalry\nGrants nearby Peasants +15% damage and armour\nIncreases command point limit by 50",
+   "uk": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\n\nЗнижує вартість кавалерії\n\nСеляни поблизу отримують бонус +15% до пошкоджень та броні\nЗбільшує ліміт очок командування на 50 од.",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanEowyn",
+   "en": "Éowyn",
+   "uk": "Еовін",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanEowynRecruit",
+   "en": "Recruit the Shieldmaiden of Rohan.\n\n'But no living man am I! You are looking upon a woman. Éowyn am I, Éomund's daughter. You stand between me and my lord and kin. Begone, if you be not deathless! For living or dark undead, I will smite you, if you touch him.'",
+   "uk": "Завербувати воїтельку Рогану.\n\n«Але я не смертний муж! Перед тобою — жінка. Я — Еовін, донька Еомунда. Ти стоїш між мною, моїм володарем та моїм родом. Забирайся геть, якщо ти не безсмертний! Бо будь ти живим чи темним нежиттю, я вражу тебе, якщо ти торкнешся його!»",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:EowynLeadership",
+   "en": "Lady of Rohan",
+   "uk": "Леді Рогану",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToggleEowynDernhelm",
+   "en": "Dernhelm (&T)",
+   "uk": "Дернгельм (&T)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:EowynIthilienGarden",
+   "en": "Lady of Ithilien (&C)",
+   "uk": "Леді Ітілієну (&C)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEowynIthilienGarden",
+   "en": "Requires Level 8\nSummons a garden for 5 minutes that heals nearby units and detects stealth\nLeft click on icon then left click on target position",
+   "uk": "Необхідно: Рівень 8\nНа 5 хв. створює сад, що зцілює загони поблизу й виявляє невидимих\nКлікніть на іконку, потім оберіть місце",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:EowynNewMount",
+   "en": "Mount Windfola / Dismount (&R)",
+   "uk": "Осідлати Віндфолу / Спішитися (&R)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:Smite",
+   "en": "Begone, Foul Dwimmerlaik (&T)",
+   "uk": "Геть, нечиста потворо (&T)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:EowynCourage",
+   "en": "Courage for our Friends (&C)",
+   "uk": "Відвага за друзів (&C)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanMerry",
+   "en": "Merry",
+   "uk": "Меррі",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:BladeofWesternesse",
+   "en": "Blade of Westernesse",
+   "uk": "Клинок Вестернесу",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:MerryLeadership",
+   "en": "Esquire of Rohan",
+   "uk": "Зброєносець Рогану",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:MerryBlade",
+   "en": "Halfling Courage (&V)",
+   "uk": "Відвага напіврослика (&V)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMerryBlade",
+   "en": "Requires Level 7\nMerry plunges his Blade of Westernesse into an enemy hero,\ndealing strong damage and decreasing armour by -25% for 10 seconds\nCan only use when sword is equipped\nLeft click icon then left click on target",
+   "uk": "Необхідно: Рівень 7\nМеррі встромляє клинок Вестернесу у ворожого героя,\nзавдаючи сильних пошкоджень і знижуючи його броню на 25% на 10 сек.\nМожна використати, лише коли в руках меч\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanElfhelmRecruit",
+   "en": "Recruit the marshal of Riddermark.\n\nA gifted swordsman and archer, Elfhelm's skill at arms earned him his name at an early age: Elf-helm; protected by the magic of the Elves, as the Rohirrim might have believed.",
+   "uk": "Завербувати маршала Ріддермарку.\n\nОбдарований мечник і лучник, Ельфгельм ще замолоду здобув своє ім'я завдяки вправності у бою: Ельф-гельм — «хранимий ельфами». Мабуть, рогірими вірили, що його береже ельфійська магія.",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanElfhelm",
+   "en": "Elfhelm",
+   "uk": "Ельфгельм",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanElfhelmRevive",
+   "en": "Revive the fallen Hero, Elfhelm",
+   "uk": "Відродити полеглого в бою Ельфгельма",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToggleElfhelmWeapons",
+   "en": "Toggle Weapon (&W)",
+   "uk": "Змінити зброю (&W)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleElfhelmWeapons",
+   "en": "Left click to toggle between sword and bow",
+   "uk": "Клікніть, щоб перемкнутися між мечем і луком",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ElfhelmQuickRescue",
+   "en": "Quick Rescue (&T)",
+   "uk": "Швидкий порятунок (&T)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElfhelmQuickRescue",
+   "en": "Requires Level 3\nModifier Type: Spell\nNearby infantry and cavalry gain +15% armour and +15% speed for 30 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 3\nТип ефекту: Заклинання\nПіхота й вершники поблизу на 30 сек. отримують бонус +15% броні й +15% швидкості\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ElfhelmPromotion",
+   "en": "Promotion (&C)",
+   "uk": "Підвищення (&C)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElfhelmPromotion",
+   "en": "Requires Level 5\nSelect a target battalion to upgrade it, permanently granting it +25% damage\nLeft click on icon then left click on target battalion",
+   "uk": "Необхідно: Рівень 5\nОберіть загін, щоб покращити його: він назавжди отримує бонус +25% до пошкоджень\nКлікніть на іконку, потім оберіть загін",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElfhelmLeadership",
+   "en": "Requires Level 7\nModifier Type: Leadership\nHalifirien Wardens, Yeoman Archers and Rohirrim Archers near Elfhelm gain +15% attack range and +33% damage\nRiders of Snowbourn near Elfhelm gain +33% armour\nPassive ability",
+   "uk": "Необхідно: Рівень 7\nТип ефекту: Лідерство\nВартові Галіфіріену, йомени-лучники та лучники Рогану поряд з Ельфгельмом отримують бонус +15% дальності атаки й +33% до пошкоджень\nВершники Сноуборну поряд з Ельфгельмом отримують бонус +33% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ElfhelmLeadership",
+   "en": "Marshall of the East-mark",
+   "uk": "Маршал Східної Марки",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanErkenbrand",
+   "en": "Erkenbrand",
+   "uk": "Еркенбранд",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanErkenbrandRecruit",
+   "en": "Recruit the Lord of the Westfold\n\nAmid them strode a man tall and strong. His shield was red. As he came to the valley's brink, he set to his lips a great black horn and blew a ringing blast. 'Erkenbrand!' the Riders shouted. 'Erkenbrand!'",
+   "uk": "Завербувати воєначальника Вестфолду\n\n«Посеред них крокував чоловік високий та міцний. Його щит був червоним. Підійшовши до краю долини, він приклав до губ великий чорний ріг і просурмив дзвінкий заклик. \"Еркенбранд!\" — закричали Вершники. \"Еркенбранд!\"»",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanErkenbrandRevive",
+   "en": "Revive the fallen Hero, Erkenbrand",
+   "uk": "Відродити полеглого в бою Еркенбранда",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ErkenbrandHorn",
+   "en": "Gilded Horn (&W)",
+   "uk": "Позолочений ріг (&W)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipErkenbrandHorn",
+   "en": "Nearby infantry gain resistance to knockback and trample and immunity to fear and terror for 30 seconds\nLeft click to activate",
+   "uk": "Піхота поблизу на 30 сек. отримує стійкість до відкидання\n й топтання та імунітет до страху та жаху\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ErkenbrandShieldCrush",
+   "en": "Valour of Hammerhand (&R)",
+   "uk": "Доблесть Молоторукого (&R)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipErkenbrandShieldCrush",
+   "en": "Requires Level 3\nErkenbrand performs a powerful attack that knocks back enemy units\nLeft click icon then left click on target",
+   "uk": "Необхідно: Рівень 3\nЕркенбранд завдає потужного удару, що відкидає ворожі загони\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ErkenbrandLeadership",
+   "en": "Marshall of the West-mark",
+   "uk": "Маршал Західної Марки",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipErkenbrandLeadership",
+   "en": "Requires Level 5\nModifier Type: Leadership\nWestfolders near Erkenbrand gain +33% armour\nPassive ability",
+   "uk": "Необхідно: Рівень 5\nТип ефекту: Лідерство\nВоїни Вестфолду поряд з Еркенбрандом отримують бонус +33% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ErkenbrandReinforcements",
+   "en": "Reinforcements (&C)",
+   "uk": "Підкріплення (&C)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipErkenbrandReinforcements",
+   "en": "Requires Level 7\nSummons two battalions of heavily-armoured Westfolders\nLeft click to activate",
+   "uk": "Необхідно: Рівень 7\nПрикликає 2 загони важкоозброєних воїнів Вестфолду\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanTheodred",
+   "en": "Théodred",
+   "uk": "Теодред",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanTheodredRecruit",
+   "en": "Recruit the Prince of Riddermark.\n\n'Bealocwealm hafað fréone frecan forth onsended\ngiedd sculon singan gléomenn sorgiende\non Meduselde thæt he ma no wære\nhis dryhtne dyrest and maga deorost.'",
+   "uk": "Завербувати принца Ріддермарку.\n\n«Люта смерть забрала шляхетного воїна,\nсумну пісню співатимуть скорботні співці\nв Медусельді, бо його більше немає —\nтого, хто був найдорожчим для свого володаря та найлюбішим серед рідні».",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanTheodredRevive",
+   "en": "Revive the fallen Hero, Théodred",
+   "uk": "Відродити полеглого в бою Теодреда",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TheodredIllFated",
+   "en": "Ill-Fated",
+   "uk": "Приречений",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTheodredIllFated",
+   "en": "When Théodred dies, Grimbold temporarily appears to guard the fallen prince\nPassive ability",
+   "uk": "Коли Теодред гине, Ґрімбольд тимчасово з'являється, щоб охороняти полеглого принца\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TheodredNewMount",
+   "en": "Mount Brego / Dismount (&R)",
+   "uk": "Осідлати Бреґо / Спішитися (&R)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TheodredNewMountTooltip",
+   "en": "Left click to switch between\nmounted on Brego and on foot",
+   "uk": "Клікніть, щоб перемкнутися між\nверхи на Бреґо й пішки",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTheodredLuck",
+   "en": "Requires Level 3\nThéodred equips his helmet, gaining +33% armour\nPassive ability\nWhen activated, Théodred avoids all ranged damage for 30 seconds\n\nRequires Level 7\nWhen activated, the above effect is coupled with temporary invulnerability\nLeft click to activate",
+   "uk": "Необхідно: Рівень 3\nТеодред вдягає шолом і отримує бонус +33% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації Теодред на 30 сек. уникає всіх пошкоджень від атак на відстані\n\nНеобхідно: Рівень 7\nПісля активації до цього ефекту додається тимчасова невразливість\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TheodredLuck",
+   "en": "Luck of Battle (&T)",
+   "uk": "Бойове щастя (&T)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TheodredPrinceRiddermark",
+   "en": "Prince of the Riddermark",
+   "uk": "Принц Ріддермарку",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTheodredPrinceRiddermark",
+   "en": "Requires Level 5\nThéodred equips his royal cloak\nModifier Type: Leadership\nGrants +20% to armour and +10% to attack damage and health regeneration\nfor Théoden, Éomer, and Éowyn\nNearby units gain +33% damage\nPassive ability",
+   "uk": "Необхідно: Рівень 5\nТеодред вдягає королівський плащ\nТип ефекту: Лідерство\nДає +20% броні та +10% до пошкоджень від атак і відновлення здоров'я\nТеодену, Еомеру й Еовін\nЗагони поблизу отримують бонус +33% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TheodredDetermination",
+   "en": "Determination (&V)",
+   "uk": "Рішучість (&V)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipTheodredDetermination",
+   "en": "Requires Level 9\nThéodred regains 50% of his maximum health and gains +20% movement speed for 30 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 9\nТеодред відновлює 50% максимального здоров'я й на 30 сек. отримує бонус +20% швидкості руху\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanEomer",
+   "en": "Éomer",
+   "uk": "Еомер",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanEomerRecruit",
+   "en": "Recruit the Third Marshal of the Riddermark.\n\n'Now is the hour! Riders of Rohan! Oaths you have taken, now fulfill them all, to lord and land!'",
+   "uk": "Завербувати третього маршала Ріддермарку.\n\n«Ось і пробила година! Вершники Рогану! Ви складали присяги — тепер виконайте їх усі, перед володарем і перед своєю землею!»",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanEomerRevive",
+   "en": "Revive the fallen Hero, Éomer",
+   "uk": "Відродити полеглого в бою Еомера",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEomerLeadership",
+   "en": "Modifier Type: Leadership\nAllied cavalry near Éomer gain +33% damage and -25% trample deceleration\n\nRequires Level 3\nÉomer and nearby units earn resources per kill\n\nPassive ability",
+   "uk": "Тип ефекту: Лідерство\nСоюзні вершники поряд з Еомером отримують бонус +33% до пошкоджень і на 25% менше сповільнюється під час топтання\n\nНеобхідно: Рівень 3\nЕомер і загони поблизу отримують ресурси за кожне вбивство\n\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:HorseLordLeadership",
+   "en": "Horse Lord",
+   "uk": "Повелитель коней",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:EomerNewMount",
+   "en": "Mount Firefoot / Dismount (&R)",
+   "uk": "Осідлати Вогнекопита / Спішитися (&R)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:EomerNewMountTooltip",
+   "en": "Left click to switch between\nmounted on Firefoot and on foot",
+   "uk": "Клікніть, щоб перемкнутися між\nверхи на Вогнекопиті й пішки",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ThrowSpear",
+   "en": "Spear Throw (&T)",
+   "uk": "Кинути спис (&T)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:EomerBlademaster",
+   "en": "Thirst of Gúthwinë (&C)",
+   "uk": "Спрага Ґутвіна (&C)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipEomerBlademaster",
+   "en": "Requires Level 5\nÉomer gains +100% damage and deals splash damage for 30 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 5\nЕомер на 30 сек. отримує бонус +100% до пошкоджень і завдає пошкоджень по площі\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:EomerStandGround",
+   "en": "Stand Your Ground (&V)",
+   "uk": "Тримати стрій (&V)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEomerStandGround",
+   "en": "Required: Rank 8\nModifier Type: Spell\nCreates a ring which gives +33% armour, +33% damage and resistance to knockback to units within it\nLasts 60 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 8\nТип ефекту: Заклинання\nСтворює коло, у якому загони отримують бонус +33% броні, +33% до пошкоджень і стійкість до відкидання\nДіє 60 сек.\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanTheoden",
+   "en": "Théoden",
+   "uk": "Теоден",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanTheodenRecruit",
+   "en": "Recruit the King of Rohan.\n\n'Arise, arise, Riders of Théoden!\nFell deeds awake, fire and slaughter!\nSpear shall be shaken, shield be splintered,\na sword-day, a red day, ere the sun rises!\nRide now, ride now!'",
+   "uk": "Завербувати короля Рогану.\n\n«Повстаньте, повстаньте, Вершники Теодена!\nПрокиньтеся, люті діла, вогонь і різанина!\nСпис буде зламано, щит розтрощено.\nДень мечів, червоний день, перед тим як зійде сонце!\nВперед, вперед! До бою!»",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanTheodenRevive",
+   "en": "Revive the fallen Hero, Théoden",
+   "uk": "Відродити полеглого в бою Теодена",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TheodenLeadership",
+   "en": "King of Rohan",
+   "uk": "Король Рогану",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTheodenLeadership",
+   "en": "Modifier Type: Leadership\nAllies near Théoden gain +50% armour, and earn experience 50% faster\nPassive ability",
+   "uk": "Тип ефекту: Лідерство\nСоюзники поряд із Теоденом отримують бонус +50% броні й на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TheodenNewMount",
+   "en": "Mount Snowmane / Dismount (&R)",
+   "uk": "Осідлати Сніжногрива / Спішитися (&R)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TheodenNewMountTooltip",
+   "en": "Left click to switch between\nmounted on Snowmane and on foot",
+   "uk": "Клікніть, щоб перемкнутися між\nверхи на Сніжногриві й пішки",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:StrengthRemembered",
+   "en": "Strength Remembered (&T)",
+   "uk": "Згадана сила (&T)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipStrengthRemembered",
+   "en": "Requires Level 3\nHeals nearby friendly units and heroes\n\nRequires Level 5\nAlso summons two battalions of Kingsguard accompanied by Háma and Gamling\n\nLeft click to activate",
+   "uk": "Необхідно: Рівень 3\nЗцілює союзні загони й героїв поблизу\n\nНеобхідно: Рівень 5\nТакож прикликає 2 загони королівської варти разом із Гамою й Ґамлінґом\n\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:GloriousCharge",
+   "en": "Arise, Riders of Théoden! (&C)",
+   "uk": "Вставайте, Вершники Теодена! (&C)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGloriousCharge",
+   "en": "Requires Level 5\nThéoden must be mounted to use ability\nModifier Type: Spell\nThéoden and nearby cavalry gain +100% armour and immunity to fear and terror for 20 seconds\nThe more riders near Théoden, the larger the bonus\n(+10% armour per battalion, up to additional +100%)\nNo force can slow this charge\nLeft click to activate",
+   "uk": "Необхідно: Рівень 5\nЗдібність доступна лише верхи\nТип ефекту: Заклинання\nТеоден і кіннота поблизу на 20 сек. отримують бонус +100% броні й імунітет до страху та жаху\nЩо більше вершників поряд із Теоденом, то більший бонус\n(+10% броні за кожен загін, до +100% додатково)\nЖодна сила не сповільнить цю атаку\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:KingsFavor",
+   "en": "Oaths Fulfilled (&V)",
+   "uk": "Присяги дотримано (&V)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKingsFavor",
+   "en": "Requires Level 7\nTargeted units gain large experience\nLeft click icon then left click on target units",
+   "uk": "Необхідно: Рівень 7\nМиттєво наділяє обрані загони великою кількістю досвіду\nКлікніть на іконку, потім оберіть потрібні загони",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDescriptionRohanFarm",
+   "en": "Generates resources based on available terrain\nField Bonus - Reduced cost of cavalry\n2 Farms: 5%\n3 Farms: 10%\n4 Farms: 15%\n5+ Farms: 20%\n\nModifier Type: Spell\nNearby Peasants gain +15% damage and armour",
+   "uk": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\n\nЗнижує вартість кавалерії\n2 ферми: 5%\n3 ферми: 10%\n4 ферми: 15%\n5 і більше: 20%\n\nТип ефекту: Заклинання\nСеляни поблизу отримують бонус +15% до пошкоджень і броні",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanFarm",
+   "en": "Farm",
+   "uk": "Ферма",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenFarm",
+   "en": "Build Farm (&W)",
+   "uk": "Ферма (&W)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanPeasantry",
+   "en": "Peasantry of the Mark (&W)",
+   "uk": "Селянство Марки (&W)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRohanPeasantry",
+   "en": "Switch to recruitment of Peasants and Yeomen Spearmen",
+   "uk": "Перемкнути на режим призову селян та йоменів-списників",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanFarmProduction",
+   "en": "Farm Production (&W)",
+   "uk": "Виробництво ресурсів (&W)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRohanFarmProduction",
+   "en": "Switch to resource production",
+   "uk": "Перемкнути на виробництво ресурсів",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanPeasant",
+   "en": "Strong vs. Pikemen\nCan be drafted\n\nHorde Bonus\nModifier Type: Spell\nAll Peasants gain +20% damage and +20% armour when gathered in numbers of 60 or more\n\nThe Riddermark depended on its peasants to work the fields - only in times of great need could they be levied to serve their king in battle.",
+   "uk": "Ефективні проти пікінерів\nМожна озброїти та скликати в ополчення\n\nЧисельна перевага\nТип ефекту: Заклинання\nУсі селяни отримують бонус +20% до пошкоджень і +20% броні, якщо зібрані в кількості 60 од. і більше\n\nРоган живився від врожаю своїх селян на нивах — лише в часи великої скрути їх можна було скликати на службу королю.",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanPeasant",
+   "en": "Peasants (&E)",
+   "uk": "Селяни (&E)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:HordeRohanPeasant",
+   "en": "Peasants",
+   "uk": "Селяни",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanPeasantHasDraft",
+   "en": "Drafted",
+   "uk": "Скликати в ополчення",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRohanPeasantHasDraft",
+   "en": "Requires Draft power\nPeasants have received swords and shields, gaining +5 damage and +30 health\nPeasants can now be upgraded with Forged Blades and Heavy Armour",
+   "uk": "Потребує сили «Скликати в ополчення»\nСеляни отримали мечі й щити: +5 од. пошкоджень і +30 од. здоров'я\nТепер селянам можна купити покращення «Зброя із мундбурзької сталі» й «Обладунки із мундбурзької сталі»",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "TOOLTIP:LackRohanHeavyArmorP",
+   "en": "Requires Peasants to be Drafted\nResearch Upgrade at Barracks to enable this equipment\nWhen equipped, significantly reduces the amount of damage taken",
+   "uk": "Необхідно: селяни мають бути скликані в ополчення\nПридбайте покращення в «Казармах», щоб відкрити це спорядження\nПісля оснащення значно зменшує отримувані пошкодження",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "TOOLTIP:LackRohanForgedBladesP",
+   "en": "Requires Peasants to be Drafted\nResearch Upgrade at Barracks to enable this equipment\nWhen equipped, increases the damage done by melee weapons",
+   "uk": "Необхідно: селяни мають бути скликані в ополчення\nПридбайте покращення в «Казармах», щоб відкрити це спорядження\nПісля оснащення збільшує пошкодження в ближньому бою",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "TOOLTIP:LackRohanBasicTraining",
+   "en": "Research Upgrade at Barracks to enable this equipment\nWhen equipped, increases this battalion to Level 2",
+   "uk": "Придбайте покращення в «Казармах», щоб відкрити це спорядження\nПісля оснащення підвищує рівень загону до 2",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:Draft",
+   "en": "Draft",
+   "uk": "Скликати в ополчення",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDraft",
+   "en": "All peasants become armed, permanently gaining +5 damage and +30 health\nRohan units gain +15% armour for 30 seconds\nSpell has shorter cooldown\nLeft click to activate",
+   "uk": "Усі селяни беруть до рук зброю й назавжди отримують бонус +5 од. пошкоджень і +30 од. здоров'я\nРоганські загони отримують бонус +15% броні на 30 сек.\nЗаклинання швидше відновлюється\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:SummonLoneScout",
+   "en": "Lone Scout",
+   "uk": "Самотній розвідник",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSummonLoneScout",
+   "en": "Summons a temporary, Rohirrim scout which grants +15% speed and +33% damage to nearby allied units\nLeft click icon then left click on pathable location",
+   "uk": "Тимчасово прикликати розвідника-рогірима, який дає союзним загонам поблизу +15% швидкості й +33% до пошкоджень\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanRebuild",
+   "en": "Shore Up",
+   "uk": "Відновити",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipRebuild",
+   "en": "Repairs a structure\nLeft click icon then left click on target structure",
+   "uk": "Ремонтує обрану споруду\nКлікніть на іконку, потім оберіть споруду",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:MusterRohirrim",
+   "en": "Muster the Rohirrim",
+   "uk": "Скликати Рогірим",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMusterRohirrim",
+   "en": "Targeted infantry battalion is fully replenished and permanently becomes mounted\nCan be used to convert Edoras Doorwardens into Mounted Kingsguard past the limit of 3\nDoes not work on stunned units\nSpell has shorter cooldown\nLeft click icon then left click on target battalion",
+   "uk": "Вказаний загін піхоти відновлює всю свою кількість та пересідає на коней\nТак можна перетворити воротарів Едорасу на вершників королівської варти понад ліміт у 3 загони\nНе діє на приголомшені загони\nЗаклинання швидше відновлюється\nКлікніть на іконку, потім оберіть загін",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:WestfoldHorn",
+   "en": "Horn of the Westfold",
+   "uk": "Ріг Вестфолду",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipWestfoldHorn",
+   "en": "Modifier Type: Buff\nTargeted allies gain +50% damage and +50% armour for 60 seconds\nLeft click icon then left click on target units",
+   "uk": "Тип ефекту: Посилення\nОбрані союзники отримують бонус +50% до пошкоджень і +50% броні на 60 сек.\nКлікніть на іконку, потім оберіть потрібні загони",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:PukelStatue",
+   "en": "Skill of the Woses",
+   "uk": "Майстерність восів",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipPukelStatue",
+   "en": "Summons a Púkel-man statue harboring strange magic\nNearby enemies suffer -25% damage and armour\nLimited to 2\nLeft click icon then left click on pathable location",
+   "uk": "Прикликати статую пукеля, сповнену дивних чарів\nВороги поблизу отримують штраф -25% пошкоджень і броні\nМаксимум 2 одночасно\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:SummonCirionOath",
+   "en": "Oath of Cirion",
+   "uk": "Присяга Кіріона",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSummonCirionOath",
+   "en": "Summons two battalions of Spearmen of Minas Tirith and Hirgon\nLeft click on icon then left click on target area",
+   "uk": "Прикликати 2 загони списоносців Мінас-Тіріта й Гірґона\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:BountifulHarvest",
+   "en": "Bountiful Harvest",
+   "uk": "Щедрий врожай",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipBountifulHarvest",
+   "en": "+20% resources from Farms and Windmills\nPassive power",
+   "uk": "Додатково +20% ресурсів від ферм і млинів\n\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanCloudBreak",
+   "en": "Ere the Sun Rises",
+   "uk": "До сходу сонця",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRohanCloudBreak",
+   "en": "Cancels Freezing Rain, Blessing of Ulmo, Lights Go Out, White Winter and Darkness\nStuns enemy units for 15 seconds\nSlowly heals allied units and replenishes fallen units across the map for 15 seconds\nLeft click to activate",
+   "uk": "Скасовує ефекти погоди: «Крижаний дощ», «Благословення Улмо», «Згасання світла», «Білу зиму» й «Пітьму»\nПриголомшує ворожі загони на 15 сек.\nПротягом 15 сек. повільно зцілює й поповнює союзні загони по всій мапі\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:EverholtBoar",
+   "en": "Boar of Everholt",
+   "uk": "Кабан Еверголта",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEverholtBoar",
+   "en": "Summons the Great Boar of Everholt\nThe boar tramples and attacks everything in sight\nEnemies near the boar suffer -33% speed and lose all leadership\nUpon dying, the Great Boar spawns the Hunter's Trophy which stays on the battlefield for 60 seconds\nAllies in its vicinity gain +25% damage and are immune to fear and terror\nLeft click icon then left click on pathable location",
+   "uk": "Прикликати Великого кабана Еверголта\nКабан топче й атакує все, що бачить\nВороги біля кабана отримують штраф -33% швидкості й утрачають усе лідерство\nЗагинувши, Великий кабан лишає Мисливський трофей, що стоїть на полі бою 60 сек.\nСоюзники біля трофея отримують бонус +25% до пошкоджень і імунітет до страху та жаху\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:SummonLastMarch",
+   "en": "Last March",
+   "uk": "Останній похід",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSummonLastMarch",
+   "en": "Summons Treebeard and several Ents to the battlefield\nLeft click icon then left click on pathable location",
+   "uk": "Прикликати на поле бою Деревоборода й кількох ентів\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:SummonStormcrow",
+   "en": "Stormcrow",
+   "uk": "Буревісник",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSummonStormcrow",
+   "en": "Summons Gandalf the White and the Three Hunters\nLeft click icon then left click on pathable location",
+   "uk": "Прикликати Ґендальфа Білого й трьох мисливців\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanSpearmenHorde",
+   "en": "Strong vs. Cavalry and Heroes\nAble to switch formation for improved defensive capabilities\n\nIn times of war, men of Rohan wealthy enough to own a plot of land would organize themselves into regiments and take up arms to defend their homes.",
+   "uk": "Ефективні проти кавалерії та героїв\nЗдатні змінювати стрій для підвищення оборони\n\nЗа часів війни йомени Рогану, що володіли достатніми статками для утримання власних земель, згуртовувалися в полки та ставали до зброї на захист своїх домівок.",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanSpearmenHorde",
+   "en": "Yeoman Spearmen (&R)",
+   "uk": "Йомени-списники (&R)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:HordeRohanSpearmen",
+   "en": "Yeoman Spearmen",
+   "uk": "Йомени-списники",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanSpearmen",
+   "en": "Yeoman Spearman",
+   "uk": "Йомени-списники",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "TOOLTIP:LackRohanHeavyArmor",
+   "en": "Research Upgrade at Barracks to enable this equipment\nWhen equipped, significantly reduces the amount of damage taken",
+   "uk": "Придбайте покращення в «Казармах», щоб відкрити це спорядження\nПісля оснащення значно зменшує отримувані пошкодження",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "TOOLTIP:LackRohanForgedBlades",
+   "en": "Research Upgrade at Barracks to enable this equipment\nWhen equipped, increases the damage done by melee weapons",
+   "uk": "Придбайте покращення в «Казармах», щоб відкрити це спорядження\nПісля оснащення збільшує пошкодження в ближньому бою",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanPeasantDrafted",
+   "en": "Strong vs. Pikemen\n\nHorde Bonus\nModifier Type: Spell\nAll Peasants gain +20% damage and +20% armour when gathered in numbers of 60 or more\n\nThe Riddermark depended on its peasants to work the fields - only in times of great need could they be levied to serve their king in battle.",
+   "uk": "Ефективні проти пікінерів\n\nЧисельна перевага\nТип ефекту: Заклинання\nУсі селяни отримують бонус +20% до пошкоджень і +20% броні, якщо зібрані в кількості 60 і більше\n\nРоган живився працею своїх селян на нивах — лише в часи великої скрути їх можна було скликати на службу королю.",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanPeasant",
+   "en": "Peasant",
+   "uk": "Селянин Рогану",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructRohanWindmill",
+   "en": "Provides bread as a resource based on available terrain\nReduced cost of infantry\nGrants nearby Peasants +15% damage and armour\nIncreases command point limit by 50",
+   "uk": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nЗнижує вартість піхоти\nСеляни поблизу отримують бонус +15% до пошкоджень і броні\nЗбільшує ліміт очок командування на 50 од.",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanWindmill",
+   "en": "Build Windmill (&R)",
+   "uk": "Млин (&R)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDescriptionRohanWindmill",
+   "en": "Generates resources based on available terrain\nBread Bonus - Reduced cost of infantry\n2 Windmills: 5%\n4 Windmills: 10%\n6 Windmills: 15%\n8+ Windmills: 20%\n\nModifier Type: Spell\nNearby Peasants gain +15% damage and armour",
+   "uk": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nЗнижує вартість піхоти\n2 млини: 5%\n4 млини: 10%\n6 млинів: 15%\n8 і більше: 20%\n\nТип ефекту: Заклинання\nСеляни поблизу отримують бонус +15% до пошкоджень і броні",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanWindmill",
+   "en": "Windmill",
+   "uk": "Млин",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenSentryTower",
+   "en": "Build Battle Tower (&Y)",
+   "uk": "Оборонна вежа (&Y)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:GondorKeep",
+   "en": "Battle Tower",
+   "uk": "Оборонна вежа",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanBattleTowerGarrison",
+   "en": "Yeoman Sentry (&W)",
+   "uk": "Йомени-вартові (&W)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGondorBattleTowerGarrison",
+   "en": "Stations a permanent sentry inside the tower.\nLeft click to purchase",
+   "uk": "Розміщення варти, що чергує у вежі.\n Клікніть, щоб придбати",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanDraftTower",
+   "en": "Build Draft Tower (&M)",
+   "uk": "Вежа призову (&M)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructRohanDraftTower",
+   "en": "Can summon battalions to protect the area\nLimited to 4",
+   "uk": "Може прикликати загони для захисту території\nМаксимум 4 одночасно",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanDraftTower",
+   "en": "Draft Tower",
+   "uk": "Вербувальна вежа",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanDraftTowerDescription",
+   "en": "Can summon battalions to protect the area",
+   "uk": "Може скликати загін для захисту території",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:DraftTowerOathPeasants",
+   "en": "Fierce Defenders (&W)",
+   "uk": "Стійкі оборонці (&W)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDraftTowerOathPeasant",
+   "en": "Summons two temporary battalions of drafted peasants to defend the tower",
+   "uk": "Прикликає 2 тимчасові загони озброєних селян для захисту вежі",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseDraftTowerWestfolder",
+   "en": "Requires Erkenbrand to be used\nAlters the active Oath to summon a permanent battalion of Westfolders\nHas to be rebought after usage",
+   "uk": "Необхідно: Завербований Еркенбранд\nЗмінює активну присягу задля призову постійного загону воїнів Вестфолду\nПісля активації вимагає повторного придбання",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseDraftTowerWestfolder",
+   "en": "Oath: Westfold (&E)",
+   "uk": "Присяга: Вестфолд (&E)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseDraftTowerFirienholt",
+   "en": "Oath: Firienholt (&R)",
+   "uk": "Присяга: Фірієнгольт (&R)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseDraftTowerFirienholt",
+   "en": "Alters the active Oath to summon a permanent battalion of Halifirien Wardens\nHas to be rebought after usage",
+   "uk": "Змінює активну присягу задля призову постійного загону Вартових Галіфірієну\nПісля активації вимагає повторного придбання",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseDraftTowerRohirrim",
+   "en": "Oath: Éored (&T)",
+   "uk": "Присяга: Еоред (&T)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseDraftTowerSnowbourn",
+   "en": "Alters the active Oath to summon a permanent battalion of Riders of Snowbourn\nHas to be rebought after usage",
+   "uk": "Змінює активну присягу задля призову постійного загону Сноуборнських вершників\nПісля активації вимагає повторного придбання",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:DraftTowerOath",
+   "en": "Oaths You Have Taken... (&E)",
+   "uk": "Присяги, які ви склали... (&E)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDraftTowerOathWestfolder",
+   "en": "Summons a permanent battalion of Westfolders\nCan be cast near any Draft Tower or Fortress\nRespects command point limit\nRequires 75 command points to be summoned\nLeft click then left click target area",
+   "uk": "Прикликає постійний загін воїнів Вестфолду\nМожна використати біля будь-якої вежі призову чи фортеці\nВраховує ліміт очок командування\nПотрібно 75 очок командування\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDraftTowerOathFirienholt",
+   "en": "Summons a permanent battalion of Halifirien Wardens\nCan be cast near any Draft Tower or Fortress\nRespects command point limit\nRequires 72 command points to be summoned\nLeft click then left click target area",
+   "uk": "Прикликає постійний загін Вартових Галіфірієну\nМожна використати біля будь-якої вежі призову чи фортеці\nВраховує ліміт очок командування\nПотрібно 72 очки командування\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDraftTowerOathSnowbourn",
+   "en": "Summons a permanent battalion of Riders of Snowbourn\nCan be cast near any Draft Tower or Fortress\nRespects command point limit\nRequires 80 command points to be summoned\nLeft click then left click target area",
+   "uk": "Прикликає постійний загін Сноуборнських вершників\nМожна використати біля будь-якої вежі призову чи фортеці\nВраховує ліміт очок командування\nПотрібно 80 очок командування\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanWell",
+   "en": "Build Edoras Well (&G)",
+   "uk": "Криниця Едорасу (&G)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanWellDescription",
+   "en": "Heals nearby allies and replenishes fallen units\nDetects stealth\nIncreases resource gain of nearby farms and windmills by 10%",
+   "uk": "Зцілює найближчих союзників поза боєм і відновлює їхню чисельність\nВиявляє невидимі загони\nЗбільшує приріст ресурсів сусідніх ферм і млинів на 10%",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:HeroicStatueBuildRohan",
+   "en": "Provides a leadership bonus to nearby units",
+   "uk": "Дає бонус лідерства загонам поблизу",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanStatue",
+   "en": "Build Rohan Statue (&U)",
+   "uk": "Статуя Еорла (&U)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanHeroStatue",
+   "en": "Heroic Statue",
+   "uk": "Статуя Еорла",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanHeroicStatueDescription",
+   "en": "Modifier Type: Leadership\nAllies near the Statue gain +25% damage, +25% armour, earn experience 33% faster, and become immune to fear and terror",
+   "uk": "Тип ефекту: Лідерство\nВоїни, які перебувають поблизу статуї, отримують бонус +25% до пошкоджень, +25% броні, здобувають досвід на 33% швидше, а також стають непіддатливими до страху й жаху",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenWallHub",
+   "en": "Wall Hub (&A)",
+   "uk": "Стінна вежа (&A)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:DwarvenWallHub",
+   "en": "Wall Hub",
+   "uk": "Стінна вежа",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructMenWallHub",
+   "en": "Wall Hubs can be used to build walls",
+   "uk": "Від стінних веж можна протягувати нові стіни.",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenArcheryRange",
+   "en": "Build Archery Range (&C)",
+   "uk": "Стрільбище (&C)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRohanArcheryRange",
+   "en": "Trains and upgrades Rohan's Archers\nGenerates a small amount of resources",
+   "uk": "Навчає й покращує лучників Рогану\nПеріодично виробляє трохи ресурсів",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanArcherRange",
+   "en": "Archery Range",
+   "uk": "Стрільбище",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyRohanFireArrows",
+   "en": "Allows battalions to purchase the Fire Arrows upgrade\nWhen equipped, significantly increases the damage\n\nWill upgrade all patrols instantly once upgrade is purchased",
+   "uk": "Дає змогу кожному загону придбати покращення «Вогняні стріли»\nПісля придбання, загон суттєво збільшує пошкодження\n\nПісля дослідження миттєво покращує стріли всіх патрулів навколо будівель",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyRohanFireArrows",
+   "en": "Research Fire Arrows Upgrade (&R)",
+   "uk": "Вогняні стріли (&R)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "TOOLTIP:LackLevel3ArcheryRange",
+   "en": "Requires Level 3 Archery Range",
+   "uk": "Необхідно: Стрільбище 3 рівня",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorArcheryRangeLevel2Upgrade",
+   "en": "Upgrade Archery Range to Level 2 (&A)",
+   "uk": "Покращити стрільбище до 2-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanArcherRangeLevel2Upgrade",
+   "en": "Allows training of Halifirien Wardens\n+10% faster build speed",
+   "uk": "Дозволяє тренувати Вартових Галіфірієну\n+10% до швидкості підготовки військ",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanArcherRangeLevel3Upgrade",
+   "en": "Allows research of the Fire Arrows upgrade\nAdds defensive arrow tower\n+25% faster build speed",
+   "uk": "Відкриває можливість досліджувати Вогняні стріли\nДодає захисну вежу\n+25% до швидкості підготовки військ",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorArcheryRangeLevel3Upgrade",
+   "en": "Upgrade Archery Range to Level 3 (&A)",
+   "uk": "Покращити стрільбище до 3-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanArcherHorde",
+   "en": "Strong vs. Infantry\nAble to switch formation for improved offensive capabilities\n\nIn times of war, men of Rohan wealthy enough to own a plot of land would organize themselves into regiments and take up arms to defend their homes.",
+   "uk": "Ефективні проти піхоти\nЗдатні змінювати стрій для підвищення пошкоджень\n\nЗа часів війни йомени Рогану, що володіли достатніми статками для утримання власних земель, згуртовувалися в полки та ставали до зброї на захист своїх домівок.",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanArcherHorde",
+   "en": "Yeomen Archers (&W)",
+   "uk": "Йомени-лучники (&W)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:HordeRohanArcher",
+   "en": "Yeomen Archers",
+   "uk": "Йомени-лучники",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanArcher",
+   "en": "Yeoman Archer",
+   "uk": "Йомени-лучники",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToggleSkirmishFormationYeomanArcher",
+   "en": "Skirmish Formation (&R)",
+   "uk": "Розсипний стрій (&R)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleRArcherLineToSkirmishFormation",
+   "en": "Requires level 2\n+25% damage, +15% speed, -50% armour",
+   "uk": "Необхідно: Рівень 2\n+25% до пошкоджень, +15% швидкості, -50% броні",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "TOOLTIP:LackRohanFireArrows",
+   "en": "Purchase Upgrade at Archery Range to enable this equipment\nWhen equipped, significantly increases the damage done by arrows",
+   "uk": "Придбайте покращення на «Стрільбищі», щоб відкрити це спорядження\nПісля оснащення значно збільшує пошкодження стріл",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildFirienholtWardenHorde",
+   "en": "Requires Level 2 Archery Range\nStrong vs. Infantry and Monsters\nCan stealth near trees and fire Longshot arrow volleys\n\nThese woodsmen protected the sacred hill of Halifirien and the surrounding Firienholt.",
+   "uk": "Необхідно: Стрільбище 2 рівня\nЕфективні проти піхоти та створінь\nСтають невидимими поблизу дерев і здатні обстріляти місцевість залпом стріл\n\nЦі слідопити боронили святий пагорб Галіфірієн та довколишній ліс Фірієнгольт.",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructFirienholtWardenHorde",
+   "en": "Halifirien Wardens (&E)",
+   "uk": "Вартові Галіфірієну (&E)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:HordeRohanFirienholtWarden",
+   "en": "Halifirien Wardens",
+   "uk": "Вартові Галіфірієну",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:FirienholtWarden",
+   "en": "Halifirien Warden",
+   "uk": "Вартовий Галіфірієну",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:HalifirienGuards",
+   "en": "Halifirien Guards (&R)",
+   "uk": "Варта Галіфірієну (&R)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBlackArrows",
+   "en": "Requires Level 2\nLong range ability that deals increased damage\nCauses monsters to flee in terror\nLeft click icon then left click on target",
+   "uk": "Необхідно: Рівень 2\nЗдібність великої дальності, що завдає більше пошкоджень\nЗмушує створінь тікати в жаху\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:FirienholtLongShotAbility",
+   "en": "Longshot (&T)",
+   "uk": "Далекий постріл (&T)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFirienholtLongShotAbility",
+   "en": "Requires Level 3\nThe Wardens bombard anywhere within a great radius with a volley of arrows\nLeft click icon then left click on target area",
+   "uk": "Необхідно: Рівень 3\nВартові накривають залпом стріл будь-яку ділянку у великому радіусі\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanHelmingasWardenHorde",
+   "en": "Helmingas Warriors (&R)",
+   "uk": "Гельмінґські воїни (&R)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:HordeRohanHelmingasWarden",
+   "en": "Helmingas Warriors",
+   "uk": "Гельмінґські воїни",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanHelmingasWarden",
+   "en": "Helmingas Warriors",
+   "uk": "Гельмінґські воїни",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanHelmingasWardenHorde",
+   "en": "Requires Level 3 Barracks\nand the Horns of Hammerhand upgrade\nHero Unit.\nStrong vs. Infantry and Structures\nAble to switch between mounted and on foot\n\nHelm's Deep was home to a garrison of veteran warriors. Keeping alive the image of Helm Hammerhand's martial prowess, they kept Rohan's primary refuge open and guarded against surprise assaults.",
+   "uk": "Необхідно: Казарми 3 рівня\nі покращення «Ріг Гельма Молоторукого»\nГероїчний загін.\nЕфективні проти піхоти та споруд\nМожуть сідати верхи й спішуватися\n\nУ Гельмовому Яру стояв гарнізон досвідчених воїнів. Вони зберігали пам'ять про бойову звитягу Гельма Молоторукого, тримали відкритим головний прихисток Рогану й стерегли його від раптових нападів.",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:HelmingasShieldCrush",
+   "en": "For the Hornburg! (&W)",
+   "uk": "За Горнбурґ! (&W)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHelmingasShieldCrush",
+   "en": "Modifier Type: Spell\nHelmingas and nearby allies become immune to fear and terror\nPassive ability\n\nWhen activated, the Helmingas can crush enemies and are immune to arrows for 20 seconds\nLeft click to activate",
+   "uk": "Тип ефекту: Заклинання\nГельмінґські воїни та союзники поблизу отримують імунітет до страху й жаху\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації Гельмінґські воїни на 20 сек. можуть розчавлювати ворогів і отримують імунітет до стріл\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TheodenMount",
+   "en": "Mount / Dismount (&R)",
+   "uk": "Сісти верхи / Спішитися (&R)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:MarkOfFreca",
+   "en": "Mark of Freca (&T)",
+   "uk": "Знак Фреки (&T)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMarkOfFreca",
+   "en": "Requires Level 3\nThe Helmingas grant the Mark of Freca to an enemy unit,\ncausing them to flee in terror, lose all leadership and -33% armour for 60 seconds\nLeft click on icon then left click on target battalion",
+   "uk": "Необхідно: Рівень 3\nГельмінґські воїни таврують ворожий загін знаком Фреки:\nна 60 сек. той тікає в жаху, втрачає все лідерство й отримує штраф -33% броні\nКлікніть на іконку, потім оберіть загін",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:MarkOfHelm",
+   "en": "Mark of Helm (&C)",
+   "uk": "Знак Гельма (&C)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMarkOfHelm",
+   "en": "Requires Level 6\nThe Helmingas grant the Mark of Helm to an allied unit, causing them to gain +75% attack damage for 30 seconds\nLeft click on icon then left click on target battalion",
+   "uk": "Необхідно: Рівень 6\nГельмінґські воїни дають союзному загону знак Гельма: на 30 сек. він отримує бонус +75% до пошкоджень\nКлікніть на іконку, потім оберіть загін",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanDoorWardenHorde",
+   "en": "Edoras Kingsguard (&E)",
+   "uk": "Королівська варта Едорасу (&E)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:HordeRohanDoorWarden",
+   "en": "Edoras Kingsguard",
+   "uk": "Королівська варта Едорасу",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanDoorWarden",
+   "en": "Edoras Kingsguard",
+   "uk": "Королівська варта Едорасу",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanDoorWardenHorde",
+   "en": "Requires Level 2 Barracks\nStrong vs. Cavalry and Pikemen\nCan switch from spears to swords\nAble to switch formation for improved defensive capabilities\n\nAlternatively named the Door-Wardens, these warriors were hand-picked by the King and tasked with the safety of Meduseld. In times of war, they would each lead a small part of a greater Éored.",
+   "uk": "Необхідно: Казарми 2 рівня\nЕфективні проти кавалерії та пікінерів\nМожуть змінювати списи на мечі\nЗдатні змінювати стрій для підвищення оборони\n\nЇх ще звали Вартовими брами. Цих воїнів особисто відбирав король, і вони охороняли Медусельд. Під час війни кожен із них очолював невелику частину більшого еореду.",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleLineToSchiltronFormation",
+   "en": "The Edoras Kingsguard form up into a schiltron formation\n-30% movement speed, +15% damage and armour, immunity to knockback",
+   "uk": "Королівська варта Едорасу шикується в кругову оборону\n-30% швидкості руху, +15% до пошкоджень і броні, імунітет до відкидання",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:DoorWardenKingsguardLeadership",
+   "en": "Door-wardens (&R)",
+   "uk": "Вартові брами (&R)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:DoorWardenKingsguardLeadershipFake",
+   "en": "Door-wardens",
+   "uk": "Вартові брами",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipDoorWardenKingsguardLeadership",
+   "en": "Modifier Type: Leadership\nThe Kingsguard grants nearby structures +33% armour\nPassive ability\n\nWhen bought, permanently equips Doorwardens with swords\nLeft click to upgrade this unit",
+   "uk": "Тип ефекту: Лідерство\nКоролівська варта дає спорудам поблизу бонус +33% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля придбання вартові брами назавжди отримують мечі\nКлікніть, щоб покращити цей загін",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:SurrenderArms",
+   "en": "Surrender Arms (&T)",
+   "uk": "Складіть зброю (&T)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSurrenderArms",
+   "en": "Requires Level 3\nEnemy units within the radius deal -33% damage for 30 seconds\nLeft click on icon then left click on target battalion",
+   "uk": "Необхідно: Рівень 3\nВорожі загони в радіусі дії на 30 сек. отримують штраф -33% пошкоджень\nКлікніть на іконку, потім оберіть загін",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipDoorWardenKingsguardLeadershipFake",
+   "en": "Modifier Type: Leadership\nThe Kingsguard grants nearby structures +33% armour\nPassive ability\n\nSwords have been equipped",
+   "uk": "Тип ефекту: Лідерство\nКоролівська варта дає спорудам поблизу бонус +33% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nМечі вже видано",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanWestfolderHorde",
+   "en": "Westfolders (&W)",
+   "uk": "Воїни Вестфолду (&W)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanWestfolderHorde",
+   "en": "Westfolders",
+   "uk": "Воїни Вестфолду",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanWestfolderHorde",
+   "en": "Requires Erkenbrand\nStrong vs. Pikemen\nAble to switch formation for improved defensive capabilities\n\nThese hardy, disciplined men were some of the best-armed warriors in the Riddermark. Their shieldwall was feared amongst the enemies of the Westfold, particularly the men of Dunland.",
+   "uk": "Необхідно: Завербований Еркенбранд\nЕфективні проти пікінерів\nЗдатні змінювати стрій для підвищення оборони\n\nЦі загартовані, дисципліновані люди були одними з найкраще озброєних воїнів Ріддермарку. Їхньої стіни щитів боялися вороги Вестфолду, особливо люди Дунланду.",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanWestfolder",
+   "en": "Westfolder",
+   "uk": "Воїн Вестфолду",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleWestfolderLineToBlockFormationElite",
+   "en": "+40% armour\n-33% speed",
+   "uk": "+40% броні\n-33% швидкості",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ForthEorlingas",
+   "en": "Forth Eorlingas! (&R)",
+   "uk": "Вперед, еорлінґи! (&R)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipForthEorlingas",
+   "en": "Requires level 2\nWestfolders briefly gain +25% damage and movement speed for 20 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 2\nВоїни Вестфолду на 20 сек. отримують бонус +25% до пошкоджень і швидкості руху\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenBarracks",
+   "en": "Build Barracks (&T)",
+   "uk": "Казарми (&T)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructRohanBarracks",
+   "en": "Trains the melee infantry of Rohan\nResearches weapons and armour upgrades\nGenerates a small amount of resources",
+   "uk": "Тренування піхоти ближнього бою Рогану\nДає змогу придбати покращення зброї та броні\nПеріодично виробляє трохи ресурсів",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:GondorBarracks",
+   "en": "Barracks",
+   "uk": "Казарми",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanBarracksDescription",
+   "en": "Generates a small amount of resources\nLevel 2: +10% faster build speed\nLevel 3: +25% faster build speed",
+   "uk": "Періодично виробляє трохи ресурсів\nРівень 2: +10% до швидкості підготовки військ\nРівень 3: +25% до швидкості підготовки військ",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanArcheryRangeDescription",
+   "en": "Generates a small amount of resources\nLevel 2: +10% faster build speed\nLevel 3: +25% faster build speed",
+   "uk": "Періодично виробляє трохи ресурсів\nРівень 2: +10% до швидкості підготовки військ\nРівень 3: +25% до швидкості підготовки військ",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanStablesDescription",
+   "en": "Generates a small amount of resources\nLevel 2: +10% faster build speed\nLevel 3: +25% faster build speed",
+   "uk": "Періодично виробляє трохи ресурсів\nРівень 2: +10% до швидкості підготовки військ\nРівень 3: +25% до швидкості підготовки військ",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyRohanBasicTraining",
+   "en": "Research Heraldry of the Riddermark (&T)",
+   "uk": "Стяг Ріддермарку (&T)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyRohanBasicTraining",
+   "en": "Allows battalions to purchase the Heraldry of the Riddermark upgrade\nIncreases a battalion to Level 2",
+   "uk": "Дає змогу кожному загону придбати покращення «Стяг Ріддермарку»\nПідвищує рівень загону до 2",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyRohanForgedBlades",
+   "en": "Mundburg Steel Blades (&S)",
+   "uk": "Зброя із мундбурзької сталі (&S)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyRohanForgedBlades",
+   "en": "Purchase Mundburg Steel Blades Upgrade\nWhen equipped, increases the damage done by melee weapons\nWill upgrade all patrols instantly once upgrade is purchased",
+   "uk": "\tДає змогу кожному загону придбати це покращення\nПісля оснащення збільшує пошкодження в ближньому бою\nПісля дослідження миттєво покращує зброю всіх патрулів навколо будівель",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "TOOLTIP:LackLevel2BarracksForgedBlades",
+   "en": "Requires Level 2 Barracks",
+   "uk": "Необхідно: Казарми 2 рівня",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyRohanHeavyArmor",
+   "en": "Mundburg Steel Armour (&D)",
+   "uk": "Обладунки із мундбурзької сталі (&D)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "TOOLTIP:LackLevel3BarracksHeavyArmor",
+   "en": "Requires Level 3 Barracks",
+   "uk": "Необхідно: Казарми 3 рівня",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanBarracksLevel2Upgrade",
+   "en": "Allows training of Edoras Kingsguard and research of the Forged Blades upgrade\n+10% faster build speed",
+   "uk": "Дозволяє тренувати королівську варту Едорасу та досліджувати зброю з мундбурзької сталі\n+10% до швидкості підготовки військ",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorBarracks2Upgrade",
+   "en": "Upgrade Barracks to Level 2 (&A)",
+   "uk": "Покращити казарми до 2-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorBarracksLevel3Upgrade",
+   "en": "Upgrade Barracks to Level 3 (&A)",
+   "uk": "Покращити казарми до 3-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanBarracksLevel3Upgrade",
+   "en": "Allows training of Helmingas Warriors\nand research of the Heavy Armour upgrade\nAdds defensive arrow tower\n+25% faster build speed",
+   "uk": "Дозволяє тренувати гельмінґських воїнів\nта досліджувати обладунки з мундбурзької сталі\nДодає захисну вежу\n+25% до швидкості підготовки військ",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyRohanHeavyArmor",
+   "en": "Purchase Mundburg Steel Armour Upgrade\nWhen equipped, significantly reduces the amount of damage taken\nWill upgrade all patrols instantly once upgrade is purchased",
+   "uk": "\tДає змогу кожному загону придбати це покращення\nПісля оснащення значно зменшує отримувані пошкодження\nПісля дослідження миттєво покращує обладунки всіх патрулів навколо будівель",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanBatteringRam",
+   "en": "Breaks down castle gates and enemy structures\n\nThe Rohirrim associated horses with strength and nobility. No wonder then that they preferred to adorn their battering rams with iron-wrought horse-heads, to bring down an enemy's gate with noble fury.",
+   "uk": "Нищить брами і ворожі споруди\n\nРогірими пов'язували коней із силою та шляхетністю. Тож не дивно, що свої тарани вони прикрашали кованими кінськими головами, аби трощити ворожі брами з шляхетною люттю.",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanBatteringRam",
+   "en": "Horse-head Ram (&W)",
+   "uk": "Кінноголовий таран (&W)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanBatteringRam",
+   "en": "Horse-Head Ram",
+   "uk": "Кінноголовий таран",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanMangonel",
+   "en": "Rohirric Onager (&E)",
+   "uk": "Рогіримський онагр (&E)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanMangonel",
+   "en": "Rohirric Onager",
+   "uk": "Рогіримський онагр",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanMangonel",
+   "en": "Requires Level 2 Workshop\nStrong vs. Structures\nCan launch a bale of burning hay, setting fire to the area surrounding impact.\n\nThough not as advanced as their allies in Gondor, the Rohirrim were nonetheless capable of constructing powerful ranged siege weapons.",
+   "uk": "Необхідно: Майстерня 2 рівня\nЕфективний проти споруд\nМоже метати палаючий тюк сіна, що підпалює все навколо місця влучання.\n\nХоч рогірими й поступалися в цьому союзникам із Ґондору, вони теж уміли будувати потужну облогову зброю дальньої дії.",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityHayBale",
+   "en": "Launch Hay Bale (&T)",
+   "uk": "Метнути тюк сіна (&T)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSpecialAbilityHayBale",
+   "en": "Launches a flaming hay bale at targeted area\ncauses fire in the affected area",
+   "uk": "Метає палаючий тюк сіна на обрану ділянку\nпідпалюючи все в зоні влучання",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanWorkshop",
+   "en": "Build Workshop (&N)",
+   "uk": "Майстерня (&N)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructRohanWorkshop",
+   "en": "Constructs siege engines\nAt rank 2, repairs nearby siege engines\nGenerates a small amount of resources\nReduces cost of upgrades",
+   "uk": "Будує облогові машини\nНа 2 рівні лагодить облогові машини поблизу\nПеріодично виробляє трохи ресурсів\nЗнижує вартість покращень",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanWorkshop",
+   "en": "Workshop",
+   "uk": "Майстерня",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanWorkshopDescription",
+   "en": "Generates a small amount of resources\nLevel 2: +10% faster build speed\nLevel 3: +25% faster build speed\nArtisan Bonus - Reduced cost of upgrades\n1 Workshop: 5%\n2 Workshops: 10%\n3 Workshops: 15%\n4+ Workshops: 20%",
+   "uk": "Періодично виробляє трохи ресурсів\nРівень 2: +10% до швидкості побудови\nРівень 3: +25% до швидкості побудови\nЗниження вартості покращень\n1 Майстерня: 5%\n2 Майстерні: 10%\n3 Майстерні: 15%\n4 і більше: 20%",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:MundburgMasonry",
+   "en": "Mundburg Masonry (&R)",
+   "uk": "Мундбурзька кам'яна кладка (&R)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMundburgMasonry",
+   "en": "Requires level 2 Workshop\nStructures gain a 33% boost in armour\nDoes not affect Fortress\nPlayer must maintain a Workshop to benefit from this upgrade",
+   "uk": "Необхідно: Майстерня 2 рівня\nСпоруди отримують бонус +33% броні\nНе діє на фортецю\nЩоб покращення діяло, майстерня має стояти",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanWorkshop2Upgrade",
+   "en": "Upgrade Workshop to Level 2 (&A)",
+   "uk": "Покращити майстерню до 2-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanWorkshopLevel2Upgrade",
+   "en": "Allows training of Rohirric Onager and research of Mundburg Masonry upgrade\nHeals nearby damaged siege machines\n+10% faster build speed",
+   "uk": "Дозволяє будувати рогіримські онагри та зробити покращення «Мундбурзька кам'яна кладка»\nЛагодить пошкоджені облогові машини поблизу\n+10% до швидкості тренування",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanWorkshopLevel3Upgrade",
+   "en": "Upgrade Workshop to Level 3 (&A)",
+   "uk": "Покращити майстерню до 3-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanWorkshopLevel3Upgrade",
+   "en": "+25% faster build speed\nIncreased healing to nearby damaged siege machines",
+   "uk": "+25% до швидкості тренування\nШвидше лагодить пошкоджені облогові машини поблизу",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenStable",
+   "en": "Build Stables (&V)",
+   "uk": "Конюшні (&V)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructRohanStable",
+   "en": "Trains Rohan's cavalry\nGenerates a small amount of resources",
+   "uk": "Навчає кавалерію Рогану\nПеріодично виробляє трохи ресурсів",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanStable",
+   "en": "Stables",
+   "uk": "Конюшні",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyRohanHorseShield",
+   "en": "Research Horseman Shields (&D)",
+   "uk": "Щити вершників (&D)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyRohanHorseShield",
+   "en": "Allows battalions to purchase the Horseman Shields upgrade\nWhen equipped, significantly reduces the amount of damage taken from Arrows and Pikemen",
+   "uk": "Дає змогу кожному загону придбати покращення «Щити вершників»\nПісля оснащення значно зменшує пошкодження від лучників і пікінерів",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "TOOLTIP:LackLevel2Stables",
+   "en": "Requires Level 2 Stables",
+   "uk": "Необхідно: Конюшні 2 рівня",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorStable2Upgrade",
+   "en": "Upgrade Stables to Level 2 (&A)",
+   "uk": "Покращити конюшні до 2-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanStablesLevel2Upgrade",
+   "en": "Allows training of Rohirrim Warriors, Rohirrim Archers and Riders of Snowbourn and research of the Horseman Shield upgrade\n+10% faster build speed",
+   "uk": "Дозволяє тренувати воїнів-рогіримів, лучників-рогіримів й Сноуборнських вершників і досліджувати покращення «Щити вершників»\n+10% до швидкості тренування",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanStablesLevel3Upgrade",
+   "en": "Allows training of the Mounted Kingsguard\nAdds defensive arrow tower\n+25% faster build speed",
+   "uk": "Дозволяє тренувати кінну королівську гвардію\nДодає захисну вежу\n+25% до швидкості тренування",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanHorsemenHorde",
+   "en": "Horsemen of the Mark (&W)",
+   "uk": "Вершники Марки (&W)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:HordeRohanHorsemen",
+   "en": "Horsemen of the Mark",
+   "uk": "Вершники Марки",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanHorsemenHorde",
+   "en": "Strong vs. Swordsmen and Archers\n\nYeoman or peasant, in Rohan every man owned a horse, and had learned to defend themselves from horseback. When the need arose, these men would ride out to battle to defend their homes.",
+   "uk": "Ефективні проти мечників і лучників\n\nЙомен чи селянин — у Рогані кожен чоловік мав коня й умів боронитися верхи. Коли була потреба, ці люди виїздили в бій захищати свої домівки.",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanHorsemen",
+   "en": "Horseman of the Mark",
+   "uk": "Вершники Марки",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanArmaments",
+   "en": "Muster of Edoras",
+   "uk": "Збір Едорасу",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGondorArmaments",
+   "en": "Requires Level 3\nModifier Type: Level\nUnits permanently gain 33% armour",
+   "uk": "Необхідно: Рівень 3\nТип ефекту: Рівень\nЗагони назавжди отримують бонус +33% броні",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanRohirrimHorde",
+   "en": "Rohirrim Warriors (&E)",
+   "uk": "Воїни-рогірими (&E)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:HordeRohanRohirrim",
+   "en": "Rohirrim Warriors",
+   "uk": "Воїни-рогірими",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanRohirrimHorde",
+   "en": "Requires Level 2 Stables\nStrong vs. Swordsmen and Archers\nAble to switch formation for improved offensive capabilities\n\nDuring wartime, the King of Rohan would muster the Rohirrim, providing additional arms and armour to his subjects and organizing them into Éored's under command of a lord or marshal.",
+   "uk": "Необхідно: Конюшні 2 рівня\nЕфективні проти мечників і лучників\nЗдатні змінювати стрій для підвищення ефективності атаки\n\nУ час війни король Рогану скликав рогіримів, видавав своїм підданим додаткову зброю й обладунки та розподіляв їх по еоредах під проводом лорда чи маршала.",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanRohirrim",
+   "en": "Rohirrim Warrior",
+   "uk": "Воїни-рогірими",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleRohirrimWarriorLineToWedgeFormation",
+   "en": "-25% armour, -50% crush decelerate",
+   "uk": "-25% до броні, -50% до сповільнення від топтання піхоти",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeRohanHorseShield",
+   "en": "Purchase Horsemen Shields (&R)",
+   "uk": "Придбати для загону «Щити вершників» (&R)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeRohanHorseShieldSnowbourn",
+   "en": "Purchase Horsemen Shields (&T)",
+   "uk": "Придбати для загону «Щити вершників» (&T)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeRohanHorseShield",
+   "en": "Upgrades this battalion with Horseman Shields\nSignificantly reduces the amount of damage taken from Arrows and Pikemen",
+   "uk": "Оснащує цей загін щитами вершників\nСуттєво зменшує пошкодження від стріл і пікінерів",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "TOOLTIP:LackRohanHorseShield",
+   "en": "Research upgrade at Stables to enable this equipment\nWhen equipped, significantly reduces the amount of damage taken from Archers and Pikemen",
+   "uk": "Придбайте покращення в «Конюшнях», щоб відкрити це спорядження\nПісля оснащення значно зменшує пошкодження від лучників і пікінерів",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanRohirrimArcherHorde",
+   "en": "Rohirrim Archers (&R)",
+   "uk": "Лучники-рогірими (&R)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:HordeRohanRohirrimArchers",
+   "en": "Rohirrim Archers",
+   "uk": "Лучники-рогірими",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanRohirrimArcherHorde",
+   "en": "Requires Level 2 Stables\nStrong vs. Swordsmen and Heroes\n\nRohirrim most adept at equestrian archery would form up into specialist regiments to repeatedly flank the enemy with arrow fire before retreating out of range.",
+   "uk": "Необхідно: Конюшні 2 рівня\nЕфективні проти мечників і героїв\n\nНайвправніші в кінній стрільбі рогірими збиралися в особливі загони, що раз у раз обходили ворога з флангу, засипали його стрілами й відходили на безпечну відстань.",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanRohirrimArcher",
+   "en": "Rohirrim Archer",
+   "uk": "Лучники-рогірими",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanSnowbournRider",
+   "en": "Riders of Snowbourn (&T)",
+   "uk": "Сноуборнські вершники (&T)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:HordeRohanSnowbournRider",
+   "en": "Riders of Snowbourn",
+   "uk": "Сноуборнські вершники",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanSnowbournRiderHorde",
+   "en": "Requires Level 2 Stables\nStrong vs. Cavalry, Monsters, and Heroes\nOn axe, strong frontline unit, weak vs. Cavalry and Archers\n\nThe Riders of Snowbourn were a heavy cavalry unit, capable of breaking the fiercest of enemy ranks and opening them up for the remainder of the army.",
+   "uk": "Необхідно: Конюшні 2 рівня\nЕфективні проти кавалерії, створінь і героїв\nЗ сокирами — сильний загін передової, слабкий проти кавалерії та лучників\n\nСноуборнські вершники були важкою кавалерією, здатною проломити найзапекліші ворожі ряди й відкрити їх для решти війська.",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanSnowbournRider",
+   "en": "Rider of Snowbourn",
+   "uk": "Сноуборнські вершники",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:SnowbournCharge",
+   "en": "Thunderous Charge",
+   "uk": "Громовий натиск",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSnowbournCharge",
+   "en": "Instead of trampling, when ordered to attack, Riders of Snowbourn charge with their lances, dealing +400% damage against units on their first attack at the cost of their lances\nRiders of Snowbourn re-equip their lances 20 seconds after leaving combat\nThe cooldown decreases with each level of any Stables present on the map\nDecreasing to 15 seconds on level 2 and to 10 seconds on level 3\nPassive ability",
+   "uk": "Замість топтання, отримавши наказ атакувати, Сноуборнські вершники йдуть у натиск зі списами й першою атакою завдають загонам +400% до пошкоджень, але втрачають списи\nСноуборнські вершники знову беруть списи через 20 сек. після виходу з бою\nЧас відновлення зменшується з кожним рівнем будь-яких конюшень на мапі\nДо 15 сек. на 2 рівні й до 10 сек. на 3 рівні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:SnowbournAxe",
+   "en": "Great Axes (&R)",
+   "uk": "Великі сокири (&R)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSnowbournAxe",
+   "en": "When purchased, permanently equips Riders of Snowbourn with Great Axes\nRiders of Snowbourn lose ability to trample but become more proficient in melee combat\nAllows switching formation for improved defensive capabilities\nLeft click to upgrade this unit",
+   "uk": "Після придбання Сноуборнські вершники назавжди отримують великі сокири\nВони втрачають здатність топтати, але краще б'ються в ближньому бою\nЗдатні змінювати стрій для підвищення оборони\nКлікніть, щоб покращити цей загін",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleSnowbourneLineFormation",
+   "en": "+60% armour and -40% speed",
+   "uk": "+60% броні\n-40% швидкості",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToggleCombatFormation",
+   "en": "Combat Formation (&W)",
+   "uk": "Бойовий стрій (&W)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildRohanKingsguardHorde",
+   "en": "Requires Level 3 Stables\nStrong vs. Swordsmen and Archers\nCan switch between Bow and Spear\n\nThese mounted elites formed the personal bodyguard of the King and his heirs, performing great deeds at arms to keep safe their charge.\nLimited to 3",
+   "uk": "Необхідно: Конюшні 3 рівня\nЕфективні проти мечників і лучників\nМожуть змінювати лук на спис\n\nЦя кінна знать становила особисту охорону короля та його спадкоємців, здійснюючи видатні подвиги на полі бою, аби захистити тих, кого їм було доручено оберігати.\n\nМаксимум 3 одночасно",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToggleRohirrimWeapons",
+   "en": "Alternate Weapon (&W)",
+   "uk": "Змінити зброю (&W)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleRohirrimWeapons",
+   "en": "Left click to switch weapons",
+   "uk": "Клікніть, щоб змінити зброю",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:KingsguardLeadership",
+   "en": "Royal Escort",
+   "uk": "Королівський супровід",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipKingsguardLeadership",
+   "en": "Modifier Type: Leadership\nThe Kingsguards grant nearby heroes +15% armour\n\nPassive ability",
+   "uk": "Тип ефекту: Лідерство\nКоролівська гвардія дає героям поблизу бонус +15% броні\n\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructRohanKingsguardHorde",
+   "en": "Mounted Kingsguard (&S)",
+   "uk": "Кінна королівська гвардія (&S)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:HordeRohanGuardCav",
+   "en": "Mounted Kingsguard",
+   "uk": "Кінна королівська гвардія",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "OBJECT:RohanGuard",
+   "en": "Mounted Kingsguard",
+   "uk": "Кінна королівська гвардія",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGondorStableLevel3Upgrade",
+   "en": "Upgrade Stables to Level 3 (&A)",
+   "uk": "Покращити конюшні до 3-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-11",
+   "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
+  }
+ ]
+}

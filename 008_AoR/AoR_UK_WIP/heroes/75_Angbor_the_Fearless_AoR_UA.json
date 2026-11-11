@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "hero": "Angbor the Fearless",
+  "uk_name": "Анґбор Безстрашний",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "Pelargir",
+   "PelennorFields"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignAngbor"
+   ],
+   "битва": []
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:CampaignAngbor",
+   "type": "Ім'я",
+   "en": "Angbor the Fearless",
+   "ru": "",
+   "uk_ai": "Анґбор Безстрашний",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AngborLeadership",
+   "type": "Кнопка",
+   "en": "Fearless Warrior (&W)",
+   "ru": "",
+   "uk_ai": "Безстрашний воїн (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipAngborLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Debuff\nNearby enemy units lose -25% armour for 30 seconds\nAngbor is immune to debuffs whilst ability is active\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Ослаблення\nВорожі загони поблизу втрачають 25% броні на 30 сек.\nПоки здібність діє, Анґбор має імунітет до ослаблень\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AngborHorn",
+   "type": "Кнопка",
+   "en": "Horn of Lamedon (&R)",
+   "ru": "",
+   "uk_ai": "Ріг Ламедону (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAngborHorn",
+   "type": "Підказка",
+   "en": "Nearby infantry gain +20% bonus speed and resistance to fear, knockback and trample for 30 seconds\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Піхота поблизу отримує бонус +20% швидкості й стійкість до страху, відкидання та топтання на 30 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:AngborBlade",
+   "type": "Кнопка",
+   "en": "Fierce Strike (&T)",
+   "ru": "",
+   "uk_ai": "Лютий удар (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAngborBlade",
+   "type": "Підказка",
+   "en": "Angbor deals heavy damage to targeted hero\n Normal units are knocked down and damaged \n Left click then left click on target",
+   "ru": "",
+   "uk_ai": "Анґбор завдає великих пошкоджень вказаному героєві\n Звичайні загони збиває з ніг і завдає їм пошкоджень \n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

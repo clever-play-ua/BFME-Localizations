@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "hero": "Vâh-rús",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Rhun"
+  ],
+  "alternate factions": [
+   "rhun"
+  ],
+  "templates": [
+   "RhunVahRus"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:RhunVahRus",
+   "type": "Ім'я",
+   "en": "Vâh-rús",
+   "ru": "Вах-рус",
+   "uk_ai": "Вах-рус",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RanAuthority",
+   "type": "Кнопка",
+   "en": "Rân's Authority",
+   "ru": "Авторитет Рун",
+   "uk_ai": "Влада Ран",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRanAuthority",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nNearby allies gain +10% armour \nAt level 3, nearby allies gain +25% armour and damage\nAt level 6, nearby allies gain +50% armour and damage\nPassive Ability",
+   "ru": "Тип модификатора: Лидерство\\nБлижайшие союзники получают +10% брони\\nНа уровне 3, ближайшие союзники наносят +25% урона и получают +25% брони\\nНа уровне 6, ближайшие союзники наносят +50% урона и получают +50% брони\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзники поблизу отримують бонус +10% броні\nНа 3 рівні союзники поблизу отримують бонус +25% броні й пошкоджень\nНа 6 рівні союзники поблизу отримують бонус +50% броні й пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:WeightedBlow",
+   "type": "Кнопка",
+   "en": "Weighted Blow (&R)",
+   "ru": "Мощный удар (&R)",
+   "uk_ai": "Важкий удар (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWeightedBlow",
+   "type": "Підказка",
+   "en": "Requires Level 2\nVâh-rús performs a heavy strike against his enemies, knocking them back\nLeft click then left click on target",
+   "ru": "Требуется уровень 2\\nВах-рус наносит сильный удар по своим врагам, отбрасывая их назад\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 2\nВах-рус завдає ворогам важкого удару й відкидає їх\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:VahRusWarlordsDemand",
+   "type": "Кнопка",
+   "en": "Warlord's Demand (&T)",
+   "ru": "Требование полководца (&T)",
+   "uk_ai": "Вимога воєводи (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipVahRusWarlordsDemand",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Modifier Type: Spell and Active Debuff \n Targeted friendly units gain +33% damage and immunity to fear and terror for 30 seconds\n Targeted enemy units suffer -25% damage and -25% armour for 30 seconds\nLeft click icon then left click on target units",
+   "ru": "Требуется уровень 5\\nТип модификатора: Заклинание и ослабление\\nСоюзные отряды в радиусе действия наносят +33% урона и становятся невосприимчивыми к страху и ужасу на 30 секунд\\nВражеские отряды в радиусе действия теряют -25% урона и -25% брони на 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Заклинання й активне ослаблення\nОбрані союзні загони на 30 сек. отримують бонус +33% до пошкоджень та імунітет до страху й жаху\nОбрані ворожі загони на 30 сек. отримують штраф -25% пошкоджень і -25% броні\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityChosenGreatKhan",
+   "type": "Кнопка",
+   "en": "Onyx Emperor's Chosen (&C)",
+   "ru": "Избранник Ониксового императора (&C)",
+   "uk_ai": "Обранець Оніксового імператора (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityChosenGreatKhan",
+   "type": "Підказка",
+   "en": "Requires Level 8 \n Vâh-rús was personally empowered by the Onyx Emperor\nFor 30 seconds, he gains +100% armour, immunity to knockback, and knocks back enemies in a radius with his attacks\n At level 10, summons a battalion of Khân's Guard for 90 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 8\\nВах-рус был наделен личной властью Ониксового императора\\nОн получает +100% брони, сопротивление отбрасыванию и сам отбрасывает врагов своими атаками в течение 30 секунд\\nНа уровне 10, призывается отряд Стражей Хана на 90 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 8\nВах-руса особисто наділив силою Оніксовий імператор\nНа 30 сек. він отримує бонус +100% броні, імунітет до відкидання й відкидає ворогів довкола своїми ударами\nНа 10 рівні прикликає загін Варти Хана на 90 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityBlackDragon",
+   "type": "Кнопка",
+   "en": "Curse of the Black Dragon (&V)",
+   "ru": "Проклятие Черного дракона (&V)",
+   "uk_ai": "Прокляття Чорного дракона (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityBlackDragon",
+   "type": "Підказка",
+   "en": "Requires Level 10\nTarget enemies are engulfed in mystical dragonfire\n Enemies outside the blast are inflicted with fear\nLeft click then left click on target area",
+   "ru": "Требуется уровень 10\\nВраги поглощаются мистическим драконьим огнем\\nВраги, находящиеся вне зоны поражения, испытывают страх\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 10\nВорогів охоплює містичне драконяче полум'я\nВороги поза вибухом охоплені страхом\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

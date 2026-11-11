@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "hero": "Tom Bombadil",
+  "uk_name": "Том Бомбаділ",
+  "faction (ini Side)": [
+   "Neutral"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "TomBombadil"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:TomBombadil",
+   "type": "Ім'я",
+   "en": "Tom Bombadil",
+   "ru": "Том Бомбадил",
+   "uk_ai": "Том Бомбаділ",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SonicSong",
+   "type": "Кнопка",
+   "en": "Sonic Song (&W)",
+   "ru": "Песнь урагана (&W)",
+   "uk_ai": "Гучна пісня (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSonicSong",
+   "type": "Підказка",
+   "en": "A powerful attack that blasts back nearby enemies \n Left click icon then left click on target",
+   "ru": "Мощная атака, отбрасывающая врагов\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Потужна атака, що відкидає ворогів. \n Клікніть на іконку, потім оберіть ціль",
+   "status": "RotWK UA",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialPowerIncorruptable",
+   "type": "Кнопка",
+   "en": "Incorruptible (&R)",
+   "ru": "Невосприимчивый (&I)",
+   "uk_ai": "Незламний (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialPowerToolTipIncorruptable",
+   "type": "Підказка",
+   "en": "Nothing may harm the Master of wood, water and hill\nBombadil becomes immune to damage, and is resistant to knockback for 20 seconds\n Left click to activate",
+   "ru": "Ничто не может навредить Хозяину деревьев, воды и холмов\\nБомбадил становится невосприимчивым к урону и получает сопротивление отбрасыванию на 20 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Ніщо не зашкодить Господарю лісу, води й пагорбів\nБомбаділ на 20 сек. стає невразливим і отримує стійкість до відкидання\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SummonWillow",
+   "type": "Кнопка",
+   "en": "Old Man Willow (&T)",
+   "ru": "Старый Ивняк (&T)",
+   "uk_ai": "Стара верба (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSummonWillow",
+   "type": "Підказка",
+   "en": "Summons Old Man Willow for 30 seconds\nEnemy units around him are put to sleep\n Does not affect heroic units\n Left click icon then left click on pathable location",
+   "ru": "На поле боя появляется Старый Ивняк, который шепчет зачаровывающую песнь в течение 30 секунд\\nВражеские отряды погружаются в сон\\nНе действует на героические отряды\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Прикликає стару вербу на 30 сек.\nВорожі загони навколо неї засинають\nНе діє на героїв\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

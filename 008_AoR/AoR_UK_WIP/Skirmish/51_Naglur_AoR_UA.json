@@ -1,0 +1,118 @@
+{
+ "meta": {
+  "hero": "Naglûr",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Angmar"
+  ],
+  "alternate factions": [
+   "angmar",
+   "angmar wars"
+  ],
+  "templates": [
+   "AngmarNaglur"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:AngmarNaglur",
+   "type": "Ім'я",
+   "en": "Naglûr",
+   "ru": "Наглур",
+   "uk_ai": "Наґлур",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:NaglurStalker",
+   "type": "Кнопка",
+   "en": "Snowstalker (&W)",
+   "ru": "Снежный охотник (&W)",
+   "uk_ai": "Сніговий сталкер (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipNaglurStalker",
+   "type": "Підказка",
+   "en": "Naglûr can vanish into the snow\nand is able to skulk about unnoticed\nWhen activated, Naglûr becomes stealthed and can neither attack nor be attacked for 30 seconds\nPassive ability",
+   "ru": "Наглур может исчезать в снегу и способен незаметно красться\\nПосле активации, Наглур становится невидимым и не может ни атаковать, ни быть атакованным в течение 30 секунд\\nПассивная способность",
+   "uk_ai": "Наґлур може зникати в снігу\nй непомітно крастися\nПісля активації Наґлур на 30 сек. стає невидимим: його не можна атакувати, проте він і сам не може атакувати\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:NaglurLeadership",
+   "type": "Кнопка",
+   "en": "Chief of the Crag",
+   "ru": "Вождь скальных орков",
+   "uk_ai": "Головний на скелях",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipNaglurLeadership",
+   "type": "Підказка",
+   "en": "Requires Level 2\nModifier Type: Leadership\n Angmar Snaga, Pikemen and Hunters nearby Naglûr gain +50% experience and +35% armour\nAt Level 5, also affects Angmar Ravagers and Tomb Guard\nPassive ability",
+   "ru": "Требуется уровень 2\\nТип модификатора: Лидерство\\nСнага, копейщики и охотники Ангмара получают +35% брони и набирают опыт на +50% быстрее, находясь рядом с Наглуром\\nНа уровне 5, также действует на орков-разрушителей и стражей гробниц\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 2\nТип ефекту: Лідерство\nАнґмарські снаґи, пікінери й мисливці поряд із Наґлуром отримують бонус +35% броні й на 50% швидше набирають досвід\nНа 5 рівні діє також на анґмарських спустошувачів і гробничну варту\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:NaglurHoarfrost",
+   "type": "Кнопка",
+   "en": "Frozen Blood (&T)",
+   "ru": "Заледеневшая кровь (&T)",
+   "uk_ai": "Замерзла кров (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipNaglurHoarfrost",
+   "type": "Підказка",
+   "en": "Requires Level 3\nEnemy units within target radius take damage over time and are slowed by -33% for 15 seconds\nLeft click then left click target area",
+   "ru": "Требуется уровень 3\\nВражеские отряды в радиусе действия получают урон с течением времени и теряют -33% скорости в течение 15 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 3\nВорожі загони в обраному радіусі 15 сек. поступово отримують пошкодження й сповільнюються на 33%\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DarkKnowledge",
+   "type": "Кнопка",
+   "en": "Dark Knowledge (&C)",
+   "ru": "Темное знание (&C)",
+   "uk_ai": "Темне знання (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDarkKnowledge",
+   "type": "Підказка",
+   "en": "Requires Level 6\nTargeted Angmar Orcs gain large experience \n Left click then left click on target units",
+   "ru": "Требуется уровень 6\\nОрки Ангмара в области действия получают много опыта\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 6\nМиттєво наділяє обраних анґмарських орків великою кількістю досвіду\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:NaglurDreadfang",
+   "type": "Кнопка",
+   "en": "Dreadfang (&V)",
+   "ru": "Ужасный клык (&V)",
+   "uk_ai": "Страхоклик (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipNaglurDreadfang",
+   "type": "Підказка",
+   "en": "Requires Level 9\nNaglûr plunges his blade into his opponent\nTarget enemy hero takes damage over time for and and becomes a wight upon death\nEnemy units nearby target enemy heroes also suffer damage when ability is cast and become wights upon death\nLeft click then left click on target",
+   "ru": "Требуется уровень 9\\nНаглур вонзает свой клинок во врага\\nЦелевой вражеский герой получает урон с течением времени и после смерти превращается в призрака\\nВражеские отряды, находящиеся рядом с целевым героем, также получают урон при применении способности и после смерти превращаются в призраков\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 9\nНаґлур встромляє свій клинок у суперника\nОбраний ворожий герой поступово отримує пошкодження, а після смерті стає привидом\nВорожі загони поряд з обраним героєм теж отримують пошкодження, і після смерті теж стають привидами\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

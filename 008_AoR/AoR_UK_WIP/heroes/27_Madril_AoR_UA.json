@@ -1,0 +1,145 @@
+{
+ "meta": {
+  "hero": "Madril",
+  "uk_name": "Мадріл",
+  "campaigns": [
+   "FotR",
+   "TTT",
+   "RotK"
+  ],
+  "missions": [
+   "Party",
+   "Council",
+   "FordsofIsen",
+   "TamingofSmeagol",
+   "EavesofFangorn",
+   "DurinsTower",
+   "Ithilien",
+   "Westfold",
+   "GreyCompany",
+   "Osgiliath",
+   "HelmsDeep",
+   "Isengard",
+   "LordoftheRings",
+   "LightingoftheBeacons",
+   "PathsoftheDead",
+   "Pelargir",
+   "MinasTirithOuter",
+   "CirithUngol",
+   "MinasTirithInner",
+   "BlackGate",
+   "ManyPartings",
+   "ScouringoftheShire",
+   "GreyHavens"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignMadril"
+   ],
+   "битва": [
+    "CampaignMadril",
+    "IthilienMadril"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею.",
+  "see_also": "Спільні з іншими героями рядки є лише в одному файлі: Faramir"
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:GondorMadril",
+   "type": "Ім'я",
+   "en": "Madril",
+   "ru": "Мадриль",
+   "uk_ai": "Мадріл",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MadrilLeadership",
+   "type": "Кнопка",
+   "en": "Ranger Veteran",
+   "ru": "Следопыт-ветеран",
+   "uk_ai": "Слідопит-ветеран",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipMadrilLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Rangers near Madril earn experience 150% faster\n Passive ability",
+   "ru": "Тип модификатора: Лидерство\\nСледопыты рядом с Мадрилем набирают опыт на +150% быстрее\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nСлідопити поряд із Мадрілом на 150% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MadrilSnare",
+   "type": "Кнопка",
+   "en": "Master of Ambush (&C)",
+   "ru": "Мастер засад (&C)",
+   "uk_ai": "Майстер засідок (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMadrilSnare",
+   "type": "Підказка",
+   "en": "An experienced Ranger, Madril knows how best to execute a successful ambush upon his foes \n Madril stuns nearby enemies for 5 seconds\n Left click then left click target location",
+   "ru": "Опытный следопыт Мадрил знает, как лучше всего устроить успешную засаду своим врагам\\nМадрил оглушает ближайших врагов на 5 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевое местоположение",
+   "uk_ai": "Досвідчений слідопит Мадріл знає, як найкраще влаштувати ворогам засідку\nМадріл приголомшує ворогів поблизу на 5 сек.\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:MadrilSnareAdventure",
+   "type": "Кнопка",
+   "en": "Master of Ambush (&T)",
+   "ru": "Мастер засад (&T)",
+   "uk_ai": "Майстер засідок (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMadrilAmbush",
+   "type": "Підказка",
+   "en": "Requires Level 3\nAn experienced Ranger, Madril knows how best to execute a successful ambush upon his foes \n Madril stuns nearby enemies for 5 seconds\n Left click then left click target location",
+   "ru": "Требуется уровень 3\\nБудучи опытным следопытом, Мадриль знает, как лучше всего организовать успешную засаду на врагов\\nМадриль оглушает ближайших врагов на 5 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевой участок местности",
+   "uk_ai": "Необхідно: Рівень 3\nДосвідчений слідопит Мадріл знає, як найкраще влаштувати ворогам засідку\nМадріл приголомшує ворогів поблизу на 5 сек.\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:MadrilTeleport",
+   "type": "Кнопка",
+   "en": "Strategist (&C)",
+   "ru": "Стратег (&C)",
+   "uk_ai": "Стратег (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipMadrilTeleport",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Madril guides allied units from one location on the battlefield to anywhere on the map \n Does not work on siege units\n\n Left click icon, then left click on target units, then left click on pathable location",
+   "ru": "Требуется уровень 5\\nМадриль переносит союзные войска из одной точки на поле боя в любую другую точку на карте\\nНе действует на осадные орудия\\n\\nЩЩелкните левой кнопкой мыши на значок, затем на целевые отряды, после чего на целевую точку на карте",
+   "uk_ai": "Необхідно: Рівень 5\nМадріл переводить союзні загони з одного місця на полі бою в будь-яку точку мапи\nНе діє на облогові машини\n\nКлікніть на іконку, потім оберіть потрібні загони, а тоді — ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMadrilSacrifice",
+   "type": "Підказка",
+   "en": "Requires Level 8 \n Modifier Type: Spell \n Madril suffers heavy damage while targeted allied hero becomes immune to damage for 10 seconds\n Left click icon then left click on target hero",
+   "ru": "Требуется уровень 8\\nТип модификатора: Заклинание\\nМадрилю наносится огромный урон, а союзный герой становится неуязвимым на 10 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевого героя",
+   "uk_ai": "Необхідно: Рівень 8\nТип ефекту: Заклинання\nМадріл отримує важкі пошкодження, а обраний союзний герой на 10 сек. стає невразливим\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "hero": "Shade of Isildur",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Dunharrow"
+  ],
+  "alternate factions": [
+   "dunharrow"
+  ],
+  "templates": [
+   "DunharrowIsildur"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:DunharrowIsildur",
+   "type": "Ім'я",
+   "en": "Shade of Isildur",
+   "ru": "",
+   "uk_ai": "Тінь Ісілдура",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilitySolemnCurse",
+   "type": "Кнопка",
+   "en": "Solemn Curse (&W)",
+   "ru": "",
+   "uk_ai": "Урочисте прокляття (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilitySolemnCurse",
+   "type": "Підказка",
+   "en": "The Shade of Isildur curses target enemies\nwithin a large radius, dealing heavy damage and resurrecting the dead\nas Risen Dead under the player's control\nLeft click icon then left click on target enemies",
+   "ru": "",
+   "uk_ai": "Тінь Ісілдура накладає прокляття на обраних ворогів\nу великому радіусі завдає значних пошкоджень і підіймає загиблих\nв якості Повсталих мерців під контролем гравця\nКлікніть на іконку, потім оберіть ворогів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityKeeperOaths",
+   "type": "Кнопка",
+   "en": "Keeper of Oaths",
+   "ru": "",
+   "uk_ai": "Хранитель присяг",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityKeeperOaths",
+   "type": "Підказка",
+   "en": "The Shade of Isildur temporarily summons a Gondorian Shade per attack\nEach Gondorian Shade lasts on the field for 10 seconds\nPassive ability",
+   "ru": "",
+   "uk_ai": "З кожною атакою Тінь Ісілдура тимчасово прикликає ґондорську тінь\nКожна ґондорська тінь лишається на полі бою 10 сек.\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityMadnessTerror",
+   "type": "Кнопка",
+   "en": "Madness of Terror (&T)",
+   "ru": "",
+   "uk_ai": "Безумство жаху (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityMadnessTerror",
+   "type": "Підказка",
+   "en": "Blasts back and damages units in a wide radius surrounding the Shade of Isildur\nCancels all leadership effects across the map for 30 seconds\n Enemy units mapwide flee in terror for 10 seconds\nLeft click to activate",
+   "ru": "",
+   "uk_ai": "Відкидає загони в широкому радіусі навколо Тіні Ісілдура й завдає їм пошкоджень\nНа 30 сек. скасовує всі ефекти лідерства по всій мапі\nВорожі загони по всій мапі на 10 сек. тікають у жаху\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityIsildurBane",
+   "type": "Кнопка",
+   "en": "Isildur's Bane (&C)",
+   "ru": "",
+   "uk_ai": "Кара Ісілдура (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityIsildurBane",
+   "type": "Підказка",
+   "en": "Modifier Type: Debuff\nNearby enemy units are unable to gain experience\nPassive ability\nTarget enemies' special ability timers are reset to just used\n Left click icon then left click on target area",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Ослаблення\nВорожі загони поблизу не можуть набирати досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~\nУсі здібності обраних ворогів скидаються, ніби їх щойно застосували\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:IsildurNoEscape",
+   "type": "Кнопка",
+   "en": "No Escape (&V)",
+   "ru": "",
+   "uk_ai": "Не втечеш (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIsildurNoEscape",
+   "type": "Підказка",
+   "en": "Target enemy hero is pinned, surrounded by Oathbreakers and takes damage over time for 20 seconds\nLeft click icon then left click on target",
+   "ru": "",
+   "uk_ai": "Знерухомлює обраного ворожого героя, його оточують порушники присяги, і на 20 сек. він отримує пошкодження\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

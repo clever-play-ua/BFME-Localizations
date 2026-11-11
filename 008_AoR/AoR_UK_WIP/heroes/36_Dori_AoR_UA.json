@@ -1,0 +1,69 @@
+{
+ "meta": {
+  "hero": "Dori",
+  "uk_name": "Дорі",
+  "campaigns": [
+   "FotR",
+   "RotK"
+  ],
+  "missions": [
+   "Council",
+   "BattleofDale"
+  ],
+  "templates": {
+   "кампанія": [
+    "DwarvenDori"
+   ],
+   "битва": []
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:Dori",
+   "type": "Ім'я",
+   "en": "Dori",
+   "ru": "Дори",
+   "uk_ai": "Дорі",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DwarfBrothersThree",
+   "type": "Кнопка",
+   "en": "Brothers Three",
+   "ru": "Три брата",
+   "uk_ai": "Три брати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwarfBrothersThree",
+   "type": "Підказка",
+   "en": "Modifier Type: Spell \n Ori, Nori and Dori gain +15% damage and +15% armour when near each other \nPassive ability",
+   "ru": "Тип модификатора: Заклинание\\nОри, Нори и Дори наносят +15% урона и получают +15% брони, находясь рядом друг с другом\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Заклинання\nПоряд одне з одним Орі, Норі й Дорі отримують бонус +15% до пошкоджень і +15% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DoriConnoisseur",
+   "type": "Кнопка",
+   "en": "Connoisseur (&R)",
+   "ru": "Эстет (&R)",
+   "uk_ai": "Поціновувач (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDoriConnoisseur",
+   "type": "Підказка",
+   "en": "Known for enjoying the finer things in life, Dori seeks to refine those he deems uncultured \n Refreshes target friendly hero's special ability timers \n Left click icon then left click on target hero",
+   "ru": "Известный своей любовью к изысканным вещам, Дори стремится привить хороший вкус тем, кого считает некультурными\\nСпособности союзного героя полностью перезаряжаются\\nЩелкните левой кнопкой мыши на значок, затем на целевого героя",
+   "uk_ai": "Дорі любить вишукані речі й прагне облагородити тих, кого вважає неотесаними\nПовністю скидає таймер відновлення здібностей обраного союзного героя\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

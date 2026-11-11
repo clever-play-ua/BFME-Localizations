@@ -1,0 +1,153 @@
+{
+ "meta": {
+  "hero": "King Brand",
+  "uk_name": "Король Бранд",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "BattleofDale"
+  ],
+  "templates": {
+   "кампанія": [
+    "FellowshipKingBrand"
+   ],
+   "битва": [
+    "DwarvenBrand"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:DwarvenCaptainofDaleOld",
+   "type": "Ім'я",
+   "en": "King Brand",
+   "ru": "Король Бранд",
+   "uk_ai": "Король Бранд",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToggleBrandWeapons",
+   "type": "Кнопка",
+   "en": "Toggle Weapon (&W)",
+   "ru": "Сменить оружие (&W)",
+   "uk_ai": "Змінити зброю (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleBrandWeapons",
+   "type": "Підказка",
+   "en": "Left click to toggle between bow and sword",
+   "ru": "ЛКМ - переключение между луком и мечом",
+   "uk_ai": "Клікніть, щоб перемкнутися між луком і мечем",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BrandSlamArrow",
+   "type": "Кнопка",
+   "en": "Black Arrow of Dale (&R)",
+   "ru": "Черная стрела Дэйла (&R)",
+   "uk_ai": "Чорна стріла Дейлу (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBrandSlamArrowNew",
+   "type": "Підказка",
+   "en": "A precise arrow shot that deals splash damage and knocks targeted units and heroes back\nAt level 5, targeted units and heroes lose -33% armour for 30 seconds\n At level 8, targeted units and heroes lose -25% movement speed for 30 seconds\n Left click icon then left click on target unit",
+   "ru": "Точный выстрел, наносящий урон по площади и отбрасывающий врагов\\nНа уровне 5, враги теряют -33% брони в течение 30 секунд\\nНа уровне 8, враги также теряют -25% скорости передвижения в течение 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Влучний постріл, що завдає пошкоджень по площі й відкидає обрані загони та героїв\nНа 5 рівні обрані загони й герої на 30 сек. втрачають 33% броні\nНа 8 рівні обрані загони й герої на 30 сек. втрачають 25% швидкості руху\nКлікніть на іконку, потім оберіть загін",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BrandLeadership",
+   "type": "Кнопка",
+   "en": "King of the Bardings (&T)",
+   "ru": "Король бардингов (&T)",
+   "uk_ai": "Король бардінґів (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBrandLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nKing Brand gains +33% armour when near King Dáin\n\nNearby Mannish allies gain +15% damage and armour\nAt Level 4, nearby Mannish allies gain +25% damage and +33% armour\n Passive ability \n\n At Level 8, Brand can summon a battalion of Barding Outriders \n Left click to activate",
+   "ru": "Тип модификатора: Лидерство\\nКороль Бранд получает +33% брони, находясь рядом с королем Даином\\n\\nБлижайшие войска Дэйла наносят +15% урона и получают +15% брони\\nНа уровне 4, наносят +25% урона и получают +33% брони\\nПассивная способность\\n\\nНа уровне 8, Бранд может вызвать отряд бардингов-всадников\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Тип ефекту: Лідерство\nПоряд із Королем Дайном Король Бранд отримує бонус +33% броні\n\nСоюзники-люди поблизу отримують бонус +15% до пошкоджень і броні\nНа 4 рівні союзники-люди поблизу отримують бонус +25% до пошкоджень і +33% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nНа 8 рівні Бранд може прикликати загін бардінґських вершників-розвідників\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BrandHuntersMark",
+   "type": "Кнопка",
+   "en": "Mark of the Thrush (&C)",
+   "ru": "Знак дрозда (&C)",
+   "uk_ai": "Знак дрозда (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBrandHuntersMark",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Enemies within the radius take +33% damage from ranged attacks for 30 seconds\n Left click then left click on target areas",
+   "ru": "Требуется уровень 5\\nВраги в радиусе действия получают +33% урона от дальних атак в течение 30 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Необхідно: Рівень 5\nВороги в радіусі на 30 сек. отримують на 33% більше пошкоджень від атак на відстані\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BrandDragonSlayer",
+   "type": "Кнопка",
+   "en": "Descendant of the Dragonslayer (&V)",
+   "ru": "Потомок драконоборцев (&V)",
+   "uk_ai": "Нащадок драконоборця (&V)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBrandDeadEye",
+   "type": "Підказка",
+   "en": "Requires Level 10 \n Bow must be equipped \n Brand gains increased +15% attack speed, +100% damage, and +33% range\n Brand does bonus damage against monsters and flying units\nLasts for 20 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 10\\nЛук должен быть экипирован\\nБранд наносит +100% урона, получает +15% скорости атаки и +33% дальности атаки\\nБранд наносит дополнительный урон монстрам и летающим существам\\nЭффект длится 20 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10\nЛише з луком у руках\nБранд отримує бонус +15% швидкості атаки, +100% до пошкоджень і +33% дальності\nБранд завдає додаткових пошкоджень створінням і летючим загонам\nДіє 20 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BrandPommelStrike",
+   "type": "Кнопка",
+   "en": "Pommel Strike (&R)",
+   "ru": "Удар навершием (&R)",
+   "uk_ai": "Удар руків'ям (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBrandPommelStrike",
+   "type": "Підказка",
+   "en": "A strike that deals splash damage \n At level 5, knocks targeted units back \n At level 8, targeted enemy unit or hero is crippled for 10 seconds\n Left click icon then left click on target",
+   "ru": "Сильный удар, наносящий урон по площади\\nНа уровне 5, отбрасывает врагов\\nНа уровне 8, целевой враг или герой обездвиживается на 10 секунд\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Удар, що завдає пошкоджень по площі\nНа 5 рівні відкидає обрані загони\nНа 8 рівні обраний ворожий загін чи герой калічиться на 10 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

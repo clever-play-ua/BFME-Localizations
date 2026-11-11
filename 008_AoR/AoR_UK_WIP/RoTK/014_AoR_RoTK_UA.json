@@ -1,0 +1,591 @@
+{
+ "meta": {
+  "mission": "014_Grey Havens",
+  "campaign": "Return of the King (AoR 10.0)",
+  "count": 58,
+  "fields": "var — мітка; type — Назва/Ціль/Діалог/Репліка/Інше/Кнопка; ru — RU 9.3.1, якщо є; uk_ai — поточний текст (правте прямо тут); status — вичитано / чернетка AI; uk — порожньо",
+  "notes": "\\n — перенос рядка, кількість має збігатися з EN; гарячі клавіші (&W) латиницею. Здібності героїв винесені в папку heroes."
+ },
+ "strings": [
+  {
+   "var": "CampaignName:GreyHavens",
+   "mission": "014_Grey Havens",
+   "type": "Назва",
+   "en": "Grey Havens",
+   "ru": "",
+   "uk_ai": "Сірі Гавані",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:CINE_2011A",
+   "mission": "014_Grey Havens",
+   "type": "Інше",
+   "en": "I am the Magic Plate of Fudge.\nYou have succeeded in completing every bonus objective of this campaign.",
+   "ru": "",
+   "uk_ai": "Я — Чарівна Тарілка Помадки.\nВи виконали всі додаткові завдання цієї кампанії.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:CINE_2011B",
+   "mission": "014_Grey Havens",
+   "type": "Інше",
+   "en": "Send a message to ModMail on the Age of the Ring Discord server containing this secret code: lotsoffudge.\nThen you will be rewarded.",
+   "ru": "",
+   "uk_ai": "Надішліть у ModMail на Discord-сервері Age of the Ring повідомлення з цим секретним кодом: lotsoffudge.\nІ тоді отримаєте нагороду.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:CINE_2011C",
+   "mission": "014_Grey Havens",
+   "type": "Інше",
+   "en": "Ok, bye.",
+   "ru": "",
+   "uk_ai": "Ну, бувай.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:Objective01_GreyHavens",
+   "mission": "014_Grey Havens",
+   "type": "Ціль",
+   "en": "Bring the Hobbits to the dock.",
+   "ru": "",
+   "uk_ai": "Приведіть гобітів до причалу.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo107",
+   "mission": "014_Grey Havens",
+   "type": "Діалог",
+   "en": "Frodo: Bilbo once told me... his part in this tale would end... that each of us must come and go in the telling",
+   "ru": "",
+   "uk_ai": "Фродо: Колись Більбо сказав мені... що його роль у цій історії скінчиться... що кожен із нас приходить і йде в оповіді",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo108",
+   "mission": "014_Grey Havens",
+   "type": "Діалог",
+   "en": "Frodo: Bilbo's story was now over... there would be no more journeys for him... save one.",
+   "ru": "",
+   "uk_ai": "Фродо: Тепер історія Більбо скінчилася... більше не буде для нього мандрів... крім однієї.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_bilbo005",
+   "mission": "014_Grey Havens",
+   "type": "Діалог",
+   "en": "Bilbo: Tell me again lad... where are we going?",
+   "ru": "",
+   "uk_ai": "Більбо: Нагадай-но, хлопче... куди ми йдемо?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo109",
+   "mission": "014_Grey Havens",
+   "type": "Діалог",
+   "en": "Frodo: To the harbour Bilbo... the elves have accorded you a special honour...\n a place on the last ship to leave Middle-Earth.",
+   "ru": "",
+   "uk_ai": "Фродо: До гавані, Більбо... ельфи виявили тобі особливу честь —\n місце на останньому кораблі, що покидає Середзем'я.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gandalf428",
+   "mission": "014_Grey Havens",
+   "type": "Діалог",
+   "en": "Gandalf: Once you are ready, my dear Bilbo, come and see me at the dock. \n But do not be too hasty, for this is an adventure that neither you nor I shall return from.",
+   "ru": "",
+   "uk_ai": "Ґендальф: Коли будеш готовий, мій любий Більбо, приходь до мене на причал. \n Але не поспішай, бо з цієї пригоди не повернемося ні ти, ні я.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elfpoet001",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "To the Sea, to the Sea... the white gulls are crying...",
+   "ru": "",
+   "uk_ai": "До Моря, до Моря... білі чайки кричать...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elfpoet002",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "The wind is blowing, and the white foam is flying.",
+   "ru": "",
+   "uk_ai": "Вітер віє, і білі піни летять.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elfpoet003",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "West, west away, the round sun is falling.",
+   "ru": "",
+   "uk_ai": "Захід, захід далекий, кругле сонце сідає.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elfpoet004",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "Grey ship, grey ship, do you hear them calling.",
+   "ru": "",
+   "uk_ai": "Сірий корабель, сірий корабель, чи чуєш — вони гукають.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elfpoet005",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "The voices of my people that have gone before me.",
+   "ru": "",
+   "uk_ai": "Голоси мого народу, що пішов раніше від мене.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elfpoet006",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "I will leave, I will leave the woods that bore me.",
+   "ru": "",
+   "uk_ai": "Я покину, покину ліси, що мене породили.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elfpoet007A",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "For our days are ending...",
+   "ru": "",
+   "uk_ai": "Бо наші дні добігають кінця...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elfpoet007B",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "and our years failing.",
+   "ru": "",
+   "uk_ai": "і роки наші згасають.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elfpoet008",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "I will pass the wide waters lonely sailing.",
+   "ru": "",
+   "uk_ai": "Я пропливу широкі води самотнім вітрилом.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elfpoet009",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "Long are the waves on the Last Shore falling..",
+   "ru": "",
+   "uk_ai": "Довгі хвилі на Останній Берег спадають..",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elfpoet010",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "Sweet are the voices in the Lost Isle calling.",
+   "ru": "",
+   "uk_ai": "Солодкі голоси на Загубленому Острові кличуть.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elfpoet011A",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "In Eressëa...",
+   "ru": "",
+   "uk_ai": "На Ерессеа...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elfpoet011B",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "in Elvenhome...",
+   "ru": "",
+   "uk_ai": "в Ельфійській Домівці...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elfpoet011C",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "that no man can discover.",
+   "ru": "",
+   "uk_ai": "якої жодна людина не знайде.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elfpoet012A",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "Where the leaves fall not...",
+   "ru": "",
+   "uk_ai": "Де листя не опадає...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_elfpoet012B",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "land of my people for ever...",
+   "ru": "",
+   "uk_ai": "край мого народу навіки...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_bilbo009",
+   "mission": "014_Grey Havens",
+   "type": "Діалог",
+   "en": "Bilbo: Oh! Well, here's a sight I have never seen before.",
+   "ru": "",
+   "uk_ai": "Більбо: О! Ну, такого я ще ніколи не бачив.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin139",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "I wonder if a Took has ever walked these paths before...",
+   "ru": "",
+   "uk_ai": "Цікаво, чи ходив колись цими стежками хтось із Туків...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_merry035",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "Have they all left?",
+   "ru": "",
+   "uk_ai": "Вони всі вже відпливли?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam173",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "It appears their time has ended...",
+   "ru": "",
+   "uk_ai": "Схоже, їхній час скінчився...",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_bilbo012",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "My what a beautiful place",
+   "ru": "",
+   "uk_ai": "Ох, яке ж гарне місце",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_bilbo015",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "Look at that tree... how old do you think it is?",
+   "ru": "",
+   "uk_ai": "Поглянь на те дерево... як гадаєш, скільки йому років?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_bilbo006",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "Frodo... any chance of seeing that old ring of mine again? The one I gave you.",
+   "ru": "",
+   "uk_ai": "Фродо... а можна ще раз побачити той мій старий перстень? Той, що я тобі віддав.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo110",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "Sorry, Uncle... I'm afraid I lost it",
+   "ru": "",
+   "uk_ai": "Вибач, дядечку... боюся, я його загубив",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_bilbo007",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "Oh... pity",
+   "ru": "",
+   "uk_ai": "О... шкода",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_bilbo008",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "Should like to have held it one last time.",
+   "ru": "",
+   "uk_ai": "Хотілося б потримати його востаннє.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin152",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "Ereinion Gil-galad; Last High King of the Noldor.",
+   "ru": "",
+   "uk_ai": "Ерейніон Ґіл-ґалад; останній Верховний Король нолдорів.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam188",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "Gil-galad was an elven-king.\n Of him the harpers sadly sing;",
+   "ru": "",
+   "uk_ai": "Ґіл-ґалад був ельфів король.\n Про нього арфи плачуть досі;",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam189",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "the last whose realm was fair and free,\n between the Mountains and the Sea.",
+   "ru": "",
+   "uk_ai": "останній, чий був вільний край\n між Горами й Морем, повний розквіту.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam190",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "His sword was long, his lance was keen.\n His shining helm afar was seen;",
+   "ru": "",
+   "uk_ai": "Довгим був меч, гострим — спис.\n Сяйний шолом здаля видніє;",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam191",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "the countless stars of heaven's field,\n were mirrored in his silver shield.",
+   "ru": "",
+   "uk_ai": "безліч зірок небесних нив\n у срібнім щиті його мріє.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam192",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "But long ago he rode away,\n and where he dwelleth none can say;",
+   "ru": "",
+   "uk_ai": "Та він давно поїхав геть,\n і де живе — не скаже жоден;",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam193",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "for into darkness fell his star,\n in Mordor where the shadows are.",
+   "ru": "",
+   "uk_ai": "бо в темряву зоря його впала,\n в Мордорі, де тіні бродять.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gildor013",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "It brightens my spirit to see you, Frodo. Word of your bravery and sacrifice has reached far.\n I hope the end of your journey will bring you peace.",
+   "ru": "",
+   "uk_ai": "Радіє дух мій, бачачи тебе, Фродо. Звістка про твою хоробрість і жертовність розлетілася далеко.\n Сподіваюся, кінець твоєї подорожі принесе тобі спокій.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo112",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "Your aid proved invaluable, Gildor Inglorion. Middle-earth owes you a great debt.",
+   "ru": "",
+   "uk_ai": "Твоя допомога була неоціненною, Ґілдоре Інґлоріоне. Середзем'я у великому боргу перед тобою.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_gildor014",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "Think nothing of it, my friends. May the light of Telperion ever illuminate your paths.",
+   "ru": "",
+   "uk_ai": "Пусте, друзі мої. Хай світло Тельперіона завжди осяює ваші шляхи.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam174",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "What does it say, mister Frodo?",
+   "ru": "",
+   "uk_ai": "Що там написано, пане Фродо?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo137",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "It is a stone commemorating the first arrival of the Men of Westernesse in Middle-earth, in the year 600 of the Second Age.",
+   "ru": "",
+   "uk_ai": "Це камінь на пам'ять про перше прибуття людей Вестернесу до Середзем'я, у 600 році Другої Епохи.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_frodo138",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "Veantur was their captain's name. Their ship was Entulesse.",
+   "ru": "",
+   "uk_ai": "Їхнього капітана звали Веантур. А корабель — Ентулессе.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam183",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "What a pretty thing.",
+   "ru": "",
+   "uk_ai": "Яка гарна річ.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin153",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "It reminds me of Rivendell.",
+   "ru": "",
+   "uk_ai": "Нагадує мені Рівенделл.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_pippin154",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "It's so quiet.",
+   "ru": "",
+   "uk_ai": "Тут так тихо.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_merry053",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "It's like we're the only ones left in the world.",
+   "ru": "",
+   "uk_ai": "Наче ми лишилися єдині на всьому світі.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_merry054",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "How old is this place?",
+   "ru": "",
+   "uk_ai": "Скільки ж років цьому місцю?",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_merry055",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "Listen, I can hear the birds.",
+   "ru": "",
+   "uk_ai": "Слухай, я чую птахів.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam194",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "I never thought I'd see the sea Mr Frodo.",
+   "ru": "",
+   "uk_ai": "Ніколи не думав, що побачу море, пане Фродо.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:mgfotr_sam195",
+   "mission": "014_Grey Havens",
+   "type": "Репліка",
+   "en": "Look at those flowers, they're still blooming even though there's no one to see them.",
+   "ru": "",
+   "uk_ai": "Погляньте на ці квіти — вони досі цвітуть, хоч їх ніхто й не бачить.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "SCRIPT:RivendellRevelerX",
+   "mission": "014_Grey Havens",
+   "type": "Інше",
+   "en": "Elf poet",
+   "ru": "",
+   "uk_ai": "Ельфійський поет",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

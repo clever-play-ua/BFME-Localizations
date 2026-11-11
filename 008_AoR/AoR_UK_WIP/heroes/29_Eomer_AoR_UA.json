@@ -1,0 +1,158 @@
+{
+ "meta": {
+  "hero": "Éomer",
+  "uk_name": "Еомер",
+  "campaigns": [
+   "FotR",
+   "TTT",
+   "RotK"
+  ],
+  "missions": [
+   "Party",
+   "FordsofIsen",
+   "TamingofSmeagol",
+   "EavesofFangorn",
+   "DurinsTower",
+   "Ithilien",
+   "Westfold",
+   "GreyCompany",
+   "Osgiliath",
+   "HelmsDeep",
+   "Isengard",
+   "LordoftheRings",
+   "LightingoftheBeacons",
+   "PathsoftheDead",
+   "Pelargir",
+   "MinasTirithOuter",
+   "CirithUngol",
+   "MinasTirithInner",
+   "PelennorFields",
+   "BlackGate",
+   "ManyPartings",
+   "ScouringoftheShire",
+   "GreyHavens"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignEomer",
+    "RohanEomer"
+   ],
+   "битва": [
+    "RohanEomer"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:RohanEomer",
+   "type": "Ім'я",
+   "en": "Éomer",
+   "ru": "Эомер",
+   "uk_ai": "Еомер",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:HorseLordLeadership",
+   "type": "Кнопка",
+   "en": "Horse Lord",
+   "ru": "Военачальник рохиррим",
+   "uk_ai": "Повелитель коней",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEomerLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Allied cavalry near Éomer gain +33% damage and -25% trample deceleration \n\n Requires Level 3 \n Éomer and nearby units earn resources per kill \n\n Passive ability",
+   "ru": "Тип модификатора: Лидерство\\nДружественная кавалерия рядом с Эомером наносит +33% урона и получает -25% замедления при растаптывании\\n\\nТребуется уровень 3\\nЭомер и ближайшие союзники зарабатывают ресурсы за убийство врагов\\n\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзна кіннота поряд з Еомером отримує бонус +33% до пошкоджень і на 25% менше сповільнюється під час топтання\n\nНеобхідно: Рівень 3\nЕомер і загони поблизу отримують ресурси за кожне вбивство\n\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:EomerNewMount",
+   "type": "Кнопка",
+   "en": "Mount Firefoot / Dismount (&R)",
+   "ru": "Оседлать Огненога/ спешиться (&R)",
+   "uk_ai": "Осідлати Вогнекопита / Спішитися (&R)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:EomerNewMountTooltip",
+   "type": "Підказка",
+   "en": "Left click to switch between \n mounted on Firefoot and on foot",
+   "ru": "ЛКМ - переключение между\\nверхом на Огненоге\\спешившись",
+   "uk_ai": "Клікніть, щоб перемкнутися між\nверхи на Вогнекопиті й пішки",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ThrowSpear",
+   "type": "Кнопка",
+   "en": "Spear Throw (&T)",
+   "ru": "Бросок копья (&R)",
+   "uk_ai": "Кидок списа (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipThrowSpear",
+   "type": "Підказка",
+   "en": "Powerful ranged attack with radius damage \n Left click icon then left click on target",
+   "ru": "Мощная атака дальнего боя\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Потужна атака на відстані з пошкодженнями по площі \n Клікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:EomerBlademaster",
+   "type": "Кнопка",
+   "en": "Thirst of Gúthwinë (&C)",
+   "ru": "Жажда Гутвина (&C)",
+   "uk_ai": "Спрага Ґутвіна (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipEomerBlademaster",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Éomer gains +100% damage and deals splash damage for 30 seconds\n Left click to activate",
+   "ru": "Требуется уровень 5\\nЭомер наносит +100% урона и отбрасывает врагов атаками по площади в течение 30 секунд\\nЩелкните левой кнопкой мыши на значок, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nЕомер на 30 сек. отримує бонус +100% до пошкоджень і завдає пошкоджень по площі\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:EomerStandGround",
+   "type": "Кнопка",
+   "en": "Stand Your Ground (&V)",
+   "ru": "Держать cтрой! (&V)",
+   "uk_ai": "Тримати стрій (&V)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEomerStandGround",
+   "type": "Підказка",
+   "en": "Required: Rank 8 \n Modifier Type: Spell\n Creates a ring which gives +33% armour, +33% damage and resistance to knockback to units within it \n Lasts 60 seconds \n Left click to activate",
+   "ru": "Требуется уровень 8\\nТип модификатора: Заклинание\\nЭомер собирает всех в круг, внутри которого союзники наносят +33 урона, получают +33% брони и сопротивление отбрасыванию\\nЭффект длится 60 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 8\nТип ефекту: Заклинання\nСтворює коло, у якому загони отримують бонус +33% броні, +33% до пошкоджень і стійкість до відкидання\nДіє 60 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  }
+ ],
+ "Битва": []
+}

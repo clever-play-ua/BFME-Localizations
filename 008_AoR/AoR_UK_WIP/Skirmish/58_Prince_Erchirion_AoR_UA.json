@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "hero": "Prince Erchirion",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "DolAmroth"
+  ],
+  "alternate factions": [
+   "dol amroth"
+  ],
+  "templates": [
+   "DolAmrothErchirion"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:DolAmrothErchirion",
+   "type": "Ім'я",
+   "en": "Prince Erchirion",
+   "ru": "Принц Эрхирион",
+   "uk_ai": "Принц Ерхіріон",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ErchirionMount",
+   "type": "Кнопка",
+   "en": "Lïrdagnir (&W)",
+   "ru": "Лирдагнир (&W)",
+   "uk_ai": "Лірдаґнір (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipErchirionMount",
+   "type": "Підказка",
+   "en": "Left click to switch between \n mounted on Lïrdagnir and on foot",
+   "ru": "Щелкните левой кнопкой мыши, чтобы переключаться между\\nверхом на Лирдагнире или пешком",
+   "uk_ai": "Клікніть, щоб перемкнутися між їздою\nверхи на Лірдаґнірі та пішки",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ErchirionColdRage",
+   "type": "Кнопка",
+   "en": "Cold Rage (&R)",
+   "ru": "Холодная ярость (&R)",
+   "uk_ai": "Холодна лють (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipErchirionColdRage",
+   "type": "Підказка",
+   "en": "Requires Level 3\nErchirion knocks back enemy units and nearby enemy units suffer -15% armour for 30 seconds\nAt Level 6, Erchirion also gains +50% damage for 30 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 3\\nЭрхирион отбрасывает врагов своими атаками, а ближайшие вражеские отряды теряют -15% брони на 30 секунд\\nНа уровне 6, Эрхирион также наносит +50% урона в течение 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nЕрхіріон відкидає ворожі загони, а ворожі загони поблизу на 30 сек. отримують штраф -15% броні\nНа 6 рівні Ерхіріон також отримує бонус +50% до пошкоджень на 30 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ErchirionVeteranCommander",
+   "type": "Кнопка",
+   "en": "Veteran Commander (&T)",
+   "ru": "Ветеран-командир (&T)",
+   "uk_ai": "Досвідчений командир (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipErchirionVeteranCommander",
+   "type": "Підказка",
+   "en": "Requires Level 5\nErchirion sets up barriers to protect against missiles\nAllied units gain +66% armour against ranged attacks\nLeft click icon then left click on target area\n\nEnemies that attack Erchirion suffer -10% damage for 15 seconds\nPassive ability",
+   "ru": "Требуется уровень 5\\nЭрхирион устанавливает барьеры для защиты от снарядов\\nСоюзные отряды получают +66% брони от дальних атак\\nЩелкните левой кнопкой мыши на значок, затем на целевую область\\n\\nВраги, атакующие Эрхириона, теряют -10% урона в течение 15 секунд\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 5\nЕрхіріон ставить заслони від стріл і снарядів\nСоюзні загони отримують бонус +66% броні проти атак на відстані\nКлікніть на іконку, потім оберіть ділянку\n\nВороги, які атакують Ерхіріона, на 15 сек. отримують штраф -10% пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ErchirionStarPupil",
+   "type": "Кнопка",
+   "en": "Star Pupil (&C)",
+   "ru": "Блистательный ученик (&C)",
+   "uk_ai": "Найкращий учень (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipErchirionStarPupil",
+   "type": "Підказка",
+   "en": "Requires Level 7\nErchirion proves why he was the best at swordplay of all the Amrothian siblings and gains +75% armour for 30 seconds\nWhilst active, the effect of Veteran Commander's passive debuff is increased to -25% damage\nLeft click to activate",
+   "ru": "Требуется уровень 7\\nЭрхирион доказывает, почему он был лучшим фехтовальщиком среди всех братьев и сестер Амрота, и получает +75% брони на 30 секунд\\nПока активно, эффект пассивного ослабления Ветеран-командир увеличивается до -25% урона\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 7\nЕрхіріон доводить, чому він найкраще серед дітей Амрота володів мечем, і на 30 сек. отримує бонус +75% броні\nПоки діє здібність, пасивне ослаблення «Досвідченого командира» зростає до -25% пошкоджень\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ErchirionSacrifice",
+   "type": "Кнопка",
+   "en": "Desperate Sacrifice (&V)",
+   "ru": "Отчаянная жертва (&V)",
+   "uk_ai": "Відчайдушна жертва (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipErchirionSacrifice",
+   "type": "Підказка",
+   "en": "Requires Level 8\n Erchirion loses 25% health and makes the targeted hero immune to damage for 10 seconds\nAt Level 10, can be cast on an enemy hero to set their ability timers to just used\nLeft click icon then left click on target",
+   "ru": "Требуется уровень 8\\nЭрхирион теряет 25% здоровья, даруя союзному герою неуязвимость на 10 секунд\\nНа уровне 10, может быть наложено на вражеского героя, чтобы сбросить таймеры его способностей\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 8\nЕрхіріон втрачає 25% здоров'я, а обраний герой на 10 сек. стає невразливим\nНа 10 рівні можна застосувати до ворожого героя: усі його здібності скидаються, ніби їх щойно застосували\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

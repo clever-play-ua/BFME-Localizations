@@ -1,0 +1,115 @@
+{
+ "meta": {
+  "hero": "Berethor",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Men"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "GondorBerethor"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:GondorBerethor",
+   "type": "Ім'я",
+   "en": "Berethor",
+   "ru": "Беретор",
+   "uk_ai": "Беретор",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ShatteringStrike",
+   "type": "Кнопка",
+   "en": "Shattering Strike (&W)",
+   "ru": "Сокрушительный удар (&W)",
+   "uk_ai": "Нищівний удар (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShatteringStrike",
+   "type": "Підказка",
+   "en": "Berethor performs a powerful strike that deals heavy damage in a wide radius\n Left click icon then left click on target",
+   "ru": "Мощный удар, наносящий урон в большом радиусе\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Беретор завдає потужного удару, який завдає значних пошкоджень у широкому радіусі\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:RoyalGrace",
+   "type": "Кнопка",
+   "en": "Royal Grace",
+   "ru": "Королевское изящество",
+   "uk_ai": "Королівська ласка",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRoyalGrace",
+   "type": "Підказка",
+   "en": "Requires Level 3\n Modifier Type: Leadership \n Allies near Berethor gain +33% damage\nPassive ability",
+   "ru": "Требуется уровень 3\\nТип модификатора: Лидерство\\nСоюзники рядом с Беретором наносят +33% урона\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 3\nТип ефекту: Лідерство\nСоюзники поряд із Беретором отримують бонус +33% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ShieldofCourage",
+   "type": "Кнопка",
+   "en": "Shield of Courage",
+   "ru": "Щит мужества",
+   "uk_ai": "Щит мужності",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShieldofCourage",
+   "type": "Підказка",
+   "en": "Requires Level 5\n Modifier Type: Spell \n Allies near Berethor gain Resistance to fear and terror\n Passive ability",
+   "ru": "Требуется уровень 5\\nТип модификатора: Заклинание\\nСоюзники рядом с Беретором становятся невосприимчивыми к страху и ужасу\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 5\nТип ефекту: Заклинання\nСоюзники поряд із Беретором отримують імунітет до страху та жаху\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:CitadelMight",
+   "type": "Кнопка",
+   "en": "Citadel Might",
+   "ru": "Мощь Цитадели",
+   "uk_ai": "Сила Цитаделі",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCitadelMight",
+   "type": "Підказка",
+   "en": "Requires Level 6\n Modifier Type: Spell \n Berethor receives an increase in hitpoints and attack speed\n Passive ability",
+   "ru": "Требуется уровень 6\\nТип модификатора: Заклинание\\nБеретор получает увеличение здоровья и скорости атаки\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 6\nТип ефекту: Заклинання\nБеретор збільшує свою кількість здоров'я та швидкості атаки\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ChallengeofGondor",
+   "type": "Кнопка",
+   "en": "Challenge of Gondor (&R)",
+   "ru": "Призыв Гондора (&R)",
+   "uk_ai": "Випробування Ґондору (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipChallengeofGondor",
+   "type": "Підказка",
+   "en": "Modifier Type: Active Debuff \n Targeted enemy units suffer -25% damage and -25% armour for 30 seconds \n Left click icon then left click on target units",
+   "ru": "Тип модификатора: Ослабление\\nВыбранные вражеские отряды теряют -25% урона и -25% брони на 30 секунд\\nОтменяет вражеское лидерство\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды врага",
+   "uk_ai": "Тип ефекту: Активне ослаблення\nОбрані ворожі загони на 30 сек. отримують штраф -25% пошкоджень і -25% броні\nКлікніть на іконку, потім оберіть потрібні загони",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

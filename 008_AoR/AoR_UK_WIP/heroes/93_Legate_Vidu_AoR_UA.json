@@ -1,0 +1,115 @@
+{
+ "meta": {
+  "hero": "Legate Vidú",
+  "uk_name": "Леґат Віду",
+  "campaigns": [
+   "RotK"
+  ],
+  "missions": [
+   "BattleofDale"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignVidu"
+   ],
+   "битва": [
+    "DorwinionLegateVidu"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:FellowshipVidu",
+   "type": "Ім'я",
+   "en": "Legate Vidú",
+   "ru": "Легат Виду",
+   "uk_ai": "Леґат Віду",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ViduWineCourage",
+   "type": "Кнопка",
+   "en": "Through Wine, Courage (&W)",
+   "ru": "Кураж (&W)",
+   "uk_ai": "У вині — відвага (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipViduWineCourage",
+   "type": "Підказка",
+   "en": "When activated, nearby allied units are healed and become immune to fear and terror for 20 seconds\nReplenishes one fallen unit in nearby battalions\nLeft click to activate",
+   "ru": "После активации, ближайшие союзные отряды исцеляются и становятся невосприимчивыми к страху и ужасу в течение 20 секунд\\nВосполняет одного павшего воина в отрядах\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Після активації союзні загони поблизу зцілюються й на 20 сек. отримують імунітет до страху та жаху\nЗагони поблизу поновлюють по одному полеглому воїну\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DorwinionSoundAlarm",
+   "type": "Кнопка",
+   "en": "Sound the Alarm (&R)",
+   "ru": "Зов тревоги (&R)",
+   "uk_ai": "Сурміть тривогу (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDaleViduSoundAlarm",
+   "type": "Підказка",
+   "en": "Requires Level 3\nVidú blows his horn\nCan be cast on friendly units to increase movement speed by 25% for 15 seconds,\nor on enemy units to decrease movement speed by 25% for 15 seconds\nLeft click icon then left click on target",
+   "ru": "Требуется уровень 3\\nВиду трубит в рог\\nМожно применить к дружественным отрядам, чтобы увеличить их скорость на +25% в течение 15 секунд,\\nили к вражеским отрядам, чтобы уменьшить их скорость на -25% в течение 15 секунд\\nЩелкните левой кнопкой мыши на значок, затем на целевые отряды",
+   "uk_ai": "Необхідно: Рівень 3\nВіду сурмить у ріг\nНа союзні загони — на 15 сек. збільшує швидкість руху на 25%,\nна ворожі загони — на 15 сек. знижує швидкість руху на 25%\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DaleViduChallenge",
+   "type": "Кнопка",
+   "en": "Drunken Challenge (&T)",
+   "ru": "Пьяная бравада (&T)",
+   "uk_ai": "П'яний виклик (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDaleViduChallenge",
+   "type": "Підказка",
+   "en": "Requires Level 6\nVidú challenges the target enemy hero\nTargeted enemy hero loses -25% armour for 30 seconds\nVidú deals +25% damage to targeted hero for the duration\nLeft click icon then left click on target",
+   "ru": "Требуется уровень 6\\nВиду бросает вызов вражескому герою\\nВражеский герой теряет -25% брони на 30 секунд\\nВиду наносит целевому герою +25% дополнительного урона на время действия способности\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Необхідно: Рівень 6\nВіду кидає виклик обраному ворожому героєві\nОбраний ворожий герой на 30 сек. втрачає 25% броні\nПротягом цього часу Віду завдає йому на 25% більше пошкоджень\nКлікніть на іконку, потім оберіть ціль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ViduLegionFriend",
+   "type": "Кнопка",
+   "en": "Friend of the Legion (&C)",
+   "ru": "Друг легиона (&C)",
+   "uk_ai": "Друг легіону (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipViduLegionFriend",
+   "type": "Підказка",
+   "en": "Requires Level 9\nWhen activated, Vidú summons a random Dorwinion unit with every strike he performs for 30 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 9\\nПосле активации, Виду вызывает одиночных легионеров Дорвиниона с каждой атакой в течение 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 9\nПісля активації Віду на 30 сек. кожним ударом прикликає випадковий загін Дорвініону\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:ToolTipDorwinionViduLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nNearby Dorwinion units gain +33% damage, +33% armour, and earn experience 50% faster\nPassive ability\n\nWhen activated, nearby allied units are healed and become immune to fear and terror for 20 seconds\nReplenishes one fallen unit in nearby battalions\nLeft click to activate",
+   "ru": "Тип модификатора: Лидерство\\nБлижайшие отряды Дорвиниона наносят +33% урона, получают +33% брони и набирают опыт на +50% быстрее\\nПассивная способность\\n\\nПосле активации, ближайшие союзные отряды исцеляются и становятся невосприимчивыми к страху и ужасу на 20 секунд\\nВосполняет одного павшего воина в отрядах\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Тип ефекту: Лідерство\nЗагони Дорвініону поблизу отримують бонус +33% до пошкоджень, +33% броні й на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації союзні загони поблизу зцілюються й на 20 сек. отримують імунітет до страху та жаху\nКожен загін поблизу поновлює одного полеглого воїна\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

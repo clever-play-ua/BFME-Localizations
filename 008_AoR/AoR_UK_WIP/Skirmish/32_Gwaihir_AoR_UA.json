@@ -1,0 +1,79 @@
+{
+ "meta": {
+  "hero": "Gwaihir",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Rivendell"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "HighPassGwaihirRecruit"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:HighPassGwaihir",
+   "type": "Ім'я",
+   "en": "Gwaihir",
+   "ru": "",
+   "uk_ai": "Ґвайгір",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PurchaseHighPassGwaihir",
+   "type": "Кнопка",
+   "en": "&Gwaihir",
+   "ru": "",
+   "uk_ai": "Ґвайгір (&G)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseHighPassGwaihir",
+   "type": "Підказка",
+   "en": "Recruit the Lord of Eagles \n",
+   "ru": "",
+   "uk_ai": "Завербувати Володаря орлів\n",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:LordofEagles",
+   "type": "Кнопка",
+   "en": "Lord of Eagles",
+   "ru": "",
+   "uk_ai": "Володар орлів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLordofEagles",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Nearby heroes earn experience 50% faster, gain +25% armour, and +15% speed\n Passive ability",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Лідерство\nГерої поблизу на 50% швидше набирають досвід і отримують бонус +25% броні та +15% швидкості\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:DreadAura",
+   "type": "Кнопка",
+   "en": "Aura of the Windlord",
+   "ru": "",
+   "uk_ai": "Аура Володаря вітрів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDreadAura",
+   "type": "Підказка",
+   "en": "Reduces enemy damage by 15% and speed by 20% \nPassive ability",
+   "ru": "",
+   "uk_ai": "Знижує пошкодження ворогів на 15%, а швидкість — на 20%\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

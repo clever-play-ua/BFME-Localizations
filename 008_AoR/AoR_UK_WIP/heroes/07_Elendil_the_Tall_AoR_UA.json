@@ -1,0 +1,160 @@
+{
+ "meta": {
+  "hero": "Elendil the Tall",
+  "uk_name": "Еленділ Високий",
+  "campaigns": [
+   "FotR"
+  ],
+  "missions": [
+   "LastAlliance"
+  ],
+  "templates": {
+   "кампанія": [
+    "SecondAgeElendil"
+   ],
+   "битва": [
+    "SecondAgeElendilAdventure"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:SecondAgeElendil",
+   "type": "Ім'я",
+   "en": "Elendil the Tall",
+   "ru": "Элендил Высокий",
+   "uk_ai": "Еленділ Високий",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElendilRestoration",
+   "type": "Кнопка",
+   "en": "Hands of the King (&W)",
+   "ru": "Руки короля (&W)",
+   "uk_ai": "Руки короля (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElendilRestoration",
+   "type": "Підказка",
+   "en": "Heals nearby allies and fully refreshes\ntheir special ability timers \n Left click icon then left click on target area",
+   "ru": "Исцеляет союзников в радиусе действия и полностью перезаряжает их способности\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Зцілює союзників поблизу й повністю скидає таймер\nвідновлення їхніх здібностей \n Клікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElendilLeadership",
+   "type": "Кнопка",
+   "en": "High King of the Dúnedain",
+   "ru": "Верховный король дунэдайн",
+   "uk_ai": "Верховний король дунедайн",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElendilLeadership",
+   "type": "Підказка",
+   "en": "Elendil, son of Amandil, was the leader of the Faithful Númenóreans, before Eru Ilúvatar drowned the island nation as punishment for the arrogance of Ar-Pharazôn, its last king. Elendil escaped with his two sons and founded Númenórean kingdoms in Middle-earth. His seat was in Annúminas, in Arnor, while his sons ruled in his name from Minas Anor and Minas Ithil, in Gondor. \n\n Allies near Elendil gain \n +33% damage, +33% armour, \n and earn experience 50% faster\nPassive ability",
+   "ru": "Элендил, сын Амандила, был лидером Верных, до того как Эру Илуватар утопил остров в качестве наказания за высокомерие Ар-Фаразона, его последнего короля. Элендил сбежал со своими двумя сыновьями и основал в Средиземье  королевство Нуменор. Трон короля был в Аннуминасе, в Арноре, в то время как его сыновья правили от его имени из Минас Анора и Минас Итиля, в Гондоре.\\n\\nСоюзники рядом с Элендилом наносят +33% урона, получают +33% брони\\nи набирают опыт на +50% быстрее\\nПассивная способность",
+   "uk_ai": "Еленділ, син Амандила, очолював Вірних нуменорців, доки Еру Ілуватар не втопив острівне королівство в якості покарання за гордість Ар-Фаразона, його останнього короля. Еленділ урятувався разом із двома синами й заснував нуменорські королівства в Середзем'ї. Його престол був в Аннумінасі, в Арнорі, а сини правили від його імені з Мінас-Анора й Мінас-Ітіля, у Ґондорі. \n\n Союзники поряд з Еленділом отримують бонус \n +33% до пошкоджень, +33% броні \n і на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "CONTROLBAR:ElendilRestoration_LAA",
+   "type": "Кнопка",
+   "en": "High King of the Dûnedain (&W)",
+   "ru": "Верховный король дунэдайн (&W)",
+   "uk_ai": "Верховний король дунедайн (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElendilRestoration_LAA",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\n All Dúnedain units near Elendil gain 33% armour and damage and are immune to fear and terror\nPassive ability\n\nCan be cast on allies to heal them \n At level 7 also refreshes their special ability timers \n Left click icon then left click on target area",
+   "ru": "Тип модификатора: Лидерство\\nВсе отряды дунэдайн рядом с Элендилом наносят +33% урона, получают +33% брони и становятся невосприимчивыми к страху и ужасу\\nПассивная способность\\n\\nМожет быть использовано на союзниках, чтобы исцелить их\\nНа уровне 7, также перезаряжает способности союзников в радиусе действия\\nЩелкните левой кнопкой мыши на значок, затем на целевую область",
+   "uk_ai": "Тип ефекту: Лідерство\nУсі загони дунедайн поряд з Еленділом отримують бонус +33% броні й пошкоджень та імунітет до страху та жаху\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nМожна застосувати до союзників, щоб зцілити їх\nНа 7 рівні також повністю скидає таймер відновлення їхніх здібностей\nКлікніть на іконку, потім оберіть ділянку",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElendilFear_LAA",
+   "type": "Кнопка",
+   "en": "Lord of Andúnië (&R)",
+   "ru": "Владыка Андуниэ (&R)",
+   "uk_ai": "Володар Андуніє (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElendilFear_LAA",
+   "type": "Підказка",
+   "en": "Requires Level 3 \n Elendil proclaims his high descent as the Lord of Andúnië\nNearby enemies flee in terror \n Left click to activate \n\n Modifier type: Spell \n At level 6, all Dúnedain units near Elendil are immune to debuffs\nPassive ability ",
+   "ru": "Требуется уровень 3\\nЭлендил провозглашает себя владыкой Андуниэ, подчеркивая свое высокое происхождение\\nБлижайшие враги в ужасе разбегаются\\nЩелкните левой кнопкой мыши, чтобы активировать.\\n\\nТип модификатора: Заклинание\\nНа уровне 6, все отряды дунэдайн рядом с Элендилом становятся невосприимчивыми к ослаблениям\\nПассивная способность",
+   "uk_ai": "Необхідно: Рівень 3\nЕленділ гучно проголошує про своє шляхетне походження як Володар Андуніє\nВороги поблизу тікають у жаху\nКлікніть, щоб активувати\n\nТип ефекту: Заклинання\nНа 6 рівні всі загони дунедайн поряд з Еленділом отримують імунітет до ослаблень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElendilBlademaster_LAA",
+   "type": "Кнопка",
+   "en": "Oath of Elendil (&T)",
+   "ru": "Клятва Элендила (&T)",
+   "uk_ai": "Клятва Еленділа (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipElendilBlademaster_LAA",
+   "type": "Підказка",
+   "en": "Requires Level 5 \n Elendil gains +100% damage and armour and deals knockback damage for 30 seconds\n While the ability is active, nearby heroes gain +20% armour and damage, and 50% experience gain \n Left click to activate",
+   "ru": "Требуется уровень 5\\nЭлендил наносит +100% урона, получает +100% брони и отражает получаемый урон в течение 30 секунд\\nПока способность активна ближайшие герои наносят +20% урона и получают +20% брони, а также набирают опыт на +50% быстрее\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nНа 30 сек. Еленділ отримує бонус +100% до пошкоджень і броні та відкидає ворогів своїми ударами\nПоки діє здібність, герої поблизу отримують бонус +20% броні й пошкоджень і на 50% швидше набирають досвід\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElendilWard_LAA",
+   "type": "Кнопка",
+   "en": "Leader of the Faithful (&C)",
+   "ru": "Предводитель Верных (&C)",
+   "uk_ai": "Лідер Вірних (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElendilWard_LAA",
+   "type": "Підказка",
+   "en": "Required: Rank 8 \n Summons a ward around Elendil\nNearby units heal over time and fallen units are quickly replenished \n Lasts 60 seconds \n Left click to activate",
+   "ru": "Требуется уровень 8\\nЭлендил создает вокруг себя защитный круг\\nСоюзные отряды рядом с Элендилом постепенно исцеляются и пополняют свои ряды\\nЭффект длится 60 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 8\nСтворює захисне коло навколо Еленділа\nЗагони поблизу поступово зцілюються, а загони швидко поновлюють полеглих\nТриває 60 сек.\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ElendilNimruzir_LA",
+   "type": "Кнопка",
+   "en": "Nimruzîr (&V)",
+   "ru": "Nimruzоr (&V)",
+   "uk_ai": "Німрузір (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipElendilNimruzir_LA",
+   "type": "Підказка",
+   "en": "Requires Level 10 \n All nearby friendly units gain +75% damage and +150% experience for 30 seconds \n left click to activate",
+   "ru": "Требуется уровень 10\\nВсе ближайшие союзные отряды наносят +75% урона и набирают опыт на +150% быстрее в течение 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 10\nНа 30 сек. усі союзні загони поблизу отримують бонус +75% до пошкоджень і +150% досвіду\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

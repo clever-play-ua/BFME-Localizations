@@ -1,0 +1,261 @@
+{
+ "meta": {
+  "hero": "Prince Imrahil",
+  "uk_name": "Принц Імрагіль",
+  "campaigns": [
+   "FotR",
+   "RotK"
+  ],
+  "missions": [
+   "Party",
+   "MinasTirithOuter",
+   "MinasTirithInner",
+   "PelennorFields",
+   "BlackGate",
+   "ManyPartings",
+   "ScouringoftheShire",
+   "GreyHavens"
+  ],
+  "templates": {
+   "кампанія": [
+    "CampaignImrahil"
+   ],
+   "битва": [
+    "DolAmrothImrahil",
+    "GC_Imrahil",
+    "GondorImrahil"
+   ]
+  },
+  "note": "Здібності героя, яким керує гравець у кампанії. «Кампанія» — кнопки й підказки з кампанії; «Битва» — те, що є лише в режимі «Битва» (опис найму, інші здібності). also = рядок є і в кампанії, і в битві. status: вичитано / чернетка AI / RotWK UA (наш переклад RotWK, та сама мітка й EN) / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею.",
+  "see_also": "Спільні з іншими героями рядки є лише в одному файлі: Gandalf"
+ },
+ "Кампанія": [
+  {
+   "var": "OBJECT:GondorImrahil",
+   "type": "Ім'я",
+   "en": "Prince Imrahil",
+   "ru": "Принц Имрахиль",
+   "uk_ai": "Принц Імрагіль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TheodenMountW",
+   "type": "Кнопка",
+   "en": "Mount / Dismount (&W)",
+   "ru": "Сесть верхом / спешиться (&W)",
+   "uk_ai": "Сісти верхи / Спішитися (&W)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ImrahilLeadership",
+   "type": "Кнопка",
+   "en": "Fair Lord",
+   "ru": "Справедливый правитель",
+   "uk_ai": "Прекрасний володар",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipImrahilLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Fiefdom and Dol Amroth units near Imrahil gain +33% damage and +33% armour\n Passive ability",
+   "ru": "Тип модификатора: Лидерство\\nВойска из провинций и войска Дол Амрота рядом с Имрахилем наносят +33% урона и получают +33% брони\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nЗагони ленів і Дол-Амроту поряд з Імрагілем отримують бонус +33% до пошкоджень і +33% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialPowerImrahilUnscathed",
+   "type": "Кнопка",
+   "en": "Unscathed (&T)",
+   "ru": "Невредимый (&T)",
+   "uk_ai": "Неушкоджений (&T)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialPowerImrahilUnscathed",
+   "type": "Підказка",
+   "en": "Required: Rank 3\n Imrahil becomes immune to ranged damage, gains +100% damage, +10% speed, and is resistant to knockback for 20 seconds \n Left click to activate",
+   "ru": "Требуется уровень 3\\nИмрахиль становится невосприимчивым к дальнему урону и наносит +100% урона, а также получает +10% скорости и сопротивление отбрасыванию на 20 секунд\\n\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nІмрагіль на 20 сек. отримує імунітет до атак на відстані, бонус +100% до пошкоджень, +10% швидкості й стійкість до відкидання\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ImrahilCounsel",
+   "type": "Кнопка",
+   "en": "Inspiration (&C)",
+   "ru": "Вдохновление (&C)",
+   "uk_ai": "Натхнення (&C)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipImrahilCounsel",
+   "type": "Підказка",
+   "en": "Required: Rank 5 \n All allied troops near Imrahil earn double experience for 60 seconds \n Left click to activate",
+   "ru": "Требуется уровень 5\\nВсе союзные войска рядом с Имрахилем набирают опыт на +100% быстрее в течение 1 минуты\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 5\nУсі союзні загони поряд з Імрагілем 60 сек. набирають подвійний досвід\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ImrahilAmroth",
+   "type": "Кнопка",
+   "en": "Amroth for Gondor! (&V)",
+   "ru": "Дол Амрот за Гондор! (&V)",
+   "uk_ai": "Амрот за Ґондор! (&V)",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipImrahilAmroth",
+   "type": "Підказка",
+   "en": "Required: Rank 7 \n Modifier Type: Spell \n Imrahil and nearby cavalry, including Swan Knights, gain +50% armour, and -50% crush deceleration for 20 seconds\nImrahil must be mounted to use ability \n Left click to activate",
+   "ru": "Требуется уровень 7\\nТип модификатора: Заклинание\\nИмрахиль и ближайшая кавалерия, включая рыцарей Дол Амрота, получают +50% брони и -50% замедления при растаптывании на 20 секунд\\nИмрахиль должен быть в седле\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 7\nТип ефекту: Заклинання\nІмрагіль і кіннота поблизу, зокрема Лицарі Лебедя, на 20 сек. отримують бонус +50% броні й на 50% менше сповільнюються під час топтання\nЗдібність доступна лише верхи\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "also": "також у битві",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCampaignImrahilLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Allied units near Imrahil gain +33% damage and +33% armour\n Passive ability",
+   "ru": "",
+   "uk_ai": "Тип ефекту: Лідерство \n Союзні загони поряд з Імрагілом отримують бонус +33% до пошкоджень і +33% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:PrincelyStrike",
+   "type": "Кнопка",
+   "en": "Princely Strike (&V)",
+   "ru": "",
+   "uk_ai": "Княжий удар (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPrincelyStrike",
+   "type": "Підказка",
+   "en": "Required: Rank 7 \n Imrahil swings his sword hard, dealing damage to and knocking back everything around him \n Left click to activate",
+   "ru": "",
+   "uk_ai": "Необхідно: Рівень 7 \n Імрагіл щосили замахується мечем, завдаючи пошкоджень усім навколо й відкидаючи їх \n Клікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ],
+ "Битва": [
+  {
+   "var": "OBJECT:DolAmrothImrahil",
+   "type": "Ім'я",
+   "en": "Prince Imrahil",
+   "ru": "Принц Имрахиль",
+   "uk_ai": "Принц Імрагіль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ImrahilPrinceDolAmroth",
+   "type": "Кнопка",
+   "en": "Prince of Dol Amroth (&W)",
+   "ru": "Принц Дол Амрота (&W)",
+   "uk_ai": "Принц Дол-Амрота (&W)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipImrahilPrinceDolAmroth",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership\nFriendly units near Imrahil gain +33% damage and +33% armour and are immune to fear and terror\nStacks with Buffs and Spells\nPassive ability\n\nLeft click to mount Imrahil on his horse Autharan.",
+   "ru": "Тип модификатора: Лидерство\\nСоюзные отряды рядом с Имрахилем наносят +33% урона и получают +33% брони, а также становятся невосприимчивыми к страху и ужасу\\nСочетается с усилениями и заклинаниями\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nСоюзні загони поряд з Імрагілем отримують бонус +33% до пошкоджень і +33% броні та імунітет до страху та жаху\nПоєднується з посиленнями й заклинаннями\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nКлікніть, щоб посадити Імрагіля на його коня Аутарана.",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ImrahilProudFather",
+   "type": "Кнопка",
+   "en": "Proud Father (&R)",
+   "ru": "Гордый отец (&R)",
+   "uk_ai": "Гордий батько (&R)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipImrahilProudFather",
+   "type": "Підказка",
+   "en": "Modifier Type: Spell\nWhen near his children, Imrahil gains several buffs\nLothíriel: +10% movement speed\nAmrothos: +10% experience gain\nErchirion: +10% damage\nElphir: +10% armour\n\nAt Level 8, can be activated to nullify speed debuffs on a hero and make that hero immune to hero and magic damage, as well as refresh special ability timers near the target\nCannot be used on Imrahil himself\nLeft click icon then left click on target hero",
+   "ru": "Тип модификатора: Заклинание\\nНаходясь рядом со своими детьми, Имрахиль получает несколько усилений\\nЛотириэль: +10% скорости передвижения\\nАмротос: +10% скорости набора опыта\\nЭрхирион: +10% урона\\nЭльфир: +10% брони\\n\\nНа уровне 8, при использовании на союзном герое, с него снимается ослабление замедления скорости, он становится невосприимчивым к героическому и магическому урону, а также его способности полностью перезаряжаются\\nНе может быть использовано на самом Имрахиле\\nЩелкните левой кнопкой мыши на значок, затем на целевого героя",
+   "uk_ai": "Тип ефекту: Заклинання\nПоряд зі своїми дітьми Імрагіль отримує кілька посилень\nЛотіріель: +10% швидкості руху\nАмротос: на 10% швидше набирає досвід\nЕрхіріон: +10% до пошкоджень\nЕлфір: +10% броні\n\nНа 8 рівні можна активувати, щоб зняти з героя ослаблення швидкості, дати йому імунітет до пошкоджень від героїв і магії, а також повністю скинути таймер відновлення здібностей поблизу цілі\nНе можна застосувати до самого Імрагіля\nКлікніть на іконку, потім оберіть героя",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ImrahilInspirationDA",
+   "type": "Кнопка",
+   "en": "Inspiration (&T)",
+   "ru": "Вдохновение (&T)",
+   "uk_ai": "Натхнення (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipImrahilInspirationDA",
+   "type": "Підказка",
+   "en": "Requires Level 3\nNearby allied units are immune to debuffs for 30 seconds\nAt level 5 also gives 75% armour against elemental and magic damage\nAt Level 10, also makes enemy units flee in terror\nLeft click to activate",
+   "ru": "Требуется уровень 3\\nБлижайшие союзные отряды становятся невосприимчивыми к ослаблениям в течение 30 секунд\\nНа уровне 5, союзные отряды также получают +75% брони от элементального и магического урона\\nНа уровне 10, вдобавок к предыдущим эффектам, заставляет врагов разбегаться в ужасе\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 3\nНа 30 сек. союзні загони поблизу мають імунітет до ослаблень\nНа 5 рівні також дає бонус +75% броні проти пошкоджень від стихій і магії\nНа 10 рівні ще й змушує ворожі загони тікати в жаху\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialPowerImrahilUnscathedDA",
+   "type": "Кнопка",
+   "en": "Unscathed (&C)",
+   "ru": "Неуязвимый (&C)",
+   "uk_ai": "Неушкоджений (&C)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialPowerImrahilUnscathedDA",
+   "type": "Підказка",
+   "en": "Requires Level 4\nImrahil gains +50% armour, high ranged avoidance and +50% damage for 30 seconds\nAt Level 6, Imrahil gains +75% armour and damage\nAt Level 9, Imrahil gains complete immunity to ranged damage\nLeft click to activate",
+   "ru": "Требуется  уровень 4\\nИмрахиль наносит +50% урона, получает +50% брони и повышенное уклонение от дальних атак на 30 секунд\\nНа уровне 6, Имрахиль наносит +75% урона и получает +75% брони\\nНа уровне 9, Имрахиль становится полностью неуязвим к дальним атакам\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 4\nНа 30 сек. Імрагіль отримує бонус +50% броні, +50% до пошкоджень і добре ухиляється від атак на відстані\nНа 6 рівні Імрагіль отримує бонус +75% броні й пошкоджень\nНа 9 рівні Імрагіль отримує повний імунітет до атак на відстані\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityImrahilAmrothForGondor",
+   "type": "Кнопка",
+   "en": "Amroth for Gondor! (&V)",
+   "ru": "Амрот за Гондор! (&V)",
+   "uk_ai": "Амрот за Ґондор! (&V)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityImrahilAmrothForGondor",
+   "type": "Підказка",
+   "en": "Requires Level 7\nNearby units gain +50% armour, can trample enemies and gain -25% trample deceleration for 30 seconds\nLeft click to activate",
+   "ru": "Требуется уровень 7\\nБлижайшие союзные отряды получают +50% брони, могут давить врагов и получают -25% замедления при раздавливании на 30 секунд\\nЩелкните левой кнопкой мыши, чтобы активировать",
+   "uk_ai": "Необхідно: Рівень 7\nНа 30 сек. загони поблизу отримують бонус +50% броні, можуть топтати ворогів і на 25% менше сповільнюються під час топтання\nКлікніть, щоб активувати",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}

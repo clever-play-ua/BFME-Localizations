@@ -1,0 +1,403 @@
+{
+ "hero": "Frodo",
+ "uk_name": "Фродо",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:RohanFrodo",
+     "t": "Name",
+     "en": "Frodo",
+     "uk": "Фродо",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:tooltipCommand_ToggleEntRockThrow",
+     "t": "Button",
+     "en": "Toggle Rock-Throw Mode (&W)",
+     "uk": "Режим кидання каміння (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipThrowRocks",
+     "t": "Tooltip",
+     "en": "Switch to rock throwing mode",
+     "uk": "Жбурляє камені у ворогів.",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HobbitCloak",
+     "t": "Button",
+     "en": "Hide Here, Qui&ck!",
+     "uk": "Ховаймося тут, швидко! (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElvenCloakCampaign",
+     "t": "Tooltip",
+     "en": "Becomes invisible when standing still \\n Also passively grants +10% armour to all nearby hobbit heroes \\n Left click to activate",
+     "uk": "Стає невидимим, коли стоїть на місці\\n Також постійно дає +10% броні всім героям-гобітам поблизу\\n Клікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TheOneRing_Campaign",
+     "t": "Button",
+     "en": "A Heavy Burden (&R)",
+     "uk": "Важке ярмо (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipTheOneRing",
+     "t": "Tooltip",
+     "en": "Become invisible \\n But beware the Eye of Sauron \\n Left click to activate",
+     "uk": "Робить невидимим\\nАле стережіться Ока Саурона\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FrodoMithrilShirt",
+     "t": "Button",
+     "en": "Mithril Shirt",
+     "uk": "Мітрилова кольчуга",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipFrodoMithrilShirt",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Frodo receives his shirt of mithril mail \\n granting him +50% armour \\n \\n Passive ability",
+     "uk": "Необхідно: Рівень 3\\nФродо вдягає мітрилову кольчугу,\\nщо дає йому +50% броні\\n\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HobbitRockLure",
+     "t": "Button",
+     "en": "Lure (&T)",
+     "uk": "Приманка (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHobbitRockLure",
+     "t": "Tooltip",
+     "en": "The hobbit throws a rock to lure enemy units to target area \\n Left click icon then left click on target area",
+     "uk": "Гобіт кидає камінь, щоб відволікти ворожі загони на вказане місце\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElvenCloak",
+     "t": "Button",
+     "en": "Elven Cloak (&R)",
+     "uk": "Ельфійський плащ (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElvenCloak",
+     "t": "Tooltip",
+     "en": "Becomes invisible when standing still \\n Left click to activate",
+     "uk": "Стає невидимим для ворогів, поки не рухається.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TheOneRing",
+     "t": "Button",
+     "en": "The One Ring (&R)",
+     "uk": "Єдиний Перстень (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FrodoLeadership",
+     "t": "Button",
+     "en": "The Fate of Middle-earth",
+     "uk": "Доля Середзем'я",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFrodoLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n Nearby allies in a large radius gain\\n+50% damage, +50% armour,\\nand earn experience twice as fast\\nNearby unit and hero ability cooldown times are reduced by 25% \\nPassive ability",
+     "uk": "Тип ефекту: Заклинання\\nСоюзники у великому радіусі отримують\\nбонус +50% до пошкоджень та +50% броні\\nй удвічі швидше набирають досвід\\nЗдібності загонів і героїв поблизу відновлюються на 25% швидше\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:PhialofGaladriel",
+     "t": "Button",
+     "en": "Phial of Galadriel (&T)",
+     "uk": "Фіал Ґаладріель (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipPhialofGaladriel",
+     "t": "Tooltip",
+     "en": "Causes enemy units to flee \\n Left click to activate",
+     "uk": "Фродо дістає фіал, і вороги розбігаються від жаху.\\n Клікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipPhialofGaladrielMarshes",
+     "t": "Tooltip",
+     "en": "Stuns and deals damage over time to Undead units for 5 seconds \\n Left click to activate",
+     "uk": "На 5 сек. приголомшує загони невмерлих\\nй завдає їм періодичних пошкоджень\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HobbitRockLureAmonHen",
+     "t": "Button",
+     "en": "Lure (&V)",
+     "uk": "Приманка (&V)",
+     "st": "draft",
+     "dup": "CONTROLBAR:HobbitRockLure"
+    },
+    {
+     "v": "CONTROLBAR:PhialofGaladrielFrodoToCU",
+     "t": "Button",
+     "en": "Phial of Galadriel (&W)",
+     "uk": "Фіал Ґаладріель (&W)",
+     "st": "ok",
+     "dup": "CONTROLBAR:PhialofGaladriel"
+    }
+   ]
+  },
+  {
+   "name": "A Long Expected Party",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:ExperiencedWalker",
+     "t": "Button",
+     "en": "Experienced Walker (&W)",
+     "uk": "Досвідчений мандрівник (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipExperiencedWalker",
+     "t": "Tooltip",
+     "en": "Modifier Type: Buff \\n Frodo gains +50% speed for 40 seconds\\n Left click to activate",
+     "uk": "Тип ефекту: Посилення\\nФродо отримує бонус +50% до швидкості на 40 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FrodoShoo",
+     "t": "Button",
+     "en": "Shoo Hungry Onlookers (&R)",
+     "uk": "Прогнати голодних роззяв (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFrodoShoo",
+     "t": "Tooltip",
+     "en": "Frodo shoos the hungry onlookers\\n Left click to activate",
+     "uk": "Фродо проганяє голодних роззяв\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:EvadeLobelia",
+     "t": "Button",
+     "en": "Evade Lobelia (&T)",
+     "uk": "Сховатися від Лобелії (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEvadeLobelia",
+     "t": "Tooltip",
+     "en": "Becomes invisible when standing still \\n Also passively grants +10% armour to all nearby hobbit heroes \\n Left click to activate",
+     "uk": "Стає невидимим, коли стоїть на місці\\n Також постійно дає +10% броні всім героям-гобітам поблизу\\n Клікніть, щоб активувати",
+     "st": "ok",
+     "dup": "CONTROLBAR:ToolTipElvenCloakCampaign"
+    },
+    {
+     "v": "CONTROLBAR:HobbitRockLureAlep",
+     "t": "Button",
+     "en": "Lure (&C)",
+     "uk": "Приманка (&C)",
+     "st": "draft",
+     "dup": "CONTROLBAR:HobbitRockLure"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHobbitRockLureAlep",
+     "t": "Tooltip",
+     "en": "Frodo throws an apple to lure Phillip to target area \\n Left click icon then left click on target area",
+     "uk": "Фродо кидає яблуко, щоб приманити цапа Філіпа у вказане місце\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Scouring of the Shire",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:ScouringFrodoLeadership",
+     "t": "Button",
+     "en": "Frodo of the Nine Fingers",
+     "uk": "Фродо Дев'ятипалий",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipScouringFrodoLeadership",
+     "t": "Tooltip",
+     "en": "Requires Level 5\\nModifier Type: Leadership\\nNearby allies gain +33% damage, +33% armour,\\nand earn experience twice as fast\\n\\n Stacks with Buffs and Spells\\n Passive ability",
+     "uk": "Необхідно: Рівень 5\\nТип ефекту: Лідерство\\nСоюзники поблизу отримують бонус +33% до пошкоджень, +33% броні\\nй удвічі швидше набирають досвід\\n\\nПоєднується з посиленнями й заклинаннями\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FrodoRedBook",
+     "t": "Button",
+     "en": "Red Book of Westmarch (&V)",
+     "uk": "Червона книга Західного краю (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFrodoRedBook",
+     "t": "Tooltip",
+     "en": "Frodo tells the tale of the downfall of the Lord of the Rings and the Return of the King\\nGive targeted friendly troops experience\\nLeft click icon then left click on target units",
+     "uk": "Фродо розповідає історію про падіння Володаря Перснів і Повернення Короля\\nЦі історії дають досвід обраним союзним загонам\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:WordsArePoison",
+     "t": "Button",
+     "en": "Your Words Are Poison (&W)",
+     "uk": "Твої слова — отрута (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipWordsArePoison",
+     "t": "Tooltip",
+     "en": "Your words are poison, Saruman. I will have you speak no more, slay him!",
+     "uk": "Твої слова — отрута, Сарумане. Я не дам тобі більше говорити, вбийте його!",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:RevengeWithRevenge",
+     "t": "Button",
+     "en": "It Is Useless To Meet Revenge With Revenge (&R)",
+     "uk": "Марно відповідати помстою на помсту (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipRevengeWithRevenge",
+     "t": "Tooltip",
+     "en": "I will not have him slain. It is useless to meet revenge with revenge: it will heal nothing. Go, Saruman, by the speediest way!",
+     "uk": "Я не дозволю його вбити. Марно відповідати помстою на помсту: це нічого не зцілить. Іди, Сарумане, найкоротшою дорогою!",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DoNotKillHim",
+     "t": "Button",
+     "en": "Do Not Kill Him Even Now (&W)",
+     "uk": "Не вбивайте його навіть тепер (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDoNotKillHim",
+     "t": "Tooltip",
+     "en": "Do not kill him even now. For he has not hurt me. And in any case I do not wish him to be slain in this evil mood.",
+     "uk": "Не вбивайте його навіть тепер. Мені він шкоди не заподіяв. І хай там як, я не хочу, щоб його вбили, коли він у такому лихому настрої.",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:IllTurnDeservesAnother",
+     "t": "Button",
+     "en": "One Ill Turn Deserves Another - Kill Him (&R)",
+     "uk": "Зло за зло — вбийте його (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipIllTurnDeservesAnother",
+     "t": "Tooltip",
+     "en": "I offered you mercy, Saruman, and you repaid it with treachery. One ill turn deserves another - kill him.",
+     "uk": "Я виявив до тебе милосердя, Сарумане, а ти відплатив зрадою. Зло за зло — вбийте його.",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Ring hero · Summoned",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:SamwisetheBrave",
+     "t": "Button",
+     "en": "The Guide and the Gardener (&V)",
+     "uk": "Провідник і садівник (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipSamwisetheBrave",
+     "t": "Tooltip",
+     "en": "Summons Frodo's faithful gardener, Samwise Gamgee, and Sméagol, his guide \\n Left click icon to activate",
+     "uk": "Прикликає вірного садівника Фродо, Сема Ґемджі, і його провідника Смеаґола\\nКлікніть на іконку, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Scouring map · Shire map",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:BondsofFellowship",
+     "t": "Button",
+     "en": "Bonds of Fellowship (&R)",
+     "uk": "Узи Братства (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBondsofFellowshipFrodo",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\n Frodo gains +15% damage when near Peregrin, Meriadoc or Samwise\\nPassive ability\\nActivate to become invisible when standing still\\nLeft click to activate",
+     "uk": "Тип ефекту: Лідерство\\nПоряд із Переґріном, Меріадоком чи Семом\\nФродо отримує бонус +15% до пошкоджень\\n\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nАктивуйте, щоб ставати невидимим, коли стоїте на місці\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ShirePhialOfGaladriel",
+     "t": "Button",
+     "en": "Light of Eärendil (&T)",
+     "uk": "Світло Еаренділа (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipShirePhialOfGaladriel",
+     "t": "Tooltip",
+     "en": "Nearby enemies flee in terror and suffer damage over time for 10 seconds\\nLeft click to activate",
+     "uk": "Вороги поблизу тікають у жаху й 10 сек. отримують поступові пошкодження\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FrodoDissent",
+     "t": "Button",
+     "en": "Frodo of the Nine Fingers (&C)",
+     "uk": "Фродо Дев'ятипалий (&C)",
+     "st": "ok",
+     "dup": "CONTROLBAR:ScouringFrodoLeadership"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFrodoDissent",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\nCauses enemy units and monsters in the radius to fight amongst themselves for 45 seconds\\nLeft click icon then left click on target area",
+     "uk": "Необхідно: Рівень 3\\nЗмушує ворожі загони битися між собою на 45 сек.\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ShireFrodoLeadership",
+     "t": "Button",
+     "en": "Hero of Middle-earth",
+     "uk": "Герой Середзем'я",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipShireFrodoLeadership",
+     "t": "Tooltip",
+     "en": "Requires Level 5\\nModifier Type: Leadership\\nNearby allies gain +50% damage, +50% armour,\\nand earn experience twice as fast\\nNearby unit and hero ability cooldown times are reduced by 25% \\nPassive ability",
+     "uk": "Необхідно: Рівень 5\\nТип ефекту: Лідерство\\nСоюзники поблизу отримують бонус +50% до пошкоджень,\\n+50% броні й удвічі швидше набирають досвід\\nЗдібності загонів і героїв поблизу відновлюються на 25% швидше\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

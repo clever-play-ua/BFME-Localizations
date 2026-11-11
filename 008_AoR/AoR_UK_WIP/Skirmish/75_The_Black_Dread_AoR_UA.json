@@ -1,0 +1,115 @@
+{
+ "meta": {
+  "hero": "The Black Dread",
+  "uk_name": "",
+  "faction (ini Side)": [
+   "Mordor"
+  ],
+  "alternate factions": [],
+  "templates": [
+   "EvilMenCorsairShipBurodapan"
+  ],
+  "note": "Герой, доступний лише в режимі «Битва» (Skirmish): у кампанії гравець ним не керує. Опис найму, кнопки й підказки здібностей. status: вичитано / чернетка AI / RotWK UA / немає перекладу. Правте прямо в uk_ai. \\n — перенос рядка, кількість як в EN; гарячі клавіші (&W) латиницею."
+ },
+ "Битва": [
+  {
+   "var": "OBJECT:BlackDread",
+   "type": "Ім'я",
+   "en": "The Black Dread",
+   "ru": "Черный ужас",
+   "uk_ai": "Чорний жах",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ConstructEvilShipBurodapan",
+   "type": "Кнопка",
+   "en": "The Black Dread (&D)",
+   "ru": "Черный ужас(&D)",
+   "uk_ai": "Чорний Жах (&D)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildBurodapanShip",
+   "type": "Підказка",
+   "en": "Recruit Burôdapân's Flagship, the Black Dread \n Requires Burôdapân \n Strong at range and vs. Ships \n Limited to 1",
+   "ru": "",
+   "uk_ai": "Найняти флагман Буродапана — «Чорний жах»\nПотребує Буродапана\nЕфективний на відстані й проти кораблів\nМаксимум 1 одночасно",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToggleStanceHalfSail",
+   "type": "Кнопка",
+   "en": "Half Sail",
+   "ru": "Половинный парус",
+   "uk_ai": "Пів вітрила",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleStanceHalfSail",
+   "type": "Підказка",
+   "en": "Shortcut: G \n -50% speed, +50% ranged damage\n\n Ships will auto-acquire enemies when sighted",
+   "ru": "Горячая клавиша: G\\n-50% скорости, +50% дальнего урона\\n\\nКорабли будут автоматически атаковать врагов, как только их обнаружат",
+   "uk_ai": "Гаряча клавіша: G\n-50% швидкості, +50% до пошкоджень на відстані\n\nКораблі самі атакують помічених ворогів",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ShipRamming",
+   "type": "Кнопка",
+   "en": "Naval Ram",
+   "ru": "Морской таран",
+   "uk_ai": "Морський таран",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipShipRamming",
+   "type": "Підказка",
+   "en": "Warships can ram into enemy ships, dealing strong damage\nPassive ability",
+   "ru": "Военные корабли могут таранить вражеские судна, нанося сильный урон\\nПассивная способность",
+   "uk_ai": "Бойові кораблі можуть таранити ворожі кораблі, завдаючи значних пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:BlackDreadLeadership",
+   "type": "Кнопка",
+   "en": "Lord of Waves",
+   "ru": "Повелитель волн",
+   "uk_ai": "Володар хвиль",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBlackDreadLeadership",
+   "type": "Підказка",
+   "en": "Modifier Type: Leadership \n Nearby Ships gain +25% armour and damage\nPassive ability",
+   "ru": "Тип модификатора: Лидерство\\nБлижайшие корабли наносят +25% урона и получают +25% брони\\nПассивная способность",
+   "uk_ai": "Тип ефекту: Лідерство\nКораблі поблизу отримують бонус +25% броні й пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:SoundHornofKarnaShip",
+   "type": "Кнопка",
+   "en": "Sound the Horn of Kârna (&T)",
+   "ru": "Звучание Рога Карны (&T)",
+   "uk_ai": "Засурмити в Ріг Карни (&T)",
+   "status": "чернетка AI",
+   "uk": ""
+  },
+  {
+   "var": "CONTROLBAR:TooltipSoundHornofKarnaShip",
+   "type": "Підказка",
+   "en": "When sounded, the Horn invokes the Fury of the Deep\n Affects both enemy and allied ships\n Left click, then left click on target ships",
+   "ru": "Когда звучит рог, он вызывает Ярость глубин\\nДействует как на вражеские, так и на союзные корабли\\nЩелкните левой кнопкой мыши на значок, затем на цель",
+   "uk_ai": "Коли в ріг сурмлять, він пробуджує Лють безодні\nДіє і на ворожі, і на союзні кораблі\nКлікніть на іконку, потім оберіть кораблі",
+   "status": "чернетка AI",
+   "uk": ""
+  }
+ ]
+}
