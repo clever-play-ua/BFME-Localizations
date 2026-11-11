@@ -1,7 +1,7 @@
 {
     "slug": "ukrainian-localization",
     "display_name": "Українізатор AotR 10.0",
-    "version": "0.13",
+    "version": "0.14",
     "description": "Українська локалізація для AoR 10\n\nУВАГА ПЕРЕКЛАД В АКТИВНІЙ РОБОТІ ТА МАЄ РЕГУЛЯРНІ ОНОВЛЕННЯ\n\nПерекладено та вичитано:\n\n- Меню та налаштування\n- Кампанія «Братство Персня» та кампанія «Дві вежі»\n- Загальні тексти та тексти фракції Ґондор у режимі «Битва»\n\nЧорновий переклад\n\n- Всі сюжетні діалоги кампанії «Повернення короля»",
     "author": "Clever Play UA",
     "aotr_version": "10.0.1",
@@ -9,7 +9,7 @@
     "language": "English",
     "checksums": {
         "lotr.csf": {
-            "checksum": "8d8046fd239ffcd70ed56fb16a70f7156e7560aa411d6607650a21634dc7da3b"
+            "checksum": "57e85e7a0d9a2b58fd4c125c03dd3f7a50ec3ace133654b1e19d80a47741f47f"
         },
         "albertusmt.otf": {
             "checksum": "e921f23bb1c6d767b7d632b70c9811e6f4e92bf51b42502cd05364c05d2e7430"

@@ -8,3 +8,5 @@ __pycache__/
 .temp/
 # intro video with burnt-in subtitles (87 MB, reworked game asset) - stays local, the build still finds it
 008_AoR/AoR_10/tools/media/data/movies/CS01.vp6
+# release archives go to GitHub Releases / Nexus, not into the repo
+008_AoR/ukrainian-localization_*.zip

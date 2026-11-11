@@ -60,7 +60,7 @@ SHIP_NO_INTRO = True
 BRANDING = os.path.join(HERE, 'branding')
 BRANDING_IMAGES = [('splash.png', '_rotwk_/EnglishSplash.jpg', (800, 600)),
                    ('loading.png', 'art/compiledtextures/in/installload.jpg', (1920, 1440))]
-VERSION = '0.13'  # also names the zip: ukrainian-localization_0.13.zip
+VERSION = '0.14'  # also names the zip: ukrainian-localization_0.14.zip
 # 'shadow': stay English, override the stock albertusmt.otf with the designer font (no registry needed)
 # 'slot':   own rotwk\lang\Ukrainian.big language slot (needs registry Language=ukrainian)
 MODE = 'shadow'

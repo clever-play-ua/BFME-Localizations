@@ -5,10 +5,20 @@
 ## Наступна версія (у роботі)
 
 ### UA
-- Мордор у режимі «Битва»: чернетка перекладу (фортеця, будівлі, загони, герої, книга сил) — на вичитці на сайті.
+-
 
 ### EN
-- Mordor (Skirmish): first draft translation (fortress, buildings, units, heroes, spell book), community proofreading on the site.
+-
+
+## 0.14
+
+### UA
+- Додано переклад та редакторську вичитку фракції Мордор (для битви).
+- Однакові назви для всіх фракцій: «Отримують бонуси від кількості» (Horde Bonus), «Велика майстерня» (Siege Works у Мордора й Ґондору), «Ороча фортеця», «Мордорська вежа», «Ферма з рабами», «Барад-дуру», «ріжучі пошкодження».
+
+### EN
+- Mordor (Skirmish): translated and proofread by the community editor.
+- Same names across factions: Horde Bonus, Siege Works (Mordor, Gondor), Orcish Stronghold, Tower of Mordor, Slave Farm.
 
 ## 0.13
 

@@ -1039,7 +1039,7 @@
   {
    "var": "CONTROLBAR:ToolTipBuildRohanPeasant",
    "en": "Strong vs. Pikemen\nCan be drafted\n\nHorde Bonus\nModifier Type: Spell\nAll Peasants gain +20% damage and +20% armour when gathered in numbers of 60 or more\n\nThe Riddermark depended on its peasants to work the fields - only in times of great need could they be levied to serve their king in battle.",
-   "uk": "Ефективні проти пікінерів\nМожна озброїти та скликати в ополчення\n\nЧисельна перевага\nТип ефекту: Заклинання\nУсі селяни отримують бонус +20% до пошкоджень і +20% броні, якщо зібрані в кількості 60 од. і більше\n\nРоган живився від врожаю своїх селян на нивах — лише в часи великої скрути їх можна було скликати на службу королю.",
+   "uk": "Ефективні проти пікінерів\nМожна озброїти та скликати в ополчення\n\nОтримують бонуси від кількості\nТип ефекту: Заклинання\nУсі селяни отримують бонус +20% до пошкоджень і +20% броні, якщо зібрані в кількості 60 і більше\n\nРоган живився від врожаю своїх селян на нивах — лише в часи великої скрути їх можна було скликати на службу королю.",
    "by": "FoLD",
    "date": "2026-11-11",
    "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
@@ -1343,7 +1343,7 @@
   {
    "var": "CONTROLBAR:ToolTipBuildRohanPeasantDrafted",
    "en": "Strong vs. Pikemen\n\nHorde Bonus\nModifier Type: Spell\nAll Peasants gain +20% damage and +20% armour when gathered in numbers of 60 or more\n\nThe Riddermark depended on its peasants to work the fields - only in times of great need could they be levied to serve their king in battle.",
-   "uk": "Ефективні проти пікінерів\n\nЧисельна перевага\nТип ефекту: Заклинання\nУсі селяни отримують бонус +20% до пошкоджень і +20% броні, якщо зібрані в кількості 60 і більше\n\nРоган живився працею своїх селян на нивах — лише в часи великої скрути їх можна було скликати на службу королю.",
+   "uk": "Ефективні проти пікінерів\n\nОтримують бонуси від кількості\nТип ефекту: Заклинання\nУсі селяни отримують бонус +20% до пошкоджень і +20% броні, якщо зібрані в кількості 60 і більше\n\nРоган живився працею своїх селян на нивах — лише в часи великої скрути їх можна було скликати на службу королю.",
    "by": "FoLD",
    "date": "2026-11-11",
    "file": "AoR_UA_FoLD_2026-11-11-10-17.json"

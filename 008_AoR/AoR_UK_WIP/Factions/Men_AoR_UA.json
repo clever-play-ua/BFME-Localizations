@@ -2432,13 +2432,13 @@
      "type": "Кнопка",
      "en": "Build Siege Works (&N)",
      "ru": "Построить мастерскую (&N)",
-     "uk_ai": "Майстерня (&N)",
+     "uk_ai": "Велика майстерня (&N)",
      "status": "переклад Сергія",
      "джерело": "Serhii_strings.json",
      "uk": "",
      "btn": "Command_PorterConstructMenWorkshop",
      "btn_en": "Build Siege Works (&N)",
-     "btn_ua": "Майстерня (&N)",
+     "btn_ua": "Велика майстерня (&N)",
      "icon": "UIGondorWorkshop",
      "cost": {
       "gold": 600
@@ -2455,7 +2455,7 @@
      "uk": "",
      "btn": "Command_PorterConstructMenWorkshop",
      "btn_en": "Build Siege Works (&N)",
-     "btn_ua": "Майстерня (&N)",
+     "btn_ua": "Велика майстерня (&N)",
      "icon": "UIGondorWorkshop",
      "cost": {
       "gold": 600

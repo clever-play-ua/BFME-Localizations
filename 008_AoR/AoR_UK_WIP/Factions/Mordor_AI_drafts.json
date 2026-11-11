@@ -187,22 +187,22 @@
   {
    "var": "CONTROLBAR:ConstructSlaughterHouse",
    "en": "Build Slave Farm (&W)",
-   "uk_ai": "Рабська ферма (&W)"
+   "uk_ai": "Ферма з рабами (&W)"
   },
   {
    "var": "CONTROLBAR:ToolTipSlaughterHouse",
    "en": "Provides meat as a resource based on available terrain\\n Allows allied orcs to be decommissioned for additional experience\\n Reduced cost of Trolls and Great Beasts of Gorgoroth \\n Increases command point limit by 50",
-   "uk_ai": "Видобуває ресурси, що ближче стоять інші\\nресурсні споруди, то менше ресурсів видобувається.\\nДозволяє розпускати союзних орків заради додаткового досвіду\\nЗнижує вартість тролів і Великих звірів Ґорґорота\\nЗбільшує ліміт очок командування на 50 од."
+   "uk_ai": "Видобуває ресурси, що ближче стоять інші\\nресурсні споруди, то менше ресурсів видобувається.\\nДозволяє розпускати союзних орків заради додаткового досвіду\\nЗнижує вартість тролів і великих звірів Ґорґорота\\nЗбільшує ліміт очок командування на 50 од."
   },
   {
    "var": "OBJECT:MordorSlaughterHouse",
    "en": "Slave Farm",
-   "uk_ai": "Рабська ферма"
+   "uk_ai": "Ферма з рабами"
   },
   {
    "var": "CONTROLBAR:MordorSlaughterHouseDescription",
    "en": "Provides food as a resource based on available terrain \\n Allows allied orcs to be decommissioned for additional experience\\n Food Bonus - Reduced cost of Trolls and Great Beasts of Gorgoroth \\n 2 Slave Farms: 5% \\n 3 Slave Farms: 10% \\n 4 Slave Farms: 15% \\n 5 Slave Farms: 20%",
-   "uk_ai": "Видобуває ресурси, що ближче стоять інші\\nресурсні споруди, то менше ресурсів видобувається.\\nДозволяє розпускати союзних орків заради додаткового досвіду\\nБонус їжі — знижує вартість тролів і Великих звірів Ґорґорота\\n2 Рабські ферми: 5%\\n3 Рабські ферми: 10%\\n4 Рабські ферми: 15%\\n5 Рабських ферм: 20%"
+   "uk_ai": "Видобуває ресурси, що ближче стоять інші\\nресурсні споруди, то менше ресурсів видобувається.\\nДозволяє розпускати союзних орків заради додаткового досвіду\\nБонус їжі — знижує вартість тролів і великих звірів Ґорґорота\\n2 Ферми з рабами: 5%\\n3 Ферми з рабами: 10%\\n4 Ферми з рабами: 15%\\n5 Ферм з рабами: 20%"
   },
   {
    "var": "CONTROLBAR:ConstructMordorLumberMill",
@@ -277,17 +277,17 @@
   {
    "var": "CONTROLBAR:ConstructMordorOrcPit",
    "en": "Build Orcish Stronghold (&T)",
-   "uk_ai": "Ороча твердиня (&T)"
+   "uk_ai": "Ороча фортеця (&T)"
   },
   {
    "var": "CONTROLBAR:ToolTipMordorOrcPit",
    "en": "Trains Mordor Orc Units and Black Uruks\\n\\nThroughout the Ash Mountains and the barren plains of Mordor were located many orcish strongholds, from where the Dark Tower's captains controlled the surrounding lands, keeping invaders out and subduing the orcs living near.",
-   "uk_ai": "Тренує орків Мордору й чорних уруків\\n\\nПо всіх Попелястих горах і голих рівнинах Мордору стояли орочі твердині, звідки капітани Чорної Вежі правили довколишніми землями, не пускали чужинців і тримали в покорі орків, що жили поруч."
+   "uk_ai": "Тренує орків Мордору й чорних уруків\\n\\nПо всіх Попелястих горах і голих рівнинах Мордору стояли орочі фортеці, звідки капітани Чорної Вежі правили довколишніми землями, не пускали чужинців і тримали в покорі орків, що жили поруч."
   },
   {
    "var": "OBJECT:MordorOrcPit",
    "en": "Orcish Stronghold",
-   "uk_ai": "Ороча твердиня"
+   "uk_ai": "Ороча фортеця"
   },
   {
    "var": "OBJECT:MordorOrcPitDescription",
@@ -297,7 +297,7 @@
   {
    "var": "CONTROLBAR:UpgradeMordorOrcPitLevel2",
    "en": "Upgrade Orcish Stronghold to Level 2 (&A)",
-   "uk_ai": "Покращити ороччу твердиню до 2-го рівня (&A)"
+   "uk_ai": "Покращити орочу фортецю до 2-го рівня (&A)"
   },
   {
    "var": "CONTROLBAR:TooltipUpgradeMordorOrcPitLevel2",
@@ -307,7 +307,7 @@
   {
    "var": "CONTROLBAR:UpgradeMordorOrcPitLevel3",
    "en": "Upgrade Orcish Stronghold to Level 3 (&A)",
-   "uk_ai": "Покращити ороччу твердиню до 3-го рівня (&A)"
+   "uk_ai": "Покращити орочу фортецю до 3-го рівня (&A)"
   },
   {
    "var": "CONTROLBAR:TooltipUpgradeMordorOrcPitLevel3",
@@ -327,7 +327,7 @@
   {
    "var": "CONTROLBAR:ToolTipBuildMordorPikeHorde",
    "en": "Strong vs. Cavalry and Heroes \\n\\n Horde Bonus \\n Modifier Type: Spell \\n Orc Warriors, Orc Pikemen and Orc Archers gain +25% damage and armour when gathered in numbers of 90 or more\\n \\n Ever since Sauron's return to Mordor, his orcs have multiplied and organized into great legions in service to Barad-dûr.",
-   "uk_ai": "Ефективні проти кавалерії та героїв\\n\\nЧисельна перевага\\nТип ефекту: Заклинання\\nОрки-воїни, орки-пікінери й орки-лучники отримують бонус +25% до пошкоджень і +25% броні, якщо зібрані в кількості 90 і більше\\n\\nВідколи Саурон повернувся до Мордору, його орки розплодилися й зібралися у великі легіони на службі Барад-дура."
+   "uk_ai": "Ефективні проти кавалерії та героїв\\n\\nОтримують бонуси від кількості\\nТип ефекту: Заклинання\\nОрки-воїни, орки-пікінери й орки-лучники отримують бонус +25% до пошкоджень і +25% броні, якщо зібрані в кількості 90 і більше\\n\\nВідколи Саурон повернувся до Мордору, його орки розплодилися й зібралися у великі легіони на службі Барад-дуру."
   },
   {
    "var": "OBJECT:HordeMordorPikemen",
@@ -357,7 +357,7 @@
   {
    "var": "CONTROLBAR:ToolTipBuildMordorBlackOrcHorde",
    "en": "Requires Level 2 Orcish Stronghold \\n Strong vs. Pikemen and Structures\\n\\n The Black Uruks of Barad-dûr are the elite of Sauron's orc armies, first bred to devastate Ithilien.",
-   "uk_ai": "Необхідно: Ороча твердиня 2 рівня\\nЕфективні проти пікінерів і споруд\\n\\nЧорні уруки Барад-дура — еліта орочих армій Саурона, яку вивели, щоб спустошити Ітілієн."
+   "uk_ai": "Необхідно: Ороча фортеця 2 рівня\\nЕфективні проти пікінерів і споруд\\n\\nЧорні уруки Барад-дуру — еліта орочих армій Саурона, яку вивели, щоб спустошити Ітілієн."
   },
   {
    "var": "OBJECT:HordeMordorBlackOrcs",
@@ -422,7 +422,7 @@
   {
    "var": "CONTROLBAR:ToolTipPurchaseTechnologyMordorBarbedArrows",
    "en": "Allows hordes to purchase the Barbed Arrows upgrade \\n When equipped, increases the damage done by arrows, adds slash damage",
-   "uk_ai": "Дає змогу кожному загону придбати покращення «Зазубрені стріли»\\nПісля оснащення збільшує пошкодження стріл і додає рубальні пошкодження"
+   "uk_ai": "Дає змогу кожному загону придбати покращення «Зазубрені стріли»\\nПісля оснащення збільшує пошкодження стріл і додає ріжучі пошкодження"
   },
   {
    "var": "CONTROLBAR:UpgradeMordorHaradrimPalaceLevel2",
@@ -532,7 +532,7 @@
   {
    "var": "CONTROLBAR:ToolTipPurchaseUpgradeMordorBarbedArrows",
    "en": "Upgrades this horde with Barbed Arrows \\n increases the damage done by arrows, adds slash damage",
-   "uk_ai": "Оснащує цей загін зазубреними стрілами\\nзбільшує пошкодження стріл і додає рубальні пошкодження"
+   "uk_ai": "Оснащує цей загін зазубреними стрілами\\nзбільшує пошкодження стріл і додає ріжучі пошкодження"
   },
   {
    "var": "CONTROLBAR:ConstructMordorEasterlingKataphractHorde",
@@ -727,17 +727,17 @@
   {
    "var": "CONTROLBAR:ConstructMordorSiegeWorks",
    "en": "Build Great Siege Works (&N)",
-   "uk_ai": "Велика облогова майстерня (&N)"
+   "uk_ai": "Велика майстерня (&N)"
   },
   {
    "var": "CONTROLBAR:ToolTipordorSiegeWorks",
    "en": "Builds siege weapons \\n At rank 2, repairs nearby siege engines\\nAt rank 3, heals nearby Great Beasts",
-   "uk_ai": "Будує облогову зброю\\nНа 2 рівні лагодить облогові машини поблизу\\nНа 3 рівні зцілює Великих звірів поблизу"
+   "uk_ai": "Будує облогову зброю\\nНа 2 рівні лагодить облогові машини поблизу\\nНа 3 рівні зцілює великих звірів поблизу"
   },
   {
    "var": "OBJECT:MordorSiegeWorks",
    "en": "Great Siege Works",
-   "uk_ai": "Велика облогова майстерня"
+   "uk_ai": "Велика майстерня"
   },
   {
    "var": "OBJECT:MordorGreatSiegeWorksDescription",
@@ -752,7 +752,7 @@
   {
    "var": "CONTROLBAR:TooltipUpgradeMordorSiegeWorksLevel2",
    "en": "Allows construction of the Catapults and Great Beasts of Gorgoroth \\nHeals nearby damaged siege machines \\n +10% faster build speed",
-   "uk_ai": "Дозволяє будувати катапульти й Великих звірів Ґорґорота\\nЛагодить пошкоджені облогові машини поблизу\\n+10% до швидкості тренування"
+   "uk_ai": "Дозволяє будувати катапульти й великих звірів Ґорґорота\\nЛагодить пошкоджені облогові машини поблизу\\n+10% до швидкості тренування"
   },
   {
    "var": "CONTROLBAR:UpgradeMordorSiegeWorksLevel3",
@@ -762,7 +762,7 @@
   {
    "var": "CONTROLBAR:TooltipUpgradeMordorSiegeWorksLevel3",
    "en": "Allows recruitment of Grond\\nHeals nearby Great Beasts and provides increased healing to nearby damaged siege machines \\n+25% faster build speed",
-   "uk_ai": "Дозволяє вербувати Ґронда\\nЗцілює Великих звірів поблизу й швидше лагодить пошкоджені облогові машини поблизу\\n+25% до швидкості тренування"
+   "uk_ai": "Дозволяє вербувати Ґронда\\nЗцілює великих звірів поблизу й швидше лагодить пошкоджені облогові машини поблизу\\n+25% до швидкості тренування"
   },
   {
    "var": "CONTROLBAR:ConstructMordorBatteringRam",
@@ -787,7 +787,7 @@
   {
    "var": "CONTROLBAR:ToolTipBuildMordorCatapult",
    "en": "Requires Level 2 Great Siege Works \\n Strong vs. Structures \\n\\n These vile contraptions rain down death and terror upon the Dark Lord's enemies.",
-   "uk_ai": "Необхідно: Велика облогова майстерня 2 рівня\\nЕфективна проти споруд\\n\\nЦі мерзенні машини засипають ворогів Темного Володаря смертю й жахом."
+   "uk_ai": "Необхідно: Велика майстерня 2 рівня\\nЕфективна проти споруд\\n\\nЦі мерзенні машини засипають ворогів Темного Володаря смертю й жахом."
   },
   {
    "var": "OBJECT:MordorCatapult",
@@ -822,7 +822,7 @@
   {
    "var": "CONTROLBAR:ToolTipBuildMordorGreatBeast",
    "en": "Requires Level 2 Great Siege Works \\n Strong vs. Structures and Cavalry \\n\\n These lumbering creatures are native to the great ash-covered plains of Gorgoroth, feeding on the thick roots that grow in the dry soil of that barren land. The orcs were quick to realize their potential as beasts of burden and war, and have long bred them in captivity, fielding them in Sauron's war against the lands of Gondor.",
-   "uk_ai": "Необхідно: Велика облогова майстерня 2 рівня\\nЕфективний проти споруд і кавалерії\\n\\nЦі незграбні створіння живуть на великих укритих попелом рівнинах Ґорґорота й живляться товстим корінням, що росте в сухій землі цього безплідного краю. Орки швидко збагнули, що з них вийдуть в'ючні й бойові звірі, і здавна розводять їх у неволі, виводячи на війну Саурона проти Ґондору."
+   "uk_ai": "Необхідно: Велика майстерня 2 рівня\\nЕфективний проти споруд і кавалерії\\n\\nЦі незграбні створіння живуть на великих укритих попелом рівнинах Ґорґорота й живляться товстим корінням, що росте в сухій землі цього безплідного краю. Орки швидко збагнули, що з них вийдуть в'ючні й бойові звірі, і здавна розводять їх у неволі, виводячи на війну Саурона проти Ґондору."
   },
   {
    "var": "OBJECT:GreatBeast",
@@ -837,7 +837,7 @@
   {
    "var": "CONTROLBAR:ToolTipSpecialAbilityGreatBeastChargeAttack",
    "en": "Order Great Beast to trample the enemy \\n Left click icon then left click on target",
-   "uk_ai": "Наказати Великому звірові розтоптати ворога\\nКлікніть на іконку, потім оберіть ціль"
+   "uk_ai": "Наказати великому звірові розтоптати ворога\\nКлікніть на іконку, потім оберіть ціль"
   },
   {
    "var": "CONTROLBAR:GreatBeastHouda",
@@ -847,7 +847,7 @@
   {
    "var": "CONTROLBAR:ToolTipPurchaseUpgradeGreatBeastHouda",
    "en": "Upgrade this Great Beast with a carriage with orcish archers \\n Orc Archers benefit from the fire arrow upgrade",
-   "uk_ai": "Ставить на Великого звіра башту з орками-лучниками\\nОркам-лучникам діє покращення «Вогняні стріли»"
+   "uk_ai": "Ставить на великого звіра башту з орками-лучниками\\nОркам-лучникам діє покращення «Вогняні стріли»"
   },
   {
    "var": "CONTROLBAR:GreatBeastGrog",
@@ -857,7 +857,7 @@
   {
    "var": "CONTROLBAR:TooltipPurchaseUpgradeGreatBeastGrog",
    "en": "Upgrade this Great Beast with the ability to toss a highly volatile barrel of grog",
-   "uk_ai": "Дає Великому звірові здібність кидати вкрай вибухову бочку ґроґу"
+   "uk_ai": "Дає великому звірові здібність кидати вкрай вибухову бочку ґроґу"
   },
   {
    "var": "CONTROLBAR:GreatBeastFear",
@@ -867,7 +867,7 @@
   {
    "var": "CONTROLBAR:TooltipPurchaseUpgradeGreatBeastFear",
    "en": "Upgrade this Great Beast with the ability to cause enemy units to cower in fear",
-   "uk_ai": "Дає Великому звірові здібність, що змушує ворожі загони тремтіти від страху"
+   "uk_ai": "Дає великому звірові здібність, що змушує ворожі загони тремтіти від страху"
   },
   {
    "var": "CONTROLBAR:TooltipSpecialAbilityGreatBeastGrog",
@@ -897,7 +897,7 @@
   {
    "var": "CONTROLBAR:ConstructMordorBattleTower",
    "en": "Build Tower of Mordor (&Y)",
-   "uk_ai": "Вежа Мордору (&Y)"
+   "uk_ai": "Мордорська вежа (&Y)"
   },
   {
    "var": "CONTROLBAR:ToolTipConstructMordorBattleTower",
@@ -907,12 +907,12 @@
   {
    "var": "OBJECT:MordorBattleTower",
    "en": "Tower of Mordor",
-   "uk_ai": "Вежа Мордору"
+   "uk_ai": "Мордорська вежа"
   },
   {
    "var": "CONTROLBAR:BTBaradDur",
    "en": "Banner of Barad-dûr (&E)",
-   "uk_ai": "Стяг Барад-дура (&E)"
+   "uk_ai": "Стяг Барад-дуру (&E)"
   },
   {
    "var": "CONTROLBAR:ToolTipBTBaradDur",
@@ -952,7 +952,7 @@
   {
    "var": "CONTROLBAR:BTBaradDurUpgraded",
    "en": "Banner of Barad-dûr",
-   "uk_ai": "Стяг Барад-дура"
+   "uk_ai": "Стяг Барад-дуру"
   },
   {
    "var": "CONTROLBAR:ToolTipBTBaradDurUpgraded",
