@@ -1,15 +1,15 @@
 {
     "slug": "ukrainian-localization",
     "display_name": "Українізатор AotR 10.0",
-    "version": "0.14",
+    "version": "0.20",
     "description": "Українська локалізація для AoR 10\n\nУВАГА ПЕРЕКЛАД В АКТИВНІЙ РОБОТІ ТА МАЄ РЕГУЛЯРНІ ОНОВЛЕННЯ\n\nПерекладено та вичитано:\n\n- Меню та налаштування\n- Кампанія «Братство Персня» та кампанія «Дві вежі»\n- Загальні тексти та тексти фракції Ґондор у режимі «Битва»\n\nЧорновий переклад\n\n- Всі сюжетні діалоги кампанії «Повернення короля»",
     "author": "Clever Play UA",
-    "aotr_version": "10.0.1",
+    "aotr_version": "10.0.2",
     "genre": "Translation",
     "language": "English",
     "checksums": {
         "lotr.csf": {
-            "checksum": "57e85e7a0d9a2b58fd4c125c03dd3f7a50ec3ace133654b1e19d80a47741f47f"
+            "checksum": "398c98a8ed4f3de58ab71effd044b1b6ce1518af2271e9ea24d9dfe141a9c4e5"
         },
         "albertusmt.otf": {
             "checksum": "e921f23bb1c6d767b7d632b70c9811e6f4e92bf51b42502cd05364c05d2e7430"
@@ -17,11 +17,128 @@
         "omnialtstd.ttf": {
             "checksum": "48b6c8cc369ddbfbc43163f25d0375f4bff7ef079492d6406e25ca691627131a"
         },
-        "data/audio/speech/CS01.mp3": {
-            "checksum": "faeb0ac284badf982285ebaabcffda96bfc2a0479bd6f2812b17519936932128"
+        "data/english/movies/Overall_Game_Intro.ini": {
+            "checksum": "ba91f6560b8672939823d5fbebdff4ec20e643ca35c7782c939ec6f65bb799ff"
         },
-        "data/movies/CS01.vp6": {
-            "checksum": "fbcc769c719212ceb69959f5be4ef49a9c0f589bcd39b4cce9c74424e4696588"
+        "data/english/movies/AOTRCampaign_00.ini": {
+            "checksum": "cb76fea0fe588005592b105856d513047df15db60c949395c12c78568981c8b6"
+        },
+        "data/english/movies/AOTRCampaign_01.ini": {
+            "checksum": "565b4080546859b7a6493205014d8f4870ea91998fd7822eb7c7795e4b05315a"
+        },
+        "data/english/movies/AOTRCampaign_01a.ini": {
+            "checksum": "e7be49c1a1ee96cf68323b678c5fa43d8ff18d83b18ac5bfd7645eeaf92b259c"
+        },
+        "data/english/movies/AOTRCampaign_01b.ini": {
+            "checksum": "b0e826efa37cce9b6f4065857b615a599a1da5a7411a580180de4f8a80327170"
+        },
+        "data/english/movies/AOTRCampaign_02.ini": {
+            "checksum": "4f6e9d24c96a12c0aa8b33657cad44a3ffa50e3ef49f4385f40bc5864d6b1f7e"
+        },
+        "data/english/movies/AOTRCampaign_07.ini": {
+            "checksum": "beb73c9188914eacf8625242f92d155581529a25ff2b9262a3abc5c2d867c8c3"
+        },
+        "data/english/movies/AOTRCampaign_03_a.ini": {
+            "checksum": "4a2ee009445ccaf1220de41f62a2c41f32926512afb8da1d65d575e15c2a8ac9"
+        },
+        "data/english/movies/AOTRCampaign_03_b.ini": {
+            "checksum": "e44c5a2f35930143e510dfdd7704e3e0d19822cd1fc99628e917711e68cd322d"
+        },
+        "data/english/movies/AOTRCampaign_03_c.ini": {
+            "checksum": "8e10515db0d83b899b103201890fb3c6e6a16b4561ff14fe479c21c47700e47f"
+        },
+        "data/english/movies/AOTRCampaign_05.ini": {
+            "checksum": "2a3c5b04908b24cecd4b8b553e95bbca19406a4c6ff3fe263ce82cac91a01a1a"
+        },
+        "data/english/movies/AOTRCampaign_06.ini": {
+            "checksum": "276818ff89fa9d2cca5551bd9639e5bbb929e640ee30f4332f1a099fc6f5552a"
+        },
+        "data/english/movies/AOTRCampaign_10.ini": {
+            "checksum": "a8234f25013a7c52505cfa76522f92d42dd238fa53091f4bf2d15f033053334f"
+        },
+        "data/english/movies/AOTRCampaign_Credits.ini": {
+            "checksum": "e7fc3a265d869e5dbcdd49c53de70abc301f68dced52f393b498ec2574cb6146"
+        },
+        "data/english/movies/AOTRCampaignTTT_00.ini": {
+            "checksum": "21c1f29f70734d24d926331d7775998b128410e8e86d043c340c6693ec5fee39"
+        },
+        "data/english/movies/AOTRCampaignTTT_01.ini": {
+            "checksum": "ed4a5616357299ab383efb1aadc928bb93d27c9317aa5c2890a115be1bc1a9e1"
+        },
+        "data/english/movies/AOTRCampaignTTT_02b.ini": {
+            "checksum": "9977a30818e17eede7491835efa083101ad9387b27efea0c92f489a6de25fa09"
+        },
+        "data/english/movies/AOTRCampaignTTT_04.ini": {
+            "checksum": "d3fdd46f2a65a2a5e3741482e9b0aaba925fdb15337b6a21cc1716522e8f471e"
+        },
+        "data/english/movies/AOTRCampaignTTT_04b.ini": {
+            "checksum": "6d081b5c20e164b369c2a3e801d4474d6cf2e739eaf09ee87c275148f37100c9"
+        },
+        "data/english/movies/AOTRCampaignTTT_05b.ini": {
+            "checksum": "9ef487abd23666fbf175be3f5d22f93f013b8b12c13b846b9eed22b3ffa8ba0b"
+        },
+        "data/english/movies/AOTRCampaignTTT_06b.ini": {
+            "checksum": "46f5f5a10009fa5d2015031f4c0bc07084044c004cc08b552a74288dada875c3"
+        },
+        "data/english/movies/AOTRCampaignTTT_08.ini": {
+            "checksum": "42b8162a0c4d28d6890b8f87b035a45e445d8ed18c5fbf369447c0420ca863a7"
+        },
+        "data/english/movies/AOTRCampaignTTT_09.ini": {
+            "checksum": "49f729103e40c00651bb8d5c653f033b5f4265a38da44af97ef7c2775ec7b97a"
+        },
+        "data/english/movies/AOTRCampaignTTT_09b.ini": {
+            "checksum": "e8563a9aefa5692b9a1ea08388a2e2ca6cb18545c368a4f02a04941435a8b9f4"
+        },
+        "data/english/movies/AOTRCampaignTTT_10b.ini": {
+            "checksum": "9e2f8c4cd4da278f394bd7978956a16fc1a174d4c688d930c73820ebafc4d908"
+        },
+        "data/english/movies/AOTRCampaignROTK_01a.ini": {
+            "checksum": "780409049a7f5eff1f084f14c830299e68a37a817d2fc95d1674e2d24c3f46a3"
+        },
+        "data/english/movies/AOTRCampaignROTK_01b.ini": {
+            "checksum": "17408bc4b449b5aedefb3954cd46a33f491769ade403dc2b7e99fb49a01c31dd"
+        },
+        "data/english/movies/AOTRCampaignROTK_02a.ini": {
+            "checksum": "e1bf804b5bd214ab42580efc6681dfe960c6d9b76c2f7376eea8e20bfeafec2c"
+        },
+        "data/english/movies/AOTRCampaignROTK_02b.ini": {
+            "checksum": "c4a14ff3298c3341f591a74a9bbf2be63e97fd7cdfd94f66b2f8e7b1ab2aa755"
+        },
+        "data/english/movies/AOTRCampaignROTK_03a.ini": {
+            "checksum": "14ba81295a0fa25c89c9fec1c45e0b004a8c341926add43d257c9bc7b4b58579"
+        },
+        "data/english/movies/AOTRCampaignROTK_05a.ini": {
+            "checksum": "27c7f428e60ce6a9b8fd3d6f4da2667b3b75b0d1bbbb2abc3120cb3ff8d04377"
+        },
+        "data/english/movies/AOTRCampaignROTK_05b.ini": {
+            "checksum": "d9178e0401c11c94f3e9bb4135cacd9f1593c544fe51e544d360e20089fba229"
+        },
+        "data/english/movies/AOTRCampaignROTK_06a.ini": {
+            "checksum": "2daec2efe9a63027203feb990b13e18baaee0b6c84ba81cbd20ddb58e90e6fbe"
+        },
+        "data/english/movies/AOTRCampaignROTK_06b.ini": {
+            "checksum": "8b82bcec25d62bfd34ca3dd2952aebeeab540b87a86a530eb9eb658ef8a99c2f"
+        },
+        "data/english/movies/AOTRCampaignROTK_07b.ini": {
+            "checksum": "420de396f8e3cf03b1c5834c8e1aeff283fb9680f1fa169e2fc23e153a75d9e9"
+        },
+        "data/english/movies/AOTRCampaignROTK_08a.ini": {
+            "checksum": "793660b9dadd694d45e3bff9afb7a6bbed0c02b3311f31535eae394e76c3b1e7"
+        },
+        "data/english/movies/AOTRCampaignROTK_11a.ini": {
+            "checksum": "13ca1429da7d5d964886959c7195cfc259f8a998c024ae35afcc8258e6db657a"
+        },
+        "data/english/movies/AOTRCampaignROTK_11b.ini": {
+            "checksum": "e5812cc451aad40a2b039bbbfe14f1057ec65d40c55587c3f9a0dfcac2932f4e"
+        },
+        "data/english/movies/AOTRCampaignROTK_14a.ini": {
+            "checksum": "839962f34147fb782460d72bdf6fcfd369c76ba689f593318e47c4bf08229508"
+        },
+        "data/english/movies/AOTRCampaignROTK_14b.ini": {
+            "checksum": "f31d00a24a099c28403f6b5eb59a90a8a392220b7c5719c5be5d89c3611192e8"
+        },
+        "data/ini/video.ini": {
+            "checksum": "6f2e34b9c468ae7ba46c52a29d525913fd62c3d287bc390d0e25051d1661cc1d"
         },
         "_rotwk_/EnglishSplash.jpg": {
             "checksum": "ed330a50ab74ed5912f86f5be4d2fe40b5ab65c74034801a05b3d10daf38f3b5"

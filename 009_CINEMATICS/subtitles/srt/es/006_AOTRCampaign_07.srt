@@ -1,0 +1,39 @@
+﻿1
+00:00:08,759 --> 00:00:11,678
+-¿Adónde nos llevas?
+-A las tierras salvajes.
+
+2
+00:00:19,686 --> 00:00:23,482
+¿Cómo sabemos que este Trancos
+es amigo de Gandalf?
+
+3
+00:00:23,732 --> 00:00:28,695
+Creo que un siervo del Enemigo tendría
+mejor aspecto... y sería más desagradable.
+
+4
+00:00:28,779 --> 00:00:31,323
+Pues este ya lo es bastante.
+
+5
+00:00:31,448 --> 00:00:34,076
+No tenemos más remedio que fiarnos de él.
+
+6
+00:00:34,159 --> 00:00:36,620
+Pero ¿adónde nos lleva?
+
+7
+00:00:36,745 --> 00:00:39,373
+A Rivendel, maese Gamyi.
+
+8
+00:00:40,040 --> 00:00:41,917
+A la casa de Elrond.
+
+9
+00:00:42,042 --> 00:00:46,380
+¿Lo has oído? ¡Rivendel!
+¡Vamos a ver a los elfos!

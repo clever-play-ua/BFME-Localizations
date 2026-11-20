@@ -1,0 +1,2560 @@
+{
+ "meta": {
+  "faction": "Guldur",
+  "note": "Community proofread lines (highest priority in the build and on the site)."
+ },
+ "strings": [
+  {
+   "var": "OBJECT:WildFortress",
+   "en": "Fortress",
+   "uk": "Фортеця",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:SelectUpgradesWildFortress",
+   "en": "Fortress Upgrades (&R)",
+   "uk": "Удосконалення фортеці (&R)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandSelectUpgradesWildFortress",
+   "en": "Purchase upgrades and additional defenses for the Fortress",
+   "uk": "Придбання покращень та укріплення оборони",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGuldurPalantir",
+   "en": "Requires the Guldur Palantir upgrade\nCan be cast to reveal part of the map for 2 minutes\nEnemy units caught in the radius take minor damage over time\nLeft click icon then left click on target area",
+   "uk": "Потребує покращення «Палантир Ґулдуру»\nДає змогу відкрити частину мапи на 2 хв.\nВорожі загони в радіусі дії поступово отримують незначні пошкодження\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurPalantir",
+   "en": "Guldur Palantir (&T)",
+   "uk": "Палантир Ґулдуру (&T)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeGuldurFortressPalantir",
+   "en": "Guldur Palantir (&E)",
+   "uk": "Палантир Ґулдуру (&E)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipGuldurEnsnare",
+   "en": "Requires the Hill of Sorcery upgrade\nEnsnare takes control of enemy units within the radius for 30 seconds\nEnsnared enemies are invulnerable but when the spell runs out, they take damage\nLeft click icon then left click on target",
+   "uk": "Потребує покращення «Пагорб чаклунства»\nПідкоряє собі ворожі загони в радіусі дії на 30 сек.\nПідкорені вороги невразливі, але коли дія закінчується, вони отримують пошкодження\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurEnsnare",
+   "en": "Ensnare (&S)",
+   "uk": "Обплутати (&S)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeGuldurFortressBatCloud",
+   "en": "Swarm of Bats (&W)",
+   "uk": "Зграя кажанів (&W)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeWildFortressBatCloud",
+   "en": "The Fortress gains a vision bonus and can detect stealthed units",
+   "uk": "Збільшує дальність огляду фортеці й дає їй змогу бачити невидимі загони",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeGuldurFortressPalantir",
+   "en": "Can be cast to reveal part of the map\nEnemy units caught in the radius take minor damage over time",
+   "uk": "Відкриває частину мапи\nВорожі загони в радіусі дії отримують незначні періодичні пошкодження",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeGuldurFortressEncroachment",
+   "en": "Dark Encroachment (&R)",
+   "uk": "Наступ темряви (&R)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeGuldurFortressEncroachment",
+   "en": "Permanently reduces all structure costs by 33%\nDoesn't affect fortress",
+   "uk": "Назавжди знижує вартість усіх споруд на 33%\nНе діє на фортецю",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeGuldurFortressFireArrows",
+   "en": "Pale Torches (&T)",
+   "uk": "Бліді смолоскипи (&T)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeGuldurFortressFireArrows",
+   "en": "Adds fire damage to Fortress and all attached Unquiet Ruins",
+   "uk": "Фортеця й усі прибудовані Неспокійні руїни завдають пошкоджень вогнем",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeGuldurFortressBlight",
+   "en": "Blight (&S)",
+   "uk": "Мор (&S)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurSpireBlight",
+   "en": "Blight",
+   "uk": "Мор",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeGuldurFortressBlight",
+   "en": "Prerequisite to Hill of Sorcery\nEnemy units surrounding the fortress take damage\nand turn into Wraiths upon dying",
+   "uk": "Потрібне для покращення «Пагорб чаклунства»\nВорожі загони навколо фортеці отримують пошкодження\nі після смерті стають привидами",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeGuldurFortressSorcery",
+   "en": "Requires the Blight upgrade\nIncreases Fortress armour by 65%\nAllows use of Ensnare ability\nEnsnare takes control of enemy units within the radius for 30 seconds\nWhen Ensnare runs out, ensnared enemies take damage",
+   "uk": "Потребує покращення «Мор»\nЗбільшує міцність фортеці на 65%\nВідкриває здібність «Обплутати»\nПідкоряє собі ворожі загони в радіусі дії на 30 сек.\nКоли дія закінчується, підкорені вороги отримують пошкодження",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeGuldurFortressSorcery",
+   "en": "Hill of Sorcery (&D)",
+   "uk": "Пагорб чаклунства (&D)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityBatCloud",
+   "en": "Bat &Cloud",
+   "uk": "Хмара кажанів (&C)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityBatCloud",
+   "en": "Deals small amounts of damage and detects stealth",
+   "uk": "Завдає незначних пошкоджень і виявляє невидимі загони",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurFortress",
+   "en": "Summon Fortress (&I)",
+   "uk": "Фортеця (&I)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructWildFortress",
+   "en": "Recruits Builders and Heroes\nCan be upgraded with improvements and expansions\nIncreases command point limit by 100",
+   "uk": "Найм будівельників та вербування героїв\nПридбання покращень та прибудова додаткових споруд\nЗбільшує ліміт очок командування на 100 од.",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurSlaveMill",
+   "en": "Summon Slave Mill (&W)",
+   "uk": "Млин з рабами (&W)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurSlaveMill",
+   "en": "Slave Mill",
+   "uk": "Млин з рабами",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurInfestation",
+   "en": "Infestation (&W)",
+   "uk": "Нашестя (&W)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurInfestationAI",
+   "en": "Infestation",
+   "uk": "Нашестя",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:SpiderLairInfestation",
+   "en": "Infestation",
+   "uk": "Нашестя",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGuldurInfestation",
+   "en": "Requires a Spider Lair\nSummons a swarm of spiders around the structure for 30 seconds\nthat slows nearby enemies' attack and movement speed by 10% and deals minor damage to nearby enemies\nLeft click to activate",
+   "uk": "Потрібне Павуче лігво\nНа 30 сек. довкола споруди з'являється павучий рій,\nякий на 10% сповільнює рух і атаки ворогів поблизу та завдає їм незначних пошкоджень\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:RefreshSlaves",
+   "en": "Refresh Slaves (&E)",
+   "uk": "Свіжі раби (&E)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRefreshSlaves",
+   "en": "Requires Level 2\nPermanently summons a horde of Broken Rabble\nRespects command point limit\nSlave Mill's resource production is paused for 60 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 2\nПрикликає постійний загін Зломленої наволочі\nВраховує ліміт очок командування\nМлин рабів на 60 сек. припиняє видобуток ресурсів\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipConstructGuldurSlaveMill",
+   "en": "Provides misery as a resource based on available terrain\nCan spawn hordes of Broken Rabble\nReduces cost of basic orcs\nIncreases command point limit by 50",
+   "uk": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nМоже прикликати загони Зломленої наволочі\nЗнижує вартість звичайних орків\nЗбільшує ліміт очок командування на 50 од.",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurOrcPikemanHorde",
+   "en": "Orc Gaolers (&R)",
+   "uk": "Орки-тюремники (&R)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurOrcPikemanHorde",
+   "en": "Orc Gaolers",
+   "uk": "Орки-тюремники",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGuldurOrcPikemanHorde",
+   "en": "Strong vs. Cavalry\nCan stealth near trees\n\nDol Guldur's jailors are not granted fates much improved from those they capture. In the end, all must bend and crawl before the Necromancer's dark might.",
+   "uk": "Ефективні проти кавалерії\nСтають невидимими поблизу дерев\n\nДоля тюремників Дол-Ґулдуру не набагато краща за долю їхніх полонених. Зрештою всі мусять коритися та повзати перед могутністю Некроманта.",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurOrcPikeman",
+   "en": "Orc Gaoler",
+   "uk": "Орк-тюремник",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:NecromancySummon",
+   "en": "Necromancy (&T)",
+   "uk": "Некромантія (&T)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TechnologyGuldurNecromancy",
+   "en": "Necromancy",
+   "uk": "Некромантія",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipNecromancySummon",
+   "en": "Requires a Spire of Sorcery\nTurn the horde into Risen Dead\nLeft click to activate",
+   "uk": "Потрібен Шпиль чаклунства\nЗагін перетворюється на Повсталих мерців\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurOrcArcherHorde",
+   "en": "Orc Hunters (&T)",
+   "uk": "Орки-мисливці (&T)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurOrcArcherHorde",
+   "en": "Orc Hunters",
+   "uk": "Орки-мисливці",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGuldurOrcArcherHorde",
+   "en": "Strong vs. Infantry\nCan stealth near trees\n\nWhen evil stirs, orcs are gathered to it like moths to a flame. It did not take long for them to answer the call of their master and swarm towards southern Mirkwood.",
+   "uk": "Ефективні проти піхоти\nСтають невидимими поблизу дерев\n\nКоли прокидається зло, орки злітаються до нього, як метелики на вогонь. Невдовзі вони відгукнулися на поклик свого володаря й кинулись до Південного Лихолісся.",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurOrcArcher",
+   "en": "Orc Hunter",
+   "uk": "Орк-мисливець",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurFireArrowUpgrade",
+   "en": "Corpse-fire Arrows (&C)",
+   "uk": "Стріли трупного вогню (&C)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeSentryTowerFireArrowsRuinousTower",
+   "en": "Corpse-fire Arrows (&E)",
+   "uk": "Стріли трупного вогню (&E)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeGuldurFireArrows",
+   "en": "Upgrades this horde with Corpse-fire Arrows\nSignificantly increases the damage done by Arrows",
+   "uk": "Оснащує цей загін стрілами трупного вогню\nСуттєво збільшує пошкодження стріл",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "TOOLTIP:LackGuldurFireArrow",
+   "en": "Research upgrade at Guldur Gaol to enable this equipment\nWhen equipped, significantly increases the damage done by Arrows",
+   "uk": "Придбайте покращення в «В'язниці Ґулдуру», щоб відкрити це спорядження\nПісля оснащення значно збільшує пошкодження стріл",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeGuldurBasicTrainingArchers",
+   "en": "Increases horde to Level 2 and unlocks Bring It Down! ability\nCan only be equipped at Level 1",
+   "uk": "Підвищує рівень загону до 2 і відкриває здібність «Валіть його!»\nМожна придбати лише на 1 рівні",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "TOOLTIP:LackGuldurBasicTrainingArchers",
+   "en": "Research upgrade at Guldur Gaol to enable this equipment\nWhen equipped, increases this horde to Level 2 and unlocks Bring It Down! ability",
+   "uk": "Придбайте покращення в «В'язниці Ґулдуру», щоб відкрити це спорядження\nПісля оснащення підвищує рівень загону до 2 і відкриває здібність «Валіть його!»",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:BringItDown",
+   "en": "Bring It Down! (&V)",
+   "uk": "Валіть його! (&V)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBringItDown",
+   "en": "Requires Level 2\nFor 20 seconds, Orc Hunters gain +85% damage to monsters and flying units\nLeft click to activate",
+   "uk": "Необхідно: Рівень 2\nНа 20 сек. орки-мисливці отримують бонус +85% до пошкоджень істотам і летючим ворогам\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurOrcRavagerHorde",
+   "en": "Orc Ravagers (&S)",
+   "uk": "Орки-спустошувачі (&S)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurOrcRavagerHorde",
+   "en": "Orc Ravagers",
+   "uk": "Орки-спустошувачі",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGuldurOrcRavagerHorde",
+   "en": "Requires Level 2 Guldur Gaol\nStrong vs. Structures and Infantry\n\nThe Necromancer took a special interest in the largest and toughest of his minions, cursing them with fell magic and turning them into senseless, unstoppable husks tailored strictly to his will.",
+   "uk": "Необхідно: В'язниця Ґулдуру 2 рівня\nЕфективні проти споруд і піхоти\n\nНекромант особливо цікавився найбільшими й найсильнішими зі своїх прислужників: він проклинав їх магією скверни, перетворюючи на бездумні оболонки, що корилися тільки його волі.",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurOrcRavager",
+   "en": "Orc Ravager",
+   "uk": "Орк-спустошувач",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:AppetiteForDestruction",
+   "en": "Appetite for Destruction (&R)",
+   "uk": "Жага до руйнувань (&R)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAppetiteForDestruction",
+   "en": "Requires Level 3\nOrc Ravagers deal knockback damage and regain health per hit against structures for 20 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 3\nНа 20 сек. удари орків-спустошувачів відкидають ворогів, а кожен удар по споруді відновлює їм здоров'я\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurTombGuardHorde",
+   "en": "Tomb Guard (&D)",
+   "uk": "Могильна варта (&D)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurTombGuardHorde",
+   "en": "Tomb Guard",
+   "uk": "Могильна варта",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurTombGuard",
+   "en": "Tomb Guard",
+   "uk": "Могильна варта (&D)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGuldurTombGuardHorde",
+   "en": "Requires Level 3 Guldur Gaol\nStrong vs. Cavalry\n\nMany dark tunnels and tombs were dug into Amon Lanc to house the Necromancer's subjects and keep them hidden from the prying eyes of the White Council. They were guarded by ancient orcs of singular mind, rotted and decayed.",
+   "uk": "Необхідно: В'язниця Ґулдуру 3 рівня\nЕфективні проти кавалерії\n\nУ надрах Амон-Ланку вирили безліч темних тунелів і гробниць, щоб ховати там підданих Некроманта від зацікавлених очей Білої Ради. Їх стерегли прадавні орки, зотлілі й зогнилі, що мали лише одну думку.",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToggleTombGuardPorcupineFormation",
+   "en": "Porcupine Formation (&R)",
+   "uk": "Стрій «Їжак» (&R)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurHeavyDuty",
+   "en": "Heavy Duty",
+   "uk": "Важка служба",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGuldurHeavyDuty",
+   "en": "When a Tomb Guard dies, nearby Tomb Guard gain +15% armour for 8 seconds\nPassive ability",
+   "uk": "Коли гине могильний вартовий, вартові поблизу на 8 сек. отримують бонус +15% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildFortress",
+   "en": "Build Fortress (&I)",
+   "uk": "Фортеця (&I)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructUnburiedWight",
+   "en": "Unburied Wights (&W)",
+   "uk": "Непоховані привиди (&W)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurUnburiedWightHorde",
+   "en": "Unburied Wights",
+   "uk": "Непоховані привиди",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGuldurUnburiedWight",
+   "en": "Requires Spire of Sorcery\nSpecialist Unit\nStrong vs. Elite and Upgraded units\nLimited to 3\n\nBy night and mist, dark things stalk the hills and woodlands of the Anduin Vale. The Woodmen say they were once noble lords of Rhovanion, their bones now beholden to the Necromancer's will.",
+   "uk": "Потрібен Шпиль чаклунства\nОсобливий загін\nЕфективні проти елітних і покращених загонів\nМаксимум 3 одночасно\n\nУночі та в тумані пагорбами й лісами долини Андуїну блукають темні тіні. Лісовики кажуть, що колись то були шляхетні володарі Рованіону, а тепер залишки коряться волі Некроманта.",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurUnburiedWight",
+   "en": "Unburied Wight",
+   "uk": "Непохований привид",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:DesecrateHoard",
+   "en": "Desecrate Hoard (&W)",
+   "uk": "Осквернити скарб (&W)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:DesecrateHoard5",
+   "en": "Desecrate Hoard",
+   "uk": "Осквернити скарб",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDesecrateHoard",
+   "en": "The Unburied Wights delve deeper into their ancestral hoard, uncovering time-lost artifacts that increase their strength\nUnburied Wights rank up a level\nLeft click to purchase",
+   "uk": "Непоховані привиди проникають дедалі глибше до скарбниці своїх предків, знаходячи загублені в часі реліквії, що примножують їхню силу.\nНепоховані привиди підвищують рівень\nКлікніть, щоб придбати",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:BitingCold",
+   "en": "Biting Cold",
+   "uk": "Пронизливий холод",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBitingCold",
+   "en": "Nearby enemy units suffer -10% armour and damage\nDebuff increases by 5% with every time Unburied Wights desecrate their hoard\nPassive ability",
+   "uk": "Ворожі загони поблизу отримують штраф -10% броні й пошкоджень\nЩоразу, коли непоховані привиди оскверняють свій скарб, штраф зростає на 5%\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:RavenousHunger",
+   "en": "Ravenous Hunger",
+   "uk": "Ненаситний голод",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRavenousHunger",
+   "en": "Requires Level 2\nAttacks against living units restore health to the Unburied Wights\nPassive ability",
+   "uk": "Необхідно: Рівень 2\nАтаки по живих загонах відновлюють Непохованим привидам здоров'я\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:BlackWinds",
+   "en": "Black Winds (&C)",
+   "uk": "Чорні вітри (&C)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBlackWinds",
+   "en": "Requires Level 3\nFor 20 seconds, the Unburied Wights gain\n+300% armour, +200% damage, +50% speed and fear immunity\nAfter 20 seconds, the Unburied Wights battalion is destroyed\nNearby enemies take damage and temporarily lose -15% damage and armour\nDestroyed battalion leaves behind Unburied Remains which will respawn the Unburied Wights if not destroyed\nLeft click to activate",
+   "uk": "Необхідно: Рівень 3\nНа 20 сек. Непоховані привиди отримують\nбонус +300% броні, +200% до пошкоджень, +50% швидкості та імунітет до страху\nЧерез 20 сек. загін Непохованих привидів гине\nВороги поблизу отримують пошкодження й тимчасово штраф -15% пошкоджень і броні\nЗагиблий загін лишає непоховані рештки: якщо їх не знищити, привиди відродяться\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurRestlessBarrow",
+   "en": "Summon Restless Barrow (&M)",
+   "uk": "Курган невпокоєних (&M)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurRestlessBarrow",
+   "en": "Restless Barrow",
+   "uk": "Курган невпокоєних",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructGuldurRestlessBarrow",
+   "en": "Defensive units that will attack nearby enemies\nUnearths Unburied Wights",
+   "uk": "Оборонні загони, що нападають на ворогів поблизу\nПіднімає з землі Непохованих привидів",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurRuinousTower",
+   "en": "Summon Ruinous Tower (&Y)",
+   "uk": "Зруйнована вежа (&Y)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructGuldurRuinousTower",
+   "en": "Defensive tower that fires arrows at nearby enemies\nStealthed near trees\nReduces cost of Shades",
+   "uk": "Оборонна вежа, що стріляє стрілами по ворогах, які наближаються\nНевидима поблизу дерев\nЗнижує вартість тіней",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurRuinousTower",
+   "en": "Ruinous Tower",
+   "uk": "Зруйнована вежа",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurRuinousTowerDescription",
+   "en": "Fires arrows at nearby enemies\nStealthed near trees\nDeepening Darkness - Reduced cost of Shades\n1 Tower: 20%\n2 Towers: 40%\n3 Towers: 60%\n4 Towers: 80%\n5+ Towers: 100%",
+   "uk": "Стріляє по ворогах поблизу\nНевидима поблизу дерев\nЗгущення темряви — знижена вартість тіней\n1 вежа: 20%\n2 вежі: 40%\n3 вежі: 60%\n4 вежі: 80%\n5+ веж: 100%",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeSentryTowerHiddenSentry",
+   "en": "Hidden Sentry (&E)",
+   "uk": "Прихований вартовий (&E)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerHiddenSentry",
+   "en": "Allows this Tower to fire arrows at enemies\nAllows purchase of the Fire Arrows upgrade",
+   "uk": "Вежа починає стріляти по ворогах\nДозволяє придбати покращення «Вогняні стріли»",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeSentryTowerDarkPresence",
+   "en": "Dreadful Presence (&R)",
+   "uk": "Жахлива присутність (&R)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerDarkPresence",
+   "en": "Increases the radius of Dark Presence from this Tower by 50%\nIncreases Tower's armour by 33%\n\nHides the tower from sight",
+   "uk": "Збільшує радіус Темної присутності цієї вежі на 50%\nЗбільшує міцність вежі на 33%\n\nХоває вежу від чужих очей",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeGuldurSentryTowerFireArrows",
+   "en": "Requires the Hidden Sentry upgrade\nUpgrades this Tower with Corpse-fire Arrows\nIncreases damage done by arrows",
+   "uk": "Потребує покращення «Прихований вартовий»\nОснащує цю вежу стрілами трупного вогню\nЗбільшує пошкодження стріл",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurSpiderLair",
+   "en": "Summon Spider Lair (&C)",
+   "uk": "Павуче лігво (&C)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructGuldurSpiderLair",
+   "en": "Trains and upgrades Spiders",
+   "uk": "Прикликання та покращення павуків",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurSpiderLair",
+   "en": "Spider Lair",
+   "uk": "Павуче лігво",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurBoneyardExpansion",
+   "en": "Boneyard Expansion (&E)",
+   "uk": "Кістки полеглих (&E)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurBoneyardExpansion",
+   "en": "Boneyard Expansion",
+   "uk": "Кістки полеглих",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructGuldurBoneyardExpansion",
+   "en": "Risen Dead will emerge and attack nearby enemy units",
+   "uk": "Повсталі мерці виходять і нападають на ворожі загони поблизу",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurBarricadeExpansion",
+   "en": "Unquiet Ruin Expansion (&W)",
+   "uk": "Неспокійні руїни (&W)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructGuldurBarricadeExpansion",
+   "en": "Fires arrows at nearby enemy units\nBenefits from the Pale Torches upgrade",
+   "uk": "Стріляють по ворожих загонах поблизу\nПосилюються покращенням «Бліді смолоскипи»",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildBurrowsExpansion",
+   "en": "Tunnel Entrance Expansion (&T)",
+   "uk": "Вхід до тунелю (&T)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:WildFortressBurrowsExpansion",
+   "en": "Tunnel Entrance Expansion",
+   "uk": "Вхід до тунелю",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructWildBurrowsExpansion",
+   "en": "Connects this Fortress to the tunnel network",
+   "uk": "З'єднує цю фортецю з мережею тунелів",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:WildFortressBurrowsExpansionDescription",
+   "en": "Allows access to the tunnel network",
+   "uk": "Дає доступ до мережі тунелів",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructTrollDestroyer_They",
+   "en": "Cave-troll Destroyer",
+   "uk": "Печерний троль-руйнівник",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildTrollDestroyer",
+   "en": "Requires Level 2 Troll Lair\nStrong vs. Swordsmen, Cavalry, and Structures\n\nReared for brutal tunnel warfare, these Cave-trolls are the largest and meanest of their kind. Before battle, their orcish keepers pester and bully them into a blind rage.",
+   "uk": "Необхідно: Лігво тролів 2 рівня\nЕфективні проти мечників, кавалерії та споруд\n\nЦих печерних тролів вирощують для жорстоких боїв у тунелях: вони найбільші й найлютіші зі свого роду. Перед битвою наглядачі-орки дражнять і цькують їх, доки ті не впадуть у сліпу лють.",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGoblinFighterHorde_They",
+   "en": "Moria-orc Screechers",
+   "uk": "Орки-крикуни Морії",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:HordeGoblinFighters",
+   "en": "Moria Orc Screechers",
+   "uk": "Орки-крикуни Морії",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GoblinFighter",
+   "en": "Moria Orc Screecher",
+   "uk": "Орк-крикун Морії",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityGoblinFighterPoisonedBlades",
+   "en": "Poisons targeted enemies causing damage over time for 15 seconds\nLeft click to activate",
+   "uk": "Отруює ворогів: вони 15 сек. отримують періодичні пошкодження\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityGoblinFighterPoisonedBlades",
+   "en": "Poisoned Blades (&W)",
+   "uk": "Отруєні клинки (&W)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "TOOLTIP:LackWildBasicTraining",
+   "en": "Research at Goblin Hoard to enable this equipment\nWhen equipped, increases this battalion to Level 2",
+   "uk": "Придбайте покращення в «Скарбниці ґоблінів», щоб відкрити це спорядження\nПісля оснащення підвищує рівень загону до 2",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildTrollSentryExpansion",
+   "en": "Troll Sentry Expansion (&R)",
+   "uk": "Вартовий троль (&R)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:WildTrollSentryExpansion",
+   "en": "Troll Sentry Expansion",
+   "uk": "Вартовий троль",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructWildTrollSentryExpansion",
+   "en": "A troll that hurls rocks at enemy units",
+   "uk": "Троль, що жбурляє каміння у ворожі загони",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildSpiderHolesExpansion",
+   "en": "Wolf Den Expansion (&E)",
+   "uk": "Вовче лігво (&E)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:WildSpiderHolesExpansion",
+   "en": "Wolf Den Expansion",
+   "uk": "Вовче лігво",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructWildSpiderHolesExpansion",
+   "en": "Wolves will emerge and attack nearby enemy units",
+   "uk": "Вовки вибігають і нападають на ворожі загони поблизу",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildArrowDenExpansion",
+   "en": "Orcish Lookout Expansion (&W)",
+   "uk": "Орочий дозорний пост (&W)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructWildArrowDenExpansion",
+   "en": "Fires arrows at nearby enemy units\nBenefits from the Infestation upgrade",
+   "uk": "Стріляє по ворожих загонах поблизу\nПосилюється покращенням «Нашестя»",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:WildArrowDenExpansion",
+   "en": "Arrow Den Expansion",
+   "uk": "Лігво лучників",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:WildFortressDescription",
+   "en": "Recruits Builders and Heroes\nCan be upgraded with improvements and expansions",
+   "uk": "Найм будівельників та вербування героїв\nПридбання покращень та прибудова додаткових споруд",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurThrain",
+   "en": "Thráin the Broken",
+   "uk": "Траїн Зломлений",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurThrainRecruit",
+   "en": "Recruit the Broken dwarf\n\nThe once proud son of Thrór was captured near the Eaves of Mirkwood while on his quest to reclaim the riches of Erebor, taken to the dungeons of Dol Guldur, and tortured for long decades until he finally broke.",
+   "uk": "Завербувати зломленого дворфа\n\nКолись гордого сина Трора схопили біля околиць Лихолісся, коли він ішов повернути скарби Еребору. Його кинули в підземелля Дол-Ґулдуру й довгі десятиліття катували, доки його волю не було остаточно зломлено.",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurThrainRevive",
+   "en": "Revive the fallen hero, Thráin",
+   "uk": "Відродити полеглого в бою Траїна",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ThrainDiminished",
+   "en": "Diminished (&W)",
+   "uk": "Послаблений (&W)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipThrainDiminished",
+   "en": "Thráin is but a thin shadow of his former self,\nand is able to skulk about unnoticed\nWhen activated, Thráin becomes stealthed and can neither attack nor be attacked for 30 seconds\nPassive ability",
+   "uk": "Траїн стає блідою тінню колишнього себе,\nй здатен непомітно крастися\nПісля активації Траїн на 30 сек. стає невидимим: його не можна атакувати, проте він і сам не може атакувати\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ThrainLeadership",
+   "en": "Captive Host",
+   "uk": "Полонене військо",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipThrainLeadership",
+   "en": "Requires Level 2\nModifier Type: Leadership\nBroken Rabble near Thráin gain\n+50% experience and +35% armour\nPassive ability",
+   "uk": "Необхідно: Рівень 2\nТип ефекту: Лідерство\nЗломлена наволоч поряд із Траїном отримує бонус\n+35% броні й на 50% швидше набирає досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ThrainNoEscape",
+   "en": "No Escape",
+   "uk": "Не втечеш",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipThrainNoEscape",
+   "en": "Requires Level 5\nWhen Thráin reaches low health he becomes invulnerable but cannot attack for 15 seconds\nCannot be triggered again for 60 seconds\nPassive ability",
+   "uk": "Необхідно: Рівень 5\nКоли здоров'я Траїна низьке, він на 15 сек. стає невразливим, але не може атакувати\nПовторно спрацьовує не раніше ніж через 60 сек.\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ThrainExperience",
+   "en": "Dark Memories (&C)",
+   "uk": "Темні спогади (&C)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipThrainExperience",
+   "en": "Requires Level 7\nTargeted Broken Rabble gain large experience\nLeft click then left click on target units",
+   "uk": "Необхідно: Рівень 7\nМиттєво наділяє зломлену наволоч великою кількістю досвіду\nКлікніть на іконку, потім оберіть потрібні загони",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurKrimpul",
+   "en": "Krimpûl the Torturer",
+   "uk": "Крімпул Душогуб",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurKrimpulRecruit",
+   "en": "Recruit an orc of exceptional cruelty\n\nKrimpûl rose ruthlessly through the ranks of Dol Guldur's Orc-garrison, until his Lieutenant finally took notice and put him to work in a place where his talents could come to full fruition.",
+   "uk": "Завербувати орка надзвичайної жорстокості\n\nКрімпул безжально пробивався крізь лави орочого гарнізону Дол-Ґулдуру, доки його не помітив сам Намісник і не приставив до справи, де його хист міг розкритися сповна.",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurKrimpulRevive",
+   "en": "Revive the fallen hero, Krimpûl",
+   "uk": "Відродити полеглого в бою Крімпула",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:KrimpulOrcSummon",
+   "en": "Orcish Chief (&W)",
+   "uk": "Орочий ватажок (&W)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKrimpulOrcSummon",
+   "en": "Summons a battalion of Orc Gaolers\nAt rank 3, includes an additional battalion of Orc Hunters\nAt rank 7, includes an additional battalion of Orc Ravagers\nLeft click icon then left click on target location",
+   "uk": "Прикликає загін орків-тюремників\nНа 3 рівні — додатковий загін орків-мисливців\nНа 7 рівні — додатковий загін орків-спустошувачів\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipKrimpulCommand",
+   "en": "Krimpûl has been tasked with retrieving the Rings of Power\nDeals +33% additional damage versus Gandalf the White,\nElrond, Galadriel, and Thorin Oakenshield\nAt rank 3, his strikes also lower the armour of enemies by 20%\nPassive ability",
+   "uk": "Кримпулові доручено здобути Персні влади\nЗавдає на 33% більше пошкоджень Ґендальфу Білому,\nЕлронду, Ґаладріель і Торіну Дубощиту\nНа 3 рівні його удари також знижують броню ворогів на 20%\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:KrimpulGaol",
+   "en": "Dungeon Master (&T)",
+   "uk": "Повелитель підземелля (&T)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKrimpulGaol",
+   "en": "Requires Level 5\nSummons a small Gaol that casts Dark Presence\nand may recruit Broken Rabble\nLeft click icon then left click on target location",
+   "uk": "Необхідно: Рівень 5\nПрикликає на поле бою в'язницю, що застосовує «Темну присутність»\nі дає змогу наймати зломлену наволоч\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:KrimpulCripple",
+   "en": "Imprison (&C)",
+   "uk": "Полонити (&C)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKrimpulCripple",
+   "en": "Requires Level 8\nKrimpûl cripples an enemy hero for 15 seconds\nCauses surrounding enemy units to cower in fear\nLeft click icon then left click on target",
+   "uk": "Необхідно: Рівень 8\nКримпул знерухомлює ворожого героя на 15 сек.\nВорожі загони навколо ціпеніють від страху\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurCargastRecruit",
+   "en": "Recruit the Lord of the Barrows\n\nA great King of Rhovanion in life, Cargást has long forgotten his true name. He was among the first to rise when the Necromancer discovered the barrows of his kin, and serves his master with dark fervor.",
+   "uk": "Завербувати Володаря Курганів\n\nЗа життя Карґаст був великим королем Рованіону, але своє справжнє ім'я давно забув. Коли Некромант знайшов поховання його роду й почав оживляти мертвих, Карґаст був одним із перших — і досі несе вічну службу своєму новому володареві.",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurCargast",
+   "en": "Cargást",
+   "uk": "Карґаст",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurCargastRevive",
+   "en": "Revive the fallen hero, Cargást",
+   "uk": "Відродити полеглого в бою Карґаста",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:CargastBarrowLord",
+   "en": "Barrow-lord (&W)",
+   "uk": "Проклятий король (&W)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCargastBarrowLord",
+   "en": "Nearby enemies are slowed passively by 15%\nThe radius of this effect increases with each level\nPassive ability\n\nCan be activated to deal a heavy strike against a targeted enemy, draining some life and knocking them over\nLeft click icon then left click on target",
+   "uk": "Вороги поблизу постійно сповільнюються на 15%\nРадіус ефекту зростає з кожним рівнем\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nМожна активувати, щоб завдати обраному ворогові сильного удару, викрасти частину його життя та збити з ніг\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:CargastLeadership",
+   "en": "March of the Dead",
+   "uk": "Марш мерців",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCargastLeadership",
+   "en": "Requires Level 3\nCargást permanently gains +15% movement speed\n\nModifier Type: Leadership\nNearby friendly units gain +15% movement speed and +50% experience gain\nPassive ability",
+   "uk": "Необхідно: Рівень 3\nКарґаст назавжди отримує бонус +15% швидкості руху\n\nТип ефекту: Лідерство\nСоюзні загони поблизу отримують бонус +15% швидкості руху й на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:CargastCursedTreasure",
+   "en": "Cursed Treasure (&T)",
+   "uk": "Проклятий скарб (&T)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCargastCursedTreasure",
+   "en": "Requires Level 5\nTarget structure earns +100% more resources but all nearby units lose -15% armour for 30 seconds\nCan target enemy resource structures\nLeft click icon then left click on target",
+   "uk": "Необхідно: Рівень 5\nПротягом 30 сек. обрана споруда дає на 100% більше ресурсів, але всі загони поблизу отримують штраф -15% броні\nМожна застосувати до ворожих ресурсних споруд\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:CargastSpell",
+   "en": "Spell of the Barrows (&C)",
+   "uk": "Чари могильних пагорбів (&C)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCargastSpell",
+   "en": "Requires Level 7\nTarget enemies cower in fear\nAny Risen Dead near Cargást deal +50% damage for 20 seconds\nLeft click icon then left click on target area",
+   "uk": "Необхідно: Рівень 7\nОбрані вороги ціпеніють від страху\nПовсталі мерці поряд із Карґастом на 20 сек. завдають на 50% більше пошкоджень\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:CargastDarkAwakening",
+   "en": "Dark Awakening (&V)",
+   "uk": "Темне пробудження (&V)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCargastDarkAwakening",
+   "en": "Requires Level 10\nCargást slowly but continually summons temporary,\nsingle Restless Warriors from the earth for 60 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 10\nКарґаст 60 сек. повільно, але безперервно прикликає з-під землі\nтимчасових поодиноких непохованих воїнів\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurSaenathraRevive",
+   "en": "Revive the fallen hero, Saenathra",
+   "uk": "Відродити полеглу в бою Саенатру",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurSaenathraRecruit",
+   "en": "Recruit Shelob's greatest daughter\n\nSaenathra tried to supplant the great matron within her lair, but failed and was cast out. Now she dwells in Southern Mirkwood, where she rules over her own vile brood.",
+   "uk": "Завербувати найбільшу доньку Шелоб\n\nСаенатра спробувала скинути велику матір з її лігва, але зазнала поразки й була вигнана. Тепер вона живе в Південному Лихоліссі, де владарює над власним мерзенним виводком.",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityGreatSpiderTunnel",
+   "en": "Burrow (&R)",
+   "uk": "Підкоп (&R)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:NecromancerRecruit",
+   "en": "Recruit the Dark Presence hidden within the haunted ruins of Dol Guldur\n\n'A Dark Power dwells in there, such as I have never felt before. It is the shadow of an ancient horror, one that can summon the spirits of the dead. I saw him, Gandalf, from out of the darkness. A Necromancer has come.'",
+   "uk": "Завербувати Темну силу, що ховається в примарних руїнах Дол-Ґулдуру\n\n«Там живе Темна сила, якої я ще ніколи не відчувала. Це тінь давнього жаху, що здатен прикликати духів мертвих. Я бачила його, Ґендальфе, він постав із темряви. Прийшов Некромант».",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:NecromancerRevive",
+   "en": "Revive the fallen Necromancer",
+   "uk": "Відродити полеглого в бою Некроманта",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurSorceryTower",
+   "en": "Summon Spire of Sorcery (&V)",
+   "uk": "Шпиль чаклунства (&V)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructGuldurSorceryTower",
+   "en": "Trains specialist units\nDamage nearby enemies and turns them into wraiths upon dying\nGrants access to Necromancy upgrade",
+   "uk": "Тренує особливі загони\nЗавдає пошкоджень ворогам поблизу, і після смерті вони стають привидами\nВідкриває покращення «Некромантія»",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurSorceryTower",
+   "en": "Spire of Sorcery",
+   "uk": "Шпиль чаклунства",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTechnologyGuldurNecromancy",
+   "en": "Orc Hunters and Gaolers may be turned into Risen Dead,\nfast-moving shock troops that do not suffer from the Necromancer's Corruption\nAlso spawns Risen Dead to defend Dol Guldur structures\nPassive ability",
+   "uk": "Орків-мисливців і орків-тюремників можна перетворити на Повсталих мерців —\nце швидкі ударні загони, яким не шкодить скверна Некроманта\nТакож прикликає Повсталих мерців на захист споруд Дол-Ґулдуру\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GreaterBlight",
+   "en": "Greater Blight (&T)",
+   "uk": "Великий мор (&T)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGuldurSpireBlight",
+   "en": "Requires Level 2 Spire of Sorcery\nEnemy units surrounding the Spire take damage\nand turn into Wraiths upon dying\nPassive ability",
+   "uk": "Необхідно: Шпиль чаклунства 2 рівня\nВорожі загони навколо Шпиля отримують пошкодження\nі після смерті стають привидами\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGreaterBlight",
+   "en": "Requires Level 3 Spire of Sorcery\nGreatly increases the radius of the Blight passive, which damages nearby enemies and\nturns them into wraiths upon dying",
+   "uk": "Необхідно: Шпиль чаклунства 3 рівня\nЗначно збільшує радіус «Скверни», що завдає пошкоджень ворогам поблизу, і\nпісля смерті всі вони стають привидами",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGuldurSorceryTowerLevel2Upgrade",
+   "en": "Allows use of Blight, training of Armoured Castellans\n+10% faster build speed",
+   "uk": "Дає змогу використовувати «Мор» і тренування закутих кастеллів\n+10% до швидкості тренування",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurSorceryTowerLevel2Upgrade",
+   "en": "Upgrade Spire of Sorcery to Level 2 (&A)",
+   "uk": "Покращити шпиль чаклунства до 2-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipBuildGuldurSorceryTowerLevel3Upgrade",
+   "en": "Allows research of the Greater Blight upgrade and training of Harbingers of Shadow\n+25% faster build speed",
+   "uk": "Відкриває дослідження «Великого мору» й тренування Провісників Тіні\n+25% до швидкості тренування",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurSorceryTowerLevel3Upgrade",
+   "en": "Upgrade Spire of Sorcery to Level 3 (&A)",
+   "uk": "Покращити шпиль чаклунства до 3-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurCastellan",
+   "en": "Armoured Castellan (&E)",
+   "uk": "Закутий кастелл (&E)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurCastellan",
+   "en": "Armoured Castellan",
+   "uk": "Закутий кастелл",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGuldurCastellan",
+   "en": "Requires Level 2 Spire of Sorcery\nStrong vs. Swordsmen and Archers\nHero Unit. Limited to 3\n\nNameless and with no will of their own, the dreaded Castellans of Dol Guldur are eternally bound to the Dark Lord's command.",
+   "uk": "Необхідно: Шпиль чаклунства 2 рівня\nЕфективні проти мечників і лучників\nГероїчний загін. Максимум 3 одночасно\n\nБезіменні й позбавлені власної волі, страхітливі кастелли Дол-Ґулдуру навіки скуті владою Темного Володаря.",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:CastellanLeadership",
+   "en": "Castellan of Dol Guldur",
+   "uk": "Кастелл Дол-Ґулдуру",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCastellanLeadershipGuldur",
+   "en": "Modifier Type: Spell\nNearby Dol Guldur units afflicted by Slow Decay are no longer drained over time, receive +15% damage and armour, and are healed by a small amount\n\nNearby allied structures gain +25% armour\nAttacking enemy units are poisoned and lose -15% armour for 5 seconds\nPassive ability",
+   "uk": "Тип ефекту: Заклинання\nСоюзні загони Дол-Ґулдуру поблизу, уражені Повільним згасанням, більше не виснажуються, отримують бонус +15% до пошкоджень і броні та трохи зцілюються\n\nСоюзні споруди поблизу отримують бонус +25% броні\nВорожі загони, що атакують, отруюються й на 5 сек. отримують штраф -15% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:CastellanIncorporeal",
+   "en": "Incorporeal (&R)",
+   "uk": "Безтілесність (&R)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCastellanIncorporeal",
+   "en": "Requires Level 3\nThe Armoured Castellan becomes immune to damage\nfor 30 seconds but cannot move or attack\nLeft click to activate",
+   "uk": "Необхідно: Рівень 3\nКастелл на 30 сек. стає невразливим,\nале не може рухатися й атакувати\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:NecromanticBlast",
+   "en": "Necromantic Blast (&T)",
+   "uk": "Некромантичний вибух (&T)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipNecromanticBlast",
+   "en": "Requires Level 7\nEnemy units are blasted back and take damage\nKilled units become wraiths\nLeft click to activate",
+   "uk": "Необхідно: Рівень 7\nВідкидає ворожі загони й завдає їм пошкоджень\nУбиті вороги стають привидами\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGuldurHarbingerHorde",
+   "en": "Requires Level 3 Spire of Sorcery\nSpecialist Unit\nStrong vs. Heroes, Infantry and Structures\nLimited to 3\n\nDuring Sauron's long hiding in the mysterious lands of the East he attracted a dark following of sorcerers and Witch-lords. These evil men would grow learned in the dark arts of Morgoth, in time transforming themselves into the half-living Harbingers of Shadow and following Sauron on his journey back into the lands and affairs of his sworn enemies.",
+   "uk": "Необхідно: Шпиль чаклунства 3 рівня\nОсобливий загін\nЕфективні проти героїв, піхоти та споруд\nМаксимум 3 одночасно\n\nДовго ховаючись у загадкових землях Сходу, Саурон зібрав темних послідовників — чаклунів і владик-чародіїв. Ці люди опанували темне мистецтво Морґота й згодом перетворилися на напівживих Провісників Тіні, що рушили у землі ворогів Саурона.",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurHarbingerHorde",
+   "en": "Harbingers of Shadow (&R)",
+   "uk": "Провісники Тіні (&R)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:HordeGuldurHarbinger",
+   "en": "Harbingers of Shadow",
+   "uk": "Провісники Тіні",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurHarbinger",
+   "en": "Harbinger of Shadow",
+   "uk": "Провісник Тіні",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:HarbingerDeepRot",
+   "en": "Deep Rot (&W)",
+   "uk": "Глибока гниль (&W)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHarbingerDeepRot",
+   "en": "Can be cast on a structure to deal damage for 15 seconds\nAt rank 3, spawns several uncontrollable Wraiths around the targeted structure\nThese Wraiths last a short time but can turn enemy units\ninto Wraiths\nLeft click icon then left click on target building",
+   "uk": "Можна застосувати до споруди: вона 15 сек. отримує пошкодження\nНа 3 рівні довкола споруди з'являються кілька некерованих привидів\nВони існують недовго, але можуть перетворювати ворожі загони\nна привидів\nКлікніть на іконку, потім оберіть споруду",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:HarbingerColdSteel",
+   "en": "Cold Steel",
+   "uk": "Холодна сталь",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHarbingerColdSteel",
+   "en": "Requires Level 2\nThe Harbingers' attacks passively decrease armour by -15%\nand movement speed by -10% per hit\nDebuff does not stack with itself\nPassive ability",
+   "uk": "Необхідно: Рівень 2\nКожен удар Провісників постійно знижує броню ворога на 15%\nі швидкість руху на 10%\nОслаблення не накопичується\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:HarbingerWitheringTouch",
+   "en": "Withering Touch (&T)",
+   "uk": "Висушливий дотик (&T)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHarbingerWitheringTouch",
+   "en": "Requires Level 3\nUnits within the radius take damage over time for 20 seconds\nAffects both enemies and allies\nRisen Dead are immune\nLeft click icon then left click on target area",
+   "uk": "Необхідно: Рівень 3\nЗагони в радіусі дії 20 сек. отримують періодичні пошкодження\nДіє і на ворогів, і на союзників\nНе діє на Повсталих мерців\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurGreatSpider",
+   "en": "Saenathra's Sister (&E)",
+   "uk": "Сестра Саенатри (&E)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurGreatSpider",
+   "en": "Saenathra's Sister",
+   "uk": "Сестра Саенатри",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGuldurGreatSpider",
+   "en": "Requires Level 2 Spider Lair\nStrong vs. infantry and structures\n\nA single giant spider that tramples enemy units and deals powerful siege damage",
+   "uk": "Необхідно: Павуче лігво 2 рівня\nЕфективна проти піхоти й споруд\n\nВелетенська павучиха, що топче ворожі загони й завдає потужних облогових пошкоджень",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityGreatSpiderTunnel",
+   "en": "Requires level 2\nAllows the Spider to tunnel under the ground and emerge at any unshrouded location\nLeft click icon then left click on target location",
+   "uk": "Необхідно: Рівень 2\nПавучиха прориває хід під землею й вилазить у будь-якому відкритому місці мапи\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:EncasingWebs",
+   "en": "Encasing Webs (&T)",
+   "uk": "Кокон із павутиння (&T)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEncasingWebs",
+   "en": "Requires Level 3\nDisables enemy structures and deals minor damage for 20 seconds\nLeft click icon then left click on target",
+   "uk": "Необхідно: Рівень 3\nНа 20 сек. виводить з ладу ворожі споруди й завдає їм незначних пошкоджень\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGuldurFellBroodHorde",
+   "en": "Strong vs. Infantry\nCan stealth near trees\nChittering Swarm Bonus\nModifier Type: Spell\nAll Fell Brood gain +25% damage and +25% armour when gathered in numbers of 30 or more\n\nThese foul creatures were the spawn of Saenathra and whilst they were not as large as their matriarch, they were still capable of catching unwary travellers off-guard and feasting on their flesh.",
+   "uk": "Ефективні проти піхоти\nСтають невидимими поблизу дерев\nМає здібність Галасливий рій\nТип ефекту: Заклинання\nУвесь Лихий виводок отримує бонус +25% до пошкоджень і +25% броні, якщо зібрані в кількості 30 і більше\n\nЦі мерзенні створіння були потомством Саенатри. Хоч вони й не такі великі, як їхня матір, але здатні заскочити необережних мандрівників і поласувати їхньою плоттю.",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ChitteringSwarm",
+   "en": "Chittering Swarm",
+   "uk": "Галасливий рій",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipChitteringSwarm",
+   "en": "Horde Bonus\nModifier Type: Spell\nAll Fell Brood gain +25% damage and +25% armour when gathered in numbers of 30 or more",
+   "uk": "Отримують бонуси від кількості\nТип ефекту: Заклинання\nУвесь Лихий виводок отримує бонус +25% до пошкоджень і +25% броні, якщо зібрані в кількості 30 і більше",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:FellBroodShriek",
+   "en": "Shriek (&T)",
+   "uk": "Вереск (&T)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipFellBroodShriek",
+   "en": "Requires Level 2\nNearby enemy cavalry are terrified\nAlso passively decreases cavalry speed by -15%\nLeft click to activate",
+   "uk": "Необхідно: Рівень 2\nНаганяє жах на ворожу кавалерію поблизу\nТакож постійно знижує швидкість кавалерії на 15%\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseSpiderVenomSacks",
+   "en": "Upgrades this horde with Venom Sacs\nIncreases Fellbrood's damage by 25%\nInflicts poison to enemies causing damage over time",
+   "uk": "Цей загін нарощує отруйні залози\nЗбільшує пошкодження Лихого виводку на 25%\nОтруює ворогів, завдаючи їм періодичних пошкоджень",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseSpiderVenomSacks",
+   "en": "Purchase Venom Sacs (&C)",
+   "uk": "Отруйні залози (&C)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeGuldurBasicTraining_FellBrood",
+   "en": "Purchase Matriarch (&V)",
+   "uk": "Матріарх (&V)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurFellBroodHorde",
+   "en": "Fell Brood (&W)",
+   "uk": "Лихий виводок (&W)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurFellBrood",
+   "en": "Fell Brood",
+   "uk": "Лихий виводок",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpiderLairInfestation",
+   "en": "Once constructed, Spider Lairs allow most structures\nto use the Infestation power\nInfestation summons a swarm of spiders around a structure\nthat slows nearby enemies' attack and movement speed by 10% and deals minor damage\nPassive ability",
+   "uk": "Коли Павуче лігво збудовано, більшість споруд\nможе застосовувати «Нашестя»\n«Нашестя» прикликає рій павуків довкола споруди,\nщо на 10% сповільнює рух і атаки ворогів поблизу та завдає їм незначних пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurSpiderLairLevel2Upgrade",
+   "en": "Upgrade Spider Lair to Level 2 (&A)",
+   "uk": "Покращити павуче лігво до 2-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGuldurSpiderLairLevel2Upgrade",
+   "en": "Allows training of Saenathra's Sisters\n+10% faster build speed",
+   "uk": "Дозволяє тренувати Сестер Саенатри\n+10% до швидкості тренування",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurSpiderLairLevel3Upgrade",
+   "en": "Upgrade Spider Lair to Level 3 (&A)",
+   "uk": "Покращити павуче лігво до 3-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGuldurSpiderLairLevel3Upgrade",
+   "en": "+25% faster build speed",
+   "uk": "+25% до швидкості тренування",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDesecrateHoard5",
+   "en": "The Unburied Wights have desecrated their ancestral hoard in its entirety and cannot be ranked up any further\nPassive ability",
+   "uk": "Непоховані привиди осквернили всі скарби своїх предків і більше не можуть підвищувати рівень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurCarnage",
+   "en": "Carnage",
+   "uk": "Різанина",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGuldurCarnage",
+   "en": "Modifier Type: Buff\nTarget allies gain +50% damage, at the cost of -15% armour for 60 seconds\nLeft click icon then left click on target units",
+   "uk": "Тип ефекту: Посилення\nОбрані союзники отримують бонус +50% до пошкоджень ціною -15% броні на 60 сек.\nКлікніть на іконку, потім оберіть потрібні загони",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipGuldurShadeDecoy",
+   "en": "Summons a spirit of the Dead Marshes, identical in appearance to a Tethered Shade, for 60 seconds\nIf attacked, the spirit will disappear, stunning enemy units for 5 seconds and reducing their vision by 50% for 30 seconds\nLimited to 1",
+   "uk": "Прикликати на 60 сек. духа Мертвих боліт, якого на вигляд не відрізнити від Прикутої тіні\nЯкщо його атакують, дух зникає, приголомшує ворожі загони на 5 сек. і на 30 сек. зменшує їхню видимість на 50%\nМаксимум 1 одночасно",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurShadeDecoy",
+   "en": "Don't Follow the Lights",
+   "uk": "Не йдіть за вогниками",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:DolGuldurChill",
+   "en": "Chill of the Grave",
+   "uk": "Могильний холод",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipDolGuldurChill",
+   "en": "Enemy units are slowed by 30% and take damage over time for 15 seconds\nLeft click icon then click on target",
+   "uk": "Ворожі загони сповільнюються на 30% і 15 сек. отримують періодичні пошкодження\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurForestOfFear",
+   "en": "Forest of Fear",
+   "uk": "Ліс страху",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGuldurForestOfFear",
+   "en": "Corrupts an area of terrain for 5 minutes\nModifier Type: Spell\nNearby Dol Guldur units afflicted by Slow Decay are no longer drained over time and receive +15% damage and armour\nSpawns a large number of wild spiders that attack anything in sight\nEnemy units in the target area lose all leadership, suffer -20% speed and are terrified\nLeft click icon then left click on target area",
+   "uk": "Оскверняє ділянку землі на 5 хв.\nТип ефекту: Заклинання\nЗагони Дол-Ґулдуру поблизу, уражені Повільним згасанням, більше не виснажуються й отримують бонус +15% до пошкоджень і броні\nЗ'являється безліч диких павуків, що нападають на все, що бачать\nВорожі загони на ділянці втрачають усе лідерство, отримують штраф -20% швидкості й охоплені жахом\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurConcealment",
+   "en": "Spell of Concealment",
+   "uk": "Закляття приховування",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipGuldurConcealment",
+   "en": "Friendly units and structures within the area become stealthed\nModifier Type: Active Debuff\nNearby enemy units suffer -25% damage and -25% armour\nNullifies enemy leadership\nLasts 60 seconds\nLeft click icon then left click on target area",
+   "uk": "Союзні загони й споруди на обраній ділянці стають невидимими\nТип ефекту: Активне ослаблення\nВорожі загони поблизу отримують штраф -25% пошкоджень і -25% броні\nСкасовує вороже лідерство\nТриває 60 сек.\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurDarkHysteria",
+   "en": "Dark Hysteria",
+   "uk": "Безумство пітьми",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGuldurDarkHysteria",
+   "en": "Causes targeted battalions to become hostile towards all allies for 20 seconds\nLeft click icon then left click on target units",
+   "uk": "Вказані загони на 20 сек. стають ворожими до всіх союзників\nКлікніть на іконку, потім оберіть потрібні загони",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGuldurBlackWarg",
+   "en": "Summons two hordes of Black Wargs lead by their Great Alpha\nLeft click icon then left click on target area",
+   "uk": "Прикликати 2 зграї чорних варґів на чолі з альфа-самцем\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurBlackWarg",
+   "en": "Spawn of Carcharoth",
+   "uk": "Породження Кархарота",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurUndeadTroll",
+   "en": "Undead Monstrosity",
+   "uk": "Невмерла потвора",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipGuldurUndeadTroll",
+   "en": "Summons an armoured, undead Troll\nLeft click icon then left click on pathable location",
+   "uk": "Прикликати броньованого невмерлого троля\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:Darkness",
+   "en": "Darkness",
+   "uk": "Пітьма",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDarkness",
+   "en": "Covers the entire map in darkness for 3 minutes\nCancels Freezing Rain, Blessing of Ulmo, Lights Go Out, White Winter and Darkness\nModifier Type: Spell\nAll allied units gain +33% damage and +33% armour\nLeft click to activate",
+   "uk": "Пітьма покриває всю мапу на 3 хв.\nСкасовує ефекти погоди: «Крижаний дощ», «Благословення Улмо», «Згасання світла», «Білу зиму» й «Пітьму»\nТип ефекту: Заклинання\nУсі союзні загони отримують бонус +33% до пошкоджень і +33% броні\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurWither",
+   "en": "Wither",
+   "uk": "Занепад",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipGuldurWither",
+   "en": "Damages structures in a radius and disables them for 30 seconds\nLeft click icon then click on target",
+   "uk": "Завдає шкоди спорудам у радіусі дії та вимикає їх на 30 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurGreenMist",
+   "en": "Gift of the Necromancer",
+   "uk": "Дарунок Некроманта",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipGuldurGreenMist",
+   "en": "Summons a controllable, swirling green mist\nAll units, friend and foe, take damage and are turned into Wraiths upon death\nLeft click icon then left click on pathable location",
+   "uk": "Прикликати керований вихор зеленого туману\nУсі загони (дружні та ворожі) отримують пошкодження, а загинувши, стають привидами\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:SummonGwanthaur",
+   "en": "Bane of the Greenwood",
+   "uk": "Погибель Зеленолісся",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSummonGwanthaur",
+   "en": "Summons a corrupted, ancient spirit of the forest under your control\nLeft click icon then left click on pathable location",
+   "uk": "Прикликати під ваше керування спотвореного прадавнього духа лісу\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGuldurBrokenRabbleHorde",
+   "en": "Strong vs. Pikemen\n\nHorde consisting of tortured and enslaved Elves, Woodmen,\nand Dwarves.\n\n'The Necromancer's servants hunted and ensnared countless wanderers in and around the borders of southern Mirkwood. Tortured and broken, they were sent out with Dol Guldur's legions, to make war on their former friends and family.'",
+   "uk": "Ефективні проти пікінерів\n\nЗагін зі змучених і поневолених ельфів, лісовиків\nі дворфів.\n\n«Слуги Некроманта вистежували й ловили в пастки незліченну кількість мандрівників у Південному Лихоліссі та на його кордонах. Закатованих і зламаних, їх посилали з легіонами Дол-Ґулдуру воювати проти колишніх друзів і рідних».",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurBrokenRabbleHorde",
+   "en": "Broken Rabble (&E)",
+   "uk": "Зломлена наволоч (&E)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:HordeGuldurBrokenRabble",
+   "en": "Broken Rabble",
+   "uk": "Зломлена наволоч",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGuldurDrain",
+   "en": "Units are continually drained by the Necromancer's magic, slowly losing health over time\nSlow Decay can be countered by Dark Presence from nearby Dol Guldur structures and the Necromancer\nPassive ability",
+   "uk": "Магія Некроманта постійно виснажує загони Дол-Ґулдуру: вони поволі втрачають здоров'я\nПовільне згасання можна зупинити за допомогою Темної присутності, яку випромінюють найближчі споруди Дол-Ґулдуру та Некромант\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurDrain",
+   "en": "Slow Decay",
+   "uk": "Повільне згасання",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:EternalServitude",
+   "en": "Eternal Servitude",
+   "uk": "Вічне рабство",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEternalServitude",
+   "en": "Requires Level 2\nEach killed unit is reanimated as Risen Dead\nRisen Dead do not suffer from Slow Decay\nPassive ability",
+   "uk": "Необхідно: Рівень 2\nКожен убитий воїн повстає як Повсталий мрець\nПовсталі мерці не страждають від Повільного згасання\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurGaol",
+   "en": "Summon Guldur Gaol (&T)",
+   "uk": "В'язниця Ґулдуру (&T)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructGuldurGaol",
+   "en": "Trains Broken Rabble and Orc units",
+   "uk": "Тренування Зломленої наволочі та орочих загонів",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurGaol",
+   "en": "Guldur Gaol",
+   "uk": "В'язниця Ґулдуру",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurGaolDescription",
+   "en": "Level 2: +10% faster build speed\nLevel 3: +25% faster build speed",
+   "uk": "Рівень 2: +10% до швидкості тренування\nРівень 3: +25% до швидкості тренування",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurSpiderLairDescription",
+   "en": "Level 2: +10% faster build speed\nLevel 3: +25% faster build speed",
+   "uk": "Рівень 2: +10% до швидкості тренування\nРівень 3: +25% до швидкості тренування",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurSorceryTowerDescription",
+   "en": "Level 2: +10% faster build speed\nLevel 3: +25% faster build speed",
+   "uk": "Рівень 2: +10% до швидкості тренування\nРівень 3: +25% до швидкості тренування",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyGuldurBasicTraining",
+   "en": "Research Black Banners (&F)",
+   "uk": "Чорні стяги (&F)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyGuldurBasicTraining",
+   "en": "Allows hordes to purchase the Black Banners upgrade\nIncreases a horde to Level 2",
+   "uk": "Дає змогу кожному загону придбати покращення «Чорні стяги»\nПідвищує рівень загону до 2",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyGuldurFireArrows",
+   "en": "Research Corpse-fire Arrows (&G)",
+   "uk": "Стріли трупного вогню (&G)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyGuldurFireArrows",
+   "en": "Allows hordes to purchase the Corpse-fire Arrows upgrade\nWhen equipped, significantly increases the damage done by Arrows\nWill upgrade all patrols and tower archers instantly once upgrade is purchased",
+   "uk": "Дає змогу купляти загонам покращення «Стріли трупного вогню»\nПісля оснащення значно збільшує пошкодження стріл\nПісля дослідження миттєво покращує стріли всіх патрулів і лучників у вежах",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurGaol2Upgrade",
+   "en": "Upgrade Guldur Gaol to Level 2 (&A)",
+   "uk": "Покращити в'язницю Ґулдуру до 2-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGuldurGaol2Upgrade",
+   "en": "Allows training of Orc Ravagers and research of Corpse-fire Arrows upgrade\n+10% faster build speed",
+   "uk": "Дозволяє тренувати орків-спустошувачів і досліджувати «Стріли трупного вогню»\n+10% до швидкості тренування",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "TOOLTIP:LackLevel3GuldurGaolFireArrows",
+   "en": "Requires Level 2 Guldur Gaol",
+   "uk": "Необхідно: В'язниця Ґулдуру 2 рівня",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurGaol3Upgrade",
+   "en": "Upgrade Guldur Gaol to Level 3 (&A)",
+   "uk": "Покращити в'язницю Ґулдуру до 3-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGuldurGaol3Upgrade",
+   "en": "Allows training of Tomb Guard\n+25% faster build speed\nAdds defensive arrow tower",
+   "uk": "Дозволяє тренувати Могильну варту\n+25% до швидкості тренування\nДодає захисну вежу",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurSlaveMillDescription",
+   "en": "Provides misery as a resource based on available terrain\nCan spawn hordes of Broken Rabble\nMisery Bonus - Reduced cost of basic orcs\n2 Slave Mills: 5%\n3 Slave Mills: 10%\n4 Slave Mills: 15%\n5+ Slave Mills: 20%",
+   "uk": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nМоже прикликати загони Зломленої наволочі\nБонус злиднів — знижена вартість звичайних орків\n2 млини: 5%\n3 млини: 10%\n4 млини: 15%\n5+ млинів: 20%",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructAngmarTrollSling",
+   "en": "Troll &Stone Thrower",
+   "uk": "Тролячий каменемет (&S)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:AngmarTrollSling",
+   "en": "Troll Stone Thrower",
+   "uk": "Тролячий каменемет",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipBuildAngmarTrollSling",
+   "en": "Requires Level 3 Moria Cave\nCave Troll powered Siege weapon\nOnly 6 allowed at any time\nStrong vs. Structures",
+   "uk": "Необхідно: Печера Морії 3 рівня\nОблогова машина, яку приводить у дію печерний троль\nМаксимум 6 одночасно\nЕфективні проти споруд",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructEntwife",
+   "en": "Corrupted Entwife (&R)",
+   "uk": "Осквернена ентиця (&R)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurEntwife",
+   "en": "Corrupted Entwife",
+   "uk": "Осквернена ентиця",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildEntwife",
+   "en": "Requires Level 3 Fount of Corruption\nStrong vs. Structures, Swordsmen and Archers\nLimited to 8\n\nDuring the War of the Last Alliance, Sauron set fire to the Brown Lands, which had long been the home of the Entwives. Most perished in the inferno, but some were captured by the Dark Forces and subsequently corrupted.",
+   "uk": "Необхідно: Джерело скверни 3 рівня\nЕфективні проти споруд, мечників і лучників\nМаксимум 8 одночасно\n\nПід час Війни Останнього Союзу Саурон підпалив Бурі землі, що довго були домівкою ентиць. Більшість загинула в пожежі, та декого захопили сили Темряви й згодом осквернили.",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TumorousAcorn",
+   "en": "Tumorous Acorn",
+   "uk": "Пухлинний жолудь",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTumorousAcorn",
+   "en": "Once Entwives are killed, they drop a Tumorous Acorn,\nwhich will respawn the Entwife if left alone\nPassive ability",
+   "uk": "Загинувши, ентиця лишає пухлинний жолудь,\nз якого вона відродиться, якщо його не знищити\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTwistedBotany",
+   "en": "Entwives regain health while outside of combat\nPassive ability\n\nEntwives can enter the Fount to grant it\n+30% resource production\nPassive ability",
+   "uk": "Поза боєм ентиці відновлюють здоров'я\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nЕнтиці можуть увійти до Джерела скверни, щоб дати йому\n+30% до видобутку ресурсів\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurWoodsmenHorde",
+   "en": "Blighted Trappers (&E)",
+   "uk": "Заражені звіролови (&E)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurWoodsmenHorde",
+   "en": "Blighted Trappers",
+   "uk": "Заражені звіролови",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGuldurWoodsmenHorde",
+   "en": "Requires Level 2 Fount of Corruption\nStrong vs. Archers and Monsters\nCan stealth near trees\n\nParasitic spores that spread from the corrupted pools of Southern Mirkwood have infected parts of the native Woodmen population. They were last seen shambling towards the haunted fortress upon the barren hill...",
+   "uk": "Необхідно: Джерело скверни 2 рівня\nЕфективні проти лучників та істот\nСтають невидимими поблизу дерев\n\nСпори паразитів, що розходяться зі зіпсованих ставків Південного Лихолісся, заразили частину місцевих лісовиків. Востаннє їх бачили, коли вони шкандибали до проклятої фортеці на голому пагорбі...",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurWoodsmen",
+   "en": "Blighted Trapper",
+   "uk": "Заражений звіролов",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:Inoculation",
+   "en": "Inoculation",
+   "uk": "Щеплення",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipInoculation",
+   "en": "The Slow Decay of the Necromancer's magic does not affect\nthose already consumed by it\nPassive ability",
+   "uk": "Повільне згасання магії Некроманта не діє\nна тих, кого воно вже поглинуло\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurNoxiousDarts",
+   "en": "Noxious Darts (&R)",
+   "uk": "Отруйні дротики (&R)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGuldurNoxiousDarts",
+   "en": "Requires Level 2\nFor 20 seconds, Blighted Trappers deal poison damage\nDeals additional damage to structures\nLeft click to activate",
+   "uk": "Необхідно: Рівень 2\nНа 20 сек. заражені звіролови завдають пошкоджень отрутою\nЗавдають додаткових пошкоджень спорудам\nКлікніть, щоб активувати",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurParasiticEmbrace",
+   "en": "Parasitic Embrace (&T)",
+   "uk": "Обійми паразита (&T)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGuldurParasiticEmbrace",
+   "en": "Requires Level 3\nEnemy archers hit by Blighted Trappers suffer -20% damage for 5 seconds\nPassive ability\n\nEnemy units in the targeted area become infected and lose\n-50% vision and -25% range for 30 seconds\nLeft click icon then left click on target area",
+   "uk": "Необхідно: Рівень 3\nВорожі лучники, уражені зараженими звіроловами, на 5 сек. отримують штраф -20% пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nВорожі загони на обраній ділянці заражаються й на 30 сек. втрачають\n50% огляду й 25% дальності атаки\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeGuldurBasicTraining",
+   "en": "Purchase Black Banners (&V)",
+   "uk": "Чорні стяги (&V)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeGuldurBasicTraining",
+   "en": "Increases horde to Level 2\nCan only be equipped at Level 1",
+   "uk": "Підвищує рівень загону до 2\nМожна придбати лише на 1 рівні",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "TOOLTIP:LackGuldurBasicTraining",
+   "en": "Research upgrade at Guldur Gaol to enable this equipment\nWhen equipped, increases this horde to Level 2",
+   "uk": "Придбайте покращення в «В'язниці Ґулдуру», щоб відкрити це спорядження\nПісля оснащення підвищує рівень загону до 2",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurFountOfCorruption",
+   "en": "Summon Fount of Corruption (&R)",
+   "uk": "Джерело скверни (&R)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructGuldurFountOfCorruption",
+   "en": "Provides corruption as a resource based on available terrain\nTrains Blighted Trappers and Corrupted Entwives\nReduces cost of spiders\nIncreases command point limit by 50",
+   "uk": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nТренує заражених звіроловів і осквернених ентиць\nЗнижує вартість павуків\nЗбільшує ліміт очок командування на 50 од.",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurFountOfCorruption",
+   "en": "Fount of Corruption",
+   "uk": "Джерело скверни",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurFountOfCorruptionDescription",
+   "en": "Provides corruption as a resource based on available terrain\nTrains Blighted Trappers and Corrupted Entwives\nCorruption Bonus - Reduced cost of spiders\n2 Founts: 5%\n3 Founts: 10%\n4 Founts: 15%\n5 Founts: 20%\n6+ Founts: 25%",
+   "uk": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nТренує заражених звіроловів і осквернених ентиць\nБонус скверни — знижена вартість павуків\n2 джерела: 5%\n3 джерела: 10%\n4 джерела: 15%\n5 джерел: 20%\n6+ джерел: 25%",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeFountofCorruptionLevel2",
+   "en": "Upgrade Fount of Corruption to Level 2 (&A)",
+   "uk": "Покращити джерело скверни до 2-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildFountofCorruptionLevel2",
+   "en": "Increases resource production\nAllows training of Blighted Trappers",
+   "uk": "Збільшує видобуток ресурсів\nДозволяє тренувати заражених звіроловів",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TwistedBotanyExit",
+   "en": "Twisted Botany (&T)",
+   "uk": "Спотворена ботаніка (&T)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TwistedBotany",
+   "en": "Twisted Botany",
+   "uk": "Спотворена ботаніка",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTwistedBotanyExit",
+   "en": "Entwives can enter the Fount to grant it\n+30% resources production\nOrder the Entwife to leave the Fount of Corruption",
+   "uk": "Ентиці можуть увійти до Джерела, щоб дати йому\n+30% до видобутку ресурсів\nНаказати ентиці покинути Джерело скверни",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeFountofCorruptionLevel3",
+   "en": "Upgrade Fount of Corruption to Level 3 (&A)",
+   "uk": "Покращити джерело скверни до 3-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildFountofCorruptionLevel3",
+   "en": "Increases resource production\nAllows training of Corrupted Entwives\nBlights the area surrounding the Fount",
+   "uk": "Збільшує видобуток ресурсів\nДозволяє тренувати осквернених ентиць\nОсквернює місцевість навколо джерела",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyAngmarIceShot",
+   "en": "Research &Ice Shot",
+   "uk": "Крижані боєприпаси (&I)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipPurchaseTechnologyAngmarIceShot",
+   "en": "Allows hordes to purchase the Ice Shot upgrade\nWhen equipped, significantly increases a Stone Thrower's damage",
+   "uk": "Дає змогу кожному загону придбати покращення «Крижані боєприпаси»\nПісля оснащення значно збільшує пошкодження каменеметів",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "TOOLTIP:LackLevel2DarkIronForge",
+   "en": "Requires Level 2 Dark Iron Forge",
+   "uk": "Необхідно: Анґмарська плавильня 2 рівня",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyAngmarDarkIronBlades",
+   "en": "Research Dark Iron B&lades",
+   "uk": "Клинки з темного заліза (&L)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipPurchaseTechnologyAngmarDarkIronBlades",
+   "en": "Allows hordes to purchase the Dark Iron Blades upgrade\nWhen equipped, significantly increases the damage done by melee weapons",
+   "uk": "Дає змогу кожному загону придбати покращення «Клинки з темного заліза»\nПісля оснащення значно збільшує пошкодження зброї ближнього бою",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyAngmarDarkIronMail",
+   "en": "Research Dark Iron &Mail",
+   "uk": "Кольчуги з темного заліза (&M)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "TOOLTIP:LackLevel3DarkIronForge",
+   "en": "Requires Level 3 Dark Iron Forge",
+   "uk": "Необхідно: Анґмарська плавильня 3 рівня",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipPurchaseTechnologyAngmarDarkIronMail",
+   "en": "Allows hordes to purchase the Dark Iron Mail upgrade\nWhen equipped, significantly reduces the amount of damage taken",
+   "uk": "Дає змогу кожному загону придбати покращення «Кольчуги з темного заліза»\nПісля оснащення значно зменшує отримувані пошкодження",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyAngmarIceArrows",
+   "en": "Research Ice Arro&ws",
+   "uk": "Крижані стріли (&W)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipPurchaseTechnologyAngmarIceArrows",
+   "en": "Allows hordes to purchase the Ice Arrows upgrade\nWhen equipped, significantly increases the damage done by arrows",
+   "uk": "Дає змогу кожному загону придбати покращення «Крижані стріли»\nПісля оснащення значно збільшує пошкодження стріл",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeAngmarForgeWorksLevel3",
+   "en": "Upgrade Pavilion of the Golden King to Level 3 (&A)",
+   "uk": "Покращити павільйон Золотого короля до 3-го рівня (&A)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUpgradeAngmarForgeWorksLevel3",
+   "en": "Allows training of Nâfarati Marauders\n+25% faster build speed",
+   "uk": "Дозволяє тренувати нафаратських мародерів\n+25% до швидкості тренування",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurKhamulRecruit",
+   "en": "Recruit the Shadow of the East\n\nOnce a great king of the Eastern Wastes, Khamûl was ensnared by Sauron through one of his Great Rings. For many long centuries Khamûl has served, performing acts of great terror and cruelty with solemn dedication to his Master.",
+   "uk": "Завербувати Тінь Сходу\n\nКолись Хамул був великим королем Східних пустель, та Саурон підкорив його одним із Великих Перснів. Довгі століття Хамул служить своєму Володареві, з похмурою відданістю чинячи страхітливі й жорстокі діяння.",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:MordorKhamulRevive",
+   "en": "Revive the fallen hero, Khamûl the Easterling",
+   "uk": "Відродити полеглого в бою Хамула Істерлінґа",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructGuldurStatueExpansion",
+   "en": "Nearby enemies suffer -25% damage and -20% armour\nCauses enemy units to flee in terror\nMay purchase Restless Bones upgrade, which allows the Forlorn Statue to summon a horde of skeletal warriors onto enemy battalions and siege engines",
+   "uk": "Ворожі загони поблизу отримують штраф -25% пошкоджень і -20% броні\nЗмушує ворожі загони тікати в жаху\nМожна придбати покращення «Невпокоєний прах»: Тоді статуя прикликає загін воїнів-скелетів просто на ворожі загони й техніку",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGuldurStatueExpansion",
+   "en": "Forlorn Statue Expansion (&R)",
+   "uk": "Скорботна статуя (&R)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurStatueExpansion",
+   "en": "Forlorn Statue",
+   "uk": "Скорботна статуя",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurStatueExpansionDescription",
+   "en": "Nearby enemies suffer -25% damage and -20% armour\nCauses enemy units to flee in terror\nCan summon a horde of skeletal warriors onto enemy battalions and siege engines",
+   "uk": "Ворожі загони поблизу отримують штраф -25% пошкоджень і -20% броні\nЗмушує ворожі загони тікати в жаху\nМоже прикликати загін воїнів-скелетів прямо на ворожі загони й техніку",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseGuldurRestlessBones",
+   "en": "Purchase Restless Bones Upgrade (&W)",
+   "uk": "Невпокоєний прах (&W)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseGuldurRestlessBones",
+   "en": "Allows the Forlorn Statue to summon a horde\nof skeletal warriors",
+   "uk": "Дає Скорботній статуї змогу прикликати загін\nвоїнів-скелетів",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurRestlessBones",
+   "en": "Restless Bones (&W)",
+   "uk": "Невпокоєний прах (&W)",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGuldurRestlessBones",
+   "en": "Summons a horde of skeletal warriors\nLeft click icon then left click on target",
+   "uk": "Прикликає загін воїнів-скелетів\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "OBJECT:GuldurPorter",
+   "en": "Tethered Shade",
+   "uk": "Прикута тінь",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:GuldurShade",
+   "en": "Withering Presence",
+   "uk": "Виснажлива присутність",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGuldurShade",
+   "en": "The Shade will vanish after summoning a structure\nModifier Type: Passive Debuff\nNearby enemy units suffer -15% speed, -10% damage, and -10% armour\nPassive ability",
+   "uk": "Тінь зникає, щойно прикличе споруду\nТип ефекту: Пасивне ослаблення\nВорожі загони поблизу отримують штраф -15% швидкості, -10% пошкоджень і -10% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:DarkPresence",
+   "en": "Dark Presence",
+   "uk": "Темна присутність",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDarkPresence",
+   "en": "Modifier Type: Spell\nNearby Dol Guldur units afflicted by Slow Decay are no longer drained over time, receive +15% damage and armour, and are healed by a small amount\nPassive ability",
+   "uk": "Тип ефекту: Заклинання\nСоюзні загони Дол-Ґулдуру поблизу, уражені Повільним згасанням, більше не виснажуються, отримують бонус +15% до пошкоджень і броні та трохи зцілюються\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD",
+   "date": "2026-11-14",
+   "file": "AoR_UA_FoLD_2026-11-14-19-58.json"
+  }
+ ]
+}

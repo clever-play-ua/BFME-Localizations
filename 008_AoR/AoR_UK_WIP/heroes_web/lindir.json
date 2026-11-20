@@ -1,0 +1,20 @@
+{
+ "hero": "Lindir",
+ "uk_name": "Ліндір",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:Lindir",
+     "t": "Name",
+     "en": "Lindir",
+     "uk": "Ліндір",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

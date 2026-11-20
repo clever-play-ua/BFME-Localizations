@@ -1,0 +1,62 @@
+{
+ "hero": "Angbor the Fearless",
+ "uk_name": "Анґбор Безстрашний",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:CampaignAngbor",
+     "t": "Name",
+     "en": "Angbor the Fearless",
+     "uk": "Анґбор Безстрашний",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:AngborLeadership",
+     "t": "Button",
+     "en": "Fearless Warrior (&W)",
+     "uk": "Безстрашний воїн (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipAngborLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Debuff\\nNearby enemy units lose -25% armour for 30 seconds\\nAngbor is immune to debuffs whilst ability is active\\nLeft click to activate",
+     "uk": "Тип ефекту: Ослаблення\\nВорожі загони поблизу втрачають 25% броні на 30 сек.\\nПоки здібність діє, Анґбор має імунітет до ослаблень\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:AngborHorn",
+     "t": "Button",
+     "en": "Horn of Lamedon (&R)",
+     "uk": "Ріг Ламедону (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipAngborHorn",
+     "t": "Tooltip",
+     "en": "Nearby infantry gain +20% bonus speed and resistance to fear, knockback and trample for 30 seconds\\nLeft click to activate",
+     "uk": "Піхота поблизу отримує бонус +20% швидкості й стійкість до страху, відкидання та топтання на 30 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:AngborBlade",
+     "t": "Button",
+     "en": "Fierce Strike (&T)",
+     "uk": "Лютий удар (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipAngborBlade",
+     "t": "Tooltip",
+     "en": "Angbor deals heavy damage to targeted hero\\n Normal units are knocked down and damaged \\n Left click then left click on target",
+     "uk": "Анґбор завдає великих пошкоджень вказаному героєві\\nЗвичайні загони збиває з ніг і завдає їм пошкоджень\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

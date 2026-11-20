@@ -1,0 +1,190 @@
+{
+ "hero": "Gandalf the Grey",
+ "uk_name": "Ґендальф Сірий",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:GandalfTheGrey",
+     "t": "Name",
+     "en": "Gandalf the Grey",
+     "uk": "Ґендальф Сірий",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:WizardBlastGandalfTheGrey",
+     "t": "Button",
+     "en": "The Grey Pilgrim (&T)",
+     "uk": "Сірий Мандрівник (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipWizardBlastRadagast",
+     "t": "Tooltip",
+     "en": "Close range attack that blasts back enemies \\n Left click icon then left click on target",
+     "uk": "Удар зблизька, що відкидає ворогів\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GandalfGloriousCharge",
+     "t": "Button",
+     "en": "Let's Risk A Little More Light (&R)",
+     "uk": "Ризикнімо впустити більше світла (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFellowshipGandalfGloriousCharge",
+     "t": "Tooltip",
+     "en": "Drastically increases vision range and shroud reveal for 30 seconds\\n for a short time \\n Left click to activate",
+     "uk": "Значно збільшує дальність огляду й розсіює туман війни на 30 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGandalfGloriousCharge",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Nearby archers gain +20% range and +15% damage for 30 seconds\\n Left click to activate",
+     "uk": "Необхідно: Рівень 5\\nЛучники поблизу на 30 сек. отримують бонус +20% дальності й +15% до пошкоджень\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipRivendellGandalfGloriousCharge",
+     "t": "Tooltip",
+     "en": "Nearby archers gain +20% range and +15% damage for 30 seconds\\n Left click to activate",
+     "uk": "Лучники поблизу на 30 сек. отримують бонус +20% дальності атаки й +15% до пошкоджень\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GandalfFoeHammer",
+     "t": "Button",
+     "en": "The Foe-Hammer (&C)",
+     "uk": "Ворожий молот (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFellowshipLightningSword",
+     "t": "Tooltip",
+     "en": "Shoots out lightning bolts from Gandalf's sword \\n Left click icon then left click on target",
+     "uk": "Меч Ґендальфа стріляє блискавками\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipLightningSword",
+     "t": "Tooltip",
+     "en": "Requires Level 2 \\n Shoots out lightning bolts from Gandalf's sword \\n Left click icon then left click on target",
+     "uk": "Необхідно: Рівень 2\\nМеч Ґендальфа стріляє блискавками\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipRivendellLightningSword",
+     "t": "Tooltip",
+     "en": "Shoots out lightning bolts from Gandalf's sword \\n Left click icon then left click on target",
+     "uk": "Меч Ґендальфа стріляє блискавками\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok",
+     "dup": "CONTROLBAR:ToolTipFellowshipLightningSword"
+    },
+    {
+     "v": "CONTROLBAR:SpecialAbilityShieldBubble",
+     "t": "Button",
+     "en": "Shield B&ubble",
+     "uk": "Захисна сфера (&U)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipSpecialAbilityShieldBubble",
+     "t": "Tooltip",
+     "en": "Creates a magical shield around Gandalf\\n Temporarily grants +300% armour and resistance to knockback attacks\\nLeft click to activate",
+     "uk": "Створює навколо Ґендальфа чарівний щит\\nТимчасово дає +300% броні й стійкість до відкидання\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GandalfYouShallNotPassCampaign",
+     "t": "Button",
+     "en": "You Shall Not Pass",
+     "uk": "Ти не пройдеш",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFellowshipGandalfYouShallNotPass",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Stuns enemy units in a wide radius surrounding Gandalf for 10 seconds\\n Left click to activate",
+     "uk": "Необхідно: Рівень 3\\nПриголомшує ворожі загони у великому радіусі навколо Ґендальфа на 10 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GandalfNewMountCampaign",
+     "t": "Button",
+     "en": "Mount Shadowfax / Dismount",
+     "uk": "Осідлати Тінегрива / Спішитися",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipShadowfax",
+     "t": "Tooltip",
+     "en": "Left click to switch between \\n mounted on Shadowfax and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою\\nна Тінегриві та пішим ходом",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GandalfHalflingLeaf",
+     "t": "Button",
+     "en": "Gandalf's Cart (&W)",
+     "uk": "Віз Ґендальфа (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGandalfHalflingLeaf",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Summons Gandalf's Travelling Cart\\n Heals nearby allies \\n Left click icon then left click on pathable location",
+     "uk": "Необхідно: Рівень 3\\nПрикликає дорожній віз Ґендальфа\\nЗцілює союзників поблизу\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipRivendellGandalfHalflingLeaf",
+     "t": "Tooltip",
+     "en": "Summons Gandalf's Travelling Cart\\n Heals nearby allies \\n Left click icon then left click on pathable location",
+     "uk": "Прикликає віз Ґендальфа\\nЗцілює союзників поблизу\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GandalfDisturber",
+     "t": "Button",
+     "en": "Disturber of the Peace (&T)",
+     "uk": "Порушник спокою (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGandalfDisturber",
+     "t": "Tooltip",
+     "en": "Gandalf shoots off a peculiar firework at the selected target \\n Left click icon then left click on target",
+     "uk": "Ґендальф запускає в обрану ціль чудернацький феєрверк\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GandalfYouShallNotPass",
+     "t": "Button",
+     "en": "You Shall Not Pass (&V)",
+     "uk": "Ти не пройдеш (&V)",
+     "st": "ok",
+     "dup": "CONTROLBAR:GandalfYouShallNotPassCampaign"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGandalfYouShallNotPass",
+     "t": "Tooltip",
+     "en": "Requires Level 10 \\n Stuns enemy units in a wide radius surrounding Gandalf for 10 seconds \\n Left click to activate",
+     "uk": "Необхідно: Рівень 10\\nВорожі загони в широкому радіусі навколо Ґендальфа будуть приголомшені на 10 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipRivendellGandalfYouShallNotPass",
+     "t": "Tooltip",
+     "en": "Stuns enemy units in a wide radius surrounding Gandalf for 10 seconds\\n Left click to activate",
+     "uk": "На 10 сек. приголомшує ворожі загони в широкому радіусі навколо Ґендальфа\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "hero": "High King Gil-galad",
+ "uk_name": "Верховний король Ґіл-ґалад",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:SecondAgeGilgalad",
+     "t": "Name",
+     "en": "High King Gil-galad",
+     "uk": "Верховний король Ґіл-ґалад",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Last Alliance",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:GilGaladLeadership",
+     "t": "Button",
+     "en": "Last High King of the Noldor",
+     "uk": "Останній Верховний король нолдорів",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGilGaladLeadership",
+     "t": "Tooltip",
+     "en": "After the destruction of Beleriand at the end of the First Age, Ereinion Gil-galad went east across the Ered Luin and founded a Noldorin kingdom in Lindon. Many elves joined him there, and for much of the second age, his realm was a place of beauty and wisdom, firmly arrayed against Sauron's slow encroachment. \\n\\n Allies near Gil-galad gain \\n +33% damage, +33% armour, \\n and earn experience 50% faster\\nPassive ability",
+     "uk": "Союзники поряд з Ґіл-ґаладом отримують бонус\\n+33% до пошкоджень, +33% броні\\nі на 50% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nПісля загибелі Белеріанду наприкінці Першої епохи Ерейніон Ґіл-ґалад вирушив на схід за Еред-Луїн і заснував королівство нолдорів у Ліндоні.\\n\\nТуди до нього прийшло багато ельфів, і впродовж більшої частини Другої епохи його держава була осередком краси та мудрості, осередком, що непохитно протистояв повільному наступу Саурона.",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GilGaladAeglosLance",
+     "t": "Button",
+     "en": "His Lance Was Keen (&R)",
+     "uk": "Гострим був його спис (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGilGaladAeglosLance",
+     "t": "Tooltip",
+     "en": "Knocks down and pins target hero for 15 seconds \\n Normal units are knocked down and damaged \\n Left click then left click on target",
+     "uk": "Збиває з ніг і знерухомлює ворожого героя на 15 сек.\\nЗвичайні загони збиває з ніг і завдає їм пошкоджень\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Last Alliance map",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:GilGaladLeadership_LAA",
+     "t": "Button",
+     "en": "Last High King of the Noldor",
+     "uk": "Останній Верховний король нолдорів",
+     "st": "ok",
+     "dup": "CONTROLBAR:GilGaladLeadership"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGilGaladLeadership_LAA",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Elves near Gil-galad gain \\n +33% damage, +33% armour, \\n and earn experience 50% faster\\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nЕльфи поряд із Ґіл-ґаладом отримують\\nбонус +33% до пошкоджень, +33% броні\\nй на 50% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GilGaladAeglosLance_LAA",
+     "t": "Button",
+     "en": "His Lance Was Keen (&R)",
+     "uk": "Гострим був його спис (&R)",
+     "st": "ok",
+     "dup": "CONTROLBAR:GilGaladAeglosLance"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGilGaladAeglosLance_LAA",
+     "t": "Tooltip",
+     "en": "Requires Level 2 \\n Knocks down and pins target hero for 15 seconds \\n Normal units are knocked down and damaged \\n Left click then left click on target",
+     "uk": "Необхідно: Рівень 2\\nЗбиває з ніг і знерухомлює ворожого героя на 15 сек.\\nЗвичайні загони збиває з ніг і завдає їм пошкоджень\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GilGaladShield_LAA",
+     "t": "Button",
+     "en": "Silver Shield of Starlight (&T)",
+     "uk": "Срібний щит зоряного світла (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGilGaladShield_LAA",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Gil-Galad gains 200% armour and nearby enemies are stunned for 10 seconds\\n Left click to activate",
+     "uk": "Необхідно: Рівень 3\\nҐіл-ґалад отримує бонус +200% броні, а вороги поблизу приголомшуються на 10 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GilgaladSplendor_LAA",
+     "t": "Button",
+     "en": "Splendour of the Noldor (&C)",
+     "uk": "Велич нолдорів (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGilgaladSplendor_LAA",
+     "t": "Tooltip",
+     "en": "Requires Level 7\\n Targeted units gain experience \\n Left click icon then left click on target units",
+     "uk": "Необхідно: Рівень 7\\nМиттєво наділяє досвідом обрані загони\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GilgaladScion_LAA",
+     "t": "Button",
+     "en": "Scion of Finarfin (&V)",
+     "uk": "Нащадок Фінарфіна (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGilgaladScion_LAA",
+     "t": "Tooltip",
+     "en": "Requires Level 10 \\n All nearby friendly units gain +75% armour and +150% experience for 30 seconds \\n left click to activate",
+     "uk": "Необхідно: Рівень 10\\nНа 30 сек. усі союзні загони поблизу отримують бонус +75% броні й +150% досвіду\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

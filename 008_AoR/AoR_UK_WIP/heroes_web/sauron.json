@@ -1,0 +1,202 @@
+{
+ "hero": "Sauron",
+ "uk_name": "Саурон",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:MordorSauron",
+     "t": "Name",
+     "en": "Sauron",
+     "uk": "Саурон",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Lord of the Rings",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:CampaignSauronLeadership",
+     "t": "Button",
+     "en": "Fiery Presence",
+     "uk": "Вогняна присутність",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCampaignSauronLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n Nearby friendly units gain +50% armour, earn experience 100% faster and are immune to fear and terror\\nPassive ability",
+     "uk": "Тип ефекту: Заклинання\\nСоюзні загони поблизу отримують бонус +50% броні, на 100% швидше набирають досвід і мають імунітет до страху та жаху\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:CampaignSauronFavour",
+     "t": "Button",
+     "en": "Dark Lord's Favour (&R)",
+     "uk": "Прихильність Чорного Володаря (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCampaignSauronFavour",
+     "t": "Tooltip",
+     "en": "Give targeted units excellent experience \\n Left click icon then left click on target units",
+     "uk": "Миттєво наділяє обрані загони великою кількістю досвіду\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:CampaignSauronDominion",
+     "t": "Button",
+     "en": "Dominion (&T)",
+     "uk": "Панування (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCampaignSauronDominion",
+     "t": "Tooltip",
+     "en": "Enemy units within the radius are slowed by 15% and\\nlose -20% damage and armour for 30 seconds\\n Left click icon then left click on target",
+     "uk": "Ворожі загони в радіусі дії сповільнюються на 15% і отримують штраф -20% пошкоджень і броні на 30 сек.\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:CampaignSauronWreathed",
+     "t": "Button",
+     "en": "Dark Lord's Malice (&C)",
+     "uk": "Злоба Чорного Володаря (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCampaignSauronWreathed",
+     "t": "Tooltip",
+     "en": "Sauron launches a fireball at target, blasting back enemies\\nand setting the surrounding area on fire\\nLeft click icon then left click on target",
+     "uk": "Саурон метає в ціль вогняну кулю, що відкидає ворогів і підпалює все довкола\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HaveMercyGreatKing",
+     "t": "Button",
+     "en": "Have Mercy, Great King (&W)",
+     "uk": "Змилуйтеся, Великий Королю (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHaveMercyGreatKing",
+     "t": "Tooltip",
+     "en": "Be merciful, O Great King! Great has been my folly, and I cast myself before you, broken and humbled.",
+     "uk": "Змилуйтеся, о Великий Королю! Великим було моє безумство, але нині я схиляюся перед вами, зламаний та скорений.",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HoldYourTongue",
+     "t": "Button",
+     "en": "Hold Your Tongue, Worm! (&R)",
+     "uk": "Прикуси язика, хробаку! (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHoldYourTongue",
+     "t": "Tooltip",
+     "en": "Your victory is hollow. Your Lordship is a farce. The Throne of Anadûnê shall come to naught but dust and ruin.",
+     "uk": "Твоя перемога нікчемна. Твоя влада — сміхотворна. Трон Анадуне перетвориться на попіл і руїни.",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:WillServeAfar",
+     "t": "Button",
+     "en": "I Will Serve From Afar (&T)",
+     "uk": "Я служитиму здалеку (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipWillServeAfar",
+     "t": "Tooltip",
+     "en": "Allow me to remain here, Great King, and I shall prove a loyal servant to thee.",
+     "uk": "Дозвольте мені лишитися тут, Великий Королю, і я буду вам вірно служити.",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Ring hero",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:SauronLeadership",
+     "t": "Button",
+     "en": "Gorthaur (&W)",
+     "uk": "Ґортаур (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSauronLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n All nearby units cower in fear whether friend or foe \\nPassive ability \\n\\n When activated, nearby enemy units and heroes are paralysed for 10 seconds \\n Left click to activate",
+     "uk": "Тип ефекту: Лідерство\\nУсі загони поблизу, дружні й ворожі, тремтять від страху\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nПісля активації ворожі загони й герої поблизу паралізовані на 10 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SauronConflagaration",
+     "t": "Button",
+     "en": "Conflagration (&R)",
+     "uk": "Спопеління (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSauronConflagaration",
+     "t": "Tooltip",
+     "en": "Destroys targeted enemy hero \\n (only deals 50% of total damage to Gandalf, Elessar, Saruman, Witch-king, Bolg, Galadriel, Elrond, Glorfindel, Thranduil, Théoden, Thorin, Necromancer, King Dáin, Durin the Deathless, Golden King) \\n Left click then left click target hero",
+     "uk": "Знищує обраного ворожого героя\\n(Ґендальфу, Елессару, Саруману, Королю-чаклуну, Болґу, Ґаладріель, Елронду, Ґлорфінделу, Трандуїлу, Теодену, Торіну, Некромантові, Королю Дайну, Дуріну Безсмертному й Золотому королю завдає лише 50% пошкоджень)\\nКлікніть на іконку, потім оберіть героя",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SauronDominate",
+     "t": "Button",
+     "en": "Annatar, Lord of Gifts (&T)",
+     "uk": "Аннатар, Володар Дарів (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSauronDominate",
+     "t": "Tooltip",
+     "en": "Permanently converts enemy units in large radius \\n Left click then left click target area",
+     "uk": "Назавжди переманює ворожі загони у великому радіусі\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SpecialPowerSauronLordoftheRings",
+     "t": "Button",
+     "en": "The Lord of the Rings (&C)",
+     "uk": "Володар Перснів (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSpecialPowerSauronLordoftheRings",
+     "t": "Tooltip",
+     "en": "Sauron gains +100% damage, +10% movement speed and invulnerability for 20 seconds\\n Left click to activate",
+     "uk": "Саурон на 20 сек. отримує бонус +100% до пошкоджень, +10% швидкості руху й невразливість\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SauronRingwraithSummon",
+     "t": "Button",
+     "en": "His Deadliest Servants (&V)",
+     "uk": "Його найгрізніші слуги (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSauronRingwraithSummon",
+     "t": "Tooltip",
+     "en": "Sauron permanently summons four Ringwraiths\\nA maximum of four Ringwraiths may be out at any time\\nLeft click to activate",
+     "uk": "Саурон назавжди прикликає 4 назґулів\\nМаксимум 4 назґули одночасно\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

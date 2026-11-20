@@ -1,0 +1,3400 @@
+{
+ "meta": {
+  "faction": "Dwarves",
+  "note": "Community proofread lines (highest priority in the build and on the site)."
+ },
+ "strings": [
+  {
+   "var": "CONTROLBAR:RebuildErebor",
+   "en": "Dwarven Skill",
+   "uk": "Майстерність дворфів",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipRebuildErebor",
+   "en": "Repairs a structure\nLeft click icon then left click on target structure",
+   "uk": "Ремонтує обрану споруду\nКлікніть на іконку, потім оберіть споруду",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:SummonRavens",
+   "en": "Ravens of Erebor",
+   "uk": "Ворони Еребору",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSummonRavens",
+   "en": "Summons an unkindness of Ravens\nReveals the shroud and detects stealthed units\nModifier Type: Spell\nNearby friendly units gain +15% movement, attack and ability recharge speed\nNearby friendly structures gain +15% production speed\nLeft click icon then left click on target area",
+   "uk": "Прикликати зграю воронів\nРозвіює туман війни й виявляє невидимих\nТип ефекту: Заклинання\nСоюзні загони поблизу отримують бонус +15% до швидкості руху, атаки й відновлення здібностей\nСоюзні споруди поблизу виробляють на 15% швидше\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipRallyingCallErebor",
+   "en": "Modifier Type: Buff\nTargeted allies gain +25% damage and +25% armour for 60 seconds\nLeft click icon then left click on target units",
+   "uk": "Тип ефекту: Посилення\nОбрані союзники отримують бонус +25% до пошкоджень та броні на 60 сек.\nКлікніть на іконку, потім оберіть потрібні загони",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:RallyingCallErebor",
+   "en": "Horn of Erebor",
+   "uk": "Ріг Еребору",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DeepDelving",
+   "en": "Deep Delving",
+   "uk": "Глибокі копальні",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipDeepDelving",
+   "en": "+10% resources from Dwarven Mines\nPassive power",
+   "uk": "+10% ресурсів від дворфійських копалень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:EreborVowOfVengeance",
+   "en": "Vow Of Vengeance",
+   "uk": "Обітниця помсти",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipEreborVowOfVengeance",
+   "en": "Durin's Folk take a solemn vow of vengeance against those that have wronged them\nReduces enemy armour in a radius by 50% and prevents experience gain\nArea of effect lasts 5 minutes\nLeft click icon then left click on target area",
+   "uk": "Народ Дуріна урочисто присягає помститися кривдникам\nЗменшує броню ворогів у радіусі на 50% і не дає їм взагалі набирати досвід\nЕфект на ділянці триває 5 хв.\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:FullyArmed",
+   "en": "Fully Armed and Filthy!",
+   "uk": "Озброєні та небезпечні!",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFullyArmed",
+   "en": "Grants Khûzdul Runes and Mithril-tipped Arrows to Dwarves and Dwarven Plate to Men of Lake-town and Dale\nOnly affects units that can receive Dwarven Plate, Khûzdul Runes and Mithril-tipped Arrows\nLeft click on icon then left click on target own units",
+   "uk": "Дає дворфам кхуздульські руни й стріли з мітриловими наконечниками, а людям Озерного міста й Дейлу — дворфійські лати\nДіє лише на загони, яким взагалі доступні дворфійські лати, кхуздульські руни й стріли з мітриловими наконечниками\nКлікніть на іконку, потім оберіть свої загони",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:SendInTheGoats",
+   "en": "Send In The Goats!",
+   "uk": "Випускайте козлів!",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSendInTheGoats",
+   "en": "Summons a powerful stampede of goats to crush enemy units\nLeft click icon then left click on target area",
+   "uk": "Прикликати потужний загін гірських козлів, який топче всі ворожі загони\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:KhazadAllies",
+   "en": "Moria Reclaimed",
+   "uk": "Відвойована Морія",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipKhazadAllies",
+   "en": "Summons a Dwarrowdelf Pillar surrounded by 3 battalions of Khazad-dûm Veterans\nUnits in the vicinity of the pillar become immune to fear and terror\nLeft click icon then left click on pathable location",
+   "uk": "Прикликати колону Морії, яку оточують 3 загони ветеранів Казад-думу\nЗагони біля колони отримують імунітет до страху та жаху\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:CloudBreakErebor",
+   "en": "Durin's Day",
+   "uk": "День Дуріна",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCloudBreakErebor",
+   "en": "Cancels Freezing Rain, Blessing of Ulmo, Lights Go Out, White Winter and Darkness\nStuns enemy units for 15 seconds\nSlowly heals allied units and replenishes fallen units across the map for 15 seconds\nLeft click to activate",
+   "uk": "Скасовує ефекти погоди: «Крижаний дощ», «Благословення Улмо», «Згасання світла», «Білу зиму» й «Пітьму»\nПриголомшує ворожі загони на 15 сек.\nПротягом 15 сек. повільно зцілює й поповнює союзні загони по всій мапі\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:Undermine",
+   "en": "Undermine",
+   "uk": "Підкоп",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipUndermine",
+   "en": "Places a Mine Shaft anywhere on the map that is protected\nby Vault Wardens and damages units when it appears\nNearby allies gain 15% damage and armour and are slowly healed\nMine Shaft becomes immediately connected to tunnel network\nLeft click icon then left click on visible location",
+   "uk": "Розміщення в будь-якому місці на мапі копальні, яку охороняють\nвартові сховищ; поява копальні завдає пошкоджень ворожим загонам\nСоюзники поблизу отримують бонус +15% шкоди і броні та поступово зцілюються\nКопальня одразу з'єднується з мережею тунелів\nКлікніть на іконку, потім оберіть доступну ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ThrorHoard",
+   "en": "Thrór's Hoard",
+   "uk": "Скарб Трора",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipThrorHoard",
+   "en": "Summons a Dwarven hoard. Watch out for what your greed could summon\nLeft click icon then left click on target area",
+   "uk": "Прикликати дворфійський скарб. Стережіться того, до чого може привести ваша жадоба\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSummonDurinVII",
+   "en": "Permanently summons Durin the Deathless to target location\nOnce Durin falls in battle, he can be awakened at the fortress, or reawakened from stone to knockback all surrounding enemies\nWhen reawakened from stone, his powers are disabled for 15 seconds\n\nLeft click on icon then left click on target",
+   "uk": "Назавжди прикликати Дуріна Безсмертного у вказане місце\nЯкщо Дурін поляже в бою, його можна відродити у фортеці або знову підняти з каменю, відкинувши всіх ворогів довкола\nПіднятий із каменю, він 15 сек. не може використовувати свої здібності\n\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:SummonDurinVII",
+   "en": "Awaken Durin the Deathless",
+   "uk": "Пробудити Дуріна Безсмертного",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:EreborRoac",
+   "en": "Roäc",
+   "uk": "Роак",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:EreborRoacRecruit",
+   "en": "Recruit the Lord of the Ravens, Roäc\n\nFor centuries, the Dwarves of Erebor have maintained a close friendship to the ravens of the Lonely Mountain, employing them as messengers and heeding their wise counsel.",
+   "uk": "Завербувати Роака, володаря воронів\n\nСтоліттями дворфи Еребору дружать із воронами Самотньої Гори: роблять їх своїми гінцями й дослухаються до їхніх мудрих порад.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:EreborRoacRevive",
+   "en": "Revive the fallen raven, Roäc",
+   "uk": "Відродити полеглого в бою Роака",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PromoteRoacToLevel3",
+   "en": "Lord of Ravens (&W)",
+   "uk": "Володар воронів (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PromoteRoacToLevel5",
+   "en": "Lord of Ravens (&W)",
+   "uk": "Володар воронів (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:RoacLordofRavens",
+   "en": "Lord of Ravens",
+   "uk": "Володар воронів",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPromoteRoacToLevel3",
+   "en": "Allows Roäc to grow in strength\nLeft click to purchase upgrade\n\nModifier Type: Leadership\nRank 1: Allied units near Roäc gain +5% speed.\nRank 3: Allied heroes near Roäc gain +10% experience gain.\nRank 5: Allied units near Roäc gain +10% speed\nPassive ability",
+   "uk": "Дає Роаку змогу рости в силі\nКлікніть, щоб придбати покращення\n\nТип ефекту: Лідерство\n1 рівень: Союзні загони поряд із Роаком отримують бонус +5% швидкості.\n3 рівень: Союзні герої поряд із Роаком на 10% швидше набирають досвід.\n5 рівень: Союзні загони поряд із Роаком отримують бонус +10% швидкості\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPromoteRoacToLevel5",
+   "en": "Allows Roäc to grow in strength\nLeft click to purchase upgrade\n\nModifier Type: Leadership\nRank 1: Allied units near Roäc gain +5% speed.\nRank 3: Allied heroes near Roäc gain +10% experience gain.\nRank 5: Allied units near Roäc gain +10% speed\nPassive ability",
+   "uk": "Дає Роаку змогу рости в силі\nКлікніть, щоб придбати покращення\n\nТип ефекту: Лідерство\n1 рівень: Союзні загони поряд із Роаком отримують бонус +5% швидкості.\n3 рівень: Союзні герої поряд із Роаком на 10% швидше набирають досвід.\n5 рівень: Союзні загони поряд із Роаком отримують бонус +10% швидкості\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:RoacLeadership",
+   "en": "Subtle Ways",
+   "uk": "Потаємні стежки",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRoacLeadership",
+   "en": "Roäc becomes invisible while remaining still\nRoäc detects stealthed units\nPassive ability",
+   "uk": "Роак стає невидимим, коли стоїть на місці\nРоак бачить невидимі загони\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:RoacLeadership2",
+   "en": "Unkindness of Ravens",
+   "uk": "Немилість воронів",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRoacLeadership2",
+   "en": "Requires Level 3\nModifier Type: Passive Debuff\nEnemies under Roäc lose -15% speed.\nPassive ability",
+   "uk": "Необхідно: Рівень 3\nТип ефекту: Пасивне ослаблення\nВороги поряд з Роаком втрачають 15% швидкості.\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:RoacWisdom",
+   "en": "Wisdom of Yore (&C)",
+   "uk": "Давня мудрість (&C)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRoacWisdom",
+   "en": "Requires Level 3\nTargeted units gain moderate experience\nGrants additional experience at Level 5\nLeft click icon then left click on target units",
+   "uk": "Необхідно: Рівень 3\nМиттєво наділяє обрані загони невеликою кількістю досвіду\nНа 5 рівні кількість досвіду зростає\nКлікніть на іконку, потім оберіть потрібні загони",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:RoacMessenger",
+   "en": "Messenger of the King (&V)",
+   "uk": "Посланець короля (&V)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRoacMessenger",
+   "en": "Requires Level 5\nSummons a battalion of Iron Hills Riders\nLeft click icon then left click on pathable location",
+   "uk": "Необхідно: Рівень 5\nПрикликає 1 загін вершників Залізних пагорбів\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRoacLordofRavens",
+   "en": "Modifier Type: Leadership\nRank 1: Allied units near Roäc gain +5% speed.\nRank 3: Allied heroes near Roäc gain +10% experience gain.\nRank 5: Allied units near Roäc gain +10% speed\nPassive ability",
+   "uk": "Тип ефекту: Лідерство\n1 рівень: Загони поряд отримують +5% швидкості.\n3 рівень: Герої поряд на 10% швидше набирають досвід.\n5 рівень: Загони поряд отримують бонус +10% швидкості\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:LaketownMaster",
+   "en": "Master of Lake-town",
+   "uk": "Бурмістр Озерного міста",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:LaketownMasterRevive",
+   "en": "Revive the fallen Hero, Master of Lake-town",
+   "uk": "Відродити полеглого в бою Бурмістра Озерного міста",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:LaketownMasterRecruit",
+   "en": "Recruit the Master of the Men of the Lake\n\n'All this talk of a change must be suppressed. We can't afford to let the rabble band together, start making noises. The next you know, they'll start asking questions, forming committees.'",
+   "uk": "Завербувати Бурмістра Озерного міста\n\n«Усі ці розмови про зміни треба придушити. Ми не можемо дозволити, щоб набрід згуртувався й почав галасувати. Не встигнеш оком змигнути, як вони почнуть ставити питання й створювати комітети».",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:MasteroftheLake",
+   "en": "Master of the Lake",
+   "uk": "Володар Озера",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMasteroftheLake",
+   "en": "Modifier Type: Leadership\nGrants +5% damage to nearby Lake-town units\nand increases by 5% per rank\nPassive ability",
+   "uk": "Тип ефекту: Лідерство\nЗагони Озерного міста поблизу отримують бонус +5% до пошкоджень\nі ще +5% з кожним рівнем\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:MasterSpy",
+   "en": "Subtle Subterfuge (&R)",
+   "uk": "Майстерна хитрість (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMasterSpy",
+   "en": "Place a Master's Spy on the map\nThe Master's Spy is stealthed and cannot move, and reveals a large amount of shroud\nLeft click icon then left click on pathable location",
+   "uk": "Розміщує на мапі шпигуна Бурмістра\nШпигун Бурмістра невидимий, стоїть на місці й розвіює туман війни на великій площі\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:UnderhandedStrike",
+   "en": "Underhanded Strike (&T)",
+   "uk": "Підступний удар (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUnderhandedStrike",
+   "en": "Deals heavy melee damage to enemy unit\nTargeted enemy unit or hero is crippled for 10 seconds\nLeft click icon then left click on target",
+   "uk": "Завдає ворожому загону значних пошкоджень у ближньому бою\nОбраний ворожий загін чи герой стають покалічені на 10 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:LaketownCallGuard",
+   "en": "Call the Guard! (&C)",
+   "uk": "Кличте варту! (&C)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLaketownCallGuard",
+   "en": "Requires Level 3\nTemporarily summons a battalion of Guards of the Master\nAt rank 6, summons two battalions\nLeft click to activate",
+   "uk": "Необхідно: Рівень 3\nТимчасово прикликає 1 загін варти Бурмістра\nНа 6 рівні прикликає 2 загони\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:AncientStatute",
+   "en": "Ancient Statute (&V)",
+   "uk": "Давній статут (&V)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAncientStatute",
+   "en": "Requires Level 9\nThe Master of Lake-town and nearby Lake-town units steal resources when striking buildings\nPassive ability\n\nCan be cast on any resource structure to spawn a chest of 850 resources\nResource production is paused for 30 seconds\nLeft click icon then left click on target structure",
+   "uk": "Необхідно: Рівень 9\nБурмістр Озерного міста й загони Озерного міста поблизу здобувають ресурси, атакуючи споруди\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nМожна застосувати до будь-якої ресурсної споруди, щоб з'явилася скриня з 850 од. ресурсів\nВиробництво ресурсів у споруді припиняється на 30 сек.\nКлікніть на іконку, потім оберіть споруду",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenKiliRecruit",
+   "en": "Recruit the young Prince of Erebor\n\n'I will not hide behind a wall of stone while others fight our battles for us!'",
+   "uk": "Завербувати молодого принца Еребору\n\n«Я не ховатимусь за кам'яною стіною, поки інші б'ються за нас!»",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenKiliRevive",
+   "en": "Revive the fallen Prince, Kili",
+   "uk": "Відродити полеглого в бою Кілі",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenFiliRecruit",
+   "en": "Recruit the Crown Prince of Erebor\n\n'We'll be right behind you! If you run into trouble, hoot twice like a barn owl, once like a brown owl.'",
+   "uk": "Завербувати кронпринца Еребору\n\n«Ми будемо одразу за тобою! Якщо потрапиш у халепу, ухни двічі, як сипуха, і раз, як звичайна сова».",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenFiliRevive",
+   "en": "Revive the fallen Prince, Fili",
+   "uk": "Відродити полеглого в бою Філі",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenBalinRecruit",
+   "en": "Recruit the King's chief adviser\n\n'We are with you, laddie. We will see it done.'",
+   "uk": "Завербувати головного радника короля\n\n«Ми з тобою, хлопче. Ми доведемо справу до кінця».",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenBalinRevive",
+   "en": "Revive the fallen hero, Balin",
+   "uk": "Відродити полеглого в бою Баліна",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenCaptainofDale",
+   "en": "Bard the Bowman",
+   "uk": "Бард Лучник",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenCaptainofDaleRevive",
+   "en": "Revive Bard the Bowman",
+   "uk": "Відродити Барда Лучника",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenCaptainofDaleRecruit",
+   "en": "Recruit Bard the Bowman\n\n'Black arrow! You've never failed me, and I've always recovered you. I had you from my father, and he from of old.\nIf ever you came from the forges of the true King under the Mountain, go now and speed well!'",
+   "uk": "Завербувати Барда Лучника\n\n«Чорна стріло! Ти ніколи мене не підводила, і я завжди тебе знаходив. Ти дісталася мені від батька, а йому — від предків.\nЯкщо ти справді вийшла з кузень справжнього Короля під Горою, лети ж і влуч!»",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:BardSlamArrow",
+   "en": "Black Arrow of Dale (&W)",
+   "uk": "Чорна стріла Дейлу (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:FishBarrel",
+   "en": "Honest Bargeman (&R)",
+   "uk": "Добрий рибак (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFishBarrel",
+   "en": "Requires Level 3\nBard delivers several barrels of fish that heals nearby units\nLeft click on icon then left click on target position",
+   "uk": "Необхідно: Рівень 3\nБард виставляє кілька діжок риби, що зцілюють загони поблизу\nКлікніть на іконку, потім оберіть місце",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:BardRabbleRouser",
+   "en": "Rabble-rouser (&T)",
+   "uk": "Провокатор (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBardRabbleRouser",
+   "en": "Requires Level 5\nTargeted units gain moderate experience\nOnly affects Lake-town units\nLeft click icon then left click on target units",
+   "uk": "Необхідно: Рівень 5\nМиттєво наділяє обрані загони помірною кількістю досвіду\nДіє лише на загони Озерного міста\nКлікніть на іконку, потім оберіть потрібні загони",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:BardLeadership",
+   "en": "Descendant of Girion",
+   "uk": "Нащадок Ґіріона",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBardLeadership",
+   "en": "Requires Level 8\nModifier Type: Leadership\nArchers near Bard gain +33% damage, +33% vision and +15% attack range\nPassive ability",
+   "uk": "Необхідно: Рівень 8\nТип ефекту: Лідерство\nЛучники поряд із Бардом отримують бонус +33% до пошкоджень, +33% дальності огляду й +15% дальності атаки\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:BrandDeadEye",
+   "en": "Dragonslayer (&V)",
+   "uk": "Драконоборець (&V)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBardDeadEye",
+   "en": "Requires Level 10\nBard summons a thrush\nHe gains +33% attack speed, +70% damage, and +30% range\nBard does bonus damage against monsters and flying units\nLasts for 20 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 10\nБард кличе дрозда\nВін отримує бонус +33% швидкості атаки, +70% до пошкоджень і +30% дальності атаки\nБард завдає додаткових пошкоджень істотам і летючим істотам\nДіє 20 сек.\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenDainRevive",
+   "en": "Revive the fallen Hero, Dáin Ironfoot",
+   "uk": "Відродити полеглого в бою Дайна Залізностопа",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenDainRecruit",
+   "en": "Recruit Dáin Ironfoot, Lord of the Iron Hills\n\n'If he chooses to stand between me and my kin, I'll split his pretty head open! See if he's still smirking then!'",
+   "uk": "Завербувати Дайна Залізностопа, Володаря Залізних пагорбів\n\n«Якщо він стане між мною та моєю ріднею, я розколю його гарненьку голову! Подивимось, чи шкіритиметься він тоді!»",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwalinRevive",
+   "en": "Revive the fallen warrior, Dwalin",
+   "uk": "Відродити полеглого в бою Дваліна",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwalinRecruit",
+   "en": "Recruit the mighty Dwarf warrior, Dwalin.\n\n''The wild is no place for gentle folk who can neither fight nor fend for themselves...'",
+   "uk": "Завербувати могутнього дворфа-воїна Дваліна.\n\n«Дика глушина — не місце для лагідного люду, що не вміє ні битися, ні себе захистити...»",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenOinRevive",
+   "en": "Revive the fallen companion, Óin",
+   "uk": "Відродити полеглого в бою Оїна",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenBifurRevive",
+   "en": "Revive the fallen companion, Bifur",
+   "uk": "Відродити полеглого в бою Біфура",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenBofurRecruit",
+   "en": "Recruit a fellow companion of Thorin's company",
+   "uk": "Завербувати соратника із загону Торіна",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenBifurRecruit",
+   "en": "Recruit a fellow companion of Thorin's company",
+   "uk": "Завербувати соратника із загону Торіна",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenOinRecruit",
+   "en": "Recruit a fellow companion of Thorin's company",
+   "uk": "Завербувати соратника із загону Торіна",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenBofurRevive",
+   "en": "Revive the fallen companion, Bofur",
+   "uk": "Відродити полеглого в бою Бофура",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenThrorRecruit",
+   "en": "Recruit the King of Erebor",
+   "uk": "Завербувати Короля Еребору",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenThrorRevive",
+   "en": "Revive the fallen king, Thrór",
+   "uk": "Відродити полеглого в бою короля Трора",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:EreborArcah",
+   "en": "Arcah",
+   "uk": "Арках",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:EreborArcahRevive",
+   "en": "Revive the fallen raven, Arcah",
+   "uk": "Відродити полеглу в бою Арках",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:EreborArcahRecruit",
+   "en": "Recruit the Lady of the Ravens, Daughter of Roäc\n\nFor centuries, the Dwarves of Erebor have maintained a close friendship to the ravens of the Lonely Mountain, employing them as messengers and heeding their wise counsel.",
+   "uk": "Завербувати Арках, володарку воронів і доньку Роака\n\nСтоліттями дворфи Еребору дружать із воронами Самотньої Гори: роблять їх своїми гінцями й дослухаються до їхніх мудрих порад.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PromoteArcahToLevel3",
+   "en": "Lady of Ravens (&W)",
+   "uk": "Володарка Воронів (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PromoteArcahToLevel5",
+   "en": "Lady of Ravens (&W)",
+   "uk": "Володарка Воронів (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ArcahLadyofRavens",
+   "en": "Lady of Ravens",
+   "uk": "Володарка Воронів",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipArcahLeadership",
+   "en": "Arcah becomes invisible while remaining still\nArcah detects stealthed units\nPassive ability",
+   "uk": "Арках стає невидимою, якщо не рухається\nАрках бачить невидимих ворогів\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipArcahMessenger",
+   "en": "Requires Level 5\nSummons a battalion of Barding Outriders\nLeft click icon then left click on pathable location",
+   "uk": "Необхідно: Рівень 5\nПрикликає загін бардінґських вершників-розвідників\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenCatapultExpansion",
+   "en": "Catapult Expansion (&W)",
+   "uk": "Катапульта (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructDwarvenCatapultExpansion",
+   "en": "Long range defensive weapon\nBenefits from the Erebor Braziers upgrade",
+   "uk": "Оборонна зброя великої дальності\nПосилюється покращенням «Жаровні Еребору»",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenCatapultExpansion",
+   "en": "Catalpult Expansion",
+   "uk": "Катапульта",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenCatapultUpgrade",
+   "en": "&Replace Catapult",
+   "uk": "Відновити катапульту (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwarvenCatapultUpgrade",
+   "en": "Rebuilds the catapult on the platform",
+   "uk": "Відновлює зруйновану катапульту на майданчику",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenEreborTowerTowerExpansion",
+   "en": "Guard Tower Expansion (&E)",
+   "uk": "Сторожова вежа (&E)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructDwarvenEreborTowerTowerExpansion",
+   "en": "Construct Guard Tower Expansion",
+   "uk": "Прибудовує сторожову вежу",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenEreborTowerTowerExpansion",
+   "en": "Guard Tower",
+   "uk": "Сторожова вежа",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenHallExpansion",
+   "en": "Hall Expansion (&R)",
+   "uk": "Зала (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenHallExpansion",
+   "en": "Hall Expansion",
+   "uk": "Зала",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructDwarvenHallExpansion",
+   "en": "Garrisonable defensive structure\nIncreases decommission value of units\nHeals garrisoned units\nGarrisoned units gain +20% experience\nIncreases command point limit by 25",
+   "uk": "Оборонна споруда, у якій можна розмістити загони\nЗбільшує повернення ресурсів за розпущені загони\nЗцілює розміщені загони\nРозміщені загони набирають на 20% більше досвіду\nЗбільшує ліміт очок командування на 25 од.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:Command_ConstructDwarvenWallHubExpansion",
+   "en": "Wall Hub Expansion (&T)",
+   "uk": "Стінна вежа (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipCommand_ConstructDwarvenWallHubExpansion",
+   "en": "Construct Wall Hub Expansion",
+   "uk": "Прибудовує стінну вежу",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenPorter",
+   "en": "Builder",
+   "uk": "Будівельник",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:HobbitEraChoiceButton",
+   "en": "Reign of Oakenshield",
+   "uk": "Правління Дубощита",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHobbitEraChoiceButton",
+   "en": "You have chosen the Reign of Oakenshield",
+   "uk": "Ви обрали правління Дубощита",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:LotREraChoiceButton",
+   "en": "Reign of Ironfoot",
+   "uk": "Правління Залізностопа",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLotREraChoiceButton",
+   "en": "You have chosen the Reign of Ironfoot",
+   "uk": "Ви обрали правління Залізностопа",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenFortress",
+   "en": "Erebor Fortress",
+   "uk": "Фортеця Еребору",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:SelectUpgradesDwarvenFortress",
+   "en": "Fortress Upgrades (&R)",
+   "uk": "Удосконалення фортеці (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandSelectUpgradesDwarvenFortress",
+   "en": "Purchase upgrades and additional defenses for the Fortress",
+   "uk": "Придбання покращень та укріплення оборони",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:FireWeaponDwarvenFortressOilCasks",
+   "en": "Launch Oil Casks (&T)",
+   "uk": "Обстріл палаючими діжками (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFireWeaponDwarvenFortressOilCasks",
+   "en": "Requires the Fortifications upgrade\nAttack enemies with oil casks\nLeft click to activate",
+   "uk": "Потребує покращення «Щільна оборона»\nЗакидає ворогів діжками з горючим мастилом\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:HornoftheGate",
+   "en": "Horns of the Gate (&S)",
+   "uk": "Роги брами (&S)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDwarvenHornsoftheGate",
+   "en": "Horns of the Gate (&E)",
+   "uk": "Роги брами (&E)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipHornoftheGate",
+   "en": "Requires the Horns of the Gate upgrade\nCauses fear in nearby enemies for 15 seconds\nLeft click to activate",
+   "uk": "Потребує покращення «Роги брами»\nНа 15 сек. наганяє страх на ворогів поблизу\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners",
+   "en": "Modifier Type: Leadership\nAllies near the Fortress gain +33% damage, +33% armour, and earn experience 50% faster\n\nReduces Hero cost by 10%\nReduces Hero recruit time by 10%\nReduced cost of builders by 20%",
+   "uk": "Тип ефекту: Лідерство\nСоюзники поблизу фортеці отримують бонус +33% до пошкоджень та броні й на 50% швидше набирають досвід\n\nСкорочує час та вартість вербування героїв на 10%\nЗнижує вартість будівельників на 20%",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDwarvenFortressBanners",
+   "en": "Raven Banners (&W)",
+   "uk": "Воронячі стяги (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDwarvenHornsoftheGate",
+   "en": "When activated, causes nearby enemies to cower in fear for 15 seconds",
+   "uk": "Після активації вороги поблизу на 15 сек. тремтять від страху",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDwarvenFortressSiegeKegs",
+   "en": "Moat (&R)",
+   "uk": "Рів (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs",
+   "en": "Heals nearby allies and replenishes fallen units\nAdds 1000 additional hit points to the Fortress",
+   "uk": "Зцілює союзників поблизу й поновлює полеглих у загонах\nДодає фортеці 1000 од. міцності",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDwarvenFortressFlamingMunitions",
+   "en": "Erebor Braziers (&T)",
+   "uk": "Жаровні Еребору (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressFlamingMunitions",
+   "en": "Adds Mithril arrowheads to all attached towers and fire damage to all attached catapults",
+   "uk": "Усі прибудовані вежі отримують мітрилові стріли, а катапульти вогняні снаряди",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDwarvenFortressDwarvenStonework",
+   "en": "Fortifications (&S)",
+   "uk": "Щільна оборона (&S)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressArkenstoneHobbitEra",
+   "en": "Requires the Fortifications upgrade\nDecreases recruitment time for all Dwarven units by 20%\nIncreases movement for all Dwarven units by 10%\nDecreases cost of unit upgrades by 20%\nStacks with Steel Bonus discount",
+   "uk": "Потребує покращення «Щільна оборона»\nСкорочує час тренування всіх дворфійських загонів на 20%\nЗбільшує швидкість руху всіх дворфійських загонів на 10%\nЗнижує вартість покращень загонів на 20%\nПоєднується зі знижкою від бонусу сталі",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressArkenstoneLotREra",
+   "en": "Requires the Fortifications upgrade\nDecreases recruitment time for all Dwarven units by 20%\nIncreases movement for all Dwarven units by 10%\nDecreases cost of unit upgrades by 20%\nStacks with Steel Bonus discount",
+   "uk": "Потребує покращення «Щільна оборона»\nСкорочує час тренування всіх дворфійських загонів на 20%\nЗбільшує швидкість руху всіх дворфійських загонів на 10%\nЗнижує вартість покращень загонів на 20%\nПоєднується зі знижкою від бонусу сталі",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenFortress",
+   "en": "Build Fortress (&I)",
+   "uk": "Фортеця (&I)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructDwarvenFortress",
+   "en": "Recruits Builders and Heroes\nCan be upgraded with improvements and expansions\nIncreases command point limit by 100",
+   "uk": "Найм будівельників та вербування героїв\nПридбання покращень та прибудова додаткових споруд\nЗбільшує ліміт очок командування на 100 од.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenMineShaft",
+   "en": "Build Dwarven Mine (&W)",
+   "uk": "Дворфійська копальня (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipConstructDwarvenMineShaft",
+   "en": "Generates resources based on available terrain\nProvides access to the tunnel network\nProvides leadership to nearby Vault-wardens\nIncreases command point limit by 50",
+   "uk": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nДає доступ до мережі тунелів\nДає лідерство вартовим сховищ поблизу\nЗбільшує ліміт очок командування на 50 од.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenMineShaft",
+   "en": "Dwarven Mine",
+   "uk": "Дворфійська копальня",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTunnelCollaspe",
+   "en": "Damages and stuns nearby units for 10 seconds\nbut halts resource production for 30 seconds",
+   "uk": "Завдає пошкоджень загонам поблизу й приголомшує їх на 10 сек., але копальня на 30 сек. припиняє видобуток ресурсів",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TunnelCollaspe",
+   "en": "Tunnel Collapse (&W)",
+   "uk": "Обвал тунелю (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:VWMineLeadership",
+   "en": "Close Quarters Specialists",
+   "uk": "Майстри ближнього бою",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipVWMineLeadership",
+   "en": "Modifier Type: Leadership\nVault-wardens gain +25% damage and armour when near Allied Dwarven Mines and earn experience 50% faster\nPassive ability",
+   "uk": "Тип ефекту: Лідерство\nПоряд із союзними дворфійськими копальнями вартові сховищ отримують бонус +25% до пошкоджень і броні та на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTunnelCollapse",
+   "en": "Purchase Tunnel Collapse Upgrade (&W)",
+   "uk": "Обвал тунелю (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTunnelCollapse",
+   "en": "Allows the Dwarven Mine to damage and stun nearby units for 10 seconds but halts resource production for 30 seconds\nLeft click to activate",
+   "uk": "Дає дворфійській копальні змогу завдавати пошкоджень загонам поблизу й приголомшувати їх на 10 сек., але копальня на 30 сек. припиняє видобуток ресурсів\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenWallHub",
+   "en": "Build Wall Hub (&A)",
+   "uk": "Стінна вежа (&A)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructDwarvenWallHub",
+   "en": "Allows the construction of walls",
+   "uk": "Дозволяє будувати стіни",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenStatue",
+   "en": "Build Heroic Statue (&U)",
+   "uk": "Героїчна статуя Еребору (&U)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:HeroicStatueBuild",
+   "en": "Provides a leadership bonus to nearby allies\nReduces cost of infantry",
+   "uk": "Дає союзникам поблизу бонус лідерства\nЗнижує вартість піхоти",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:HeroicStatueDescription",
+   "en": "Modifier Type: Leadership\nAllies near the Statue gain +25% damage, +25% armour, earn experience 33% faster, and become immune to fear and terror\nCulture Bonus - Reduced cost of infantry\n1 Statue: 4%\n2 Statues: 8%\n3 Statues: 12%\n4 Statues: 16%\n5+ Statues: 20%",
+   "uk": "Тип ефекту: Лідерство\nСоюзники біля статуї отримують бонус +25% до пошкоджень та броні, на 33% швидше набирають досвід і отримують імунітет до страху та жаху\nБонус культури — знижена вартість піхоти\n1 статуя: 4%\n2 статуї: 8%\n3 статуї: 12%\n4 статуї: 16%\n5+ статуй: 20%",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenStatue",
+   "en": "Erebor Heroic Statue",
+   "uk": "Героїчна статуя Еребору",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenWell",
+   "en": "Build Dwarven Well (&G)",
+   "uk": "Криниця Еребору (&G)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenWellDescription",
+   "en": "Heals nearby allies and replenishes fallen units\nDetects stealth",
+   "uk": "Зцілює союзників поблизу й поновлює полеглих у загонах\nВиявляє невидимі загони",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:HearthWellDescription",
+   "en": "Heals nearby allies and replenishes fallen units\nDetects stealth",
+   "uk": "Зцілює союзників поблизу й поновлює полеглих у загонах\nВиявляє невидимі загони",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenWell",
+   "en": "Erebor Well",
+   "uk": "Криниця Еребору",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenSentryTower",
+   "en": "Build Battle Tower (&Y)",
+   "uk": "Сторожова вежа (&Y)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenSentryTower",
+   "en": "Erebor Guard Tower",
+   "uk": "Сторожова вежа Еребору",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenLoneTower",
+   "en": "Dwarven Lone Tower",
+   "uk": "Самотня дворфійська вежа",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenLoneTowerDescription",
+   "en": "Fires arrows at nearby enemies",
+   "uk": "Атакує ворогів поблизу",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:BTDurinBanner",
+   "en": "Durin's Banner (&W)",
+   "uk": "Стяг Дуріна (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:BTDurinBannerUpgraded",
+   "en": "Durin's Banner",
+   "uk": "Стяг Дуріна",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTDurinBanner",
+   "en": "Modifier Type: Spell\nAllies near the Tower earn experience +15% faster\nPassive ability\nLeft click to purchase",
+   "uk": "Тип ефекту: Заклинання\nСоюзники біля вежі на 15% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~\nКлікніть, щоб придбати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:BTKhazadBanner",
+   "en": "Khazad-dûm Banner (&E)",
+   "uk": "Стяг Казад-думу (&E)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:BTKhazadBannerUpgraded",
+   "en": "Khazad-dûm Banner",
+   "uk": "Стяг Казад-думу",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTKhazadBanner",
+   "en": "Modifier Type: Spell\nAllies near the Tower become immune to fear and terror\nPassive ability\nLeft click to purchase",
+   "uk": "Тип ефекту: Заклинання\nСоюзники біля вежі отримують імунітет до страху та жаху\n~ ПАСИВНА ЗДІБНІСТЬ ~\nКлікніть, щоб придбати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:BTEredMithrimBanner",
+   "en": "Ered Mithrim Banner (&R)",
+   "uk": "Стяг Еред-Мітрину (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:BTEredMithrimBannerUpgraded",
+   "en": "Ered Mithrim Banner",
+   "uk": "Стяг Еред-Мітрину",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTEredMithrimBanner",
+   "en": "Modifier Type: Spell\nIncreases vision of tower\nAllies near the Tower gain a +25% range and vision bonus\nPassive ability\nLeft click to purchase",
+   "uk": "Тип ефекту: Заклинання\nЗбільшує дальність огляду вежі\nСоюзники біля вежі отримують бонус +25% дальності атаки й огляду\n~ ПАСИВНА ЗДІБНІСТЬ ~\nКлікніть, щоб придбати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:BTIronHillsBanner",
+   "en": "Iron Hills Banner (&T)",
+   "uk": "Стяг Залізних пагорбів (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:BTIronHillsBannerUpgraded",
+   "en": "Iron Hills Banner",
+   "uk": "Стяг Залізних пагорбів",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTIronHillsBanner",
+   "en": "Modifier Type: Spell\nAllies near the Tower gain +15% damage\nPassive ability\nLeft click to purchase",
+   "uk": "Тип ефекту: Заклинання\nСоюзники біля вежі отримують бонус +15% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~\nКлікніть, щоб придбати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:BTEredLuinBanner",
+   "en": "Ered Luin Banner (&S)",
+   "uk": "Стяг Еред-Луїну (&S)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:BTEredLuinBannerUpgraded",
+   "en": "Ered Luin Banner",
+   "uk": "Стяг Еред-Луїну",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTEredLuinBanner",
+   "en": "Modifier Type: Spell\nAllies near the Tower gain resources per kill\nPassive ability\nLeft click to purchase",
+   "uk": "Тип ефекту: Заклинання\nСоюзники біля вежі отримують ресурси за кожне вбивство\n~ ПАСИВНА ЗДІБНІСТЬ ~\nКлікніть, щоб придбати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeSentryTowerForgedBlades",
+   "en": "Mithril-tipped Arrows (&D)",
+   "uk": "Стріли з мітриловими наконечниками (&D)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerForgedBlades",
+   "en": "Upgrade this Battle Tower with Mithril-tipped Arrows\nIncreases damage done by arrows",
+   "uk": "Оснащує цю сторожову вежу стрілами з мітриловими наконечниками\nЗбільшує пошкодження стріл",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTDurinBannerUpgraded",
+   "en": "Modifier Type: Spell\nAllies near the Tower earn experience +15% faster\nPassive ability",
+   "uk": "Тип ефекту: Заклинання\nСоюзники біля вежі на 15% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTKhazadBannerUpgraded",
+   "en": "Modifier Type: Spell\nAllies near the Tower become immune to fear and terror\nPassive ability",
+   "uk": "Тип ефекту: Заклинання\nСоюзники біля вежі отримують імунітет до страху та жаху\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTEredMithrimBannerUpgraded",
+   "en": "Modifier Type: Spell\nIncreases vision of tower\nAllies near the Tower gain a +25% range and vision bonus\nPassive ability",
+   "uk": "Тип ефекту: Заклинання\nЗбільшує дальність огляду вежі\nСоюзники біля вежі отримують бонус +25% дальності атаки й огляду\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTEredLuinBannerUpgraded",
+   "en": "Modifier Type: Spell\nAllies near the Tower gain resources per kill\nPassive ability",
+   "uk": "Тип ефекту: Заклинання\nСоюзники біля вежі отримують ресурси за кожне вбивство\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTIronHillsBannerUpgraded",
+   "en": "Modifier Type: Spell\nAllies near the Tower gain +15% damage\nPassive ability",
+   "uk": "Тип ефекту: Заклинання\nСоюзники біля вежі отримують бонус +15% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenForgeWorks",
+   "en": "Build Grand Forge (&R)",
+   "uk": "Велика кузня Еребору (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructDwarvenForgeWorks",
+   "en": "Provides worked metals as a resource based on available terrain\nResearches weapons and armour upgrades\nReduces cost of upgrades\nIncreases command point limit by 50",
+   "uk": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nДосліджує покращення зброї та обладунків\nЗнижує вартість покращень\nЗбільшує ліміт очок командування на 50 од.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:EreborForge",
+   "en": "Erebor Grand Forge",
+   "uk": "Велика кузня Еребору",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:EreborForgeDescription",
+   "en": "Provides worked metals as a resource based on available terrain\nResearches weapons and armour upgrades\nSteel Bonus - Reduces cost of upgrades\n2 Forges: 5%\n3 Forges: 10%\n4 Forges: 15%\n5 Forges: 20%\n6+ Forges: 25%",
+   "uk": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nДосліджує покращення зброї та обладунків\nБонус сталі — знижена вартість покращень\n2 кузні: 5%\n3 кузні: 10%\n4 кузні: 15%\n5 кузень: 20%\n6+ кузень: 25%",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyDwarvenBasicTraining",
+   "en": "Research Thrór's Banners (&W)",
+   "uk": "Стяги Трора (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyDwarvenBasicTraining",
+   "en": "Allows battalions to purchase the Thrór's Banners upgrade\nIncreases a battalion to Level 2",
+   "uk": "Дає змогу кожному загону придбати покращення «Стяги Трора»\nПідвищує рівень загону до 2",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyDwarvenSiegeHammer",
+   "en": "Research Siege Hammers (&E)",
+   "uk": "Облогові молоти (&E)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyDwarvenSiegeHammer",
+   "en": "When equipped, significantly increases the damage done by melee weapons to Structures",
+   "uk": "Після оснащення значно збільшує пошкодження спорудам від зброї ближнього бою",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyDwarvenFireArrows",
+   "en": "Research Mithril-tipped Arrows Upgrade (&R)",
+   "uk": "Стріли з мітриловими наконечниками (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyDwarvenFireArrows",
+   "en": "Allows battalions to purchase the Mithril-tipped Arrows upgrade\nWhen equipped, adds additional Slash damage to Arrows\n\nAllows Lake-town Archers to purchase the Fire Arrows upgrade\n\nWhen equipped, significantly increases the damage done by arrows\n\nWill upgrade all patrols instantly once upgrade is purchased",
+   "uk": "Дає змогу кожному загону придбати покращення «Стріли з мітриловими наконечниками»\nПісля оснащення стріли завдають додаткових ріжучих пошкоджень\n\nДає змогу лучникам Озерного міста придбати покращення «Вогняні стріли»\n\nПісля оснащення значно збільшує пошкодження стріл\n\nПісля дослідження миттєво покращує стріли всіх патрулів навколо будівель",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "TOOLTIP:LackLevel2GrandForge",
+   "en": "Requires Level 2 Grand Forge",
+   "uk": "Необхідно: Велика кузня 2 рівня",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyDwarvenForgedBlades",
+   "en": "Research Khûzdul Runes (&T)",
+   "uk": "Кхуздульські руни (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyDwarvenForgedBlades",
+   "en": "Allows battalions to purchase the Khûzdul Blades upgrade\nWhen equipped, increases the damage done by melee weapons",
+   "uk": "Дає змогу кожному загону придбати покращення «Кхуздульські клинки»\nПісля оснащення збільшує пошкодження в ближньому бою",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyDwarvenMithrilMail",
+   "en": "Research Dwarven Plate (&S)",
+   "uk": "Дворфійські лати (&S)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyDwarvenMithrilMail",
+   "en": "Allows units to purchase the Dwarven Plate upgrade\nWhen equipped, significantly reduces the amount of damage taken",
+   "uk": "Дає змогу кожному загону придбати покращення «Дворфійські лати»\nПісля оснащення значно зменшує отримувані пошкодження",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPromoteArcahToLevel3",
+   "en": "Allows Arcah to grow in strength\nLeft click to purchase upgrade\n\nModifier Type: Leadership\nRank 1: Allied units near Arcah gain +5% speed\nRank 3: Allied heroes near Arcah gain +10% experience gain\nRank 5: Allied units near Arcah gain +10% speed\nPassive ability",
+   "uk": "Дає Арках змогу рости в силі\nКлікніть, щоб придбати покращення\n\nТип ефекту: Лідерство\n1 рівень: Загони поряд отримують +5% швидкості\n3 рівень: Герої поряд на 10% швидше набирають досвід\n5 рівень: Загони поряд отримують +10% швидкості\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPromoteArcahToLevel5",
+   "en": "Allows Arcah to grow in strength\nLeft click to purchase upgrade\n\nModifier Type: Leadership\nRank 1: Allied units near Arcah gain +5% speed\nRank 3: Allied heroes near Arcah gain +10% experience gain\nRank 5: Allied units near Arcah gain +10% speed\nPassive ability",
+   "uk": "Дає Арках змогу рости в силі\nКлікніть, щоб придбати покращення\n\nТип ефекту: Лідерство\n1 рівень: Загони поряд отримують +5% швидкості\n3 рівень: Герої поряд на 10% швидше набирають досвід\n5 рівень: Загони поряд отримують +10% швидкості\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipArcahLeadership2",
+   "en": "Requires Level 3\nModifier Type: Passive Debuff\nEnemies under Arcah lose -15% speed\nPassive ability",
+   "uk": "Необхідно: Рівень 3\nТип ефекту: Пасивне ослаблення\nВороги поряд з Арках втрачають 15% швидкості\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipArcahLadyofRavens",
+   "en": "Modifier Type: Leadership\nRank 1: Allied units near Arcah gain +5% speed\nRank 3: Allied heroes near Arcah gain +10% experience gain\nRank 5: Allied units near Arcah gain +10% speed\nPassive ability",
+   "uk": "Тип ефекту: Лідерство\n1 рівень: Загони поряд отримують +5% швидкості\n3 рівень: Герої поряд на 10% швидше набирають досвід\n5 рівень: Загони поряд отримують +10% швидкості\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenThorinRecruit",
+   "en": "Recruit the King Under the Mountain\n\n'Loyalty. Honor. A willing heart. I can ask no more than that.'",
+   "uk": "Завербувати Короля під Горою\n\n«Вірність. Честь. Щире серце. Більшого я просити не можу».",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenThorinRevive",
+   "en": "Revive the fallen King, Thorin",
+   "uk": "Відродити полеглого в бою короля Торіна",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenHadhod",
+   "en": "Hadhod",
+   "uk": "Гадгод",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenHadhodRecruit",
+   "en": "Recruit the proud warrior of the clan of Fundin\n\nHadhod is a veteran of many battles, having traveled far and wide before finally settling down in Erebor.",
+   "uk": "Завербувати гордого воїна з роду Фундіна\n\nГадгод — ветеран багатьох битв: він мандрував далеко й широко, доки нарешті не осів в Еребору.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenHadhodRevive",
+   "en": "Revive the fallen Hero, Hadhod the Dwarf",
+   "uk": "Відродити полеглого в бою дворфа Гадгода",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:KeenEye",
+   "en": "Keen Eye (&W)",
+   "uk": "Пильне око (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKeenEye",
+   "en": "Can be cast on enemy structures to reduce their armour by 25% for 10 seconds\nLeft click icon then left click on target",
+   "uk": "Можна застосувати до ворожих споруд, щоб на 10 сек. знизити їхню броню на 25%\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:HadhodSabotage",
+   "en": "Sabotage (&R)",
+   "uk": "Саботаж (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHadhodSabotage",
+   "en": "Requires Level 3\nTarget enemy building takes heavy damage\nand is disabled for 20 seconds\nAutomatically opens targeted gate\nLeft click icon then left click on target",
+   "uk": "Необхідно: Рівень 3\nОбрана ворожа споруда отримує значні пошкодження\nі на 20 сек. виходить з ладу\nАвтоматично відчиняє обрану браму\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:HadhodStoneHewer",
+   "en": "Stone Hewer",
+   "uk": "Каменяр",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHadhodStoneHewer",
+   "en": "Requires Level 6\nNearby Dwarven units deal +25% damage against structures\nPassive ability",
+   "uk": "Необхідно: Рівень 6\nДворфійські загони поблизу завдають спорудам на 25% більше пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:HadhodSiegeMaster",
+   "en": "Siege Master (&C)",
+   "uk": "Експерт з облоги (&C)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHadhodSiegeMaster",
+   "en": "Requires Level 8\nTargeted Âzagh-baruk are upgraded with Siege Hammers\nTargeted Mangonels receive a permanent 15% increase in damage and range\nLeft click icon then left click on target battalion or Mangonel",
+   "uk": "Необхідно: Рівень 8\nОбрані азаґ-баруки отримують облогові молоти\nОбрані манґонелі назавжди отримують бонус +15% до пошкоджень і дальності атаки\nКлікніть на іконку, потім оберіть загін або манґонель",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:BondsofFriendship",
+   "en": "Bonds of Friendship (&V)",
+   "uk": "Братерський союз (&V)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipBondsofFriendship",
+   "en": "Requires Level 10\nSummons Elegost the Dúnadan to the battlefield\nLeft click to activate",
+   "uk": "Необхідно: Рівень 10\nПрикликає на поле бою Елеґоста Дунадана\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:GloinRecruit",
+   "en": "Recruit the father of Gimli\n\n'The Shadow grows and draws nearer. Already war is gathering on our eastern borders...'",
+   "uk": "Завербувати батька Ґімлі\n\n«Тінь зростає й наближається. Уже на наших східних кордонах збирається війна...»",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:GloinRevive",
+   "en": "Revive the fallen Hero, Glóin.",
+   "uk": "Відродити полеглого в бою Ґлоїна.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:SecretWays",
+   "en": "Secret Ways (&R)",
+   "uk": "Таємні шляхи (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenCaptainofDaleRecruitOld",
+   "en": "Recruit King Brand, the King of Dale\n\n'They are good folk, the Bardings. The grandson of Bard the Bowman rules them, Brand son of Bain son of Bard. He is a strong king, and his realm now reaches far south and east of Esgaroth.'",
+   "uk": "Завербувати Бранда, короля Дейлу\n\n«Бардінґи — добрий народ. Ними править онук Барда Лучника, Бранд, син Баїна, сина Барда. Він сильний король, і його володіння тепер сягають далеко на південь і схід від Есґароту».",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenCaptainofDaleReviveOld",
+   "en": "Revive King Brand, the King of Dale",
+   "uk": "Відродити Бранда, короля Дейлу",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenKingDainRevive",
+   "en": "Revive the fallen Hero, King Dáin",
+   "uk": "Відродити полеглого в бою короля Дайна",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenKingDainRecruit",
+   "en": "Recruit Dáin Ironfoot, King Under the Mountain\n\n'I should call that a heavy loss, if it was not a wonder rather that in his great age he could still wield his axe as mightily as they say that he did, standing over the body of King Brand before the Gate of Erebor until the darkness fell.'",
+   "uk": "Завербувати Дайна Залізностопа, Короля під Горою\n\n«Я назвав би це тяжкою втратою, якби не було радше дивом, що в такому поважному віці він іще міг так могутньо орудувати сокирою, як кажуть, стоячи над тілом короля Бранда перед брамою Еребору, доки не запала темрява».",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenThorinHelmRevive",
+   "en": "Revive the fallen Hero, Thorin III Stonehelm",
+   "uk": "Відродити полеглого в бою Торіна III Кам'яного Шолома",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenThorinHelmRecruit",
+   "en": "Recruit Thorin III Stonehelm, Prince of Erebor\n\nWhen news of Sauron's defeat reached the Easterling host that lay siege to Erebor, they were filled with dismay. It was at this moment that Thorin Stonehelm, Prince of Erebor, led a brazen counterattack that broke the siege and routed the enemy.",
+   "uk": "Завербувати Торіна III Кам'яного Шолома, принца Еребору\n\nКоли звістка про поразку Саурона дійшла до війська істерлінґів, що брало Еребор в облогу, їх охопив розпач. Саме тоді принц Еребору Торін Кам'яний Шолом очолив контрнаступ, прорвав облогу й розбив ворога.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanGimliRecruit",
+   "en": "Recruit the Dwarf of the Lonely Mountain\n\n'There is one Dwarf yet in Moria who still draws breath!'",
+   "uk": "Завербувати відважного дворфа з Самотньої гори\n\n«У Морії є ще один дворф, який досі дихає!»",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:RohanGimliRevive",
+   "en": "Revive the fallen Hero, Gimli",
+   "uk": "Відродити полеглого в бою Ґімлі",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenWorkshop",
+   "en": "Build Erebor Workshop (&N)",
+   "uk": "Майстерня Еребору (&N)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructDwarvenWorkshop",
+   "en": "Constructs Dwarven Siege Equipment\nAt rank 2, repairs nearby siege engines and battlewagons",
+   "uk": "Будує дворфійські облогові машини\nНа 2 рівні лагодить облогові машини й бойові вози поблизу",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenWorkshop",
+   "en": "Erebor Workshop",
+   "uk": "Майстерня Еребору",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenWorkshopDescription",
+   "en": "Rank 2: +25% faster build speed\nRank 3: +50% faster build speed",
+   "uk": "Рівень 2: +25% до швидкості тренування\nРівень 3: +50% до швидкості тренування",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyDwarvenFlamingShot",
+   "en": "Research Flaming Sho&t (&T)",
+   "uk": "Вогняні снаряди (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyDwarvenFlamingShot",
+   "en": "Allows Mangonels to purchase the Flaming Shot upgrade\nWhen equipped, significantly increases the damage done by Mangonels",
+   "uk": "Дає змогу манґонелям придбати покращення «Вогняні снаряди»\nПісля оснащення значно збільшує пошкодження манґонелів",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "TOOLTIP:LackLevel2DwarvenWorkshop",
+   "en": "Requires Level 2 Workshop",
+   "uk": "Необхідно: Майстерня 2 рівня",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeDwarvenWorkshopLevel2",
+   "en": "Upgrade Workshop to Level 2 (&A)",
+   "uk": "Покращити майстерню до 2-го рівня (&A)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUpgradeDwarvenWorkshopLevel2",
+   "en": "Allows recruitment of Mangonels\nHeals nearby damaged siege machines\n+10% faster build speed",
+   "uk": "Дозволяє будувати манґонелі\nЛагодить пошкоджені облогові машини поблизу\n+10% до швидкості тренування",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeDwarvenWorkshopLevel3",
+   "en": "Upgrade Workshop to Level 3 (&A)",
+   "uk": "Покращити майстерню до 3-го рівня (&A)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUpgradeDwarvenWorkshopLevel3",
+   "en": "Allows recruitment of Demolishers\nIncreased healing to nearby damaged siege machines\nAdds Defensive Guard Tower\n+25% faster build speed",
+   "uk": "Дозволяє будувати руйнівники\nШвидше лагодить пошкоджені облогові машини поблизу\nДодає захисну вежу\n+25% до швидкості тренування",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarfBatteringRam",
+   "en": "Battering Ram\nStrong vs. Structures\nBreaks down castle gates and enemy structures\n\nCapable of carrying great weight across large distances, the Dwarves of Erebor forge and refine their battering rams within their halls, rather than use felled trees from the battleground.",
+   "uk": "Таран\nЕфективний проти споруд\nРозбиває брами фортець і ворожі споруди\n\nДворфи Еребору, здатні переносити великі вантажі на далекі відстані, кують і доводять до ладу свої тарани у власних залах, а не рубають дерева на полі бою.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarfBatteringRam",
+   "en": "Urkhas-felak (&W)",
+   "uk": "Урхас-фелак (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarfBatteringRam",
+   "en": "Urkhas-felak",
+   "uk": "Урхас-фелак",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenBattleWagon",
+   "en": "Ibsênab-azghakakâ (&E)",
+   "uk": "Ібсенаб-азґакака (&E)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenBattleWagon",
+   "en": "Ibsênab-azghakakâ",
+   "uk": "Ібсенаб-азґакака",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenBattleWagon",
+   "en": "Battlewagon\nStrong vs. Swordsmen and Archers\nCan be upgraded with various improvements\nLimited to 3.\n\nThe Dwarves of Iron Hills have developed a chariot that can cross even the roughest of terrain and ride down the toughest of foes.",
+   "uk": "Бойовий віз\nЕфективний проти мечників і лучників\nМожна вдосконалювати різними покращеннями\nМаксимум 3 одночасно.\n\nДворфи Залізних пагорбів створили колісницю, що проїде найважчою місцевістю й розтопче найміцніших ворогів.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityOilBarrels",
+   "en": "Oil Barrels (&W)",
+   "uk": "Бочки з мастилом (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSpecialAbilityOilBarrels",
+   "en": "Launches flaming oil barrels that explode on the battlefield\nLeft click icon then left click on target area",
+   "uk": "Жбурляє палаючі бочки з мастилом, що вибухають на полі бою\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework",
+   "en": "Allows the Fortress to launch explosive oil casks\nIncreases Fortress and Wall armour by 65%\nPrerequisite to the Arkenstone upgrade",
+   "uk": "Дає фортеці змогу закидати ворогів вибуховими бочками\nЗбільшує міцність фортеці та стін на 65%\nПотрібне для покращення «Аркенстон»",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenBarracks",
+   "en": "Build Hall of Warriors (&T)",
+   "uk": "Палац воїнів (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructDwarvenBarracks",
+   "en": "Trains basic infantry of the Dwarves",
+   "uk": "Тренує базову дворфійську піхоту",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenBarracks",
+   "en": "Erebor Hall of Warriors",
+   "uk": "Палац воїнів Еребору",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenBarracksDescription",
+   "en": "Level 2: +10% faster build speed\nLevel 3: +25% faster build speed",
+   "uk": "Рівень 2: +10% до швидкості тренування\nРівень 3: +25% до швидкості тренування",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenArcheryRangeDescription",
+   "en": "Level 2: +10% faster build speed\nLevel 3: +25% faster build speed",
+   "uk": "Рівень 2: +10% до швидкості тренування\nРівень 3: +25% до швидкості тренування",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeDwarvenBarracksLevel2",
+   "en": "Upgrade Hall of Warriors to Level 2 (&A)",
+   "uk": "Покращити палац воїнів до 2-го рівня (&A)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUpgradeDwarvenBarracksLevel2",
+   "en": "Allows training of Grim Hammers\n+10% faster build speed",
+   "uk": "Дозволяє тренувати Суворі молоти\n+10% до швидкості тренування",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeDwarvenBarracksLevel3",
+   "en": "Upgrade Hall of Warriors to Level 3 (&A)",
+   "uk": "Покращити палац воїнів до 3-го рівня (&A)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUpgradeDwarvenBarracksLevel3",
+   "en": "Adds Defensive Guard Tower\n+25% faster build speed",
+   "uk": "Додає захисну вежу\n+25% до швидкості тренування",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenWagonButon3",
+   "en": "Take A Pit Stop!",
+   "uk": "Піт-стоп!",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipDwarvenWagonButon3",
+   "en": "Requires Level 3\nThe battlewagon and crew heal outside of combat",
+   "uk": "Необхідно: Рівень 3\nПоза боєм бойовий віз і його екіпаж зцілюються",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenWagonButon2",
+   "en": "Mince Meat, Coming Up!",
+   "uk": "Зараз буде фарш!",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipDwarvenWagonButon2",
+   "en": "Requires Level 4\nThe battlewagon's wheels are outfitted with dangerous wheel blades\nBattlewagons gain 20 additional crush damage and -50% crush deceleration\nPassive ability",
+   "uk": "Необхідно: Рівень 4\nКолеса бойового воза оснащують небезпечними лезами\nБойові вози завдають на 20 од. більше пошкоджень топтанням і на 50% менше сповільнюються під час топтання\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenWagonButon1",
+   "en": "Hop On!",
+   "uk": "Застрибуйте!",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipDwarvenWagonButon1",
+   "en": "Requires Level 5\nAdds several Crossbowmen to the Battlewagon",
+   "uk": "Необхідно: Рівень 5\nДодає на бойовий віз кількох арбалетників",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenWagonButtonBC",
+   "en": "Unfurl Ironfoot's Banners!",
+   "uk": "Розгорнути стяги Залізностопа!",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipDwarvenWagonButtonBC",
+   "en": "Requires Level 2\nModifier Type: Leadership\nNearby Dwarves gain +25% damage, +25% armour, and +50% experience gain\nNearby Bardings gain +15% damage, +15% armour, and +25% experience gain\nStacks with Buffs and Spells\nPassive ability",
+   "uk": "Необхідно: Рівень 2\nТип ефекту: Лідерство\nДворфи поблизу отримують бонус +25% до пошкоджень та броні й на 50% швидше набирають досвід\nБардінґи поблизу отримують бонус +15% до пошкоджень та броні й на 25% швидше набирають досвід\nПоєднується з посиленнями та заклинаннями\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarfMangonel",
+   "en": "Sulûn-abanul (&R)",
+   "uk": "Сулун-абанул (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarfMangonel",
+   "en": "Sulûn-abanul",
+   "uk": "Сулун-абанул",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarfMangonel",
+   "en": "Mangonel\nRequires Level 2 Workshop\nStrong vs. Structures\nCan toggle to use lighter ammunition for greater effectiveness against infantry.\n\nDwarven ingenuity ensures this mangonel can reload at speed and accurately pummel targets from great distances.",
+   "uk": "Манґонель\nНеобхідно: Майстерня 2 рівня\nЕфективні проти споруд\nМоже перемикатися на легші снаряди, дієвіші проти піхоти.\n\nДворфійська винахідливість дає цьому манґонелю змогу швидко перезаряджатися й влучно трощити цілі з великої відстані.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDwarvenFlamingShot",
+   "en": "Purchase Flaming Shot (&T)",
+   "uk": "Вогняні снаряди (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFlamingShot",
+   "en": "Significantly increases the Mangonel's damage",
+   "uk": "Значно збільшує пошкодження манґонеля",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "TOOLTIP:ToolTipPurchaseUpgradeDwarvenFlamingShot",
+   "en": "Research Flaming Shot upgrade at Workshop to enable this equipment\nSignificantly increases the Mangonel's damage",
+   "uk": "Придбайте покращення «Вогняні снаряди» у «Майстерні», щоб відкрити це спорядження\nЗначно збільшує пошкодження манґонеля",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarfToggleMangonelWeapons",
+   "en": "Switch Ammunition (&C)",
+   "uk": "Змінити снаряди (&C)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwarfToggleMangonelWeapons",
+   "en": "Toggle between boulders and piles of smaller rocks.\nBoulders are strong vs structures, smaller rocks are strong vs units",
+   "uk": "Перемикання між брилами й купами дрібного каміння.\nБрили ефективні проти споруд, дрібне каміння — проти загонів",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenDemolisher",
+   "en": "Zirinmazn (&S)",
+   "uk": "Зірінмазн (&S)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenBatteringRam",
+   "en": "Zirinmazn",
+   "uk": "Зірінмазн",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenDemolisher",
+   "en": "Demolisher\nRequires Level 3 Workshop\nStrong vs. Structures\nLimited to 2.\n\nAn ironwrought ram's head is the centrepiece of this fearsome Dwarven siege engine.",
+   "uk": "Руйнівник\nНеобхідно: Майстерня 3 рівня\nЕфективні проти споруд\nМаксимум 2 одночасно.\n\nЗалізна баранова голова — серце цієї страхітливої дворфійської облогової машини.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenHusbandry",
+   "en": "Build Erebor Redoubt (&V)",
+   "uk": "Редут Еребору (&V)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructDwarvenHusbandry",
+   "en": "Recruits specialist units of Erebor",
+   "uk": "Тренує особливі загони Еребору",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenForgeWorksDescription",
+   "en": "Recruits the elite troops of Erebor",
+   "uk": "Тренує елітні війська Еребору",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenForgeWorks",
+   "en": "Erebor Redoubt",
+   "uk": "Редут Еребору",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeDwarvenForgeWorksLevel2",
+   "en": "Upgrade Erebor Redoubt to Level 2 (&A)",
+   "uk": "Покращити редут Еребору до 2-го рівня (&A)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2",
+   "en": "Allows training of Wyrm-slayers\n+10% faster build speed",
+   "uk": "Дозволяє тренувати змієборців\n+10% до швидкості тренування",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeDwarvenForgeWorksLevel3",
+   "en": "Upgrade Erebor Redoubt to Level 3 (&A)",
+   "uk": "Покращити редут Еребору до 3-го рівня (&A)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3",
+   "en": "Allows training of Khazâd-uzbadul\n+25% faster build speed",
+   "uk": "Дозволяє тренувати Казад-узбадул\n+25% до швидкості тренування",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructKhazadUzbadulHorde",
+   "en": "Khazâd-uzbadul (&R)",
+   "uk": "Казад-узбадул (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:KhazadUzbadulHorde",
+   "en": "Khazâd-uzbadul",
+   "uk": "Казад-узбадул",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:KhazadUzbadul",
+   "en": "Khazâd-uzbadul",
+   "uk": "Казад-узбадул",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildKhazadUzbadulHorde",
+   "en": "Dwarves of the Lord\nRequires Level 3 Erebor Redoubt\nLimited to 2\nPowerful slow-moving elite infantry\nStrong vs. Infantry\n\nBattle-hardened and unyielding, the Khazad Guard are royal wardens of the Throne of Erebor, tasked with keeping safe the Dwarf-lords under the Mountain.",
+   "uk": "Дворфи Володаря\nНеобхідно: Редут Еребору 3 рівня\nМаксимум 2 одночасно\nПотужна повільна елітна піхота\nЕфективні проти піхоти\n\nЗагартовані в боях і непохитні, воїни Казадської варти — королівські охоронці Трону Еребору, що бережуть дворфійських володарів під Горою.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleKhazadUzbadulFormation",
+   "en": "Khazâd-uzbadul form up into a schiltron formation\n+50% armour, -20% speed\nKhazâd-uzbadul do not deal splash damage when in formation",
+   "uk": "Казад-узбадул шикуються в оборонний стрій\nБонус +50% броні, штраф -20% швидкості\nКоли Казад-узбадул в обороні, вони НЕ завдають пошкоджень по площі",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:RisingAnger",
+   "en": "Rising Anger",
+   "uk": "Зростаючий гнів",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRisingAnger",
+   "en": "Consecutive attacks temporarily increase attack damage by 5% up to a maximum of 25%\nPassive ability",
+   "uk": "Кожна наступна атака тимчасово збільшує пошкодження на 5%, максимум 25%\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityStaunchDefender",
+   "en": "Staunch Defenders (&T)",
+   "uk": "Непохитні захисники (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityStaunchDefender",
+   "en": "Heroes nearby the Khazâd-uzbadul are granted +10% armour and damage\nPassive ability\n\nAt level 3 can be activated to pull enemies nearby the Khazâd-uzbadul towards them\nLeft click to activate",
+   "uk": "Герої поряд із Казад-узбадул отримують бонус +10% броні й до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nНа 3 рівні після активації Казад-узбадул притягують до себе ворогів поблизу\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenZerkerHorde",
+   "en": "Adâruf-sulûkh (&E)",
+   "uk": "Адаруф-сулух (&E)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:HordeDwarvenZerker",
+   "en": "Adâruf-sulûkh",
+   "uk": "Адаруф-сулух",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenZerker",
+   "en": "Adâruf-sulûkh",
+   "uk": "Адаруф-сулух",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenZerkerHorde",
+   "en": "Wyrm-slayers\nStrong vs. Heroes and Monsters\nRequires Level 2 Erebor Redoubt\n\nOnly the hardiest, most fearsome Dwarves pass the grueling requirements to enter the ranks of the Wyrm-slayers - which is all the better, for the wyrms of the Withered Heath, their quarry, are not to be trifled with.",
+   "uk": "Змієборці\nЕфективні проти героїв та істот\nНеобхідно: Редут Еребору 2 рівня\n\nЛише найвитриваліші й найгрізніші дворфи проходять виснажливі випробування, щоб стати змієборцями — і це на краще, бо з драконами Зів'ялої пустки, на яких вони полюють, жарти погані.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:Unburnt",
+   "en": "Unburnt",
+   "uk": "Невогненні",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUnburnt",
+   "en": "Wyrm-slayers are completely immune to flame damage, and\ncannot be knocked back by the claws of a Fire-drake\nPassive Ability",
+   "uk": "Змієборці мають повний імунітет до пошкоджень вогнем, і\nїх не відкидають удари вогняного дракона\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:FlashFlame",
+   "en": "Flash Flame (&R)",
+   "uk": "Спалах (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipZealotAxeThrow",
+   "en": "Wyrm-slayers throw bottles of Dwarven flash flame, damaging enemy units\nLeft click icon then left click on target",
+   "uk": "Змієборці кидають пляшки з дворфійською займистою сумішшю, завдаючи пошкоджень ворожим загонам\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ZerkSlayer",
+   "en": "Immolation (&T)",
+   "uk": "Самоспалення (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipZerkSlayer",
+   "en": "Requires Level 3\nWyrm-slayers deal fire damage per attack, gain +15% movement speed and can trample enemies for 20 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 3\nНа 20 сек. змієборці кожним ударом завдають пошкоджень вогнем, отримують бонус +15% швидкості руху й можуть топтати ворогів\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructEreborVWHorde",
+   "en": "Azaghâr-gundu (&W)",
+   "uk": "Азаґар-ґунду (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:HordeEreborVW",
+   "en": "Azaghâr-gundu",
+   "uk": "Азаґар-ґунду",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:EreborVW",
+   "en": "Azaghâr-gundu",
+   "uk": "Азаґар-ґунду",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildEreborVWHorde",
+   "en": "Vault-wardens\nSpecial Unit\nStrong vs. Cavalry, Monsters and Heroes\nAble to switch formation for improved defensive capabilities\n\nUsing long, three-pronged spears and dwarf-high tower shields, the Vault-wardens guard the long, dark corridors of the Lonely Mountain.",
+   "uk": "Вартові сховищ\nОсобливий загін\nЕфективні проти кавалерії, істот і героїв\nМожуть змінювати стрій для кращого захисту\n\nЗ довгими тризубими списами й щитами-вежами заввишки з дворфа вартові сховищ стережуть довгі темні коридори Самотньої Гори.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToggleVWPorcupineFormation",
+   "en": "Stone-Wall Formation (&W)",
+   "uk": "Стрій «Кам'яна стіна» (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleVWLineToPorcupineFormation",
+   "en": "Increases armour by +50% at the cost of -50% movement speed\nAlso makes Vault-wardens immune to knockback",
+   "uk": "Збільшує броню на 50% ціною -50% швидкості руху\nТакож дає вартовим сховищ імунітет до відкидання",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:VWLeadership",
+   "en": "Hold Your Ground!",
+   "uk": "Ні кроку назад!",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipVWLeadership",
+   "en": "As the unit levels the power improves\nRank 1: Nearby allied units gain 10% armour\nRank 2: Nearby enemy units lose 10% speed\nRank 4: Nearby allied units gain 15% armour\nBuff Modifier Type: Spell\nDebuff Modifier Type: Passive Debuff\nPassive ability",
+   "uk": "Здібність посилюється з рівнем загону\n1 рівень: Союзні загони поблизу отримують бонус +10% броні\n2 рівень: Ворожі загони поблизу втрачають 10% швидкості\n4 рівень: Союзні загони поблизу отримують бонус +15% броні\nТип посилення: Заклинання\nТип ослаблення: Пасивне ослаблення\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenGuardianHorde",
+   "en": "Âzagh-baruk (&W)",
+   "uk": "Азаґ-барук (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:HordeDwarvenGuardian",
+   "en": "Âzagh-baruk",
+   "uk": "Азаґ-барук",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenGuardian",
+   "en": "Âzagh-baruk",
+   "uk": "Азаґ-барук",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenGuardianHorde",
+   "en": "Erebor Warriors\nStrong vs. Pikemen\n\nThese stout, well-trained warriors make up the brunt of Erebor's standing army.",
+   "uk": "Воїни Еребору\nЕфективні проти пікінерів\n\nЦі кремезні, добре навчені воїни — основа постійного війська Еребору.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenTenacity",
+   "en": "Natural Sprinters (&W)",
+   "uk": "Природжені бігуни (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenTenacityPhalanx",
+   "en": "Natural Sprinters (&R)",
+   "uk": "Природжені бігуни (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwarvenTenacity",
+   "en": "Requires Level 2\nModifier Type: Buff\nErebor Warriors gain +15% movement speed and can crush enemy units for 5 seconds\nWarriors also gain +15% damage and +15% armour for 10 seconds\nAt Level 4, deals increased damage when crushing enemies\nLeft click to activate",
+   "uk": "Необхідно: Рівень 2\nТип ефекту: Посилення\nВоїни Еребору на 5 сек. отримують бонус +15% швидкості руху й можуть топтати ворожі загони\nТакож на 10 сек. отримують бонус +15% до пошкоджень та броні\nНа 4 рівні завдають більше пошкоджень, коли топчуть ворогів\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDwarvenSiegeHammer",
+   "en": "Purchase Siege Hammers (&R)",
+   "uk": "Облогові молоти (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDwarvenSiegeHammer",
+   "en": "Upgrades this battalion with Siege Hammers\nSignificantly increases the damage done by melee weapons to Structures\nNegates the effects of Forged Blades",
+   "uk": "Оснащує цей загін облоговими молотами\nЗначно збільшує пошкодження по спорудах від зброї ближнього бою\nАнулює дію покращення «Ковані клинки»",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "TOOLTIP:LackDwarvenSiegeHammer",
+   "en": "Research upgrade at the Grand Forge to enable this equipment\nWhen equipped, significantly increases the damage done by melee weapons to Structures",
+   "uk": "Придбайте покращення в «Великій кузні», щоб відкрити це спорядження\nПісля оснащення значно збільшує пошкодження спорудам у ближньому бою",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "TOOLTIP:LackDwarvenMithrilMail",
+   "en": "Research upgrade at the Grand Forge to enable this equipment\nWhen equipped, significantly reduces the amount of damage taken",
+   "uk": "Придбайте покращення в «Великій кузні», щоб відкрити це спорядження\nПісля оснащення значно зменшує отримувані пошкодження",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "TOOLTIP:LackDwarvenForgedBlades",
+   "en": "Research upgrade at the Grand Forge to enable this equipment\nWhen equipped, increases the damage done by melee weapons",
+   "uk": "Придбайте покращення в «Великій кузні», щоб відкрити це спорядження\nПісля оснащення збільшує пошкодження в ближньому бою",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "TOOLTIP:LackDwarvenBasicTraining",
+   "en": "Research upgrade at the Grand Forge to enable this equipment\nWhen equipped, increases this battalion to Level 2",
+   "uk": "Придбайте покращення в «Великій кузні», щоб відкрити це спорядження\nПісля оснащення підвищує рівень загону до 2",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenPhalanxHorde",
+   "en": "Sigin-udrîg (&E)",
+   "uk": "Сіґін-удріґ (&E)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:HordeDwarvenPhalanx",
+   "en": "Sigin-udrîg",
+   "uk": "Сіґін-удріґ",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenPhalanx",
+   "en": "Sigin-udrîg",
+   "uk": "Сіґін-удріґ",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenPhalanxHorde",
+   "en": "Erebor Pikemen\nStrong vs. Cavalry and Heroes\nAble to switch formation for improved defensive capabilities\n\nWith long spears and broad shields, these Dwarves guard Erebor's high halls and corridors.",
+   "uk": "Списоносці Еребору\nЕфективні проти кавалерії та героїв\nМожуть змінювати стрій для кращого захисту\n\nЗ довгими списами й широкими щитами ці дворфи стережуть високі зали й коридори Еребору.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwarvenTenacityPhalanx",
+   "en": "Requires Level 3\nErebor Pikemen gain +15% movement speed and can crush enemy units for 5 seconds\nPikemen also gain +15% damage and +15% armour for 10 seconds\nAt Level 5, deals increased damage when crushing enemies\nLeft click to activate",
+   "uk": "Необхідно: Рівень 3\nСписоносці Еребору на 5 сек. отримують бонус +15% швидкості руху й можуть топтати ворожі загони\nТакож на 10 сек. отримують бонус +15% до пошкоджень і +15% броні\nНа 5 рівні завдають більше пошкоджень, коли топчуть ворогів\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenArcherHorde",
+   "en": "Rakhâs-abzâg (&R)",
+   "uk": "Рахас-абзаґ (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:HordeEreborArcher",
+   "en": "Rakhâs-abzâg",
+   "uk": "Рахас-абзаґ",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:EreborArcher",
+   "en": "Rakhâs-abzâg",
+   "uk": "Рахас-абзаґ",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenArcherHorde",
+   "en": "Erebor Archers\nStrong vs. Infantry\n\nCarrying compound shortbows and thick arrows, these Dwarven archers pack a punch across short distances.",
+   "uk": "Лучники Еребору\nЕфективні проти піхоти\n\nЗі складеними короткими луками й товстими стрілами ці дворфійські лучники б'ють потужно на коротких відстанях.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PunchThrough",
+   "en": "Punch Through! (&R)",
+   "uk": "Наскрізь! (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPunchThrough",
+   "en": "Requires Level 3\nErebor Archers knock back enemy units for 30 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 3\nНа 30 сек. постріли лучників Еребору відкидають ворожі загони\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDwarvenFireArrows",
+   "en": "Purchase Mithril-tipped Arrows (&C)",
+   "uk": "Стріли з мітриловими наконечниками (&C)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFireArrows",
+   "en": "Upgrades this battalion with Mithril-tipped Arrows\nAdds additional slash damage to arrows",
+   "uk": "Оснащує цей загін стрілами з мітриловими наконечниками\nСтріли завдають додаткових ріжучих пошкоджень",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "ToolTip:LackDwarvenFireArrows",
+   "en": "Research upgrade at the Grand Forge to enable this equipment\nWhen equipped, adds additional slash or fire damage to arrows",
+   "uk": "Придбайте покращення в «Великій кузні», щоб відкрити це спорядження\nПісля оснащення додає стрілам ріжуче або вогняне пошкодження",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGrimHammerHorde",
+   "en": "Sulkhâ-bekhâz (&T)",
+   "uk": "Сулха-бехаз (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:HordeGrimHammer",
+   "en": "Sulkhâ-bekhâz",
+   "uk": "Сулха-бехаз",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:GrimHammer",
+   "en": "Sulkhâ-bekhâz",
+   "uk": "Сулха-бехаз",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGrimHammerHorde",
+   "en": "Grim Hammers\nRequires Level 2 Hall of Warriors\nStrong vs. Pikemen and Spam Units\n\nClad in fine Dwarf-wrought armour and wielding weapons that are the envy of Middle-earth, these sturdy soldiers fear no foes.",
+   "uk": "Суворі молоти\nНеобхідно: Палац воїнів 2 рівня\nЕфективні проти пікінерів і масових загонів\n\nУ найкращих дворфійських обладунках і зі зброєю, якій заздрить усе Середзем'я, ці стійкі воїни не бояться нікого.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:GrimIntimidate",
+   "en": "Intimidation",
+   "uk": "Пригнічення",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipGrimIntimidate",
+   "en": "Requires Level 2\nModifier Type: Passive Debuff\nNearby enemy units suffer -10% speed\nPassive ability",
+   "uk": "Необхідно: Рівень 2\nТип ефекту: Пасивне ослаблення\nВорожі загони поблизу отримують штраф -10% швидкості\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenMenOfDale",
+   "en": "Barding Longbowmen (&T)",
+   "uk": "Бардінґські довголучники (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:HordeMenofDale",
+   "en": "Barding Longbowmen",
+   "uk": "Бардінґські довголучники",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenMenOfDaleHorde",
+   "en": "Requires Level 2 Erebor Assembly\nStrong vs. Infantry and Monsters\nCan Fire Black Arrows\n\nIn Barding military tradition, skillful use of the longbow is a prime mark of an excellent soldier.",
+   "uk": "Необхідно: Зала зібрань Еребору 2 рівня\nЕфективні проти піхоти та істот\nМожуть стріляти чорними стрілами\n\nЗа військовою традицією бардінґів, уміння влучно стріляти з довгого лука — головна ознака вправного воїна.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenMenOfDale",
+   "en": "Barding Longbowman",
+   "uk": "Бардінґський довголучник",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:BlackArrows",
+   "en": "Black Arrows (&R)",
+   "uk": "Чорні стріли (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenofDaleSwordHorde",
+   "en": "Barding Swordsmen (&R)",
+   "uk": "Бардінґські мечники (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:HordeMenofDaleSwordMilita",
+   "en": "Barding Swordsmen",
+   "uk": "Бардінґські мечники",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildMenofDaleSwordHorde",
+   "en": "Elite Infantry\nStrong vs. Pikemen\n\nThe rekindled wealth of Dale is exemplified in its excellently trained and equipped army, ranking among the finest in all of Rhovanion.",
+   "uk": "Елітна піхота\nЕфективні проти пікінерів\n\nВідроджене багатство Дейлу видно з його чудово навченого й озброєного війська, одного з найкращих у всьому Рованіоні.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:MenofDaleSword",
+   "en": "Barding Swordsman",
+   "uk": "Бардінґський мечник",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipStopRightThereDale",
+   "en": "Requires Level 3\nEnemy units within the radius deal -33% damage and are slowed by 20% for 30 seconds\nLeft click on icon then left click on target battalion",
+   "uk": "Необхідно: Рівень 3\nВорожі загони в радіусі дії на 30 сек. отримують штраф -33% пошкоджень і сповільнюються на 20%\nКлікніть на іконку, потім оберіть загін",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenDaleGuardHorde",
+   "en": "Barding Spearmen (&E)",
+   "uk": "Бардінґські списоносці (&E)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:HordeMenofDaleGHorde",
+   "en": "Barding Spearmen",
+   "uk": "Бардінґські списоносці",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenDaleGuardHorde",
+   "en": "Basic Pikemen\nStrong vs. Cavalry and Heroes\nAble to switch formation for improved defensive capabilities\n\nKing Brand of Dale saw to the creation of a standing army: regiments of disciplined men equipped with spear and shield, waging war from a nigh-impenetrable phalanx formation.",
+   "uk": "Звичайні пікінери\nЕфективні проти кавалерії та героїв\nМожуть змінювати стрій для кращого захисту\n\nКороль Дейлу Бранд створив постійне військо: загони дисциплінованих воїнів зі списами й щитами, що б'ються в майже непробивній фаланзі.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:HordeMenofDaleG",
+   "en": "Barding Spearman",
+   "uk": "Бардінґський списоносець",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DalishSupremacyPassive",
+   "en": "Barding Supremacy",
+   "uk": "Перевага бардінґів",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DalishSupremacy",
+   "en": "Barding Supremacy (&W)",
+   "uk": "Перевага бардінґів (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipDalishSupremacy",
+   "en": "Requires Level 4\nModifier Type: Passive Debuff\nNearby enemy Easterling and Variag units suffer -25% damage and -20% armour\nPassive ability",
+   "uk": "Необхідно: Рівень 4\nТип ефекту: Пасивне ослаблення\nВорожі загони істерлінґів і варіаґів поблизу отримують штраф -25% пошкоджень і -20% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDaleMithrilMail",
+   "en": "Purchase Barding Chainmail (&T)",
+   "uk": "Бардінґські кольчуги (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDaleMithrilMail",
+   "en": "Upgrades this battalion with Barding Chainmail\nSignificantly reduces the amount of damage taken",
+   "uk": "Оснащує цей загін бардінґськими кольчугами\nЗначно зменшує отримані пошкодження",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDaleForgedBlades",
+   "en": "Purchase Barding Blades (&C)",
+   "uk": "Бардінґські клинки (&C)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDaleForgedBlades",
+   "en": "Upgrades this battalion with Barding Blades\nIncreases the damage done by melee weapons",
+   "uk": "Оснащує цей загін бардінґськими клинками\nЗбільшує пошкодження зброї ближнього бою",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDaleBasicTraining",
+   "en": "Purchase Banners of Dale (&V)",
+   "uk": "Стяги Дейлу (&V)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIronHillsCrossbowHorde",
+   "en": "Azaghâr-sharâhul (&F)",
+   "uk": "Азаґар-шарагул (&F)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:HordeIronHillsCrossbow",
+   "en": "Azaghâr-sharâhul",
+   "uk": "Азаґар-шарагул",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:IronHillsCrossbow",
+   "en": "Azaghâr-sharâhul",
+   "uk": "Азаґар-шарагул",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIronHillsCrossbowHorde",
+   "en": "Iron Hills Crossbowmen\nRequires Level 3 Erebor Assembly\nStrong vs. Infantry\n\nLike their users, Iron Hills crossbows are short and sturdy, and packing quite a punch.",
+   "uk": "Арбалетники Залізних пагорбів\nНеобхідно: Зала зібрань Еребору 3 рівня\nЕфективні проти піхоти\n\nЯк і їхні власники, арбалети Залізних пагорбів короткі, міцні й б'ють дуже сильно.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:KnottedStrings",
+   "en": "Knotted Strings (&R)",
+   "uk": "Вузлуваті тятиви (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKnottedStrings",
+   "en": "Requires Level 2\nIron Hills Crossbowmen ignore enemy armour for 30 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 2\nНа 30 сек. арбалетники Залізних пагорбів ігнорують броню ворогів\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIronHillsWarriorHorde",
+   "en": "Baruk-sharâhul (&D)",
+   "uk": "Барук-шарагул (&D)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:HordeIronHillsWarrior",
+   "en": "Baruk-sharâhul",
+   "uk": "Барук-шарагул",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:IronHillsWarrior",
+   "en": "Baruk-sharâhul",
+   "uk": "Барук-шарагул",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIronHillsWarriorHorde",
+   "en": "Iron Hills Warriors\nRequires Level 3 Erebor Assembly\nStrong vs. Pikemen and Cavalry\nAble to switch formation for improved defensive capabilities\n\nThese hardy warriors followed the Lord of the Iron Hills to Erebor, to do battle with any that stood between them and their kin.",
+   "uk": "Воїни Залізних пагорбів\nНеобхідно: Зала зібрань Еребору 3 рівня\nЕфективні проти пікінерів і кавалерії\nМожуть змінювати стрій для кращого захисту\n\nЦі загартовані воїни прийшли за Володарем Залізних пагорбів до Еребору, щоб битися з кожним, хто стане між ними та їхньою ріднею.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleIHFighterLineToBlockFormation",
+   "en": "Iron Hills Warriors form a Shield Wall\nThey gain +40% armour, -33% speed and bonus damage to cavalry",
+   "uk": "Воїни Залізних пагорбів утворюють стіну щитів\nВони отримують бонус +40% броні і штраф -33% швидкості та мають додаткові пошкодження кавалерії",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:SunderingStrikes",
+   "en": "Sundering Strikes",
+   "uk": "Розколювальні удари",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSunderingStrikes",
+   "en": "Melee attacks decrease enemy armour by 20% for 5 seconds\nDebuff does not stack with itself\nPassive ability",
+   "uk": "Удари в ближньому бою на 5 сек. знижують броню ворога на 20%\nОслаблення не накопичується\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDwarvenBasicTrainingIH",
+   "en": "Purchase Iron Hills Banner (&V)",
+   "uk": "Стяг Залізних пагорбів (&V)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDwarvenBasicTrainingBW",
+   "en": "Purchase Iron Hills Banner (&R)",
+   "uk": "Стяг Залізних пагорбів (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructEredLuinRangerHorde",
+   "en": "Huruz-Khagal-zirak (&S)",
+   "uk": "Хуруз-Хаґал-зірак (&S)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:EredLuinRangerHorde",
+   "en": "Huruz-Khagal-zirak",
+   "uk": "Хуруз-Хаґал-зірак",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildEredLuinRangerHorde",
+   "en": "Ered Luin Rangers\nRequires Level 2 Erebor Assembly\nFast moving, hard hitting Infantry\nStrong vs. Archers\nCan Stealth Near Trees\n\nThe sprawling forests that covered the long foothills of the Blue Mountains were kept safe by keen-eyed Dwarven rangers.",
+   "uk": "Слідопити Еред-Луїну\nНеобхідно: Зала зібрань Еребору 2 рівня\nШвидка піхота, що б'є сильно\nЕфективні проти лучників\nСтають невидимими поблизу дерев\n\nРозлогі ліси, що вкривали довгі передгір'я Синіх гір, стерегли зіркі дворфійські слідопити.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTraderEredLuinRangerCram",
+   "en": "The Rangers passively heal outside of combat\nPassive ability",
+   "uk": "Поза боєм слідопити постійно зцілюються\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSecretWays",
+   "en": "Ered Luin Rangers are stealthed near trees\nThey deal double damage when flanking and attacking from behind\nPassive ability\n\nWhen activated, Ered Luin Rangers teleport to target location\nLeft click icon then left click on pathable location",
+   "uk": "Слідопити Еред-Луїну невидимі поблизу дерев\nКоли атакують із флангу чи зі спини, завдають подвійних пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації слідопити Еред-Луїну телепортуються в обране місце\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenWile",
+   "en": "Dwarven Wile (&T)",
+   "uk": "Дворфійська хитрість (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwarvenWile",
+   "en": "Requires Level 3\nEred Luin Rangers lay down an assortment of tripwires, caltrops and pitfalls.\nEnemies that walk across are stunned for 5 seconds\nDoes not affect creeps\n\nLeft click then left click target location",
+   "uk": "Необхідно: Рівень 3\nСлідопити Еред-Луїну розставляють розтяжки, шипи й вовчі ями.\nВороги, що на них ступають, приголомшені на 5 сек.\nНе діє на диких звірів\n\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructLaketownGuardHorde",
+   "en": "Guards of the Master (&T)",
+   "uk": "Варта Бурмістра (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:LaketownGuardHorde",
+   "en": "Guards of the Master",
+   "uk": "Варта Бурмістра",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildLaketownGuardHorde",
+   "en": "Requires Level 2 Erebor Assembly\nStrong vs. Pikemen\n\nTasked with the special protection of the Master of Lake-town, these privileged sentries are granted authority and luxury that few civilians can afford.",
+   "uk": "Необхідно: Зала зібрань Еребору 2 рівня\nЕфективні проти пікінерів\n\nЦим привілейованим вартовим доручено особисто оберігати Бурмістра Озерного міста, і вони мають владу й розкіш, яку мало хто з містян може собі дозволити.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:LaketownGuard",
+   "en": "Guard of the Master",
+   "uk": "Вартовий Бурмістра",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:StopRightThere",
+   "en": "Stop Right There! (&W)",
+   "uk": "А ну стій там! (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipStopRightThere",
+   "en": "Requires Level 2\nEnemy units within the radius deal -33% damage and are slowed by 20% for 30 seconds\nLeft click on icon then left click on target battalion",
+   "uk": "Необхідно: Рівень 2\nВорожі загони в радіусі дії на 30 сек. отримують штраф -33% пошкоджень і сповільнюються на 20%\nКлікніть на іконку, потім оберіть загін",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:SearchWarrant",
+   "en": "Search Warrant (&R)",
+   "uk": "Ордер на обшук (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSearchWarrant",
+   "en": "Requires Level 3\nDisables enemy structures and deals minor damage over time for 15 seconds\nLeft click icon then left click on target",
+   "uk": "Необхідно: Рівень 3\nНа 15 сек. виводить з ладу ворожу споруду й завдає їй незначних періодичних пошкоджень\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenLaketownBowmenHorde",
+   "en": "Lake-town Bowmen (&R)",
+   "uk": "Лучники Озерного міста (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:LaketownBowmenHorde",
+   "en": "Lake-town Bowmen",
+   "uk": "Лучники Озерного міста",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenLaketownBowmenHorde",
+   "en": "Basic Fast-moving Archers\nStrong vs. Infantry\n\nHorde Bonus\nModifier Type: Spell\nAll Lake-town Watchmen and Lake-town Bowmen gain +25% damage and armour when gathered in numbers of 80 or more\n\nWith their long bows and tall helmets, the bowmen of Esgaroth keep alive the old Dalish tradition of keen marksmanship.",
+   "uk": "Звичайні швидкі лучники\nЕфективні проти піхоти\n\nОтримують бонуси від кількості\nТип ефекту: Заклинання\nУсі вартові й лучники Озерного міста отримують бонус +25% до пошкоджень і броні, якщо зібрані в кількості 80 і більше\n\nЗ довгими луками й у високих шоломах лучники Есґароту бережуть давню дейлську традицію влучної стрільби.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:LaketownBowman",
+   "en": "Lake-town Bowman",
+   "uk": "Лучник Озерного міста",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeLaketownFireArrows",
+   "en": "Purchase Fire Arrows (&C)",
+   "uk": "Вогняні стріли (&C)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeLaketownFireArrows",
+   "en": "Upgrades this horde with Fire Arrows\nSignificantly increases the damage done by arrows",
+   "uk": "Оснащує цей загін вогняними стрілами\nЗначно збільшує пошкодження стріл",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructLaketownMilitaHorde",
+   "en": "Lake-town Watchmen (&E)",
+   "uk": "Вартові Озерного міста (&E)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:HordeLaketownMilita",
+   "en": "Lake-town Watchmen",
+   "uk": "Вартові Озерного міста",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildLaketownMilitaHorde",
+   "en": "Basic Pikemen\nStrong vs. Cavalry and Heroes\nAble to switch formation for improved defensive capabilities\n\nHorde Bonus\nModifier Type: Spell\nAll Lake-town Watchmen and Lake-town Bowmen gain +25% damage and armour when gathered in numbers of 80 or more\n\nOf old, the Master of Esgaroth has armed and maintained a small regiment of townsguard, tasked with upholding law and order upon the Long Lake.",
+   "uk": "Звичайні пікінери\nЕфективні проти кавалерії та героїв\nМожуть змінювати стрій для кращого захисту\n\nОтримують бонуси від кількості\nТип ефекту: Заклинання\nУсі вартові й лучники Озерного міста отримують бонус +25% до пошкоджень і броні, якщо зібрані в кількості 80 і більше\n\nЗдавна Бурмістр Есґароту озброює й утримує невеликий загін міської варти, що береже закон і порядок на Довгому озері.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:LaketownMilita",
+   "en": "Lake-town Watchman",
+   "uk": "Вартовий Озерного міста",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeLaketownMithrilMail",
+   "en": "Purchase Master's Armour (&T)",
+   "uk": "Обладунки Бурмістра (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeLaketownMithrilMail",
+   "en": "Upgrades this battalion with Master's Armour\nSignificantly reduces the amount of damage taken",
+   "uk": "Оснащує цей загін обладунками Бурмістра\nЗначно зменшує отримані пошкодження",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeLaketownForgedBlades",
+   "en": "Purchase Master's Blades (&C)",
+   "uk": "Клинки Бурмістра (&C)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeLaketownForgedBlades",
+   "en": "Upgrades this battalion with Master's Blades\nIncreases the damage done by melee weapons",
+   "uk": "Оснащує цей загін клинками Бурмістра\nЗбільшує пошкодження зброї ближнього бою",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeLaketownBasicTraining",
+   "en": "Purchase Esgaroth Banners (&V)",
+   "uk": "Стяги Есґароту (&V)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructEredLuinTraderHorde",
+   "en": "Usjur-Khagal-zirak (&W)",
+   "uk": "Усджур-Хаґал-зірак (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:HordeEredLuinTraders",
+   "en": "Usjur-Khagal-zirak",
+   "uk": "Усджур-Хаґал-зірак",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:EredLuinTrader",
+   "en": "Usjur-Khagal-zirak",
+   "uk": "Усджур-Хаґал-зірак",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildEredLuinTraderHorde",
+   "en": "Ered Luin Traders\n\nSupport Infantry\nStrong vs. Pikemen\n\nDwarves from the Blue Mountains are known for their industrious, mercantile culture, and travel across Middle-earth to sell their wares.",
+   "uk": "Торговці Еред-Луїну\n\nПіхота підтримки\nЕфективні проти пікінерів\n\nДворфи Синіх гір славляться працьовитістю й торговою вдачею та мандрують усім Середзем'ям, продаючи свої вироби.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TraderEredLuinCram",
+   "en": "Dwarven Waybread",
+   "uk": "Дворфійський дорожній хліб",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTraderEredLuinCram",
+   "en": "The Traders passively heal outside of combat\nPassive ability",
+   "uk": "Поза боєм торговці постійно зцілюються\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TraderMerchantsLeadership",
+   "en": "Merchants (&R)",
+   "uk": "Купці (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTraderMerchantsActive",
+   "en": "Requires Level 2\nModifier Type: Spell\nTraders and nearby allies earn resources per kill for 30 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 2\nТип ефекту: Заклинання\nНа 30 сек. торговці й союзники поблизу отримують ресурси за кожне вбивство\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TraderTinkersLeadership",
+   "en": "Tinkers",
+   "uk": "Майстри",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTraderTinkersLeadership",
+   "en": "Requires Level 3\nPassive Ability\nModifier Type: Leadership\nAll nearby siege units gain +15% damage and +15% speed",
+   "uk": "Необхідно: Рівень 3\n~ ПАСИВНА ЗДІБНІСТЬ ~\nТип ефекту: Лідерство\nУсі облогові машини поблизу отримують бонус +15% до пошкоджень та швидкості",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TraderToymakers1",
+   "en": "Toymakers (&C)",
+   "uk": "Піротехніка (&C)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTraderToymakers1",
+   "en": "Requires Level 4\nDeploy Dwarven Firework\nLeft click to plant fireworks, then click the 'Set them off!' icon",
+   "uk": "Необхідно: Рівень 4\nРозставити дворфійські феєрверки\nКлікніть, щоб закласти феєрверки, а потім натисніть іконку «Підпалюйте!»",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDwarvenBasicTrainingEredLuin",
+   "en": "Purchase Ered Luin Chief (&V)",
+   "uk": "Ватажок Еред-Луїну (&V)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenAssembly",
+   "en": "Build Erebor Assembly (&C)",
+   "uk": "Зала зібрань Еребору (&C)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipConstructDwarvenAssembly",
+   "en": "Recruits allies from the world of Men, Blue Mountains, and the Iron Hills",
+   "uk": "Тренує союзників зі світу людей, Синіх гір і Залізних пагорбів",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "OBJECT:DwarvenAssembly",
+   "en": "Erebor Assembly",
+   "uk": "Зала зібрань Еребору",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenAssemblyLevel2Upgrade",
+   "en": "Upgrade Erebor Assembly to Level 2 (&A)",
+   "uk": "Покращити залу зібрань до 2-го рівня (&A)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenAssemblyLevel2Upgrade",
+   "en": "Allows training of Guards of the Master and Ered Luin Rangers\n+10% faster build speed",
+   "uk": "Дозволяє тренувати Варту Бурмістра й слідопитів Еред-Луїну\n+10% до швидкості тренування",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenAssemblyLevel3Upgrade",
+   "en": "Upgrade Erebor Assembly to Level 3 (&A)",
+   "uk": "Покращити залу зібрань до 3-го рівня (&A)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenAssemblyLevel3Upgrade",
+   "en": "Allows training of Iron Hills Warriors and Iron Hills Crossbowmen\nAdds defensive arrow tower\n+25% faster build speed",
+   "uk": "Дозволяє тренувати воїнів і арбалетників Залізних пагорбів\nДодає захисну вежу\n+25% до швидкості тренування",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenAssemblyLevel2UpgradeLotR",
+   "en": "+10% faster build speed\nAllows training of Barding Longbowmen and Ered Luin Rangers",
+   "uk": "+10% до швидкості тренування\nДозволяє тренувати бардінґських довголучників і слідопитів Еред-Луїну",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "hero": "Orophin",
+ "uk_name": "Орофін",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:ElvenOrophin",
+     "t": "Name",
+     "en": "Orophin",
+     "uk": "Орофін",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GwedhanarLeadership",
+     "t": "Button",
+     "en": "Gwedhanar",
+     "uk": "Брати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGwedhanarLeadershipOrophin",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Haldir and Rumil gain +10% damage and +5% experience gain\\nDoes not stack\\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nГалдір і Руміл отримують бонус +10% до пошкоджень і на 5% швидше набирають досвід\\nНе поєднується\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:OrophinBladeMaster",
+     "t": "Button",
+     "en": "Megilherdir (&R)",
+     "uk": "Володар меча (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipOrophinBladeMaster",
+     "t": "Tooltip",
+     "en": "Requires Level 2 \\n Modifier Type: Buff \\n Orophin gains\\n+25% damage, +50% armour for 30 seconds\\nOrophin deals splash damage\\n Left click to activate",
+     "uk": "Необхідно: Рівень 2\\nТип ефекту: Посилення\\nОрофін на 30 сек. отримує бонус\\n+25% до пошкоджень і +50% броні\\nОрофін завдає пошкоджень по площі\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipOrophinBladeMasterGifts",
+     "t": "Tooltip",
+     "en": "Requires Level 2 \\n Modifier Type: Buff \\n Orophin gains +25% damage, +50% armour for 30 seconds\\nOrophin deals knockback and splash damage in a wider radius for 30 seconds\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 2\\nТип ефекту: Посилення\\nОрофін на 30 сек. отримує бонус +25% до пошкоджень і +50% броні\\nОрофін на 30 сек. відкидає ворогів своїми ударами й завдає пошкоджень по площі в ширшому радіусі\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:OrophinLeadership",
+     "t": "Button",
+     "en": "Warden of the Naith",
+     "uk": "Вартовий Наїту",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipOrophinLeadership",
+     "t": "Tooltip",
+     "en": "Requires Level 4 \\nModifier Type: Leadership\\nNearby friendly units gain +15% damage\\nPassive ability",
+     "uk": "Необхідно: Рівень 4\\nТип ефекту: Лідерство\\nСоюзні загони поблизу отримують бонус +15% до пошкоджень\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:OrophinGloriousCharge",
+     "t": "Button",
+     "en": "Warden's Defence (&C)",
+     "uk": "Захист вартового (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipOrophinGloriousCharge",
+     "t": "Tooltip",
+     "en": "Requires Level 6\\nModifier Type: Spell \\n Orophin and nearby units gain +50% armour for 30 seconds\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 6\\nТип ефекту: Заклинання\\nОрофін і загони поблизу на 30 сек. отримують бонус +50% броні\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:OrophinBorderGuardsJudgement",
+     "t": "Button",
+     "en": "Border Guard's Judgement (&V)",
+     "uk": "Вирок вартового (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipOrophinBorderGuardsJudgement",
+     "t": "Tooltip",
+     "en": "Requires Level 8 \\n Targeted enemy hero's ability timers are set to just used \\n Left click icon then left click on target",
+     "uk": "Необхідно: Рівень 8\\nУсі здібності обраного ворожого героя скидаються, ніби їх щойно застосували\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

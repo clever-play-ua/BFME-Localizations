@@ -1,0 +1,48 @@
+{
+ "hero": "Dori",
+ "uk_name": "Дорі",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:Dori",
+     "t": "Name",
+     "en": "Dori",
+     "uk": "Дорі",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DwarfBrothersThree",
+     "t": "Button",
+     "en": "Brothers Three",
+     "uk": "Три брати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDwarfBrothersThree",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n Ori, Nori and Dori gain +15% damage and +15% armour when near each other \\nPassive ability",
+     "uk": "Тип ефекту: Заклинання\\nПоряд одне з одним Орі, Норі й Дорі отримують бонус +15% до пошкоджень і +15% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DoriConnoisseur",
+     "t": "Button",
+     "en": "Connoisseur (&R)",
+     "uk": "Поціновувач (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDoriConnoisseur",
+     "t": "Tooltip",
+     "en": "Known for enjoying the finer things in life, Dori seeks to refine those he deems uncultured \\n Refreshes target friendly hero's special ability timers \\n Left click icon then left click on target hero",
+     "uk": "Дорі любить вишукані речі й прагне облагородити тих, кого вважає неотесаними\\nПовністю скидає таймер відновлення здібностей обраного союзного героя\\nКлікніть на іконку, потім оберіть героя",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

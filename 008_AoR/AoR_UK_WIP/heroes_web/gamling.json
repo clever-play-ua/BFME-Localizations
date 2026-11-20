@@ -1,0 +1,77 @@
+{
+ "hero": "Gamling",
+ "uk_name": "Ґамлінґ",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:RohanGamling",
+     "t": "Name",
+     "en": "Gamling",
+     "uk": "Ґамлінґ",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GamlingWhateverEnd",
+     "t": "Button",
+     "en": "To Whatever End (&W)",
+     "uk": "Хоч би яким був кінець (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGamlingWhateverEndCampaign",
+     "t": "Tooltip",
+     "en": "Modifier Type: Buff \\n Target hero gains +25% armour for 30 seconds\\nLeft click icon then left click on target hero",
+     "uk": "Тип ефекту: Посилення\\nОбраний герой на 30 сек. отримує бонус +25% броні\\nКлікніть на іконку, потім оберіть героя",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGamlingWhateverEnd",
+     "t": "Tooltip",
+     "en": "Modifier Type: Buff \\n Target hero gains +25% armour for 30 seconds\\n Left click icon then left click on target hero",
+     "uk": "Тип ефекту: Посилення\\nОбраний герой на 30 сек. отримує бонус +25% броні\\nКлікніть на іконку, потім оберіть героя",
+     "st": "ok",
+     "dup": "CONTROLBAR:ToolTipGamlingWhateverEndCampaign"
+    }
+   ]
+  },
+  {
+   "name": "The Battle of the Hornburg",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:ToolTipEowynMount",
+     "t": "Tooltip",
+     "en": "Left click to switch between mounted and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою верхи та пішим ходом",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Battle of Pelennor Fields",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:GandalfNewMountCampaignNoHotkey",
+     "t": "Button",
+     "en": "Mount Shadowfax / Dismount",
+     "uk": "Осідлати Тінегрива / Спішитися",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipShadowfax",
+     "t": "Tooltip",
+     "en": "Left click to switch between \\n mounted on Shadowfax and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою\\nна Тінегриві та пішим ходом",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

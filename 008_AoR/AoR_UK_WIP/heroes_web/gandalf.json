@@ -1,0 +1,374 @@
+{
+ "hero": "Gandalf",
+ "uk_name": "Ґендальф",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:GandalfTheWhite",
+     "t": "Name",
+     "en": "Gandalf",
+     "uk": "Ґендальф",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:WizardBlast",
+     "t": "Button",
+     "en": "Chief of the Istari (&W)",
+     "uk": "Глава істарі (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipWizardBlastCampaign",
+     "t": "Tooltip",
+     "en": "Close range attack that blasts back enemies\\n Left click icon then left click on target \\n\\n Modifier Type: Spell \\n Allies near Gandalf gain 300% armour to magic and elemental damage, earn experience 100% faster and become immune to fear and terror\\nPassive ability \\n\\n Shield Bubble \\n Gandalf occasionally gains +300% armour and resistance to knockback when attacked\\nBubble lasts for 20 seconds and cannot be activated again for 60 seconds\\n Passive ability but can be manually activated using the shortcut (U)",
+     "uk": "Атака зблизька, що відкидає ворогів\\nКлікніть на іконку, потім оберіть ціль\\n\\nТип ефекту: Заклинання\\nСоюзники поряд із Ґендальфом отримують бонус +300% броні проти пошкоджень від магії та стихій, на 100% швидше набирають досвід і отримують імунітет до страху та жаху\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nЗахисна сфера\\nКоли Ґендальфа атакують, він час від часу отримує бонус +300% броні й стійкість до відкидання\\nСфера діє 20 сек. і повторно спрацьовує не раніше ніж за 60 сек.\\nПасивна здібність, яку можна застосувати вручну клавішею (U)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipWizardBlast",
+     "t": "Tooltip",
+     "en": "Dismounted: Close range attack that blasts back enemies\\n Left click icon then left click on target \\n\\n Mounted: Targeted enemy hero is stunned for 10 seconds and takes damage\\n Left click icon then left click on target \\n\\n Modifier Type: Spell \\n Allies near Gandalf gain 300% armour to magic and elemental damage, earn experience 50% faster and become immune to fear and terror\\n Passive ability \\n \\n Shield Bubble \\n Gandalf occasionally gains +75% armour and resistance to knockback when attacked\\nBubble lasts for 10 seconds and cannot be activated again for 75 seconds\\n Passive ability but can be manually activated using the shortcut (U)",
+     "uk": "Пішки: удар зблизька, що відкидає ворогів\\nКлікніть на іконку, потім оберіть ціль\\n\\nВерхи: обраний ворожий герой на 10 сек. стає приголомшеним і отримує пошкодження\\nКлікніть на іконку, потім оберіть ціль\\n\\nТип ефекту: Заклинання\\nСоюзники поряд із Ґендальфом отримують бонус +300% броні проти пошкоджень від магії та стихій, на 50% швидше набирають досвід і отримують імунітет до страху та жаху\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nЗахисна сфера\\nІноді, коли Ґендальфа атакують, він отримує бонус +75% броні й стійкість до відкидання\\nСфера діє 10 сек., повторно — не раніше ніж через 75 сек.\\nПасивна здібність, яку можна застосувати вручну клавішею (U)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GandalfNewMount",
+     "t": "Button",
+     "en": "Mount Shadowfax / Dismount (&R)",
+     "uk": "Осідлати Тінегрива / Спішитися (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipShadowfax",
+     "t": "Tooltip",
+     "en": "Left click to switch between \\n mounted on Shadowfax and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою\\nна Тінегриві та пішим ходом",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GandalfPrepareForBattle",
+     "t": "Button",
+     "en": "Rekindled Hearts (&T)",
+     "uk": "Знову запалені серця (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGandalfPrepareForBattleCampaign",
+     "t": "Tooltip",
+     "en": "Requires Level 4 \\n Modifier Type: Spell \\n Gandalf gains +25% damage and armour for 30 seconds\\nAllied units near Gandalf become immune to debuffs and knockback whilst ability is active\\nNearby structures recruit units 50% faster for 60 seconds\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 4\\nТип ефекту: Заклинання\\nҐендальф отримує бонус +25% до пошкоджень і броні на 30 сек.\\nПоки діє здібність, союзні загони поряд із Ґендальфом мають імунітет до ослаблень і відкидання\\nСпоруди поблизу на 60 сек. наймають загони на 50% швидше\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGandalfPrepareForBattle",
+     "t": "Tooltip",
+     "en": "Requires Level 2 \\n Modifier Type: Spell \\n Gandalf gains +25% damage and armour for 30 seconds\\nAllied units near Gandalf become immune to debuffs and knockback whilst ability is active\\nNearby Gondor structures recruit units 50% faster for 60 seconds\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 2\\nТип ефекту: Заклинання\\nҐендальф на 30 сек. отримує бонус +25% до пошкоджень і броні\\nПоки діє здібність, союзні загони поряд із Ґендальфом мають імунітет до ослаблень і відкидання\\nҐондорські споруди поблизу 60 сек. наймають загони на 50% швидше\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:IstariLight",
+     "t": "Button",
+     "en": "Flame of Anor (&C)",
+     "uk": "Полум'я Анору (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipIstariLight",
+     "t": "Tooltip",
+     "en": "Requires Level 7 \\n Beam of light that damages enemies \\n Bonus vs. Balrogs and Nazgûl \\n Left click icon then left click on target",
+     "uk": "Необхідно: Рівень 7\\nПромінь світла, що завдає пошкоджень ворогам\\nОсобливо дієвий проти балроґів і назґулів\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipIstariLightMT",
+     "t": "Tooltip",
+     "en": "Requires Level 7 \\n Beam of light that damages and knocks back enemies \\n Bonus vs. Balrogs and Nazgûl \\n Target Nazgûl temporarily flee in terror \\n Left click icon then left click on target",
+     "uk": "Необхідно: Рівень 7\\nПромінь світла, що завдає пошкоджень і відкидає ворогів\\nОсобливо дієвий проти балроґів і назґулів\\nВражені назґули тимчасово тікають у жаху\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipIstariLightTiered",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Beam of light that damages enemies \\n Bonus vs. Balrogs and Nazgûl \\nDeals increased damage at Level 7\\nDeals damage in an increased radius and knocks back enemy units at Level 9\\n Left click icon then left click on target",
+     "uk": "Необхідно: Рівень 5\\nПромінь світла, що завдає ворогам пошкоджень\\nОсобливо дієвий проти балроґів і назґулів\\nНа 7 рівні завдає більше пошкоджень\\nНа 9 рівні б'є по більшому радіусу й відкидає ворожі загони\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:WordofPower",
+     "t": "Button",
+     "en": "You Shall Not Pass (&V)",
+     "uk": "Ти не пройдеш (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipWordofPower",
+     "t": "Tooltip",
+     "en": "Requires Level 10 \\n Blasts back and damages units and heroes in a wide radius surrounding Gandalf \\n Left click to activate",
+     "uk": "Необхідно: Рівень 10\\nВідкидає загони та героїв у широкому\\nрадіусі й завдає їм пошкоджень\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SpecialAbilityShieldBubble",
+     "t": "Button",
+     "en": "Shield B&ubble",
+     "uk": "Захисна сфера (&U)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipSpecialAbilityShieldBubble",
+     "t": "Tooltip",
+     "en": "Creates a magical shield around Gandalf\\n Temporarily grants +300% armour and resistance to knockback attacks\\nLeft click to activate",
+     "uk": "Створює навколо Ґендальфа чарівний щит\\nТимчасово дає +300% броні й стійкість до відкидання\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:WizardBlastMT",
+     "t": "Button",
+     "en": "Commander of the West (&W)",
+     "uk": "Командувач Заходу (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipWizardBlastMT",
+     "t": "Tooltip",
+     "en": "Close range attack that blasts back enemies\\n Left click icon then left click on target\\n\\nModifier Type: Spell \\n Allies near Gandalf gain 300% armour and become immune to fear and terror\\nPassive ability \\n\\n Shield Bubble \\n Gandalf occasionally gains +300% armour and resistance to knockback when attacked\\nBubble lasts for 20 seconds and cannot be activated again for 60 seconds\\n Passive ability but can be manually activated using the shortcut (U)",
+     "uk": "Удар зблизька, що відкидає ворогів\\nКлікніть на іконку, потім оберіть ціль\\n\\nТип ефекту: Заклинання\\nСоюзники поряд із Ґендальфом отримують 300% броні й імунітет до страху та жаху\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nЗахисна сфера\\nКоли Ґендальфа атакують, він час від часу отримує бонус +300% броні й стійкість до відкидання\\nСфера діє 20 сек. і знову спрацьовує не раніше ніж через 60 сек.\\nПасивна здібність, яку можна застосувати вручну клавішею (U)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipWizardBlastMTInner",
+     "t": "Tooltip",
+     "en": "Close range attack that blasts back enemies\\n Left click icon then left click on target \\n\\n Modifier Type: Spell \\n Allies near Gandalf gain 300% armour and become immune to fear and terror\\nPassive ability",
+     "uk": "Удар зблизька, що відкидає ворогів\\nКлікніть на іконку, потім оберіть ціль\\n\\nТип ефекту: Заклинання\\nСоюзники поряд із Ґендальфом отримують 300% броні й імунітет до страху та жаху\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GandalfStandYourGround",
+     "t": "Button",
+     "en": "Stand Your Ground (&T)",
+     "uk": "Тримати стрій (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGandalfStandYourGround",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Modifier Type: Spell \\n Nearby allied units gain +50% damage and immunity to knockback for 30 seconds\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 3\\nТип ефекту: Заклинання\\nСоюзні загони поблизу отримують бонус +50% до пошкоджень і стійкість до відкидання на 30 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:RingOfFire",
+     "t": "Button",
+     "en": "The Ring of Fire (&V)",
+     "uk": "Коло вогню (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipRingOfFireOuter",
+     "t": "Tooltip",
+     "en": "Requires Level 10\\nNarya, the Ring of Power, passively heals nearby friendly heroes\\nPassive ability\\n\\nFor 60 seconds, targeted area becomes hostile to enemy forces, who take fire damage over time\\nLeft click then left click target area",
+     "uk": "Необхідно: Рівень 10\\nНарья, Перстень Влади, постійно зцілює союзних героїв поблизу\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nПротягом 60 сек. на вказаній ділянці ворожі загони отримують періодичні пошкодження від вогню\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipRingOfFire",
+     "t": "Tooltip",
+     "en": "Requires Level 10\\nFor 60 seconds, targeted area becomes hostile to enemy forces, who take fire damage over time\\nLeft click then left click target area",
+     "uk": "Необхідно: Рівень 10\\nПротягом 60 сек. на вказаній ділянці ворожі загони отримують періодичні пошкодження від вогню\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GandalfWhiteRider",
+     "t": "Button",
+     "en": "The White Rider (&T)",
+     "uk": "Білий Вершник (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGandalfWhiteRider",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Gandalf gains +20% speed, +50% damage, \\n and loses all deceleration for 30 seconds\\n Can only be used mounted \\n Left click to activate",
+     "uk": "Необхідно: Рівень 3\\nҐендальф отримує бонус +20% швидкості, +50% до пошкоджень\\nі не сповільнюється на 30 сек.\\nДоступно лише верхи\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GandalfNewMountCampaignNoHotkey",
+     "t": "Button",
+     "en": "Mount Shadowfax / Dismount",
+     "uk": "Осідлати Тінегрива / Спішитися",
+     "st": "ok",
+     "dup": "CONTROLBAR:GandalfNewMount"
+    }
+   ]
+  },
+  {
+   "name": "Defence of the White City",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:LightningSword",
+     "t": "Button",
+     "en": "Ligh&tning Sword",
+     "uk": "Меч-блискавка (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipLightningSword",
+     "t": "Tooltip",
+     "en": "Requires Level 2 \\n Shoots out lightning bolts from Gandalf's sword \\n Left click icon then left click on target",
+     "uk": "Необхідно: Рівень 2\\nМеч Ґендальфа стріляє блискавками\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ShieldBubbleMT",
+     "t": "Button",
+     "en": "Aegis of Aman (&W)",
+     "uk": "Егіда Аману (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GandalfBanishEvil",
+     "t": "Button",
+     "en": "Banish Evil (&R)",
+     "uk": "Вигнати зло (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGandalfBanishEvil",
+     "t": "Tooltip",
+     "en": "Instantly destroys target Darkened Wraith\\nDeals minimal damage to the Witch-king\\nLeft click then left click target unit",
+     "uk": "Миттєво знищує вказаного Затьмареного привида\\nЗавдає мінімальних пошкоджень Королю-чаклуну\\nКлікніть на іконку, потім оберіть потрібний загін",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:LightofAnar",
+     "t": "Button",
+     "en": "Light of Anar (&T)",
+     "uk": "Світло Анара (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipLightofAnar",
+     "t": "Tooltip",
+     "en": "Gandalf casts a spell on enemies\\nwithin a radius, dealing heavy damage\\nLeft click icon then left click on target enemies",
+     "uk": "Ґендальф накладає чари на ворогів\\nу радіусі дії, завдаючи великих пошкоджень\\nКлікніть на іконку, потім оберіть ворогів",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:PiercingLight",
+     "t": "Button",
+     "en": "Sun's Radiance (&C)",
+     "uk": "Сонячне сяйво (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipPiercingLight",
+     "t": "Tooltip",
+     "en": "Beam of light that deals little damage but knocks down the enemy heroes, interrupting their spellcasting \\n Left click icon then left click on target",
+     "uk": "Промінь світла, що завдає незначних пошкоджень, але збиває з ніг ворожих героїв і перериває їхні чари\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Battle of the Black Gate",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:GandalfFoeHammer",
+     "t": "Button",
+     "en": "The Foe-Hammer (&C)",
+     "uk": "Ворожий молот (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFellowshipLightningSword",
+     "t": "Tooltip",
+     "en": "Shoots out lightning bolts from Gandalf's sword \\n Left click icon then left click on target",
+     "uk": "Меч Ґендальфа стріляє блискавками\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEowynMount",
+     "t": "Tooltip",
+     "en": "Left click to switch between mounted and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою верхи та пішим ходом",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Summoned",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:HarkenToMeLeadership",
+     "t": "Button",
+     "en": "Harken To Me!",
+     "uk": "Слухайте мене!",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHarkenToMeLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\nNearby heroes' ability cooldown times are reduced by 25% \\n Passive ability",
+     "uk": "Тип ефекту: Лідерство\\nЧас відновлення здібностей героїв поблизу скорочується на 25%\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:WizardBlastStormcrow",
+     "t": "Button",
+     "en": "Chief of the Istari (&R)",
+     "uk": "Глава істарі (&R)",
+     "st": "ok",
+     "dup": "CONTROLBAR:WizardBlast"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipWizardBlastRadagast",
+     "t": "Tooltip",
+     "en": "Close range attack that blasts back enemies \\n Left click icon then left click on target",
+     "uk": "Удар зблизька, що відкидає ворогів\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GandalfFirstLight",
+     "t": "Button",
+     "en": "First Light of the Fifth Day (&T)",
+     "uk": "Перше світло п'ятого дня (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGandalfFirstLight",
+     "t": "Tooltip",
+     "en": "Flash of light that stuns nearby enemy units for 15 seconds and deals minor damage \\n Left click to activate",
+     "uk": "Спалах світла, що на 15 сек. приголомшує ворожі загони поблизу й завдає їм незначних пошкоджень\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GandalfNewMountStormcrow",
+     "t": "Button",
+     "en": "Mount Shadowfax / Dismount (&C)",
+     "uk": "Осідлати Тінегрива / Спішитися (&C)",
+     "st": "ok",
+     "dup": "CONTROLBAR:GandalfNewMount"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipShadowfaxStormcrow",
+     "t": "Tooltip",
+     "en": "Left click to switch between \\n mounted on Shadowfax and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою\\nна Тінегриві та пішим ходом",
+     "st": "ok",
+     "dup": "CONTROLBAR:ToolTipShadowfax"
+    }
+   ]
+  }
+ ]
+}

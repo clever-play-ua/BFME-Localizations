@@ -1,0 +1,83 @@
+{
+ "hero": "Grimbold",
+ "uk_name": "Ґрімбольд",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:RohanGrimbold",
+     "t": "Name",
+     "en": "Grimbold",
+     "uk": "Ґрімбольд",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GrimboldLeadership",
+     "t": "Button",
+     "en": "Valiant Captain",
+     "uk": "Відважний капітан",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGrimboldLeadership",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Modifier Type: Leadership \\n Nearby infantry units gain +33% armour and +33% damage\\nPassive ability",
+     "uk": "Необхідно: Рівень 5\\nТип ефекту: Лідерство\\nПіхота поблизу отримує бонус +33% броні й +33% до пошкоджень\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GrimboldProtection",
+     "t": "Button",
+     "en": "Protection of Grimslade (&R)",
+     "uk": "Захист Ґрімслейду (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGrimboldProtection",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Targeted allied units gain +50% armour for 30 seconds\\nLeft click on icon then left click on target units",
+     "uk": "Необхідно: Рівень 5\\nОбрані союзні загони отримують бонус +50% броні на 30 сек.\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GrimboldHeal",
+     "t": "Button",
+     "en": "Rohirric Triage (&T)",
+     "uk": "Рогіримська медицина (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGrimboldHeal",
+     "t": "Tooltip",
+     "en": "Requires Level 6 \\n Heal nearby units in a small radius\\n Left click to activate",
+     "uk": "Необхідно: Рівень 6\\nЗцілює загони поблизу в невеликому радіусі\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Battle of Pelennor Fields",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:GandalfNewMountCampaignNoHotkey",
+     "t": "Button",
+     "en": "Mount Shadowfax / Dismount",
+     "uk": "Осідлати Тінегрива / Спішитися",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipShadowfax",
+     "t": "Tooltip",
+     "en": "Left click to switch between \\n mounted on Shadowfax and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою\\nна Тінегриві та пішим ходом",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

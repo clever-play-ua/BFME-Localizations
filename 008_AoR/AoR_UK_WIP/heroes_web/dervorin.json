@@ -1,0 +1,62 @@
+{
+ "hero": "Dervorin",
+ "uk_name": "Дерворін",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:CampaignDervorin",
+     "t": "Name",
+     "en": "Dervorin",
+     "uk": "Дерворін",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DervorinLeadership",
+     "t": "Button",
+     "en": "Commander of the Vale",
+     "uk": "Командир Долини",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipDervorinLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\nAllies near Dervorin gain +25% Armour\\nStacks with Buffs and Spells\\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nСоюзники поряд із Дерворіном отримують бонус +25% броні\\nПоєднується з посиленнями та заклинаннями\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DervorinDraught",
+     "t": "Button",
+     "en": "Ringló Draught (&R)",
+     "uk": "Напій з Ринґло (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDervorinDraught",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell\\nFriendly units within the radius gain +25% damage for 30 seconds\\n Left click on icon then left click on target battalion",
+     "uk": "Тип ефекту: Заклинання\\nСоюзні загони в радіусі дії отримують бонус +25% до пошкоджень на 30 сек.\\nКлікніть на іконку, потім оберіть загін",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DervorinDoughtyWarrior",
+     "t": "Button",
+     "en": "Doughty Warrior (&T)",
+     "uk": "Відважний воїн (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDervorinDoughtyWarrior",
+     "t": "Tooltip",
+     "en": "Dervorin gains +50% armour and deals knockback for 30 seconds\\nLeft click to activate",
+     "uk": "Дерворін отримує бонус +50% броні й відкидає ворогів своїми ударами на 30 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

@@ -94,7 +94,7 @@
    "type": "Підказка",
    "en": "Requires Level 5\nThe King of the Dead teleports to an enemy hero, draining some life and inflicting high damage\nTarget enemy hero suffers damage over time for 30 seconds\nLeft click then left click target enemy hero",
    "ru": "",
-   "uk_ai": "Необхідно: Рівень 5\nКороль Мертвих телепортується до ворожого героя, витягає частину його життя й завдає значних пошкоджень\nОбраний ворожий герой 30 сек. поступово отримує пошкодження\nКлікніть на іконку, потім оберіть героя",
+   "uk_ai": "Необхідно: Рівень 5\nКороль Мертвих телепортується до ворожого героя, витягає частину його життя й завдає значних пошкоджень\nОбраний ворожий герой 30 сек. отримує періодичні пошкодження\nКлікніть на іконку, потім оберіть героя",
    "status": "чернетка AI",
    "uk": ""
   },
@@ -130,7 +130,7 @@
    "type": "Підказка",
    "en": "The King of the Dead teleports to an enemy hero, draining some life and inflicting high damage\nTarget enemy hero suffers damage over time for 30 seconds\nLeft click then left click target enemy hero",
    "ru": "",
-   "uk_ai": "Король Мертвих телепортується до ворожого героя, витягає частину його життя й завдає значних пошкоджень\nОбраний ворожий герой 30 сек. поступово отримує пошкодження\nКлікніть на іконку, потім оберіть героя",
+   "uk_ai": "Король Мертвих телепортується до ворожого героя, витягає частину його життя й завдає значних пошкоджень\nОбраний ворожий герой 30 сек. отримує періодичні пошкодження\nКлікніть на іконку, потім оберіть героя",
    "status": "чернетка AI",
    "uk": ""
   },

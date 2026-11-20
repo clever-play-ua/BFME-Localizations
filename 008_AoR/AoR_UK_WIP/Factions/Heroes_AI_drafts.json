@@ -52,7 +52,7 @@
   {
    "var": "CONTROLBAR:ToolTipPhialofGaladrielMarshes",
    "en": "Stuns and deals damage over time to Undead units for 5 seconds \\n Left click to activate",
-   "uk_ai": "На 5 сек. оглушує невмерлі загони й завдає їм поступових пошкоджень\\nКлікніть, щоб активувати"
+   "uk_ai": "На 5 сек. оглушує невмерлі загони й завдає їм періодичних пошкоджень\\nКлікніть, щоб активувати"
   },
   {
    "var": "CONTROLBAR:PhialofGaladrielFrodoToCU",
@@ -153,6 +153,191 @@
    "var": "CONTROLBAR:ToolTipAragornLeaderofMen",
    "en": "Modifier Type: Spell \\n Nearby friendly units gain +33% armour \\n \\n When activated, units near Aragorn gain +50% damage and immunity to fear and terror for 20 seconds \\n Left click to activate",
    "uk_ai": "Тип ефекту: Заклинання\\nСоюзні загони поблизу отримують бонус +33% броні\\n\\nПісля активації загони поряд з Араґорном на 20 сек. отримують бонус +50% до пошкоджень і імунітет до страху та жаху\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTheOneRing_Riddle",
+   "en": "Become invisible \\n Left click to activate",
+   "uk_ai": "Робить невидимим\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRivendellGandalfGloriousCharge",
+   "en": "Nearby archers gain +20% range and +15% damage for 30 seconds\\n Left click to activate",
+   "uk_ai": "Лучники поблизу на 30 сек. отримують бонус +20% дальності атаки й +15% до пошкоджень\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRivendellGandalfYouShallNotPass",
+   "en": "Stuns enemy units in a wide radius surrounding Gandalf for 10 seconds\\n Left click to activate",
+   "uk_ai": "На 10 сек. приголомшує ворожі загони в широкому радіусі навколо Ґендальфа\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:HarkenToMeLeadership",
+   "en": "Harken To Me!",
+   "uk_ai": "Слухайте мене!"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHarkenToMeLeadership",
+   "en": "Modifier Type: Leadership \\nNearby heroes' ability cooldown times are reduced by 25% \\n Passive ability",
+   "uk_ai": "Тип ефекту: Лідерство\\nЧас відновлення здібностей героїв поблизу скорочується на 25%\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:GandalfFirstLight",
+   "en": "First Light of the Fifth Day (&T)",
+   "uk_ai": "Перше світло п'ятого дня (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGandalfFirstLight",
+   "en": "Flash of light that stuns nearby enemy units for 15 seconds and deals minor damage \\n Left click to activate",
+   "uk_ai": "Спалах світла на 15 сек. приголомшує ворожі загони поблизу й завдає їм незначних пошкоджень\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHuntersLeadershipLegolas",
+   "en": "Modifier Type: Leadership \\n When near Aragorn or Gimli, Legolas gains +25% armour and speed\\n Passive ability",
+   "uk_ai": "Тип ефекту: Лідерство\\nПоряд з Араґорном чи Ґімлі Леґолас отримує бонус +25% броні й швидкості\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:HawkStrike_Summoned",
+   "en": "Elven Skill (&R)",
+   "uk_ai": "Ельфійська вправність (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHawkStrikeStormcrow",
+   "en": "Double-arrow attack that deals splash damage \\n Can only use dismounted \\n Left click icon then left click on target",
+   "uk_ai": "Постріл двома стрілами, що завдає пошкоджень по площі\\nДоступно лише пішки\\nКлікніть на іконку, потім оберіть ціль"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHuntersLeadershipGimli",
+   "en": "Modifier Type: Leadership \\n When near Aragorn or Legolas, Gimli gains +25% armour and speed\\n Passive ability",
+   "uk_ai": "Тип ефекту: Лідерство\\nПоряд з Араґорном чи Леґоласом Ґімлі отримує бонус +25% броні й швидкості\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:Leap_Summoned",
+   "en": "Baruk-Khazad! (&R)",
+   "uk_ai": "Дворфійські сокири! (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLeap_Summoned",
+   "en": "Gimli jumps to a location causing area-effect damage \\n Left click icon then left click on target area",
+   "uk_ai": "Ґімлі стрибає в обране місце й завдає пошкоджень по площі\\nКлікніть на іконку, потім оберіть ділянку"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHornofGondorIthilien",
+   "en": "Stun enemies with fear for 15 seconds \\n Left click to activate",
+   "uk_ai": "Звук рогу Ґондору лякає та приголомшує ворогів на 15 сек.\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWarCryIthilien",
+   "en": "Modifier Type: Spell \\n Nearby friendly units gain +33% damage, +20% speed, and resistance to fear and terror for 30 seconds\\nLeft click to activate",
+   "uk_ai": "Тип ефекту: Заклинання\\nСоюзні загони поблизу на 30 сек. отримують бонус +33% до пошкоджень, +20% швидкості та стійкість до страху й жаху\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCaptainofGondorBoromirIthilien",
+   "en": "Give targeted units superior experience\\n Left click icon then left click on target units",
+   "uk_ai": "Миттєво наділяє обрані загони значною кількістю досвіду\\nКлікніть на іконку, потім оберіть потрібні загони"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityRingwraithServantsOfSauronSummoned",
+   "en": "As more Nazgûl gather, their strength grows\\nNearby Nazgûl receive +10% damage and armour\\nPassive ability\\n\\nModifier Type: Passive Debuff \\n Nearby enemy units suffer -25% damage and -20% armour\\nPassive ability",
+   "uk_ai": "Що більше назґулів збирається разом, то вони сильніші\\nНазґули поблизу отримують бонус +10% до пошкоджень і броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nТип ефекту: Пасивне ослаблення\\nВорожі загони поблизу отримують штраф -25% пошкоджень і -20% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRivendellLightningSword",
+   "en": "Shoots out lightning bolts from Gandalf's sword \\n Left click icon then left click on target",
+   "uk_ai": "Меч Ґендальфа стріляє блискавками\\nКлікніть на іконку, потім оберіть ціль"
+  },
+  {
+   "var": "CONTROLBAR:WizardBlastStormcrow",
+   "en": "Chief of the Istari (&R)",
+   "uk_ai": "Глава істарі (&R)"
+  },
+  {
+   "var": "CONTROLBAR:GandalfNewMountStormcrow",
+   "en": "Mount Shadowfax / Dismount (&C)",
+   "uk_ai": "Осідлати Тінегрива / Спішитися (&C)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShadowfaxStormcrow",
+   "en": "Left click to switch between \\n mounted on Shadowfax and on foot",
+   "uk_ai": "Клікніть, щоб перемкнутися між їздою\\nна Тінегриві та пішим ходом"
+  },
+  {
+   "var": "CONTROLBAR:HornofGondorIthilien",
+   "en": "Horn of Gondor (&W)",
+   "uk_ai": "Ріг Ґондору (&W)"
+  },
+  {
+   "var": "CONTROLBAR:WarCryIthilien",
+   "en": "For Gondor! (&R)",
+   "uk_ai": "За Ґондор! (&R)"
+  },
+  {
+   "var": "CONTROLBAR:CaptainofGondorIthilien",
+   "en": "Proud, Stubborn, Strong (&T)",
+   "uk_ai": "Гордий, упертий та сильний (&T)"
+  },
+  {
+   "var": "OBJECT:CampaignDerufin",
+   "en": "Derufin",
+   "uk_ai": "Деруфін"
+  },
+  {
+   "var": "OBJECT:CampaignDuilin",
+   "en": "Duilin",
+   "uk_ai": "Дуїлін"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFerenCommander_BUTT",
+   "en": "Requires Level 3 \\nSummons a battalion of Silvan Rangers \\nAt rank 5, includes an additional battalion of Greenwood Spearmen\\nAt rank 8, includes an additional battalion of Silvan Rangers\\nAt rank 10, two of both\\nLeft click to activate",
+   "uk_ai": "Необхідно: Рівень 3\\nПрикликає загін сильванських слідопитів\\nНа 5 рівні — ще й загін списоносців Зеленолісся\\nНа 8 рівні — ще 1 загін сильванських слідопитів\\nНа 10 рівні — по 2 загони кожного виду\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSummonBrandLeadership",
+   "en": "Modifier Type: Leadership\\nArchers near King Brand gain +33% damage, +33% vision and +15% attack range \\nPassive ability",
+   "uk_ai": "Тип ефекту: Лідерство\\nЛучники поряд із Королем Брандом отримують бонус +33% до пошкоджень, +33% дальності огляду й +15% дальності атаки\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSummonBrandHuntersMark",
+   "en": "Enemies within the radius take +33% damage from ranged attacks for 30 seconds\\n Left click then left click on target areas",
+   "uk_ai": "Вороги в радіусі на 30 сек. отримують на 33% більше пошкоджень від атак на відстані\\nКлікніть на іконку, потім оберіть ділянку"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTheodredLuckCampaign",
+   "en": "Requires Level 3 \\n Théodred equips his helmet, gaining +33% armour \\n When activated, Théodred avoids all ranged damage for 30 seconds \\n Left click to activate",
+   "uk_ai": "Необхідно: Рівень 3\\nТеодред вдягає шолом і отримує бонус +33% броні\\nПісля активації Теодред на 30 сек. уникає всіх пошкоджень від атак на відстані\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "OBJECT:Lindir",
+   "en": "Lindir",
+   "uk_ai": "Ліндір"
+  },
+  {
+   "var": "CONTROLBAR:GamlingMount",
+   "en": "Mount / Dismount",
+   "uk_ai": "Сісти верхи / Спішитися"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGlorfindelWrathArnor",
+   "en": "Glorfindel gains +100% damage for 30 seconds\\n Left click to activate \\n\\nModifier Type: Spell \\n Glorfindel causes fear to nearby enemies and Nazgûl\\nPassive ability",
+   "uk_ai": "Ґлорфіндел на 30 сек. отримує бонус +100% до пошкоджень\\nКлікніть, щоб активувати\\n\\nТип ефекту: Заклинання\\nҐлорфіндел наганяє страх на ворогів поблизу й назґулів\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:GlorfindelSlayerArnor",
+   "en": "Slayer of Demons (&C)",
+   "uk_ai": "Убивця демонів (&C)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGlorfindelSlayerArnor",
+   "en": "Blasts back and damages units in a wide radius surrounding Glorfindel and stuns them for 15 seconds \\nGlorfindel's melee attacks pin enemy heroes for 30 seconds\\n Left click to activate",
+   "uk_ai": "Відкидає загони в широкому радіусі навколо Ґлорфіндела, завдає їм пошкоджень і приголомшує їх на 15 сек.\\nУдари Ґлорфіндела зблизька на 30 сек. знерухомлюють ворожих героїв\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ShireGildorTelperion",
+   "en": "Light of Telperion (&R)",
+   "uk_ai": "Світло Тельперіона (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipShireGildorTelperion",
+   "en": "Gildor reveals his blessed Lantern, causing enemy units to flee in terror \\n Left click to activate",
+   "uk_ai": "Ґілдор відкриває свій благословенний ліхтар, і ворожі загони тікають у жаху\\nКлікніть, щоб активувати"
   }
  ]
 }

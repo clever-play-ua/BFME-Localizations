@@ -1,0 +1,48 @@
+{
+ "hero": "Elendur",
+ "uk_name": "Елендур",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:SecondAgeElendur",
+     "t": "Name",
+     "en": "Elendur",
+     "uk": "Елендур",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElendurRestoration",
+     "t": "Button",
+     "en": "Hands of the Prince (&W)",
+     "uk": "Руки принца (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElendurRestoration",
+     "t": "Tooltip",
+     "en": "Heals nearby allies and fully refreshes\\ntheir special ability timers \\n Left click icon then left click on target area",
+     "uk": "Зцілює союзників поблизу й повністю скидає таймер відновлення їхніх здібностей\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElendurLeadership",
+     "t": "Button",
+     "en": "Isildur's Heir",
+     "uk": "Спадкоємець Ісілдура",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElendurLeadership",
+     "t": "Tooltip",
+     "en": "Requires Level 4\\nAllies near Elendur gain \\n +33% damage, +33% armour, \\n and earn experience 50% faster\\nPassive ability",
+     "uk": "Необхідно: Рівень 4\\nСоюзники поряд з Елендуром отримують бонус\\n+33% до пошкоджень, +33% броні\\nі на 50% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

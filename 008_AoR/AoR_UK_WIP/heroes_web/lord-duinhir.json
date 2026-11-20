@@ -1,0 +1,62 @@
+{
+ "hero": "Lord Duinhir",
+ "uk_name": "Лорд Дуїнгір",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:CampaignDuinhir",
+     "t": "Name",
+     "en": "Lord Duinhir",
+     "uk": "Лорд Дуїнгір",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DuinhirLeadership",
+     "t": "Button",
+     "en": "Lord of Morthond",
+     "uk": "Володар Мортонду",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipDuinhirLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\nAllies near Lord Duinhir gain +25% Armour\\nStacks with Buffs and Spells\\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nСоюзники поряд із лордом Дуінгіром отримують бонус +25% броні\\nПоєднується з посиленнями та заклинаннями\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DuinhirRangedTactics",
+     "t": "Button",
+     "en": "Ranged Tactics (&R)",
+     "uk": "Тактика стрілків (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDuinhirRangedTactics",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n Lord Duinhir is a seasoned archer commander\\nTargeted archer units gain +15% damage and +15% range for 30 seconds\\nLeft click icon then left click on target units",
+     "uk": "Тип ефекту: Заклинання\\nЛорд Дуінгір — досвідчений командир лучників\\nВказані загони лучників отримують бонус +15% до пошкоджень і +15% дальності на 30 сек.\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DuinhirVeteranSwordsman",
+     "t": "Button",
+     "en": "Veteran Swordsman (&T)",
+     "uk": "Досвідчений мечник (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDuinhirVeteranSwordsman",
+     "t": "Tooltip",
+     "en": "Lord Duinhir expertly wields his sword, knocking back enemy units and dealing damage over time for 30 seconds\\nLeft click to activate",
+     "uk": "Лорд Дуінгір вправно орудує мечем: 30 сек. він відкидає ворожі загони й завдає їм періодичних пошкоджень\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

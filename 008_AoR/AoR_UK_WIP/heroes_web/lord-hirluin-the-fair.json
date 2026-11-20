@@ -1,0 +1,62 @@
+{
+ "hero": "Lord Hirluin the Fair",
+ "uk_name": "Лорд Гірлуїн Прекрасний",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:CampaignHirluin",
+     "t": "Name",
+     "en": "Lord Hirluin the Fair",
+     "uk": "Лорд Гірлуїн Прекрасний",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HirluinLeadership",
+     "t": "Button",
+     "en": "Lord of Pinnath Gelin",
+     "uk": "Володар Піннат-Ґеліну",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipHirluinLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\nAllies near Lord Hirluin gain +25% Armour\\nStacks with Buffs and Spells\\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nСоюзники поряд із лордом Гірлуіном отримують бонус +25% броні\\nПоєднується з посиленнями та заклинаннями\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GallantWords",
+     "t": "Button",
+     "en": "Gallant Words (&R)",
+     "uk": "Шляхетні слова (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGallantWords",
+     "t": "Tooltip",
+     "en": "Heals target allies \\n Left click icon then left click on target area",
+     "uk": "Зцілює вказаних союзників\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HirluinKnightsErrand",
+     "t": "Button",
+     "en": "Knight's Errand (&T)",
+     "uk": "Лицарська місія (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHirluinKnightsErrand",
+     "t": "Tooltip",
+     "en": "Enemies within the radius lose 33% armour for 30 seconds\\n Left click then left click on target areas",
+     "uk": "Вороги в радіусі дії втрачають 33% броні на 30 сек.\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

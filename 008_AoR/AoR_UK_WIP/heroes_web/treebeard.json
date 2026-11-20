@@ -1,0 +1,97 @@
+{
+ "hero": "Treebeard",
+ "uk_name": "Деревоборід",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:RohanTreeBeard",
+     "t": "Name",
+     "en": "Treebeard",
+     "uk": "Деревоборід",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ThrowRocks",
+     "t": "Button",
+     "en": "Throw Rocks (&W)",
+     "uk": "Жбурляти каміння (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipThrowRocks",
+     "t": "Tooltip",
+     "en": "Switch to rock throwing mode",
+     "uk": "Перемкнутися на режим кидання каміння",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TreeBeardLeadership",
+     "t": "Button",
+     "en": "March of the Ents",
+     "uk": "Ентів марш",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipTreeBeardLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n Allied Ents and Huorns near Treebeard gain +50% armour, +25% vision and attack range \\nPassive ability",
+     "uk": "Тип ефекту: Заклинання\\nСоюзні енти й гуорни поряд із Деревобородом отримують бонус +50% броні та +25% дальності огляду й атаки\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TreebeardRoar",
+     "t": "Button",
+     "en": "Roar (&C)",
+     "uk": "Рев (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipTreebeardRoar",
+     "t": "Tooltip",
+     "en": "Treebeard sounds a mighty Roar \\n Treebeard, nearby Ents and Huorns become enraged and gain +50% speed and +33% armour against spearmen for 30 seconds \\n\\n Gifts of Lorien effect: \\n Causes nearby enemies to flee in terror \\n Left click to activate",
+     "uk": "Деревоборід видає могутній рев\\nСам Деревоборід, енти й гуорни поблизу шаленіють і на 30 сек. отримують бонус +50% швидкості й +33% броні проти списоносців\\n\\nЕфект «Дарів Лоріену»:\\nВороги поблизу тікають у жаху\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TransportExitTreebeard",
+     "t": "Button",
+     "en": "Ex&it Treebeard",
+     "uk": "Злізти з Деревоборода (&I)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipTransportExit",
+     "t": "Tooltip",
+     "en": "Order this unit to exit",
+     "uk": "Віддати наказ злізти з ента",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Last March of the Ents",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:GrabBuildingChunk",
+     "t": "Button",
+     "en": "Grab &Building Chunk",
+     "uk": "Вхопити уламок споруди (&B)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSpecialAbilityGrabBuildingChunk",
+     "t": "Tooltip",
+     "en": "Pulls rock from building \\n Left click icon then left click on target",
+     "uk": "Вириває камінь з будівлі\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

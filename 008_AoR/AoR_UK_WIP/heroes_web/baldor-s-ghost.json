@@ -1,0 +1,41 @@
+{
+ "hero": "Baldor's Ghost",
+ "uk_name": "Привид Балдора",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:RohanBaldor",
+     "t": "Name",
+     "en": "Baldor's Ghost",
+     "uk": "Привид Балдора",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Summoned",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:OropherWordofPower",
+     "t": "Button",
+     "en": "Elvenking's Lament (&W)",
+     "uk": "Плач ельфійського короля (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipOropherWordofPower",
+     "t": "Tooltip",
+     "en": "Blasts back and stuns surrounding units for 10 seconds\\n Left click to activate",
+     "uk": "Відкидає загони навколо й приголомшує їх на 10 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

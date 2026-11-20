@@ -1,0 +1,41 @@
+{
+ "hero": "King Thrór",
+ "uk_name": "Король Трор",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:DwarvenThror",
+     "t": "Name",
+     "en": "King Thrór",
+     "uk": "Король Трор",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Battle of Azanulbizar",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:ThrorLeadership",
+     "t": "Button",
+     "en": "King of Durin's Folk",
+     "uk": "Король народу Дуріна",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipThrorLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Allies near King Thrór gain +50% damage, +75% armour, and earn experience 50% faster \\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nСоюзники поряд із королем Трором отримують бонус +50% до пошкоджень, +75% броні й на 50% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

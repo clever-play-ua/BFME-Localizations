@@ -25,7 +25,7 @@
      "v": "CONTROLBAR:ToolTipThrowRocks",
      "t": "Tooltip",
      "en": "Switch to rock throwing mode",
-     "uk": "Жбурляє камені у ворогів.",
+     "uk": "Перемкнутися на режим кидання каміння",
      "st": "ok"
     },
     {
@@ -39,7 +39,7 @@
      "v": "CONTROLBAR:ToolTipElvenCloakCampaign",
      "t": "Tooltip",
      "en": "Becomes invisible when standing still \\n Also passively grants +10% armour to all nearby hobbit heroes \\n Left click to activate",
-     "uk": "Стає невидимим, коли стоїть на місці\\n Також постійно дає +10% броні всім героям-гобітам поблизу\\n Клікніть, щоб активувати",
+     "uk": "Стає невидимим, коли стоїть на місці\\nТакож постійно дає +10% броні всім героям-гобітам поблизу\\nКлікніть, щоб активувати",
      "st": "ok"
     },
     {
@@ -145,7 +145,7 @@
      "t": "Button",
      "en": "Elven Cloak (&W)",
      "uk": "Ельфійський плащ (&W)",
-     "st": "draft",
+     "st": "ok",
      "dup": "CONTROLBAR:ElvenCloak"
     },
     {
@@ -266,7 +266,7 @@
      "v": "CONTROLBAR:ToolTipShireSamTheBrave",
      "t": "Tooltip",
      "en": "Requires Level 10\\nModifier Type: Spell \\n Nearby friendly units within a wide radius become invulnerable whilst nearby enemy units take damage over time for 30 seconds\\nLeft click to activate",
-     "uk": "Необхідно: Рівень 10\\nТип ефекту: Заклинання\\nНа 30 сек. союзні загони в широкому радіусі стають невразливими, а ворожі загони поблизу поступово отримують пошкодження\\nКлікніть, щоб активувати",
+     "uk": "Необхідно: Рівень 10\\nТип ефекту: Заклинання\\nНа 30 сек. союзні загони в широкому радіусі стають невразливими, а ворожі загони поблизу отримують періодичні пошкодження\\nКлікніть, щоб активувати",
      "st": "ok"
     }
    ]

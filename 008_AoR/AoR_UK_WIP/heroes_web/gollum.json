@@ -1,0 +1,69 @@
+{
+ "hero": "Gollum",
+ "uk_name": "Ґолум",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:NeutralGollum",
+     "t": "Name",
+     "en": "Gollum",
+     "uk": "Ґолум",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SpecialAbilitySmeagolWring",
+     "t": "Button",
+     "en": "Wring Its Filthy Little Neck (&W)",
+     "uk": "Скрутити його маленьку шию (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSpecialAbilitySmeagolWring",
+     "t": "Tooltip",
+     "en": "Deals strong damage to a single unit \\n Left click then left click on target",
+     "uk": "Завдає сильних пошкоджень одній одиниці\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SmeagolTenacious",
+     "t": "Button",
+     "en": "Tenacious Creature",
+     "uk": "Чіпке створіння",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipSmeagolTenacious",
+     "t": "Tooltip",
+     "en": "When Sméagol reaches low health, he gains +33% attack and +100% armour for 20 seconds\\nCannot be triggered again for 60 seconds\\nPassive ability",
+     "uk": "Коли здоров'я Смеаґола падає до критичного рівня, він отримує бонус +33% атаки й +100% броні на 20 сек.\\nПовторно спрацьовує не раніше ніж за 60 сек.\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Ambush in Ithilien",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:SmeagolLeadership",
+     "t": "Button",
+     "en": "Master's Guide",
+     "uk": "Провідник Господаря",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSmeagolLeadershipCampaign",
+     "t": "Tooltip",
+     "en": "Sméagol is passively stealthed unless he attacks and can detect other stealthed units\\n Passive ability",
+     "uk": "Смеаґол постійно невидимий, доки не атакує, і здатен бачити невидимі загони\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

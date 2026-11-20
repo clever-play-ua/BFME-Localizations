@@ -1,0 +1,48 @@
+{
+ "hero": "Bifur",
+ "uk_name": "Біфур",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:DwarvenBifur",
+     "t": "Name",
+     "en": "Bifur",
+     "uk": "Біфур",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:WorkingClassDwarves",
+     "t": "Button",
+     "en": "Working Class Dwarves",
+     "uk": "Дворфи-роботяги",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipWorkingClassDwarves",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n Bifur, Bofur and Bombur gain +15% damage and +15% armour when near each other \\nPassive ability",
+     "uk": "Тип ефекту: Заклинання\\nПоряд одне з одним Біфур, Бофур і Бомбур отримують бонус +15% до пошкоджень і +15% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BifurSkewer",
+     "t": "Button",
+     "en": "Skewer (&R)",
+     "uk": "Протинання (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBifurSkewer",
+     "t": "Tooltip",
+     "en": "Bifur thrusts with his boar spear, causing damage over time and reducing the target's movement speed by -25% for 10 seconds\\nDeals +50% additional damage against monsters\\nLeft click icon then left click on target",
+     "uk": "Біфур б'є списом на кабанів: завдає періодичних пошкоджень\\nі на 10 сек. сповільнює ціль на 25%\\nЗавдає істотам на 50% більше пошкоджень\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,196 @@
+{
+ "hero": "Madril",
+ "uk_name": "Мадріл",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:GondorMadril",
+     "t": "Name",
+     "en": "Madril",
+     "uk": "Мадріл",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToggleFaramirWeapons",
+     "t": "Button",
+     "en": "Toggle Weapon (&W)",
+     "uk": "Змінити зброю (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipToggleFaramirWeapons",
+     "t": "Tooltip",
+     "en": "Left click to toggle between bow and sword",
+     "uk": "Клікніть, щоб перемкнутися між луком і мечем",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:MadrilLeadership",
+     "t": "Button",
+     "en": "Ranger Veteran",
+     "uk": "Слідопит-ветеран",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipMadrilLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Rangers near Madril earn experience 150% faster\\n Passive ability",
+     "uk": "Тип ефекту: Лідерство\\nСлідопити поряд із Мадрілом на 150% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:MadrilSnare",
+     "t": "Button",
+     "en": "Master of Ambush (&C)",
+     "uk": "Майстер засідок (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipMadrilSnare",
+     "t": "Tooltip",
+     "en": "An experienced Ranger, Madril knows how best to execute a successful ambush upon his foes \\n Madril stuns nearby enemies for 5 seconds\\n Left click then left click target location",
+     "uk": "Досвідчений слідопит Мадріл знає, як найкраще влаштувати ворогам засідку\\nМадріл приголомшує ворогів поблизу на 5 сек.\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Ambush in Ithilien",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:RangerLureIthilien",
+     "t": "Button",
+     "en": "Lure (&R)",
+     "uk": "Приманка (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipRangerLureIthilienNew",
+     "t": "Tooltip",
+     "en": "Call out to hidden ranger units \\n Left click to activate",
+     "uk": "Прикликає приховані загони слідопитів \\n Клікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Ithilien map",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:MadrilSnareAdventure",
+     "t": "Button",
+     "en": "Master of Ambush (&T)",
+     "uk": "Майстер засідок (&T)",
+     "st": "ok",
+     "dup": "CONTROLBAR:MadrilSnare"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipMadrilAmbush",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\nAn experienced Ranger, Madril knows how best to execute a successful ambush upon his foes \\n Madril stuns nearby enemies for 5 seconds\\n Left click then left click target location",
+     "uk": "Необхідно: Рівень 3\\nДосвідчений слідопит Мадріл знає, як найкраще влаштувати ворогам засідку\\nМадріл приголомшує ворогів поблизу на 5 сек.\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:MadrilTeleport",
+     "t": "Button",
+     "en": "Strategist (&C)",
+     "uk": "Стратег (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipMadrilTeleport",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Madril guides allied units from one location on the battlefield to anywhere on the map \\n Does not work on siege units\\n\\n Left click icon, then left click on target units, then left click on pathable location",
+     "uk": "Необхідно: Рівень 5\\nМадріл переводить союзні загони з одного місця на полі бою в будь-яку точку мапи\\nНе діє на облогові машини\\n\\nКлікніть на іконку, потім оберіть потрібні загони, а тоді — ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BeregondSacrifice",
+     "t": "Button",
+     "en": "Sacrifice (&V)",
+     "uk": "Самопожертва (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipMadrilSacrifice",
+     "t": "Tooltip",
+     "en": "Requires Level 8 \\n Modifier Type: Spell \\n Madril suffers heavy damage while targeted allied hero becomes immune to damage for 10 seconds\\n Left click icon then left click on target hero",
+     "uk": "Необхідно: Рівень 8\\nТип ефекту: Заклинання\\nМадріл отримує важкі пошкодження, а обраний союзний герой на 10 сек. стає невразливим\\nКлікніть на іконку, потім оберіть героя",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Summoned",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:FaramirLeadership",
+     "t": "Button",
+     "en": "Wizard's Pupil",
+     "uk": "Учень чарівника",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFaramirLeadership",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Modifier Type: Leadership \\n Knights of Minas Tirith near Faramir gain +25% damage and -25% trample deceleration \\nPassive ability",
+     "uk": "Необхідно: Рівень 3\\nТип ефекту: Лідерство\\nЛицарі Мінас-Тіріта поряд із Фараміром отримують бонус +25% до пошкоджень і на 25% менше сповільнюються під час топтання\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FaramirDesperateCharge",
+     "t": "Button",
+     "en": "Desperate Charge (&R)",
+     "uk": "Відчайдушна атака (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFaramirDesperateCharge",
+     "t": "Tooltip",
+     "en": "Required: Rank 5\\n Faramir gains +100% resistance to ranged attacks and pike damage for 20 seconds \\n Left click to activate",
+     "uk": "Необхідно: Рівень 5\\nФарамір на 20 сек. отримує бонус +100% стійкості до атак на відстані й ударів списами\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FaramirKnightRanger",
+     "t": "Button",
+     "en": "Knight/Ranger Toggle (&T)",
+     "uk": "Лицар / Слідопит (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEowynMount",
+     "t": "Tooltip",
+     "en": "Left click to switch between mounted and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою верхи та пішим ходом",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:CaptainofGondorF",
+     "t": "Button",
+     "en": "Faramir's Quality (&C)",
+     "uk": "Гідність Фараміра (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCaptainofGondor",
+     "t": "Tooltip",
+     "en": "Requires Level 8 \\n Give targeted friendly troops experience \\n Left click icon then left click on target units",
+     "uk": "Необхідно: Рівень 8\\nМиттєво наділяє досвідом обрані союзні загони\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

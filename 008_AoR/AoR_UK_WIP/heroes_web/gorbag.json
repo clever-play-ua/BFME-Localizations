@@ -1,0 +1,127 @@
+{
+ "hero": "Gorbag",
+ "uk_name": "Ґорбаґ",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:MordorGorbag",
+     "t": "Name",
+     "en": "Gorbag",
+     "uk": "Ґорбаґ",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FierceRivalry",
+     "t": "Button",
+     "en": "Fierce Rivalry",
+     "uk": "Люте суперництво",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGorbagFierceRivalry",
+     "t": "Tooltip",
+     "en": "When near Shagrat, Gorbag slowly takes damage over time \\n Passive ability",
+     "uk": "Поряд із Шаґратом Ґорбаґ отримує періодичні пошкодження\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GorbagMorgulCunning",
+     "t": "Button",
+     "en": "Orcish Cunning (&R)",
+     "uk": "Ороча хитрість (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGorbagMorgulCunning",
+     "t": "Tooltip",
+     "en": "Grows in power as Gorbag levels\\nAt rank 1, Gorbag's ranged avoidance is increased\\nAt rank 3, Gorbag is able to stealth for 30 seconds - Gorbag loses stealth if he attacks\\nAt rank 5, +25% damage for 30 seconds plus prior effects\\nAt rank 7, passively gains +25% damage and +15% speed\\nAt rank 10, passively gains +25% armour\\nLeft click to activate",
+     "uk": "Сила зростає з кожним рівнем Ґорбаґа\\nНа 1 рівні Ґорбаґ краще ухиляється від атак на відстані\\nНа 3 рівні Ґорбаґ може стати невидимим на 30 сек. — невидимість зникає, якщо він атакує\\nНа 5 рівні — +25% до пошкоджень на 30 сек. на додачу до попереднього\\nНа 7 рівні пасивно отримує бонус +25% до пошкоджень і +15% швидкості\\nНа 10 рівні пасивно отримує бонус +25% броні\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GorbagDropkick",
+     "t": "Button",
+     "en": "Dropkick (&T)",
+     "uk": "Удар ногою в стрибку (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGorbagDropkick",
+     "t": "Tooltip",
+     "en": "Requires Level 2\\n Knocks down nearby units \\n Stuns targeted heroes for 5 seconds \\nCan be used with Orcish Cunning\\nLeft click icon then left click on target",
+     "uk": "Необхідно: Рівень 2\\nЗбиває з ніг загони поблизу\\nПриголомшує обраних героїв на 5 сек.\\nМожна поєднувати з «Орочою хитрістю»\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GorbagBleedWeapon",
+     "t": "Button",
+     "en": "I'll Bleed You (&C)",
+     "uk": "Я тобі кров пущу (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGorbagBleedWeapon",
+     "t": "Tooltip",
+     "en": "Requires Level 4\\nTargeted enemy hero takes heavy damage over time for 15 seconds\\nLeft click icon then left click on target",
+     "uk": "Необхідно: Рівень 4\\nВказаний ворожий герой 15 сек. отримує значні пошкодження\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGorbagBleedWeapon_Campaign",
+     "t": "Tooltip",
+     "en": "Requires Level 4\\nTargeted enemy Feral Uruk takes heavy damage over time for 15 seconds\\nLeft click icon then left click on target",
+     "uk": "Необхідно: Рівень 4\\nВказаний ворожий дикий урук отримує великі періодичні пошкодження на 15 сек.\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GorbagLoyaltyWeapon",
+     "t": "Button",
+     "en": "Loyalty to the Red Eye (&V)",
+     "uk": "Вірність Червоному Оку (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGorbagLoyaltyWeapon",
+     "t": "Tooltip",
+     "en": "Requires Level 7\\nTargeted enemy hero loses -25% armour for 30 seconds\\nGorbag deals +25% damage to targeted hero for the duration\\nLeft click icon then left click on target",
+     "uk": "Необхідно: Рівень 7\\nОбраний ворожий герой на 30 сек. втрачає 25% броні\\nПротягом цього часу Ґорбаґ завдає йому на 25% більше пошкоджень\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Terror of Cirith Ungol",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:GorbagMorgulCunningCampaign",
+     "t": "Button",
+     "en": "Orcish Cunning (&W)",
+     "uk": "Ороча хитрість (&W)",
+     "st": "ok",
+     "dup": "CONTROLBAR:GorbagMorgulCunning"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGorbagMorgulCunningCampaign",
+     "t": "Tooltip",
+     "en": "Gorbag gains +25% damage, +25% armour and +15% speed for 30 seconds\\n Left click to activate",
+     "uk": "Ґорбаґ отримує бонус +25% до пошкоджень, +25% броні й +15% швидкості на 30 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GorbagDropkickCampaign",
+     "t": "Button",
+     "en": "Dropkick (&R)",
+     "uk": "Удар ногою в стрибку (&R)",
+     "st": "ok",
+     "dup": "CONTROLBAR:GorbagDropkick"
+    }
+   ]
+  }
+ ]
+}

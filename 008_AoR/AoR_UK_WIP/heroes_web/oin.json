@@ -1,0 +1,48 @@
+{
+ "hero": "Óin",
+ "uk_name": "Оїн",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:DwarvenOin",
+     "t": "Name",
+     "en": "Óin",
+     "uk": "Оїн",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SonofGroin",
+     "t": "Button",
+     "en": "Son of Gróin",
+     "uk": "Син Ґроїна",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSonofGroin",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n Óin and Glóin gain +15% damage and +15% armour when near each other \\nPassive ability",
+     "uk": "Тип ефекту: Заклинання\\nПоряд одне з одним Оїн і Ґлоїн отримують бонус +15% до пошкоджень і +15% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:OinRestoration",
+     "t": "Button",
+     "en": "Óin's Ointments (&R)",
+     "uk": "Оїновий бальзам (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipOinRestoration",
+     "t": "Tooltip",
+     "en": "Heals nearby allies \\n Left click icon then left click on target area",
+     "uk": "Зцілює союзників поблизу\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "hero": "Idrial",
+ "uk_name": "Ідріал",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:ElvenIdrial",
+     "t": "Name",
+     "en": "Idrial",
+     "uk": "Ідріал",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:Fluidstrike",
+     "t": "Button",
+     "en": "Fluid Strike (&W)",
+     "uk": "Плинний удар (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFluidStrike",
+     "t": "Tooltip",
+     "en": "Powerful attack that causes meta impact\\n Damage increases as Idrial levels \\n Left click icon then left click on target",
+     "uk": "Потужна атака, що розкидає ворогів\\nПошкодження зростають із рівнем Ідріал\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:CleanseShadow",
+     "t": "Button",
+     "en": "Cleanse Shadow (&R)",
+     "uk": "Очищення від тіні (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipCleanseShadow",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Modifier Type: Leadership \\n Nearby Sindar Pathstalkers and Handmaidens gain +25% damage and +25% armour\\nPassive ability \\n\\n Left click to moderately heal and grant allied units immunity to fear and terror for 30 seconds",
+     "uk": "Необхідно: Рівень 3\\nТип ефекту: Лідерство\\nСиндарські слідопити й служниці поблизу отримують бонус +25% до пошкоджень і +25% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nКлікніть, щоб зцілити союзні загони й дати їм на 30 сек. імунітет до страху та жаху",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipCleanseShadowGifts",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Modifier Type: Leadership \\n Nearby Sindar Pathstalkers and Handmaidens gain +25% damage and +25% armour\\nPassive ability \\n\\n Left click to moderately heal, replenish and grant allied units immunity to fear and terror for 30 seconds in a wider radius",
+     "uk": "Необхідно: Рівень 3\\nТип ефекту: Лідерство\\nСиндарські слідопити й служниці поблизу отримують бонус +25% до пошкоджень і +25% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nКлікніть, щоб у ширшому радіусі зцілити союзні загони, поновити їхніх полеглих і дати їм на 30 сек. імунітет до страху та жаху",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GiftofGaladriel",
+     "t": "Button",
+     "en": "Gift of Galadriel (&T)",
+     "uk": "Дар Ґаладріель (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipGiftofGaladriel",
+     "t": "Tooltip",
+     "en": "Requires Level 7 \\n Summons a golden tree that is surrounded by Elven mists onto the battlefield \\n Friendly units within the mist become stealthed \\n Modifier Type: Active Debuff \\n Nearby enemy units suffer -25% damage and -20% armour\\nNullifies enemy leadership \\n Left click icon then left click on target area",
+     "uk": "Необхідно: Рівень 7\\nВирощує на полі бою золоте дерево, окутане ельфійським туманом\\nСоюзні загони в тумані стають невидимими\\nТип ефекту: Активне ослаблення\\nВорожі загони поблизу отримують штраф -25% пошкоджень і -20% броні\\nСкасовує вороже лідерство\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HasteoftheElves",
+     "t": "Button",
+     "en": "Haste of the Elves",
+     "uk": "Ельфійська спритність",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHasteoftheElves",
+     "t": "Tooltip",
+     "en": "Requires Level 10 \\n Modifier Type: Spell \\n Idrial's power cooldowns are reduced by 20% permanently\\n Passive ability",
+     "uk": "Необхідно: Рівень 10\\nТип ефекту: Заклинання\\nЗдібності Ідріал відновлюються на 20% швидше\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

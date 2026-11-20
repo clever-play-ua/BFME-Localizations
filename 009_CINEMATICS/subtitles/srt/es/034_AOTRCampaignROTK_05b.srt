@@ -1,0 +1,28 @@
+﻿1
+00:00:08,583 --> 00:00:10,708
+¡Han abierto brecha en la ciudad!
+
+2
+00:00:10,833 --> 00:00:13,667
+¡Todos al segundo nivel!
+
+3
+00:00:17,208 --> 00:00:19,500
+¡Sacad a las mujeres y a los niños!
+
+4
+00:00:19,583 --> 00:00:22,375
+¡Sacadlos de aquí!
+¡Retirada!
+
+5
+00:00:23,000 --> 00:00:24,292
+¡Vamos!
+
+6
+00:00:24,375 --> 00:00:26,625
+¡Adelante! ¡Entrad en la ciudad!
+
+7
+00:00:27,125 --> 00:00:29,250
+¡Matad a todo el que encontréis!

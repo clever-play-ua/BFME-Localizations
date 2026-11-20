@@ -1,0 +1,90 @@
+{
+ "hero": "Erkenbrand",
+ "uk_name": "Еркенбранд",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:RohanErkenbrand",
+     "t": "Name",
+     "en": "Erkenbrand",
+     "uk": "Еркенбранд",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TheodenMount",
+     "t": "Button",
+     "en": "Mount / Dismount (&R)",
+     "uk": "Сісти верхи / Спішитися (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ErkenbrandHorn",
+     "t": "Button",
+     "en": "Gilded Horn (&W)",
+     "uk": "Позолочений ріг (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipErkenbrandHorn",
+     "t": "Tooltip",
+     "en": "Nearby infantry gain resistance to knockback and trample and immunity to fear and terror for 30 seconds\\nLeft click to activate",
+     "uk": "Піхота поблизу на 30 сек. отримує стійкість до відкидання\\nй топтання та імунітет до страху та жаху\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ErkenbrandShieldCrush",
+     "t": "Button",
+     "en": "Valour of Hammerhand (&R)",
+     "uk": "Відвага Молоторукого (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipErkenbrandShieldCrushCampaign",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\nErkenbrand performs a powerful attack that knocks back enemy units\\nCan only be used when dismounted\\nLeft click icon then left click on target",
+     "uk": "Необхідно: Рівень 3\\nЕркенбранд завдає потужного удару, що відкидає ворожі загони\\nДоступно лише пішки\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipErkenbrandShieldCrush",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\nErkenbrand performs a powerful attack that knocks back enemy units\\nLeft click icon then left click on target",
+     "uk": "Необхідно: Рівень 3\\nЕркенбранд завдає потужного удару, що відкидає ворожі загони\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ErkenbrandLeadership",
+     "t": "Button",
+     "en": "Marshall of the West-mark",
+     "uk": "Маршал Західної Марки",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipErkenbrandLeadership",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Modifier Type: Leadership \\n Westfolders near Erkenbrand gain +33% armour \\nPassive ability",
+     "uk": "Необхідно: Рівень 5\\nТип ефекту: Лідерство\\nВоїни Вестфолду поряд з Еркенбрандом отримують бонус +33% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ErkenbrandReinforcements",
+     "t": "Button",
+     "en": "Reinforcements (&C)",
+     "uk": "Підкріплення (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipErkenbrandReinforcements",
+     "t": "Tooltip",
+     "en": "Requires Level 7 \\n Summons two battalions of heavily-armoured Westfolders\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 7\\nПрикликає 2 загони важкоозброєних воїнів Вестфолду\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

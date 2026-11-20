@@ -1,0 +1,76 @@
+{
+ "hero": "Hamfast Gamgee",
+ "uk_name": "Гемфаст Ґемджі",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:ShireGafferGamgee",
+     "t": "Name",
+     "en": "Hamfast Gamgee",
+     "uk": "Гемфаст Ґемджі",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:tooltipCommand_ToggleEntRockThrow",
+     "t": "Button",
+     "en": "Toggle Rock-Throw Mode (&W)",
+     "uk": "Режим кидання каміння (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipThrowRocks",
+     "t": "Tooltip",
+     "en": "Switch to rock throwing mode",
+     "uk": "Перемкнутися на режим кидання каміння",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ProudFather",
+     "t": "Button",
+     "en": "Proud Father",
+     "uk": "Гордий батько",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipProudFatherGaffer",
+     "t": "Tooltip",
+     "en": "Hamfast gains +33% armour and damage while near Samwise\\nPassive ability",
+     "uk": "Гемфаст отримує бонус +33% броні й пошкоджень поряд із Семом\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GafferLeadership",
+     "t": "Button",
+     "en": "The Gaffer",
+     "uk": "Старий",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGafferLeadership",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Modifier Type: Spell \\n Nearby structures gain +15% armour \\nPassive ability",
+     "uk": "Необхідно: Рівень 3\\nТип ефекту: Заклинання\\nСпоруди поблизу отримують бонус +15% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GafferStoutHeart",
+     "t": "Button",
+     "en": "Stout-hearted (&C)",
+     "uk": "Хоробре серце (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGafferStoutHeart",
+     "t": "Tooltip",
+     "en": "Requires Level 5\\nModifier Type: Active Debuff\\nEnemy units within target radius cannot earn experience for 30 seconds\\nNullifies enemy leadership\\nLeft click then left click target area",
+     "uk": "Необхідно: Рівень 5\\nТип ефекту: Активне ослаблення\\nВорожі загони в обраній ділянці не можуть набирати досвід 30 сек.\\nСкасовує вороже лідерство\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

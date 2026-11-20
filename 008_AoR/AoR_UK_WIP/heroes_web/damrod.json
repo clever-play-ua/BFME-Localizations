@@ -1,0 +1,169 @@
+{
+ "hero": "Damrod",
+ "uk_name": "Дамрод",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:GondorDamrod",
+     "t": "Name",
+     "en": "Damrod",
+     "uk": "Дамрод",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToggleFaramirWeapons",
+     "t": "Button",
+     "en": "Toggle Weapon (&W)",
+     "uk": "Змінити зброю (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipToggleFaramirWeapons",
+     "t": "Tooltip",
+     "en": "Left click to toggle between bow and sword",
+     "uk": "Клікніть, щоб перемкнутися між луком і мечем",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DamrodSkilledHunter",
+     "t": "Button",
+     "en": "Skilled Hunter (&T)",
+     "uk": "Вправний мисливець (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDamrodSkilledHunter",
+     "t": "Tooltip",
+     "en": "Can be cast on enemy units to permanently track their movements \\n Can only use with bow equipped \\n Left click, then left click on target",
+     "uk": "Можна застосувати до ворожих загонів, щоб постійно стежити за їхніми пересуваннями\\nДоступно лише з луком\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DamrodQuickDispatch",
+     "t": "Button",
+     "en": "Quick Dispatch (&C)",
+     "uk": "Швидка розправа (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDamrodQuickDispatch",
+     "t": "Tooltip",
+     "en": "Damrod receives +25% attack and movement speed for 30 seconds\\n Left click to activate",
+     "uk": "Дамрод отримує бонус +25% до швидкості атаки й пересування на 30 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Summoned",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:FaramirLeadership",
+     "t": "Button",
+     "en": "Wizard's Pupil",
+     "uk": "Учень чарівника",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFaramirLeadership",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Modifier Type: Leadership \\n Knights of Minas Tirith near Faramir gain +25% damage and -25% trample deceleration \\nPassive ability",
+     "uk": "Необхідно: Рівень 3\\nТип ефекту: Лідерство\\nЛицарі Мінас-Тіріта поряд із Фараміром отримують бонус +25% до пошкоджень і на 25% менше сповільнюються під час топтання\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FaramirDesperateCharge",
+     "t": "Button",
+     "en": "Desperate Charge (&R)",
+     "uk": "Відчайдушна атака (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFaramirDesperateCharge",
+     "t": "Tooltip",
+     "en": "Required: Rank 5\\n Faramir gains +100% resistance to ranged attacks and pike damage for 20 seconds \\n Left click to activate",
+     "uk": "Необхідно: Рівень 5\\nФарамір на 20 сек. отримує бонус +100% стійкості до атак на відстані й ударів списами\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FaramirKnightRanger",
+     "t": "Button",
+     "en": "Knight/Ranger Toggle (&T)",
+     "uk": "Лицар / Слідопит (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEowynMount",
+     "t": "Tooltip",
+     "en": "Left click to switch between mounted and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою верхи та пішим ходом",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:CaptainofGondorF",
+     "t": "Button",
+     "en": "Faramir's Quality (&C)",
+     "uk": "Гідність Фараміра (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCaptainofGondor",
+     "t": "Tooltip",
+     "en": "Requires Level 8 \\n Give targeted friendly troops experience \\n Left click icon then left click on target units",
+     "uk": "Необхідно: Рівень 8\\nМиттєво наділяє досвідом обрані союзні загони\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Ithilien map",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:DamrodSkilledHunterIthilien",
+     "t": "Button",
+     "en": "Skilled Hunter (&R)",
+     "uk": "Вправний мисливець (&R)",
+     "st": "ok",
+     "dup": "CONTROLBAR:DamrodSkilledHunter"
+    },
+    {
+     "v": "CONTROLBAR:DamrodQuickDispatchIthilien",
+     "t": "Button",
+     "en": "Quick Dispatch (&T)",
+     "uk": "Швидка розправа (&T)",
+     "st": "ok",
+     "dup": "CONTROLBAR:DamrodQuickDispatch"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDamrodQuickDispatchIthilien",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\nDamrod receives +25% attack and movement speed for 30 seconds\\n Left click to activate",
+     "uk": "Необхідно: Рівень 3\\nНа 30 сек. Дамрод отримує бонус +25% швидкості атаки й пересування\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DamrodRefuge",
+     "t": "Button",
+     "en": "Refuge (&C)",
+     "uk": "Прихисток (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipDamrodRefuge",
+     "t": "Tooltip",
+     "en": "Requires Level 5\\nDamrod sets up a Forward Camp for 90 seconds\\nAllies near the Forward Camp are stealthed, healed, replenished and gain +25% damage, +25% armour and +33% experience gain\\nLeft click then left click target area",
+     "uk": "Необхідно: Рівень 5\\nДамрод на 90 сек. розбиває передовий табір\\nСоюзники поряд із передовим табором стають невидимими, зцілюються, поновлюють полеглих, отримують бонус +25% до пошкоджень і +25% броні та на 33% швидше набирають досвід\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

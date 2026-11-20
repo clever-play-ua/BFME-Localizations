@@ -1,0 +1,97 @@
+{
+ "hero": "Radagast",
+ "uk_name": "Радаґаст",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:MirkwoodRadagast",
+     "t": "Name",
+     "en": "Radagast",
+     "uk": "Радаґаст",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:RadagastAiwendil",
+     "t": "Button",
+     "en": "Aiwendil (&R)",
+     "uk": "Айвендил (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipRadagastAiwendil",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\nNearby Woodmen and Beorning units gain +25% experience\\n Woodmen additionally gain +33% damage and +33% armour\\nPassive ability\\n\\nTargeted enemy units are beset by a flock of birds,\\ncausing them to lose 50% vision and 25% armour\\nand take damage over time for 15 seconds\\nLeft click icon then left click on target",
+     "uk": "Тип ефекту: Лідерство\\nЛісовики й беорнінги поблизу отримують бонус +25% до досвіду\\nЛісовики також отримують бонус +33% до пошкоджень і +33% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nНа обрані ворожі загони налітає зграя птахів:\\nвони втрачають 50% огляду й 25% броні\\nта 15 сек. отримують періодичні пошкодження\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:RadagastGuardian",
+     "t": "Button",
+     "en": "Faithful Guardian (&T)",
+     "uk": "Вірний охоронець (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipRivendellRadagastGuardian",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\nRadagast slams his staff into the soil,\\nstunning enemies before him for 5 seconds\\nAt rank 8, stun duration is increased to 10 seconds\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 3\\nРадаґаст встромляє посох у землю\\nй приголомшує ворогів перед собою на 5 сек.\\nНа 8 рівні приголомшення триває 10 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:RadagastSiphonLeadership",
+     "t": "Button",
+     "en": "Siphon Witchcraft",
+     "uk": "Чарокрад",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipRadagastSiphonWitchcraft",
+     "t": "Tooltip",
+     "en": "Required: Rank 6 \\n Radagast continously heals nearby friendly heroes and units \\n Passive ability",
+     "uk": "Необхідно: Рівень 6\\nРадаґаст безперервно зцілює союзних героїв і загони поблизу\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:RadagastTransform",
+     "t": "Button",
+     "en": "Wrath of the Weald (&V)",
+     "uk": "Гнів Дрімучого лісу (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipRadagastTransform",
+     "t": "Tooltip",
+     "en": "Requires Level 10\\nEnemy units within target radius take magic damage\\nLeft click icon then left click on target",
+     "uk": "Необхідно: Рівень 10\\nВорожі загони в обраному радіусі отримують пошкодження від магії\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Woodland Realm",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:RadagastUnseen",
+     "t": "Button",
+     "en": "Master of Hues and Shapes (&W)",
+     "uk": "Володар барв і форм (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipRadagastUnseen",
+     "t": "Tooltip",
+     "en": "Radagast is invisible while standing still\\nPassive ability\\n\\nAllows all targeted allies to become stealthed for 30 seconds\\n Left click icon then left click on target units",
+     "uk": "Радаґаст невидимий, поки стоїть на місці\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nОбрані союзники на 30 сек. стають невидимими\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

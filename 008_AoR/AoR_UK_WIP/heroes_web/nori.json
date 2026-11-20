@@ -1,0 +1,48 @@
+{
+ "hero": "Nori",
+ "uk_name": "Норі",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:Nori",
+     "t": "Name",
+     "en": "Nori",
+     "uk": "Норі",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DwarfBrothersThree",
+     "t": "Button",
+     "en": "Brothers Three",
+     "uk": "Три брати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDwarfBrothersThree",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n Ori, Nori and Dori gain +15% damage and +15% armour when near each other \\nPassive ability",
+     "uk": "Тип ефекту: Заклинання\\nПоряд одне з одним Орі, Норі й Дорі отримують бонус +15% до пошкоджень і +15% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ThievingVagabond",
+     "t": "Button",
+     "en": "Thieving Vagabond",
+     "uk": "Злодій-волоцюга",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipThievingVagabond",
+     "t": "Tooltip",
+     "en": "Nori steals resources when attacking \\nPassive ability",
+     "uk": "Норі краде ресурси під час атаки\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

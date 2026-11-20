@@ -1,0 +1,1053 @@
+{
+ "meta": {
+  "faction": "Wild",
+  "note": "AI drafts for rows that had no Ukrainian at all (lowest priority: any proofread text wins)."
+ },
+ "strings": [
+  {
+   "var": "CONTROLBAR:SpecialAbilityDrumsInTheDeep",
+   "en": "Drums in the Deep (&S)",
+   "uk_ai": "Барабани в глибинах (&S)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityDrumsInTheDeep",
+   "en": "Requires the Drums in the Deep upgrade \\n Temporarily summons 5 hordes of Moria-orc Screechers \\n\\n Modifier Type: Active Debuff \\n Targeted enemy units suffer -25% damage and -20% armour for 20 seconds\\n Left click on icon then left click on target area",
+   "uk_ai": "Потребує покращення «Барабани в глибинах»\\nТимчасово прикликає 5 загонів орків-крикунів Морії\\n\\nТип ефекту: Активне ослаблення\\nОбрані ворожі загони на 20 сек. отримують штраф -25% пошкоджень і -20% броні\\nКлікніть на іконку, потім оберіть ділянку"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeWildFortressWildAllegiance",
+   "en": "Wild Allegiance (&W)",
+   "uk_ai": "Дика вірність (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeWildFortressWildAllegiance",
+   "en": "Unlocks Wild Allegiance \\n Can be cast on any Creep Lair to take control of the lair and start producing units \\n Captured lairs produce resources \\n Reduces Hero cost by 10% \\n Reduces Hero recruit time by 10% \\n Reduces cost of builders by 20%",
+   "uk_ai": "Відкриває «Дику вірність»\\nМожна застосувати до будь-якого лігва диких звірів, щоб захопити його й почати тренувати там загони\\nЗахоплені лігва видобувають ресурси\\nЗнижує вартість героїв на 10%\\nСкорочує час вербування героїв на 10%\\nЗнижує вартість будівельників на 20%"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeWildFortressBatCloud",
+   "en": "Cave Bats (&E)",
+   "uk_ai": "Печерні кажани (&E)"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeWildFortressRazorSpines",
+   "en": "Cruel Spikes (&R)",
+   "uk_ai": "Жорстокі шипи (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines",
+   "en": "Damages enemy units adjacent to the Fortress",
+   "uk_ai": "Завдає пошкоджень ворожим загонам біля фортеці"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeWildFortressFireArrows",
+   "en": "Infestation (&T)",
+   "uk_ai": "Нашестя (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeWildFortressFireArrows",
+   "en": "Adds a number of Moria Orc archers with Fire Arrows onto the fortress \\n Adds fire damage to all attached Orcish Lookouts",
+   "uk_ai": "Розміщує на фортеці кількох морійських орків-лучників із вогняними стрілами\\nУсі прибудовані орочі дозорні пости завдають пошкоджень вогнем"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeWildFortressNorthernWastes",
+   "en": "Unlocks the Cold-Drake \\nUpgrades the maximum number of available\\n Mountain Giants from 2 to 5 \\nUpgrades the maximum number of available\\n Fire-drakes from 2 to 4 \\n Allows the fortress to temporarily summon a Wyrm",
+   "uk_ai": "Відкриває холодного дракона\\nЗбільшує максимальну кількість\\nгірських велетнів з 2 до 5\\nЗбільшує максимальну кількість\\nвогняних драконів з 2 до 4\\nДає фортеці змогу тимчасово прикликати змія"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeWildFortressWebCocoon",
+   "en": "Increases Fortress armour by 65% \\n Allows training of a second battalion of Bolg's Bodyguard",
+   "uk_ai": "Збільшує міцність фортеці на 65%\\nДозволяє тренувати другий загін охоронців Болґа"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeWildFortressDrumsInTheDeep",
+   "en": "Drums in the Deep (&F)",
+   "uk_ai": "Барабани в глибинах (&F)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDrumsInTheDeep",
+   "en": "The fortress gains the ability to use the Drums in the Deep \\nTemporarily summons 5 hordes of Moria-orc Screechers",
+   "uk_ai": "Фортеця отримує здібність «Барабани в глибинах»\\nТимчасово прикликає 5 загонів орків-крикунів Морії"
+  },
+  {
+   "var": "OBJECT:WildPorter",
+   "en": "Goblin Builder",
+   "uk_ai": "Ґоблін-будівельник"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildMineShaft",
+   "en": "Build Orc Tunnel (&W)",
+   "uk_ai": "Орочий тунель (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructWildMineShaft",
+   "en": "Generates resources based on available terrain\\nProvides access to the tunnel network \\n Increases command point limit by 50",
+   "uk_ai": "Видобуває ресурси, що ближче стоять інші\\nресурсні споруди, то менше ресурсів видобувається.\\nДає доступ до мережі тунелів\\nЗбільшує ліміт очок командування на 50 од."
+  },
+  {
+   "var": "OBJECT:WildMineShaft",
+   "en": "Orc Tunnel",
+   "uk_ai": "Орочий тунель"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildLumberMill",
+   "en": "Build Lumber Mill (&D)",
+   "uk_ai": "Лісопильня (&D)"
+  },
+  {
+   "var": "OBJECT:WildLumberMill",
+   "en": "Lumber Mill",
+   "uk_ai": "Лісопильня"
+  },
+  {
+   "var": "CONTROLBAR:BuildWildWorker",
+   "en": "Goblin Laborer (&W)",
+   "uk_ai": "Ґоблін-робітник (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildWorker",
+   "en": "Gathers resources for the Lumber Mill",
+   "uk_ai": "Збирає ресурси для лісопильні"
+  },
+  {
+   "var": "OBJECT:WildWorker",
+   "en": "Goblin Laborer",
+   "uk_ai": "Ґоблін-робітник"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildTreasureTrove",
+   "en": "Build Goblin Hoard (&R)",
+   "uk_ai": "Ґоблінська скарбниця (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructWildTreasureTrove",
+   "en": "Hoards armour and valuables as a resource based on available terrain \\nResearches weapon and armour upgrades \\nReduces cost of upgrades \\n Increases command point limit by 50",
+   "uk_ai": "Збирає обладунки й цінності як ресурс залежно від вільної місцевості\\nДосліджує покращення зброї та обладунків\\nЗнижує вартість покращень\\nЗбільшує ліміт очок командування на 50 од."
+  },
+  {
+   "var": "OBJECT:WildTreasureTrove",
+   "en": "Goblin Hoard",
+   "uk_ai": "Ґоблінська скарбниця"
+  },
+  {
+   "var": "OBJECT:WildTreasureTroveDescription",
+   "en": "Generates resources based on available terrain\\n Treasure Bonus - Reduced cost of upgrades \\n 2 Troves: 5% \\n 3 Troves: 10% \\n 4 Troves: 15% \\n 5+ Troves: 20%",
+   "uk_ai": "Видобуває ресурси, що ближче стоять інші\\nресурсні споруди, то менше ресурсів видобувається.\\nБонус скарбів — знижена вартість покращень\\n2 скарби: 5%\\n3 скарби: 10%\\n4 скарби: 15%\\n5+ скарбів: 20%"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyWildBasicTraining",
+   "en": "Research Banners of Bolg (&W)",
+   "uk_ai": "Стяги Болґа (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyWildBasicTraining",
+   "en": "Allows hordes to purchase the Banners of Bolg upgrade \\n Increases a horde to Level 2",
+   "uk_ai": "Дає змогу кожному загону придбати покращення «Стяги Болґа»\\nПідвищує рівень загону до 2"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyWildFireArrows",
+   "en": "Research Fire Arrows (&E)",
+   "uk_ai": "Вогняні стріли (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyWildFireArrows",
+   "en": "Allows hordes to purchase the Fire Arrows upgrade \\n When equipped, significantly increases the damage done by arrows\\n Will upgrade all patrols instantly once upgrade is purchased",
+   "uk_ai": "Дає змогу кожному загону придбати покращення «Вогняні стріли»\\nПісля оснащення значно збільшує пошкодження стріл\\nПісля дослідження миттєво покращує стріли всіх патрулів навколо будівель"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyWildForgedBlades",
+   "en": "Research Scavenged Blades (&R)",
+   "uk_ai": "Трофейні клинки (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyWildForgedBlades",
+   "en": "Allows hordes to purchase the Scavenged Blades upgrade \\n Increases the damage done by melee weapons\\n Will upgrade all patrols instantly once upgrade is purchased",
+   "uk_ai": "Дає змогу кожному загону придбати покращення «Трофейні клинки»\\nЗбільшує пошкодження зброї ближнього бою\\nПісля дослідження миттєво покращує зброю всіх патрулів навколо будівель"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyWildHeavyArmor",
+   "en": "Research Scavenged Armour (&T)",
+   "uk_ai": "Трофейні обладунки (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseechnologyWildHeavyArmor",
+   "en": "Allows hordes to purchase Scavenged Armour \\n Significantly reduces the amount of damage taken\\n Will upgrade all patrols instantly once upgrade is purchased",
+   "uk_ai": "Дає змогу кожному загону придбати покращення «Трофейні обладунки»\\nЗначно зменшує отримані пошкодження\\nПісля дослідження миттєво покращує обладунки всіх патрулів навколо будівель"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildMountainLodge",
+   "en": "Build Mountain-orc Lodge (&T)",
+   "uk_ai": "Хижа гірських орків (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructWildMountainLodge",
+   "en": "Trains Mountain-orcs and Gundabad orcs",
+   "uk_ai": "Тренує гірських орків та орків Ґундабаду"
+  },
+  {
+   "var": "OBJECT:WildLodge",
+   "en": "Mountain-orc Lodge",
+   "uk_ai": "Хижа гірських орків"
+  },
+  {
+   "var": "OBJECT:WildLodgeDescription",
+   "en": "Level 2: +10% faster build speed \\nLevel 3: +25% faster build speed",
+   "uk_ai": "Рівень 2: +10% до швидкості тренування\\nРівень 3: +25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeWildLodgeLevel2",
+   "en": "Upgrade Mountain-orc Lodge to Level 2 (&A)",
+   "uk_ai": "Покращити хижу гірських орків до 2-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildLodgeLevel2Upgrade",
+   "en": "Allows training of Mountain-orc Scouts\\n+10% faster build speed",
+   "uk_ai": "Дозволяє тренувати гірських орків-розвідників\\n+10% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeWildLodgeLevel3",
+   "en": "Upgrade Mountain-orc Lodge to Level 3 (&A)",
+   "uk_ai": "Покращити хижу гірських орків до 3-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildLodgeLevel3Upgrade",
+   "en": "Allows training of Gundabad Berserkers and Bolg's Bodyguard\\n+25% faster build speed",
+   "uk_ai": "Дозволяє тренувати берсерків Ґундабаду й охоронців Болґа\\n+25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildMountainOrcSwordHorde",
+   "en": "Mountain-orc Slashers (&W)",
+   "uk_ai": "Гірські орки-рубаки (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildMountainOrcSwordHorde",
+   "en": "Strong vs. Pikemen \\n \\n Hardened through generations of war and weather, these Mountain-orcs were finally united under one banner by Bolg of the North.",
+   "uk_ai": "Ефективні проти пікінерів\\n\\nЗагартованих поколіннями воєн і негоди гірських орків нарешті об'єднав під одним стягом Болґ із Півночі."
+  },
+  {
+   "var": "OBJECT:WildMountainOrcSwordHorde",
+   "en": "Mountain-orc Slashers",
+   "uk_ai": "Гірські орки-рубаки"
+  },
+  {
+   "var": "OBJECT:WildMountainOrcSword",
+   "en": "Mountain-orc Slasher",
+   "uk_ai": "Гірський орк-рубака"
+  },
+  {
+   "var": "CONTROLBAR:WildMountainOrcTerror",
+   "en": "Terror of the Mountain",
+   "uk_ai": "Жах гір"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWildMountainOrcTerror",
+   "en": "Requires Level 2 \\n Consecutive attacks temporarily increase attack damage by 5% up to a maximum of 25% \\n Passive Ability",
+   "uk_ai": "Необхідно: Рівень 2\\nКожна наступна атака тимчасово збільшує пошкодження на 5%, максимум 25%\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeWildHeavyArmor",
+   "en": "Purchase Scavenged Armour (&T)",
+   "uk_ai": "Трофейні обладунки (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeWildHeavyArmor",
+   "en": "Upgrades this horde with Scavenged Armour \\n When equipped, significantly reduces the amount of damage taken",
+   "uk_ai": "Оснащує цей загін трофейними обладунками\\nПісля оснащення значно зменшує отримувані пошкодження"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildMountainOrcBruteHorde",
+   "en": "Mountain-orc Brutes (&E)",
+   "uk_ai": "Гірські орки-бугаї (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildMountainOrcBruteHorde",
+   "en": "Strong vs. Cavalry and Heroes \\n Able to switch formation for improved defensive capabilities\\n \\n Tasked with guarding the cold valleys and foothills of Orc-held territory, these pikemen have been known to ambush Elven scouting parties.",
+   "uk_ai": "Ефективні проти кавалерії та героїв\\nМожуть змінювати стрій для кращого захисту\\n\\nЦі пікінери стережуть холодні долини й передгір'я орочих земель і славляться засідками на ельфійські розвідувальні загони."
+  },
+  {
+   "var": "OBJECT:WildMountainOrcBruteHorde",
+   "en": "Mountain-orc Brutes",
+   "uk_ai": "Гірські орки-бугаї"
+  },
+  {
+   "var": "OBJECT:WildMountainOrcBrute",
+   "en": "Mountain-orc Brute",
+   "uk_ai": "Гірський орк-бугай"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildMountainOrcScoutHorde",
+   "en": "Mountain-orc Scouts (&R)",
+   "uk_ai": "Гірські орки-розвідники (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildMountainOrcScoutHorde",
+   "en": "Requires Level 2 Mountain-orc Lodge\\nStrong vs. Infantry\\n \\n Feared throughout Eriador, these Mountain-orc manhunters have a reputation for being cruel and ruthless in tracking down their quarry.",
+   "uk_ai": "Необхідно: Хижа гірських орків 2 рівня\\nЕфективні проти піхоти\\n\\nЦих гірських орків-ловців людей боїться весь Еріадор: вони славляться жорстокістю й безжальністю, вистежуючи свою здобич."
+  },
+  {
+   "var": "OBJECT:WildMountainOrcScoutHorde",
+   "en": "Mountain-orc Scouts",
+   "uk_ai": "Гірські орки-розвідники"
+  },
+  {
+   "var": "OBJECT:WildMountainOrcScout",
+   "en": "Mountain-orc Scout",
+   "uk_ai": "Гірський орк-розвідник"
+  },
+  {
+   "var": "CONTROLBAR:MountainOrcScoutBarbedArrows",
+   "en": "Barbed Arrows (&R)",
+   "uk_ai": "Зазубрені стріли (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMountainOrcScoutBarbedArrows",
+   "en": "Requires Level 2\\nFor 20 seconds, Mountain-orc Scouts gain +65% damage vs monsters and flying units\\nTarget monsters and flying units lose -75% movement speed\\nLeft click to activate",
+   "uk_ai": "Необхідно: Рівень 2\\nНа 20 сек. розвідники гірських орків отримують бонус +65% до пошкоджень істотам і летючим загонам\\nУражені істоти й летючі загони втрачають 75% швидкості руху\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeWildFireArrows",
+   "en": "Purchase Fire Arrows (&C)",
+   "uk_ai": "Вогняні стріли (&C)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeWildFireArrows",
+   "en": "Upgrades this horde with Fire Arrows \\n Significantly increases the damage done by arrows",
+   "uk_ai": "Оснащує цей загін вогняними стрілами\\nЗначно збільшує пошкодження стріл"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildGundabadBerserkerHorde",
+   "en": "Gundabad Berserkers (&T)",
+   "uk_ai": "Берсерки Ґундабаду (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildGundabadBerserkerHorde",
+   "en": "Requires Level 3 Mountain-orc Lodge \\n Strong vs. Pikemen and Cavalry\\n \\n Mount Gundabad has long been occupied by large, fierce orcs under the command of Bolg of the North.",
+   "uk_ai": "Необхідно: Хижа гірських орків 3 рівня\\nЕфективні проти пікінерів і кавалерії\\n\\nГору Ґундабад здавна заселяють великі люті орки під проводом Болґа з Півночі."
+  },
+  {
+   "var": "OBJECT:WildGundabadBerserkerHorde",
+   "en": "Gundabad Berserkers",
+   "uk_ai": "Берсерки Ґундабаду"
+  },
+  {
+   "var": "OBJECT:GundabadBerserker",
+   "en": "Gundabad Berserker",
+   "uk_ai": "Берсерк Ґундабаду"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleGundabadFormation",
+   "en": "-33% speed \\n +40% armour \\n Resistance to Trample \\n Bonus damage vs cavalry",
+   "uk_ai": "Штраф -33% швидкості\\nБонус +40% броні\\nСтійкість до топтання\\nДодаткові пошкодження кавалерії"
+  },
+  {
+   "var": "CONTROLBAR:FellDetermination",
+   "en": "Fell Determination (&R)",
+   "uk_ai": "Люта рішучість (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellDetermination",
+   "en": "Requires Level 2\\nGundabad Berserkers gain +33% damage and knockback resistance for 20 seconds\\nLeft click to activate",
+   "uk_ai": "Необхідно: Рівень 2\\nНа 20 сек. берсерки Ґундабаду отримують бонус +33% до пошкоджень і стійкість до відкидання\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildBodyGuardHorde",
+   "en": "Bolg's Bodyguard (&S)",
+   "uk_ai": "Охоронці Болґа (&S)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildBodyGuardHorde",
+   "en": "Requires Level 3 Mountain-orc Lodge\\nHero Unit\\n Limited to 1 \\nStrong vs. All Unit Types \\n \\n Understanding that Azog's recklessness had gotten him killed, Bolg surrounded himself with the largest, cruelest Orcs that could be found to avoid repeating his father's mistake.",
+   "uk_ai": "Необхідно: Хижа гірських орків 3 рівня\\nГероїчний загін\\nМаксимум 1 одночасно\\nЕфективні проти всіх типів військ\\n\\nРозуміючи, що Азоґа згубила власна безрозсудність, Болґ оточив себе найбільшими й найжорстокішими орками, яких лише зміг знайти, щоб не повторити батькової помилки."
+  },
+  {
+   "var": "OBJECT:HordeWildBodyGuard",
+   "en": "Bolg's Bodyguard",
+   "uk_ai": "Охоронці Болґа"
+  },
+  {
+   "var": "OBJECT:WildBodyGuard",
+   "en": "Bolg's Bodyguard",
+   "uk_ai": "Охоронець Болґа"
+  },
+  {
+   "var": "CONTROLBAR:Intimidation",
+   "en": "Intimidation",
+   "uk_ai": "Пригнічення"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIntimidation",
+   "en": "Modifier Type: Passive Debuff \\n Nearby enemy heroes and hero units suffer -20% damage and -15% armour\\nPassive ability",
+   "uk_ai": "Тип ефекту: Пасивне ослаблення\\nВорожі герої та героїчні загони поблизу отримують штраф -20% пошкоджень і -15% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:BodyguardBoom",
+   "en": "Skull Throw (&R)",
+   "uk_ai": "Кидок черепа (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBodyGuardBoom",
+   "en": "Requires Level 3 \\nPowerful ranged attack with radius damage \\n Left click icon then left click on target",
+   "uk_ai": "Необхідно: Рівень 3\\nПотужна атака на відстані, що завдає пошкоджень по площі\\nКлікніть на іконку, потім оберіть ціль"
+  },
+  {
+   "var": "CONTROLBAR:BodyguardDeathWish",
+   "en": "Dark Resolve (&T)",
+   "uk_ai": "Темна рішучість (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBodyguardDeathWish",
+   "en": "Requires Level 7 \\n Bolg's Bodyguard gain +100% damage at the cost of -25% armour for 20 seconds\\n Left click to activate",
+   "uk_ai": "Необхідно: Рівень 7\\nНа 20 сек. охоронці Болґа отримують бонус +100% до пошкоджень ціною штрафу -25% броні\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildBodyGuardHordeFortress",
+   "en": "Requires Level 3 Mountain-orc Lodge\\nHero Unit\\nLimit increased to 2. \\nStrong vs. All Unit Types \\n \\n Understanding that Azog's recklessness had gotten him killed, Bolg surrounded himself with the largest, cruelest Orcs that could be found to avoid repeating his father's mistake.",
+   "uk_ai": "Необхідно: Хижа гірських орків 3 рівня\\nГероїчний загін\\nЛіміт збільшено до 2.\\nЕфективні проти всіх типів військ\\n\\nРозуміючи, що Азоґа згубила власна безрозсудність, Болґ оточив себе найбільшими й найжорстокішими орками, яких лише зміг знайти, щоб не повторити батькової помилки."
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildGoblinCave",
+   "en": "Build Moria-orc Cave (&C)",
+   "uk_ai": "Печера орків Морії (&C)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructWildGoblinCave",
+   "en": "Trains Moria-orc Screechers and Moria-orc Archers",
+   "uk_ai": "Тренує орків-крикунів і орків-лучників Морії"
+  },
+  {
+   "var": "OBJECT:GoblinCave",
+   "en": "Moria Orc Cave",
+   "uk_ai": "Печера орків Морії"
+  },
+  {
+   "var": "OBJECT:GoblinCaveDescription",
+   "en": "Level 2: +10% faster build speed\\n Level 3: +25% faster build speed",
+   "uk_ai": "Рівень 2: +10% до швидкості тренування\\nРівень 3: +25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildCaveLevel2Upgrade",
+   "en": "Upgrade Moria-orc Cave to Level 2 (&A)",
+   "uk_ai": "Покращити печеру орків Морії до 2-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildCaveLevel2Upgrade",
+   "en": " +10% faster build speed\\nAdds two garrisoned Moria Orc Archers",
+   "uk_ai": "+10% до швидкості тренування\\nРозміщує в печері двох орків-лучників Морії"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildCaveLevel3Upgrade",
+   "en": "Upgrade Moria-orc Cave to Level 3 (&A)",
+   "uk_ai": "Покращити печеру орків Морії до 3-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildCaveLevel3Upgrade",
+   "en": "+25% faster build speed",
+   "uk_ai": "+25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGoblinFighterHorde",
+   "en": "Moria-orc Screechers (&W)",
+   "uk_ai": "Орки-крикуни Морії (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGoblinArcherHorde",
+   "en": "Moria-orc Archers (&E)",
+   "uk_ai": "Орки-лучники Морії (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGoblinArcherHorde",
+   "en": "Strong vs. Infantry \\n\\n Horde Bonus \\n Modifier Type: Spell \\n All Moria-orc Screechers, Moria-orc Archers and Moria-orc Spearmen gain +50% damage when gathered in numbers of 150 or more\\n \\n These Orcish archers sealed their deadly reputation upon slaying Balin, as he stood looking upon the Mirrormere outside of the East-gate.",
+   "uk_ai": "Ефективні проти піхоти\\n\\nОтримують бонуси від кількості\\nТип ефекту: Заклинання\\nУсі орки-крикуни, орки-лучники й орки-списоносці Морії отримують бонус +50% до пошкоджень, якщо зібрані в кількості 150 і більше\\n\\nЦі орочі лучники закріпили свою смертоносну славу, убивши Баліна, коли той дивився на Дзеркальне озеро біля Східної брами."
+  },
+  {
+   "var": "OBJECT:HordeGoblinArchers",
+   "en": "Moria Orc Archers",
+   "uk_ai": "Орки-лучники Морії"
+  },
+  {
+   "var": "OBJECT:GoblinArcher",
+   "en": "Moria Orc Archer",
+   "uk_ai": "Орк-лучник Морії"
+  },
+  {
+   "var": "CONTROLBAR:PoisonArrows",
+   "en": "Poison Arrows (&R)",
+   "uk_ai": "Отруйні стріли (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPoisonArrows",
+   "en": "Poison tipped arrows that cause damage over time for 15 seconds \\nPoison arrows deal +55% additional damage against monsters\\nLeft click icon then left click on target",
+   "uk_ai": "Отруєні стріли, що 15 сек. завдають періодичних пошкоджень\\nОтруйні стріли завдають істотам на 55% більше пошкоджень\\nКлікніть на іконку, потім оберіть ціль"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildWildSpiderPit",
+   "en": "Build Wolf Cairn (&V)",
+   "uk_ai": "Вовчий курган (&V)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructWildWildSpiderPit",
+   "en": "Trains Gundabad Warg Packs and Gundabad Wolf-riders",
+   "uk_ai": "Тренує зграї варґів і вершників на вовках Ґундабаду"
+  },
+  {
+   "var": "OBJECT:WildSpiderPit",
+   "en": "Wolf Cairn",
+   "uk_ai": "Вовчий курган"
+  },
+  {
+   "var": "OBJECT:WildSpiderPitDescription",
+   "en": "Level 2: +10% faster build speed \\n Level 3: +25% faster build speed",
+   "uk_ai": "Рівень 2: +10% до швидкості тренування\\nРівень 3: +25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildSpiderPitLevel2Upgrade",
+   "en": "Upgrade Wolf Cairn to Level 2 (&A)",
+   "uk_ai": "Покращити вовчий курган до 2-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildSpiderPitLevel2Upgrade",
+   "en": "Allows training of Gundabad Wolf-riders\\n+10% faster build speed",
+   "uk_ai": "Дозволяє тренувати вершників на вовках Ґундабаду\\n+10% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildSpiderPitLevel3Upgrade",
+   "en": "Upgrade Wolf Cairn to Level 3 (&A)",
+   "uk_ai": "Покращити вовчий курган до 3-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildSpiderPitLevel3Upgrade",
+   "en": "+25% faster build speed",
+   "uk_ai": "+25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardWargPack",
+   "en": "Warg Pack (&W)",
+   "uk_ai": "Зграя варґів (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardWargPack",
+   "en": "Strong vs. Swordsmen and Archers \\n \\n Fast-moving and ferocious, packs of Wargs have oft been the bane of unwary travellers.",
+   "uk_ai": "Ефективні проти мечників і лучників\\n\\nШвидкі й люті зграї варґів здавна були погибеллю необережних мандрівників."
+  },
+  {
+   "var": "OBJECT:HordeIsengardWargPack",
+   "en": "Warg Pack",
+   "uk_ai": "Зграя варґів"
+  },
+  {
+   "var": "OBJECT:IsengardWargPack",
+   "en": "Warg",
+   "uk_ai": "Варґ"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildWargRider",
+   "en": "Gundabad Wolf-riders (&E)",
+   "uk_ai": "Вершники на вовках Ґундабаду (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildWargRider",
+   "en": "Requires Level 2 Wolf Cairn\\n Strong vs. Swordsmen and Archers \\n \\n For generations, Orcs have ridden Wargs and Wolves - not as masters, but as equals - to track and ambush the Free Peoples.",
+   "uk_ai": "Необхідно: Вовчий курган 2 рівня\\nЕфективні проти мечників і лучників\\n\\nПоколіннями орки їздять на варґах і вовках — не як господарі, а як рівні, — щоб вистежувати вільні народи й нападати на них із засідок."
+  },
+  {
+   "var": "OBJECT:HordeWildWargRiders",
+   "en": "Gundabad Wolf-riders",
+   "uk_ai": "Вершники на вовках Ґундабаду"
+  },
+  {
+   "var": "OBJECT:WildWargRider",
+   "en": "Gundabad Wolf-rider",
+   "uk_ai": "Вершник на вовку Ґундабаду"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildGoblinFissure",
+   "en": "Build Troll Lair (&N)",
+   "uk_ai": "Лігво тролів (&N)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructWildGoblinFissure",
+   "en": "Trains Trolls, Giant Bats and Mountain Giants",
+   "uk_ai": "Тренує тролів, велетенських кажанів і гірських велетнів"
+  },
+  {
+   "var": "OBJECT:GoblinFissure",
+   "en": "Troll Lair",
+   "uk_ai": "Лігво тролів"
+  },
+  {
+   "var": "OBJECT:GoblinFissureDescription",
+   "en": "Level 2: +10% faster build speed \\n Level 3: +25% faster build speed",
+   "uk_ai": "Рівень 2: +10% до швидкості тренування\\nРівень 3: +25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeWildFissureLevel2",
+   "en": "Upgrade Troll Lair to Level 2 (&A)",
+   "uk_ai": "Покращити лігво тролів до 2-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildFissureLevel2Upgrade",
+   "en": "Allows training of Snow-trolls and Bats\\n+10% faster build speed",
+   "uk_ai": "Дозволяє тренувати снігових тролів і кажанів\\n+10% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeWildFissureLevel3",
+   "en": "Upgrade Troll Lair to Level 3 (&A)",
+   "uk_ai": "Покращити лігво тролів до 3-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildFissureLevel3Upgrade",
+   "en": "Allows training of Gundabad Stone-trolls and Mountain Giants\\n+25% faster build speed\\nAdds defensive Cave-troll to Lair \\n Friendly Mountain Giants near the Lair are passively healed over time",
+   "uk_ai": "Дозволяє тренувати кам'яних тролів Ґундабаду й гірських велетнів\\n+25% до швидкості тренування\\nДодає до лігва печерного троля-захисника\\nСоюзні гірські велетні біля лігва постійно зцілюються"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGoblinCaveTroll",
+   "en": "Cave Troll (&W)",
+   "uk_ai": "Печерний троль (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGoblinCaveTroll",
+   "en": "Strong vs. Swordsmen and Structures \\n \\n Pestered and tormented for years by its goblin captors, this small and relatively docile Troll has been blinded by rage and frustration.",
+   "uk_ai": "Ефективні проти мечників і споруд\\n\\nРоками цього невеликого й відносно смирного троля цькували й мучили його ґобліни-поневолювачі, доки він не осліп від люті й розпачу."
+  },
+  {
+   "var": "OBJECT:GoblinCaveTroll",
+   "en": "Cave Troll",
+   "uk_ai": "Печерний троль"
+  },
+  {
+   "var": "CONTROLBAR:Trollfindunittothrow",
+   "en": "Pick up Goblin / Orc (&T)",
+   "uk_ai": "Схопити ґобліна / орка (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTrollfindunittothrow",
+   "en": "Find an Orc to pick up and throw at the enemy\\nEnemy units where the Orc lands will become terrified",
+   "uk_ai": "Знайти орка, схопити його й жбурнути у ворога\\nВорожі загони там, де приземлиться орк, охоплює жах"
+  },
+  {
+   "var": "CONTROLBAR:ConstructAngmarSnowTrollHorde",
+   "en": "Snow-trolls (&E)",
+   "uk_ai": "Снігові тролі (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildSnowTrollHorde",
+   "en": "Requires Level 2 Troll Lair \\n \\nStrong vs. Elite Infantry and Monsters \\n\\n Snow-trolls are often thought of as a fairy-tale creature in more civilised parts of Middle-earth, but those that dwell in the harsh climate of the northern Misty Mountains and beyond know better. These wicked trolls are lean, deceptively powerful, and possess a great talent for cruelty",
+   "uk_ai": "Необхідно: Лігво тролів 2 рівня\\n\\nЕфективні проти елітної піхоти та істот\\n\\nУ цивілізованіших краях Середзем'я снігових тролів часто вважають казковими істотами, але ті, хто живе в суворому кліматі північних Імлистих гір і далі, знають краще. Ці лихі тролі худорляві, проте оманливо сильні й мають неабиякий хист до жорстокості"
+  },
+  {
+   "var": "OBJECT:AngmarSnowTrollHorde",
+   "en": "Snow-trolls",
+   "uk_ai": "Снігові тролі"
+  },
+  {
+   "var": "OBJECT:AngmarSnowTroll",
+   "en": "Snow-troll",
+   "uk_ai": "Сніговий троль"
+  },
+  {
+   "var": "CONTROLBAR:KickAndPunchSnow",
+   "en": "Close Range Attack (&R)",
+   "uk_ai": "Ближній бій (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKickAndPunch",
+   "en": "Switch to melee combat",
+   "uk_ai": "Перемкнутися на ближній бій"
+  },
+  {
+   "var": "CONTROLBAR:TrollishRage",
+   "en": "Trollish Rage (&T)",
+   "uk_ai": "Тролячий гнів (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTrollishRage",
+   "en": "Requires level 2\\nSnow-trolls throw their spears with mighty strength, dealing increased damage and knocking units down in large radius\\n Left click icon then left click on target",
+   "uk_ai": "Необхідно: Рівень 2\\nСнігові тролі з величезною силою метають списи: завдають більших пошкоджень і збивають з ніг загони у великому радіусі\\nКлікніть на іконку, потім оберіть ціль"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildGiantBat",
+   "en": "Giant Bat (&R)",
+   "uk_ai": "Велетенський кажан (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildGiantBat",
+   "en": "Requires Level 2 Troll Lair\\n Strong vs. Infantry, Cavalry, and Buildings \\n \\n 'These bats are bred for one purpose, for war!'",
+   "uk_ai": "Необхідно: Лігво тролів 2 рівня\\nЕфективні проти піхоти, кавалерії та споруд\\n\\n«Цих кажанів вирощують з однією метою — для війни!»"
+  },
+  {
+   "var": "OBJECT:WildGiantBat",
+   "en": "Giant Bat",
+   "uk_ai": "Велетенський кажан"
+  },
+  {
+   "var": "CONTROLBAR:Vampirism",
+   "en": "Vampirism",
+   "uk_ai": "Вампіризм"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipVampirism",
+   "en": "Flying units lose -30% speed for 5 seconds \\n when hit by Giant Bats \\n Passive ability \\n \\n Requires Level 3\\n Giant Bats regain health per hit \\n Passive ability",
+   "uk_ai": "Летючі загони, уражені велетенськими кажанами,\\nна 5 сек. втрачають 30% швидкості\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nНеобхідно: Рівень 3\\nКожен удар відновлює велетенським кажанам здоров'я\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildAttackTroll",
+   "en": "Gundabad Stone-troll (&T)",
+   "uk_ai": "Кам'яний троль Ґундабаду (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildAttackTroll",
+   "en": "Requires Level 3 Troll Lair\\n Strong vs. Swordsmen, Cavalry, and Structures \\n \\n These Stone-trolls originate from the darkest, most hostile environments in the Misty Mountains. Their hides are tough, their grasping limbs long and powerful, and their cruelty is second to none.",
+   "uk_ai": "Необхідно: Лігво тролів 3 рівня\\nЕфективні проти мечників, кавалерії та споруд\\n\\nЦі кам'яні тролі походять із найтемніших і найворожіших місць Імлистих гір. Їхня шкура груба, загребущі кінцівки довгі й потужні, а жорстокості їм не позичати."
+  },
+  {
+   "var": "OBJECT:WildAttackTroll",
+   "en": "Gundabad Stone-troll",
+   "uk_ai": "Кам'яний троль Ґундабаду"
+  },
+  {
+   "var": "CONTROLBAR:ThickSkull",
+   "en": "Thick Skull (&W)",
+   "uk_ai": "Товстий череп (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipThickSkull",
+   "en": "Requires Level 2\\nFor 15 seconds, the Troll gains +50% damage against structures\\nbut loses -50% armour \\nThe Troll deals no splash attacks against structures while Thick Skull is active\\n Left click to activate",
+   "uk_ai": "Необхідно: Рівень 2\\nНа 15 сек. троль отримує бонус +50% до пошкоджень спорудам,\\nале втрачає 50% броні\\nПоки діє «Товстий череп», троль не б'є споруди по площі\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDreadHelmet",
+   "en": "Purchase Dread Helmet (&R)",
+   "uk_ai": "Жахливий шолом (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDreadHelmet",
+   "en": "Upgrades this troll with a Dread Helmet \\n Significantly increases armour and scares enemy units \\n Decreases Stone-troll's speed by 7%",
+   "uk_ai": "Оснащує цього троля жахливим шоломом\\nЗначно збільшує броню й лякає ворожі загони\\nЗнижує швидкість кам'яного троля на 7%"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeSerratedArmor",
+   "en": "Purchase Serrated Armour (&T)",
+   "uk_ai": "Зазубрені обладунки (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeSerratedArmor",
+   "en": "Upgrades this troll with Serrated Armour \\n Significantly increases troll's hitpoints and decreases crush deceleration \\n Decreases Stone-troll's speed by 7%",
+   "uk_ai": "Оснащує цього троля зазубреними обладунками\\nЗначно збільшує здоров'я троля й зменшує сповільнення під час топтання\\nЗнижує швидкість кам'яного троля на 7%"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeScytheGauntlets",
+   "en": "Purchase Scythe Gauntlets (&C)",
+   "uk_ai": "Рукавиці-коси (&C)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeScytheGauntlets",
+   "en": "Upgrades this Stone-troll with Scythe Gauntlets \\n Significantly increases attack power and splash damage \\n Decreases Stone-troll's speed by 7%",
+   "uk_ai": "Оснащує цього кам'яного троля рукавицями-косами\\nЗначно збільшує силу атаки й пошкодження по площі\\nЗнижує швидкість кам'яного троля на 7%"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildMountainGiant",
+   "en": "Mountain Giant (&S)",
+   "uk_ai": "Гірський велетень (&S)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildMountainGiant",
+   "en": "Requires Level 3 Troll Lair \\n Limited to 2 \\n Brood of the North raises limit to 5 \\n Strong vs. Structures and Swordsmen \\n \\n 'There they were sheltering under a hanging rock for the night, and Bilbo lay beneath a blanket and shook from head to toe. When he peeped out in the lightning-flashes, he saw that across the valley the stone-giants were out, and were hurling rocks at one another for a game, and catching them, and tossing them down into the darkness where they smashed among the trees far below, or splintered into little bits with a bang.'",
+   "uk_ai": "Необхідно: Лігво тролів 3 рівня\\nМаксимум 2 одночасно\\n«Виводок Півночі» збільшує ліміт до 5\\nЕфективні проти споруд і мечників\\n\\n«Вони сховалися на ніч під навислою скелею, і Більбо лежав під ковдрою, тремтячи з голови до ніг. Визирнувши при спалаху блискавки, він побачив, що по той бік долини вийшли кам'яні велетні: вони жбурляли одне в одного брилами, ловили їх і кидали в темряву, де ті з гуркотом трощилися серед дерев далеко внизу або з тріском розліталися на друзки»."
+  },
+  {
+   "var": "OBJECT:WildMountainGiant",
+   "en": "Mountain Giant",
+   "uk_ai": "Гірський велетень"
+  },
+  {
+   "var": "CONTROLBAR:WildMountainGiantStomp",
+   "en": "Stomp (&T)",
+   "uk_ai": "Тупіт (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWildMountainGiantStomp",
+   "en": "Powerful attack that causes additional damage and meta impact\\nCannot use with rock equipped\\nLeft click to activate",
+   "uk_ai": "Потужна атака, що завдає додаткових пошкоджень і збиває з ніг\\nНе можна використати, коли в руках брила\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ConstructFireWyrmLair",
+   "en": "Build Wyrm Lair (&M)",
+   "uk_ai": "Лігво зміїв (&M)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructFireWyrmLair",
+   "en": "Tames Wyrms and Cold-drakes",
+   "uk_ai": "Приручає зміїв і холодних драконів"
+  },
+  {
+   "var": "OBJECT:WyrmDrakeLair",
+   "en": "Wyrm Lair",
+   "uk_ai": "Лігво зміїв"
+  },
+  {
+   "var": "OBJECT:FireWyrmLairDescription",
+   "en": "Allows recruitment of Wyrms and Cold-drakes",
+   "uk_ai": "Дозволяє вербувати зміїв і холодних драконів"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeFireWyrmLairLevel2",
+   "en": "Upgrade Wyrm Lair to Level 2 (&A)",
+   "uk_ai": "Покращити лігво зміїв до 2-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildFireWyrmLairLevel2Upgrade",
+   "en": "Allows taming of Cold-drakes\\n+10% faster build speed",
+   "uk_ai": "Дозволяє приручати холодних драконів\\n+10% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeFireWyrmLairLevel3",
+   "en": "Upgrade Wyrm Lair to Level 3 (&A)",
+   "uk_ai": "Покращити лігво зміїв до 3-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildFireWyrmLairLevel3Upgrade",
+   "en": "Friendly Fire-drakes and Cold-drakes near the Lair are passively healed over time\\n+25% faster build speed",
+   "uk_ai": "Союзні вогняні й холодні дракони біля лігва постійно зцілюються\\n+25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseWildFireDrake",
+   "en": "Fire-drake (&W)",
+   "uk_ai": "Вогняний дракон (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWildDrake",
+   "en": "Tame a wild fire-breathing Wyrm\\n\\n Limited to 2 \\n Brood of the North raises limit to 4\\nStrong vs. infantry and structures \\n \\n Though flightless and smaller than Dragons, Fire-drakes are considered some of the most dangerous creatures in Middle-earth.",
+   "uk_ai": "Приручити дикого вогнедишного змія\\n\\nМаксимум 2 одночасно\\n«Виводок Півночі» збільшує ліміт до 4\\nЕфективні проти піхоти й споруд\\n\\nХоч вогняні дракони й не літають і менші за справжніх драконів, їх вважають одними з найнебезпечніших істот Середзем'я."
+  },
+  {
+   "var": "OBJECT:WildFireDrake",
+   "en": "Fire-drake",
+   "uk_ai": "Вогняний дракон"
+  },
+  {
+   "var": "CONTROLBAR:ToggleOffFireDrakeFlameAttack",
+   "en": "Disable Fire Breath (&W)",
+   "uk_ai": "Вимкнути вогняний подих (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleOnFireDrakeFlameAttack",
+   "en": "Every 20 seconds, The Fire-drake \\n automatically breathes fire with its attacks. \\n Passive Ability \\n\\n Left-click to disable automatic fire breath",
+   "uk_ai": "Щодвадцять секунд вогняний дракон\\nавтоматично дихає вогнем під час атаки.\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nКлікніть, щоб вимкнути автоматичний вогняний подих"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityCampaignWarDrakeStun",
+   "en": "Dread Gaze (&R)",
+   "uk_ai": "Жахливий погляд (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityCampaignWarDrakeStun",
+   "en": "Modifier Type: Debuff\\n When activated, nullifies enemy leadership nearby the Fire-drake for 15 seconds\\nLeft click to activate",
+   "uk_ai": "Тип ефекту: Ослаблення\\nПісля активації на 15 сек. скасовує вороже лідерство поряд із вогняним драконом\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityFireDrakeJetOfFlame",
+   "en": "Jet of Flame (&T)",
+   "uk_ai": "Струмінь полум'я (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityFireDrakeJetOfFlame",
+   "en": "Requires Level 2 \\nThe Fire-drake launches a devastating fireball from long range\\nLeft click then left click on target enemy",
+   "uk_ai": "Необхідно: Рівень 2\\nВогняний дракон здалеку випускає нищівну вогняну кулю\\nКлікніть на іконку, потім оберіть ворога"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseWildColdDrake",
+   "en": "Cold-drake (&E)",
+   "uk_ai": "Холодний дракон (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWildColdDrake",
+   "en": "Requires Level 2 Wyrm Lair \\n and Brood of the North \\n Tame a wild Cold-drake \\n Strong vs. infantry, cavalry and structures \\n \\n They were very great beside the Men of those days - cold as in the nature of snakes and serpents, \\nand of them a many having wings go with the uttermost noise and speed... \\n Only 1 Cold-drake is allowed at any time.",
+   "uk_ai": "Необхідно: Лігво зміїв 2 рівня\\nі покращення «Виводок Півночі»\\nПриручити дикого холодного дракона\\nЕфективні проти піхоти, кавалерії та споруд\\n\\nВони були дуже великі порівняно з людьми тих днів — холодні, як змії та гадюки,\\nі багато з них, маючи крила, мчать із неймовірним шумом і швидкістю...\\nОдночасно можна мати лише 1 холодного дракона."
+  },
+  {
+   "var": "OBJECT:ColdDrake",
+   "en": "Cold-drake",
+   "uk_ai": "Холодний дракон"
+  },
+  {
+   "var": "CONTROLBAR:ColdDrakeScreech",
+   "en": "Heart-freezing Roar (&W)",
+   "uk_ai": "Ревіння, що студить серце (&W)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipColdDrakeScreech",
+   "en": "Requires level 2 \\n Stuns enemies in fear for 15 seconds \\n Left click to activate",
+   "uk_ai": "Необхідно: Рівень 2\\nНа 15 сек. приголомшує ворогів страхом\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildSentryTower",
+   "en": "Build Sentry Tower (&Y)",
+   "uk_ai": "Сторожова вежа (&Y)"
+  },
+  {
+   "var": "OBJECT:WildSentryTower",
+   "en": "Sentry Tower",
+   "uk_ai": "Сторожова вежа"
+  },
+  {
+   "var": "CONTROLBAR:ConstructAltarofFire",
+   "en": "Altar of Flame (&V)",
+   "uk_ai": "Вівтар полум'я (&V)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructAltarofFire",
+   "en": "Recruits Moria-orc Shamans\\nWorships Durin's Bane to cast various mapwide abilities\\nLimited to 1\\nCannot be demolished",
+   "uk_ai": "Вербує орків-шаманів Морії\\nПоклоняється Дуріновій загибелі, щоб застосовувати здібності на всю мапу\\nМаксимум 1 одночасно\\nНе можна знести"
+  },
+  {
+   "var": "OBJECT:AltarofFire",
+   "en": "Altar of Flame",
+   "uk_ai": "Вівтар полум'я"
+  },
+  {
+   "var": "OBJECT:AltarofFireDescription",
+   "en": "Worships Durin's Bane to cast various mapwide abilities",
+   "uk_ai": "Поклоняється Дуріновій загибелі, щоб застосовувати здібності на всю мапу"
+  },
+  {
+   "var": "CONTROLBAR:DrumsInTheDeepSaF",
+   "en": "Drums in the Deep",
+   "uk_ai": "Барабани в глибинах"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDrumsInTheDeepSaF",
+   "en": "Requires Drums in the Deep fortress upgrade\\nTemporarily summons 2 hordes of Moria-orc Screechers\\nLeft click to activate",
+   "uk_ai": "Потребує покращення фортеці «Барабани в глибинах»\\nТимчасово прикликає 2 загони орків-крикунів Морії\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityDarkRenewal",
+   "en": "Dark Renewal (&E)",
+   "uk_ai": "Темне відновлення (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityDarkRenewal",
+   "en": "When activated, one fallen unit from all friendly battalions across the map is replenished\\nLeft click to activate",
+   "uk_ai": "Після активації кожен союзний загін на мапі поповнюється на одного полеглого воїна\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityPlunderedTribute",
+   "en": "Plundered Tribute (&R)",
+   "uk_ai": "Пограбована данина (&R)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSpecialAbilityPlunderedTribute",
+   "en": "Selected Orc Tunnel or Goblin Hoard's resource output is raised to 250% for 5 minutes\\n Left click icon then left click on target resource structure",
+   "uk_ai": "Обраний орочий тунель чи ґоблінська скарбниця на 5 хв. видобуває 250% ресурсів\\nКлікніть на іконку, потім оберіть ресурсну споруду"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityFlameofUdun",
+   "en": "Flame of Udûn (&T)",
+   "uk_ai": "Полум'я Удуна (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityFlameofUdun",
+   "en": "Requires four full battalions of Moria-orc Shamans \\n Sacrifice all Shamans on the battlefield to summon the wrath of Durin's Bane and burn all enemy units in target area\\n Left click icon and then left click on target location",
+   "uk_ai": "Необхідно: 4 повні загони орків-шаманів Морії\\nПринесіть у жертву всіх шаманів на полі бою, щоб прикликати гнів Дурінової загибелі й спалити всі ворожі загони на обраній ділянці\\nКлікніть на іконку, потім оберіть ділянку"
+  },
+  {
+   "var": "CONTROLBAR:ConstructConstructMoriaShamanHorde",
+   "en": "Moria-orc Shaman (&W)",
+   "uk_ai": "Орк-шаман Морії (&W)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipBuildConstructMoriaShamanHorde",
+   "en": "Battlefield Support Unit \\n \\n Enraptured by the ancient mysteries of the Shadow and the Flame, these orcs have gathered a band of hapless followers, who will gladly sacrifice themselves in order to fuel the dark sorcery that Durin's Bane bestows upon their masters.",
+   "uk_ai": "Загін підтримки\\n\\nЗачаровані давніми таємницями Тіні й Полум'я, ці орки зібрали гурт нещасних послідовників, що охоче приносять себе в жертву, аби живити темне чаклунство, яким Дурінова загибель обдаровує їхніх господарів."
+  },
+  {
+   "var": "OBJECT:GoblinShaman",
+   "en": "Moria-orc Shaman",
+   "uk_ai": "Орк-шаман Морії"
+  },
+  {
+   "var": "OBJECT:GoblinTownAcolyte",
+   "en": "Goblin-town Acolyte",
+   "uk_ai": "Послідовник із Ґоблін-міста"
+  },
+  {
+   "var": "CONTROLBAR:ServantsoftheFlame",
+   "en": "Servants of the Flame (&W)",
+   "uk_ai": "Слуги Полум'я (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipServantsoftheFlame",
+   "en": "Targeted friendly units permanently deal added fire damage \\n with their attacks and to enemies that attack them \\n Grants 50% armour against fire as well \\nCan only be used on Misty Mountains melee infantry\\nDoes not affect heroic units or monsters\\nLeft click icon then left click on target units",
+   "uk_ai": "Обрані союзні загони назавжди завдають додаткових пошкоджень вогнем\\nсвоїми атаками й ворогам, що атакують їх\\nТакож дає бонус +50% броні проти вогню\\nМожна застосувати лише до піхоти ближнього бою Імлистих гір\\nНе діє на героїчні загони та істот\\nКлікніть на іконку, потім оберіть потрібні загони"
+  },
+  {
+   "var": "CONTROLBAR:ValaraukarWrath",
+   "en": "Valaraukar's Wrath (&R)",
+   "uk_ai": "Гнів валараукара (&R)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipValaraukarWrath",
+   "en": "Durin's Bane was capable of casting powerful spells, and could be persuaded by his servants to use them to their advantage\\nSummons Valaraukar's Wrath from the ground\\n Enemies in targeted area are knocked back and suffer moderate damage\\nLeft click icon then left click on target area",
+   "uk_ai": "Дурінова загибель володів могутніми чарами, і слуги могли вмовити його використати їх собі на користь\\nВикликає з-під землі гнів валараукара\\nВороги на обраній ділянці відкидаються й отримують помірні пошкодження\\nКлікніть на іконку, потім оберіть ділянку"
+  },
+  {
+   "var": "CONTROLBAR:WildMuzgashRecruit",
+   "en": "Recruit a dangerous Moria Orc warlord \\n \\n 'A roving goblin warlord, Mûzgash enjoys great renown amongst the Orcs of the Misty Mountains. Orc-women want him, Orc-men want to be like him.'",
+   "uk_ai": "Завербувати небезпечного ватажка орків Морії\\n\\n«Мандрівний ґоблінський ватажок Музґаш має велику славу серед орків Імлистих гір. Орчиці його хочуть, орки хочуть бути схожими на нього»."
+  },
+  {
+   "var": "CONTROLBAR:WildMuzgashRevive",
+   "en": "Revive the fallen warlord, Mûzgash",
+   "uk_ai": "Відродити полеглого в бою ватажка Музґаша"
+  },
+  {
+   "var": "CONTROLBAR:WildGolfimbulRecruit",
+   "en": "Recruit the Chieftain of Mount Gram \\n \\n 'Long after the day his ancestor's gruesome death sparked the invention of a silly Halfling sport, Golfimbul seeks to avenge the death of his namesake by laying waste to the Shire.'",
+   "uk_ai": "Завербувати Отамана гори Ґрам\\n\\n«Через багато років після того, як моторошна смерть його предка дала початок дурній гобітській грі, Ґольфімбул прагне помститися за свого тезка, спустошивши Шир»."
+  },
+  {
+   "var": "CONTROLBAR:WildGolfimbulRevive",
+   "en": "Revive the Chieftain of Mount Gram",
+   "uk_ai": "Відродити Отамана гори Ґрам"
+  },
+  {
+   "var": "CONTROLBAR:WildUrshakRecruit",
+   "en": "Recruit Urshak the Shaman \\n \\n 'A powerful and zealous shaman, Urshak is capable of elevating even the meekest of his followers into committing acts of great cruelty and derangement.'",
+   "uk_ai": "Завербувати шамана Уршака\\n\\n«Могутній і запопадливий шаман Уршак здатен підбити навіть найсмирніших своїх послідовників на страшенно жорстокі й шалені вчинки»."
+  },
+  {
+   "var": "CONTROLBAR:WildUrshakRevive",
+   "en": "Revive the fallen Orcish Shaman.",
+   "uk_ai": "Відродити полеглого в бою орочого шамана."
+  },
+  {
+   "var": "CONTROLBAR:LugRecruitNew",
+   "en": "Recruit the deranged killer for hire, Lug \\n \\n Harboring an equal appetite for gold and destruction, Lug is a ferocious manhunter whose murderous reputation precedes him throughout the dredges of the Misty Mountains.",
+   "uk_ai": "Завербувати Луґа, божевільного найманого вбивцю\\n\\nОднаково жадібний до золота й руйнування, Луґ — лютий ловець людей, чия кривава слава летить поперед нього всіма закутками Імлистих гір."
+  },
+  {
+   "var": "CONTROLBAR:LugReviveNew",
+   "en": "Revive the fallen Hero, Lug",
+   "uk_ai": "Відродити полеглого в бою Луґа"
+  },
+  {
+   "var": "CONTROLBAR:WildGreatGoblinRecruit",
+   "en": "Recruit the King of Goblin-town \\n \\n 'Abominations, disfigurations, mutilations, and repulsions... That's all you're going to find down here.'",
+   "uk_ai": "Завербувати Короля Ґоблін-міста\\n\\n«Потвори, каліки, покручі й мерзоти... Ось і все, що ви тут знайдете»."
+  },
+  {
+   "var": "CONTROLBAR:WildGreatGoblinRevive",
+   "en": "Revive the Great Goblin, the leader of Goblin-town",
+   "uk_ai": "Відродити Верховного ґобліна, володаря Ґоблін-міста"
+  },
+  {
+   "var": "CONTROLBAR:BolgRecruitNew",
+   "en": "Recruit the Scourge of the Misty Mountains \\n \\n 'The Goblins are upon you! Bolg of the North is coming. O Dáin! whose father you slew in Moria. \\n Behold! the bats are above his army like a sea of locusts. They ride upon wolves and Wargs are in their train!'",
+   "uk_ai": "Завербувати Бич Імлистих гір\\n\\n«На вас ідуть ґобліни! Наближається Болґ із Півночі. О Дайне! Його батька ти вбив у Морії.\\nДивіться! Над його військом кажани, мов хмара сарани. Вони їдуть на вовках, а за ними — варґи!»"
+  },
+  {
+   "var": "CONTROLBAR:BolgReviveNew",
+   "en": "Revive the fallen Hero, Bolg",
+   "uk_ai": "Відродити полеглого в бою Болґа"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+﻿1
+00:00:17,917 --> 00:00:19,583
+Mr. Frodo?
+
+2
+00:00:23,042 --> 00:00:24,792
+What is it?
+
+3
+00:00:26,250 --> 00:00:30,542
+It's four years to the
+day since Weathertop, Sam.
+
+4
+00:00:30,667 --> 00:00:33,792
+It's never really healed.
+
+5
+00:00:37,333 --> 00:00:39,625
+There and Back Again.
+
+6
+00:00:39,667 --> 00:00:42,292
+A Hobbit's Tale by Bilbo Baggins.
+
+7
+00:00:43,167 --> 00:00:47,500
+And The Lord of the Rings by Frodo Baggins.
+
+8
+00:00:47,667 --> 00:00:50,292
+You finished it.
+
+9
+00:00:52,625 --> 00:00:54,875
+Not quite.
+
+10
+00:00:55,083 --> 00:00:58,083
+There's room for a little more.

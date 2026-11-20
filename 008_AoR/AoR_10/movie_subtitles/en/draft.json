@@ -1,0 +1,3442 @@
+{
+ "Overall_Game_Intro": [
+  {
+   "start_frame": 49,
+   "end_frame": 129,
+   "line": 14,
+   "en": "The Shadow is almost upon us, Aragorn. Soon",
+   "es": "La Sombra está casi\nsobre nosotros, Aragorn."
+  },
+  {
+   "start_frame": 132,
+   "end_frame": 271,
+   "line": 14,
+   "en": "I must come unto all that I strove for, or I will fall into darkness. You",
+   "es": "Pronto he de alcanzar todo por lo que luché\no caeré en la oscuridad."
+  },
+  {
+   "start_frame": 370,
+   "end_frame": 430,
+   "line": 15,
+   "en": "And this world will come to ruin.",
+   "es": "Entonces este mundo quedará en ruinas."
+  },
+  {
+   "start_frame": 442,
+   "end_frame": 573,
+   "line": 14,
+   "en": "Long have you carried with you the remnants of the past.",
+   "es": "Durante mucho tiempo has cargado\ncon los restos del pasado."
+  },
+  {
+   "start_frame": 585,
+   "end_frame": 640,
+   "line": 15,
+   "en": "This is your test.",
+   "es": "Esta es tu prueba."
+  },
+  {
+   "start_frame": 710,
+   "end_frame": 805,
+   "line": 14,
+   "en": "Every path you have trod through wilderness, through war, has",
+   "es": "Cada senda que has recorrido,\npor tierras salvajes, por la guerra,"
+  },
+  {
+   "start_frame": 806,
+   "end_frame": 909,
+   "line": 15,
+   "en": "led to this road.",
+   "es": "te ha traído hasta este camino."
+  },
+  {
+   "start_frame": 930,
+   "end_frame": 996,
+   "line": 15,
+   "en": "We come to it at last.",
+   "es": "Por fin ha llegado."
+  },
+  {
+   "start_frame": 1015,
+   "end_frame": 1099,
+   "line": 15,
+   "en": "The great battle of our time.",
+   "es": "La gran batalla de nuestro tiempo."
+  },
+  {
+   "start_frame": 1138,
+   "end_frame": 1257,
+   "line": 14,
+   "en": "The blade that was broken. You return to Minas Tirith.",
+   "es": "La hoja que fue rota\nvolverá a Minas Tirith."
+  },
+  {
+   "start_frame": 1268,
+   "end_frame": 1311,
+   "line": 15,
+   "en": "Put aside the Ranger. Become",
+   "es": "Deja atrás al montaraz."
+  },
+  {
+   "start_frame": 1314,
+   "end_frame": 1406,
+   "line": 15,
+   "en": "who you were born to be.",
+   "es": "Conviértete en quien naciste para ser."
+  },
+  {
+   "start_frame": 1455,
+   "end_frame": 1550,
+   "line": 15,
+   "en": "No! Let him go, you filth!",
+   "es": "¡No! ¡Suéltalo, escoria!"
+  },
+  {
+   "start_frame": 1864,
+   "end_frame": 1910,
+   "line": 15,
+   "en": "We fight.",
+   "es": "Lucharemos."
+  },
+  {
+   "start_frame": 1916,
+   "end_frame": 2047,
+   "line": 14,
+   "en": "I see in your eyes the same fear that would take the heart of me.",
+   "es": "Veo en vuestros ojos el mismo miedo\nque podría apoderarse de mi corazón."
+  },
+  {
+   "start_frame": 2070,
+   "end_frame": 2154,
+   "line": 14,
+   "en": "A day may come when the courage of men fails. When we",
+   "es": "Quizá llegue un día\nen que el valor de los hombres flaquee,"
+  },
+  {
+   "start_frame": 2156,
+   "end_frame": 2302,
+   "line": 14,
+   "en": "forsake our friends and break all bonds of fellowship.",
+   "es": "en que abandonemos a nuestros amigos\ny rompamos todos los lazos de hermandad."
+  },
+  {
+   "start_frame": 2306,
+   "end_frame": 2364,
+   "line": 15,
+   "en": "But it is not this day! Whatever",
+   "es": "¡Pero no será hoy!"
+  },
+  {
+   "start_frame": 2366,
+   "end_frame": 2415,
+   "line": 15,
+   "en": "happens, stay with me. This",
+   "es": "Pase lo que pase, quédate conmigo."
+  },
+  {
+   "start_frame": 2418,
+   "end_frame": 2484,
+   "line": 15,
+   "en": "day we fight!",
+   "es": "¡Hoy luchamos!"
+  },
+  {
+   "start_frame": 2839,
+   "end_frame": 2983,
+   "line": 14,
+   "en": "All we have to decide here is what to do with the time that is given to us.",
+   "es": "Lo único que nos toca decidir\nes qué hacer con el tiempo que se nos da."
+  },
+  {
+   "start_frame": 3069,
+   "end_frame": 3158,
+   "line": 15,
+   "en": "Hold back! Hold back to the mountain!",
+   "es": "¡Retroceded! ¡Retroceded a la montaña!"
+  }
+ ],
+ "AOTRCampaign_00": [
+  {
+   "start_frame": 124,
+   "end_frame": 206,
+   "line": 14,
+   "en": "It began with the forging of the Great Rings.",
+   "es": "Todo empezó cuando se forjaron\nlos Grandes Anillos."
+  },
+  {
+   "start_frame": 223,
+   "end_frame": 274,
+   "line": 15,
+   "en": "Three were given to the Elves, immortal,",
+   "es": "Tres fueron para los elfos,"
+  },
+  {
+   "start_frame": 277,
+   "end_frame": 374,
+   "line": 14,
+   "en": "wisest, and fairest of all beings.",
+   "es": "inmortales, los más sabios y bellos\nde todos los seres."
+  },
+  {
+   "start_frame": 400,
+   "end_frame": 456,
+   "line": 15,
+   "en": "Seven to the Dwarf Lords, great",
+   "es": "Siete, para los señores enanos,"
+  },
+  {
+   "start_frame": 469,
+   "end_frame": 561,
+   "line": 14,
+   "en": "miners and craftsmen of the mountain halls.",
+   "es": "grandes mineros y artesanos\nde los salones de las montañas."
+  },
+  {
+   "start_frame": 585,
+   "end_frame": 681,
+   "line": 14,
+   "en": "and nine nine rings were gifted to the race of men",
+   "es": "Y nueve, nueve anillos se otorgaron\na la raza de los hombres,"
+  },
+  {
+   "start_frame": 684,
+   "end_frame": 796,
+   "line": 14,
+   "en": "who above all else desire power for",
+   "es": "que, por encima de todo,\nansían el poder."
+  },
+  {
+   "start_frame": 802,
+   "end_frame": 950,
+   "line": 14,
+   "en": "within these rings was bound the strength and will to govern each race but",
+   "es": "Pues estos anillos encerraban la fuerza\ny la voluntad de gobernar a cada raza."
+  },
+  {
+   "start_frame": 965,
+   "end_frame": 1030,
+   "line": 15,
+   "en": "they were all of them deceived",
+   "es": "Pero a todos ellos los engañaron,"
+  },
+  {
+   "start_frame": 1046,
+   "end_frame": 1111,
+   "line": 15,
+   "en": "for another ring was made in",
+   "es": "pues se forjó otro anillo."
+  },
+  {
+   "start_frame": 1130,
+   "end_frame": 1220,
+   "line": 14,
+   "en": "a land of Mordor in the fires of Mount Doom the",
+   "es": "En la tierra de Mordor,\nen los fuegos del Monte del Destino,"
+  },
+  {
+   "start_frame": 1226,
+   "end_frame": 1386,
+   "line": 14,
+   "en": "The Dark Lord Sauron forged in secret a master ring to control all others. And",
+   "es": "el Señor Oscuro Sauron forjó en secreto\nun Anillo supremo para dominar a los demás."
+  },
+  {
+   "start_frame": 1392,
+   "end_frame": 1494,
+   "line": 14,
+   "en": "into this ring, he poured his cruelty, his malice, and his",
+   "es": "Y en este Anillo volcó su crueldad,\nsu malicia"
+  },
+  {
+   "start_frame": 1496,
+   "end_frame": 1581,
+   "line": 14,
+   "en": "will to dominate all life.",
+   "es": "y su voluntad de dominar\ntoda forma de vida."
+  },
+  {
+   "start_frame": 1616,
+   "end_frame": 1708,
+   "line": 15,
+   "en": "One ring to rule them all.",
+   "es": "Un Anillo para gobernarlos a todos."
+  },
+  {
+   "start_frame": 1724,
+   "end_frame": 1766,
+   "line": 15,
+   "en": "One by one, the",
+   "es": "Uno a uno,"
+  },
+  {
+   "start_frame": 1771,
+   "end_frame": 1880,
+   "line": 14,
+   "en": "three lands of Middle-earth fell to the power of the ring. But",
+   "es": "las tierras libres de la Tierra Media\nsucumbieron al poder del Anillo."
+  },
+  {
+   "start_frame": 1882,
+   "end_frame": 1980,
+   "line": 15,
+   "en": "there were some who resisted.",
+   "es": "Pero hubo quienes resistieron."
+  }
+ ],
+ "AOTRCampaign_01": [
+  {
+   "start_frame": 93,
+   "end_frame": 225,
+   "line": 14,
+   "en": "Sauron, the enemy of the free peoples of Middle-earth, was defeated.",
+   "es": "Sauron, el enemigo de los Pueblos Libres\nde la Tierra Media, fue derrotado."
+  },
+  {
+   "start_frame": 270,
+   "end_frame": 378,
+   "line": 14,
+   "en": "But the hearts of men are easily corrupted,",
+   "es": "Pero el corazón de los Hombres\nes fácil de corromper,"
+  },
+  {
+   "start_frame": 380,
+   "end_frame": 494,
+   "line": 14,
+   "en": "and the Ring of Power has a will of its own.",
+   "es": "y el Anillo de Poder\ntiene su propia voluntad."
+  },
+  {
+   "start_frame": 564,
+   "end_frame": 681,
+   "line": 14,
+   "en": "history became legend legend became myth and",
+   "es": "La historia se volvió leyenda.\nLa leyenda se volvió mito."
+  },
+  {
+   "start_frame": 684,
+   "end_frame": 835,
+   "line": 14,
+   "en": "for two and a half thousand years the ring passed out of all knowledge",
+   "es": "Y durante dos mil quinientos años,\nel Anillo se borró de toda memoria,"
+  },
+  {
+   "start_frame": 837,
+   "end_frame": 936,
+   "line": 15,
+   "en": "until when chance came it",
+   "es": "hasta que, cuando surgió la oportunidad,"
+  },
+  {
+   "start_frame": 952,
+   "end_frame": 1017,
+   "line": 15,
+   "en": "ensnared a new bearer",
+   "es": "atrapó en sus redes a un nuevo portador."
+  },
+  {
+   "start_frame": 1065,
+   "end_frame": 1128,
+   "line": 15,
+   "en": "",
+   "es": "Mi tesoro."
+  },
+  {
+   "start_frame": 1176,
+   "end_frame": 1241,
+   "line": 15,
+   "en": "The ring came to the creature Gollum, who",
+   "es": "El Anillo llegó hasta la criatura Gollum,"
+  },
+  {
+   "start_frame": 1243,
+   "end_frame": 1348,
+   "line": 14,
+   "en": "took it deep into the tunnels of the Misty Mountains.",
+   "es": "que lo llevó a lo más hondo de los túneles\nde las Montañas Nubladas."
+  },
+  {
+   "start_frame": 1382,
+   "end_frame": 1495,
+   "line": 14,
+   "en": "But something happened then the ring did not intend.",
+   "es": "Pero entonces sucedió algo\nque no entraba en los planes del Anillo."
+  },
+  {
+   "start_frame": 1584,
+   "end_frame": 1725,
+   "line": 14,
+   "en": "The 22nd day of September, in the year 1400,",
+   "es": "El día 22 de septiembre\ndel año 1400,"
+  },
+  {
+   "start_frame": 1737,
+   "end_frame": 1796,
+   "line": 15,
+   "en": "by Shire reckoning, Bag",
+   "es": "según el Cómputo de la Comarca."
+  },
+  {
+   "start_frame": 1800,
+   "end_frame": 1946,
+   "line": 14,
+   "en": "End, Bagshot Rhone, Hobbiton, West Farthing, the",
+   "es": "Bolsón Cerrado, Bolsón de Tirada,\nHobbiton, Cuaderna del Oeste,"
+  },
+  {
+   "start_frame": 1951,
+   "end_frame": 1999,
+   "line": 15,
+   "en": "Shire, Middle",
+   "es": "la Comarca,"
+  },
+  {
+   "start_frame": 2002,
+   "end_frame": 2061,
+   "line": 15,
+   "en": "Earth.",
+   "es": "la Tierra Media,"
+  },
+  {
+   "start_frame": 2176,
+   "end_frame": 2251,
+   "line": 15,
+   "en": "The third age of this world",
+   "es": "la Tercera Edad de este mundo."
+  }
+ ],
+ "AOTRCampaign_01a": [
+  {
+   "start_frame": 109,
+   "end_frame": 199,
+   "line": 15,
+   "en": "Concerning hobbits.",
+   "es": "Acerca de los hobbits."
+  },
+  {
+   "start_frame": 230,
+   "end_frame": 334,
+   "line": 14,
+   "en": "Hobbits have been living and farming in the forefardings of the Shire for",
+   "es": "Los hobbits han vivido y cultivado\nen las cuatro Cuadernas de la Comarca"
+  },
+  {
+   "start_frame": 337,
+   "end_frame": 381,
+   "line": 15,
+   "en": "many hundreds of years. Quite",
+   "es": "durante muchos cientos de años,"
+  },
+  {
+   "start_frame": 384,
+   "end_frame": 525,
+   "line": 14,
+   "en": "content to ignore and be ignored by the world of the big folk.",
+   "es": "muy contentos de ignorar y ser ignorados\npor el mundo de la Gente Grande."
+  },
+  {
+   "start_frame": 537,
+   "end_frame": 616,
+   "line": 15,
+   "en": "In fact, it has been remarked by some that",
+   "es": "De hecho, hay quien ha señalado"
+  },
+  {
+   "start_frame": 619,
+   "end_frame": 712,
+   "line": 14,
+   "en": "hobbits' only real passion is for food.",
+   "es": "que la única pasión verdadera\nde los hobbits es la comida."
+  },
+  {
+   "start_frame": 715,
+   "end_frame": 778,
+   "line": 15,
+   "en": "A rather unfair observation, as",
+   "es": "Una observación bastante injusta,"
+  },
+  {
+   "start_frame": 781,
+   "end_frame": 846,
+   "line": 14,
+   "en": "we have also developed a keen interest in the brewing",
+   "es": "pues también hemos cultivado\nun vivo interés"
+  },
+  {
+   "start_frame": 847,
+   "end_frame": 949,
+   "line": 14,
+   "en": "of ales and the smoking of pipe weed.",
+   "es": "por elaborar cerveza\ny fumar hierba para pipa."
+  },
+  {
+   "start_frame": 951,
+   "end_frame": 1026,
+   "line": 15,
+   "en": "But where our hearts truly lie is",
+   "es": "Pero donde de verdad está nuestro corazón"
+  },
+  {
+   "start_frame": 1032,
+   "end_frame": 1146,
+   "line": 14,
+   "en": "in peace and quiet, and good till the birth.",
+   "es": "es en la paz, la tranquilidad\ny la buena tierra labrada."
+  },
+  {
+   "start_frame": 1148,
+   "end_frame": 1262,
+   "line": 14,
+   "en": "For all hobbits share a love for things that grow.",
+   "es": "Porque todos los hobbits comparten\nel amor por todo lo que crece."
+  },
+  {
+   "start_frame": 1344,
+   "end_frame": 1455,
+   "line": 14,
+   "en": "And yes, no doubt to others, our ways seem quaint.",
+   "es": "Y sí, sin duda, a otros nuestras costumbres\nles parecen pintorescas."
+  },
+  {
+   "start_frame": 1459,
+   "end_frame": 1593,
+   "line": 15,
+   "en": "But today of all days, it is brought home to me, it",
+   "es": "Pero hoy, más que nunca, me doy cuenta"
+  },
+  {
+   "start_frame": 1602,
+   "end_frame": 1742,
+   "line": 14,
+   "en": "is no bad thing to celebrate a simple life.",
+   "es": "de que no tiene nada de malo\ncelebrar una vida sencilla."
+  }
+ ],
+ "AOTRCampaign_01b": [
+  {
+   "start_frame": 1,
+   "end_frame": 144,
+   "line": 14,
+   "en": "Gandalf, my old friend, this will be a night to remember.",
+   "es": "Gandalf, mi viejo amigo,\nesta será una noche inolvidable."
+  },
+  {
+   "start_frame": 421,
+   "end_frame": 506,
+   "line": 15,
+   "en": "Today is my 111st birthday!",
+   "es": "¡Hoy cumplo ciento once años!"
+  },
+  {
+   "start_frame": 579,
+   "end_frame": 672,
+   "line": 14,
+   "en": "The last 111 years is far too short a time to live",
+   "es": "Por desgracia, ciento once años\nes demasiado poco tiempo"
+  },
+  {
+   "start_frame": 673,
+   "end_frame": 777,
+   "line": 14,
+   "en": "among such excellent and admirable hobbits.",
+   "es": "para vivir entre hobbits\ntan excelentes y admirables."
+  },
+  {
+   "start_frame": 780,
+   "end_frame": 861,
+   "line": 14,
+   "en": "I don't know half of you half as well as I should like and I",
+   "es": "A la mitad no os conozco\nni la mitad de lo que querría,"
+  },
+  {
+   "start_frame": 863,
+   "end_frame": 969,
+   "line": 14,
+   "en": "like less than half of you half as well as you deserve.",
+   "es": "y a menos de la mitad os aprecio\nla mitad de lo que merecéis."
+  },
+  {
+   "start_frame": 1176,
+   "end_frame": 1257,
+   "line": 15,
+   "en": "I regret to announce this is the end.",
+   "es": "Lamento anunciaros que esto es el final."
+  },
+  {
+   "start_frame": 1299,
+   "end_frame": 1354,
+   "line": 15,
+   "en": "I'm going now. I",
+   "es": "Me marcho ya."
+  },
+  {
+   "start_frame": 1357,
+   "end_frame": 1452,
+   "line": 14,
+   "en": "bid you all a very fond farewell.",
+   "es": "Os dedico a todos\nuna despedida muy afectuosa."
+  },
+  {
+   "start_frame": 1480,
+   "end_frame": 1514,
+   "line": 15,
+   "en": "Goodbye.",
+   "es": "Adiós."
+  }
+ ],
+ "AOTRCampaign_02": [
+  {
+   "start_frame": 0,
+   "end_frame": 62,
+   "line": 15,
+   "en": "Bilbo! Bilbo!",
+   "es": "¡Bilbo! ¡Bilbo!"
+  },
+  {
+   "start_frame": 156,
+   "end_frame": 201,
+   "line": 15,
+   "en": "My precious.",
+   "es": "Mi tesoro."
+  },
+  {
+   "start_frame": 286,
+   "end_frame": 408,
+   "line": 14,
+   "en": "This is the One Ring, forged by the Dark Lord Sauron",
+   "es": "Este es el Anillo Único,\nforjado por el Señor Oscuro Sauron"
+  },
+  {
+   "start_frame": 417,
+   "end_frame": 477,
+   "line": 15,
+   "en": "in the fires of Mount Doom, taken",
+   "es": "en los fuegos del Monte del Destino,"
+  },
+  {
+   "start_frame": 480,
+   "end_frame": 573,
+   "line": 14,
+   "en": "by Isildur from the hand of Sauron himself.",
+   "es": "arrebatado por Isildur\nde la mano del propio Sauron."
+  },
+  {
+   "start_frame": 586,
+   "end_frame": 703,
+   "line": 14,
+   "en": "Bilbo found it. In Gollum's cave. Yes.",
+   "es": "Bilbo lo encontró.\nEn la cueva de Gollum."
+  },
+  {
+   "start_frame": 705,
+   "end_frame": 828,
+   "line": 14,
+   "en": "For sixty years the Ring lay quiet in Bilbo's keepin', prolonging",
+   "es": "Sí. Durante sesenta años, el Anillo\nreposó tranquilo en poder de Bilbo,"
+  },
+  {
+   "start_frame": 830,
+   "end_frame": 930,
+   "line": 14,
+   "en": "his life, delaying old age. But",
+   "es": "prolongando su vida,\nretrasando la vejez."
+  },
+  {
+   "start_frame": 932,
+   "end_frame": 1042,
+   "line": 14,
+   "en": "no longer, Frodo. Evil is stirring in Mordor. The",
+   "es": "Pero ya no, Frodo.\nEl mal se agita en Mordor."
+  },
+  {
+   "start_frame": 1045,
+   "end_frame": 1173,
+   "line": 14,
+   "en": "Ring has awoken. It's heard its master's call. But",
+   "es": "El Anillo ha despertado.\nHa oído la llamada de su amo."
+  },
+  {
+   "start_frame": 1177,
+   "end_frame": 1276,
+   "line": 14,
+   "en": "he was destroyed. Sauron was destroyed.",
+   "es": "Pero fue destruido.\nSauron fue destruido."
+  },
+  {
+   "start_frame": 1483,
+   "end_frame": 1557,
+   "line": 15,
+   "en": "The spirit of Sauron endured.",
+   "es": "El espíritu de Sauron perduró."
+  },
+  {
+   "start_frame": 1562,
+   "end_frame": 1663,
+   "line": 15,
+   "en": "Frodo, you must never find it.",
+   "es": "Frodo, él jamás debe encontrarlo."
+  },
+  {
+   "start_frame": 1696,
+   "end_frame": 1743,
+   "line": 15,
+   "en": "What must I do?",
+   "es": "¿Qué debo hacer?"
+  }
+ ],
+ "AOTRCampaign_03_a": [
+  {
+   "start_frame": 97,
+   "end_frame": 136,
+   "line": 15,
+   "en": "Where am I? You",
+   "es": "¿Dónde estoy?"
+  },
+  {
+   "start_frame": 140,
+   "end_frame": 217,
+   "line": 15,
+   "en": "are in the house of Elrond.",
+   "es": "Estás en la casa de Elrond."
+  },
+  {
+   "start_frame": 241,
+   "end_frame": 306,
+   "line": 15,
+   "en": "And it is ten o'clock in the morning, on October",
+   "es": "Y son las diez de la mañana"
+  },
+  {
+   "start_frame": 308,
+   "end_frame": 390,
+   "line": 15,
+   "en": "the 24th, if you want to know.",
+   "es": "del 24 de octubre, por si quieres saberlo."
+  },
+  {
+   "start_frame": 457,
+   "end_frame": 535,
+   "line": 14,
+   "en": "Gandalf! Yes, I'm here.",
+   "es": "-¡Gandalf!\n-Sí, aquí estoy."
+  },
+  {
+   "start_frame": 585,
+   "end_frame": 665,
+   "line": 15,
+   "en": "you're lucky to be here, too. A few",
+   "es": "Y tú también tienes suerte de estar aquí."
+  },
+  {
+   "start_frame": 678,
+   "end_frame": 782,
+   "line": 14,
+   "en": "more hours, and we would have been beyond our aid.",
+   "es": "Unas horas más y ya no habríamos\npodido hacer nada por ti."
+  },
+  {
+   "start_frame": 869,
+   "end_frame": 935,
+   "line": 15,
+   "en": "happened, Gandalf? Why didn't you",
+   "es": "¿Qué ocurrió, Gandalf?"
+  },
+  {
+   "start_frame": 961,
+   "end_frame": 1018,
+   "line": 15,
+   "en": "meet us? Oh, I am sorry, Frodo.",
+   "es": "¿Por qué no te reuniste con nosotros?"
+  },
+  {
+   "start_frame": 1021,
+   "end_frame": 1077,
+   "line": 15,
+   "en": "",
+   "es": "Oh, lo siento, Frodo."
+  },
+  {
+   "start_frame": 1203,
+   "end_frame": 1267,
+   "line": 15,
+   "en": "delayed.",
+   "es": "Me entretuvieron."
+  }
+ ],
+ "AOTRCampaign_03_b": [
+  {
+   "start_frame": 0,
+   "end_frame": 32,
+   "line": 15,
+   "en": "Frodo!",
+   "es": "¡Frodo!"
+  },
+  {
+   "start_frame": 57,
+   "end_frame": 97,
+   "line": 14,
+   "en": "Frodo! Sam! Bless you,",
+   "es": "-¡Frodo!\n-¡Sam!"
+  },
+  {
+   "start_frame": 99,
+   "end_frame": 145,
+   "line": 15,
+   "en": "you're awake! Sam",
+   "es": "¡Bendito sea, está despierto!"
+  },
+  {
+   "start_frame": 147,
+   "end_frame": 217,
+   "line": 15,
+   "en": "has hardly left your side. We",
+   "es": "Sam apenas se ha apartado de tu lado."
+  },
+  {
+   "start_frame": 219,
+   "end_frame": 287,
+   "line": 14,
+   "en": "were that worried about you, weren't we, Mr. Gandalf? By the skills",
+   "es": "Nos tenía en vilo,\n¿verdad, señor Gandalf?"
+  },
+  {
+   "start_frame": 289,
+   "end_frame": 405,
+   "line": 14,
+   "en": "of Lord Elrond, you're beginning to mend.",
+   "es": "Gracias a la pericia del señor Elrond,\nempiezas a recuperarte."
+  },
+  {
+   "start_frame": 446,
+   "end_frame": 545,
+   "line": 15,
+   "en": "Welcome to Rivendell, Frodo Baggins.",
+   "es": "Bienvenido a Rivendel, Frodo Bolsón."
+  }
+ ],
+ "AOTRCampaign_03_c": [
+  {
+   "start_frame": 18,
+   "end_frame": 110,
+   "line": 14,
+   "en": "Strangers from distant lands, friends of old, you've been",
+   "es": "Forasteros venidos de tierras lejanas,\nviejos amigos."
+  },
+  {
+   "start_frame": 112,
+   "end_frame": 215,
+   "line": 14,
+   "en": "summoned here to answer the threat of Mordor. Middle",
+   "es": "Se os ha convocado aquí para responder\na la amenaza de Mordor."
+  },
+  {
+   "start_frame": 220,
+   "end_frame": 306,
+   "line": 14,
+   "en": "-earth stands upon the brink of destruction. None can escape",
+   "es": "La Tierra Media se halla\nal borde de la destrucción."
+  },
+  {
+   "start_frame": 308,
+   "end_frame": 352,
+   "line": 15,
+   "en": "it. You will unite",
+   "es": "Nadie puede escapar de ella."
+  },
+  {
+   "start_frame": 355,
+   "end_frame": 434,
+   "line": 15,
+   "en": "or you will fall. The",
+   "es": "Os uniréis o caeréis."
+  },
+  {
+   "start_frame": 468,
+   "end_frame": 560,
+   "line": 14,
+   "en": "Ring was made in the fires of Mount Doom. Only there",
+   "es": "El Anillo se forjó\nen los fuegos del Monte del Destino."
+  },
+  {
+   "start_frame": 572,
+   "end_frame": 650,
+   "line": 15,
+   "en": "can it be unmade.",
+   "es": "Solo allí puede ser deshecho."
+  },
+  {
+   "start_frame": 686,
+   "end_frame": 765,
+   "line": 15,
+   "en": "must be taken deep into Mordor and cast back into the",
+   "es": "Hay que llevarlo a lo más hondo de Mordor"
+  },
+  {
+   "start_frame": 766,
+   "end_frame": 869,
+   "line": 14,
+   "en": "fiery chasm from whence it came.",
+   "es": "y arrojarlo de nuevo a la sima de fuego\nde la que surgió."
+  },
+  {
+   "start_frame": 932,
+   "end_frame": 1042,
+   "line": 15,
+   "en": "must do this.",
+   "es": "Uno de vosotros... debe hacerlo."
+  }
+ ],
+ "AOTRCampaign_05": [
+  {
+   "start_frame": 248,
+   "end_frame": 327,
+   "line": 15,
+   "en": "may risk a little more light.",
+   "es": "Arriesgaré un poco más de luz."
+  },
+  {
+   "start_frame": 471,
+   "end_frame": 515,
+   "line": 15,
+   "en": "Behold, the great",
+   "es": "¡Contemplad!"
+  },
+  {
+   "start_frame": 522,
+   "end_frame": 640,
+   "line": 14,
+   "en": "realm and dwarf city of Dwarf Delph.",
+   "es": "El gran reino y ciudad enana\nde la Mina del Enano."
+  },
+  {
+   "start_frame": 715,
+   "end_frame": 792,
+   "line": 14,
+   "en": "an eye-opener and no mistake",
+   "es": "Vaya, eso sí que es un espectáculo,\nsin duda."
+  }
+ ],
+ "AOTRCampaign_06": [
+  {
+   "start_frame": 181,
+   "end_frame": 292,
+   "line": 15,
+   "en": "You shall not pass!",
+   "es": "¡No pasarás!"
+  },
+  {
+   "start_frame": 992,
+   "end_frame": 1075,
+   "line": 15,
+   "en": "Gandalf!",
+   "es": "¡No! ¡No! ¡Gandalf!"
+  },
+  {
+   "start_frame": 1273,
+   "end_frame": 1330,
+   "line": 15,
+   "en": "",
+   "es": "¡Huid, necios!"
+  },
+  {
+   "start_frame": 1447,
+   "end_frame": 1517,
+   "line": 15,
+   "en": "",
+   "es": "¡No!"
+  },
+  {
+   "start_frame": 1648,
+   "end_frame": 1689,
+   "line": 15,
+   "en": "No!",
+   "es": "¡Aragorn!"
+  }
+ ],
+ "AOTRCampaign_07": [
+  {
+   "start_frame": 210,
+   "end_frame": 280,
+   "line": 14,
+   "en": "",
+   "es": "-¿Adónde nos llevas?\n-A las tierras salvajes."
+  },
+  {
+   "start_frame": 472,
+   "end_frame": 563,
+   "line": 14,
+   "en": "How do we know this Strider is a friend of Gandalf?",
+   "es": "¿Cómo sabemos que este Trancos\nes amigo de Gandalf?"
+  },
+  {
+   "start_frame": 569,
+   "end_frame": 688,
+   "line": 14,
+   "en": "I think a servant of the enemy would look fairer, feel fouler. He's",
+   "es": "Creo que un siervo del Enemigo tendría\nmejor aspecto... y sería más desagradable."
+  },
+  {
+   "start_frame": 690,
+   "end_frame": 751,
+   "line": 15,
+   "en": "foul enough.",
+   "es": "Pues este ya lo es bastante."
+  },
+  {
+   "start_frame": 754,
+   "end_frame": 817,
+   "line": 15,
+   "en": "We have no choice but to trust him.",
+   "es": "No tenemos más remedio que fiarnos de él."
+  },
+  {
+   "start_frame": 819,
+   "end_frame": 878,
+   "line": 15,
+   "en": "But where is he leading us?",
+   "es": "Pero ¿adónde nos lleva?"
+  },
+  {
+   "start_frame": 881,
+   "end_frame": 944,
+   "line": 15,
+   "en": "Rivendell, Master Gamgee.",
+   "es": "A Rivendel, maese Gamyi."
+  },
+  {
+   "start_frame": 960,
+   "end_frame": 1005,
+   "line": 15,
+   "en": "To the house of Elrond. Did",
+   "es": "A la casa de Elrond."
+  },
+  {
+   "start_frame": 1008,
+   "end_frame": 1112,
+   "line": 14,
+   "en": "you hear that? Rivendell. We're going to see the elves.",
+   "es": "¿Lo has oído? ¡Rivendel!\n¡Vamos a ver a los elfos!"
+  }
+ ],
+ "AOTRCampaign_08": [
+  {
+   "start_frame": 0,
+   "end_frame": 13,
+   "line": 14,
+   "en": "To",
+   "es": ""
+  },
+  {
+   "start_frame": 14,
+   "end_frame": 312,
+   "line": 14,
+   "en": "be",
+   "es": ""
+  },
+  {
+   "start_frame": 313,
+   "end_frame": 713,
+   "line": 14,
+   "en": "continued...",
+   "es": ""
+  },
+  {
+   "start_frame": 933,
+   "end_frame": 1015,
+   "line": 14,
+   "en": "© transcript Emily Beynon",
+   "es": ""
+  }
+ ],
+ "AOTRCampaign_09": [
+  {
+   "start_frame": 365,
+   "end_frame": 369,
+   "line": 14,
+   "en": "THE LADY AND THE",
+   "es": ""
+  },
+  {
+   "start_frame": 370,
+   "end_frame": 726,
+   "line": 14,
+   "en": "MONSTER",
+   "es": ""
+  },
+  {
+   "start_frame": 829,
+   "end_frame": 906,
+   "line": 14,
+   "en": "We'll be right back.",
+   "es": ""
+  }
+ ],
+ "AOTRCampaign_10": [
+  {
+   "start_frame": 189,
+   "end_frame": 249,
+   "line": 15,
+   "en": "Yargonath.",
+   "es": "Frodo... el Argonath."
+  },
+  {
+   "start_frame": 326,
+   "end_frame": 421,
+   "line": 14,
+   "en": "Long have I desired to look upon the kings of old.",
+   "es": "Largo tiempo he deseado contemplar\na los reyes de antaño."
+  },
+  {
+   "start_frame": 436,
+   "end_frame": 477,
+   "line": 15,
+   "en": "My kin.",
+   "es": "Mi estirpe."
+  }
+ ],
+ "AOTRCampaign_Credits": [
+  {
+   "start_frame": 413,
+   "end_frame": 542,
+   "line": 14,
+   "en": "More, Dor. I hope the others find a safer route. Strider",
+   "es": "Mordor... Espero que los demás\nencuentren un camino más seguro."
+  },
+  {
+   "start_frame": 567,
+   "end_frame": 622,
+   "line": 15,
+   "en": "will look after them. I",
+   "es": "Trancos cuidará de ellos."
+  },
+  {
+   "start_frame": 650,
+   "end_frame": 722,
+   "line": 15,
+   "en": "don't suppose we'll ever see them again. We may yet,",
+   "es": "Supongo que no volveremos a verlos."
+  },
+  {
+   "start_frame": 741,
+   "end_frame": 844,
+   "line": 14,
+   "en": "Mr. Frodo. We may.",
+   "es": "Puede que aún los veamos, señor Frodo.\nPuede que sí."
+  },
+  {
+   "start_frame": 898,
+   "end_frame": 940,
+   "line": 15,
+   "en": "",
+   "es": "Sam..."
+  },
+  {
+   "start_frame": 1011,
+   "end_frame": 1072,
+   "line": 15,
+   "en": "with me.",
+   "es": "Me alegro de que estés conmigo."
+  }
+ ],
+ "AOTRCampaignTTT_00": [
+  {
+   "start_frame": 754,
+   "end_frame": 843,
+   "line": 15,
+   "en": "Saruman, to destroy the people of Rohan.",
+   "es": "El poder del Enemigo está creciendo."
+  },
+  {
+   "start_frame": 865,
+   "end_frame": 1038,
+   "line": 14,
+   "en": "Isengard has been eliminated.",
+   "es": "Sauron se servirá de su títere, Saruman,\npara destruir al pueblo de Rohan."
+  },
+  {
+   "start_frame": 1104,
+   "end_frame": 1206,
+   "line": 15,
+   "en": "of Sauron now turns to Gondor, the last free",
+   "es": "Isengard se ha desatado."
+  },
+  {
+   "start_frame": 1348,
+   "end_frame": 1468,
+   "line": 14,
+   "en": "he senses",
+   "es": "El Ojo de Sauron\nse vuelve ahora hacia Gondor,"
+  },
+  {
+   "start_frame": 1485,
+   "end_frame": 1578,
+   "line": 15,
+   "en": "the ring is close the strength of the ring bearer",
+   "es": "el último reino libre de los hombres."
+  },
+  {
+   "start_frame": 1584,
+   "end_frame": 1698,
+   "line": 14,
+   "en": "is failing in his heart frodo begins to understand",
+   "es": "Su guerra contra este país\nno tardará en llegar."
+  },
+  {
+   "start_frame": 1825,
+   "end_frame": 1914,
+   "line": 15,
+   "en": "his life you know this you",
+   "es": "Presiente que el Anillo está cerca."
+  },
+  {
+   "start_frame": 1922,
+   "end_frame": 2029,
+   "line": 14,
+   "en": "have foreseen it",
+   "es": "Las fuerzas del Portador\ndel Anillo flaquean."
+  },
+  {
+   "start_frame": 2034,
+   "end_frame": 2157,
+   "line": 15,
+   "en": "It is the risk we all took.",
+   "es": "En su corazón, Frodo empieza a comprender."
+  },
+  {
+   "start_frame": 2202,
+   "end_frame": 2301,
+   "line": 15,
+   "en": "In the gathering dark, the will of the Ring grows",
+   "es": "La misión le costará la vida."
+  },
+  {
+   "start_frame": 2323,
+   "end_frame": 2367,
+   "line": 15,
+   "en": "strong. It is",
+   "es": "Lo sabes."
+  },
+  {
+   "start_frame": 2400,
+   "end_frame": 2469,
+   "line": 15,
+   "en": "now. So close to achieving its",
+   "es": "Lo has previsto."
+  },
+  {
+   "start_frame": 2550,
+   "end_frame": 2640,
+   "line": 15,
+   "en": "for Sauron will have dominion over all",
+   "es": "Es el riesgo que todos corrimos."
+  },
+  {
+   "start_frame": 2787,
+   "end_frame": 2931,
+   "line": 14,
+   "en": "the time of the elves is over do",
+   "es": "En la oscuridad que se cierne,\nla voluntad del Anillo cobra fuerza."
+  },
+  {
+   "start_frame": 2959,
+   "end_frame": 3141,
+   "line": 14,
+   "en": "we leave middle earth to its fate do we let them stand alone",
+   "es": "Ya está cerca, muy cerca\nde alcanzar su objetivo."
+  },
+  {
+   "start_frame": 3234,
+   "end_frame": 3357,
+   "line": 14,
+   "en": "",
+   "es": "Pues Sauron tendrá dominio\nsobre toda vida en esta tierra,"
+  },
+  {
+   "start_frame": 3360,
+   "end_frame": 3462,
+   "line": 15,
+   "en": "",
+   "es": "incluso hasta el fin del mundo."
+  },
+  {
+   "start_frame": 3532,
+   "end_frame": 3639,
+   "line": 15,
+   "en": "",
+   "es": "El tiempo de los elfos ha terminado."
+  },
+  {
+   "start_frame": 3676,
+   "end_frame": 3774,
+   "line": 15,
+   "en": "",
+   "es": "¿Dejamos a la Tierra Media a su suerte?"
+  },
+  {
+   "start_frame": 3843,
+   "end_frame": 3930,
+   "line": 15,
+   "en": "",
+   "es": "¿Dejamos que resistan solos?"
+  }
+ ],
+ "AOTRCampaignTTT_01": [
+  {
+   "start_frame": 162,
+   "end_frame": 229,
+   "line": 15,
+   "en": "Mordor will pay for this. These orcs",
+   "es": "Mordor pagará por esto."
+  },
+  {
+   "start_frame": 234,
+   "end_frame": 310,
+   "line": 15,
+   "en": "are not from Mordor. My",
+   "es": "Estos orcos no son de Mordor."
+  },
+  {
+   "start_frame": 317,
+   "end_frame": 397,
+   "line": 15,
+   "en": "lord Aemar, over here!",
+   "es": "¡Mi señor Éomer! ¡Por aquí!"
+  },
+  {
+   "start_frame": 1196,
+   "end_frame": 1267,
+   "line": 15,
+   "en": "orcs. If we don't defend our country,",
+   "es": "Cayó en una emboscada de orcos."
+  },
+  {
+   "start_frame": 1296,
+   "end_frame": 1397,
+   "line": 14,
+   "en": "Saruman will take it by force. Orcs are roaming freely across our lands.",
+   "es": "Si no defendemos nuestro país,\nSaruman se hará con él por la fuerza."
+  },
+  {
+   "start_frame": 1401,
+   "end_frame": 1477,
+   "line": 14,
+   "en": "Orcs bearing the white hand of Saruman.",
+   "es": "Los orcos campan a sus anchas\npor nuestras tierras."
+  },
+  {
+   "start_frame": 1480,
+   "end_frame": 1566,
+   "line": 14,
+   "en": "That is a lie.",
+   "es": "Orcos que portan la\nMano Blanca de Saruman."
+  },
+  {
+   "start_frame": 1580,
+   "end_frame": 1639,
+   "line": 15,
+   "en": "Saruman the White",
+   "es": "Eso es mentira."
+  },
+  {
+   "start_frame": 1696,
+   "end_frame": 1822,
+   "line": 14,
+   "en": "friend and ally. How long is it since Saruman borned you?",
+   "es": "Saruman el Blanco siempre ha sido\nnuestro amigo y aliado."
+  },
+  {
+   "start_frame": 1832,
+   "end_frame": 1901,
+   "line": 15,
+   "en": "What was the promised price, screamer? When all the men",
+   "es": "¿Cuánto hace que Saruman te compró?"
+  },
+  {
+   "start_frame": 1911,
+   "end_frame": 1971,
+   "line": 15,
+   "en": "are dead, you will take your share of the treasure?",
+   "es": "¿Cuál fue el precio prometido, Gríma?"
+  },
+  {
+   "start_frame": 1973,
+   "end_frame": 2085,
+   "line": 14,
+   "en": "",
+   "es": "Cuando todos los hombres hayan muerto,\n¿te llevarás tu parte del tesoro?"
+  },
+  {
+   "start_frame": 2236,
+   "end_frame": 2330,
+   "line": 15,
+   "en": "Too much. You",
+   "es": "Ves mucho, Éomer, hijo de Éomund."
+  },
+  {
+   "start_frame": 2346,
+   "end_frame": 2390,
+   "line": 15,
+   "en": "are banished forthwith from",
+   "es": "Demasiado."
+  },
+  {
+   "start_frame": 2435,
+   "end_frame": 2605,
+   "line": 14,
+   "en": "of Rohan, all its domains, under pain of death. You have no authority here.",
+   "es": "Quedas desterrado de inmediato\ndel reino de Rohan y de todos sus dominios,"
+  },
+  {
+   "start_frame": 2618,
+   "end_frame": 2681,
+   "line": 15,
+   "en": "Your orders mean nothing.",
+   "es": "so pena de muerte."
+  },
+  {
+   "start_frame": 2685,
+   "end_frame": 2743,
+   "line": 15,
+   "en": "This order does not come",
+   "es": "¡Aquí no tienes ninguna autoridad!"
+  },
+  {
+   "start_frame": 2746,
+   "end_frame": 2814,
+   "line": 15,
+   "en": "from me. It comes from",
+   "es": "¡Tus órdenes no significan nada!"
+  },
+  {
+   "start_frame": 2826,
+   "end_frame": 2905,
+   "line": 15,
+   "en": "the king. He signed it this morning.",
+   "es": "Esta orden no viene de mí."
+  },
+  {
+   "start_frame": 2918,
+   "end_frame": 2977,
+   "line": 15,
+   "en": "",
+   "es": "Viene del rey."
+  },
+  {
+   "start_frame": 2988,
+   "end_frame": 3062,
+   "line": 15,
+   "en": "",
+   "es": "La firmó esta mañana."
+  }
+ ],
+ "AOTRCampaignTTT_02b": [
+  {
+   "start_frame": 181,
+   "end_frame": 280,
+   "line": 15,
+   "en": "The planet of Mordor.",
+   "es": "La Puerta Negra de Mordor."
+  },
+  {
+   "start_frame": 386,
+   "end_frame": 422,
+   "line": 15,
+   "en": "",
+   "es": "Sálvanos."
+  },
+  {
+   "start_frame": 1420,
+   "end_frame": 1516,
+   "line": 14,
+   "en": "know, Mr. Ford. I doubt even these selfish cloaks will art us in there.",
+   "es": "-No te pido que vengas conmigo, Sam.\n-Lo sé, señor Frodo."
+  },
+  {
+   "start_frame": 1527,
+   "end_frame": 1611,
+   "line": 14,
+   "en": "No! No!",
+   "es": "Dudo que ni estas capas élficas\nnos oculten ahí dentro."
+  },
+  {
+   "start_frame": 1614,
+   "end_frame": 1693,
+   "line": 15,
+   "en": "No! No, Master! They got you! They",
+   "es": "¡No! ¡No! ¡No!"
+  },
+  {
+   "start_frame": 1696,
+   "end_frame": 1727,
+   "line": 15,
+   "en": "got you!",
+   "es": "¡No, amo!"
+  },
+  {
+   "start_frame": 1730,
+   "end_frame": 1813,
+   "line": 15,
+   "en": "No! Don't take it to him!",
+   "es": "¡Te atraparán! ¡Te atraparán!"
+  },
+  {
+   "start_frame": 1821,
+   "end_frame": 1917,
+   "line": 15,
+   "en": "",
+   "es": "¡No! ¡No se lo lleves a él!"
+  },
+  {
+   "start_frame": 2048,
+   "end_frame": 2155,
+   "line": 14,
+   "en": "A dark way. Why haven't you spoken to this before? Because Master did not ask.",
+   "es": "Hay otro camino. Más secreto.\nUn camino oscuro."
+  },
+  {
+   "start_frame": 2157,
+   "end_frame": 2208,
+   "line": 15,
+   "en": "He's up to something. Are",
+   "es": "¿Por qué no lo has dicho antes?"
+  },
+  {
+   "start_frame": 2211,
+   "end_frame": 2262,
+   "line": 15,
+   "en": "you saying there's another way into Mordor?",
+   "es": "Porque el amo no preguntó."
+  },
+  {
+   "start_frame": 2265,
+   "end_frame": 2296,
+   "line": 15,
+   "en": "Yes.",
+   "es": "Está tramando algo."
+  },
+  {
+   "start_frame": 2298,
+   "end_frame": 2367,
+   "line": 14,
+   "en": "There's a path. And two",
+   "es": "¿Dices que hay otra forma\nde entrar en Mordor?"
+  },
+  {
+   "start_frame": 2375,
+   "end_frame": 2507,
+   "line": 15,
+   "en": "stairs. And then... ...Tannan.",
+   "es": "Sí. Hay un sendero, y escaleras,"
+  },
+  {
+   "start_frame": 2511,
+   "end_frame": 2617,
+   "line": 15,
+   "en": "Lead the way, Smeagol.",
+   "es": "y luego... un túnel."
+  },
+  {
+   "start_frame": 2672,
+   "end_frame": 2727,
+   "line": 15,
+   "en": "",
+   "es": "Guíanos, Sméagol."
+  }
+ ],
+ "AOTRCampaignTTT_04": [
+  {
+   "start_frame": 142,
+   "end_frame": 218,
+   "line": 14,
+   "en": "On the lowest dungeon to the highest peak, I fought",
+   "es": "Desde la más honda mazmorra\nhasta el pico más alto,"
+  },
+  {
+   "start_frame": 221,
+   "end_frame": 320,
+   "line": 15,
+   "en": "him with the power of Morgoth.",
+   "es": "luché contra el Balrog de Morgoth."
+  }
+ ],
+ "AOTRCampaignTTT_04b": [
+  {
+   "start_frame": 397,
+   "end_frame": 567,
+   "line": 14,
+   "en": "at last I threw down my enemy and smote his ruin upon the mountainside.",
+   "es": "Hasta que al fin derribé a mi enemigo\ny lo estrellé contra la ladera de la montaña."
+  },
+  {
+   "start_frame": 727,
+   "end_frame": 800,
+   "line": 15,
+   "en": "took me, and I strayed",
+   "es": "La oscuridad se apoderó de mí."
+  },
+  {
+   "start_frame": 810,
+   "end_frame": 915,
+   "line": 14,
+   "en": "out of thought and time. The stars wheeled",
+   "es": "Y vagué fuera del\npensamiento y del tiempo."
+  },
+  {
+   "start_frame": 930,
+   "end_frame": 998,
+   "line": 15,
+   "en": "overhead, and every day was",
+   "es": "Las estrellas giraban en lo alto,"
+  },
+  {
+   "start_frame": 1010,
+   "end_frame": 1132,
+   "line": 14,
+   "en": "as long as a life-age of the earth. But it",
+   "es": "y cada día era tan largo\ncomo toda una edad de la tierra."
+  },
+  {
+   "start_frame": 1180,
+   "end_frame": 1236,
+   "line": 15,
+   "en": "I felt life in me",
+   "es": "Pero no fue el final."
+  },
+  {
+   "start_frame": 1240,
+   "end_frame": 1322,
+   "line": 15,
+   "en": "again. I've been sent back.",
+   "es": "Volví a sentir la vida en mí."
+  },
+  {
+   "start_frame": 1358,
+   "end_frame": 1468,
+   "line": 14,
+   "en": "Until my task is done. Gandalf.",
+   "es": "Me han enviado de vuelta\nhasta que termine mi tarea."
+  },
+  {
+   "start_frame": 1478,
+   "end_frame": 1515,
+   "line": 15,
+   "en": "I am Gandalf",
+   "es": "Gandalf."
+  },
+  {
+   "start_frame": 1573,
+   "end_frame": 1635,
+   "line": 15,
+   "en": "And I come",
+   "es": "Soy Gandalf el Blanco."
+  },
+  {
+   "start_frame": 1698,
+   "end_frame": 1839,
+   "line": 14,
+   "en": "At the turn of time.",
+   "es": "Y vuelvo a vosotros ahora,\ncuando cambia la marea."
+  }
+ ],
+ "AOTRCampaignTTT_05b": [
+  {
+   "start_frame": 123,
+   "end_frame": 192,
+   "line": 14,
+   "en": "So, this is the answer to all the riddles.",
+   "es": ""
+  },
+  {
+   "start_frame": 258,
+   "end_frame": 310,
+   "line": 14,
+   "en": "Here in the wild I have you.",
+   "es": ""
+  },
+  {
+   "start_frame": 336,
+   "end_frame": 442,
+   "line": 14,
+   "en": "Two halflings and a host of men at my call.",
+   "es": ""
+  },
+  {
+   "start_frame": 538,
+   "end_frame": 604,
+   "line": 14,
+   "en": "The ring of power within my grasp.",
+   "es": ""
+  },
+  {
+   "start_frame": 836,
+   "end_frame": 918,
+   "line": 14,
+   "en": "A chance for Faramir, Captain of Gondor,",
+   "es": ""
+  },
+  {
+   "start_frame": 919,
+   "end_frame": 1030,
+   "line": 14,
+   "en": "to show his quality.",
+   "es": ""
+  },
+  {
+   "start_frame": 1163,
+   "end_frame": 1188,
+   "line": 14,
+   "en": "No!",
+   "es": ""
+  },
+  {
+   "start_frame": 1262,
+   "end_frame": 1301,
+   "line": 14,
+   "en": "Don't you understand?",
+   "es": ""
+  },
+  {
+   "start_frame": 1351,
+   "end_frame": 1438,
+   "line": 14,
+   "en": "He's got to destroy it! Osgiliath is under attack.",
+   "es": ""
+  },
+  {
+   "start_frame": 1440,
+   "end_frame": 1476,
+   "line": 14,
+   "en": "They call for reinforcements.",
+   "es": ""
+  },
+  {
+   "start_frame": 1483,
+   "end_frame": 1502,
+   "line": 14,
+   "en": "Please.",
+   "es": ""
+  },
+  {
+   "start_frame": 1525,
+   "end_frame": 1558,
+   "line": 14,
+   "en": "It's such a burden.",
+   "es": ""
+  },
+  {
+   "start_frame": 1599,
+   "end_frame": 1641,
+   "line": 14,
+   "en": "Will you not help him?",
+   "es": ""
+  },
+  {
+   "start_frame": 1687,
+   "end_frame": 1706,
+   "line": 14,
+   "en": "Captain.",
+   "es": ""
+  },
+  {
+   "start_frame": 1745,
+   "end_frame": 1777,
+   "line": 14,
+   "en": "Prepare to leave.",
+   "es": ""
+  }
+ ],
+ "AOTRCampaignTTT_06b": [
+  {
+   "start_frame": 177,
+   "end_frame": 301,
+   "line": 14,
+   "en": "I cannot allow you before Théoden King so armed, Gandalf Graham, by order",
+   "es": "No puedo dejaros llegar ante el rey Théoden\ntan armados, Gandalf Capagrís."
+  },
+  {
+   "start_frame": 307,
+   "end_frame": 400,
+   "line": 15,
+   "en": "of Grima Wormtongue.",
+   "es": "Por orden de Gríma Lengua de Serpiente."
+  },
+  {
+   "start_frame": 440,
+   "end_frame": 475,
+   "line": 15,
+   "en": "Gustav. You would not",
+   "es": "Vuestro bastón."
+  },
+  {
+   "start_frame": 488,
+   "end_frame": 572,
+   "line": 15,
+   "en": "part an old man from his walking stick.",
+   "es": "¿No separarías a un anciano de su bastón?"
+  },
+  {
+   "start_frame": 846,
+   "end_frame": 890,
+   "line": 15,
+   "en": "of war The courtesy of your",
+   "es": "Es un heraldo de desgracias."
+  },
+  {
+   "start_frame": 892,
+   "end_frame": 1065,
+   "line": 14,
+   "en": "hall Is somewhat lessened of late Theoden King He's not welcome",
+   "es": "La cortesía de vuestro salón ha menguado\nalgo últimamente, rey Théoden."
+  },
+  {
+   "start_frame": 1085,
+   "end_frame": 1130,
+   "line": 15,
+   "en": "Why Should",
+   "es": "No es bienvenido."
+  },
+  {
+   "start_frame": 1145,
+   "end_frame": 1265,
+   "line": 15,
+   "en": "I welcome you Gandalf",
+   "es": "¿Por qué habría de darte la bienvenida,"
+  },
+  {
+   "start_frame": 1282,
+   "end_frame": 1372,
+   "line": 15,
+   "en": "Stormcrow A just question my liege",
+   "es": "Gandalf Cuervo de la Tempestad?"
+  },
+  {
+   "start_frame": 1376,
+   "end_frame": 1460,
+   "line": 15,
+   "en": "",
+   "es": "Una pregunta justa, mi señor."
+  },
+  {
+   "start_frame": 1576,
+   "end_frame": 1717,
+   "line": 14,
+   "en": "as poison is drawn from a wound.",
+   "es": "Te extraeré, Saruman,\ncomo se extrae el veneno de una herida."
+  },
+  {
+   "start_frame": 1860,
+   "end_frame": 1960,
+   "line": 15,
+   "en": "dies. You did not kill me. You will not",
+   "es": "Si me voy, Théoden muere."
+  },
+  {
+   "start_frame": 1971,
+   "end_frame": 2087,
+   "line": 14,
+   "en": "kill him.",
+   "es": "¡No me mataste a mí\ny tampoco lo matarás a él!"
+  },
+  {
+   "start_frame": 2180,
+   "end_frame": 2237,
+   "line": 15,
+   "en": "Begone.",
+   "es": "¡Rohan es mío!"
+  },
+  {
+   "start_frame": 2255,
+   "end_frame": 2300,
+   "line": 15,
+   "en": "",
+   "es": "¡Márchate!"
+  }
+ ],
+ "AOTRCampaignTTT_08": [
+  {
+   "start_frame": 163,
+   "end_frame": 197,
+   "line": 15,
+   "en": "Look,",
+   "es": "Mirad."
+  },
+  {
+   "start_frame": 235,
+   "end_frame": 287,
+   "line": 15,
+   "en": "Osgiliath burns. Frodo",
+   "es": "Osgiliath arde."
+  },
+  {
+   "start_frame": 296,
+   "end_frame": 347,
+   "line": 15,
+   "en": "has come. Hurry!",
+   "es": "Mordor ha llegado."
+  },
+  {
+   "start_frame": 356,
+   "end_frame": 387,
+   "line": 15,
+   "en": "",
+   "es": "¡Deprisa!"
+  }
+ ],
+ "AOTRCampaignTTT_09": [
+  {
+   "start_frame": 26,
+   "end_frame": 116,
+   "line": 14,
+   "en": "Helm's Deep! There it is, Helm's Deep! Hold it!",
+   "es": "¡El Abismo de Helm!\n¡Ahí está! ¡El Abismo de Helm!"
+  },
+  {
+   "start_frame": 677,
+   "end_frame": 713,
+   "line": 15,
+   "en": "",
+   "es": "¡Todos por aquí!"
+  }
+ ],
+ "AOTRCampaignTTT_09b": [
+  {
+   "start_frame": 237,
+   "end_frame": 312,
+   "line": 15,
+   "en": "Final count, 42. 42?",
+   "es": "Recuento final: cuarenta y dos."
+  },
+  {
+   "start_frame": 317,
+   "end_frame": 347,
+   "line": 15,
+   "en": "Oh,",
+   "es": "¿Cuarenta y dos?"
+  },
+  {
+   "start_frame": 360,
+   "end_frame": 501,
+   "line": 14,
+   "en": "that's not bad for a pointy-eared, elvish princeling. I",
+   "es": "Vaya, no está mal para un principito élfico\nde orejas puntiagudas."
+  },
+  {
+   "start_frame": 518,
+   "end_frame": 610,
+   "line": 14,
+   "en": "myself am sitting pretty on 43. ...three.",
+   "es": "Yo, por mi parte, voy holgado\ncon cuarenta y tres."
+  },
+  {
+   "start_frame": 723,
+   "end_frame": 759,
+   "line": 15,
+   "en": "-three. He was already dead.",
+   "es": "Cuarenta y tres."
+  },
+  {
+   "start_frame": 762,
+   "end_frame": 811,
+   "line": 15,
+   "en": "He was twitching.",
+   "es": "Ya estaba muerto."
+  },
+  {
+   "start_frame": 822,
+   "end_frame": 863,
+   "line": 15,
+   "en": "He was twitching? Cause",
+   "es": "Todavía se movía."
+  },
+  {
+   "start_frame": 865,
+   "end_frame": 997,
+   "line": 14,
+   "en": "he's got my axe embedded in his nervous system! Family",
+   "es": "¡Se movía porque tiene mi hacha\nclavada en el sistema nervioso!"
+  },
+  {
+   "start_frame": 1041,
+   "end_frame": 1182,
+   "line": 14,
+   "en": "field mice that climb up sometimes and they tickle me awfully. Always trying to get something",
+   "es": "Hay ratones de campo que a veces se me suben\ny me hacen unas cosquillas tremendas."
+  },
+  {
+   "start_frame": 1195,
+   "end_frame": 1264,
+   "line": 15,
+   "en": "with it.",
+   "es": "Siempre intentando conseguir algo."
+  },
+  {
+   "start_frame": 1544,
+   "end_frame": 1634,
+   "line": 15,
+   "en": "were my friends creatures i had known",
+   "es": "Muchos de estos árboles eran mis amigos."
+  },
+  {
+   "start_frame": 1648,
+   "end_frame": 1772,
+   "line": 14,
+   "en": "from nut and acorn i'm sorry trepid they had voices",
+   "es": "Criaturas a las que conocía\ndesde que eran nuez y bellota."
+  },
+  {
+   "start_frame": 1790,
+   "end_frame": 1832,
+   "line": 15,
+   "en": "of their own",
+   "es": "Lo siento, Bárbol."
+  },
+  {
+   "start_frame": 1834,
+   "end_frame": 1892,
+   "line": 15,
+   "en": "",
+   "es": "Tenían voz propia."
+  },
+  {
+   "start_frame": 1955,
+   "end_frame": 1992,
+   "line": 15,
+   "en": "",
+   "es": "¡Saruman!"
+  },
+  {
+   "start_frame": 2025,
+   "end_frame": 2095,
+   "line": 15,
+   "en": "",
+   "es": "¡Un mago debería ser más sensato!"
+  },
+  {
+   "start_frame": 2443,
+   "end_frame": 2607,
+   "line": 14,
+   "en": "Hedlvish, Entish, or the tongues of men.",
+   "es": "No hay maldición en élfico, en éntico\nni en las lenguas de los hombres"
+  },
+  {
+   "start_frame": 2610,
+   "end_frame": 2679,
+   "line": 15,
+   "en": "",
+   "es": "que baste para semejante traición."
+  },
+  {
+   "start_frame": 3328,
+   "end_frame": 3370,
+   "line": 15,
+   "en": "to war. It is likely",
+   "es": "Venid, amigos míos."
+  },
+  {
+   "start_frame": 3402,
+   "end_frame": 3490,
+   "line": 15,
+   "en": "that we go to our doom.",
+   "es": "Los Ents van a la guerra."
+  },
+  {
+   "start_frame": 3504,
+   "end_frame": 3634,
+   "line": 14,
+   "en": "Last match of the Ents.",
+   "es": "Es probable que vayamos\nhacia nuestra perdición."
+  },
+  {
+   "start_frame": 3682,
+   "end_frame": 3800,
+   "line": 15,
+   "en": "",
+   "es": "La última marcha de los Ents."
+  }
+ ],
+ "AOTRCampaignTTT_10b": [
+  {
+   "start_frame": 221,
+   "end_frame": 265,
+   "line": 15,
+   "en": "the dance!",
+   "es": "¡Romped la presa!"
+  },
+  {
+   "start_frame": 283,
+   "end_frame": 342,
+   "line": 15,
+   "en": "Release the river!",
+   "es": "¡Liberad el río!"
+  },
+  {
+   "start_frame": 1561,
+   "end_frame": 1680,
+   "line": 14,
+   "en": "terrible, his retribution swift.",
+   "es": "La ira de Sauron será terrible\ny su venganza, inmediata."
+  },
+  {
+   "start_frame": 1855,
+   "end_frame": 1925,
+   "line": 14,
+   "en": "The battle for Middle-earth is about",
+   "es": "La batalla por el Abismo\nde Helm ha terminado."
+  },
+  {
+   "start_frame": 1955,
+   "end_frame": 2042,
+   "line": 14,
+   "en": "begin.",
+   "es": "La batalla por la Tierra Media\nestá a punto de comenzar."
+  },
+  {
+   "start_frame": 2166,
+   "end_frame": 2261,
+   "line": 14,
+   "en": "somewhere in the wilderness",
+   "es": "Ahora todas nuestras esperanzas\nrecaen en dos pequeños hobbits,"
+  },
+  {
+   "start_frame": 2270,
+   "end_frame": 2335,
+   "line": 15,
+   "en": "come on hobbits no",
+   "es": "en algún lugar de las tierras salvajes."
+  },
+  {
+   "start_frame": 2399,
+   "end_frame": 2447,
+   "line": 15,
+   "en": "",
+   "es": "¡Vamos, hobbitses!"
+  },
+  {
+   "start_frame": 2453,
+   "end_frame": 2500,
+   "line": 15,
+   "en": "",
+   "es": "Aún queda mucho camino."
+  },
+  {
+   "start_frame": 2507,
+   "end_frame": 2555,
+   "line": 15,
+   "en": "",
+   "es": "Sméagol os enseñará el camino."
+  },
+  {
+   "start_frame": 2562,
+   "end_frame": 2597,
+   "line": 15,
+   "en": "",
+   "es": "¡Seguidme!"
+  }
+ ],
+ "AOTRCampaignROTK_01a": [
+  {
+   "start_frame": 111,
+   "end_frame": 258,
+   "line": 14,
+   "en": "As Saruman's evil is washed away, we send a clear message to Mordor.",
+   "es": "Mientras el agua se lleva el mal de Saruman,\nenviamos un claro mensaje a Mordor."
+  },
+  {
+   "start_frame": 276,
+   "end_frame": 424,
+   "line": 14,
+   "en": "Men are not so weak yet that they are powerless to resist the Dark Lord's will entirely.",
+   "es": "Los hombres aún no son tan débiles como para\nno poder resistir en absoluto al Señor Oscuro."
+  },
+  {
+   "start_frame": 482,
+   "end_frame": 566,
+   "line": 15,
+   "en": "The ruin of Isengard will prove to be a setback, but",
+   "es": "La ruina de Isengard supondrá un revés,"
+  },
+  {
+   "start_frame": 575,
+   "end_frame": 656,
+   "line": 14,
+   "en": "we would be fools to believe it a deterrent.",
+   "es": "pero seríamos necios si creyéramos\nque eso lo disuadirá."
+  },
+  {
+   "start_frame": 737,
+   "end_frame": 801,
+   "line": 15,
+   "en": "Sauron's power grows by the day.",
+   "es": "El poder de Sauron crece día a día."
+  },
+  {
+   "start_frame": 814,
+   "end_frame": 873,
+   "line": 15,
+   "en": "Soon he will be ready to strike.",
+   "es": "Pronto estará listo para atacar."
+  },
+  {
+   "start_frame": 896,
+   "end_frame": 980,
+   "line": 14,
+   "en": "Our only advantage now lies in his hubris.",
+   "es": "Ahora, nuestra única ventaja\nreside en su soberbia."
+  },
+  {
+   "start_frame": 991,
+   "end_frame": 1041,
+   "line": 15,
+   "en": "We must force his hand and",
+   "es": "Debemos obligarle a actuar"
+  },
+  {
+   "start_frame": 1049,
+   "end_frame": 1133,
+   "line": 14,
+   "en": "make him believe that we will use the ring against him.",
+   "es": "y hacerle creer que usaremos\nel Anillo contra él."
+  },
+  {
+   "start_frame": 1331,
+   "end_frame": 1461,
+   "line": 14,
+   "en": "tonight we remember those who gave their blood to defend this country",
+   "es": "Esta noche recordamos a quienes dieron\nsu sangre por defender este país."
+  },
+  {
+   "start_frame": 1480,
+   "end_frame": 1541,
+   "line": 15,
+   "en": "hail the victorious dead",
+   "es": "¡Gloria a los caídos victoriosos!"
+  },
+  {
+   "start_frame": 1543,
+   "end_frame": 1569,
+   "line": 15,
+   "en": "",
+   "es": "¡Gloria!"
+  },
+  {
+   "start_frame": 1893,
+   "end_frame": 1944,
+   "line": 15,
+   "en": "No news of Frodo.",
+   "es": "¿No hay noticias de Frodo?"
+  },
+  {
+   "start_frame": 1957,
+   "end_frame": 2026,
+   "line": 15,
+   "en": "No word. Nothing.",
+   "es": "Ninguna. Nada."
+  },
+  {
+   "start_frame": 2100,
+   "end_frame": 2154,
+   "line": 15,
+   "en": "What does your heart tell you?",
+   "es": "¿Qué te dice el corazón?"
+  },
+  {
+   "start_frame": 2313,
+   "end_frame": 2364,
+   "line": 15,
+   "en": "That Frodo is alive.",
+   "es": "Que Frodo está vivo."
+  },
+  {
+   "start_frame": 2454,
+   "end_frame": 2481,
+   "line": 15,
+   "en": "Yes.",
+   "es": "Sí."
+  },
+  {
+   "start_frame": 2557,
+   "end_frame": 2599,
+   "line": 15,
+   "en": "Yes, Mr. Lowe.",
+   "es": "Sí, está vivo."
+  },
+  {
+   "start_frame": 2935,
+   "end_frame": 2971,
+   "line": 15,
+   "en": "What are you doing?",
+   "es": "¿Qué estás haciendo?"
+  },
+  {
+   "start_frame": 3004,
+   "end_frame": 3053,
+   "line": 15,
+   "en": "Pippin, are you mad? I just",
+   "es": "Pippin, ¿te has vuelto loco?"
+  },
+  {
+   "start_frame": 3055,
+   "end_frame": 3127,
+   "line": 14,
+   "en": "want to look at it. Just one more time.",
+   "es": "Solo quiero echarle un vistazo.\nSolo una vez más."
+  },
+  {
+   "start_frame": 3133,
+   "end_frame": 3165,
+   "line": 15,
+   "en": "Put it back.",
+   "es": "Devuélvelo a su sitio."
+  },
+  {
+   "start_frame": 3273,
+   "end_frame": 3316,
+   "line": 15,
+   "en": "Pippin.",
+   "es": "¡Pippin!"
+  }
+ ],
+ "AOTRCampaignROTK_01b": [
+  {
+   "start_frame": 37,
+   "end_frame": 117,
+   "line": 15,
+   "en": "Help! Gandalf!",
+   "es": "¡Socorro! ¡Gandalf!"
+  },
+  {
+   "start_frame": 119,
+   "end_frame": 208,
+   "line": 15,
+   "en": "Come on, help me!",
+   "es": "¡Socorro! ¡Ayudadme!"
+  },
+  {
+   "start_frame": 807,
+   "end_frame": 853,
+   "line": 15,
+   "en": "at me.",
+   "es": "Mírame."
+  },
+  {
+   "start_frame": 972,
+   "end_frame": 1007,
+   "line": 15,
+   "en": "What did you see?",
+   "es": "Perdóname."
+  },
+  {
+   "start_frame": 1025,
+   "end_frame": 1068,
+   "line": 15,
+   "en": "",
+   "es": "¿Qué has visto?"
+  },
+  {
+   "start_frame": 1112,
+   "end_frame": 1182,
+   "line": 15,
+   "en": "A tree. There was a",
+   "es": "Un árbol."
+  },
+  {
+   "start_frame": 1215,
+   "end_frame": 1327,
+   "line": 14,
+   "en": "tree in the courtyard of Stone. It",
+   "es": "Había un árbol blanco\nen un patio de piedra."
+  },
+  {
+   "start_frame": 1376,
+   "end_frame": 1423,
+   "line": 15,
+   "en": "",
+   "es": "Estaba muerto."
+  },
+  {
+   "start_frame": 1527,
+   "end_frame": 1571,
+   "line": 15,
+   "en": "Minas Tirith, is that what you saw?",
+   "es": "La ciudad estaba en llamas."
+  },
+  {
+   "start_frame": 1582,
+   "end_frame": 1616,
+   "line": 15,
+   "en": "I saw.",
+   "es": "¿Minas Tirith?"
+  },
+  {
+   "start_frame": 1623,
+   "end_frame": 1661,
+   "line": 15,
+   "en": "",
+   "es": "¿Es eso lo que has visto?"
+  },
+  {
+   "start_frame": 1677,
+   "end_frame": 1710,
+   "line": 15,
+   "en": "",
+   "es": "He visto..."
+  },
+  {
+   "start_frame": 1809,
+   "end_frame": 1850,
+   "line": 15,
+   "en": "",
+   "es": "Lo he visto a él."
+  }
+ ],
+ "AOTRCampaignROTK_02a": [
+  {
+   "start_frame": 0,
+   "end_frame": 119,
+   "line": 14,
+   "en": "A fool, but an honest fool, he remains.",
+   "es": "Un necio, pero sigue siendo\nun necio honrado."
+  },
+  {
+   "start_frame": 145,
+   "end_frame": 204,
+   "line": 15,
+   "en": "We've been strangely fortunate. Pippin",
+   "es": "Hemos sido extrañamente afortunados."
+  },
+  {
+   "start_frame": 215,
+   "end_frame": 305,
+   "line": 14,
+   "en": "saw in the Palantir a glimpse of the enemy's plan.",
+   "es": "Pippin vislumbró en el palantír\nel plan del enemigo."
+  },
+  {
+   "start_frame": 335,
+   "end_frame": 425,
+   "line": 14,
+   "en": "Sauron moves to strike the city of Minas Tirith. I will go.",
+   "es": "Sauron se dispone a atacar\nla ciudad de Minas Tirith."
+  },
+  {
+   "start_frame": 433,
+   "end_frame": 473,
+   "line": 14,
+   "en": "No, they must be warned.",
+   "es": "-Iré yo.\n-No."
+  },
+  {
+   "start_frame": 478,
+   "end_frame": 548,
+   "line": 14,
+   "en": "They will be.",
+   "es": "-Hay que avisarles.\n-Se les avisará."
+  },
+  {
+   "start_frame": 642,
+   "end_frame": 715,
+   "line": 14,
+   "en": "must come to Minas Tirith via the road. Follow the river.",
+   "es": "Tú debes venir a Minas Tirith\npor otro camino."
+  },
+  {
+   "start_frame": 718,
+   "end_frame": 812,
+   "line": 14,
+   "en": "Look to the black ships.",
+   "es": "Sigue el río.\nFíjate en los barcos negros."
+  },
+  {
+   "start_frame": 852,
+   "end_frame": 892,
+   "line": 15,
+   "en": "this. Things are now in",
+   "es": "Entiende esto."
+  },
+  {
+   "start_frame": 907,
+   "end_frame": 989,
+   "line": 14,
+   "en": "motion that cannot be undone. I",
+   "es": "Hay cosas en marcha\nque ya no se pueden deshacer."
+  },
+  {
+   "start_frame": 1035,
+   "end_frame": 1100,
+   "line": 15,
+   "en": "for Minas Tirith. And I",
+   "es": "Cabalgo hacia Minas Tirith."
+  },
+  {
+   "start_frame": 1145,
+   "end_frame": 1197,
+   "line": 15,
+   "en": "alone.",
+   "es": "Y no iré solo."
+  },
+  {
+   "start_frame": 1272,
+   "end_frame": 1316,
+   "line": 15,
+   "en": "Three days' ride, as the Nazgul flies.",
+   "es": "¿A cuánto está Minas Tirith?"
+  },
+  {
+   "start_frame": 1319,
+   "end_frame": 1387,
+   "line": 14,
+   "en": "And you'd better hope we don't have one of those on our tail.",
+   "es": "A tres días a caballo,\na vuelo de Nazgûl."
+  },
+  {
+   "start_frame": 1390,
+   "end_frame": 1468,
+   "line": 14,
+   "en": "Here, something",
+   "es": "Y reza para que no nos persiga\nninguno de esos."
+  },
+  {
+   "start_frame": 1490,
+   "end_frame": 1564,
+   "line": 15,
+   "en": "for the road. The last of the Longbottom Leaf.",
+   "es": "Toma. Algo para el camino."
+  },
+  {
+   "start_frame": 1592,
+   "end_frame": 1648,
+   "line": 15,
+   "en": "I know you've run out. You smoke too",
+   "es": "Lo último de la Hoja de Valle Largo."
+  },
+  {
+   "start_frame": 1652,
+   "end_frame": 1692,
+   "line": 15,
+   "en": "much, Pip. But",
+   "es": "Sé que se te ha acabado."
+  },
+  {
+   "start_frame": 1705,
+   "end_frame": 1749,
+   "line": 15,
+   "en": "we'll see each other soon.",
+   "es": "Fumas demasiado, Pip."
+  },
+  {
+   "start_frame": 1761,
+   "end_frame": 1813,
+   "line": 15,
+   "en": "",
+   "es": "Pero nos veremos pronto."
+  },
+  {
+   "start_frame": 1892,
+   "end_frame": 1964,
+   "line": 14,
+   "en": "I don't know what's going on.",
+   "es": "-¿Verdad?\n-No lo sé."
+  },
+  {
+   "start_frame": 2004,
+   "end_frame": 2058,
+   "line": 15,
+   "en": "Mary. Run, Shadowfax. Show us the meaning of",
+   "es": "No sé lo que va a pasar."
+  },
+  {
+   "start_frame": 2073,
+   "end_frame": 2120,
+   "line": 14,
+   "en": "haste. Mary!",
+   "es": "-¿Merry?\n-Corre, Sombragrís."
+  },
+  {
+   "start_frame": 2123,
+   "end_frame": 2190,
+   "line": 14,
+   "en": "",
+   "es": "-Muéstranos lo que es la prisa.\n-¡Merry!"
+  },
+  {
+   "start_frame": 2624,
+   "end_frame": 2701,
+   "line": 14,
+   "en": "",
+   "es": "Acabamos de entrar\nen el reino de Gondor."
+  },
+  {
+   "start_frame": 2988,
+   "end_frame": 3111,
+   "line": 14,
+   "en": "",
+   "es": "Minas Tirith,\nla Ciudad de los Reyes."
+  }
+ ],
+ "AOTRCampaignROTK_02b": [
+  {
+   "start_frame": 568,
+   "end_frame": 658,
+   "line": 14,
+   "en": "beacon! The beacon of Amodin is lit!",
+   "es": "¡La almenara!\n¡La almenara de Amon Dîn está encendida!"
+  },
+  {
+   "start_frame": 733,
+   "end_frame": 798,
+   "line": 15,
+   "en": "this candle.",
+   "es": "La esperanza se ha encendido."
+  }
+ ],
+ "AOTRCampaignROTK_03a": [
+  {
+   "start_frame": 525,
+   "end_frame": 555,
+   "line": 15,
+   "en": "",
+   "es": "Grimbold, ¿cuántos?"
+  },
+  {
+   "start_frame": 558,
+   "end_frame": 640,
+   "line": 14,
+   "en": "continued...",
+   "es": "Traigo quinientos hombres\ndel Folde Oeste, mi señor."
+  },
+  {
+   "start_frame": 643,
+   "end_frame": 724,
+   "line": 14,
+   "en": "rider from",
+   "es": "Tenemos trescientos más\nde Fenmarch, rey Théoden."
+  },
+  {
+   "start_frame": 734,
+   "end_frame": 782,
+   "line": 15,
+   "en": "Snowborn. None have come, my lord.",
+   "es": "¿Y los jinetes de Nevado?"
+  },
+  {
+   "start_frame": 787,
+   "end_frame": 838,
+   "line": 15,
+   "en": "",
+   "es": "No ha venido ninguno, mi señor."
+  },
+  {
+   "start_frame": 1260,
+   "end_frame": 1305,
+   "line": 15,
+   "en": "Less than half of what I'd",
+   "es": "Seis mil lanzas."
+  },
+  {
+   "start_frame": 1335,
+   "end_frame": 1393,
+   "line": 15,
+   "en": "for. Six thousand will not be enough to break the lines",
+   "es": "Menos de la mitad de lo que esperaba."
+  },
+  {
+   "start_frame": 1396,
+   "end_frame": 1486,
+   "line": 14,
+   "en": "of the mortal. more will",
+   "es": "Seis mil no bastarán para romper\nlas líneas de Mordor."
+  },
+  {
+   "start_frame": 1548,
+   "end_frame": 1582,
+   "line": 15,
+   "en": "every hour last hastens Gondor's defeat",
+   "es": "Vendrán más."
+  },
+  {
+   "start_frame": 1605,
+   "end_frame": 1677,
+   "line": 14,
+   "en": "we have till dawn then we must ride",
+   "es": "Cada hora perdida acelera\nla derrota de Gondor."
+  },
+  {
+   "start_frame": 1680,
+   "end_frame": 1760,
+   "line": 14,
+   "en": "",
+   "es": "Tenemos hasta el alba.\nDespués debemos cabalgar."
+  }
+ ],
+ "AOTRCampaignROTK_03b": [
+  {
+   "start_frame": 440,
+   "end_frame": 506,
+   "line": 14,
+   "en": "To be",
+   "es": ""
+  },
+  {
+   "start_frame": 507,
+   "end_frame": 725,
+   "line": 14,
+   "en": "continued...",
+   "es": ""
+  },
+  {
+   "start_frame": 915,
+   "end_frame": 990,
+   "line": 14,
+   "en": "I don't know.",
+   "es": ""
+  }
+ ],
+ "AOTRCampaignROTK_05a": [
+  {
+   "start_frame": 414,
+   "end_frame": 527,
+   "line": 15,
+   "en": "The Age of Men is over.",
+   "es": "La Era de los Hombres ha terminado."
+  },
+  {
+   "start_frame": 530,
+   "end_frame": 653,
+   "line": 15,
+   "en": "The time of the orc has come.",
+   "es": "El Tiempo del Orco ha llegado."
+  },
+  {
+   "start_frame": 900,
+   "end_frame": 986,
+   "line": 15,
+   "en": "Send forth all legions.",
+   "es": "Envía a todas las legiones."
+  },
+  {
+   "start_frame": 1007,
+   "end_frame": 1112,
+   "line": 14,
+   "en": "Do not stop the attack until the city is taken.",
+   "es": "No detengas el ataque\nhasta tomar la ciudad."
+  },
+  {
+   "start_frame": 1128,
+   "end_frame": 1169,
+   "line": 15,
+   "en": "Slay them all.",
+   "es": "Mátalos a todos."
+  },
+  {
+   "start_frame": 1229,
+   "end_frame": 1274,
+   "line": 15,
+   "en": "What of the wizard?",
+   "es": "¿Y el mago?"
+  },
+  {
+   "start_frame": 1292,
+   "end_frame": 1359,
+   "line": 15,
+   "en": "I will break him.",
+   "es": "Yo lo quebraré."
+  },
+  {
+   "start_frame": 1449,
+   "end_frame": 1505,
+   "line": 15,
+   "en": "Where are Théoden's riders?",
+   "es": "¿Dónde están los jinetes de Théoden?"
+  },
+  {
+   "start_frame": 1508,
+   "end_frame": 1558,
+   "line": 15,
+   "en": "Where Rohan's army come?",
+   "es": "¿Vendrá el ejército de Rohan?"
+  },
+  {
+   "start_frame": 1586,
+   "end_frame": 1614,
+   "line": 15,
+   "en": "With Vendir.",
+   "es": "¿Mithrandir?"
+  }
+ ],
+ "AOTRCampaignROTK_05b": [
+  {
+   "start_frame": 206,
+   "end_frame": 257,
+   "line": 15,
+   "en": "The city is breached! Fall",
+   "es": "¡Han abierto brecha en la ciudad!"
+  },
+  {
+   "start_frame": 260,
+   "end_frame": 328,
+   "line": 15,
+   "en": "back! To the second level!",
+   "es": "¡Todos al segundo nivel!"
+  },
+  {
+   "start_frame": 413,
+   "end_frame": 468,
+   "line": 15,
+   "en": "Get the women and children out! Get them",
+   "es": "¡Sacad a las mujeres y a los niños!"
+  },
+  {
+   "start_frame": 470,
+   "end_frame": 537,
+   "line": 14,
+   "en": "out! Retreat!",
+   "es": "¡Sacadlos de aquí!\n¡Retirada!"
+  },
+  {
+   "start_frame": 552,
+   "end_frame": 583,
+   "line": 15,
+   "en": "",
+   "es": "¡Vamos!"
+  },
+  {
+   "start_frame": 585,
+   "end_frame": 639,
+   "line": 15,
+   "en": "Move into the city.",
+   "es": "¡Adelante! ¡Entrad en la ciudad!"
+  },
+  {
+   "start_frame": 651,
+   "end_frame": 702,
+   "line": 15,
+   "en": "Kill all in your path.",
+   "es": "¡Matad a todo el que encontréis!"
+  }
+ ],
+ "AOTRCampaignROTK_06a": [
+  {
+   "start_frame": 269,
+   "end_frame": 325,
+   "line": 15,
+   "en": "What is this place?",
+   "es": "¿Qué es este lugar?"
+  },
+  {
+   "start_frame": 431,
+   "end_frame": 512,
+   "line": 15,
+   "en": "Master must go inside the tunnel.",
+   "es": "El amo debe entrar en el túnel."
+  },
+  {
+   "start_frame": 529,
+   "end_frame": 638,
+   "line": 14,
+   "en": "No. Now that I'm here, I don't think I want to.",
+   "es": "No... Ahora que estoy aquí,\ncreo que no quiero."
+  },
+  {
+   "start_frame": 686,
+   "end_frame": 740,
+   "line": 15,
+   "en": "It's the only way Go",
+   "es": "Es el único camino."
+  },
+  {
+   "start_frame": 797,
+   "end_frame": 836,
+   "line": 15,
+   "en": "in Or",
+   "es": "Entra..."
+  },
+  {
+   "start_frame": 868,
+   "end_frame": 901,
+   "line": 15,
+   "en": "go back",
+   "es": "...o vuelve atrás."
+  },
+  {
+   "start_frame": 974,
+   "end_frame": 1031,
+   "line": 15,
+   "en": "can't go back",
+   "es": "No puedo volver atrás."
+  },
+  {
+   "start_frame": 1347,
+   "end_frame": 1377,
+   "line": 15,
+   "en": "What's that smell? Hoaxes'",
+   "es": "¿Qué es ese olor?"
+  },
+  {
+   "start_frame": 1380,
+   "end_frame": 1465,
+   "line": 14,
+   "en": "faith. Hoaxes come in the eyes of darts.",
+   "es": "Porquería de orcos.\nLos orcos vienen aquí a veces."
+  },
+  {
+   "start_frame": 1773,
+   "end_frame": 1802,
+   "line": 15,
+   "en": "This way!",
+   "es": "¿Qué pasa?"
+  },
+  {
+   "start_frame": 1879,
+   "end_frame": 1912,
+   "line": 15,
+   "en": "Smeagol!",
+   "es": "¡Sméagol!"
+  }
+ ],
+ "AOTRCampaignROTK_06b": [
+  {
+   "start_frame": 322,
+   "end_frame": 375,
+   "line": 15,
+   "en": "We did it, Mr. Frodo.",
+   "es": "Lo hemos conseguido, señor Frodo."
+  },
+  {
+   "start_frame": 388,
+   "end_frame": 431,
+   "line": 15,
+   "en": "We made it to Mordor.",
+   "es": "Hemos llegado a Mordor."
+  },
+  {
+   "start_frame": 478,
+   "end_frame": 520,
+   "line": 15,
+   "en": "There's so many of them.",
+   "es": "Son muchísimos."
+  },
+  {
+   "start_frame": 541,
+   "end_frame": 594,
+   "line": 15,
+   "en": "We'll never get through unseen.",
+   "es": "Nunca pasaremos sin que nos vean."
+  },
+  {
+   "start_frame": 731,
+   "end_frame": 793,
+   "line": 15,
+   "en": "It's him. The eye.",
+   "es": "Es él. El Ojo."
+  },
+  {
+   "start_frame": 992,
+   "end_frame": 1050,
+   "line": 15,
+   "en": "We have to go in there, Mr. Furtle.",
+   "es": "Tenemos que entrar ahí, señor Frodo."
+  },
+  {
+   "start_frame": 1068,
+   "end_frame": 1103,
+   "line": 15,
+   "en": "There's nothing for it.",
+   "es": "No hay más remedio."
+  },
+  {
+   "start_frame": 1187,
+   "end_frame": 1211,
+   "line": 15,
+   "en": "Come on.",
+   "es": "Vamos."
+  },
+  {
+   "start_frame": 1226,
+   "end_frame": 1278,
+   "line": 15,
+   "en": "Let's just make it down the hill for starters.",
+   "es": "Para empezar, bajemos la colina."
+  }
+ ],
+ "AOTRCampaignROTK_07a": [
+  {
+   "start_frame": 116,
+   "end_frame": 182,
+   "line": 14,
+   "en": "Thank you",
+   "es": ""
+  },
+  {
+   "start_frame": 183,
+   "end_frame": 498,
+   "line": 14,
+   "en": "for",
+   "es": ""
+  },
+  {
+   "start_frame": 499,
+   "end_frame": 506,
+   "line": 14,
+   "en": "watching!",
+   "es": ""
+  }
+ ],
+ "AOTRCampaignROTK_07b": [
+  {
+   "start_frame": 568,
+   "end_frame": 621,
+   "line": 15,
+   "en": "watching!",
+   "es": "¡Detened esta locura!"
+  },
+  {
+   "start_frame": 1454,
+   "end_frame": 1534,
+   "line": 15,
+   "en": "You will not take my son from me!",
+   "es": "¡No me arrebataréis a mi hijo!"
+  },
+  {
+   "start_frame": 1536,
+   "end_frame": 1578,
+   "line": 15,
+   "en": "No! No!",
+   "es": "¡No! ¡No!"
+  },
+  {
+   "start_frame": 1580,
+   "end_frame": 1668,
+   "line": 15,
+   "en": "No! No!",
+   "es": "¡No!"
+  }
+ ],
+ "AOTRCampaignROTK_08a": [
+  {
+   "start_frame": 1077,
+   "end_frame": 1166,
+   "line": 14,
+   "en": "Courage, Mary. Courage for our friends.",
+   "es": "Valor, Merry.\nValor, por nuestros amigos."
+  },
+  {
+   "start_frame": 1257,
+   "end_frame": 1336,
+   "line": 14,
+   "en": "Form ranks, you maggots! Form ranks!",
+   "es": "¡Formad filas, gusanos!\n¡Formad filas!"
+  },
+  {
+   "start_frame": 1341,
+   "end_frame": 1413,
+   "line": 15,
+   "en": "Pikes in front! Archers behind!",
+   "es": "¡Picas delante, arqueros detrás!"
+  },
+  {
+   "start_frame": 1603,
+   "end_frame": 1720,
+   "line": 14,
+   "en": "Oh,",
+   "es": "Éomer, lleva tu éored\npor el flanco izquierdo."
+  },
+  {
+   "start_frame": 1724,
+   "end_frame": 1795,
+   "line": 14,
+   "en": "",
+   "es": "Gamling, sigue el estandarte real\npor el centro."
+  },
+  {
+   "start_frame": 1798,
+   "end_frame": 1888,
+   "line": 14,
+   "en": "",
+   "es": "Grimbold, ve por la derecha\ncon tu compañía al pasar el muro."
+  },
+  {
+   "start_frame": 1891,
+   "end_frame": 1957,
+   "line": 15,
+   "en": "",
+   "es": "¡Adelante, y no temáis a la oscuridad!"
+  },
+  {
+   "start_frame": 1960,
+   "end_frame": 2053,
+   "line": 14,
+   "en": "",
+   "es": "¡Levantaos! ¡Levantaos,\njinetes de Théoden!"
+  },
+  {
+   "start_frame": 2056,
+   "end_frame": 2114,
+   "line": 15,
+   "en": "my God.",
+   "es": "¡Se blandirán las lanzas!"
+  },
+  {
+   "start_frame": 2118,
+   "end_frame": 2187,
+   "line": 15,
+   "en": "A",
+   "es": "¡Se astillarán los escudos!"
+  },
+  {
+   "start_frame": 2191,
+   "end_frame": 2232,
+   "line": 15,
+   "en": "sore day, a",
+   "es": "¡Un día de espadas!"
+  },
+  {
+   "start_frame": 2234,
+   "end_frame": 2278,
+   "line": 15,
+   "en": "red day, ere",
+   "es": "¡Un día rojo!"
+  },
+  {
+   "start_frame": 2281,
+   "end_frame": 2356,
+   "line": 15,
+   "en": "the sun rises!",
+   "es": "¡Antes de que salga el sol!"
+  }
+ ],
+ "AOTRCampaignROTK_11a": [
+  {
+   "start_frame": 318,
+   "end_frame": 384,
+   "line": 14,
+   "en": "Thank you",
+   "es": ""
+  },
+  {
+   "start_frame": 385,
+   "end_frame": 715,
+   "line": 14,
+   "en": "for",
+   "es": ""
+  },
+  {
+   "start_frame": 717,
+   "end_frame": 726,
+   "line": 14,
+   "en": "watching.",
+   "es": ""
+  },
+  {
+   "start_frame": 1023,
+   "end_frame": 1082,
+   "line": 14,
+   "en": "Roto, get down!",
+   "es": ""
+  },
+  {
+   "start_frame": 1118,
+   "end_frame": 1159,
+   "line": 14,
+   "en": "Hide!",
+   "es": ""
+  }
+ ],
+ "AOTRCampaignROTK_11b": [
+  {
+   "start_frame": 844,
+   "end_frame": 897,
+   "line": 15,
+   "en": "Give me your hand!",
+   "es": "¡Deme la mano!"
+  },
+  {
+   "start_frame": 1092,
+   "end_frame": 1156,
+   "line": 15,
+   "en": "Don't let go.",
+   "es": "¡No se suelte!"
+  },
+  {
+   "start_frame": 1177,
+   "end_frame": 1219,
+   "line": 15,
+   "en": "Reach!",
+   "es": "¡Estire el brazo!"
+  }
+ ],
+ "AOTRCampaignROTK_12a": [
+  {
+   "start_frame": 0,
+   "end_frame": 152,
+   "line": 14,
+   "en": "O Hylian, on",
+   "es": ""
+  },
+  {
+   "start_frame": 154,
+   "end_frame": 292,
+   "line": 14,
+   "en": "our abyss rising,",
+   "es": ""
+  },
+  {
+   "start_frame": 967,
+   "end_frame": 1008,
+   "line": 14,
+   "en": "CHOIR SINGS",
+   "es": ""
+  },
+  {
+   "start_frame": 1248,
+   "end_frame": 1321,
+   "line": 14,
+   "en": "Thanks for watching!",
+   "es": ""
+  }
+ ],
+ "AOTRCampaignROTK_12b": [
+  {
+   "start_frame": 276,
+   "end_frame": 357,
+   "line": 14,
+   "en": "Aragorn, Elm's Deep, Rivendell, Moria, Lothlórien, Middle",
+   "es": ""
+  },
+  {
+   "start_frame": 359,
+   "end_frame": 714,
+   "line": 14,
+   "en": "-earth,",
+   "es": ""
+  },
+  {
+   "start_frame": 715,
+   "end_frame": 723,
+   "line": 14,
+   "en": "the One Ring.",
+   "es": ""
+  },
+  {
+   "start_frame": 910,
+   "end_frame": 984,
+   "line": 14,
+   "en": "Thanks for watching!",
+   "es": ""
+  }
+ ],
+ "AOTRCampaignROTK_13b": [
+  {
+   "start_frame": 449,
+   "end_frame": 515,
+   "line": 14,
+   "en": "Thank you",
+   "es": ""
+  },
+  {
+   "start_frame": 516,
+   "end_frame": 703,
+   "line": 14,
+   "en": "for",
+   "es": ""
+  },
+  {
+   "start_frame": 705,
+   "end_frame": 712,
+   "line": 14,
+   "en": "watching!",
+   "es": ""
+  },
+  {
+   "start_frame": 1404,
+   "end_frame": 1444,
+   "line": 14,
+   "en": "¶¶",
+   "es": ""
+  },
+  {
+   "start_frame": 1938,
+   "end_frame": 1991,
+   "line": 14,
+   "en": "I don't know what that means.",
+   "es": ""
+  }
+ ],
+ "AOTRCampaignROTK_14a": [
+  {
+   "start_frame": 430,
+   "end_frame": 470,
+   "line": 15,
+   "en": "Mr. Frodo?",
+   "es": "¿Señor Frodo?"
+  },
+  {
+   "start_frame": 553,
+   "end_frame": 595,
+   "line": 15,
+   "en": "What is it?",
+   "es": "¿Qué le pasa?"
+  },
+  {
+   "start_frame": 630,
+   "end_frame": 733,
+   "line": 14,
+   "en": "It's been four years to the day since we're atop, Sam.",
+   "es": "Hoy se cumplen cuatro años\ndesde la Cima de los Vientos, Sam."
+  },
+  {
+   "start_frame": 736,
+   "end_frame": 811,
+   "line": 15,
+   "en": "it's never really healed.",
+   "es": "Nunca ha sanado del todo."
+  },
+  {
+   "start_frame": 896,
+   "end_frame": 951,
+   "line": 15,
+   "en": "There and back again. A",
+   "es": "«Historia de una ida y de una vuelta»."
+  },
+  {
+   "start_frame": 952,
+   "end_frame": 1015,
+   "line": 15,
+   "en": "Hobbit's Tale by Bilbo Baggins.",
+   "es": "«Relato de un hobbit», por Bilbo Bolsón."
+  },
+  {
+   "start_frame": 1036,
+   "end_frame": 1140,
+   "line": 14,
+   "en": "And The Lord of the Rings by Frodo Baggins.",
+   "es": "Y «El Señor de los Anillos»,\npor Frodo Bolsón."
+  },
+  {
+   "start_frame": 1144,
+   "end_frame": 1207,
+   "line": 15,
+   "en": "You finished it.",
+   "es": "Lo ha terminado."
+  },
+  {
+   "start_frame": 1263,
+   "end_frame": 1317,
+   "line": 15,
+   "en": "Not quite.",
+   "es": "No del todo."
+  },
+  {
+   "start_frame": 1322,
+   "end_frame": 1394,
+   "line": 15,
+   "en": "There's room for a little more.",
+   "es": "Aún queda sitio para un poco más."
+  }
+ ],
+ "AOTRCampaignROTK_14b": [
+  {
+   "start_frame": 285,
+   "end_frame": 427,
+   "line": 14,
+   "en": "I think I'm quite ready for another adventure.",
+   "es": "Creo que ya estoy listo\npara otra aventura."
+  },
+  {
+   "start_frame": 1198,
+   "end_frame": 1305,
+   "line": 15,
+   "en": "Oh, well. My brave pockets.",
+   "es": "Adiós, mis valientes hobbits."
+  },
+  {
+   "start_frame": 1365,
+   "end_frame": 1449,
+   "line": 15,
+   "en": "My work is now finished.",
+   "es": "Mi labor ya ha concluido."
+  },
+  {
+   "start_frame": 1506,
+   "end_frame": 1606,
+   "line": 15,
+   "en": "here at last on the shores of the sea",
+   "es": "Aquí, por fin, a orillas del mar,"
+  },
+  {
+   "start_frame": 1628,
+   "end_frame": 1737,
+   "line": 15,
+   "en": "comes the end of our fellowship",
+   "es": "llega el final de nuestra Comunidad."
+  },
+  {
+   "start_frame": 1785,
+   "end_frame": 1861,
+   "line": 15,
+   "en": "i will not say do not weep for",
+   "es": "No os diré que no lloréis,"
+  },
+  {
+   "start_frame": 1864,
+   "end_frame": 1992,
+   "line": 15,
+   "en": "not all tears are an evil",
+   "es": "pues no todas las lágrimas son un mal."
+  },
+  {
+   "start_frame": 2370,
+   "end_frame": 2445,
+   "line": 15,
+   "en": "It is time, Frodo.",
+   "es": "Ha llegado la hora, Frodo."
+  },
+  {
+   "start_frame": 2552,
+   "end_frame": 2608,
+   "line": 15,
+   "en": "What does he mean?",
+   "es": "¿Qué quiere decir?"
+  },
+  {
+   "start_frame": 2664,
+   "end_frame": 2750,
+   "line": 15,
+   "en": "We set out to save the Shire, Sam.",
+   "es": "Partimos para salvar la Comarca, Sam,"
+  },
+  {
+   "start_frame": 2770,
+   "end_frame": 2846,
+   "line": 15,
+   "en": "And it has been saved.",
+   "es": "y se ha salvado,"
+  },
+  {
+   "start_frame": 2922,
+   "end_frame": 2995,
+   "line": 15,
+   "en": "but not for me.",
+   "es": "pero no para mí."
+  },
+  {
+   "start_frame": 3010,
+   "end_frame": 3076,
+   "line": 15,
+   "en": "You don't mean that.",
+   "es": "No lo dice en serio."
+  },
+  {
+   "start_frame": 3100,
+   "end_frame": 3165,
+   "line": 15,
+   "en": "You can't leave.",
+   "es": "No puede irse."
+  },
+  {
+   "start_frame": 3352,
+   "end_frame": 3444,
+   "line": 15,
+   "en": "The last pages are for you, Sam.",
+   "es": "Las últimas páginas son para ti, Sam."
+  }
+ ]
+}

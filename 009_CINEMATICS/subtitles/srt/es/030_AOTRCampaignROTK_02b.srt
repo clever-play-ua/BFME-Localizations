@@ -1,0 +1,8 @@
+﻿1
+00:00:22,720 --> 00:00:26,320
+¡La almenara!
+¡La almenara de Amon Dîn está encendida!
+
+2
+00:00:29,320 --> 00:00:31,920
+La esperanza se ha encendido.

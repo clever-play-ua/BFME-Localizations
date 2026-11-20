@@ -1,0 +1,120 @@
+{
+ "hero": "Elrond",
+ "uk_name": "Елронд",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:SecondAgeElrond",
+     "t": "Name",
+     "en": "Elrond",
+     "uk": "Елронд",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Last Alliance",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:ElrondArrowVolleyAbility",
+     "t": "Button",
+     "en": "Leithio I Philinn! (&W)",
+     "uk": "Лейтіо і Філінн! (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElrondArrowVolleyAbility",
+     "t": "Tooltip",
+     "en": "Elrond calls elven archers to bombard anywhere within a great radius with a volley of arrows \\n Left click icon then left click on target area",
+     "uk": "З ельфійської перекладається як — «Пустити стріли»\\nЕлронд наказує ельфійським лучникам обстріляти обране місце залпом стріл\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElrondLALeadership",
+     "t": "Button",
+     "en": "Herald of Gil-galad",
+     "uk": "Вісник Ґіл-ґалада",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElrondLALeadership",
+     "t": "Tooltip",
+     "en": "When Gil-galad and Elendil joined forces, the Lord of Rivendell opened his sanctuary for the Kings to formulate their battleplans and assemble their forces. Scores of mighty arms and armour were wrought in Imladris during this time. Elrond would be Gil-galad's herald in the war to come. \\n\\n  Allies near Elrond gain \\n +33% damage, +33% armour, \\n and earn experience 50% faster\\nPassive ability",
+     "uk": "Союзники поряд з Елрондом отримують бонус\\n+33% до пошкоджень, +33% броні\\nі на 50% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nКоли Ґіл-ґалад і Еленділ об'єднали сили, володар Рівенделу відчинив свій прихисток, щоб королі могли обміркувати плани битви й зібрати війська.\\n\\nТоді в Імладрисі викували безліч могутньої зброї та обладунків. У прийдешній війні Елронд став вісником Ґіл-ґалада.",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Last Alliance map",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:ElrondLALeadership_LAA",
+     "t": "Button",
+     "en": "Herald of Gil-galad (&W)",
+     "uk": "Вісник Ґіл-ґалада (&W)",
+     "st": "ok",
+     "dup": "CONTROLBAR:ElrondLALeadership"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElrondLALeadership_LAA",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\n Allied heroes near Elrond earn experience 33% faster\\nPassive ability\\n\\n Can be cast on a banner to instantly level it up by one rank\\nLeft click icon then left click on target banner",
+     "uk": "Тип ефекту: Лідерство\\nСоюзні герої поряд з Елрондом на 33% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nМожна застосувати до стягу, щоб миттєво підвищити його рівень на один\\nКлікніть на іконку, потім оберіть стяг",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElrondArrowVolleyAbility_LAA",
+     "t": "Button",
+     "en": "Leithio I Philinn! (&R)",
+     "uk": "Лейтіо і Філінн! (&R)",
+     "st": "ok",
+     "dup": "CONTROLBAR:ElrondArrowVolleyAbility"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElrondArrowVolleyAbility_LAA",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Elrond calls elven archers to bombard anywhere within a great radius with a volley of arrows \\n Left click icon then left click on target area",
+     "uk": "З ельфійської перекладається як — «Пустити стріли»\\nНеобхідно: Рівень 3\\nЕлронд наказує ельфійським лучникам засипати стрілами будь-яку ділянку у великому радіусі\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HeraldOfGilGalad_LAA",
+     "t": "Button",
+     "en": "Warden of Imladris (&T)",
+     "uk": "Страж Імладрису (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHeraldOfGilGalad_LAA",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\nElrond gains 50% damage while his attacks deal splash damage for 30 seconds \\n Left click to activate",
+     "uk": "Необхідно: Рівень 5\\nНа 30 сек. Елронд отримує бонус +50% до пошкоджень, а його атаки завдають пошкоджень по площі\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElrondRingOfAir_LAA",
+     "t": "Button",
+     "en": "Ring of Air (&C)",
+     "uk": "Перстень Повітря (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipElrondRingOfAir_LAA",
+     "t": "Tooltip",
+     "en": "Requires Level 8\\n Modifier Type: Buff\\nCreates a circular sanctuary around Elrond for 30 seconds\\nAllied units gain +50% armour while in the area\\n Nearby enemy units suffer -25% damage, -20% armour and lose all leadership \\nLeft click icon to activate",
+     "uk": "Необхідно: Рівень 8\\nТип ефекту: Посилення\\nНа 30 сек. створює навколо Елронда кругле святилище\\nСоюзні загони в ньому отримують бонус +50% броні\\nВорожі загони поблизу отримують штраф -25% пошкоджень, -20% броні й втрачають усе лідерство\\nКлікніть на іконку, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

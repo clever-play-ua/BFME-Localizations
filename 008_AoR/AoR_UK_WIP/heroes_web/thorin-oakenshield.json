@@ -1,0 +1,169 @@
+{
+ "hero": "Thorin Oakenshield",
+ "uk_name": "Торін Дубощит",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:DwarvenThorin",
+     "t": "Name",
+     "en": "Thorin Oakenshield",
+     "uk": "Торін Дубощит",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipToggleStanceHoldGroundThorin",
+     "t": "Tooltip",
+     "en": "Shortcut: G \\n +10% armour, -20% damage, -10% speed \\nModifier Type: Leadership\\nWhen Thorin attacks, nearby troops gain +33% armour for 8 seconds",
+     "uk": "Гаряча клавіша: G\\n+10% броні, -20% пошкоджень, -10% швидкості\\nТип ефекту: Лідерство\\nКоли Торін атакує, загони поблизу на 8 сек. отримують бонус +33% броні",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ThorinLeadership",
+     "t": "Button",
+     "en": "King Under the Mountain",
+     "uk": "Король-під-Горою",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipThorinLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Dwarves near Thorin gain 25% armour, resistance to fear and terror and earn experience 50% faster \\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nДворфи поряд із Торіном отримують бонус +25% броні, стійкість до страху та жаху й на 50% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ThorinResentment",
+     "t": "Button",
+     "en": "Resentment (&R)",
+     "uk": "Пригнічення (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipThorinResentment",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Modifier Type: Active Debuff \\n Targeted enemy units suffer -20% speed and -30% armour for 30 seconds\\n Nullifies enemy leadership \\n Left click icon then left click on target units",
+     "uk": "Необхідно: Рівень 3\\nТип ефекту: Активне ослаблення\\nОбрані ворожі загони на 30 сек. отримують штраф -20% швидкості й -30% броні\\nСкасовує вороже лідерство\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ThorinOrcrist",
+     "t": "Button",
+     "en": "Goblin-Cleaver (&T)",
+     "uk": "Оркрист — Гобліноруб (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipThorinOrcrist",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Thorin gains +75% magic damage and +100% armour for 30 seconds\\n Left click to activate",
+     "uk": "Необхідно: Рівень 5\\nТорін на 30 сек. отримує бонус +75% до пошкоджень від магії і +100% броні\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ThorinRestoration",
+     "t": "Button",
+     "en": "Driven By Prophecy (&C)",
+     "uk": "Керований пророцтвом (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipThorinRestoration",
+     "t": "Tooltip",
+     "en": "Requires Level 7 \\n Heals nearby allies and fully refreshes\\ntheir special ability timers \\n Left click icon then left click on target area",
+     "uk": "Необхідно: Рівень 7\\nЗцілює союзників поблизу й повністю скидає таймер\\nвідновлення їхніх здібностей\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ThorinDuBekar",
+     "t": "Button",
+     "en": "Du Bekar! (&V)",
+     "uk": "До зброї! (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipThorinDuBekar",
+     "t": "Tooltip",
+     "en": "Requires Level 10 \\n Modifier Type: Spell \\n Thorin and nearby allies gain resistance to knockback, +75% damage and +20% speed for 30 seconds\\nThorin can crush enemies\\n Enemies in wide radius around Thorin are stunned in fear for 15 seconds\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 10\\nТип ефекту: Заклинання\\nТорін і союзники поблизу на 30 сек. отримують стійкість до відкидання, +75% до пошкоджень і +20% швидкості\\nТорін топче ворогів\\nВороги в широкому радіусі навколо Торіна на 15 сек. будуть приголомшені страхом\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Battle of Azanulbizar",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:YoungThorinLeadership",
+     "t": "Button",
+     "en": "Prince of Erebor",
+     "uk": "Принц Еребору",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipYoungThorinLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Allies near King Thorin gain +33% damage, +33% armour, and earn experience 50% faster \\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nСоюзники поряд із королем Торіном отримують бонус +33% до пошкоджень, +33% броні й на 50% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:YoungThorinOakenshield",
+     "t": "Button",
+     "en": "Oakenshield (&R)",
+     "uk": "Дубощит (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipYoungThorinOakenshield",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Thorin gains\\n+75% magic damage and +100% armour for 30 seconds\\n Left click to activate",
+     "uk": "Необхідно: Рівень 3\\nТорін отримує +75% до пошкоджень\\nвід магії і +100% броні на 30 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:YoungThorinDuBekar",
+     "t": "Button",
+     "en": "Du Bekar! (&T)",
+     "uk": "До зброї! (&T)",
+     "st": "ok",
+     "dup": "CONTROLBAR:ThorinDuBekar"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipYoungThorinDuBekar",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Modifier Type: Spell \\n Thorin and nearby allies gain resistance to knockback, +75% armour and +20% speed for 30 seconds \\nLeft click to activate",
+     "uk": "Необхідно: Рівень 5\\nТип ефекту: Заклинання\\nТорін і союзники поблизу на 30 сек. отримують стійкість до відкидання, +75% броні й +20% швидкості\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Council of Elrond",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:ThorinOrcristCampaign",
+     "t": "Button",
+     "en": "Goblin-Cleaver (&R)",
+     "uk": "Оркрист — Гобліноруб (&R)",
+     "st": "ok",
+     "dup": "CONTROLBAR:ThorinOrcrist"
+    },
+    {
+     "v": "CONTROLBAR:TooltipThorinOrcristCampaign",
+     "t": "Tooltip",
+     "en": "Thorin gains +75% magic damage and +100% armour for 30 seconds\\n Left click to activate",
+     "uk": "Торін на 30 сек. отримує бонус +75% до пошкоджень від магії і +100% броні\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

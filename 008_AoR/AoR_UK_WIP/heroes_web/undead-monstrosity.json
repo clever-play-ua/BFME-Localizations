@@ -1,0 +1,83 @@
+{
+ "hero": "Undead Monstrosity",
+ "uk_name": "Невмерла потвора",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:GuldurUndeadTroll",
+     "t": "Name",
+     "en": "Undead Monstrosity",
+     "uk": "Невмерла потвора",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:PutridPresence",
+     "t": "Button",
+     "en": "Putrid Presence",
+     "uk": "Смердюча присутність",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipPutridPresence",
+     "t": "Tooltip",
+     "en": "Armour of nearby enemies is reduced by 15%\\nPassive ability",
+     "uk": "Броня ворогів поблизу знижується на 15%\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToxicBile",
+     "t": "Button",
+     "en": "Toxic Bile (&R)",
+     "uk": "Отруйна жовч (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipToxicBile",
+     "t": "Tooltip",
+     "en": "The Undead Monstrosity spews out a load of toxic bile\\nwithin the selected radius\\nEnemies caught within take strong damage over time for 20 seconds\\nLeft click icon then left click on target area",
+     "uk": "Невмерла потвора вивергає отруйну жовч\\nна обрану ділянку\\nВороги в ній 20 сек. отримують значні пошкодження\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:UndeadTrollHooked",
+     "t": "Button",
+     "en": "Hooked! (&T)",
+     "uk": "На гаку! (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipUndeadTrollHooked",
+     "t": "Tooltip",
+     "en": "Target enemy hero or unit is hooked and rooted in place for 20 seconds, during which its armour and attack damage is decreased by 25%\\nLeft click icon then left click on target",
+     "uk": "Обраний ворожий герой чи загін потрапляє на гак і на 20 сек. прикутий до місця, а його броня й пошкодження знижуються на 25%\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:CorpseExplosion",
+     "t": "Button",
+     "en": "Corpse Explosion",
+     "uk": "Вибух трупа",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCorpseExplosionRotK",
+     "t": "Tooltip",
+     "en": "The Undead Monstrosity explodes if killed\\nThe explosion knocks down nearby enemies and leaves a cloud of poisonous fumes\\nPassive ability",
+     "uk": "Невмерла потвора вибухає, якщо її вбити\\nВибух збиває з ніг ворогів поблизу й лишає хмару отруйних випарів\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCorpseExplosion",
+     "t": "Tooltip",
+     "en": "The Undead Monstrosity explodes if not killed\\nbefore its timer runs out\\nThe explosion knocks down nearby enemies\\nand leaves a cloud of poisonous fumes\\nPassive ability",
+     "uk": "Невмерла потвора вибухає, якщо її не вбити\\nдо кінця відліку\\nВибух збиває з ніг ворогів поблизу\\nй лишає хмару отруйних випарів\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

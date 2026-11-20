@@ -1,0 +1,125 @@
+{
+ "hero": "Elendil the Tall",
+ "uk_name": "Еленділ Високий",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:SecondAgeElendil",
+     "t": "Name",
+     "en": "Elendil the Tall",
+     "uk": "Еленділ Високий",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElendilRestoration",
+     "t": "Button",
+     "en": "Hands of the King (&W)",
+     "uk": "Руки короля (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElendilRestoration",
+     "t": "Tooltip",
+     "en": "Heals nearby allies and fully refreshes\\ntheir special ability timers \\n Left click icon then left click on target area",
+     "uk": "Зцілює союзників поблизу й повністю скидає таймер відновлення їхніх здібностей\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElendilLeadership",
+     "t": "Button",
+     "en": "High King of the Dúnedain",
+     "uk": "Верховний король дунедайн",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElendilLeadership",
+     "t": "Tooltip",
+     "en": "Elendil, son of Amandil, was the leader of the Faithful Númenóreans, before Eru Ilúvatar drowned the island nation as punishment for the arrogance of Ar-Pharazôn, its last king. Elendil escaped with his two sons and founded Númenórean kingdoms in Middle-earth. His seat was in Annúminas, in Arnor, while his sons ruled in his name from Minas Anor and Minas Ithil, in Gondor. \\n\\n Allies near Elendil gain \\n +33% damage, +33% armour, \\n and earn experience 50% faster\\nPassive ability",
+     "uk": "Союзники поряд з Еленділом отримують бонус\\n+33% до пошкоджень, +33% броні\\nі на 50% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nЕленділ, син Амандила, очолював Вірних нуменорців, доки Еру Ілуватар не втопив острівне королівство в якості покарання за гордість Ар-Фаразона, його останнього короля.\\n\\nЕленділ урятувався разом із двома синами й заснував нуменорські королівства в Середзем'ї. Його престол був в Аннумінасі, в Арнорі, а сини правили від його імені з Мінас-Анора й Мінас-Ітіля, у Ґондорі.",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Last Alliance map",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:ElendilRestoration_LAA",
+     "t": "Button",
+     "en": "High King of the Dûnedain (&W)",
+     "uk": "Верховний король дунедайн (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElendilRestoration_LAA",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\n All Dúnedain units near Elendil gain 33% armour and damage and are immune to fear and terror\\nPassive ability\\n\\nCan be cast on allies to heal them \\n At level 7 also refreshes their special ability timers \\n Left click icon then left click on target area",
+     "uk": "Тип ефекту: Лідерство\\nУсі загони дунедайн поряд з Еленділом отримують бонус +33% броні й пошкоджень та імунітет до страху та жаху\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nМожна застосувати до союзників, щоб зцілити їх\\nНа 7 рівні також повністю скидає таймер відновлення їхніх здібностей\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElendilFear_LAA",
+     "t": "Button",
+     "en": "Lord of Andúnië (&R)",
+     "uk": "Володар Андуніє (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElendilFear_LAA",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Elendil proclaims his high descent as the Lord of Andúnië\\nNearby enemies flee in terror \\n Left click to activate \\n\\n Modifier type: Spell \\n At level 6, all Dúnedain units near Elendil are immune to debuffs\\nPassive ability ",
+     "uk": "Необхідно: Рівень 3\\nЕленділ гучно проголошує про своє шляхетне походження як Володар Андуніє\\nВороги поблизу тікають у жаху\\nКлікніть, щоб активувати\\n\\nТип ефекту: Заклинання\\nНа 6 рівні всі загони дунедайн поряд з Еленділом отримують імунітет до ослаблень\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElendilBlademaster_LAA",
+     "t": "Button",
+     "en": "Oath of Elendil (&T)",
+     "uk": "Клятва Еленділа (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipElendilBlademaster_LAA",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Elendil gains +100% damage and armour and deals knockback damage for 30 seconds\\n While the ability is active, nearby heroes gain +20% armour and damage, and 50% experience gain \\n Left click to activate",
+     "uk": "Необхідно: Рівень 5\\nНа 30 сек. Еленділ отримує бонус +100% до пошкоджень і броні та відкидає ворогів своїми ударами\\nПоки діє здібність, герої поблизу отримують бонус +20% броні й пошкоджень і на 50% швидше набирають досвід\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElendilWard_LAA",
+     "t": "Button",
+     "en": "Leader of the Faithful (&C)",
+     "uk": "Лідер Вірних (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElendilWard_LAA",
+     "t": "Tooltip",
+     "en": "Required: Rank 8 \\n Summons a ward around Elendil\\nNearby units heal over time and fallen units are quickly replenished \\n Lasts 60 seconds \\n Left click to activate",
+     "uk": "Необхідно: Рівень 8\\nСтворює захисне коло навколо Еленділа\\nЗагони поблизу поступово зцілюються, а загони швидко поновлюють полеглих\\nТриває 60 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElendilNimruzir_LA",
+     "t": "Button",
+     "en": "Nimruzîr (&V)",
+     "uk": "Німрузір (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElendilNimruzir_LA",
+     "t": "Tooltip",
+     "en": "Requires Level 10 \\n All nearby friendly units gain +75% damage and +150% experience for 30 seconds \\n left click to activate",
+     "uk": "Необхідно: Рівень 10\\nНа 30 сек. усі союзні загони поблизу отримують бонус +75% до пошкоджень і +150% досвіду\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

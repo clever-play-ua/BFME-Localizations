@@ -1,0 +1,35 @@
+﻿1
+00:00:13,417 --> 00:00:15,625
+Lo hemos conseguido, señor Frodo.
+
+2
+00:00:16,167 --> 00:00:17,958
+Hemos llegado a Mordor.
+
+3
+00:00:19,917 --> 00:00:21,667
+Son muchísimos.
+
+4
+00:00:22,542 --> 00:00:24,750
+Nunca pasaremos sin que nos vean.
+
+5
+00:00:30,458 --> 00:00:33,042
+Es él. El Ojo.
+
+6
+00:00:41,333 --> 00:00:43,750
+Tenemos que entrar ahí, señor Frodo.
+
+7
+00:00:44,500 --> 00:00:45,958
+No hay más remedio.
+
+8
+00:00:49,458 --> 00:00:50,458
+Vamos.
+
+9
+00:00:51,083 --> 00:00:53,250
+Para empezar, bajemos la colina.

@@ -1,0 +1,57 @@
+﻿1
+00:00:44,875 --> 00:00:48,583
+Valor, Merry.
+Valor, por nuestros amigos.
+
+2
+00:00:52,375 --> 00:00:55,667
+¡Formad filas, gusanos!
+¡Formad filas!
+
+3
+00:00:55,875 --> 00:00:58,875
+¡Picas delante, arqueros detrás!
+
+4
+00:01:06,792 --> 00:01:11,667
+Éomer, lleva tu éored
+por el flanco izquierdo.
+
+5
+00:01:11,833 --> 00:01:14,792
+Gamling, sigue el estandarte real
+por el centro.
+
+6
+00:01:14,917 --> 00:01:18,667
+Grimbold, ve por la derecha
+con tu compañía al pasar el muro.
+
+7
+00:01:18,792 --> 00:01:21,542
+¡Adelante, y no temáis a la oscuridad!
+
+8
+00:01:21,667 --> 00:01:25,542
+¡Levantaos! ¡Levantaos,
+jinetes de Théoden!
+
+9
+00:01:25,667 --> 00:01:28,083
+¡Se blandirán las lanzas!
+
+10
+00:01:28,250 --> 00:01:31,125
+¡Se astillarán los escudos!
+
+11
+00:01:31,292 --> 00:01:33,000
+¡Un día de espadas!
+
+12
+00:01:33,083 --> 00:01:34,917
+¡Un día rojo!
+
+13
+00:01:35,042 --> 00:01:38,167
+¡Antes de que salga el sol!

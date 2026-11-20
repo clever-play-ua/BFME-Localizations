@@ -1,0 +1,202 @@
+{
+ "hero": "Elladan",
+ "uk_name": "Елладан",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:Elladan",
+     "t": "Name",
+     "en": "Elladan",
+     "uk": "Елладан",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElrohirLeadership",
+     "t": "Button",
+     "en": "Gwenyn",
+     "uk": "Близнюки",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElladanLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n When near his brother, Elladan gains +50% damage and +50% armour\\n If Elrohir dies while Elladan is on the field,\\n Elladan gains a temporary +100% damage increase but also loses -25% of his armour \\n Passive ability",
+     "uk": "Тип ефекту: Лідерство\\nПоряд із братом Елладан отримує бонус +50% до пошкоджень і +50% броні\\nЯкщо Елрохір гине, поки Елладан на полі бою,\\nЕлладан тимчасово отримує бонус +100% до пошкоджень, але втрачає 25% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TwinsHeroesLeadership",
+     "t": "Button",
+     "en": "Representatives of Elves and Men",
+     "uk": "Посланці ельфів і людей",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipTwinsHeroesLeadershipCampaignElladan",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Grants 25% armour to friendly units \\n At level 5, reduces recharge time for nearby heroes' abilities by 15% and increases auto-heal of nearby heroes by 15%\\n Does not affect his brother \\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nСоюзні загони отримують бонус +25% броні\\nНа 5 рівні скорочує час відновлення здібностей героїв поблизу на 15% і на 15% прискорює їхнє самозцілення\\nНе діє на його брата\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipTwinsHeroesLeadershipElladan",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Grants 25% armour to nearby Bree-landers, Dúnedain and Elves \\n At level 5, reduces recharge time for nearby heroes' abilities by 15% and increases auto-heal of nearby heroes by 15%\\n Does not affect his brother \\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nМешканці Брі, дунедайн та ельфи поблизу отримують бонус +25% броні\\nНа 5 рівні скорочує час відновлення здібностей героїв поблизу на 15% і на 15% прискорює їхнє самозцілення\\nНе діє на його брата\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElrohirLeadership2",
+     "t": "Button",
+     "en": "Hatred of Orcs (&T)",
+     "uk": "Ненависть до орків (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElladanLeadership2",
+     "t": "Tooltip",
+     "en": "Elladan deals +33% extra damage to all Orcs \\nPassive ability \\n \\n When activated, nearby orcs lose -15% speed for 30 seconds",
+     "uk": "Елладан завдає оркам на 33% більше пошкоджень\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nПісля активації орки поблизу на 30 сек. втрачають 15% швидкості",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElladanBrightBlade",
+     "t": "Button",
+     "en": "Bright Blade (&C)",
+     "uk": "Сяючий клинок (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElladanBrightBlade",
+     "t": "Tooltip",
+     "en": "Required: Rank 3 \\n Elladan deals heavy damage to targeted hero\\n Normal units are knocked down and damaged \\n Left click then left click on target",
+     "uk": "Необхідно: Рівень 3\\nЕлладан завдає значних пошкоджень обраному героєві\\nЗвичайні загони збиває з ніг і завдає їм пошкоджень\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ScionofEarendil",
+     "t": "Button",
+     "en": "Scion of Eärendil (&V)",
+     "uk": "Нащадок Еаренділа (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipScionofEarendil",
+     "t": "Tooltip",
+     "en": "Requires Level 10\\n Elladan calls forth a pillar of light to stun enemy units within the radius for 5 seconds\\nLeft click icon then left click on target",
+     "uk": "Необхідно: Рівень 10\\nЕлладан викликає стовп світла, що приголомшує ворожі загони в радіусі дії на 5 сек.\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Grey Company Sets Out",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:FellowshipAthelasElladan",
+     "t": "Button",
+     "en": "Athelas",
+     "uk": "Ацелас",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipFellowshipAthelas",
+     "t": "Tooltip",
+     "en": "Heals nearby friendly Heroes \\n Left click to activate",
+     "uk": "Зцілює союзних героїв поблизу\\n Клікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Battle of the Hornburg",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:ToggleFaramirWeapons",
+     "t": "Button",
+     "en": "Toggle Weapon (&W)",
+     "uk": "Змінити зброю (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipToggleGreyCompanyWeapons",
+     "t": "Tooltip",
+     "en": "Left click to toggle between bow and spear",
+     "uk": "Клікніть, щоб перемкнутися між луком і списом",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HalbaradUnerringLoyalty",
+     "t": "Button",
+     "en": "Unerring Loyalty",
+     "uk": "Непохитна вірність",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHalbaradUnerringLoyalty",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n Aragorn, Dúnedain and Grey Company units gain Experience +15% faster when near Halbarad \\n Passive ability",
+     "uk": "Тип ефекту: Заклинання\\nАраґорн, дунедайн і воїни Сірого загону поряд із Галбарадом на 15% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HalbaradMuster",
+     "t": "Button",
+     "en": "Muster the Dúnedain (&T)",
+     "uk": "Скликати дунедайн (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHalbaradMuster",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n The recruit times of Rangers of the North and Dúnedain Outriders are decreased by 100% for 45 seconds\\n Left click to activate",
+     "uk": "Необхідно: Рівень 3\\nСлідопити Півночі й вершники-дунедайн на 45 сек. тренуються миттєво.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HalbaradPerseverance",
+     "t": "Button",
+     "en": "Perseverance (&C)",
+     "uk": "Стійкість (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHalbaradPerseveranceFellowship",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Nearby Dúnedain gain +30% armour and +50% resistance to knockback for 30 seconds\\n Left click to activate",
+     "uk": "Необхідно: Рівень 5\\nДунедайн поблизу отримують бонус +30% броні й +50% стійкості до відкидання на 30 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HalbaradBannerOfArwen",
+     "t": "Button",
+     "en": "The Banner of Arwen (&V)",
+     "uk": "Стяг Арвен (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipHalbaradBannerOfArwen",
+     "t": "Tooltip",
+     "en": "Requires Level 10 \\nHalbarad unfurls the Banner wrought by Arwen Undómiel\\n For 60 seconds, allied units in a large radius gain +50% damage and are constantly replenished\\nNearby allied heroes receive +50% experience faster\\nThe banner can be destroyed by the enemy in this time\\n Left click icon to activate",
+     "uk": "Необхідно: Рівень 10\\nГалбарад розгортає стяг, вишитий Арвен Ундоміель\\nНа 60 сек. союзні загони у великому радіусі отримують бонус +50% до пошкоджень і постійно поновлюють полеглих\\nСоюзні герої поблизу на 50% швидше набирають досвід\\nУ цей час ворог може знищити стяг\\nКлікніть на іконку, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEowynMount",
+     "t": "Tooltip",
+     "en": "Left click to switch between mounted and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою верхи та пішим ходом",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

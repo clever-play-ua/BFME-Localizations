@@ -1,0 +1,45 @@
+﻿1
+00:00:21,000 --> 00:00:22,200
+Grimbold, how many?
+
+2
+00:00:22,320 --> 00:00:25,600
+Five hundred men from the Westfold, my lord.
+
+3
+00:00:25,720 --> 00:00:28,960
+Three hundred more from
+Fenmarch, King Théoden.
+
+4
+00:00:29,360 --> 00:00:31,280
+And the riders from Snowbourn?
+
+5
+00:00:31,480 --> 00:00:33,520
+None have come, my lord.
+
+6
+00:00:50,400 --> 00:00:52,200
+Six thousand spears.
+
+7
+00:00:53,400 --> 00:00:55,720
+Less than half of what I'd hoped for.
+
+8
+00:00:55,840 --> 00:00:59,440
+Six thousand will not be enough
+to break the lines of Mordor.
+
+9
+00:01:01,920 --> 00:01:03,280
+More will come.
+
+10
+00:01:04,200 --> 00:01:07,080
+Every hour lost hastens Gondor's defeat.
+
+11
+00:01:07,200 --> 00:01:10,400
+We have till dawn. Then we must ride.

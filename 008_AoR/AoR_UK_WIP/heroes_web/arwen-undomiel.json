@@ -1,0 +1,112 @@
+{
+ "hero": "Arwen Undómiel",
+ "uk_name": "Арвен Ундоміель",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:ElvenArwen",
+     "t": "Name",
+     "en": "Arwen Undómiel",
+     "uk": "Арвен Ундоміель",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Rivendell",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:DaughterElrond",
+     "t": "Button",
+     "en": "Daughter of Elrond",
+     "uk": "Дочка Елронда",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDaughterElrond",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\nNearby friendly Rivendell Revelers gain +15% movement speed\\n\\nArwen can target enemy units\\nAllies around the target gain 33% armour\\n Passive ability",
+     "uk": "Тип ефекту: Лідерство\\nСоюзні гуляльники Рівенделу поблизу отримують бонус +15% швидкості руху\\n\\nАрвен може атакувати ворожі загони\\nСоюзники навколо цілі отримують бонус +33% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SpecialPowerUndomiel",
+     "t": "Button",
+     "en": "Undómiel (&R)",
+     "uk": "Ундоміель (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSpecialPowerUndomiel",
+     "t": "Tooltip",
+     "en": "Allows Arwen to rank up.\\n Becomes more expensive the higher Arwen ranks up. \\n Left click to purchase upgrade \\n\\n Modifier Type: Leadership \\n Rank 1: Allied heroes near Arwen gain +33% experience gain. \\n Rank 3: The radius of Arwen's leadership is greatly increased. \\n Rank 10: Allied heroes near Arwen gain +33% armour for 40 seconds. \\n Also passively grants Arwen a high percentage of ranged damage avoidance and increased armour per level. \\nPassive ability",
+     "uk": "Дає Арвен змогу підвищити рівень.\\nЩо вищий рівень Арвен, то вартість вища.\\nКлікніть, щоб придбати покращення\\n\\nТип ефекту: Лідерство\\n1 рівень: союзні герої поряд з Арвен на 33% швидше набирають досвід.\\n3 рівень: радіус лідерства Арвен значно збільшується.\\n10 рівень: союзні герої поряд з Арвен на 40 сек. отримують бонус +33% броні.\\nТакож пасивно дає Арвен високий шанс ухилитися від атак на відстані й більше броні з кожним рівнем.\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TinuvielBlessing",
+     "t": "Button",
+     "en": "Blessing of Tinuviel (&T)",
+     "uk": "Благословення Тінувіель (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipTinuvielBlessing",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Enemy units within the radius lose all leadership, are slowed by 15% and lose -20% damage and armour for 30 seconds\\n Left click icon then left click on target",
+     "uk": "Необхідно: Рівень 3\\nВорожі загони в радіусі на 30 сек. втрачають усе лідерство, сповільнюються на 15% і втрачають 20% пошкоджень і броні\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ArwenImage",
+     "t": "Button",
+     "en": "Image of Lúthien (&C)",
+     "uk": "Образ Лутієн (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipArwenImage",
+     "t": "Tooltip",
+     "en": "Requires Level 6\\n Targeted units and heroes become invisible and receive +10% movement speed for 30 seconds\\n Left click icon then left click on target",
+     "uk": "Необхідно: Рівень 6\\nОбрані загони й герої на 30 сек. стають невидимими й отримують бонус +10% швидкості руху\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ArwenEvenstar",
+     "t": "Button",
+     "en": "Power of the Evenstar (&V)",
+     "uk": "Сила Вечірньої зорі (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipArwenEvenstar",
+     "t": "Tooltip",
+     "en": "Requires Level 10 \\n Rivendell units within the radius gain fear immunity and get healed when they deal damage for 60 seconds\\n Left click icon then left click on target",
+     "uk": "Необхідно: Рівень 10\\nЗагони Рівенделу в радіусі на 60 сек. отримують імунітет до страху й зцілюються, коли завдають пошкоджень\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SpecialPowerUndomielFinal",
+     "t": "Button",
+     "en": "Undómiel (&R)",
+     "uk": "Ундоміель (&R)",
+     "st": "ok",
+     "dup": "CONTROLBAR:SpecialPowerUndomiel"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSpecialPowerUndomielFinal",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Rank 1: Allied heroes near Arwen gain +33% experience gain. \\n Rank 3: The radius of Arwen's leadership is greatly increased. \\n Rank 10: Allied heroes near Arwen gain +33% armour for 40 seconds. \\n Also passively grants Arwen a high percentage of ranged damage avoidance and increased armour per level. \\n Left-click to activate ",
+     "uk": "Тип ефекту: Лідерство\\n1 рівень: союзні герої поряд з Арвен на 33% швидше набирають досвід.\\n3 рівень: радіус лідерства Арвен значно збільшується.\\n10 рівень: союзні герої поряд з Арвен на 40 сек. отримують бонус +33% броні.\\nТакож пасивно дає Арвен високий шанс ухилитися від атак на відстані й більше броні з кожним рівнем.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

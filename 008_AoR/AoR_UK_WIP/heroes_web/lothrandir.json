@@ -1,0 +1,104 @@
+{
+ "hero": "Lothrandir",
+ "uk_name": "Лотрандир",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:CampaignLothrandir",
+     "t": "Name",
+     "en": "Lothrandir",
+     "uk": "Лотрандир",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:LothrandirQuickDispatch",
+     "t": "Button",
+     "en": "Quick Dispatch (&W)",
+     "uk": "Швидка розправа (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipLothrandirQuickDispatch",
+     "t": "Tooltip",
+     "en": "Lothrandir gains +25% attack and movement speed for 30 seconds\\n Left click to activate",
+     "uk": "Лотрандир отримує бонус +25% до швидкості атаки й пересування на 30 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:LothrandirSubtleWays",
+     "t": "Button",
+     "en": "Subtle Ways (&R)",
+     "uk": "Потаємні стежки (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipLothrandirSubtleWays",
+     "t": "Tooltip",
+     "en": "Lothrandir and targeted allies become stealthed and deal increased damage for 30 seconds\\n Left click icon then left click on target units",
+     "uk": "Лотрандир і обрані союзники стають невидимими й завдають більше пошкоджень на 30 сек.\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FaramirLeadership",
+     "t": "Button",
+     "en": "Wizard's Pupil",
+     "uk": "Учень чарівника",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFaramirLeadership",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Modifier Type: Leadership \\n Knights of Minas Tirith near Faramir gain +25% damage and -25% trample deceleration \\nPassive ability",
+     "uk": "Необхідно: Рівень 3\\nТип ефекту: Лідерство\\nЛицарі Мінас-Тіріта поряд із Фараміром отримують бонус +25% до пошкоджень і на 25% менше сповільнюються під час топтання\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FaramirDesperateCharge",
+     "t": "Button",
+     "en": "Desperate Charge (&R)",
+     "uk": "Відчайдушна атака (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFaramirDesperateCharge",
+     "t": "Tooltip",
+     "en": "Required: Rank 5\\n Faramir gains +100% resistance to ranged attacks and pike damage for 20 seconds \\n Left click to activate",
+     "uk": "Необхідно: Рівень 5\\nФарамір на 20 сек. отримує бонус +100% стійкості до атак на відстані й ударів списами\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FaramirKnightRanger",
+     "t": "Button",
+     "en": "Knight/Ranger Toggle (&T)",
+     "uk": "Лицар / Слідопит (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEowynMount",
+     "t": "Tooltip",
+     "en": "Left click to switch between mounted and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою верхи та пішим ходом",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:CaptainofGondorF",
+     "t": "Button",
+     "en": "Faramir's Quality (&C)",
+     "uk": "Гідність Фараміра (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCaptainofGondor",
+     "t": "Tooltip",
+     "en": "Requires Level 8 \\n Give targeted friendly troops experience \\n Left click icon then left click on target units",
+     "uk": "Необхідно: Рівень 8\\nМиттєво наділяє досвідом обрані союзні загони\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "hero": "Bombur",
+ "uk_name": "Бомбур",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:Bombur",
+     "t": "Name",
+     "en": "Bombur",
+     "uk": "Бомбур",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:WorkingClassDwarves",
+     "t": "Button",
+     "en": "Working Class Dwarves",
+     "uk": "Дворфи-роботяги",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipWorkingClassDwarves",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n Bifur, Bofur and Bombur gain +15% damage and +15% armour when near each other \\nPassive ability",
+     "uk": "Тип ефекту: Заклинання\\nПоряд одне з одним Біфур, Бофур і Бомбур отримують бонус +15% до пошкоджень і +15% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BomburBellySlam",
+     "t": "Button",
+     "en": "Belly Slam (&R)",
+     "uk": "Удар черевом (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBomburBellySlam",
+     "t": "Tooltip",
+     "en": "Bombur slams his belly against enemy units, knocking them back\\nAt rank 5, radius is increased\\n Left click icon then left click on target",
+     "uk": "Бомбур б'є ворожі загони черевом, відкидаючи їх\\nНа 5 рівні радіус збільшується\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

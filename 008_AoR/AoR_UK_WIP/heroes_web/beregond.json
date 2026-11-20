@@ -1,0 +1,209 @@
+{
+ "hero": "Beregond",
+ "uk_name": "Береґонд",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:GondorBeregond",
+     "t": "Name",
+     "en": "Beregond",
+     "uk": "Береґонд",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToggleBeregondWeapons",
+     "t": "Button",
+     "en": "Toggle Weapon (&W)",
+     "uk": "Змінити зброю (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipToggleBeregondWeapons",
+     "t": "Tooltip",
+     "en": "Left click to toggle between bow and spear",
+     "uk": "Клікніть, щоб перемкнутися між луком і списом",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DefenderoftheWhiteCityB",
+     "t": "Button",
+     "en": "Defender of the White City (Bow) (&R)",
+     "uk": "Захисник Білого Міста (лук) (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDefenderoftheWhiteCityB",
+     "t": "Tooltip",
+     "en": "Requires Level 2 \\n Shoots an arrow that causes severe damage and does knockback \\n Left click icon then left click on target unit",
+     "uk": "Необхідно: Рівень 2\\nПостріл, що завдає важких пошкоджень і відкидає ворогів\\nКлікніть на іконку, потім оберіть загін",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BeregondSummonLeadership",
+     "t": "Button",
+     "en": "Sworn Brothers (&T)",
+     "uk": "Брати за присягою (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBeregondSummonLeadership",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Beregond calls a group of bow-wielding Guards of the Citadel to defend targeted location. They are immobile, but remain stealthed and will attack any enemy that approaches.\\n At level 7, summons a larger group of Guards of the Citadel\\n Left click icon then left click on pathable location",
+     "uk": "Необхідно: Рівень 3\\nБереґонд кличе загін лучників Варти Цитаделі захищати вказане місце. Вони не можуть рухатися, але лишаються невидимими й атакують кожного ворога, що наблизиться.\\nНа 7 рівні прикликає більший загін вартових Цитаделі\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BeregondAmbushAbility",
+     "t": "Button",
+     "en": "Nock, Draw, Loose! (&C)",
+     "uk": "Наклади, натягни, стріляй! (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBeregondAmbushAbility",
+     "t": "Tooltip",
+     "en": "Requires Level 5\\nBeregond calls his Citadel Guards to bombard anywhere within a great radius with a volley of arrows \\n Left click icon then left click on target area",
+     "uk": "Необхідно: Рівень 5\\nБереґонд наказує вартовим Цитаделі обстріляти будь-яке місце у великому радіусі залпом стріл\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BeregondSacrifice",
+     "t": "Button",
+     "en": "Sacrifice (&V)",
+     "uk": "Самопожертва (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBeregondSacrifice",
+     "t": "Tooltip",
+     "en": "Requires Level 8 \\n Modifier Type: Spell \\n Beregond suffers heavy damage while targeted allied hero becomes immune to damage for 10 seconds\\n Left click icon then left click on target hero",
+     "uk": "Необхідно: Рівень 8\\nТип ефекту: Заклинання\\nБереґонд отримує значні пошкодження, а обраний союзний герой на 10 сек. стає невразливим\\nКлікніть на іконку, потім оберіть героя",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DefenderoftheWhiteCityS",
+     "t": "Button",
+     "en": "Defender of the White City (Spear) (&R)",
+     "uk": "Захисник Білого Міста (спис) (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDefenderoftheWhiteCityS",
+     "t": "Tooltip",
+     "en": "Requires Level 2 \\n Heavy melee attack that causes severe damage and does knockback \\n Left click icon then left click on target unit",
+     "uk": "Необхідно: Рівень 2\\nПотужний удар зблизька, що завдає важких пошкоджень і відкидає ворогів\\nКлікніть на іконку, потім оберіть загін",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BeregondFierceLoyalty",
+     "t": "Button",
+     "en": "Fierce Loyalty",
+     "uk": "Палка відданість",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBeregondFierceLoyaltyIthilien",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Faramir and Boromir gain +15% armour and +15% damage when near Beregond\\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nФарамір і Боромир поряд із Береґондом отримують бонус +15% броні й +15% до пошкоджень\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBeregondFierceLoyalty",
+     "t": "Tooltip",
+     "en": "Requires Level 7 \\n Modifier Type: Leadership \\n Faramir, Boromir, and Pippin gain +15% armour and +15% damage when near Beregond \\nPassive ability",
+     "uk": "Необхідно: Рівень 7\\nТип ефекту: Лідерство\\nПоряд із Береґондом Фарамір, Боромир і Піпін отримують бонус +15% броні й +15% до пошкоджень\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Ithilien map",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:DefenderoftheWhiteCityBIthilien",
+     "t": "Button",
+     "en": "Defender of the Prince (Bow) (&T)",
+     "uk": "Захисник принца (лук) (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDefenderoftheWhiteCityBIthilien",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Shoots an arrow that causes severe damage and does knockback \\n Left click icon then left click on target unit",
+     "uk": "Необхідно: Рівень 3\\nПостріл, що завдає важких пошкоджень і відкидає ворогів\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BeregondWhiteCompany",
+     "t": "Button",
+     "en": "Captain of the White Company (&C)",
+     "uk": "Капітан Білої дружини (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBeregondWhiteCompany",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Modifier Type: Spell \\n Nearby structures gain +30% armour \\nPassive ability\\n\\nTarget allied hero is temporarily guarded by Guards of the Citadel and gains +50% armour, +50% faster experience gain, and +75% faster power recharge times for 30 seconds\\nLeft click then left click allied hero",
+     "uk": "Необхідно: Рівень 5\\nТип ефекту: Заклинання\\nСпоруди поблизу отримують бонус +30% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nОбраного союзного героя тимчасово охороняє Варта Цитаделі, а сам він на 30 сек. отримує бонус +50% броні, на 50% швидше набирає досвід і на 75% швидше відновлює здібності\\nКлікніть на іконку, потім оберіть союзного героя",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BeregondDevotion",
+     "t": "Button",
+     "en": "Devotion (&V)",
+     "uk": "Відданість (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBeregondDevotion",
+     "t": "Tooltip",
+     "en": "Requires Level 8\\nBeregond and nearby White Company units gain +50% damage and gain immunity to ranged damage and knockback for 20 seconds\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 8\\nНа 20 сек. Береґонд і загони Білої дружини поблизу отримують бонус +50% до пошкоджень і імунітет до атак на відстані й відкидання\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DefenderoftheWhiteCitySIthilien",
+     "t": "Button",
+     "en": "Defender of the Prince (Spear) (&T)",
+     "uk": "Захисник принца (спис) (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDefenderoftheWhiteCitySIthilien",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Heavy melee attack that causes severe damage and does knockback \\n Left click icon then left click on target unit",
+     "uk": "Необхідно: Рівень 3\\nПотужна атака ближнього бою, що завдає сильних пошкоджень і відкидає ворогів\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Gondor",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:BeregondGuardoftheCitadel",
+     "t": "Button",
+     "en": "Guard of the Citadel",
+     "uk": "Вартовий Цитаделі",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBeregondGuardoftheCitadel",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Modifier Type: Spell \\n Nearby structures gain +30% armour \\nPassive ability",
+     "uk": "Необхідно: Рівень 5\\nТип ефекту: Заклинання\\nСпоруди поблизу отримують бонус +30% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

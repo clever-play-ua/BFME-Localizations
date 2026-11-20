@@ -1,0 +1,30 @@
+﻿1
+00:00:00,000 --> 00:00:01,280
+¡Frodo!
+
+2
+00:00:02,280 --> 00:00:03,880
+-¡Frodo!
+-¡Sam!
+
+3
+00:00:03,960 --> 00:00:05,800
+¡Bendito sea, está despierto!
+
+4
+00:00:05,880 --> 00:00:08,680
+Sam apenas se ha apartado de tu lado.
+
+5
+00:00:08,760 --> 00:00:11,480
+Nos tenía en vilo,
+¿verdad, señor Gandalf?
+
+6
+00:00:11,560 --> 00:00:16,200
+Gracias a la pericia del señor Elrond,
+empiezas a recuperarte.
+
+7
+00:00:17,840 --> 00:00:21,800
+Bienvenido a Rivendel, Frodo Bolsón.

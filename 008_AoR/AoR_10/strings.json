@@ -1,6 +1,6 @@
 {
   "meta": {
-    "source": "Age of the Ring 10.0.1: aotr/data/lotr.str (cp1252) + aotr/maps/*/map.str (utf-8)",
+    "source": "Age of the Ring 10.0.2: aotr/data/lotr.str (cp1252) + aotr/maps/*/map.str (utf-8)",
     "ru_source": "Age of the Ring 9.3.1 RU lotr.csf (008_AoR/ru/lotr.json), matched by label case-insensitively",
     "maps_note": "Entries with \"maps\" come from map.str files (labels not in lotr.str are appended after the lotr.str block, grouped by map). The engine looks labels up in the global table first and only falls back to map.str, so one global CSF/str covers map strings too -- the way the RU 9.3.1 submod does it.",
     "counts": {
@@ -683,7 +683,32 @@
       "removed_in_game": [
         "script:objective06_beacons"
       ]
-    }
+    },
+    "updates": [
+      {
+        "version": "10.0.2",
+        "changed_en": [
+          "CONTROLBAR:ToolTipBuildDwarvenArcheryRangeLevel2Upgrade",
+          "Version:Format2",
+          "CONTROLBAR:ToolTipGothmogSiegeMaster",
+          "CONTROLBAR:ToolTipFellowshipGandalfGloriousCharge",
+          "SCRIPT:Gollum Riddle 01",
+          "SCRIPT:mgfotr_balin025",
+          "SCRIPT:mghob_bilbo057",
+          "SCRIPT:Dialogue_Eaves_Eomer Scouts 03",
+          "SCRIPT:Dialogue_mgfotr_merry032",
+          "DIALOGEVENT:mgfotr_halbarad014",
+          "SCRIPT:mgfotr_pippin016",
+          "SCRIPT:mgfotr_masteratarms013",
+          "SCRIPT:mgnfotr_norin002",
+          "SCRIPT:Drum 01",
+          "SCRIPT:mgfotr_gimli093",
+          "SCRIPT:mgfotr_kod022",
+          "SCRIPT:mgfotr_oropher030",
+          "SCRIPT:mgfotr_oropher046"
+        ]
+      }
+    ]
   },
   "strings": [
     {
@@ -90751,7 +90776,7 @@
     },
     {
       "var": "CONTROLBAR:ToolTipBuildDwarvenArcheryRangeLevel2Upgrade",
-      "en": "Allows training of Barding Longbowmen \n +10% faster build speed ",
+      "en": "Allows training of Barding Longbowmen \n +10% faster build speed \\",
       "ru": "Позволяет тренировать Бардингов-лучников\n+10% скорости работы",
       "uk": ""
     },
@@ -94981,7 +95006,7 @@
     },
     {
       "var": "Version:Format2",
-      "en": "Age of the Ring Version 10.0.1",
+      "en": "Age of the Ring Version 10.0.2",
       "ru": "Age of the Ring 9.3.1",
       "uk": ""
     },
@@ -102949,7 +102974,7 @@
     },
     {
       "var": "CONTROLBAR:ToolTipGothmogSiegeMaster",
-      "en": "Requires Level 6\nPermanently  upgrades targeted Catapult into a Troll Catapult\nLeft click icon then left click on target",
+      "en": "Requires Level 6\nPermanently upgrades targeted Catapult into a Troll Catapult\nLeft click icon then left click on target",
       "ru": "Требуется уровень 6\nТип модификатора: Заклинание\nЦелевая катапульта навсегда получает увеличение урона на +15% и +25% скорости перезарядки\nЩелкните левой кнопкой мыши на значок, затем на целевую катапульту",
       "uk": ""
     },
@@ -107113,7 +107138,7 @@
     },
     {
       "var": "CONTROLBAR:ToolTipFellowshipGandalfGloriousCharge",
-      "en": "Drastically increases vision range and shroud reveal for 30 seconds\n for a short time \n Left click to activate",
+      "en": "Drastically increases vision range and shroud reveal for 30 seconds \n Left click to activate",
       "ru": "Значительно увеличивает обзор и раскрывает карту на 30 секунд\nЩелкните левой кнопкой мыши, чтобы активировать",
       "uk": ""
     },
@@ -159631,7 +159656,7 @@
     },
     {
       "var": "SCRIPT:Gollum Riddle 01",
-      "en": "What has roots as nobody sees, is taller than trees, up up up it goes...and yet never grows",
+      "en": "What has roots as nobody sees, is taller than trees, up up up it goes...and yet never grows?",
       "ru": "Не отыскать ее корней,\nВершина выше тополей,\nВсе круче вверх она идет,\nНо вовсе не растет.",
       "uk": "",
       "maps": [
@@ -160657,7 +160682,7 @@
     },
     {
       "var": "SCRIPT:mgfotr_balin025",
-      "en": "Stay close to me laddie. I'll keep you safe.",
+      "en": "Stay close to me, laddie. I'll keep you safe.",
       "ru": "",
       "uk": "",
       "maps": [
@@ -160855,7 +160880,7 @@
     },
     {
       "var": "SCRIPT:mghob_bilbo057",
-      "en": "I'm here! Come, lets get you up!",
+      "en": "I'm here! Come, let's get you up!",
       "ru": "",
       "uk": "",
       "maps": [
@@ -161665,7 +161690,7 @@
     },
     {
       "var": "SCRIPT:Dialogue_Eaves_Eomer Scouts 03",
-      "en": "Quick! Let's get back and inform Eomer",
+      "en": "Quick! Let's get back and inform Eomer.",
       "ru": "Нужно как можно скорее известить лорда Эомера!",
       "uk": "",
       "maps": [
@@ -161710,7 +161735,7 @@
     },
     {
       "var": "SCRIPT:Dialogue_mgfotr_merry032",
-      "en": "We must be careful Pip! We can't let those big orcs spot us!",
+      "en": "We must be careful, Pip! We can't let those big orcs spot us!",
       "ru": "",
       "uk": "",
       "maps": [
@@ -164513,7 +164538,7 @@
     },
     {
       "var": "DIALOGEVENT:mgfotr_halbarad014",
-      "en": "Halbarad: We don't have the numbers to lay siege to this orc-hold",
+      "en": "Halbarad: We don't have the numbers to lay siege to this orc-hold.",
       "ru": "Хальбарад: У нас нет стольких людей, чтобы осадить эту крепость орков.",
       "uk": "",
       "maps": [
@@ -167079,7 +167104,7 @@
     },
     {
       "var": "SCRIPT:mgfotr_pippin016",
-      "en": "Pippin: It's the tree...",
+      "en": "Pippin: It's the tree!",
       "ru": "",
       "uk": "",
       "maps": [
@@ -168267,7 +168292,7 @@
     },
     {
       "var": "SCRIPT:mgfotr_masteratarms013",
-      "en": "That's enough of that",
+      "en": "I expected more from you.",
       "ru": "",
       "uk": "",
       "maps": [
@@ -171057,7 +171082,7 @@
     },
     {
       "var": "SCRIPT:mgnfotr_norin002",
-      "en": "Aye, don't worry, we won't you chasing dwarves through the Shire.",
+      "en": "Aye, don't worry, we won't have you chasing dwarves through the Shire.",
       "ru": "",
       "uk": "",
       "maps": [
@@ -174157,7 +174182,7 @@
     },
     {
       "var": "SCRIPT:Drum 01",
-      "en": "Without that drum many of these vile Goblins will be blind to our passage.",
+      "en": "Without that drum, many of these vile Goblins will be blind to our passage.",
       "ru": "Без этого барабана многие из этих мерзких гоблинов не услышат нас.",
       "uk": "",
       "maps": [
@@ -174499,7 +174524,7 @@
     },
     {
       "var": "SCRIPT:mgfotr_gimli093",
-      "en": "The world is grey, the mountains old, The forge's fire is ashen-cold; No harp is wrung, no hammer falls: The darkness dwells in Durin's halls",
+      "en": "The world is grey, the mountains old, The forge's fire is ashen-cold; No harp is wrung, no hammer falls: The darkness dwells in Durin's halls.",
       "ru": "",
       "uk": "",
       "maps": [
@@ -176200,7 +176225,7 @@
     },
     {
       "var": "SCRIPT:mgfotr_kod022",
-      "en": "It appears your path is blocked",
+      "en": "It appears your path is blocked.",
       "ru": "",
       "uk": "",
       "maps": [
@@ -183341,7 +183366,7 @@
     },
     {
       "var": "SCRIPT:mgfotr_oropher030",
-      "en": "Sinda Spirit: Though you have not told me, I have guessed your purpose. You bear a great evil with you, but I \n believe you possess the strength to resist it. Go now, and may Tauron keep you safe",
+      "en": "Sinda Spirit: Though you have not told me, I have guessed your purpose. You bear a great evil with you, but I \n believe you possess the strength to resist it. Go now, and may Tauron keep you safe.",
       "ru": "ДУХ-СИНДА: Хотя ты и не сказал мне, я догадался о твоей цели. Ты несешь с собой великое зло, но\nу тебя хватит сил противостоять ему. Иди, и да пребудет с тобой благословение Белого Оленя.",
       "uk": "",
       "maps": [
@@ -183494,7 +183519,7 @@
     },
     {
       "var": "SCRIPT:mgfotr_oropher046",
-      "en": "I cannot hold it. The living must bear it. Restore it periannath, and this place may yet be stilled.",
+      "en": "I cannot hold it. The living must bear it. Restore it, periannath, and this place may yet be stilled.",
       "ru": "",
       "uk": "",
       "maps": [

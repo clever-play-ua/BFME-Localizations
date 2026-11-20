@@ -25,7 +25,7 @@
      "v": "CONTROLBAR:ToolTipThrowRocks",
      "t": "Tooltip",
      "en": "Switch to rock throwing mode",
-     "uk": "Жбурляє камені у ворогів.",
+     "uk": "Перемкнутися на режим кидання каміння",
      "st": "ok"
     },
     {
@@ -39,7 +39,7 @@
      "v": "CONTROLBAR:ToolTipElvenCloakCampaign",
      "t": "Tooltip",
      "en": "Becomes invisible when standing still \\n Also passively grants +10% armour to all nearby hobbit heroes \\n Left click to activate",
-     "uk": "Стає невидимим, коли стоїть на місці\\n Також постійно дає +10% броні всім героям-гобітам поблизу\\n Клікніть, щоб активувати",
+     "uk": "Стає невидимим, коли стоїть на місці\\nТакож постійно дає +10% броні всім героям-гобітам поблизу\\nКлікніть, щоб активувати",
      "st": "ok"
     },
     {
@@ -116,7 +116,7 @@
      "v": "CONTROLBAR:ToolTipFrodoLeadership",
      "t": "Tooltip",
      "en": "Modifier Type: Spell \\n Nearby allies in a large radius gain\\n+50% damage, +50% armour,\\nand earn experience twice as fast\\nNearby unit and hero ability cooldown times are reduced by 25% \\nPassive ability",
-     "uk": "Тип ефекту: Заклинання\\nСоюзники у великому радіусі отримують\\nбонус +50% до пошкоджень та +50% броні\\nй удвічі швидше набирають досвід\\nЗдібності загонів і героїв поблизу відновлюються на 25% швидше\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "uk": "Тип ефекту: Заклинання\\nСоюзники у великому радіусі отримують\\nбонус +50% до пошкоджень, +50% броні\\nй удвічі швидше набирають досвід\\nЗдібності загонів і героїв поблизу відновлюються на 25% швидше\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
      "st": "ok"
     },
     {
@@ -145,7 +145,7 @@
      "t": "Button",
      "en": "Lure (&V)",
      "uk": "Приманка (&V)",
-     "st": "draft",
+     "st": "ok",
      "dup": "CONTROLBAR:HobbitRockLure"
     },
     {
@@ -202,7 +202,7 @@
      "v": "CONTROLBAR:ToolTipEvadeLobelia",
      "t": "Tooltip",
      "en": "Becomes invisible when standing still \\n Also passively grants +10% armour to all nearby hobbit heroes \\n Left click to activate",
-     "uk": "Стає невидимим, коли стоїть на місці\\n Також постійно дає +10% броні всім героям-гобітам поблизу\\n Клікніть, щоб активувати",
+     "uk": "Стає невидимим, коли стоїть на місці\\nТакож постійно дає +10% броні всім героям-гобітам поблизу\\nКлікніть, щоб активувати",
      "st": "ok",
      "dup": "CONTROLBAR:ToolTipElvenCloakCampaign"
     },
@@ -211,7 +211,7 @@
      "t": "Button",
      "en": "Lure (&C)",
      "uk": "Приманка (&C)",
-     "st": "draft",
+     "st": "ok",
      "dup": "CONTROLBAR:HobbitRockLure"
     },
     {
@@ -365,7 +365,7 @@
      "v": "CONTROLBAR:ToolTipShirePhialOfGaladriel",
      "t": "Tooltip",
      "en": "Nearby enemies flee in terror and suffer damage over time for 10 seconds\\nLeft click to activate",
-     "uk": "Вороги поблизу тікають у жаху й 10 сек. отримують поступові пошкодження\\nКлікніть, щоб активувати",
+     "uk": "Вороги поблизу тікають у жаху й 10 сек. отримують періодичні пошкодження\\nКлікніть, щоб активувати",
      "st": "ok"
     },
     {

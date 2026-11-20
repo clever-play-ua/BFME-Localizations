@@ -1,0 +1,40 @@
+﻿1
+00:00:17,250 --> 00:00:21,958
+The Age of Men is over.
+
+2
+00:00:22,083 --> 00:00:27,208
+The time of the Orc has come.
+
+3
+00:00:37,500 --> 00:00:41,083
+Send forth all legions.
+
+4
+00:00:41,958 --> 00:00:46,333
+Do not stop the attack
+until the city is taken.
+
+5
+00:00:47,000 --> 00:00:48,708
+Slay them all.
+
+6
+00:00:51,208 --> 00:00:53,083
+What of the wizard?
+
+7
+00:00:53,833 --> 00:00:56,625
+I will break him.
+
+8
+00:01:00,375 --> 00:01:02,708
+Where are Théoden's riders?
+
+9
+00:01:02,833 --> 00:01:04,917
+Will Rohan's army come?
+
+10
+00:01:06,083 --> 00:01:07,250
+Mithrandir?

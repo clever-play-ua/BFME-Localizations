@@ -1683,7 +1683,7 @@
    "type": "Репліка",
    "en": "It appears your path is blocked",
    "ru": "",
-   "uk_ai": "Схоже, ваш шлях перекрито",
+   "uk_ai": "Схоже, ваш шлях перекрито.",
    "status": "чернетка AI",
    "uk": ""
   },
@@ -1793,7 +1793,7 @@
    "type": "Кнопка",
    "en": "Targeted enemy units are beset by a cloud of Corpse Flies,\ncausing them to lose 50% vision and 25% armour\nand take damage over time for 15 seconds\nLeft click icon then left click on target",
    "ru": "",
-   "uk_ai": "Вказані ворожі загони обсідає хмара трупних мух:\nвони втрачають 50% огляду й 25% броні\nта отримують поступові пошкодження протягом 15 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "uk_ai": "Вказані ворожі загони обсідає хмара трупних мух:\nвони втрачають 50% огляду й 25% броні\nта отримують періодичні пошкодження на 15 сек.\nКлікніть на іконку, потім оберіть ціль",
    "status": "чернетка AI",
    "uk": ""
   },

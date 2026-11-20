@@ -1,0 +1,172 @@
+{
+ "hero": "Dwalin",
+ "uk_name": "Двалін",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:Dwalin",
+     "t": "Name",
+     "en": "Dwalin",
+     "uk": "Двалін",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:tooltipCommand_ToggleDwalinAxesBasic",
+     "t": "Button",
+     "en": "Toggle to Grasper and Keeper (&W)",
+     "uk": "«Хапач Зберігач» (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDwalinAxesBasic",
+     "t": "Tooltip",
+     "en": "Switch to Grasper and Keeper\\nDwalin gains +33% damage against infantry and +50% damage radius",
+     "uk": "Перемкнути на «Хапача Зберігача»\\nДвалін отримує бонус +33% до пошкоджень проти піхоти й +50% радіуса ураження",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DwalinLeadership",
+     "t": "Button",
+     "en": "Brother-in-Arms",
+     "uk": "Побратим",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDwalinLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n When near Thorin, Dwalin gains\\n+15% damage, +15% armour, and +15% attack speed \\nPassive ability",
+     "uk": "Тип ефекту: Заклинання\\nПоряд із Торіном Двалін отримує бонус\\n+15% до пошкоджень, +15% броні й +15% швидкості атаки\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DwalinLeadership_Old",
+     "t": "Button",
+     "en": "Son of Fundin",
+     "uk": "Син Фундіна",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDwalinLeadership_Old",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n When near Balin, Dwalin gains\\n+15% damage, +15% armour, and +15% attack speed \\nPassive ability",
+     "uk": "Тип ефекту: Заклинання\\nКоли Двалін знаходиться поряд з Баліном, то Двалін отримує бонус\\n+15% до пошкоджень, +15% броні й +15% швидкості атаки\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DwalinGloriousCharge",
+     "t": "Button",
+     "en": "Baruk Khazâd! (&T)",
+     "uk": "Барук-Кхазад! (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDwalinGloriousCharge",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Dwalin lets out a cry, causing enemy units to flee in terror \\n Left click to activate",
+     "uk": "Необхідно: Рівень 3\\nДвалін вигукує бойовий клич, чим лякає ворожі загони, і вони тікають у жаху\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DwalinSmash",
+     "t": "Button",
+     "en": "Furious Blow (&C)",
+     "uk": "Удар люті (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDwalinSmash",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Dwalin slams the ground, knocking back enemy units and dealing heavy damage to structures in a small radius \\n Left click icon then left click on target",
+     "uk": "Необхідно: Рівень 5\\nДвалін б'є об землю, відкидаючи ворожі загони й завдаючи значних пошкоджень спорудам у невеликому радіусі\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DwalinJuggernaut",
+     "t": "Button",
+     "en": "Dwarven Juggernaut (&V)",
+     "uk": "Незламний дворф (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDwalinJuggernaut",
+     "t": "Tooltip",
+     "en": "Requires Level 8 \\n Modifier Type: Buff \\n Dwalin gains\\n+200% armour, Resistance to knockback, and deals knockback damage for 30 seconds\\n Left click to activate",
+     "uk": "Необхідно: Рівень 8\\nТип ефекту: Посилення\\nДвалін на 30 сек. отримує бонус\\n+200% броні, стійкість до відкидання й відкидає ворогів своїми ударами\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:tooltipCommand_ToggleDwalinAxesUpg",
+     "t": "Button",
+     "en": "Toggle to Dual Axes (&W)",
+     "uk": "«Парні сокири» (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDwalinAxesUpg",
+     "t": "Tooltip",
+     "en": "Switch to Dual Axes\\nDwalin gains +33% damage against infantry and +50% damage radius",
+     "uk": "Перемкнути на «Парні сокири»\\nДвалін отримує бонус +33% до пошкоджень проти піхоти й +50% радіуса ураження",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:YoungDwalinLeadership",
+     "t": "Button",
+     "en": "Brother-in-Arms",
+     "uk": "Побратим",
+     "st": "ok",
+     "dup": "CONTROLBAR:DwalinLeadership"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipYoungDwalinLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n When near Thorin, Dwalin gains\\n+15% damage, +15% armour, and +15% attack speed \\nPassive ability",
+     "uk": "Тип ефекту: Заклинання\\nПоряд із Торіном Двалін отримує бонус\\n+15% до пошкоджень, +15% броні й +15% швидкості атаки\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok",
+     "dup": "CONTROLBAR:ToolTipDwalinLeadership"
+    },
+    {
+     "v": "CONTROLBAR:YoungDwalinGloriousCharge",
+     "t": "Button",
+     "en": "Baruk Khazâd! (&T)",
+     "uk": "Барук-Кхазад! (&T)",
+     "st": "ok",
+     "dup": "CONTROLBAR:DwalinGloriousCharge"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipYoungDwalinGloriousCharge",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Dwalin lets out a cry, causing enemy units to flee in terror \\n Left click to activate",
+     "uk": "Необхідно: Рівень 3\\nДвалін вигукує бойовий клич, чим лякає ворожі загони, і вони тікають у жаху\\nКлікніть, щоб активувати",
+     "st": "ok",
+     "dup": "CONTROLBAR:ToolTipDwalinGloriousCharge"
+    }
+   ]
+  },
+  {
+   "name": "Council of Elrond",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:DwalinSmashCampaign",
+     "t": "Button",
+     "en": "Furious Blow (&T)",
+     "uk": "Удар люті (&T)",
+     "st": "ok",
+     "dup": "CONTROLBAR:DwalinSmash"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDwalinSmashCampaign",
+     "t": "Tooltip",
+     "en": "Dwalin slams the ground, knocking back enemy units and dealing heavy damage to structures in a small radius \\n Left click icon then left click on target",
+     "uk": "Двалін б'є об землю, відкидаючи ворожі загони й завдаючи значних пошкоджень спорудам у невеликому радіусі\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

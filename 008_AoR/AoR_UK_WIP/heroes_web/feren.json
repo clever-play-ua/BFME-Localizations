@@ -1,0 +1,83 @@
+{
+ "hero": "Feren",
+ "uk_name": "Ферен",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:MirkwoodFeren",
+     "t": "Name",
+     "en": "Feren",
+     "uk": "Ферен",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FerenShieldBash",
+     "t": "Button",
+     "en": "Shield Bash (&W)",
+     "uk": "Удар щитом (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFerenShieldBash",
+     "t": "Tooltip",
+     "en": "Powerful attack that knocks back enemy units\\nAt rank 6, radius is increased\\n Left click icon then left click on target",
+     "uk": "Потужна атака, що відкидає ворожі загони\\nНа 6 рівні радіус збільшується\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FerenCommander",
+     "t": "Button",
+     "en": "Commander of Eryn Lasgalen (&R)",
+     "uk": "Командир Ерин-Ласґалену (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFerenCommander_BUTT",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\nSummons a battalion of Silvan Rangers \\nAt rank 5, includes an additional battalion of Greenwood Spearmen\\nAt rank 8, includes an additional battalion of Silvan Rangers\\nAt rank 10, two of both\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 3\\nПрикликає 1 загін сильванських слідопитів\\nНа 5 рівні — додатково 1 загін списоносців Зеленолісся\\nНа 8 рівні — додатково 1 загін сильванських слідопитів\\nНа 10 рівні — по 2 загони кожного виду\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFerenCommander",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\nSummons a battalion of Silvan Rangers \\nAt rank 5, includes an additional battalion of Greenwood Spearmen\\nAt rank 8, includes an additional battalion of Silvan Rangers\\nAt rank 10, two of both\\nLeft click icon then left click on target location",
+     "uk": "Необхідно: Рівень 3\\nПрикликає 1 загін сильванських слідопитів\\nНа 5 рівні — додатково 1 загін списоносців Зеленолісся\\nНа 8 рівні — додатково 1 загін сильванських слідопитів\\nНа 10 рівні — по 2 загони кожного виду\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FerenSoundAlarm",
+     "t": "Button",
+     "en": "Sound the Alarm! (&T)",
+     "uk": "Бийте тривогу! (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFerenSoundAlarm",
+     "t": "Tooltip",
+     "en": "Requires Level 5\\nFeren blows his horn\\nCan be cast on a structure to decrease recruitment time by 75% for 90 seconds,\\n on friendly units to increase movement speed by 25% for 15 seconds,\\nor on enemy units to decrease movement speed by 25% for 15 seconds\\nCannot be cast on Beorning Lodge\\nLeft click icon then left click on target",
+     "uk": "Необхідно: Рівень 5\\nФерен сурмить у ріг\\nПри застосуванні на СПОРУДУ — на 90 сек. тренує загони на 75% швидше,\\nна СОЮЗНІ загони — на 15 сек. збільшує швидкість руху на 25%,\\nна ВОРОЖІ загони — на 15 сек. знижує швидкість руху на 25%\\nНе можна застосувати до Хатини беорнінгів\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FerenBanishment",
+     "t": "Button",
+     "en": "Banishment (&C)",
+     "uk": "Вигнання (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFerenBanishment",
+     "t": "Tooltip",
+     "en": "Requires Level 8\\nTarget enemy hero is pinned and takes +15% damage from all damage sources for 15 seconds\\nLeft click icon then left click on target",
+     "uk": "Необхідно: Рівень 8\\nОбраний ворожий герой на 15 сек. знерухомлений і отримує на 15% більше пошкоджень\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

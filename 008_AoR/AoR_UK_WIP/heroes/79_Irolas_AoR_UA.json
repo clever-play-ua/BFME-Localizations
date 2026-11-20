@@ -95,7 +95,7 @@
    "type": "Підказка",
    "en": "Irolas slashes at targeted enemy units, dealing splash damage and lingering damage over time for 10 seconds\nLeft click then left click on target",
    "ru": "",
-   "uk_ai": "Іролас рубає вказані ворожі загони, завдаючи пошкоджень по площі й поступових пошкоджень протягом 10 сек.\nКлікніть на іконку, потім оберіть ціль",
+   "uk_ai": "Іролас рубає вказані ворожі загони, завдаючи пошкоджень по площі й періодичних пошкоджень на 10 сек.\nКлікніть на іконку, потім оберіть ціль",
    "status": "чернетка AI",
    "uk": ""
   },

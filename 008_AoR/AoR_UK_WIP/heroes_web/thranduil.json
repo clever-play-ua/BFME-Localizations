@@ -1,0 +1,90 @@
+{
+ "hero": "Thranduil",
+ "uk_name": "Трандуїл",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:ElvenThranduilNew",
+     "t": "Name",
+     "en": "Thranduil",
+     "uk": "Трандуїл",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ThranduilNewMount",
+     "t": "Button",
+     "en": "Elvenking (&W)",
+     "uk": "Король ельфів (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ThranduilNewMountTooltip",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Allies near Thranduil gain +33% armour\\n\\nModifier Type: Level\\nAt Level 7, Thranduil dons his armour,\\npermanently gaining +25% armour\\n\\nLeft click to switch between \\n mounted on Great Elk and on foot",
+     "uk": "Тип ефекту: Лідерство\\nСоюзники поряд із Трандуїлом отримують бонус +33% броні\\n\\nТип ефекту: Рівень\\nНа 7 рівні Трандуїл вдягає обладунки\\nй отримує бонус +25% броні\\n\\nКлікніть, щоб перемкнутися між\\nрежимом верхи на великому олені або пішки",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ThranduilFavor",
+     "t": "Button",
+     "en": "Love of Silver and Jewels (&R)",
+     "uk": "Любов до срібла та коштовностей (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipThranduilFavor",
+     "t": "Tooltip",
+     "en": "Grants Sindarin Armour to units in radius \\n Sindarin Armour: grants an additional +25% armour to units \\n Decreased cooldown at levels 5, 7 and 10 \\n \\n Left click on icon then left click on target own units",
+     "uk": "Споряджає загони в обраному радіусі в синдарські обладунки\\nякі дають +25% броні\\nНа 5, 7 і 10 рівнях здібність відновлюється швидше\\n\\nКлікніть на іконку, потім оберіть загони",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:NoneMayEnter",
+     "t": "Button",
+     "en": "None May Enter (&T)",
+     "uk": "Нікому не увійти (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipNoneMayEnter",
+     "t": "Tooltip",
+     "en": "Requires Level 4\\n Targeted terrain becomes hostile to enemy units for 60 seconds\\nWhen passed over, enemy units are slowed by -15% and take damage over time\\nLeft click icon then left click on pathable location",
+     "uk": "Необхідно: Рівень 4\\nОбрана місцевість на 60 сек. стає небезпечною для ворожих загонів\\nПроходячи нею, ворожі загони сповільнюються на 15% і отримують періодичні пошкодження\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SpecialPowerRenownedWarrior",
+     "t": "Button",
+     "en": "Renowned Warrior (&C)",
+     "uk": "Славетний воїн (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSpecialPowerRenownedWarrior",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Thranduil gains +10% speed and +50% armour for 30 seconds \\nRank 6: +10% speed, +50% armour, +15% damage\\nRank 7: +10% speed, +50% armour, +25% damage\\nRank 8: +10% speed, +50% armour, +50% damage\\nRank 9: +10% speed, +50% armour, +50% damage, -25% crush deceleration\\nRank 10: +10% speed, +150% armour, +50% damage, -25% crush deceleration\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 5\\nТрандуїл на 30 сек. отримує бонус +10% швидкості й +50% броні\\n6 рівень: +10% швидкості, +50% броні, +15% до пошкоджень\\n7 рівень: +10% швидкості, +50% броні, +25% до пошкоджень\\n8 рівень: +10% швидкості, +50% броні, +50% до пошкоджень\\n9 рівень: +10% швидкості, +50% броні, +50% до пошкоджень, на 25% менше сповільнення під час топтання\\n10 рівень: +10% швидкості, +150% броні, +50% до пошкоджень, на 25% менше сповільнення під час топтання\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:MemoryOfMordor",
+     "t": "Button",
+     "en": "Memory Of Mordor (&V)",
+     "uk": "Спогад про Мордор (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipMemoryOfMordor",
+     "t": "Tooltip",
+     "en": "Requires Level 10\\nThranduil is surrounded by memories of the Black Land for 30 seconds\\nEnemy units are terrified, take damage,\\n lose all leadership and deal -50% damage\\nThranduil is invulnerable while the power is active but cannot attack and is slower by 75%\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 10\\nТрандуїла на 30 сек. оточують спогади про Чорну землю\\nУ цей час ворожі загони охоплює жах, вони отримують пошкодження,\\nвтрачають усе лідерство й завдають -50% пошкоджень\\nПоки діє здібність, Трандуїл невразливий, але не може атакувати й рухається на 75% повільніше\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "hero": "Sinda Spirit",
+ "uk_name": "Дух синда",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:ElvenOropher",
+     "t": "Name",
+     "en": "Sinda Spirit",
+     "uk": "Дух синда",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Taming of Smeagol",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:OropherWordofPower",
+     "t": "Button",
+     "en": "Elvenking's Lament (&W)",
+     "uk": "Плач ельфійського короля (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipOropherWordofPower",
+     "t": "Tooltip",
+     "en": "Blasts back and stuns surrounding units for 10 seconds\\n Left click to activate",
+     "uk": "Відкидає загони навколо й приголомшує їх на 10 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:OropherAtonementStrike",
+     "t": "Button",
+     "en": "Strike of Atonement (&R)",
+     "uk": "Удар спокути (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipOropherAtonementStrike",
+     "t": "Tooltip",
+     "en": "Knocks down and pins target Undead enemy for 15 seconds\\n Left click then left click on target",
+     "uk": "Збиває з ніг і на 15 сек. знерухомлює обраного невмерлого ворога\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

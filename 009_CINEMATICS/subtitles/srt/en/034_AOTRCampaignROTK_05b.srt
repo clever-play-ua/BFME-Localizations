@@ -1,0 +1,27 @@
+﻿1
+00:00:08,583 --> 00:00:10,708
+The city is breached!
+
+2
+00:00:10,833 --> 00:00:13,667
+Fall back! To the second level!
+
+3
+00:00:17,208 --> 00:00:19,500
+Get the women and children out!
+
+4
+00:00:19,583 --> 00:00:22,375
+Get them out! Retreat!
+
+5
+00:00:23,000 --> 00:00:24,292
+Come on!
+
+6
+00:00:24,375 --> 00:00:26,625
+Move into the city!
+
+7
+00:00:27,125 --> 00:00:29,250
+Kill all in your path!

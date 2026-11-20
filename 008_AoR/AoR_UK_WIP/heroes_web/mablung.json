@@ -1,0 +1,182 @@
+{
+ "hero": "Mablung",
+ "uk_name": "Маблунґ",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:GondorMablung",
+     "t": "Name",
+     "en": "Mablung",
+     "uk": "Маблунґ",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToggleFaramirWeapons",
+     "t": "Button",
+     "en": "Toggle Weapon (&W)",
+     "uk": "Змінити зброю (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipToggleFaramirWeapons",
+     "t": "Tooltip",
+     "en": "Left click to toggle between bow and sword",
+     "uk": "Клікніть, щоб перемкнутися між луком і мечем",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:MablungKeenEyed",
+     "t": "Button",
+     "en": "Keen Eyed (&T)",
+     "uk": "Гостроокий (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipMablungKeenEyed",
+     "t": "Tooltip",
+     "en": "Mablung gains +150% vision range for 25 seconds\\n Left click to activate",
+     "uk": "Маблунґ на 25 сек. отримує бонус +150% дальності огляду\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:MablungLethalAim",
+     "t": "Button",
+     "en": "Lethal Aim (&T)",
+     "uk": "Смертельна влучність (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipMablungLethalAim",
+     "t": "Tooltip",
+     "en": "Enemies within the radius lose -33% armour\\nagainst ranged attacks for 30 seconds\\n Left click then left click on target area",
+     "uk": "Вороги в радіусі дії втрачають 33% броні\\nпроти атак здалеку на 30 сек.\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipIthilienMablungLethalAim",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\nEnemies within the radius lose -33% armour\\nagainst ranged attacks for 30 seconds\\n Left click then left click on target area",
+     "uk": "Необхідно: Рівень 3\\nНа 30 сек. вороги в радіусі отримують штраф -33% броні\\nвід атак на відстані\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Ambush in Ithilien",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:RangerLureIthilien",
+     "t": "Button",
+     "en": "Lure (&R)",
+     "uk": "Приманка (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipRangerLureIthilienNew",
+     "t": "Tooltip",
+     "en": "Call out to hidden ranger units \\n Left click to activate",
+     "uk": "Прикликає приховані загони слідопитів \\n Клікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Summoned",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:FaramirLeadership",
+     "t": "Button",
+     "en": "Wizard's Pupil",
+     "uk": "Учень чарівника",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFaramirLeadership",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Modifier Type: Leadership \\n Knights of Minas Tirith near Faramir gain +25% damage and -25% trample deceleration \\nPassive ability",
+     "uk": "Необхідно: Рівень 3\\nТип ефекту: Лідерство\\nЛицарі Мінас-Тіріта поряд із Фараміром отримують бонус +25% до пошкоджень і на 25% менше сповільнюються під час топтання\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FaramirDesperateCharge",
+     "t": "Button",
+     "en": "Desperate Charge (&R)",
+     "uk": "Відчайдушна атака (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFaramirDesperateCharge",
+     "t": "Tooltip",
+     "en": "Required: Rank 5\\n Faramir gains +100% resistance to ranged attacks and pike damage for 20 seconds \\n Left click to activate",
+     "uk": "Необхідно: Рівень 5\\nФарамір на 20 сек. отримує бонус +100% стійкості до атак на відстані й ударів списами\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FaramirKnightRanger",
+     "t": "Button",
+     "en": "Knight/Ranger Toggle (&T)",
+     "uk": "Лицар / Слідопит (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEowynMount",
+     "t": "Tooltip",
+     "en": "Left click to switch between mounted and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою верхи та пішим ходом",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:CaptainofGondorF",
+     "t": "Button",
+     "en": "Faramir's Quality (&C)",
+     "uk": "Гідність Фараміра (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCaptainofGondor",
+     "t": "Tooltip",
+     "en": "Requires Level 8 \\n Give targeted friendly troops experience \\n Left click icon then left click on target units",
+     "uk": "Необхідно: Рівень 8\\nМиттєво наділяє досвідом обрані союзні загони\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Ithilien map",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:MablungKeenEyedIthilien",
+     "t": "Button",
+     "en": "Keen Eyed (&R)",
+     "uk": "Гостроокий (&R)",
+     "st": "ok",
+     "dup": "CONTROLBAR:MablungKeenEyed"
+    },
+    {
+     "v": "CONTROLBAR:MablungDeadlyThrust",
+     "t": "Button",
+     "en": "Deadly Thrust (&C)",
+     "uk": "Смертельний удар (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipMablungDeadlyThrust",
+     "t": "Tooltip",
+     "en": "Requires Level 5\\nHeavy melee attack that causes severe damage and does knockback\\nIncreased radius and damage at level 7\\nTarget enemy hero suffers -50% armour for 10 seconds at level 10\\nCan only use with spear equipped\\nLeft click icon then left click on target unit",
+     "uk": "Необхідно: Рівень 5\\nПотужна атака ближнього бою, що завдає важких пошкоджень і відкидає ворогів\\nНа 7 рівні — більший радіус і пошкодження\\nНа 10 рівні обраний ворожий герой отримує штраф -50% броні на 10 сек.\\nМожна використати, лише коли в руках спис\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

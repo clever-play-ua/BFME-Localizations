@@ -1,0 +1,98 @@
+{
+ "hero": "Fili",
+ "uk_name": "Філі",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:DwarvenFili",
+     "t": "Name",
+     "en": "Fili",
+     "uk": "Філі",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BrotherhoodLeadership",
+     "t": "Button",
+     "en": "Brotherhood",
+     "uk": "Братерство",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBrotherhoodKili",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Fili gains +20% damage when near Kili\\n Passive ability",
+     "uk": "Тип ефекту: Лідерство\\nПоряд із Кілі Філі отримує бонус +20% до пошкоджень\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FiliAxeThrow",
+     "t": "Button",
+     "en": "Hidden Blade (&R)",
+     "uk": "Прихований клинок (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFiliAxeThrow",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\nFili deals heavy damage to a single target,\\n crippling it for 10 seconds \\n Left click icon then left click on target",
+     "uk": "Необхідно: Рівень 3\\nФілі завдає значних пошкоджень одній цілі\\nй калічить її на 10 сек.\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FiliSlayer",
+     "t": "Button",
+     "en": "Dwarven Dexterity (&T)",
+     "uk": "Спритність дворфів (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFiliSlayer",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Fili gains +25% damage and increased attack and movement speed for 30 seconds\\n Left click to activate",
+     "uk": "Необхідно: Рівень 5\\nФілі на 30 сек. отримує бонус +25% до пошкоджень і швидше атакує та рухається\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FiliLeadership",
+     "t": "Button",
+     "en": "Heir to the Throne",
+     "uk": "Спадкоємець трону",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFiliLeadership",
+     "t": "Tooltip",
+     "en": "Requires Level 8 \\nModifier Type: Leadership \\n Basic Erebor Dwarves and Ered Luin Dwarves near Fili gain +33% damage and +25% armour\\n Passive ability",
+     "uk": "Необхідно: Рівень 8\\nТип ефекту: Лідерство\\nЗвичайні дворфи Еребору й Еред-Луїну поряд із Філі отримують бонус +33% до пошкоджень і +25% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Council of Elrond",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:FiliSlayerCampaign",
+     "t": "Button",
+     "en": "Dwarven Dexterity (&R)",
+     "uk": "Спритність дворфів (&R)",
+     "st": "ok",
+     "dup": "CONTROLBAR:FiliSlayer"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFiliSlayerCampaign",
+     "t": "Tooltip",
+     "en": "Fili gains +25% damage, attack, and movement speed for 30 seconds\\n Left click to activate",
+     "uk": "Філі на 30 сек. отримує бонус +25% до пошкоджень, швидкості атаки й руху\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

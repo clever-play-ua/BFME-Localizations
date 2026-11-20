@@ -1,0 +1,41 @@
+﻿1
+00:00:01,960 --> 00:00:08,240
+Help! Gandalf! Come on, help me!
+
+2
+00:00:14,720 --> 00:00:18,800
+Pippin! Who will I talk to?
+
+3
+00:00:32,640 --> 00:00:33,920
+Look at me.
+
+4
+00:00:38,020 --> 00:00:42,680
+Gandalf, forgive me. What did you see?
+
+5
+00:00:45,460 --> 00:00:47,160
+A tree.
+
+6
+00:00:48,820 --> 00:00:52,860
+There was a white tree in
+the courtyard of Stone.
+
+7
+00:00:55,260 --> 00:00:56,840
+It was dead.
+
+8
+00:01:00,820 --> 00:01:06,100
+I said he was burning. Minas
+Tirith, is that what you saw?
+
+9
+00:01:06,600 --> 00:01:08,080
+I saw.
+
+10
+00:01:11,940 --> 00:01:13,880
+I saw him.

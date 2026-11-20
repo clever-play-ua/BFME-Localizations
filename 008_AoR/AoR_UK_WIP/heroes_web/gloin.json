@@ -1,0 +1,132 @@
+{
+ "hero": "Glóin",
+ "uk_name": "Ґлоїн",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:Gloin",
+     "t": "Name",
+     "en": "Glóin",
+     "uk": "Ґлоїн",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SonofGroin",
+     "t": "Button",
+     "en": "Son of Gróin",
+     "uk": "Син Ґроїна",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSonofGroin",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n Óin and Glóin gain +15% damage and +15% armour when near each other \\nPassive ability",
+     "uk": "Тип ефекту: Заклинання\\nПоряд одне з одним Оїн і Ґлоїн отримують бонус +15% до пошкоджень і +15% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GloinAxeThrow",
+     "t": "Button",
+     "en": "Axe Throw (&R)",
+     "uk": "Кидок сокири (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipAxeThrow",
+     "t": "Tooltip",
+     "en": "Powerful ranged attack with radius damage \\n Left click icon then left click on target",
+     "uk": "Потужна атака на відстані з пошкодженнями по площі\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:CraftyFinancer",
+     "t": "Button",
+     "en": "Crafty Financer (&T)",
+     "uk": "Хитрий скарбник (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipVentureCapitalism",
+     "t": "Tooltip",
+     "en": "Requires Level 6\\nTargeted Mine or Grand Forge has +200% increased production for 30 seconds\\nLeft click icon then left click on target",
+     "uk": "Необхідно: Рівень 6\\nВказана копальня або Велика кузня на 30 сек. виробляє на 200% більше ресурсів\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Erebor · Durins Folk map · Summoned",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:GloinHeal",
+     "t": "Button",
+     "en": "Herb Lore (&W)",
+     "uk": "Травознавство (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGloinHeal",
+     "t": "Tooltip",
+     "en": "Heals nearby units\\n Left click to activate \\n\\n Requires Level 3 \\n Modifier Type: Leadership \\n Allies near Glóin gain +15% damage and +15% armour \\nPassive ability",
+     "uk": "Зцілює всі загони поблизу\\nКлікніть, щоб активувати\\n\\nНеобхідно: Рівень 3\\nТип ефекту: Лідерство\\nСоюзники поряд із Ґлоїном отримують бонус +15% до пошкоджень і +15% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ProudFather",
+     "t": "Button",
+     "en": "Proud Father",
+     "uk": "Гордий батько",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipProudFather",
+     "t": "Tooltip",
+     "en": "Glóin gains +20% armour and damage while near Gimli\\nPassive ability",
+     "uk": "Поряд із Ґімлі Ґлоїн отримує бонус +20% броні й пошкоджень\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GloinGloriousCharge",
+     "t": "Button",
+     "en": "Baruk Khazâd! (&T)",
+     "uk": "Барук-Кхазад! (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGloinGloriousCharge",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\n Modifier type: Spell\\n Glóin and nearby Dwarven units gain a +15% speed bonus, +50% experience bonus and resistance to fear and terror for 20 seconds\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 3\\nТип ефекту: Заклинання\\nҐлоїн і загони дворфів поблизу на 20 сек. отримують бонус +15% швидкості, +50% до досвіду й стійкість до страху та жаху\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:VentureCapitalism",
+     "t": "Button",
+     "en": "Venture Capitalism (&C)",
+     "uk": "Ризикова інвестиція (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GloinSecretWays",
+     "t": "Button",
+     "en": "Secret Ways (&V)",
+     "uk": "Таємні шляхи (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipGloinSecretWays",
+     "t": "Tooltip",
+     "en": "Requires Level 9 \\n Glóin knows of routes younger dwarves do not\\nTeleports targeted units to targeted location\\nDoes not work on siege units\\n Left click icon, then left click on target units, then left click on pathable location",
+     "uk": "Необхідно: Рівень 9\\nҐлоїн знає шляхи, невідомі молодшим дворфам\\nТелепортує обрані загони на вказане місце\\nНе діє на облогові машини\\nКлікніть на іконку, потім оберіть потрібні загони, потім оберіть ділянку",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "hero": "Anborn",
+ "uk_name": "Анборн",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:GondorAnborn",
+     "t": "Name",
+     "en": "Anborn",
+     "uk": "Анборн",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToggleFaramirWeapons",
+     "t": "Button",
+     "en": "Toggle Weapon (&W)",
+     "uk": "Змінити зброю (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipToggleFaramirWeapons",
+     "t": "Tooltip",
+     "en": "Left click to toggle between bow and sword",
+     "uk": "Клікніть, щоб перемкнутися між луком і мечем",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:AnbornMasterScout",
+     "t": "Button",
+     "en": "Master Scout (&T)",
+     "uk": "Майстер-розвідник (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipAnbornMasterScout",
+     "t": "Tooltip",
+     "en": "Nearby friendly units are camouflaged \\n Left click to activate",
+     "uk": "Союзні загони поблизу маскуються\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:AnbornPoisonArrows",
+     "t": "Button",
+     "en": "Poison Arrows (&C)",
+     "uk": "Отруйні стріли (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipAnbornPoisonArrows",
+     "t": "Tooltip",
+     "en": "Left click to switch to Poison Arrows \\n Inflicts damage over time",
+     "uk": "Клікніть, щоб перейти на отруйні стріли\\nЗавдають періодичних пошкоджень",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Ambush in Ithilien",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:RangerLureIthilien",
+     "t": "Button",
+     "en": "Lure (&R)",
+     "uk": "Приманка (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipRangerLureIthilienNew",
+     "t": "Tooltip",
+     "en": "Call out to hidden ranger units \\n Left click to activate",
+     "uk": "Прикликає приховані загони слідопитів \\n Клікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Ithilien map",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:AnbornPoisonShots",
+     "t": "Button",
+     "en": "Poison Shots (&R)",
+     "uk": "Отруйні стріли (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipAnbornPoisonShots",
+     "t": "Tooltip",
+     "en": "Anborn's arrows deal damage over time for 15 seconds\\nCan only be used with bow equipped\\nLeft click to activate",
+     "uk": "На 15 сек. стріли Анборна завдають періодичних пошкоджень\\nМожна використати, лише коли в руках лук\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:AnbornTakePoint",
+     "t": "Button",
+     "en": "Take Point (&C)",
+     "uk": "Зайняти позицію (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipAnbornTakePoint",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\n Anborn calls a group of Rangers to defend targeted location. They are immobile, but remain stealthed and will attack any enemy that approaches\\n At level 7, summons a larger group of Rangers\\n Left click icon then left click on pathable location",
+     "uk": "Необхідно: Рівень 3\\nАнборн кличе загін слідопитів захищати вказане місце. Вони не можуть рухатися, але лишаються невидимими й атакують кожного ворога, що наблизиться\\nНа 7 рівні прикликає більший загін слідопитів\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:AnbornNightRaid",
+     "t": "Button",
+     "en": "Night Raid (&V)",
+     "uk": "Нічний наліт (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipAnbornNightRaid",
+     "t": "Tooltip",
+     "en": "Requires Level 7\\nAnborn and nearby Ithilien Skirmishers, Sentinels and Outriders steal resources when attacking buildings\\n Passive ability\\n\\nCan be cast on enemy resource structure to pause production for 60 seconds\\nLeft click icon then left click on target structure",
+     "uk": "Необхідно: Рівень 7\\nАнборн і легкоозброєні воїни, вартові та вершники-розвідники Ітілієну поблизу крадуть ресурси, атакуючи споруди\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nМожна застосувати до ворожої ресурсної споруди, щоб на 60 сек. зупинити її виробництво\\nКлікніть на іконку, потім оберіть споруду",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

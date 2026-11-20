@@ -33,7 +33,7 @@ if a.notes:
 day = datetime.date.fromisoformat(a.date) if a.date else datetime.date.today()
 TITLE = f'Age Of The Ring Українською v.{a.version} [Від {day.day} {MONTHS[day.month - 1]} {day.year}]'
 ASSET = f'ukrainian-localization_{a.version}.zip'
-TOKEN = None if a.dry else open(TOKEN_FILE, encoding='utf-8').read().strip()
+TOKEN = None if a.dry else open(TOKEN_FILE, encoding='utf-8').read().split()[0]  # first token = this repository's; others below belong to other projects
 
 
 def api(method, url, body=None, data=None, ctype='application/json'):

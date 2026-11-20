@@ -1,0 +1,92 @@
+{
+ "hero": "Gildor Inglorion",
+ "uk_name": "Ґілдор Інґлоріон",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:Gildor",
+     "t": "Name",
+     "en": "Gildor Inglorion",
+     "uk": "Ґілдор Інґлоріон",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GildorLeadership",
+     "t": "Button",
+     "en": "Companion",
+     "uk": "Супутник",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGildorLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Hobbits and Breelanders near Gildor gain +25% damage, +25% armour and earn experience +25% faster \\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nГобіти й мешканці Брі поряд із Ґілдором отримують бонус +25% до пошкоджень, +25% броні й на 25% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GildorExiles",
+     "t": "Button",
+     "en": "The Wandering Companies (&R)",
+     "uk": "Мандрівні загони (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipGildorExiles_Campaign",
+     "t": "Tooltip",
+     "en": "Gildor summons a single group of Noldor Exiles to his side \\n Left click icon then left click on target location \\n\\nRequires Level 8 \\n Gildor summons three groups of Noldor Exiles to his side \\n Left click icon then left click on target location",
+     "uk": "Ґілдор прикликає до себе 1 загін нолдорів-вигнанців\\nКлікніть на іконку, потім оберіть ділянку\\n\\nНеобхідно: Рівень 8\\nҐілдор прикликає до себе 3 загони нолдорів-вигнанців\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipGildorExiles",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Gildor summons a single group of Noldor Exiles to his side \\n Left click icon then left click on target location \\n\\nRequires Level 8 \\n Gildor summons three groups of Noldor Exiles to his side \\n Left click icon then left click on target location",
+     "uk": "Необхідно: Рівень 3\\nҐілдор прикликає до себе 1 загін нолдорів-вигнанців\\nКлікніть на іконку, потім оберіть ділянку\\n\\nНеобхідно: Рівень 8\\nҐілдор прикликає до себе 3 загони нолдорів-вигнанців\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GildorTelperion",
+     "t": "Button",
+     "en": "Light of Telperion (&T)",
+     "uk": "Світло Тельперіона (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGildorTelperion_Campaign",
+     "t": "Tooltip",
+     "en": "Gildor reveals his blessed Lantern, causing enemy units to flee in terror \\n Left click to activate",
+     "uk": "Ґілдор показує свій благословенний ліхтар, і ворожі загони тікають у жаху\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGildorTelperion",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Gildor reveals his blessed Lantern, causing enemy units to flee in terror \\n Left click to activate",
+     "uk": "Необхідно: Рівень 5\\nҐілдор показує свій благословенний ліхтар, і ворожі загони тікають у жаху\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ShireGildorTelperion",
+     "t": "Button",
+     "en": "Light of Telperion (&R)",
+     "uk": "Світло Тельперіона (&R)",
+     "st": "ok",
+     "dup": "CONTROLBAR:GildorTelperion"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipShireGildorTelperion",
+     "t": "Tooltip",
+     "en": "Gildor reveals his blessed Lantern, causing enemy units to flee in terror \\n Left click to activate",
+     "uk": "Ґілдор показує свій благословенний ліхтар, і ворожі загони тікають у жаху\\nКлікніть, щоб активувати",
+     "st": "ok",
+     "dup": "CONTROLBAR:ToolTipGildorTelperion_Campaign"
+    }
+   ]
+  }
+ ]
+}

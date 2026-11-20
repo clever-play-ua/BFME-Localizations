@@ -1,0 +1,68 @@
+﻿1
+00:00:00,000 --> 00:00:00,800
+Bilbo!
+
+2
+00:00:01,420 --> 00:00:02,380
+Bilbo!
+
+3
+00:00:06,680 --> 00:00:08,220
+My precious.
+
+4
+00:00:11,980 --> 00:00:18,410
+This is the One Ring, forged by
+the Dark Lord Sauron in the fires
+
+5
+00:00:18,460 --> 00:00:23,380
+of Mount Doom, taken by Isildur
+from the hand of Sauron himself.
+
+6
+00:00:24,680 --> 00:00:26,240
+Bilbo found it.
+
+7
+00:00:27,480 --> 00:00:33,470
+In Gollum's cave. Yes. For sixty
+years the Ring lay quiet in Bilbo's
+
+8
+00:00:33,520 --> 00:00:37,620
+keepin', prolonging his
+life, delaying old age.
+
+9
+00:00:38,700 --> 00:00:43,050
+But no longer, Frodo.
+Evil is stirring in Mordor.
+
+10
+00:00:43,100 --> 00:00:45,000
+The Ring has awoken.
+
+11
+00:00:45,660 --> 00:00:48,520
+It's heard its master's call.
+
+12
+00:00:48,720 --> 00:00:50,220
+But he was destroyed.
+
+13
+00:00:51,120 --> 00:00:52,720
+Sauron was destroyed.
+
+14
+00:01:01,180 --> 00:01:04,280
+The spirit of Sauron endured.
+
+15
+00:01:05,680 --> 00:01:08,660
+Frodo, you must never find it.
+
+16
+00:01:10,620 --> 00:01:12,260
+What must I do?

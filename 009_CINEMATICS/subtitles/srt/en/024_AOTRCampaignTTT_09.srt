@@ -1,0 +1,7 @@
+﻿1
+00:00:01,040 --> 00:00:04,640
+Helm's Deep! There it is! Helm's Deep!
+
+2
+00:00:27,080 --> 00:00:28,520
+Everyone, this way!

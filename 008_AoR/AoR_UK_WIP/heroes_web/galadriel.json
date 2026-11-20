@@ -1,0 +1,97 @@
+{
+ "hero": "Galadriel",
+ "uk_name": "Ґаладріель",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:ElvenGaladriel",
+     "t": "Name",
+     "en": "Galadriel",
+     "uk": "Ґаладріель",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GaladrielForesight",
+     "t": "Button",
+     "en": "Foresight (&W)",
+     "uk": "Передбачення (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipGaladrielForesight",
+     "t": "Tooltip",
+     "en": "Reveals shroud in target area for 60 seconds\\n \\n Modifier Type: Active Debuff \\n Targeted enemy units lose all leadership and cannot earn experience for 30 seconds\\n \\n Left click on icon then left click on target area",
+     "uk": "Розвіює туман війни на обраній ділянці на 60 сек.\\n\\nТип ефекту: Активне ослаблення\\nОбрані ворожі загони на 30 сек. втрачають усе лідерство й не можуть набирати досвід\\n\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GaladrielLeadership",
+     "t": "Button",
+     "en": "The Lady of Lothlórien",
+     "uk": "Леді Лотлоріену",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGaladrielLeadership",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Modifier Type: Leadership \\n All nearby friendly Heroes gain +33% experience gain and their recharge timers are decreased by 20%\\nPassive ability\\n\\n Modifier Type: Passive Debuff \\n Nearby enemy Heroes and Heroic units suffer -15% damage\\nPassive ability",
+     "uk": "Необхідно: Рівень 3\\nТип ефекту: Лідерство\\nУсі союзні герої поблизу на 33% швидше набирають досвід, а їхні здібності відновлюються на 20% швидше\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nТип ефекту: Пасивне ослаблення\\nВорожі герої й героїчні загони поблизу отримують штраф -15% пошкоджень\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GaladrielFear",
+     "t": "Button",
+     "en": "Light of Valinor (&T)",
+     "uk": "Світло Валінору (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipGaladrielFear",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Galadriel is revealed in white light\\nNearby enemy units flee in terror\\n\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 3\\nҐаладріель постає осяяна білим світлом\\nВорожі загони поблизу тікають у жаху\\n\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipGaladrielFearGifts",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Galadriel is revealed in white light\\nNearby enemy units flee in terror and suffer damage over time\\n\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 3\\nҐаладріель постає осяяна білим світлом\\nВорожі загони поблизу тікають у жаху й отримують періодичні пошкодження\\n\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SpecialPowerGaladrielNenya",
+     "t": "Button",
+     "en": "Bearer of Nenya (&C)",
+     "uk": "Хранителька Неньї (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSpecialPowerGaladrielNenya",
+     "t": "Tooltip",
+     "en": "Requires Level 6\\nModifier Type: Leadership \\n All nearby friendly structures gain +50% armour\\nPassive ability\\n\\nTarget allied or enemy structures within the area of effect cannot produce, but are immune to damage for 30 seconds\\nAllied units within the area of effect are fully healed and temporarily gain +200% armour for 30 seconds\\n\\nLeft click icon then left click on target area",
+     "uk": "Необхідно: Рівень 6\\nТип ефекту: Лідерство\\nУсі союзні споруди поблизу отримують бонус +50% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nСоюзні чи ворожі споруди в зоні дії на 30 сек. не можуть нічого виробляти, проте стають невразливими\\nСоюзні загони в зоні дії повністю зцілюються й на 30 сек. отримують бонус +200% броні\\n\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GaladrielStormQueen",
+     "t": "Button",
+     "en": "The Storm Queen (&V)",
+     "uk": "Королева бурі (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipGaladrielStormQueen",
+     "t": "Tooltip",
+     "en": "Requires Level 9 \\n Galadriel takes on the form of the Storm Queen and temporarily gains +50% armour, +300% damage to Structures, \\n and her attacks become ranged, area of effect attacks\\nEffect lasts 30 seconds\\n\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 9\\nҐаладріель набуває вигляду Королеви бурі й тимчасово отримує бонус +50% броні та +300% до пошкоджень спорудам,\\nа її атаки б'ють на відстані й по площі\\nЕфект діє 30 сек.\\n\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

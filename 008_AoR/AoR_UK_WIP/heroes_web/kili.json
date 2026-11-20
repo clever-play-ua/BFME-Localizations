@@ -1,0 +1,112 @@
+{
+ "hero": "Kili",
+ "uk_name": "Кілі",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:DwarvenKili",
+     "t": "Name",
+     "en": "Kili",
+     "uk": "Кілі",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToggleLurtzWeapon",
+     "t": "Button",
+     "en": "Toggle Weapon (&W)",
+     "uk": "Змінити зброю (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipToggleLurtzWeapon",
+     "t": "Tooltip",
+     "en": "Left click to toggle between bow and sword",
+     "uk": "Клікніть, щоб перемкнутися між луком і мечем",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BrotherhoodLeadership",
+     "t": "Button",
+     "en": "Brotherhood",
+     "uk": "Братерство",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBrotherhoodFili",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Kili gains +20% damage when near Fili\\n Passive ability",
+     "uk": "Тип ефекту: Лідерство\\nПоряд із Філі Кілі отримує бонус +20% до пошкоджень\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:KiliArrowDodge",
+     "t": "Button",
+     "en": "Luck of Battle",
+     "uk": "Військова удача",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipKiliArrowDodge",
+     "t": "Tooltip",
+     "en": "Kili permanently gains a boost in evasion to ranged attacks \\n Passive ability",
+     "uk": "Кілі назавжди отримує кращий шанс ухилитися від атак на відстані\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:KiliQuickshot",
+     "t": "Button",
+     "en": "Quick Shot (&C)",
+     "uk": "Швидкий постріл (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipKiliQuickshot",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Kili gains +15% damage and +33% attack speed for 20 seconds\\n Can only use with bow equipped \\n Left click to activate",
+     "uk": "Необхідно: Рівень 3\\nКілі на 20 сек. отримує бонус +15% до пошкоджень і +33% швидкості атаки\\nДоступно лише з луком\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:KiliHighSpirits",
+     "t": "Button",
+     "en": "High Spirits (&V)",
+     "uk": "Бадьорий дух (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipKiliHighSpirits",
+     "t": "Tooltip",
+     "en": "Requires Level 8\\n Grants experience to nearby troops.\\nOnly affects dwarven units\\n Left click icon then left click on target units",
+     "uk": "Необхідно: Рівень 8\\nМиттєво наділяє досвідом загони поблизу.\\nДіє лише на дворфів\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Council of Elrond",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:KiliQuickshotCampaign",
+     "t": "Button",
+     "en": "Quick Shot (&T)",
+     "uk": "Швидкий постріл (&T)",
+     "st": "ok",
+     "dup": "CONTROLBAR:KiliQuickshot"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipKiliQuickshotCampaign",
+     "t": "Tooltip",
+     "en": "Kili gains +15% damage and +33% attack speed for 20 seconds\\n Can only use with bow equipped \\n Left click to activate",
+     "uk": "Кілі на 20 сек. отримує бонус +15% до пошкоджень і +33% швидкості атаки\\nДоступно лише з луком\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

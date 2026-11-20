@@ -1,0 +1,205 @@
+{
+ "hero": "Merry",
+ "uk_name": "Меррі",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:RohanMerry",
+     "t": "Name",
+     "en": "Merry",
+     "uk": "Меррі",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:tooltipCommand_ToggleEntRockThrow",
+     "t": "Button",
+     "en": "Toggle Rock-Throw Mode (&W)",
+     "uk": "Режим кидання каміння (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipThrowRocks",
+     "t": "Tooltip",
+     "en": "Switch to rock throwing mode",
+     "uk": "Перемкнутися на режим кидання каміння",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HobbitCloak",
+     "t": "Button",
+     "en": "Hide Here, Qui&ck!",
+     "uk": "Ховаймося тут, швидко! (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElvenCloakCampaign",
+     "t": "Tooltip",
+     "en": "Becomes invisible when standing still \\n Also passively grants +10% armour to all nearby hobbit heroes \\n Left click to activate",
+     "uk": "Стає невидимим, коли стоїть на місці\\nТакож постійно дає +10% броні всім героям-гобітам поблизу\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HobbitRockLure",
+     "t": "Button",
+     "en": "Lure (&T)",
+     "uk": "Приманка (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHobbitRockLure",
+     "t": "Tooltip",
+     "en": "The hobbit throws a rock to lure enemy units to target area \\n Left click icon then left click on target area",
+     "uk": "Гобіт кидає камінь, щоб відволікти ворожі загони на вказане місце\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElvenCloak",
+     "t": "Button",
+     "en": "Elven Cloak (&R)",
+     "uk": "Ельфійський плащ (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElvenCloak",
+     "t": "Tooltip",
+     "en": "Becomes invisible when standing still \\n Left click to activate",
+     "uk": "Стає невидимим для ворогів, поки не рухається.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FellowshipMerryEsquire",
+     "t": "Button",
+     "en": "Esquire of Rohan",
+     "uk": "Зброєносець Рогану",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipFellowshipMerryEsquire",
+     "t": "Tooltip",
+     "en": "Merry gains +25 armour and +25% damage when near Éomer\\nAt Level 3, Merry passively deals +200% damage against Nazgûl with his sword\\nPassive ability",
+     "uk": "Поряд з Еомером, Меррі отримує бонус +25 до броні й +25% до пошкоджень\\nНа 3 рівні Меррі своїм мечем постійно завдає +200% пошкоджень назґулам\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FellowshipMerryHalflingCourage",
+     "t": "Button",
+     "en": "Halfling Courage",
+     "uk": "Відвага напіврослика",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipFellowshipMerryHalflingCourage",
+     "t": "Tooltip",
+     "en": "Requires Level 5\\nMerry permanently gains +600 health\\n\\nModifier Type: Leadership\\nNearby friendly units gain +25% armour and earn experience 25% faster\\n Stacks with Buffs and Spells\\nPassive ability",
+     "uk": "Необхідно: Рівень 5\\nМеррі назавжди отримує бонус +600 од. здоров'я\\n\\nТип ефекту: Лідерство\\nСоюзні загони поблизу отримують бонус +25% броні й на 25% швидше набирають досвід\\nПоєднується з посиленнями та заклинаннями\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HoldwinetheGreat",
+     "t": "Button",
+     "en": "Holdwine the Great (&C)",
+     "uk": "Голдвайн Великий (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHoldwinetheGreat",
+     "t": "Tooltip",
+     "en": "Requires Level 7 \\n Merry plunges his Blade of Westernesse into an enemy unit, hero or monster, dealing strong damage and decreasing armour by 33% for 10 seconds. \\n Can only use when sword is equipped. \\n Left click then left click on target",
+     "uk": "Необхідно: Рівень 7\\nМеррі встромляє клинок Вестернесу у ворога, завдаючи сильних пошкоджень і зменшуючи броню на 33% на 10 сек.\\nДоступно лише з мечем.\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHoldwinetheGreatSotS",
+     "t": "Tooltip",
+     "en": "Requires Level 7 \\n Merry plunges his Blade of Westernesse into an enemy unit, hero or monster, dealing strong damage and decreasing armour by 33% for 10 seconds.\\n Deals minimal damage versus heroes \\n Can only use when sword is equipped. \\n Left click then left click on target",
+     "uk": "Необхідно: Рівень 7\\nМеррі встромляє клинок Вестернесу у ворога, завдаючи сильних пошкоджень і зменшуючи броню на 33% на 10 сек.\\nПроти героїв завдає мінімальних пошкоджень\\nДоступно лише з мечем.\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FellowshipMerryHorn",
+     "t": "Button",
+     "en": "Rohirric Horn (&V)",
+     "uk": "Ріг Рогану (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFellowshipMerryHorn",
+     "t": "Tooltip",
+     "en": "Requires Level 10\\nMerry blows the silver horn of Rohan, stunning nearby enemy units with fear for 15 seconds\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 10\\nМеррі сурмить у срібний ріг Рогану, і приголомшує та лякає ворожі загони поблизу на 15 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFellowshipMerryHornScouring",
+     "t": "Tooltip",
+     "en": "Requires Level 10\\nMerry blows the silver horn of Rohan, stunning nearby enemy units with fear for 15 seconds\\nRouses Hobbit reinforcements when cast nearby Hobbit-holes\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 10\\nМеррі сурмить у срібний ріг Рогану, і приголомшує та лякає ворожі загони поблизу на 15 сек.\\n\\nПіднімає на допомогу гобітів, якщо засурмити поряд із гобітськими норами\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HobbitRockLureAmonHen",
+     "t": "Button",
+     "en": "Lure (&V)",
+     "uk": "Приманка (&V)",
+     "st": "ok",
+     "dup": "CONTROLBAR:HobbitRockLure"
+    }
+   ]
+  },
+  {
+   "name": "Rohan · Summoned",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:BladeofWesternesse",
+     "t": "Button",
+     "en": "Blade of Westernesse",
+     "uk": "Клинок Вестернесу",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipBladeofWesternesse",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Passively deals +200% damage against Nazgûl",
+     "uk": "Необхідно: Рівень 3\\n +200% до пошкоджень назґулам\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:MerryLeadership",
+     "t": "Button",
+     "en": "Esquire of Rohan",
+     "uk": "Зброєносець Рогану",
+     "st": "ok",
+     "dup": "CONTROLBAR:FellowshipMerryEsquire"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipMerryLeadership",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Modifier Type: Leadership \\n Merry gains +15% armour and +15% damage when near Éowyn \\n Nearby heroes gain experience +15% faster \\n Merry's health is increased \\n Passive ability",
+     "uk": "Необхідно: Рівень 5\\nТип ефекту: Лідерство\\nМеррі отримує бонус +15% броні й +15% до пошкоджень поряд з Еовін\\nГерої поблизу на 15% швидше набирають досвід\\nЗдоров'я Меррі збільшується\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:MerryBlade",
+     "t": "Button",
+     "en": "Halfling Courage (&V)",
+     "uk": "Відвага напіврослика (&V)",
+     "st": "ok",
+     "dup": "CONTROLBAR:FellowshipMerryHalflingCourage"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipMerryBlade",
+     "t": "Tooltip",
+     "en": "Requires Level 7 \\n Merry plunges his Blade of Westernesse into an enemy hero,\\n dealing strong damage and decreasing armour by -25% for 10 seconds \\n Can only use when sword is equipped \\n Left click icon then left click on target",
+     "uk": "Необхідно: Рівень 7\\nМеррі встромляє клинок Вестернесу у ворожого героя,\\nзавдаючи сильних пошкоджень і знижуючи його броню на 25% на 10 сек.\\nМожна використати, лише коли в руках меч\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

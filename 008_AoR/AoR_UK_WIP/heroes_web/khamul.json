@@ -1,0 +1,154 @@
+{
+ "hero": "Khamûl",
+ "uk_name": "Хамул",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:MordorFellBeast",
+     "t": "Name",
+     "en": "Khamûl",
+     "uk": "Хамул",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ScreechKhamul",
+     "t": "Button",
+     "en": "Screech (&R)",
+     "uk": "Пронизливий крик (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipScreech",
+     "t": "Tooltip",
+     "en": "Causes enemy units to flee in terror \\n Left click to activate",
+     "uk": "Вороги розбігаються від жаху.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:KhamulLieutnant",
+     "t": "Button",
+     "en": "Lieutenant of Dol Guldur",
+     "uk": "Лейтенант Дол-Ґулдуру",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipKhamulLieutnant",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Khamûl takes on his role as the Lieutenant of Dol Guldur\\nModifier Type: Leadership\\nNearby friendly units gain +33% damage\\nPassive ability\\n\\n At rank 5, Khamûl dons his armour, granting him +25% armour and causing nearby enemy units to suffer damage over time",
+     "uk": "Необхідно: Рівень 3\\nХамул бере на себе роль лейтенанта Дол-Ґулдуру\\nТип ефекту: Лідерство\\nСоюзні загони поблизу отримують бонус +33% до пошкоджень\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nНа 5 рівні Хамул вдягає обладунки: отримує бонус +25% броні, а ворожі загони поблизу отримують періодичні пошкодження",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:WordsofDeath",
+     "t": "Button",
+     "en": "Fell Ward (&C)",
+     "uk": "Лихий оберіг (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipWordsofDeath",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n When activated, places a Rune Circle around Khamûl\\nFriendly units within the Rune Circle gain +75% armour to Ranged, Fire, Frost and Magic damage for 60 seconds\\n Left click icon then left click on pathable location",
+     "uk": "Необхідно: Рівень 5\\nПісля активації створює навколо Хамула рунне коло\\nСоюзні загони в рунному колі на 60 сек. отримують бонус +75% броні проти пошкоджень на відстані, вогнем, холодом і магією\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:NineAreAbroad",
+     "t": "Button",
+     "en": "The Nine Are Abroad (&W)",
+     "uk": "Дев'ятеро вирушили (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBlackRiderDreadVisageKhamul",
+     "t": "Tooltip",
+     "en": "As more Nazgûl gather, their strength grows \\n +10% damage and +10% armour per every Ringwraith nearby \\n Passive ability \\n\\n Requires Level 2 \\n Modifier Type: Passive Debuff \\n Nearby enemy units suffer -25% damage and -20% armour \\n\\n Left click to switch between mounted and on foot",
+     "uk": "Що більше назґулів збирається разом, то вони сильніші\\n+10% до пошкоджень і +10% броні за кожного назґула поблизу\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nНеобхідно: Рівень 2\\nТип ефекту: Пасивне ослаблення\\nВорожі загони поблизу отримують штраф -25% пошкоджень і -20% броні\\n\\nКлікніть, щоб перемкнутися між верховим і пішим строєм",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BlackEasterling",
+     "t": "Button",
+     "en": "The Black Easterling (&V)",
+     "uk": "Чорний істерлінґ (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipKhamulStorm",
+     "t": "Tooltip",
+     "en": "Requires Level 8 \\n Modifier Type: Spell \\n Khamûl and nearby friendly units gain +75% damage and +20% speed but lose -25% armour and gain no experience for 20 seconds\\n Also summons four Accursed Guards \\nLeft click to activate",
+     "uk": "Необхідно: Рівень 8\\nТип ефекту: Заклинання\\nХамул і союзні загони поблизу на 20 сек. отримують бонус +75% до пошкоджень і +20% швидкості, але втрачають 25% броні й НЕ набирають досвіду\\nТакож прикликає 4 проклятих вартових\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "OBJECT:MordorKhamul",
+     "t": "Name",
+     "en": "Khamûl",
+     "uk": "Хамул",
+     "st": "ok",
+     "dup": "OBJECT:MordorFellBeast"
+    }
+   ]
+  },
+  {
+   "name": "Rhun map",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:MordorKhamul",
+     "t": "Name",
+     "en": "Khamûl",
+     "ref": "n2"
+    },
+    {
+     "v": "CONTROLBAR:SpecialAbilityNazgulNineServantsOfSauron",
+     "t": "Button",
+     "en": "The Nine are Abroad",
+     "uk": "Дев'ятеро вирушили",
+     "st": "ok",
+     "dup": "CONTROLBAR:NineAreAbroad"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSpecialAbilityNazgulNineServantsOfSauronBlackRider",
+     "t": "Tooltip",
+     "en": "As more Nazgûl gather, their strength grows \\n +10% damage and +10% armour per every Ringwraith nearby \\n Passive ability \\n\\n Requires Level 2 \\n Modifier Type: Passive Debuff \\n Nearby enemy units suffer -25% damage and -20% armour\\nPassive ability",
+     "uk": "Що більше назґулів збирається разом, то вони сильніші\\n+10% до пошкоджень і +10% броні за кожного назґула поблизу\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nНеобхідно: Рівень 2\\nТип ефекту: Пасивне ослаблення\\nВорожі загони поблизу отримують штраф -25% пошкоджень і -20% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SpectersJauntKhamul",
+     "t": "Button",
+     "en": "Spectre's Jaunt (&R)",
+     "uk": "Примарний ривок (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipSpectersJaunt",
+     "t": "Tooltip",
+     "en": "Khamûl teleports to targeted area and causes enemy units to flee in terror \\n Left click icon then left click on target area",
+     "uk": "Хамул телепортується на обрану ділянку, і ворожі загони тікають у жаху\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:KhamulLieutnantRhun",
+     "t": "Button",
+     "en": "The Shadow of the East (&T)",
+     "uk": "Тінь Сходу (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipKhamulLieutnantRhunActive",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\nModifier Type: Leadership\\nNearby friendly units gain +33% damage\\nPassive ability \\n\\n When activated, Khamûl slams his war mace into the ground, damaging and knocking back all enemies in a line \\n Left click then left click on target",
+     "uk": "Необхідно: Рівень 3\\nТип ефекту: Лідерство\\nСоюзні загони поблизу отримують бонус +33% до пошкоджень\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nПісля активації Хамул б'є бойовою булавою об землю, завдаючи пошкоджень і відкидаючи всіх ворогів на лінії удару\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

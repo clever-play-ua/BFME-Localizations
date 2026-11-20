@@ -1,0 +1,48 @@
+﻿1
+00:00:21,000 --> 00:00:22,200
+Grimbold, ¿cuántos?
+
+2
+00:00:22,320 --> 00:00:25,600
+Traigo quinientos hombres
+del Folde Oeste, mi señor.
+
+3
+00:00:25,720 --> 00:00:28,960
+Tenemos trescientos más
+de Fenmarch, rey Théoden.
+
+4
+00:00:29,360 --> 00:00:31,280
+¿Y los jinetes de Nevado?
+
+5
+00:00:31,480 --> 00:00:33,520
+No ha venido ninguno, mi señor.
+
+6
+00:00:50,400 --> 00:00:52,200
+Seis mil lanzas.
+
+7
+00:00:53,400 --> 00:00:55,720
+Menos de la mitad de lo que esperaba.
+
+8
+00:00:55,840 --> 00:00:59,440
+Seis mil no bastarán para romper
+las líneas de Mordor.
+
+9
+00:01:01,920 --> 00:01:03,280
+Vendrán más.
+
+10
+00:01:04,200 --> 00:01:07,080
+Cada hora perdida acelera
+la derrota de Gondor.
+
+11
+00:01:07,200 --> 00:01:10,400
+Tenemos hasta el alba.
+Después debemos cabalgar.

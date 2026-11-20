@@ -1,0 +1,76 @@
+{
+ "hero": "Elegost Dúnadan",
+ "uk_name": "Елеґост Дунадан",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:EreborElegost",
+     "t": "Name",
+     "en": "Elegost Dúnadan",
+     "uk": "Елеґост Дунадан",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElegostTrueShot",
+     "t": "Button",
+     "en": "True Shot (&W)",
+     "uk": "Влучний постріл (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElegostTrueShot",
+     "t": "Tooltip",
+     "en": "A high damage attack that instills fear into enemy units for 10 seconds\\nLeft click icon then left click on target",
+     "uk": "Потужна атака, що на 10 сек. наганяє страх на ворожі загони\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElegostHeal",
+     "t": "Button",
+     "en": "Grace of Kingsfoil (&R)",
+     "uk": "Благодать королівського листя (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElegostHeal",
+     "t": "Tooltip",
+     "en": "For 10 seconds, Elegost heals nearby units and heroes over time\\nLeft click to activate",
+     "uk": "Протягом 10 сек. Елеґост поступово зцілює загони й героїв поблизу\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElegostRangerCraft",
+     "t": "Button",
+     "en": "Ranger Craft (&T)",
+     "uk": "Майстерність слідопитів (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElegostRangerCraft",
+     "t": "Tooltip",
+     "en": "Enemies in radius lose -50% vision range and -25% movement speed for 30 seconds\\n Left click then left click on target area",
+     "uk": "Вороги в радіусі на 30 сек. втрачають 50% дальності огляду й 25% швидкості руху\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:RangerLureIthilien",
+     "t": "Button",
+     "en": "Lure (&R)",
+     "uk": "Приманка (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipRangerLureIthilien",
+     "t": "Tooltip",
+     "en": "Lures nearby enemy units \\n Left click to activate",
+     "uk": "Приманює ворожі загони поблизу\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

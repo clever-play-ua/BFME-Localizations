@@ -91,7 +91,7 @@
    "type": "Підказка",
    "en": "Requires Level 7\nTargeted enemy units are beset by a cloud of Corpse Flies,\ncausing them to lose 50% vision and 25% armour\nand take damage over time for 15 seconds\nLeft click icon then left click on target",
    "ru": "",
-   "uk_ai": "Необхідно: Рівень 7\nОбрані ворожі загони оточує хмара трупних мух,\nзагони втрачають 50% огляду й 25% броні\nта 15 сек. поступово отримують пошкодження\nКлікніть на іконку, потім оберіть ціль",
+   "uk_ai": "Необхідно: Рівень 7\nОбрані ворожі загони оточує хмара трупних мух,\nзагони втрачають 50% огляду й 25% броні\nта 15 сек. отримують періодичні пошкодження\nКлікніть на іконку, потім оберіть ціль",
    "status": "чернетка AI",
    "uk": ""
   }

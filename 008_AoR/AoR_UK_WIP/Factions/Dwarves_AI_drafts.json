@@ -1,0 +1,1668 @@
+{
+ "meta": {
+  "faction": "Dwarves",
+  "note": "AI drafts for rows that had no Ukrainian at all (lowest priority: any proofread text wins)."
+ },
+ "strings": [
+  {
+   "var": "OBJECT:DwarvenFortress",
+   "en": "Erebor Fortress",
+   "uk_ai": "Фортеця Еребору"
+  },
+  {
+   "var": "CONTROLBAR:FireWeaponDwarvenFortressOilCasks",
+   "en": "Launch Oil Casks (&T)",
+   "uk_ai": "Бочки з олією (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFireWeaponDwarvenFortressOilCasks",
+   "en": "Requires the Fortifications upgrade \\n Attack enemies with oil casks \\n Left click to activate",
+   "uk_ai": "Потребує покращення «Укріплення»\\nЗакидає ворогів бочками з олією\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:HornoftheGate",
+   "en": "Horns of the Gate (&S)",
+   "uk_ai": "Роги брами (&S)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipHornoftheGate",
+   "en": "Requires the Horns of the Gate upgrade \\n Causes fear in nearby enemies for 15 seconds\\n Left click to activate",
+   "uk_ai": "Потребує покращення «Роги брами»\\nНа 15 сек. наганяє страх на ворогів поблизу\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDwarvenFortressBanners",
+   "en": "Raven Banners (&W)",
+   "uk_ai": "Воронячі стяги (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressBanners",
+   "en": "Modifier Type: Leadership \\n Allies near the Fortress gain +33% damage, +33% armour, and earn experience 50% faster\\n\\nReduces Hero cost by 10% \\n Reduces Hero recruit time by 10% \\n Reduced cost of builders by 20%",
+   "uk_ai": "Тип ефекту: Лідерство\\nСоюзники поблизу фортеці отримують бонус +33% до пошкоджень, +33% броні й на 50% швидше набирають досвід\\n\\nЗнижує вартість героїв на 10%\\nСкорочує час вербування героїв на 10%\\nЗнижує вартість будівельників на 20%"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDwarvenHornsoftheGate",
+   "en": "Horns of the Gate (&E)",
+   "uk_ai": "Роги брами (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDwarvenHornsoftheGate",
+   "en": "When activated, causes nearby enemies to cower in fear for 15 seconds",
+   "uk_ai": "Після активації вороги поблизу на 15 сек. тремтять від страху"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDwarvenFortressSiegeKegs",
+   "en": "Moat (&R)",
+   "uk_ai": "Рів (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressSiegeKegs",
+   "en": "Heals nearby allies and replenishes fallen units\\n Adds 1000 additional hit points to the Fortress",
+   "uk_ai": "Зцілює союзників поблизу й поновлює полеглих у загонах\\nДодає фортеці 1000 од. міцності"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDwarvenFortressFlamingMunitions",
+   "en": "Erebor Braziers (&T)",
+   "uk_ai": "Жаровні Еребору (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressFlamingMunitions",
+   "en": "Adds Mithril arrowheads to all attached towers and fire damage to all attached catapults",
+   "uk_ai": "Усі прибудовані вежі отримують мітрилові наконечники стріл, а катапульти — пошкодження вогнем"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDwarvenFortressDwarvenStonework",
+   "en": "Fortifications (&S)",
+   "uk_ai": "Укріплення (&S)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressDwarvenStonework",
+   "en": "Allows the Fortress to launch explosive oil casks\\nIncreases Fortress and Wall armour by 65%\\nPrerequisite to the Arkenstone upgrade",
+   "uk_ai": "Дає фортеці змогу закидати ворогів вибуховими бочками з олією\\nЗбільшує міцність фортеці та стін на 65%\\nПотрібне для покращення «Аркенстон»"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressArkenstoneHobbitEra",
+   "en": "Requires the Fortifications upgrade\\nDecreases recruitment time for all Dwarven units by 20%\\nIncreases movement for all Dwarven units by 10%\\nDecreases cost of unit upgrades by 20%\\nStacks with Steel Bonus discount",
+   "uk_ai": "Потребує покращення «Укріплення»\\nСкорочує час тренування всіх дворфійських загонів на 20%\\nЗбільшує швидкість руху всіх дворфійських загонів на 10%\\nЗнижує вартість покращень загонів на 20%\\nПоєднується зі знижкою від бонусу сталі"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFortressArkenstoneLotREra",
+   "en": "Requires the Fortifications upgrade\\nDecreases recruitment time for all Dwarven units by 20%\\nIncreases movement for all Dwarven units by 10%\\nDecreases cost of unit upgrades by 20%\\nStacks with Steel Bonus discount",
+   "uk_ai": "Потребує покращення «Укріплення»\\nСкорочує час тренування всіх дворфійських загонів на 20%\\nЗбільшує швидкість руху всіх дворфійських загонів на 10%\\nЗнижує вартість покращень загонів на 20%\\nПоєднується зі знижкою від бонусу сталі"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenFortress",
+   "en": "Build Fortress (&I)",
+   "uk_ai": "Фортеця (&I)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructDwarvenFortress",
+   "en": "Recruits Builders and Heroes \\n Can be upgraded with improvements and expansions \\n Increases command point limit by 100",
+   "uk_ai": "Найм будівельників та вербування героїв\\nПридбання покращень та прибудова додаткових споруд\\nЗбільшує ліміт очок командування на 100 од."
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenCatapultExpansion",
+   "en": "Catapult Expansion (&W)",
+   "uk_ai": "Катапульта (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructDwarvenCatapultExpansion",
+   "en": "Long range defensive weapon \\n Benefits from the Erebor Braziers upgrade",
+   "uk_ai": "Оборонна зброя великої дальності\\nПосилюється покращенням «Жаровні Еребору»"
+  },
+  {
+   "var": "OBJECT:DwarvenCatapultExpansion",
+   "en": "Catalpult Expansion",
+   "uk_ai": "Катапульта"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenCatapultUpgrade",
+   "en": "&Replace Catapult",
+   "uk_ai": "Відновити катапульту (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwarvenCatapultUpgrade",
+   "en": "Rebuilds the catapult on the platform",
+   "uk_ai": "Відновлює зруйновану катапульту на майданчику"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenEreborTowerTowerExpansion",
+   "en": "Guard Tower Expansion (&E)",
+   "uk_ai": "Сторожова вежа (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructDwarvenEreborTowerTowerExpansion",
+   "en": "Construct Guard Tower Expansion",
+   "uk_ai": "Прибудовує сторожову вежу"
+  },
+  {
+   "var": "OBJECT:DwarvenEreborTowerTowerExpansion",
+   "en": "Guard Tower",
+   "uk_ai": "Сторожова вежа"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenHallExpansion",
+   "en": "Hall Expansion (&R)",
+   "uk_ai": "Зала (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructDwarvenHallExpansion",
+   "en": "Garrisonable defensive structure \\n Increases decommission value of units \\n Heals garrisoned units \\n Garrisoned units gain +20% experience \\n Increases command point limit by 25",
+   "uk_ai": "Оборонна споруда, у якій можна розмістити загони\\nЗбільшує повернення ресурсів за розпущені загони\\nЗцілює розміщені загони\\nРозміщені загони набирають на 20% більше досвіду\\nЗбільшує ліміт очок командування на 25 од."
+  },
+  {
+   "var": "OBJECT:DwarvenHallExpansion",
+   "en": "Hall Expansion",
+   "uk_ai": "Зала"
+  },
+  {
+   "var": "CONTROLBAR:Command_ConstructDwarvenWallHubExpansion",
+   "en": "Wall Hub Expansion (&T)",
+   "uk_ai": "Стінна вежа (&T)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipCommand_ConstructDwarvenWallHubExpansion",
+   "en": "Construct Wall Hub Expansion",
+   "uk_ai": "Прибудовує стінну вежу"
+  },
+  {
+   "var": "OBJECT:DwarvenPorter",
+   "en": "Builder",
+   "uk_ai": "Будівельник"
+  },
+  {
+   "var": "CONTROLBAR:HobbitEraChoiceButton",
+   "en": "Reign of Oakenshield",
+   "uk_ai": "Правління Дубощита"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipHobbitEraChoiceButton",
+   "en": "You have chosen the Reign of Oakenshield",
+   "uk_ai": "Ви обрали правління Дубощита"
+  },
+  {
+   "var": "CONTROLBAR:LotREraChoiceButton",
+   "en": "Reign of Ironfoot",
+   "uk_ai": "Правління Залізностопа"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLotREraChoiceButton",
+   "en": "You have chosen the Reign of Ironfoot",
+   "uk_ai": "Ви обрали правління Залізностопа"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenMineShaft",
+   "en": "Build Dwarven Mine (&W)",
+   "uk_ai": "Дворфійська копальня (&W)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipConstructDwarvenMineShaft",
+   "en": "Generates resources based on available terrain\\nProvides access to the tunnel network \\n Provides leadership to nearby Vault-wardens \\n Increases command point limit by 50",
+   "uk_ai": "Видобуває ресурси, що ближче стоять інші\\nресурсні споруди, то менше ресурсів видобувається.\\nДає доступ до мережі тунелів\\nДає лідерство вартовим сховищ поблизу\\nЗбільшує ліміт очок командування на 50 од."
+  },
+  {
+   "var": "OBJECT:DwarvenMineShaft",
+   "en": "Dwarven Mine",
+   "uk_ai": "Дворфійська копальня"
+  },
+  {
+   "var": "OBJECT:WildMineShaftDescription",
+   "en": "Generates resources based on available terrain\\nProvides access to the tunnel network",
+   "uk_ai": "Видобуває ресурси, що ближче стоять інші\\nресурсні споруди, то менше ресурсів видобувається.\\nДає доступ до мережі тунелів"
+  },
+  {
+   "var": "CONTROLBAR:TunnelCollaspe",
+   "en": "Tunnel Collapse (&W)",
+   "uk_ai": "Обвал тунелю (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTunnelCollaspe",
+   "en": "Damages and stuns nearby units for 10 seconds\\n but halts resource production for 30 seconds",
+   "uk_ai": "Завдає пошкоджень загонам поблизу й приголомшує їх на 10 сек.,\\nале копальня на 30 сек. припиняє видобуток ресурсів"
+  },
+  {
+   "var": "CONTROLBAR:VWMineLeadership",
+   "en": "Close Quarters Specialists",
+   "uk_ai": "Майстри ближнього бою"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipVWMineLeadership",
+   "en": "Modifier Type: Leadership \\n Vault-wardens gain +25% damage and armour when near Allied Dwarven Mines and earn experience 50% faster \\nPassive ability",
+   "uk_ai": "Тип ефекту: Лідерство\\nПоряд із союзними дворфійськими копальнями вартові сховищ отримують бонус +25% до пошкоджень і броні та на 50% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTunnelCollapse",
+   "en": "Purchase Tunnel Collapse Upgrade (&W)",
+   "uk_ai": "Обвал тунелю (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTunnelCollapse",
+   "en": "Allows the Dwarven Mine to damage and stun nearby units for 10 seconds but halts resource production for 30 seconds \\n Left click to activate",
+   "uk_ai": "Дає дворфійській копальні змогу завдавати пошкоджень загонам поблизу й приголомшувати їх на 10 сек., але копальня на 30 сек. припиняє видобуток ресурсів\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenForgeWorks",
+   "en": "Build Grand Forge (&R)",
+   "uk_ai": "Велика кузня (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructDwarvenForgeWorks",
+   "en": "Provides worked metals as a resource based on available terrain\\nResearches weapons and armour upgrades\\n Reduces cost of upgrades \\n Increases command point limit by 50",
+   "uk_ai": "Видобуває ресурси, що ближче стоять інші\\nресурсні споруди, то менше ресурсів видобувається.\\nДосліджує покращення зброї та обладунків\\nЗнижує вартість покращень\\nЗбільшує ліміт очок командування на 50 од."
+  },
+  {
+   "var": "OBJECT:EreborForge",
+   "en": "Erebor Grand Forge",
+   "uk_ai": "Велика кузня Еребору"
+  },
+  {
+   "var": "OBJECT:EreborForgeDescription",
+   "en": "Provides worked metals as a resource based on available terrain\\nResearches weapons and armour upgrades\\n Steel Bonus - Reduces cost of upgrades \\n 2 Forges: 5% \\n 3 Forges: 10% \\n 4 Forges: 15% \\n 5 Forges: 20% \\n 6+ Forges: 25% ",
+   "uk_ai": "Видобуває ресурси, що ближче стоять інші\\nресурсні споруди, то менше ресурсів видобувається.\\nДосліджує покращення зброї та обладунків\\nБонус сталі — знижена вартість покращень\\n2 кузні: 5%\\n3 кузні: 10%\\n4 кузні: 15%\\n5 кузень: 20%\\n6+ кузень: 25%"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyDwarvenBasicTraining",
+   "en": "Research Thrór's Banners (&W)",
+   "uk_ai": "Стяги Трора (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyDwarvenBasicTraining",
+   "en": "Allows battalions to purchase the Thrór's Banners upgrade \\n Increases a battalion to Level 2",
+   "uk_ai": "Дає змогу кожному загону придбати покращення «Стяги Трора»\\nПідвищує рівень загону до 2"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyDwarvenSiegeHammer",
+   "en": "Research Siege Hammers (&E)",
+   "uk_ai": "Облогові молоти (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyDwarvenSiegeHammer",
+   "en": "When equipped, significantly increases the damage done by melee weapons to Structures",
+   "uk_ai": "Після оснащення значно збільшує пошкодження спорудам від зброї ближнього бою"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyDwarvenFireArrows",
+   "en": "Research Mithril-tipped Arrows Upgrade (&R)",
+   "uk_ai": "Стріли з мітриловими наконечниками (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyDwarvenFireArrows",
+   "en": "Allows battalions to purchase the Mithril-tipped Arrows upgrade \\n When equipped, adds additional Slash damage to Arrows \\n\\n Allows Lake-town Archers to purchase the Fire Arrows upgrade \\n  \\n When equipped, significantly increases the damage done by arrows \\n\\n Will upgrade all patrols instantly once upgrade is purchased",
+   "uk_ai": "Дає змогу кожному загону придбати покращення «Стріли з мітриловими наконечниками»\\nПісля оснащення стріли завдають додаткових ріжучих пошкоджень\\n\\nДає змогу лучникам Озерного міста придбати покращення «Вогняні стріли»\\n\\nПісля оснащення значно збільшує пошкодження стріл\\n\\nПісля дослідження миттєво покращує стріли всіх патрулів навколо будівель"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyDwarvenForgedBlades",
+   "en": "Research Khûzdul Runes (&T)",
+   "uk_ai": "Кхуздульські руни (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyDwarvenForgedBlades",
+   "en": "Allows battalions to purchase the Khûzdul Blades upgrade \\n When equipped, increases the damage done by melee weapons",
+   "uk_ai": "Дає змогу кожному загону придбати покращення «Кхуздульські клинки»\\nПісля оснащення збільшує пошкодження в ближньому бою"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyDwarvenMithrilMail",
+   "en": "Research Dwarven Plate (&S)",
+   "uk_ai": "Дворфійські лати (&S)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyDwarvenMithrilMail",
+   "en": "Allows units to purchase the Dwarven Plate upgrade \\n When equipped, significantly reduces the amount of damage taken",
+   "uk_ai": "Дає змогу кожному загону придбати покращення «Дворфійські лати»\\nПісля оснащення значно зменшує отримувані пошкодження"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenBarracks",
+   "en": "Build Hall of Warriors (&T)",
+   "uk_ai": "Палац воїнів (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructDwarvenBarracks",
+   "en": "Trains basic infantry of the Dwarves",
+   "uk_ai": "Тренує звичайну дворфійську піхоту"
+  },
+  {
+   "var": "OBJECT:DwarvenBarracks",
+   "en": "Erebor Hall of Warriors",
+   "uk_ai": "Палац воїнів Еребору"
+  },
+  {
+   "var": "OBJECT:DwarvenBarracksDescription",
+   "en": "Level 2: +10% faster build speed\\n Level 3: +25% faster build speed",
+   "uk_ai": "Рівень 2: +10% до швидкості тренування\\nРівень 3: +25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeDwarvenBarracksLevel2",
+   "en": "Upgrade Hall of Warriors to Level 2 (&A)",
+   "uk_ai": "Покращити палац воїнів до 2-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUpgradeDwarvenBarracksLevel2",
+   "en": "Allows training of Grim Hammers \\n +10% faster build speed",
+   "uk_ai": "Дозволяє тренувати Суворі молоти\\n+10% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeDwarvenBarracksLevel3",
+   "en": "Upgrade Hall of Warriors to Level 3 (&A)",
+   "uk_ai": "Покращити палац воїнів до 3-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUpgradeDwarvenBarracksLevel3",
+   "en": "Adds Defensive Guard Tower \\n +25% faster build speed",
+   "uk_ai": "Додає захисну сторожову вежу\\n+25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenGuardianHorde",
+   "en": "Âzagh-baruk (&W)",
+   "uk_ai": "Азаґ-барук (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenGuardianHorde",
+   "en": "Erebor Warriors \\n Strong vs. Pikemen\\n\\n These stout, well-trained warriors make up the brunt of Erebor's standing army.",
+   "uk_ai": "Воїни Еребору\\nЕфективні проти пікінерів\\n\\nЦі кремезні, добре навчені воїни — основа постійного війська Еребору."
+  },
+  {
+   "var": "OBJECT:HordeDwarvenGuardian",
+   "en": "Âzagh-baruk",
+   "uk_ai": "Азаґ-барук"
+  },
+  {
+   "var": "OBJECT:DwarvenGuardian",
+   "en": "Âzagh-baruk",
+   "uk_ai": "Азаґ-барук"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenTenacity",
+   "en": "Natural Sprinters (&W)",
+   "uk_ai": "Природжені бігуни (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwarvenTenacity",
+   "en": "Requires Level 2 \\n Modifier Type: Buff \\n Erebor Warriors gain +15% movement speed and can crush enemy units for 5 seconds\\nWarriors also gain +15% damage and +15% armour for 10 seconds\\nAt Level 4, deals increased damage when crushing enemies \\n Left click to activate",
+   "uk_ai": "Необхідно: Рівень 2\\nТип ефекту: Посилення\\nВоїни Еребору на 5 сек. отримують бонус +15% швидкості руху й можуть топтати ворожі загони\\nТакож на 10 сек. отримують бонус +15% до пошкоджень і +15% броні\\nНа 4 рівні завдають більше пошкоджень, коли топчуть ворогів\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDwarvenSiegeHammer",
+   "en": "Purchase Siege Hammers (&R)",
+   "uk_ai": "Облогові молоти (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDwarvenSiegeHammer",
+   "en": "Upgrades this battalion with Siege Hammers \\n Significantly increases the damage done by melee weapons to Structures\\n Negates the effects of Forged Blades",
+   "uk_ai": "Оснащує цей загін облоговими молотами\\nЗначно збільшує пошкодження спорудам від зброї ближнього бою\\nСкасовує дію покращення «Ковані клинки»"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenPhalanxHorde",
+   "en": "Sigin-udrîg (&E)",
+   "uk_ai": "Сіґін-удріґ (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenPhalanxHorde",
+   "en": "Erebor Pikemen \\n Strong vs. Cavalry and Heroes\\n Able to switch formation for improved defensive capabilities \\n \\n With long spears and broad shields, these Dwarves guard Erebor's high halls and corridors. ",
+   "uk_ai": "Списоносці Еребору\\nЕфективні проти кавалерії та героїв\\nМожуть змінювати стрій для кращого захисту\\n\\nЗ довгими списами й широкими щитами ці дворфи стережуть високі зали й коридори Еребору."
+  },
+  {
+   "var": "OBJECT:HordeDwarvenPhalanx",
+   "en": "Sigin-udrîg",
+   "uk_ai": "Сіґін-удріґ"
+  },
+  {
+   "var": "OBJECT:DwarvenPhalanx",
+   "en": "Sigin-udrîg",
+   "uk_ai": "Сіґін-удріґ"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenTenacityPhalanx",
+   "en": "Natural Sprinters (&R)",
+   "uk_ai": "Природжені бігуни (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwarvenTenacityPhalanx",
+   "en": "Requires Level 3 \\n Erebor Pikemen gain +15% movement speed and can crush enemy units for 5 seconds\\nPikemen also gain +15% damage and +15% armour for 10 seconds\\nAt Level 5, deals increased damage when crushing enemies \\n Left click to activate",
+   "uk_ai": "Необхідно: Рівень 3\\nСписоносці Еребору на 5 сек. отримують бонус +15% швидкості руху й можуть топтати ворожі загони\\nТакож на 10 сек. отримують бонус +15% до пошкоджень і +15% броні\\nНа 5 рівні завдають більше пошкоджень, коли топчуть ворогів\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenArcherHorde",
+   "en": "Rakhâs-abzâg (&R)",
+   "uk_ai": "Рахас-абзаґ (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenArcherHorde",
+   "en": "Erebor Archers \\n Strong vs. Infantry\\n\\n Carrying compound shortbows and thick arrows, these Dwarven archers pack a punch across short distances.",
+   "uk_ai": "Лучники Еребору\\nЕфективні проти піхоти\\n\\nЗі складеними короткими луками й товстими стрілами ці дворфійські лучники б'ють потужно на коротких відстанях."
+  },
+  {
+   "var": "OBJECT:HordeEreborArcher",
+   "en": "Rakhâs-abzâg",
+   "uk_ai": "Рахас-абзаґ"
+  },
+  {
+   "var": "OBJECT:EreborArcher",
+   "en": "Rakhâs-abzâg",
+   "uk_ai": "Рахас-абзаґ"
+  },
+  {
+   "var": "CONTROLBAR:PunchThrough",
+   "en": "Punch Through! (&R)",
+   "uk_ai": "Наскрізь! (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPunchThrough",
+   "en": "Requires Level 3\\nErebor Archers knock back enemy units for 30 seconds\\n Left click to activate",
+   "uk_ai": "Необхідно: Рівень 3\\nНа 30 сек. постріли лучників Еребору відкидають ворожі загони\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDwarvenFireArrows",
+   "en": "Purchase Mithril-tipped Arrows (&C)",
+   "uk_ai": "Стріли з мітриловими наконечниками (&C)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFireArrows",
+   "en": "Upgrades this battalion with Mithril-tipped Arrows \\n Adds additional slash damage to arrows",
+   "uk_ai": "Оснащує цей загін стрілами з мітриловими наконечниками\\nСтріли завдають додаткових ріжучих пошкоджень"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGrimHammerHorde",
+   "en": "Sulkhâ-bekhâz (&T)",
+   "uk_ai": "Сулха-бехаз (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGrimHammerHorde",
+   "en": "Grim Hammers \\n Requires Level 2 Hall of Warriors \\n Strong vs. Pikemen and Spam Units\\n \\n Clad in fine Dwarf-wrought armour and wielding weapons that are the envy of Middle-earth, these sturdy soldiers fear no foes.",
+   "uk_ai": "Суворі молоти\\nНеобхідно: Палац воїнів 2 рівня\\nЕфективні проти пікінерів і масових загонів\\n\\nУ найкращих дворфійських обладунках і зі зброєю, якій заздрить усе Середзем'я, ці стійкі воїни не бояться жодного ворога."
+  },
+  {
+   "var": "OBJECT:HordeGrimHammer",
+   "en": "Sulkhâ-bekhâz",
+   "uk_ai": "Сулха-бехаз"
+  },
+  {
+   "var": "OBJECT:GrimHammer",
+   "en": "Sulkhâ-bekhâz",
+   "uk_ai": "Сулха-бехаз"
+  },
+  {
+   "var": "CONTROLBAR:GrimIntimidate",
+   "en": "Intimidation",
+   "uk_ai": "Пригнічення"
+  },
+  {
+   "var": "CONTROLBAR:TooltipGrimIntimidate",
+   "en": "Requires Level 2 \\n Modifier Type: Passive Debuff \\n Nearby enemy units suffer -10% speed\\n Passive ability",
+   "uk_ai": "Необхідно: Рівень 2\\nТип ефекту: Пасивне ослаблення\\nВорожі загони поблизу отримують штраф -10% швидкості\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenAssembly",
+   "en": "Build Erebor Assembly (&C)",
+   "uk_ai": "Зала зібрань Еребору (&C)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipConstructDwarvenAssembly",
+   "en": "Recruits allies from the world of Men, Blue Mountains, and the Iron Hills",
+   "uk_ai": "Вербує союзників зі світу людей, Синіх гір і Залізних пагорбів"
+  },
+  {
+   "var": "OBJECT:DwarvenAssembly",
+   "en": "Erebor Assembly",
+   "uk_ai": "Зала зібрань Еребору"
+  },
+  {
+   "var": "OBJECT:DwarvenArcheryRangeDescription",
+   "en": "Level 2: +10% faster build speed\\n Level 3: +25% faster build speed",
+   "uk_ai": "Рівень 2: +10% до швидкості тренування\\nРівень 3: +25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenAssemblyLevel2Upgrade",
+   "en": "Upgrade Erebor Assembly to Level 2 (&A)",
+   "uk_ai": "Покращити залу зібрань до 2-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenAssemblyLevel2Upgrade",
+   "en": "Allows training of Guards of the Master and Ered Luin Rangers \\n +10% faster build speed",
+   "uk_ai": "Дозволяє тренувати Варту Бурмістра й слідопитів Еред-Луїну\\n+10% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenAssemblyLevel3Upgrade",
+   "en": "Upgrade Erebor Assembly to Level 3 (&A)",
+   "uk_ai": "Покращити залу зібрань до 3-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenAssemblyLevel3Upgrade",
+   "en": "Allows training of Iron Hills Warriors and Iron Hills Crossbowmen\\n Adds defensive arrow tower \\n +25% faster build speed",
+   "uk_ai": "Дозволяє тренувати воїнів і арбалетників Залізних пагорбів\\nДодає захисну вежу\\n+25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenAssemblyLevel2UpgradeLotR",
+   "en": "+10% faster build speed \\n Allows training of Barding Longbowmen and Ered Luin Rangers",
+   "uk_ai": "+10% до швидкості тренування\\nДозволяє тренувати бардінґських довголучників і слідопитів Еред-Луїну"
+  },
+  {
+   "var": "CONTROLBAR:ConstructEredLuinTraderHorde",
+   "en": "Usjur-Khagal-zirak (&W)",
+   "uk_ai": "Усджур-Хаґал-зірак (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildEredLuinTraderHorde",
+   "en": "Ered Luin Traders \\n \\n Support Infantry \\nStrong vs. Pikemen \\n \\n Dwarves from the Blue Mountains are known for their industrious, mercantile culture, and travel across Middle-earth to sell their wares.",
+   "uk_ai": "Торговці Еред-Луїну\\n\\nПіхота підтримки\\nЕфективні проти пікінерів\\n\\nДворфи Синіх гір славляться працьовитістю й торговою вдачею та мандрують усім Середзем'ям, продаючи свої вироби."
+  },
+  {
+   "var": "OBJECT:HordeEredLuinTraders",
+   "en": "Usjur-Khagal-zirak",
+   "uk_ai": "Усджур-Хаґал-зірак"
+  },
+  {
+   "var": "OBJECT:EredLuinTrader",
+   "en": "Usjur-Khagal-zirak",
+   "uk_ai": "Усджур-Хаґал-зірак"
+  },
+  {
+   "var": "CONTROLBAR:TraderEredLuinCram",
+   "en": "Dwarven Waybread",
+   "uk_ai": "Дворфійський дорожній хліб"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTraderEredLuinCram",
+   "en": "The Traders passively heal outside of combat \\n Passive ability",
+   "uk_ai": "Поза боєм торговці постійно зцілюються\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:TraderMerchantsLeadership",
+   "en": "Merchants (&R)",
+   "uk_ai": "Купці (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTraderMerchantsActive",
+   "en": "Requires Level 2 \\n Modifier Type: Spell \\n Traders and nearby allies earn resources per kill for 30 seconds\\nLeft click to activate",
+   "uk_ai": "Необхідно: Рівень 2\\nТип ефекту: Заклинання\\nНа 30 сек. торговці й союзники поблизу отримують ресурси за кожне вбивство\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:TraderTinkersLeadership",
+   "en": "Tinkers",
+   "uk_ai": "Майстри"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTraderTinkersLeadership",
+   "en": "Requires Level 3 \\n Passive Ability \\n Modifier Type: Leadership \\n All nearby siege units gain +15% damage and +15% speed",
+   "uk_ai": "Необхідно: Рівень 3\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\nТип ефекту: Лідерство\\nУсі облогові машини поблизу отримують бонус +15% до пошкоджень і +15% швидкості"
+  },
+  {
+   "var": "CONTROLBAR:TraderToymakers1",
+   "en": "Toymakers (&C)",
+   "uk_ai": "Іграшкарі (&C)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTraderToymakers1",
+   "en": "Requires Level 4 \\n Deploy Dwarven Firework \\n Left click to plant fireworks, then click the 'Set them off!' icon",
+   "uk_ai": "Необхідно: Рівень 4\\nРозставити дворфійські феєрверки\\nКлікніть, щоб закласти феєрверки, а потім натисніть іконку «Підпалюйте!»"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDwarvenBasicTrainingEredLuin",
+   "en": "Purchase Ered Luin Chief (&V)",
+   "uk_ai": "Ватажок Еред-Луїну (&V)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructLaketownMilitaHorde",
+   "en": "Lake-town Watchmen (&E)",
+   "uk_ai": "Вартові Озерного міста (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildLaketownMilitaHorde",
+   "en": "Basic Pikemen \\nStrong vs. Cavalry and Heroes \\n Able to switch formation for improved defensive capabilities \\n \\n Horde Bonus \\n Modifier Type: Spell \\n All Lake-town Watchmen and Lake-town Bowmen gain +25% damage and armour when gathered in numbers of 80 or more\\n\\n Of old, the Master of Esgaroth has armed and maintained a small regiment of townsguard, tasked with upholding law and order upon the Long Lake.",
+   "uk_ai": "Звичайні пікінери\\nЕфективні проти кавалерії та героїв\\nМожуть змінювати стрій для кращого захисту\\n\\nОтримують бонуси від кількості\\nТип ефекту: Заклинання\\nУсі вартові й лучники Озерного міста отримують бонус +25% до пошкоджень і броні, якщо зібрані в кількості 80 і більше\\n\\nЗдавна Бурмістр Есґароту озброює й утримує невеликий загін міської варти, що береже закон і порядок на Довгому озері."
+  },
+  {
+   "var": "OBJECT:HordeLaketownMilita",
+   "en": "Lake-town Watchmen",
+   "uk_ai": "Вартові Озерного міста"
+  },
+  {
+   "var": "OBJECT:LaketownMilita",
+   "en": "Lake-town Watchman",
+   "uk_ai": "Вартовий Озерного міста"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeLaketownMithrilMail",
+   "en": "Purchase Master's Armour (&T)",
+   "uk_ai": "Обладунки Бурмістра (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeLaketownMithrilMail",
+   "en": "Upgrades this battalion with Master's Armour \\n Significantly reduces the amount of damage taken",
+   "uk_ai": "Оснащує цей загін обладунками Бурмістра\\nЗначно зменшує отримані пошкодження"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeLaketownForgedBlades",
+   "en": "Purchase Master's Blades (&C)",
+   "uk_ai": "Клинки Бурмістра (&C)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeLaketownForgedBlades",
+   "en": "Upgrades this battalion with Master's Blades \\n Increases the damage done by melee weapons",
+   "uk_ai": "Оснащує цей загін клинками Бурмістра\\nЗбільшує пошкодження зброї ближнього бою"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeLaketownBasicTraining",
+   "en": "Purchase Esgaroth Banners (&V)",
+   "uk_ai": "Стяги Есґароту (&V)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenLaketownBowmenHorde",
+   "en": "Lake-town Bowmen (&R)",
+   "uk_ai": "Лучники Озерного міста (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenLaketownBowmenHorde",
+   "en": "Basic Fast-moving Archers \\n Strong vs. Infantry \\n\\n Horde Bonus \\n Modifier Type: Spell \\n All Lake-town Watchmen and Lake-town Bowmen gain +25% damage and armour when gathered in numbers of 80 or more\\n \\n With their long bows and tall helmets, the bowmen of Esgaroth keep alive the old Dalish tradition of keen marksmanship.",
+   "uk_ai": "Звичайні швидкі лучники\\nЕфективні проти піхоти\\n\\nОтримують бонуси від кількості\\nТип ефекту: Заклинання\\nУсі вартові й лучники Озерного міста отримують бонус +25% до пошкоджень і броні, якщо зібрані в кількості 80 і більше\\n\\nЗ довгими луками й у високих шоломах лучники Есґароту бережуть давню дейлську традицію влучної стрільби."
+  },
+  {
+   "var": "OBJECT:LaketownBowmenHorde",
+   "en": "Lake-town Bowmen",
+   "uk_ai": "Лучники Озерного міста"
+  },
+  {
+   "var": "OBJECT:LaketownBowman",
+   "en": "Lake-town Bowman",
+   "uk_ai": "Лучник Озерного міста"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeLaketownFireArrows",
+   "en": "Purchase Fire Arrows (&C)",
+   "uk_ai": "Вогняні стріли (&C)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeLaketownFireArrows",
+   "en": "Upgrades this horde with Fire Arrows \\n Significantly increases the damage done by arrows",
+   "uk_ai": "Оснащує цей загін вогняними стрілами\\nЗначно збільшує пошкодження стріл"
+  },
+  {
+   "var": "CONTROLBAR:ConstructLaketownGuardHorde",
+   "en": "Guards of the Master (&T)",
+   "uk_ai": "Варта Бурмістра (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildLaketownGuardHorde",
+   "en": "Requires Level 2 Erebor Assembly \\n Strong vs. Pikemen \\n \\n Tasked with the special protection of the Master of Lake-town, these privileged sentries are granted authority and luxury that few civilians can afford.",
+   "uk_ai": "Необхідно: Зала зібрань Еребору 2 рівня\\nЕфективні проти пікінерів\\n\\nЦим привілейованим вартовим доручено особисто оберігати Бурмістра Озерного міста, і вони мають владу й розкіш, яку мало хто з містян може собі дозволити."
+  },
+  {
+   "var": "OBJECT:LaketownGuardHorde",
+   "en": "Guards of the Master",
+   "uk_ai": "Варта Бурмістра"
+  },
+  {
+   "var": "OBJECT:LaketownGuard",
+   "en": "Guard of the Master",
+   "uk_ai": "Вартовий Бурмістра"
+  },
+  {
+   "var": "CONTROLBAR:StopRightThere",
+   "en": "Stop Right There! (&W)",
+   "uk_ai": "А ну стій! (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipStopRightThere",
+   "en": "Requires Level 2 \\n Enemy units within the radius deal -33% damage and are slowed by 20% for 30 seconds\\n Left click on icon then left click on target battalion",
+   "uk_ai": "Необхідно: Рівень 2\\nВорожі загони в радіусі дії на 30 сек. отримують штраф -33% пошкоджень і сповільнюються на 20%\\nКлікніть на іконку, потім оберіть загін"
+  },
+  {
+   "var": "CONTROLBAR:SearchWarrant",
+   "en": "Search Warrant (&R)",
+   "uk_ai": "Ордер на обшук (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSearchWarrant",
+   "en": "Requires Level 3\\nDisables enemy structures and deals minor damage over time for 15 seconds\\n Left click icon then left click on target",
+   "uk_ai": "Необхідно: Рівень 3\\nНа 15 сек. виводить з ладу ворожу споруду й завдає їй незначних періодичних пошкоджень\\nКлікніть на іконку, потім оберіть ціль"
+  },
+  {
+   "var": "CONTROLBAR:ConstructEredLuinRangerHorde",
+   "en": "Huruz-Khagal-zirak (&S)",
+   "uk_ai": "Хуруз-Хаґал-зірак (&S)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildEredLuinRangerHorde",
+   "en": "Ered Luin Rangers \\n Requires Level 2 Erebor Assembly \\n Fast moving, hard hitting Infantry \\nStrong vs. Archers\\n Can Stealth Near Trees \\n \\n The sprawling forests that covered the long foothills of the Blue Mountains were kept safe by keen-eyed Dwarven rangers.",
+   "uk_ai": "Слідопити Еред-Луїну\\nНеобхідно: Зала зібрань Еребору 2 рівня\\nШвидка піхота, що б'є сильно\\nЕфективні проти лучників\\nСтають невидимими поблизу дерев\\n\\nРозлогі ліси, що вкривали довгі передгір'я Синіх гір, стерегли зіркі дворфійські слідопити."
+  },
+  {
+   "var": "OBJECT:EredLuinRangerHorde",
+   "en": "Huruz-Khagal-zirak",
+   "uk_ai": "Хуруз-Хаґал-зірак"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTraderEredLuinRangerCram",
+   "en": "The Rangers passively heal outside of combat \\n Passive ability",
+   "uk_ai": "Поза боєм слідопити постійно зцілюються\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:SecretWays",
+   "en": "Secret Ways (&R)",
+   "uk_ai": "Таємні стежки (&R)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSecretWays",
+   "en": "Ered Luin Rangers are stealthed near trees\\nThey deal double damage when flanking and attacking from behind\\nPassive ability\\n\\nWhen activated, Ered Luin Rangers teleport to target location\\nLeft click icon then left click on pathable location",
+   "uk_ai": "Слідопити Еред-Луїну невидимі поблизу дерев\\nКоли атакують із флангу чи зі спини, завдають подвійних пошкоджень\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nПісля активації слідопити Еред-Луїну телепортуються в обране місце\\nКлікніть на іконку, потім оберіть ділянку"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenWile",
+   "en": "Dwarven Wile (&T)",
+   "uk_ai": "Дворфійська хитрість (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwarvenWile",
+   "en": "Requires Level 3 \\n Ered Luin Rangers lay down an assortment of tripwires, caltrops and pitfalls.\\n Enemies that walk across are stunned for 5 seconds\\n Does not affect creeps\\n\\n Left click then left click target location",
+   "uk_ai": "Необхідно: Рівень 3\\nСлідопити Еред-Луїну розставляють розтяжки, шипи й вовчі ями.\\nВороги, що на них ступають, приголомшені на 5 сек.\\nНе діє на диких звірів\\n\\nКлікніть на іконку, потім оберіть ділянку"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIronHillsWarriorHorde",
+   "en": "Baruk-sharâhul (&D)",
+   "uk_ai": "Барук-шарагул (&D)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIronHillsWarriorHorde",
+   "en": "Iron Hills Warriors \\n Requires Level 3 Erebor Assembly \\nStrong vs. Pikemen and Cavalry\\n Able to switch formation for improved defensive capabilities \\n \\n These hardy warriors followed the Lord of the Iron Hills to Erebor, to do battle with any that stood between them and their kin.",
+   "uk_ai": "Воїни Залізних пагорбів\\nНеобхідно: Зала зібрань Еребору 3 рівня\\nЕфективні проти пікінерів і кавалерії\\nМожуть змінювати стрій для кращого захисту\\n\\nЦі загартовані воїни прийшли за Володарем Залізних пагорбів до Еребору, щоб битися з кожним, хто стане між ними та їхньою ріднею."
+  },
+  {
+   "var": "OBJECT:HordeIronHillsWarrior",
+   "en": "Baruk-sharâhul",
+   "uk_ai": "Барук-шарагул"
+  },
+  {
+   "var": "OBJECT:IronHillsWarrior",
+   "en": "Baruk-sharâhul",
+   "uk_ai": "Барук-шарагул"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleIHFighterLineToBlockFormation",
+   "en": "Iron Hills Warriors form a Shield Wall \\n They gain +40% armour, -33% speed and bonus damage to cavalry",
+   "uk_ai": "Воїни Залізних пагорбів утворюють стіну щитів\\nВони отримують бонус +40% броні, штраф -33% швидкості та додаткові пошкодження кавалерії"
+  },
+  {
+   "var": "CONTROLBAR:SunderingStrikes",
+   "en": "Sundering Strikes",
+   "uk_ai": "Розколювальні удари"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSunderingStrikes",
+   "en": "Melee attacks decrease enemy armour by 20% for 5 seconds\\nDebuff does not stack with itself\\nPassive ability",
+   "uk_ai": "Удари в ближньому бою на 5 сек. знижують броню ворога на 20%\\nОслаблення не накопичується\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDwarvenBasicTrainingIH",
+   "en": "Purchase Iron Hills Banner (&V)",
+   "uk_ai": "Стяг Залізних пагорбів (&V)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIronHillsCrossbowHorde",
+   "en": "Azaghâr-sharâhul (&F)",
+   "uk_ai": "Азаґар-шарагул (&F)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIronHillsCrossbowHorde",
+   "en": "Iron Hills Crossbowmen \\n Requires Level 3 Erebor Assembly \\n Strong vs. Infantry\\n\\n Like their users, Iron Hills crossbows are short and sturdy, and packing quite a punch.",
+   "uk_ai": "Арбалетники Залізних пагорбів\\nНеобхідно: Зала зібрань Еребору 3 рівня\\nЕфективні проти піхоти\\n\\nЯк і їхні власники, арбалети Залізних пагорбів короткі, міцні й б'ють дуже сильно."
+  },
+  {
+   "var": "OBJECT:HordeIronHillsCrossbow",
+   "en": "Azaghâr-sharâhul",
+   "uk_ai": "Азаґар-шарагул"
+  },
+  {
+   "var": "OBJECT:IronHillsCrossbow",
+   "en": "Azaghâr-sharâhul",
+   "uk_ai": "Азаґар-шарагул"
+  },
+  {
+   "var": "CONTROLBAR:KnottedStrings",
+   "en": "Knotted Strings (&R)",
+   "uk_ai": "Вузлуваті тятиви (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKnottedStrings",
+   "en": "Requires Level 2\\n Iron Hills Crossbowmen ignore enemy armour for 30 seconds\\n Left click to activate",
+   "uk_ai": "Необхідно: Рівень 2\\nНа 30 сек. арбалетники Залізних пагорбів ігнорують броню ворогів\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenDaleGuardHorde",
+   "en": "Barding Spearmen (&E)",
+   "uk_ai": "Бардінґські списоносці (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenDaleGuardHorde",
+   "en": "Basic Pikemen \\n Strong vs. Cavalry and Heroes \\n Able to switch formation for improved defensive capabilities \\n \\n King Brand of Dale saw to the creation of a standing army: regiments of disciplined men equipped with spear and shield, waging war from a nigh-impenetrable phalanx formation.",
+   "uk_ai": "Звичайні пікінери\\nЕфективні проти кавалерії та героїв\\nМожуть змінювати стрій для кращого захисту\\n\\nКороль Дейлу Бранд створив постійне військо: загони дисциплінованих воїнів зі списами й щитами, що б'ються в майже непробивній фаланзі."
+  },
+  {
+   "var": "OBJECT:HordeMenofDaleGHorde",
+   "en": "Barding Spearmen",
+   "uk_ai": "Бардінґські списоносці"
+  },
+  {
+   "var": "OBJECT:HordeMenofDaleG",
+   "en": "Barding Spearman",
+   "uk_ai": "Бардінґський списоносець"
+  },
+  {
+   "var": "CONTROLBAR:DalishSupremacyPassive",
+   "en": "Barding Supremacy",
+   "uk_ai": "Перевага бардінґів"
+  },
+  {
+   "var": "CONTROLBAR:TooltipDalishSupremacy",
+   "en": "Requires Level 4 \\n Modifier Type: Passive Debuff \\n Nearby enemy Easterling and Variag units suffer -25% damage and -20% armour\\n Passive ability",
+   "uk_ai": "Необхідно: Рівень 4\\nТип ефекту: Пасивне ослаблення\\nВорожі загони істерлінґів і варіаґів поблизу отримують штраф -25% пошкоджень і -20% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDaleMithrilMail",
+   "en": "Purchase Barding Chainmail (&T)",
+   "uk_ai": "Бардінґські кольчуги (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDaleMithrilMail",
+   "en": "Upgrades this battalion with Barding Chainmail \\n Significantly reduces the amount of damage taken",
+   "uk_ai": "Оснащує цей загін бардінґськими кольчугами\\nЗначно зменшує отримані пошкодження"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDaleForgedBlades",
+   "en": "Purchase Barding Blades (&C)",
+   "uk_ai": "Бардінґські клинки (&C)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDaleForgedBlades",
+   "en": "Upgrades this battalion with Barding Blades \\n Increases the damage done by melee weapons",
+   "uk_ai": "Оснащує цей загін бардінґськими клинками\\nЗбільшує пошкодження зброї ближнього бою"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDaleBasicTraining",
+   "en": "Purchase Banners of Dale (&V)",
+   "uk_ai": "Стяги Дейлу (&V)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructMenofDaleSwordHorde",
+   "en": "Barding Swordsmen (&R)",
+   "uk_ai": "Бардінґські мечники (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildMenofDaleSwordHorde",
+   "en": "Elite Infantry \\nStrong vs. Pikemen \\n \\n The rekindled wealth of Dale is exemplified in its excellently trained and equipped army, ranking among the finest in all of Rhovanion.",
+   "uk_ai": "Елітна піхота\\nЕфективні проти пікінерів\\n\\nВідроджене багатство Дейлу видно з його чудово навченого й озброєного війська, одного з найкращих у всьому Рованіоні."
+  },
+  {
+   "var": "OBJECT:HordeMenofDaleSwordMilita",
+   "en": "Barding Swordsmen",
+   "uk_ai": "Бардінґські мечники"
+  },
+  {
+   "var": "OBJECT:MenofDaleSword",
+   "en": "Barding Swordsman",
+   "uk_ai": "Бардінґський мечник"
+  },
+  {
+   "var": "CONTROLBAR:DalishSupremacy",
+   "en": "Barding Supremacy (&W)",
+   "uk_ai": "Перевага бардінґів (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipStopRightThereDale",
+   "en": "Requires Level 3 \\n Enemy units within the radius deal -33% damage and are slowed by 20% for 30 seconds\\n Left click on icon then left click on target battalion",
+   "uk_ai": "Необхідно: Рівень 3\\nВорожі загони в радіусі дії на 30 сек. отримують штраф -33% пошкоджень і сповільнюються на 20%\\nКлікніть на іконку, потім оберіть загін"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenMenOfDale",
+   "en": "Barding Longbowmen (&T)",
+   "uk_ai": "Бардінґські довголучники (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenMenOfDaleHorde",
+   "en": "Requires Level 2 Erebor Assembly \\n Strong vs. Infantry and Monsters \\n Can Fire Black Arrows \\n \\n In Barding military tradition, skillful use of the longbow is a prime mark of an excellent soldier.",
+   "uk_ai": "Необхідно: Зала зібрань Еребору 2 рівня\\nЕфективні проти піхоти та істот\\nМожуть стріляти чорними стрілами\\n\\nЗа військовою традицією бардінґів, уміння влучно стріляти з довгого лука — головна ознака доброго воїна."
+  },
+  {
+   "var": "OBJECT:HordeMenofDale",
+   "en": "Barding Longbowmen",
+   "uk_ai": "Бардінґські довголучники"
+  },
+  {
+   "var": "OBJECT:DwarvenMenOfDale",
+   "en": "Barding Longbowman",
+   "uk_ai": "Бардінґський довголучник"
+  },
+  {
+   "var": "CONTROLBAR:BlackArrows",
+   "en": "Black Arrows (&R)",
+   "uk_ai": "Чорні стріли (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenHusbandry",
+   "en": "Build Erebor Redoubt (&V)",
+   "uk_ai": "Редут Еребору (&V)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructDwarvenHusbandry",
+   "en": "Recruits specialist units of Erebor",
+   "uk_ai": "Вербує особливі загони Еребору"
+  },
+  {
+   "var": "OBJECT:DwarvenForgeWorks",
+   "en": "Erebor Redoubt",
+   "uk_ai": "Редут Еребору"
+  },
+  {
+   "var": "OBJECT:DwarvenForgeWorksDescription",
+   "en": "Recruits the elite troops of Erebor",
+   "uk_ai": "Вербує елітні війська Еребору"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeDwarvenForgeWorksLevel2",
+   "en": "Upgrade Erebor Redoubt to Level 2 (&A)",
+   "uk_ai": "Покращити редут Еребору до 2-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel2",
+   "en": "Allows training of Wyrm-slayers \\n +10% faster build speed",
+   "uk_ai": "Дозволяє тренувати змієборців\\n+10% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeDwarvenForgeWorksLevel3",
+   "en": "Upgrade Erebor Redoubt to Level 3 (&A)",
+   "uk_ai": "Покращити редут Еребору до 3-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUpgradeDwarvenForgeWorksLevel3",
+   "en": "Allows training of Khazâd-uzbadul \\n +25% faster build speed",
+   "uk_ai": "Дозволяє тренувати Казад-узбадул\\n+25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:ConstructEreborVWHorde",
+   "en": "Azaghâr-gundu (&W)",
+   "uk_ai": "Азаґар-ґунду (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildEreborVWHorde",
+   "en": "Vault-wardens \\n Special Unit \\nStrong vs. Cavalry, Monsters and Heroes \\n Able to switch formation for improved defensive capabilities \\n \\n Using long, three-pronged spears and dwarf-high tower shields, the Vault-wardens guard the long, dark corridors of the Lonely Mountain.",
+   "uk_ai": "Вартові сховищ\\nОсобливий загін\\nЕфективні проти кавалерії, істот і героїв\\nМожуть змінювати стрій для кращого захисту\\n\\nЗ довгими тризубими списами й баштовими щитами заввишки з дворфа вартові сховищ стережуть довгі темні коридори Самотньої Гори."
+  },
+  {
+   "var": "OBJECT:HordeEreborVW",
+   "en": "Azaghâr-gundu",
+   "uk_ai": "Азаґар-ґунду"
+  },
+  {
+   "var": "OBJECT:EreborVW",
+   "en": "Azaghâr-gundu",
+   "uk_ai": "Азаґар-ґунду"
+  },
+  {
+   "var": "CONTROLBAR:ToggleVWPorcupineFormation",
+   "en": "Stone-Wall Formation (&W)",
+   "uk_ai": "Стрій «Кам'яна стіна» (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleVWLineToPorcupineFormation",
+   "en": "Increases armour by +50% at the cost of -50% movement speed\\nAlso makes Vault-wardens immune to knockback",
+   "uk_ai": "Збільшує броню на 50% ціною -50% швидкості руху\\nТакож дає вартовим сховищ імунітет до відкидання"
+  },
+  {
+   "var": "CONTROLBAR:VWLeadership",
+   "en": "Hold Your Ground!",
+   "uk_ai": "Ні кроку назад!"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipVWLeadership",
+   "en": "As the unit levels the power improves\\n Rank 1: Nearby allied units gain 10% armour \\n Rank 2: Nearby enemy units lose 10% speed \\n Rank 4: Nearby allied units gain 15% armour \\n Buff Modifier Type: Spell\\n Debuff Modifier Type: Passive Debuff\\n Passive ability",
+   "uk_ai": "Здібність посилюється з рівнем загону\\n1 рівень: союзні загони поблизу отримують бонус +10% броні\\n2 рівень: ворожі загони поблизу втрачають 10% швидкості\\n4 рівень: союзні загони поблизу отримують бонус +15% броні\\nТип посилення: Заклинання\\nТип ослаблення: Пасивне ослаблення\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenZerkerHorde",
+   "en": "Adâruf-sulûkh (&E)",
+   "uk_ai": "Адаруф-сулух (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenZerkerHorde",
+   "en": "Wyrm-slayers \\n Strong vs. Heroes and Monsters \\n Requires Level 2 Erebor Redoubt \\n \\n Only the hardiest, most fearsome Dwarves pass the grueling requirements to enter the ranks of the Wyrm-slayers - which is all the better, for the wyrms of the Withered Heath, their quarry, are not to be trifled with.",
+   "uk_ai": "Змієборці\\nЕфективні проти героїв та істот\\nНеобхідно: Редут Еребору 2 рівня\\n\\nЛише найвитриваліші й найгрізніші дворфи проходять виснажливі випробування, щоб стати змієборцями — і це на краще, бо з драконами Зів'ялої пустки, на яких вони полюють, жарти погані."
+  },
+  {
+   "var": "OBJECT:HordeDwarvenZerker",
+   "en": "Adâruf-sulûkh",
+   "uk_ai": "Адаруф-сулух"
+  },
+  {
+   "var": "OBJECT:DwarvenZerker",
+   "en": "Adâruf-sulûkh",
+   "uk_ai": "Адаруф-сулух"
+  },
+  {
+   "var": "CONTROLBAR:Unburnt",
+   "en": "Unburnt",
+   "uk_ai": "Невогненні"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUnburnt",
+   "en": "Wyrm-slayers are completely immune to flame damage, and \\n cannot be knocked back by the claws of a Fire-drake \\n Passive Ability",
+   "uk_ai": "Змієборці мають повний імунітет до пошкоджень вогнем, і\\nїх не можуть відкинути пазурі вогняного дракона\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:FlashFlame",
+   "en": "Flash Flame (&R)",
+   "uk_ai": "Спалах (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipZealotAxeThrow",
+   "en": "Wyrm-slayers throw bottles of Dwarven flash flame, damaging enemy units \\n Left click icon then left click on target",
+   "uk_ai": "Змієборці кидають пляшки з дворфійською займистою сумішшю, завдаючи пошкоджень ворожим загонам\\nКлікніть на іконку, потім оберіть ціль"
+  },
+  {
+   "var": "CONTROLBAR:ZerkSlayer",
+   "en": "Immolation (&T)",
+   "uk_ai": "Самоспалення (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipZerkSlayer",
+   "en": "Requires Level 3 \\n Wyrm-slayers deal fire damage per attack, gain +15% movement speed and can trample enemies for 20 seconds\\nLeft click to activate",
+   "uk_ai": "Необхідно: Рівень 3\\nНа 20 сек. змієборці кожним ударом завдають пошкоджень вогнем, отримують бонус +15% швидкості руху й можуть топтати ворогів\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ConstructKhazadUzbadulHorde",
+   "en": "Khazâd-uzbadul (&R)",
+   "uk_ai": "Казад-узбадул (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildKhazadUzbadulHorde",
+   "en": "Dwarves of the Lord \\n Requires Level 3 Erebor Redoubt \\n Limited to 2 \\n Powerful slow-moving elite infantry \\nStrong vs. Infantry \\n \\n Battle-hardened and unyielding, the Khazad Guard are royal wardens of the Throne of Erebor, tasked with keeping safe the Dwarf-lords under the Mountain.",
+   "uk_ai": "Дворфи Володаря\\nНеобхідно: Редут Еребору 3 рівня\\nМаксимум 2 одночасно\\nПотужна повільна елітна піхота\\nЕфективні проти піхоти\\n\\nЗагартовані в боях і непохитні, воїни Казадської варти — королівські охоронці Трону Еребору, що бережуть дворфійських володарів під Горою."
+  },
+  {
+   "var": "OBJECT:KhazadUzbadulHorde",
+   "en": "Khazâd-uzbadul",
+   "uk_ai": "Казад-узбадул"
+  },
+  {
+   "var": "OBJECT:KhazadUzbadul",
+   "en": "Khazâd-uzbadul",
+   "uk_ai": "Казад-узбадул"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleKhazadUzbadulFormation",
+   "en": "Khazâd-uzbadul form up into a schiltron formation \\n +50% armour, -20% speed \\nKhazâd-uzbadul do not deal splash damage when in formation",
+   "uk_ai": "Казад-узбадул шикуються в шилтрон\\nБонус +50% броні, штраф -20% швидкості\\nУ строю Казад-узбадул не завдають пошкоджень по площі"
+  },
+  {
+   "var": "CONTROLBAR:RisingAnger",
+   "en": "Rising Anger",
+   "uk_ai": "Наростання гніву"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipRisingAnger",
+   "en": "Consecutive attacks temporarily increase attack damage by 5% up to a maximum of 25% \\n Passive ability",
+   "uk_ai": "Кожна наступна атака тимчасово збільшує пошкодження на 5%, максимум 25%\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityStaunchDefender",
+   "en": "Staunch Defenders (&T)",
+   "uk_ai": "Непохитні захисники (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityStaunchDefender",
+   "en": "Heroes nearby the Khazâd-uzbadul are granted +10% armour and damage \\n Passive ability \\n \\n At level 3 can be activated to pull enemies nearby the Khazâd-uzbadul towards them \\n Left click to activate",
+   "uk_ai": "Герої поряд із Казад-узбадул отримують бонус +10% броні й до пошкоджень\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nНа 3 рівні після активації Казад-узбадул притягують до себе ворогів поблизу\\nКлікніть, щоб активувати"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenWorkshop",
+   "en": "Build Erebor Workshop (&N)",
+   "uk_ai": "Майстерня Еребору (&N)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructDwarvenWorkshop",
+   "en": "Constructs Dwarven Siege Equipment \\n At rank 2, repairs nearby siege engines and battlewagons",
+   "uk_ai": "Будує дворфійські облогові машини\\nНа 2 рівні лагодить облогові машини й бойові вози поблизу"
+  },
+  {
+   "var": "OBJECT:DwarvenWorkshop",
+   "en": "Erebor Workshop",
+   "uk_ai": "Майстерня Еребору"
+  },
+  {
+   "var": "OBJECT:DwarvenWorkshopDescription",
+   "en": "Rank 2: +25% faster build speed \\n Rank 3: +50% faster build speed",
+   "uk_ai": "Рівень 2: +25% до швидкості тренування\\nРівень 3: +50% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyDwarvenFlamingShot",
+   "en": "Research Flaming Sho&t (&T)",
+   "uk_ai": "Вогняні снаряди (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyDwarvenFlamingShot",
+   "en": "Allows Mangonels to purchase the Flaming Shot upgrade \\n When equipped, significantly increases the damage done by Mangonels",
+   "uk_ai": "Дає змогу манґонелям придбати покращення «Вогняні снаряди»\\nПісля оснащення значно збільшує пошкодження манґонелів"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeDwarvenWorkshopLevel2",
+   "en": "Upgrade Workshop to Level 2 (&A)",
+   "uk_ai": "Покращити майстерню до 2-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUpgradeDwarvenWorkshopLevel2",
+   "en": "Allows recruitment of Mangonels\\nHeals nearby damaged siege machines \\n +10% faster build speed",
+   "uk_ai": "Дозволяє будувати манґонелі\\nЛагодить пошкоджені облогові машини поблизу\\n+10% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeDwarvenWorkshopLevel3",
+   "en": "Upgrade Workshop to Level 3 (&A)",
+   "uk_ai": "Покращити майстерню до 3-го рівня (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUpgradeDwarvenWorkshopLevel3",
+   "en": "Allows recruitment of Demolishers \\n Increased healing to nearby damaged siege machines \\n Adds Defensive Guard Tower \\n +25% faster build speed",
+   "uk_ai": "Дозволяє будувати руйнівники\\nШвидше лагодить пошкоджені облогові машини поблизу\\nДодає захисну сторожову вежу\\n+25% до швидкості тренування"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarfBatteringRam",
+   "en": "Urkhas-felak (&W)",
+   "uk_ai": "Урхас-фелак (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarfBatteringRam",
+   "en": "Battering Ram \\n Strong vs. Structures\\n Breaks down castle gates and enemy structures \\n \\n Capable of carrying great weight across large distances, the Dwarves of Erebor forge and refine their battering rams within their halls, rather than use felled trees from the battleground.",
+   "uk_ai": "Таран\\nЕфективні проти споруд\\nРозбиває брами фортець і ворожі споруди\\n\\nДворфи Еребору, здатні переносити великі вантажі на далекі відстані, кують і доводять до ладу свої тарани у власних залах, а не рубають дерева на полі бою."
+  },
+  {
+   "var": "OBJECT:DwarfBatteringRam",
+   "en": "Urkhas-felak",
+   "uk_ai": "Урхас-фелак"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenBattleWagon",
+   "en": "Ibsênab-azghakakâ (&E)",
+   "uk_ai": "Ібсенаб-азґакака (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenBattleWagon",
+   "en": "Battlewagon \\n Strong vs. Swordsmen and Archers \\n Can be upgraded with various improvements \\n Limited to 3. \\n \\n The Dwarves of Iron Hills have developed a chariot that can cross even the roughest of terrain and ride down the toughest of foes.",
+   "uk_ai": "Бойовий віз\\nЕфективні проти мечників і лучників\\nМожна вдосконалювати різними покращеннями\\nМаксимум 3 одночасно.\\n\\nДворфи Залізних пагорбів створили колісницю, що проїде найважчою місцевістю й розтопче найміцніших ворогів."
+  },
+  {
+   "var": "OBJECT:DwarvenBattleWagon",
+   "en": "Ibsênab-azghakakâ",
+   "uk_ai": "Ібсенаб-азґакака"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityOilBarrels",
+   "en": "Oil Barrels (&W)",
+   "uk_ai": "Бочки з олією (&W)"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSpecialAbilityOilBarrels",
+   "en": "Launches flaming oil barrels that explode on the battlefield \\n Left click icon then left click on target area",
+   "uk_ai": "Метає палаючі бочки з олією, що вибухають на полі бою\\nКлікніть на іконку, потім оберіть ділянку"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDwarvenBasicTrainingBW",
+   "en": "Purchase Iron Hills Banner (&R)",
+   "uk_ai": "Стяг Залізних пагорбів (&R)"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenWagonButon3",
+   "en": "Take A Pit Stop!",
+   "uk_ai": "Зупинка на перепочинок!"
+  },
+  {
+   "var": "CONTROLBAR:TooltipDwarvenWagonButon3",
+   "en": "Requires Level 3\\nThe battlewagon and crew heal outside of combat",
+   "uk_ai": "Необхідно: Рівень 3\\nПоза боєм бойовий віз і його екіпаж зцілюються"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenWagonButon2",
+   "en": "Mince Meat, Coming Up!",
+   "uk_ai": "Зараз буде фарш!"
+  },
+  {
+   "var": "CONTROLBAR:TooltipDwarvenWagonButon2",
+   "en": "Requires Level 4\\nThe battlewagon's wheels are outfitted with dangerous wheel blades\\nBattlewagons gain 20 additional crush damage and -50% crush deceleration\\nPassive ability",
+   "uk_ai": "Необхідно: Рівень 4\\nКолеса бойового воза оснащують небезпечними лезами\\nБойові вози завдають на 20 од. більше пошкоджень топтанням і на 50% менше сповільнюються під час топтання\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenWagonButon1",
+   "en": "Hop On!",
+   "uk_ai": "Застрибуйте!"
+  },
+  {
+   "var": "CONTROLBAR:TooltipDwarvenWagonButon1",
+   "en": "Requires Level 5\\nAdds several Crossbowmen to the Battlewagon",
+   "uk_ai": "Необхідно: Рівень 5\\nДодає на бойовий віз кількох арбалетників"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenWagonButtonBC",
+   "en": "Unfurl Ironfoot's Banners!",
+   "uk_ai": "Розгорнути стяги Залізностопа!"
+  },
+  {
+   "var": "CONTROLBAR:TooltipDwarvenWagonButtonBC",
+   "en": "Requires Level 2\\nModifier Type: Leadership\\nNearby Dwarves gain +25% damage, +25% armour, and +50% experience gain\\nNearby Bardings gain +15% damage, +15% armour, and +25% experience gain\\nStacks with Buffs and Spells\\nPassive ability",
+   "uk_ai": "Необхідно: Рівень 2\\nТип ефекту: Лідерство\\nДворфи поблизу отримують бонус +25% до пошкоджень, +25% броні й на 50% швидше набирають досвід\\nБардінґи поблизу отримують бонус +15% до пошкоджень, +15% броні й на 25% швидше набирають досвід\\nПоєднується з посиленнями та заклинаннями\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarfMangonel",
+   "en": "Sulûn-abanul (&R)",
+   "uk_ai": "Сулун-абанул (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarfMangonel",
+   "en": "Mangonel \\n Requires Level 2 Workshop \\n Strong vs. Structures\\nCan toggle to use lighter ammunition for greater effectiveness against infantry.\\n \\n Dwarven ingenuity ensures this mangonel can reload at speed and accurately pummel targets from great distances.",
+   "uk_ai": "Манґонель\\nНеобхідно: Майстерня 2 рівня\\nЕфективні проти споруд\\nМоже перемикатися на легші снаряди, дієвіші проти піхоти.\\n\\nДворфійська винахідливість дає цьому манґонелю змогу швидко перезаряджатися й влучно трощити цілі з великої відстані."
+  },
+  {
+   "var": "OBJECT:DwarfMangonel",
+   "en": "Sulûn-abanul",
+   "uk_ai": "Сулун-абанул"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDwarvenFlamingShot",
+   "en": "Purchase Flaming Shot (&T)",
+   "uk_ai": "Вогняні снаряди (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDwarvenFlamingShot",
+   "en": "Significantly increases the Mangonel's damage",
+   "uk_ai": "Значно збільшує пошкодження манґонеля"
+  },
+  {
+   "var": "CONTROLBAR:DwarfToggleMangonelWeapons",
+   "en": "Switch Ammunition (&C)",
+   "uk_ai": "Змінити снаряди (&C)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDwarfToggleMangonelWeapons",
+   "en": "Toggle between boulders and piles of smaller rocks. \\n Boulders are strong vs structures, smaller rocks are strong vs units",
+   "uk_ai": "Перемикання між брилами й купами дрібного каміння.\\nБрили ефективні проти споруд, дрібне каміння — проти загонів"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenDemolisher",
+   "en": "Zirinmazn (&S)",
+   "uk_ai": "Зірінмазн (&S)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildDwarvenDemolisher",
+   "en": "Demolisher \\n Requires Level 3 Workshop \\n Strong vs. Structures \\n Limited to 2. \\n \\n An ironwrought ram's head is the centrepiece of this fearsome Dwarven siege engine.",
+   "uk_ai": "Руйнівник\\nНеобхідно: Майстерня 3 рівня\\nЕфективні проти споруд\\nМаксимум 2 одночасно.\\n\\nЗалізна баранова голова — серце цієї страхітливої дворфійської облогової машини."
+  },
+  {
+   "var": "OBJECT:DwarvenBatteringRam",
+   "en": "Zirinmazn",
+   "uk_ai": "Зірінмазн"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenSentryTower",
+   "en": "Build Battle Tower (&Y)",
+   "uk_ai": "Оборонна вежа (&Y)"
+  },
+  {
+   "var": "OBJECT:DwarvenSentryTower",
+   "en": "Erebor Guard Tower",
+   "uk_ai": "Сторожова вежа Еребору"
+  },
+  {
+   "var": "OBJECT:DwarvenLoneTower",
+   "en": "Dwarven Lone Tower",
+   "uk_ai": "Самотня дворфійська вежа"
+  },
+  {
+   "var": "OBJECT:DwarvenLoneTowerDescription",
+   "en": "Fires arrows at nearby enemies",
+   "uk_ai": "Стріляє по ворогах поблизу"
+  },
+  {
+   "var": "CONTROLBAR:BTDurinBanner",
+   "en": "Durin's Banner (&W)",
+   "uk_ai": "Стяг Дуріна (&W)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTDurinBanner",
+   "en": "Modifier Type: Spell \\n Allies near the Tower earn experience +15% faster\\nPassive ability \\n Left click to purchase",
+   "uk_ai": "Тип ефекту: Заклинання\\nСоюзники біля вежі на 15% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\nКлікніть, щоб придбати"
+  },
+  {
+   "var": "CONTROLBAR:BTKhazadBanner",
+   "en": "Khazad-dûm Banner (&E)",
+   "uk_ai": "Стяг Казад-думу (&E)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTKhazadBanner",
+   "en": "Modifier Type: Spell \\n Allies near the Tower become immune to fear and terror\\nPassive ability \\n Left click to purchase",
+   "uk_ai": "Тип ефекту: Заклинання\\nСоюзники біля вежі отримують імунітет до страху та жаху\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\nКлікніть, щоб придбати"
+  },
+  {
+   "var": "CONTROLBAR:BTEredMithrimBanner",
+   "en": "Ered Mithrim Banner (&R)",
+   "uk_ai": "Стяг Еред-Мітрину (&R)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTEredMithrimBanner",
+   "en": "Modifier Type: Spell \\n Increases vision of tower \\n Allies near the Tower gain a +25% range and vision bonus\\nPassive ability \\n Left click to purchase",
+   "uk_ai": "Тип ефекту: Заклинання\\nЗбільшує дальність огляду вежі\\nСоюзники біля вежі отримують бонус +25% дальності атаки й огляду\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\nКлікніть, щоб придбати"
+  },
+  {
+   "var": "CONTROLBAR:BTIronHillsBanner",
+   "en": "Iron Hills Banner (&T)",
+   "uk_ai": "Стяг Залізних пагорбів (&T)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTIronHillsBanner",
+   "en": "Modifier Type: Spell \\n Allies near the Tower gain +15% damage\\nPassive ability \\n Left click to purchase",
+   "uk_ai": "Тип ефекту: Заклинання\\nСоюзники біля вежі отримують бонус +15% до пошкоджень\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\nКлікніть, щоб придбати"
+  },
+  {
+   "var": "CONTROLBAR:BTEredLuinBanner",
+   "en": "Ered Luin Banner (&S)",
+   "uk_ai": "Стяг Еред-Луїну (&S)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTEredLuinBanner",
+   "en": "Modifier Type: Spell \\n Allies near the Tower gain resources per kill\\nPassive ability \\n Left click to purchase",
+   "uk_ai": "Тип ефекту: Заклинання\\nСоюзники біля вежі отримують ресурси за кожне вбивство\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\nКлікніть, щоб придбати"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeSentryTowerForgedBlades",
+   "en": "Mithril-tipped Arrows (&D)",
+   "uk_ai": "Стріли з мітриловими наконечниками (&D)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeSentryTowerForgedBlades",
+   "en": "Upgrade this Battle Tower with Mithril-tipped Arrows \\n Increases damage done by arrows",
+   "uk_ai": "Оснащує цю бойову вежу стрілами з мітриловими наконечниками\\nЗбільшує пошкодження стріл"
+  },
+  {
+   "var": "CONTROLBAR:BTDurinBannerUpgraded",
+   "en": "Durin's Banner",
+   "uk_ai": "Стяг Дуріна"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTDurinBannerUpgraded",
+   "en": "Modifier Type: Spell \\n Allies near the Tower earn experience +15% faster\\nPassive ability",
+   "uk_ai": "Тип ефекту: Заклинання\\nСоюзники біля вежі на 15% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:BTKhazadBannerUpgraded",
+   "en": "Khazad-dûm Banner",
+   "uk_ai": "Стяг Казад-думу"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTKhazadBannerUpgraded",
+   "en": "Modifier Type: Spell \\n Allies near the Tower become immune to fear and terror\\nPassive ability",
+   "uk_ai": "Тип ефекту: Заклинання\\nСоюзники біля вежі отримують імунітет до страху та жаху\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:BTEredMithrimBannerUpgraded",
+   "en": "Ered Mithrim Banner",
+   "uk_ai": "Стяг Еред-Мітрину"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTEredMithrimBannerUpgraded",
+   "en": "Modifier Type: Spell \\n Increases vision of tower \\n Allies near the Tower gain a +25% range and vision bonus\\nPassive ability",
+   "uk_ai": "Тип ефекту: Заклинання\\nЗбільшує дальність огляду вежі\\nСоюзники біля вежі отримують бонус +25% дальності атаки й огляду\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:BTIronHillsBannerUpgraded",
+   "en": "Iron Hills Banner",
+   "uk_ai": "Стяг Залізних пагорбів"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTIronHillsBannerUpgraded",
+   "en": "Modifier Type: Spell \\n Allies near the Tower gain +15% damage\\nPassive ability",
+   "uk_ai": "Тип ефекту: Заклинання\\nСоюзники біля вежі отримують бонус +15% до пошкоджень\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:BTEredLuinBannerUpgraded",
+   "en": "Ered Luin Banner",
+   "uk_ai": "Стяг Еред-Луїну"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBTEredLuinBannerUpgraded",
+   "en": "Modifier Type: Spell \\n Allies near the Tower gain resources per kill\\nPassive ability",
+   "uk_ai": "Тип ефекту: Заклинання\\nСоюзники біля вежі отримують ресурси за кожне вбивство\\n~ ПАСИВНА ЗДІБНІСТЬ ~"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenWell",
+   "en": "Build Dwarven Well (&G)",
+   "uk_ai": "Криниця Еребору (&G)"
+  },
+  {
+   "var": "OBJECT:DwarvenWellDescription",
+   "en": "Heals nearby allies and replenishes fallen units\\n Detects stealth",
+   "uk_ai": "Зцілює союзників поблизу й поновлює полеглих у загонах\\nВиявляє невидимі загони"
+  },
+  {
+   "var": "OBJECT:DwarvenWell",
+   "en": "Erebor Well",
+   "uk_ai": "Криниця Еребору"
+  },
+  {
+   "var": "OBJECT:HearthWellDescription",
+   "en": "Heals nearby allies and replenishes fallen units\\n Detects stealth",
+   "uk_ai": "Зцілює союзників поблизу й поновлює полеглих у загонах\\nВиявляє невидимі загони"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenStatue",
+   "en": "Build Heroic Statue (&U)",
+   "uk_ai": "Героїчна статуя (&U)"
+  },
+  {
+   "var": "CONTROLBAR:HeroicStatueBuild",
+   "en": "Provides a leadership bonus to nearby allies\\n Reduces cost of infantry",
+   "uk_ai": "Дає союзникам поблизу бонус лідерства\\nЗнижує вартість піхоти"
+  },
+  {
+   "var": "OBJECT:DwarvenStatue",
+   "en": "Erebor Heroic Statue",
+   "uk_ai": "Героїчна статуя Еребору"
+  },
+  {
+   "var": "OBJECT:HeroicStatueDescription",
+   "en": "Modifier Type: Leadership \\n Allies near the Statue gain +25% damage, +25% armour, earn experience 33% faster, and become immune to fear and terror \\nCulture Bonus - Reduced cost of infantry \\n 1 Statue: 4% \\n 2 Statues: 8% \\n 3 Statues: 12% \\n 4 Statues: 16% \\n 5+ Statues: 20%",
+   "uk_ai": "Тип ефекту: Лідерство\\nСоюзники біля статуї отримують бонус +25% до пошкоджень, +25% броні, на 33% швидше набирають досвід і отримують імунітет до страху та жаху\\nБонус культури — знижена вартість піхоти\\n1 статуя: 4%\\n2 статуї: 8%\\n3 статуї: 12%\\n4 статуї: 16%\\n5+ статуй: 20%"
+  },
+  {
+   "var": "CONTROLBAR:ConstructDwarvenWallHub",
+   "en": "Build Wall Hub (&A)",
+   "uk_ai": "Стінна вежа (&A)"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructDwarvenWallHub",
+   "en": "Allows the construction of walls",
+   "uk_ai": "Дозволяє будувати стіни"
+  },
+  {
+   "var": "CONTROLBAR:EreborRoacRecruit",
+   "en": "Recruit the Lord of the Ravens, Roäc \\n \\n For centuries, the Dwarves of Erebor have maintained a close friendship to the ravens of the Lonely Mountain, employing them as messengers and heeding their wise counsel.",
+   "uk_ai": "Завербувати Роака, володаря воронів\\n\\nСтоліттями дворфи Еребору дружать із воронами Самотньої Гори: роблять їх своїми гінцями й дослухаються до їхніх мудрих порад."
+  },
+  {
+   "var": "CONTROLBAR:EreborRoacRevive",
+   "en": "Revive the fallen raven, Roäc",
+   "uk_ai": "Відродити полеглого в бою Роака"
+  },
+  {
+   "var": "CONTROLBAR:LaketownMasterRecruit",
+   "en": "Recruit the Master of the Men of the Lake \\n \\n 'All this talk of a change must be suppressed. We can't afford to let the rabble band together, start making noises. The next you know, they'll start asking questions, forming committees.'",
+   "uk_ai": "Завербувати Бурмістра Озерного міста\\n\\n«Усі ці розмови про зміни треба придушити. Ми не можемо дозволити, щоб набрід згуртувався й почав галасувати. Не встигнеш оком змигнути, як вони почнуть ставити питання й створювати комітети»."
+  },
+  {
+   "var": "CONTROLBAR:LaketownMasterRevive",
+   "en": "Revive the fallen Hero, Master of Lake-town",
+   "uk_ai": "Відродити полеглого в бою Бурмістра Озерного міста"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenKiliRecruit",
+   "en": "Recruit the young Prince of Erebor \\n \\n 'I will not hide behind a wall of stone while others fight our battles for us!'",
+   "uk_ai": "Завербувати молодого принца Еребору\\n\\n«Я не ховатимусь за кам'яною стіною, поки інші б'ються за нас!»"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenKiliRevive",
+   "en": "Revive the fallen Prince, Kili",
+   "uk_ai": "Відродити полеглого в бою Кілі"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenFiliRecruit",
+   "en": "Recruit the Crown Prince of Erebor \\n \\n 'We'll be right behind you! If you run into trouble, hoot twice like a barn owl, once like a brown owl.'",
+   "uk_ai": "Завербувати кронпринца Еребору\\n\\n«Ми будемо одразу за тобою! Якщо потрапиш у халепу, ухни двічі, як сипуха, і раз, як сова-неясить»."
+  },
+  {
+   "var": "CONTROLBAR:DwarvenFiliRevive",
+   "en": "Revive the fallen Prince, Fili",
+   "uk_ai": "Відродити полеглого в бою Філі"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenBalinRecruit",
+   "en": "Recruit the King's chief adviser \\n \\n 'We are with you, laddie. We will see it done.'",
+   "uk_ai": "Завербувати головного радника короля\\n\\n«Ми з тобою, хлопче. Ми доведемо справу до кінця»."
+  },
+  {
+   "var": "CONTROLBAR:DwarvenBalinRevive",
+   "en": "Revive the fallen hero, Balin",
+   "uk_ai": "Відродити полеглого в бою Баліна"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenCaptainofDaleRecruit",
+   "en": "Recruit Bard the Bowman \\n\\n'Black arrow! You've never failed me, and I've always recovered you. I had you from my father, and he from of old. \\n If ever you came from the forges of the true King under the Mountain, go now and speed well!'",
+   "uk_ai": "Завербувати Барда Лучника\\n\\n«Чорна стріло! Ти ніколи мене не підводила, і я завжди тебе знаходив. Ти дісталася мені від батька, а йому — від предків.\\nЯкщо ти справді вийшла з кузень справжнього Короля під Горою, лети ж і влуч!»"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenCaptainofDaleRevive",
+   "en": "Revive Bard the Bowman",
+   "uk_ai": "Відродити Барда Лучника"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenDainRecruit",
+   "en": "Recruit Dáin Ironfoot, Lord of the Iron Hills \\n \\n 'If he chooses to stand between me and my kin, I'll split his pretty head open! See if he's still smirking then!'",
+   "uk_ai": "Завербувати Дайна Залізностопа, Володаря Залізних пагорбів\\n\\n«Якщо він стане між мною та моєю ріднею, я розколю його гарненьку голову! Подивимось, чи шкіритиметься він тоді!»"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenDainRevive",
+   "en": "Revive the fallen Hero, Dáin Ironfoot",
+   "uk_ai": "Відродити полеглого в бою Дайна Залізностопа"
+  },
+  {
+   "var": "CONTROLBAR:DwalinRecruit",
+   "en": "Recruit the mighty Dwarf warrior, Dwalin. \\n \\n ''The wild is no place for gentle folk who can neither fight nor fend for themselves...'",
+   "uk_ai": "Завербувати могутнього дворфа-воїна Дваліна.\\n\\n«Дика глушина — не місце для лагідного люду, що не вміє ні битися, ні себе захистити...»"
+  },
+  {
+   "var": "CONTROLBAR:DwalinRevive",
+   "en": "Revive the fallen warrior, Dwalin",
+   "uk_ai": "Відродити полеглого в бою Дваліна"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenThorinRecruit",
+   "en": "Recruit the King Under the Mountain \\n \\n 'Loyalty. Honor. A willing heart. I can ask no more than that.'",
+   "uk_ai": "Завербувати Короля під Горою\\n\\n«Вірність. Честь. Щире серце. Більшого я просити не можу»."
+  },
+  {
+   "var": "CONTROLBAR:DwarvenThorinRevive",
+   "en": "Revive the fallen King, Thorin",
+   "uk_ai": "Відродити полеглого в бою короля Торіна"
+  },
+  {
+   "var": "CONTROLBAR:EreborArcahRecruit",
+   "en": "Recruit the Lady of the Ravens, Daughter of Roäc \\n \\n For centuries, the Dwarves of Erebor have maintained a close friendship to the ravens of the Lonely Mountain, employing them as messengers and heeding their wise counsel.",
+   "uk_ai": "Завербувати Арках, володарку воронів і доньку Роака\\n\\nСтоліттями дворфи Еребору дружать із воронами Самотньої Гори: роблять їх своїми гінцями й дослухаються до їхніх мудрих порад."
+  },
+  {
+   "var": "CONTROLBAR:EreborArcahRevive",
+   "en": "Revive the fallen raven, Arcah",
+   "uk_ai": "Відродити полеглу в бою Арках"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenHadhodRecruit",
+   "en": "Recruit the proud warrior of the clan of Fundin \\n \\n Hadhod is a veteran of many battles, having traveled far and wide before finally settling down in Erebor.",
+   "uk_ai": "Завербувати гордого воїна з роду Фундіна\\n\\nГадгод — ветеран багатьох битв: він мандрував далеко й широко, доки нарешті не осів в Еребору."
+  },
+  {
+   "var": "CONTROLBAR:DwarvenHadhodRevive",
+   "en": "Revive the fallen Hero, Hadhod the Dwarf",
+   "uk_ai": "Відродити полеглого в бою дворфа Гадгода"
+  },
+  {
+   "var": "CONTROLBAR:GloinRecruit",
+   "en": "Recruit the father of Gimli \\n \\n 'The Shadow grows and draws nearer. Already war is gathering on our eastern borders...'",
+   "uk_ai": "Завербувати батька Ґімлі\\n\\n«Тінь зростає й наближається. Уже на наших східних кордонах збирається війна...»"
+  },
+  {
+   "var": "CONTROLBAR:GloinRevive",
+   "en": "Revive the fallen Hero, Glóin.",
+   "uk_ai": "Відродити полеглого в бою Ґлоїна."
+  },
+  {
+   "var": "CONTROLBAR:DwarvenCaptainofDaleRecruitOld",
+   "en": "Recruit King Brand, the King of Dale \\n \\n 'They are good folk, the Bardings. The grandson of Bard the Bowman rules them, Brand son of Bain son of Bard. He is a strong king, and his realm now reaches far south and east of Esgaroth.'",
+   "uk_ai": "Завербувати Бранда, короля Дейлу\\n\\n«Бардінґи — добрий народ. Ними править онук Барда Лучника, Бранд, син Баїна, сина Барда. Він сильний король, і його володіння тепер сягають далеко на південь і схід від Есґароту»."
+  },
+  {
+   "var": "CONTROLBAR:DwarvenCaptainofDaleReviveOld",
+   "en": "Revive King Brand, the King of Dale",
+   "uk_ai": "Відродити Бранда, короля Дейлу"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenThorinHelmRecruit",
+   "en": "Recruit Thorin III Stonehelm, Prince of Erebor \\n \\n When news of Sauron's defeat reached the Easterling host that lay siege to Erebor, they were filled with dismay. It was at this moment that Thorin Stonehelm, Prince of Erebor, led a brazen counterattack that broke the siege and routed the enemy.",
+   "uk_ai": "Завербувати Торіна III Кам'яного Шолома, принца Еребору\\n\\nКоли звістка про поразку Саурона дійшла до війська істерлінґів, що облягало Еребор, їх охопив розпач. Саме тоді принц Еребору Торін Кам'яний Шолом повів зухвалий контрнаступ, прорвав облогу й розбив ворога."
+  },
+  {
+   "var": "CONTROLBAR:DwarvenThorinHelmRevive",
+   "en": "Revive the fallen Hero, Thorin III Stonehelm",
+   "uk_ai": "Відродити полеглого в бою Торіна III Кам'яного Шолома"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenKingDainRecruit",
+   "en": "Recruit Dáin Ironfoot, King Under the Mountain \\n \\n 'I should call that a heavy loss, if it was not a wonder rather that in his great age he could still wield his axe as mightily as they say that he did, standing over the body of King Brand before the Gate of Erebor until the darkness fell.'",
+   "uk_ai": "Завербувати Дайна Залізностопа, Короля під Горою\\n\\n«Я назвав би це тяжкою втратою, якби не було радше дивом, що в такому поважному віці він іще міг так могутньо орудувати сокирою, як кажуть, стоячи над тілом короля Бранда перед брамою Еребору, доки не запала темрява»."
+  },
+  {
+   "var": "CONTROLBAR:DwarvenKingDainRevive",
+   "en": "Revive the fallen Hero, King Dáin",
+   "uk_ai": "Відродити полеглого в бою короля Дайна"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenThrorRecruit",
+   "en": "Recruit the King of Erebor",
+   "uk_ai": "Завербувати Короля Еребору"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenThrorRevive",
+   "en": "Revive the fallen king, Thrór",
+   "uk_ai": "Відродити полеглого в бою короля Трора"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenBofurRecruit",
+   "en": "Recruit a fellow companion of Thorin's company",
+   "uk_ai": "Завербувати соратника із загону Торіна"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenBofurRevive",
+   "en": "Revive the fallen companion, Bofur",
+   "uk_ai": "Відродити полеглого в бою Бофура"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenBifurRecruit",
+   "en": "Recruit a fellow companion of Thorin's company",
+   "uk_ai": "Завербувати соратника із загону Торіна"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenBifurRevive",
+   "en": "Revive the fallen companion, Bifur",
+   "uk_ai": "Відродити полеглого в бою Біфура"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenOinRecruit",
+   "en": "Recruit a fellow companion of Thorin's company",
+   "uk_ai": "Завербувати соратника із загону Торіна"
+  },
+  {
+   "var": "CONTROLBAR:DwarvenOinRevive",
+   "en": "Revive the fallen companion, Óin",
+   "uk_ai": "Відродити полеглого в бою Оїна"
+  }
+ ]
+}

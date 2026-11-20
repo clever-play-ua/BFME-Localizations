@@ -1,0 +1,4443 @@
+[
+ {
+  "name": "Balin",
+  "names": [
+   "OBJECT:DwarvenBalin"
+  ],
+  "campaign_templates": [
+   "DwarvenBalin",
+   "YoungBalin"
+  ],
+  "skirmish_templates": [
+   "DwarvenBalin",
+   "YoungBalin"
+  ],
+  "missions": [
+   "BattleofDale",
+   "Council",
+   "Destruction",
+   "Moria"
+  ],
+  "first": 0,
+  "campaign": [
+   "CONTROLBAR:BalinLookout",
+   "CONTROLBAR:ToolTipBalinLookout",
+   "CONTROLBAR:BalinFlag",
+   "CONTROLBAR:TooltipBalinFlag",
+   "CONTROLBAR:BalinDwarvenWisdom",
+   "CONTROLBAR:ToolTipBalinDwarvenWisdom",
+   "CONTROLBAR:BalinCounselorOfKings",
+   "CONTROLBAR:ToolTipBalinCounselorOfKings",
+   "CONTROLBAR:BalinCounselorOfKingsCampaign",
+   "CONTROLBAR:ToolTipBalinCounselorOfKingsCampaign",
+   "CONTROLBAR:YoungBalinTactician",
+   "CONTROLBAR:ToolTipYoungBalinTactician",
+   "CONTROLBAR:YoungBalinCounselorOfKings",
+   "CONTROLBAR:ToolTipYoungBalinCounselorOfKings"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:BalinLookout",
+   "CONTROLBAR:ToolTipBalinLookout",
+   "CONTROLBAR:BalinFlag",
+   "CONTROLBAR:TooltipBalinFlag",
+   "CONTROLBAR:BalinDwarvenWisdom",
+   "CONTROLBAR:ToolTipBalinDwarvenWisdom",
+   "CONTROLBAR:BalinCounselorOfKings",
+   "CONTROLBAR:ToolTipBalinCounselorOfKings",
+   "CONTROLBAR:BalinCounselorOfKingsCampaign",
+   "CONTROLBAR:ToolTipBalinCounselorOfKingsCampaign",
+   "CONTROLBAR:YoungBalinTactician",
+   "CONTROLBAR:ToolTipYoungBalinTactician",
+   "CONTROLBAR:YoungBalinCounselorOfKings",
+   "CONTROLBAR:ToolTipYoungBalinCounselorOfKings"
+  ]
+ },
+ {
+  "name": "Dwalin",
+  "names": [
+   "OBJECT:Dwalin"
+  ],
+  "campaign_templates": [
+   "DwarvenDwalin",
+   "FellowshipOldDwalin",
+   "YoungDwalin"
+  ],
+  "skirmish_templates": [
+   "DwarvenDwalin",
+   "YoungDwalin"
+  ],
+  "missions": [
+   "BattleofDale",
+   "Council",
+   "Destruction"
+  ],
+  "first": 0,
+  "campaign": [
+   "CONTROLBAR:tooltipCommand_ToggleDwalinAxesBasic",
+   "CONTROLBAR:ToolTipDwalinAxesBasic",
+   "CONTROLBAR:DwalinLeadership",
+   "CONTROLBAR:ToolTipDwalinLeadership",
+   "CONTROLBAR:DwalinGloriousCharge",
+   "CONTROLBAR:ToolTipDwalinGloriousCharge",
+   "CONTROLBAR:DwalinSmash",
+   "CONTROLBAR:ToolTipDwalinSmash",
+   "CONTROLBAR:DwalinJuggernaut",
+   "CONTROLBAR:ToolTipDwalinJuggernaut",
+   "CONTROLBAR:tooltipCommand_ToggleDwalinAxesUpg",
+   "CONTROLBAR:ToolTipDwalinAxesUpg",
+   "CONTROLBAR:DwalinSmashCampaign",
+   "CONTROLBAR:ToolTipDwalinSmashCampaign",
+   "CONTROLBAR:DwalinLeadership_Old",
+   "CONTROLBAR:ToolTipDwalinLeadership_Old",
+   "CONTROLBAR:YoungDwalinLeadership",
+   "CONTROLBAR:ToolTipYoungDwalinLeadership",
+   "CONTROLBAR:YoungDwalinGloriousCharge",
+   "CONTROLBAR:ToolTipYoungDwalinGloriousCharge"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:tooltipCommand_ToggleDwalinAxesBasic",
+   "CONTROLBAR:ToolTipDwalinAxesBasic",
+   "CONTROLBAR:DwalinLeadership",
+   "CONTROLBAR:ToolTipDwalinLeadership",
+   "CONTROLBAR:DwalinGloriousCharge",
+   "CONTROLBAR:ToolTipDwalinGloriousCharge",
+   "CONTROLBAR:DwalinSmash",
+   "CONTROLBAR:ToolTipDwalinSmash",
+   "CONTROLBAR:DwalinJuggernaut",
+   "CONTROLBAR:ToolTipDwalinJuggernaut",
+   "CONTROLBAR:tooltipCommand_ToggleDwalinAxesUpg",
+   "CONTROLBAR:ToolTipDwalinAxesUpg",
+   "CONTROLBAR:DwalinSmashCampaign",
+   "CONTROLBAR:ToolTipDwalinSmashCampaign",
+   "CONTROLBAR:YoungDwalinLeadership",
+   "CONTROLBAR:ToolTipYoungDwalinLeadership",
+   "CONTROLBAR:YoungDwalinGloriousCharge",
+   "CONTROLBAR:ToolTipYoungDwalinGloriousCharge"
+  ]
+ },
+ {
+  "name": "King Thrór",
+  "names": [
+   "OBJECT:DwarvenThror"
+  ],
+  "campaign_templates": [
+   "DwarvenThror"
+  ],
+  "skirmish_templates": [
+   "DwarvenThror"
+  ],
+  "missions": [
+   "Destruction"
+  ],
+  "first": 0,
+  "campaign": [
+   "CONTROLBAR:ThrorLeadership",
+   "CONTROLBAR:ToolTipThrorLeadership"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:ThrorLeadership",
+   "CONTROLBAR:ToolTipThrorLeadership"
+  ]
+ },
+ {
+  "name": "Lord Dáin II Ironfoot",
+  "names": [
+   "OBJECT:DwarvenDain"
+  ],
+  "campaign_templates": [
+   "YoungDain"
+  ],
+  "skirmish_templates": [
+   "DwarvenDain",
+   "YoungDain"
+  ],
+  "missions": [
+   "Destruction"
+  ],
+  "first": 0,
+  "campaign": [
+   "CONTROLBAR:ToggleStanceHoldGroundDain",
+   "CONTROLBAR:ToolTipToggleStanceHoldGroundDain",
+   "CONTROLBAR:EreborDainLeadership",
+   "CONTROLBAR:ToolTipEreborDainLeadership",
+   "CONTROLBAR:LordDainMount",
+   "CONTROLBAR:EreborDainBarukKhazad",
+   "CONTROLBAR:ToolTipEreborDainBarukKhazad",
+   "CONTROLBAR:EreborDainRecklessAssault",
+   "CONTROLBAR:ToolTipEreborDainRecklessAssault",
+   "CONTROLBAR:EreborDainToTheKing",
+   "CONTROLBAR:ToolTipEreborDainToTheKing",
+   "CONTROLBAR:YoungDainBarukKhazad",
+   "CONTROLBAR:ToolTipYoungDainBarukKhazad"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:ToggleStanceHoldGroundDain",
+   "CONTROLBAR:ToolTipToggleStanceHoldGroundDain",
+   "CONTROLBAR:EreborDainLeadership",
+   "CONTROLBAR:ToolTipEreborDainLeadership",
+   "CONTROLBAR:LordDainMount",
+   "CONTROLBAR:EreborDainBarukKhazad",
+   "CONTROLBAR:ToolTipEreborDainBarukKhazad",
+   "CONTROLBAR:EreborDainRecklessAssault",
+   "CONTROLBAR:ToolTipEreborDainRecklessAssault",
+   "CONTROLBAR:EreborDainToTheKing",
+   "CONTROLBAR:ToolTipEreborDainToTheKing",
+   "CONTROLBAR:YoungDainBarukKhazad",
+   "CONTROLBAR:ToolTipYoungDainBarukKhazad"
+  ]
+ },
+ {
+  "name": "Thorin Oakenshield",
+  "names": [
+   "OBJECT:DwarvenThorin"
+  ],
+  "campaign_templates": [
+   "DwarvenThorin",
+   "YoungThorin"
+  ],
+  "skirmish_templates": [
+   "DwarvenThorin",
+   "YoungThorin"
+  ],
+  "missions": [
+   "BattleofDale",
+   "Council",
+   "Destruction"
+  ],
+  "first": 0,
+  "campaign": [
+   "CONTROLBAR:ToolTipToggleStanceHoldGroundThorin",
+   "CONTROLBAR:ThorinLeadership",
+   "CONTROLBAR:ToolTipThorinLeadership",
+   "CONTROLBAR:ThorinResentment",
+   "CONTROLBAR:ToolTipThorinResentment",
+   "CONTROLBAR:ThorinOrcrist",
+   "CONTROLBAR:ToolTipThorinOrcrist",
+   "CONTROLBAR:ThorinRestoration",
+   "CONTROLBAR:ToolTipThorinRestoration",
+   "CONTROLBAR:ThorinDuBekar",
+   "CONTROLBAR:ToolTipThorinDuBekar",
+   "CONTROLBAR:ThorinOrcristCampaign",
+   "CONTROLBAR:ToolTipThorinOrcristCampaign",
+   "CONTROLBAR:YoungThorinLeadership",
+   "CONTROLBAR:ToolTipYoungThorinLeadership",
+   "CONTROLBAR:YoungThorinOakenshield",
+   "CONTROLBAR:ToolTipYoungThorinOakenshield",
+   "CONTROLBAR:YoungThorinDuBekar",
+   "CONTROLBAR:ToolTipYoungThorinDuBekar"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:ToolTipToggleStanceHoldGroundThorin",
+   "CONTROLBAR:ThorinLeadership",
+   "CONTROLBAR:ToolTipThorinLeadership",
+   "CONTROLBAR:ThorinResentment",
+   "CONTROLBAR:ToolTipThorinResentment",
+   "CONTROLBAR:ThorinOrcrist",
+   "CONTROLBAR:ToolTipThorinOrcrist",
+   "CONTROLBAR:ThorinRestoration",
+   "CONTROLBAR:ToolTipThorinRestoration",
+   "CONTROLBAR:ThorinDuBekar",
+   "CONTROLBAR:ToolTipThorinDuBekar",
+   "CONTROLBAR:ThorinOrcristCampaign",
+   "CONTROLBAR:ToolTipThorinOrcristCampaign",
+   "CONTROLBAR:YoungThorinLeadership",
+   "CONTROLBAR:ToolTipYoungThorinLeadership",
+   "CONTROLBAR:YoungThorinOakenshield",
+   "CONTROLBAR:ToolTipYoungThorinOakenshield",
+   "CONTROLBAR:YoungThorinDuBekar",
+   "CONTROLBAR:ToolTipYoungThorinDuBekar"
+  ]
+ },
+ {
+  "name": "Thráin",
+  "names": [
+   "OBJECT:DwarvenThrain"
+  ],
+  "campaign_templates": [
+   "DwarvenThrain"
+  ],
+  "skirmish_templates": [
+   "DwarvenThrain"
+  ],
+  "missions": [
+   "Destruction"
+  ],
+  "first": 0,
+  "campaign": [
+   "CONTROLBAR:ThrainSmash",
+   "CONTROLBAR:ToolTipThrainSmash",
+   "CONTROLBAR:OakenBird",
+   "CONTROLBAR:TooltipOakenBird"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:ThrainSmash",
+   "CONTROLBAR:ToolTipThrainSmash",
+   "CONTROLBAR:OakenBird",
+   "CONTROLBAR:TooltipOakenBird"
+  ]
+ },
+ {
+  "name": "Elendil the Tall",
+  "names": [
+   "OBJECT:SecondAgeElendil"
+  ],
+  "campaign_templates": [
+   "SecondAgeElendil"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "LastAlliance"
+  ],
+  "first": 1,
+  "campaign": [
+   "CONTROLBAR:ElendilRestoration",
+   "CONTROLBAR:ToolTipElendilRestoration",
+   "CONTROLBAR:ElendilLeadership",
+   "CONTROLBAR:ToolTipElendilLeadership"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Elendur",
+  "names": [
+   "OBJECT:SecondAgeElendur"
+  ],
+  "campaign_templates": [
+   "SecondAgeElendur"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "Council",
+   "LastAlliance"
+  ],
+  "first": 1,
+  "campaign": [
+   "CONTROLBAR:ElendurRestoration",
+   "CONTROLBAR:ToolTipElendurRestoration",
+   "CONTROLBAR:ElendurLeadership",
+   "CONTROLBAR:ToolTipElendurLeadership"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Elrond",
+  "names": [
+   "OBJECT:SecondAgeElrond"
+  ],
+  "campaign_templates": [
+   "SecondAgeElrond"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "LastAlliance"
+  ],
+  "first": 1,
+  "campaign": [
+   "CONTROLBAR:ElrondArrowVolleyAbility",
+   "CONTROLBAR:ToolTipElrondArrowVolleyAbility",
+   "CONTROLBAR:ElrondLALeadership",
+   "CONTROLBAR:ToolTipElrondLALeadership"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "High King Gil-galad",
+  "names": [
+   "OBJECT:SecondAgeGilGalad"
+  ],
+  "campaign_templates": [
+   "SecondAgeGilGalad"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "LastAlliance"
+  ],
+  "first": 1,
+  "campaign": [
+   "CONTROLBAR:GilGaladLeadership",
+   "CONTROLBAR:TooltipGilGaladLeadership",
+   "CONTROLBAR:GilGaladAeglosLance",
+   "CONTROLBAR:ToolTipGilGaladAeglosLance"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Isildur",
+  "names": [
+   "OBJECT:SecondAgeIsildur"
+  ],
+  "campaign_templates": [
+   "SecondAgeIsildur"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "Council",
+   "LastAlliance"
+  ],
+  "first": 1,
+  "campaign": [
+   "CONTROLBAR:IsildurLeadership",
+   "CONTROLBAR:ToolTipIsildurLeadership",
+   "CONTROLBAR:IsildurBladeMaster",
+   "CONTROLBAR:TooltipIsildurBladeMaster",
+   "CONTROLBAR:TheOneRing",
+   "CONTROLBAR:ToolTipTheOneRingIsildur"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Aragorn",
+  "names": [
+   "OBJECT:GondorAragorn"
+  ],
+  "campaign_templates": [
+   "FellowshipAragorn",
+   "FellowshipAragornNoLight",
+   "GondorAragorn"
+  ],
+  "skirmish_templates": [
+   "ElvenAragorn"
+  ],
+  "missions": [
+   "AmonHen",
+   "BlackGate",
+   "Bree",
+   "CirithUngol",
+   "Council",
+   "DurinsTower",
+   "EavesofFangorn",
+   "FordsofIsen",
+   "GreyCompany",
+   "GreyHavens",
+   "HelmsDeep",
+   "Isengard",
+   "Ithilien",
+   "Khazad",
+   "LightingoftheBeacons",
+   "LordoftheRings",
+   "Lothlorien",
+   "ManyPartings",
+   "MinasTirithInner",
+   "MinasTirithOuter",
+   "Moria",
+   "Osgiliath",
+   "Party",
+   "PathsoftheDead",
+   "Pelargir",
+   "PelennorFields",
+   "Redhorn",
+   "ScouringoftheShire",
+   "TamingofSmeagol",
+   "Weathertop",
+   "Westfold"
+  ],
+  "first": 2,
+  "campaign": [
+   "CONTROLBAR:FellowshipAthelas",
+   "CONTROLBAR:ToolTipFellowshipAthelas",
+   "CONTROLBAR:FellowshipAragornBlademaster",
+   "CONTROLBAR:TooltipFellowshipAragornBlademaster",
+   "CONTROLBAR:FellowshipAragornLeaderofMen",
+   "CONTROLBAR:ToolTipFellowshipAragornLeaderofMen",
+   "CONTROLBAR:Athelas",
+   "CONTROLBAR:ToolTipAthelas",
+   "CONTROLBAR:AragornBladeMaster",
+   "CONTROLBAR:ToolTipBladeMaster",
+   "CONTROLBAR:AragornLeadership",
+   "CONTROLBAR:ToolTipAragornLeadership",
+   "CONTROLBAR:Elendil",
+   "CONTROLBAR:ToolTipElendil",
+   "CONTROLBAR:GreyHost",
+   "CONTROLBAR:TooltipGreyHost"
+  ],
+  "skirmish": [
+   "CONTROLBAR:DunedainChieftain",
+   "CONTROLBAR:ToolTipDunedainChieftain",
+   "CONTROLBAR:MasterTracker",
+   "CONTROLBAR:ToolTipMasterTrackerAbility",
+   "CONTROLBAR:ArnorAragornBlademaster",
+   "CONTROLBAR:TooltipArnorAragornBlademaster",
+   "CONTROLBAR:AragornIsildurHeir",
+   "CONTROLBAR:ToolTipFellowshipAragornIsildurHeir"
+  ],
+  "both": [
+   "CONTROLBAR:Athelas",
+   "CONTROLBAR:ToolTipAthelas"
+  ]
+ },
+ {
+  "name": "Boromir",
+  "names": [
+   "OBJECT:GondorBoromir"
+  ],
+  "campaign_templates": [
+   "FellowshipBoromir",
+   "GondorBoromir"
+  ],
+  "skirmish_templates": [
+   "GondorBoromir"
+  ],
+  "missions": [
+   "AmonHen",
+   "BlackGate",
+   "CirithUngol",
+   "Council",
+   "DurinsTower",
+   "EavesofFangorn",
+   "FordsofIsen",
+   "GreyCompany",
+   "GreyHavens",
+   "HelmsDeep",
+   "Isengard",
+   "Ithilien",
+   "Khazad",
+   "LightingoftheBeacons",
+   "LordoftheRings",
+   "Lothlorien",
+   "ManyPartings",
+   "MinasTirithInner",
+   "MinasTirithOuter",
+   "Moria",
+   "Party",
+   "PathsoftheDead",
+   "Pelargir",
+   "PelennorFields",
+   "Redhorn",
+   "ScouringoftheShire",
+   "TamingofSmeagol",
+   "Westfold"
+  ],
+  "first": 2,
+  "campaign": [
+   "CONTROLBAR:FellowshipBoromirShieldBash",
+   "CONTROLBAR:ToolTipFellowshipBoromirShieldBash",
+   "CONTROLBAR:WannaBoroMiKnife",
+   "CONTROLBAR:TooltipFellowshipWannaBoroMiKnife",
+   "CONTROLBAR:HornofGondorFellowship",
+   "CONTROLBAR:ToolTipFellowshipHornofGondor",
+   "CONTROLBAR:WarCry",
+   "CONTROLBAR:ToolTipFellowshipWarCry",
+   "CONTROLBAR:FellowshipBoromirMasteredFate",
+   "CONTROLBAR:TooltipFellowshipBoromirMasteredFate",
+   "CONTROLBAR:BoromirLeadership",
+   "CONTROLBAR:ToolTipBoromirNewLeadership",
+   "CONTROLBAR:ToolTipWannaBoroMiKnife",
+   "CONTROLBAR:HornofGondor",
+   "CONTROLBAR:ToolTipHornofGondor",
+   "CONTROLBAR:ToolTipWarCryBoromir",
+   "CONTROLBAR:CaptainofGondor",
+   "CONTROLBAR:ToolTipCaptainofGondorBoromir"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:WannaBoroMiKnife",
+   "CONTROLBAR:WarCry",
+   "CONTROLBAR:BoromirLeadership",
+   "CONTROLBAR:ToolTipBoromirNewLeadership",
+   "CONTROLBAR:ToolTipWannaBoroMiKnife",
+   "CONTROLBAR:HornofGondor",
+   "CONTROLBAR:ToolTipHornofGondor",
+   "CONTROLBAR:ToolTipWarCryBoromir",
+   "CONTROLBAR:CaptainofGondor",
+   "CONTROLBAR:ToolTipCaptainofGondorBoromir"
+  ]
+ },
+ {
+  "name": "Elfhelm",
+  "names": [
+   "OBJECT:RohanElfhelm"
+  ],
+  "campaign_templates": [
+   "CampaignElfhelm",
+   "RohanElfhelm"
+  ],
+  "skirmish_templates": [
+   "RohanElfhelm"
+  ],
+  "missions": [
+   "BlackGate",
+   "FordsofIsen",
+   "GreyHavens",
+   "ManyPartings",
+   "Party",
+   "PelennorFields",
+   "ScouringoftheShire"
+  ],
+  "first": 2,
+  "campaign": [
+   "CONTROLBAR:TheodenMount",
+   "CONTROLBAR:ToggleElfhelmWeapons",
+   "CONTROLBAR:ToolTipToggleElfhelmWeapons",
+   "CONTROLBAR:CampaignElfhelmMuster",
+   "CONTROLBAR:ToolTipCampaignElfhelmMuster",
+   "CONTROLBAR:ElfhelmPromotion",
+   "CONTROLBAR:ToolTipCampaignElfhelmPromotion",
+   "CONTROLBAR:ElfhelmLeadership",
+   "CONTROLBAR:ToolTipCampaignElfhelmLeadership",
+   "CONTROLBAR:CampaignElfhelmFlamingShot",
+   "CONTROLBAR:ToolTipCampaignElfhelmFlamingShot",
+   "CONTROLBAR:ElfhelmQuickRescue",
+   "CONTROLBAR:ToolTipElfhelmQuickRescue",
+   "CONTROLBAR:ToolTipElfhelmPromotion",
+   "CONTROLBAR:ToolTipElfhelmLeadership"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:TheodenMount",
+   "CONTROLBAR:ToggleElfhelmWeapons",
+   "CONTROLBAR:ToolTipToggleElfhelmWeapons",
+   "CONTROLBAR:ElfhelmPromotion",
+   "CONTROLBAR:ElfhelmLeadership",
+   "CONTROLBAR:ElfhelmQuickRescue",
+   "CONTROLBAR:ToolTipElfhelmQuickRescue",
+   "CONTROLBAR:ToolTipElfhelmPromotion",
+   "CONTROLBAR:ToolTipElfhelmLeadership"
+  ]
+ },
+ {
+  "name": "Elladan",
+  "names": [
+   "OBJECT:Elladan"
+  ],
+  "campaign_templates": [
+   "CampaignElladan"
+  ],
+  "skirmish_templates": [
+   "ElvenElladan"
+  ],
+  "missions": [
+   "BlackGate",
+   "CirithUngol",
+   "Council",
+   "GreyCompany",
+   "GreyHavens",
+   "LightingoftheBeacons",
+   "LordoftheRings",
+   "ManyPartings",
+   "Party",
+   "PathsoftheDead",
+   "Pelargir",
+   "PelennorFields",
+   "ScouringoftheShire"
+  ],
+  "first": 2,
+  "campaign": [
+   "CONTROLBAR:ToolTipToggleGreyCompanyWeapons",
+   "CONTROLBAR:HalbaradUnerringLoyalty",
+   "CONTROLBAR:ToolTipHalbaradUnerringLoyalty",
+   "CONTROLBAR:HalbaradMuster",
+   "CONTROLBAR:ToolTipHalbaradMuster",
+   "CONTROLBAR:HalbaradPerseverance",
+   "CONTROLBAR:ToolTipHalbaradPerseveranceFellowship",
+   "CONTROLBAR:HalbaradBannerOfArwen",
+   "CONTROLBAR:TooltipHalbaradBannerOfArwen",
+   "CONTROLBAR:ElrohirLeadership",
+   "CONTROLBAR:ToolTipElladanLeadership",
+   "CONTROLBAR:TwinsHeroesLeadership",
+   "CONTROLBAR:ToolTipTwinsHeroesLeadershipCampaignElladan",
+   "CONTROLBAR:ElrohirLeadership2",
+   "CONTROLBAR:ToolTipElladanLeadership2",
+   "CONTROLBAR:ElladanBrightBlade",
+   "CONTROLBAR:ToolTipElladanBrightBlade",
+   "CONTROLBAR:ScionofEarendil",
+   "CONTROLBAR:ToolTipScionofEarendil",
+   "CONTROLBAR:FellowshipAthelas",
+   "CONTROLBAR:ToolTipFellowshipAthelas",
+   "CONTROLBAR:FellowshipAragornBlademaster",
+   "CONTROLBAR:TooltipFellowshipAragornBlademaster",
+   "CONTROLBAR:FellowshipAragornLeaderofMen",
+   "CONTROLBAR:ToolTipFellowshipAragornLeaderofMen",
+   "CONTROLBAR:AragornToggleMount"
+  ],
+  "skirmish": [
+   "CONTROLBAR:ToolTipTwinsHeroesLeadershipElladan"
+  ],
+  "both": [
+   "CONTROLBAR:ElrohirLeadership",
+   "CONTROLBAR:ToolTipElladanLeadership",
+   "CONTROLBAR:TwinsHeroesLeadership",
+   "CONTROLBAR:ElrohirLeadership2",
+   "CONTROLBAR:ToolTipElladanLeadership2",
+   "CONTROLBAR:ElladanBrightBlade",
+   "CONTROLBAR:ToolTipElladanBrightBlade"
+  ]
+ },
+ {
+  "name": "Elrohir",
+  "names": [
+   "OBJECT:Elrohir"
+  ],
+  "campaign_templates": [
+   "CampaignElrohir"
+  ],
+  "skirmish_templates": [
+   "ElvenElrohir"
+  ],
+  "missions": [
+   "BlackGate",
+   "CirithUngol",
+   "Council",
+   "GreyCompany",
+   "GreyHavens",
+   "LightingoftheBeacons",
+   "LordoftheRings",
+   "ManyPartings",
+   "Party",
+   "PathsoftheDead",
+   "Pelargir",
+   "PelennorFields",
+   "ScouringoftheShire"
+  ],
+  "first": 2,
+  "campaign": [
+   "CONTROLBAR:ToolTipToggleGreyCompanyWeapons",
+   "CONTROLBAR:HalbaradUnerringLoyalty",
+   "CONTROLBAR:ToolTipHalbaradUnerringLoyalty",
+   "CONTROLBAR:HalbaradMuster",
+   "CONTROLBAR:ToolTipHalbaradMuster",
+   "CONTROLBAR:HalbaradPerseverance",
+   "CONTROLBAR:ToolTipHalbaradPerseveranceFellowship",
+   "CONTROLBAR:HalbaradBannerOfArwen",
+   "CONTROLBAR:TooltipHalbaradBannerOfArwen",
+   "CONTROLBAR:ElrohirLeadership",
+   "CONTROLBAR:ToolTipElrohirLeadership",
+   "CONTROLBAR:TwinsHeroesLeadership",
+   "CONTROLBAR:ToolTipTwinsHeroesLeadershipCampaignElrohir",
+   "CONTROLBAR:ElrohirLeadership2",
+   "CONTROLBAR:ToolTipElrohirLeadership2",
+   "CONTROLBAR:ElrohirSwiftStrikes",
+   "CONTROLBAR:ToolTipElrohirSwiftStrikesCampaign",
+   "CONTROLBAR:ScionofElwing",
+   "CONTROLBAR:ToolTipScionofElwing"
+  ],
+  "skirmish": [
+   "CONTROLBAR:ToolTipTwinsHeroesLeadershipElrohir",
+   "CONTROLBAR:ToolTipElrohirSwiftStrikes"
+  ],
+  "both": [
+   "CONTROLBAR:ElrohirLeadership",
+   "CONTROLBAR:ToolTipElrohirLeadership",
+   "CONTROLBAR:TwinsHeroesLeadership",
+   "CONTROLBAR:ElrohirLeadership2",
+   "CONTROLBAR:ToolTipElrohirLeadership2",
+   "CONTROLBAR:ElrohirSwiftStrikes"
+  ]
+ },
+ {
+  "name": "Erkenbrand",
+  "names": [
+   "OBJECT:RohanErkenbrand"
+  ],
+  "campaign_templates": [
+   "CampaignErkenbrand",
+   "RohanErkenbrand"
+  ],
+  "skirmish_templates": [
+   "RohanErkenbrand"
+  ],
+  "missions": [
+   "BlackGate",
+   "CirithUngol",
+   "DurinsTower",
+   "EavesofFangorn",
+   "FordsofIsen",
+   "GreyCompany",
+   "GreyHavens",
+   "HelmsDeep",
+   "Isengard",
+   "Ithilien",
+   "LightingoftheBeacons",
+   "LordoftheRings",
+   "ManyPartings",
+   "MinasTirithInner",
+   "MinasTirithOuter",
+   "Osgiliath",
+   "Party",
+   "PathsoftheDead",
+   "Pelargir",
+   "PelennorFields",
+   "ScouringoftheShire",
+   "TamingofSmeagol",
+   "Westfold"
+  ],
+  "first": 2,
+  "campaign": [
+   "CONTROLBAR:TheodenMount",
+   "CONTROLBAR:ErkenbrandHorn",
+   "CONTROLBAR:ToolTipErkenbrandHorn",
+   "CONTROLBAR:ErkenbrandShieldCrush",
+   "CONTROLBAR:ToolTipErkenbrandShieldCrushCampaign",
+   "CONTROLBAR:ErkenbrandLeadership",
+   "CONTROLBAR:ToolTipErkenbrandLeadership",
+   "CONTROLBAR:ErkenbrandReinforcements",
+   "CONTROLBAR:ToolTipErkenbrandReinforcements",
+   "CONTROLBAR:ToolTipErkenbrandShieldCrush"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:ErkenbrandHorn",
+   "CONTROLBAR:ToolTipErkenbrandHorn",
+   "CONTROLBAR:ErkenbrandShieldCrush",
+   "CONTROLBAR:ErkenbrandLeadership",
+   "CONTROLBAR:ToolTipErkenbrandLeadership",
+   "CONTROLBAR:ErkenbrandReinforcements",
+   "CONTROLBAR:ToolTipErkenbrandReinforcements",
+   "CONTROLBAR:ToolTipErkenbrandShieldCrush"
+  ]
+ },
+ {
+  "name": "Faramir",
+  "names": [
+   "OBJECT:GondorFaramir"
+  ],
+  "campaign_templates": [
+   "CampaignFaramir"
+  ],
+  "skirmish_templates": [
+   "GondorFaramir"
+  ],
+  "missions": [
+   "BlackGate",
+   "CirithUngol",
+   "Council",
+   "DurinsTower",
+   "EavesofFangorn",
+   "FordsofIsen",
+   "GreyCompany",
+   "GreyHavens",
+   "HelmsDeep",
+   "Isengard",
+   "Ithilien",
+   "LightingoftheBeacons",
+   "LordoftheRings",
+   "ManyPartings",
+   "MinasTirithInner",
+   "MinasTirithOuter",
+   "Osgiliath",
+   "Party",
+   "PathsoftheDead",
+   "Pelargir",
+   "PelennorFields",
+   "ScouringoftheShire",
+   "TamingofSmeagol",
+   "Westfold"
+  ],
+  "first": 2,
+  "campaign": [
+   "CONTROLBAR:FaramirAmbushAbility",
+   "CONTROLBAR:ToolTipFaramirAmbushAbility",
+   "CONTROLBAR:FaramirKnightRanger",
+   "CONTROLBAR:FaramirSummonLeadership",
+   "CONTROLBAR:ToolTipCampaignFaramirSummonLeadership",
+   "CONTROLBAR:WoundingArrow",
+   "CONTROLBAR:ToolTipWoundingArrow",
+   "CONTROLBAR:FaramirLeadership",
+   "CONTROLBAR:ToolTipFaramirLeadership",
+   "CONTROLBAR:FaramirDesperateCharge",
+   "CONTROLBAR:ToolTipFaramirDesperateCharge",
+   "CONTROLBAR:CaptainofGondorF",
+   "CONTROLBAR:ToolTipCaptainofGondor"
+  ],
+  "skirmish": [
+   "CONTROLBAR:ToolTipFaramirSummonLeadership"
+  ],
+  "both": [
+   "CONTROLBAR:FaramirAmbushAbility",
+   "CONTROLBAR:ToolTipFaramirAmbushAbility",
+   "CONTROLBAR:FaramirKnightRanger",
+   "CONTROLBAR:FaramirSummonLeadership",
+   "CONTROLBAR:WoundingArrow",
+   "CONTROLBAR:ToolTipWoundingArrow",
+   "CONTROLBAR:FaramirLeadership",
+   "CONTROLBAR:ToolTipFaramirLeadership",
+   "CONTROLBAR:FaramirDesperateCharge",
+   "CONTROLBAR:ToolTipFaramirDesperateCharge",
+   "CONTROLBAR:CaptainofGondorF",
+   "CONTROLBAR:ToolTipCaptainofGondor"
+  ]
+ },
+ {
+  "name": "Frodo",
+  "names": [
+   "OBJECT:RohanFrodo"
+  ],
+  "campaign_templates": [
+   "FellowshipFrodo",
+   "RohanFrodo"
+  ],
+  "skirmish_templates": [
+   "FellowshipFrodo"
+  ],
+  "missions": [
+   "AmonHen",
+   "BlackGate",
+   "Bree",
+   "CirithUngol",
+   "Council",
+   "DurinsTower",
+   "EavesofFangorn",
+   "FordsofIsen",
+   "GreyCompany",
+   "GreyHavens",
+   "HelmsDeep",
+   "Isengard",
+   "Ithilien",
+   "Khazad",
+   "LightingoftheBeacons",
+   "LordoftheRings",
+   "Lothlorien",
+   "ManyPartings",
+   "MinasTirithInner",
+   "MinasTirithOuter",
+   "Moria",
+   "Osgiliath",
+   "Party",
+   "PathsoftheDead",
+   "Pelargir",
+   "PelennorFields",
+   "Redhorn",
+   "ScouringoftheShire",
+   "TamingofSmeagol",
+   "Weathertop",
+   "Westfold"
+  ],
+  "first": 2,
+  "campaign": [
+   "CONTROLBAR:tooltipCommand_ToggleEntRockThrow",
+   "CONTROLBAR:ElvenCloak",
+   "CONTROLBAR:ToolTipElvenCloakCampaign",
+   "CONTROLBAR:TheOneRing_Campaign",
+   "CONTROLBAR:ToolTipTheOneRing",
+   "CONTROLBAR:FrodoMithrilShirt",
+   "CONTROLBAR:TooltipFrodoMithrilShirt",
+   "CONTROLBAR:PhialofGaladriel",
+   "CONTROLBAR:ToolTipPhialOfGaladriel",
+   "CONTROLBAR:ToolTipHobbitRockLure",
+   "CONTROLBAR:HobbitRockLureAmonHen",
+   "CONTROLBAR:WordsArePoison",
+   "CONTROLBAR:ToolTipWordsArePoison",
+   "CONTROLBAR:RevengeWithRevenge",
+   "CONTROLBAR:ToolTipRevengeWithRevenge",
+   "CONTROLBAR:DoNotKillHim",
+   "CONTROLBAR:ToolTipDoNotKillHim",
+   "CONTROLBAR:IllTurnDeservesAnother",
+   "CONTROLBAR:ToolTipIllTurnDeservesAnother",
+   "CONTROLBAR:TheOneRing",
+   "CONTROLBAR:FrodoLeadership",
+   "CONTROLBAR:ToolTipFrodoLeadership",
+   "CONTROLBAR:SamwisetheBrave",
+   "CONTROLBAR:TooltipSamwisetheBrave"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:tooltipCommand_ToggleEntRockThrow",
+   "CONTROLBAR:ElvenCloak",
+   "CONTROLBAR:ToolTipElvenCloakCampaign",
+   "CONTROLBAR:TheOneRing_Campaign",
+   "CONTROLBAR:ToolTipTheOneRing",
+   "CONTROLBAR:FrodoMithrilShirt",
+   "CONTROLBAR:TooltipFrodoMithrilShirt",
+   "CONTROLBAR:PhialofGaladriel",
+   "CONTROLBAR:ToolTipPhialOfGaladriel",
+   "CONTROLBAR:ToolTipHobbitRockLure",
+   "CONTROLBAR:HobbitRockLureAmonHen",
+   "CONTROLBAR:WordsArePoison",
+   "CONTROLBAR:ToolTipWordsArePoison",
+   "CONTROLBAR:RevengeWithRevenge",
+   "CONTROLBAR:ToolTipRevengeWithRevenge",
+   "CONTROLBAR:DoNotKillHim",
+   "CONTROLBAR:ToolTipDoNotKillHim",
+   "CONTROLBAR:IllTurnDeservesAnother",
+   "CONTROLBAR:ToolTipIllTurnDeservesAnother"
+  ]
+ },
+ {
+  "name": "Gandalf",
+  "names": [
+   "OBJECT:GandalfTheWhite"
+  ],
+  "campaign_templates": [
+   "FellowshipGandalfTheWhite",
+   "GondorGandalfGrey",
+   "GondorGandalfWhite"
+  ],
+  "skirmish_templates": [
+   "GondorGandalf"
+  ],
+  "missions": [
+   "BlackGate",
+   "CirithUngol",
+   "DurinsTower",
+   "EavesofFangorn",
+   "FordsofIsen",
+   "GreyCompany",
+   "GreyHavens",
+   "HelmsDeep",
+   "Isengard",
+   "Ithilien",
+   "Khazad",
+   "LightingoftheBeacons",
+   "LordoftheRings",
+   "ManyPartings",
+   "MinasTirithInner",
+   "MinasTirithOuter",
+   "Osgiliath",
+   "Party",
+   "PathsoftheDead",
+   "Pelargir",
+   "PelennorFields",
+   "ScouringoftheShire",
+   "TamingofSmeagol",
+   "Westfold"
+  ],
+  "first": 2,
+  "campaign": [
+   "CONTROLBAR:WizardBlast",
+   "CONTROLBAR:ToolTipWizardBlastCampaign",
+   "CONTROLBAR:GandalfNewMount",
+   "CONTROLBAR:ToolTipShadowfax",
+   "CONTROLBAR:GandalfPrepareForBattle",
+   "CONTROLBAR:ToolTipGandalfPrepareForBattleCampaign",
+   "CONTROLBAR:IstariLight",
+   "CONTROLBAR:ToolTipIstariLight",
+   "CONTROLBAR:WordofPower",
+   "CONTROLBAR:ToolTipWordofPower",
+   "CONTROLBAR:SpecialAbilityShieldBubble",
+   "CONTROLBAR:ToolTipSpecialAbilityShieldbubble",
+   "CONTROLBAR:GandalfNewMountCampaignNoHotkey",
+   "CONTROLBAR:ToolTipWizardBlast",
+   "CONTROLBAR:ToolTipGandalfPrepareForBattle",
+   "CONTROLBAR:ToolTipIstariLightTiered"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:WizardBlast",
+   "CONTROLBAR:GandalfNewMount",
+   "CONTROLBAR:ToolTipShadowfax",
+   "CONTROLBAR:GandalfPrepareForBattle",
+   "CONTROLBAR:IstariLight",
+   "CONTROLBAR:WordofPower",
+   "CONTROLBAR:ToolTipWordofPower",
+   "CONTROLBAR:SpecialAbilityShieldBubble",
+   "CONTROLBAR:ToolTipSpecialAbilityShieldbubble",
+   "CONTROLBAR:ToolTipWizardBlast",
+   "CONTROLBAR:ToolTipGandalfPrepareForBattle",
+   "CONTROLBAR:ToolTipIstariLightTiered"
+  ]
+ },
+ {
+  "name": "Gandalf the Grey",
+  "names": [
+   "OBJECT:GandalfTheGrey"
+  ],
+  "campaign_templates": [
+   "FellowshipGandalfTheGrey",
+   "GandalfTheGrey"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "BlackGate",
+   "CirithUngol",
+   "Council",
+   "DurinsTower",
+   "EavesofFangorn",
+   "FordsofIsen",
+   "GreyCompany",
+   "GreyHavens",
+   "HelmsDeep",
+   "Isengard",
+   "Ithilien",
+   "Khazad",
+   "LightingoftheBeacons",
+   "LordoftheRings",
+   "ManyPartings",
+   "MinasTirithInner",
+   "MinasTirithOuter",
+   "Moria",
+   "Orthanc",
+   "Osgiliath",
+   "Party",
+   "PathsoftheDead",
+   "Pelargir",
+   "PelennorFields",
+   "Redhorn",
+   "ScouringoftheShire",
+   "TamingofSmeagol",
+   "Westfold"
+  ],
+  "first": 2,
+  "campaign": [
+   "CONTROLBAR:WizardBlastGandalfTheGrey",
+   "CONTROLBAR:ToolTipWizardBlastRadagast",
+   "CONTROLBAR:GandalfGloriousCharge",
+   "CONTROLBAR:ToolTipFellowshipGandalfGloriousCharge",
+   "CONTROLBAR:GandalfFoeHammer",
+   "CONTROLBAR:ToolTipFellowshipLightningSword",
+   "CONTROLBAR:SpecialAbilityShieldBubble",
+   "CONTROLBAR:ToolTipSpecialAbilityShieldbubble",
+   "CONTROLBAR:GandalfYouShallNotPassCampaign",
+   "CONTROLBAR:ToolTipFellowshipGandalfYouShallNotPass",
+   "CONTROLBAR:GandalfNewMountCampaign",
+   "CONTROLBAR:ToolTipShadowfax",
+   "CONTROLBAR:GandalfHalflingLeaf",
+   "CONTROLBAR:ToolTipGandalfHalflingLeaf",
+   "CONTROLBAR:ToolTipGandalfGloriousCharge",
+   "CONTROLBAR:GandalfDisturber",
+   "CONTROLBAR:ToolTipGandalfDisturber",
+   "CONTROLBAR:ToolTipLightningSword",
+   "CONTROLBAR:GandalfYouShallNotPass",
+   "CONTROLBAR:ToolTipGandalfYouShallNotPass"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Gandalf's Cart",
+  "names": [
+   "OBJECT:GandalfCart"
+  ],
+  "campaign_templates": [
+   "CampaignGandalfCart"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "Party"
+  ],
+  "first": 2,
+  "campaign": [
+   "CONTROLBAR:DoNotKillHim",
+   "CONTROLBAR:ToolTipDoNotKillHim",
+   "CONTROLBAR:IllTurnDeservesAnother",
+   "CONTROLBAR:ToolTipIllTurnDeservesAnother",
+   "CONTROLBAR:PreviewFireworks",
+   "CONTROLBAR:ToolTipPreviewFireworks",
+   "CONTROLBAR:IgnoreChildren",
+   "CONTROLBAR:ToolTipIgnoreChildren"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Gimli",
+  "names": [
+   "OBJECT:RohanGimli"
+  ],
+  "campaign_templates": [
+   "FellowshipGimli",
+   "RohanGimli"
+  ],
+  "skirmish_templates": [
+   "RohanGimli"
+  ],
+  "missions": [
+   "AmonHen",
+   "BlackGate",
+   "CirithUngol",
+   "Council",
+   "DurinsTower",
+   "EavesofFangorn",
+   "FordsofIsen",
+   "GreyCompany",
+   "GreyHavens",
+   "HelmsDeep",
+   "Isengard",
+   "Ithilien",
+   "Khazad",
+   "LightingoftheBeacons",
+   "LordoftheRings",
+   "Lothlorien",
+   "ManyPartings",
+   "MinasTirithInner",
+   "MinasTirithOuter",
+   "Moria",
+   "Osgiliath",
+   "Party",
+   "PathsoftheDead",
+   "Pelargir",
+   "PelennorFields",
+   "Redhorn",
+   "ScouringoftheShire",
+   "TamingofSmeagol",
+   "Westfold"
+  ],
+  "first": 2,
+  "campaign": [
+   "CONTROLBAR:AxeThrow",
+   "CONTROLBAR:ToolTipAxeThrow",
+   "CONTROLBAR:EnduringWrath",
+   "CONTROLBAR:ToolTipEnduringWrath",
+   "CONTROLBAR:FellowshipLeap",
+   "CONTROLBAR:ToolTipFellowshipLeap",
+   "CONTROLBAR:FellowshipSlayer",
+   "CONTROLBAR:ToolTipCampaignSlayer",
+   "CONTROLBAR:ElfFriendCampaign",
+   "CONTROLBAR:ToolTipElfFriendCampaign",
+   "CONTROLBAR:Leap",
+   "CONTROLBAR:ToolTipLeap",
+   "CONTROLBAR:Slayer",
+   "CONTROLBAR:ToolTipSlayer"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:AxeThrow",
+   "CONTROLBAR:ToolTipAxeThrow",
+   "CONTROLBAR:Leap",
+   "CONTROLBAR:ToolTipLeap",
+   "CONTROLBAR:Slayer",
+   "CONTROLBAR:ToolTipSlayer"
+  ]
+ },
+ {
+  "name": "Gollum",
+  "names": [
+   "OBJECT:NeutralGollum"
+  ],
+  "campaign_templates": [
+   "CampaignGollum",
+   "NeutralGollum"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "BlackGate",
+   "CirithUngol",
+   "DurinsTower",
+   "EavesofFangorn",
+   "FordsofIsen",
+   "GreyCompany",
+   "GreyHavens",
+   "HelmsDeep",
+   "Isengard",
+   "Ithilien",
+   "LightingoftheBeacons",
+   "LordoftheRings",
+   "ManyPartings",
+   "MinasTirithInner",
+   "MinasTirithOuter",
+   "Moria",
+   "Osgiliath",
+   "Party",
+   "PathsoftheDead",
+   "Pelargir",
+   "PelennorFields",
+   "ScouringoftheShire",
+   "TamingofSmeagol",
+   "Westfold"
+  ],
+  "first": 2,
+  "campaign": [
+   "CONTROLBAR:SpecialAbilitySmeagolWring",
+   "CONTROLBAR:ToolTipSpecialAbilitySmeagolWring",
+   "CONTROLBAR:SmeagolLeadership",
+   "CONTROLBAR:ToolTipSmeagolLeadershipCampaign",
+   "CONTROLBAR:SmeagolTenacious",
+   "CONTROLBAR:TooltipSmeagolTenacious"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Halbarad Dúnadan",
+  "names": [
+   "OBJECT:ArnorHalbarad"
+  ],
+  "campaign_templates": [
+   "ArnorHalbarad",
+   "CampaignHalbarad"
+  ],
+  "skirmish_templates": [
+   "ArnorHalbarad"
+  ],
+  "missions": [
+   "BlackGate",
+   "CirithUngol",
+   "GreyCompany",
+   "GreyHavens",
+   "LightingoftheBeacons",
+   "LordoftheRings",
+   "ManyPartings",
+   "Party",
+   "PathsoftheDead",
+   "Pelargir",
+   "PelennorFields",
+   "ScouringoftheShire"
+  ],
+  "first": 2,
+  "campaign": [
+   "CONTROLBAR:ToolTipToggleGreyCompanyWeapons",
+   "CONTROLBAR:HalbaradUnerringLoyalty",
+   "CONTROLBAR:ToolTipHalbaradUnerringLoyalty",
+   "CONTROLBAR:HalbaradMuster",
+   "CONTROLBAR:ToolTipHalbaradMuster",
+   "CONTROLBAR:HalbaradPerseverance",
+   "CONTROLBAR:ToolTipHalbaradPerseverance",
+   "CONTROLBAR:HalbaradBannerOfArwen",
+   "CONTROLBAR:TooltipHalbaradBannerOfArwen",
+   "CONTROLBAR:ToolTipHalbaradPerseveranceFellowship",
+   "CONTROLBAR:HalbaradHiddenVolley",
+   "CONTROLBAR:ToolTipHalbaradHiddenVolley",
+   "CONTROLBAR:HalbaradDevotedCaptain",
+   "CONTROLBAR:TooltipHalbaradDevotedCaptain"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:ToolTipToggleGreyCompanyWeapons",
+   "CONTROLBAR:HalbaradUnerringLoyalty",
+   "CONTROLBAR:ToolTipHalbaradUnerringLoyalty",
+   "CONTROLBAR:HalbaradMuster",
+   "CONTROLBAR:ToolTipHalbaradMuster",
+   "CONTROLBAR:HalbaradPerseverance",
+   "CONTROLBAR:ToolTipHalbaradPerseverance",
+   "CONTROLBAR:HalbaradBannerOfArwen",
+   "CONTROLBAR:TooltipHalbaradBannerOfArwen"
+  ]
+ },
+ {
+  "name": "Haldir",
+  "names": [
+   "OBJECT:ElvenHaldir"
+  ],
+  "campaign_templates": [
+   "CampaignHaldir",
+   "ElvenHaldir"
+  ],
+  "skirmish_templates": [
+   "ElvenHaldir"
+  ],
+  "missions": [
+   "BlackGate",
+   "CirithUngol",
+   "DurinsTower",
+   "EavesofFangorn",
+   "FordsofIsen",
+   "GreyCompany",
+   "GreyHavens",
+   "HelmsDeep",
+   "Isengard",
+   "Ithilien",
+   "LightingoftheBeacons",
+   "LordoftheRings",
+   "Lothlorien",
+   "ManyPartings",
+   "MinasTirithInner",
+   "MinasTirithOuter",
+   "Osgiliath",
+   "Party",
+   "PathsoftheDead",
+   "Pelargir",
+   "PelennorFields",
+   "ScouringoftheShire",
+   "TamingofSmeagol",
+   "Westfold"
+  ],
+  "first": 2,
+  "campaign": [
+   "CONTROLBAR:HaldirFaithfulCompanion",
+   "CONTROLBAR:ToolTipHaldirFaithfulCompanion",
+   "CONTROLBAR:ToggleHaldirWeaponsLorien",
+   "CONTROLBAR:ToolTipToggleHaldirWeapons",
+   "CONTROLBAR:HaldirSkillMarchwardens",
+   "CONTROLBAR:ToolTipHaldirSkillMarchwardens",
+   "CONTROLBAR:HaldirLeadershipCampaign",
+   "CONTROLBAR:ToolTipHaldirLeadershipCampaign",
+   "CONTROLBAR:HaldirLastStand",
+   "CONTROLBAR:TooltipHaldirLastStand",
+   "CONTROLBAR:ToggleHaldirWeapons",
+   "CONTROLBAR:ToolTipToggleElvenWarriorWeapons",
+   "CONTROLBAR:GwedhanarLeadership",
+   "CONTROLBAR:ToolTipGwedhanarLeadershipHaldir",
+   "CONTROLBAR:HaldirLeadership",
+   "CONTROLBAR:ToolTipHaldirLeadershipGifts",
+   "CONTROLBAR:HaldirTeleport",
+   "CONTROLBAR:ToolTipHaldirTeleport",
+   "CONTROLBAR:ToolTipHaldirLeadership"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:ToggleHaldirWeaponsLorien",
+   "CONTROLBAR:ToolTipToggleHaldirWeapons",
+   "CONTROLBAR:HaldirLastStand",
+   "CONTROLBAR:TooltipHaldirLastStand",
+   "CONTROLBAR:GwedhanarLeadership",
+   "CONTROLBAR:ToolTipGwedhanarLeadershipHaldir",
+   "CONTROLBAR:HaldirLeadership",
+   "CONTROLBAR:ToolTipHaldirLeadershipGifts",
+   "CONTROLBAR:HaldirTeleport",
+   "CONTROLBAR:ToolTipHaldirTeleport",
+   "CONTROLBAR:ToolTipHaldirLeadership"
+  ]
+ },
+ {
+  "name": "Legolas",
+  "names": [
+   "OBJECT:RohanLegolas"
+  ],
+  "campaign_templates": [
+   "FellowshipLegolas",
+   "RohanLegolas"
+  ],
+  "skirmish_templates": [
+   "MirkwoodLegolas"
+  ],
+  "missions": [
+   "AmonHen",
+   "BlackGate",
+   "CirithUngol",
+   "Council",
+   "DurinsTower",
+   "EavesofFangorn",
+   "FordsofIsen",
+   "GreyCompany",
+   "GreyHavens",
+   "HelmsDeep",
+   "Isengard",
+   "Ithilien",
+   "Khazad",
+   "LightingoftheBeacons",
+   "LordoftheRings",
+   "Lothlorien",
+   "ManyPartings",
+   "MinasTirithInner",
+   "MinasTirithOuter",
+   "Moria",
+   "Osgiliath",
+   "Party",
+   "PathsoftheDead",
+   "Pelargir",
+   "PelennorFields",
+   "Redhorn",
+   "ScouringoftheShire",
+   "TamingofSmeagol",
+   "Westfold"
+  ],
+  "first": 2,
+  "campaign": [
+   "CONTROLBAR:ToolTipToggleLegolasWeapons",
+   "CONTROLBAR:FellowshipHawkStrike",
+   "CONTROLBAR:ToolTipHawkStrike",
+   "CONTROLBAR:PrinceMirkwood",
+   "CONTROLBAR:ToolTipFellowshipLegolasPrinceMirkwood",
+   "CONTROLBAR:FellowshipLegolasSlayer",
+   "CONTROLBAR:ToolTipFellowshipLegolasSlayer",
+   "CONTROLBAR:Dwarf-friendCampaign",
+   "CONTROLBAR:ToolTipDwarfFriendCampaign",
+   "CONTROLBAR:HawkStrike",
+   "CONTROLBAR:TransportExit",
+   "CONTROLBAR:ToolTipTransportExit",
+   "CONTROLBAR:LegolasToggleMount",
+   "CONTROLBAR:TrainArchers",
+   "CONTROLBAR:ToolTipLegolasTrainArchers",
+   "CONTROLBAR:KnifeFighter",
+   "CONTROLBAR:ToolTipKnifeFighter",
+   "CONTROLBAR:ArrowWind",
+   "CONTROLBAR:ToolTipArrowWind"
+  ],
+  "skirmish": [
+   "CONTROLBAR:ToolTipFellowshipLegolasTrainArchers",
+   "CONTROLBAR:LegolasDwarfFriend",
+   "CONTROLBAR:TooltipLegolasDwarfFriend"
+  ],
+  "both": [
+   "CONTROLBAR:ToolTipToggleLegolasWeapons",
+   "CONTROLBAR:FellowshipHawkStrike",
+   "CONTROLBAR:ToolTipHawkStrike",
+   "CONTROLBAR:PrinceMirkwood",
+   "CONTROLBAR:FellowshipLegolasSlayer",
+   "CONTROLBAR:ToolTipFellowshipLegolasSlayer",
+   "CONTROLBAR:HawkStrike"
+  ]
+ },
+ {
+  "name": "Madril",
+  "names": [
+   "OBJECT:GondorMadril"
+  ],
+  "campaign_templates": [
+   "CampaignMadril"
+  ],
+  "skirmish_templates": [
+   "CampaignMadril"
+  ],
+  "missions": [
+   "BlackGate",
+   "CirithUngol",
+   "Council",
+   "DurinsTower",
+   "EavesofFangorn",
+   "FordsofIsen",
+   "GreyCompany",
+   "GreyHavens",
+   "HelmsDeep",
+   "Isengard",
+   "Ithilien",
+   "LightingoftheBeacons",
+   "LordoftheRings",
+   "ManyPartings",
+   "MinasTirithInner",
+   "MinasTirithOuter",
+   "Osgiliath",
+   "Party",
+   "PathsoftheDead",
+   "Pelargir",
+   "ScouringoftheShire",
+   "TamingofSmeagol",
+   "Westfold"
+  ],
+  "first": 2,
+  "campaign": [
+   "CONTROLBAR:FaramirLeadership",
+   "CONTROLBAR:ToolTipFaramirLeadership",
+   "CONTROLBAR:FaramirDesperateCharge",
+   "CONTROLBAR:ToolTipFaramirDesperateCharge",
+   "CONTROLBAR:FaramirKnightRanger",
+   "CONTROLBAR:CaptainofGondorF",
+   "CONTROLBAR:ToolTipCaptainofGondor",
+   "CONTROLBAR:MadrilLeadership",
+   "CONTROLBAR:TooltipMadrilLeadership",
+   "CONTROLBAR:MadrilSnare",
+   "CONTROLBAR:ToolTipMadrilSnare"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:FaramirLeadership",
+   "CONTROLBAR:ToolTipFaramirLeadership",
+   "CONTROLBAR:FaramirDesperateCharge",
+   "CONTROLBAR:ToolTipFaramirDesperateCharge",
+   "CONTROLBAR:FaramirKnightRanger",
+   "CONTROLBAR:CaptainofGondorF",
+   "CONTROLBAR:ToolTipCaptainofGondor",
+   "CONTROLBAR:MadrilLeadership",
+   "CONTROLBAR:TooltipMadrilLeadership",
+   "CONTROLBAR:MadrilSnare",
+   "CONTROLBAR:ToolTipMadrilSnare"
+  ]
+ },
+ {
+  "name": "Merry",
+  "names": [
+   "OBJECT:RohanMerry"
+  ],
+  "campaign_templates": [
+   "FellowshipMerry",
+   "RohanMerry"
+  ],
+  "skirmish_templates": [
+   "RohanMerry"
+  ],
+  "missions": [
+   "AmonHen",
+   "BlackGate",
+   "Bree",
+   "CirithUngol",
+   "Council",
+   "DurinsTower",
+   "EavesofFangorn",
+   "FordsofIsen",
+   "GreyCompany",
+   "GreyHavens",
+   "HelmsDeep",
+   "Isengard",
+   "Ithilien",
+   "Khazad",
+   "LightingoftheBeacons",
+   "LordoftheRings",
+   "Lothlorien",
+   "ManyPartings",
+   "MinasTirithInner",
+   "MinasTirithOuter",
+   "Moria",
+   "Osgiliath",
+   "Party",
+   "PathsoftheDead",
+   "Pelargir",
+   "PelennorFields",
+   "Redhorn",
+   "ScouringoftheShire",
+   "TamingofSmeagol",
+   "Weathertop",
+   "Westfold"
+  ],
+  "first": 2,
+  "campaign": [
+   "CONTROLBAR:tooltipCommand_ToggleEntRockThrow",
+   "CONTROLBAR:ElvenCloak",
+   "CONTROLBAR:ToolTipElvenCloakCampaign",
+   "CONTROLBAR:ToolTipElvenCloak",
+   "CONTROLBAR:BladeofWesternesse",
+   "CONTROLBAR:TooltipBladeofWesternesse",
+   "CONTROLBAR:MerryLeadership",
+   "CONTROLBAR:ToolTipMerryLeadership",
+   "CONTROLBAR:MerryBlade",
+   "CONTROLBAR:ToolTipMerryBlade"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:tooltipCommand_ToggleEntRockThrow",
+   "CONTROLBAR:ElvenCloak",
+   "CONTROLBAR:ToolTipElvenCloak",
+   "CONTROLBAR:BladeofWesternesse",
+   "CONTROLBAR:TooltipBladeofWesternesse",
+   "CONTROLBAR:MerryLeadership",
+   "CONTROLBAR:ToolTipMerryLeadership",
+   "CONTROLBAR:MerryBlade",
+   "CONTROLBAR:ToolTipMerryBlade"
+  ]
+ },
+ {
+  "name": "Pippin",
+  "names": [
+   "OBJECT:RohanPippin"
+  ],
+  "campaign_templates": [
+   "FellowshipPippin",
+   "RohanPippin"
+  ],
+  "skirmish_templates": [
+   "RohanPippin"
+  ],
+  "missions": [
+   "AmonHen",
+   "BlackGate",
+   "Bree",
+   "CirithUngol",
+   "Council",
+   "DurinsTower",
+   "EavesofFangorn",
+   "FordsofIsen",
+   "GreyCompany",
+   "GreyHavens",
+   "HelmsDeep",
+   "Isengard",
+   "Ithilien",
+   "Khazad",
+   "LightingoftheBeacons",
+   "LordoftheRings",
+   "Lothlorien",
+   "ManyPartings",
+   "MinasTirithInner",
+   "MinasTirithOuter",
+   "Moria",
+   "Osgiliath",
+   "Party",
+   "PathsoftheDead",
+   "Pelargir",
+   "PelennorFields",
+   "Redhorn",
+   "ScouringoftheShire",
+   "TamingofSmeagol",
+   "Weathertop",
+   "Westfold"
+  ],
+  "first": 2,
+  "campaign": [
+   "CONTROLBAR:tooltipCommand_ToggleEntRockThrow",
+   "CONTROLBAR:ElvenCloak",
+   "CONTROLBAR:ToolTipElvenCloakCampaign",
+   "CONTROLBAR:FellowshipPippinCitadelGuard",
+   "CONTROLBAR:TooltipFellowshipPippinCitadelGuard",
+   "CONTROLBAR:FellowshipMerryHalflingCourage",
+   "CONTROLBAR:TooltipFellowshipPippinHalflingCourage",
+   "CONTROLBAR:FellowshipPippinPeriannath",
+   "CONTROLBAR:ToolTipFellowshipPippinPeriannath",
+   "CONTROLBAR:Trollbane",
+   "CONTROLBAR:ToolTipTrollbane",
+   "CONTROLBAR:ToolTipHobbitRockLure",
+   "CONTROLBAR:HobbitRockLure",
+   "CONTROLBAR:PippinSpeed",
+   "CONTROLBAR:TooltipPippinSpeed",
+   "CONTROLBAR:PippinFarsight",
+   "CONTROLBAR:ToolTipPippinFarsight",
+   "CONTROLBAR:TooltipTrollbane",
+   "CONTROLBAR:ToolTipElvenCloak",
+   "CONTROLBAR:BladeofWesternesse",
+   "CONTROLBAR:TooltipBladeofWesternesse",
+   "CONTROLBAR:PippinCourage",
+   "CONTROLBAR:ToolTipPippinCourage"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:tooltipCommand_ToggleEntRockThrow",
+   "CONTROLBAR:ElvenCloak",
+   "CONTROLBAR:Trollbane",
+   "CONTROLBAR:ToolTipTrollbane",
+   "CONTROLBAR:ToolTipElvenCloak",
+   "CONTROLBAR:BladeofWesternesse",
+   "CONTROLBAR:TooltipBladeofWesternesse",
+   "CONTROLBAR:PippinCourage",
+   "CONTROLBAR:ToolTipPippinCourage"
+  ]
+ },
+ {
+  "name": "Prince Imrahil",
+  "names": [
+   "OBJECT:GondorImrahil"
+  ],
+  "campaign_templates": [
+   "CampaignImrahil"
+  ],
+  "skirmish_templates": [
+   "GondorImrahil"
+  ],
+  "missions": [
+   "BlackGate",
+   "GreyHavens",
+   "ManyPartings",
+   "MinasTirithInner",
+   "MinasTirithOuter",
+   "Party",
+   "PelennorFields",
+   "ScouringoftheShire"
+  ],
+  "first": 2,
+  "campaign": [
+   "CONTROLBAR:TheodenMountW",
+   "CONTROLBAR:ImrahilLeadership",
+   "CONTROLBAR:ToolTipImrahilLeadership",
+   "CONTROLBAR:SpecialPowerImrahilUnscathed",
+   "CONTROLBAR:ToolTipSpecialPowerImrahilUnscathed",
+   "CONTROLBAR:ImrahilCounsel",
+   "CONTROLBAR:ToolTipImrahilCounsel",
+   "CONTROLBAR:ImrahilAmroth",
+   "CONTROLBAR:ToolTipImrahilAmroth",
+   "CONTROLBAR:ToolTipCampaignImrahilLeadership",
+   "CONTROLBAR:PrincelyStrike",
+   "CONTROLBAR:ToolTipPrincelyStrike",
+   "CONTROLBAR:GandalfNewMountCampaignNoHotkey",
+   "CONTROLBAR:ToolTipShadowfax"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:TheodenMountW",
+   "CONTROLBAR:ImrahilLeadership",
+   "CONTROLBAR:ToolTipImrahilLeadership",
+   "CONTROLBAR:SpecialPowerImrahilUnscathed",
+   "CONTROLBAR:ToolTipSpecialPowerImrahilUnscathed",
+   "CONTROLBAR:ImrahilCounsel",
+   "CONTROLBAR:ToolTipImrahilCounsel",
+   "CONTROLBAR:ImrahilAmroth",
+   "CONTROLBAR:ToolTipImrahilAmroth"
+  ]
+ },
+ {
+  "name": "Sam",
+  "names": [
+   "OBJECT:RohanSam"
+  ],
+  "campaign_templates": [
+   "FellowshipSam",
+   "RohanSam"
+  ],
+  "skirmish_templates": [
+   "FellowshipSam"
+  ],
+  "missions": [
+   "AmonHen",
+   "BlackGate",
+   "Bree",
+   "CirithUngol",
+   "Council",
+   "DurinsTower",
+   "EavesofFangorn",
+   "FordsofIsen",
+   "GreyCompany",
+   "GreyHavens",
+   "HelmsDeep",
+   "Isengard",
+   "Ithilien",
+   "Khazad",
+   "LightingoftheBeacons",
+   "LordoftheRings",
+   "Lothlorien",
+   "ManyPartings",
+   "MinasTirithInner",
+   "MinasTirithOuter",
+   "Moria",
+   "Osgiliath",
+   "Party",
+   "PathsoftheDead",
+   "Pelargir",
+   "PelennorFields",
+   "Redhorn",
+   "ScouringoftheShire",
+   "TamingofSmeagol",
+   "Weathertop",
+   "Westfold"
+  ],
+  "first": 2,
+  "campaign": [
+   "CONTROLBAR:tooltipCommand_ToggleEntRockThrow",
+   "CONTROLBAR:ElvenCloak",
+   "CONTROLBAR:ToolTipElvenCloakCampaign",
+   "CONTROLBAR:SamwiseBlademaster",
+   "CONTROLBAR:TooltipSamwiseBladeMaster_Campaign",
+   "CONTROLBAR:StewPot",
+   "CONTROLBAR:ToolTipStewPot_Campaign",
+   "CONTROLBAR:ToolTipElvenCloak",
+   "CONTROLBAR:TooltipSamwiseBlademaster",
+   "CONTROLBAR:SamwiseFrodoLeadership",
+   "CONTROLBAR:ToolTipSamwiseFrodoLeadership",
+   "CONTROLBAR:ToolTipStewPot"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:tooltipCommand_ToggleEntRockThrow",
+   "CONTROLBAR:ElvenCloak",
+   "CONTROLBAR:ToolTipElvenCloakCampaign",
+   "CONTROLBAR:SamwiseBlademaster",
+   "CONTROLBAR:TooltipSamwiseBladeMaster_Campaign",
+   "CONTROLBAR:StewPot",
+   "CONTROLBAR:ToolTipStewPot_Campaign"
+  ]
+ },
+ {
+  "name": "Éomer",
+  "names": [
+   "OBJECT:RohanEomer"
+  ],
+  "campaign_templates": [
+   "CampaignEomer",
+   "RohanEomer"
+  ],
+  "skirmish_templates": [
+   "RohanEomer"
+  ],
+  "missions": [
+   "BlackGate",
+   "CirithUngol",
+   "DurinsTower",
+   "EavesofFangorn",
+   "FordsofIsen",
+   "GreyCompany",
+   "GreyHavens",
+   "HelmsDeep",
+   "Isengard",
+   "Ithilien",
+   "LightingoftheBeacons",
+   "LordoftheRings",
+   "ManyPartings",
+   "MinasTirithInner",
+   "MinasTirithOuter",
+   "Osgiliath",
+   "Party",
+   "PathsoftheDead",
+   "Pelargir",
+   "PelennorFields",
+   "ScouringoftheShire",
+   "TamingofSmeagol",
+   "Westfold"
+  ],
+  "first": 2,
+  "campaign": [
+   "CONTROLBAR:HorseLordLeadership",
+   "CONTROLBAR:ToolTipEomerLeadership",
+   "CONTROLBAR:EomerNewMount",
+   "CONTROLBAR:EomerNewMountTooltip",
+   "CONTROLBAR:ThrowSpear",
+   "CONTROLBAR:ToolTipThrowSpear",
+   "CONTROLBAR:EomerBlademaster",
+   "CONTROLBAR:TooltipEomerBlademaster",
+   "CONTROLBAR:EomerStandGround",
+   "CONTROLBAR:ToolTipEomerStandGround"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:HorseLordLeadership",
+   "CONTROLBAR:ToolTipEomerLeadership",
+   "CONTROLBAR:EomerNewMount",
+   "CONTROLBAR:EomerNewMountTooltip",
+   "CONTROLBAR:ThrowSpear",
+   "CONTROLBAR:ToolTipThrowSpear",
+   "CONTROLBAR:EomerBlademaster",
+   "CONTROLBAR:TooltipEomerBlademaster",
+   "CONTROLBAR:EomerStandGround",
+   "CONTROLBAR:ToolTipEomerStandGround"
+  ]
+ },
+ {
+  "name": "Gildor Inglorion",
+  "names": [
+   "OBJECT:Gildor"
+  ],
+  "campaign_templates": [
+   "ElvenGildor"
+  ],
+  "skirmish_templates": [
+   "ElvenGildor"
+  ],
+  "missions": [
+   "Bree"
+  ],
+  "first": 3,
+  "campaign": [
+   "CONTROLBAR:GildorLeadership",
+   "CONTROLBAR:ToolTipGildorLeadership",
+   "CONTROLBAR:GildorExiles",
+   "CONTROLBAR:TooltipGildorExiles",
+   "CONTROLBAR:GildorTelperion",
+   "CONTROLBAR:ToolTipGildorTelperion",
+   "CONTROLBAR:TooltipGildorExiles_Campaign",
+   "CONTROLBAR:ToolTipGildorTelperion_Campaign"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:GildorLeadership",
+   "CONTROLBAR:ToolTipGildorLeadership",
+   "CONTROLBAR:GildorExiles",
+   "CONTROLBAR:TooltipGildorExiles",
+   "CONTROLBAR:GildorTelperion",
+   "CONTROLBAR:ToolTipGildorTelperion",
+   "CONTROLBAR:TooltipGildorExiles_Campaign",
+   "CONTROLBAR:ToolTipGildorTelperion_Campaign"
+  ]
+ },
+ {
+  "name": "Arwen Undómiel",
+  "names": [
+   "OBJECT:ElvenArwen"
+  ],
+  "campaign_templates": [
+   "CampaignArwen",
+   "ElvenArwen"
+  ],
+  "skirmish_templates": [
+   "ElvenArwen"
+  ],
+  "missions": [
+   "Council",
+   "Weathertop"
+  ],
+  "first": 4,
+  "campaign": [
+   "CONTROLBAR:TheodenMountW",
+   "CONTROLBAR:UndomielLeadership",
+   "CONTROLBAR:TooltipUndomielLeadership",
+   "CONTROLBAR:ArwenEvenstarCampaign",
+   "CONTROLBAR:ToolTipArwenEvenstarCampaign",
+   "CONTROLBAR:ArwenFlood",
+   "CONTROLBAR:ToolTipArwenFloodCampaign",
+   "CONTROLBAR:DaughterElrond",
+   "CONTROLBAR:ToolTipDaughterElrond",
+   "CONTROLBAR:SpecialPowerUndomiel",
+   "CONTROLBAR:ToolTipSpecialPowerUndomiel",
+   "CONTROLBAR:TinuvielBlessing",
+   "CONTROLBAR:ToolTipTinuvielBlessing",
+   "CONTROLBAR:ArwenImage",
+   "CONTROLBAR:ToolTipArwenImage",
+   "CONTROLBAR:ArwenEvenstar",
+   "CONTROLBAR:ToolTipArwenEvenstar",
+   "CONTROLBAR:SpecialPowerUndomielFinal",
+   "CONTROLBAR:ToolTipSpecialPowerUndomielFinal"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:DaughterElrond",
+   "CONTROLBAR:ToolTipDaughterElrond",
+   "CONTROLBAR:SpecialPowerUndomiel",
+   "CONTROLBAR:ToolTipSpecialPowerUndomiel",
+   "CONTROLBAR:TinuvielBlessing",
+   "CONTROLBAR:ToolTipTinuvielBlessing",
+   "CONTROLBAR:ArwenImage",
+   "CONTROLBAR:ToolTipArwenImage",
+   "CONTROLBAR:ArwenEvenstar",
+   "CONTROLBAR:ToolTipArwenEvenstar",
+   "CONTROLBAR:SpecialPowerUndomielFinal",
+   "CONTROLBAR:ToolTipSpecialPowerUndomielFinal"
+  ]
+ },
+ {
+  "name": "Glorfindel",
+  "names": [
+   "OBJECT:ElvenGlorfindel"
+  ],
+  "campaign_templates": [
+   "ElvenGlorfindel"
+  ],
+  "skirmish_templates": [
+   "ElvenGlorfindel"
+  ],
+  "missions": [
+   "Council",
+   "Weathertop"
+  ],
+  "first": 4,
+  "campaign": [
+   "CONTROLBAR:GlorfindelNewMount",
+   "CONTROLBAR:GlorfindelNewMountTooltip",
+   "CONTROLBAR:GlorfindelWrath",
+   "CONTROLBAR:ToolTipGlorfindelWrath",
+   "CONTROLBAR:GlorfindelWindRider",
+   "CONTROLBAR:ToolTipGlorfindelWindRider",
+   "CONTROLBAR:GlorfindelLight",
+   "CONTROLBAR:ToolTipGlorfindelLight",
+   "CONTROLBAR:GlorfindelSlayer",
+   "CONTROLBAR:ToolTipGlorfindelSlayer"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:GlorfindelNewMount",
+   "CONTROLBAR:GlorfindelNewMountTooltip",
+   "CONTROLBAR:GlorfindelWrath",
+   "CONTROLBAR:ToolTipGlorfindelWrath",
+   "CONTROLBAR:GlorfindelWindRider",
+   "CONTROLBAR:ToolTipGlorfindelWindRider",
+   "CONTROLBAR:GlorfindelLight",
+   "CONTROLBAR:ToolTipGlorfindelLight",
+   "CONTROLBAR:GlorfindelSlayer",
+   "CONTROLBAR:ToolTipGlorfindelSlayer"
+  ]
+ },
+ {
+  "name": "Bifur",
+  "names": [
+   "OBJECT:DwarvenBifur"
+  ],
+  "campaign_templates": [
+   "DwarvenBifur"
+  ],
+  "skirmish_templates": [
+   "DwarvenBifur"
+  ],
+  "missions": [
+   "BattleofDale",
+   "Council"
+  ],
+  "first": 6,
+  "campaign": [
+   "CONTROLBAR:WorkingClassDwarves",
+   "CONTROLBAR:ToolTipWorkingClassDwarves",
+   "CONTROLBAR:BifurSkewer",
+   "CONTROLBAR:ToolTipBifurSkewer"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:WorkingClassDwarves",
+   "CONTROLBAR:ToolTipWorkingClassDwarves",
+   "CONTROLBAR:BifurSkewer",
+   "CONTROLBAR:ToolTipBifurSkewer"
+  ]
+ },
+ {
+  "name": "Bilbo",
+  "names": [
+   "OBJECT:Bilbo"
+  ],
+  "campaign_templates": [
+   "CampaignBilboYoung",
+   "CampaignOldBilbo",
+   "RingHeroBilbo"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "Council"
+  ],
+  "first": 6,
+  "campaign": [
+   "CONTROLBAR:tooltipCommand_ToggleEntRockThrow",
+   "CONTROLBAR:TheOneRing",
+   "CONTROLBAR:ToolTipTheOneRing",
+   "CONTROLBAR:BilboRiddleMaker",
+   "CONTROLBAR:ToolTipBilboRiddleMaker",
+   "CONTROLBAR:BilboLeadership",
+   "CONTROLBAR:ToolTipBilboLeadership",
+   "CONTROLBAR:BilboOldFriends",
+   "CONTROLBAR:TooltipBilboOldFriends"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Bofur",
+  "names": [
+   "OBJECT:DwarvenBofur"
+  ],
+  "campaign_templates": [
+   "DwarvenBofur"
+  ],
+  "skirmish_templates": [
+   "DwarvenBofur"
+  ],
+  "missions": [
+   "BattleofDale",
+   "Council"
+  ],
+  "first": 6,
+  "campaign": [
+   "CONTROLBAR:WorkingClassDwarves",
+   "CONTROLBAR:ToolTipWorkingClassDwarves",
+   "CONTROLBAR:BofurSong",
+   "CONTROLBAR:TooltipBofurSong"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:WorkingClassDwarves",
+   "CONTROLBAR:ToolTipWorkingClassDwarves",
+   "CONTROLBAR:BofurSong",
+   "CONTROLBAR:TooltipBofurSong"
+  ]
+ },
+ {
+  "name": "Bombur",
+  "names": [
+   "OBJECT:Bombur"
+  ],
+  "campaign_templates": [
+   "DwarvenBombur"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "BattleofDale",
+   "Council"
+  ],
+  "first": 6,
+  "campaign": [
+   "CONTROLBAR:WorkingClassDwarves",
+   "CONTROLBAR:ToolTipWorkingClassDwarves",
+   "CONTROLBAR:BomburBellySlam",
+   "CONTROLBAR:ToolTipBomburBellySlam"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Dori",
+  "names": [
+   "OBJECT:Dori"
+  ],
+  "campaign_templates": [
+   "DwarvenDori"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "BattleofDale",
+   "Council"
+  ],
+  "first": 6,
+  "campaign": [
+   "CONTROLBAR:DwarfBrothersThree",
+   "CONTROLBAR:ToolTipDwarfBrothersThree",
+   "CONTROLBAR:DoriConnoisseur",
+   "CONTROLBAR:ToolTipDoriConnoisseur"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Fili",
+  "names": [
+   "OBJECT:DwarvenFili"
+  ],
+  "campaign_templates": [
+   "DwarvenFili"
+  ],
+  "skirmish_templates": [
+   "DwarvenFili"
+  ],
+  "missions": [
+   "BattleofDale",
+   "Council"
+  ],
+  "first": 6,
+  "campaign": [
+   "CONTROLBAR:BrotherhoodLeadership",
+   "CONTROLBAR:ToolTipBrotherhoodKili",
+   "CONTROLBAR:FiliAxeThrow",
+   "CONTROLBAR:ToolTipFiliAxeThrow",
+   "CONTROLBAR:FiliSlayer",
+   "CONTROLBAR:ToolTipFiliSlayer",
+   "CONTROLBAR:FiliLeadership",
+   "CONTROLBAR:ToolTipFiliLeadership",
+   "CONTROLBAR:FiliSlayerCampaign",
+   "CONTROLBAR:ToolTipFiliSlayerCampaign"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:BrotherhoodLeadership",
+   "CONTROLBAR:ToolTipBrotherhoodKili",
+   "CONTROLBAR:FiliAxeThrow",
+   "CONTROLBAR:ToolTipFiliAxeThrow",
+   "CONTROLBAR:FiliSlayer",
+   "CONTROLBAR:ToolTipFiliSlayer",
+   "CONTROLBAR:FiliLeadership",
+   "CONTROLBAR:ToolTipFiliLeadership",
+   "CONTROLBAR:FiliSlayerCampaign",
+   "CONTROLBAR:ToolTipFiliSlayerCampaign"
+  ]
+ },
+ {
+  "name": "Glóin",
+  "names": [
+   "OBJECT:Gloin"
+  ],
+  "campaign_templates": [
+   "CampaignGloinBFME2",
+   "DwarvenGloinYoung"
+  ],
+  "skirmish_templates": [
+   "DwarvenGloin"
+  ],
+  "missions": [
+   "BattleofDale",
+   "Council"
+  ],
+  "first": 6,
+  "campaign": [
+   "CONTROLBAR:GloinHeal",
+   "CONTROLBAR:ToolTipGloinHeal",
+   "CONTROLBAR:ProudFather",
+   "CONTROLBAR:ToolTipProudFather",
+   "CONTROLBAR:GloinGloriousCharge",
+   "CONTROLBAR:TooltipGloinGloriousCharge",
+   "CONTROLBAR:VentureCapitalism",
+   "CONTROLBAR:ToolTipVentureCapitalism",
+   "CONTROLBAR:GloinSecretWays",
+   "CONTROLBAR:TooltipGloinSecretWays",
+   "CONTROLBAR:SonofGroin",
+   "CONTROLBAR:ToolTipSonofGroin",
+   "CONTROLBAR:GloinAxeThrow",
+   "CONTROLBAR:ToolTipAxeThrow",
+   "CONTROLBAR:CraftyFinancer"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:GloinHeal",
+   "CONTROLBAR:ToolTipGloinHeal",
+   "CONTROLBAR:ProudFather",
+   "CONTROLBAR:ToolTipProudFather",
+   "CONTROLBAR:GloinGloriousCharge",
+   "CONTROLBAR:TooltipGloinGloriousCharge",
+   "CONTROLBAR:VentureCapitalism",
+   "CONTROLBAR:ToolTipVentureCapitalism",
+   "CONTROLBAR:GloinSecretWays",
+   "CONTROLBAR:TooltipGloinSecretWays"
+  ]
+ },
+ {
+  "name": "Kili",
+  "names": [
+   "OBJECT:DwarvenKili"
+  ],
+  "campaign_templates": [
+   "DwarvenKili"
+  ],
+  "skirmish_templates": [
+   "DwarvenKili"
+  ],
+  "missions": [
+   "BattleofDale",
+   "Council"
+  ],
+  "first": 6,
+  "campaign": [
+   "CONTROLBAR:ToggleLurtzWeapon",
+   "CONTROLBAR:ToolTipToggleLurtzWeapon",
+   "CONTROLBAR:BrotherhoodLeadership",
+   "CONTROLBAR:ToolTipBrotherhoodFili",
+   "CONTROLBAR:KiliArrowDodge",
+   "CONTROLBAR:ToolTipKiliArrowDodge",
+   "CONTROLBAR:KiliQuickshot",
+   "CONTROLBAR:ToolTipKiliQuickshot",
+   "CONTROLBAR:KiliHighSpirits",
+   "CONTROLBAR:ToolTipKiliHighSpirits",
+   "CONTROLBAR:KiliQuickshotCampaign",
+   "CONTROLBAR:ToolTipKiliQuickshotCampaign"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:ToggleLurtzWeapon",
+   "CONTROLBAR:ToolTipToggleLurtzWeapon",
+   "CONTROLBAR:BrotherhoodLeadership",
+   "CONTROLBAR:ToolTipBrotherhoodFili",
+   "CONTROLBAR:KiliArrowDodge",
+   "CONTROLBAR:ToolTipKiliArrowDodge",
+   "CONTROLBAR:KiliQuickshot",
+   "CONTROLBAR:ToolTipKiliQuickshot",
+   "CONTROLBAR:KiliHighSpirits",
+   "CONTROLBAR:ToolTipKiliHighSpirits",
+   "CONTROLBAR:KiliQuickshotCampaign",
+   "CONTROLBAR:ToolTipKiliQuickshotCampaign"
+  ]
+ },
+ {
+  "name": "Lindir",
+  "names": [
+   "OBJECT:Lindir"
+  ],
+  "campaign_templates": [
+   "CampaignLindir"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "Council"
+  ],
+  "first": 6,
+  "campaign": [],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Lord Elrond",
+  "names": [
+   "OBJECT:ElvenElrond"
+  ],
+  "campaign_templates": [
+   "ElvenElrond"
+  ],
+  "skirmish_templates": [
+   "ElvenElrond"
+  ],
+  "missions": [
+   "Council"
+  ],
+  "first": 6,
+  "campaign": [
+   "CONTROLBAR:ElrondLeadership",
+   "CONTROLBAR:TooltipElrondLeadership",
+   "CONTROLBAR:HeraldOfGilGalad",
+   "CONTROLBAR:ToolTipHeraldOfGilGalad",
+   "CONTROLBAR:ElrondRingOfAir",
+   "CONTROLBAR:TooltipElrondRingOfAir",
+   "CONTROLBAR:ElrondHeavyArmor",
+   "CONTROLBAR:ToolTipElrondHeavyArmor",
+   "CONTROLBAR:ElrondEarendilion",
+   "CONTROLBAR:ToolTipElrondEarendilion"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:ElrondLeadership",
+   "CONTROLBAR:TooltipElrondLeadership",
+   "CONTROLBAR:HeraldOfGilGalad",
+   "CONTROLBAR:ToolTipHeraldOfGilGalad",
+   "CONTROLBAR:ElrondRingOfAir",
+   "CONTROLBAR:TooltipElrondRingOfAir",
+   "CONTROLBAR:ElrondHeavyArmor",
+   "CONTROLBAR:ToolTipElrondHeavyArmor",
+   "CONTROLBAR:ElrondEarendilion",
+   "CONTROLBAR:ToolTipElrondEarendilion"
+  ]
+ },
+ {
+  "name": "Nori",
+  "names": [
+   "OBJECT:Nori"
+  ],
+  "campaign_templates": [
+   "DwarvenNori"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "BattleofDale",
+   "Council"
+  ],
+  "first": 6,
+  "campaign": [
+   "CONTROLBAR:DwarfBrothersThree",
+   "CONTROLBAR:ToolTipDwarfBrothersThree",
+   "CONTROLBAR:ThievingVagabond",
+   "CONTROLBAR:ToolTipThievingVagabond"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Ori",
+  "names": [
+   "OBJECT:Ori"
+  ],
+  "campaign_templates": [
+   "DwarvenOri"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "BattleofDale",
+   "Council"
+  ],
+  "first": 6,
+  "campaign": [
+   "CONTROLBAR:DwarfBrothersThree",
+   "CONTROLBAR:ToolTipDwarfBrothersThree",
+   "CONTROLBAR:OriKeeperofRecords",
+   "CONTROLBAR:ToolTipOriKeeperofRecords"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Óin",
+  "names": [
+   "OBJECT:DwarvenOin"
+  ],
+  "campaign_templates": [
+   "DwarvenOin"
+  ],
+  "skirmish_templates": [
+   "DwarvenOin"
+  ],
+  "missions": [
+   "BattleofDale",
+   "Council",
+   "Moria"
+  ],
+  "first": 6,
+  "campaign": [
+   "CONTROLBAR:SonofGroin",
+   "CONTROLBAR:ToolTipSonofGroin",
+   "CONTROLBAR:OinRestoration",
+   "CONTROLBAR:ToolTipOinRestoration",
+   "CONTROLBAR:ToolTipOinOintments",
+   "CONTROLBAR:OinTrumpet",
+   "CONTROLBAR:ToolTipOinTrumpet"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:SonofGroin",
+   "CONTROLBAR:ToolTipSonofGroin",
+   "CONTROLBAR:OinRestoration",
+   "CONTROLBAR:ToolTipOinRestoration",
+   "CONTROLBAR:ToolTipOinOintments",
+   "CONTROLBAR:OinTrumpet",
+   "CONTROLBAR:ToolTipOinTrumpet"
+  ]
+ },
+ {
+  "name": "Celeborn",
+  "names": [
+   "OBJECT:ElvenLorienCeleborn"
+  ],
+  "campaign_templates": [
+   "ElvenCeleborn"
+  ],
+  "skirmish_templates": [
+   "ElvenCeleborn"
+  ],
+  "missions": [
+   "Lothlorien"
+  ],
+  "first": 10,
+  "campaign": [
+   "CONTROLBAR:CelebornLeadership",
+   "CONTROLBAR:TooltipCelebornLeadership",
+   "CONTROLBAR:SilverHost",
+   "CONTROLBAR:ToolTipSilverHost",
+   "CONTROLBAR:SpecialPowerCelebornCunning",
+   "CONTROLBAR:ToolTipSpecialPowerCelebornCunning",
+   "CONTROLBAR:CelebornArmor",
+   "CONTROLBAR:ToolTipCelebornArmor",
+   "CONTROLBAR:CelebornWise",
+   "CONTROLBAR:ToolTipCelebornWise",
+   "CONTROLBAR:TooltipCelebornLeadershipGifts"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:CelebornLeadership",
+   "CONTROLBAR:TooltipCelebornLeadership",
+   "CONTROLBAR:SilverHost",
+   "CONTROLBAR:ToolTipSilverHost",
+   "CONTROLBAR:SpecialPowerCelebornCunning",
+   "CONTROLBAR:ToolTipSpecialPowerCelebornCunning",
+   "CONTROLBAR:CelebornArmor",
+   "CONTROLBAR:ToolTipCelebornArmor",
+   "CONTROLBAR:CelebornWise",
+   "CONTROLBAR:ToolTipCelebornWise",
+   "CONTROLBAR:TooltipCelebornLeadershipGifts"
+  ]
+ },
+ {
+  "name": "Galadriel",
+  "names": [
+   "OBJECT:ElvenGaladriel"
+  ],
+  "campaign_templates": [
+   "ElvenGaladrielLorien"
+  ],
+  "skirmish_templates": [
+   "ElvenGaladrielLorien"
+  ],
+  "missions": [
+   "Lothlorien"
+  ],
+  "first": 10,
+  "campaign": [
+   "CONTROLBAR:GaladrielForesight",
+   "CONTROLBAR:ToolTipGaladrielForesight",
+   "CONTROLBAR:GaladrielLeadership",
+   "CONTROLBAR:ToolTipGaladrielLeadership",
+   "CONTROLBAR:GaladrielFear",
+   "CONTROLBAR:TooltipGaladrielFear",
+   "CONTROLBAR:SpecialPowerGaladrielNenya",
+   "CONTROLBAR:TooltipSpecialPowerGaladrielNenya",
+   "CONTROLBAR:GaladrielStormQueen",
+   "CONTROLBAR:ToolTipGaladrielStormQueen",
+   "CONTROLBAR:TooltipGaladrielFearGifts"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:GaladrielForesight",
+   "CONTROLBAR:ToolTipGaladrielForesight",
+   "CONTROLBAR:GaladrielLeadership",
+   "CONTROLBAR:ToolTipGaladrielLeadership",
+   "CONTROLBAR:GaladrielFear",
+   "CONTROLBAR:TooltipGaladrielFear",
+   "CONTROLBAR:SpecialPowerGaladrielNenya",
+   "CONTROLBAR:TooltipSpecialPowerGaladrielNenya",
+   "CONTROLBAR:GaladrielStormQueen",
+   "CONTROLBAR:ToolTipGaladrielStormQueen",
+   "CONTROLBAR:TooltipGaladrielFearGifts"
+  ]
+ },
+ {
+  "name": "Idrial",
+  "names": [
+   "OBJECT:ElvenIdrial"
+  ],
+  "campaign_templates": [
+   "ElvenIdrial"
+  ],
+  "skirmish_templates": [
+   "ElvenIdrial"
+  ],
+  "missions": [
+   "Lothlorien"
+  ],
+  "first": 10,
+  "campaign": [
+   "CONTROLBAR:Fluidstrike",
+   "CONTROLBAR:ToolTipFluidstrike",
+   "CONTROLBAR:CleanseShadow",
+   "CONTROLBAR:ToolTipCleanseShadow",
+   "CONTROLBAR:GiftofGaladriel",
+   "CONTROLBAR:TooltipGiftofGaladriel",
+   "CONTROLBAR:HasteoftheElves",
+   "CONTROLBAR:ToolTipHasteoftheElves",
+   "CONTROLBAR:ToolTipCleanseShadowGifts"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:Fluidstrike",
+   "CONTROLBAR:ToolTipFluidstrike",
+   "CONTROLBAR:CleanseShadow",
+   "CONTROLBAR:ToolTipCleanseShadow",
+   "CONTROLBAR:GiftofGaladriel",
+   "CONTROLBAR:TooltipGiftofGaladriel",
+   "CONTROLBAR:HasteoftheElves",
+   "CONTROLBAR:ToolTipHasteoftheElves",
+   "CONTROLBAR:ToolTipCleanseShadowGifts"
+  ]
+ },
+ {
+  "name": "Orophin",
+  "names": [
+   "OBJECT:ElvenOrophin"
+  ],
+  "campaign_templates": [
+   "ElvenOrophin"
+  ],
+  "skirmish_templates": [
+   "ElvenOrophin"
+  ],
+  "missions": [
+   "HelmsDeep",
+   "Lothlorien"
+  ],
+  "first": 10,
+  "campaign": [
+   "CONTROLBAR:GwedhanarLeadership",
+   "CONTROLBAR:ToolTipGwedhanarLeadershipOrophin",
+   "CONTROLBAR:OrophinBladeMaster",
+   "CONTROLBAR:ToolTipOrophinBladeMaster",
+   "CONTROLBAR:OrophinLeadership",
+   "CONTROLBAR:ToolTipOrophinLeadership",
+   "CONTROLBAR:OrophinGloriousCharge",
+   "CONTROLBAR:ToolTipOrophinGloriousCharge",
+   "CONTROLBAR:OrophinBorderGuardsJudgement",
+   "CONTROLBAR:TooltipOrophinBorderGuardsJudgement",
+   "CONTROLBAR:ToolTipOrophinBladeMasterGifts"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:GwedhanarLeadership",
+   "CONTROLBAR:ToolTipGwedhanarLeadershipOrophin",
+   "CONTROLBAR:OrophinBladeMaster",
+   "CONTROLBAR:ToolTipOrophinBladeMaster",
+   "CONTROLBAR:OrophinLeadership",
+   "CONTROLBAR:ToolTipOrophinLeadership",
+   "CONTROLBAR:OrophinGloriousCharge",
+   "CONTROLBAR:ToolTipOrophinGloriousCharge",
+   "CONTROLBAR:OrophinBorderGuardsJudgement",
+   "CONTROLBAR:TooltipOrophinBorderGuardsJudgement",
+   "CONTROLBAR:ToolTipOrophinBladeMasterGifts"
+  ]
+ },
+ {
+  "name": "Rumil",
+  "names": [
+   "OBJECT:ElvenRumil"
+  ],
+  "campaign_templates": [
+   "ElvenRumil"
+  ],
+  "skirmish_templates": [
+   "ElvenRumil"
+  ],
+  "missions": [
+   "HelmsDeep",
+   "Lothlorien"
+  ],
+  "first": 10,
+  "campaign": [
+   "CONTROLBAR:GwedhanarLeadership",
+   "CONTROLBAR:ToolTipGwedhanarLeadershipRumil",
+   "CONTROLBAR:RumilWoundingArrow",
+   "CONTROLBAR:ToolTipRumilWoundingArrow",
+   "CONTROLBAR:RumilLeadership",
+   "CONTROLBAR:ToolTipRumilLeadership",
+   "CONTROLBAR:RumilSummon",
+   "CONTROLBAR:ToolTipRumilSummon",
+   "CONTROLBAR:ToolTipRumilWoundingArrowGifts"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:GwedhanarLeadership",
+   "CONTROLBAR:ToolTipGwedhanarLeadershipRumil",
+   "CONTROLBAR:RumilWoundingArrow",
+   "CONTROLBAR:ToolTipRumilWoundingArrow",
+   "CONTROLBAR:RumilLeadership",
+   "CONTROLBAR:ToolTipRumilLeadership",
+   "CONTROLBAR:RumilSummon",
+   "CONTROLBAR:ToolTipRumilSummon",
+   "CONTROLBAR:ToolTipRumilWoundingArrowGifts"
+  ]
+ },
+ {
+  "name": "Treebeard",
+  "names": [
+   "OBJECT:RohanTreeBeard"
+  ],
+  "campaign_templates": [
+   "RohanTreeBerd"
+  ],
+  "skirmish_templates": [
+   "RohanTreeBerd"
+  ],
+  "missions": [
+   "Isengard",
+   "Lothlorien",
+   "MinasTirithOuter"
+  ],
+  "first": 10,
+  "campaign": [
+   "CONTROLBAR:ThrowRocks",
+   "CONTROLBAR:TreeBeardLeadership",
+   "CONTROLBAR:ToolTipTreeBeardLeadership",
+   "CONTROLBAR:TreebeardRoar",
+   "CONTROLBAR:ToolTipTreebeardRoar",
+   "CONTROLBAR:TransportExitTreebeard",
+   "CONTROLBAR:ToolTipTransportExit",
+   "CONTROLBAR:GrabBuildingChunk",
+   "CONTROLBAR:ToolTipSpecialAbilityGrabBuildingChunk",
+   "CONTROLBAR:ToolTipBombard",
+   "CONTROLBAR:ToggleTrebWeapon",
+   "CONTROLBAR:StopBombard",
+   "CONTROLBAR:ToolTipCommandStopBombard"
+  ],
+  "skirmish": [
+   "CONTROLBAR:ConstructTreeBeard",
+   "CONTROLBAR:ToolTipBuildTreeBeard"
+  ],
+  "both": [
+   "CONTROLBAR:ThrowRocks",
+   "CONTROLBAR:TreeBeardLeadership",
+   "CONTROLBAR:ToolTipTreeBeardLeadership",
+   "CONTROLBAR:TreebeardRoar",
+   "CONTROLBAR:ToolTipTreebeardRoar",
+   "CONTROLBAR:TransportExitTreebeard",
+   "CONTROLBAR:ToolTipTransportExit",
+   "CONTROLBAR:GrabBuildingChunk",
+   "CONTROLBAR:ToolTipSpecialAbilityGrabBuildingChunk",
+   "CONTROLBAR:ToolTipBombard",
+   "CONTROLBAR:ToggleTrebWeapon",
+   "CONTROLBAR:StopBombard",
+   "CONTROLBAR:ToolTipCommandStopBombard"
+  ]
+ },
+ {
+  "name": "Grimbold",
+  "names": [
+   "OBJECT:RohanGrimbold"
+  ],
+  "campaign_templates": [
+   "CampaignGrimbold"
+  ],
+  "skirmish_templates": [
+   "CampaignGrimbold"
+  ],
+  "missions": [
+   "FordsofIsen",
+   "PelennorFields"
+  ],
+  "first": 12,
+  "campaign": [
+   "CONTROLBAR:GrimboldLeadership",
+   "CONTROLBAR:ToolTipGrimboldLeadership",
+   "CONTROLBAR:GrimboldProtection",
+   "CONTROLBAR:ToolTipGrimboldProtection",
+   "CONTROLBAR:GrimboldHeal",
+   "CONTROLBAR:ToolTipGrimboldHeal"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:GrimboldLeadership",
+   "CONTROLBAR:ToolTipGrimboldLeadership",
+   "CONTROLBAR:GrimboldProtection",
+   "CONTROLBAR:ToolTipGrimboldProtection",
+   "CONTROLBAR:GrimboldHeal",
+   "CONTROLBAR:ToolTipGrimboldHeal"
+  ]
+ },
+ {
+  "name": "Théodred",
+  "names": [
+   "OBJECT:RohanTheodred"
+  ],
+  "campaign_templates": [
+   "RohanTheodred"
+  ],
+  "skirmish_templates": [
+   "RohanTheodred"
+  ],
+  "missions": [
+   "FordsofIsen"
+  ],
+  "first": 12,
+  "campaign": [
+   "CONTROLBAR:TheodredIllFated",
+   "CONTROLBAR:ToolTipTheodredIllFated",
+   "CONTROLBAR:TheodredNewMount",
+   "CONTROLBAR:TheodredNewMountTooltip",
+   "CONTROLBAR:TheodredLuck",
+   "CONTROLBAR:ToolTipTheodredLuck",
+   "CONTROLBAR:TheodredPrinceRiddermark",
+   "CONTROLBAR:ToolTipTheodredPrinceRiddermark",
+   "CONTROLBAR:TheodredDetermination",
+   "CONTROLBAR:TooltipTheodredDetermination"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:TheodredIllFated",
+   "CONTROLBAR:ToolTipTheodredIllFated",
+   "CONTROLBAR:TheodredNewMount",
+   "CONTROLBAR:TheodredNewMountTooltip",
+   "CONTROLBAR:TheodredLuck",
+   "CONTROLBAR:ToolTipTheodredLuck",
+   "CONTROLBAR:TheodredPrinceRiddermark",
+   "CONTROLBAR:ToolTipTheodredPrinceRiddermark",
+   "CONTROLBAR:TheodredDetermination",
+   "CONTROLBAR:TooltipTheodredDetermination"
+  ]
+ },
+ {
+  "name": "Sinda Spirit",
+  "names": [
+   "OBJECT:ElvenOropher"
+  ],
+  "campaign_templates": [
+   "SecondAgeOropher"
+  ],
+  "skirmish_templates": [
+   "SecondAgeOropher"
+  ],
+  "missions": [
+   "TamingofSmeagol"
+  ],
+  "first": 13,
+  "campaign": [
+   "CONTROLBAR:OropherWordofPower",
+   "CONTROLBAR:ToolTipOropherWordofPower",
+   "CONTROLBAR:OropherAtonementStrike",
+   "CONTROLBAR:ToolTipOropherAtonementStrike"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:OropherWordofPower",
+   "CONTROLBAR:ToolTipOropherWordofPower",
+   "CONTROLBAR:OropherAtonementStrike",
+   "CONTROLBAR:ToolTipOropherAtonementStrike"
+  ]
+ },
+ {
+  "name": "Anborn",
+  "names": [
+   "OBJECT:GondorAnborn"
+  ],
+  "campaign_templates": [
+   "CampaignAnborn"
+  ],
+  "skirmish_templates": [
+   "CampaignAnborn"
+  ],
+  "missions": [
+   "Ithilien"
+  ],
+  "first": 16,
+  "campaign": [
+   "CONTROLBAR:AnbornMasterScout",
+   "CONTROLBAR:TooltipAnbornMasterScout",
+   "CONTROLBAR:AnbornPoisonArrows",
+   "CONTROLBAR:TooltipAnbornPoisonArrows"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:AnbornMasterScout",
+   "CONTROLBAR:TooltipAnbornMasterScout",
+   "CONTROLBAR:AnbornPoisonArrows",
+   "CONTROLBAR:TooltipAnbornPoisonArrows"
+  ]
+ },
+ {
+  "name": "Damrod",
+  "names": [
+   "OBJECT:GondorDamrod"
+  ],
+  "campaign_templates": [
+   "CampaignDamrod"
+  ],
+  "skirmish_templates": [
+   "CampaignDamrod"
+  ],
+  "missions": [
+   "Ithilien"
+  ],
+  "first": 16,
+  "campaign": [
+   "CONTROLBAR:FaramirLeadership",
+   "CONTROLBAR:ToolTipFaramirLeadership",
+   "CONTROLBAR:FaramirDesperateCharge",
+   "CONTROLBAR:ToolTipFaramirDesperateCharge",
+   "CONTROLBAR:FaramirKnightRanger",
+   "CONTROLBAR:CaptainofGondorF",
+   "CONTROLBAR:ToolTipCaptainofGondor",
+   "CONTROLBAR:DamrodSkilledHunter",
+   "CONTROLBAR:ToolTipDamrodSkilledHunter",
+   "CONTROLBAR:DamrodQuickDispatch",
+   "CONTROLBAR:ToolTipDamrodQuickDispatch"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:FaramirLeadership",
+   "CONTROLBAR:ToolTipFaramirLeadership",
+   "CONTROLBAR:FaramirDesperateCharge",
+   "CONTROLBAR:ToolTipFaramirDesperateCharge",
+   "CONTROLBAR:FaramirKnightRanger",
+   "CONTROLBAR:CaptainofGondorF",
+   "CONTROLBAR:ToolTipCaptainofGondor",
+   "CONTROLBAR:DamrodSkilledHunter",
+   "CONTROLBAR:ToolTipDamrodSkilledHunter",
+   "CONTROLBAR:DamrodQuickDispatch",
+   "CONTROLBAR:ToolTipDamrodQuickDispatch"
+  ]
+ },
+ {
+  "name": "Mablung",
+  "names": [
+   "OBJECT:GondorMablung"
+  ],
+  "campaign_templates": [
+   "CampaignMablung"
+  ],
+  "skirmish_templates": [
+   "CampaignMablung"
+  ],
+  "missions": [
+   "Ithilien"
+  ],
+  "first": 16,
+  "campaign": [
+   "CONTROLBAR:FaramirLeadership",
+   "CONTROLBAR:ToolTipFaramirLeadership",
+   "CONTROLBAR:FaramirDesperateCharge",
+   "CONTROLBAR:ToolTipFaramirDesperateCharge",
+   "CONTROLBAR:FaramirKnightRanger",
+   "CONTROLBAR:CaptainofGondorF",
+   "CONTROLBAR:ToolTipCaptainofGondor",
+   "CONTROLBAR:MablungKeenEyed",
+   "CONTROLBAR:TooltipMablungKeenEyed",
+   "CONTROLBAR:MablungLethalAim",
+   "CONTROLBAR:ToolTipMablungLethalAim"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:FaramirLeadership",
+   "CONTROLBAR:ToolTipFaramirLeadership",
+   "CONTROLBAR:FaramirDesperateCharge",
+   "CONTROLBAR:ToolTipFaramirDesperateCharge",
+   "CONTROLBAR:FaramirKnightRanger",
+   "CONTROLBAR:CaptainofGondorF",
+   "CONTROLBAR:ToolTipCaptainofGondor",
+   "CONTROLBAR:MablungKeenEyed",
+   "CONTROLBAR:TooltipMablungKeenEyed",
+   "CONTROLBAR:MablungLethalAim",
+   "CONTROLBAR:ToolTipMablungLethalAim"
+  ]
+ },
+ {
+  "name": "Dúnhere",
+  "names": [
+   "OBJECT:RohanDunhere"
+  ],
+  "campaign_templates": [
+   "CampaignDunhere"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "HelmsDeep",
+   "PelennorFields",
+   "Westfold"
+  ],
+  "first": 17,
+  "campaign": [
+   "CONTROLBAR:DunhereHoldLine",
+   "CONTROLBAR:ToolTipDunhereHoldLine",
+   "CONTROLBAR:DunhereCaptain",
+   "CONTROLBAR:ToolTipDunhereCaptain"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Amdir",
+  "names": [
+   "OBJECT:CampaignAmdir"
+  ],
+  "campaign_templates": [
+   "CampaignAmdir"
+  ],
+  "skirmish_templates": [
+   "CampaignAmdir"
+  ],
+  "missions": [
+   "GreyCompany"
+  ],
+  "first": 18,
+  "campaign": [
+   "CONTROLBAR:AmdirBanishingStrike",
+   "CONTROLBAR:ToolTipAmdirBanishingStrike",
+   "CONTROLBAR:AmdirNobleHeart",
+   "CONTROLBAR:TooltipAmdirNobleHeart",
+   "CONTROLBAR:FaramirLeadership",
+   "CONTROLBAR:ToolTipFaramirLeadership",
+   "CONTROLBAR:FaramirDesperateCharge",
+   "CONTROLBAR:ToolTipFaramirDesperateCharge",
+   "CONTROLBAR:FaramirKnightRanger",
+   "CONTROLBAR:CaptainofGondorF",
+   "CONTROLBAR:ToolTipCaptainofGondor"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:AmdirBanishingStrike",
+   "CONTROLBAR:ToolTipAmdirBanishingStrike",
+   "CONTROLBAR:AmdirNobleHeart",
+   "CONTROLBAR:TooltipAmdirNobleHeart",
+   "CONTROLBAR:FaramirLeadership",
+   "CONTROLBAR:ToolTipFaramirLeadership",
+   "CONTROLBAR:FaramirDesperateCharge",
+   "CONTROLBAR:ToolTipFaramirDesperateCharge",
+   "CONTROLBAR:FaramirKnightRanger",
+   "CONTROLBAR:CaptainofGondorF",
+   "CONTROLBAR:ToolTipCaptainofGondor"
+  ]
+ },
+ {
+  "name": "Elegost Dúnadan",
+  "names": [
+   "OBJECT:EreborElegost"
+  ],
+  "campaign_templates": [
+   "CampaignElegost"
+  ],
+  "skirmish_templates": [
+   "CampaignElegost"
+  ],
+  "missions": [
+   "GreyCompany"
+  ],
+  "first": 18,
+  "campaign": [
+   "CONTROLBAR:ElegostTrueShot",
+   "CONTROLBAR:ToolTipElegostTrueShot",
+   "CONTROLBAR:ElegostHeal",
+   "CONTROLBAR:ToolTipElegostHeal",
+   "CONTROLBAR:ElegostRangerCraft",
+   "CONTROLBAR:ToolTipElegostRangerCraft",
+   "CONTROLBAR:RangerLureIthilien",
+   "CONTROLBAR:ToolTipRangerLureIthilien"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:ElegostTrueShot",
+   "CONTROLBAR:ToolTipElegostTrueShot",
+   "CONTROLBAR:ElegostHeal",
+   "CONTROLBAR:ToolTipElegostHeal",
+   "CONTROLBAR:ElegostRangerCraft",
+   "CONTROLBAR:ToolTipElegostRangerCraft",
+   "CONTROLBAR:RangerLureIthilien",
+   "CONTROLBAR:ToolTipRangerLureIthilien"
+  ]
+ },
+ {
+  "name": "Farmer Maggot",
+  "names": [
+   "OBJECT:ArnorFarmerMaggot"
+  ],
+  "campaign_templates": [
+   "CampaignFarmerMaggot",
+   "CampaignFarmerMaggotPorter"
+  ],
+  "skirmish_templates": [
+   "ArnorFarmerMaggot"
+  ],
+  "missions": [
+   "GreyCompany"
+  ],
+  "first": 18,
+  "campaign": [
+   "CONTROLBAR:PorterExtinguishFire",
+   "CONTROLBAR:ToolTipPorterExtinguishFire",
+   "CONTROLBAR:ConstructMenFarm",
+   "CONTROLBAR:ToolTipConstructRohanFarm",
+   "CONTROLBAR:ConstructRohanWindmill",
+   "CONTROLBAR:ToolTipConstructRohanWindmill",
+   "CONTROLBAR:ConstructMenBarracks",
+   "CONTROLBAR:ToolTipConstructRohanBarracks",
+   "CONTROLBAR:ConstructMenArcheryRange",
+   "CONTROLBAR:ToolTipRohanArcheryRange",
+   "CONTROLBAR:ConstructMenStable",
+   "CONTROLBAR:ToolTipConstructRohanStable",
+   "CONTROLBAR:ConstructRohanWorkshop",
+   "CONTROLBAR:ToolTipConstructRohanWorkshop",
+   "CONTROLBAR:ConstructMenSentryTower",
+   "CONTROLBAR:ToolTipConstructGenericSentryTower",
+   "CONTROLBAR:ConstructRohanDraftTower",
+   "CONTROLBAR:ToolTipConstructRohanDraftTower",
+   "CONTROLBAR:ConstructRohanWell",
+   "CONTROLBAR:ConstructRohanStatue",
+   "CONTROLBAR:HeroicStatueBuildRohan",
+   "CONTROLBAR:ConstructMenWallHub",
+   "CONTROLBAR:ToolTipConstructMenWallHub",
+   "CONTROLBAR:ConstructMenFortress",
+   "CONTROLBAR:ToolTipConstructMenFortress"
+  ],
+  "skirmish": [
+   "CONTROLBAR:MaggotsHoundsLeadership",
+   "CONTROLBAR:ToolTipMaggotsHoundsLeadership",
+   "CONTROLBAR:MaggotsFarm",
+   "CONTROLBAR:ToolTipMaggotsFarmSummon"
+  ],
+  "both": []
+ },
+ {
+  "name": "Gamling",
+  "names": [
+   "OBJECT:RohanGamling"
+  ],
+  "campaign_templates": [
+   "CampaignGamling"
+  ],
+  "skirmish_templates": [
+   "RohanGamling"
+  ],
+  "missions": [
+   "GreyCompany",
+   "HelmsDeep",
+   "PelennorFields"
+  ],
+  "first": 18,
+  "campaign": [
+   "CONTROLBAR:GamlingWhateverEnd",
+   "CONTROLBAR:ToolTipGamlingWhateverEnd",
+   "CONTROLBAR:ToolTipGamlingWhateverEndCampaign"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:GamlingWhateverEnd",
+   "CONTROLBAR:ToolTipGamlingWhateverEnd"
+  ]
+ },
+ {
+  "name": "Lothrandir",
+  "names": [
+   "OBJECT:CampaignLothrandir"
+  ],
+  "campaign_templates": [
+   "CampaignLothrandir"
+  ],
+  "skirmish_templates": [
+   "CampaignLothrandir"
+  ],
+  "missions": [
+   "GreyCompany"
+  ],
+  "first": 18,
+  "campaign": [
+   "CONTROLBAR:LothrandirQuickDispatch",
+   "CONTROLBAR:ToolTipLothrandirQuickDispatch",
+   "CONTROLBAR:LothrandirSubtleWays",
+   "CONTROLBAR:ToolTipLothrandirSubtleWays",
+   "CONTROLBAR:FaramirLeadership",
+   "CONTROLBAR:ToolTipFaramirLeadership",
+   "CONTROLBAR:FaramirDesperateCharge",
+   "CONTROLBAR:ToolTipFaramirDesperateCharge",
+   "CONTROLBAR:FaramirKnightRanger",
+   "CONTROLBAR:CaptainofGondorF",
+   "CONTROLBAR:ToolTipCaptainofGondor"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:LothrandirQuickDispatch",
+   "CONTROLBAR:ToolTipLothrandirQuickDispatch",
+   "CONTROLBAR:LothrandirSubtleWays",
+   "CONTROLBAR:ToolTipLothrandirSubtleWays",
+   "CONTROLBAR:FaramirLeadership",
+   "CONTROLBAR:ToolTipFaramirLeadership",
+   "CONTROLBAR:FaramirDesperateCharge",
+   "CONTROLBAR:ToolTipFaramirDesperateCharge",
+   "CONTROLBAR:FaramirKnightRanger",
+   "CONTROLBAR:CaptainofGondorF",
+   "CONTROLBAR:ToolTipCaptainofGondor"
+  ]
+ },
+ {
+  "name": "Théoden",
+  "names": [
+   "OBJECT:RohanTheoden"
+  ],
+  "campaign_templates": [
+   "CampaignTheoden"
+  ],
+  "skirmish_templates": [
+   "RohanTheoden"
+  ],
+  "missions": [
+   "GreyCompany",
+   "HelmsDeep",
+   "PelennorFields"
+  ],
+  "first": 18,
+  "campaign": [
+   "CONTROLBAR:TheodenLeadership",
+   "CONTROLBAR:ToolTipTheodenLeadership",
+   "CONTROLBAR:TheodenNewMount",
+   "CONTROLBAR:TheodenNewMountTooltip",
+   "CONTROLBAR:StrengthRemembered",
+   "CONTROLBAR:ToolTipStrengthRememberedCampaign",
+   "CONTROLBAR:GloriousCharge",
+   "CONTROLBAR:ToolTipGloriousCharge",
+   "CONTROLBAR:KingsFavor",
+   "CONTROLBAR:ToolTipKingsFavor"
+  ],
+  "skirmish": [
+   "CONTROLBAR:ToolTipStrengthRemembered"
+  ],
+  "both": [
+   "CONTROLBAR:TheodenLeadership",
+   "CONTROLBAR:ToolTipTheodenLeadership",
+   "CONTROLBAR:TheodenNewMount",
+   "CONTROLBAR:TheodenNewMountTooltip",
+   "CONTROLBAR:StrengthRemembered",
+   "CONTROLBAR:GloriousCharge",
+   "CONTROLBAR:ToolTipGloriousCharge",
+   "CONTROLBAR:KingsFavor",
+   "CONTROLBAR:ToolTipKingsFavor"
+  ]
+ },
+ {
+  "name": "Toradan",
+  "names": [
+   "OBJECT:CampaignToradan"
+  ],
+  "campaign_templates": [
+   "CampaignTorodan"
+  ],
+  "skirmish_templates": [
+   "CampaignTorodan"
+  ],
+  "missions": [
+   "GreyCompany"
+  ],
+  "first": 18,
+  "campaign": [
+   "CONTROLBAR:ToradanWideSweep",
+   "CONTROLBAR:ToolTipToradanWideSweep",
+   "CONTROLBAR:ToradanGrizzledWarrior",
+   "CONTROLBAR:ToolTipToradanGrizzledWarrior",
+   "CONTROLBAR:FaramirLeadership",
+   "CONTROLBAR:ToolTipFaramirLeadership",
+   "CONTROLBAR:FaramirDesperateCharge",
+   "CONTROLBAR:ToolTipFaramirDesperateCharge",
+   "CONTROLBAR:FaramirKnightRanger",
+   "CONTROLBAR:CaptainofGondorF",
+   "CONTROLBAR:ToolTipCaptainofGondor"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:ToradanWideSweep",
+   "CONTROLBAR:ToolTipToradanWideSweep",
+   "CONTROLBAR:ToradanGrizzledWarrior",
+   "CONTROLBAR:ToolTipToradanGrizzledWarrior",
+   "CONTROLBAR:FaramirLeadership",
+   "CONTROLBAR:ToolTipFaramirLeadership",
+   "CONTROLBAR:FaramirDesperateCharge",
+   "CONTROLBAR:ToolTipFaramirDesperateCharge",
+   "CONTROLBAR:FaramirKnightRanger",
+   "CONTROLBAR:CaptainofGondorF",
+   "CONTROLBAR:ToolTipCaptainofGondor"
+  ]
+ },
+ {
+  "name": "Wulfgar",
+  "names": [
+   "OBJECT:IsengardWulfgar"
+  ],
+  "campaign_templates": [
+   "CampaignWulfgar",
+   "IsengardWulfgar"
+  ],
+  "skirmish_templates": [
+   "IsengardWulfgar"
+  ],
+  "missions": [
+   "GreyCompany",
+   "HelmsDeep",
+   "PelennorFields"
+  ],
+  "first": 18,
+  "campaign": [
+   "CONTROLBAR:WulfgarSubjugation",
+   "CONTROLBAR:ToolTipWulfgarSubjugation",
+   "CONTROLBAR:WulfgarMount",
+   "CONTROLBAR:WulfgarMountTooltip",
+   "CONTROLBAR:WulfgarCrebainSummon",
+   "CONTROLBAR:TooltipWulfgarCrebainSummon",
+   "CONTROLBAR:CrowBanner",
+   "CONTROLBAR:TooltipCrowBanner",
+   "CONTROLBAR:KingoftheHills",
+   "CONTROLBAR:ToolTipKingoftheHills"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:WulfgarSubjugation",
+   "CONTROLBAR:ToolTipWulfgarSubjugation",
+   "CONTROLBAR:WulfgarMount",
+   "CONTROLBAR:WulfgarMountTooltip",
+   "CONTROLBAR:WulfgarCrebainSummon",
+   "CONTROLBAR:TooltipWulfgarCrebainSummon",
+   "CONTROLBAR:CrowBanner",
+   "CONTROLBAR:TooltipCrowBanner",
+   "CONTROLBAR:KingoftheHills",
+   "CONTROLBAR:ToolTipKingoftheHills"
+  ]
+ },
+ {
+  "name": "Háma",
+  "names": [
+   "OBJECT:RohanHama"
+  ],
+  "campaign_templates": [
+   "CampaignHama"
+  ],
+  "skirmish_templates": [
+   "CampaignHama"
+  ],
+  "missions": [
+   "HelmsDeep"
+  ],
+  "first": 20,
+  "campaign": [
+   "CONTROLBAR:HamaLeadership",
+   "CONTROLBAR:ToolTipHamaLeadership"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:HamaLeadership",
+   "CONTROLBAR:ToolTipHamaLeadership"
+  ]
+ },
+ {
+  "name": "Annatar",
+  "names": [
+   "OBJECT:CampaignAnnatar"
+  ],
+  "campaign_templates": [
+   "CampaignAnnatar"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "LordoftheRings"
+  ],
+  "first": 22,
+  "campaign": [
+   "CONTROLBAR:AWiseChoice",
+   "CONTROLBAR:ToolTipAWiseChoice",
+   "CONTROLBAR:HowDareYou",
+   "CONTROLBAR:ToolTipHowDareYou",
+   "CONTROLBAR:CannotHoldMe",
+   "CONTROLBAR:ToolTipCannotHoldMe",
+   "CONTROLBAR:DeathFindsYouAll",
+   "CONTROLBAR:ToolTipDeathFindsYouAll",
+   "CONTROLBAR:BeginTheGreatArmament",
+   "CONTROLBAR:ToolTipBeginTheGreatArmament"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Khamûl",
+  "names": [
+   "OBJECT:MordorFellBeast",
+   "OBJECT:MordorKhamul"
+  ],
+  "campaign_templates": [
+   "GuldurKhamul"
+  ],
+  "skirmish_templates": [
+   "GuldurKhamul",
+   "MordorFellBeastInterface"
+  ],
+  "missions": [
+   "LordoftheRings"
+  ],
+  "first": 22,
+  "campaign": [
+   "CONTROLBAR:NineAreAbroad",
+   "CONTROLBAR:ToolTipBlackRiderDreadVisageKhamul",
+   "CONTROLBAR:ScreechKhamul",
+   "CONTROLBAR:TooltipScreech",
+   "CONTROLBAR:KhamulLieutnant",
+   "CONTROLBAR:ToolTipKhamulLieutnant",
+   "CONTROLBAR:WordsofDeath",
+   "CONTROLBAR:ToolTipWordsofDeath",
+   "CONTROLBAR:BlackEasterling",
+   "CONTROLBAR:ToolTipKhamulStorm"
+  ],
+  "skirmish": [
+   "CONTROLBAR:ScreechSummonedFellbeasts",
+   "CONTROLBAR:SpecialAbilityNazgulNineServantsOfSauron",
+   "CONTROLBAR:ToolTipSpecialAbilityNazgulNineServantsOfSauron"
+  ],
+  "both": [
+   "CONTROLBAR:NineAreAbroad",
+   "CONTROLBAR:ToolTipBlackRiderDreadVisageKhamul",
+   "CONTROLBAR:ScreechKhamul",
+   "CONTROLBAR:TooltipScreech",
+   "CONTROLBAR:KhamulLieutnant",
+   "CONTROLBAR:ToolTipKhamulLieutnant",
+   "CONTROLBAR:WordsofDeath",
+   "CONTROLBAR:ToolTipWordsofDeath",
+   "CONTROLBAR:BlackEasterling",
+   "CONTROLBAR:ToolTipKhamulStorm"
+  ]
+ },
+ {
+  "name": "Queen Saenathra",
+  "names": [
+   "OBJECT:GuldurSaenathra"
+  ],
+  "campaign_templates": [
+   "GuldurSaenathra"
+  ],
+  "skirmish_templates": [
+   "GuldurSaenathra"
+  ],
+  "missions": [
+   "LordoftheRings"
+  ],
+  "first": 22,
+  "campaign": [
+   "CONTROLBAR:SpecialAbilityGuldurSaenathraTunnel",
+   "CONTROLBAR:ToolTipSpecialAbilityGuldurSaenathraTunnel",
+   "CONTROLBAR:GuldurSaenathraFeast",
+   "CONTROLBAR:ToolTipGuldurSaenathraFeast",
+   "CONTROLBAR:GuldurSaenathraWebOfLies",
+   "CONTROLBAR:ToolTipGuldurSaenathraWebOfLies",
+   "CONTROLBAR:GuldurSaenathraEndlessHunger",
+   "CONTROLBAR:TooltipGuldurSaenathraEndlessHunger"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:SpecialAbilityGuldurSaenathraTunnel",
+   "CONTROLBAR:ToolTipSpecialAbilityGuldurSaenathraTunnel",
+   "CONTROLBAR:GuldurSaenathraFeast",
+   "CONTROLBAR:ToolTipGuldurSaenathraFeast",
+   "CONTROLBAR:GuldurSaenathraWebOfLies",
+   "CONTROLBAR:ToolTipGuldurSaenathraWebOfLies",
+   "CONTROLBAR:GuldurSaenathraEndlessHunger",
+   "CONTROLBAR:TooltipGuldurSaenathraEndlessHunger"
+  ]
+ },
+ {
+  "name": "Ringwraith",
+  "names": [
+   "OBJECT:GuldurRingwraith"
+  ],
+  "campaign_templates": [
+   "CampaignRingwraith"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "LordoftheRings"
+  ],
+  "first": 22,
+  "campaign": [
+   "CONTROLBAR:SpecialAbilityNazgulNineServantsOfSauron",
+   "CONTROLBAR:ToolTipSpecialAbilityRingwraithServantsOfSauron"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Sauron",
+  "names": [
+   "OBJECT:MordorSauron"
+  ],
+  "campaign_templates": [
+   "CampaignSauron"
+  ],
+  "skirmish_templates": [
+   "MordorSauron"
+  ],
+  "missions": [
+   "LordoftheRings"
+  ],
+  "first": 22,
+  "campaign": [
+   "CONTROLBAR:CampaignSauronLeadership",
+   "CONTROLBAR:ToolTipCampaignSauronLeadership",
+   "CONTROLBAR:CampaignSauronFavour",
+   "CONTROLBAR:ToolTipCampaignSauronFavour",
+   "CONTROLBAR:CampaignSauronDominion",
+   "CONTROLBAR:ToolTipCampaignSauronDominion",
+   "CONTROLBAR:CampaignSauronWreathed",
+   "CONTROLBAR:ToolTipCampaignSauronWreathed",
+   "CONTROLBAR:HaveMercyGreatKing",
+   "CONTROLBAR:ToolTipHaveMercyGreatKing",
+   "CONTROLBAR:HoldYourTongue",
+   "CONTROLBAR:ToolTipHoldYourTongue",
+   "CONTROLBAR:WillServeAfar",
+   "CONTROLBAR:ToolTipWillServeAfar"
+  ],
+  "skirmish": [
+   "CONTROLBAR:SauronLeadership",
+   "CONTROLBAR:ToolTipSauronLeadership",
+   "CONTROLBAR:SauronConflagaration",
+   "CONTROLBAR:ToolTipSauronConflagaration",
+   "CONTROLBAR:SauronDominate",
+   "CONTROLBAR:ToolTipSauronDominate",
+   "CONTROLBAR:SpecialPowerSauronLordoftheRings",
+   "CONTROLBAR:ToolTipSpecialPowerSauronLordoftheRings",
+   "CONTROLBAR:SauronRingwraithSummon",
+   "CONTROLBAR:ToolTipSauronRingwraithSummon"
+  ],
+  "both": []
+ },
+ {
+  "name": "The Necromancer",
+  "names": [
+   "OBJECT:GuldurNecromancer"
+  ],
+  "campaign_templates": [
+   "CampaignNecromancer"
+  ],
+  "skirmish_templates": [
+   "GuldurNecromancer"
+  ],
+  "missions": [
+   "LordoftheRings"
+  ],
+  "first": 22,
+  "campaign": [
+   "CONTROLBAR:DarkPresence",
+   "CONTROLBAR:ToolTipNecromancerDarkPresence",
+   "CONTROLBAR:NecromancerAbhorredDread",
+   "CONTROLBAR:ToolTipNecromancerAbhorredDread",
+   "CONTROLBAR:NecromancerShapelessMalice",
+   "CONTROLBAR:TooltipNecromancerShapelessMalice",
+   "CONTROLBAR:NecromancerWreathed",
+   "CONTROLBAR:ToolTipNecromancerWreathed",
+   "CONTROLBAR:NecromancerRingwraithSummon",
+   "CONTROLBAR:ToolTipNecromancerRingwraithSummon_Campaign"
+  ],
+  "skirmish": [
+   "CONTROLBAR:NecromancerWolvesSummon",
+   "CONTROLBAR:ToolTipNecromancerWolvesSummon",
+   "CONTROLBAR:DreadfulPresence",
+   "CONTROLBAR:ToolTipDarkPresenceWithRing",
+   "CONTROLBAR:ToolTipNecromancerRingwraithSummon",
+   "CONTROLBAR:ToolTipNecromancerAbhorredDreadUpgraded",
+   "CONTROLBAR:ToolTipNecromancerWreathedUpgraded"
+  ],
+  "both": [
+   "CONTROLBAR:DarkPresence",
+   "CONTROLBAR:ToolTipNecromancerDarkPresence",
+   "CONTROLBAR:NecromancerAbhorredDread",
+   "CONTROLBAR:ToolTipNecromancerAbhorredDread",
+   "CONTROLBAR:NecromancerShapelessMalice",
+   "CONTROLBAR:TooltipNecromancerShapelessMalice",
+   "CONTROLBAR:NecromancerWreathed",
+   "CONTROLBAR:ToolTipNecromancerWreathed",
+   "CONTROLBAR:NecromancerRingwraithSummon"
+  ]
+ },
+ {
+  "name": "The Witch-king of Angmar",
+  "names": [
+   "OBJECT:MordorWitchKing"
+  ],
+  "campaign_templates": [
+   "MordorWitchKing"
+  ],
+  "skirmish_templates": [
+   "MordorWitchKing"
+  ],
+  "missions": [
+   "LordoftheRings"
+  ],
+  "first": 22,
+  "campaign": [
+   "CONTROLBAR:ChiefoftheNine",
+   "CONTROLBAR:TooltipChiefoftheNine",
+   "CONTROLBAR:DreadWrath",
+   "CONTROLBAR:ToolTipChillofAngmarWK",
+   "CONTROLBAR:MordorWitchkingMorgulCorruption",
+   "CONTROLBAR:ToolTipMordorWitchkingMorgulCorruption",
+   "CONTROLBAR:OpenInTheNameOfMordor",
+   "CONTROLBAR:ToolTipOpenInTheNameOfMordor",
+   "CONTROLBAR:WKWordofPower",
+   "CONTROLBAR:ToolTipWKWordofPower",
+   "CONTROLBAR:WitchkingMount"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:ChiefoftheNine",
+   "CONTROLBAR:TooltipChiefoftheNine",
+   "CONTROLBAR:DreadWrath",
+   "CONTROLBAR:ToolTipChillofAngmarWK",
+   "CONTROLBAR:MordorWitchkingMorgulCorruption",
+   "CONTROLBAR:ToolTipMordorWitchkingMorgulCorruption",
+   "CONTROLBAR:OpenInTheNameOfMordor",
+   "CONTROLBAR:ToolTipOpenInTheNameOfMordor",
+   "CONTROLBAR:WKWordofPower",
+   "CONTROLBAR:ToolTipWKWordofPower",
+   "CONTROLBAR:WitchkingMount"
+  ]
+ },
+ {
+  "name": "Undead Monstrosity",
+  "names": [
+   "OBJECT:GuldurUndeadTroll"
+  ],
+  "campaign_templates": [
+   "GuldurUndeadTroll"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "LordoftheRings"
+  ],
+  "first": 22,
+  "campaign": [
+   "CONTROLBAR:PutridPresence",
+   "CONTROLBAR:ToolTipPutridPresence",
+   "CONTROLBAR:ToxicBile",
+   "CONTROLBAR:ToolTipToxicBile",
+   "CONTROLBAR:UndeadTrollHooked",
+   "CONTROLBAR:ToolTipUndeadTrollHooked",
+   "CONTROLBAR:CorpseExplosion",
+   "CONTROLBAR:ToolTipCorpseExplosion",
+   "CONTROLBAR:ToolTipCorpseExplosionRotK"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Master-at-Arms",
+  "names": [
+   "OBJECT:CampaignMasteratArms"
+  ],
+  "campaign_templates": [
+   "CampaignMasteratArms"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "LightingoftheBeacons"
+  ],
+  "first": 23,
+  "campaign": [
+   "CONTROLBAR:StrongThrust",
+   "CONTROLBAR:ToolTipStrongThrust",
+   "CONTROLBAR:SpecialAbilityRaiseShield",
+   "CONTROLBAR:TooltipSpecialAbilityRaiseShield",
+   "CONTROLBAR:SpecialAbilityEndPractice",
+   "CONTROLBAR:TooltipSpecialAbilityEndPractice"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Baldor's Ghost",
+  "names": [
+   "OBJECT:RohanBaldor"
+  ],
+  "campaign_templates": [
+   "CampaignBaldorGhost"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "PathsoftheDead"
+  ],
+  "first": 24,
+  "campaign": [
+   "CONTROLBAR:OropherWordofPower",
+   "CONTROLBAR:ToolTipOropherWordofPower"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Angbor the Fearless",
+  "names": [
+   "OBJECT:CampaignAngbor"
+  ],
+  "campaign_templates": [
+   "CampaignAngbor"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "Pelargir",
+   "PelennorFields"
+  ],
+  "first": 25,
+  "campaign": [
+   "CONTROLBAR:AngborLeadership",
+   "CONTROLBAR:TooltipAngborLeadership",
+   "CONTROLBAR:AngborHorn",
+   "CONTROLBAR:ToolTipAngborHorn",
+   "CONTROLBAR:AngborBlade",
+   "CONTROLBAR:ToolTipAngborBlade"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Beregond",
+  "names": [
+   "OBJECT:GondorBeregond"
+  ],
+  "campaign_templates": [
+   "CampaignBeregond"
+  ],
+  "skirmish_templates": [
+   "GondorBeregond"
+  ],
+  "missions": [
+   "BlackGate",
+   "MinasTirithInner",
+   "MinasTirithOuter",
+   "ScouringoftheShire"
+  ],
+  "first": 26,
+  "campaign": [
+   "CONTROLBAR:ToggleBeregondWeapons",
+   "CONTROLBAR:ToolTipToggleBeregondWeapons",
+   "CONTROLBAR:DefenderoftheWhiteCityB",
+   "CONTROLBAR:ToolTipDefenderoftheWhiteCityB",
+   "CONTROLBAR:BeregondSummonLeadership",
+   "CONTROLBAR:ToolTipBeregondSummonLeadership",
+   "CONTROLBAR:BeregondAmbushAbility",
+   "CONTROLBAR:ToolTipBeregondAmbushAbility",
+   "CONTROLBAR:BeregondSacrifice",
+   "CONTROLBAR:ToolTipBeregondSacrifice",
+   "CONTROLBAR:DefenderoftheWhiteCityS",
+   "CONTROLBAR:ToolTipDefenderoftheWhiteCityS"
+  ],
+  "skirmish": [
+   "CONTROLBAR:BeregondGuardoftheCitadel",
+   "CONTROLBAR:ToolTipBeregondGuardoftheCitadel",
+   "CONTROLBAR:BeregondFierceLoyalty",
+   "CONTROLBAR:ToolTipBeregondFierceLoyalty"
+  ],
+  "both": [
+   "CONTROLBAR:ToggleBeregondWeapons",
+   "CONTROLBAR:ToolTipToggleBeregondWeapons",
+   "CONTROLBAR:DefenderoftheWhiteCityB",
+   "CONTROLBAR:ToolTipDefenderoftheWhiteCityB",
+   "CONTROLBAR:BeregondSacrifice",
+   "CONTROLBAR:ToolTipBeregondSacrifice",
+   "CONTROLBAR:DefenderoftheWhiteCityS",
+   "CONTROLBAR:ToolTipDefenderoftheWhiteCityS"
+  ]
+ },
+ {
+  "name": "Derufin",
+  "names": [
+   "OBJECT:CampaignDerufin"
+  ],
+  "campaign_templates": [
+   "CampaignDerufin"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "MinasTirithOuter",
+   "PelennorFields"
+  ],
+  "first": 26,
+  "campaign": [],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Dervorin",
+  "names": [
+   "OBJECT:CampaignDervorin"
+  ],
+  "campaign_templates": [
+   "CampaignDervorin"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "MinasTirithInner",
+   "MinasTirithOuter",
+   "PelennorFields"
+  ],
+  "first": 26,
+  "campaign": [
+   "CONTROLBAR:DervorinLeadership",
+   "CONTROLBAR:TooltipDervorinLeadership",
+   "CONTROLBAR:DervorinDraught",
+   "CONTROLBAR:ToolTipDervorinDraught",
+   "CONTROLBAR:DervorinDoughtyWarrior",
+   "CONTROLBAR:ToolTipDervorinDoughtyWarrior"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Duilin",
+  "names": [
+   "OBJECT:CampaignDuilin"
+  ],
+  "campaign_templates": [
+   "CampaignDuilin"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "MinasTirithOuter"
+  ],
+  "first": 26,
+  "campaign": [],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Forlong",
+  "names": [
+   "OBJECT:GondorForlong"
+  ],
+  "campaign_templates": [
+   "CampaignForlongNew"
+  ],
+  "skirmish_templates": [
+   "GondorForlong"
+  ],
+  "missions": [
+   "MinasTirithInner",
+   "MinasTirithOuter",
+   "PelennorFields"
+  ],
+  "first": 26,
+  "campaign": [
+   "CONTROLBAR:ForlongLeadership",
+   "CONTROLBAR:TooltipForlongLeadership",
+   "CONTROLBAR:ForlongVitality",
+   "CONTROLBAR:TooltipForlongVitality",
+   "CONTROLBAR:ForlongTrueHeartTrueFriend",
+   "CONTROLBAR:ToolTipForlongTrueHeartTrueFriend"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:ForlongLeadership",
+   "CONTROLBAR:TooltipForlongLeadership",
+   "CONTROLBAR:ForlongVitality",
+   "CONTROLBAR:TooltipForlongVitality",
+   "CONTROLBAR:ForlongTrueHeartTrueFriend",
+   "CONTROLBAR:ToolTipForlongTrueHeartTrueFriend"
+  ]
+ },
+ {
+  "name": "Irolas",
+  "names": [
+   "OBJECT:CampaignIrolas"
+  ],
+  "campaign_templates": [
+   "CampaignIrolas"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "MinasTirithInner",
+   "MinasTirithOuter"
+  ],
+  "first": 26,
+  "campaign": [
+   "CONTROLBAR:IrolasLeadership",
+   "CONTROLBAR:TooltipIrolasLeadership",
+   "CONTROLBAR:IrolasStoutDefender",
+   "CONTROLBAR:ToolTipIrolasStoutDefender",
+   "CONTROLBAR:IrolasWarChant",
+   "CONTROLBAR:ToolTipIrolasWarChant",
+   "CONTROLBAR:IrolasSwornSword",
+   "CONTROLBAR:ToolTipIrolasSwornSword",
+   "CONTROLBAR:IrolasBombard",
+   "CONTROLBAR:ToolTipIrolasBombard"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Lord Duinhir",
+  "names": [
+   "OBJECT:CampaignDuinhir"
+  ],
+  "campaign_templates": [
+   "CampaignDuinhir"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "MinasTirithInner",
+   "MinasTirithOuter"
+  ],
+  "first": 26,
+  "campaign": [
+   "CONTROLBAR:DuinhirLeadership",
+   "CONTROLBAR:TooltipDuinhirLeadership",
+   "CONTROLBAR:DuinhirRangedTactics",
+   "CONTROLBAR:ToolTipDuinhirRangedTactics",
+   "CONTROLBAR:DuinhirVeteranSwordsman",
+   "CONTROLBAR:ToolTipDuinhirVeteranSwordsman"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Lord Golasgil",
+  "names": [
+   "OBJECT:CampaignGolasgil"
+  ],
+  "campaign_templates": [
+   "CampaignGolasgil"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "BlackGate",
+   "MinasTirithInner",
+   "MinasTirithOuter",
+   "ScouringoftheShire"
+  ],
+  "first": 26,
+  "campaign": [
+   "CONTROLBAR:GolasgilLeadership",
+   "CONTROLBAR:TooltipGolasgilLeadership",
+   "CONTROLBAR:GolasgilGuardSummon",
+   "CONTROLBAR:ToolTipGolasgilGuardSummon",
+   "CONTROLBAR:GolasgilShiningSteel",
+   "CONTROLBAR:ToolTipGolasgilShiningSteel"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Lord Hirluin the Fair",
+  "names": [
+   "OBJECT:CampaignHirluin"
+  ],
+  "campaign_templates": [
+   "CampaignHirluin"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "MinasTirithInner",
+   "MinasTirithOuter",
+   "PelennorFields"
+  ],
+  "first": 26,
+  "campaign": [
+   "CONTROLBAR:HirluinLeadership",
+   "CONTROLBAR:TooltipHirluinLeadership",
+   "CONTROLBAR:GallantWords",
+   "CONTROLBAR:ToolTipGallantWords",
+   "CONTROLBAR:HirluinKnightsErrand",
+   "CONTROLBAR:ToolTipHirluinKnightsErrand"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Gorbag",
+  "names": [
+   "OBJECT:MordorGorbag"
+  ],
+  "campaign_templates": [
+   "CampaignGorbag",
+   "MordorGorbag"
+  ],
+  "skirmish_templates": [
+   "MordorGorbag"
+  ],
+  "missions": [
+   "CirithUngol"
+  ],
+  "first": 27,
+  "campaign": [
+   "CONTROLBAR:GorbagMorgulCunningCampaign",
+   "CONTROLBAR:ToolTipGorbagMorgulCunningCampaign",
+   "CONTROLBAR:GorbagDropkickCampaign",
+   "CONTROLBAR:ToolTipGorbagDropkick",
+   "CONTROLBAR:GorbagBleedWeapon",
+   "CONTROLBAR:ToolTipGorbagBleedWeapon_Campaign",
+   "CONTROLBAR:FierceRivalry",
+   "CONTROLBAR:ToolTipGorbagFierceRivalry",
+   "CONTROLBAR:GorbagMorgulCunning",
+   "CONTROLBAR:ToolTipGorbagMorgulCunning",
+   "CONTROLBAR:GorbagDropkick",
+   "CONTROLBAR:ToolTipGorbagBleedWeapon",
+   "CONTROLBAR:GorbagLoyaltyWeapon",
+   "CONTROLBAR:ToolTipGorbagLoyaltyWeapon"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:ToolTipGorbagDropkick",
+   "CONTROLBAR:GorbagBleedWeapon",
+   "CONTROLBAR:FierceRivalry",
+   "CONTROLBAR:ToolTipGorbagFierceRivalry",
+   "CONTROLBAR:GorbagMorgulCunning",
+   "CONTROLBAR:ToolTipGorbagMorgulCunning",
+   "CONTROLBAR:GorbagDropkick",
+   "CONTROLBAR:ToolTipGorbagBleedWeapon",
+   "CONTROLBAR:GorbagLoyaltyWeapon",
+   "CONTROLBAR:ToolTipGorbagLoyaltyWeapon"
+  ]
+ },
+ {
+  "name": "Éowyn",
+  "names": [
+   "OBJECT:RohanEowyn"
+  ],
+  "campaign_templates": [
+   "CampaignEowyn"
+  ],
+  "skirmish_templates": [
+   "RohanEowyn"
+  ],
+  "missions": [
+   "PelennorFields"
+  ],
+  "first": 29,
+  "campaign": [
+   "CONTROLBAR:EowynCampaignMount",
+   "CONTROLBAR:ToolTipCampaignEowynMount",
+   "CONTROLBAR:EowynCourage",
+   "CONTROLBAR:ToolTipEowynCourage",
+   "CONTROLBAR:Smite",
+   "CONTROLBAR:ToolTipSmite"
+  ],
+  "skirmish": [
+   "CONTROLBAR:EowynLeadership",
+   "CONTROLBAR:ToolTipEowynLeadership",
+   "CONTROLBAR:EowynReadiness",
+   "CONTROLBAR:ToolTipEowynReadiness",
+   "CONTROLBAR:ToggleEowynDernhelm",
+   "CONTROLBAR:ToolTipToggleEowynDernhelm",
+   "CONTROLBAR:EowynIthilienGarden",
+   "CONTROLBAR:ToolTipEowynIthilienGarden",
+   "CONTROLBAR:ToggleEowynLady",
+   "CONTROLBAR:ToolTipToggleEowynLady",
+   "CONTROLBAR:EowynNewMount",
+   "CONTROLBAR:ToolTipNewEowynMount"
+  ],
+  "both": [
+   "CONTROLBAR:EowynCourage",
+   "CONTROLBAR:ToolTipEowynCourage",
+   "CONTROLBAR:Smite",
+   "CONTROLBAR:ToolTipSmite"
+  ]
+ },
+ {
+  "name": "Feren",
+  "names": [
+   "OBJECT:MirkwoodFeren"
+  ],
+  "campaign_templates": [
+   "MirkwoodFeren"
+  ],
+  "skirmish_templates": [
+   "MirkwoodFeren"
+  ],
+  "missions": [
+   "BattleUnderTrees"
+  ],
+  "first": 30,
+  "campaign": [
+   "CONTROLBAR:FerenShieldBash",
+   "CONTROLBAR:ToolTipFerenShieldBash",
+   "CONTROLBAR:FerenCommander",
+   "CONTROLBAR:ToolTipFerenCommander",
+   "CONTROLBAR:FerenSoundAlarm",
+   "CONTROLBAR:ToolTipFerenSoundAlarm",
+   "CONTROLBAR:FerenBanishment",
+   "CONTROLBAR:ToolTipFerenBanishment"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:FerenShieldBash",
+   "CONTROLBAR:ToolTipFerenShieldBash",
+   "CONTROLBAR:FerenCommander",
+   "CONTROLBAR:ToolTipFerenCommander",
+   "CONTROLBAR:FerenSoundAlarm",
+   "CONTROLBAR:ToolTipFerenSoundAlarm",
+   "CONTROLBAR:FerenBanishment",
+   "CONTROLBAR:ToolTipFerenBanishment"
+  ]
+ },
+ {
+  "name": "Grimbeorn",
+  "names": [
+   "OBJECT:MirkwoodGrimbeorn"
+  ],
+  "campaign_templates": [
+   "MirkwoodGrimbeorn"
+  ],
+  "skirmish_templates": [
+   "MirkwoodGrimbeorn"
+  ],
+  "missions": [
+   "BattleUnderTrees"
+  ],
+  "first": 30,
+  "campaign": [
+   "CONTROLBAR:SonOfBeorn",
+   "CONTROLBAR:ToolTipSonOfBeorn",
+   "CONTROLBAR:GrimbeornStrongman",
+   "CONTROLBAR:ToolTipGrimbeornStrongman",
+   "CONTROLBAR:TollKeepers",
+   "CONTROLBAR:ToolTipTollKeepers",
+   "CONTROLBAR:GrimbeornBodyguard",
+   "CONTROLBAR:ToolTipGrimbeornBodyguard",
+   "CONTROLBAR:SpecialAbilityUrsineSoul",
+   "CONTROLBAR:ToolTipSpecialAbilityUrsineSoul"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:SonOfBeorn",
+   "CONTROLBAR:ToolTipSonOfBeorn",
+   "CONTROLBAR:GrimbeornStrongman",
+   "CONTROLBAR:ToolTipGrimbeornStrongman",
+   "CONTROLBAR:TollKeepers",
+   "CONTROLBAR:ToolTipTollKeepers",
+   "CONTROLBAR:GrimbeornBodyguard",
+   "CONTROLBAR:ToolTipGrimbeornBodyguard",
+   "CONTROLBAR:SpecialAbilityUrsineSoul",
+   "CONTROLBAR:ToolTipSpecialAbilityUrsineSoul"
+  ]
+ },
+ {
+  "name": "Radagast",
+  "names": [
+   "OBJECT:MirkwoodRadagast"
+  ],
+  "campaign_templates": [
+   "MirkwoodRadagast"
+  ],
+  "skirmish_templates": [
+   "MirkwoodRadagast"
+  ],
+  "missions": [
+   "BattleUnderTrees"
+  ],
+  "first": 30,
+  "campaign": [
+   "CONTROLBAR:RadagastUnseen",
+   "CONTROLBAR:ToolTipRadagastUnseen",
+   "CONTROLBAR:RadagastAiwendil",
+   "CONTROLBAR:ToolTipRadagastAiwendil",
+   "CONTROLBAR:RadagastGuardian",
+   "CONTROLBAR:ToolTipRivendellRadagastGuardian",
+   "CONTROLBAR:RadagastSiphonLeadership",
+   "CONTROLBAR:ToolTipRadagastSiphonWitchcraft",
+   "CONTROLBAR:RadagastTransform",
+   "CONTROLBAR:ToolTipRadagastTransform"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:RadagastUnseen",
+   "CONTROLBAR:ToolTipRadagastUnseen",
+   "CONTROLBAR:RadagastAiwendil",
+   "CONTROLBAR:ToolTipRadagastAiwendil",
+   "CONTROLBAR:RadagastGuardian",
+   "CONTROLBAR:ToolTipRivendellRadagastGuardian",
+   "CONTROLBAR:RadagastSiphonLeadership",
+   "CONTROLBAR:ToolTipRadagastSiphonWitchcraft",
+   "CONTROLBAR:RadagastTransform",
+   "CONTROLBAR:ToolTipRadagastTransform"
+  ]
+ },
+ {
+  "name": "Tauriel",
+  "names": [
+   "OBJECT:MirkwoodTauriel"
+  ],
+  "campaign_templates": [
+   "MirkwoodTauriel"
+  ],
+  "skirmish_templates": [
+   "MirkwoodTauriel"
+  ],
+  "missions": [
+   "BattleUnderTrees"
+  ],
+  "first": 30,
+  "campaign": [
+   "CONTROLBAR:TaurielLeadership",
+   "CONTROLBAR:ToolTipTaurielLeadership",
+   "CONTROLBAR:TaurielSummon",
+   "CONTROLBAR:ToolTipTaurielSummon",
+   "CONTROLBAR:TaurielFleetFooted",
+   "CONTROLBAR:ToolTipTaurielFleetFooted",
+   "CONTROLBAR:TaurielDecisiveStrike",
+   "CONTROLBAR:ToolTipTaurielDecisiveStrike",
+   "CONTROLBAR:TaurielEscape",
+   "CONTROLBAR:TooltipTaurielEscape"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:TaurielLeadership",
+   "CONTROLBAR:ToolTipTaurielLeadership",
+   "CONTROLBAR:TaurielSummon",
+   "CONTROLBAR:ToolTipTaurielSummon",
+   "CONTROLBAR:TaurielFleetFooted",
+   "CONTROLBAR:ToolTipTaurielFleetFooted",
+   "CONTROLBAR:TaurielDecisiveStrike",
+   "CONTROLBAR:ToolTipTaurielDecisiveStrike",
+   "CONTROLBAR:TaurielEscape",
+   "CONTROLBAR:TooltipTaurielEscape"
+  ]
+ },
+ {
+  "name": "Thranduil",
+  "names": [
+   "OBJECT:ElvenThranduilNew"
+  ],
+  "campaign_templates": [
+   "MirkwoodThranduil"
+  ],
+  "skirmish_templates": [
+   "MirkwoodThranduil"
+  ],
+  "missions": [
+   "BattleUnderTrees"
+  ],
+  "first": 30,
+  "campaign": [
+   "CONTROLBAR:ThranduilNewMount",
+   "CONTROLBAR:ThranduilNewMountTooltip",
+   "CONTROLBAR:ThranduilFavor",
+   "CONTROLBAR:ToolTipThranduilFavor",
+   "CONTROLBAR:NoneMayEnter",
+   "CONTROLBAR:ToolTipNoneMayEnter",
+   "CONTROLBAR:SpecialPowerRenownedWarrior",
+   "CONTROLBAR:ToolTipSpecialPowerRenownedWarrior",
+   "CONTROLBAR:MemoryOfMordor",
+   "CONTROLBAR:ToolTipMemoryOfMordor"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:ThranduilNewMount",
+   "CONTROLBAR:ThranduilNewMountTooltip",
+   "CONTROLBAR:ThranduilFavor",
+   "CONTROLBAR:ToolTipThranduilFavor",
+   "CONTROLBAR:NoneMayEnter",
+   "CONTROLBAR:ToolTipNoneMayEnter",
+   "CONTROLBAR:SpecialPowerRenownedWarrior",
+   "CONTROLBAR:ToolTipSpecialPowerRenownedWarrior",
+   "CONTROLBAR:MemoryOfMordor",
+   "CONTROLBAR:ToolTipMemoryOfMordor"
+  ]
+ },
+ {
+  "name": "Agmund",
+  "names": [
+   "OBJECT:FellowshipAgmund"
+  ],
+  "campaign_templates": [
+   "CampaignAgmund"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "BattleofDale"
+  ],
+  "first": 31,
+  "campaign": [
+   "CONTROLBAR:AgmundOrganisedDefence",
+   "CONTROLBAR:ToolTipAgmundHorn",
+   "CONTROLBAR:AgmundCaptainOfGuard",
+   "CONTROLBAR:ToolTipAgmundCaptainOfGuard",
+   "CONTROLBAR:AgmundCaptainCounsel",
+   "CONTROLBAR:ToolTipAgmundCaptainCounsel",
+   "CONTROLBAR:AgmundSummonDaleGuard",
+   "CONTROLBAR:ToolTipAgmundSummonDaleGuard"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "King Brand",
+  "names": [
+   "OBJECT:DwarvenCaptainofDaleOld"
+  ],
+  "campaign_templates": [
+   "FellowshipKingBrand"
+  ],
+  "skirmish_templates": [
+   "DwarvenBrand"
+  ],
+  "missions": [
+   "BattleofDale"
+  ],
+  "first": 31,
+  "campaign": [
+   "CONTROLBAR:ToggleBrandWeapons",
+   "CONTROLBAR:ToolTipToggleBrandWeapons",
+   "CONTROLBAR:BrandSlamArrow",
+   "CONTROLBAR:ToolTipBrandSlamArrowNew",
+   "CONTROLBAR:BrandLeadership",
+   "CONTROLBAR:ToolTipBrandLeadership",
+   "CONTROLBAR:BrandHuntersMark",
+   "CONTROLBAR:ToolTipBrandHuntersMark",
+   "CONTROLBAR:BrandDragonSlayer",
+   "CONTROLBAR:ToolTipBrandDeadEye",
+   "CONTROLBAR:BrandPommelStrike",
+   "CONTROLBAR:ToolTipBrandPommelStrike"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:ToggleBrandWeapons",
+   "CONTROLBAR:ToolTipToggleBrandWeapons",
+   "CONTROLBAR:BrandSlamArrow",
+   "CONTROLBAR:ToolTipBrandSlamArrowNew",
+   "CONTROLBAR:BrandLeadership",
+   "CONTROLBAR:ToolTipBrandLeadership",
+   "CONTROLBAR:BrandHuntersMark",
+   "CONTROLBAR:ToolTipBrandHuntersMark",
+   "CONTROLBAR:BrandDragonSlayer",
+   "CONTROLBAR:ToolTipBrandDeadEye",
+   "CONTROLBAR:BrandPommelStrike",
+   "CONTROLBAR:ToolTipBrandPommelStrike"
+  ]
+ },
+ {
+  "name": "King Dáin",
+  "names": [
+   "OBJECT:DwarvenKingDain"
+  ],
+  "campaign_templates": [
+   "FellowshipKingDain"
+  ],
+  "skirmish_templates": [
+   "DwarvenKingDain"
+  ],
+  "missions": [
+   "BattleofDale"
+  ],
+  "first": 31,
+  "campaign": [
+   "CONTROLBAR:DainLeadership",
+   "CONTROLBAR:ToolTipDainLeadershipBODE",
+   "CONTROLBAR:MightyRage",
+   "CONTROLBAR:ToolTipDainOldRedAxeBODE",
+   "CONTROLBAR:DainRestoration",
+   "CONTROLBAR:ToolTipDainRestoration",
+   "CONTROLBAR:DainEmissary",
+   "CONTROLBAR:ToolTipDainEmissary",
+   "CONTROLBAR:DainStand",
+   "CONTROLBAR:ToolTipDainSlayerCampaign"
+  ],
+  "skirmish": [
+   "CONTROLBAR:ToolTipDainLeadership",
+   "CONTROLBAR:ToolTipDainOldRedAxe",
+   "CONTROLBAR:ToolTipDainSlayer"
+  ],
+  "both": [
+   "CONTROLBAR:DainLeadership",
+   "CONTROLBAR:MightyRage",
+   "CONTROLBAR:DainRestoration",
+   "CONTROLBAR:ToolTipDainRestoration",
+   "CONTROLBAR:DainEmissary",
+   "CONTROLBAR:ToolTipDainEmissary",
+   "CONTROLBAR:DainStand"
+  ]
+ },
+ {
+  "name": "Legate Vidú",
+  "names": [
+   "OBJECT:FellowshipVidu"
+  ],
+  "campaign_templates": [
+   "CampaignVidu"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "BattleofDale"
+  ],
+  "first": 31,
+  "campaign": [
+   "CONTROLBAR:ViduWineCourage",
+   "CONTROLBAR:ToolTipViduWineCourage",
+   "CONTROLBAR:DorwinionSoundAlarm",
+   "CONTROLBAR:ToolTipDaleViduSoundAlarm",
+   "CONTROLBAR:DaleViduChallenge",
+   "CONTROLBAR:ToolTipDaleViduChallenge",
+   "CONTROLBAR:ViduLegionFriend",
+   "CONTROLBAR:ToolTipViduLegionFriend"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Prince Bard II",
+  "names": [
+   "OBJECT:FellowshipBardII"
+  ],
+  "campaign_templates": [
+   "CampaignBardII"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "BattleofDale"
+  ],
+  "first": 31,
+  "campaign": [
+   "CONTROLBAR:BardPrinceOfDale",
+   "CONTROLBAR:ToolTipBardPrinceOfDaleBODE",
+   "CONTROLBAR:BardWarriorsWit",
+   "CONTROLBAR:ToolTipBardWarriorsWit",
+   "CONTROLBAR:BardDragonSlayerLegacy",
+   "CONTROLBAR:ToolTipBardDragonSlayerLegacyBODE",
+   "CONTROLBAR:PrinceBardIIDisarm",
+   "CONTROLBAR:ToolTipPrinceBardIIDisarm",
+   "CONTROLBAR:PrinceBardIISturdyCampaign",
+   "CONTROLBAR:ToolTipPrinceBardIISturdyCampaign"
+  ],
+  "skirmish": [],
+  "both": []
+ },
+ {
+  "name": "Thorin III Stonehelm",
+  "names": [
+   "OBJECT:DwarvenThorinHelm"
+  ],
+  "campaign_templates": [
+   "FellowshipThorinStonehelm"
+  ],
+  "skirmish_templates": [
+   "DwarvenThorinStonehelm"
+  ],
+  "missions": [
+   "BattleofDale"
+  ],
+  "first": 31,
+  "campaign": [
+   "CONTROLBAR:PrinceOfErebor",
+   "CONTROLBAR:ToolTipPrinceOfErebor",
+   "CONTROLBAR:DwarvenGrudge",
+   "CONTROLBAR:ToolTipDwarvenGrudge",
+   "CONTROLBAR:DurinsChosen",
+   "CONTROLBAR:ToolTipDurinsChosen",
+   "CONTROLBAR:Stonehelm",
+   "CONTROLBAR:ToolTipStonehelm"
+  ],
+  "skirmish": [],
+  "both": [
+   "CONTROLBAR:PrinceOfErebor",
+   "CONTROLBAR:ToolTipPrinceOfErebor",
+   "CONTROLBAR:DwarvenGrudge",
+   "CONTROLBAR:ToolTipDwarvenGrudge",
+   "CONTROLBAR:DurinsChosen",
+   "CONTROLBAR:ToolTipDurinsChosen",
+   "CONTROLBAR:Stonehelm",
+   "CONTROLBAR:ToolTipStonehelm"
+  ]
+ },
+ {
+  "name": "Fatty Bolger",
+  "names": [
+   "OBJECT:ArnorFattyBolger"
+  ],
+  "campaign_templates": [
+   "ShireFattyBolger"
+  ],
+  "skirmish_templates": [
+   "ArnorFattyBolger"
+  ],
+  "missions": [
+   "ScouringoftheShire"
+  ],
+  "first": 34,
+  "campaign": [
+   "CONTROLBAR:FattyBolgerSpeed",
+   "CONTROLBAR:TooltipFattyBolgerSpeed",
+   "CONTROLBAR:HornofBuckland",
+   "CONTROLBAR:ToolTipShireHornofBuckland",
+   "CONTROLBAR:FattyConspirator",
+   "CONTROLBAR:ToolTipFattyConspirator",
+   "CONTROLBAR:FattyPrecision",
+   "CONTROLBAR:ToolTipFattyPrecision"
+  ],
+  "skirmish": [
+   "CONTROLBAR:ToolTipHornofBuckland"
+  ],
+  "both": [
+   "CONTROLBAR:FattyBolgerSpeed",
+   "CONTROLBAR:TooltipFattyBolgerSpeed",
+   "CONTROLBAR:HornofBuckland"
+  ]
+ },
+ {
+  "name": "Hamfast Gamgee",
+  "names": [
+   "OBJECT:ShireGafferGamgee"
+  ],
+  "campaign_templates": [
+   "ShireGafferGamgee"
+  ],
+  "skirmish_templates": [],
+  "missions": [
+   "ScouringoftheShire"
+  ],
+  "first": 34,
+  "campaign": [
+   "CONTROLBAR:tooltipCommand_ToggleEntRockThrow",
+   "CONTROLBAR:ProudFather",
+   "CONTROLBAR:ToolTipProudFatherGaffer",
+   "CONTROLBAR:GafferLeadership",
+   "CONTROLBAR:ToolTipGafferLeadership",
+   "CONTROLBAR:GafferStoutHeart",
+   "CONTROLBAR:ToolTipGafferStoutHeart"
+  ],
+  "skirmish": [],
+  "both": []
+ }
+]

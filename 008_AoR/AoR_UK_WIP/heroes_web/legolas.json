@@ -1,0 +1,217 @@
+{
+ "hero": "Legolas",
+ "uk_name": "Леґолас",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:RohanLegolas",
+     "t": "Name",
+     "en": "Legolas",
+     "uk": "Леґолас",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToggleFaramirWeapons",
+     "t": "Button",
+     "en": "Toggle Weapon (&W)",
+     "uk": "Змінити зброю (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipToggleLegolasWeapons",
+     "t": "Tooltip",
+     "en": "Left click to toggle between bow and white knives",
+     "uk": "Клікніть, щоб перемкнутися між луком і білими кинджалами",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FellowshipHawkStrike",
+     "t": "Button",
+     "en": "Twin Arrows (&R)",
+     "uk": "Подвійна стріла (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHawkStrike",
+     "t": "Tooltip",
+     "en": "Double-arrow attack that deals splash damage \\n Left click icon then left click on target",
+     "uk": "Постріл двома стрілами, що завдає пошкоджень по площі\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:PrinceMirkwood",
+     "t": "Button",
+     "en": "Prince of Mirkwood (&T)",
+     "uk": "Принц Лихолісся (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFellowshipLegolasPrinceMirkwood",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n When activated, nearby friendly archers temporarily gain +20% damage and armour for 20 seconds \\n Modifier Type: Leadership \\n Nearby friendly units are immune to fear and terror\\n At level 6, nearby friendly units gain +33% damage and +25% vision range\\n Passive ability",
+     "uk": "Необхідно: Рівень 3\\nПісля активації союзні лучники поблизу на 20 сек. отримують бонус +20% до пошкоджень і броні\\nТип ефекту: Лідерство\\nСоюзні загони поблизу отримують імунітет до страху та жаху\\nНа 6 рівні союзні загони поблизу отримують бонус +33% до пошкоджень і +25% дальності огляду\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFellowshipLegolasTrainArchers",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Targeted Good archers gain good experience \\n Left click icon then left click on target archers \\n \\n Modifier Type: Leadership \\n Nearby friendly units are immune to fear and terror\\n At level 6, nearby friendly units gain +33% damage \\n and +25% vision range\\n Passive ability",
+     "uk": "Необхідно: Рівень 3\\nМиттєво наділяє чималим досвідом обраних лучників світлих сил\\nКлікніть на іконку, потім оберіть лучників\\n\\nТип ефекту: Лідерство\\nСоюзні загони поблизу отримують імунітет до страху та жаху\\nНа 6 рівні союзні загони поблизу отримують бонус +33% до пошкоджень\\nі +25% дальності огляду\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FellowshipLegolasSlayer",
+     "t": "Button",
+     "en": "Piercing Shots (&C)",
+     "uk": "Пронизливі постріли (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFellowshipLegolasSlayer",
+     "t": "Tooltip",
+     "en": "Requires Level 6 \\n For 15 seconds, Legolas' arrows ignore enemy armour and slow down their targets by 40% for 5 seconds\\n Left click to activate",
+     "uk": "Необхідно: Рівень 6\\nПротягом 15 сек. стріли Леґоласа ігнорують броню ворогів і на 5 сек. сповільнюють цілі на 40%\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:Dwarf-friendCampaign",
+     "t": "Button",
+     "en": "Dwarf-friend",
+     "uk": "Друг дворфів",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDwarfFriendCampaign",
+     "t": "Tooltip",
+     "en": "Requires Level 10\\nModifier Type: Leadership \\n Gimli gains +10% damage, armour and movement speed when near Legolas\\n Passive ability",
+     "uk": "Необхідно: Рівень 10\\nТип ефекту: Лідерство\\nПоряд із Леґоласом Ґімлі отримує бонус +10% до пошкоджень, броні й швидкості пересування\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HawkStrike",
+     "t": "Button",
+     "en": "Hawk St&rike",
+     "uk": "Удар яструба (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TransportExit",
+     "t": "Button",
+     "en": "Exit Transport",
+     "uk": "Покинути транспорт",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipTransportExit",
+     "t": "Tooltip",
+     "en": "Order this unit to exit",
+     "uk": "Віддати наказ злізти з ента",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:LegolasToggleMount",
+     "t": "Button",
+     "en": "Mount/Dismount (&C)",
+     "uk": "Сісти верхи / Спішитися (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEowynMount",
+     "t": "Tooltip",
+     "en": "Left click to switch between mounted and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою верхи та пішим ходом",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Woodland Realm · Battle Of The Five Armies map",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:LegolasDwarfFriend",
+     "t": "Button",
+     "en": "Dwarf-friend (&V)",
+     "uk": "Друг дворфів (&V)",
+     "st": "ok",
+     "dup": "CONTROLBAR:Dwarf-friendCampaign"
+    },
+    {
+     "v": "CONTROLBAR:TooltipLegolasDwarfFriend",
+     "t": "Tooltip",
+     "en": "Requires Level 10\\nSummons Gimli son of Glóin to the battlefield\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 10\\nПрикликає на поле бою Ґімлі, сина Ґлоїна\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Summoned",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:ThreeHuntersLeadership",
+     "t": "Button",
+     "en": "The Three Hunters",
+     "uk": "Три мисливці",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHuntersLeadershipLegolas",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n When near Aragorn or Gimli, Legolas gains +25% armour and speed\\n Passive ability",
+     "uk": "Тип ефекту: Лідерство\\nПоряд з Араґорном чи Ґімлі Леґолас отримує бонус +25% броні й швидкості\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HawkStrike_Summoned",
+     "t": "Button",
+     "en": "Elven Skill (&R)",
+     "uk": "Ельфійська вправність (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHawkStrikeStormcrow",
+     "t": "Tooltip",
+     "en": "Double-arrow attack that deals splash damage \\n Can only use dismounted \\n Left click icon then left click on target",
+     "uk": "Постріл двома стрілами, що завдає пошкоджень по площі\\nДоступно лише пішки\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ArrowWind",
+     "t": "Button",
+     "en": "Arrow Wind (&T)",
+     "uk": "Вітер стріл (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipArrowWind",
+     "t": "Tooltip",
+     "en": "Launch a continuous volley of arrows \\n Can only use dismounted \\n Left click icon then left click on target area",
+     "uk": "Безперервний обстріл стрілами\\nЛише в пішому строю\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:EvacuateAll",
+     "t": "Button",
+     "en": "Evacuate All (&E)",
+     "uk": "Усім вийти (&E)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEvacuate",
+     "t": "Tooltip",
+     "en": "Order all units to exit",
+     "uk": "Наказати ВСІМ загонам покинути будівлю",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

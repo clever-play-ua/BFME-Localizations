@@ -1,0 +1,90 @@
+{
+ "hero": "Grimbeorn",
+ "uk_name": "Ґрімбеорн",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:MirkwoodGrimbeorn",
+     "t": "Name",
+     "en": "Grimbeorn",
+     "uk": "Ґрімбеорн",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SonOfBeorn",
+     "t": "Button",
+     "en": "Son of Beorn (&W)",
+     "uk": "Син Беорна (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSonOfBeorn",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\nProvides +33% armour to nearby Beornings\\nGrimbeorn deals +33% additional damage against Bolg\\nPassive ability\\n\\nWhen activated, Grimbeorn instills terror into the hearts of all Orc and Warg units for 15 seconds\\nLeft click to activate",
+     "uk": "Тип ефекту: Лідерство\\nБеорнінги поблизу отримують бонус +33% броні\\nҐрімбеорн завдає Болґу на 33% більше пошкоджень\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nПісля активації Ґрімбеорн на 15 сек. жахає всі загони орків і варґів\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GrimbeornStrongman",
+     "t": "Button",
+     "en": "Strongman (&R)",
+     "uk": "Силач (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGrimbeornStrongman",
+     "t": "Tooltip",
+     "en": "Grimbeorn powerfully swings his massive axe, dealing damage to everything around him\\nGrows in strength as Grimbeorn ranks up\\nLeft click to activate",
+     "uk": "Ґрімбеорн потужно махає величезною сокирою й завдає пошкоджень усім довкола\\nСила зростає з рівнем Ґрімбеорна\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TollKeepers",
+     "t": "Button",
+     "en": "Toll-keepers (&T)",
+     "uk": "Збирачі мита (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipTollKeepers",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\nCan be cast on any resource structure to spawn a chest of 850 resources\\nPauses resource production for 30 seconds as a result\\nLeft click icon then left click on target structure",
+     "uk": "Необхідно: Рівень 3\\nМожна застосувати до будь-якої ресурсної споруди, після цього з'явиться скриня з 850 од. ресурсів\\nПроте споруда на 30 сек. припиняє весь видобуток\\nКлікніть на іконку, потім оберіть споруду",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GrimbeornBodyguard",
+     "t": "Button",
+     "en": "Beorning Bodyguard (&C)",
+     "uk": "Охоронці-беорнінги (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGrimbeornBodyguard",
+     "t": "Tooltip",
+     "en": "Requires Level 6\\n Grimbeorn summons three Beornings to guard an allied hero or structure for 45 seconds \\n Left click icon then left click on target hero or structure",
+     "uk": "Необхідно: Рівень 6\\nҐрімбеорн прикликає трьох беорнінгів, які 45 сек. охороняють союзного героя чи споруду\\nКлікніть на іконку, потім оберіть героя чи споруду",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SpecialAbilityUrsineSoul",
+     "t": "Button",
+     "en": "Ursine Soul (&V)",
+     "uk": "Ведмежа душа (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSpecialAbilityUrsineSoul",
+     "t": "Tooltip",
+     "en": "Required: Rank 10\\n Grimbeorn permanently deals knockback damage \\n Passive ability\\n\\nWhen activated, Grimbeorn transforms into a bear for 90 seconds to wreak havoc among the enemy\\ngaining additional +25% damage and +50% armour\\nCauses nearby enemies to flee in terror\\n Whilst active, Grimbeorn deals +50% additional damage against Bolg\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 10\\nҐрімбеорн завжди відкидає ворогів своїми ударами\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nПісля активації Ґрімбеорн на 90 сек. перетворюється на ведмедя й сіє хаос серед ворогів,\\nотримуючи додатково +25% до пошкоджень і +50% броні\\nВороги поблизу тікають у жаху\\nПоки діє здібність, Ґрімбеорн завдає Болґу на 50% більше пошкоджень\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

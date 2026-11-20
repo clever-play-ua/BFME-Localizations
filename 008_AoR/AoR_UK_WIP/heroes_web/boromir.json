@@ -1,0 +1,235 @@
+{
+ "hero": "Boromir",
+ "uk_name": "Боромир",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:GondorBoromir",
+     "t": "Name",
+     "en": "Boromir",
+     "uk": "Боромир",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FellowshipBoromirShieldBash",
+     "t": "Button",
+     "en": "Shield Bash (&W)",
+     "uk": "Удар щитом (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFellowshipBoromirShieldBash",
+     "t": "Tooltip",
+     "en": "Boromir slams his shield into his enemy, dealing strong damage and knocking back enemies within an arc in front of him\\nLeft click to activate",
+     "uk": "Боромир б'є ворога щитом, завдаючи сильних пошкоджень і відкидаючи ворогів перед собою\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFellowshipBoromirShieldBash_Rohan",
+     "t": "Tooltip",
+     "en": "Requires Boromir's Shield equipped\\nBoromir slams his shield into his enemy, dealing strong damage and knocking back enemies within an arc in front of him\\nLeft click to activate",
+     "uk": "Потрібно мати щит Боромира\\nБоромир б'є ворога щитом, завдаючи сильних пошкоджень і відкидаючи ворогів перед собою\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:WannaBoroMiKnife",
+     "t": "Button",
+     "en": "Knife Throw (&R)",
+     "uk": "Кинути ножа (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipFellowshipWannaBoroMiKnife",
+     "t": "Tooltip",
+     "en": "Boromir throws his knife at an enemy unit, knocking them back and reducing their armour by 25% for 10 seconds \\n Left click icon then left click on target",
+     "uk": "Боромир кидає свій ніж у ворога, відкидаючи його й зменшуючи його броню на 25% на 10 сек.\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HornofGondorFellowship",
+     "t": "Button",
+     "en": "Horn of Gondor (&T)",
+     "uk": "Ріг Ґондору (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFellowshipHornofGondor",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Stun enemies with fear for 15 seconds \\n Left click to activate",
+     "uk": "Необхідно: Рівень 3\\nЗвук рогу Ґондору лякає та приголомшує ворогів на 15 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHornofGondor",
+     "t": "Tooltip",
+     "en": "Requires Level 4 \\n Stun enemies with fear for 15 seconds \\n Left click to activate",
+     "uk": "Необхідно: Рівень 4\\nЗвук рогу Ґондору лякає та приголомшує ворогів на 15 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:WarCry",
+     "t": "Button",
+     "en": "For Gondor! (&C)",
+     "uk": "За Ґондор! (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFellowshipWarCry",
+     "t": "Tooltip",
+     "en": "Requires Level 6\\n Modifier Type: Leadership \\n Nearby allies gain +33% damage, +25% armour and earn experience 50% faster\\nPassive ability \\n \\n When activated, nearby friendly units gain\\n+33% damage, +20% speed, and resistance to fear and terror for 30 seconds\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 6\\nТип ефекту: Лідерство\\nСоюзники поблизу отримують бонус +33% до пошкоджень, +25% броні й на 50% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nПісля активації союзні загони поблизу отримують бонус\\n+33% до пошкоджень, +20% швидкості й стійкість до страху та жаху на 30 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipWarCryBoromir",
+     "t": "Tooltip",
+     "en": "Requires Level 5\\n Modifier Type: Spell \\n Nearby friendly units gain +33% damage, +20% speed, and resistance to fear and terror for 30 seconds\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 5\\nТип ефекту: Заклинання\\nСоюзні загони поблизу на 30 сек. отримують бонус +33% до пошкоджень, +20% швидкості й стійкість до страху та жаху\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FellowshipBoromirMasteredFate",
+     "t": "Button",
+     "en": "Mastered Fate (&V)",
+     "uk": "Підкорена доля (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipFellowshipBoromirMasteredFate",
+     "t": "Tooltip",
+     "en": "Requires Level 8\\nBoromir heals himself for a small amount and gains +50% armour for 15 seconds\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 8\\nБоромир трохи зцілюється й отримує бонус +50% броні на 15 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BoromirToggleMount",
+     "t": "Button",
+     "en": "Mount/Dismount (&C)",
+     "uk": "Сісти верхи / Спішитися (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEowynMount",
+     "t": "Tooltip",
+     "en": "Left click to switch between mounted and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою верхи та пішим ходом",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BoromirLeadership",
+     "t": "Button",
+     "en": "Captain of the White Tower",
+     "uk": "Капітан Білої вежі",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBoromirLeadershipDA",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\nFriendly units near Boromir gain +33% armour and earn experience +50% faster\\nAt Level 5, Boromir dons his Gondorian armour and gains +10% armour\\nPassive Ability",
+     "uk": "Тип ефекту: Лідерство\\nСоюзні загони поряд із Боромиром отримують бонус +33% броні й на 50% швидше набирають досвід\\nНа 5 рівні Боромир вдягає ґондорські обладунки й отримує бонус +10% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBoromirNewLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Soldiers, Spearmen, and Archers of Minas Tirith near Boromir gain +33% damage and +25% armour \\n \\n At level 5, Boromir dons his Gondorian Armour and permanently gains +15% armour \\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nВоїни, списоносці й лучники Мінас-Тіріта поряд із Боромиром отримують бонус +33% до пошкоджень і +25% броні\\n\\nНа 5 рівні Боромир вдягає ґондорські обладунки й отримує бонус +15% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:WannaBoroMiKnifeDolAmroth",
+     "t": "Button",
+     "en": "Knife Throw (&R)",
+     "uk": "Кинути ножа (&R)",
+     "st": "ok",
+     "dup": "CONTROLBAR:WannaBoroMiKnife"
+    },
+    {
+     "v": "CONTROLBAR:TooltipWannaBoroMiKnife",
+     "t": "Tooltip",
+     "en": "Requires Level 2\\n Boromir throws his knife at an enemy unit, knocking them back and reducing their armour by 25% for 10 seconds \\n Left click icon then left click on target",
+     "uk": "Необхідно: Рівень 2\\nБоромир кидає ніж у ворога, чим відкидає його та на 10 сек. знижує його броню на 25%\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:CaptainofGondor",
+     "t": "Button",
+     "en": "Proud, Stubborn, Strong (&V)",
+     "uk": "Гордий, упертий та сильний (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCaptainofGondorBoromir",
+     "t": "Tooltip",
+     "en": "Requires Level 7 \\nGive targeted units superior experience\\n Left click icon then left click on target units \\n \\n Modifier Type: Spell \\n When Boromir reaches 25% health, he gains +200% armour for 15 seconds\\nCannot be triggered again for 60 seconds\\n Passive ability",
+     "uk": "Необхідно: Рівень 7\\nМиттєво наділяє обрані загони значною кількістю досвіду\\nКлікніть на іконку, потім оберіть потрібні загони\\n\\nТип ефекту: Заклинання\\nКоли здоров'я Боромира падає до 25%, він на 15 сек. отримує бонус +200% броні\\nПовторно спрацьовує не раніше ніж через 60 сек.\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HornofGondor",
+     "t": "Button",
+     "en": "Horn of Gondor (&T)",
+     "uk": "Ріг Ґондору (&T)",
+     "st": "ok",
+     "dup": "CONTROLBAR:HornofGondorFellowship"
+    }
+   ]
+  },
+  {
+   "name": "Summoned",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:HornofGondorIthilien",
+     "t": "Button",
+     "en": "Horn of Gondor (&W)",
+     "uk": "Ріг Ґондору (&W)",
+     "st": "ok",
+     "dup": "CONTROLBAR:HornofGondorFellowship"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHornofGondorIthilien",
+     "t": "Tooltip",
+     "en": "Stun enemies with fear for 15 seconds \\n Left click to activate",
+     "uk": "Звук рогу Ґондору лякає та приголомшує ворогів на 15 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:WarCryIthilien",
+     "t": "Button",
+     "en": "For Gondor! (&R)",
+     "uk": "За Ґондор! (&R)",
+     "st": "ok",
+     "dup": "CONTROLBAR:WarCry"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipWarCryIthilien",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n Nearby friendly units gain +33% damage, +20% speed, and resistance to fear and terror for 30 seconds\\nLeft click to activate",
+     "uk": "Тип ефекту: Заклинання\\nСоюзні загони поблизу на 30 сек. отримують бонус +33% до пошкоджень, +20% швидкості та стійкість до страху й жаху\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:CaptainofGondorIthilien",
+     "t": "Button",
+     "en": "Proud, Stubborn, Strong (&T)",
+     "uk": "Гордий, упертий та сильний (&T)",
+     "st": "ok",
+     "dup": "CONTROLBAR:CaptainofGondor"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCaptainofGondorBoromirIthilien",
+     "t": "Tooltip",
+     "en": "Give targeted units superior experience\\n Left click icon then left click on target units",
+     "uk": "Миттєво наділяє обрані загони значною кількістю досвіду\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

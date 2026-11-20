@@ -1,0 +1,45 @@
+﻿1
+00:00:00,042 --> 00:00:06,000
+Gandalf, mi viejo amigo,
+esta será una noche inolvidable.
+
+2
+00:00:17,542 --> 00:00:21,083
+¡Hoy cumplo ciento once años!
+
+3
+00:00:24,125 --> 00:00:28,000
+Por desgracia, ciento once años
+es demasiado poco tiempo
+
+4
+00:00:28,042 --> 00:00:32,375
+para vivir entre hobbits
+tan excelentes y admirables.
+
+5
+00:00:32,500 --> 00:00:35,875
+A la mitad no os conozco
+ni la mitad de lo que querría,
+
+6
+00:00:35,958 --> 00:00:40,375
+y a menos de la mitad os aprecio
+la mitad de lo que merecéis.
+
+7
+00:00:49,000 --> 00:00:52,375
+Lamento anunciaros que esto es el final.
+
+8
+00:00:54,125 --> 00:00:56,417
+Me marcho ya.
+
+9
+00:00:56,542 --> 00:01:00,500
+Os dedico a todos
+una despedida muy afectuosa.
+
+10
+00:01:01,667 --> 00:01:03,083
+Adiós.

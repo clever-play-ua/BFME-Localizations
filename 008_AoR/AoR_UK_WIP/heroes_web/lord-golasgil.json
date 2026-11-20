@@ -1,0 +1,83 @@
+{
+ "hero": "Lord Golasgil",
+ "uk_name": "Лорд Ґоласґіл",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:CampaignGolasgil",
+     "t": "Name",
+     "en": "Lord Golasgil",
+     "uk": "Лорд Ґоласґіл",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GolasgilLeadership",
+     "t": "Button",
+     "en": "Lord of Anfalas",
+     "uk": "Володар Анфаласу",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipGolasgilLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\nAllies near Lord Golasgil gain +25% Armour\\nStacks with Buffs and Spells\\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nСоюзники поряд із лордом Ґоласґілом отримують бонус +25% броні\\nПоєднується з посиленнями та заклинаннями\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GolasgilGuardSummon",
+     "t": "Button",
+     "en": "Household Guard (&R)",
+     "uk": "Особиста варта (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGolasgilGuardSummon",
+     "t": "Tooltip",
+     "en": "Lord Golasgil dispatches his Household Guard\\nSummons 3 Household Guards that deal knockback damage\\nLeft click to activate",
+     "uk": "Лорд Ґоласґіл прикликає свою особисту варту\\n3 вартових, чиї удари відкидають ворогів\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GolasgilShiningSteel",
+     "t": "Button",
+     "en": "Shining Steel (&T)",
+     "uk": "Блискуча сталь (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGolasgilShiningSteel",
+     "t": "Tooltip",
+     "en": "Enemy units within the radius are stunned for 5 seconds\\n Lord Golasgil deals +25% damage for 30 seconds\\n Left click icon then left click on target",
+     "uk": "Ворожі загони в радіусі дії приголомшені на 5 сек.\\nЛорд Ґоласґіл завдає +25% пошкоджень на 30 сек.\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Battle of the Black Gate",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:GolasgilShowStrength",
+     "t": "Button",
+     "en": "Show of Strength (&C)",
+     "uk": "Демонстрація сили (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipWarCry",
+     "t": "Tooltip",
+     "en": "Requires Level 5\\n Modifier Type: Spell \\n Targeted friendly units gain +33% damage, +20% speed, and resistance to fear and terror for 30 seconds\\nLeft click icon then left click on target units",
+     "uk": "Необхідно: Рівень 5\\nТип ефекту: Заклинання\\nВказані союзні загони отримують бонус +33% до пошкоджень, +20% швидкості й стійкість до страху та жаху на 30 сек.\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

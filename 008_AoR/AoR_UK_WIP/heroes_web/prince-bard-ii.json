@@ -1,0 +1,97 @@
+{
+ "hero": "Prince Bard II",
+ "uk_name": "Принц Бард II",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:FellowshipBardII",
+     "t": "Name",
+     "en": "Prince Bard II",
+     "uk": "Принц Бард II",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Battle of Dale and Erebor",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:BardPrinceOfDale",
+     "t": "Button",
+     "en": "Prince of Dale",
+     "uk": "Принц Дейла",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBardPrinceOfDaleBODE",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\nAllies near Prince Bard II gain +15% Damage, +15% Armour, and earn experience 15% faster\\nStacks with Buffs and Spells\\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nСоюзники поряд із принцом Бардом II отримують бонус +15% до пошкоджень, +15% броні й на 15% швидше набирають досвід\\nПоєднується з посиленнями та заклинаннями\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BardWarriorsWit",
+     "t": "Button",
+     "en": "Deft Swordsman (&R)",
+     "uk": "Вправний мечник (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBardWarriorsWit",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\nBard II gains +50% damage and +50% armour for 30 seconds\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 3\\nБард II отримує бонус +50% до пошкоджень і +50% броні на 30 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BardDragonSlayerLegacy",
+     "t": "Button",
+     "en": "Dragonslayer's Legacy (&T)",
+     "uk": "Спадок Драконоборця (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBardDragonSlayerLegacyBODE",
+     "t": "Tooltip",
+     "en": "Requires Level 5\\nModifier Type: Spell\\nBard II and nearby allies gain resistance to knockback, +33% damage and +20% Speed for 30 seconds\\nStacks with Leadership and Spells\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 5\\nТип ефекту: Заклинання\\nБард II і союзники поблизу отримують стійкість до відкидання, +33% до пошкоджень і +20% швидкості на 30 сек.\\nПоєднується з лідерством і заклинаннями\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:PrinceBardIIDisarm",
+     "t": "Button",
+     "en": "Warrior's Wit (&C)",
+     "uk": "Кмітливість воїна (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipPrinceBardIIDisarm",
+     "t": "Tooltip",
+     "en": "Requires Level 8\\nBard II disarms his opponent\\nSelected enemy hero or siege machine takes damage and cannot deal damage for 10 seconds\\nLeft click icon then left click on target",
+     "uk": "Необхідно: Рівень 8\\nБард II обеззброює супротивника\\nВказаний ворожий герой або облогова машина отримує пошкодження й не може завдавати пошкоджень 10 сек.\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:PrinceBardIISturdyCampaign",
+     "t": "Button",
+     "en": "Steadfast Scion (&V)",
+     "uk": "Непохитний нащадок (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipPrinceBardIISturdyCampaign",
+     "t": "Tooltip",
+     "en": "Requires Level 10\\nBard II becomes invulnerable to damage for 10 seconds\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 10\\nБард II стає невразливим на 10 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

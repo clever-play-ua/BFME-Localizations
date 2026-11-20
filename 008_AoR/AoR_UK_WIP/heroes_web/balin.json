@@ -1,0 +1,162 @@
+{
+ "hero": "Balin",
+ "uk_name": "Балін",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:DwarvenBalin",
+     "t": "Name",
+     "en": "Balin",
+     "uk": "Балін",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BalinLookout",
+     "t": "Button",
+     "en": "Company's Lookout (&W)",
+     "uk": "Вартовий загону (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipBalinLookout",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\nAllies near Balin gain +25% vision range\\nPassive ability \\n\\n At level 10, teleports target units to the targeted location\\nDoes not work on siege units\\nLeft click icon, then left click on target units, then left click on pathable location",
+     "uk": "Тип ефекту: Лідерство\\nСоюзники поряд із Баліном отримують бонус +25% дальності огляду\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nНа 10 рівні телепортує обрані загони в указане місце\\nНе діє на облогові машини\\nКлікніть на іконку, потім оберіть потрібні загони, потім оберіть ділянку для перенесення",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BalinFlag",
+     "t": "Button",
+     "en": "Balin's Expedition (&R)",
+     "uk": "Експедиція Баліна (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipBalinFlag",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Balin plants a banner of Durin. \\n Nearby troops gain +33% damage, +25% armour, earn experience +50% faster, and are partially healed. \\n At level 7, affected units are immune to knockback and are healed by a larger amount \\n Left click to activate",
+     "uk": "Необхідно: Рівень 3\\nБалін встановлює стяг Дуріна.\\nЗагони поблизу отримують бонус +33% до пошкоджень, +25% броні, на 50% швидше набирають досвід і частково зцілюються.\\nНа 7 рівні загони під дією стягу отримують імунітет до відкидання й зцілюються сильніше\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipBalinFlagDurinsFolk",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Balin plants a banner of Durin. \\n Nearby troops gain +50% experience gain, +25% armour, +33% damage and are partially healed. \\n At level 7, affected units are immune to knockback and are healed by a larger amount \\n At level 10, summons a battalion of Khazâd-Dum Veterans \\n Left click to activate",
+     "uk": "Необхідно: Рівень 3\\nБалін встановлює стяг Дуріна\\nЗагони поблизу отримують бонус +25% броні, +33% до пошкоджень, на 50% швидше набирають досвід і частково зцілюються\\nНа 7 рівні загони під дією стягу отримують імунітет до відкидання й зцілюються сильніше\\nНа 10 рівні прикликає загін ветеранів Казад-думу\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BalinCounselorOfKings",
+     "t": "Button",
+     "en": "Counselor of Kings (&C)",
+     "uk": "Радник королів (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBalinCounselorOfKings",
+     "t": "Tooltip",
+     "en": "Requires Level 7 \\n Modifier Type: Spell \\n Balin empowers a friendly hero, granting them 50% armour, 50% faster experience gain,\\n and 75% faster power recharge times for 30 seconds\\n Left click icon then left click on target hero",
+     "uk": "Необхідно: Рівень 7\\nТип ефекту: Заклинання\\nБалін посилює союзного героя: на 30 сек. той отримує бонус +50% броні, на 50% швидше набирає досвід\\nі на 75% швидше відновлює здібності\\nКлікніть на іконку, потім оберіть героя",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BalinDwarvenWisdom",
+     "t": "Button",
+     "en": "Dwarven Wisdom (&T)",
+     "uk": "Мудрість дворфів (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBalinDwarvenWisdom",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Selected structure's resource output is raised to 200% for 60 seconds\\n Left click icon then left click on target resource structure",
+     "uk": "Необхідно: Рівень 5\\nОбрана споруда 60 сек. дає вдвічі більше ресурсів (200%)\\nКлікніть на іконку, потім оберіть ресурсну споруду",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Battle of Azanulbizar",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:YoungBalinTactician",
+     "t": "Button",
+     "en": "Tactician (&W)",
+     "uk": "Тактик (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipYoungBalinTactician",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Give targeted friendly troops experience \\n Left click icon then left click on target units",
+     "uk": "Необхідно: Рівень 3\\nМиттєво наділяє досвідом обрані союзні загони\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:YoungBalinCounselorOfKings",
+     "t": "Button",
+     "en": "King's Advisor (&R)",
+     "uk": "Радник короля (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipYoungBalinCounselorOfKings",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Modifier Type: Spell \\n Balin empowers a friendly hero, granting them 50% armour, 50% faster experience gain, and 75% faster power recharge times for 30 seconds\\nLeft click icon then left click on target hero",
+     "uk": "Необхідно: Рівень 3\\nТип ефекту: Заклинання\\nБалін посилює союзного героя: на 30 сек. той отримує бонус +50% броні, на 50% швидше набирає досвід і на 75% швидше відновлює здібності\\nКлікніть на іконку, потім оберіть героя",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Council of Elrond",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:BalinCounselorOfKingsCampaign",
+     "t": "Button",
+     "en": "Counselor of Kings (&R)",
+     "uk": "Радник королів (&R)",
+     "st": "ok",
+     "dup": "CONTROLBAR:BalinCounselorOfKings"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBalinCounselorOfKingsCampaign",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n Balin empowers a friendly hero, granting them 50% armour, 50% faster experience gain,\\n and 75% faster power recharge times for 30 seconds\\n Left click icon then left click on target hero",
+     "uk": "Тип ефекту: Заклинання\\nБалін посилює союзного героя: на 30 сек. той отримує бонус +50% броні, на 50% швидше набирає досвід\\nі на 75% швидше відновлює здібності\\nКлікніть на іконку, потім оберіть героя",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Durins Folk map",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:BalinLookoutDurinsFolk",
+     "t": "Button",
+     "en": "Company's Lookout",
+     "uk": "Вартовий загону",
+     "st": "ok",
+     "dup": "CONTROLBAR:BalinLookout"
+    },
+    {
+     "v": "CONTROLBAR:TooltipBalinLookoutDurinsFolk",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\nAllies near Balin gain +25% vision range\\n\\nPassive ability \\n",
+     "uk": "Тип ефекту: Лідерство\\nСоюзники поряд із Баліном отримують бонус +25% дальності огляду\\n\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

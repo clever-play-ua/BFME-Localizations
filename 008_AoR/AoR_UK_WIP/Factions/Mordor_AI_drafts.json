@@ -42,7 +42,7 @@
   {
    "var": "CONTROLBAR:ToolTipFireWeaponMordorFortressMagmaCauldrons",
    "en": "Requires the Scorching Spires upgrade \\n The Fortress emits poisonous smoke\\nEnemies caught in the smoke suffer damage over time for 15 seconds\\n Left click to activate",
-   "uk_ai": "Потребує покращення «Пекучі шпилі»\\nФортеця випускає отруйний дим\\nВороги в диму 15 сек. поступово отримують пошкодження\\nКлікніть, щоб активувати"
+   "uk_ai": "Потребує покращення «Пекучі шпилі»\\nФортеця випускає отруйний дим\\nВороги в диму 15 сек. отримують періодичні пошкодження\\nКлікніть, щоб активувати"
   },
   {
    "var": "CONTROLBAR:PurchaseUpgradeMordorFortressDoomPyres",

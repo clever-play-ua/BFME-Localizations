@@ -1,0 +1,45 @@
+﻿1
+00:00:03,880 --> 00:00:05,440
+Where am I?
+
+2
+00:00:05,600 --> 00:00:08,680
+You are in the house of Elrond.
+
+3
+00:00:09,640 --> 00:00:12,240
+And it is ten o'clock in the morning
+
+4
+00:00:12,320 --> 00:00:15,600
+on October the 24th, if you want to know.
+
+5
+00:00:18,280 --> 00:00:21,400
+- Gandalf!
+- Yes, I'm here.
+
+6
+00:00:23,400 --> 00:00:26,600
+And you're lucky to be here, too.
+
+7
+00:00:27,120 --> 00:00:31,280
+A few more hours and you would
+have been beyond our aid.
+
+8
+00:00:34,760 --> 00:00:37,400
+What happened, Gandalf?
+
+9
+00:00:38,440 --> 00:00:40,720
+Why didn't you meet us?
+
+10
+00:00:40,840 --> 00:00:43,080
+Oh, I am sorry, Frodo.
+
+11
+00:00:48,120 --> 00:00:50,680
+I was delayed.

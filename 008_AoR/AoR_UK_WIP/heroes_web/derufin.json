@@ -1,0 +1,20 @@
+{
+ "hero": "Derufin",
+ "uk_name": "Деруфін",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:CampaignDerufin",
+     "t": "Name",
+     "en": "Derufin",
+     "uk": "Деруфін",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

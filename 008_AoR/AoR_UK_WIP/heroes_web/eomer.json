@@ -1,0 +1,132 @@
+{
+ "hero": "Éomer",
+ "uk_name": "Еомер",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:RohanEomer",
+     "t": "Name",
+     "en": "Éomer",
+     "uk": "Еомер",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HorseLordLeadership",
+     "t": "Button",
+     "en": "Horse Lord",
+     "uk": "Повелитель коней",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEomerLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Allied cavalry near Éomer gain +33% damage and -25% trample deceleration \\n\\n Requires Level 3 \\n Éomer and nearby units earn resources per kill \\n\\n Passive ability",
+     "uk": "Тип ефекту: Лідерство\\nСоюзні вершники поряд з Еомером отримують бонус +33% до пошкоджень і на 25% менше сповільнюється під час топтання\\n\\nНеобхідно: Рівень 3\\nЕомер і загони поблизу отримують ресурси за кожне вбивство\\n\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEomerLeadershipBG",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Allied units near Éomer gain +33% damage \\n\\n Passive ability",
+     "uk": "Тип ефекту: Лідерство\\nСоюзні загони поряд з Еомером отримують бонус +33% до пошкоджень\\n\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:EomerNewMount",
+     "t": "Button",
+     "en": "Mount Firefoot / Dismount (&R)",
+     "uk": "Осідлати Вогнекопита / Спішитися (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:EomerNewMountTooltip",
+     "t": "Tooltip",
+     "en": "Left click to switch between \\n mounted on Firefoot and on foot",
+     "uk": "Клікніть, щоб перемкнутися між\\nверхи на Вогнекопиті й пішки",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ThrowSpear",
+     "t": "Button",
+     "en": "Spear Throw (&T)",
+     "uk": "Кинути спис (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipThrowSpear",
+     "t": "Tooltip",
+     "en": "Powerful ranged attack with radius damage \\n Left click icon then left click on target",
+     "uk": "Потужна атака на відстані з пошкодженнями по площі\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:EomerBlademaster",
+     "t": "Button",
+     "en": "Thirst of Gúthwinë (&C)",
+     "uk": "Жага Ґутвіне (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipEomerBlademaster",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Éomer gains +100% damage and deals splash damage for 30 seconds\\n Left click to activate",
+     "uk": "Необхідно: Рівень 5\\nЕомер на 30 сек. отримує бонус +100% до пошкоджень і завдає пошкоджень по площі\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:EomerStandGround",
+     "t": "Button",
+     "en": "Stand Your Ground (&V)",
+     "uk": "Тримати стрій (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEomerStandGround",
+     "t": "Tooltip",
+     "en": "Required: Rank 8 \\n Modifier Type: Spell\\n Creates a ring which gives +33% armour, +33% damage and resistance to knockback to units within it \\n Lasts 60 seconds \\n Left click to activate",
+     "uk": "Необхідно: Рівень 8\\nТип ефекту: Заклинання\\nСтворює коло, у якому загони отримують бонус +33% броні, +33% до пошкоджень і стійкість до відкидання\\nДіє 60 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Battle of Pelennor Fields",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:GandalfNewMountCampaignNoHotkey",
+     "t": "Button",
+     "en": "Mount Shadowfax / Dismount",
+     "uk": "Осідлати Тінегрива / Спішитися",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipShadowfax",
+     "t": "Tooltip",
+     "en": "Left click to switch between \\n mounted on Shadowfax and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою\\nна Тінегриві та пішим ходом",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Battle of the Black Gate",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:ToolTipEowynMount",
+     "t": "Tooltip",
+     "en": "Left click to switch between mounted and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою верхи та пішим ходом",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

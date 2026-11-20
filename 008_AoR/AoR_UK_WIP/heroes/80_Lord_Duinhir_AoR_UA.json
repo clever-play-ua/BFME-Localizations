@@ -77,7 +77,7 @@
    "type": "Підказка",
    "en": "Lord Duinhir expertly wields his sword, knocking back enemy units and dealing damage over time for 30 seconds\nLeft click to activate",
    "ru": "",
-   "uk_ai": "Лорд Дуінгір вправно орудує мечем: 30 сек. він відкидає ворожі загони й завдає їм поступових пошкоджень\nКлікніть, щоб активувати",
+   "uk_ai": "Лорд Дуінгір вправно орудує мечем: 30 сек. він відкидає ворожі загони й завдає їм періодичних пошкоджень\nКлікніть, щоб активувати",
    "status": "чернетка AI",
    "uk": ""
   }

@@ -1,0 +1,83 @@
+{
+ "hero": "Dúnhere",
+ "uk_name": "Дунгер",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:RohanDunhere",
+     "t": "Name",
+     "en": "Dúnhere",
+     "uk": "Дунгер",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DunhereHoldLine",
+     "t": "Button",
+     "en": "Hold the Line! (&W)",
+     "uk": "Тримати стрій! (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDunhereHoldLine",
+     "t": "Tooltip",
+     "en": "Dúnhere enters a defensive stance, granting nearby friendly units +25% armour,\\nand 100% knockback resistance at the cost of -25% movement speed\\nEffect lasts 30 seconds\\nLeft click to activate",
+     "uk": "Дунгер стає в оборону: союзні загони поблизу отримують бонус +25% броні\\nі 100% стійкості до відкидання ціною -25% швидкості пересування\\nЕфект триває 30 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DunhereCaptain",
+     "t": "Button",
+     "en": "Captain of Upbourn (&R)",
+     "uk": "Капітан Апборна (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDunhereCaptain",
+     "t": "Tooltip",
+     "en": "Nearby units gain +50% experience\\nPassive ability\\n\\nCan be activated to grant Dúnhere +50% damage for 20 seconds\\nLeft click to activate",
+     "uk": "Загони поблизу на 50% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nПісля активації Дунгер отримує бонус +50% до пошкоджень на 20 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Battle of the Hornburg",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:ToolTipEowynMount",
+     "t": "Tooltip",
+     "en": "Left click to switch between mounted and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою верхи та пішим ходом",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Battle of Pelennor Fields",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:GandalfNewMountCampaignNoHotkey",
+     "t": "Button",
+     "en": "Mount Shadowfax / Dismount",
+     "uk": "Осідлати Тінегрива / Спішитися",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipShadowfax",
+     "t": "Tooltip",
+     "en": "Left click to switch between \\n mounted on Shadowfax and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою\\nна Тінегриві та пішим ходом",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

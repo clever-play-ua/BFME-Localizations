@@ -1,0 +1,118 @@
+{
+ "hero": "Théodred",
+ "uk_name": "Теодред",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:RohanTheodred",
+     "t": "Name",
+     "en": "Théodred",
+     "uk": "Теодред",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TheodredLuck",
+     "t": "Button",
+     "en": "Luck of Battle (&T)",
+     "uk": "Військова удача (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipTheodredLuckCampaign",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Théodred equips his helmet, gaining +33% armour \\n When activated, Théodred avoids all ranged damage for 30 seconds \\n Left click to activate",
+     "uk": "Необхідно: Рівень 3\\nТеодред вдягає шолом і отримує бонус +33% броні\\nПісля активації Теодред на 30 сек. уникає всіх пошкоджень від атак на відстані\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipTheodredLuck",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Théodred equips his helmet, gaining +33% armour \\n Passive ability \\n When activated, Théodred avoids all ranged damage for 30 seconds \\n\\n Requires Level 7 \\n When activated, the above effect is coupled with temporary invulnerability \\n Left click to activate",
+     "uk": "Необхідно: Рівень 3\\nТеодред вдягає шолом і отримує бонус +33% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nПісля активації Теодред на 30 сек. уникає всіх пошкоджень від атак на відстані\\n\\nНеобхідно: Рівень 7\\nПісля активації до цього ефекту додається тимчасова невразливість\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TheodredPrinceRiddermark",
+     "t": "Button",
+     "en": "Prince of the Riddermark",
+     "uk": "Принц Ріддермарку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipTheodredPrinceRiddermark",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Théodred equips his royal cloak \\n Modifier Type: Leadership \\n Grants +20% to armour and +10% to attack damage and health regeneration \\n for Théoden, Éomer, and Éowyn \\n Nearby units gain +33% damage \\nPassive ability",
+     "uk": "Необхідно: Рівень 5\\nТеодред вдягає королівський плащ\\nТип ефекту: Лідерство\\nДає +20% броні та +10% до пошкоджень від атак і відновлення здоров'я\\nТеодену, Еомеру й Еовін\\nЗагони поблизу отримують бонус +33% до пошкоджень\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TheodredDetermination",
+     "t": "Button",
+     "en": "Determination (&V)",
+     "uk": "Рішучість (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipTheodredDetermination",
+     "t": "Tooltip",
+     "en": "Requires Level 9 \\n Théodred regains 50% of his maximum health and gains +20% movement speed for 30 seconds \\n Left click to activate",
+     "uk": "Необхідно: Рівень 9\\nТеодред відновлює 50% максимального здоров'я й на 30 сек. отримує бонус +20% швидкості руху\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Battle of the Fords of Isen",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:ToolTipEowynMount",
+     "t": "Tooltip",
+     "en": "Left click to switch between mounted and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою верхи та пішим ходом",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Rohan",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:TheodredIllFated",
+     "t": "Button",
+     "en": "Ill-Fated",
+     "uk": "Приречений",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipTheodredIllFated",
+     "t": "Tooltip",
+     "en": "When Théodred dies, Grimbold temporarily appears to guard the fallen prince\\n Passive ability",
+     "uk": "Коли Теодред гине, Ґрімбольд тимчасово з'являється, щоб охороняти полеглого принца\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TheodredNewMount",
+     "t": "Button",
+     "en": "Mount Brego / Dismount (&R)",
+     "uk": "Осідлати Бреґо / Спішитися (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TheodredNewMountTooltip",
+     "t": "Tooltip",
+     "en": "Left click to switch between \\n mounted on Brego and on foot",
+     "uk": "Клікніть, щоб перемкнутися між\\nверхи на Бреґо й пішки",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

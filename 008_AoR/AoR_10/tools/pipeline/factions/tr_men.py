@@ -1,0 +1,41 @@
+"""AI drafts for Gondor (Men) skirmish rows that had no Ukrainian (2026-11-09); names reuse the existing same-English UA."""
+LV = "Кожен рівень підвищує показники"
+H = "Рівні 2-5: +5% здоров'я, +5% до пошкоджень\nРівні 6-9: +4% здоров'я, +4% до пошкоджень\nРівень 10: +3% здоров'я, +3% до пошкоджень"
+CLICK = "Клікніть, щоб активувати"
+
+T = {
+ 'CONTROLBAR:ToolTipPurchaseUpgradeMenFortressBanners': "Тип ефекту: Лідерство\nСоюзники поблизу фортеці отримують бонус +33% до пошкоджень, +33% броні й на 50% швидше набирають досвід\n\nЗнижує вартість героїв на 10%\nСкорочує час вербування героїв на 10%\nЗнижує вартість будівельників на 20%",
+ 'CONTROLBAR:ToolTipPurchaseUpgradeMenFortressIvoryTower': "Дає силу «Видіння палантира» й дозволяє вербувати Вартових Джерела\nЗбільшує дальність огляду фортеці",
+ 'OBJECT:HordeGondorFountainGuard': "Вартові Джерела",
+ 'OBJECT:GondorFountainGuard': "Вартовий Джерела",
+ 'CONTROLBAR:ToolTipToggleFountainGuardLineToSpearWallFormation': "Вартові Джерела вишиковуються в стіну списів\nОтримують +40% броні, імунітет до відкидання, страху, жаху й усіх ослаблень, але втрачають 33% швидкості",
+ 'CONTROLBAR:UndyingHopeLeadership': "Невмируща надія",
+ 'CONTROLBAR:TooltipUndyingHopeLeadership': "Тип ефекту: Заклинання\nВартові Джерела отримують +10% броні за кожен загін Мінас-Тіріта поблизу, до +50% броні\n\nКоли гине Вартовий Джерела, союзники поблизу трохи зцілюються\nПасивна здібність",
+ 'CONTROLBAR:FaithfulGuardianSlayer': "Вигнання (&T)",
+ 'CONTROLBAR:TooltipFaithfulGuardianSlayer': "Потрібно: Рівень 3\nНа 30 сек. Вартові Джерела отримують бонус +33% до пошкоджень і відкидають ворожі загони\n" + CLICK,
+ 'CONTROLBAR:FountainGuardTwo': "Палкі захисники (&C)",
+ 'CONTROLBAR:TooltipFountainGuardTwo': "Потрібно: Рівень 7\nНа 30 сек. Вартових Джерела оточує аура, що послаблює ворогів і посилює союзників\nВорожі загони отримують штраф -25% пошкоджень і броні\nСоюзні споруди отримують бонус +100% броні\nСоюзні герої на 50% швидше відновлюють здібності\nДружні загони поблизу поступово поновлюють полеглих\n" + CLICK,
+ 'OBJECT:HordeLossarnachAxeMen': "Сокироносці Лоссарнаха",
+ 'OBJECT:LossarnachAxeMan': "Сокироносець Лоссарнаха",
+ 'OBJECT:HordeGondorSpearmen': "Списоносці Мінас-Тіріта",
+ 'CONTROLBAR:ToolTipPurchaseUpgradeGondorFireArrows': "Оснащує цей загін вогняними стрілами\nСуттєво збільшує пошкодження стріл",
+ 'OBJECT:HordeGondorArcher': "Лучники Мінас-Тіріта",
+ 'CONTROLBAR:ToolTipToggleRArcherLineToSkirmishFormation': "Потрібно: Рівень 2\n+25% до пошкоджень, +15% швидкості, -50% броні",
+ 'CONTROLBAR:ToggleIthilienWeapons': "Змінити зброю (&R)",
+ 'CONTROLBAR:ToolTipToggleIthilienWeapons': "Слідопити перемикаються між луком і мечем\nЗ мечами отримують бонус +50% броні\nКлікніть, щоб перемкнути",
+ 'CONTROLBAR:MenLongShotAbility': "Далекий постріл (&T)",
+ 'CONTROLBAR:ToolTipMenLongShotAbility': "Потрібно: Рівень 3\nСлідопити накривають залпом стріл будь-яку ділянку у великому радіусі\nКлікніть на іконку, потім оберіть ділянку",
+ 'CONTROLBAR:BodkinArrowUpgrade': "Бронебійні стріли (&C)",
+ 'CONTROLBAR:ToolTipPurchaseUpgradeGondorBodkinArrows': "Оснащує цей загін бронебійними стрілами\nВлучання зменшує броню ворога проти колючих атак на 25%\nНе накопичується",
+ 'OBJECT:HordeGondorPinnathGelin': "Вершники Піннат-Ґеліна",
+ 'OBJECT:GondorPinnathGelin': "Вершник Піннат-Ґеліна",
+ 'OBJECT:HordeGondorKnight': "Лицарі Мінас-Тіріта",
+ 'OBJECT:GondorKnights': "Лицар Мінас-Тіріта",
+ 'CONTROLBAR:ToolTipBuildGrandHarvestUpgrade': "+12% ресурсів із зерносховищ\nЩоб отримувати бонус, ринок має стояти",
+ 'CONTROLBAR:ConstructSiegeMaterialsUpgrade': "Матеріали для облоги (&E)",
+ 'CONTROLBAR:StoneWorkerLeadership': "Огляд будівель",
+ 'CONTROLBAR:TooltipStoneWorkerLeadership': "Тип ефекту: Лідерство\nСпоруди поблизу отримують бонус +30% броні\nПасивна здібність\nЩоб покращення діяло, каменярня має стояти",
+ 'CONTROLBAR:GondorImrahilRecruit': f"Завербувати принца Дол-Амрота Імраїля.\nПідтримує війська ленів, підтримує кавалерію\n\nЧас вербування: 50 сек.\n\n{LV}\n{H}\n\n«Поки що я заступаю місце намісника Ґондору, і мій обов'язок — насамперед дбати про його народ.»",
+ 'CONTROLBAR:GondorImrahilRevive': "Відродити полеглого в бою героя, Імраїля",
+ 'CONTROLBAR:GandalfTheWhiteRevive': "Відродити полеглого в бою героя, Ґендальфа",
+}

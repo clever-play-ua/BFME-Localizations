@@ -1,0 +1,232 @@
+{
+ "hero": "Pippin",
+ "uk_name": "Піпін",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:RohanPippin",
+     "t": "Name",
+     "en": "Pippin",
+     "uk": "Піпін",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:tooltipCommand_ToggleEntRockThrow",
+     "t": "Button",
+     "en": "Toggle Rock-Throw Mode (&W)",
+     "uk": "Режим кидання каміння (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipThrowRocks",
+     "t": "Tooltip",
+     "en": "Switch to rock throwing mode",
+     "uk": "Перемкнутися на режим кидання каміння",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HobbitCloak",
+     "t": "Button",
+     "en": "Hide Here, Qui&ck!",
+     "uk": "Ховаймося тут, швидко! (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElvenCloakCampaign",
+     "t": "Tooltip",
+     "en": "Becomes invisible when standing still \\n Also passively grants +10% armour to all nearby hobbit heroes \\n Left click to activate",
+     "uk": "Стає невидимим, коли стоїть на місці\\nТакож постійно дає +10% броні всім героям-гобітам поблизу\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HobbitRockLure",
+     "t": "Button",
+     "en": "Lure (&T)",
+     "uk": "Приманка (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHobbitRockLure",
+     "t": "Tooltip",
+     "en": "The hobbit throws a rock to lure enemy units to target area \\n Left click icon then left click on target area",
+     "uk": "Гобіт кидає камінь, щоб відволікти ворожі загони на вказане місце\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElvenCloak",
+     "t": "Button",
+     "en": "Elven Cloak (&R)",
+     "uk": "Ельфійський плащ (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElvenCloak",
+     "t": "Tooltip",
+     "en": "Becomes invisible when standing still \\n Left click to activate",
+     "uk": "Стає невидимим для ворогів, поки не рухається.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FellowshipPippinCitadelGuard",
+     "t": "Button",
+     "en": "Guard of the Citadel",
+     "uk": "Вартовий Цитаделі",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipFellowshipPippinCitadelGuard",
+     "t": "Tooltip",
+     "en": "Pippin gains +25 armour and +25% damage when near Beregond\\nAt Level 3, Pippin passively deals +200% damage against Nazgûl with his sword\\nPassive ability",
+     "uk": "Піпін отримує бонус +25 броні й +25% до пошкоджень поряд із Береґондом\\nНа 3 рівні Піпін своїм мечем завдає +200% пошкоджень назґулам\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FellowshipMerryHalflingCourage",
+     "t": "Button",
+     "en": "Halfling Courage",
+     "uk": "Відвага напіврослика",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipFellowshipPippinHalflingCourage",
+     "t": "Tooltip",
+     "en": "Requires Level 5\\nPippin permanently gains +600 health\\n\\nModifier Type: Leadership\\nNearby friendly units gain +25% damage and earn experience 25% faster\\n Stacks with Buffs and Spells\\nPassive ability",
+     "uk": "Необхідно: Рівень 5\\nПіпін назавжди отримує бонус +600 од. здоров'я\\n\\nТип ефекту: Лідерство\\nСоюзні загони поблизу отримують бонус +25% до пошкоджень і на 25% швидше набирають досвід\\nПоєднується з посиленнями та заклинаннями\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FellowshipPippinPeriannath",
+     "t": "Button",
+     "en": "Ernil i Pheriannath (&C)",
+     "uk": "Ерніл і Періаннат (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFellowshipPippinPeriannath",
+     "t": "Tooltip",
+     "en": "Requires Level 7\\nCan be cast on allied and enemy units to increase allied armour and decrease enemy armour for 30 seconds respectively\\nFriendly units gain +50% armour in the first 10 seconds, +30% armour in the next 10 seconds and +10% armour in the last 10 seconds\\nEnemy units suffer -50% armour in the first 10 seconds, -40% armour in the next 10 seconds and -25% armour in the last 10 seconds\\nLeft click then left click on target",
+     "uk": "Необхідно: Рівень 7\\nМожна застосувати до союзних і ворожих загонів: на 30 сек. союзники отримують броню, а вороги її втрачають\\n\\nСоюзні загони отримують бонус +50% броні в перші 10 сек., +30% броні в наступні 10 сек. і +10% броні в останні 10 сек.\\n\\nВорожі загони втрачають 50% броні в перші 10 сек., 40% броні в наступні 10 сек. і 25% броні в останні 10 сек.\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:Trollbane",
+     "t": "Button",
+     "en": "Troll-bane (&V)",
+     "uk": "Тролебій (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipTrollbane",
+     "t": "Tooltip",
+     "en": "Requires Level 10 \\n Pippin gains +150% armour, knockback resistance and deals +250% damage against Monsters for 20 seconds\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 10\\nНа 20 сек. Піпін отримує бонус +150% броні, стійкість до відкидання й завдає +250% пошкоджень істотам\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HobbitRockLureAmonHen",
+     "t": "Button",
+     "en": "Lure (&V)",
+     "uk": "Приманка (&V)",
+     "st": "ok",
+     "dup": "CONTROLBAR:HobbitRockLure"
+    }
+   ]
+  },
+  {
+   "name": "Lighting of the Beacons",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:PippinSpeed",
+     "t": "Button",
+     "en": "Trotter (&C)",
+     "uk": "Прудконогий (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipPippinSpeed",
+     "t": "Tooltip",
+     "en": "Modifier Type: Buff \\n Pippin gains +50% speed for 40 seconds\\n Left click to activate",
+     "uk": "Тип ефекту: Посилення\\nПіпін отримує бонус +50% швидкості на 40 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:PippinFarsight",
+     "t": "Button",
+     "en": "Unfold the Map (&V)",
+     "uk": "Розгорнути мапу (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipPippinFarsight",
+     "t": "Tooltip",
+     "en": "Reveals an area of the map \\n Left click icon then left click on target area",
+     "uk": "Розвідує обрану ділянку на мапі\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Scouring of the Shire",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:FriendOfTheKing",
+     "t": "Button",
+     "en": "Friend of the King (&V)",
+     "uk": "Друг короля (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFriendOfTheKing",
+     "t": "Tooltip",
+     "en": "Requires Level 10 \\n Pippin gains +150% armour, knockback resistance and deals +250% damage against Half-orcs for 20 seconds\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 10\\nПіпін отримує бонус +150% броні, стійкість до відкидання й завдає +250% пошкоджень напіворкам на 20 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Gondor · Summoned",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:BladeofWesternesse",
+     "t": "Button",
+     "en": "Blade of Westernesse",
+     "uk": "Клинок Вестернесу",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipBladeofWesternesse",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Passively deals +200% damage against Nazgûl",
+     "uk": "Необхідно: Рівень 3\\n +200% до пошкоджень назґулам\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:PippinCourage",
+     "t": "Button",
+     "en": "Halfling Courage",
+     "uk": "Відвага напіврослика",
+     "st": "ok",
+     "dup": "CONTROLBAR:FellowshipMerryHalflingCourage"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipPippinCourage",
+     "t": "Tooltip",
+     "en": "Requires Level 5\\n Modifier Type: Leadership \\n Nearby heroes earn experience 15% faster \\n Pippin's health is increased \\n Passive ability",
+     "uk": "Необхідно: Рівень 5\\nТип ефекту: Лідерство\\nГерої поблизу на 15% швидше набирають досвід\\nЗдоров'я Піпіна збільшується\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

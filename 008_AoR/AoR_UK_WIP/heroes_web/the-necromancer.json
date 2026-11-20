@@ -1,0 +1,132 @@
+{
+ "hero": "The Necromancer",
+ "uk_name": "Некромант",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:GuldurNecromancer",
+     "t": "Name",
+     "en": "The Necromancer",
+     "uk": "Некромант",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Dol Guldur",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:ToolTipNecromancerDarkPresence",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell\\nNearby Dol Guldur units afflicted by Slow Decay are no longer drained over time, become resistant to fear and terror, receive +15% damage and armour, and are healed by a small amount\\n At level 4 units receive +25% damage and armour\\n At level 8 units receive +33% damage and armour\\n Passive ability",
+     "uk": "Тип ефекту: Заклинання\\nЗагони Дол-Ґулдуру поблизу, уражені Повільним згасанням, більше не виснажуються, отримують стійкість до страху та жаху, +15% до пошкоджень і броні та трохи зцілюються\\nНа 4 рівні загони отримують бонус +25% до пошкоджень і броні\\nНа 8 рівні загони отримують бонус +33% до пошкоджень і броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:NecromancerWolvesSummon",
+     "t": "Button",
+     "en": "Lord of Wolves (&R)",
+     "uk": "Володар вовків (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipNecromancerWolvesSummon",
+     "t": "Tooltip",
+     "en": "Summons a large, black Warg\\nA maximum of three may be out at any time \\n Can't be used while using Shapeless Malice \\n Left click to activate",
+     "uk": "Прикликає великого чорного варґа\\nМаксимум 3 одночасно\\nНе можна застосувати під час «Безликої злоби»\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:NecromancerAbhorredDread",
+     "t": "Button",
+     "en": "The Abhorred Dread (&T)",
+     "uk": "Ненависний жах (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipNecromancerAbhorredDread",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\nThe Necromancer casts a necromantic spell on enemies\\nwithin a radius, dealing heavy damage and resurrecting the dead\\nas Risen Dead under the player's control\\nAt rank 5, can be cast on Restless Barrows to summon a horde of Restless Warriors - respects command point limit\\nAt rank 6, increased damage\\nAt rank 10, increased damage\\nCan't be used while using Shapeless Malice\\nLeft click icon then left click on target enemies",
+     "uk": "Необхідно: Рівень 3\\nНекромант накладає некромантичне закляття на ворогів\\nу обраному радіусі: завдає значних пошкоджень і підіймає полеглих\\nяк Повсталих мерців під контролем гравця\\n\\nНа 5 рівні можна застосувати до Невпокоєних курганів, щоб прикликати орду невпокоєних воїнів — враховує ліміт очок командування\\nНа 6 рівні — збільшує пошкодження\\nНа 10 рівні — збільшує пошкодження\\n\\nНе можна застосувати під час «Безликої злоби»\\nКлікніть на іконку, потім оберіть ворогів",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipNecromancerAbhorredDreadUpgraded",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\nThe Necromancer casts a necromantic spell on enemies\\nwithin a large radius, dealing heavy damage and resurrecting the dead\\nas Risen Dead under the player's control\\nCan be cast on Restless Barrows to summon a horde of Restless Warriors\\nCan't be used while using Shapeless Malice\\nLeft click icon then left click on target enemies",
+     "uk": "Необхідно: Рівень 3\\nНекромант накладає некромантичне закляття на ворогів\\nу великому радіусі: завдає значних пошкоджень і підіймає загиблих\\nяк Повсталих мерців під контролем гравця\\nМожна застосувати до Невпокоєних курганів, щоб прикликати орду невпокоєних воїнів\\nНе можна застосувати під час «Безликої злоби»\\nКлікніть на іконку, потім оберіть ворогів",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:NecromancerShapelessMalice",
+     "t": "Button",
+     "en": "Shapeless Malice (&C)",
+     "uk": "Безлика злоба (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipNecromancerShapelessMalice",
+     "t": "Tooltip",
+     "en": "Requires Level 5\\nThe Necromancer becomes incorporeal, allowing him to move quickly across the map while terrifying nearby enemy units \\n Shapeless Malice does not allow him to attack\\nLeft click to shift shape",
+     "uk": "Необхідно: Рівень 5\\nНекромант стає безтілесним: швидко рухається й жахає ворожі загони поблизу\\nУ «Безликій злобі» він не може атакувати\\nКлікніть, щоб змінити вигляд",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:NecromancerWreathed",
+     "t": "Button",
+     "en": "Wreathed in Flame (&V)",
+     "uk": "Огорнутий полум'ям (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipNecromancerWreathed",
+     "t": "Tooltip",
+     "en": "Requires Level 8\\nThe Necromancer erupts in flame, blasting back enemies\\nand setting the surrounding area on fire\\nCan't be used while using Shapeless Malice\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 8\\nНекромант спалахує полум'ям, відкидаючи ворогів\\nі підпалюючи все навколо\\nНе можна застосувати під час «Безликої злоби»\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipNecromancerWreathedUpgraded",
+     "t": "Tooltip",
+     "en": "Requires Level 8\\nThe Necromancer erupts in flame, blasting back enemies\\nand setting the surrounding area on fire\\nCan't be used while using Shapeless Malice\\nShorter cooldown with the One Ring\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 8\\nНекромант спалахує полум'ям, відкидаючи ворогів\\nі підпалюючи все навколо\\nНе можна застосувати під час «Безликої злоби»\\nЗ Перснем Всевладдя перезаряджається швидше\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DreadfulPresence",
+     "t": "Button",
+     "en": "Dreadful Presence",
+     "uk": "Жахлива присутність",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDarkPresenceWithRing",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell\\nNearby Dol Guldur units afflicted by Slow Decay are no longer drained over time, become resistant to fear and terror, receive +33% damage and armour, and are healed by a small amount\\nDeals damages to nearby enemies\\nPassive ability",
+     "uk": "Тип ефекту: Заклинання\\nЗагони Дол-Ґулдуру поблизу, уражені Повільним згасанням, більше не виснажуються, отримують стійкість до страху та жаху, +33% до пошкоджень і броні та трохи зцілюються\\nЗавдає пошкоджень ворогам поблизу\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:NecromancerRingwraithSummon",
+     "t": "Button",
+     "en": "Master of the Nine (&R)",
+     "uk": "Володар Дев'ятьох (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipNecromancerRingwraithSummon",
+     "t": "Tooltip",
+     "en": "Summons a Ringwraith\\nA maximum of three may be out at any time\\nLeft click to activate",
+     "uk": "Прикликає назґула\\nМаксимум 3 одночасно\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

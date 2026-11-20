@@ -1,0 +1,125 @@
+{
+ "hero": "Prince Imrahil",
+ "uk_name": "Принц Імрагіль",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:GondorImrahil",
+     "t": "Name",
+     "en": "Prince Imrahil",
+     "uk": "Принц Імрагіль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ImrahilLeadership",
+     "t": "Button",
+     "en": "Fair Lord",
+     "uk": "Прекрасний володар",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipImrahilLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Fiefdom and Dol Amroth units near Imrahil gain +33% damage and +33% armour\\n Passive ability",
+     "uk": "Тип ефекту: Лідерство\\nЗагони ленів і Дол-Амроту поряд з Імрагілем отримують бонус +33% до пошкоджень і +33% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCampaignImrahilLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Allied units near Imrahil gain +33% damage and +33% armour\\n Passive ability",
+     "uk": "Тип ефекту: Лідерство\\nСоюзні загони поряд з Імрагілом отримують бонус +33% до пошкоджень і +33% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SpecialPowerImrahilUnscathed",
+     "t": "Button",
+     "en": "Unscathed (&T)",
+     "uk": "Неушкоджений (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSpecialPowerImrahilUnscathed",
+     "t": "Tooltip",
+     "en": "Required: Rank 3\\n Imrahil becomes immune to ranged damage, gains +100% damage, +10% speed, and is resistant to knockback for 20 seconds \\n Left click to activate",
+     "uk": "Необхідно: Рівень 3\\nІмрагіль на 20 сек. отримує імунітет до атак на відстані, бонус +100% до пошкоджень, +10% швидкості й стійкість до відкидання\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ImrahilCounsel",
+     "t": "Button",
+     "en": "Inspiration (&C)",
+     "uk": "Натхнення (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipImrahilCounsel",
+     "t": "Tooltip",
+     "en": "Required: Rank 5 \\n All allied troops near Imrahil earn double experience for 60 seconds \\n Left click to activate",
+     "uk": "Необхідно: Рівень 5\\nУсі союзні загони поряд з Імрагілем 60 сек. набирають подвійний досвід\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:PrincelyStrike",
+     "t": "Button",
+     "en": "Princely Strike (&V)",
+     "uk": "Удар принца (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipPrincelyStrike",
+     "t": "Tooltip",
+     "en": "Required: Rank 7 \\n Imrahil swings his sword hard, dealing damage to and knocking back everything around him \\n Left click to activate",
+     "uk": "Необхідно: Рівень 7\\nІмрагіл щосили замахується мечем, завдаючи пошкоджень усім навколо й відкидаючи їх\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GandalfNewMountCampaignNoHotkey",
+     "t": "Button",
+     "en": "Mount Shadowfax / Dismount",
+     "uk": "Осідлати Тінегрива / Спішитися",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipShadowfax",
+     "t": "Tooltip",
+     "en": "Left click to switch between \\n mounted on Shadowfax and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою\\nна Тінегриві та пішим ходом",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Gondor · Grey Company map",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:TheodenMountW",
+     "t": "Button",
+     "en": "Mount / Dismount (&W)",
+     "uk": "Сісти верхи / Спішитися (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ImrahilAmroth",
+     "t": "Button",
+     "en": "Amroth for Gondor! (&V)",
+     "uk": "Амрот за Ґондор! (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipImrahilAmroth",
+     "t": "Tooltip",
+     "en": "Required: Rank 7 \\n Modifier Type: Spell \\n Imrahil and nearby cavalry, including Swan Knights, gain +50% armour, and -50% crush deceleration for 20 seconds\\nImrahil must be mounted to use ability \\n Left click to activate",
+     "uk": "Необхідно: Рівень 7\\nТип ефекту: Заклинання\\nІмрагіль і вершники поблизу, зокрема Лицарі Лебедя, на 20 сек. отримують бонус +50% броні й на 50% менше сповільнюються під час топтання\\nЗдібність доступна лише верхи\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

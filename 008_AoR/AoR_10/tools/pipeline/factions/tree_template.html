@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tech tree — Age of the Ring Ukrainian</title>
+<style>
+@font-face { font-family: "UI Caps"; src: url(data:font/woff;base64,__FONT_CAPS__) format("woff"); font-weight: 400 900; font-display: swap; }
+@font-face { font-family: "AoR Game"; src: url(data:font/ttf;base64,__FONT_GAME__) format("truetype"); font-display: swap; }
+:root { color-scheme: dark; --bg: #0b131b; --bg-2: #0f1a24; --panel: #122030; --panel-2: #172a3d; --panel-3: #1d3246; --line: #253b50; --line-2: #2f4a63;
+  --text: #dfe6ec; --muted: #8d9cab; --faint: #64768a; --accent: #8fb8d8; --accent-2: #5f8fb4; --req: #e3b341; --up: #8a9aa8;
+  --ok: #6fc4a0; --caps: "UI Caps", Georgia, serif; --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; --game: "AoR Game", Georgia, serif; }
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { min-height: 100vh; background: radial-gradient(1200px 600px at 70% -10%, #16293b 0%, transparent 60%), linear-gradient(180deg, var(--bg-2), var(--bg));
+  background-color: var(--bg); color: var(--text); font: 15px/1.45 var(--sans); }
+.wrap { max-width: 1760px; margin: 0 auto; padding: 40px 16px 60px; }
+.kicker { display: inline-block; border: 1px solid var(--line-2); background: var(--panel-3); color: var(--accent); font: 700 11px var(--sans);
+  letter-spacing: .16em; text-transform: uppercase; padding: 5px 10px; border-radius: 3px; }
+h1 { font: 500 38px/1.1 var(--caps); letter-spacing: .05em; margin: 14px 0 0; }
+.rule { width: 110px; height: 3px; background: var(--accent-2); margin: 14px 0 12px; border-radius: 2px; }
+.lead { color: var(--muted); max-width: 760px; margin: 0 0 22px; }
+.tabs { display: flex; gap: 6px; margin: 0 0 22px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+.tabs a { padding: 9px 16px; color: var(--muted); text-decoration: none; font: 600 13px var(--sans); letter-spacing: .1em; text-transform: uppercase;
+  border: 1px solid transparent; border-bottom: 0; border-radius: 4px 4px 0 0; margin-bottom: -1px; }
+.tabs a:hover { color: var(--text); }
+.tabs a.on { color: var(--accent); background: var(--panel); border-color: var(--line); }
+.bar { display: flex; flex-wrap: wrap; gap: 12px 18px; align-items: center; margin-bottom: 16px; }
+.seg { display: inline-flex; border: 1px solid var(--line-2); border-radius: 5px; overflow: hidden; }
+.seg button { background: var(--panel); color: var(--muted); border: 0; border-right: 1px solid var(--line-2); padding: 8px 14px; font: 600 13px var(--sans);
+  letter-spacing: .06em; cursor: pointer; }
+.seg button:last-child { border-right: 0; }
+.seg button.on { background: var(--panel-3); color: var(--accent); }
+.seg button:hover { color: var(--text); }
+.legend { display: flex; gap: 18px; color: var(--muted); font-size: 13px; margin-left: auto; align-items: center; }
+.legend i { display: inline-block; width: 28px; height: 0; vertical-align: middle; margin-right: 6px; }
+.legend .lu { border-top: 6px solid var(--up); }
+.legend .lr { border-top: 3px solid var(--req); }
+.layout { display: block; }
+.board { position: relative; border: 1px solid var(--line); border-radius: 8px; background: rgba(8, 14, 20, .55); }
+.cols { position: relative; display: grid; grid-template-columns: repeat(auto-fill, minmax(215px, 1fr)); gap: 26px 22px; padding: 18px 18px 26px; align-items: start; }
+svg.links { position: absolute; left: 0; top: 0; pointer-events: none; overflow: visible; z-index: 1; }
+svg.links path { fill: none; stroke: var(--req); stroke-width: 2.5; opacity: 0; transition: opacity .12s; }
+svg.links path.hot { opacity: 1; }
+svg.links { z-index: 3; }
+.need { display: block; color: #f0c75e; cursor: pointer; font: 500 11.5px/1.25 var(--sans); letter-spacing: 0; margin-top: 3px; }
+.need::before { content: '⛓ '; }
+.chip .need { display: block; color: #f0c75e; cursor: pointer; font-size: 11.5px; margin-top: 3px; line-height: 1.25; }
+.chip .need::before { content: '⛓ '; }
+.chip.has-need { border-left: 3px solid var(--req); }
+.col { position: relative; z-index: 2; min-width: 0; display: flex; flex-direction: column; gap: 8px; }
+.bcard { display: flex; gap: 10px; align-items: center; padding: 8px; border: 1px solid var(--line-2); border-radius: 6px;
+  background: linear-gradient(180deg, var(--panel-2), var(--panel)); cursor: pointer; }
+.bcard:hover, .bcard.sel { border-color: var(--accent); }
+.bcard img, .bcard .ph { width: 52px; height: 52px; border-radius: 4px; border: 1px solid #4a6178; flex: none; background: #0d1823; }
+.bcard .nm b { display: block; font: 600 14px/1.2 var(--caps); letter-spacing: .03em; }
+.bcard .nm small { display: block; color: var(--accent); font-size: 13px; margin-top: 2px; }
+.band { border: 1px dashed var(--line-2); border-radius: 6px; padding: 6px; display: flex; flex-direction: column; gap: 5px; background: rgba(18, 32, 48, .45); }
+.band .lbl { font: 700 10.5px var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--faint); padding: 0 2px 2px; }
+.band.empty { padding: 4px 6px; }
+.lvup { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.lvup .shaft { width: 12px; height: 14px; background: repeating-linear-gradient(90deg, #6f7f8d 0 2px, #9aaab8 2px 4px); }
+.lvup .head { width: 0; height: 0; border-left: 16px solid transparent; border-right: 16px solid transparent; border-top: 12px solid var(--up); margin-top: -4px; }
+.chip { display: flex; gap: 8px; align-items: center; padding: 4px 6px; border: 1px solid transparent; border-radius: 5px; background: rgba(23, 42, 61, .9); cursor: pointer; text-align: left;
+  color: inherit; font: inherit; width: 100%; }
+.chip:hover { border-color: var(--line-2); }
+.chip.sel { border-color: var(--accent); background: var(--panel-3); }
+.chip.rel, .bcard.rel { border-color: rgba(227,179,65,.55); }
+@keyframes pulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(227,179,65,0); border-color: rgba(227,179,65,.6); } 50% { box-shadow: 0 0 0 5px rgba(227,179,65,.38); border-color: #f5d27a; } }
+.pulse { animation: pulse 1.5s ease-in-out infinite; border-color: var(--req) !important; border-style: solid !important; }
+.chip, .bcard { position: relative; }
+.info { position: absolute; top: 4px; right: 4px; width: 18px; height: 18px; border-radius: 50%; display: grid; place-items: center; font: 700 11px/1 Georgia, serif; font-style: italic; color: var(--muted); border: 1px solid var(--line-2); background: var(--panel); opacity: .7; cursor: pointer; }
+.info:hover { color: var(--text); opacity: 1; border-color: var(--accent); }
+.chip .nm, .bcard .nm { padding-right: 14px; }
+.chip.lv { background: rgba(58, 70, 82, .55); }
+.chip img, .chip .ph { width: 34px; height: 34px; border-radius: 3px; border: 1px solid #3c5268; flex: none; background: #0d1823; }
+.chip .nm { min-width: 0; font-size: 13px; line-height: 1.2; }
+.chip .nm b { display: block; font-weight: 600; }
+.chip .nm small { display: block; color: var(--accent); font-size: 12px; margin-top: 1px; }
+.ph { display: grid; place-items: center; color: var(--faint); font: 700 13px var(--caps); }
+dialog.detail { width: min(760px, calc(100vw - 32px)); max-height: calc(100vh - 48px); overflow: auto; border: 1px solid var(--line-2); border-radius: 8px; background: var(--panel); color: var(--text); padding: 18px; }
+dialog.detail::backdrop { background: rgba(4, 8, 12, .62); }
+.detail .x { position: absolute; top: 10px; right: 12px; background: none; border: 1px solid var(--line-2); color: var(--muted); border-radius: 4px; padding: 3px 10px; cursor: pointer; font: 600 13px var(--sans); }
+.detail .x:hover { color: var(--text); }
+.tipgrid.two { grid-template-columns: 1fr 1fr; }
+@media (max-width: 640px) { .tipgrid.two { grid-template-columns: 1fr; } }
+.detail .empty { color: var(--muted); font-size: 14px; }
+.detail .hd { display: flex; gap: 12px; align-items: center; margin-bottom: 10px; }
+.detail .hd img, .detail .hd .ph { width: 56px; height: 56px; border-radius: 4px; border: 1px solid #4a6178; background: #0d1823; flex: none; }
+.detail .hd b { display: block; font: 600 17px/1.2 var(--caps); }
+.detail .hd small { display: block; color: var(--accent); font-size: 15px; margin-top: 3px; }
+.detail .kind { font: 700 10.5px var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--faint); }
+.detail h4 { margin: 12px 0 6px; font: 700 11px var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.detail ul { margin: 0; padding-left: 18px; font-size: 14px; }
+.detail li a { color: var(--accent); cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+.tipbox { font-family: var(--game); background: linear-gradient(180deg, #4a3519, #3a2812); border: 2px solid #b8913f; border-radius: 3px; padding: 10px 12px;
+  color: #f4d78a; text-align: center; white-space: pre-wrap; font-size: 14.5px; line-height: 1.35; box-shadow: inset 0 0 0 2px #2a1d0c; }
+.tipbox .t { color: #fff2cc; font-size: 17px; margin-bottom: 4px; }
+.tipbox .r { color: #ff8a7a; margin-top: 6px; }
+.tipgrid { display: grid; gap: 10px; }
+.tiplab { font: 700 10.5px var(--sans); letter-spacing: .14em; color: var(--muted); text-transform: uppercase; margin: 0 0 4px; }
+.foot { margin-top: 18px; color: var(--faint); font-size: 13px; }
+@media (max-width: 760px) { .legend { margin-left: 0; } }
+@media (max-width: 520px) { .cols { padding-left: 10px; padding-right: 30px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="kicker">Skirmish</span>
+  <h1>Tech tree</h1>
+  <div class="rule"></div>
+  <p class="lead">Buildings, their levels and everything they unlock. Click an item to light up what it needs (it pulses yellow); click the yellow line to jump to it. The <b>i</b> button opens the in-game tooltip in English and Ukrainian.</p>
+  __TABS__
+  <div class="bar">
+    <div class="seg" id="facs"></div>
+    <div class="legend"><span><i class="lu"></i>Upgrades to</span><span><i class="lr"></i>Requirement · hover an item to see its arrows</span></div>
+  </div>
+  <div class="layout">
+    <div class="board" id="board"><div class="cols" id="cols"></div></div>
+    <dialog class="detail" id="detail"></dialog>
+  </div>
+  <p class="foot">Built from the translation project's data. Texts are the current Ukrainian translation (proofread or draft).</p>
+</div>
+<script id="tree" type="application/json">__TREE__</script>
+<script id="icons" type="application/json">__ICONS__</script>
+<script>
+const TREE = JSON.parse(document.getElementById('tree').textContent);
+const ICONS = JSON.parse(document.getElementById('icons').textContent);
+let fac = TREE[0].key, lang = 'both', sel = null;
+try { const h = (location.hash || '').slice(1).toLowerCase(); const f = TREE.find(x => x.en.toLowerCase() === h || x.key.toLowerCase() === h); if (f) fac = f.key; } catch (e) {}
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const F = () => TREE.find(x => x.key === fac);
+const img = (ic, nm, cls) => ICONS[ic] ? `<img src="${ICONS[ic]}" alt="">` : `<span class="ph${cls ? ' ' + cls : ''}">${esc((nm || '?').trim()[0] || '?')}</span>`;
+function label(o) {
+  const en = esc(o.en), ua = esc(o.ua || o.en);
+  if (lang === 'en') return `<b>${en}</b>`;
+  if (lang === 'ua') return `<b>${ua}</b>`;
+  return `<b>${en}</b>${o.ua && o.ua !== o.en ? `<small>${ua}</small>` : ''}`;
+}
+function index() {
+  const map = {};
+  for (const c of F().cols) {
+    map[c.id] = c;
+    for (const b of c.bands) { for (const it of b.items) map[it.id] = it; if (b.up) map[b.up.id] = b.up; }
+  }
+  return map;
+}
+function needName(id) {
+  const map = index(), m = map[id] || map[id.replace(/:L\d+$/, '')], lv = (id.match(/:L(\d+)$/) || [])[1];
+  if (!m) return id;
+  const en = m.en + (lv ? ` ${lv}` : ''), ua = (m.ua || m.en) + (lv ? ` ${lv} рівня` : '');
+  return lv ? `Level ${lv} ${m.en} · ${m.ua || m.en} ${lv} рівня` : (m.ua && m.ua !== m.en ? `${m.en} · ${m.ua}` : m.en);
+}
+function needs(id) {
+  const ins = F().links.filter(l => l[1] === id);
+  return ins.length ? `<span class="need" data-need="${esc(ins[0][0])}" title="Show it">${ins.map(l => esc(needName(l[0]))).join('<br>')}</span>` : '';
+}
+function hot(id, on) {
+  document.querySelectorAll('#links path[data-s]').forEach(p => {
+    if (p.dataset.d === id || p.dataset.s === id || p.dataset.s.startsWith(id + ':L')) p.classList.toggle('hot', on || p.dataset.d === sel || p.dataset.s === sel);
+  });
+}
+function render() {
+  document.querySelectorAll('#facs button').forEach(b => b.classList.toggle('on', b.dataset.f === fac));
+  const f = F();
+  let h = '';
+  for (const c of f.cols) {
+    h += `<div class="col"><div class="bcard" data-id="${esc(c.id)}">${img(c.icon, c.en)}<span class="nm">${label(c)}${needs(c.id)}</span>${c.tip ? `<span class="info" data-info="${esc(c.id)}" title="Tooltip">i</span>` : ''}</div>`;
+    for (const b of c.bands) {
+      if (!b.items.length && !b.up && !f.links.some(l => l[0] === `${c.id}:L${b.lvl}`)) continue;  // nothing to show
+      if (b.up) h += `<div class="lvup"><div class="shaft"></div><div class="head"></div></div>`;
+      const lbl = b.label ? (lang === 'ua' ? b.labelUA : b.label) : (b.lvl > 1 || c.bands.length > 1 ? `Level ${b.lvl}` + (lang !== 'en' ? ` · ${b.lvl} рівень` : '') : '');
+      h += `<div class="band${b.items.length || b.up ? '' : ' empty'}" data-id="${esc(c.id)}:L${b.lvl}">${lbl ? `<div class="lbl">${esc(lbl)}</div>` : ''}`;
+      if (b.up) h += `<button class="chip lv" data-id="${esc(b.up.id)}">${img(b.up.icon, b.up.en)}<span class="nm">${label(b.up)}</span><span class="info" data-info="${esc(b.up.id)}" title="Tooltip">i</span></button>`;
+      for (const it of b.items) { const nd = needs(it.id);
+        h += `<button class="chip${nd ? ' has-need' : ''}" data-id="${esc(it.id)}">${img(it.icon, it.en)}<span class="nm">${label(it)}${nd}</span><span class="info" data-info="${esc(it.id)}" title="Tooltip">i</span></button>`; }
+      h += `</div>`;
+    }
+    h += `</div>`;
+  }
+  document.getElementById('cols').innerHTML = `<svg class="links" id="links"></svg>` + h;
+  requestAnimationFrame(() => { drawLinks(); if (sel) select(sel, true); });
+}
+function el(id) { return document.querySelector(`#cols [data-id="${CSS.escape(id)}"]`); }
+function drawLinks() {
+  const cols = document.getElementById('cols'), svg = document.getElementById('links');
+  if (!svg) return;
+  const R = cols.getBoundingClientRect();
+  svg.setAttribute('width', cols.scrollWidth); svg.setAttribute('height', cols.scrollHeight);
+  let p = `<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e3b341" stroke="none"/></marker></defs>`;
+  const lane = new Map();  // links inside one column, or between columns stacked one under another (phone), run in the gap to the right
+  for (const [s, d] of F().links) {
+    const a = el(s), b = el(d);
+    if (!a || !b) continue;
+    const A = a.getBoundingClientRect(), B = b.getBoundingClientRect();
+    const ca = a.closest('.col'), cb = b.closest('.col');
+    const CA = ca && ca.getBoundingClientRect(), CB = cb && cb.getBoundingClientRect();
+    if (ca && cb && (ca === cb || (CA.left < CB.right - 20 && CB.left < CA.right - 20))) {
+      const base = Math.round(Math.max(CA.right, CB.right) - R.left);
+      const n = lane.get(base) || 0; lane.set(base, n + 1);
+      const xr = base + 5 + 5 * (n % 4), r = 6;
+      const ax = A.right - R.left, ay = A.top + A.height / 2 - R.top, bx = B.right - R.left, by = B.top + B.height / 2 - R.top;
+      const dir = by > ay ? 1 : -1;
+      p += `<path data-s="${esc(s)}" data-d="${esc(d)}" d="M${ax},${ay} H${xr - r} Q${xr},${ay} ${xr},${ay + r * dir} V${by - r * dir} Q${xr},${by} ${xr - r},${by} H${bx + 2}" marker-end="url(#ah)"/>`;
+      continue;
+    }
+    const ax = (B.left >= A.right ? A.right : A.left) - R.left, ay = A.top + A.height / 2 - R.top;
+    const bx = (B.left >= A.right ? B.left : B.right) - R.left, by = B.top + B.height / 2 - R.top;
+    const dx = Math.max(30, Math.abs(bx - ax) / 2) * (bx >= ax ? 1 : -1);
+    p += `<path data-s="${esc(s)}" data-d="${esc(d)}" d="M${ax},${ay} C${ax + dx},${ay} ${bx - dx},${by} ${bx},${by}" marker-end="url(#ah)"/>`;
+  }
+  svg.innerHTML = p;
+}
+function tip(title, text, req) {
+  return `<div class="tipbox">${title ? `<div class="t">${esc(title)}</div>` : ''}${esc(text || '—')}${(req || []).filter(Boolean).map(r => `<div class="r">${esc(r)}</div>`).join('')}</div>`;
+}
+function select(id, quiet) {
+  sel = id;
+  const map = index(), o = map[id];
+  document.querySelectorAll('#cols .sel, #cols .rel, #cols .pulse').forEach(x => x.classList.remove('sel', 'rel', 'pulse'));
+  const node = el(id); if (node) node.classList.add('sel');
+  const ins = F().links.filter(l => l[1] === id), outs = F().links.filter(l => l[0] === id || l[0].startsWith(id + ':L'));
+  document.querySelectorAll('#links path[data-s]').forEach(p => {
+    p.classList.toggle('hot', p.dataset.d === id || p.dataset.s === id || p.dataset.s.startsWith(id + ':L'));
+  });
+  ins.forEach(l => { const x = el(l[0]); if (x) x.classList.add('pulse'); });
+  outs.forEach(l => { const x = el(l[1]); if (x) x.classList.add('rel'); });
+  if (!o) return;
+  const t = o.tip || o;
+  const kind = { fortress: 'Fortress', heroes: 'Heroes', building: 'Building', unit: 'Unit', tech: 'Research / ability', upgrade: 'Fortress upgrade',
+                 expansion: 'Expansion', hero: 'Hero', level: 'Building level' }[o.kind] || '';
+  const nm = x => { const m = map[x] || map[x.replace(/:L\d+$/, '')]; const lv = (x.match(/:L(\d+)$/) || [])[1];
+                    return m ? `<a data-go="${esc(m.id)}">${esc(m.en)}${lv ? ` · Level ${lv}` : ''}</a>${m.ua && m.ua !== m.en ? ` — ${esc(m.ua)}${lv ? ` · ${lv} рівень` : ''}` : ''}` : esc(x); };
+  let h = `<div class="kind">${kind}</div><div class="hd">${img(o.icon, o.en)}<div><b>${esc(o.en)}</b>${o.ua && o.ua !== o.en ? `<small>${esc(o.ua)}</small>` : ''}</div></div>`;
+  if (ins.length) h += `<h4>Requires · Потрібно</h4><ul>${ins.map(l => `<li>${nm(l[0])}</li>`).join('')}</ul>`;
+  if (outs.length) h += `<h4>Required for · Потрібно для</h4><ul>${outs.map(l => `<li>${nm(l[1])}</li>`).join('')}</ul>`;
+  if (t && (t.ten || t.tua)) {
+    h += `<h4>Tooltip · Підказка</h4><div class="tipgrid two">`;
+    if (lang !== 'ua') h += `<div><p class="tiplab">English</p>${tip(o.en, t.ten, t.ren)}</div>`;
+    if (lang !== 'en') h += `<div><p class="tiplab">Українська</p>${tip(o.ua || o.en, t.tua, t.rua)}</div>`;
+    h += `</div>`;
+  }
+  const dlg = document.getElementById('detail');
+  dlg.innerHTML = `<button class="x" data-close>Close</button>` + h;
+}
+function clearSel() {
+  sel = null;
+  document.querySelectorAll('#cols .sel, #cols .rel, #cols .pulse').forEach(x => x.classList.remove('sel', 'rel', 'pulse'));
+  document.querySelectorAll('#links path[data-s]').forEach(p => p.classList.remove('hot'));
+}
+document.getElementById('facs').innerHTML = TREE.map(f => `<button data-f="${f.key}">${esc(f.en)}</button>`).join('');
+document.addEventListener('click', e => {
+  const fb = e.target.closest('#facs button');
+  if (fb) { fac = fb.dataset.f; sel = null; try { history.replaceState(null, '', '#' + F().en.toLowerCase()); } catch (er) {}
+            render(); return; }
+  if (e.target.closest('[data-close]') || e.target.id === 'detail') { document.getElementById('detail').close(); return; }
+  const go = e.target.closest('[data-go]');
+  if (go) { document.getElementById('detail').close(); select(go.dataset.go); return; }
+  const inf = e.target.closest('[data-info]');
+  if (inf) { e.stopPropagation(); select(inf.dataset.info); document.getElementById('detail').showModal(); return; }
+  const nd = e.target.closest('[data-need]');
+  if (nd) { const it0 = nd.closest('[data-id]'); if (it0 && sel !== it0.dataset.id) select(it0.dataset.id);
+            const x = el(nd.dataset.need); if (x) x.scrollIntoView({ block: 'center', behavior: 'smooth' }); return; }
+  const it = e.target.closest('#cols [data-id]');
+  if (it && !it.classList.contains('band')) { if (sel === it.dataset.id) clearSel(); else select(it.dataset.id); }
+});
+document.addEventListener('mouseover', e => { const t = e.target.closest('#cols [data-id]'); if (t && !t.classList.contains('band')) hot(t.dataset.id, true); });
+document.addEventListener('mouseout', e => { const t = e.target.closest('#cols [data-id]'); if (t && !t.classList.contains('band')) hot(t.dataset.id, false); });
+window.addEventListener('resize', () => { drawLinks(); if (sel) select(sel, true); });
+try { const q = new URLSearchParams(location.search).get('sel'); if (q) { const f = TREE.find(x => q.startsWith(x.key + ':')); if (f) fac = f.key; sel = q; } } catch (e) {}
+render();
+</script>
+</body>
+</html>

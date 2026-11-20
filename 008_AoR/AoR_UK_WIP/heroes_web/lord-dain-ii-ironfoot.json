@@ -1,0 +1,126 @@
+{
+ "hero": "Lord Dáin II Ironfoot",
+ "uk_name": "Володар Дайн II Залізностоп",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:DwarvenDain",
+     "t": "Name",
+     "en": "Lord Dáin II Ironfoot",
+     "uk": "Володар Дайн II Залізностоп",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToggleStanceHoldGroundDain",
+     "t": "Button",
+     "en": "Hold Ground Stance",
+     "uk": "Режим: Утримувати позицію",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipToggleStanceHoldGroundDain",
+     "t": "Tooltip",
+     "en": "Shortcut: G \\n +10% armour, -20% damage, -10% speed \\n Dáin will equip his Warhammer\\nDeals knockback damage",
+     "uk": "Гаряча клавіша: G\\n+10% броні, -20% пошкоджень, -10% швидкості\\nДайн бере бойовий молот\\nВідкидає ворогів своїми ударами",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:EreborDainLeadership",
+     "t": "Button",
+     "en": "Lord of the Iron Hills",
+     "uk": "Володар Залізних пагорбів",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEreborDainLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Iron Hills units near Dáin gain +25% damage, +25% armour, and earn experience 33% faster \\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nЗагони «Залізних пагорбів» поряд із Дайном отримують бонус +25% до пошкоджень, +25% броні й на 33% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:LordDainMount",
+     "t": "Button",
+     "en": "Mount / Dismount (&R)",
+     "uk": "Сісти верхи / Спішитися (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEowynMount",
+     "t": "Tooltip",
+     "en": "Left click to switch between mounted and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою верхи та пішим ходом",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:EreborDainBarukKhazad",
+     "t": "Button",
+     "en": "Baruk Khazâd! (&T)",
+     "uk": "Барук-Кхазад! (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEreborDainBarukKhazad",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\nPowerful attack that causes meta impact \\n Can only be used when dismounted \\n Left click icon then left click on target",
+     "uk": "Необхідно: Рівень 3\\nПотужна атака, що розкидає ворогів\\nДоступна лише, коли герой пересувається пішки\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:EreborDainRecklessAssault",
+     "t": "Button",
+     "en": "Reckless Assault (&C)",
+     "uk": "Нестримний наступ (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEreborDainRecklessAssault",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Modifier Type: Spell\\n Targeted friendly units gain +33% damage for 30 seconds\\n Nullifies enemy leadership for 30 seconds\\n Left click on icon then left click on target units",
+     "uk": "Необхідно: Рівень 5\\nТип ефекту: Заклинання\\nОбрані союзні загони на 30 сек. отримують бонус +33% до пошкоджень\\nСкасовує вороже лідерство на 30 сек.\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:EreborDainToTheKing",
+     "t": "Button",
+     "en": "To the King! (&V)",
+     "uk": "До короля! (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEreborDainToTheKing",
+     "t": "Tooltip",
+     "en": "Requires Level 10 \\n On Foot: Summons three battalions of spearmen of the Iron Hills to Dáin's side \\n On Boar: Summons three battalions of goat-riders of the Iron Hills to Dáin's side \\n Left click icon then left click on pathable location",
+     "uk": "Необхідно: Рівень 10\\nПішки: Прикликає до Дайна 3 загони списоносців Залізних пагорбів\\nВерхи: Прикликає до Дайна 3 загони вершників на козлах із Залізних пагорбів\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Battle of Azanulbizar",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:YoungDainBarukKhazad",
+     "t": "Button",
+     "en": "Baruk Khazâd! (&W)",
+     "uk": "Барук-Кхазад! (&W)",
+     "st": "ok",
+     "dup": "CONTROLBAR:EreborDainBarukKhazad"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipYoungDainBarukKhazad",
+     "t": "Tooltip",
+     "en": "Requires Level 2 \\nPowerful attack that causes meta impact \\n Can only be used when dismounted \\n Left click icon then left click on target",
+     "uk": "Необхідно: Рівень 2\\nПотужна атака, що розкидає ворогів\\nДоступна лише, коли герой пересувається пішки\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

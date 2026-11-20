@@ -1,0 +1,230 @@
+{
+ "hero": "Bilbo",
+ "uk_name": "Більбо",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:Bilbo",
+     "t": "Name",
+     "en": "Bilbo",
+     "uk": "Більбо",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TheOneRing",
+     "t": "Button",
+     "en": "The One Ring (&R)",
+     "uk": "Єдиний Перстень (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipTheOneRing",
+     "t": "Tooltip",
+     "en": "Become invisible \\n But beware the Eye of Sauron \\n Left click to activate",
+     "uk": "Робить невидимим\\nАле стережіться Ока Саурона\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipTheOneRing_Riddle",
+     "t": "Tooltip",
+     "en": "Become invisible \\n Left click to activate",
+     "uk": "Робить невидимим\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:tooltipCommand_ToggleEntRockThrow",
+     "t": "Button",
+     "en": "Toggle Rock-Throw Mode (&W)",
+     "uk": "Режим кидання каміння (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipThrowRocks",
+     "t": "Tooltip",
+     "en": "Switch to rock throwing mode",
+     "uk": "Перемкнутися на режим кидання каміння",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BilboRiddleMaker",
+     "t": "Button",
+     "en": "Riddle Maker (&T)",
+     "uk": "Майстер загадок (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipBilboRiddleMaker",
+     "t": "Tooltip",
+     "en": "Causes enemy units and monsters in the radius to fight amongst themselves for 45 seconds\\nLeft click icon then left click on target area",
+     "uk": "Змушує ворожі загони й істот у радіусі битися між собою на 45 сек.\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BilboLeadership",
+     "t": "Button",
+     "en": "Bilbo's Courage",
+     "uk": "Відвага Більбо",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBilboLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n Nearby allies in a large radius gain\\n+50% damage, +50% armour,\\nand earn experience twice as fast\\nNearby unit and hero ability cooldown times are reduced by 25% \\nPassive ability",
+     "uk": "Тип ефекту: Заклинання\\nСоюзники у великому радіусі отримують\\nбонус +50% до пошкоджень, +50% броні\\nй удвічі швидше набирають досвід\\nЗдібності загонів і героїв поблизу відновлюються на 25% швидше\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BilboOldFriends",
+     "t": "Button",
+     "en": "Old Friends (&V)",
+     "uk": "Старі друзі (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipBilboOldFriends",
+     "t": "Tooltip",
+     "en": "Summons Gandalf the Grey",
+     "uk": "Прикликає Ґендальфа Сірого",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "A Long Expected Party",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:EvadeLobelia",
+     "t": "Button",
+     "en": "Evade Lobelia (&T)",
+     "uk": "Сховатися від Лобелії (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEvadeLobelia",
+     "t": "Tooltip",
+     "en": "Becomes invisible when standing still \\n Also passively grants +10% armour to all nearby hobbit heroes \\n Left click to activate",
+     "uk": "Стає невидимим, коли стоїть на місці\\nТакож постійно дає +10% броні всім героям-гобітам поблизу\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Ring hero",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:RetiredBurglar",
+     "t": "Button",
+     "en": "Retired Burglar",
+     "uk": "Злодій на спочинку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipRetiredBurglar",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell\\nBilbo can target enemy units\\nAllies around the target gain 100% armour, +100% damage and resistance to fear and terror\\n Passive ability",
+     "uk": "Тип ефекту: Заклинання\\nБільбо може обирати ціллю ворожі загони\\nСоюзники навколо цілі отримують бонус +100% броні, +100% до пошкоджень і стійкість до страху та жаху\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:VeryFondFarewell",
+     "t": "Button",
+     "en": "A Very Fond Farewell (&R)",
+     "uk": "Найщиріше прощання (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipVeryFondFarewell",
+     "t": "Tooltip",
+     "en": "Bilbo slips on the One Ring and disappears from sight for 2 minutes\\nBilbo cannot attack but his abilities can still be used\\nLeft click to activate",
+     "uk": "Більбо надягає Єдиний Перстень і на 2 хв. зникає\\nБільбо НЕ може атакувати, але МОЖЕ використовувати здібності\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TunnelsFilled",
+     "t": "Button",
+     "en": "Tunnels Filled With Gold (&T)",
+     "uk": "Тунелі, повні золота (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipTunnelsFilled",
+     "t": "Tooltip",
+     "en": "Can be cast on a Hobbit-hole to spawn a Chest of Gold every 20 seconds for 2 minutes\\nLeft click then left click on target structure",
+     "uk": "Можна застосувати до гобітської нори: кожні 20 сек. протягом 2 хв. з'являтиметься скриня із золотом\\nКлікніть на іконку, потім оберіть споруду",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:PartyInvitations",
+     "t": "Button",
+     "en": "Party Invitations (&C)",
+     "uk": "Запрошення на свято (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipPartyInvitations",
+     "t": "Tooltip",
+     "en": "Bilbo sends out his party invitations\\nSummons a random battalion of Hobbit units\\nLeft click to activate",
+     "uk": "Більбо розсилає запрошення на свято\\nПрикликає випадковий загін гобітів\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:RoadGoesEverOn",
+     "t": "Button",
+     "en": "The Road Goes Ever On (&V)",
+     "uk": "Дорога все далі й далі (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipRoadGoesEverOn",
+     "t": "Tooltip",
+     "en": "Bilbo is quite ready for another adventure\\nBilbo teleports to target location \\nLeft click icon then left click on pathable location",
+     "uk": "Більбо цілком готовий до нової пригоди\\nВін телепортується в обране місце\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Battle Of The Five Armies map",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:BilboKinglyGift",
+     "t": "Button",
+     "en": "Kingly Gift (&R)",
+     "uk": "Королівський дарунок (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBilboKinglyGift",
+     "t": "Tooltip",
+     "en": "Bilbo gains +33% armour against ranged attacks for 30 seconds\\nLeft click to activate",
+     "uk": "На 30 сек. Більбо отримує бонус +33% броні від атак на відстані\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BilboBurglar",
+     "t": "Button",
+     "en": "Company's Burglar (&T)",
+     "uk": "Злодій компанії (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipBilboBurglar",
+     "t": "Tooltip",
+     "en": "Bilbo becomes stealthed and can neither be attacked nor make an attack for 30 seconds\\n Left click icon to activate",
+     "uk": "На 30 сек. Більбо стає невидимим: його не можна атакувати, і він сам не може атакувати\\nКлікніть на іконку, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

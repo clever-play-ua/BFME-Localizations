@@ -1,0 +1,83 @@
+{
+ "hero": "Agmund",
+ "uk_name": "Аґмунд",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:FellowshipAgmund",
+     "t": "Name",
+     "en": "Agmund",
+     "uk": "Аґмунд",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Battle of Dale and Erebor",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:AgmundOrganisedDefence",
+     "t": "Button",
+     "en": "Organised Defence (&W)",
+     "uk": "Злагоджена оборона (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipAgmundHorn",
+     "t": "Tooltip",
+     "en": "Nearby infantry and heroes gain +20% bonus speed and resistance to fear, terror, knockback and trample for 30 seconds\\nLeft click to activate",
+     "uk": "Піхота й герої поблизу на 30 сек. отримують бонус +20% швидкості та стійкість до страху, жаху, відкидання й топтання\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:AgmundCaptainOfGuard",
+     "t": "Button",
+     "en": "Captain of the Guard (&R)",
+     "uk": "Капітан варти (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipAgmundCaptainOfGuard",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\nGive targeted friendly troops experience\\nLeft click icon then left click on target units",
+     "uk": "Необхідно: Рівень 3\\nМиттєво наділяє досвідом обрані союзні загони\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:AgmundCaptainCounsel",
+     "t": "Button",
+     "en": "Captain's Counsel (&T)",
+     "uk": "Порада капітана (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipAgmundCaptainCounsel",
+     "t": "Tooltip",
+     "en": "Requires Level 5\\nModifier Type: Spell\\nAgmund temporarily empowers a friendly hero, granting them 50% armour, 50% faster experience gain, and 75% faster power recharge times\\nStacks with Leadership and Spells\\nLeft click icon then left click on target hero",
+     "uk": "Необхідно: Рівень 5\\nТип ефекту: Заклинання\\nАґмунд тимчасово посилює союзного героя: той отримує бонус +50% броні, на 50% швидше набирає досвід і на 75% швидше відновлює здібності\\nПоєднується з лідерством і заклинаннями\\nКлікніть на іконку, потім оберіть героя",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:AgmundSummonDaleGuard",
+     "t": "Button",
+     "en": "Faithful Wardens (&C)",
+     "uk": "Вірні вартові (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipAgmundSummonDaleGuard",
+     "t": "Tooltip",
+     "en": "Requires Level 9\\nAgmund stations five Wardens of Hársald to guard an allied hero or structure for 45 seconds \\n Left click icon then left click on target hero or structure",
+     "uk": "Необхідно: Рівень 9\\nАґмунд ставить 5 вартових Гарсальда охороняти союзного героя чи споруду на 45 сек.\\nКлікніть на іконку, потім оберіть героя чи споруду",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

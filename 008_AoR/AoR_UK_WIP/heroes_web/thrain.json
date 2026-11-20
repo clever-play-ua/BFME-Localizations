@@ -1,0 +1,55 @@
+{
+ "hero": "Thráin",
+ "uk_name": "Траїн",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:DwarvenThrain",
+     "t": "Name",
+     "en": "Thráin",
+     "uk": "Траїн",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Battle of Azanulbizar",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:ThrainSmash",
+     "t": "Button",
+     "en": "Son of Thrór (&W)",
+     "uk": "Син Трора (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipThrainSmash",
+     "t": "Tooltip",
+     "en": "Thráin slams the ground, knocking back enemy units and dealing heavy damage to structures in a small radius \\n Left click icon then left click on target",
+     "uk": "Траїн б'є об землю, відкидаючи ворожі загони й завдаючи значних пошкоджень спорудам у невеликому радіусі\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:OakenBird",
+     "t": "Button",
+     "en": "Wisdom of the Ravens (&R)",
+     "uk": "Мудрість воронів (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipOakenBird",
+     "t": "Tooltip",
+     "en": "Requires Level 2 \\n Heals nearby friendly units \\n Left click to activate",
+     "uk": "Необхідно: Рівень 2\\nЗцілює союзні загони поблизу\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

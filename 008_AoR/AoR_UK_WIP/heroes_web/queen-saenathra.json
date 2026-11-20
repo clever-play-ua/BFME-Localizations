@@ -1,0 +1,90 @@
+{
+ "hero": "Queen Saenathra",
+ "uk_name": "Королева Саенатра",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:GuldurSaenathra",
+     "t": "Name",
+     "en": "Queen Saenathra",
+     "uk": "Королева Саенатра",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GuldurSaenathraFeast",
+     "t": "Button",
+     "en": "Feast, My Children! (&R)",
+     "uk": "Бенкетуйте, діти мої! (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGuldurMaurnathFeast",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\nModifier Type: Debuff and Buff\\nEnemy units within the radius are slowed by 33%\\n Maurnath and friendly Spiders within the radius deal +50% damage\\nAbility lasts 30 seconds\\n\\n At rank 6, also summons a horde of Fell Brood \\n Left click icon then left click on target units",
+     "uk": "Необхідно: Рівень 3\\nТип ефекту: Ослаблення і посилення\\nВорожі загони в радіусі дії сповільнюються на 33%\\nМаурнат і союзні павуки в радіусі дії завдають +50% пошкоджень\\nЗдібність діє 30 сек.\\n\\nНа 6 рівні також прикликає орду лютого виплодку\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGuldurSaenathraFeast",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\nModifier Type: Debuff and Buff\\nEnemy units within the radius are slowed by 33%\\n Saenathra and friendly Spiders within the radius deal +50% damage\\nAbility lasts 30 seconds\\n\\n At rank 6, also summons a horde of Fell Brood \\n Left click icon then left click on target units",
+     "uk": "Необхідно: Рівень 3\\nТип ефекту: Ослаблення й посилення\\nВорожі загони в радіусі сповільнюються на 33%\\nСаенатра й союзні павуки в радіусі завдають +50% пошкоджень\\nДіє 30 сек.\\n\\nНа 6 рівні також прикликає орду лихого виводку\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GuldurSaenathraWebOfLies",
+     "t": "Button",
+     "en": "Web of Lies (&T)",
+     "uk": "Павутина брехні (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGuldurSaenathraWebOfLies",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Causes targeted units to become hostile towards each other for 15 seconds\\n Left click icon then left click on target area",
+     "uk": "Необхідно: Рівень 5\\nОбрані загони на 15 сек. стають ворожими одне до одного\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GuldurSaenathraEndlessHunger",
+     "t": "Button",
+     "en": "Endless Hunger (&C)",
+     "uk": "Вічний голод (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipGuldurMaurnathEndlessHunger",
+     "t": "Tooltip",
+     "en": "Requires Level 8\\nLike Ungoliant, Maurnath possesses an insatiable hunger\\nfor flesh and precious objects\\nMaurnath can move across impassable terrain, and steals resources when dealing damage to enemy units and structures\\nPassive ability\\n\\nWhen activated, Maurnath regains 30% health\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 8\\nЯк і Унґоліант, Маурнат має ненаситний голод\\nдо плоті й коштовностей\\nМаурнат може пересуватися непрохідною місцевістю й краде ресурси, коли завдає пошкоджень ворожим загонам і спорудам\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nПісля активації Маурнат відновлює 30% здоров'я\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipGuldurSaenathraEndlessHunger",
+     "t": "Tooltip",
+     "en": "Requires Level 8\\nLike Ungoliant, Saenathra possesses an insatiable hunger\\nfor flesh and precious objects\\nSaenathra can move across impassable terrain, and steals resources when dealing damage to enemy units and structures\\nPassive ability\\n\\nWhen activated, Saenathra regains 30% health\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 8\\nЯк і Унґоліант, Саенатра має ненаситний голод\\nдо плоті й коштовностей\\nСаенатра може долати непрохідну місцевість і краде ресурси, коли завдає пошкоджень ворожим загонам і спорудам\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nПісля активації Саенатра відновлює 30% здоров'я\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SpecialAbilityGuldurSaenathraTunnel",
+     "t": "Button",
+     "en": "Burrow (&W)",
+     "uk": "Підкоп (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSpecialAbilityGuldurSaenathraTunnel",
+     "t": "Tooltip",
+     "en": "Requires Level 2\\nAllows Saenathra to tunnel under the ground and emerge at any unshrouded location \\n Left click icon then left click on target location",
+     "uk": "Необхідно: Рівень 2\\nСаенатра прориває хід під землею й вилізти в будь-якому відкритому місці\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

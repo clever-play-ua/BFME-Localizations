@@ -1,0 +1,30 @@
+﻿1
+00:00:00,000 --> 00:00:01,280
+Frodo!
+
+2
+00:00:02,280 --> 00:00:03,880
+- Frodo!
+- Sam!
+
+3
+00:00:03,960 --> 00:00:05,800
+Bless you, you're awake!
+
+4
+00:00:05,880 --> 00:00:08,680
+Sam has hardly left your side.
+
+5
+00:00:08,760 --> 00:00:11,480
+We were that worried about you,
+weren't we, Mr. Gandalf?
+
+6
+00:00:11,560 --> 00:00:16,200
+By the skills of Lord Elrond,
+you're beginning to mend.
+
+7
+00:00:17,840 --> 00:00:21,800
+Welcome to Rivendell, Frodo Baggins.

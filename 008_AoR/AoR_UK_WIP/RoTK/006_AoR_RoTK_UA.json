@@ -2223,7 +2223,7 @@
    "type": "Кнопка",
    "en": "Sam throws a torch to target area \nInstantly destroys Spider Webs, Spider Eggs and Spiderlings in target area\nDeals damage over time within target area for 3 seconds\nLeft click icon then left click on target area",
    "ru": "",
-   "uk_ai": "Сем кидає смолоскип на вказану ділянку \nМиттєво знищує павутину, павучі яйця й павученят на ділянці\nЗавдає поступових пошкоджень на ділянці на 3 сек.\nКлікніть на іконку, потім оберіть ділянку",
+   "uk_ai": "Сем кидає смолоскип на вказану ділянку \nМиттєво знищує павутину, павучі яйця й павученят на ділянці\nЗавдає періодичних пошкоджень на ділянці на 3 сек.\nКлікніть на іконку, потім оберіть ділянку",
    "status": "чернетка AI",
    "uk": ""
   },
@@ -2233,7 +2233,7 @@
    "type": "Кнопка",
    "en": "Targeted enemy takes poison damage over time for 10 seconds and becomes a wight upon death \n Left click icon then left click on target",
    "ru": "",
-   "uk_ai": "Вказаний ворог отримує поступові пошкодження отрутою протягом 10 сек., а загинувши, стає привидом \n Клікніть на іконку, потім оберіть ціль",
+   "uk_ai": "Вказаний ворог отримує періодичні пошкодження отрутою протягом 10 сек., а загинувши, стає привидом \n Клікніть на іконку, потім оберіть ціль",
    "status": "чернетка AI",
    "uk": ""
   },

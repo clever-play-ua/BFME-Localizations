@@ -26,7 +26,7 @@ Text sources:
 
 Run:  python build_uk_submod.py      (needs openpyxl)
 """
-import collections, hashlib, json, os, shutil, struct, sys, zipfile
+import collections, hashlib, json, os, re, shutil, struct, sys, zipfile
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 AOR10 = os.path.dirname(HERE)
@@ -52,15 +52,23 @@ SHIP_MEDIA = False  # the subtitled intro (media/data/movies/CS01.vp6) is on hol
 # chunks dropped (~0.17 s; ffmpeg's EA demuxer cannot open fewer than 4); CS01.mp3 = 0.13 s silence (the intro's
 # voice/music is DialogEvent CS01). Overridden by media/ when SHIP_MEDIA is on.
 NO_INTRO = os.path.join(HERE, 'nointro')
-SHIP_NO_INTRO = True
+SHIP_NO_INTRO = False  # 0.19: the intro plays again, with engine subtitles (MOVIE_SUBS)
 # Custom start-up images, used only when the PNG exists (converted to the stock JPEG size):
 #   branding/splash.png   -> _rotwk_/EnglishSplash.jpg              800x600, shown while the exe starts (rotwk\)
 #   branding/loading.png  -> art/compiledtextures/in/installload.jpg 1920x1440, MappedImage ShellMapLowLOD
 #                            (the launcher puts one of its installload_*.jpg there; the mod copy wins at launch)
 BRANDING = os.path.join(HERE, 'branding')
+# Movie subtitles (0.19, method of the Spanish submod, AoR_10/movie_subtitles.json): AoR_10/movie_subtitles/edited.json
+# (proofread .uk.srt files read back by import_movie_srt.py; frames at each video's own fps) ->
+#   SUBTITLE:UA<Video without _>_NN labels in lotr.csf (one row each), data/english/movies/<Video>.ini,
+#   data/ini/video.ini = AoR's own file + «HasSubtitles = Yes» for those videos (whole-file override: re-merge after AoR patches)
+MOVIE_SUBS = os.path.join(AOR10, 'movie_subtitles', 'edited.json')
+SHIP_MOVIE_SUBS = True
+AOR_VIDEO_INI = 'F:/BFME-AgeoftheRing/aotr/data/ini/video.ini'
+MOVIE_FONT, MOVIE_PITCH = 'Albertus MT', 24
 BRANDING_IMAGES = [('splash.png', '_rotwk_/EnglishSplash.jpg', (800, 600)),
                    ('loading.png', 'art/compiledtextures/in/installload.jpg', (1920, 1440))]
-VERSION = '0.14'  # also names the zip: ukrainian-localization_0.14.zip
+VERSION = '0.20'  # also names the zip: ukrainian-localization_0.20.zip
 # 'shadow': stay English, override the stock albertusmt.otf with the designer font (no registry needed)
 # 'slot':   own rotwk\lang\Ukrainian.big language slot (needs registry Language=ukrainian)
 MODE = 'shadow'
@@ -215,6 +223,16 @@ def main():
         else:
             labels[s['var']] = s['en']
         order.append(s['var'])
+    movies = {}
+    if SHIP_MOVIE_SUBS:
+        for v, d in json.load(open(MOVIE_SUBS, encoding='utf-8')).items():
+            if d.get('uk'):
+                movies[v] = d['uk']
+                for i, c in enumerate(d['uk'], 1):
+                    k = f"SUBTITLE:UA{v.replace('_', '')}_{i:02}"
+                    labels[k] = ' '.join(c['text'].split())  # one row: the game draws a single line well
+                    order.append(k)
+                    used += 1
     for k in extra:  # labels no AoR string file has (e.g. movie subtitles DIALOGEVENT:<sound>Subtitle)
         labels[k] = uk[k.lower()]
         order.append(k)
@@ -275,6 +293,27 @@ def main():
                 if rel not in shipped:
                     shipped.append(rel)
 
+    if movies:  # engine movie subtitles: one INI per video + video.ini with HasSubtitles
+        for v, cues in movies.items():
+            lines = [f"    SubTitle = Label:UA{v.replace('_', '')}_{i:02} Color R:255 G:255 B:255 Style:SOLID Align:CENTER "
+                     f"Line:15 StartFrame:{c['start_frame']} EndFrame:{c['end_frame']}" for i, c in enumerate(cues, 1)]
+            rel = f'data/english/movies/{v}.ini'
+            os.makedirs(os.path.join(OUT, 'data', 'english', 'movies'), exist_ok=True)
+            NL = '\r\n'
+            with open(os.path.join(OUT, *rel.split('/')), 'w', encoding='ascii', newline='') as o:
+                o.write(f"; Ukrainian movie subtitles - Video {v}. Label:X = SUBTITLE:X in lotr.csf; frames at the video's own fps{NL}"
+                        f'SubTitles {v}{NL}    FontName = "{MOVIE_FONT}"{NL}    FontPitch = {MOVIE_PITCH}{NL}    SubTitleType = CINEMA{NL}'
+                        + NL.join(lines) + f'{NL}End{NL}')
+            shipped.append(rel)
+        vini = open(AOR_VIDEO_INI, 'rb').read().decode('latin-1')
+        for v in movies:
+            vini, n = re.subn(r'(\nVideo ' + re.escape(v) + r'\r?\n(?:(?!End\b).*\r?\n)*?)(End\b)',
+                              lambda m: m.group(1) + '\tHasSubtitles = Yes\r\n' + m.group(2), vini, count=1)
+            assert n == 1, v
+        os.makedirs(os.path.join(OUT, 'data', 'ini'), exist_ok=True)
+        open(os.path.join(OUT, 'data', 'ini', 'video.ini'), 'wb').write(vini.encode('latin-1'))
+        shipped.append('data/ini/video.ini')
+
     from PIL import Image
     for png, rel, size in BRANDING_IMAGES:
         src = os.path.join(BRANDING, png)
@@ -302,7 +341,7 @@ def main():
                        'Чорновий переклад\n\n'
                        '- Всі сюжетні діалоги кампанії «Повернення короля»',
         'author': 'Clever Play UA',
-        'aotr_version': '10.0.1',  # launcher Creator Tools wants X.Y.Z (strings.json updated to the 10.0.1 lotr.str)
+        'aotr_version': '10.0.2',  # launcher Creator Tools wants X.Y.Z (strings.json updated to the 10.0.2 lotr.str)
         'genre': 'Translation',
         'language': 'English',  # the launcher writes this field (BFME language left English: shadow-font mode)
         'checksums': {f: {'checksum': sha256(os.path.join(OUT, *f.split('/')))} for f in shipped},

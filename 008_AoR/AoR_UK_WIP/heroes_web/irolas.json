@@ -1,0 +1,90 @@
+{
+ "hero": "Irolas",
+ "uk_name": "Іролас",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:CampaignIrolas",
+     "t": "Name",
+     "en": "Irolas",
+     "uk": "Іролас",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:IrolasLeadership",
+     "t": "Button",
+     "en": "Officer of the Guard",
+     "uk": "Офіцер Варти",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipIrolasLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\nAllied Soldiers, Spearmen and Archers of the White City gain +33% armour and damage and earn experience +50% faster\\nStacks with Spells and Buffs\\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nСоюзні воїни, списоносці й лучники Білого Міста отримують бонус +33% броні й пошкоджень і на 50% швидше набирають досвід\\nПоєднується із заклинаннями та посиленнями\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:IrolasStoutDefender",
+     "t": "Button",
+     "en": "Stout Defender (&R)",
+     "uk": "Стійкий захисник (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipIrolasStoutDefender",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n Irolas and targeted allied hero gain +50% armour for 30 seconds\\n Left click icon then left click on target hero",
+     "uk": "Тип ефекту: Заклинання\\nІролас і вказаний союзний герой отримують бонус +50% броні на 30 сек.\\nКлікніть на іконку, потім оберіть потрібного героя",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:IrolasWarChant",
+     "t": "Button",
+     "en": "For the White City! (&T)",
+     "uk": "За Біле Місто! (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipIrolasWarChant",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n Targeted friendly units gain\\n+33% armour, +20% speed, and resistance to fear and terror for 30 seconds\\nLeft click icon then left click on target units",
+     "uk": "Тип ефекту: Заклинання\\nВказані союзні загони отримують бонус\\n+33% броні, +20% швидкості й стійкість до страху та жаху на 30 сек.\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:IrolasSwornSword",
+     "t": "Button",
+     "en": "Sworn Sword (&C)",
+     "uk": "Присяжний меч (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipIrolasSwornSword",
+     "t": "Tooltip",
+     "en": "Irolas slashes at targeted enemy units, dealing splash damage and lingering damage over time for 10 seconds\\nLeft click then left click on target",
+     "uk": "Іролас рубає вказані ворожі загони, завдаючи пошкоджень по площі й періодичних пошкоджень на 10 сек.\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:IrolasBombard",
+     "t": "Button",
+     "en": "Clear Them Out! (&V)",
+     "uk": "Очистити їх! (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipIrolasBombard",
+     "t": "Tooltip",
+     "en": "Irolas signals the bombardment of target area\\nEnemy units in target area take damage and are knocked back\\nLeft click icon then left click on target area",
+     "uk": "Іролас подає сигнал обстріляти вказану ділянку\\nВорожі загони на ній отримують пошкодження й відкидаються\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

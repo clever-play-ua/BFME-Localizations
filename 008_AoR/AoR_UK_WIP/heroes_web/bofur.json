@@ -1,0 +1,48 @@
+{
+ "hero": "Bofur",
+ "uk_name": "Бофур",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:DwarvenBofur",
+     "t": "Name",
+     "en": "Bofur",
+     "uk": "Бофур",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:WorkingClassDwarves",
+     "t": "Button",
+     "en": "Working Class Dwarves",
+     "uk": "Дворфи-роботяги",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipWorkingClassDwarves",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n Bifur, Bofur and Bombur gain +15% damage and +15% armour when near each other \\nPassive ability",
+     "uk": "Тип ефекту: Заклинання\\nПоряд одне з одним Біфур, Бофур і Бомбур отримують бонус +15% до пошкоджень і +15% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BofurSong",
+     "t": "Button",
+     "en": "Dwarven Minstrel (&R)",
+     "uk": "Дворфійський пісняр (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipBofurSong",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n Nearby friendly units gain +15% movement speed and +50% armour for 30 seconds\\nBofur and nearby friendly heroes are passively healed over time for 15 seconds\\nLeft click icon to activate",
+     "uk": "Тип ефекту: Заклинання\\nСоюзні загони поблизу на 30 сек. отримують бонус +15% швидкості руху й +50% броні\\nБофур і союзні герої поблизу 15 сек. поступово зцілюються\\nКлікніть на іконку, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

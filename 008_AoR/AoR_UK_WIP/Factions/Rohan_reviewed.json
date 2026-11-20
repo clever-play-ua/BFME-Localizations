@@ -743,7 +743,7 @@
   {
    "var": "CONTROLBAR:TheodredLuck",
    "en": "Luck of Battle (&T)",
-   "uk": "Бойове щастя (&T)",
+   "uk": "Військова удача (&T)",
    "by": "FoLD",
    "date": "2026-11-11",
    "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
@@ -1759,7 +1759,7 @@
   {
    "var": "CONTROLBAR:ToolTipBuildFirienholtWardenHorde",
    "en": "Requires Level 2 Archery Range\nStrong vs. Infantry and Monsters\nCan stealth near trees and fire Longshot arrow volleys\n\nThese woodsmen protected the sacred hill of Halifirien and the surrounding Firienholt.",
-   "uk": "Необхідно: Стрільбище 2 рівня\nЕфективні проти піхоти та створінь\nСтають невидимими поблизу дерев і здатні обстріляти місцевість залпом стріл\n\nЦі слідопити боронили святий пагорб Галіфірієн та довколишній ліс Фірієнгольт.",
+   "uk": "Необхідно: Стрільбище 2 рівня\nЕфективні проти піхоти та істот\nСтають невидимими поблизу дерев і здатні обстріляти місцевість залпом стріл\n\nЦі слідопити боронили святий пагорб Галіфірієн та довколишній ліс Фірієнгольт.",
    "by": "FoLD",
    "date": "2026-11-11",
    "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
@@ -1799,7 +1799,7 @@
   {
    "var": "CONTROLBAR:ToolTipBlackArrows",
    "en": "Requires Level 2\nLong range ability that deals increased damage\nCauses monsters to flee in terror\nLeft click icon then left click on target",
-   "uk": "Необхідно: Рівень 2\nЗдібність великої дальності, що завдає більше пошкоджень\nЗмушує створінь тікати в жаху\nКлікніть на іконку, потім оберіть ціль",
+   "uk": "Необхідно: Рівень 2\nЗдібність великої дальності, що завдає більше пошкоджень\nЗмушує істот тікати в жаху\nКлікніть на іконку, потім оберіть ціль",
    "by": "FoLD",
    "date": "2026-11-11",
    "file": "AoR_UA_FoLD_2026-11-11-10-17.json"
@@ -2583,7 +2583,7 @@
   {
    "var": "CONTROLBAR:ToolTipBuildRohanSnowbournRiderHorde",
    "en": "Requires Level 2 Stables\nStrong vs. Cavalry, Monsters, and Heroes\nOn axe, strong frontline unit, weak vs. Cavalry and Archers\n\nThe Riders of Snowbourn were a heavy cavalry unit, capable of breaking the fiercest of enemy ranks and opening them up for the remainder of the army.",
-   "uk": "Необхідно: Конюшні 2 рівня\nЕфективні проти кавалерії, створінь і героїв\nЗ сокирами — сильний загін передової, слабкий проти кавалерії та лучників\n\nСноуборнські вершники були важкою кавалерією, здатною проломити найзапекліші ворожі ряди й відкрити їх для решти війська.",
+   "uk": "Необхідно: Конюшні 2 рівня\nЕфективні проти кавалерії, істот і героїв\nЗ сокирами — сильний загін передової, слабкий проти кавалерії та лучників\n\nСноуборнські вершники були важкою кавалерією, здатною проломити найзапекліші ворожі ряди й відкрити їх для решти війська.",
    "by": "FoLD",
    "date": "2026-11-11",
    "file": "AoR_UA_FoLD_2026-11-11-10-17.json"

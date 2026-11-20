@@ -1,0 +1,264 @@
+{
+ "hero": "Faramir",
+ "uk_name": "Фарамір",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:GondorFaramir",
+     "t": "Name",
+     "en": "Faramir",
+     "uk": "Фарамір",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToggleFaramirWeapons",
+     "t": "Button",
+     "en": "Toggle Weapon (&W)",
+     "uk": "Змінити зброю (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipToggleFaramirWeapons",
+     "t": "Tooltip",
+     "en": "Left click to toggle between bow and sword",
+     "uk": "Клікніть, щоб перемкнутися між луком і мечем",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFaramirWeaponToggleDA",
+     "t": "Tooltip",
+     "en": "Left click to toggle between bow and sword\\n\\n Modifier Type: Leadership \\n Friendly units near Faramir gain +33% damage and +10% movement speed\\nPassive ability",
+     "uk": "Клікніть, щоб перемкнутися між луком і мечем\\n\\nТип ефекту: Лідерство\\nСоюзні загони поряд із Фараміром отримують бонус +33% до пошкоджень і +10% швидкості руху\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FaramirAmbushAbility",
+     "t": "Button",
+     "en": "Hidden Volley (&R)",
+     "uk": "Прихований залп (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFaramirAmbushAbility",
+     "t": "Tooltip",
+     "en": "Faramir calls his rangers to bombard anywhere within a great radius with a volley of arrows \\n At Level 5 gains +50% damage and increased radius \\n Left click icon then left click on target area",
+     "uk": "Фарамір кличе своїх слідопитів обстріляти залпом стріл будь-яке місце у великому радіусі\\nНа 5 рівні отримує бонус +50% до пошкоджень і більший радіус дії\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FaramirSummonLeadership",
+     "t": "Button",
+     "en": "Captain of Ithilien (&C)",
+     "uk": "Капітан Ітілієну (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCampaignFaramirSummonLeadership",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Faramir calls a group of Rangers to defend targeted location. They are immobile, but remain stealthed and will attack any enemy that approaches. \\n Left click icon then left click on pathable location \\n\\n Modifier Type: Leadership \\n Ithilien Rangers near Faramir gain +15% armour and damage and earn experience 33% faster\\nPassive ability",
+     "uk": "Необхідно: Рівень 3\\nФарамір кличе загін слідопитів захищати вказане місце. Вони не можуть рухатися, але лишаються невидимими й атакують ворогів, що наближаються.\\nКлікніть на іконку, потім оберіть ділянку\\n\\nТип ефекту: Лідерство\\nСлідопити Ітілієну поряд із Фараміром отримують бонус +15% броні й пошкоджень і на 33% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFaramirSummonLeadership",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Faramir calls a group of Rangers and one of their lieutenants to defend targeted location. They are immobile, but remain stealthed and will attack any enemy that approaches.\\n At level 7, summons a larger group of Rangers\\n Left click icon then left click on pathable location \\n\\n Modifier Type: Leadership \\n Ithilien Rangers near Faramir gain +15% armour and damage and earn experience 33% faster\\n Passive ability",
+     "uk": "Необхідно: Рівень 3\\nФарамір кличе загін слідопитів з їхнім лейтенантом захищати обране місце. Вони не рухаються, але лишаються невидимими й атакують ворогів, що наближаються.\\n\\nНа 7 рівні прикликає ще більший загін слідопитів\\nКлікніть на іконку, потім оберіть ділянку\\n\\nТип ефекту: Лідерство\\nСлідопити Ітілієну поряд із Фараміром отримують бонус +15% броні й пошкоджень і на 33% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:WoundingArrow",
+     "t": "Button",
+     "en": "Wounding Arrow (&V)",
+     "uk": "Стріла, що лякає (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipWoundingArrow",
+     "t": "Tooltip",
+     "en": "Requires Level 6 \\n Single ranged attack\\nCauses target monster to flee\\nCan only use with bow equipped\\nLeft click icon then left click on target",
+     "uk": "Необхідно: Рівень 6\\nОдиночний постріл\\nОбрана істота тікає\\nДоступно лише з луком\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FaramirKnightRanger",
+     "t": "Button",
+     "en": "Knight/Ranger Toggle (&T)",
+     "uk": "Лицар / Слідопит (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEowynMount",
+     "t": "Tooltip",
+     "en": "Left click to switch between mounted and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою верхи та пішим ходом",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FaramirLeadership",
+     "t": "Button",
+     "en": "Wizard's Pupil",
+     "uk": "Учень чарівника",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFaramirLeadership",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Modifier Type: Leadership \\n Knights of Minas Tirith near Faramir gain +25% damage and -25% trample deceleration \\nPassive ability",
+     "uk": "Необхідно: Рівень 3\\nТип ефекту: Лідерство\\nЛицарі Мінас-Тіріта поряд із Фараміром отримують бонус +25% до пошкоджень і на 25% менше сповільнюються під час топтання\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FaramirDesperateCharge",
+     "t": "Button",
+     "en": "Desperate Charge (&R)",
+     "uk": "Відчайдушна атака (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFaramirDesperateCharge",
+     "t": "Tooltip",
+     "en": "Required: Rank 5\\n Faramir gains +100% resistance to ranged attacks and pike damage for 20 seconds \\n Left click to activate",
+     "uk": "Необхідно: Рівень 5\\nФарамір на 20 сек. отримує бонус +100% стійкості до атак на відстані й ударів списами\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:CaptainofGondorF",
+     "t": "Button",
+     "en": "Faramir's Quality (&C)",
+     "uk": "Гідність Фараміра (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCaptainofGondor",
+     "t": "Tooltip",
+     "en": "Requires Level 8 \\n Give targeted friendly troops experience \\n Left click icon then left click on target units",
+     "uk": "Необхідно: Рівень 8\\nМиттєво наділяє досвідом обрані союзні загони\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SpecialAbilityFaramirQuality",
+     "t": "Button",
+     "en": "Faramir's Quality (&C)",
+     "uk": "Гідність Фараміра (&C)",
+     "st": "ok",
+     "dup": "CONTROLBAR:CaptainofGondorF"
+    },
+    {
+     "v": "CONTROLBAR:TooltipSpecialAbilityFaramirQuality",
+     "t": "Tooltip",
+     "en": "Requires Level 6 \\n Faramir deals knockback per attack and gains +50% armour and damage for 30 seconds\\n Can only use with sword equipped \\n Left click to activate",
+     "uk": "Необхідно: Рівень 6\\nНа 30 сек. Фарамір відкидає ворогів своїми ударами й отримує бонус +50% броні та пошкоджень\\nМожна використати, лише коли в руках меч\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:WoundingArrowIthilien",
+     "t": "Button",
+     "en": "Wounding Arrow (&C)",
+     "uk": "Стріла, що лякає (&C)",
+     "st": "ok",
+     "dup": "CONTROLBAR:WoundingArrow"
+    },
+    {
+     "v": "CONTROLBAR:ToggleFaramirWeaponsNoHotkey",
+     "t": "Button",
+     "en": "Toggle Weapon",
+     "uk": "Змінити зброю",
+     "st": "ok",
+     "dup": "CONTROLBAR:ToggleFaramirWeapons"
+    }
+   ]
+  },
+  {
+   "name": "Ambush in Ithilien",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:RangerLureIthilien",
+     "t": "Button",
+     "en": "Lure (&R)",
+     "uk": "Приманка (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipRangerLureIthilienNew",
+     "t": "Tooltip",
+     "en": "Call out to hidden ranger units \\n Left click to activate",
+     "uk": "Прикликає приховані загони слідопитів \\n Клікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Dol Amroth map",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:FaramirSummonLeadershipDolAmroth",
+     "t": "Button",
+     "en": "Captain of Ithilien (&T)",
+     "uk": "Капітан Ітілієну (&T)",
+     "st": "ok",
+     "dup": "CONTROLBAR:FaramirSummonLeadership"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFaramirSummonDA",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Faramir calls a group of Rangers and one of their lieutenants to defend targeted location\\nThey are immobile, but remain stealthed and will attack any enemy that approaches\\n At level 7, summons a larger group of Rangers\\n Left click icon then left click on pathable location",
+     "uk": "Необхідно: Рівень 3\\nФарамір кличе загін слідопитів і одного з їхніх лейтенантів захищати обране місце\\nВони не можуть рухатися, але лишаються невидимими й атакують ворогів, що наближаються\\n\\nНа 7 рівні прикликає більший загін слідопитів\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:CaptainofGondorFDolAmroth",
+     "t": "Button",
+     "en": "Faramir's Quality (&V)",
+     "uk": "Гідність Фараміра (&V)",
+     "st": "ok",
+     "dup": "CONTROLBAR:CaptainofGondorF"
+    }
+   ]
+  },
+  {
+   "name": "Ithilien map",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:IthilienFaramirFavor",
+     "t": "Button",
+     "en": "Captain of Ithilien (&T)",
+     "uk": "Капітан Ітілієну (&T)",
+     "st": "ok",
+     "dup": "CONTROLBAR:FaramirSummonLeadership"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFaramirFavor",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\n Allies near Faramir gain +33% damage, +33% armour, and earn experience 50% faster\\nPassive ability\\n\\nAt level 3, can be cast on Ithilien units to permanently grant +20% armour\\nDecreased cooldown at levels 5, 7 and 10\\nLeft click on icon then left click on target own units",
+     "uk": "Тип ефекту: Лідерство\\nСоюзники поряд із Фараміром отримують бонус +33% до пошкоджень, +33% броні й на 50% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nНа 3 рівні можна застосувати до загонів Ітілієну, щоб назавжди дати їм бонус +20% броні\\nШвидше відновлюється на 5, 7 і 10 рівнях\\nКлікніть на іконку, потім оберіть свої загони",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SonsOfGondor",
+     "t": "Button",
+     "en": "Sons of Gondor (&V)",
+     "uk": "Сини Ґондору (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipSonsOfGondor",
+     "t": "Tooltip",
+     "en": "Requires Level 10\\nTemporarily summons Boromir to the battlefield\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 10\\nТимчасово прикликає Боромира на поле бою\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

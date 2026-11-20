@@ -1,0 +1,45 @@
+﻿1
+00:00:11,208 --> 00:00:13,542
+¿Qué es este lugar?
+
+2
+00:00:17,958 --> 00:00:21,333
+El amo debe entrar en el túnel.
+
+3
+00:00:22,042 --> 00:00:26,583
+No... Ahora que estoy aquí,
+creo que no quiero.
+
+4
+00:00:28,583 --> 00:00:30,833
+Es el único camino.
+
+5
+00:00:33,208 --> 00:00:34,833
+Entra...
+
+6
+00:00:36,167 --> 00:00:37,542
+...o vuelve atrás.
+
+7
+00:00:40,583 --> 00:00:42,958
+No puedo volver atrás.
+
+8
+00:00:56,125 --> 00:00:57,375
+¿Qué es ese olor?
+
+9
+00:00:57,500 --> 00:01:01,042
+Porquería de orcos.
+Los orcos vienen aquí a veces.
+
+10
+00:01:13,875 --> 00:01:15,083
+¿Qué pasa?
+
+11
+00:01:18,292 --> 00:01:19,667
+¡Sméagol!

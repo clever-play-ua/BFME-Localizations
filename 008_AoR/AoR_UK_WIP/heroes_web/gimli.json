@@ -1,0 +1,175 @@
+{
+ "hero": "Gimli",
+ "uk_name": "Ґімлі",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:RohanGimli",
+     "t": "Name",
+     "en": "Gimli",
+     "uk": "Ґімлі",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:AxeThrow",
+     "t": "Button",
+     "en": "Axe Throw (&W)",
+     "uk": "Кидок сокири (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipAxeThrow",
+     "t": "Tooltip",
+     "en": "Powerful ranged attack with radius damage \\n Left click icon then left click on target",
+     "uk": "Потужна атака на відстані з пошкодженнями по площі\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDwarvenGimliAxeThrow",
+     "t": "Tooltip",
+     "en": "Powerful ranged attack with radius damage\\nTarget enemy hero is slowed by -50% for 10 seconds\\nLeft click icon then left click on target",
+     "uk": "Потужна атака на відстані з пошкодженнями по площі\\nОбраний ворожий герой сповільнюється на 50% на 10 сек.\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:EnduringWrath",
+     "t": "Button",
+     "en": "Enduring Wrath",
+     "uk": "Невгасимий гнів",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEnduringWrath",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\nConsecutive attacks temporarily increase Gimli's armour by 5% up to a maximum of 25% \\n Passive ability",
+     "uk": "Необхідно: Рівень 3\\nКожна наступна атака тимчасово збільшує броню Ґімлі на 5%, максимум 25%\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FellowshipLeap",
+     "t": "Button",
+     "en": "Nobody Tosses A Dwarf (&T)",
+     "uk": "Дворфа ніхто не жбурляє (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFellowshipLeap",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Gimli jumps to a location causing area-effect damage \\n Left click icon then left click on target area",
+     "uk": "Необхідно: Рівень 3\\nҐімлі стрибає в обране місце й завдає пошкоджень по площі\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FellowshipSlayer",
+     "t": "Button",
+     "en": "Stubborn Pride (&C)",
+     "uk": "Уперта гордість (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCampaignSlayer",
+     "t": "Tooltip",
+     "en": "Requires Level 6 \\n Gimli gains +50% armour, +33% speed and deals knockback for 30 seconds\\n Left click to activate",
+     "uk": "Необхідно: Рівень 6\\nҐімлі отримує бонус +50% броні, +33% швидкості й відкидає ворогів своїми ударами на 30 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEreborSlayer",
+     "t": "Tooltip",
+     "en": "Requires Level 6 \\n Gimli gains +50% damage and +33% speed for 30 seconds\\n Left click to activate",
+     "uk": "Необхідно: Рівень 6\\nНа 30 сек. Ґімлі отримує бонус +50% до пошкоджень і +33% швидкості\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElfFriendCampaign",
+     "t": "Button",
+     "en": "Elf-friend",
+     "uk": "Друг ельфів",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElfFriendCampaign",
+     "t": "Tooltip",
+     "en": "Requires Level 10\\nModifier Type: Leadership \\n Legolas gains +10% damage and armour when near Gimli\\n Passive ability",
+     "uk": "Необхідно: Рівень 10\\nТип ефекту: Лідерство\\nПоряд із Ґімлі Леґолас отримує бонус +10% до пошкоджень і броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Erebor · Durins Folk map",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:ToggleGimliWeapons",
+     "t": "Button",
+     "en": "Axemaster (&R)",
+     "uk": "Майстер сокири (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipToggleGimliWeapons",
+     "t": "Tooltip",
+     "en": "Left click to toggle between Balin's Axe (double-headed) and Glóin's Axe (walking axe)\\nBalin's Axe grants +33% armour and splash damage\\nGlóin's Axe grants +10% movement speed and +50% attack speed",
+     "uk": "Клікніть, щоб перемкнутися між сокирою Баліна (дволезовою) та сокирою Ґлоїна (похідною)\\nСокира Баліна дає бонус +33% броні й пошкодження по площі\\nСокира Ґлоїна дає бонус +10% швидкості руху й +50% швидкості атаки",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GimliElfFriend",
+     "t": "Button",
+     "en": "Elf-friend (&V)",
+     "uk": "Друг ельфів (&V)",
+     "st": "ok",
+     "dup": "CONTROLBAR:ElfFriendCampaign"
+    },
+    {
+     "v": "CONTROLBAR:TooltipGimliElfFriend",
+     "t": "Tooltip",
+     "en": "Requires Level 10\\nSummons Legolas Greenleaf to the battlefield\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 10\\nПрикликає Леґоласа на поле бою\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Summoned",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:ThreeHuntersLeadership",
+     "t": "Button",
+     "en": "The Three Hunters",
+     "uk": "Три мисливці",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHuntersLeadershipGimli",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n When near Aragorn or Legolas, Gimli gains +25% armour and speed\\n Passive ability",
+     "uk": "Тип ефекту: Лідерство\\nПоряд з Араґорном чи Леґоласом Ґімлі отримує бонус +25% броні й швидкості\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:Leap_Summoned",
+     "t": "Button",
+     "en": "Baruk-Khazad! (&R)",
+     "uk": "Барук-Кхазад! (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipLeap_Summoned",
+     "t": "Tooltip",
+     "en": "Gimli jumps to a location causing area-effect damage \\n Left click icon then left click on target area",
+     "uk": "Ґімлі стрибає в обране місце й завдає пошкоджень по площі\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

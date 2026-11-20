@@ -1,0 +1,62 @@
+{
+ "hero": "Forlong",
+ "uk_name": "Форлонґ",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:GondorForlong",
+     "t": "Name",
+     "en": "Forlong",
+     "uk": "Форлонґ",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ForlongLeadership",
+     "t": "Button",
+     "en": "Lord of Lossarnach",
+     "uk": "Володар Лоссарнаху",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipForlongLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Fiefdom troops near Forlong earn experience 33% faster \\n and become immune to Fear \\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nЗагони ленів поряд із Форлонґом на 33% швидше набирають досвід\\nй отримують імунітет до страху\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ForlongVitality",
+     "t": "Button",
+     "en": "Vitality (&R)",
+     "uk": "Життєва сила (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipForlongVitality",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Forlong gains +50% damage, +25% speed and deals knockback for 30 seconds.\\n Left click to activate",
+     "uk": "Необхідно: Рівень 3\\nФорлонґ на 30 сек. отримує бонус +50% до пошкоджень, +25% швидкості й відкидає ворогів своїми ударами.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ForlongTrueHeartTrueFriend",
+     "t": "Button",
+     "en": "True Heart, True Friend (&T)",
+     "uk": "Вірне серце, вірний друг (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipForlongTrueHeartTrueFriend",
+     "t": "Tooltip",
+     "en": "Requires Level 7 \\n Modifier Type: Spell \\n Forlong empowers a friendly hero, granting them 50% armour, 50% faster experience gain, and 75% faster power recharge times for 30 seconds\\nLeft click icon then left click on target hero",
+     "uk": "Необхідно: Рівень 7\\nТип ефекту: Заклинання\\nФорлонґ посилює союзного героя: на 30 сек. той отримує бонус +50% броні, на 50% швидше набирає досвід і на 75% швидше відновлює здібності\\nКлікніть на іконку, потім оберіть героя",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

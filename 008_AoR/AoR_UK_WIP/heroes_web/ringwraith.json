@@ -1,0 +1,41 @@
+{
+ "hero": "Ringwraith",
+ "uk_name": "Назґул",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:GuldurRingwraith",
+     "t": "Name",
+     "en": "Ringwraith",
+     "uk": "Назґул",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SpecialAbilityNazgulNineServantsOfSauron",
+     "t": "Button",
+     "en": "The Nine are Abroad",
+     "uk": "Дев'ятеро вирушили",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSpecialAbilityRingwraithServantsOfSauron",
+     "t": "Tooltip",
+     "en": "As more Nazgûl gather, their strength grows\\nNearby Nazgûl receive +10% damage and armour\\nPassive ability",
+     "uk": "Що більше назґулів збирається разом, то вони сильніші\\nНазґули поблизу отримують бонус +10% до пошкоджень і броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSpecialAbilityRingwraithServantsOfSauronSummoned",
+     "t": "Tooltip",
+     "en": "As more Nazgûl gather, their strength grows\\nNearby Nazgûl receive +10% damage and armour\\nPassive ability\\n\\nModifier Type: Passive Debuff \\n Nearby enemy units suffer -25% damage and -20% armour\\nPassive ability",
+     "uk": "Що більше назґулів збирається разом, то вони сильніші\\nНазґули поблизу отримують бонус +10% до пошкоджень і броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nТип ефекту: Пасивне ослаблення\\nВорожі загони поблизу отримують штраф -25% пошкоджень і -20% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

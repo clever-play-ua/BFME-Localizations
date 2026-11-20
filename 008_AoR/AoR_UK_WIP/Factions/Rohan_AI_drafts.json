@@ -233,7 +233,7 @@
   {
    "var": "CONTROLBAR:ToolTipBlackArrows",
    "en": "Requires Level 2\\n Long range ability that deals increased damage \\n Causes monsters to flee in terror \\n Left click icon then left click on target",
-   "uk_ai": "Необхідно: Рівень 2\\nЗдібність великої дальності, що завдає більше пошкоджень\\nЗмушує створінь тікати в жаху\\nКлікніть на іконку, потім оберіть ціль"
+   "uk_ai": "Необхідно: Рівень 2\\nЗдібність великої дальності, що завдає більше пошкоджень\\nЗмушує істот тікати в жаху\\nКлікніть на іконку, потім оберіть ціль"
   },
   {
    "var": "CONTROLBAR:FirienholtLongShotAbility",
@@ -298,7 +298,7 @@
   {
    "var": "CONTROLBAR:ToolTipBuildRohanSnowbournRiderHorde",
    "en": "Requires Level 2 Stables \\n Strong vs. Cavalry, Monsters, and Heroes \\n On axe, strong frontline unit, weak vs. Cavalry and Archers \\n \\n The Riders of Snowbourn were a heavy cavalry unit, capable of breaking the fiercest of enemy ranks and opening them up for the remainder of the army.",
-   "uk_ai": "Необхідно: Конюшні 2 рівня\\nЕфективні проти кавалерії, створінь і героїв\\nЗ сокирами — сильний загін передової, слабкий проти кавалерії та лучників\\n\\nСноуборнські вершники були важкою кавалерією, здатною проломити найзапекліші ворожі ряди й відкрити їх для решти війська."
+   "uk_ai": "Необхідно: Конюшні 2 рівня\\nЕфективні проти кавалерії, істот і героїв\\nЗ сокирами — сильний загін передової, слабкий проти кавалерії та лучників\\n\\nСноуборнські вершники були важкою кавалерією, здатною проломити найзапекліші ворожі ряди й відкрити їх для решти війська."
   },
   {
    "var": "CONTROLBAR:SnowbournCharge",

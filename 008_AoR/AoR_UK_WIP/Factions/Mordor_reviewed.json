@@ -1519,7 +1519,7 @@
   {
    "var": "CONTROLBAR:ToolTipCommandSelectUpgradesMordorFortress",
    "en": "Purchase upgrades and additional defenses for the Fortress",
-   "uk": "Дозволяє придбати покращення та укріплювати захист фортеці",
+   "uk": "Придбання покращень та укріплення оборони",
    "by": "FoLD",
    "date": "2026-11-11",
    "file": "AoR_UA_FoLD_2026-11-11-12-40.json"
@@ -1535,7 +1535,7 @@
   {
    "var": "CONTROLBAR:ToolTipFireWeaponMordorFortressMagmaCauldrons",
    "en": "Requires the Scorching Spires upgrade\nThe Fortress emits poisonous smoke\nEnemies caught in the smoke suffer damage over time for 15 seconds\nLeft click to activate",
-   "uk": "Потребує покращення «Пекучі шпилі»\nФортеця випускає отруйний дим\nВороги в диму 15 сек. поступово отримують пошкодження\nКлікніть, щоб активувати",
+   "uk": "Потребує покращення «Пекучі шпилі»\nФортеця випускає отруйний дим\nВороги в диму 15 сек. отримують періодичні пошкодження\nКлікніть, щоб активувати",
    "by": "FoLD",
    "date": "2026-11-11",
    "file": "AoR_UA_FoLD_2026-11-11-12-40.json"
@@ -1759,7 +1759,7 @@
   {
    "var": "CONTROLBAR:KhamulLieutnant",
    "en": "Lieutenant of Dol Guldur",
-   "uk": "Лейтенант Дол-Ґулдура",
+   "uk": "Лейтенант Дол-Ґулдуру",
    "by": "FoLD",
    "date": "2026-11-11",
    "file": "AoR_UA_FoLD_2026-11-11-12-40.json"
@@ -1767,7 +1767,7 @@
   {
    "var": "CONTROLBAR:ToolTipKhamulLieutnant",
    "en": "Requires Level 3\nKhamûl takes on his role as the Lieutenant of Dol Guldur\nModifier Type: Leadership\nNearby friendly units gain +33% damage\nPassive ability\n\nAt rank 5, Khamûl dons his armour, granting him +25% armour and causing nearby enemy units to suffer damage over time",
-   "uk": "Необхідно: Рівень 3\nХамул бере на себе роль лейтенанта Дол-Ґулдура\nТип ефекту: Лідерство\nСоюзні загони поблизу отримують бонус +33% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nНа 5 рівні Хамул вдягає обладунки: отримує бонус +25% броні, а ворожі загони поблизу поступово отримують пошкодження",
+   "uk": "Необхідно: Рівень 3\nХамул бере на себе роль лейтенанта Дол-Ґулдуру\nТип ефекту: Лідерство\nСоюзні загони поблизу отримують бонус +33% до пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nНа 5 рівні Хамул вдягає обладунки: отримує бонус +25% броні, а ворожі загони поблизу отримують періодичні пошкодження",
    "by": "FoLD",
    "date": "2026-11-11",
    "file": "AoR_UA_FoLD_2026-11-11-12-40.json"
@@ -1879,7 +1879,7 @@
   {
    "var": "CONTROLBAR:ToolTipBlackBreath",
    "en": "Requires Level 10\nBlack Breath emanates from the Nazgûl\nNearby enemy units caught in the breath take damage over time for 15 seconds\nLeft click to activate",
-   "uk": "Необхідно: Рівень 10\nВід назґула віє Чорним подихом\nВорожі загони поблизу 15 сек. поступово отримують пошкодження\nКлікніть, щоб активувати",
+   "uk": "Необхідно: Рівень 10\nВід назґула віє Чорним подихом\nВорожі загони поблизу 15 сек. отримують періодичні пошкодження\nКлікніть, щоб активувати",
    "by": "FoLD",
    "date": "2026-11-11",
    "file": "AoR_UA_FoLD_2026-11-11-12-40.json"
@@ -2151,7 +2151,7 @@
   {
    "var": "CONTROLBAR:ToolTipCracksOfDoom",
    "en": "Summons a patch of cracked, volcanic earth for 15 seconds\nEnemy units inside take damage over time and are slowed by -33%\nLeft click icon then left click on target area",
-   "uk": "Прикликати ділянку потрісканої вулканічної землі на 15 сек.\nВорожі загони на ній поступово отримують пошкодження й сповільнюються на 33%\nКлікніть на іконку, потім оберіть ділянку",
+   "uk": "Прикликати ділянку потрісканої вулканічної землі на 15 сек.\nВорожі загони на ній отримують періодичні пошкодження й сповільнюються на 33%\nКлікніть на іконку, потім оберіть ділянку",
    "by": "FoLD",
    "date": "2026-11-11",
    "file": "AoR_UA_FoLD_2026-11-11-12-40.json"

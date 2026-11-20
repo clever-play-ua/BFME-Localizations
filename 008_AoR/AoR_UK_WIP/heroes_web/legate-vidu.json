@@ -1,0 +1,90 @@
+{
+ "hero": "Legate Vidú",
+ "uk_name": "Леґат Віду",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:FellowshipVidu",
+     "t": "Name",
+     "en": "Legate Vidú",
+     "uk": "Леґат Віду",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ViduWineCourage",
+     "t": "Button",
+     "en": "Through Wine, Courage (&W)",
+     "uk": "Відвага, дарована вином (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipViduWineCourage",
+     "t": "Tooltip",
+     "en": "When activated, nearby allied units are healed and become immune to fear and terror for 20 seconds\\nReplenishes one fallen unit in nearby battalions\\nLeft click to activate",
+     "uk": "Після активації союзні загони поблизу зцілюються й на 20 сек. отримують імунітет до страху та жаху\\nЗагони поблизу поновлюють по одному полеглому воїну\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDorwinionViduLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\nNearby Dorwinion units gain +33% damage, +33% armour, and earn experience 50% faster\\nPassive ability\\n\\nWhen activated, nearby allied units are healed and become immune to fear and terror for 20 seconds\\nReplenishes one fallen unit in nearby battalions\\nLeft click to activate",
+     "uk": "Тип ефекту: Лідерство\\nЗагони Дорвініону поблизу отримують бонус +33% до пошкоджень, +33% броні й на 50% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nПісля активації союзні загони поблизу зцілюються й на 20 сек. отримують імунітет до страху та жаху\\nКожен загін поблизу поновлює одного полеглого воїна\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DorwinionSoundAlarm",
+     "t": "Button",
+     "en": "Sound the Alarm (&R)",
+     "uk": "Бийте тривогу! (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDaleViduSoundAlarm",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\nVidú blows his horn\\nCan be cast on friendly units to increase movement speed by 25% for 15 seconds,\\nor on enemy units to decrease movement speed by 25% for 15 seconds\\nLeft click icon then left click on target",
+     "uk": "Необхідно: Рівень 3\\nВіду сурмить у ріг\\nПри застосуванні на СОЮЗНІ загони — на 15 сек. збільшує швидкість руху на 25%,\\nна ВОРОЖІ загони — на 15 сек. знижує швидкість руху на 25%\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHornofGondor",
+     "t": "Tooltip",
+     "en": "Requires Level 4 \\n Stun enemies with fear for 15 seconds \\n Left click to activate",
+     "uk": "Необхідно: Рівень 4\\nЗвук рогу Ґондору лякає та приголомшує ворогів на 15 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DaleViduChallenge",
+     "t": "Button",
+     "en": "Drunken Challenge (&T)",
+     "uk": "П'яний виклик (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDaleViduChallenge",
+     "t": "Tooltip",
+     "en": "Requires Level 6\\nVidú challenges the target enemy hero\\nTargeted enemy hero loses -25% armour for 30 seconds\\nVidú deals +25% damage to targeted hero for the duration\\nLeft click icon then left click on target",
+     "uk": "Необхідно: Рівень 6\\nВіду кидає виклик обраному ворожому героєві\\nОбраний ворожий герой на 30 сек. втрачає 25% броні\\nПротягом цього часу Віду завдає йому на 25% більше пошкоджень\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ViduLegionFriend",
+     "t": "Button",
+     "en": "Friend of the Legion (&C)",
+     "uk": "Друг легіону (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipViduLegionFriend",
+     "t": "Tooltip",
+     "en": "Requires Level 9\\nWhen activated, Vidú summons a random Dorwinion unit with every strike he performs for 30 seconds\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 9\\nПісля активації Віду на 30 сек. кожним ударом прикликає випадковий загін Дорвініону\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

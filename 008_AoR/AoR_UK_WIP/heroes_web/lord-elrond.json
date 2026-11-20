@@ -1,0 +1,139 @@
+{
+ "hero": "Lord Elrond",
+ "uk_name": "Володар Елронд",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:ElvenElrond",
+     "t": "Name",
+     "en": "Lord Elrond",
+     "uk": "Володар Елронд",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElrondLeadership",
+     "t": "Button",
+     "en": "Lord of Rivendell",
+     "uk": "Володар Рівенделу",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipElrondLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Allies near Elrond gain +25% damage +25% armour and earn experience 50% faster\\n While Elrond is on the field, his Library may be constructed for free \\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nСоюзники поряд з Елрондом отримують бонус +25% до пошкоджень, +25% броні й на 50% швидше набирають досвід\\nПоки Елронд на полі бою, його бібліотеку можна збудувати безкоштовно\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HeraldOfGilGalad",
+     "t": "Button",
+     "en": "Herald of Gil-galad (&R)",
+     "uk": "Вісник Ґіл-ґалада (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHeraldOfGilGalad",
+     "t": "Tooltip",
+     "en": "Elrond gains 50% damage while his attacks deal splash and knockback damage for 30 seconds\\n At level 5, attack radius is further increased \\n Left click to activate",
+     "uk": "Елронд на 30 сек. отримує бонус +50% до пошкоджень, а його удари б'ють по площі й відкидають ворогів\\nНа 5 рівні радіус атаки ще більший\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElrondRingOfAir",
+     "t": "Button",
+     "en": "Ring of Air (&T)",
+     "uk": "Перстень Повітря (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipElrondRingOfAir",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\n Modifier Type: Buff\\nCreates a circular sanctuary around Elrond for 30 seconds\\nAllied units gain +50% armour while in the area\\nRank 5: Nearby enemy units suffer -25% damage, -20% armour and lose all leadership while nearby allies are immune to fear and terror\\nRank 8: The sanctuary's radius increases and enemy units are knocked back each 7 seconds \\nLeft click icon to activate",
+     "uk": "Необхідно: Рівень 3\\nТип ефекту: Посилення\\nНа 30 сек. створює навколо Елронда коло-прихисток\\nСоюзні загони в ньому отримують бонус +50% броні\\n5 рівень: ворожі загони поблизу отримують штраф -25% пошкоджень, -20% броні й втрачають усе лідерство, а союзники отримують імунітет до страху та жаху\\n8 рівень: радіус дії здібностей збільшується, а ворожі загони відкидає кожні 7 сек.\\nКлікніть на іконку, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElrondHeavyArmor",
+     "t": "Button",
+     "en": "Armaments of Ost-in-Edhil",
+     "uk": "Обладунки Ост-ін-Еділя",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElrondHeavyArmor",
+     "t": "Tooltip",
+     "en": "Requires Level 6 \\n Elrond equips his heavy armour \\n Modifier Type: Spell \\n Elrond gains +33% armour and +50% resistance to knockback\\n Passive ability",
+     "uk": "Необхідно: Рівень 6\\nЕлронд вдягає важкі обладунки\\nТип ефекту: Заклинання\\nЕлронд отримує бонус +33% броні й +50% стійкості до відкидання\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElrondEarendilion",
+     "t": "Button",
+     "en": "The Last Homely House (&V)",
+     "uk": "Остання затишна оселя (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElrondEarendilion",
+     "t": "Tooltip",
+     "en": "Requires Level 10 \\n Heals nearby allies and fully refreshes\\ntheir special ability timers \\n Left click icon then left click on target area",
+     "uk": "Необхідно: Рівень 10\\nЗцілює союзників поблизу й повністю скидає таймер\\nвідновлення їхніх здібностей\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Ring hero",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:FrodoLeadership",
+     "t": "Button",
+     "en": "The Fate of Middle-earth",
+     "uk": "Доля Середзем'я",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFrodoLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n Nearby allies in a large radius gain\\n+50% damage, +50% armour,\\nand earn experience twice as fast\\nNearby unit and hero ability cooldown times are reduced by 25% \\nPassive ability",
+     "uk": "Тип ефекту: Заклинання\\nСоюзники у великому радіусі отримують\\nбонус +50% до пошкоджень, +50% броні\\nй удвічі швидше набирають досвід\\nЗдібності загонів і героїв поблизу відновлюються на 25% швидше\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:RingElrondArrowVolleyAbility",
+     "t": "Button",
+     "en": "Leithio I Philinn! (&T)",
+     "uk": "Лейтіо і Філінн! (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipRingElrondArrowVolleyAbility",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\nElrond calls elven archers to instantly bombard anywhere within a great radius with a volley of arrows\\nAt Level 6, a second volley is shot shortly after the first\\nLeft click icon then left click on target area",
+     "uk": "З ельфійської перекладається як — «Пустити стріли»\\nНеобхідно: Рівень 3\\nЕлронд наказує ельфійським лучникам миттєво засипати стрілами будь-яку ділянку у великому радіусі\\nНа 6 рівні невдовзі після першого залпу лунає другий\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElrondLastAlliance",
+     "t": "Button",
+     "en": "Veteran of the Last Alliance (&C)",
+     "uk": "Ветеран Останнього союзу (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElrondLastAlliance",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Elrond equips his heavy armour \\n Modifier Type: Spell \\n Elrond gains +33% armour and +50% resistance to knockback\\nPassive ability\\n\\nAt Level 7, permanently summons a battalion of Veterans of the Last Alliance\\nLimited to 1\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 5\\nЕлронд вдягає важкі обладунки\\nТип ефекту: Заклинання\\nЕлронд отримує бонус +33% броні й +50% стійкості до відкидання\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nНа 7 рівні може назавжди прикликати загін ветеранів Останнього союзу\\nМаксимум 1 одночасно\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

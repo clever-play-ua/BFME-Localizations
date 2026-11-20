@@ -1,0 +1,140 @@
+{
+ "hero": "Halbarad Dúnadan",
+ "uk_name": "Галбарад Дунадан",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:ArnorHalbarad",
+     "t": "Name",
+     "en": "Halbarad Dúnadan",
+     "uk": "Галбарад Дунадан",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToggleFaramirWeapons",
+     "t": "Button",
+     "en": "Toggle Weapon (&W)",
+     "uk": "Змінити зброю (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipToggleGreyCompanyWeapons",
+     "t": "Tooltip",
+     "en": "Left click to toggle between bow and spear",
+     "uk": "Клікніть, щоб перемкнутися між луком і списом",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HalbaradHiddenVolley",
+     "t": "Button",
+     "en": "Hidden Volley (&R)",
+     "uk": "Прихований залп (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHalbaradHiddenVolley",
+     "t": "Tooltip",
+     "en": "Halbarad calls his rangers to bombard anywhere within a great radius with a volley of arrows \\nLeft click icon then left click on target area",
+     "uk": "Галбарад наказує слідопитам обстріляти будь-яке місце у великому радіусі залпом стріл\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HalbaradDevotedCaptain",
+     "t": "Button",
+     "en": "Devoted Captain (&T)",
+     "uk": "Відданий капітан (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipHalbaradDevotedCaptain",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Halbarad teleports to a nearby friendly hero\\nWhen Halbarad arrives, nearby enemy units lose 20% armour for 30 seconds\\nLeft click then left click target",
+     "uk": "Необхідно: Рівень 3\\nГалбарад телепортується до союзного героя поблизу\\nКоли Галбарад з'являється, ворожі загони поблизу втрачають 20% броні на 30 сек.\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HalbaradPerseverance",
+     "t": "Button",
+     "en": "Perseverance (&C)",
+     "uk": "Стійкість (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHalbaradPerseveranceFellowship",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Nearby Dúnedain gain +30% armour and +50% resistance to knockback for 30 seconds\\n Left click to activate",
+     "uk": "Необхідно: Рівень 5\\nДунедайн поблизу отримують бонус +30% броні й +50% стійкості до відкидання на 30 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHalbaradPerseverance",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Nearby Dúnedain gain +30% armour and +50% resistance to knockback for 30 seconds\\n At level 7 summons four single Grey Company Rangers around Halbarad \\n Left click to activate",
+     "uk": "Необхідно: Рівень 5\\nДунедайн поблизу на 30 сек. отримують бонус +30% броні й +50% стійкості до відкидання\\nНа 7 рівні прикликає навколо Галбарада 4 слідопитів Сірого загону\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HalbaradBannerOfArwen",
+     "t": "Button",
+     "en": "The Banner of Arwen (&V)",
+     "uk": "Стяг Арвен (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipHalbaradBannerOfArwen",
+     "t": "Tooltip",
+     "en": "Requires Level 10 \\nHalbarad unfurls the Banner wrought by Arwen Undómiel\\n For 60 seconds, allied units in a large radius gain +50% damage and are constantly replenished\\nNearby allied heroes receive +50% experience faster\\nThe banner can be destroyed by the enemy in this time\\n Left click icon to activate",
+     "uk": "Необхідно: Рівень 10\\nГалбарад розгортає стяг, вишитий Арвен Ундоміель\\nНа 60 сек. союзні загони у великому радіусі отримують бонус +50% до пошкоджень і постійно поновлюють полеглих\\nСоюзні герої поблизу на 50% швидше набирають досвід\\nУ цей час ворог може знищити стяг\\nКлікніть на іконку, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HalbaradUnerringLoyalty",
+     "t": "Button",
+     "en": "Unerring Loyalty",
+     "uk": "Непохитна вірність",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHalbaradUnerringLoyalty",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n Aragorn, Dúnedain and Grey Company units gain Experience +15% faster when near Halbarad \\n Passive ability",
+     "uk": "Тип ефекту: Заклинання\\nАраґорн, дунедайн і воїни Сірого загону поряд із Галбарадом на 15% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HalbaradMuster",
+     "t": "Button",
+     "en": "Muster the Dúnedain (&T)",
+     "uk": "Скликати дунедайн (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHalbaradMuster",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n The recruit times of Rangers of the North and Dúnedain Outriders are decreased by 100% for 45 seconds\\n Left click to activate",
+     "uk": "Необхідно: Рівень 3\\nСлідопити Півночі й вершники-дунедайн на 45 сек. тренуються миттєво.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEowynMount",
+     "t": "Tooltip",
+     "en": "Left click to switch between mounted and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою верхи та пішим ходом",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HalbaradBannerOfArwenNoHotkey",
+     "t": "Button",
+     "en": "The Banner of Arwen",
+     "uk": "Стяг Арвен",
+     "st": "ok",
+     "dup": "CONTROLBAR:HalbaradBannerOfArwen"
+    }
+   ]
+  }
+ ]
+}

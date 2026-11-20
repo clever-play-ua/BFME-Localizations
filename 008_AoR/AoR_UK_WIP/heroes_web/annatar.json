@@ -1,0 +1,97 @@
+{
+ "hero": "Annatar",
+ "uk_name": "Аннатар",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:CampaignAnnatar",
+     "t": "Name",
+     "en": "Annatar",
+     "uk": "Аннатар",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Lord of the Rings",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:AWiseChoice",
+     "t": "Button",
+     "en": "A Wise Choice (&W)",
+     "uk": "Мудрий вибір (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipAWiseChoice",
+     "t": "Tooltip",
+     "en": "Your words carry wisdom, Golden One. Allow me to remain a while longer.",
+     "uk": "Ваші слова мають мудрість, о Золотий. Дозвольте мені лишитись ще трохи.",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HowDareYou",
+     "t": "Button",
+     "en": "How Dare You? (&R)",
+     "uk": "Як ти смієш? (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHowDareYou",
+     "t": "Tooltip",
+     "en": "A hostage, say you. Do you not know to whom you speak?",
+     "uk": "Заручник, кажеш? Хіба ти не знаєш, із ким говориш?",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:CannotHoldMe",
+     "t": "Button",
+     "en": "You Cannot Hold Me (&T)",
+     "uk": "Тобі мене не втримати (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCannotHoldMe",
+     "t": "Tooltip",
+     "en": "You may cage me for a time, but I am well versed in the desires of Men's hearts.",
+     "uk": "Ти можеш на якийсь час замкнути мене в клітці, та я добре знаю, чого прагнуть людські серця.",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DeathFindsYouAll",
+     "t": "Button",
+     "en": "Death Finds You All (&W)",
+     "uk": "Смерть наздожене всіх (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDeathFindsYouAll",
+     "t": "Tooltip",
+     "en": "The Valar's refusal to bestow upon you that which is rightfully yours is a stain from which their reputation cannot be washed. Alas, my King. All Men must die.",
+     "uk": "Те, що Валар відмовили вам у належному по праву, — пляма, яку з їхньої слави вже не змити. На жаль, мій королю. Усі люди мусять померти.",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BeginTheGreatArmament",
+     "t": "Button",
+     "en": "Begin the Great Armament (&R)",
+     "uk": "Розпочни Велике Озброєння (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBeginTheGreatArmament",
+     "t": "Tooltip",
+     "en": "What you seek is within your grasp, O Great King.",
+     "uk": "Те, чого ви прагнете, у ваших руках, о Великий Королю.",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

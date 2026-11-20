@@ -1,0 +1,104 @@
+{
+ "hero": "Farmer Maggot",
+ "uk_name": "Фермер Меґот",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:ArnorFarmerMaggot",
+     "t": "Name",
+     "en": "Farmer Maggot",
+     "uk": "Фермер Меґот",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:MaggotsHoundsLeadership",
+     "t": "Button",
+     "en": "Maggot's Hounds",
+     "uk": "Пси Меґота",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipMaggotsHoundsLeadership",
+     "t": "Tooltip",
+     "en": "Grip, Fang, and Wolf passively guard Farmer Maggot\\nPassive ability",
+     "uk": "Хапко, Ікло й Вовк постійно охороняють фермера Меґота\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipShireMaggotsHoundsLeadership",
+     "t": "Tooltip",
+     "en": "Grip, Fang, and Wolf passively guard Farmer Maggot\\nModifier Type: Leadership\\nNearby Marish Hounds gain +33% damage and armour\\nPassive ability",
+     "uk": "Хапко, Ікло й Вовк постійно охороняють фермера Меґота\\nТип ефекту: Лідерство\\nПси з Маришу поблизу отримують бонус +33% до пошкоджень і броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:MaggotsFarm",
+     "t": "Button",
+     "en": "Bamfurlong (&R)",
+     "uk": "Бамфурлонґ (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipMaggotsFarmSummon",
+     "t": "Tooltip",
+     "en": "Requires Level 2\\nSummons Farmer Maggot's farm for 45 seconds \\n Generates a large amount of resources \\n Left click icon then left click on target area",
+     "uk": "Необхідно: Рівень 2\\nПрикликає ферму фермера Меґота на 45 сек.\\nДає багато ресурсів\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipShireMaggotsFarmSummon",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\nSummons Farmer Maggot's farm for 30 seconds \\n Generates a large amount of resources \\n Left click icon then left click on target area",
+     "uk": "Необхідно: Рівень 3\\nПрикликає ферму фермера Меґота на 30 сек.\\nДає багато ресурсів\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Grey Company Sets Out",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:PorterExtinguishFire",
+     "t": "Button",
+     "en": "Extinguish Fire",
+     "uk": "Гасити пожежу",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipPorterExtinguishFire",
+     "t": "Tooltip",
+     "en": "Extinguish nearby fire to prevent structure damage",
+     "uk": "Гасіння найближчої пожежі, що завдає пошкоджень спорудам.",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Scouring map · Shire map",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:MaggotSweepingStrike",
+     "t": "Button",
+     "en": "Sweeping Strike (&T)",
+     "uk": "Розмашистий удар (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipMaggotSweepingStrike",
+     "t": "Tooltip",
+     "en": "Requires Level 5\\nPowerful attack that knocks back enemy units\\nAt rank 8, radius and damage are increased\\nLeft click icon then left click on target",
+     "uk": "Необхідно: Рівень 5\\nПотужна атака, що відкидає ворожі загони\\nНа 8 рівні радіус і пошкодження зростають\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

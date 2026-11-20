@@ -1,0 +1,97 @@
+{
+ "hero": "Celeborn",
+ "uk_name": "Келеборн",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:ElvenLorienCeleborn",
+     "t": "Name",
+     "en": "Celeborn",
+     "uk": "Келеборн",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:CelebornLeadership",
+     "t": "Button",
+     "en": "Lord of the Galadhrim (&W)",
+     "uk": "Володар ґаладримів (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCelebornLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n All nearby friendly units gain +10% speed, +50% experience gain and fear resistance\\n Celeborn also causes fear to nearby enemies \\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nУсі союзні загони поблизу отримують бонус +10% швидкості, стійкість до страху й на 50% швидше набирають досвід\\nКелеборн також лякає ворогів поблизу\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCelebornLeadershipGifts",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n All nearby friendly units gain +33% armour, +10% speed, +50% experience gain and fear resistance\\n Celeborn causes fear to nearby enemies \\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nУсі союзні загони поблизу отримують бонус +33% броні, +10% швидкості, стійкість до страху й на 50% швидше набирають досвід\\nКелеборн лякає ворогів поблизу\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SilverHost",
+     "t": "Button",
+     "en": "The Silver Host (&R)",
+     "uk": "Срібне воїнство (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSilverHost",
+     "t": "Tooltip",
+     "en": "Requires Level 2 \\n Summons a battalion of Sentinels of the Silver Tree \\nAt rank 4, includes an additional battalion of sword-wielding Sentinels of the Silver Tree \\nAt rank 7, includes an additional battalion of bow-wielding Sentinels of the Silver Tree\\nAt rank 10, two of both\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 2\\nПрикликає загін Вартових Срібного Дерева\\nНа 4 рівні — ще й загін мечників-Вартових Срібного Дерева\\nНа 7 рівні — ще й загін лучників-Вартових Срібного Дерева\\nНа 10 рівні — по 2 загони кожного виду\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SpecialPowerCelebornCunning",
+     "t": "Button",
+     "en": "Cunning Warrior (&T)",
+     "uk": "Вправний воїн (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSpecialPowerCelebornCunning",
+     "t": "Tooltip",
+     "en": "Requires Level 4 \\n Celeborn gains +50% armour and deals splash damage for 30 seconds\\n Enemy units around him lose 20% damage and 20% armour for the duration of the ability\\n Left click to activate",
+     "uk": "Необхідно: Рівень 4\\nКелеборн на 30 сек. отримує бонус +50% броні й завдає пошкоджень по площі\\nПоки діє здібність, ворожі загони навколо нього втрачають 20% пошкоджень і 20% броні\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:CelebornArmor",
+     "t": "Button",
+     "en": "Armaments of Doriath",
+     "uk": "Обладунки Доріату",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCelebornArmor",
+     "t": "Tooltip",
+     "en": "Requires Level 6 \\n Celeborn wields his ancient armaments from Doriath gaining a 33% armour increase\\n Celeborn's attacks now deal magic damage \\n Passive ability",
+     "uk": "Необхідно: Рівень 6\\nКелеборн вдягає давні обладунки з Доріату й отримує бонус +33% броні\\nАтаки Келеборна тепер завдають пошкоджень магією\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:CelebornWise",
+     "t": "Button",
+     "en": "Wise Beyond Measure (&V)",
+     "uk": "Безмірна мудрість (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCelebornWise",
+     "t": "Tooltip",
+     "en": "Requires Level Rank 8 \\n Celeborn's words grant friendly units great experience \\n left click then left click on target",
+     "uk": "Необхідно: Рівень 8\\nСлова Келеборна миттєво дають союзним загонам чималий досвід\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

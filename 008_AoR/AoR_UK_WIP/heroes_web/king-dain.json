@@ -1,0 +1,111 @@
+{
+ "hero": "King Dáin",
+ "uk_name": "Король Дайн",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:DwarvenKingDain",
+     "t": "Name",
+     "en": "King Dáin",
+     "uk": "Король Дайн",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DainLeadership",
+     "t": "Button",
+     "en": "King Under the Mountain",
+     "uk": "Король-під-Горою",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDainLeadershipBODE",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\nAllies near King Dáin gain +25% armour and resistance to fear and terror\\n King Dáin gains +33% attack damage when near King Brand\\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nСоюзники поряд із королем Дайном отримують бонус +25% броні й стійкість до страху та жаху\\nПоряд із королем Брандом король Дайн завдає +33% пошкоджень\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDainLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\nAllies near King Dáin gain +50% armour and resistance to fear and terror\\n King Dáin gains +33% attack damage when near King Brand\\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nСоюзники поряд із Королем Дайном отримують бонус +50% броні й стійкість до страху та жаху\\nПоряд із Королем Брандом Король Дайн отримує бонус +33% до пошкоджень від атак\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:MightyRage",
+     "t": "Button",
+     "en": "The Red Axe (&R)",
+     "uk": "Червона Сокира (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDainOldRedAxeBODE",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Modifier Type: Spell and Active Debuff \\n Targeted friendly units gain +33% damage and armour for 30 seconds\\n Targeted enemy units suffer -25% damage and -20% armour for 30 seconds\\nLeft click icon then left click on target units",
+     "uk": "Необхідно: Рівень 3\\nТип ефекту: Заклинання й активне ослаблення\\nВказані союзні загони отримують бонус +33% до пошкоджень і броні на 30 сек.\\nВказані ворожі загони отримують штраф -25% пошкоджень і -20% броні на 30 сек.\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDainOldRedAxe",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Modifier Type: Spell and Active Debuff \\n Targeted friendly units gain +33% damage and armour for 30 seconds\\n Targeted enemy units suffer -25% damage and -20% armour for 30 seconds\\n\\nAt Level 6, targeted friendly units gain +50% damage and armour for 30 seconds\\nLeft click icon then left click on target units",
+     "uk": "Необхідно: Рівень 3\\nТип ефекту: Заклинання й активне ослаблення\\nОбрані союзні загони на 30 сек. отримують бонус +33% до пошкоджень і броні\\nОбрані ворожі загони на 30 сек. отримують штраф -25% пошкоджень і -20% броні\\n\\nНа 6 рівні обрані союзні загони на 30 сек. отримують бонус +50% до пошкоджень і броні\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DainRestoration",
+     "t": "Button",
+     "en": "Mighty Veteran (&T)",
+     "uk": "Могутній ветеран (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDainRestoration",
+     "t": "Tooltip",
+     "en": "Requires Level 5\\nHeals nearby allies and fully refreshes their special ability timers\\nLeft click icon then left click on target area",
+     "uk": "Необхідно: Рівень 5\\nЗцілює союзників поблизу й повністю скидає таймер відновлення їхніх здібностей\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DainEmissary",
+     "t": "Button",
+     "en": "King's Messenger (&C)",
+     "uk": "Посланець короля (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDainEmissary",
+     "t": "Tooltip",
+     "en": "Requires Level 7\\nTarget allied hero is immune to damage for 15 seconds \\nTarget enemy hero is unable to attack for 15 seconds \\nLeft click on icon then left click on target hero",
+     "uk": "Необхідно: Рівень 7\\nОбраний союзний герой на 15 сек. стає невразливим\\nОбраний ворожий герой на 15 сек. не може атакувати\\nКлікніть на іконку, потім оберіть героя",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:DainStand",
+     "t": "Button",
+     "en": "Final Stand (&V)",
+     "uk": "Останній бій (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDainSlayerCampaign",
+     "t": "Tooltip",
+     "en": "Requires Level 10 \\nKing Dáin gains +75% armour and deals splash damage for 30 seconds\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 10\\nКороль Дайн отримує бонус +75% броні й завдає пошкоджень по площі на 30 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipDainSlayer",
+     "t": "Tooltip",
+     "en": "Requires Level 10 \\nKing Dáin gains +75% armour and deals splash damage for 30 seconds\\nTemporarily summons two battalions of Iron Hills Guards\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 10\\nКороль Дайн на 30 сек. отримує бонус +75% броні й завдає пошкоджень по площі\\nТимчасово прикликає 2 загони гвардійців Залізних пагорбів\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

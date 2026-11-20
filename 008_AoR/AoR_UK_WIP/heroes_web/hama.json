@@ -1,0 +1,55 @@
+{
+ "hero": "Háma",
+ "uk_name": "Гама",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:RohanHama",
+     "t": "Name",
+     "en": "Háma",
+     "uk": "Гама",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Battle of the Hornburg",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:ToolTipEowynMount",
+     "t": "Tooltip",
+     "en": "Left click to switch between mounted and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою верхи та пішим ходом",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Summoned",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:HamaLeadership",
+     "t": "Button",
+     "en": "Doorwarden of Meduseld",
+     "uk": "Вартовий брами Медуселда",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHamaLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Spell \\n For every allied building in Háma's vicinity,\\n he gains +15% armour\\n Passive ability",
+     "uk": "Тип ефекту: Заклинання\\nЗа кожну союзну будівлю поблизу Гами\\nвін отримує бонус +15% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

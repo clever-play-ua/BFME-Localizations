@@ -1,0 +1,125 @@
+{
+ "hero": "King Brand",
+ "uk_name": "Король Бранд",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:DwarvenCaptainofDaleOld",
+     "t": "Name",
+     "en": "King Brand",
+     "uk": "Король Бранд",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToggleBrandWeapons",
+     "t": "Button",
+     "en": "Toggle Weapon (&W)",
+     "uk": "Змінити зброю (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipToggleBrandWeapons",
+     "t": "Tooltip",
+     "en": "Left click to toggle between bow and sword",
+     "uk": "Клікніть, щоб перемкнутися між луком і мечем",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BrandSlamArrow",
+     "t": "Button",
+     "en": "Black Arrow of Dale (&R)",
+     "uk": "Чорна стріла Дейлу (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBrandSlamArrowNew",
+     "t": "Tooltip",
+     "en": "A precise arrow shot that deals splash damage and knocks targeted units and heroes back\\nAt level 5, targeted units and heroes lose -33% armour for 30 seconds\\n At level 8, targeted units and heroes lose -25% movement speed for 30 seconds\\n Left click icon then left click on target unit",
+     "uk": "Влучний постріл, що завдає пошкоджень по площі й відкидає обрані загони та героїв\\nНа 5 рівні обрані загони й герої на 30 сек. втрачають 33% броні\\nНа 8 рівні обрані загони й герої на 30 сек. втрачають 25% швидкості руху\\nКлікніть на іконку, потім оберіть загін",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBardSlamArrow",
+     "t": "Tooltip",
+     "en": "A precise arrow shot that decreases enemy armour by -33% for 15 seconds\\n Left click icon then left click on target unit",
+     "uk": "Влучний постріл, що на 15 сек. знижує броню ураженого ворога на 33%\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BrandLeadership",
+     "t": "Button",
+     "en": "King of the Bardings (&T)",
+     "uk": "Король бардінґів (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBrandLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\nKing Brand gains +33% armour when near King Dáin\\n\\nNearby Mannish allies gain +15% damage and armour\\nAt Level 4, nearby Mannish allies gain +25% damage and +33% armour\\n Passive ability \\n\\n At Level 8, Brand can summon a battalion of Barding Outriders \\n Left click to activate",
+     "uk": "Тип ефекту: Лідерство\\nПоряд із Королем Дайном Король Бранд отримує бонус +33% броні\\n\\nЗагони людей поблизу отримують бонус +15% до пошкоджень і броні\\nНа 4 рівні загони людей поблизу отримують бонус +25% до пошкоджень і +33% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nНа 8 рівні Бранд може прикликати загін бардінґських вершників-розвідників\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSummonBrandLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership\\nArchers near King Brand gain +33% damage, +33% vision and +15% attack range \\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nЛучники поряд із Королем Брандом отримують бонус +33% до пошкоджень, +33% дальності огляду й +15% дальності атаки\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BrandHuntersMark",
+     "t": "Button",
+     "en": "Mark of the Thrush (&C)",
+     "uk": "Знак дрозда (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBrandHuntersMark",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Enemies within the radius take +33% damage from ranged attacks for 30 seconds\\n Left click then left click on target areas",
+     "uk": "Необхідно: Рівень 5\\nВороги в радіусі на 30 сек. отримують на 33% більше пошкоджень від атак на відстані\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSummonBrandHuntersMark",
+     "t": "Tooltip",
+     "en": "Enemies within the radius take +33% damage from ranged attacks for 30 seconds\\n Left click then left click on target areas",
+     "uk": "Вороги в радіусі на 30 сек. отримують на 33% більше пошкоджень від атак на відстані\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BrandDragonSlayer",
+     "t": "Button",
+     "en": "Descendant of the Dragonslayer (&V)",
+     "uk": "Нащадок драконоборця (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBrandDeadEye",
+     "t": "Tooltip",
+     "en": "Requires Level 10 \\n Bow must be equipped \\n Brand gains increased +15% attack speed, +100% damage, and +33% range\\n Brand does bonus damage against monsters and flying units\\nLasts for 20 seconds\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 10\\nЛише з луком у руках\\nБранд отримує бонус +15% швидкості атаки, +100% до пошкоджень і +33% дальності\\nБранд завдає додаткових пошкоджень істотам і летючим загонам\\nДіє 20 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:BrandPommelStrike",
+     "t": "Button",
+     "en": "Pommel Strike (&R)",
+     "uk": "Удар навершям (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipBrandPommelStrike",
+     "t": "Tooltip",
+     "en": "A strike that deals splash damage \\n At level 5, knocks targeted units back \\n At level 8, targeted enemy unit or hero is crippled for 10 seconds\\n Left click icon then left click on target",
+     "uk": "Удар, що завдає пошкоджень по площі\\nНа 5 рівні відкидає обрані загони\\nНа 8 рівні обраний ворожий загін чи герой калічиться на 10 сек.\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

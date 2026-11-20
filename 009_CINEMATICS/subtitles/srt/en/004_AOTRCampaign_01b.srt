@@ -1,0 +1,45 @@
+﻿1
+00:00:00,042 --> 00:00:06,000
+Gandalf, my old friend, this
+will be a night to remember.
+
+2
+00:00:17,542 --> 00:00:21,083
+Today is my one hundred
+and eleventh birthday!
+
+3
+00:00:24,125 --> 00:00:28,000
+Alas, eleventy-one years
+is far too short a time
+
+4
+00:00:28,042 --> 00:00:32,375
+to live among such excellent
+and admirable Hobbits.
+
+5
+00:00:32,500 --> 00:00:35,875
+I don't know half of you half
+as well as I should like,
+
+6
+00:00:35,958 --> 00:00:40,375
+and I like less than half of
+you half as well as you deserve.
+
+7
+00:00:49,000 --> 00:00:52,375
+I regret to announce this is the end.
+
+8
+00:00:54,125 --> 00:00:56,417
+I'm going now.
+
+9
+00:00:56,542 --> 00:01:00,500
+I bid you all a very fond farewell.
+
+10
+00:01:01,667 --> 00:01:03,083
+Goodbye.

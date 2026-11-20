@@ -1,0 +1,169 @@
+{
+ "hero": "Haldir",
+ "uk_name": "Галдир",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:ElvenHaldir",
+     "t": "Name",
+     "en": "Haldir",
+     "uk": "Галдир",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HaldirFaithfulCompanion",
+     "t": "Button",
+     "en": "Faithful Companion",
+     "uk": "Вірний супутник",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHaldirFaithfulCompanion",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Aragorn, Gimli and Legolas gain +10% damage when nearby Haldir\\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nАраґорн, Ґімлі й Леґолас поряд із Галдіром отримують бонус +10% до пошкоджень\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToggleHaldirWeaponsLorien",
+     "t": "Button",
+     "en": "Alternate Weapon (&T)",
+     "uk": "Змінити зброю (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipToggleHaldirWeapons",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\nLeft click to switch weapons",
+     "uk": "Необхідно: Рівень 3\\nКлікніть, щоб змінити зброю",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HaldirSkillMarchwardens",
+     "t": "Button",
+     "en": "Skill of the Marchwardens (&T)",
+     "uk": "Майстерність Прикордонної Варти (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHaldirSkillMarchwardens",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Targeted enemies take +33% damage from ranged attacks for 30 seconds\\n Left click then left click on target",
+     "uk": "Необхідно: Рівень 3\\nОбрані вороги на 30 сек. отримують на 33% більше пошкоджень від атак здалеку\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HaldirLeadership",
+     "t": "Button",
+     "en": "Captain of the Galadhrim (&R)",
+     "uk": "Капітан ґаладримів (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHaldirLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Nearby allies gain +15% damage and +15% armour\\nAt Level 4, +25% damage and +25% armour\\nPassive ability \\n\\n Modifier Type: Level \\n At Level 5, Haldir dons his heavy armour and gains 25% armour increase\\n Passive ability \\n\\n Requires Level 5\\nModifier Type: Spell \\n Nearby units gain +33% damage and +15% speed for 30 seconds \\nLeft click to activate",
+     "uk": "Тип ефекту: Лідерство\\nСоюзники поблизу отримують бонус +15% до пошкоджень і +15% броні\\nНа 4 рівні — +25% до пошкоджень і +25% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nТип ефекту: Рівень\\nНа 5 рівні Галдір вдягає важкі обладунки й отримує +25% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nНеобхідно: Рівень 5\\nТип ефекту: Заклинання\\nЗагони поблизу на 30 сек. отримують бонус +33% до пошкоджень і +15% швидкості\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHaldirLeadershipGifts",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Nearby allies gain +15% damage and armour\\nAt Level 4, +25% damage and armour\\nPassive ability \\n\\n Modifier Type: Level \\n At Level 5, Haldir dons his heavy armour and gains 25% armour increase\\n Passive ability \\n\\n Requires Level 5\\nModifier Type: Spell \\n Nearby units gain +33% damage, +15% speed and resistance to knockback and trample for 30 seconds \\nLeft click to activate",
+     "uk": "Тип ефекту: Лідерство\\nСоюзники поблизу отримують бонус +15% до пошкоджень і броні\\nНа 4 рівні — +25% до пошкоджень і броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nТип ефекту: Рівень\\nНа 5 рівні Галдір вдягає важкі обладунки й отримує +25% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nНеобхідно: Рівень 5\\nТип ефекту: Заклинання\\nЗагони поблизу на 30 сек. отримують бонус +33% до пошкоджень, +15% швидкості й стійкість до відкидання та топтання\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HaldirLastStand",
+     "t": "Button",
+     "en": "Last Stand (&V)",
+     "uk": "Останній бій (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipHaldirLastStand",
+     "t": "Tooltip",
+     "en": "Requires Level 10 \\n Haldir regains half of his health \\n Bow: Haldir gains +100% damage, but loses -50% armour for 20 seconds\\n Sword: Haldir gains +100% armour, loses -25% damage for 20 seconds\\nHaldir cannot toggle weapon for the duration of the power\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 10\\nГалдір відновлює половину здоров'я\\nЛук: Галдір на 20 сек. отримує бонус +100% до пошкоджень, але втрачає 50% броні\\nМеч: Галдір на 20 сек. отримує бонус +100% броні, але втрачає 25% пошкоджень\\nПоки діє здібність, Галдір НЕ може змінити зброю\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HaldirLeadershipCampaign",
+     "t": "Button",
+     "en": "Captain of the Galadhrim (&C)",
+     "uk": "Капітан ґаладримів (&C)",
+     "st": "ok",
+     "dup": "CONTROLBAR:HaldirLeadership"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHaldirLeadershipCampaign",
+     "t": "Tooltip",
+     "en": "Requires Level 6 \\n Modifier Type: Leadership \\n Nearby allies gain +33% damage and +20% armour\\n Passive ability \\n\\n Modifier Type: Level \\n Haldir dons his heavy armour and gains 25% armour increase\\n Passive ability \\n\\n Modifier Type: Spell \\n Nearby units gain +50% damage and +15% speed for 30 seconds \\nLeft click to activate",
+     "uk": "Необхідно: Рівень 6\\nТип ефекту: Лідерство\\nСоюзники поблизу отримують бонус +33% до пошкоджень і +20% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nТип ефекту: Рівень\\nГалдір надягає важкий обладунок і отримує бонус +25% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nТип ефекту: Заклинання\\nЗагони поблизу отримують бонус +50% до пошкоджень і +15% швидкості на 30 сек.\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToggleHaldirWeapons",
+     "t": "Button",
+     "en": "Alternate Weapon (&R)",
+     "uk": "Змінити зброю (&R)",
+     "st": "ok",
+     "dup": "CONTROLBAR:ToggleHaldirWeaponsLorien"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipToggleElvenWarriorWeapons",
+     "t": "Tooltip",
+     "en": "Left click to switch weapons",
+     "uk": "Клікніть, щоб змінити зброю",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GwedhanarLeadership",
+     "t": "Button",
+     "en": "Gwedhanar",
+     "uk": "Брати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGwedhanarLeadershipHaldir",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Orophin and Rumil gain +10% damage and +5% experience gain\\nDoes not stack\\nPassive ability",
+     "uk": "Тип ефекту: Лідерство\\nОрофін і Руміл отримують бонус +10% до пошкоджень і на 5% швидше набирають досвід\\nНе поєднується\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HaldirTeleport",
+     "t": "Button",
+     "en": "Marchwarden of Lothlórien (&C)",
+     "uk": "Прикордонний вартовий Лотлоріену (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipHaldirTeleport",
+     "t": "Tooltip",
+     "en": "Requires Level 8 \\n Haldir guides allied units from one location on the battlefield to anywhere on the map \\n Does not work on siege units\\n\\n Left click icon, then left click on target units, then left click on pathable location",
+     "uk": "Необхідно: Рівень 8\\nГалдір переводить союзні загони з одного місця поля бою в будь-яке місце на мапі\\nНе діє на облогові машини\\n\\nКлікніть на іконку, потім оберіть потрібні загони, потім оберіть ділянку",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Battle of the Hornburg",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:ToolTipEowynMount",
+     "t": "Tooltip",
+     "en": "Left click to switch between mounted and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою верхи та пішим ходом",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

@@ -463,7 +463,7 @@
   {
    "var": "CONTROLBAR:TooltipWulfgarCrebainSummon",
    "en": "Requires Level 3\nSummons two Crebain birds, Huginn and Muninn, for 90 seconds\nThey can scout and deal strong damage vs. heroes and monsters\n\nRecharge time: 3m\nLeft click to activate",
-   "uk": "Необхідно: Рівень 3\n\nПрикликає на 90 сек. 2 воронів — Гуґіна й Муніна\n\nЕфективні для розвідки, а також здатні завдавати\nзначних пошкоджень героям і створінням\n\nЧас відновлення: 3 хв.\nКлікніть, щоб активувати",
+   "uk": "Необхідно: Рівень 3\n\nПрикликає на 90 сек. 2 воронів — Гуґіна й Муніна\n\nЕфективні для розвідки, а також здатні завдавати\nзначних пошкоджень героям та істотам\n\nЧас відновлення: 3 хв.\nКлікніть, щоб активувати",
    "by": "FoLD",
    "date": "2026-11-10",
    "file": "AoR_UA_Isengard_FoLD_2026-11-10-11-14.json"

@@ -1,0 +1,16 @@
+﻿1
+00:00:11,500 --> 00:00:14,910
+Aragorn, Elm's Deep, Rivendell,
+Moria, Lothlórien, Middle
+
+2
+00:00:14,960 --> 00:00:29,750
+-earth,
+
+3
+00:00:29,800 --> 00:00:30,160
+the One Ring.
+
+4
+00:00:37,920 --> 00:00:41,020
+Thanks for watching!

@@ -1,0 +1,146 @@
+{
+ "hero": "Elfhelm",
+ "uk_name": "Ельфгельм",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:RohanElfhelm",
+     "t": "Name",
+     "en": "Elfhelm",
+     "uk": "Ельфгельм",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TheodenMount",
+     "t": "Button",
+     "en": "Mount / Dismount (&R)",
+     "uk": "Сісти верхи / Спішитися (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToggleElfhelmWeapons",
+     "t": "Button",
+     "en": "Toggle Weapon (&W)",
+     "uk": "Змінити зброю (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipToggleElfhelmWeapons",
+     "t": "Tooltip",
+     "en": "Left click to toggle between sword and bow",
+     "uk": "Клікніть, щоб перемкнутися між мечем і луком",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:CampaignElfhelmMuster",
+     "t": "Button",
+     "en": "Unassailable",
+     "uk": "Неприступний",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCampaignElfhelmMuster",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Consecutive melee attacks temporarily increase Elfhelm's armour by 5% up to a maximum of 25% \\n Passive ability",
+     "uk": "Необхідно: Рівень 3\\nКожна наступна атака в ближньому бою тимчасово збільшує броню Ельфгельма на 5%, але не більше ніж на 25%\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElfhelmPromotion",
+     "t": "Button",
+     "en": "Promotion (&C)",
+     "uk": "Підвищення (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCampaignElfhelmPromotion",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Select a target battalion to upgrade it, permanently granting it +50% damage \\n Left click on icon then left click on target battalion",
+     "uk": "Необхідно: Рівень 5\\nОберіть загін, щоб покращити його: він назавжди отримує бонус +50% до пошкоджень\\nКлікніть на іконку, потім оберіть загін",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElfhelmPromotion",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Select a target battalion to upgrade it, permanently granting it +25% damage \\n Left click on icon then left click on target battalion",
+     "uk": "Необхідно: Рівень 5\\nОберіть загін, щоб покращити його: він назавжди отримує бонус +25% до пошкоджень\\nКлікніть на іконку, потім оберіть загін",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElfhelmLeadership",
+     "t": "Button",
+     "en": "Marshall of the East-mark",
+     "uk": "Маршал Східної Марки",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCampaignElfhelmLeadership",
+     "t": "Tooltip",
+     "en": "Requires Level 7 \\n Modifier Type: Leadership \\n Allied archers near Elfhelm gain +15% attack range and +33% damage\\n Passive ability",
+     "uk": "Необхідно: Рівень 7\\nТип ефекту: Лідерство\\nСоюзні лучники поряд з Ельфгельмом отримують бонус +15% дальності атаки й +33% до пошкоджень\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElfhelmLeadership",
+     "t": "Tooltip",
+     "en": "Requires Level 7 \\n Modifier Type: Leadership \\n Halifirien Wardens, Yeoman Archers and Rohirrim Archers near Elfhelm gain +15% attack range and +33% damage\\nRiders of Snowbourn near Elfhelm gain +33% armour\\n Passive ability",
+     "uk": "Необхідно: Рівень 7\\nТип ефекту: Лідерство\\nВартові Галіфіріену, йомени-лучники та лучники Рогану поряд з Ельфгельмом отримують бонус +15% дальності атаки й +33% до пошкоджень\\nВершники Сноуборну поряд з Ельфгельмом отримують бонус +33% броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:CampaignElfhelmFlamingShot",
+     "t": "Button",
+     "en": "Flaming Shot (&T)",
+     "uk": "Вогняний постріл (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipCampaignElfhelmFlamingShot",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Elfhelm shoots a fire arrow at target enemy, dealing fire damage and setting fire to nearby area\\nLeft click then left click on target",
+     "uk": "Необхідно: Рівень 3\\nЕльфгельм пускає у ворога вогняну стрілу, завдаючи пошкоджень вогнем і підпалюючи все довкола\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ElfhelmQuickRescue",
+     "t": "Button",
+     "en": "Quick Rescue (&T)",
+     "uk": "Швидкий порятунок (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipElfhelmQuickRescue",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Modifier Type: Spell \\n Nearby infantry and cavalry gain +15% armour and +15% speed for 30 seconds \\nLeft click to activate",
+     "uk": "Необхідно: Рівень 3\\nТип ефекту: Заклинання\\nПіхота й вершники поблизу на 30 сек. отримують бонус +15% броні й +15% швидкості\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Battle of Pelennor Fields",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:GandalfNewMountCampaignNoHotkey",
+     "t": "Button",
+     "en": "Mount Shadowfax / Dismount",
+     "uk": "Осідлати Тінегрива / Спішитися",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipShadowfax",
+     "t": "Tooltip",
+     "en": "Left click to switch between \\n mounted on Shadowfax and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою\\nна Тінегриві та пішим ходом",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

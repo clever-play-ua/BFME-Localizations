@@ -1,0 +1,40 @@
+﻿1
+00:00:17,250 --> 00:00:21,958
+La Era de los Hombres ha terminado.
+
+2
+00:00:22,083 --> 00:00:27,208
+El Tiempo del Orco ha llegado.
+
+3
+00:00:37,500 --> 00:00:41,083
+Envía a todas las legiones.
+
+4
+00:00:41,958 --> 00:00:46,333
+No detengas el ataque
+hasta tomar la ciudad.
+
+5
+00:00:47,000 --> 00:00:48,708
+Mátalos a todos.
+
+6
+00:00:51,208 --> 00:00:53,083
+¿Y el mago?
+
+7
+00:00:53,833 --> 00:00:56,625
+Yo lo quebraré.
+
+8
+00:01:00,375 --> 00:01:02,708
+¿Dónde están los jinetes de Théoden?
+
+9
+00:01:02,833 --> 00:01:04,917
+¿Vendrá el ejército de Rohan?
+
+10
+00:01:06,083 --> 00:01:07,250
+¿Mithrandir?

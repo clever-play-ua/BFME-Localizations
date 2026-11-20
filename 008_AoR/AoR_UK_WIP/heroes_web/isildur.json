@@ -1,0 +1,230 @@
+{
+ "hero": "Isildur",
+ "uk_name": "Ісілдур",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:SecondAgeIsildur",
+     "t": "Name",
+     "en": "Isildur",
+     "uk": "Ісілдур",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:IsildurLeadership",
+     "t": "Button",
+     "en": "Heir of Númenor",
+     "uk": "Спадкоємець Нуменору",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipIsildurLeadership",
+     "t": "Tooltip",
+     "en": "Anárion, Elendil's firstborn heir, fell early in the War of the Last Alliance. So it was that Isildur, his younger brother, took over his command. Isildur was a mighty warrior and had previously proven his skill and endurance during the final days of Númenor. \\n\\n  Allies near Isildur gain \\n +33% damage, +33% armour, \\n and earn experience 50% faster\\nPassive ability",
+     "uk": "Союзники поряд з Ісілдуром отримують бонус\\n+33% до пошкоджень, +33% броні\\nі на 50% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nАнаріон, первісток і спадкоємець Еленділа, загинув на початку Війни Останнього Союзу. Тож командування прийняв Ісілдур, його молодший брат.\\n\\nІсілдур був могутнім воїном і вже довів свою вправність і витривалість в останні дні Нуменору.",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:IsildurBladeMaster",
+     "t": "Button",
+     "en": "Shard of Narsil (&R)",
+     "uk": "Уламок Нарсіла (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipIsildurBladeMaster",
+     "t": "Tooltip",
+     "en": "Requires Level 2 \\n Isildur gains +100% damage and +100% armour and deals knockback for 30 seconds as he takes up the shards of his father's sword \\n Left click to activate",
+     "uk": "Необхідно: Рівень 2\\nІсілдур бере уламки батькового меча й на 30 сек. отримує бонус +100% до пошкоджень, +100% броні та відкидає ворогів своїми ударами\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Council of Elrond",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:TheOneRing",
+     "t": "Button",
+     "en": "The One Ring (&R)",
+     "uk": "Єдиний Перстень (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipTheOneRingIsildur",
+     "t": "Tooltip",
+     "en": "Become invisible but can not attack",
+     "uk": "Робить невидимим, але не дає атакувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:Escape",
+     "t": "Button",
+     "en": "Escape (&W)",
+     "uk": "Втекти (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipEscape",
+     "t": "Tooltip",
+     "en": "Wormtongue becomes stealthed and can neither be attacked nor make an attack for 30 seconds \\n \\n Recharge time: 1m 30s \\n Left click icon to activate",
+     "uk": "Червеуст стає невидимим і на 30 сек. отримує\\nімунітет до пошкоджень, але й сам не може їх завдавати\\n\\nЧас відновлення: 1 хв. 30 сек.\\nКлікніть на іконку, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Last Alliance map",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:JointLeadership_LAA",
+     "t": "Button",
+     "en": "Joint Rulers",
+     "uk": "Два правителі",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipIsildurJointLeadership_LAA",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Isildur gains +15% damage and armour when near Anárion\\n Passive ability",
+     "uk": "Тип ефекту: Лідерство\\nПоряд з Анаріоном, Ісілдур отримує бонус +15% до пошкоджень і броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:IsildurHeir_LAA",
+     "t": "Button",
+     "en": "Heir of the High King (&R)",
+     "uk": "Спадкоємець Верховного короля (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipIsildurHeir_LAA",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\n When activated, all nearby units gain +33% damage and immunity to fear and terror for 20 seconds \\n left click to activate",
+     "uk": "Необхідно: Рівень 3\\nПісля активації всі загони поблизу на 20 сек. отримують бонус +33% до пошкоджень і імунітет до страху та жаху\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:IsildurBladeMaster_LAA",
+     "t": "Button",
+     "en": "Doughty Warrior (&T)",
+     "uk": "Відважний воїн (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipIsildurBladeMaster_LAA",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Isildur gains +50% armour and deals knockback for 30 seconds \\n Left click to activate",
+     "uk": "Необхідно: Рівень 5\\nНа 30 сек. Ісілдур отримує бонус +50% броні й відкидає ворогів своїми ударами\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:IsildurShardOfNarsil_LAA",
+     "t": "Button",
+     "en": "Desperate Gambit (&C)",
+     "uk": "Відчайдушний маневр (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipIsildurShardOfNarsil_LAA",
+     "t": "Tooltip",
+     "en": "Required: Rank 8 \\n Isildur performs a single target attack, dealing an enormous amount of damage to the targeted hero and decreasing their speed by 50% for 15 seconds\\n left click then click on target",
+     "uk": "Необхідно: Рівень 8\\nІсілдур атакує одну ціль: Завдає обраному героєві величезних пошкоджень і на 15 сек. сповільнює його на 50%\\nКлікніть на іконку, потім оберіть ціль",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FruitOfArmenelos_LAA",
+     "t": "Button",
+     "en": "Fruit of Armenelos (&V)",
+     "uk": "Плід Арменелоса (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFruitOfArmenelos_LAA",
+     "t": "Tooltip",
+     "en": "Required: Rank 10 \\n  Isildur plants the seed of a White Tree\\nAll allied units near the tree are immune to magic, fire and frost damage\\nAllied heroes near the tree have reduced ability timer cooldowns by 50%\\nLeft click then click on target area",
+     "uk": "Необхідно: Рівень 10\\nІсілдур садить насіння Білого Дерева\\n\\nУсі союзні загони поряд із Деревом отримують імунітет до пошкоджень від магії, вогню й холоду\\nЗдібності союзних героїв поряд із Деревом відновлюються на 50% швидше\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:IsildurWeregild",
+     "t": "Button",
+     "en": "Weregild",
+     "uk": "Ціна крові",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipIsildurWeregild",
+     "t": "Tooltip",
+     "en": "Isildur has claimed the One Ring\\nNearby friendly units can no longer gain experience\\nIf Isildur dies, the One Ring is lost for the remainder of the match\\nPassive ability",
+     "uk": "Ісілдур заволодів Єдиним Перснем\\nСоюзні загони поблизу більше НЕ можуть набирати досвід\\nЯкщо Ісілдур загине, Єдиний Перстень буде втрачено до кінця битви\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:IsildurHeirloom",
+     "t": "Button",
+     "en": "Heirloom of my Kingdom (&R)",
+     "uk": "Реліквія мого королівства (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipIsildurHeirloom",
+     "t": "Tooltip",
+     "en": "When activated, increases recruitment costs and time of all Dúnedain units by 50% for 60 seconds\\nLeft click to activate",
+     "uk": "Після активації на 60 сек. ЗБІЛЬШУЄ вартість і час тренування всіх загонів дунедайн на 50%\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:SpecialAbilityIsildurBaneLA",
+     "t": "Button",
+     "en": "Isildur's Bane",
+     "uk": "Кара Ісілдура",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipSpecialAbilityIsildurBaneLA",
+     "t": "Tooltip",
+     "en": "The Ring seeks to betray Isildur\\nIsildur regularly loses 50% armour and movement speed in combat for 15 seconds\\nPassive ability",
+     "uk": "Перстень прагне зрадити Ісілдура\\nУ бою Ісілдур постійно втрачає 50% броні й швидкості руху на 15 сек.\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:IsildurEasilyCorrupted",
+     "t": "Button",
+     "en": "Easily Corrupted (&C)",
+     "uk": "Легка спокуса (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipIsildurEasilyCorrupted",
+     "t": "Tooltip",
+     "en": "Targeted friendly units become hostile towards each other\\nLeft click then left click target area",
+     "uk": "Обрані союзні загони стають ворожими одне до одного\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:IsildurRepentence",
+     "t": "Button",
+     "en": "Repentence (&V)",
+     "uk": "Каяття (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipIsildurRepentence",
+     "t": "Tooltip",
+     "en": "Requires Level 10\\nIsildur's will manages to overcome the evil of the Ring\\nIsildur drops the One Ring, allowing it to be brought to the Gathering of the Hosts so its destruction may be set in motion\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 10\\nВоля Ісілдура долає зло Персня\\nІсілдур кидає Єдиний Перстень, і його можна віднести до Збору воїнств, щоб почати його знищення\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

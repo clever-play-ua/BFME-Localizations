@@ -1,0 +1,140 @@
+{
+ "hero": "Glorfindel",
+ "uk_name": "Ґлорфіндел",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:ElvenGlorfindel",
+     "t": "Name",
+     "en": "Glorfindel",
+     "uk": "Ґлорфіндел",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GlorfindelWrath",
+     "t": "Button",
+     "en": "Revealed in Wrath (&R)",
+     "uk": "Явлений у гніві (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGlorfindelWrath",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\nGlorfindel gains +100% damage for 30 seconds\\n Left click to activate \\n\\nModifier Type: Spell \\n Glorfindel causes fear to nearby enemies and Nazgûl\\nPassive ability",
+     "uk": "Необхідно: Рівень 3\\nҐлорфіндел на 30 сек. отримує бонус +100% до пошкоджень\\nКлікніть, щоб активувати\\n\\nТип ефекту: Заклинання\\nҐлорфіндел наганяє страх на всіх ворогів поблизу та назґулів\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGlorfindelWrathArnor",
+     "t": "Tooltip",
+     "en": "Glorfindel gains +100% damage for 30 seconds\\n Left click to activate \\n\\nModifier Type: Spell \\n Glorfindel causes fear to nearby enemies and Nazgûl\\nPassive ability",
+     "uk": "Ґлорфіндел на 30 сек. отримує бонус +100% до пошкоджень\\nКлікніть, щоб активувати\\n\\nТип ефекту: Заклинання\\nҐлорфіндел наганяє страх на всіх ворогів поблизу та назґулів\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GlorfindelWindRider",
+     "t": "Button",
+     "en": "Noro lim, Asfaloth! (&T)",
+     "uk": "Мчи, Асфалоте! (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGlorfindelWindRider",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Glorfindel gains +20% speed, +100% armour, \\n and glides past enemies like the wind for 30 seconds\\n Can only be used mounted \\n Left click to activate",
+     "uk": "Необхідно: Рівень 5\\nҐлорфіндел на 30 сек. отримує бонус +20% швидкості,\\n+100% броні й мчить повз ворогів, мов вітер\\nДоступно лише верхи\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GlorfindelLight",
+     "t": "Button",
+     "en": "Light of Aman (&C)",
+     "uk": "Світло Аману (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGlorfindelLight",
+     "t": "Tooltip",
+     "en": "Requires Level 7\\n Targeted units gain experience \\n Left click icon then left click on target units",
+     "uk": "Необхідно: Рівень 7\\nМиттєво наділяє досвідом обрані загони\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GlorfindelSlayer",
+     "t": "Button",
+     "en": "Slayer of Demons (&V)",
+     "uk": "Убивця демонів (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGlorfindelSlayer",
+     "t": "Tooltip",
+     "en": "Requires Level 10\\n Blasts back and damages units in a wide radius surrounding Glorfindel and stuns them for 15 seconds \\nGlorfindel's melee attacks pin enemy heroes for 30 seconds\\n Left click to activate",
+     "uk": "Необхідно: Рівень 10\\nВідкидає загони в широкому радіусі навколо Ґлорфіндела, завдає їм пошкоджень і приголомшує їх на 15 сек.\\nУдари Ґлорфіндела зблизька на 30 сек. знерухомлюють ворожих героїв\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GlorfindelNewMount",
+     "t": "Button",
+     "en": "Lord of the House of the Golden Flower (&W)",
+     "uk": "Володар дому Золотої Квітки (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GlorfindelNewMountTooltip",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Rivendell Knights near Glorfindel gain +25% damage and armour \\n Passive ability \\n\\n Left click to switch between \\n mounted on Asfaloth and on foot",
+     "uk": "Тип ефекту: Лідерство\\nЛицарі Рівенделу поряд із Ґлорфінделом отримують бонус +25% до пошкоджень і броні\\n~ ПАСИВНА ЗДІБНІСТЬ ~\\n\\nКлікніть, щоб перемкнутися між\\nверхи на Асфалоті й пішки",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Fords of Bruinen",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:GamlingMount",
+     "t": "Button",
+     "en": "Mount / Dismount",
+     "uk": "Сісти верхи / Спішитися",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipEowynMount",
+     "t": "Tooltip",
+     "en": "Left click to switch between mounted and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою верхи та пішим ходом",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Summoned",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:GlorfindelSlayerArnor",
+     "t": "Button",
+     "en": "Slayer of Demons (&C)",
+     "uk": "Убивця демонів (&C)",
+     "st": "ok",
+     "dup": "CONTROLBAR:GlorfindelSlayer"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGlorfindelSlayerArnor",
+     "t": "Tooltip",
+     "en": "Blasts back and damages units in a wide radius surrounding Glorfindel and stuns them for 15 seconds \\nGlorfindel's melee attacks pin enemy heroes for 30 seconds\\n Left click to activate",
+     "uk": "Відкидає загони в широкому радіусі навколо Ґлорфіндела, завдає їм пошкоджень і приголомшує їх на 15 сек.\\nУдари Ґлорфіндела зблизька на 30 сек. знерухомлюють ворожих героїв\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

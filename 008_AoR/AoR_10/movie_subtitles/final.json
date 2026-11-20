@@ -1,0 +1,3940 @@
+{
+ "Overall_Game_Intro": {
+  "order": 0,
+  "fps": 24.0,
+  "file": "CS01",
+  "cues": [
+   {
+    "start": 2.042,
+    "end": 5.375,
+    "start_frame": 49,
+    "end_frame": 129,
+    "en": "The Shadow is almost upon us, Aragorn.",
+    "uk": "Тінь уже майже над нами, Араґорне."
+   },
+   {
+    "start": 5.5,
+    "end": 11.292,
+    "start_frame": 132,
+    "end_frame": 271,
+    "en": "Soon I must come unto all that I strove for, or I will fall into darkness.",
+    "uk": "Скоро я маю здобути все, до чого прагнув, або впаду в темряву."
+   },
+   {
+    "start": 11.5,
+    "end": 14.4,
+    "start_frame": 276,
+    "end_frame": 346,
+    "en": "You shall not pass!",
+    "uk": "Ти не пройдеш!"
+   },
+   {
+    "start": 15.417,
+    "end": 17.917,
+    "start_frame": 370,
+    "end_frame": 430,
+    "en": "And this world will come to ruin.",
+    "uk": "І цей світ обернеться на руїну."
+   },
+   {
+    "start": 18.417,
+    "end": 23.875,
+    "start_frame": 442,
+    "end_frame": 573,
+    "en": "Long have you carried with you the remnants of the past.",
+    "uk": "Довго ти носив у собі залишки минулого."
+   },
+   {
+    "start": 24.375,
+    "end": 26.667,
+    "start_frame": 585,
+    "end_frame": 640,
+    "en": "This is your test.",
+    "uk": "Це твоє випробування."
+   },
+   {
+    "start": 29.583,
+    "end": 33.542,
+    "start_frame": 710,
+    "end_frame": 805,
+    "en": "Every path you have trod, through wilderness, through war,",
+    "uk": "Кожна стежка, якою ти пройшов — крізь глушину, крізь війну, —"
+   },
+   {
+    "start": 33.583,
+    "end": 37.875,
+    "start_frame": 806,
+    "end_frame": 909,
+    "en": "has led to this road.",
+    "uk": "привела тебе на цей шлях."
+   },
+   {
+    "start": 38.75,
+    "end": 41.5,
+    "start_frame": 930,
+    "end_frame": 996,
+    "en": "We come to it at last.",
+    "uk": "Нарешті ми до цього дійшли."
+   },
+   {
+    "start": 42.292,
+    "end": 45.792,
+    "start_frame": 1015,
+    "end_frame": 1099,
+    "en": "The great battle of our time.",
+    "uk": "Велика битва нашого часу."
+   },
+   {
+    "start": 47.417,
+    "end": 52.375,
+    "start_frame": 1138,
+    "end_frame": 1257,
+    "en": "The blade that was broken shall return to Minas Tirith.",
+    "uk": "Зламаний клинок повернеться до Мінас-Тіріта."
+   },
+   {
+    "start": 52.833,
+    "end": 54.625,
+    "start_frame": 1268,
+    "end_frame": 1311,
+    "en": "Put aside the Ranger.",
+    "uk": "Відкинь Слідопита."
+   },
+   {
+    "start": 54.75,
+    "end": 58.583,
+    "start_frame": 1314,
+    "end_frame": 1406,
+    "en": "Become who you were born to be.",
+    "uk": "Стань тим, ким тобі судилося бути."
+   },
+   {
+    "start": 60.625,
+    "end": 64.583,
+    "start_frame": 1455,
+    "end_frame": 1550,
+    "en": "No! Let him go, you filth!",
+    "uk": "Ні! Відпусти його, мерзото!"
+   },
+   {
+    "start": 77.667,
+    "end": 79.583,
+    "start_frame": 1864,
+    "end_frame": 1910,
+    "en": "We fight.",
+    "uk": "Ми битимемося."
+   },
+   {
+    "start": 79.833,
+    "end": 85.292,
+    "start_frame": 1916,
+    "end_frame": 2047,
+    "en": "I see in your eyes the same fear that would take the heart of me.",
+    "uk": "Я бачу у ваших очах той самий страх, що міг би заволодіти й моїм серцем."
+   },
+   {
+    "start": 86.25,
+    "end": 89.75,
+    "start_frame": 2070,
+    "end_frame": 2154,
+    "en": "A day may come when the courage of Men fails,",
+    "uk": "Можливо, настане день, коли мужність людей зрадить їх,"
+   },
+   {
+    "start": 89.833,
+    "end": 95.917,
+    "start_frame": 2156,
+    "end_frame": 2302,
+    "en": "when we forsake our friends and break all bonds of fellowship.",
+    "uk": "коли ми покинемо друзів і розірвемо всі узи братерства."
+   },
+   {
+    "start": 96.083,
+    "end": 98.5,
+    "start_frame": 2306,
+    "end_frame": 2364,
+    "en": "But it is not this day!",
+    "uk": "Але не сьогодні!"
+   },
+   {
+    "start": 98.583,
+    "end": 100.625,
+    "start_frame": 2366,
+    "end_frame": 2415,
+    "en": "Whatever happens, stay with me.",
+    "uk": "Хай що станеться, тримайся біля мене."
+   },
+   {
+    "start": 100.75,
+    "end": 103.5,
+    "start_frame": 2418,
+    "end_frame": 2484,
+    "en": "This day we fight!",
+    "uk": "Сьогодні ми б'ємося!"
+   },
+   {
+    "start": 118.292,
+    "end": 124.292,
+    "start_frame": 2839,
+    "end_frame": 2983,
+    "en": "All we have to decide here is what to do with the time that is given to us.",
+    "uk": "Нам лишається вирішити лише одне: що робити з часом, який нам дано."
+   },
+   {
+    "start": 127.875,
+    "end": 131.583,
+    "start_frame": 3069,
+    "end_frame": 3158,
+    "en": "Hold back! Hold back to the mountain!",
+    "uk": "Відступайте! Відступайте до гори!"
+   }
+  ]
+ },
+ "AOTRCampaign_00": {
+  "order": 1,
+  "fps": 24.0,
+  "file": "AOTRCampaign00",
+  "cues": [
+   {
+    "start": 5.167,
+    "end": 8.583,
+    "start_frame": 124,
+    "end_frame": 206,
+    "en": "It began with the forging of the Great Rings.",
+    "uk": "Усе почалося з викування Великих Перснів."
+   },
+   {
+    "start": 9.292,
+    "end": 11.417,
+    "start_frame": 223,
+    "end_frame": 274,
+    "en": "Three were given to the Elves,",
+    "uk": "Три було дано ельфам,"
+   },
+   {
+    "start": 11.542,
+    "end": 15.583,
+    "start_frame": 277,
+    "end_frame": 374,
+    "en": "immortal, wisest and fairest of all beings.",
+    "uk": "безсмертним, наймудрішим і найпрекраснішим з усіх істот."
+   },
+   {
+    "start": 16.667,
+    "end": 19.0,
+    "start_frame": 400,
+    "end_frame": 456,
+    "en": "Seven to the Dwarf-lords,",
+    "uk": "Сім — володарям дворфів,"
+   },
+   {
+    "start": 19.542,
+    "end": 23.375,
+    "start_frame": 469,
+    "end_frame": 561,
+    "en": "great miners and craftsmen of the mountain halls.",
+    "uk": "великим рудокопам і майстрам гірських чертогів."
+   },
+   {
+    "start": 24.375,
+    "end": 28.375,
+    "start_frame": 585,
+    "end_frame": 681,
+    "en": "And nine, nine rings were gifted to the race of Men,",
+    "uk": "А дев'ять, дев'ять перснів подарували роду людей,"
+   },
+   {
+    "start": 28.5,
+    "end": 33.167,
+    "start_frame": 684,
+    "end_frame": 796,
+    "en": "who, above all else, desire power.",
+    "uk": "які понад усе прагнуть влади."
+   },
+   {
+    "start": 33.417,
+    "end": 39.583,
+    "start_frame": 802,
+    "end_frame": 950,
+    "en": "For within these rings was bound the strength and will to govern each race.",
+    "uk": "Бо в ці персні було вкладено силу й волю правити кожним народом."
+   },
+   {
+    "start": 40.208,
+    "end": 42.917,
+    "start_frame": 965,
+    "end_frame": 1030,
+    "en": "But they were all of them deceived,",
+    "uk": "Але всіх їх було ошукано,"
+   },
+   {
+    "start": 43.583,
+    "end": 46.292,
+    "start_frame": 1046,
+    "end_frame": 1111,
+    "en": "for another ring was made.",
+    "uk": "адже було викувано ще один перстень."
+   },
+   {
+    "start": 47.083,
+    "end": 50.833,
+    "start_frame": 1130,
+    "end_frame": 1220,
+    "en": "In the land of Mordor, in the fires of Mount Doom,",
+    "uk": "У краю Мордор, у вогнях Фатальної гори,"
+   },
+   {
+    "start": 51.083,
+    "end": 57.75,
+    "start_frame": 1226,
+    "end_frame": 1386,
+    "en": "the Dark Lord Sauron forged in secret a master ring to control all others.",
+    "uk": "Темний Володар Саурон потай викував Перстень-володар, щоб керувати всіма іншими."
+   },
+   {
+    "start": 58.0,
+    "end": 62.25,
+    "start_frame": 1392,
+    "end_frame": 1494,
+    "en": "And into this Ring he poured his cruelty, his malice",
+    "uk": "І в цей Перстень він вклав свою жорстокість, свою злобу"
+   },
+   {
+    "start": 62.333,
+    "end": 65.875,
+    "start_frame": 1496,
+    "end_frame": 1581,
+    "en": "and his will to dominate all life.",
+    "uk": "і свою волю панувати над усім живим."
+   },
+   {
+    "start": 67.333,
+    "end": 71.167,
+    "start_frame": 1616,
+    "end_frame": 1708,
+    "en": "One Ring to rule them all.",
+    "uk": "Один Перстень, щоб правити всіма."
+   },
+   {
+    "start": 71.833,
+    "end": 73.583,
+    "start_frame": 1724,
+    "end_frame": 1766,
+    "en": "One by one,",
+    "uk": "Одна за одною"
+   },
+   {
+    "start": 73.792,
+    "end": 78.333,
+    "start_frame": 1771,
+    "end_frame": 1880,
+    "en": "the free lands of Middle-earth fell to the power of the Ring.",
+    "uk": "вільні землі Середзем'я підкорялися владі Персня."
+   },
+   {
+    "start": 78.417,
+    "end": 82.5,
+    "start_frame": 1882,
+    "end_frame": 1980,
+    "en": "But there were some who resisted.",
+    "uk": "Але дехто опирався."
+   }
+  ]
+ },
+ "AOTRCampaign_01": {
+  "order": 2,
+  "fps": 24.0,
+  "file": "AOTRCampaign01",
+  "cues": [
+   {
+    "start": 3.875,
+    "end": 9.375,
+    "start_frame": 93,
+    "end_frame": 225,
+    "en": "Sauron, the enemy of the Free Peoples of Middle-earth, was defeated.",
+    "uk": "Саурона, ворога Вільних народів Середзем'я, було переможено."
+   },
+   {
+    "start": 11.25,
+    "end": 15.75,
+    "start_frame": 270,
+    "end_frame": 378,
+    "en": "But the hearts of Men are easily corrupted,",
+    "uk": "Але серця людей легко зіпсувати,"
+   },
+   {
+    "start": 15.833,
+    "end": 20.583,
+    "start_frame": 380,
+    "end_frame": 494,
+    "en": "and the Ring of Power has a will of its own.",
+    "uk": "а Перстень Влади має власну волю."
+   },
+   {
+    "start": 23.5,
+    "end": 28.375,
+    "start_frame": 564,
+    "end_frame": 681,
+    "en": "History became legend. Legend became myth.",
+    "uk": "Історія стала легендою. Легенда стала міфом."
+   },
+   {
+    "start": 28.5,
+    "end": 34.792,
+    "start_frame": 684,
+    "end_frame": 835,
+    "en": "And for two and a half thousand years, the Ring passed out of all knowledge,",
+    "uk": "І дві з половиною тисячі років про Перстень ніхто нічого не знав,"
+   },
+   {
+    "start": 34.875,
+    "end": 39.0,
+    "start_frame": 837,
+    "end_frame": 936,
+    "en": "until, when chance came,",
+    "uk": "аж доки, коли випала нагода,"
+   },
+   {
+    "start": 39.667,
+    "end": 42.375,
+    "start_frame": 952,
+    "end_frame": 1017,
+    "en": "it ensnared a new bearer.",
+    "uk": "він не заманив до себе нового власника."
+   },
+   {
+    "start": 44.375,
+    "end": 47.0,
+    "start_frame": 1065,
+    "end_frame": 1128,
+    "en": "My precious.",
+    "uk": "Моя прелесть."
+   },
+   {
+    "start": 49.0,
+    "end": 51.708,
+    "start_frame": 1176,
+    "end_frame": 1241,
+    "en": "The Ring came to the creature Gollum,",
+    "uk": "Перстень потрапив до істоти на ім'я Ґолум,"
+   },
+   {
+    "start": 51.792,
+    "end": 56.167,
+    "start_frame": 1243,
+    "end_frame": 1348,
+    "en": "who took it deep into the tunnels of the Misty Mountains.",
+    "uk": "що забрав його глибоко в тунелі Імлистих гір."
+   },
+   {
+    "start": 57.583,
+    "end": 62.292,
+    "start_frame": 1382,
+    "end_frame": 1495,
+    "en": "But something happened then the Ring did not intend.",
+    "uk": "Але тоді сталося те, чого Перстень не замишляв."
+   },
+   {
+    "start": 66.0,
+    "end": 71.875,
+    "start_frame": 1584,
+    "end_frame": 1725,
+    "en": "On the 22nd day of September in the year 1400,",
+    "uk": "Двадцять другого вересня року 1400"
+   },
+   {
+    "start": 72.375,
+    "end": 74.833,
+    "start_frame": 1737,
+    "end_frame": 1796,
+    "en": "by Shire Reckoning.",
+    "uk": "за ширським літочисленням."
+   },
+   {
+    "start": 75.0,
+    "end": 81.083,
+    "start_frame": 1800,
+    "end_frame": 1946,
+    "en": "Bag End, Bagshot Row, Hobbiton, Westfarthing,",
+    "uk": "Торбин Кут, Торбинська вулиця, Гобітон, Західна Чверть,"
+   },
+   {
+    "start": 81.292,
+    "end": 83.292,
+    "start_frame": 1951,
+    "end_frame": 1999,
+    "en": "the Shire,",
+    "uk": "Шир,"
+   },
+   {
+    "start": 83.417,
+    "end": 85.875,
+    "start_frame": 2002,
+    "end_frame": 2061,
+    "en": "Middle-earth,",
+    "uk": "Середзем'я,"
+   },
+   {
+    "start": 90.667,
+    "end": 93.792,
+    "start_frame": 2176,
+    "end_frame": 2251,
+    "en": "the Third Age of this world.",
+    "uk": "Третя епоха цього світу."
+   }
+  ]
+ },
+ "AOTRCampaign_01a": {
+  "order": 3,
+  "fps": 24.0,
+  "file": "AOTRCampaign01a",
+  "cues": [
+   {
+    "start": 4.542,
+    "end": 8.292,
+    "start_frame": 109,
+    "end_frame": 199,
+    "en": "Concerning Hobbits.",
+    "uk": "Про гобітів."
+   },
+   {
+    "start": 9.583,
+    "end": 13.917,
+    "start_frame": 230,
+    "end_frame": 334,
+    "en": "Hobbits have been living and farming in the Four Farthings of the Shire",
+    "uk": "Гобіти живуть і хазяйнують у чотирьох Чвертях Ширу"
+   },
+   {
+    "start": 14.042,
+    "end": 15.875,
+    "start_frame": 337,
+    "end_frame": 381,
+    "en": "for many hundreds of years,",
+    "uk": "вже багато сотень років,"
+   },
+   {
+    "start": 16.0,
+    "end": 21.875,
+    "start_frame": 384,
+    "end_frame": 525,
+    "en": "quite content to ignore and be ignored by the world of the Big Folk.",
+    "uk": "цілком задоволені тим, що не зважають на світ Великого Народу, а він — на них."
+   },
+   {
+    "start": 22.375,
+    "end": 25.667,
+    "start_frame": 537,
+    "end_frame": 616,
+    "en": "In fact, it has been remarked by some",
+    "uk": "Дехто навіть зауважував,"
+   },
+   {
+    "start": 25.792,
+    "end": 29.667,
+    "start_frame": 619,
+    "end_frame": 712,
+    "en": "that Hobbits' only real passion is for food.",
+    "uk": "що єдина справжня пристрасть гобітів — це їжа."
+   },
+   {
+    "start": 29.792,
+    "end": 32.417,
+    "start_frame": 715,
+    "end_frame": 778,
+    "en": "A rather unfair observation,",
+    "uk": "Доволі несправедливе спостереження,"
+   },
+   {
+    "start": 32.542,
+    "end": 35.25,
+    "start_frame": 781,
+    "end_frame": 846,
+    "en": "as we have also developed a keen interest",
+    "uk": "адже ми також неабияк захоплюємося"
+   },
+   {
+    "start": 35.292,
+    "end": 39.542,
+    "start_frame": 847,
+    "end_frame": 949,
+    "en": "in the brewing of ales and the smoking of pipe-weed.",
+    "uk": "варінням елю й курінням люлькового зілля."
+   },
+   {
+    "start": 39.625,
+    "end": 42.75,
+    "start_frame": 951,
+    "end_frame": 1026,
+    "en": "But where our hearts truly lie",
+    "uk": "Але насправді наші серця лежать"
+   },
+   {
+    "start": 43.0,
+    "end": 47.75,
+    "start_frame": 1032,
+    "end_frame": 1146,
+    "en": "is in peace and quiet and good tilled earth.",
+    "uk": "до спокою, тиші й добре обробленої землі."
+   },
+   {
+    "start": 47.833,
+    "end": 52.583,
+    "start_frame": 1148,
+    "end_frame": 1262,
+    "en": "For all Hobbits share a love for things that grow.",
+    "uk": "Бо всі гобіти люблять те, що росте."
+   },
+   {
+    "start": 56.0,
+    "end": 60.625,
+    "start_frame": 1344,
+    "end_frame": 1455,
+    "en": "And yes, no doubt to others our ways seem quaint.",
+    "uk": "І так, без сумніву, іншим наші звичаї здаються дивними."
+   },
+   {
+    "start": 60.792,
+    "end": 66.375,
+    "start_frame": 1459,
+    "end_frame": 1593,
+    "en": "But today of all days, it is brought home to me",
+    "uk": "Але саме сьогодні я розумію,"
+   },
+   {
+    "start": 66.75,
+    "end": 72.583,
+    "start_frame": 1602,
+    "end_frame": 1742,
+    "en": "it is no bad thing to celebrate a simple life.",
+    "uk": "що немає нічого поганого в тому, щоб святкувати просте життя."
+   }
+  ]
+ },
+ "AOTRCampaign_01b": {
+  "order": 4,
+  "fps": 24.0,
+  "file": "AOTRCampaign01b",
+  "cues": [
+   {
+    "start": 0.042,
+    "end": 6.0,
+    "start_frame": 1,
+    "end_frame": 144,
+    "en": "Gandalf, my old friend, this will be a night to remember.",
+    "uk": "Ґендальфе, мій старий друже, цю ніч запам'ятають надовго."
+   },
+   {
+    "start": 17.542,
+    "end": 21.083,
+    "start_frame": 421,
+    "end_frame": 506,
+    "en": "Today is my one hundred and eleventh birthday!",
+    "uk": "Сьогодні мені виповнюється сто одинадцять років!"
+   },
+   {
+    "start": 24.125,
+    "end": 28.0,
+    "start_frame": 579,
+    "end_frame": 672,
+    "en": "Alas, eleventy-one years is far too short a time",
+    "uk": "На жаль, сто одинадцять років — це надто мало,"
+   },
+   {
+    "start": 28.042,
+    "end": 32.375,
+    "start_frame": 673,
+    "end_frame": 777,
+    "en": "to live among such excellent and admirable Hobbits.",
+    "uk": "щоб пожити серед таких чудових і гідних гобітів."
+   },
+   {
+    "start": 32.5,
+    "end": 35.875,
+    "start_frame": 780,
+    "end_frame": 861,
+    "en": "I don't know half of you half as well as I should like,",
+    "uk": "Половину з вас я знаю вдвічі гірше, ніж хотів би,"
+   },
+   {
+    "start": 35.958,
+    "end": 40.375,
+    "start_frame": 863,
+    "end_frame": 969,
+    "en": "and I like less than half of you half as well as you deserve.",
+    "uk": "а менше половини з вас люблю вдвічі менше, ніж ви заслуговуєте."
+   },
+   {
+    "start": 49.0,
+    "end": 52.375,
+    "start_frame": 1176,
+    "end_frame": 1257,
+    "en": "I regret to announce this is the end.",
+    "uk": "З жалем оголошую, що це кінець."
+   },
+   {
+    "start": 54.125,
+    "end": 56.417,
+    "start_frame": 1299,
+    "end_frame": 1354,
+    "en": "I'm going now.",
+    "uk": "Я йду."
+   },
+   {
+    "start": 56.542,
+    "end": 60.5,
+    "start_frame": 1357,
+    "end_frame": 1452,
+    "en": "I bid you all a very fond farewell.",
+    "uk": "Прощавайте всі, мої любі."
+   },
+   {
+    "start": 61.667,
+    "end": 63.083,
+    "start_frame": 1480,
+    "end_frame": 1514,
+    "en": "Goodbye.",
+    "uk": "До побачення."
+   }
+  ]
+ },
+ "AOTRCampaign_02": {
+  "order": 5,
+  "fps": 24.0,
+  "file": "AOTRCampaign02",
+  "cues": [
+   {
+    "start": 0.0,
+    "end": 2.583,
+    "start_frame": 0,
+    "end_frame": 62,
+    "en": "Bilbo! Bilbo!",
+    "uk": "Більбо! Більбо!"
+   },
+   {
+    "start": 6.5,
+    "end": 8.375,
+    "start_frame": 156,
+    "end_frame": 201,
+    "en": "My precious.",
+    "uk": "Моя прелесть."
+   },
+   {
+    "start": 11.917,
+    "end": 17.0,
+    "start_frame": 286,
+    "end_frame": 408,
+    "en": "This is the One Ring, forged by the Dark Lord Sauron",
+    "uk": "Це Єдиний Перстень, викуваний Темним Володарем Сауроном"
+   },
+   {
+    "start": 17.375,
+    "end": 19.875,
+    "start_frame": 417,
+    "end_frame": 477,
+    "en": "in the fires of Mount Doom,",
+    "uk": "у вогнях Фатальної гори"
+   },
+   {
+    "start": 20.0,
+    "end": 23.875,
+    "start_frame": 480,
+    "end_frame": 573,
+    "en": "taken by Isildur from the hand of Sauron himself.",
+    "uk": "і відібраний Ісілдуром з руки самого Саурона."
+   },
+   {
+    "start": 24.417,
+    "end": 29.292,
+    "start_frame": 586,
+    "end_frame": 703,
+    "en": "Bilbo found it. In Gollum's cave.",
+    "uk": "Більбо знайшов його. У печері Ґолума."
+   },
+   {
+    "start": 29.375,
+    "end": 34.5,
+    "start_frame": 705,
+    "end_frame": 828,
+    "en": "Yes. For sixty years the Ring lay quiet in Bilbo's keeping,",
+    "uk": "Так. Шістдесят років Перстень спокійно лежав у Більбо,"
+   },
+   {
+    "start": 34.583,
+    "end": 38.75,
+    "start_frame": 830,
+    "end_frame": 930,
+    "en": "prolonging his life, delaying old age.",
+    "uk": "подовжуючи йому життя й відсуваючи старість."
+   },
+   {
+    "start": 38.833,
+    "end": 43.417,
+    "start_frame": 932,
+    "end_frame": 1042,
+    "en": "But no longer, Frodo. Evil is stirring in Mordor.",
+    "uk": "Але не більше, Фродо. У Мордорі прокидається зло."
+   },
+   {
+    "start": 43.542,
+    "end": 48.875,
+    "start_frame": 1045,
+    "end_frame": 1173,
+    "en": "The Ring has awoken. It's heard its master's call.",
+    "uk": "Перстень пробудився. Він почув поклик свого господаря."
+   },
+   {
+    "start": 49.042,
+    "end": 53.167,
+    "start_frame": 1177,
+    "end_frame": 1276,
+    "en": "But he was destroyed. Sauron was destroyed.",
+    "uk": "Але ж його знищили. Саурона знищили."
+   },
+   {
+    "start": 61.792,
+    "end": 64.875,
+    "start_frame": 1483,
+    "end_frame": 1557,
+    "en": "The spirit of Sauron endured.",
+    "uk": "Дух Саурона вцілів."
+   },
+   {
+    "start": 65.083,
+    "end": 69.292,
+    "start_frame": 1562,
+    "end_frame": 1663,
+    "en": "Frodo, he must never find it.",
+    "uk": "Фродо, він ніколи не повинен його знайти."
+   },
+   {
+    "start": 70.667,
+    "end": 72.625,
+    "start_frame": 1696,
+    "end_frame": 1743,
+    "en": "What must I do?",
+    "uk": "Що мені робити?"
+   }
+  ]
+ },
+ "AOTRCampaign_07": {
+  "order": 6,
+  "fps": 23.976023976023978,
+  "file": "AOTRCampaign07",
+  "cues": [
+   {
+    "start": 8.759,
+    "end": 11.678,
+    "start_frame": 210,
+    "end_frame": 280,
+    "en": "- Where are you taking us?\n- Into the Wild.",
+    "uk": "- Куди ти нас ведеш?\n- У глушину."
+   },
+   {
+    "start": 19.686,
+    "end": 23.482,
+    "start_frame": 472,
+    "end_frame": 563,
+    "en": "How do we know this Strider is a friend of Gandalf?",
+    "uk": "Звідки нам знати, що цей Бродяжник — друг Ґендальфа?"
+   },
+   {
+    "start": 23.732,
+    "end": 28.695,
+    "start_frame": 569,
+    "end_frame": 688,
+    "en": "I think a servant of the Enemy would look fairer and feel fouler.",
+    "uk": "Гадаю, слуга Ворога виглядав би гарніше, а відчувався б гидкіше."
+   },
+   {
+    "start": 28.779,
+    "end": 31.323,
+    "start_frame": 690,
+    "end_frame": 751,
+    "en": "He's foul enough.",
+    "uk": "Він і так досить гидкий."
+   },
+   {
+    "start": 31.448,
+    "end": 34.076,
+    "start_frame": 754,
+    "end_frame": 817,
+    "en": "We have no choice but to trust him.",
+    "uk": "Нам нічого не лишається, як довіритися йому."
+   },
+   {
+    "start": 34.159,
+    "end": 36.62,
+    "start_frame": 819,
+    "end_frame": 878,
+    "en": "But where is he leading us?",
+    "uk": "Але куди він нас веде?"
+   },
+   {
+    "start": 36.745,
+    "end": 39.373,
+    "start_frame": 881,
+    "end_frame": 944,
+    "en": "To Rivendell, Master Gamgee.",
+    "uk": "До Рівендела, пане Ґемджі."
+   },
+   {
+    "start": 40.04,
+    "end": 41.917,
+    "start_frame": 960,
+    "end_frame": 1005,
+    "en": "To the house of Elrond.",
+    "uk": "До дому Елронда."
+   },
+   {
+    "start": 42.042,
+    "end": 46.38,
+    "start_frame": 1008,
+    "end_frame": 1112,
+    "en": "Did you hear that? Rivendell! We're going to see the Elves!",
+    "uk": "Чув? До Рівендела! Ми побачимо ельфів!"
+   }
+  ]
+ },
+ "AOTRCampaign_03_a": {
+  "order": 7,
+  "fps": 25.0,
+  "file": "AOTRCampaign03a",
+  "cues": [
+   {
+    "start": 3.88,
+    "end": 5.44,
+    "start_frame": 97,
+    "end_frame": 136,
+    "en": "Where am I?",
+    "uk": "Де я?"
+   },
+   {
+    "start": 5.6,
+    "end": 8.68,
+    "start_frame": 140,
+    "end_frame": 217,
+    "en": "You are in the house of Elrond.",
+    "uk": "Ти в домі Елронда."
+   },
+   {
+    "start": 9.64,
+    "end": 12.24,
+    "start_frame": 241,
+    "end_frame": 306,
+    "en": "And it is ten o'clock in the morning",
+    "uk": "І зараз десята година ранку"
+   },
+   {
+    "start": 12.32,
+    "end": 15.6,
+    "start_frame": 308,
+    "end_frame": 390,
+    "en": "on October the 24th, if you want to know.",
+    "uk": "двадцять четвертого жовтня, якщо хочеш знати."
+   },
+   {
+    "start": 18.28,
+    "end": 21.4,
+    "start_frame": 457,
+    "end_frame": 535,
+    "en": "- Gandalf!\n- Yes, I'm here.",
+    "uk": "- Ґендальфе!\n- Так, я тут."
+   },
+   {
+    "start": 23.4,
+    "end": 26.6,
+    "start_frame": 585,
+    "end_frame": 665,
+    "en": "And you're lucky to be here, too.",
+    "uk": "І тобі теж пощастило, що ти тут."
+   },
+   {
+    "start": 27.12,
+    "end": 31.28,
+    "start_frame": 678,
+    "end_frame": 782,
+    "en": "A few more hours and you would have been beyond our aid.",
+    "uk": "Ще кілька годин — і ми вже не змогли б тобі допомогти."
+   },
+   {
+    "start": 34.76,
+    "end": 37.4,
+    "start_frame": 869,
+    "end_frame": 935,
+    "en": "What happened, Gandalf?",
+    "uk": "Що сталося, Ґендальфе?"
+   },
+   {
+    "start": 38.44,
+    "end": 40.72,
+    "start_frame": 961,
+    "end_frame": 1018,
+    "en": "Why didn't you meet us?",
+    "uk": "Чому ти не зустрів нас?"
+   },
+   {
+    "start": 40.84,
+    "end": 43.08,
+    "start_frame": 1021,
+    "end_frame": 1077,
+    "en": "Oh, I am sorry, Frodo.",
+    "uk": "О, мені шкода, Фродо."
+   },
+   {
+    "start": 48.12,
+    "end": 50.68,
+    "start_frame": 1203,
+    "end_frame": 1267,
+    "en": "I was delayed.",
+    "uk": "Мене затримали."
+   }
+  ]
+ },
+ "AOTRCampaign_03_b": {
+  "order": 8,
+  "fps": 25.0,
+  "file": "AOTRCampaign03b",
+  "cues": [
+   {
+    "start": 0.0,
+    "end": 1.28,
+    "start_frame": 0,
+    "end_frame": 32,
+    "en": "Frodo!",
+    "uk": "Фродо!"
+   },
+   {
+    "start": 2.28,
+    "end": 3.88,
+    "start_frame": 57,
+    "end_frame": 97,
+    "en": "- Frodo!\n- Sam!",
+    "uk": "- Фродо!\n- Семе!"
+   },
+   {
+    "start": 3.96,
+    "end": 5.8,
+    "start_frame": 99,
+    "end_frame": 145,
+    "en": "Bless you, you're awake!",
+    "uk": "Хвала небесам, ви прокинулися!"
+   },
+   {
+    "start": 5.88,
+    "end": 8.68,
+    "start_frame": 147,
+    "end_frame": 217,
+    "en": "Sam has hardly left your side.",
+    "uk": "Сем майже не відходив від тебе."
+   },
+   {
+    "start": 8.76,
+    "end": 11.48,
+    "start_frame": 219,
+    "end_frame": 287,
+    "en": "We were that worried about you, weren't we, Mr. Gandalf?",
+    "uk": "Ми так за вас хвилювалися, правда ж, пане Ґендальфе?"
+   },
+   {
+    "start": 11.56,
+    "end": 16.2,
+    "start_frame": 289,
+    "end_frame": 405,
+    "en": "By the skills of Lord Elrond, you're beginning to mend.",
+    "uk": "Завдяки вмінню владики Елронда ти одужуєш."
+   },
+   {
+    "start": 17.84,
+    "end": 21.8,
+    "start_frame": 446,
+    "end_frame": 545,
+    "en": "Welcome to Rivendell, Frodo Baggins.",
+    "uk": "Ласкаво просимо до Рівендела, Фродо Беґінзе."
+   }
+  ]
+ },
+ "AOTRCampaign_03_c": {
+  "order": 9,
+  "fps": 25.0,
+  "file": "AOTRCampaign03c",
+  "cues": [
+   {
+    "start": 0.72,
+    "end": 4.4,
+    "start_frame": 18,
+    "end_frame": 110,
+    "en": "Strangers from distant lands, friends of old.",
+    "uk": "Чужинці з далеких країв, давні друзі."
+   },
+   {
+    "start": 4.48,
+    "end": 8.6,
+    "start_frame": 112,
+    "end_frame": 215,
+    "en": "You've been summoned here to answer the threat of Mordor.",
+    "uk": "Вас скликали сюди, щоб дати відповідь на загрозу Мордору."
+   },
+   {
+    "start": 8.8,
+    "end": 12.24,
+    "start_frame": 220,
+    "end_frame": 306,
+    "en": "Middle-earth stands upon the brink of destruction.",
+    "uk": "Середзем'я стоїть на межі загибелі."
+   },
+   {
+    "start": 12.32,
+    "end": 14.08,
+    "start_frame": 308,
+    "end_frame": 352,
+    "en": "None can escape it.",
+    "uk": "Ніхто не уникне її."
+   },
+   {
+    "start": 14.2,
+    "end": 17.36,
+    "start_frame": 355,
+    "end_frame": 434,
+    "en": "You will unite or you will fall.",
+    "uk": "Ви або об'єднаєтеся, або загинете."
+   },
+   {
+    "start": 18.72,
+    "end": 22.4,
+    "start_frame": 468,
+    "end_frame": 560,
+    "en": "The Ring was made in the fires of Mount Doom.",
+    "uk": "Перстень викували у вогнях Фатальної гори."
+   },
+   {
+    "start": 22.88,
+    "end": 26.0,
+    "start_frame": 572,
+    "end_frame": 650,
+    "en": "Only there can it be unmade.",
+    "uk": "Лише там його можна знищити."
+   },
+   {
+    "start": 27.44,
+    "end": 30.6,
+    "start_frame": 686,
+    "end_frame": 765,
+    "en": "It must be taken deep into Mordor",
+    "uk": "Його треба віднести вглиб Мордору"
+   },
+   {
+    "start": 30.64,
+    "end": 34.76,
+    "start_frame": 766,
+    "end_frame": 869,
+    "en": "and cast back into the fiery chasm from whence it came.",
+    "uk": "і кинути назад у вогняну безодню, звідки він з'явився."
+   },
+   {
+    "start": 37.28,
+    "end": 41.68,
+    "start_frame": 932,
+    "end_frame": 1042,
+    "en": "One of you must do this.",
+    "uk": "Один із вас мусить це зробити."
+   }
+  ]
+ },
+ "AOTRCampaign_08": {
+  "order": 10,
+  "fps": 23.976023976023978,
+  "file": "AOTRCampaign08",
+  "cues": []
+ },
+ "AOTRCampaign_05": {
+  "order": 11,
+  "fps": 25.0,
+  "file": "AOTRCampaign05",
+  "cues": [
+   {
+    "start": 9.92,
+    "end": 13.08,
+    "start_frame": 248,
+    "end_frame": 327,
+    "en": "Let me risk a little more light.",
+    "uk": "Ризикну додати трохи світла."
+   },
+   {
+    "start": 18.84,
+    "end": 20.6,
+    "start_frame": 471,
+    "end_frame": 515,
+    "en": "Behold!",
+    "uk": "Дивіться!"
+   },
+   {
+    "start": 20.88,
+    "end": 25.6,
+    "start_frame": 522,
+    "end_frame": 640,
+    "en": "The great realm and Dwarf-city of Dwarrowdelf.",
+    "uk": "Велике царство й дворфійське місто Дварроуделф."
+   },
+   {
+    "start": 28.6,
+    "end": 31.68,
+    "start_frame": 715,
+    "end_frame": 792,
+    "en": "There's an eye-opener, and no mistake.",
+    "uk": "Оце так видовище, нічого не скажеш."
+   }
+  ]
+ },
+ "AOTRCampaign_06": {
+  "order": 12,
+  "fps": 25.0,
+  "file": "AOTRCampaign06",
+  "cues": [
+   {
+    "start": 7.24,
+    "end": 11.68,
+    "start_frame": 181,
+    "end_frame": 292,
+    "en": "You shall not pass!",
+    "uk": "Ти не пройдеш!"
+   },
+   {
+    "start": 39.68,
+    "end": 43.0,
+    "start_frame": 992,
+    "end_frame": 1075,
+    "en": "No! No! Gandalf!",
+    "uk": "Ні! Ні! Ґендальфе!"
+   },
+   {
+    "start": 50.92,
+    "end": 53.2,
+    "start_frame": 1273,
+    "end_frame": 1330,
+    "en": "Fly, you fools!",
+    "uk": "Тікайте, дурні!"
+   },
+   {
+    "start": 57.88,
+    "end": 60.68,
+    "start_frame": 1447,
+    "end_frame": 1517,
+    "en": "No!",
+    "uk": "Ні!"
+   },
+   {
+    "start": 65.92,
+    "end": 67.56,
+    "start_frame": 1648,
+    "end_frame": 1689,
+    "en": "Aragorn!",
+    "uk": "Араґорне!"
+   }
+  ]
+ },
+ "AOTRCampaign_09": {
+  "order": 13,
+  "fps": 23.976023976023978,
+  "file": "AOTRCampaign09",
+  "cues": []
+ },
+ "AOTRCampaign_10": {
+  "order": 14,
+  "fps": 23.976023976023978,
+  "file": "AOTRCampaign10",
+  "cues": [
+   {
+    "start": 7.883,
+    "end": 10.385,
+    "start_frame": 189,
+    "end_frame": 249,
+    "en": "Frodo... the Argonath.",
+    "uk": "Фродо... Арґонат."
+   },
+   {
+    "start": 13.597,
+    "end": 17.559,
+    "start_frame": 326,
+    "end_frame": 421,
+    "en": "Long have I desired to look upon the kings of old.",
+    "uk": "Довго я прагнув поглянути на королів давнини."
+   },
+   {
+    "start": 18.185,
+    "end": 19.895,
+    "start_frame": 436,
+    "end_frame": 477,
+    "en": "My kin.",
+    "uk": "Мій рід."
+   }
+  ]
+ },
+ "AOTRCampaign_Credits": {
+  "order": 15,
+  "fps": 25.0,
+  "file": "AOTRCampaignCredits",
+  "cues": [
+   {
+    "start": 16.52,
+    "end": 21.68,
+    "start_frame": 413,
+    "end_frame": 542,
+    "en": "Mordor. I hope the others find a safer route.",
+    "uk": "Мордор. Сподіваюся, інші знайдуть безпечніший шлях."
+   },
+   {
+    "start": 22.68,
+    "end": 24.88,
+    "start_frame": 567,
+    "end_frame": 622,
+    "en": "Strider will look after them.",
+    "uk": "Бродяжник про них подбає."
+   },
+   {
+    "start": 26.0,
+    "end": 28.88,
+    "start_frame": 650,
+    "end_frame": 722,
+    "en": "I don't suppose we'll ever see them again.",
+    "uk": "Мабуть, ми їх більше ніколи не побачимо."
+   },
+   {
+    "start": 29.64,
+    "end": 33.76,
+    "start_frame": 741,
+    "end_frame": 844,
+    "en": "We may yet, Mr. Frodo. We may.",
+    "uk": "Може, ще й побачимо, пане Фродо. Може."
+   },
+   {
+    "start": 35.92,
+    "end": 37.6,
+    "start_frame": 898,
+    "end_frame": 940,
+    "en": "Sam...",
+    "uk": "Семе..."
+   },
+   {
+    "start": 40.44,
+    "end": 42.88,
+    "start_frame": 1011,
+    "end_frame": 1072,
+    "en": "I'm glad you're with me.",
+    "uk": "Я радий, що ти зі мною."
+   }
+  ]
+ },
+ "AOTRCampaignTTT_00": {
+  "order": 16,
+  "fps": 30.0,
+  "file": "AOTRCampaignTTT00",
+  "cues": [
+   {
+    "start": 25.133,
+    "end": 28.1,
+    "start_frame": 754,
+    "end_frame": 843,
+    "en": "The power of the Enemy is growing.",
+    "uk": "Сила Ворога зростає."
+   },
+   {
+    "start": 28.833,
+    "end": 34.6,
+    "start_frame": 865,
+    "end_frame": 1038,
+    "en": "Sauron will use his puppet, Saruman, to destroy the people of Rohan.",
+    "uk": "Саурон використає свою маріонетку, Сарумана, щоб знищити народ Рогану."
+   },
+   {
+    "start": 36.8,
+    "end": 40.2,
+    "start_frame": 1104,
+    "end_frame": 1206,
+    "en": "Isengard has been unleashed.",
+    "uk": "Ізенґард спущено з ланцюга."
+   },
+   {
+    "start": 44.933,
+    "end": 48.933,
+    "start_frame": 1348,
+    "end_frame": 1468,
+    "en": "The Eye of Sauron now turns to Gondor,",
+    "uk": "Око Саурона тепер звертається до Ґондору,"
+   },
+   {
+    "start": 49.5,
+    "end": 52.6,
+    "start_frame": 1485,
+    "end_frame": 1578,
+    "en": "the last free kingdom of Men.",
+    "uk": "останнього вільного королівства людей."
+   },
+   {
+    "start": 52.8,
+    "end": 56.6,
+    "start_frame": 1584,
+    "end_frame": 1698,
+    "en": "His war on this country will come swiftly.",
+    "uk": "Його війна проти цієї країни настане швидко."
+   },
+   {
+    "start": 60.833,
+    "end": 63.8,
+    "start_frame": 1825,
+    "end_frame": 1914,
+    "en": "He senses the Ring is close.",
+    "uk": "Він відчуває, що Перстень близько."
+   },
+   {
+    "start": 64.067,
+    "end": 67.633,
+    "start_frame": 1922,
+    "end_frame": 2029,
+    "en": "The strength of the Ring-bearer is failing.",
+    "uk": "Сили Персненосця слабнуть."
+   },
+   {
+    "start": 67.8,
+    "end": 71.9,
+    "start_frame": 2034,
+    "end_frame": 2157,
+    "en": "In his heart, Frodo begins to understand.",
+    "uk": "У глибині серця Фродо починає розуміти."
+   },
+   {
+    "start": 73.4,
+    "end": 76.7,
+    "start_frame": 2202,
+    "end_frame": 2301,
+    "en": "The quest will claim his life.",
+    "uk": "Ця місія коштуватиме йому життя."
+   },
+   {
+    "start": 77.433,
+    "end": 78.9,
+    "start_frame": 2323,
+    "end_frame": 2367,
+    "en": "You know this.",
+    "uk": "Ти це знаєш."
+   },
+   {
+    "start": 80.0,
+    "end": 82.3,
+    "start_frame": 2400,
+    "end_frame": 2469,
+    "en": "You have foreseen it.",
+    "uk": "Ти це передбачила."
+   },
+   {
+    "start": 85.0,
+    "end": 88.0,
+    "start_frame": 2550,
+    "end_frame": 2640,
+    "en": "It is the risk we all took.",
+    "uk": "Це ризик, на який ми всі пішли."
+   },
+   {
+    "start": 92.9,
+    "end": 97.7,
+    "start_frame": 2787,
+    "end_frame": 2931,
+    "en": "In the gathering dark, the will of the Ring grows strong.",
+    "uk": "У темряві, що згущується, воля Персня міцніє."
+   },
+   {
+    "start": 98.633,
+    "end": 104.7,
+    "start_frame": 2959,
+    "end_frame": 3141,
+    "en": "It is close now, so close to achieving its goal.",
+    "uk": "Він уже близько, так близько до своєї мети."
+   },
+   {
+    "start": 107.8,
+    "end": 111.9,
+    "start_frame": 3234,
+    "end_frame": 3357,
+    "en": "For Sauron will have dominion over all life on this earth,",
+    "uk": "Бо Саурон пануватиме над усім живим на цій землі"
+   },
+   {
+    "start": 112.0,
+    "end": 115.4,
+    "start_frame": 3360,
+    "end_frame": 3462,
+    "en": "even unto the ending of the world.",
+    "uk": "аж до кінця світу."
+   },
+   {
+    "start": 117.733,
+    "end": 121.3,
+    "start_frame": 3532,
+    "end_frame": 3639,
+    "en": "The time of the Elves is over.",
+    "uk": "Час ельфів минув."
+   },
+   {
+    "start": 122.533,
+    "end": 125.8,
+    "start_frame": 3676,
+    "end_frame": 3774,
+    "en": "Do we leave Middle-earth to its fate?",
+    "uk": "Чи залишимо ми Середзем'я напризволяще?"
+   },
+   {
+    "start": 128.1,
+    "end": 131.0,
+    "start_frame": 3843,
+    "end_frame": 3930,
+    "en": "Do we let them stand alone?",
+    "uk": "Чи дозволимо їм стояти самотужки?"
+   }
+  ]
+ },
+ "AOTRCampaignTTT_01": {
+  "order": 17,
+  "fps": 25.0,
+  "file": "AOTRCampaignTTT01",
+  "cues": [
+   {
+    "start": 6.48,
+    "end": 9.16,
+    "start_frame": 162,
+    "end_frame": 229,
+    "en": "Mordor will pay for this.",
+    "uk": "Мордор заплатить за це."
+   },
+   {
+    "start": 9.36,
+    "end": 12.4,
+    "start_frame": 234,
+    "end_frame": 310,
+    "en": "These Orcs are not from Mordor.",
+    "uk": "Ці орки не з Мордору."
+   },
+   {
+    "start": 12.68,
+    "end": 15.88,
+    "start_frame": 317,
+    "end_frame": 397,
+    "en": "My lord Éomer! Over here!",
+    "uk": "Мій пане Еомере! Сюди!"
+   },
+   {
+    "start": 47.84,
+    "end": 50.68,
+    "start_frame": 1196,
+    "end_frame": 1267,
+    "en": "He was ambushed by Orcs.",
+    "uk": "Його заскочили орки."
+   },
+   {
+    "start": 51.84,
+    "end": 55.88,
+    "start_frame": 1296,
+    "end_frame": 1397,
+    "en": "If we don't defend our country, Saruman will take it by force.",
+    "uk": "Якщо ми не захистимо нашу країну, Саруман захопить її силою."
+   },
+   {
+    "start": 56.04,
+    "end": 59.08,
+    "start_frame": 1401,
+    "end_frame": 1477,
+    "en": "Orcs are roaming freely across our lands.",
+    "uk": "Орки вільно блукають нашими землями."
+   },
+   {
+    "start": 59.2,
+    "end": 62.64,
+    "start_frame": 1480,
+    "end_frame": 1566,
+    "en": "Orcs bearing the White Hand of Saruman.",
+    "uk": "Орки зі знаком Білої Руки Сарумана."
+   },
+   {
+    "start": 63.2,
+    "end": 65.56,
+    "start_frame": 1580,
+    "end_frame": 1639,
+    "en": "That is a lie.",
+    "uk": "Це брехня."
+   },
+   {
+    "start": 67.84,
+    "end": 72.88,
+    "start_frame": 1696,
+    "end_frame": 1822,
+    "en": "Saruman the White has ever been our friend and ally.",
+    "uk": "Саруман Білий завжди був нашим другом і союзником."
+   },
+   {
+    "start": 73.28,
+    "end": 76.04,
+    "start_frame": 1832,
+    "end_frame": 1901,
+    "en": "How long is it since Saruman bought you?",
+    "uk": "Відколи Саруман тебе купив?"
+   },
+   {
+    "start": 76.44,
+    "end": 78.84,
+    "start_frame": 1911,
+    "end_frame": 1971,
+    "en": "What was the promised price, Gríma?",
+    "uk": "Яку ціну тобі обіцяли, Ґрімо?"
+   },
+   {
+    "start": 78.92,
+    "end": 83.4,
+    "start_frame": 1973,
+    "end_frame": 2085,
+    "en": "When all the men are dead, you will take your share of the treasure?",
+    "uk": "Коли всі чоловіки загинуть, ти забереш свою частку скарбу?"
+   },
+   {
+    "start": 89.44,
+    "end": 93.2,
+    "start_frame": 2236,
+    "end_frame": 2330,
+    "en": "You see much, Éomer, son of Éomund.",
+    "uk": "Ти бачиш забагато, Еомере, сину Еомунда."
+   },
+   {
+    "start": 93.84,
+    "end": 95.6,
+    "start_frame": 2346,
+    "end_frame": 2390,
+    "en": "Too much.",
+    "uk": "Забагато."
+   },
+   {
+    "start": 97.4,
+    "end": 104.2,
+    "start_frame": 2435,
+    "end_frame": 2605,
+    "en": "You are banished forthwith from the kingdom of Rohan and all its domains,",
+    "uk": "Відтепер тебе вигнано з королівства Роган і всіх його володінь"
+   },
+   {
+    "start": 104.72,
+    "end": 107.24,
+    "start_frame": 2618,
+    "end_frame": 2681,
+    "en": "under pain of death.",
+    "uk": "під страхом смерті."
+   },
+   {
+    "start": 107.4,
+    "end": 109.72,
+    "start_frame": 2685,
+    "end_frame": 2743,
+    "en": "You have no authority here!",
+    "uk": "Ти не маєш тут жодної влади!"
+   },
+   {
+    "start": 109.84,
+    "end": 112.56,
+    "start_frame": 2746,
+    "end_frame": 2814,
+    "en": "Your orders mean nothing!",
+    "uk": "Твої накази нічого не важать!"
+   },
+   {
+    "start": 113.04,
+    "end": 116.2,
+    "start_frame": 2826,
+    "end_frame": 2905,
+    "en": "This order does not come from me.",
+    "uk": "Цей наказ віддав не я."
+   },
+   {
+    "start": 116.72,
+    "end": 119.08,
+    "start_frame": 2918,
+    "end_frame": 2977,
+    "en": "It comes from the king.",
+    "uk": "Його віддав король."
+   },
+   {
+    "start": 119.52,
+    "end": 122.48,
+    "start_frame": 2988,
+    "end_frame": 3062,
+    "en": "He signed it this morning.",
+    "uk": "Він підписав його сьогодні вранці."
+   }
+  ]
+ },
+ "AOTRCampaignTTT_02b": {
+  "order": 18,
+  "fps": 25.0,
+  "file": "AOTRCampaignTTT02b",
+  "cues": [
+   {
+    "start": 7.24,
+    "end": 11.2,
+    "start_frame": 181,
+    "end_frame": 280,
+    "en": "The Black Gate of Mordor.",
+    "uk": "Чорна брама Мордору."
+   },
+   {
+    "start": 15.44,
+    "end": 16.88,
+    "start_frame": 386,
+    "end_frame": 422,
+    "en": "Save us.",
+    "uk": "Порятуйте нас."
+   },
+   {
+    "start": 56.8,
+    "end": 60.64,
+    "start_frame": 1420,
+    "end_frame": 1516,
+    "en": "- I do not ask you to come with me, Sam.\n- I know, Mr. Frodo.",
+    "uk": "- Я не прошу тебе йти зі мною, Семе.\n- Я знаю, пане Фродо."
+   },
+   {
+    "start": 61.08,
+    "end": 64.44,
+    "start_frame": 1527,
+    "end_frame": 1611,
+    "en": "I doubt even these Elvish cloaks will hide us in there.",
+    "uk": "Сумніваюся, що навіть ці ельфійські плащі сховають нас там."
+   },
+   {
+    "start": 64.56,
+    "end": 67.72,
+    "start_frame": 1614,
+    "end_frame": 1693,
+    "en": "No! No! No!",
+    "uk": "Ні! Ні! Ні!"
+   },
+   {
+    "start": 67.84,
+    "end": 69.08,
+    "start_frame": 1696,
+    "end_frame": 1727,
+    "en": "No, master!",
+    "uk": "Ні, господарю!"
+   },
+   {
+    "start": 69.2,
+    "end": 72.52,
+    "start_frame": 1730,
+    "end_frame": 1813,
+    "en": "They'll catch you! They'll catch you!",
+    "uk": "Вони тебе спіймають! Спіймають!"
+   },
+   {
+    "start": 72.84,
+    "end": 76.68,
+    "start_frame": 1821,
+    "end_frame": 1917,
+    "en": "No! Don't take it to him!",
+    "uk": "Ні! Не неси його йому!"
+   },
+   {
+    "start": 81.92,
+    "end": 86.2,
+    "start_frame": 2048,
+    "end_frame": 2155,
+    "en": "There's another way. More secret. A dark way.",
+    "uk": "Є інший шлях. Потаємніший. Темний шлях."
+   },
+   {
+    "start": 86.28,
+    "end": 88.32,
+    "start_frame": 2157,
+    "end_frame": 2208,
+    "en": "Why haven't you spoken of this before?",
+    "uk": "Чому ти не казав про це раніше?"
+   },
+   {
+    "start": 88.44,
+    "end": 90.48,
+    "start_frame": 2211,
+    "end_frame": 2262,
+    "en": "Because master did not ask.",
+    "uk": "Бо господар не питав."
+   },
+   {
+    "start": 90.6,
+    "end": 91.84,
+    "start_frame": 2265,
+    "end_frame": 2296,
+    "en": "He's up to something.",
+    "uk": "Він щось замишляє."
+   },
+   {
+    "start": 91.92,
+    "end": 94.68,
+    "start_frame": 2298,
+    "end_frame": 2367,
+    "en": "Are you saying there's another way into Mordor?",
+    "uk": "Кажеш, є інший шлях до Мордору?"
+   },
+   {
+    "start": 95.0,
+    "end": 100.28,
+    "start_frame": 2375,
+    "end_frame": 2507,
+    "en": "Yes. There's a path, and stairs,",
+    "uk": "Так. Є стежка, і сходи,"
+   },
+   {
+    "start": 100.44,
+    "end": 104.68,
+    "start_frame": 2511,
+    "end_frame": 2617,
+    "en": "and then... a tunnel.",
+    "uk": "а потім... тунель."
+   },
+   {
+    "start": 106.88,
+    "end": 109.08,
+    "start_frame": 2672,
+    "end_frame": 2727,
+    "en": "Lead the way, Sméagol.",
+    "uk": "Веди, Смеаґоле."
+   }
+  ]
+ },
+ "AOTRCampaignTTT_04": {
+  "order": 19,
+  "fps": 25.0,
+  "file": "AOTRCampaignTTT04",
+  "cues": [
+   {
+    "start": 5.68,
+    "end": 8.72,
+    "start_frame": 142,
+    "end_frame": 218,
+    "en": "From the lowest dungeon to the highest peak,",
+    "uk": "Від найглибшого підземелля до найвищої вершини"
+   },
+   {
+    "start": 8.84,
+    "end": 12.8,
+    "start_frame": 221,
+    "end_frame": 320,
+    "en": "I fought with the Balrog of Morgoth.",
+    "uk": "я бився з Балроґом Морґота."
+   }
+  ]
+ },
+ "AOTRCampaignTTT_04b": {
+  "order": 20,
+  "fps": 25.0,
+  "file": "AOTRCampaignTTT04b",
+  "cues": [
+   {
+    "start": 15.88,
+    "end": 22.68,
+    "start_frame": 397,
+    "end_frame": 567,
+    "en": "Until at last I threw down my enemy and smote his ruin upon the mountainside.",
+    "uk": "Аж доки нарешті не повалив ворога й не розбив його об схил гори."
+   },
+   {
+    "start": 29.08,
+    "end": 32.0,
+    "start_frame": 727,
+    "end_frame": 800,
+    "en": "Darkness took me.",
+    "uk": "Темрява поглинула мене."
+   },
+   {
+    "start": 32.4,
+    "end": 36.6,
+    "start_frame": 810,
+    "end_frame": 915,
+    "en": "And I strayed out of thought and time.",
+    "uk": "І я блукав поза думкою й часом."
+   },
+   {
+    "start": 37.2,
+    "end": 39.92,
+    "start_frame": 930,
+    "end_frame": 998,
+    "en": "The stars wheeled overhead,",
+    "uk": "Зорі кружляли вгорі,"
+   },
+   {
+    "start": 40.4,
+    "end": 45.28,
+    "start_frame": 1010,
+    "end_frame": 1132,
+    "en": "and every day was as long as a life-age of the earth.",
+    "uk": "і кожен день тривав, як ціла епоха землі."
+   },
+   {
+    "start": 47.2,
+    "end": 49.44,
+    "start_frame": 1180,
+    "end_frame": 1236,
+    "en": "But it was not the end.",
+    "uk": "Але то був не кінець."
+   },
+   {
+    "start": 49.6,
+    "end": 52.88,
+    "start_frame": 1240,
+    "end_frame": 1322,
+    "en": "I felt life in me again.",
+    "uk": "Я знову відчув у собі життя."
+   },
+   {
+    "start": 54.32,
+    "end": 58.72,
+    "start_frame": 1358,
+    "end_frame": 1468,
+    "en": "I've been sent back until my task is done.",
+    "uk": "Мене повернуто назад, доки не виконаю свого завдання."
+   },
+   {
+    "start": 59.12,
+    "end": 60.6,
+    "start_frame": 1478,
+    "end_frame": 1515,
+    "en": "Gandalf.",
+    "uk": "Ґендальфе."
+   },
+   {
+    "start": 62.92,
+    "end": 65.4,
+    "start_frame": 1573,
+    "end_frame": 1635,
+    "en": "I am Gandalf the White.",
+    "uk": "Я — Ґендальф Білий."
+   },
+   {
+    "start": 67.92,
+    "end": 73.56,
+    "start_frame": 1698,
+    "end_frame": 1839,
+    "en": "And I come back to you now, at the turn of the tide.",
+    "uk": "І я повертаюся до вас тепер, коли змінюється хід подій."
+   }
+  ]
+ },
+ "AOTRCampaignTTT_05b": {
+  "order": 21,
+  "fps": 25.0,
+  "file": "AOTRCampaignTTT05b",
+  "cues": [
+   {
+    "start": 5.2,
+    "end": 8.0,
+    "start_frame": 130,
+    "end_frame": 200,
+    "en": "So, this is the answer to all the riddles.",
+    "uk": "Отже, ось і відповідь на всі загадки."
+   },
+   {
+    "start": 10.8,
+    "end": 12.9,
+    "start_frame": 270,
+    "end_frame": 322,
+    "en": "Here in the wild I have you:",
+    "uk": "Тут, у глушині, ви в моїх руках:"
+   },
+   {
+    "start": 14.0,
+    "end": 18.4,
+    "start_frame": 350,
+    "end_frame": 460,
+    "en": "two halflings and a host of men at my call.",
+    "uk": "двоє напіврослих і загін людей під моєю орудою."
+   },
+   {
+    "start": 22.4,
+    "end": 25.2,
+    "start_frame": 560,
+    "end_frame": 630,
+    "en": "The Ring of Power within my grasp.",
+    "uk": "Перстень Влади в межах досяжності."
+   },
+   {
+    "start": 34.8,
+    "end": 38.2,
+    "start_frame": 870,
+    "end_frame": 955,
+    "en": "A chance for Faramir, Captain of Gondor,",
+    "uk": "Нагода для Фараміра, полководця Ґондору,"
+   },
+   {
+    "start": 38.3,
+    "end": 42.9,
+    "start_frame": 957,
+    "end_frame": 1072,
+    "en": "to show his quality.",
+    "uk": "показати, чого він вартий."
+   },
+   {
+    "start": 48.5,
+    "end": 49.5,
+    "start_frame": 1212,
+    "end_frame": 1238,
+    "en": "No!",
+    "uk": "Ні!"
+   },
+   {
+    "start": 52.6,
+    "end": 54.2,
+    "start_frame": 1315,
+    "end_frame": 1355,
+    "en": "Don't you understand?",
+    "uk": "Невже ви не розумієте?"
+   },
+   {
+    "start": 56.3,
+    "end": 58.2,
+    "start_frame": 1408,
+    "end_frame": 1455,
+    "en": "He's got to destroy it!",
+    "uk": "Він мусить його знищити!"
+   },
+   {
+    "start": 58.2,
+    "end": 60.0,
+    "start_frame": 1455,
+    "end_frame": 1500,
+    "en": "Osgiliath is under attack.",
+    "uk": "На Осґіліат напали."
+   },
+   {
+    "start": 60.0,
+    "end": 61.5,
+    "start_frame": 1500,
+    "end_frame": 1538,
+    "en": "They call for reinforcements.",
+    "uk": "Вони просять підкріплення."
+   },
+   {
+    "start": 61.8,
+    "end": 62.6,
+    "start_frame": 1545,
+    "end_frame": 1565,
+    "en": "Please.",
+    "uk": "Будь ласка."
+   },
+   {
+    "start": 63.6,
+    "end": 64.9,
+    "start_frame": 1590,
+    "end_frame": 1623,
+    "en": "It's such a burden.",
+    "uk": "Це такий тягар."
+   },
+   {
+    "start": 66.6,
+    "end": 68.4,
+    "start_frame": 1665,
+    "end_frame": 1710,
+    "en": "Will you not help him?",
+    "uk": "Невже ви йому не допоможете?"
+   },
+   {
+    "start": 70.3,
+    "end": 71.1,
+    "start_frame": 1758,
+    "end_frame": 1777,
+    "en": "Captain.",
+    "uk": "Капітане."
+   },
+   {
+    "start": 72.7,
+    "end": 74.1,
+    "start_frame": 1818,
+    "end_frame": 1852,
+    "en": "Prepare to leave.",
+    "uk": "Готуйтеся до виступу."
+   }
+  ]
+ },
+ "AOTRCampaignTTT_06b": {
+  "order": 22,
+  "fps": 25.0,
+  "file": "AOTRCampaignTTT06b",
+  "cues": [
+   {
+    "start": 7.08,
+    "end": 12.04,
+    "start_frame": 177,
+    "end_frame": 301,
+    "en": "I cannot allow you before Théoden King so armed, Gandalf Greyhame.",
+    "uk": "Я не можу пустити тебе до короля Теодена при зброї, Ґендальфе Сірий."
+   },
+   {
+    "start": 12.28,
+    "end": 16.0,
+    "start_frame": 307,
+    "end_frame": 400,
+    "en": "By order of Gríma Wormtongue.",
+    "uk": "З наказу Ґріми Червеуста."
+   },
+   {
+    "start": 17.6,
+    "end": 19.0,
+    "start_frame": 440,
+    "end_frame": 475,
+    "en": "Your staff.",
+    "uk": "Ваш посох."
+   },
+   {
+    "start": 19.52,
+    "end": 22.88,
+    "start_frame": 488,
+    "end_frame": 572,
+    "en": "You would not part an old man from his walking stick?",
+    "uk": "Невже ти відбереш у старого його ціпок?"
+   },
+   {
+    "start": 33.84,
+    "end": 35.6,
+    "start_frame": 846,
+    "end_frame": 890,
+    "en": "He's a herald of woe.",
+    "uk": "Він провісник лиха."
+   },
+   {
+    "start": 35.68,
+    "end": 42.6,
+    "start_frame": 892,
+    "end_frame": 1065,
+    "en": "The courtesy of your hall is somewhat lessened of late, Théoden King.",
+    "uk": "Гостинність твоїх палат дещо збідніла останнім часом, королю Теодене."
+   },
+   {
+    "start": 43.4,
+    "end": 45.2,
+    "start_frame": 1085,
+    "end_frame": 1130,
+    "en": "He's not welcome.",
+    "uk": "Йому тут не раді."
+   },
+   {
+    "start": 45.8,
+    "end": 50.6,
+    "start_frame": 1145,
+    "end_frame": 1265,
+    "en": "Why should I welcome you,",
+    "uk": "Чому я маю тобі радіти,"
+   },
+   {
+    "start": 51.28,
+    "end": 54.88,
+    "start_frame": 1282,
+    "end_frame": 1372,
+    "en": "Gandalf Stormcrow?",
+    "uk": "Ґендальфе Буревіснику?"
+   },
+   {
+    "start": 55.04,
+    "end": 58.4,
+    "start_frame": 1376,
+    "end_frame": 1460,
+    "en": "A just question, my liege.",
+    "uk": "Слушне питання, мій володарю."
+   },
+   {
+    "start": 63.04,
+    "end": 68.68,
+    "start_frame": 1576,
+    "end_frame": 1717,
+    "en": "I will draw you, Saruman, as poison is drawn from a wound.",
+    "uk": "Я витягну тебе, Сарумане, як витягують отруту з рани."
+   },
+   {
+    "start": 74.4,
+    "end": 78.4,
+    "start_frame": 1860,
+    "end_frame": 1960,
+    "en": "If I go, Théoden dies.",
+    "uk": "Якщо я піду, Теоден помре."
+   },
+   {
+    "start": 78.84,
+    "end": 83.48,
+    "start_frame": 1971,
+    "end_frame": 2087,
+    "en": "You did not kill me, you will not kill him!",
+    "uk": "Ти не вбив мене — не вб'єш і його!"
+   },
+   {
+    "start": 87.2,
+    "end": 89.48,
+    "start_frame": 2180,
+    "end_frame": 2237,
+    "en": "Rohan is mine!",
+    "uk": "Роган мій!"
+   },
+   {
+    "start": 90.2,
+    "end": 92.0,
+    "start_frame": 2255,
+    "end_frame": 2300,
+    "en": "Be gone!",
+    "uk": "Згинь!"
+   }
+  ]
+ },
+ "AOTRCampaignTTT_08": {
+  "order": 23,
+  "fps": 25.0,
+  "file": "AOTRCampaignTTT08",
+  "cues": [
+   {
+    "start": 6.52,
+    "end": 7.88,
+    "start_frame": 163,
+    "end_frame": 197,
+    "en": "Look.",
+    "uk": "Дивіться."
+   },
+   {
+    "start": 9.4,
+    "end": 11.48,
+    "start_frame": 235,
+    "end_frame": 287,
+    "en": "Osgiliath burns.",
+    "uk": "Осґіліат палає."
+   },
+   {
+    "start": 11.84,
+    "end": 13.88,
+    "start_frame": 296,
+    "end_frame": 347,
+    "en": "Mordor has come.",
+    "uk": "Мордор прийшов."
+   },
+   {
+    "start": 14.24,
+    "end": 15.48,
+    "start_frame": 356,
+    "end_frame": 387,
+    "en": "Hurry!",
+    "uk": "Швидше!"
+   }
+  ]
+ },
+ "AOTRCampaignTTT_09": {
+  "order": 24,
+  "fps": 25.0,
+  "file": "AOTRCampaignTTT09",
+  "cues": [
+   {
+    "start": 1.04,
+    "end": 4.64,
+    "start_frame": 26,
+    "end_frame": 116,
+    "en": "Helm's Deep! There it is! Helm's Deep!",
+    "uk": "Гельмова Падь! Ось вона! Гельмова Падь!"
+   },
+   {
+    "start": 27.08,
+    "end": 28.52,
+    "start_frame": 677,
+    "end_frame": 713,
+    "en": "Everyone, this way!",
+    "uk": "Усі сюди!"
+   }
+  ]
+ },
+ "AOTRCampaignTTT_09b": {
+  "order": 25,
+  "fps": 25.0,
+  "file": "AOTRCampaignTTT09b",
+  "cues": [
+   {
+    "start": 9.48,
+    "end": 12.48,
+    "start_frame": 237,
+    "end_frame": 312,
+    "en": "Final count: forty-two.",
+    "uk": "Остаточний рахунок: сорок два."
+   },
+   {
+    "start": 12.68,
+    "end": 13.88,
+    "start_frame": 317,
+    "end_frame": 347,
+    "en": "Forty-two?",
+    "uk": "Сорок два?"
+   },
+   {
+    "start": 14.4,
+    "end": 20.04,
+    "start_frame": 360,
+    "end_frame": 501,
+    "en": "Oh, that's not bad for a pointy-eared Elvish princeling.",
+    "uk": "О, непогано як для ельфійського принца з гострими вухами."
+   },
+   {
+    "start": 20.72,
+    "end": 24.4,
+    "start_frame": 518,
+    "end_frame": 610,
+    "en": "I myself am sitting pretty on forty-three.",
+    "uk": "А я от вигідно сиджу на сорока трьох."
+   },
+   {
+    "start": 28.92,
+    "end": 30.36,
+    "start_frame": 723,
+    "end_frame": 759,
+    "en": "Forty-three.",
+    "uk": "Сорок три."
+   },
+   {
+    "start": 30.48,
+    "end": 32.44,
+    "start_frame": 762,
+    "end_frame": 811,
+    "en": "He was already dead.",
+    "uk": "Він уже був мертвий."
+   },
+   {
+    "start": 32.88,
+    "end": 34.52,
+    "start_frame": 822,
+    "end_frame": 863,
+    "en": "He was twitching.",
+    "uk": "Він сіпався."
+   },
+   {
+    "start": 34.6,
+    "end": 39.88,
+    "start_frame": 865,
+    "end_frame": 997,
+    "en": "He was twitching because he's got my axe embedded in his nervous system!",
+    "uk": "Він сіпався, бо в нього в нервовій системі застрягла моя сокира!"
+   },
+   {
+    "start": 41.64,
+    "end": 47.28,
+    "start_frame": 1041,
+    "end_frame": 1182,
+    "en": "A family of field mice that climb up sometimes, and they tickle me awfully.",
+    "uk": "Родина польових мишей, що часом видираються на мене й страшенно лоскочуть."
+   },
+   {
+    "start": 47.8,
+    "end": 50.56,
+    "start_frame": 1195,
+    "end_frame": 1264,
+    "en": "Always trying to get something with it.",
+    "uk": "Завжди чогось хочуть від мене."
+   },
+   {
+    "start": 61.76,
+    "end": 65.36,
+    "start_frame": 1544,
+    "end_frame": 1634,
+    "en": "Many of these trees were my friends.",
+    "uk": "Багато з цих дерев були моїми друзями."
+   },
+   {
+    "start": 65.92,
+    "end": 70.88,
+    "start_frame": 1648,
+    "end_frame": 1772,
+    "en": "Creatures I had known from nut and acorn.",
+    "uk": "Створіння, яких я знав іще з горіха й жолудя."
+   },
+   {
+    "start": 71.6,
+    "end": 73.28,
+    "start_frame": 1790,
+    "end_frame": 1832,
+    "en": "I'm sorry, Treebeard.",
+    "uk": "Мені шкода, Деревобороде."
+   },
+   {
+    "start": 73.36,
+    "end": 75.68,
+    "start_frame": 1834,
+    "end_frame": 1892,
+    "en": "They had voices of their own.",
+    "uk": "У них були власні голоси."
+   },
+   {
+    "start": 78.2,
+    "end": 79.68,
+    "start_frame": 1955,
+    "end_frame": 1992,
+    "en": "Saruman!",
+    "uk": "Сарумане!"
+   },
+   {
+    "start": 81.0,
+    "end": 83.8,
+    "start_frame": 2025,
+    "end_frame": 2095,
+    "en": "A wizard should know better!",
+    "uk": "Чарівникові слід було б знати краще!"
+   },
+   {
+    "start": 97.72,
+    "end": 104.28,
+    "start_frame": 2443,
+    "end_frame": 2607,
+    "en": "There is no curse in Elvish, Entish, or the tongues of Men",
+    "uk": "Нема прокляття ні ельфійською, ні ентською, ні людськими мовами,"
+   },
+   {
+    "start": 104.4,
+    "end": 107.16,
+    "start_frame": 2610,
+    "end_frame": 2679,
+    "en": "for this treachery.",
+    "uk": "щоб описати таку зраду."
+   },
+   {
+    "start": 133.12,
+    "end": 134.8,
+    "start_frame": 3328,
+    "end_frame": 3370,
+    "en": "Come, my friends.",
+    "uk": "Ходімо, друзі мої."
+   },
+   {
+    "start": 136.08,
+    "end": 139.6,
+    "start_frame": 3402,
+    "end_frame": 3490,
+    "en": "The Ents are going to war.",
+    "uk": "Енти йдуть на війну."
+   },
+   {
+    "start": 140.16,
+    "end": 145.36,
+    "start_frame": 3504,
+    "end_frame": 3634,
+    "en": "It is likely that we go to our doom.",
+    "uk": "Цілком імовірно, що ми йдемо на загибель."
+   },
+   {
+    "start": 147.28,
+    "end": 152.0,
+    "start_frame": 3682,
+    "end_frame": 3800,
+    "en": "The last march of the Ents.",
+    "uk": "Останній похід ентів."
+   }
+  ]
+ },
+ "AOTRCampaignTTT_10b": {
+  "order": 26,
+  "fps": 25.0,
+  "file": "AOTRCampaignTTT10b",
+  "cues": [
+   {
+    "start": 8.84,
+    "end": 10.6,
+    "start_frame": 221,
+    "end_frame": 265,
+    "en": "Break the dam!",
+    "uk": "Руйнуйте дамбу!"
+   },
+   {
+    "start": 11.32,
+    "end": 13.68,
+    "start_frame": 283,
+    "end_frame": 342,
+    "en": "Release the river!",
+    "uk": "Звільніть річку!"
+   },
+   {
+    "start": 62.44,
+    "end": 67.2,
+    "start_frame": 1561,
+    "end_frame": 1680,
+    "en": "Sauron's wrath will be terrible, his retribution swift.",
+    "uk": "Гнів Саурона буде страшним, а відплата — швидкою."
+   },
+   {
+    "start": 74.2,
+    "end": 77.0,
+    "start_frame": 1855,
+    "end_frame": 1925,
+    "en": "The battle for Helm's Deep is over.",
+    "uk": "Битва за Гельмову Падь скінчилася."
+   },
+   {
+    "start": 78.2,
+    "end": 81.68,
+    "start_frame": 1955,
+    "end_frame": 2042,
+    "en": "The battle for Middle-earth is about to begin.",
+    "uk": "Битва за Середзем'я лише починається."
+   },
+   {
+    "start": 86.64,
+    "end": 90.44,
+    "start_frame": 2166,
+    "end_frame": 2261,
+    "en": "All our hopes now lie with two little Hobbits",
+    "uk": "Тепер усі наші надії — на двох маленьких гобітів"
+   },
+   {
+    "start": 90.8,
+    "end": 93.4,
+    "start_frame": 2270,
+    "end_frame": 2335,
+    "en": "somewhere in the wilderness.",
+    "uk": "десь у глушині."
+   },
+   {
+    "start": 95.96,
+    "end": 97.88,
+    "start_frame": 2399,
+    "end_frame": 2447,
+    "en": "Come on, Hobbitses!",
+    "uk": "Ходімо, гобітсики!"
+   },
+   {
+    "start": 98.12,
+    "end": 100.0,
+    "start_frame": 2453,
+    "end_frame": 2500,
+    "en": "Long ways to go yet.",
+    "uk": "Ще довгий шлях попереду."
+   },
+   {
+    "start": 100.28,
+    "end": 102.2,
+    "start_frame": 2507,
+    "end_frame": 2555,
+    "en": "Sméagol will show you the way.",
+    "uk": "Смеаґол покаже вам дорогу."
+   },
+   {
+    "start": 102.48,
+    "end": 103.88,
+    "start_frame": 2562,
+    "end_frame": 2597,
+    "en": "Follow me!",
+    "uk": "За мною!"
+   }
+  ]
+ },
+ "AOTRCampaignROTK_01a": {
+  "order": 27,
+  "fps": 24.0,
+  "file": "AOTRCampaignROTK01a",
+  "cues": [
+   {
+    "start": 4.625,
+    "end": 10.75,
+    "start_frame": 111,
+    "end_frame": 258,
+    "en": "As Saruman's evil is washed away, we send a clear message to Mordor.",
+    "uk": "Поки вода змиває зло Сарумана, ми надсилаємо Мордору чіткий сигнал."
+   },
+   {
+    "start": 11.5,
+    "end": 17.667,
+    "start_frame": 276,
+    "end_frame": 424,
+    "en": "Men are not so weak yet that they are powerless to resist the Dark Lord's will entirely.",
+    "uk": "Люди ще не настільки слабкі, щоб зовсім не могти опиратися волі Темного Володаря."
+   },
+   {
+    "start": 20.083,
+    "end": 23.583,
+    "start_frame": 482,
+    "end_frame": 566,
+    "en": "The ruin of Isengard will prove to be a setback,",
+    "uk": "Руйнування Ізенґарду стане для нього невдачею,"
+   },
+   {
+    "start": 23.958,
+    "end": 27.333,
+    "start_frame": 575,
+    "end_frame": 656,
+    "en": "but we would be fools to believe it a deterrent.",
+    "uk": "але ми були б дурнями, якби вважали, що це його зупинить."
+   },
+   {
+    "start": 30.708,
+    "end": 33.375,
+    "start_frame": 737,
+    "end_frame": 801,
+    "en": "Sauron's power grows by the day.",
+    "uk": "Сила Саурона зростає з кожним днем."
+   },
+   {
+    "start": 33.917,
+    "end": 36.375,
+    "start_frame": 814,
+    "end_frame": 873,
+    "en": "Soon he will be ready to strike.",
+    "uk": "Скоро він буде готовий ударити."
+   },
+   {
+    "start": 37.333,
+    "end": 40.833,
+    "start_frame": 896,
+    "end_frame": 980,
+    "en": "Our only advantage now lies in his hubris.",
+    "uk": "Наша єдина перевага тепер — його гордовитість."
+   },
+   {
+    "start": 41.292,
+    "end": 43.375,
+    "start_frame": 991,
+    "end_frame": 1041,
+    "en": "We must force his hand",
+    "uk": "Ми мусимо змусити його діяти"
+   },
+   {
+    "start": 43.708,
+    "end": 47.208,
+    "start_frame": 1049,
+    "end_frame": 1133,
+    "en": "and make him believe that we will use the Ring against him.",
+    "uk": "й переконати, що ми використаємо Перстень проти нього."
+   },
+   {
+    "start": 55.458,
+    "end": 60.875,
+    "start_frame": 1331,
+    "end_frame": 1461,
+    "en": "Tonight we remember those who gave their blood to defend this country.",
+    "uk": "Сьогодні ми згадуємо тих, хто пролив кров, захищаючи цю країну."
+   },
+   {
+    "start": 61.667,
+    "end": 64.208,
+    "start_frame": 1480,
+    "end_frame": 1541,
+    "en": "Hail the victorious dead!",
+    "uk": "Слава полеглим переможцям!"
+   },
+   {
+    "start": 64.292,
+    "end": 65.375,
+    "start_frame": 1543,
+    "end_frame": 1569,
+    "en": "Hail!",
+    "uk": "Слава!"
+   },
+   {
+    "start": 78.875,
+    "end": 81.0,
+    "start_frame": 1893,
+    "end_frame": 1944,
+    "en": "No news of Frodo?",
+    "uk": "Жодних вістей про Фродо?"
+   },
+   {
+    "start": 81.542,
+    "end": 84.417,
+    "start_frame": 1957,
+    "end_frame": 2026,
+    "en": "No word. Nothing.",
+    "uk": "Жодних. Нічого."
+   },
+   {
+    "start": 87.5,
+    "end": 89.75,
+    "start_frame": 2100,
+    "end_frame": 2154,
+    "en": "What does your heart tell you?",
+    "uk": "Що підказує тобі серце?"
+   },
+   {
+    "start": 96.375,
+    "end": 98.5,
+    "start_frame": 2313,
+    "end_frame": 2364,
+    "en": "That Frodo is alive.",
+    "uk": "Що Фродо живий."
+   },
+   {
+    "start": 102.25,
+    "end": 103.375,
+    "start_frame": 2454,
+    "end_frame": 2481,
+    "en": "Yes.",
+    "uk": "Так."
+   },
+   {
+    "start": 106.542,
+    "end": 108.292,
+    "start_frame": 2557,
+    "end_frame": 2599,
+    "en": "Yes, he's alive.",
+    "uk": "Так, він живий."
+   },
+   {
+    "start": 122.292,
+    "end": 123.792,
+    "start_frame": 2935,
+    "end_frame": 2971,
+    "en": "What are you doing?",
+    "uk": "Що ти робиш?"
+   },
+   {
+    "start": 125.167,
+    "end": 127.208,
+    "start_frame": 3004,
+    "end_frame": 3053,
+    "en": "Pippin, are you mad?",
+    "uk": "Піпіне, ти здурів?"
+   },
+   {
+    "start": 127.292,
+    "end": 130.292,
+    "start_frame": 3055,
+    "end_frame": 3127,
+    "en": "I just want to look at it. Just one more time.",
+    "uk": "Я лише хочу на нього подивитися. Ще тільки раз."
+   },
+   {
+    "start": 130.542,
+    "end": 131.875,
+    "start_frame": 3133,
+    "end_frame": 3165,
+    "en": "Put it back.",
+    "uk": "Поклади на місце."
+   },
+   {
+    "start": 136.375,
+    "end": 138.167,
+    "start_frame": 3273,
+    "end_frame": 3316,
+    "en": "Pippin!",
+    "uk": "Піпіне!"
+   },
+   {
+    "start": 147.0,
+    "end": 150.3,
+    "start_frame": 3528,
+    "end_frame": 3607,
+    "en": "I see you.",
+    "uk": "Я бачу тебе."
+   }
+  ]
+ },
+ "AOTRCampaignROTK_01b": {
+  "order": 28,
+  "fps": 25.0,
+  "file": "AOTRCampaignROTK01b",
+  "cues": [
+   {
+    "start": 1.48,
+    "end": 4.68,
+    "start_frame": 37,
+    "end_frame": 117,
+    "en": "Help! Gandalf!",
+    "uk": "Допоможіть! Ґендальфе!"
+   },
+   {
+    "start": 4.76,
+    "end": 8.32,
+    "start_frame": 119,
+    "end_frame": 208,
+    "en": "Help! Help me!",
+    "uk": "Допоможіть! Допоможіть мені!"
+   },
+   {
+    "start": 32.28,
+    "end": 34.12,
+    "start_frame": 807,
+    "end_frame": 853,
+    "en": "Look at me.",
+    "uk": "Подивися на мене."
+   },
+   {
+    "start": 38.88,
+    "end": 40.28,
+    "start_frame": 972,
+    "end_frame": 1007,
+    "en": "Forgive me.",
+    "uk": "Пробач мені."
+   },
+   {
+    "start": 41.0,
+    "end": 42.72,
+    "start_frame": 1025,
+    "end_frame": 1068,
+    "en": "What did you see?",
+    "uk": "Що ти бачив?"
+   },
+   {
+    "start": 44.48,
+    "end": 47.28,
+    "start_frame": 1112,
+    "end_frame": 1182,
+    "en": "A tree.",
+    "uk": "Дерево."
+   },
+   {
+    "start": 48.6,
+    "end": 53.08,
+    "start_frame": 1215,
+    "end_frame": 1327,
+    "en": "There was a white tree in a courtyard of stone.",
+    "uk": "Біле дерево на кам'яному подвір'ї."
+   },
+   {
+    "start": 55.04,
+    "end": 56.92,
+    "start_frame": 1376,
+    "end_frame": 1423,
+    "en": "It was dead.",
+    "uk": "Воно було мертве."
+   },
+   {
+    "start": 61.08,
+    "end": 62.84,
+    "start_frame": 1527,
+    "end_frame": 1571,
+    "en": "The city was burning.",
+    "uk": "Місто палало."
+   },
+   {
+    "start": 63.28,
+    "end": 64.64,
+    "start_frame": 1582,
+    "end_frame": 1616,
+    "en": "Minas Tirith?",
+    "uk": "Мінас-Тіріт?"
+   },
+   {
+    "start": 64.92,
+    "end": 66.44,
+    "start_frame": 1623,
+    "end_frame": 1661,
+    "en": "Is that what you saw?",
+    "uk": "Це те, що ти бачив?"
+   },
+   {
+    "start": 67.08,
+    "end": 68.4,
+    "start_frame": 1677,
+    "end_frame": 1710,
+    "en": "I saw...",
+    "uk": "Я бачив..."
+   },
+   {
+    "start": 72.36,
+    "end": 74.0,
+    "start_frame": 1809,
+    "end_frame": 1850,
+    "en": "I saw him.",
+    "uk": "Я бачив його."
+   }
+  ]
+ },
+ "AOTRCampaignROTK_02a": {
+  "order": 29,
+  "fps": 25.0,
+  "file": "AOTRCampaignROTK02a",
+  "cues": [
+   {
+    "start": 0.0,
+    "end": 4.76,
+    "start_frame": 0,
+    "end_frame": 119,
+    "en": "A fool, but an honest fool he remains.",
+    "uk": "Дурень, але чесний дурень — таким він і лишається."
+   },
+   {
+    "start": 5.8,
+    "end": 8.16,
+    "start_frame": 145,
+    "end_frame": 204,
+    "en": "We've been strangely fortunate.",
+    "uk": "Нам дивовижно пощастило."
+   },
+   {
+    "start": 8.6,
+    "end": 12.2,
+    "start_frame": 215,
+    "end_frame": 305,
+    "en": "Pippin saw in the palantír a glimpse of the Enemy's plan.",
+    "uk": "Піпін побачив у палантирі частину задуму Ворога."
+   },
+   {
+    "start": 13.4,
+    "end": 17.0,
+    "start_frame": 335,
+    "end_frame": 425,
+    "en": "Sauron moves to strike the city of Minas Tirith.",
+    "uk": "Саурон готується вдарити по місту Мінас-Тіріт."
+   },
+   {
+    "start": 17.32,
+    "end": 18.92,
+    "start_frame": 433,
+    "end_frame": 473,
+    "en": "- I will go.\n- No.",
+    "uk": "- Я піду.\n- Ні."
+   },
+   {
+    "start": 19.12,
+    "end": 21.92,
+    "start_frame": 478,
+    "end_frame": 548,
+    "en": "- They must be warned.\n- They will be.",
+    "uk": "- Їх треба попередити.\n- Їх попередять."
+   },
+   {
+    "start": 25.68,
+    "end": 28.6,
+    "start_frame": 642,
+    "end_frame": 715,
+    "en": "You must come to Minas Tirith by another road.",
+    "uk": "Ти мусиш дістатися Мінас-Тіріта іншим шляхом."
+   },
+   {
+    "start": 28.72,
+    "end": 32.48,
+    "start_frame": 718,
+    "end_frame": 812,
+    "en": "Follow the river. Look to the black ships.",
+    "uk": "Іди вздовж річки. Стеж за чорними кораблями."
+   },
+   {
+    "start": 34.08,
+    "end": 35.68,
+    "start_frame": 852,
+    "end_frame": 892,
+    "en": "Understand this.",
+    "uk": "Зрозумій ось що."
+   },
+   {
+    "start": 36.28,
+    "end": 39.56,
+    "start_frame": 907,
+    "end_frame": 989,
+    "en": "Things are now in motion that cannot be undone.",
+    "uk": "Уже рушило те, чого не можна скасувати."
+   },
+   {
+    "start": 41.4,
+    "end": 44.0,
+    "start_frame": 1035,
+    "end_frame": 1100,
+    "en": "I ride for Minas Tirith.",
+    "uk": "Я їду до Мінас-Тіріта."
+   },
+   {
+    "start": 45.8,
+    "end": 47.88,
+    "start_frame": 1145,
+    "end_frame": 1197,
+    "en": "And I won't be going alone.",
+    "uk": "І їду не сам."
+   },
+   {
+    "start": 50.88,
+    "end": 52.64,
+    "start_frame": 1272,
+    "end_frame": 1316,
+    "en": "How far is Minas Tirith?",
+    "uk": "Як далеко до Мінас-Тіріта?"
+   },
+   {
+    "start": 52.76,
+    "end": 55.48,
+    "start_frame": 1319,
+    "end_frame": 1387,
+    "en": "Three days' ride, as the Nazgûl flies.",
+    "uk": "Три дні верхи, якщо летіти, як назґул."
+   },
+   {
+    "start": 55.6,
+    "end": 58.72,
+    "start_frame": 1390,
+    "end_frame": 1468,
+    "en": "And you'd better hope we don't have one of those on our tail.",
+    "uk": "І краще молися, щоб жоден із них не сів нам на хвіст."
+   },
+   {
+    "start": 59.6,
+    "end": 62.56,
+    "start_frame": 1490,
+    "end_frame": 1564,
+    "en": "Here. Something for the road.",
+    "uk": "Ось. Щось у дорогу."
+   },
+   {
+    "start": 63.68,
+    "end": 65.92,
+    "start_frame": 1592,
+    "end_frame": 1648,
+    "en": "The last of the Longbottom Leaf.",
+    "uk": "Останні рештки «Лонгботтомського листа»."
+   },
+   {
+    "start": 66.08,
+    "end": 67.68,
+    "start_frame": 1652,
+    "end_frame": 1692,
+    "en": "I know you've run out.",
+    "uk": "Знаю, твій уже закінчився."
+   },
+   {
+    "start": 68.2,
+    "end": 69.96,
+    "start_frame": 1705,
+    "end_frame": 1749,
+    "en": "You smoke too much, Pip.",
+    "uk": "Ти забагато куриш, Піпе."
+   },
+   {
+    "start": 70.44,
+    "end": 72.52,
+    "start_frame": 1761,
+    "end_frame": 1813,
+    "en": "But we'll see each other soon.",
+    "uk": "Але ми скоро побачимося."
+   },
+   {
+    "start": 75.68,
+    "end": 78.56,
+    "start_frame": 1892,
+    "end_frame": 1964,
+    "en": "- Won't we?\n- I don't know.",
+    "uk": "- Правда ж?\n- Не знаю."
+   },
+   {
+    "start": 80.16,
+    "end": 82.32,
+    "start_frame": 2004,
+    "end_frame": 2058,
+    "en": "I don't know what's going to happen.",
+    "uk": "Не знаю, що буде."
+   },
+   {
+    "start": 82.92,
+    "end": 84.8,
+    "start_frame": 2073,
+    "end_frame": 2120,
+    "en": "- Merry?\n- Run, Shadowfax.",
+    "uk": "- Мері?\n- Біжи, Тінегриве."
+   },
+   {
+    "start": 84.92,
+    "end": 87.6,
+    "start_frame": 2123,
+    "end_frame": 2190,
+    "en": "- Show us the meaning of haste.\n- Merry!",
+    "uk": "- Покажи нам, що таке поспіх.\n- Мері!"
+   },
+   {
+    "start": 104.96,
+    "end": 108.04,
+    "start_frame": 2624,
+    "end_frame": 2701,
+    "en": "We've just passed into the realm of Gondor.",
+    "uk": "Ми щойно в'їхали до королівства Ґондор."
+   },
+   {
+    "start": 119.52,
+    "end": 124.44,
+    "start_frame": 2988,
+    "end_frame": 3111,
+    "en": "Minas Tirith. City of Kings.",
+    "uk": "Мінас-Тіріт. Місто королів."
+   }
+  ]
+ },
+ "AOTRCampaignROTK_02b": {
+  "order": 30,
+  "fps": 25.0,
+  "file": "AOTRCampaignROTK02b",
+  "cues": [
+   {
+    "start": 22.72,
+    "end": 26.32,
+    "start_frame": 568,
+    "end_frame": 658,
+    "en": "The beacon! The beacon of Amon Dîn is lit!",
+    "uk": "Вогонь! Вогонь на Амон-Діні запалено!"
+   },
+   {
+    "start": 29.32,
+    "end": 31.92,
+    "start_frame": 733,
+    "end_frame": 798,
+    "en": "Hope is kindled.",
+    "uk": "Надію розпалено."
+   }
+  ]
+ },
+ "AOTRCampaignROTK_03a": {
+  "order": 31,
+  "fps": 25.0,
+  "file": "AOTRCampaignROTK03a",
+  "cues": [
+   {
+    "start": 21.0,
+    "end": 22.2,
+    "start_frame": 525,
+    "end_frame": 555,
+    "en": "Grimbold, how many?",
+    "uk": "Ґрімбольде, скільки?"
+   },
+   {
+    "start": 22.32,
+    "end": 25.6,
+    "start_frame": 558,
+    "end_frame": 640,
+    "en": "Five hundred men from the Westfold, my lord.",
+    "uk": "П'ятсот воїнів із Вестфолду, мій пане."
+   },
+   {
+    "start": 25.72,
+    "end": 28.96,
+    "start_frame": 643,
+    "end_frame": 724,
+    "en": "Three hundred more from Fenmarch, King Théoden.",
+    "uk": "Ще триста з Фенмарку, королю Теодене."
+   },
+   {
+    "start": 29.36,
+    "end": 31.28,
+    "start_frame": 734,
+    "end_frame": 782,
+    "en": "And the riders from Snowbourn?",
+    "uk": "А вершники зі Сноуборну?"
+   },
+   {
+    "start": 31.48,
+    "end": 33.52,
+    "start_frame": 787,
+    "end_frame": 838,
+    "en": "None have come, my lord.",
+    "uk": "Жоден не прийшов, мій пане."
+   },
+   {
+    "start": 50.4,
+    "end": 52.2,
+    "start_frame": 1260,
+    "end_frame": 1305,
+    "en": "Six thousand spears.",
+    "uk": "Шість тисяч списів."
+   },
+   {
+    "start": 53.4,
+    "end": 55.72,
+    "start_frame": 1335,
+    "end_frame": 1393,
+    "en": "Less than half of what I'd hoped for.",
+    "uk": "Менше половини від того, на що я сподівався."
+   },
+   {
+    "start": 55.84,
+    "end": 59.44,
+    "start_frame": 1396,
+    "end_frame": 1486,
+    "en": "Six thousand will not be enough to break the lines of Mordor.",
+    "uk": "Шести тисяч не вистачить, щоб прорвати лави Мордору."
+   },
+   {
+    "start": 61.92,
+    "end": 63.28,
+    "start_frame": 1548,
+    "end_frame": 1582,
+    "en": "More will come.",
+    "uk": "Прийдуть іще."
+   },
+   {
+    "start": 64.2,
+    "end": 67.08,
+    "start_frame": 1605,
+    "end_frame": 1677,
+    "en": "Every hour lost hastens Gondor's defeat.",
+    "uk": "Кожна змарнована година наближає поразку Ґондору."
+   },
+   {
+    "start": 67.2,
+    "end": 70.4,
+    "start_frame": 1680,
+    "end_frame": 1760,
+    "en": "We have till dawn. Then we must ride.",
+    "uk": "Маємо час до світанку. Потім мусимо вирушати."
+   }
+  ]
+ },
+ "AOTRCampaignROTK_03b": {
+  "order": 32,
+  "fps": 25.0,
+  "file": "AOTRCampaignROTK03b",
+  "cues": []
+ },
+ "AOTRCampaignROTK_05a": {
+  "order": 33,
+  "fps": 24.0,
+  "file": "AOTRCampaignROTK05a",
+  "cues": [
+   {
+    "start": 17.25,
+    "end": 21.958,
+    "start_frame": 414,
+    "end_frame": 527,
+    "en": "The Age of Men is over.",
+    "uk": "Епоха людей скінчилася."
+   },
+   {
+    "start": 22.083,
+    "end": 27.208,
+    "start_frame": 530,
+    "end_frame": 653,
+    "en": "The time of the Orc has come.",
+    "uk": "Настав час орків."
+   },
+   {
+    "start": 37.5,
+    "end": 41.083,
+    "start_frame": 900,
+    "end_frame": 986,
+    "en": "Send forth all legions.",
+    "uk": "Кинь у бій усі легіони."
+   },
+   {
+    "start": 41.958,
+    "end": 46.333,
+    "start_frame": 1007,
+    "end_frame": 1112,
+    "en": "Do not stop the attack until the city is taken.",
+    "uk": "Не припиняй наступу, доки не візьмеш місто."
+   },
+   {
+    "start": 47.0,
+    "end": 48.708,
+    "start_frame": 1128,
+    "end_frame": 1169,
+    "en": "Slay them all.",
+    "uk": "Убий їх усіх."
+   },
+   {
+    "start": 51.208,
+    "end": 53.083,
+    "start_frame": 1229,
+    "end_frame": 1274,
+    "en": "What of the wizard?",
+    "uk": "А що з чарівником?"
+   },
+   {
+    "start": 53.833,
+    "end": 56.625,
+    "start_frame": 1292,
+    "end_frame": 1359,
+    "en": "I will break him.",
+    "uk": "Я його зламаю."
+   },
+   {
+    "start": 60.375,
+    "end": 62.708,
+    "start_frame": 1449,
+    "end_frame": 1505,
+    "en": "Where are Théoden's riders?",
+    "uk": "Де вершники Теодена?"
+   },
+   {
+    "start": 62.833,
+    "end": 64.917,
+    "start_frame": 1508,
+    "end_frame": 1558,
+    "en": "Will Rohan's army come?",
+    "uk": "Чи прийде військо Рогану?"
+   },
+   {
+    "start": 66.083,
+    "end": 67.25,
+    "start_frame": 1586,
+    "end_frame": 1614,
+    "en": "Mithrandir?",
+    "uk": "Мітрандире?"
+   }
+  ]
+ },
+ "AOTRCampaignROTK_05b": {
+  "order": 34,
+  "fps": 24.0,
+  "file": "AOTRCampaignROTK05b",
+  "cues": [
+   {
+    "start": 8.583,
+    "end": 10.708,
+    "start_frame": 206,
+    "end_frame": 257,
+    "en": "The city is breached!",
+    "uk": "Місто прорвали!"
+   },
+   {
+    "start": 10.833,
+    "end": 13.667,
+    "start_frame": 260,
+    "end_frame": 328,
+    "en": "Fall back! To the second level!",
+    "uk": "Відступайте! До другого ярусу!"
+   },
+   {
+    "start": 17.208,
+    "end": 19.5,
+    "start_frame": 413,
+    "end_frame": 468,
+    "en": "Get the women and children out!",
+    "uk": "Виведіть жінок і дітей!"
+   },
+   {
+    "start": 19.583,
+    "end": 22.375,
+    "start_frame": 470,
+    "end_frame": 537,
+    "en": "Get them out! Retreat!",
+    "uk": "Виведіть їх! Відступаємо!"
+   },
+   {
+    "start": 23.0,
+    "end": 24.292,
+    "start_frame": 552,
+    "end_frame": 583,
+    "en": "Come on!",
+    "uk": "Уперед!"
+   },
+   {
+    "start": 24.375,
+    "end": 26.625,
+    "start_frame": 585,
+    "end_frame": 639,
+    "en": "Move into the city!",
+    "uk": "Заходьте до міста!"
+   },
+   {
+    "start": 27.125,
+    "end": 29.25,
+    "start_frame": 651,
+    "end_frame": 702,
+    "en": "Kill all in your path!",
+    "uk": "Убивайте всіх на своєму шляху!"
+   }
+  ]
+ },
+ "AOTRCampaignROTK_06a": {
+  "order": 35,
+  "fps": 24.0,
+  "file": "AOTRCampaignROTK06a",
+  "cues": [
+   {
+    "start": 11.208,
+    "end": 13.542,
+    "start_frame": 269,
+    "end_frame": 325,
+    "en": "What is this place?",
+    "uk": "Що це за місце?"
+   },
+   {
+    "start": 17.958,
+    "end": 21.333,
+    "start_frame": 431,
+    "end_frame": 512,
+    "en": "Master must go in the tunnel.",
+    "uk": "Господар мусить зайти в тунель."
+   },
+   {
+    "start": 22.042,
+    "end": 26.583,
+    "start_frame": 529,
+    "end_frame": 638,
+    "en": "No. Now that I'm here, I don't think I want to.",
+    "uk": "Ні. Тепер, коли я тут, мені, здається, не хочеться."
+   },
+   {
+    "start": 28.583,
+    "end": 30.833,
+    "start_frame": 686,
+    "end_frame": 740,
+    "en": "It's the only way.",
+    "uk": "Це єдиний шлях."
+   },
+   {
+    "start": 33.208,
+    "end": 34.833,
+    "start_frame": 797,
+    "end_frame": 836,
+    "en": "Go in...",
+    "uk": "Заходь..."
+   },
+   {
+    "start": 36.167,
+    "end": 37.542,
+    "start_frame": 868,
+    "end_frame": 901,
+    "en": "...or go back.",
+    "uk": "...або вертайся."
+   },
+   {
+    "start": 40.583,
+    "end": 42.958,
+    "start_frame": 974,
+    "end_frame": 1031,
+    "en": "I can't go back.",
+    "uk": "Я не можу повернутися."
+   },
+   {
+    "start": 56.125,
+    "end": 57.375,
+    "start_frame": 1347,
+    "end_frame": 1377,
+    "en": "What's that smell?",
+    "uk": "Що це за сморід?"
+   },
+   {
+    "start": 57.5,
+    "end": 61.042,
+    "start_frame": 1380,
+    "end_frame": 1465,
+    "en": "Orcses' filth. Orcses come here sometimes.",
+    "uk": "Орківська гидота. Орки часом сюди заходять."
+   },
+   {
+    "start": 73.875,
+    "end": 75.083,
+    "start_frame": 1773,
+    "end_frame": 1802,
+    "en": "This way!",
+    "uk": "Сюди!"
+   },
+   {
+    "start": 78.292,
+    "end": 79.667,
+    "start_frame": 1879,
+    "end_frame": 1912,
+    "en": "Sméagol!",
+    "uk": "Смеаґоле!"
+   }
+  ]
+ },
+ "AOTRCampaignROTK_06b": {
+  "order": 36,
+  "fps": 24.0,
+  "file": "AOTRCampaignROTK06b",
+  "cues": [
+   {
+    "start": 13.417,
+    "end": 15.625,
+    "start_frame": 322,
+    "end_frame": 375,
+    "en": "We did it, Mr. Frodo.",
+    "uk": "Ми змогли, пане Фродо."
+   },
+   {
+    "start": 16.167,
+    "end": 17.958,
+    "start_frame": 388,
+    "end_frame": 431,
+    "en": "We made it to Mordor.",
+    "uk": "Ми дісталися Мордору."
+   },
+   {
+    "start": 19.917,
+    "end": 21.667,
+    "start_frame": 478,
+    "end_frame": 520,
+    "en": "There's so many of them.",
+    "uk": "Їх так багато."
+   },
+   {
+    "start": 22.542,
+    "end": 24.75,
+    "start_frame": 541,
+    "end_frame": 594,
+    "en": "We'll never get through unseen.",
+    "uk": "Ми ніколи не пройдемо непомітно."
+   },
+   {
+    "start": 30.458,
+    "end": 33.042,
+    "start_frame": 731,
+    "end_frame": 793,
+    "en": "It's him. The Eye.",
+    "uk": "Це він. Око."
+   },
+   {
+    "start": 41.333,
+    "end": 43.75,
+    "start_frame": 992,
+    "end_frame": 1050,
+    "en": "We have to go in there, Mr. Frodo.",
+    "uk": "Нам доведеться йти туди, пане Фродо."
+   },
+   {
+    "start": 44.5,
+    "end": 45.958,
+    "start_frame": 1068,
+    "end_frame": 1103,
+    "en": "There's nothing for it.",
+    "uk": "Нічого не вдієш."
+   },
+   {
+    "start": 49.458,
+    "end": 50.458,
+    "start_frame": 1187,
+    "end_frame": 1211,
+    "en": "Come on.",
+    "uk": "Ходімо."
+   },
+   {
+    "start": 51.083,
+    "end": 53.25,
+    "start_frame": 1226,
+    "end_frame": 1278,
+    "en": "Let's just make it down the hill for starters.",
+    "uk": "Для початку хоч би спустімося з пагорба."
+   }
+  ]
+ },
+ "AOTRCampaignROTK_07a": {
+  "order": 37,
+  "fps": 24.0,
+  "file": "AOTRCampaignROTK07a",
+  "cues": []
+ },
+ "AOTRCampaignROTK_07b": {
+  "order": 38,
+  "fps": 24.0,
+  "file": "AOTRCampaignROTK07b",
+  "cues": [
+   {
+    "start": 23.667,
+    "end": 25.875,
+    "start_frame": 568,
+    "end_frame": 621,
+    "en": "Stop this madness!",
+    "uk": "Припиніть це божевілля!"
+   },
+   {
+    "start": 60.583,
+    "end": 63.917,
+    "start_frame": 1454,
+    "end_frame": 1534,
+    "en": "You will not take my son from me!",
+    "uk": "Ви не заберете в мене мого сина!"
+   },
+   {
+    "start": 64.0,
+    "end": 65.75,
+    "start_frame": 1536,
+    "end_frame": 1578,
+    "en": "No! No!",
+    "uk": "Ні! Ні!"
+   },
+   {
+    "start": 65.833,
+    "end": 69.5,
+    "start_frame": 1580,
+    "end_frame": 1668,
+    "en": "No!",
+    "uk": "Ні!"
+   }
+  ]
+ },
+ "AOTRCampaignROTK_08a": {
+  "order": 39,
+  "fps": 24.0,
+  "file": "AOTRCampaignROTK08a",
+  "cues": [
+   {
+    "start": 44.875,
+    "end": 48.583,
+    "start_frame": 1077,
+    "end_frame": 1166,
+    "en": "Courage, Merry. Courage for our friends.",
+    "uk": "Сміливіше, Мері. Сміливіше, заради наших друзів."
+   },
+   {
+    "start": 52.375,
+    "end": 55.667,
+    "start_frame": 1257,
+    "end_frame": 1336,
+    "en": "Form ranks, you maggots! Form ranks!",
+    "uk": "Шикуйтеся, хробаки! Шикуйтеся!"
+   },
+   {
+    "start": 55.875,
+    "end": 58.875,
+    "start_frame": 1341,
+    "end_frame": 1413,
+    "en": "Pikes in front! Archers behind!",
+    "uk": "Піки вперед! Лучники позаду!"
+   },
+   {
+    "start": 66.792,
+    "end": 71.667,
+    "start_frame": 1603,
+    "end_frame": 1720,
+    "en": "Éomer, take your éored down the left flank.",
+    "uk": "Еомере, веди свій еоред лівим флангом."
+   },
+   {
+    "start": 71.833,
+    "end": 74.792,
+    "start_frame": 1724,
+    "end_frame": 1795,
+    "en": "Gamling, follow the King's banner down the centre.",
+    "uk": "Ґамлінґу, йди за королівським стягом у центрі."
+   },
+   {
+    "start": 74.917,
+    "end": 78.667,
+    "start_frame": 1798,
+    "end_frame": 1888,
+    "en": "Grimbold, take your company right, after you pass the wall.",
+    "uk": "Ґрімбольде, бери свій загін праворуч, щойно мине стіну."
+   },
+   {
+    "start": 78.792,
+    "end": 81.542,
+    "start_frame": 1891,
+    "end_frame": 1957,
+    "en": "Forth, and fear no darkness!",
+    "uk": "Уперед, і не бійтеся темряви!"
+   },
+   {
+    "start": 81.667,
+    "end": 85.542,
+    "start_frame": 1960,
+    "end_frame": 2053,
+    "en": "Arise! Arise, Riders of Théoden!",
+    "uk": "Вставайте! Вставайте, Вершники Теодена!"
+   },
+   {
+    "start": 85.667,
+    "end": 88.083,
+    "start_frame": 2056,
+    "end_frame": 2114,
+    "en": "Spears shall be shaken!",
+    "uk": "Списи затремтять!"
+   },
+   {
+    "start": 88.25,
+    "end": 91.125,
+    "start_frame": 2118,
+    "end_frame": 2187,
+    "en": "Shields shall be splintered!",
+    "uk": "Щити розлетяться на друзки!"
+   },
+   {
+    "start": 91.292,
+    "end": 93.0,
+    "start_frame": 2191,
+    "end_frame": 2232,
+    "en": "A sword-day...",
+    "uk": "День мечів..."
+   },
+   {
+    "start": 93.083,
+    "end": 94.917,
+    "start_frame": 2234,
+    "end_frame": 2278,
+    "en": "...a red day...",
+    "uk": "...день червоний..."
+   },
+   {
+    "start": 95.042,
+    "end": 98.167,
+    "start_frame": 2281,
+    "end_frame": 2356,
+    "en": "...ere the sun rises!",
+    "uk": "...ще до сходу сонця!"
+   }
+  ]
+ },
+ "AOTRCampaignROTK_11a": {
+  "order": 40,
+  "fps": 24.0,
+  "file": "AOTRCampaignROTK11a",
+  "cues": [
+   {
+    "start": 42.7,
+    "end": 45.1,
+    "start_frame": 1025,
+    "end_frame": 1082,
+    "en": "Frodo, get down!",
+    "uk": "Фродо, лягай!"
+   },
+   {
+    "start": 46.6,
+    "end": 48.3,
+    "start_frame": 1118,
+    "end_frame": 1159,
+    "en": "Hide!",
+    "uk": "Ховайся!"
+   }
+  ]
+ },
+ "AOTRCampaignROTK_11b": {
+  "order": 41,
+  "fps": 24.0,
+  "file": "AOTRCampaignROTK11b",
+  "cues": [
+   {
+    "start": 35.167,
+    "end": 37.375,
+    "start_frame": 844,
+    "end_frame": 897,
+    "en": "Give me your hand!",
+    "uk": "Дайте руку!"
+   },
+   {
+    "start": 45.5,
+    "end": 48.167,
+    "start_frame": 1092,
+    "end_frame": 1156,
+    "en": "Don't let go.",
+    "uk": "Не відпускайте."
+   },
+   {
+    "start": 49.042,
+    "end": 50.792,
+    "start_frame": 1177,
+    "end_frame": 1219,
+    "en": "Reach!",
+    "uk": "Тягніться!"
+   }
+  ]
+ },
+ "AOTRCampaignROTK_12a": {
+  "order": 42,
+  "fps": 24.0,
+  "file": "AOTRCampaignROTK12a",
+  "cues": []
+ },
+ "AOTRCampaignROTK_12b": {
+  "order": 43,
+  "fps": 24.0,
+  "file": "AOTRCampaignROTK12b",
+  "cues": []
+ },
+ "AOTRCampaignROTK_13b": {
+  "order": 44,
+  "fps": 24.0,
+  "file": "AOTRCampaignROTK13b",
+  "cues": []
+ },
+ "AOTRCampaignROTK_14a": {
+  "order": 45,
+  "fps": 24.0,
+  "file": "AOTRCampaignROTK14a",
+  "cues": [
+   {
+    "start": 17.917,
+    "end": 19.583,
+    "start_frame": 430,
+    "end_frame": 470,
+    "en": "Mr. Frodo?",
+    "uk": "Пане Фродо?"
+   },
+   {
+    "start": 23.042,
+    "end": 24.792,
+    "start_frame": 553,
+    "end_frame": 595,
+    "en": "What is it?",
+    "uk": "Що з вами?"
+   },
+   {
+    "start": 26.25,
+    "end": 30.542,
+    "start_frame": 630,
+    "end_frame": 733,
+    "en": "It's four years to the day since Weathertop, Sam.",
+    "uk": "Сьогодні рівно чотири роки від Вершини Вітрів, Семе."
+   },
+   {
+    "start": 30.667,
+    "end": 33.792,
+    "start_frame": 736,
+    "end_frame": 811,
+    "en": "It's never really healed.",
+    "uk": "Вона так і не загоїлася до кінця."
+   },
+   {
+    "start": 37.333,
+    "end": 39.625,
+    "start_frame": 896,
+    "end_frame": 951,
+    "en": "There and Back Again.",
+    "uk": "«Туди й звідти»."
+   },
+   {
+    "start": 39.667,
+    "end": 42.292,
+    "start_frame": 952,
+    "end_frame": 1015,
+    "en": "A Hobbit's Tale by Bilbo Baggins.",
+    "uk": "«Розповідь гобіта», написав Більбо Беґінз."
+   },
+   {
+    "start": 43.167,
+    "end": 47.5,
+    "start_frame": 1036,
+    "end_frame": 1140,
+    "en": "And The Lord of the Rings by Frodo Baggins.",
+    "uk": "І «Володар Перснів», написав Фродо Беґінз."
+   },
+   {
+    "start": 47.667,
+    "end": 50.292,
+    "start_frame": 1144,
+    "end_frame": 1207,
+    "en": "You finished it.",
+    "uk": "Ви її закінчили."
+   },
+   {
+    "start": 52.625,
+    "end": 54.875,
+    "start_frame": 1263,
+    "end_frame": 1317,
+    "en": "Not quite.",
+    "uk": "Не зовсім."
+   },
+   {
+    "start": 55.083,
+    "end": 58.083,
+    "start_frame": 1322,
+    "end_frame": 1394,
+    "en": "There's room for a little more.",
+    "uk": "Тут є місце ще для дечого."
+   }
+  ]
+ },
+ "AOTRCampaignROTK_14b": {
+  "order": 46,
+  "fps": 24.0,
+  "file": "AOTRCampaignROTK14b",
+  "cues": [
+   {
+    "start": 11.875,
+    "end": 17.792,
+    "start_frame": 285,
+    "end_frame": 427,
+    "en": "I think I'm quite ready for another adventure.",
+    "uk": "Гадаю, я цілком готовий до нової пригоди."
+   },
+   {
+    "start": 49.917,
+    "end": 54.375,
+    "start_frame": 1198,
+    "end_frame": 1305,
+    "en": "Farewell, my brave Hobbits.",
+    "uk": "Прощавайте, мої хоробрі гобіти."
+   },
+   {
+    "start": 56.875,
+    "end": 60.375,
+    "start_frame": 1365,
+    "end_frame": 1449,
+    "en": "My work is now finished.",
+    "uk": "Мою роботу завершено."
+   },
+   {
+    "start": 62.75,
+    "end": 66.917,
+    "start_frame": 1506,
+    "end_frame": 1606,
+    "en": "Here at last, on the shores of the sea,",
+    "uk": "Тут, нарешті, на березі моря"
+   },
+   {
+    "start": 67.833,
+    "end": 72.375,
+    "start_frame": 1628,
+    "end_frame": 1737,
+    "en": "comes the end of our Fellowship.",
+    "uk": "настає кінець нашого Братства."
+   },
+   {
+    "start": 74.375,
+    "end": 77.542,
+    "start_frame": 1785,
+    "end_frame": 1861,
+    "en": "I will not say: do not weep,",
+    "uk": "Я не скажу: не плачте,"
+   },
+   {
+    "start": 77.667,
+    "end": 83.0,
+    "start_frame": 1864,
+    "end_frame": 1992,
+    "en": "for not all tears are an evil.",
+    "uk": "бо не всі сльози — зло."
+   },
+   {
+    "start": 98.75,
+    "end": 101.875,
+    "start_frame": 2370,
+    "end_frame": 2445,
+    "en": "It is time, Frodo.",
+    "uk": "Час настав, Фродо."
+   },
+   {
+    "start": 106.333,
+    "end": 108.667,
+    "start_frame": 2552,
+    "end_frame": 2608,
+    "en": "What does he mean?",
+    "uk": "Що він має на увазі?"
+   },
+   {
+    "start": 111.0,
+    "end": 114.583,
+    "start_frame": 2664,
+    "end_frame": 2750,
+    "en": "We set out to save the Shire, Sam.",
+    "uk": "Ми вирушили, щоб урятувати Шир, Семе."
+   },
+   {
+    "start": 115.417,
+    "end": 118.583,
+    "start_frame": 2770,
+    "end_frame": 2846,
+    "en": "And it has been saved,",
+    "uk": "І його врятовано,"
+   },
+   {
+    "start": 121.75,
+    "end": 124.792,
+    "start_frame": 2922,
+    "end_frame": 2995,
+    "en": "but not for me.",
+    "uk": "але не для мене."
+   },
+   {
+    "start": 125.417,
+    "end": 128.167,
+    "start_frame": 3010,
+    "end_frame": 3076,
+    "en": "You don't mean that.",
+    "uk": "Ви ж не всерйоз."
+   },
+   {
+    "start": 129.167,
+    "end": 131.875,
+    "start_frame": 3100,
+    "end_frame": 3165,
+    "en": "You can't leave.",
+    "uk": "Ви не можете поїхати."
+   },
+   {
+    "start": 139.667,
+    "end": 143.5,
+    "start_frame": 3352,
+    "end_frame": 3444,
+    "en": "The last pages are for you, Sam.",
+    "uk": "Останні сторінки — для тебе, Семе."
+   }
+  ]
+ }
+}

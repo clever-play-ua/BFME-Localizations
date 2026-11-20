@@ -1,0 +1,83 @@
+{
+ "hero": "Fatty Bolger",
+ "uk_name": "Товстун Болджер",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:ArnorFattyBolger",
+     "t": "Name",
+     "en": "Fatty Bolger",
+     "uk": "Товстун Болджер",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FattyBolgerSpeed",
+     "t": "Button",
+     "en": "Run, Fatty, Run! (&W)",
+     "uk": "Біжи, Товстуне, біжи! (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipFattyBolgerSpeed",
+     "t": "Tooltip",
+     "en": "Modifier Type: Buff \\n Fatty Bolger gains +30% speed for 15 seconds\\n Left click to activate",
+     "uk": "Тип ефекту: Посилення\\nНа 15 сек. Товстун Болджер отримує бонус +30% швидкості\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FattyConspirator",
+     "t": "Button",
+     "en": "Co-conspirator (&T)",
+     "uk": "Спільник (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFattyConspirator",
+     "t": "Tooltip",
+     "en": "Requires Level 5\\nModifier Type: Spell\\nFatty temporarily empowers a friendly hero, granting them 50% armour, 50% faster experience gain, and 75% faster power recharge times\\nStacks with Leadership and Spells\\nLeft click icon then left click on target hero",
+     "uk": "Необхідно: Рівень 5\\nТип ефекту: Заклинання\\nТовстун тимчасово посилює союзного героя: той отримує бонус +50% броні, на 50% швидше набирає досвід і на 75% швидше відновлює здібності\\nПоєднується з лідерством і заклинаннями\\nКлікніть на іконку, потім оберіть героя",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:FattyPrecision",
+     "t": "Button",
+     "en": "Halfling Precision (&C)",
+     "uk": "Влучність напіврослика (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipFattyPrecision",
+     "t": "Tooltip",
+     "en": "Requires Level 7 \\n For 15 seconds, Fatty's attacks ignore enemy armour\\n Left click to activate",
+     "uk": "Необхідно: Рівень 7\\nПротягом 15 сек. атаки Товстуна ігнорують всю броню ворогів\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:HornofBuckland",
+     "t": "Button",
+     "en": "Fear! Fire! Foes! (&R)",
+     "uk": "Страх! Вогонь! Вороги! (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipHornofBuckland",
+     "t": "Tooltip",
+     "en": "Requires Level 2\\nThe Horn-call of Buckland is sounded, all Hobbit units are recruited +300% faster for 30 seconds\\n Left click to activate",
+     "uk": "Необхідно: Рівень 2\\nЛунає ріг Бакленду: на 30 сек. усі гобітські загони тренуються на 300% швидше\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipShireHornofBuckland",
+     "t": "Tooltip",
+     "en": "Requires Level 3\\nThe Horn-call of Buckland is sounded, decreasing recruit times of all Hobbit units for 300% for 30 seconds\\n Left click to activate",
+     "uk": "Необхідно: Рівень 3\\nЛунає ріг Бакленду: на 30 сек. усі гобітські загони тренуються на 300% швидше\\nКлікніть, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

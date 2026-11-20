@@ -1,0 +1,2704 @@
+{
+ "meta": {
+  "faction": "Wild",
+  "note": "Community proofread lines (highest priority in the build and on the site)."
+ },
+ "strings": [
+  {
+   "var": "CONTROLBAR:WildMuzgashRecruit",
+   "en": "Recruit a dangerous Moria Orc warlord\n\n'A roving goblin warlord, Mûzgash enjoys great renown amongst the Orcs of the Misty Mountains. Orc-women want him, Orc-men want to be like him.'",
+   "uk": "Завербувати небезпечного ватажка орків Морії\n\n«Мандрівний ґоблінський воєвода Музґаш має велику славу серед орків Імлистих гір. Орчиці його хочуть, а орки хочуть бути схожими на нього».",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:WildMuzgashRevive",
+   "en": "Revive the fallen warlord, Mûzgash",
+   "uk": "Відродити полеглого в бою Музґаша",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildMuzgash",
+   "en": "Mûzgash",
+   "uk": "Музґаш",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:MuzgashLeadership",
+   "en": "Legendary Veteran",
+   "uk": "Легендарний ветеран",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMuzgashLeadership",
+   "en": "Modifier Type: Leadership\nMoria and Mountain-orcs near Mûzgash gain\n+15% damage and armour\n\nAt rank 8, Moria and Mountain-orcs near Mûzgash gain\n+33% damage and armour\nNearby allies earn resources per kill\n\nPassive ability",
+   "uk": "Тип ефекту: Лідерство\nМорійські й гірські орки поряд із Музґашем отримують\nбонус +15% до пошкоджень і броні\n\nНа 8 рівні морійські й гірські орки поряд із Музґашем отримують\nбонус +33% до пошкоджень і броні\nСоюзники поблизу отримують ресурси за кожне вбивство\n\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMuzgashPutridBlade",
+   "en": "Requires Level 3\nMûzgash dips his blade in orcish poison,\ndealing strong poison damage, splash damage and knockback for 20 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 3\nМузґаш занурює клинок в орочу отруту\nі на 20 сек. завдає значних пошкоджень отрутою та по площі й відкидає ворогів своїми ударами\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:MuzgashPutridBlade",
+   "en": "Putrid Blade (&R)",
+   "uk": "Гнилий клинок (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:MuzgashDiscipline",
+   "en": "Iron Discipline (&T)",
+   "uk": "Залізна дисципліна (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMuzgashDiscipline",
+   "en": "Requires Level 6\nMûzgash whips his underlings into proper formation,\ngranting them +25% movement speed for 30 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 6\nМузґаш батогом шикує своїх підлеглих,\nі вони на 30 сек. отримують бонус +25% швидкості руху\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:MuzgashSupremacy",
+   "en": "Token of Supremacy (&C)",
+   "uk": "Символ переваги (&C)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMuzgashSupremacy",
+   "en": "Requires Level 9\nMûzgash presents his foes with a token of past victories for 60 seconds\nEnemy units lose all leadership and lose 33% movement speed\nLeft click on icon then left click on target",
+   "uk": "Необхідно: Рівень 9\nМузґаш на 60 сек. показує ворогам символ минулих перемог\nВорожі загони втрачають усе лідерство й 33% швидкості руху\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildGolfimbul",
+   "en": "Golfimbul",
+   "uk": "Ґольфімбул",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:WildGolfimbulRecruit",
+   "en": "Recruit the Chieftain of Mount Gram\n\n'Long after the day his ancestor's gruesome death sparked the invention of a silly Halfling sport, Golfimbul seeks to avenge the death of his namesake by laying waste to the Shire.'",
+   "uk": "Завербувати Отамана гори Ґрам\n\n«Через багато років після того, як моторошна смерть його предка дала початок дурній гобітській грі, Ґольфімбул прагне помститися за свого тезка, спустошивши Шир».",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:GolfimbulLeadership",
+   "en": "Chieftain of Mount Gram",
+   "uk": "Отаман гори Ґрам",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipGolfimbulLeadership",
+   "en": "Modifier Type: Leadership\nNearby Wargs and Cavalry gains\n+25% damage, +15% speed and earn experience 50% faster\nPassive ability",
+   "uk": "Тип ефекту: Лідерство\nВарґи й вершники поблизу отримують бонус\n+25% до пошкоджень, +15% швидкості й на 50% швидше набирають досвід\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGolfimbulWargSummon",
+   "en": "Requires Level 3\nGolfimbul summons 3 White Wolves at the target area.\nAt level 6 number of summoned Wolves is increased to 6\nLeft click on icon then left click on target area",
+   "uk": "Необхідно: Рівень 3\nҐольфімбул прикликає 3 білих вовків.\nНа 6 рівні прикликає аж 6 вовків\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:GolfimbulWargSummon",
+   "en": "White Wolves of Forochel (&R)",
+   "uk": "Білі вовки Форохеля (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:GolfimbulHatred",
+   "en": "Hatred of the Fair Folk (&T)",
+   "uk": "Ненависть до напівросликів (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipGolfimbulHatred",
+   "en": "Requires Level 8\nModifier Type: Spell\nGolfimbul seeks to exact his revenge upon the Fair-folk\nGolfimbul and nearby Wolves, Wargs, and Wolf-Riders gain\n+50% damage, +50% armour and -50% trample deceleration for 20 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 8\nТип ефекту: Заклинання\nҐольфімбул прагне помститися гобітам\nҐольфімбул і вовки, варґи та вовчі вершники поблизу отримують\nна 20 сек. бонус +50% до пошкоджень, +50% броні й на 50% менше сповільнюються під час топтання\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:WildGolfimbulRevive",
+   "en": "Revive the Chieftain of Mount Gram",
+   "uk": "Відродити Отамана гори Ґрам",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:WildUrshakRecruit",
+   "en": "Recruit Urshak the Shaman\n\n'A powerful and zealous shaman, Urshak is capable of elevating even the meekest of his followers into committing acts of great cruelty and derangement.'",
+   "uk": "Завербувати шамана Уршака\n\n«Могутній і фанатичний шаман Уршак здатен підбити навіть найпокірніших своїх послідовників на страшенно жорстокі й шалені вчинки».",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:WildUrshakRevive",
+   "en": "Revive the fallen Orcish Shaman.",
+   "uk": "Відродити полеглого в бою орочого шамана.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildUrshak",
+   "en": "Urshak",
+   "uk": "Уршак",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:UrshakIntimidation",
+   "en": "Intimidation (&W)",
+   "uk": "Пригнічення (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:Intimidation",
+   "en": "Intimidation",
+   "uk": "Пригнічення",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUrshakIntimidation",
+   "en": "Modifier Type: Leadership\nTrolls, Bats and Giants near Urshak gain\n+15% speed and vision\nPassive ability\n\nModifier Type: Passive Debuff\nNearby enemy units suffer -15% damage and -10% armour\nAt rank 5, Nearby enemy units suffer -25% damage, -20% armour and -10% speed\nPassive ability",
+   "uk": "Тип ефекту: Лідерство\nТролі, кажани й велетні поряд з Уршаком отримують бонус\n+15% швидкості й дальності огляду\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nТип ефекту: Пасивне ослаблення\nВорожі загони поблизу отримують штраф -15% пошкоджень і -10% броні\nНа 5 рівні ворожі загони поблизу отримують штраф -25% пошкоджень, -20% броні й -10% швидкості\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:UrshakShakeFoundation",
+   "en": "Cave In (&R)",
+   "uk": "Обвал (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUrshakShakeFoundation",
+   "en": "Requires Level 3\nTarget enemy building takes heavy damage\nand is disabled for 20 seconds\nAutomatically opens targeted gate\nLeft click icon then left click on target",
+   "uk": "Необхідно: Рівень 3\nОбрана ворожа споруда отримує значні пошкодження\nі на 20 сек. виходить з ладу\nАвтоматично відчиняє обрану браму\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:UrshakSoulFreeze",
+   "en": "Fell Winter (&T)",
+   "uk": "Люта зима (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUrshakSoulFreeze",
+   "en": "Requires Level 6\nAffected enemy and ally units are frozen and cannot move, attack or receive upgrades for 15 seconds\nLeft click icon then left click on target area",
+   "uk": "Необхідно: Рівень 6\nВорожі й союзні загони в області дії замерзають і 15 сек. не можуть рухатися, атакувати чи отримувати покращення\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUrshakWellOfSouls",
+   "en": "Requires Level 8\nEnemy units in target area suffer medium damage over time\nHeals nearby friendly units.\nLeft click icon then left click on target area",
+   "uk": "Необхідно: Рівень 8\nВорожі загони поступово отримують невеликі пошкодження\nЗцілює союзні загони поблизу.\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:UrshakWellOfSouls",
+   "en": "The Black Pit (&C)",
+   "uk": "Чорна яма (&C)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:UrshakIntimidationActive",
+   "en": "Dark Prophecy (&V)",
+   "uk": "Темне пророцтво (&V)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipUrshakIntimidationActive",
+   "en": "Requires Level 10\nUrshak bewitches targeted units, causing them to become hostile towards each other\nLeft click icon then left click on target area",
+   "uk": "Необхідно: Рівень 10\nУршак накладає чари на обрані загони, і вони стають ворожими одне до одного\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:LugtheMauled",
+   "en": "Lug the Mauled",
+   "uk": "Луґ Пошматований",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:LugRecruitNew",
+   "en": "Recruit the deranged killer for hire, Lug\n\nHarboring an equal appetite for gold and destruction, Lug is a ferocious manhunter whose murderous reputation precedes him throughout the dredges of the Misty Mountains.",
+   "uk": "Завербувати Луґа, божевільного найманого вбивцю\n\nОднаково жадібний до золота й руйнування, Луґ — лютий ловець людей, чия кривава слава летить поперед нього всіма закутками Імлистих гір.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:LugReviveNew",
+   "en": "Revive the fallen Hero, Lug",
+   "uk": "Відродити полеглого в бою Луґа",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToggleLugWeapon",
+   "en": "Toggle Weapon (&W)",
+   "uk": "Змінити зброю (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleLugWeapon",
+   "en": "Left click to toggle between throwing knives and sword",
+   "uk": "Клікніть, щоб перемкнутися між метальними ножами й мечем",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:AzogHeadhunter",
+   "en": "Head Hunter (&R)",
+   "uk": "Мисливець за головами (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLugHeadhunter",
+   "en": "Puts a price on an enemy hero's head, reducing their armour and speed by 20% for 20 seconds\nAt level 3, reduces armour and speed by 30%\nAt level 6, reduces armour and speed by 40%\nAt level 10, reduces armour and speed by 50%\nLeft click icon then left click on target",
+   "uk": "Призначає ціну за голову ворожого героя: на 20 сек. знижує його броню й швидкість на 20%\nНа 3 рівні знижує на 30%\nНа 6 рівні знижує на 40%\nНа 10 рівні знижує на 50%\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:GoingDownSwinging",
+   "en": "Goin' Down Swinging (&T)",
+   "uk": "Як вмирати, то з боєм (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGoingDownSwinging",
+   "en": "Requires Level 3\nLug harms himself to gain +50% armour, +50% damage and +20% speed for 30 seconds\nCan only use with sword equipped\nLeft click to activate",
+   "uk": "Необхідно: Рівень 3\nЛуґ завдає пошкоджень сам собі й на 30 сек. отримує бонус +50% броні, +50% до пошкоджень і +20% швидкості\nДоступно лише коли споряджено меч\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:LugScorchedEarth",
+   "en": "Scorched Earth (&C)",
+   "uk": "Випалена земля (&C)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLugScorchedEarth",
+   "en": "Requires Level 6\nLug sets fire to the earth and burns all friendly and enemy units\nLeft click to activate",
+   "uk": "Необхідно: Рівень 6\nЛуґ підпалює землю навколо себе, завдаючи пошкоджень усім загонам навколо\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildGreatGoblin",
+   "en": "Great Goblin",
+   "uk": "Верховний ґоблін",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:WildGreatGoblinRecruit",
+   "en": "Recruit the King of Goblin-town\n\n'Abominations, disfigurations, mutilations, and repulsions... That's all you're going to find down here.'",
+   "uk": "Завербувати Короля Ґоблін-міста\n\n«Потвори, каліки, покручі й мерзоти... Ось і все, що ви тут знайдете».",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:WildGreatGoblinRevive",
+   "en": "Revive the Great Goblin, the leader of Goblin-town",
+   "uk": "Відродити Верховного ґобліна, володаря Ґоблін-міста",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:GreatGoblinDemand",
+   "en": "Goblin King's Demand (&W)",
+   "uk": "Вимога Короля ґоблінів (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGreatGoblinDemand",
+   "en": "Summons a Totem of the Swarm at the target location\nTotem can recruit Goblin-town Warriors and reveal stealthed units\nMaximum of 3 Totems allowed\nLeft click then left click target location",
+   "uk": "Прикликає на обрану ділянку тотем рою\nТотем дає змогу наймати воїнів Ґоблінського міста й виявляти невидимі загони\nМаксимум 3 тотеми одночасно\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:GreatGoblinLeadership",
+   "en": "The Goblin King (&R)",
+   "uk": "Король ґоблінів (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGreatGoblinLeadership",
+   "en": "Modifier Type: Leadership\nNearby Moria Orcs and Goblin-towners gain +33% damage and +33% armour and resistance to fear and terror\nPassive ability\n\nAt Level 7\nGives targeted units excellent experience\nLeft click icon then left click on target units",
+   "uk": "Тип ефекту: Лідерство\nМорійські орки й мешканці Ґоблінського міста поблизу отримують бонус +33% до пошкоджень і +33% броні та стійкість до страху й жаху\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nНа 7 рівні\nМиттєво наділяє обрані загони великою кількістю досвіду\nКлікніть на іконку, потім оберіть потрібні загони",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:GreatGoblinSwarm",
+   "en": "Swarm (&T)",
+   "uk": "Рій (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGreatGoblinSwarm",
+   "en": "Requires Level 4\nSummons three Goblin-town Warrior hordes\nNumber of hordes summoned is increased by one with each rank\n\nModifier Type: Buff\nWhen activated, nearby Moria-orcs and Goblin-towners gain +15% damage for 20 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 4\nПрикликає 3 орди воїнів Ґоблінського міста\nЗ кожним рівнем прикликає на 1 орду більше\n\nТип ефекту: Посилення\nПісля активації морійські орки й мешканці Ґоблінського міста поблизу на 20 сек. отримують бонус +15% до пошкоджень\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:GreatGoblinAntiquarian",
+   "en": "Antiquarian (&C)",
+   "uk": "Антиквар (&C)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipGreatGoblinAntiquarian",
+   "en": "Requires Level 7\nThe Great Goblin makes a deal on some fine antiques. Be careful though, his eyesight is going and he might get burned. Beware of Dragon Sickness.\nLeft click on icon then left click on target area",
+   "uk": "Необхідно: Рівень 7\nВерховний ґоблін укладає угоду на деякий вишуканий антикваріат. Та будьте обачні: Зір у нього вже не той, і його можуть ошукати. Стережіться драконячої хвороби.\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:GreatGoblinAbominableSong",
+   "en": "Abominable Song (&V)",
+   "uk": "Огидна пісня (&V)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipGreatGoblinAbominableSong",
+   "en": "Requires Level 9\nModifier Type: Spell and Active Debuff\nNearby friendly units gain +33% damage and +33% armour for 30 seconds\nNearby enemy units suffer -25% damage and -20% armour for 30 second\nNullifies enemy leadership\nLeft click icon to activate",
+   "uk": "Необхідно: Рівень 9\nТип ефекту: Заклинання й активне ослаблення\nСоюзні загони поблизу на 30 сек. отримують бонус +33% до пошкоджень і +33% броні\nВорожі загони поблизу на 30 сек. отримують штраф -25% пошкоджень і -20% броні\nСкасовує вороже лідерство\nКлікніть на іконку, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:BolgRecruitNew",
+   "en": "Recruit the Scourge of the Misty Mountains\n\n'The Goblins are upon you! Bolg of the North is coming. O Dáin! whose father you slew in Moria.\nBehold! the bats are above his army like a sea of locusts. They ride upon wolves and Wargs are in their train!'",
+   "uk": "Завербувати Грозу Імлистих гір\n\n«На вас ідуть ґобліни! Наближається Болґ із Півночі. О Дайне! Його батька ти вбив у Морії.\nДивіться! Над його військом кажани, мов хмара сарани. Вони їдуть на вовках, а за ними — варґи!»",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildBolgNew",
+   "en": "Bolg of the North",
+   "uk": "Болґ із Півночі",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:BolgReviveNew",
+   "en": "Revive the fallen Hero, Bolg",
+   "uk": "Відродити полеглого в бою Болґа",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:BolgLeadership",
+   "en": "Wild Overlord",
+   "uk": "Дикий володар",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBolgLeadership",
+   "en": "Modifier Type: Leadership\nNearby Orcs, Wargs and Giant Bats receive +50% armour, experience and resistance to fear and terror\nPassive ability",
+   "uk": "Тип ефекту: Лідерство\nОрки, варґи й велетенські кажани поблизу отримують бонус +50% броні та на 50% швидше набирають досвід і отримують стійкість до страху та жаху\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:BolgGrowingHatred",
+   "en": "Growing Hatred (&R)",
+   "uk": "Зростаюча ненависть (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBolgGrowingHatred",
+   "en": "Bolg deals increased damage against Dwarves\nPassive ability\n\nWhen activated, Bolg deals knockback damage with a greater attack radius for 30 seconds\nAt Level 3, consecutive attacks temporarily increase attack damage by 10% up to a maximum of 50% whilst ability is active\nLeft click to activate",
+   "uk": "Болґ завдає дворфам підвищених пошкоджень\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації Болґ на 30 сек. відкидає ворогів своїми ударами й атакує в більшому радіусі\nНа 3 рівні, поки діє здібність, кожна наступна атака тимчасово збільшує пошкодження на 10%, але максимум це 50%\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:BolgRuledByFear",
+   "en": "Ruled By Fear (&T)",
+   "uk": "Влада страху (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBolgRuledByFear",
+   "en": "Requires Level 4\nModifier Type: Spell\nNearby allied units deal +125% damage, but lose -50% armour and do not gain experience for 20 seconds\nNearby enemies cower in fear for 15 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 4\nТип ефекту: Заклинання\nСоюзні загони поблизу на 20 сек. отримують бонус +125% до пошкоджень, але втрачають 50% броні й НЕ набирають досвід\nВороги поблизу на 15 сек. ціпеніють від страху\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:BolgUnpierceableRanks",
+   "en": "Unpierceable Ranks (&C)",
+   "uk": "Непробивні лави (&C)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBolgUnpierceableRanks",
+   "en": "Requires Level 7\nBolg is protected by four Bodyguards\nPassive ability\n\nWhen activated, Bolg gains +50% armour for 30 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 7\nБолґа захищають 4 охоронці\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nПісля активації Болґ на 30 сек. отримує бонус +50% броні\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:BolgTerrorOfNorth",
+   "en": "Terror of the North (&V)",
+   "uk": "Жах Півночі (&V)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBolgTerrorOfNorth",
+   "en": "Requires Level 10\nBolg summons a small army of Mountain-orcs, Wolf-riders and Giant Bats\nLeft click icon then left click target area",
+   "uk": "Необхідно: Рівень 10\nБолґ прикликає невелике військо гірських орків, вовчих вершників і велетенських кажанів\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:CHILLWIND",
+   "en": "Fell Wind",
+   "uk": "Вітер скверни",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipChillWind",
+   "en": "Disperses enemy units from the centre of the area of effect\nDoes minimal damage\nDoes not affect cavalry units\nLeft click icon then left click on target area",
+   "uk": "Відкидає ворожі загони від центру обраної ділянки\nЗавдає невеликої шкоди\nНе діє на кавалерію\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:FROZENLAND",
+   "en": "Frozen Wastes",
+   "uk": "Крижана земля",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipFrozenLandAotR",
+   "en": "Freezes an area of terrain for 90 seconds\nModifier Type: Leadership and Spell\nAll allied units gain +25% damage and +25% armour\nEnemy units suffer -10% speed\nExtinguishes all fires\nLeft click icon then left click on target area",
+   "uk": "Обрана ділянка вкривається кригою на 90 сек.\nТип ефекту: Лідерство й заклинання\nУсі союзні загони отримують бонус +25% до пошкоджень і +25% броні\nВорожі загони отримують штраф -10% швидкості\nГасить усі пожежі\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipCaveBats",
+   "en": "Reveals the shroud and detects stealthed units\nModifier Type: Active Debuff\nNearby enemy units suffer -15% damage and armour\nLeft click icon then left click on target area",
+   "uk": "Розвіює туман війни й виявляє невидимі загони\nТип ефекту: Активне ослаблення\nВорожі загони поблизу отримують штраф -15% пошкоджень і броні\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:Scavenger",
+   "en": "Scavenger",
+   "uk": "Мародер",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipAOTRScavenger",
+   "en": "For 180 seconds, all kills earn extra resources\nUnits upgrades are discounted by 25% for the duration\nLeft click to activate",
+   "uk": "Протягом 180 сек. кожне вбивство приносить додаткові ресурси\nПоки триває ефект, покращення загонів дешевші на 25%\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:MordorCalltheHordeWild",
+   "en": "They Are Coming",
+   "uk": "Вони йдуть",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTheyAreComing",
+   "en": "Targeted Orc or Were-worm Tunnel spawns 2 permanent battalions of Moria-orc Screechers and a Cave-troll Destroyer\nMoria-orcs respect command point limit whilst Cave-troll Destroyer doesn't\nLeft click then left click target",
+   "uk": "Обраний тунель орків чи підземного змія прикликає 2 загони орків-крикунів Морії і печерного троля-руйнівника\nОрки Морії враховують ліміт очок командування, а печерний троль-руйнівник — ні\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:AngmarCitadel",
+   "en": "Ruin of Angmar",
+   "uk": "Руїни Анґмару",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipAngmarCitadel",
+   "en": "Summons a desolate Ruin of Angmar\nLimited to 2\nThe Ruin can recruit Dead of Arnor and White Wolves,\nas well as cast a local snow storm\nLeft click on icon then left click on target area",
+   "uk": "Прикликати спустошені Руїни Анґмару\nМаксимум 2 одночасно\nУ цих руїнах можна наймати Мертвих Арнору й білих вовків,\nа також викликати снігову бурю поблизу\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:TrollishStew",
+   "en": "Trollish Stew",
+   "uk": "Тролляче рагу",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipTrollishStew",
+   "en": "Temporarily summons a kettle of Trollish Stew, guarded by Tom, Bert, and William\nThe Trollish Stew provides healing, grants +15% armour and damage to nearby units and detects stealth\nLeft click icon then left click on pathable location",
+   "uk": "Тимчасово прикликати казан тролячого рагу, який стережуть Том, Берт і Вільям\nТролляче рагу зцілює, дає загонам поблизу бонус +15% броні й пошкоджень і виявляє невидимих\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:AwakenWyrm",
+   "en": "Summon Were-worm",
+   "uk": "Підземний змій (Вер-ворм)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipAwakenWyrm",
+   "en": "Summons a subterranean Were-worm under the caster's control\nLeft click icon then left click on pathable location",
+   "uk": "Прикликати підземного змія, який буде під вашим контролем\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:WhiteWinter",
+   "en": "White Winter",
+   "uk": "Біла зима",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWhiteWinter",
+   "en": "Blankets the map in a raging snowstorm for 3 minutes\nCancels Freezing Rain, Blessing of Ulmo, Lights Go Out, White Winter and Darkness\nModifier Type: Active Debuff\nEnemy units suffer -25% damage, -20% armour, and -30% vision\nNullifies enemy leadership\nExtinguishes all fires\n\nLeft click to activate",
+   "uk": "Вкриває мапу хуртовиною на 3 хв.\nСкасовує ефекти погоди: «Крижаний дощ», «Благословення Улмо», «Згасання світла», «Білу зиму» й «Пітьму»\nТип ефекту: Активне ослаблення\nВорожі загони отримують штраф -25% пошкоджень, -20% броні й -30% огляду\nСкасовує вороже лідерство\nГасить усі пожежі\n\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:SummonWatcher",
+   "en": "Summon Watcher",
+   "uk": "Глибинний Вартовий",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSummonWatcher",
+   "en": "Summons the Watcher in the Water\nCauses major damage to enemies\nLeft click icon then left click on pathable location",
+   "uk": "Прикликати глибинного вартового\nЗавдає ворогам великих пошкоджень\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:SummonBalrog",
+   "en": "Durin's Bane",
+   "uk": "Балроґ",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSummonBalrog",
+   "en": "Summons the Balrog, Durin's Bane\nLeft click icon then left click on pathable location",
+   "uk": "Прикликати Балроґа з Морії\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:DragonStrike",
+   "en": "Fire-drake's Wrath",
+   "uk": "Гнів вогняного дракона",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:tooltipDragonStrike",
+   "en": "Summons a fire breathing Dragon to fly-by and scorch the battlefield\nStrong vs structures\nLeft click icon then left click on target area",
+   "uk": "Прикликати на поле бою дракона, що пролітає над обраною ділянкою, дихає вогнем і випалює все на ній\nЕфективно проти споруд\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildFortress",
+   "en": "Fortress",
+   "uk": "Фортеця",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildFortressDescription",
+   "en": "Recruits Builders and Heroes\nCan be upgraded with improvements and expansions",
+   "uk": "Найм будівельників та вербування героїв\nПридбання покращень та прибудова додаткових споруд",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:SelectUpgradesWildFortress",
+   "en": "Fortress Upgrades (&R)",
+   "uk": "Удосконалення фортеці (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipCommandSelectUpgradesWildFortress",
+   "en": "Purchase upgrades and additional defenses for the Fortress",
+   "uk": "Придбання покращень та укріплення оборони",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilitySummonWyrm",
+   "en": "Lesser Dragon (&D)",
+   "uk": "Менший дракон (&D)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilitySummonWyrm",
+   "en": "Requires the Brood of the North upgrade\nTemporarily summons a Fire-drake\nLeft click on icon then left click on target area",
+   "uk": "Потребує покращення «Виводок Півночі»\nТимчасово прикликати вогняного дракона\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityDrumsInTheDeep",
+   "en": "Drums in the Deep (&S)",
+   "uk": "Барабани в глибинах (&S)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeWildFortressDrumsInTheDeep",
+   "en": "Drums in the Deep (&F)",
+   "uk": "Барабани в глибинах (&F)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:DrumsInTheDeepSaF",
+   "en": "Drums in the Deep",
+   "uk": "Барабани в глибинах",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityDrumsInTheDeep",
+   "en": "Requires the Drums in the Deep upgrade\nTemporarily summons 5 hordes of Moria-orc Screechers\n\nModifier Type: Active Debuff\nTargeted enemy units suffer -25% damage and -20% armour for 20 seconds\nLeft click on icon then left click on target area",
+   "uk": "Потребує покращення «Барабани в глибинах»\nТимчасово прикликає 5 загонів орків-крикунів Морії\n\nТип ефекту: Активне ослаблення\nОбрані ворожі загони на 20 сек. отримують штраф -25% пошкоджень і -20% броні\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeWildFortressWildAllegiance",
+   "en": "Wild Allegiance (&W)",
+   "uk": "Дика вірність (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeWildFortressWildAllegiance",
+   "en": "Unlocks Wild Allegiance\nCan be cast on any Creep Lair to take control of the lair and start producing units\nCaptured lairs produce resources\nReduces Hero cost by 10%\nReduces Hero recruit time by 10%\nReduces cost of builders by 20%",
+   "uk": "Відкриває «Дику вірність»\nМожна застосувати до будь-якого лігва диких звірів, щоб захопити його й почати тренувати там загони\nЗахоплені лігва видобувають ресурси\nСкорочує час та вартість вербування героїв на 10%\nЗнижує вартість будівельників на 20%",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeWildFortressBatCloud",
+   "en": "Cave Bats (&E)",
+   "uk": "Печерні кажани (&E)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:CaveBats",
+   "en": "Cave Bats",
+   "uk": "Печерні кажани",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeWildFortressBatCloud",
+   "en": "The Fortress gains a vision bonus and can detect stealthed units",
+   "uk": "Збільшує дальність огляду фортеці й дає їй змогу бачити невидимі загони",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeWildFortressRazorSpines",
+   "en": "Cruel Spikes (&R)",
+   "uk": "Смертоносні шипи (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeWildFortressRazorSpines",
+   "en": "Damages enemy units adjacent to the Fortress",
+   "uk": "Завдає пошкоджень ворожим загонам біля фортеці",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeWildFortressFireArrows",
+   "en": "Infestation (&T)",
+   "uk": "Нашестя (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeWildFortressFireArrows",
+   "en": "Adds a number of Moria Orc archers with Fire Arrows onto the fortress\nAdds fire damage to all attached Orcish Lookouts",
+   "uk": "Розміщує на фортеці кількох морійських орків-лучників із вогняними стрілами\nУсі прибудовані орочі дозорні пости завдають пошкоджень вогнем",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeWildFortressNorthernWastes",
+   "en": "Unlocks the Cold-Drake\nUpgrades the maximum number of available\nMountain Giants from 2 to 5\nUpgrades the maximum number of available\nFire-drakes from 2 to 4\nAllows the fortress to temporarily summon a Wyrm",
+   "uk": "Відкриває холодного дракона\nЗбільшує максимальну кількість\nгірських велетнів з 2 до 5\nЗбільшує максимальну кількість\nвогняних драконів з 2 до 4\nДає фортеці змогу тимчасово прикликати змія",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeWildFortressWebCocoon",
+   "en": "Increases Fortress armour by 65%\nAllows training of a second battalion of Bolg's Bodyguard",
+   "uk": "Збільшує міцність фортеці на 65%\nДозволяє тренувати другий загін охоронців Болґа",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeWildFortressDrumsInTheDeep",
+   "en": "The fortress gains the ability to use the Drums in the Deep\nTemporarily summons 5 hordes of Moria-orc Screechers",
+   "uk": "Фортеця отримує здібність «Барабани в глибинах»\nТимчасово прикликає 5 загонів орків-крикунів Морії",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "TOOLTIP:LackDragonNestWebCocoon",
+   "en": "Requires the Gundabad Spires upgrade\nTemporarily summons 5 hordes of Moria-orc Screechers",
+   "uk": "Потребує покращення «Шпилі Ґундабаду»\nТимчасово прикликає 5 загонів орків-крикунів Морії",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityBatCloud",
+   "en": "Bat &Cloud",
+   "uk": "Хмара кажанів (&C)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityBatCloud",
+   "en": "Deals small amounts of damage and detects stealth",
+   "uk": "Завдає незначних пошкоджень і виявляє невидимі загони",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildFortress",
+   "en": "Build Fortress (&I)",
+   "uk": "Фортеця (&I)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructWildFortress",
+   "en": "Recruits Builders and Heroes\nCan be upgraded with improvements and expansions\nIncreases command point limit by 100",
+   "uk": "Найм будівельників та вербування героїв\nПридбання покращень та прибудова додаткових споруд\nЗбільшує ліміт очок командування на 100 од.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildPorter",
+   "en": "Goblin Builder",
+   "uk": "Ґоблін-будівельник",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildArrowDenExpansion",
+   "en": "Orcish Lookout Expansion (&W)",
+   "uk": "Орочий дозорний пост (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructWildArrowDenExpansion",
+   "en": "Fires arrows at nearby enemy units\nBenefits from the Infestation upgrade",
+   "uk": "Стріляє по ворожих загонах поблизу\nПосилюється покращенням «Нашестя»",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildArrowDenExpansion",
+   "en": "Arrow Den Expansion",
+   "uk": "Лігво лучників",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildSpiderHolesExpansion",
+   "en": "Wolf Den Expansion (&E)",
+   "uk": "Вовче лігво (&E)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildSpiderHolesExpansion",
+   "en": "Wolf Den Expansion",
+   "uk": "Вовче лігво",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructWildSpiderHolesExpansion",
+   "en": "Wolves will emerge and attack nearby enemy units",
+   "uk": "Вовки вибігають і нападають на ворожі загони поблизу",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildTrollSentryExpansion",
+   "en": "Troll Sentry Expansion (&R)",
+   "uk": "Вартовий троль (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildTrollSentryExpansion",
+   "en": "Troll Sentry Expansion",
+   "uk": "Вартовий троль",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructWildTrollSentryExpansion",
+   "en": "A troll that hurls rocks at enemy units",
+   "uk": "Троль, що жбурляє каміння у ворожі загони",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildBurrowsExpansion",
+   "en": "Tunnel Entrance Expansion (&T)",
+   "uk": "Вхід до тунелю (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildFortressBurrowsExpansion",
+   "en": "Tunnel Entrance Expansion",
+   "uk": "Вхід до тунелю",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructWildBurrowsExpansion",
+   "en": "Connects this Fortress to the tunnel network",
+   "uk": "З'єднує цю фортецю з мережею тунелів",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildFortressBurrowsExpansionDescription",
+   "en": "Allows access to the tunnel network",
+   "uk": "Дає доступ до мережі тунелів",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructTrollDestroyer_They",
+   "en": "Cave-troll Destroyer",
+   "uk": "Печерний троль-руйнівник",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildTrollDestroyer",
+   "en": "Requires Level 2 Troll Lair\nStrong vs. Swordsmen, Cavalry, and Structures\n\nReared for brutal tunnel warfare, these Cave-trolls are the largest and meanest of their kind. Before battle, their orcish keepers pester and bully them into a blind rage.",
+   "uk": "Необхідно: Лігво тролів 2 рівня\nЕфективний проти мечників, кавалерії та споруд\n\nЦих печерних тролів вирощують для жорстоких боїв у тунелях: вони найбільші й найлютіші зі свого роду. Перед битвою наглядачі-орки дражнять і цькують їх, доки ті не впадуть у сліпу лють.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGoblinFighterHorde_They",
+   "en": "Moria-orc Screechers",
+   "uk": "Орки-крикуни Морії",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGoblinFighterHorde",
+   "en": "Moria-orc Screechers (&W)",
+   "uk": "Орки-крикуни Морії (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:HordeGoblinFighters",
+   "en": "Moria Orc Screechers",
+   "uk": "Орки-крикуни Морії",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:GoblinFighter",
+   "en": "Moria Orc Screecher",
+   "uk": "Орк-крикун Морії",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityGoblinFighterPoisonedBlades",
+   "en": "Poisoned Blades (&W)",
+   "uk": "Отруєні клинки (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityGoblinFighterPoisonedBlades",
+   "en": "Poisons targeted enemies causing damage over time for 15 seconds\nLeft click to activate",
+   "uk": "Отруює ворогів: вони 15 сек. отримують періодичні пошкодження\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "TOOLTIP:LackWildBasicTraining",
+   "en": "Research at Goblin Hoard to enable this equipment\nWhen equipped, increases this battalion to Level 2",
+   "uk": "Придбайте покращення в «Скарбниці ґоблінів», щоб відкрити це спорядження\nПісля оснащення підвищує рівень загону до 2",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildSentryTower",
+   "en": "Build Sentry Tower (&Y)",
+   "uk": "Сторожова вежа (&Y)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildSentryTower",
+   "en": "Sentry Tower",
+   "uk": "Сторожова вежа",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:GenericSentryTowerDescription",
+   "en": "Defensive tower that fires arrows at nearby enemies\nCan be garrisoned with archers to increase damage output",
+   "uk": "Оборонна вежа, що стріляє по ворогах\nМожна розмістити лучників для збільшення пошкоджень",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-19",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-19-20-07.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeSentryTowerFireArrows",
+   "en": "Fire Arrows (&W)",
+   "uk": "Вогняні стріли (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildMineShaft",
+   "en": "Build Orc Tunnel (&W)",
+   "uk": "Орочий тунель (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructWildMineShaft",
+   "en": "Generates resources based on available terrain\nProvides access to the tunnel network\nIncreases command point limit by 50",
+   "uk": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nДає доступ до мережі тунелів\nЗбільшує ліміт очок командування на 50 од.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildMineShaft",
+   "en": "Orc Tunnel",
+   "uk": "Орочий тунель",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildMineShaftDescription",
+   "en": "Generates resources based on available terrain\nProvides access to the tunnel network",
+   "uk": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nДає доступ до мережі тунелів",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildTreasureTrove",
+   "en": "Build Goblin Hoard (&R)",
+   "uk": "Ґоблінська скарбниця (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructWildTreasureTrove",
+   "en": "Hoards armour and valuables as a resource based on available terrain\nResearches weapon and armour upgrades\nReduces cost of upgrades\nIncreases command point limit by 50",
+   "uk": "Збирає обладунки й цінності як ресурс залежно від вільної місцевості\nДосліджує покращення зброї та обладунків\nЗнижує вартість покращень\nЗбільшує ліміт очок командування на 50 од.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildTreasureTrove",
+   "en": "Goblin Hoard",
+   "uk": "Ґоблінська скарбниця",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildTreasureTroveDescription",
+   "en": "Generates resources based on available terrain\nTreasure Bonus - Reduced cost of upgrades\n2 Troves: 5%\n3 Troves: 10%\n4 Troves: 15%\n5+ Troves: 20%",
+   "uk": "Видобуває ресурси, що ближче стоять інші\nресурсні споруди, то менше ресурсів видобувається.\nБонус скарбів — знижена вартість покращень\n2 скарбниці: 5%\n3 скарбниці: 10%\n4 скарбниці: 15%\n5+ скарбниць: 20%",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyWildBasicTraining",
+   "en": "Research Banners of Bolg (&W)",
+   "uk": "Стяги Болґа (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyWildBasicTraining",
+   "en": "Allows hordes to purchase the Banners of Bolg upgrade\nIncreases a horde to Level 2",
+   "uk": "Дає змогу кожному загону придбати покращення «Стяги Болґа»\nПідвищує рівень загону до 2",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyWildFireArrows",
+   "en": "Research Fire Arrows (&E)",
+   "uk": "Вогняні стріли (&E)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyWildFireArrows",
+   "en": "Allows hordes to purchase the Fire Arrows upgrade\nWhen equipped, significantly increases the damage done by arrows\nWill upgrade all patrols instantly once upgrade is purchased",
+   "uk": "Дає змогу кожному загону придбати покращення «Вогняні стріли»\nПісля оснащення значно збільшує пошкодження стріл\nПісля дослідження миттєво покращує стріли всіх патрулів навколо будівель",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyWildForgedBlades",
+   "en": "Research Scavenged Blades (&R)",
+   "uk": "Трофейні клинки (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseTechnologyWildForgedBlades",
+   "en": "Allows hordes to purchase the Scavenged Blades upgrade\nIncreases the damage done by melee weapons\nWill upgrade all patrols instantly once upgrade is purchased",
+   "uk": "Дає змогу кожному загону придбати покращення «Трофейні клинки»\nЗбільшує пошкодження зброї ближнього бою\nПісля дослідження миттєво покращує зброю всіх патрулів навколо будівель",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "TOOLTIP:LackLevel2TreasureTrove",
+   "en": "Requires Level 2 Goblin Hoard",
+   "uk": "Необхідно: Скарбниця ґоблінів 2 рівня",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseTechnologyWildHeavyArmor",
+   "en": "Research Scavenged Armour (&T)",
+   "uk": "Трофейні обладунки (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseechnologyWildHeavyArmor",
+   "en": "Allows hordes to purchase Scavenged Armour\nSignificantly reduces the amount of damage taken\nWill upgrade all patrols instantly once upgrade is purchased",
+   "uk": "Дає змогу кожному загону придбати покращення «Трофейні обладунки»\nЗначно зменшує отримані пошкодження\nПісля дослідження миттєво покращує обладунки всіх патрулів навколо будівель",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildLumberMill",
+   "en": "Build Lumber Mill (&D)",
+   "uk": "Лісопильня (&D)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructLumberMill",
+   "en": "Harvests resources from nearby trees\nReduces cost of structures\nBuild time: 30s",
+   "uk": "Добуває ресурси з дерев поблизу\nЗнижує вартість споруд\nЧас будівництва: 30 сек.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildLumberMill",
+   "en": "Lumber Mill",
+   "uk": "Лісопильня",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:LumberMill",
+   "en": "Lumber Mill",
+   "uk": "Лісопильня",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipLumberMill",
+   "en": "Harvests resources from nearby trees\nWood Bonus - Reduced cost of structures\n2 Lumbermills: 5%\n3 Lumbermills: 10%\n4 Lumbermills: 15%",
+   "uk": "Добуває ресурси з дерев поблизу\nБонус деревини — знижує вартість споруд\n2 Лісопильні: 5%\n3 Лісопильні: 10%\n4 Лісопильні: 15%",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:LumberMillDescription",
+   "en": "Harvests resources from nearby trees\nReduces cost of buildings\n2 Lumber Mills: 5%\n3 Lumber Mills: 10%\n4 Lumber Mills: 15%",
+   "uk": "Добуває ресурси з дерев поблизу\nЗнижує вартість споруд\n2 Лісопильні: 5%\n3 Лісопильні: 10%\n4 Лісопильні: 15%",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:BuildWildWorker",
+   "en": "Goblin Laborer (&W)",
+   "uk": "Ґоблін-робітник (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildWorker",
+   "en": "Goblin Laborer",
+   "uk": "Ґоблін-робітник",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildWorker",
+   "en": "Gathers resources for the Lumber Mill",
+   "uk": "Збирає ресурси для лісопильні",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildWildSpiderPit",
+   "en": "Build Wolf Cairn (&V)",
+   "uk": "Вовчий курган (&V)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructWildWildSpiderPit",
+   "en": "Trains Gundabad Warg Packs and Gundabad Wolf-riders",
+   "uk": "Тренує зграї варґів і вершників на вовках Ґундабаду",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildSpiderPit",
+   "en": "Wolf Cairn",
+   "uk": "Вовчий курган",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildIsengardWargPack",
+   "en": "Strong vs. Swordsmen and Archers\n\nFast-moving and ferocious, packs of Wargs have oft been the bane of unwary travellers.",
+   "uk": "Ефективні проти мечників і лучників\n\nШвидкі й люті зграї варґів здавна були погибеллю необережних мандрівників.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:IsengardWargPack",
+   "en": "Warg",
+   "uk": "Варґ",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructIsengardWargPack",
+   "en": "Warg Pack (&W)",
+   "uk": "Зграя варґів (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:HordeIsengardWargPack",
+   "en": "Warg Pack",
+   "uk": "Зграя варґів",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildWargRider",
+   "en": "Gundabad Wolf-riders (&E)",
+   "uk": "Вершники на вовках Ґундабаду (&E)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:HordeWildWargRiders",
+   "en": "Gundabad Wolf-riders",
+   "uk": "Вершники на вовках Ґундабаду",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildWargRider",
+   "en": "Requires Level 2 Wolf Cairn\nStrong vs. Swordsmen and Archers\n\nFor generations, Orcs have ridden Wargs and Wolves - not as masters, but as equals - to track and ambush the Free Peoples.",
+   "uk": "Необхідно: Вовчий курган 2 рівня\nЕфективні проти мечників і лучників\n\nПоколіннями орки їздять на варґах і вовках — не як господарі, а як рівні, — щоб вистежувати вільні народи й нападати на них із засідок.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildWargRider",
+   "en": "Gundabad Wolf-rider",
+   "uk": "Вершник на вовку Ґундабаду",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildSpiderPitLevel2Upgrade",
+   "en": "Upgrade Wolf Cairn to Level 2 (&A)",
+   "uk": "Покращити вовчий курган до 2-го рівня (&A)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildSpiderPitLevel2Upgrade",
+   "en": "Allows training of Gundabad Wolf-riders\n+10% faster build speed",
+   "uk": "Дозволяє тренувати вершників на вовках Ґундабаду\n+10% до швидкості тренування",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildSpiderPitLevel3Upgrade",
+   "en": "Upgrade Wolf Cairn to Level 3 (&A)",
+   "uk": "Покращити вовчий курган до 3-го рівня (&A)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildGoblinCave",
+   "en": "Build Moria-orc Cave (&C)",
+   "uk": "Печера орків Морії (&C)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructWildGoblinCave",
+   "en": "Trains Moria-orc Screechers and Moria-orc Archers",
+   "uk": "Тренує орків-крикунів і орків-лучників Морії",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:GoblinCave",
+   "en": "Moria Orc Cave",
+   "uk": "Печера орків Морії",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildCaveLevel2Upgrade",
+   "en": "Upgrade Moria-orc Cave to Level 2 (&A)",
+   "uk": "Покращити печеру орків Морії до 2-го рівня (&A)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildCaveLevel2Upgrade",
+   "en": "+10% faster build speed\nAdds two garrisoned Moria Orc Archers",
+   "uk": "+10% до швидкості тренування\nРозміщує в печері двох вартових орків-лучників Морії",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildCaveLevel3Upgrade",
+   "en": "Upgrade Moria-orc Cave to Level 3 (&A)",
+   "uk": "Покращити печеру орків Морії до 3-го рівня (&A)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildCaveLevel3Upgrade",
+   "en": "+25% faster build speed",
+   "uk": "+25% до швидкості тренування",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildSpiderPitLevel3Upgrade",
+   "en": "+25% faster build speed",
+   "uk": "+25% до швидкості тренування",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGoblinArcherHorde",
+   "en": "Moria-orc Archers (&E)",
+   "uk": "Орки-лучники Морії (&E)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGoblinArcherHorde",
+   "en": "Strong vs. Infantry\n\nHorde Bonus\nModifier Type: Spell\nAll Moria-orc Screechers, Moria-orc Archers and Moria-orc Spearmen gain +50% damage when gathered in numbers of 150 or more\n\nThese Orcish archers sealed their deadly reputation upon slaying Balin, as he stood looking upon the Mirrormere outside of the East-gate.",
+   "uk": "Ефективні проти піхоти\n\nОтримують бонуси від кількості\nТип ефекту: Заклинання\nУсі орки-крикуни, орки-лучники й орки-списоносці Морії отримують бонус +50% до пошкоджень, якщо зібрані в кількості 150 і більше\n\nЦі орочі лучники закріпили свою смертоносну славу, убивши Баліна, коли той дивився на Дзеркальне озеро біля Східної брами.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:HordeGoblinArchers",
+   "en": "Moria Orc Archers",
+   "uk": "Орки-лучники Морії",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:GoblinArcher",
+   "en": "Moria Orc Archer",
+   "uk": "Орк-лучник Морії",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:PoisonArrows",
+   "en": "Poison Arrows (&R)",
+   "uk": "Отруйні стріли (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPoisonArrows",
+   "en": "Poison tipped arrows that cause damage over time for 15 seconds\nPoison arrows deal +55% additional damage against monsters\nLeft click icon then left click on target",
+   "uk": "Отруєні стріли, що 15 сек. завдають періодичних пошкоджень\nОтруйні стріли завдають істотам на 55% більше пошкоджень\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructAltarofFire",
+   "en": "Altar of Flame (&V)",
+   "uk": "Вівтар полум'я (&V)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:AltarofFire",
+   "en": "Altar of Flame",
+   "uk": "Вівтар полум'я",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructAltarofFire",
+   "en": "Recruits Moria-orc Shamans\nWorships Durin's Bane to cast various mapwide abilities\nLimited to 1\nCannot be demolished",
+   "uk": "Вербує орків-шаманів Морії\nПоклоняється Балроґу, щоб застосовувати здібності на всю мапу\nМаксимум 1 одночасно\nНе можна знести",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:AltarofFireDescription",
+   "en": "Worships Durin's Bane to cast various mapwide abilities",
+   "uk": "Поклоняється Балроґу, щоб застосовувати здібності на всю мапу",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipDrumsInTheDeepSaF",
+   "en": "Requires Drums in the Deep fortress upgrade\nTemporarily summons 2 hordes of Moria-orc Screechers\nLeft click to activate",
+   "uk": "Потребує покращення фортеці «Барабани в глибинах»\nТимчасово прикликає 2 загони орків-крикунів Морії\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityDarkRenewal",
+   "en": "Dark Renewal (&E)",
+   "uk": "Темне відновлення (&E)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityDarkRenewal",
+   "en": "When activated, one fallen unit from all friendly battalions across the map is replenished\nLeft click to activate",
+   "uk": "Після активації кожен союзний загін на мапі поповнюється на одного полеглого воїна\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityPlunderedTribute",
+   "en": "Plundered Tribute (&R)",
+   "uk": "Награбована данина (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipSpecialAbilityPlunderedTribute",
+   "en": "Selected Orc Tunnel or Goblin Hoard's resource output is raised to 250% for 5 minutes\nLeft click icon then left click on target resource structure",
+   "uk": "Обраний орочий тунель чи ґоблінська скарбниця на 5 хв. видобуває 250% ресурсів\nКлікніть на іконку, потім оберіть ресурсну споруду",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityFlameofUdun",
+   "en": "Flame of Udûn (&T)",
+   "uk": "Полум'я Удуна (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityFlameofUdun",
+   "en": "Requires four full battalions of Moria-orc Shamans\nSacrifice all Shamans on the battlefield to summon the wrath of Durin's Bane and burn all enemy units in target area\nLeft click icon and then left click on target location",
+   "uk": "Необхідно: 4 повні загони орків-шаманів Морії\nПринесіть у жертву всіх шаманів на полі бою, щоб прикликати гнів Балроґа й спалити всі ворожі загони на обраній ділянці\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipBuildConstructMoriaShamanHorde",
+   "en": "Battlefield Support Unit\n\nEnraptured by the ancient mysteries of the Shadow and the Flame, these orcs have gathered a band of hapless followers, who will gladly sacrifice themselves in order to fuel the dark sorcery that Durin's Bane bestows upon their masters.",
+   "uk": "Загін підтримки\n\nЗачаровані давніми таємницями Тіні й Полум'я, ці орки зібрали гурт нещасних послідовників, що охоче приносять себе в жертву, аби живити темне чаклунство, яким Балроґ обдаровує їхніх господарів.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructConstructMoriaShamanHorde",
+   "en": "Moria-orc Shaman (&W)",
+   "uk": "Орк-шаман Морії (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:GoblinShaman",
+   "en": "Moria-orc Shaman",
+   "uk": "Орк-шаман Морії",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:GoblinTownAcolyte",
+   "en": "Goblin-town Acolyte",
+   "uk": "Послідовник із Ґоблін-міста",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipServantsoftheFlame",
+   "en": "Targeted friendly units permanently deal added fire damage\nwith their attacks and to enemies that attack them\nGrants 50% armour against fire as well\nCan only be used on Misty Mountains melee infantry\nDoes not affect heroic units or monsters\nLeft click icon then left click on target units",
+   "uk": "Обрані союзні загони починають завдавати додаткових пошкоджень вогнем\nсвоїми атаками й ворогам, що атакують їх\nТакож дає бонус +50% броні проти вогню\nМожна застосувати лише до піхоти ближнього бою Імлистих гір\nНе діє на героїчні загони та істот\nКлікніть на іконку, потім оберіть потрібні загони",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ServantsoftheFlame",
+   "en": "Servants of the Flame (&W)",
+   "uk": "Слуги Полум'я (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ValaraukarWrath",
+   "en": "Valaraukar's Wrath (&R)",
+   "uk": "Гнів валараукара (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipValaraukarWrath",
+   "en": "Durin's Bane was capable of casting powerful spells, and could be persuaded by his servants to use them to their advantage\nSummons Valaraukar's Wrath from the ground\nEnemies in targeted area are knocked back and suffer moderate damage\nLeft click icon then left click on target area",
+   "uk": "Балроґ володів могутніми чарами, і слуги могли вмовити його використати їх собі на користь\nВикликає з-під землі гнів валараукара\nВороги на обраній ділянці відкидаються й отримують помірні пошкодження\nКлікніть на іконку, потім оберіть ділянку",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructFireWyrmLair",
+   "en": "Build Wyrm Lair (&M)",
+   "uk": "Лігво зміїв (&M)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructFireWyrmLair",
+   "en": "Tames Wyrms and Cold-drakes",
+   "uk": "Дозволяє приручати зміїв і холодних драконів",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WyrmDrakeLair",
+   "en": "Wyrm Lair",
+   "uk": "Лігво зміїв",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:FireWyrmLairDescription",
+   "en": "Allows recruitment of Wyrms and Cold-drakes",
+   "uk": "Дозволяє приручати зміїв і холодних драконів",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeFireWyrmLairLevel2",
+   "en": "Upgrade Wyrm Lair to Level 2 (&A)",
+   "uk": "Покращити лігво зміїв до 2-го рівня (&A)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildFireWyrmLairLevel2Upgrade",
+   "en": "Allows taming of Cold-drakes\n+10% faster build speed",
+   "uk": "Дозволяє приручати холодних драконів\n+10% до швидкості приручення",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeFireWyrmLairLevel3",
+   "en": "Upgrade Wyrm Lair to Level 3 (&A)",
+   "uk": "Покращити лігво зміїв до 3-го рівня (&A)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseWildColdDrake",
+   "en": "Cold-drake (&E)",
+   "uk": "Холодний дракон (&E)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:ColdDrake",
+   "en": "Cold-drake",
+   "uk": "Холодний дракон",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWildColdDrake",
+   "en": "Requires Level 2 Wyrm Lair\nand Brood of the North\nTame a wild Cold-drake\nStrong vs. infantry, cavalry and structures\n\nThey were very great beside the Men of those days - cold as in the nature of snakes and serpents,\nand of them a many having wings go with the uttermost noise and speed...\nOnly 1 Cold-drake is allowed at any time.",
+   "uk": "Необхідно: Лігво зміїв 2 рівня\nі покращення «Виводок Півночі»\nПриручити дикого холодного дракона\nЕфективні проти піхоти, кавалерії та споруд\n\nВони були дуже великі порівняно з людьми тих днів — холодні, як змії та гадюки,\nі багато з них, маючи крила, мчать із неймовірним шумом і швидкістю...\nОдночасно можна мати лише 1 холодного дракона.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ColdDrakeScreech",
+   "en": "Heart-freezing Roar (&W)",
+   "uk": "Ревіння, що студить серце (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:TooltipColdDrakeScreech",
+   "en": "Requires level 2\nStuns enemies in fear for 15 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 2\nНа 15 сек. приголомшує ворогів страхом\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseWildFireDrake",
+   "en": "Fire-drake (&W)",
+   "uk": "Вогняний дракон (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildFireDrake",
+   "en": "Fire-drake",
+   "uk": "Вогняний дракон",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWildDrake",
+   "en": "Tame a wild fire-breathing Wyrm\n\nLimited to 2\nBrood of the North raises limit to 4\nStrong vs. infantry and structures\n\nThough flightless and smaller than Dragons, Fire-drakes are considered some of the most dangerous creatures in Middle-earth.",
+   "uk": "Приручити дикого вогнедишного змія\n\nМаксимум 2 одночасно\n«Виводок Півночі» збільшує ліміт до 4\nЕфективні проти піхоти й споруд\n\nХоч вогняні дракони й не літають і менші за справжніх драконів, їх вважають одними з найнебезпечніших істот Середзем'я.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleOnFireDrakeFlameAttack",
+   "en": "Every 20 seconds, The Fire-drake\nautomatically breathes fire with its attacks.\nPassive Ability\n\nLeft-click to disable automatic fire breath",
+   "uk": "Кожні 20 сек. вогняний дракон\nавтоматично дихає вогнем під час атаки.\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nКлікніть, щоб ВИМКНУТИ автоматичний вогняний подих",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToggleOffFireDrakeFlameAttack",
+   "en": "Disable Fire Breath (&W)",
+   "uk": "Вимкнути вогняний подих (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityCampaignWarDrakeStun",
+   "en": "Dread Gaze (&R)",
+   "uk": "Жахливий погляд (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityCampaignWarDrakeStun",
+   "en": "Modifier Type: Debuff\nWhen activated, nullifies enemy leadership nearby the Fire-drake for 15 seconds\nLeft click to activate",
+   "uk": "Тип ефекту: Ослаблення\nПісля активації на 15 сек. скасовує вороже лідерство поряд із вогняним драконом\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:SpecialAbilityFireDrakeJetOfFlame",
+   "en": "Jet of Flame (&T)",
+   "uk": "Струмінь полум'я (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityFireDrakeJetOfFlame",
+   "en": "Requires Level 2\nThe Fire-drake launches a devastating fireball from long range\nLeft click then left click on target enemy",
+   "uk": "Необхідно: Рівень 2\nВогняний дракон здалеку випускає нищівну вогняну кулю\nКлікніть на іконку, потім оберіть ворога",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildFireWyrmLairLevel3Upgrade",
+   "en": "Friendly Fire-drakes and Cold-drakes near the Lair are passively healed over time\n+25% faster build speed",
+   "uk": "Союзні вогняні й холодні дракони біля лігва постійно зцілюються\n+25% до швидкості тренування",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildGoblinFissure",
+   "en": "Build Troll Lair (&N)",
+   "uk": "Лігво тролів (&N)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructWildGoblinFissure",
+   "en": "Trains Trolls, Giant Bats and Mountain Giants",
+   "uk": "Тренує тролів, велетенських кажанів і гірських велетнів",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:GoblinFissure",
+   "en": "Troll Lair",
+   "uk": "Лігво тролів",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeWildFissureLevel2",
+   "en": "Upgrade Troll Lair to Level 2 (&A)",
+   "uk": "Покращити лігво тролів до 2-го рівня (&A)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildFissureLevel2Upgrade",
+   "en": "Allows training of Snow-trolls and Bats\n+10% faster build speed",
+   "uk": "Дозволяє тренувати снігових тролів і кажанів\n+10% до швидкості тренування",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeWildFissureLevel3",
+   "en": "Upgrade Troll Lair to Level 3 (&A)",
+   "uk": "Покращити лігво тролів до 3-го рівня (&A)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildFissureLevel3Upgrade",
+   "en": "Allows training of Gundabad Stone-trolls and Mountain Giants\n+25% faster build speed\nAdds defensive Cave-troll to Lair\nFriendly Mountain Giants near the Lair are passively healed over time",
+   "uk": "Дозволяє тренувати кам'яних тролів Ґундабаду й гірських велетнів\n+25% до швидкості тренування\nДодає до лігва вартового печерного троля\nСоюзні гірські велетні біля лігва постійно зцілюються",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructGoblinCaveTroll",
+   "en": "Cave Troll (&W)",
+   "uk": "Печерний троль (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:GoblinCaveTroll",
+   "en": "Cave Troll",
+   "uk": "Печерний троль",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildGoblinCaveTroll",
+   "en": "Strong vs. Swordsmen and Structures\n\nPestered and tormented for years by its goblin captors, this small and relatively docile Troll has been blinded by rage and frustration.",
+   "uk": "Ефективні проти мечників і споруд\n\nРоками цього невеликого й відносно спокійного троля цькували й мучили ґобліни, доки він не осліп від люті й розпачу.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:Trollfindunittothrow",
+   "en": "Pick up Goblin / Orc (&T)",
+   "uk": "Схопити ґобліна / орка (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTrollfindunittothrow",
+   "en": "Find an Orc to pick up and throw at the enemy\nEnemy units where the Orc lands will become terrified",
+   "uk": "Знайти орка або ґобліна, схопити його й жбурнути у ворога\nВорожі загони там, де приземлиться орк, охоплює жах",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:GrabPassenger",
+   "en": "Grab &Weapon",
+   "uk": "Підняти зброю (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipSpecialAbilityGrabPassenger",
+   "en": "Pick up a tree or rock to use as weapon",
+   "uk": "Підняти дерево чи камінь і використати його як зброю",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructAngmarSnowTrollHorde",
+   "en": "Snow-trolls (&E)",
+   "uk": "Снігові тролі (&E)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:AngmarSnowTrollHorde",
+   "en": "Snow-trolls",
+   "uk": "Снігові тролі",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildSnowTrollHorde",
+   "en": "Requires Level 2 Troll Lair\n\nStrong vs. Elite Infantry and Monsters\n\nSnow-trolls are often thought of as a fairy-tale creature in more civilised parts of Middle-earth, but those that dwell in the harsh climate of the northern Misty Mountains and beyond know better. These wicked trolls are lean, deceptively powerful, and possess a great talent for cruelty",
+   "uk": "Необхідно: Лігво тролів 2 рівня\n\nЕфективні проти елітної піхоти та істот\n\nУ цивілізованіших краях Середзем'я снігових тролів часто вважають казковими істотами, але ті, хто живе в суворому кліматі північних Імлистих гір і далі, знають краще. Ці лихі тролі худорляві, проте сильні й мають неабиякий хист до жорстокості",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:AngmarSnowTroll",
+   "en": "Snow-troll",
+   "uk": "Сніговий троль",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:KickAndPunchSnow",
+   "en": "Close Range Attack (&R)",
+   "uk": "Ближній бій (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipKickAndPunch",
+   "en": "Switch to melee combat",
+   "uk": "Перемкнутися на ближній бій",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:TrollishRage",
+   "en": "Trollish Rage (&T)",
+   "uk": "Троляча лють (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipTrollishRage",
+   "en": "Requires level 2\nSnow-trolls throw their spears with mighty strength, dealing increased damage and knocking units down in large radius\nLeft click icon then left click on target",
+   "uk": "Необхідно: Рівень 2\nСнігові тролі з величезною силою кидають списи: завдають більших пошкоджень і збивають з ніг загони у великому радіусі\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildGiantBat",
+   "en": "Giant Bat (&R)",
+   "uk": "Велетенський кажан (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildGiantBat",
+   "en": "Giant Bat",
+   "uk": "Велетенський кажан",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildGiantBat",
+   "en": "Requires Level 2 Troll Lair\nStrong vs. Infantry, Cavalry, and Buildings\n\n'These bats are bred for one purpose, for war!'",
+   "uk": "Необхідно: Лігво тролів 2 рівня\nЕфективні проти піхоти, кавалерії та споруд\n\n«Цих кажанів вирощують виключно для війни!»",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:Vampirism",
+   "en": "Vampirism",
+   "uk": "Вампіризм",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipVampirism",
+   "en": "Flying units lose -30% speed for 5 seconds\nwhen hit by Giant Bats\nPassive ability\n\nRequires Level 3\nGiant Bats regain health per hit\nPassive ability",
+   "uk": "Летючі загони, уражені атаками велетенських кажанів,\nна 5 сек. втрачають 30% швидкості\n~ ПАСИВНА ЗДІБНІСТЬ ~\n\nНеобхідно: Рівень 3\nКожен удар відновлює велетенським кажанам здоров'я\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildAttackTroll",
+   "en": "Gundabad Stone-troll (&T)",
+   "uk": "Кам'яний троль Ґундабаду (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildAttackTroll",
+   "en": "Gundabad Stone-troll",
+   "uk": "Кам'яний троль Ґундабаду",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildAttackTroll",
+   "en": "Requires Level 3 Troll Lair\nStrong vs. Swordsmen, Cavalry, and Structures\n\nThese Stone-trolls originate from the darkest, most hostile environments in the Misty Mountains. Their hides are tough, their grasping limbs long and powerful, and their cruelty is second to none.",
+   "uk": "Необхідно: Лігво тролів 3 рівня\nЕфективні проти мечників, кавалерії та споруд\n\nЦі кам'яні тролі походять із найтемніших і найворожіших місць Імлистих гір. Їхня шкура груба, кінцівки довгі й потужні, а жорстокості їм точно не позичати.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ThickSkull",
+   "en": "Thick Skull (&W)",
+   "uk": "Товстий череп (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipThickSkull",
+   "en": "Requires Level 2\nFor 15 seconds, the Troll gains +50% damage against structures\nbut loses -50% armour\nThe Troll deals no splash attacks against structures while Thick Skull is active\nLeft click to activate",
+   "uk": "Необхідно: Рівень 2\nНа 15 сек. троль отримує бонус +50% до пошкоджень спорудам,\nале втрачає 50% броні\nПоки діє «Товстий череп», троль НЕ б'є споруди по площі\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeDreadHelmet",
+   "en": "Purchase Dread Helmet (&R)",
+   "uk": "Жахливий шолом (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeDreadHelmet",
+   "en": "Upgrades this troll with a Dread Helmet\nSignificantly increases armour and scares enemy units\nDecreases Stone-troll's speed by 7%",
+   "uk": "Оснащує цього троля жахливим шоломом\nЗначно збільшує броню й лякає ворожі загони\nЗнижує швидкість кам'яного троля на 7%",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeSerratedArmor",
+   "en": "Purchase Serrated Armour (&T)",
+   "uk": "Зазубрені обладунки (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeSerratedArmor",
+   "en": "Upgrades this troll with Serrated Armour\nSignificantly increases troll's hitpoints and decreases crush deceleration\nDecreases Stone-troll's speed by 7%",
+   "uk": "Оснащує цього троля зазубреними обладунками\nЗначно збільшує здоров'я троля й зменшує сповільнення під час топтання\nЗнижує швидкість кам'яного троля на 7%",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeScytheGauntlets",
+   "en": "Purchase Scythe Gauntlets (&C)",
+   "uk": "Рукавиці-коси (&C)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeScytheGauntlets",
+   "en": "Upgrades this Stone-troll with Scythe Gauntlets\nSignificantly increases attack power and splash damage\nDecreases Stone-troll's speed by 7%",
+   "uk": "Оснащує цього кам'яного троля рукавицями-косами\nЗначно збільшує силу атаки й пошкодження по площі\nЗнижує швидкість кам'яного троля на 7%",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildMountainGiant",
+   "en": "Mountain Giant (&S)",
+   "uk": "Гірський велетень (&S)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildMountainGiant",
+   "en": "Mountain Giant",
+   "uk": "Гірський велетень",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildMountainGiant",
+   "en": "Requires Level 3 Troll Lair\nLimited to 2\nBrood of the North raises limit to 5\nStrong vs. Structures and Swordsmen\n\n'There they were sheltering under a hanging rock for the night, and Bilbo lay beneath a blanket and shook from head to toe. When he peeped out in the lightning-flashes, he saw that across the valley the stone-giants were out, and were hurling rocks at one another for a game, and catching them, and tossing them down into the darkness where they smashed among the trees far below, or splintered into little bits with a bang.'",
+   "uk": "Необхідно: Лігво тролів 3 рівня\nМаксимум 2 одночасно\n«Виводок Півночі» збільшує ліміт до 5\nЕфективні проти споруд і мечників\n\n«Вони сховалися на ніч під навислою скелею, і Більбо лежав під ковдрою, тремтячи з голови до ніг. Визирнувши при спалаху блискавки, він побачив, що по той бік долини вийшли кам'яні велетні: вони жбурляли одне в одного брилами, ловили їх і кидали в темряву, де ті з гуркотом трощилися серед дерев далеко внизу або з тріском розліталися на друзки».",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:WildMountainGiantStomp",
+   "en": "Stomp (&T)",
+   "uk": "Тупіт (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWildMountainGiantStomp",
+   "en": "Powerful attack that causes additional damage and meta impact\nCannot use with rock equipped\nLeft click to activate",
+   "uk": "Потужна атака, що завдає додаткових пошкоджень і збиває з ніг\nНе можна використати, коли в руках брила\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildBodyGuardHordeFortress",
+   "en": "Requires Level 3 Mountain-orc Lodge\nHero Unit\nLimit increased to 2.\nStrong vs. All Unit Types\n\nUnderstanding that Azog's recklessness had gotten him killed, Bolg surrounded himself with the largest, cruelest Orcs that could be found to avoid repeating his father's mistake.",
+   "uk": "Необхідно: Хижа гірських орків 3 рівня\nГероїчний загін\nЛіміт збільшено до 2.\nЕфективні проти всіх типів військ\n\nРозуміючи, що Азоґа згубила саме власна безрозсудність, Болґ оточив себе найбільшими й найжорстокішими орками, яких лише зміг знайти, щоб не повторити батькової помилки.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildBodyGuardHorde",
+   "en": "Bolg's Bodyguard (&S)",
+   "uk": "Охоронці Болґа (&S)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:HordeWildBodyGuard",
+   "en": "Bolg's Bodyguard",
+   "uk": "Охоронці Болґа",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildBodyGuard",
+   "en": "Bolg's Bodyguard",
+   "uk": "Охоронці Болґа",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildBodyGuardHorde",
+   "en": "Requires Level 3 Mountain-orc Lodge\nHero Unit\nLimited to 1\nStrong vs. All Unit Types\n\nUnderstanding that Azog's recklessness had gotten him killed, Bolg surrounded himself with the largest, cruelest Orcs that could be found to avoid repeating his father's mistake.",
+   "uk": "Необхідно: Хижа гірських орків 3 рівня\nГероїчний загін\nМаксимум 1 одночасно\nЕфективні проти всіх типів військ\n\nРозуміючи, що Азоґа згубила власна безрозсудність, Болґ оточив себе найбільшими й найжорстокішими орками, яких лише зміг знайти, щоб не повторити батькової помилки.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipIntimidation",
+   "en": "Modifier Type: Passive Debuff\nNearby enemy heroes and hero units suffer -20% damage and -15% armour\nPassive ability",
+   "uk": "Тип ефекту: Пасивне ослаблення\nВорожі герої та героїчні загони поблизу отримують штраф -20% пошкоджень і -15% броні\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:BodyguardBoom",
+   "en": "Skull Throw (&R)",
+   "uk": "Кидок черепа (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBodyGuardBoom",
+   "en": "Requires Level 3\nPowerful ranged attack with radius damage\nLeft click icon then left click on target",
+   "uk": "Необхідно: Рівень 3\nПотужна атака на відстані, що завдає пошкоджень по площі\nКлікніть на іконку, потім оберіть ціль",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:BodyguardDeathWish",
+   "en": "Dark Resolve (&T)",
+   "uk": "Темна рішучість (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBodyguardDeathWish",
+   "en": "Requires Level 7\nBolg's Bodyguard gain +100% damage at the cost of -25% armour for 20 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 7\nНа 20 сек. охоронці Болґа отримують бонус +100% до пошкоджень ціною штрафу -25% броні\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildGundabadBerserkerHorde",
+   "en": "Gundabad Berserkers (&T)",
+   "uk": "Берсерки Ґундабаду (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildGundabadBerserkerHorde",
+   "en": "Gundabad Berserkers",
+   "uk": "Берсерки Ґундабаду",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildGundabadBerserkerHorde",
+   "en": "Requires Level 3 Mountain-orc Lodge\nStrong vs. Pikemen and Cavalry\n\nMount Gundabad has long been occupied by large, fierce orcs under the command of Bolg of the North.",
+   "uk": "Необхідно: Хижа гірських орків 3 рівня\nЕфективні проти пікінерів і кавалерії\n\nГору Ґундабад здавна заселяють великі люті орки під проводом Болґа з Півночі.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:GundabadBerserker",
+   "en": "Gundabad Berserker",
+   "uk": "Берсерк Ґундабаду",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipToggleGundabadFormation",
+   "en": "-33% speed\n+40% armour\nResistance to Trample\nBonus damage vs cavalry",
+   "uk": "-33% швидкості\n+40% броні\nСтійкість до топтання\nДодаткові пошкодження кавалерії",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:FellDetermination",
+   "en": "Fell Determination (&R)",
+   "uk": "Люта рішучість (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipFellDetermination",
+   "en": "Requires Level 2\nGundabad Berserkers gain +33% damage and knockback resistance for 20 seconds\nLeft click to activate",
+   "uk": "Необхідно: Рівень 2\nНа 20 сек. берсерки Ґундабаду отримують бонус +33% до пошкоджень і стійкість до відкидання\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildMountainOrcScoutHorde",
+   "en": "Mountain-orc Scouts (&R)",
+   "uk": "Гірські орки-розвідники (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildMountainOrcScoutHorde",
+   "en": "Mountain-orc Scouts",
+   "uk": "Гірські орки-розвідники",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildMountainOrcScoutHorde",
+   "en": "Requires Level 2 Mountain-orc Lodge\nStrong vs. Infantry\n\nFeared throughout Eriador, these Mountain-orc manhunters have a reputation for being cruel and ruthless in tracking down their quarry.",
+   "uk": "Необхідно: Хижа гірських орків 2 рівня\nЕфективні проти піхоти\n\nЦих орків-мисливців на людей боїться весь Еріадор: вони славляться жорстокістю й безжальністю, вистежуючи свою здобич.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildMountainOrcScout",
+   "en": "Mountain-orc Scout",
+   "uk": "Гірський орк-розвідник",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:MountainOrcScoutBarbedArrows",
+   "en": "Barbed Arrows (&R)",
+   "uk": "Зазубрені стріли (&R)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipMountainOrcScoutBarbedArrows",
+   "en": "Requires Level 2\nFor 20 seconds, Mountain-orc Scouts gain +65% damage vs monsters and flying units\nTarget monsters and flying units lose -75% movement speed\nLeft click to activate",
+   "uk": "Необхідно: Рівень 2\nНа 20 сек. розвідники отримують бонус +65% до пошкоджень істотам і летючим загонам\nУражені істоти й летючі загони втрачають 75% швидкості руху\nКлікніть, щоб активувати",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeWildFireArrows",
+   "en": "Purchase Fire Arrows (&C)",
+   "uk": "Вогняні стріли (&C)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeWildFireArrows",
+   "en": "Upgrades this horde with Fire Arrows\nSignificantly increases the damage done by arrows",
+   "uk": "Оснащує цей загін вогняними стрілами\nЗначно збільшує пошкодження стріл",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "TOOLTIP:LackWildFireArrows",
+   "en": "Research at Goblin Hoard to enable this equipment\nWhen equipped, significantly increases the damage done by arrows",
+   "uk": "Придбайте покращення в «Скарбниці ґоблінів», щоб відкрити це спорядження\nПісля оснащення значно збільшує пошкодження стріл",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildMountainOrcBruteHorde",
+   "en": "Mountain-orc Brutes (&E)",
+   "uk": "Гірські орки-бугаї (&E)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildMountainOrcBruteHorde",
+   "en": "Mountain-orc Brutes",
+   "uk": "Гірські орки-бугаї",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildMountainOrcBruteHorde",
+   "en": "Strong vs. Cavalry and Heroes\nAble to switch formation for improved defensive capabilities\n\nTasked with guarding the cold valleys and foothills of Orc-held territory, these pikemen have been known to ambush Elven scouting parties.",
+   "uk": "Ефективні проти кавалерії та героїв\nМожуть змінювати стрій для кращого захисту\n\nЦі пікінери стережуть холодні долини й передгір'я орочих земель і славляться засідками на ельфійські розвідувальні загони.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildMountainOrcBrute",
+   "en": "Mountain-orc Brute",
+   "uk": "Гірський орк-бугай",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildMountainOrcSwordHorde",
+   "en": "Mountain-orc Slashers (&W)",
+   "uk": "Гірські орки-рубаки (&W)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildMountainOrcSwordHorde",
+   "en": "Mountain-orc Slashers",
+   "uk": "Гірські орки-рубаки",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildMountainOrcSwordHorde",
+   "en": "Strong vs. Pikemen\n\nHardened through generations of war and weather, these Mountain-orcs were finally united under one banner by Bolg of the North.",
+   "uk": "Ефективні проти пікінерів\n\nЗагартованих поколіннями воєн і негоди гірських орків нарешті об'єднав під одним стягом Болґ із Півночі.",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildMountainOrcSword",
+   "en": "Mountain-orc Slasher",
+   "uk": "Гірський орк-рубака",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:WildMountainOrcTerror",
+   "en": "Terror of the Mountain",
+   "uk": "Жах гір",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipWildMountainOrcTerror",
+   "en": "Requires Level 2\nConsecutive attacks temporarily increase attack damage by 5% up to a maximum of 25%\nPassive Ability",
+   "uk": "Необхідно: Рівень 2\nКожна наступна атака тимчасово збільшує пошкодження на 5%, максимум 25%\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:PurchaseUpgradeWildHeavyArmor",
+   "en": "Purchase Scavenged Armour (&T)",
+   "uk": "Трофейні обладунки (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipPurchaseUpgradeWildHeavyArmor",
+   "en": "Upgrades this horde with Scavenged Armour\nWhen equipped, significantly reduces the amount of damage taken",
+   "uk": "Оснащує цей загін трофейними обладунками\nПісля оснащення значно зменшує отримувані пошкодження",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "TOOLTIP:LackWildHeavyArmor",
+   "en": "Research at Goblin Hoard to enable this equipment\nWhen equipped, significantly reduces the amount of damage taken",
+   "uk": "Придбайте покращення в «Скарбниці ґоблінів», щоб відкрити це спорядження\nПісля оснащення значно зменшує отримувані пошкодження",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "TOOLTIP:LackWildForgedBlades",
+   "en": "Research at Goblin Hoard to enable this equipment\nWhen equipped, increases the damage done by melee weapons",
+   "uk": "Придбайте покращення в «Скарбниці ґоблінів», щоб відкрити це спорядження\nПісля оснащення збільшує пошкодження в ближньому бою",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ConstructWildMountainLodge",
+   "en": "Build Mountain-orc Lodge (&T)",
+   "uk": "Хижа гірських орків (&T)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipConstructWildMountainLodge",
+   "en": "Trains Mountain-orcs and Gundabad orcs",
+   "uk": "Тренує гірських орків та орків Ґундабаду",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildLodge",
+   "en": "Mountain-orc Lodge",
+   "uk": "Хижа гірських орків",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildLodgeDescription",
+   "en": "Level 2: +10% faster build speed\nLevel 3: +25% faster build speed",
+   "uk": "Рівень 2: +10% до швидкості тренування\nРівень 3: +25% до швидкості тренування",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:GoblinCaveDescription",
+   "en": "Level 2: +10% faster build speed\nLevel 3: +25% faster build speed",
+   "uk": "Рівень 2: +10% до швидкості тренування\nРівень 3: +25% до швидкості тренування",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:WildSpiderPitDescription",
+   "en": "Level 2: +10% faster build speed\nLevel 3: +25% faster build speed",
+   "uk": "Рівень 2: +10% до швидкості тренування\nРівень 3: +25% до швидкості тренування",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "OBJECT:GoblinFissureDescription",
+   "en": "Level 2: +10% faster build speed\nLevel 3: +25% faster build speed",
+   "uk": "Рівень 2: +10% до швидкості тренування\nРівень 3: +25% до швидкості тренування",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeWildLodgeLevel2",
+   "en": "Upgrade Mountain-orc Lodge to Level 2 (&A)",
+   "uk": "Покращити хижу гірських орків до 2-го рівня (&A)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildLodgeLevel2Upgrade",
+   "en": "Allows training of Mountain-orc Scouts\n+10% faster build speed",
+   "uk": "Дозволяє тренувати гірських орків-розвідників\n+10% до швидкості тренування",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:UpgradeWildLodgeLevel3",
+   "en": "Upgrade Mountain-orc Lodge to Level 3 (&A)",
+   "uk": "Покращити хижу гірських орків до 3-го рівня (&A)",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  },
+  {
+   "var": "CONTROLBAR:ToolTipBuildWildLodgeLevel3Upgrade",
+   "en": "Allows training of Gundabad Berserkers and Bolg's Bodyguard\n+25% faster build speed",
+   "uk": "Дозволяє тренувати берсерків Ґундабаду й охоронців Болґа\n+25% до швидкості тренування",
+   "by": "FoLD_MacOS",
+   "date": "2026-11-16",
+   "file": "AoR_UA_FoLD_MacOS_2026-11-16-21-08.json"
+  }
+ ]
+}

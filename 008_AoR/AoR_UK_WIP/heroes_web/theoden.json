@@ -1,0 +1,146 @@
+{
+ "hero": "Théoden",
+ "uk_name": "Теоден",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:RohanTheoden",
+     "t": "Name",
+     "en": "Théoden",
+     "uk": "Теоден",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TheodenLeadership",
+     "t": "Button",
+     "en": "King of Rohan",
+     "uk": "Король Рогану",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipTheodenLeadership",
+     "t": "Tooltip",
+     "en": "Modifier Type: Leadership \\n Allies near Théoden gain +50% armour, and earn experience 50% faster \\n Passive ability",
+     "uk": "Тип ефекту: Лідерство\\nСоюзники поряд із Теоденом отримують бонус +50% броні й на 50% швидше набирають досвід\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:StrengthRemembered",
+     "t": "Button",
+     "en": "Strength Remembered (&T)",
+     "uk": "Відроджена сила (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipStrengthRememberedCampaign",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Heals nearby friendly units and heroes \\n Left click to activate",
+     "uk": "Необхідно: Рівень 3\\nЗцілює союзні загони й героїв поблизу\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipStrengthRemembered",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Heals nearby friendly units and heroes \\n\\n Requires Level 5 \\n Also summons two battalions of Kingsguard accompanied by Háma and Gamling \\n\\n Left click to activate",
+     "uk": "Необхідно: Рівень 3\\nЗцілює союзні загони й героїв поблизу\\n\\nНеобхідно: Рівень 5\\nТакож прикликає 2 загони королівської варти разом із Гамою й Ґамлінґом\\n\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:GloriousCharge",
+     "t": "Button",
+     "en": "Arise, Riders of Théoden! (&C)",
+     "uk": "Вставайте, Вершники Теодена! (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGloriousCharge",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Théoden must be mounted to use ability \\n Modifier Type: Spell \\n Théoden and nearby cavalry gain +100% armour and immunity to fear and terror for 20 seconds\\n The more riders near Théoden, the larger the bonus \\n(+10% armour per battalion, up to additional +100%)\\n No force can slow this charge \\n Left click to activate",
+     "uk": "Необхідно: Рівень 5\\nЗдібність доступна лише верхи\\nТип ефекту: Заклинання\\nТеоден і кавалерія поблизу на 20 сек. отримують бонус +100% броні й імунітет до страху та жаху\\nЩо більше вершників поряд із Теоденом, то більший бонус\\n(+10% броні за кожен загін, до +100% додатково)\\nЖодна сила не сповільнить цю атаку\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipGloriousChargePelennor",
+     "t": "Tooltip",
+     "en": "Requires Level 5 \\n Théoden must be mounted to use ability \\n Modifier Type: Spell \\n Théoden and allied cavalry mapwide gain +100% armour for 20 seconds\\n The more riders near Théoden, the larger the bonus \\n(+10% armour per battalion, up to additional +100%)\\n No force can slow this charge \\n\\n At level 10 affected units are immune to fear and terror \\nLeft click to activate",
+     "uk": "Необхідно: Рівень 5\\nТеоден має бути верхи, щоб активувати здібність\\nТип ефекту: Заклинання\\nТеоден і союзна кавалерія по всій мапі отримують бонус +100% броні на 20 сек.\\nЩо більше вершників поруч із Теоденом, то більший бонус\\n(+10% броні за кожен загін, до +100% додатково)\\nНіщо не сповільнить цю атаку\\n\\nНа 10 рівні загони отримують імунітет до страху та жаху\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:KingsFavor",
+     "t": "Button",
+     "en": "Oaths Fulfilled (&V)",
+     "uk": "Дотримана клятва (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipKingsFavor",
+     "t": "Tooltip",
+     "en": "Requires Level 7 \\n Targeted units gain large experience \\n Left click icon then left click on target units",
+     "uk": "Необхідно: Рівень 7\\nМиттєво наділяє обрані загони великою кількістю досвіду\\nКлікніть на іконку, потім оберіть потрібні загони",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Battle of the Hornburg",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:ToolTipEowynMount",
+     "t": "Tooltip",
+     "en": "Left click to switch between mounted and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою верхи та пішим ходом",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "The Battle of Pelennor Fields",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:GandalfNewMountCampaignNoHotkey",
+     "t": "Button",
+     "en": "Mount Shadowfax / Dismount",
+     "uk": "Осідлати Тінегрива / Спішитися",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipShadowfax",
+     "t": "Tooltip",
+     "en": "Left click to switch between \\n mounted on Shadowfax and on foot",
+     "uk": "Клікніть, щоб перемкнутися між їздою\\nна Тінегриві та пішим ходом",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Rohan",
+   "section": "battle",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:TheodenNewMount",
+     "t": "Button",
+     "en": "Mount Snowmane / Dismount (&R)",
+     "uk": "Осідлати Сніжногрива / Спішитися (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TheodenNewMountTooltip",
+     "t": "Tooltip",
+     "en": "Left click to switch between \\n mounted on Snowmane and on foot",
+     "uk": "Клікніть, щоб перемкнутися між\\nверхи на Сніжногриві й пішки",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}

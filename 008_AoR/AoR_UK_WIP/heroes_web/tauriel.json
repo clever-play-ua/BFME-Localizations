@@ -1,0 +1,111 @@
+{
+ "hero": "Tauriel",
+ "uk_name": "Тауріель",
+ "nodes": [
+  {
+   "name": "Common abilities",
+   "section": "common",
+   "missions": null,
+   "rows": [
+    {
+     "v": "OBJECT:MirkwoodTauriel",
+     "t": "Name",
+     "en": "Tauriel",
+     "uk": "Тауріель",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TaurielLeadership",
+     "t": "Button",
+     "en": "Silvan Captain",
+     "uk": "Капітан сильванів",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipTaurielLeadership",
+     "t": "Tooltip",
+     "en": "Nearby Silvan units gain +15% vision and attack range and +25% experience gain\\n At Level 3, nearby Silvan units ability cooldown times are reduced by 25% \\n Passive ability",
+     "uk": "Сильванські загони поблизу отримують бонус +15% дальності огляду й атаки та на 25% швидше набирають досвід\\nНа 3 рівні здібності сильванських загонів поблизу відновлюються на 25% швидше\\n~ ПАСИВНА ЗДІБНІСТЬ ~",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TaurielSummon",
+     "t": "Button",
+     "en": "Eyes and Ears (&R)",
+     "uk": "Очі й вуха (&R)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipTaurielSummon",
+     "t": "Tooltip",
+     "en": "Requires Level 3 \\n Tauriel calls a group of stationary Silvan Rangers to defend targeted location\\nThey are immobile, but remain stealthed when not attacking\\n Left click icon then left click on pathable location",
+     "uk": "Необхідно: Рівень 3\\nТауріель прикликає загін сильванських слідопитів захищати обране місце\\nВони не рухаються, але лишаються невидимими, поки не атакують\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TaurielFleetFooted",
+     "t": "Button",
+     "en": "Fleet-footed (&T)",
+     "uk": "Швидконога (&T)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipTaurielFleetFooted",
+     "t": "Tooltip",
+     "en": "Requires Level 4 \\n Modifier Type: Spell \\n Nearby infantry gains +20% movement speed for 30 seconds\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 4\\nТип ефекту: Заклинання\\nПіхота поблизу на 30 сек. отримує бонус +20% швидкості руху\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TaurielDecisiveStrike",
+     "t": "Button",
+     "en": "Close Quarter Combat (&C)",
+     "uk": "Ближній бій (&C)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:ToolTipTaurielDecisiveStrike",
+     "t": "Tooltip",
+     "en": "Requires Level 5\\nTauriel uses her twin daggers for 30 seconds\\nIncreases attack damage by +33% and deals splash damage\\nLeft click to activate",
+     "uk": "Необхідно: Рівень 5\\nТауріель на 30 сек. бере парні кинджали\\nПошкодження від атак зростають на 33%, а удари б'ють по площі\\nКлікніть, щоб активувати",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TaurielEscape",
+     "t": "Button",
+     "en": "Daughter of the Forest (&V)",
+     "uk": "Дочка лісу (&V)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipTaurielEscape",
+     "t": "Tooltip",
+     "en": "Requires Level 8 \\n Tauriel is able to disappear into the trees when she wishes \\nTauriel teleports to target area \\nLeft click icon then left click on pathable location",
+     "uk": "Необхідно: Рівень 8\\nТауріель може зникнути серед дерев, коли захоче\\nТауріель телепортується в обране місце\\nКлікніть на іконку, потім оберіть ділянку",
+     "st": "ok"
+    }
+   ]
+  },
+  {
+   "name": "Council of Elrond",
+   "section": "campaign",
+   "missions": null,
+   "rows": [
+    {
+     "v": "CONTROLBAR:Escape",
+     "t": "Button",
+     "en": "Escape (&W)",
+     "uk": "Втекти (&W)",
+     "st": "ok"
+    },
+    {
+     "v": "CONTROLBAR:TooltipEscape",
+     "t": "Tooltip",
+     "en": "Wormtongue becomes stealthed and can neither be attacked nor make an attack for 30 seconds \\n \\n Recharge time: 1m 30s \\n Left click icon to activate",
+     "uk": "Червеуст стає невидимим і на 30 сек. отримує\\nімунітет до пошкоджень, але й сам не може їх завдавати\\n\\nЧас відновлення: 1 хв. 30 сек.\\nКлікніть на іконку, щоб активувати",
+     "st": "ok"
+    }
+   ]
+  }
+ ]
+}
