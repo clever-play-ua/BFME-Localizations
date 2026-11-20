@@ -263,6 +263,51 @@ VIDEO_JS = """<script>
       inner.appendChild(p);
       p.src = { src: box.dataset.src, type: 'application/x-mpegurl' };
       box._player = p;
+      // voice-over switch on the control bar, next to CC: shown only when the video has 2+ audio tracks; one click = next track
+      function trackShort(tr) { return tr && /^uk/.test(tr.language || '') ? 'Укр' : 'Ориг'; }
+      function audioBtn() {
+        var list = p.audioTracks, cc = p.querySelector('.vds-caption-tooltip');
+        var btn = p.querySelector('.vds-audio-switch');
+        if (!list || list.length < 2 || !cc) { if (btn) btn.remove(); return; }
+        if (!btn) {
+          btn = document.createElement('button');
+          btn.type = 'button'; btn.className = 'vds-button vds-audio-switch';
+          btn.addEventListener('click', function () {
+            var i = list.selectedIndex, n = list.length;
+            var next = list[((i < 0 ? 0 : i) + 1) % n];
+            if (next) next.selected = true;
+          });
+        }
+        if (btn.nextSibling !== cc) cc.parentNode.insertBefore(btn, cc);
+        var cur = list.selected;
+        btn.innerHTML = '<span>♪ ' + trackShort(cur) + '</span>';
+        btn.title = 'Озвучка: ' + (cur ? cur.label : '') + ' (натисніть, щоб змінити)';
+        btn.setAttribute('aria-label', btn.title);
+      }
+      ['audio-tracks-change', 'audio-track-change', 'can-play', 'controls-change'].forEach(function (ev) { p.addEventListener(ev, audioBtn); });
+      new MutationObserver(function () { if (!p.querySelector('.vds-audio-switch') || !p.querySelector('.vds-audio-switch + .vds-caption-tooltip')) audioBtn(); })
+        .observe(p, { childList: true, subtree: true });
+      // iPhone: fullscreen is the system video player, which shows only the <video>'s own text tracks; Vidstack adds
+      // native <track>s for uk/en but keeps them off (it draws captions itself) -> show the chosen one while there.
+      p.addEventListener('provider-setup', function () {
+        var v = p.querySelector('video');
+        if (!v || v._iosSubs) return;
+        v._iosSubs = true;
+        var saved = [];
+        v.addEventListener('webkitbeginfullscreen', function () {
+          var sel = p.textTracks && p.textTracks.selected, lang = sel ? sel.language : null;
+          saved = [];
+          for (var i = 0; i < v.textTracks.length; i++) {
+            var tt = v.textTracks[i];
+            saved.push([tt, tt.mode]);
+            tt.mode = (lang && tt.language === lang) ? 'showing' : 'disabled';
+          }
+        });
+        v.addEventListener('webkitendfullscreen', function () {
+          saved.forEach(function (x) { x[0].mode = x[1]; });
+          saved = [];
+        });
+      });
     });
   }
   document.querySelectorAll('.vid').forEach(function (box) {
@@ -421,7 +466,7 @@ a.fc:hover { border-color: var(--accent-2); background: rgba(23,40,57,.96); }
 .vp { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .35s ease; }
 .vid.open .vp { grid-template-rows: 1fr; }
 .vpi { overflow: hidden; }
-.vpi video { display: block; width: 100%; max-height: 70vh; margin: 6px 0 4px; background: #000; border-radius: 4px; }
+/* (old native-player rule removed: max-height 70vh capped the video in fullscreen) */
 .subs { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; padding: 4px 0 12px; font-size: 13px; color: var(--muted); }
 .subs .grpb { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-right: 14px; }
 .subs button { padding: 4px 10px; border-radius: 99px; border: 1px solid var(--line-2); background: transparent; color: var(--text); font: inherit; cursor: pointer; }
@@ -430,6 +475,11 @@ media-player { display: block; margin: 6px 0 12px; border-radius: 6px; overflow:
   --video-border-radius: 6px; --video-font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --media-menu-bg: #122030; --media-menu-section-bg: #1d3246; --media-menu-border: 1px solid #2f4a63;
   --media-tooltip-bg-color: #122030; --media-slider-track-fill-bg: #6fc4a0; aspect-ratio: 16 / 10; background: #000; }
+media-player .vds-audio-switch { width: auto; padding: 0 10px; border-radius: 99px; font: 600 14px/1 system-ui, sans-serif; color: #fff; }
+media-player .vds-audio-switch span { white-space: nowrap; }
+media-player .vds-audio-switch:hover { background: rgba(255,255,255,.12); }
+media-player[data-fullscreen] { aspect-ratio: auto; width: 100%; height: 100%; margin: 0; border-radius: 0; }
+media-player[data-fullscreen] video { width: 100%; height: 100%; object-fit: contain; }
 media-player [data-media-provider] { height: 100%; }
 @font-face { font-family: "AoR Game"; src: url(/assets/fonts/albertus-ua.ttf) format("truetype"); font-display: swap; }
 media-player .vds-captions { --media-user-font-family: "AoR Game", Georgia, serif; }
@@ -495,8 +545,6 @@ def _page(title, tab, kicker, body):
 _legend = ('<div class="legend"><span><i style="background:var(--ok)"></i>перекладено (у фракціях і героях — вичитано)</span>'
            '<span><i style="background:var(--draft)"></i>чернетка</span><span><i style="background:var(--panel-3)"></i>англійською</span></div>')
 _overview = f'''{_rel}
-  <h2 class="grp">Загальний статус</h2>
-  <div class="tiles">{_tiles}</div>
   <h2 class="grp">Кампанії Age of the Ring</h2>
   {_legend}
   <div class="rows">

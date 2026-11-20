@@ -31,6 +31,8 @@ def _cine_cards(camp, short):
         mm, ss = divmod(int(round(v['duration'])), 60)
         title = f'{short} · Ролик №{i}' if short else 'Вступний ролик гри'
         lines = f' · {v["uk_lines"]} реплік' if v.get('uk_lines') else ' · без мовлення'
+        if 'uk' in (v.get('audio') or []):  # Ukrainian dub (default track; the original stays in the player's audio menu)
+            lines += ' · <span class="dub">українська озвучка</span>'
         first = _h.escape(v.get('first_uk') or '')
         if len(first) > 64:
             first = first[:62].rsplit(' ', 1)[0] + '…'
@@ -64,6 +66,7 @@ _cine_css = '''
 .vid.cv .mt b { font-size: 15px; }
 .vid.cv .mt small { display: block; }
 .vid.cv .mt em { display: block; margin-top: 2px; color: var(--faint); font-size: 12px; font-style: normal; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.vid.cv .dub { color: var(--ok); font-weight: 600; }
 .lead2 { color: var(--muted); margin: 0 0 20px; max-width: 760px; }
 @media (max-width: 640px) { .cgrid { grid-template-columns: minmax(0, 1fr); } }
 </style>'''

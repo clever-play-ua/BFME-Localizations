@@ -34,36 +34,54 @@ def encode(src, dst):
     raise SystemExit(f'{dst}: still over {LIMIT} bytes')
 
 
-# Audio renditions of the HLS master playlist: (stream index in the mp4, language, name shown in the player).
-# A second voice-over later = add its track to the mp4 (or a separate input) and a line here.
-AUDIO = [(0, 'en', 'Оригінал (англійською)')]
+# Audio renditions of the HLS master playlist. The game's own voice-over is always there; a Ukrainian dub is added when
+# 008_AoR/.temp/ua_voice/<NNN_Video>.(flac|wav|mp3) exists (re-encoded to aac 128k stereo, padded/trimmed to the video)
+# and is then the default track. Dubs from the user: «AoR GO» folder (2026-11-20, FotR №4, №7, №11, №14).
+UA_VOICE = os.path.join(B008, '.temp', 'ua_voice')
+ORIGINAL = ('en', 'Оригінал (англійською)')
+DUB = ('uk', 'Українська')
 
 
-def hls(mp4, folder):
-    """mp4 -> HLS (Cloudflare Pages ignores HTTP Range, so seeking a plain mp4 does not work; HLS fetches small files):
-    folder/index.m3u8 (master) + v/ (video) + a_<lang>/ (one dir per audio rendition), fMP4 segments, no re-encode."""
+def ua_voice(base):
+    for ext in ('flac', 'wav', 'mp3', 'm4a'):
+        f = os.path.join(UA_VOICE, f'{base}.{ext}')
+        if os.path.exists(f):
+            return f
+    return None
+
+
+def hls(mp4, folder, dub=None):
+    """mp4 (+ optional Ukrainian dub) -> HLS (Cloudflare Pages ignores HTTP Range, so seeking a plain mp4 does not work;
+    HLS fetches small files): folder/index.m3u8 (master) + v/ (video) + a_<lang>/ per audio rendition, fMP4 segments.
+    Video and the original audio are copied, only the dub is encoded. -> list of audio languages, default first."""
     import shutil
     shutil.rmtree(folder, ignore_errors=True); os.makedirs(folder)
+    tracks = ([DUB] if dub else []) + [ORIGINAL]  # the dub (when there is one) is the default track
     vmap = 'v:0,agroup:aud,name:v ' + ' '.join(
-        f'a:{i},agroup:aud,language:{lang},name:a_{lang}' + (',default:yes' if i == 0 else '') for i, (_, lang, _n) in enumerate(AUDIO))
-    cmd = ['ffmpeg', '-v', 'error', '-y', '-i', os.path.abspath(mp4), '-map', '0:v']
-    for idx, _lang, _n in AUDIO:
-        cmd += ['-map', f'0:a:{idx}']
+        f'a:{i},agroup:aud,language:{lang},name:a_{lang}' + (',default:yes' if i == 0 else '') for i, (lang, _n) in enumerate(tracks))
+    cmd = ['ffmpeg', '-v', 'error', '-y', '-i', os.path.abspath(mp4)]
+    if dub:
+        cmd += ['-i', os.path.abspath(dub), '-map', '0:v', '-map', '1:a', '-map', '0:a:0', '-c:v', 'copy',
+                '-c:a:0', 'aac', '-b:a:0', '128k', '-ac:a:0', '2', '-ar:a:0', '48000', '-filter:a:0', 'apad',
+                '-c:a:1', 'copy', '-t', str(duration(mp4))]
+    else:
+        cmd += ['-map', '0:v', '-map', '0:a:0', '-c', 'copy']
     # run INSIDE the folder with relative paths: ffmpeg writes the fMP4 init files (init_N.mp4) relative to the current
     # directory, not next to the variant playlists, when the paths are absolute (then the site served index.html instead)
-    cmd += ['-c', 'copy', '-f', 'hls', '-hls_time', '4', '-hls_playlist_type', 'vod', '-hls_segment_type', 'fmp4',
+    cmd += ['-f', 'hls', '-hls_time', '4', '-hls_playlist_type', 'vod', '-hls_segment_type', 'fmp4',
             '-hls_flags', 'independent_segments', '-hls_fmp4_init_filename', 'init.mp4', '-master_pl_name', 'index.m3u8',
             '-var_stream_map', vmap, '-hls_segment_filename', '%v/seg_%03d.m4s', '%v/stream.m3u8']
     subprocess.run(cmd, check=True, cwd=folder)
-    for d in ['v'] + [f'a_{lang}' for _i, lang, _n in AUDIO]:  # every variant playlist must find its init segment
+    for d in ['v'] + [f'a_{lang}' for lang, _n in tracks]:  # every variant playlist must find its init segment
         sub = os.path.join(folder, d)
         init = re.search(r'#EXT-X-MAP:URI="([^"]+)"', open(os.path.join(sub, 'stream.m3u8'), encoding='utf-8').read())[1]
         assert os.path.exists(os.path.join(sub, init)), f'{sub}: {init} missing'
     master = os.path.join(folder, 'index.m3u8')
-    t = open(master, encoding='utf-8').read()
-    for i, (_idx, _lang, name) in enumerate(AUDIO, 1):  # ffmpeg names the renditions audio_1, audio_2, ...
-        t = t.replace(f'NAME="audio_{i}"', f'NAME="{name}"')
-    open(master, 'w', encoding='utf-8', newline='\n').write(t.replace(chr(92), '/'))  # URIs must use / (ffmpeg on Windows writes \)
+    m = open(master, encoding='utf-8').read()
+    for i, (_lang, name) in enumerate(tracks, 1):  # ffmpeg names the renditions audio_1, audio_2, ...
+        m = m.replace(f'NAME="audio_{i}"', f'NAME="{name}"')
+    open(master, 'w', encoding='utf-8', newline='\n').write(m.replace(chr(92), '/'))  # URIs must use / (ffmpeg on Windows writes \)
+    return [lang for lang, _n in tracks]
 
 
 def main():
@@ -81,8 +99,18 @@ def main():
         if not os.path.exists(dst):
             crf = encode(os.path.join(SRC, name), dst)
             print(name, 'crf', crf, os.path.getsize(dst) // 1000, 'KB', flush=True)
-        if not os.path.exists(os.path.join(out, base, 'index.m3u8')):
-            hls(dst, os.path.join(out, base))
+        dub = ua_voice(base)
+        stamp = os.path.join(out, base, 'audio.json')  # which audio tracks this HLS folder was built with
+        want = {'dub': os.path.basename(dub) if dub else None, 'dub_size': os.path.getsize(dub) if dub else 0}
+        have = json.load(open(stamp, encoding='utf-8')) if os.path.exists(stamp) else None
+        if not os.path.exists(os.path.join(out, base, 'index.m3u8')) or (have or {}).get('dub') != want['dub'] \
+                or (have or {}).get('dub_size', 0) != want['dub_size']:
+            want['audio'] = hls(dst, os.path.join(out, base), dub)
+            json.dump(want, open(stamp, 'w', encoding='utf-8'))
+            print(base, 'HLS audio:', want['audio'], flush=True)
+        elif not os.path.exists(stamp):  # built before dubs existed: original audio only
+            json.dump(dict(want, audio=['en']), open(stamp, 'w', encoding='utf-8'))
+        audio = json.load(open(stamp, encoding='utf-8')).get('audio', ['en'])
         poster = os.path.join(out, base + '.jpg')  # preview frame at 30 % of the video, 320 px wide
         if not os.path.exists(poster):
             subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', str(round(duration(dst) * 0.3, 2)), '-i', dst, '-frames:v', '1',
@@ -96,7 +124,7 @@ def main():
                 if lang == 'uk':
                     cues = re.findall(r'-->[^\n]*\n(.+?)(?:\n\n|\Z)', vtt, re.S)
                     uk_lines, first = len(cues), (cues[0].replace('\n', ' ') if cues else '')
-        index.append({'n': int(m[1]), 'video': m[2], 'file': name, 'hls': base + '/index.m3u8', 'poster': base + '.jpg', 'duration': round(duration(dst), 1),
+        index.append({'n': int(m[1]), 'video': m[2], 'file': name, 'hls': base + '/index.m3u8', 'poster': base + '.jpg', 'audio': audio, 'duration': round(duration(dst), 1),
                       'uk_lines': uk_lines, 'first_uk': first, 'size': os.path.getsize(dst)})
     json.dump(index, open(os.path.join(out, 'index.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(len(index), 'videos ->', out)
